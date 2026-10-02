@@ -51,19 +51,19 @@ public:
 
   static inline ::System::Xml::XmlNodeList* New_ctor();
 
-  /// @brief Method PrivateDisposeNodeList, addr 0x62c881c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrivateDisposeNodeList, addr 0x66f07f4, size 0x4, virtual true, abstract: false, final false
   inline void PrivateDisposeNodeList();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x62c8810, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x66f07e8, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method .ctor, addr 0x62baa44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e2a1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_ItemOf, addr 0x62c8804, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_ItemOf, addr 0x66f07dc, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ItemOf(int32_t i);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -87,7 +87,7 @@ public:
   XmlNodeList(XmlNodeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

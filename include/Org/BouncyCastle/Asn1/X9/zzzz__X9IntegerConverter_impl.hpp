@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Asn1::X9::X9IntegerConverter::GetByteLength)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x367fae4;
+  constexpr static std::size_t addrs = 0x3908d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Math::EC::ECCurve*)>(&::Org::BouncyCastle::Asn1::X9::X9IntegerConverter::GetByteLength)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x367fe2c;
+  constexpr static std::size_t addrs = 0x39090c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Math::BigInteger*, int32_t)>(&::Org::BouncyCastle::Asn1::X9::X9IntegerConverter::IntegerToBytes)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x367fb18;
+  constexpr static std::size_t addrs = 0x3908db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9IntegerConverter::*)()>(&::Org::BouncyCastle::Asn1::X9::X9IntegerConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x367fe60;
+  constexpr static std::size_t addrs = 0x39090fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9IntegerConverter*>(), { ".ctor", {}, {} })));

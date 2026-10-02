@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DisposeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NotifyDisposedUsed, addr 0x6d893a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisposedUsed, addr 0x72166d4, size 0xd4, virtual false, abstract: false, final false
   static inline void NotifyDisposedUsed(::System::IDisposable* disposable);
 
 protected:
@@ -40,7 +40,7 @@ public:
   DisposeHelper(DisposeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

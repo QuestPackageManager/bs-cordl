@@ -63,18 +63,18 @@ public:
   __declspec(property(get = __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent,
                       put = __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent)) ::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
 
-  /// @brief Method HandleScoreDidChange, addr 0x59ad2f4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x5dc6e0c, size 0x140, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t scoreWithoutModifiers, int32_t scoreWithModifiers);
 
   static inline ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59ad1b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dc6cd0, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59ad040, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc6b58, size 0x178, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x59ad434, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x5dc6f4c, size 0x88, virtual false, abstract: false, final false
   inline void UpdateRelativeScoreAndImmediateRank(int32_t score, int32_t modifiedScore, int32_t maxPossibleScore, int32_t maxPossibleModifiedScore);
 
   constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
@@ -113,31 +113,31 @@ public:
 
   constexpr void __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59ad4bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc6fd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x59ac470, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x5dc5f88, size 0xac, virtual false, abstract: false, final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_immediateRank, addr 0x59ad030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRank, addr 0x5dc6b48, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RankModel_Rank get_immediateRank();
 
   /// [CompilerGenerated]
-  /// @brief Method get_relativeScore, addr 0x59ad020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScore, addr 0x5dc6b38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeScore();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x59acf74, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x5dc6a8c, size 0xac, virtual false, abstract: false, final false
   inline void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_immediateRank, addr 0x59ad038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_immediateRank, addr 0x5dc6b50, size 0x8, virtual false, abstract: false, final false
   inline void set_immediateRank(::GlobalNamespace::RankModel_Rank value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_relativeScore, addr 0x59ad028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeScore, addr 0x5dc6b40, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeScore(float_t value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6125 };
 
   /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None

@@ -38,7 +38,7 @@ public:
   template <typename TContainer>
   static inline void AcceptWithSpecializedVisitor(::Unity::Properties::IPropertyBag_1<TContainer>* properties, ::Unity::Properties::IPropertyBagVisitor* visitor, ::by_ref<TContainer> container);
 
-  /// @brief Method GetPropertyBag, addr 0x6ba1db4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBag, addr 0x700d770, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Properties::IPropertyBag* GetPropertyBag(::System::Type* type);
 
   /// @brief Method GetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -46,12 +46,6 @@ public:
 
   /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> static inline void Register(::Unity::Properties::PropertyBag_1<TContainer>* propertyBag);
-
-  /// @brief Method RegisterList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContainer, typename TElement> static inline void RegisterList();
-
-  /// @brief Method RegisterList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TElement> static inline void RegisterList();
 
   /// @brief Method TryGetPropertyBagForValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline bool TryGetPropertyBagForValue(::by_ref<TValue> value, ::by_ref<::Unity::Properties::IPropertyBag*> propertyBag);
@@ -71,7 +65,7 @@ public:
   PropertyBag(PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

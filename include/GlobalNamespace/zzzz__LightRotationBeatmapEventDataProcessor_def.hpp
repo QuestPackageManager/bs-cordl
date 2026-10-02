@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightRotationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x325bfd4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x34e16bc, size 0xf0, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x325bee0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x34e15c8, size 0xf4, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x325c0c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e17ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -59,7 +59,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BeatEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5980600, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9f9c4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   BeatEffect_Pool(BeatEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,10 +131,10 @@ public:
 
   __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x5980200, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d9acc0, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x59802c4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5d9a738, size 0x2b4, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
@@ -205,10 +205,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x5980578, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9f93c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x59801f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x5d9f934, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -226,7 +226,7 @@ public:
   BeatEffect(BeatEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5889 };
 
   /// [SerializeField]
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None

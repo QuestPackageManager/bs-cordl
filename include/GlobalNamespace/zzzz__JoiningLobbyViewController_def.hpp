@@ -41,19 +41,19 @@ public:
   /// @brief Field didCancelEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didCancelEvent, put = __cordl_internal_set_didCancelEvent)) ::System::Action* didCancelEvent;
 
-  /// @brief Method DidActivate, addr 0x5a1b5c8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e36fe4, size 0x100, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HideLoading, addr 0x5a1b588, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HideLoading, addr 0x5e36fa4, size 0x40, virtual false, abstract: false, final false
   inline void HideLoading();
 
-  /// @brief Method Init, addr 0x5a1b554, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e36f70, size 0x34, virtual false, abstract: false, final false
   inline void Init(::StringW text);
 
   static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__8_0, addr 0x5a1b6cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x5e370e8, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelJoiningButton() const;
@@ -80,15 +80,15 @@ public:
 
   constexpr void __cordl_internal_set_didCancelEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5a1b6c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e370e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didCancelEvent, addr 0x5a1b3fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didCancelEvent, addr 0x5e36e18, size 0xac, virtual false, abstract: false, final false
   inline void add_didCancelEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didCancelEvent, addr 0x5a1b4a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didCancelEvent, addr 0x5e36ec4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didCancelEvent(::System::Action* value);
 
 protected:
@@ -106,7 +106,7 @@ public:
   JoiningLobbyViewController(JoiningLobbyViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6570 };
 
   /// [SerializeField]
   /// @brief Field _cancelJoiningButton, offset: 0x78, size: 0x8, def value: None

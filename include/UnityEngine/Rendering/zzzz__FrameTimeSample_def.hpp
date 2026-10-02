@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE FrameTimeSample {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x676d428, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b854d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t initValue);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
                             float_t GPUFrameTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

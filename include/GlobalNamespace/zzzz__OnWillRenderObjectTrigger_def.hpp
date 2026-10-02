@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::OnWillRenderObjectTrigger* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58730ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c89280, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5872cac, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c88e80, size 0x400, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__renderQueue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x58730dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c892b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   OnWillRenderObjectTrigger(OnWillRenderObjectTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20014 };
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]

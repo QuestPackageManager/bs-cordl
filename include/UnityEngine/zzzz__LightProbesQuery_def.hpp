@@ -66,7 +66,7 @@ namespace UnityEngine {
 struct CORDL_TYPE LightProbesQuery_LightProbesQueryDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6a850e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ed8128, size 0x70, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -77,7 +77,7 @@ public:
   constexpr LightProbesQuery_LightProbesQueryDispose(::System::IntPtr m_LightProbeContextWrapper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -104,7 +104,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6a85154, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6ed8198, size 0x4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -118,7 +118,7 @@ public:
   constexpr LightProbesQuery_LightProbesQueryDisposeJob(::UnityEngine::LightProbesQuery_LightProbesQueryDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9703 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -152,29 +152,29 @@ public:
   constexpr operator ::System::IDisposable*();
 
   /// [ThreadSafe]
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a85070, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6ed80b4, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::System::IntPtr lightProbeContextWrapper, ::System::IntPtr positions, ::System::IntPtr tetrahedronIndices,
                                                                   ::System::IntPtr lightProbes, ::System::IntPtr occlusionProbes, int32_t count);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a84ea8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6ed7eec, size 0x1c8, virtual false, abstract: false, final false
   inline void CalculateInterpolatedLightAndOcclusionProbes(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> tetrahedronIndices,
                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2> lightProbes,
                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> occlusionProbes);
 
-  /// @brief Method Create, addr 0x6a84c3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6ed7c80, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
   /// [ThreadSafe]
-  /// @brief Method Destroy, addr 0x6a84d70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6ed7db4, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr lightProbeContextWrapper);
 
-  /// @brief Method Dispose, addr 0x6a84dac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ed7df0, size 0xfc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method Dispose, addr 0x6a84c64, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ed7ca8, size 0x10c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6a84bbc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed7c00, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Allocator allocator);
 
   /// @brief Convert to "::System::IDisposable"
@@ -189,7 +189,7 @@ public:
   constexpr LightProbesQuery(::System::IntPtr m_LightProbeContextWrapper, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9704 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

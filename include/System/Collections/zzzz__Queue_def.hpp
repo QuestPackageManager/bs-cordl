@@ -76,15 +76,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5be6794, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5ffea5c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x5be6798, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x5ffea60, size 0xcc, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Collections::Queue_QueueEnumerator* New_ctor(::System::Collections::Queue* q);
 
-  /// @brief Method Reset, addr 0x5be68f8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5ffebc0, size 0x88, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Object* const& __cordl_internal_get__currentElement() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5be65c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffe88c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Queue* q);
 
-  /// @brief Method get_Current, addr 0x5be6864, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x5ffeb2c, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -245,22 +245,22 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5be602c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x5ffe2f4, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo, addr 0x5be6184, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x5ffe44c, size 0x1e0, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Dequeue, addr 0x5be65fc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x5ffe8c4, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Object* Dequeue();
 
-  /// @brief Method Enqueue, addr 0x5be6364, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x5ffe62c, size 0xfc, virtual true, abstract: false, final false
   inline void Enqueue(::System::Object* obj);
 
-  /// @brief Method GetElement, addr 0x5be6754, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x5ffea1c, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* GetElement(int32_t i);
 
-  /// @brief Method GetEnumerator, addr 0x5be654c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5ffe814, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Queue* New_ctor();
@@ -271,10 +271,10 @@ public:
 
   static inline ::System::Collections::Queue* New_ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method Peek, addr 0x5be66c4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x5ffe98c, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method SetCapacity, addr 0x5be6460, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x5ffe728, size 0xec, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get__array() const;
@@ -319,25 +319,25 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5be5bd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffdea0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5be5d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffe060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x5be5be4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffdeac, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t growFactor);
 
-  /// @brief Method .ctor, addr 0x5be5da0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffe068, size 0x284, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method get_Count, addr 0x5be6024, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5ffe2ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x5be6110, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x5ffe3d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x5be6118, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x5ffe3e0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

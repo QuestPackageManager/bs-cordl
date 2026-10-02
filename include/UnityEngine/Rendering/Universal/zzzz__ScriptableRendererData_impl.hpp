@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6873f04;
+  constexpr static std::size_t addrs = 0x6ca2110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6873f08;
+  constexpr static std::size_t addrs = 0x6ca2114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::get_isInvalidated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873dd4;
+  constexpr static std::size_t addrs = 0x6ca1fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,11 +188,67 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::set_isInvalidated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873ddc;
+  constexpr static std::size_t addrs = 0x6ca1fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), { "set_isInvalidated", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRendererData.get_stripShadowsOffVariants
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
+    &::UnityEngine::Rendering::Universal::ScriptableRendererData::get_stripShadowsOffVariants)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ca1fd0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 4 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRendererData.set_stripShadowsOffVariants
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::ScriptableRendererData::set_stripShadowsOffVariants)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ca1fd8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 5 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRendererData.get_stripAdditionalLightOffVariants
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
+    &::UnityEngine::Rendering::Universal::ScriptableRendererData::get_stripAdditionalLightOffVariants)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ca1fe0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 6 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRendererData.set_stripAdditionalLightOffVariants
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::ScriptableRendererData::set_stripAdditionalLightOffVariants)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ca1fe8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -206,7 +262,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 4 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -216,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* (
     ::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(&::UnityEngine::Rendering::Universal::ScriptableRendererData::get_rendererFeatures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873de4;
+  constexpr static std::size_t addrs = 0x6ca1ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::SetDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6873dec;
+  constexpr static std::size_t addrs = 0x6ca1ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), { "SetDirty", {}, {} })));
@@ -243,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::InternalCreateRenderer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6873df8;
+  constexpr static std::size_t addrs = 0x6ca2004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,11 +313,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::OnValidate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6873e08;
+  constexpr static std::size_t addrs = 0x6ca2014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 5 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -271,11 +327,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::OnEnable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6873e14;
+  constexpr static std::size_t addrs = 0x6ca2020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 6 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -285,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::get_useNativeRenderPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873e20;
+  constexpr static std::size_t addrs = 0x6ca202c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererData::set_useNativeRenderPass)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6873e28;
+  constexpr static std::size_t addrs = 0x6ca2034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererData::*)()>(&::UnityEngine::Rendering::Universal::ScriptableRendererData::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6873e38;
+  constexpr static std::size_t addrs = 0x6ca2044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), { ".ctor", {}, {} })));
@@ -397,6 +453,30 @@ constexpr void UnityEngine::Rendering::Universal::ScriptableRendererData::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseNativeRenderPass = value;
 }
+constexpr bool& UnityEngine::Rendering::Universal::ScriptableRendererData::__cordl_internal_get_m_StripShadowsOffVariants() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StripShadowsOffVariants;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::ScriptableRendererData::__cordl_internal_get_m_StripShadowsOffVariants() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StripShadowsOffVariants;
+}
+constexpr void UnityEngine::Rendering::Universal::ScriptableRendererData::__cordl_internal_set_m_StripShadowsOffVariants(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StripShadowsOffVariants = value;
+}
+constexpr bool& UnityEngine::Rendering::Universal::ScriptableRendererData::__cordl_internal_get_m_StripAdditionalLightOffVariants() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StripAdditionalLightOffVariants;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::ScriptableRendererData::__cordl_internal_get_m_StripAdditionalLightOffVariants() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StripAdditionalLightOffVariants;
+}
+constexpr void UnityEngine::Rendering::Universal::ScriptableRendererData::__cordl_internal_set_m_StripAdditionalLightOffVariants(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StripAdditionalLightOffVariants = value;
+}
 inline bool UnityEngine::Rendering::Universal::ScriptableRendererData::get_isInvalidated() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), { "get_isInvalidated", {}, {} })));
@@ -407,9 +487,29 @@ inline void UnityEngine::Rendering::Universal::ScriptableRendererData::set_isInv
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), { "set_isInvalidated", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Rendering::Universal::ScriptableRendererData::Create() {
+inline bool UnityEngine::Rendering::Universal::ScriptableRendererData::get_stripShadowsOffVariants() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::ScriptableRendererData::set_stripShadowsOffVariants(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::ScriptableRendererData::get_stripAdditionalLightOffVariants() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::ScriptableRendererData::set_stripAdditionalLightOffVariants(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 7 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Rendering::Universal::ScriptableRendererData::Create() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>*
@@ -429,12 +529,12 @@ inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* UnityEngine::Ren
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRendererData::OnValidate() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRendererData::OnEnable() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererData*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::Universal::ScriptableRendererData::get_useNativeRenderPass() {

@@ -3,6 +3,7 @@
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_impl.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__UpdatePackedMaterialDataCacheJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob.ProcessMaterial
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::*)(int32_t)>(
     &::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::ProcessMaterial)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x681cbc0;
+  constexpr static std::size_t addrs = 0x6c4fadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::*)()>(&::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::Execute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x681cca4;
+  constexpr static std::size_t addrs = 0x6c4fbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob>(), { "Execute", {}, {} })));
@@ -48,13 +49,14 @@ constexpr UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::operator ::U
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "packedMaterialDatas", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment: None
-// }]
+// name: "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::UpdatePackedMaterialDataCacheJob(
-    ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas,
-    ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash) noexcept {
+    ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> materialIDs,
+    ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas,
+    ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash) noexcept {
   this->materialIDs = materialIDs;
   this->packedMaterialDatas = packedMaterialDatas;
   this->packedMaterialHash = packedMaterialHash;

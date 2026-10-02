@@ -28,9 +28,9 @@ class MainEffectController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MainEffectController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainEffectController*, "", "MainEffectController");
+// [ExecuteInEditMode]
 // [ImageEffectAllowedInSceneView]
 // [RequireComponent(typeof(UnityEngine.Camera))]
-// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,24 +83,24 @@ public:
 
   constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method .ctor, addr 0x5f43074, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635e828, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_afterImageEffectEvent, addr 0x5f42e9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_afterImageEffectEvent, addr 0x635e650, size 0xc0, virtual false, abstract: false, final false
   inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method get_container, addr 0x5f4306c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_container, addr 0x635e820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectContainerSO> get_container();
 
-  /// @brief Method get_fadeValue, addr 0x5f4301c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_fadeValue, addr 0x635e7d0, size 0x50, virtual false, abstract: false, final false
   inline float_t get_fadeValue();
 
-  /// @brief Method get_renderData, addr 0x5f42e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderData, addr 0x635e648, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MainEffectRenderData* get_renderData();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_afterImageEffectEvent, addr 0x5f42f5c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_afterImageEffectEvent, addr 0x635e710, size 0xc0, virtual false, abstract: false, final false
   inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   MainEffectController(MainEffectController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21121 };
 
   /// [SerializeField]
   /// @brief Field _mainEffectContainer, offset: 0x20, size: 0x8, def value: None

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlFactory::*)()>(&::UnityEngine::UIElements::FloatField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d40e80;
+  constexpr static std::size_t addrs = 0x71b3fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlTraits::*)()>(&::UnityEngine::UIElements::FloatField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d40ee8;
+  constexpr static std::size_t addrs = 0x71b402c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FloatField* (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::get_parentFloatField)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6d40f34;
+  constexpr static std::size_t addrs = 0x71b4078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { "get_parentFloatField", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(&::UnityEngine::UIElements::FloatField_FloatInput::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6d40c88;
+  constexpr static std::size_t addrs = 0x71b3dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ".ctor", {}, {} })));
@@ -79,12 +79,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(&::UnityEngine::UIElements::FloatField_FloatInput::get_allowedCharacters)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d40fb0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x71b40f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 138 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 143 }));
     return ___internal_method;
   }
 };
@@ -94,11 +94,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(
     &::UnityEngine::UIElements::FloatField_FloatInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6d4100c;
+  constexpr static std::size_t addrs = 0x71b419c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 139 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 144 }));
     return ___internal_method;
   }
 };
@@ -107,11 +107,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)(float_t)>(&::UnityEngine::UIElements::FloatField_FloatInput::ValueToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d41280;
+  constexpr static std::size_t addrs = 0x71b4410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 140 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 145 }));
     return ___internal_method;
   }
 };
@@ -119,12 +119,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::FloatField_FloatInput::*)(::StringW)>(&::UnityEngine::UIElements::FloatField_FloatInput::StringToValue)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d412dc;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x71b446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 136 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 141 }));
     return ___internal_method;
   }
 };
@@ -138,22 +138,22 @@ inline void UnityEngine::UIElements::FloatField_FloatInput::_ctor() {
 }
 inline ::StringW UnityEngine::UIElements::FloatField_FloatInput::get_allowedCharacters() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 138 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 143 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::FloatField_FloatInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 139 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 144 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
 inline ::StringW UnityEngine::UIElements::FloatField_FloatInput::ValueToString(float_t v) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 140 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 145 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, v);
 }
 inline float_t UnityEngine::UIElements::FloatField_FloatInput::StringToValue(::StringW str) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 136 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField_FloatInput*>(), 141 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, str);
 }
 inline ::UnityEngine::UIElements::FloatField_FloatInput* UnityEngine::UIElements::FloatField_FloatInput::New_ctor() {
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FloatField_FloatInput* (::UnityEngine::UIElements::FloatField::*)()>(
     &::UnityEngine::UIElements::FloatField::get_floatInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6d408cc;
+  constexpr static std::size_t addrs = 0x71b3924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { "get_floatInput", {}, {} })));
@@ -179,11 +179,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FloatField::*)(float_t)>(&::UnityEngine::UIElements::FloatField::ValueToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d4095c;
+  constexpr static std::size_t addrs = 0x71b39b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 155 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 161 }));
     return ___internal_method;
   }
 };
@@ -191,12 +191,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::FloatField::*)(::StringW)>(&::UnityEngine::UIElements::FloatField::StringToValue)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d40a1c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x71b3a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 156 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 162 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::FloatField.UpdateValueFromText
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)()>(&::UnityEngine::UIElements::FloatField::UpdateValueFromText)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x71b3b84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 163 }));
     return ___internal_method;
   }
 };
@@ -205,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)()>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d40afc;
+  constexpr static std::size_t addrs = 0x71b3c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ".ctor", {}, {} })));
@@ -217,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6d40b08;
+  constexpr static std::size_t addrs = 0x71b3c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,11 +243,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::FloatField::*)(::StringW)>(&::UnityEngine::UIElements::FloatField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d40d24;
+  constexpr static std::size_t addrs = 0x71b3e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 165 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 171 }));
     return ___internal_method;
   }
 };
@@ -244,11 +257,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(
     &::UnityEngine::UIElements::FloatField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d40d48;
+  constexpr static std::size_t addrs = 0x71b3e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 164 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 170 }));
     return ___internal_method;
   }
 };
@@ -275,12 +288,16 @@ inline ::UnityEngine::UIElements::FloatField_FloatInput* UnityEngine::UIElements
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::FloatField_FloatInput*>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::UIElements::FloatField::ValueToString(float_t v) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 155 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 161 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, v);
 }
 inline float_t UnityEngine::UIElements::FloatField::StringToValue(::StringW str) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 156 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 162 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, str);
+}
+inline void UnityEngine::UIElements::FloatField::UpdateValueFromText() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 163 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::FloatField::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), { ".ctor", {}, {} })));
@@ -292,11 +309,11 @@ inline void UnityEngine::UIElements::FloatField::_ctor(::StringW label, int32_t 
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label, maxLength);
 }
 inline bool UnityEngine::UIElements::FloatField::CanTryParse(::StringW textString) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 165 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 171 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, textString);
 }
 inline void UnityEngine::UIElements::FloatField::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 164 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FloatField*>(), 170 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
 inline ::UnityEngine::UIElements::FloatField* UnityEngine::UIElements::FloatField::New_ctor() {

@@ -103,35 +103,35 @@ public:
 
   constexpr void __cordl_internal_set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method .ctor, addr 0x6370818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6798a7c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ClientCertificateRequired, addr 0x63706c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificateRequired, addr 0x6798924, size 0x8, virtual false, abstract: false, final false
   inline bool get_ClientCertificateRequired();
 
-  /// @brief Method get_EnabledSslProtocols, addr 0x63706e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x6798944, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ServerCertificate, addr 0x63706d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertificate, addr 0x6798934, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_ServerCertificate();
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x63706f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x6798954, size 0x94, virtual false, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ClientCertificateRequired, addr 0x63706c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificateRequired, addr 0x679892c, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificateRequired(bool value);
 
-  /// @brief Method set_EnabledSslProtocols, addr 0x63706e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x679894c, size 0x8, virtual false, abstract: false, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0x6370784, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_EncryptionPolicy, addr 0x67989e8, size 0x94, virtual false, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ServerCertificate, addr 0x63706d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ServerCertificate, addr 0x679893c, size 0x8, virtual false, abstract: false, final false
   inline void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   SslServerAuthenticationOptions(SslServerAuthenticationOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12733 };
 
   /// @brief Field _checkCertificateRevocation, offset: 0x10, size: 0x4, def value: None
   ::System::Security::Cryptography::X509Certificates::X509RevocationMode ____checkCertificateRevocation;

@@ -57,15 +57,15 @@ public:
   __declspec(property(put = set_Size)) int32_t Size;
 
   /// [CompilerGenerated]
-  /// @brief Method set_DataPointer, addr 0x5be2fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataPointer, addr 0x5ffb270, size 0x8, virtual false, abstract: false, final false
   inline void set_DataPointer(::System::IntPtr value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Reserved, addr 0x5be2fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Reserved, addr 0x5ffb280, size 0x8, virtual false, abstract: false, final false
   inline void set_Reserved(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Size, addr 0x5be2fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Size, addr 0x5ffb278, size 0x8, virtual false, abstract: false, final false
   inline void set_Size(int32_t value);
 
   // Ctor Parameters []
@@ -123,19 +123,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5be2900, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5ffabc8, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5be2970, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ffac38, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5be2898, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5ffab60, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method IsEnabled, addr 0x5be28f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x5ffabb8, size 0x8, virtual false, abstract: false, final false
   inline bool IsEnabled();
 
-  /// @brief Method IsEnabled, addr 0x5be28f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x5ffabc0, size 0x8, virtual false, abstract: false, final false
   inline bool IsEnabled(::System::Diagnostics::Tracing::EventLevel level, ::System::Diagnostics::Tracing::EventKeywords keywords);
 
   static inline ::System::Diagnostics::Tracing::EventSource* New_ctor();
@@ -144,35 +144,35 @@ public:
 
   static inline ::System::Diagnostics::Tracing::EventSource* New_ctor(::StringW eventSourceName);
 
-  /// @brief Method WriteEvent, addr 0x5be2974, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffac3c, size 0x48, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId);
 
-  /// @brief Method WriteEvent, addr 0x5be2a70, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffad38, size 0x90, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, ::StringW arg1);
 
-  /// @brief Method WriteEvent, addr 0x5be2eb4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffb17c, size 0xf0, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
-  /// @brief Method WriteEvent, addr 0x5be29c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffac88, size 0xb0, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int32_t arg1);
 
-  /// @brief Method WriteEvent, addr 0x5be2b00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffadc8, size 0xf0, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int32_t arg1, int32_t arg2);
 
-  /// @brief Method WriteEvent, addr 0x5be2bf0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffaeb8, size 0x138, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int32_t arg1, int32_t arg2, int32_t arg3);
 
-  /// @brief Method WriteEvent, addr 0x5be2d28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffaff0, size 0xb0, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int64_t arg1);
 
-  /// @brief Method WriteEvent, addr 0x5be2dd8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffb0a0, size 0xdc, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, int64_t arg1, ::StringW arg2);
 
-  /// @brief Method WriteEvent, addr 0x5be29bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x5ffac84, size 0x4, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// [CLSCompliant(false)]
-  /// @brief Method WriteEventCore, addr 0x5be2fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteEventCore, addr 0x5ffb26c, size 0x4, virtual false, abstract: false, final false
   inline void WriteEventCore(int32_t eventId, int32_t eventDataCount, ::System::Diagnostics::Tracing::EventSource_EventData* data);
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
@@ -181,20 +181,20 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5be2854, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffab1c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5be2890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffab58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Guid eventSourceGuid, ::StringW eventSourceName);
 
-  /// @brief Method .ctor, addr 0x5be2888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffab50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventSourceName);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Name, addr 0x5be28e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5ffabb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

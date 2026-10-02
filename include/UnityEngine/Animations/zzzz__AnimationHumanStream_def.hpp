@@ -13,10 +13,10 @@ struct AnimationHumanStream;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationHumanStream);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
-// [MovedFrom("UnityEngine.Experimental.Animations")]
+// [RequiredByNativeCode]
 // [NativeHeader("Modules/Animation/ScriptBindings/AnimationHumanStream.bindings.h")]
 // [NativeHeader("Modules/Animation/Director/AnimationHumanStream.h")]
-// [RequiredByNativeCode]
+// [MovedFrom("UnityEngine.Experimental.Animations")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -32,7 +32,7 @@ public:
   constexpr AnimationHumanStream(::System::IntPtr stream) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

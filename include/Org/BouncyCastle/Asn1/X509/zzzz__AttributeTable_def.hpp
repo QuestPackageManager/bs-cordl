@@ -40,7 +40,7 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IDictionary* attributes;
 
-  /// @brief Method Get, addr 0x355c778, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x37e5a14, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeX509* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   /// @brief [Obsolete]
@@ -52,11 +52,11 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method ToDictionary, addr 0x355c8e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToDictionary, addr 0x37e5b80, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ToDictionary();
 
   /// [Obsolete("Use \'ToDictionary\' instead")]
-  /// @brief Method ToHashtable, addr 0x355c87c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToHashtable, addr 0x37e5b18, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* ToHashtable();
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_attributes() const;
@@ -66,16 +66,16 @@ public:
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x355c450, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37e56ec, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
-  /// @brief Method .ctor, addr 0x355c3e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37e567c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attrs);
 
-  /// @brief Method .ctor, addr 0x355c604, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37e58a0, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method .ctor, addr 0x355c4c0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37e575c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::EventType, ::UnityEngine::Vector3, ::UnityEngine::Vector2, int32_t, int32_t,
                                                                                                  ::UnityEngine::EventModifiers, int32_t)>(&::UnityEngine::UIElements::PointerEventHelper::GetPooled)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6da3810;
+  constexpr static std::size_t addrs = 0x7232068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

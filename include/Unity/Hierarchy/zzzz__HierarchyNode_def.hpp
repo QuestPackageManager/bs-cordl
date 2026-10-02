@@ -20,8 +20,8 @@ struct HierarchyNode;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyNode);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNode, "Unity.Hierarchy", "HierarchyNode");
-// [NativeHeader("Modules/HierarchyCore/Public/HierarchyNode.h")]
 // [IsReadOnly]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyNode.h")]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -40,44 +40,44 @@ public:
   constexpr operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>*();
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x6b3a4c0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f9869c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x6b3a31c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f984f8, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Hierarchy::HierarchyNode other);
 
   /// [ExcludeFromDocs]
-  /// @brief Method GetHashCode, addr 0x6b3a284, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f98460, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [ExcludeFromDocs]
-  /// @brief Method ToString, addr 0x6b3a344, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f98520, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6b3a314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f984f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Hierarchy::HierarchyNode getStaticF_s_Null();
 
-  /// @brief Method get_Id, addr 0x6b3a304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x6f984e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method get_Null, addr 0x6b35b4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6f93730, size 0x48, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Null();
 
-  /// @brief Method get_Version, addr 0x6b3a30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x6f984e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyNode_();
 
   /// [ExcludeFromDocs]
-  /// @brief Method op_Equality, addr 0x6b35b94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f93778, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
 
   /// [ExcludeFromDocs]
-  /// @brief Method op_Inequality, addr 0x6b361e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f93ce4, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyNode value);
@@ -91,7 +91,7 @@ public:
   constexpr HierarchyNode(int32_t m_Id, int32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

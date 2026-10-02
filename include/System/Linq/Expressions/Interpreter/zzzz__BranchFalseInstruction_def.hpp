@@ -40,21 +40,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::BranchFalseInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x5f8f4dc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x63ab458, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5f8f538, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ab4b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> getStaticF_s_cache();
 
-  /// @brief Method get_Cache, addr 0x5f8f404, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x63ab380, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x5f8f4d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x63ab450, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5f8f490, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x63ab40c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> value);
@@ -74,7 +74,7 @@ public:
   BranchFalseInstruction(BranchFalseInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

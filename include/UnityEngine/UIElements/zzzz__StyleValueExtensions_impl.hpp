@@ -10,6 +10,8 @@
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleLength_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleRatio_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextAutoSize_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleValueExtensions.ToLayoutValue
 template <>
@@ -17,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutValue (*)(::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::StyleValueExtensions::ToLayoutValue)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c94cf0;
+  constexpr static std::size_t addrs = 0x710afa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleValueExtensions::ToLength)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c94e54;
+  constexpr static std::size_t addrs = 0x710b10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Rotate (*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleValueExtensions::ToRotate)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6c94f64;
+  constexpr static std::size_t addrs = 0x710b21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Scale (*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleValueExtensions::ToScale)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c950cc;
+  constexpr static std::size_t addrs = 0x710b384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Translate (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleValueExtensions::ToTranslate)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c951d8;
+  constexpr static std::size_t addrs = 0x710b490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,17 +85,46 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueExtensions.ToTextAutoSize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextAutoSize (*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleValueExtensions::ToTextAutoSize)> {
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x710b5d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(),
+                                                                                           { "ToTextAutoSize", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleValueExtensions.ToLength
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (*)(::UnityEngine::UIElements::StyleLength)>(&::UnityEngine::UIElements::StyleValueExtensions::ToLength)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c9531c;
+  constexpr static std::size_t addrs = 0x710b6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(), { "ToLength", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleLength>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueExtensions.ToStyleRatio
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleRatio (*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleValueExtensions::ToStyleRatio)> {
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x710b71c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(), { "ToStyleRatio", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
     return ___internal_method;
   }
 };
@@ -130,10 +161,22 @@ inline ::UnityEngine::UIElements::Translate UnityEngine::UIElements::StyleValueE
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(), { "ToTranslate", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Translate>(nullptr, ___internal_method, keyword);
 }
+inline ::UnityEngine::UIElements::TextAutoSize UnityEngine::UIElements::StyleValueExtensions::ToTextAutoSize(::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(), { "ToTextAutoSize", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextAutoSize>(nullptr, ___internal_method, keyword);
+}
 inline ::UnityEngine::UIElements::Length UnityEngine::UIElements::StyleValueExtensions::ToLength(::UnityEngine::UIElements::StyleLength styleLength) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(), { "ToLength", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleLength>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Length>(nullptr, ___internal_method, styleLength);
+}
+inline ::UnityEngine::UIElements::StyleRatio UnityEngine::UIElements::StyleValueExtensions::ToStyleRatio(::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueExtensions*>(), { "ToStyleRatio", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleRatio>(nullptr, ___internal_method, keyword);
 }
 template <typename T> inline void UnityEngine::UIElements::StyleValueExtensions::CopyFrom(::System::Collections::Generic::List_1<T>* list, ::System::Collections::Generic::List_1<T>* other) {
   static auto* ___internal_method_base = THROW_UNLESS(

@@ -39,12 +39,12 @@ public:
 
   __declspec(property(get = get_fileStorage)) ::GlobalNamespace::IFileStorage* fileStorage;
 
-  /// @brief Method LoadAsync, addr 0x3291ce8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x3518558, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*>* LoadAsync();
 
   static inline ::BeatSaber::GameSettings::ControllerProfileFileModel* New_ctor();
 
-  /// @brief Method SaveAsync, addr 0x3291d58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x35185c8, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync(::BeatSaber::GameSettings::ControllerProfilesSaveData* profileSaveDataContainer);
 
   constexpr ::GlobalNamespace::IFileStorage* const& __cordl_internal_get__fileStorage() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
 
-  /// @brief Method .ctor, addr 0x3291dc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3518634, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fileStorage, addr 0x3291c90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_fileStorage, addr 0x3518500, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IFileStorage* get_fileStorage();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ControllerProfileFileModel(ControllerProfileFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22781 };
 
   /// @brief Field kFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kFileName{ u"ControllerProfiles.dat" };

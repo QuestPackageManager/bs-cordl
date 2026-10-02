@@ -27,7 +27,7 @@ class CORDL_TYPE LanguageDirectionExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method toTextCore, addr 0x6cc93e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method toTextCore, addr 0x7152e98, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LanguageDirection toTextCore(::UnityEngine::UIElements::LanguageDirection dir);
 
 protected:
@@ -45,7 +45,7 @@ public:
   LanguageDirectionExtensions(LanguageDirectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::ENet::Library::get_Time)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5895a5c;
+  constexpr static std::size_t addrs = 0x5cac5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Library*>(), { "get_Time", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::ENet::Library::InitOpenSSL)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5895ac4;
+  constexpr static std::size_t addrs = 0x5cac644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Library*>(), { "InitOpenSSL", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::ENet::Library::Initialize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5895bec;
+  constexpr static std::size_t addrs = 0x5cac76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Library*>(), { "Initialize", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ENet::Callbacks*)>(&::ENet::Library::Initialize)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5895d40;
+  constexpr static std::size_t addrs = 0x5cac8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Library*>(), { "Initialize", {}, { ::i2c::type_of<::ENet::Callbacks*>() } })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::ENet::Library::Deinitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5895efc;
+  constexpr static std::size_t addrs = 0x5caca7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Library*>(), { "Deinitialize", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::IntPtr, int32_t)>(&::ENet::Library::CRC64)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5895f64;
+  constexpr static std::size_t addrs = 0x5cacae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

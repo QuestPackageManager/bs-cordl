@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)(::by_ref<uint8_t*>)>(&::System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5b6bf60;
+  constexpr static std::size_t addrs = 0x5f83e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)()>(&::System::Runtime::InteropServices::SafeBuffer::ReleasePointer)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5b6c15c;
+  constexpr static std::size_t addrs = 0x5f84054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::SafeBuffer*>(), { "ReleasePointer", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::InvalidOperationException* (*)()>(&::System::Runtime::InteropServices::SafeBuffer::NotInitialized)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5b6c020;
+  constexpr static std::size_t addrs = 0x5f83f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::SafeBuffer*>(), { "NotInitialized", {}, {} })));

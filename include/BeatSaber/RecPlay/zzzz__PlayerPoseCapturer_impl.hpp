@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseCapturer::*)(int32_t)>(&::BeatSaber::RecPlay::PlayerPoseCapturer::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32c3d84;
+  constexpr static std::size_t addrs = 0x354b1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseCapturer::*)(float_t, ::BeatSaber::RecPlay::PlayerPose)>(
     &::BeatSaber::RecPlay::PlayerPoseCapturer::Capture)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x32c3e08;
+  constexpr static std::size_t addrs = 0x354b248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PlayerPoseCapturer*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (::BeatSaber::RecPlay::PlayerPoseCapturer::*)()>(
     &::BeatSaber::RecPlay::PlayerPoseCapturer::CreatePlayerPoseFrames)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x32c3f0c;
+  constexpr static std::size_t addrs = 0x354b34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PlayerPoseCapturer*>(), { "CreatePlayerPoseFrames", {}, {} })));

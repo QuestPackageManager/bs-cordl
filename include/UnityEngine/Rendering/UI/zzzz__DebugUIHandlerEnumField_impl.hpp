@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::*)(bool)>(&::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::OnIncrement)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x68025e0;
+  constexpr static std::size_t addrs = 0x6c31124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumField*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::*)(bool)>(&::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::OnDecrement)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x680277c;
+  constexpr static std::size_t addrs = 0x6c312c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumField*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::UpdateValueLabel)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6802954;
+  constexpr static std::size_t addrs = 0x6c31498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumField*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerEnumField::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68029f8;
+  constexpr static std::size_t addrs = 0x6c3153c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumField*>(), { ".ctor", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayout::*)(::UnityEngine::Camera*, bool)>(
     &::UnityEngine::Experimental::Rendering::XRLayout::AddCamera)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x67461c0;
+  constexpr static std::size_t addrs = 0x6b5ace8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRLayout*>(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayout::*)(::UnityEngine::Experimental::Rendering::XRPass*, ::UnityEngine::Camera*)>(
     &::UnityEngine::Experimental::Rendering::XRLayout::ReconfigurePass)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6746a88;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6b5b5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Experimental::Rendering::XRPass*>>* (
         ::UnityEngine::Experimental::Rendering::XRLayout::*)()>(&::UnityEngine::Experimental::Rendering::XRLayout::GetActivePasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6746ddc;
+  constexpr static std::size_t addrs = 0x6b5b960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRLayout*>(), { "GetActivePasses", {}, {} })));
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayout::*)(::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Experimental::Rendering::XRLayout::AddPass)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x67469a8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6b5b520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayout::*)()>(&::UnityEngine::Experimental::Rendering::XRLayout::Clear)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6746de4;
+  constexpr static std::size_t addrs = 0x6b5b968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRLayout*>(), { "Clear", {}, {} })));
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Expe
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayout::*)()>(&::UnityEngine::Experimental::Rendering::XRLayout::LogDebugInfo)> {
-  constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6746f28;
+  constexpr static std::size_t size = 0x47c;
+  constexpr static std::size_t addrs = 0x6b5baac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRLayout*>(), { "LogDebugInfo", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayout::*)()>(&::UnityEngine::Experimental::Rendering::XRLayout::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67474b8;
+  constexpr static std::size_t addrs = 0x6b5c06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRLayout*>(), { ".ctor", {}, {} })));

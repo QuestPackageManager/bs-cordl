@@ -43,7 +43,7 @@ public:
   __declspec(property(get = __cordl_internal_get__CapsuleRigidbody_k__BackingField, put = __cordl_internal_set__CapsuleRigidbody_k__BackingField)) ::UnityW<::UnityEngine::Rigidbody>
       _CapsuleRigidbody_k__BackingField;
 
-  /// @brief Method Cleanup, addr 0x5f11288, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x632b768, size 0xa8, virtual false, abstract: false, final false
   inline void Cleanup();
 
   static inline ::GlobalNamespace::OVRBoneCapsule* New_ctor();
@@ -68,34 +68,34 @@ public:
 
   constexpr void __cordl_internal_set__CapsuleRigidbody_k__BackingField(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x5f11330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632b810, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f11ddc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632c29c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider);
 
   /// [CompilerGenerated]
-  /// @brief Method get_BoneIndex, addr 0x5f11dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneIndex, addr 0x632c26c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_BoneIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CapsuleCollider, addr 0x5f11dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CapsuleCollider, addr 0x632c28c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CapsuleCollider> get_CapsuleCollider();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CapsuleRigidbody, addr 0x5f11dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CapsuleRigidbody, addr 0x632c27c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_CapsuleRigidbody();
 
   /// [CompilerGenerated]
-  /// @brief Method set_BoneIndex, addr 0x5f11db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneIndex, addr 0x632c274, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneIndex(int16_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CapsuleCollider, addr 0x5f11dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CapsuleCollider, addr 0x632c294, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CapsuleRigidbody, addr 0x5f11dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CapsuleRigidbody, addr 0x632c284, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   OVRBoneCapsule(OVRBoneCapsule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8106 };
 
   /// [CompilerGenerated]
   /// @brief Field <BoneIndex>k__BackingField, offset: 0x10, size: 0x2, def value: None

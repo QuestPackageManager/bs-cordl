@@ -25,7 +25,7 @@ class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method LocalizedKey, addr 0x373671c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x39bfd0c, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:
@@ -43,16 +43,13 @@ public:
   CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15327 };
 
   /// @brief Field kAllPlayersNotInLobby offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersNotInLobby{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY" };
 
   /// @brief Field kAllPlayersSpectating offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersSpectating{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_SPECTATING" };
-
-  /// @brief Field kDoNotOwnSong offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDoNotOwnSong{ u"LABEL_CANT_START_GAME_DO_NOT_OWN_SONG" };
 
   /// @brief Field kNoSongSelected offset 0xffffffff size 0x8
   static constexpr ::ConstString kNoSongSelected{ u"LABEL_CANT_START_GAME_NO_SONG_SELECTED" };

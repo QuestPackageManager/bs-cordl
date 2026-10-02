@@ -133,7 +133,7 @@ public:
   static ::HMUI::ViewController_AnimationType const Out;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21728 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -188,7 +188,7 @@ public:
   static ::HMUI::ViewController_AnimationDirection const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21729 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -246,26 +246,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x32f6f74, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x357f378, size 0x1b4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::HMUI::ViewController__DismissViewControllerCoroutine_d__54* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f72a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x357f6ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f72b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x357f6b4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f72e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x357f6ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x32f6f70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x357f374, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -311,7 +311,7 @@ public:
   constexpr void __cordl_internal_set_immediately(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x32f6d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f17c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -338,7 +338,7 @@ public:
   ViewController__DismissViewControllerCoroutine_d__54(ViewController__DismissViewControllerCoroutine_d__54 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21730 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -423,26 +423,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x32f72f4, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x357f6f8, size 0x224, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::HMUI::ViewController__PresentViewControllerCoroutine_d__50* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f7590, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x357f994, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f7598, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x357f99c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f75d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x357f9d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x32f72f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x357f6f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -488,7 +488,7 @@ public:
   constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x32f6c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -515,7 +515,7 @@ public:
   ViewController__PresentViewControllerCoroutine_d__50(ViewController__PresentViewControllerCoroutine_d__50 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21731 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -600,26 +600,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x32f75dc, size 0x26c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x357f9e0, size 0x26c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f7848, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x357fc4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f7850, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x357fc54, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f7888, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x357fc8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x32f75d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x357f9dc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -665,7 +665,7 @@ public:
   constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x32f6cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f0f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -692,7 +692,7 @@ public:
   ViewController__ReplaceViewControllerCoroutine_d__52(ViewController__ReplaceViewControllerCoroutine_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21732 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -814,61 +814,61 @@ public:
 
   __declspec(property(get = get_wasActivatedBefore)) bool wasActivatedBefore;
 
-  /// @brief Method DeactivateGameObject, addr 0x32efb80, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method DeactivateGameObject, addr 0x3577eb8, size 0x4c, virtual true, abstract: false, final false
   inline void DeactivateGameObject();
 
-  /// @brief Method DidActivate, addr 0x32f6b18, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x357ef1c, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x32f6b1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x357ef20, size 0x4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   /// [IteratorStateMachine(typeof(HMUI.ViewController::<DismissViewControllerCoroutine>d__54))]
-  /// @brief Method DismissViewControllerCoroutine, addr 0x32f6cf8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DismissViewControllerCoroutine, addr 0x357f0fc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissViewControllerCoroutine(::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method IsViewControllerInHierarchy, addr 0x32f6d80, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method IsViewControllerInHierarchy, addr 0x357f184, size 0x194, virtual false, abstract: false, final false
   inline bool IsViewControllerInHierarchy(::HMUI::ViewController* viewController);
 
   /// [Conditional("ViewControllerLog")]
-  /// @brief Method Log, addr 0x32f6f14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x357f318, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::HMUI::ViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x32f6ad0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x357eed4, size 0x48, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   /// [IteratorStateMachine(typeof(HMUI.ViewController::<PresentViewControllerCoroutine>d__50))]
-  /// @brief Method PresentViewControllerCoroutine, addr 0x32f6be8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PresentViewControllerCoroutine, addr 0x357efec, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PresentViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
   /// [IteratorStateMachine(typeof(HMUI.ViewController::<ReplaceViewControllerCoroutine>d__52))]
-  /// @brief Method ReplaceViewControllerCoroutine, addr 0x32f6c74, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceViewControllerCoroutine, addr 0x357f078, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ReplaceViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::ViewController_AnimationType animationType, ::HMUI::ViewController_AnimationDirection animationDirection);
 
-  /// @brief Method __Activate, addr 0x32ef83c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method __Activate, addr 0x3577b74, size 0xc8, virtual true, abstract: false, final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method __Deactivate, addr 0x32ef9e0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method __Deactivate, addr 0x3577d18, size 0xb0, virtual true, abstract: false, final false
   inline void __Deactivate(bool removedFromHierarchy, bool deactivateGameObject, bool screenSystemDisabling);
 
-  /// @brief Method __DismissViewController, addr 0x32f22c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method __DismissViewController, addr 0x357a634, size 0x20, virtual false, abstract: false, final false
   inline void __DismissViewController(::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method __Init, addr 0x32ef5e0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method __Init, addr 0x3577918, size 0x118, virtual true, abstract: false, final false
   inline void __Init(::HMUI::Screen* screen, ::HMUI::ViewController* parentViewController, ::HMUI::ContainerViewController* containerViewController);
 
-  /// @brief Method __PresentViewController, addr 0x32f2878, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method __PresentViewController, addr 0x357abe8, size 0x20, virtual false, abstract: false, final false
   inline void __PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method __ReplaceViewController, addr 0x32f2c08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method __ReplaceViewController, addr 0x357af78, size 0x20, virtual false, abstract: false, final false
   inline void __ReplaceViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationType animationType,
                                       ::HMUI::ViewController_AnimationDirection animationDirection);
 
-  /// @brief Method __ResetViewController, addr 0x32f6b20, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method __ResetViewController, addr 0x357ef24, size 0xc8, virtual true, abstract: false, final false
   inline void __ResetViewController();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder_k__BackingField() const;
@@ -937,57 +937,57 @@ public:
 
   constexpr void __cordl_internal_set__wasActivatedBefore(bool value);
 
-  /// @brief Method .ctor, addr 0x32f057c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35788ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_buttonBinder, addr 0x32f6ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonBinder, addr 0x357eec4, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ButtonBinder* get_buttonBinder();
 
-  /// @brief Method get_canvasGroup, addr 0x32f5e34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_canvasGroup, addr 0x357e21c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CanvasGroup> get_canvasGroup();
 
-  /// @brief Method get_childViewController, addr 0x32f697c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childViewController, addr 0x357ed80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_childViewController();
 
-  /// @brief Method get_containerViewController, addr 0x32f6964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_containerViewController, addr 0x357ed68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ContainerViewController> get_containerViewController();
 
-  /// @brief Method get_enableUserInteractions, addr 0x32f6a08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_enableUserInteractions, addr 0x357ee0c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_enableUserInteractions();
 
-  /// @brief Method get_graphicRaycaster, addr 0x32f6a24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_graphicRaycaster, addr 0x357ee28, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> get_graphicRaycaster();
 
-  /// @brief Method get_isActivated, addr 0x32f69e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActivated, addr 0x357edec, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActivated();
 
-  /// @brief Method get_isInTransition, addr 0x32f69f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInTransition, addr 0x357edfc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInTransition();
 
-  /// @brief Method get_isInViewControllerHierarchy, addr 0x32f6984, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isInViewControllerHierarchy, addr 0x357ed88, size 0x64, virtual false, abstract: false, final false
   inline bool get_isInViewControllerHierarchy();
 
-  /// @brief Method get_parentViewController, addr 0x32f6974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentViewController, addr 0x357ed78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_parentViewController();
 
-  /// @brief Method get_rectTransform, addr 0x32f5204, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x357d5ec, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_screen, addr 0x32f696c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screen, addr 0x357ed70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_screen();
 
-  /// @brief Method get_wasActivatedBefore, addr 0x32f69f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wasActivatedBefore, addr 0x357edf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_wasActivatedBefore();
 
   /// [CompilerGenerated]
-  /// @brief Method set_buttonBinder, addr 0x32f6ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonBinder, addr 0x357eecc, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method set_enableUserInteractions, addr 0x32f6584, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_enableUserInteractions, addr 0x357e988, size 0x24, virtual false, abstract: false, final false
   inline void set_enableUserInteractions(bool value);
 
-  /// @brief Method set_isInTransition, addr 0x32f6a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isInTransition, addr 0x357ee04, size 0x8, virtual false, abstract: false, final false
   inline void set_isInTransition(bool value);
 
 protected:
@@ -1005,7 +1005,7 @@ public:
   ViewController(ViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21733 };
 
   /// @brief Field kTransitionDuration offset 0xffffffff size 0x4
   static constexpr float_t kTransitionDuration{ static_cast<float_t>(0.4f) };

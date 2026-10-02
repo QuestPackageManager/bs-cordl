@@ -51,11 +51,11 @@ public:
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Body, addr 0x5f89544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x63a54c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TestValues, addr 0x5f8953c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x63a54b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:
@@ -73,7 +73,7 @@ public:
   SwitchCase(SwitchCase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16749 };
 
   /// [CompilerGenerated]
   /// @brief Field <TestValues>k__BackingField, offset: 0x10, size: 0x8, def value: None

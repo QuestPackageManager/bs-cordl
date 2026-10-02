@@ -52,23 +52,23 @@ public:
 
   constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x5d7b024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6194c08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ErrorWhenNoMatch, addr 0x5d7b014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x6194bf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RegexMatchTimeout, addr 0x5d7b000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RegexMatchTimeout, addr 0x6194be4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ErrorWhenNoMatch, addr 0x5d7b01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x6194c00, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RegexMatchTimeout, addr 0x5d7b00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RegexMatchTimeout, addr 0x6194bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   JsonSelectSettings(JsonSelectSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13844 };
 
   /// [CompilerGenerated]
   /// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None

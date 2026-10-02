@@ -58,7 +58,7 @@ public:
   constexpr Update_ScriptRunBehaviourUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10162 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -87,7 +87,7 @@ public:
   constexpr Update_DirectorUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10163 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -116,7 +116,7 @@ public:
   constexpr Update_ScriptRunDelayedDynamicFrameRate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10164 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -145,7 +145,7 @@ public:
   constexpr Update_ScriptRunDelayedTasks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10165 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -160,8 +160,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::Update_ScriptRunDelayedTasks) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 // [RequiredByNativeCode]
+// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -183,7 +183,7 @@ public:
   constexpr Update();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10166 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

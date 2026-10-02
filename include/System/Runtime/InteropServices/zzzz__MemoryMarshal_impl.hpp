@@ -55,6 +55,16 @@ template <typename T> inline ::by_ref<T> System::Runtime::InteropServices::Memor
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(nullptr, ___internal_method, span);
 }
+template <typename TFrom, typename TTo>
+  requires(::cordl_internals::value_type_constraint<TFrom> && ::cordl_internals::default_constructor_constraint<TFrom> && ::cordl_internals::value_type_constraint<TTo> &&
+           ::cordl_internals::default_constructor_constraint<TTo>)
+inline ::System::Span_1<TTo> System::Runtime::InteropServices::MemoryMarshal::Cast(::System::Span_1<TFrom> span) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MemoryMarshal*>(),
+                                                           { "Cast", { ::i2c::class_of<TFrom>(), ::i2c::class_of<TTo>() }, { ::i2c::type_of<::System::Span_1<TFrom>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TFrom>(), ::i2c::class_of<TTo>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Span_1<TTo>>(nullptr, ___internal_method, span);
+}
 template <typename T> inline ::System::ReadOnlySpan_1<T> System::Runtime::InteropServices::MemoryMarshal::CreateReadOnlySpan(::by_ref<T> reference, int32_t length) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::MemoryMarshal*>(),

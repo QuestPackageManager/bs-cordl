@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__translationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x586bd94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c81f68, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distributionLimits, addr 0x586bd8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distributionLimits, addr 0x5c81f60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_distributionLimits();
 
-  /// @brief Method get_translationLimits, addr 0x586bd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationLimits, addr 0x5c81f58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_translationLimits();
 
 protected:
@@ -71,7 +71,7 @@ public:
   LightGroupTranslationLimits(LightGroupTranslationLimits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19937 };
 
   /// [SerializeField]
   /// @brief Field _translationLimits, offset: 0x10, size: 0x8, def value: None

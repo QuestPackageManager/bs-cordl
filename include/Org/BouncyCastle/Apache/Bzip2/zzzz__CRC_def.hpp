@@ -27,21 +27,21 @@ public:
   /// @brief Field globalCrc, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_globalCrc, put = __cordl_internal_set_globalCrc)) int32_t globalCrc;
 
-  /// @brief Method GetFinalCRC, addr 0x36590ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetFinalCRC, addr 0x38e2348, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetFinalCRC();
 
-  /// @brief Method GetGlobalCRC, addr 0x3659bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalCRC, addr 0x38e2e48, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetGlobalCRC();
 
-  /// @brief Method InitialiseCRC, addr 0x3659078, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitialiseCRC, addr 0x38e2314, size 0xc, virtual false, abstract: false, final false
   inline void InitialiseCRC();
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CRC* New_ctor();
 
-  /// @brief Method SetGlobalCRC, addr 0x3659bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalCRC, addr 0x38e2e50, size 0x8, virtual false, abstract: false, final false
   inline void SetGlobalCRC(int32_t newCrc);
 
-  /// @brief Method UpdateCRC, addr 0x3659a20, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCRC, addr 0x38e2cbc, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateCRC(int32_t inCh);
 
   constexpr int32_t const& __cordl_internal_get_globalCrc() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_globalCrc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3657bac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38e0e48, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_crc32Table();

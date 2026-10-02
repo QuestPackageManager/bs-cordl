@@ -22,7 +22,7 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DestroySubsystem, addr 0x6bb8224, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroySubsystem, addr 0x7016d4c, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroySubsystem(::System::IntPtr nativePtr);
 
 protected:
@@ -40,7 +40,7 @@ public:
   SubsystemBindings(SubsystemBindings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

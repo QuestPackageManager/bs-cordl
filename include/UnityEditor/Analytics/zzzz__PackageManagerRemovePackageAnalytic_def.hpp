@@ -12,8 +12,8 @@ class PackageManagerRemovePackageAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic*, "UnityEditor.Analytics", "PackageManagerRemovePackageAnalytic");
-// [RequiredByNativeCode(GenerateProxy = true)]
 // [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEditor.Analytics.PackageManagerBaseAnalytic
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -22,12 +22,12 @@ class CORDL_TYPE PackageManagerRemovePackageAnalytic : public ::UnityEditor::Ana
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6e25644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x72c0870, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* CreatePackageManagerRemovePackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e255b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c07dc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,10 +33,10 @@ namespace UnityEngine::UIElements {
 class DropdownMenuItem;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu___c__DisplayClass10_0;
+class DropdownMenu___c__DisplayClass14_0;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu___c__DisplayClass13_0;
+class DropdownMenu___c__DisplayClass17_0;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -46,32 +46,32 @@ namespace UnityEngine::UIElements {
 class DropdownMenu;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu___c__DisplayClass10_0;
+class DropdownMenu___c__DisplayClass14_0;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu___c__DisplayClass13_0;
+class DropdownMenu___c__DisplayClass17_0;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::DropdownMenu*);
-MARK_REF_T(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0*);
-MARK_REF_T(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0*);
+MARK_REF_T(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0*);
+MARK_REF_T(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenu*, "UnityEngine.UIElements", "DropdownMenu");
-DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0*, "UnityEngine.UIElements", "DropdownMenu/<>c__DisplayClass10_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0*, "UnityEngine.UIElements", "DropdownMenu/<>c__DisplayClass13_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0*, "UnityEngine.UIElements", "DropdownMenu/<>c__DisplayClass14_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0*, "UnityEngine.UIElements", "DropdownMenu/<>c__DisplayClass17_0");
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.UIElements.DropdownMenuAction::Status
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: UnityEngine.UIElements.DropdownMenu/<>c__DisplayClass10_0
-class CORDL_TYPE DropdownMenu___c__DisplayClass10_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.DropdownMenu/<>c__DisplayClass14_0
+class CORDL_TYPE DropdownMenu___c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field status, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) ::UnityEngine::UIElements::DropdownMenuAction_Status status;
 
-  static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0* New_ctor();
+  static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <AppendAction>b__0, addr 0x6d94830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <AppendAction>b__0, addr 0x72225c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenuAction_Status _AppendAction_b__0(::UnityEngine::UIElements::DropdownMenuAction* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuAction_Status const& __cordl_internal_get_status() const;
@@ -80,25 +80,25 @@ public:
 
   constexpr void __cordl_internal_set_status(::UnityEngine::UIElements::DropdownMenuAction_Status value);
 
-  /// @brief Method .ctor, addr 0x6d94158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72225c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr DropdownMenu___c__DisplayClass10_0();
+  constexpr DropdownMenu___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  DropdownMenu___c__DisplayClass10_0(DropdownMenu___c__DisplayClass10_0&&) = delete;
+  DropdownMenu___c__DisplayClass14_0(DropdownMenu___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownMenu___c__DisplayClass10_0(DropdownMenu___c__DisplayClass10_0 const&) = delete;
+  DropdownMenu___c__DisplayClass14_0(DropdownMenu___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4414 };
 
   /// @brief Field status, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::DropdownMenuAction_Status ___status;
@@ -106,25 +106,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0, ___status) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0, ___status) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: UnityEngine.UIElements.DropdownMenu/<>c__DisplayClass13_0
-class CORDL_TYPE DropdownMenu___c__DisplayClass13_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.DropdownMenu/<>c__DisplayClass17_0
+class CORDL_TYPE DropdownMenu___c__DisplayClass17_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subMenuPath, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_subMenuPath, put = __cordl_internal_set_subMenuPath)) ::StringW subMenuPath;
 
-  static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0* New_ctor();
+  static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <AppendSeparator>b__0, addr 0x6d94838, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <AppendSeparator>b__0, addr 0x72225d0, size 0xa8, virtual false, abstract: false, final false
   inline bool _AppendSeparator_b__0(::UnityEngine::UIElements::DropdownMenuItem* item);
 
   constexpr ::StringW const& __cordl_internal_get_subMenuPath() const;
@@ -133,25 +133,25 @@ public:
 
   constexpr void __cordl_internal_set_subMenuPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d943f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72225cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr DropdownMenu___c__DisplayClass13_0();
+  constexpr DropdownMenu___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  DropdownMenu___c__DisplayClass13_0(DropdownMenu___c__DisplayClass13_0&&) = delete;
+  DropdownMenu___c__DisplayClass17_0(DropdownMenu___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownMenu___c__DisplayClass13_0(DropdownMenu___c__DisplayClass13_0 const&) = delete;
+  DropdownMenu___c__DisplayClass17_0(DropdownMenu___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
 
   /// @brief Field subMenuPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___subMenuPath;
@@ -159,9 +159,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0, ___subMenuPath) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0, ___subMenuPath) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies System.Object
@@ -171,11 +171,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DropdownMenu : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass10_0 = ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0;
+  using __c__DisplayClass14_0 = ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0;
 
-  using __c__DisplayClass13_0 = ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0;
+  using __c__DisplayClass17_0 = ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0;
 
   __declspec(property(get = get_Count)) int32_t Count;
+
+  /// @brief Field <repaintPanelBeforeDisplay>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__repaintPanelBeforeDisplay_k__BackingField,
+                      put = __cordl_internal_set__repaintPanelBeforeDisplay_k__BackingField)) bool _repaintPanelBeforeDisplay_k__BackingField;
 
   /// @brief Field m_DropdownMenuEventInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DropdownMenuEventInfo,
@@ -185,26 +189,32 @@ public:
   __declspec(property(get = __cordl_internal_get_m_MenuItems,
                       put = __cordl_internal_set_m_MenuItems)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
 
-  /// @brief Method AppendAction, addr 0x6d93f2c, size 0xf8, virtual false, abstract: false, final false
+  __declspec(property(put = set_repaintPanelBeforeDisplay)) bool repaintPanelBeforeDisplay;
+
+  /// @brief Method AppendAction, addr 0x7221b98, size 0xf8, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
                            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method AppendAction, addr 0x6d94024, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x7221c90, size 0x134, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action, ::UnityEngine::UIElements::DropdownMenuAction_Status status);
 
-  /// @brief Method AppendSeparator, addr 0x6d9415c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AppendSeparator, addr 0x7221dc4, size 0x294, virtual false, abstract: false, final false
   inline void AppendSeparator(::StringW subMenuPath);
 
-  /// @brief Method InsertSeparator, addr 0x6d943f4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InsertSeparator, addr 0x7222058, size 0x138, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
 
-  /// @brief Method MenuItems, addr 0x6d93f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MenuItems, addr 0x7221b90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
   static inline ::UnityEngine::UIElements::DropdownMenu* New_ctor();
 
-  /// @brief Method PrepareForDisplay, addr 0x6d9452c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method PrepareForDisplay, addr 0x7222190, size 0x290, virtual false, abstract: false, final false
   inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
+
+  constexpr bool const& __cordl_internal_get__repaintPanelBeforeDisplay_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__repaintPanelBeforeDisplay_k__BackingField();
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo* const& __cordl_internal_get_m_DropdownMenuEventInfo() const;
 
@@ -214,15 +224,21 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*& __cordl_internal_get_m_MenuItems();
 
+  constexpr void __cordl_internal_set__repaintPanelBeforeDisplay_k__BackingField(bool value);
+
   constexpr void __cordl_internal_set_m_DropdownMenuEventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
   constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
 
-  /// @brief Method .ctor, addr 0x6d947bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7222420, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x6d93ed4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x7221b38, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
+
+  /// [CompilerGenerated]
+  /// @brief Method set_repaintPanelBeforeDisplay, addr 0x7221b88, size 0x8, virtual false, abstract: false, final false
+  inline void set_repaintPanelBeforeDisplay(bool value);
 
 protected:
   // Ctor Parameters []
@@ -239,13 +255,18 @@ public:
   DropdownMenu(DropdownMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4416 };
 
   /// @brief Field m_MenuItems, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* ___m_MenuItems;
 
   /// @brief Field m_DropdownMenuEventInfo, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::DropdownMenuEventInfo* ___m_DropdownMenuEventInfo;
+
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field <repaintPanelBeforeDisplay>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____repaintPanelBeforeDisplay_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -254,6 +275,8 @@ static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu, ___m_MenuItems) 
 
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu, ___m_DropdownMenuEventInfo) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::DropdownMenu) == 0x20, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DropdownMenu, ____repaintPanelBeforeDisplay_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::DropdownMenu) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -68,6 +68,9 @@ public:
   /// @brief Method EnableFoveatedRasterization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EnableFoveatedRasterization(bool value);
 
+  /// @brief Method GenerateDebugData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void GenerateDebugData(bool value);
+
   /// @brief Method SetGlobalTextureAfterPass, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetGlobalTextureAfterPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input, int32_t propertyId);
 
@@ -95,7 +98,7 @@ public:
   IBaseRenderGraphBuilder(IBaseRenderGraphBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

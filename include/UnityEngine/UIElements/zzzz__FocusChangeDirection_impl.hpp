@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(&::UnityEngine::UIElements::FocusChangeDirection::get_unspecified)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da7f44;
+  constexpr static std::size_t addrs = 0x72380c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusChangeDirection*>(), { "get_unspecified", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(&::UnityEngine::UIElements::FocusChangeDirection::get_none)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da7fa0;
+  constexpr static std::size_t addrs = 0x723811c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusChangeDirection*>(), { "get_none", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusChangeDirection* (*)()>(&::UnityEngine::UIElements::FocusChangeDirection::get_lastValue)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da7ffc;
+  constexpr static std::size_t addrs = 0x7238178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusChangeDirection*>(), { "get_lastValue", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusChangeDirection::*)(int32_t)>(&::UnityEngine::UIElements::FocusChangeDirection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da8058;
+  constexpr static std::size_t addrs = 0x72381d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UIElements::FocusChangeDirection*)>(&::UnityEngine::UIElements::FocusChangeDirection::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6da8060;
+  constexpr static std::size_t addrs = 0x72381dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FocusChangeDirection*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusChangeDirection::*)()>(&::UnityEngine::UIElements::FocusChangeDirection::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6da806c;
+  constexpr static std::size_t addrs = 0x72381e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusChangeDirection::*)()>(&::UnityEngine::UIElements::FocusChangeDirection::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6da8078;
+  constexpr static std::size_t addrs = 0x72381f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FocusChangeDirection::*)(::UnityEngine::UIElements::FocusController*, ::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::FocusChangeDirection::ApplyTo)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6da807c;
+  constexpr static std::size_t addrs = 0x72381f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_leadingCharacters(::System::Collections::Generic::HashSet_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x699d9c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da4d90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   TMP_Settings_LineBreakingTable(TMP_Settings_LineBreakingTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16191 };
 
   /// @brief Field leadingCharacters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<uint32_t>* ___leadingCharacters;
@@ -249,30 +249,30 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::TMPro::TMP_Settings> s_Instance;
 
-  /// @brief Method GetCharacters, addr 0x699d9c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x6da4d94, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
-  /// @brief Method GetFontAsset, addr 0x699d784, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x6da4b50, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> GetFontAsset();
 
-  /// @brief Method GetSettings, addr 0x699d6cc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetSettings, addr 0x6da4a98, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> GetSettings();
 
-  /// @brief Method GetSpriteAsset, addr 0x699d844, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteAsset, addr 0x6da4c10, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_SpriteAsset> GetSpriteAsset();
 
-  /// @brief Method GetStyleSheet, addr 0x699d904, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetStyleSheet, addr 0x6da4cd0, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_StyleSheet> GetStyleSheet();
 
-  /// @brief Method LoadDefaultSettings, addr 0x699d590, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method LoadDefaultSettings, addr 0x6da495c, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> LoadDefaultSettings();
 
-  /// @brief Method LoadLinebreakingRules, addr 0x699d2c8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadLinebreakingRules, addr 0x6da4694, size 0x16c, virtual false, abstract: false, final false
   static inline void LoadLinebreakingRules();
 
   static inline ::TMPro::TMP_Settings* New_ctor();
 
-  /// @brief Method SetAssetVersion, addr 0x699bf0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetAssetVersion, addr 0x6da32d8, size 0x64, virtual false, abstract: false, final false
   inline void SetAssetVersion();
 
   constexpr ::StringW const& __cordl_internal_get_assetVersion() const;
@@ -491,159 +491,159 @@ public:
 
   constexpr void __cordl_internal_set_m_warningsDisabled(bool value);
 
-  /// @brief Method .ctor, addr 0x699dabc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da4e88, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_CurrentAssetVersion();
 
   static inline ::UnityW<::TMPro::TMP_Settings> getStaticF_s_Instance();
 
-  /// @brief Method get_autoSizeTextContainer, addr 0x699c9d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_autoSizeTextContainer, addr 0x6da3d9c, size 0x60, virtual false, abstract: false, final false
   static inline bool get_autoSizeTextContainer();
 
-  /// @brief Method get_clearDynamicDataOnBuild, addr 0x699c60c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_clearDynamicDataOnBuild, addr 0x6da39d8, size 0x60, virtual false, abstract: false, final false
   static inline bool get_clearDynamicDataOnBuild();
 
-  /// @brief Method get_defaultColorGradientPresetsPath, addr 0x699cff0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultColorGradientPresetsPath, addr 0x6da43bc, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW get_defaultColorGradientPresetsPath();
 
-  /// @brief Method get_defaultFontAsset, addr 0x699c6cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontAsset, addr 0x6da3a98, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> get_defaultFontAsset();
 
-  /// @brief Method get_defaultFontAssetPath, addr 0x699c790, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontAssetPath, addr 0x6da3b5c, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW get_defaultFontAssetPath();
 
-  /// @brief Method get_defaultFontSize, addr 0x699c7f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontSize, addr 0x6da3bbc, size 0x60, virtual false, abstract: false, final false
   static inline float_t get_defaultFontSize();
 
-  /// @brief Method get_defaultSpriteAsset, addr 0x699cc7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteAsset, addr 0x6da4048, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_SpriteAsset> get_defaultSpriteAsset();
 
-  /// @brief Method get_defaultSpriteAssetPath, addr 0x699cd40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteAssetPath, addr 0x6da410c, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW get_defaultSpriteAssetPath();
 
-  /// @brief Method get_defaultStyleSheet, addr 0x699d050, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStyleSheet, addr 0x6da441c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_StyleSheet> get_defaultStyleSheet();
 
-  /// @brief Method get_defaultTextAutoSizingMaxRatio, addr 0x699c8b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextAutoSizingMaxRatio, addr 0x6da3c7c, size 0x60, virtual false, abstract: false, final false
   static inline float_t get_defaultTextAutoSizingMaxRatio();
 
-  /// @brief Method get_defaultTextAutoSizingMinRatio, addr 0x699c850, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextAutoSizingMinRatio, addr 0x6da3c1c, size 0x60, virtual false, abstract: false, final false
   static inline float_t get_defaultTextAutoSizingMinRatio();
 
-  /// @brief Method get_defaultTextMeshProTextContainerSize, addr 0x699c910, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextMeshProTextContainerSize, addr 0x6da3cdc, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_defaultTextMeshProTextContainerSize();
 
-  /// @brief Method get_defaultTextMeshProUITextContainerSize, addr 0x699c970, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextMeshProUITextContainerSize, addr 0x6da3d3c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_defaultTextMeshProUITextContainerSize();
 
-  /// @brief Method get_emojiFallbackTextAssets, addr 0x699cf2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_emojiFallbackTextAssets, addr 0x6da42f8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Asset>>* get_emojiFallbackTextAssets();
 
-  /// @brief Method get_enableEmojiSupport, addr 0x699cda0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_enableEmojiSupport, addr 0x6da416c, size 0x60, virtual false, abstract: false, final false
   static inline bool get_enableEmojiSupport();
 
-  /// @brief Method get_enableExtraPadding, addr 0x699c368, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_enableExtraPadding, addr 0x6da3734, size 0x60, virtual false, abstract: false, final false
   static inline bool get_enableExtraPadding();
 
-  /// @brief Method get_enableKerning, addr 0x699c23c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_enableKerning, addr 0x6da3608, size 0xcc, virtual false, abstract: false, final false
   static inline bool get_enableKerning();
 
-  /// @brief Method get_enableParseEscapeCharacters, addr 0x699c428, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_enableParseEscapeCharacters, addr 0x6da37f4, size 0x60, virtual false, abstract: false, final false
   static inline bool get_enableParseEscapeCharacters();
 
-  /// @brief Method get_enableRaycastTarget, addr 0x699c488, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_enableRaycastTarget, addr 0x6da3854, size 0x60, virtual false, abstract: false, final false
   static inline bool get_enableRaycastTarget();
 
-  /// @brief Method get_enableTintAllSprites, addr 0x699c3c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_enableTintAllSprites, addr 0x6da3794, size 0x60, virtual false, abstract: false, final false
   static inline bool get_enableTintAllSprites();
 
-  /// @brief Method get_fallbackFontAssets, addr 0x699caf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackFontAssets, addr 0x6da3ec4, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* get_fallbackFontAssets();
 
-  /// @brief Method get_followingCharacters, addr 0x699d1d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharacters, addr 0x6da45a0, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextAsset> get_followingCharacters();
 
-  /// @brief Method get_fontFeatures, addr 0x699c308, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_fontFeatures, addr 0x6da36d4, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* get_fontFeatures();
 
-  /// @brief Method get_getFontFeaturesAtRuntime, addr 0x699c4e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_getFontFeaturesAtRuntime, addr 0x6da38b4, size 0x60, virtual false, abstract: false, final false
   static inline bool get_getFontFeaturesAtRuntime();
 
-  /// @brief Method get_hideSubTextObjects, addr 0x699cc1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_hideSubTextObjects, addr 0x6da3fe8, size 0x60, virtual false, abstract: false, final false
   static inline bool get_hideSubTextObjects();
 
-  /// @brief Method get_instance, addr 0x699bfd0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6da339c, size 0x26c, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> get_instance();
 
-  /// @brief Method get_isTMPSettingsNull, addr 0x699d4fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_isTMPSettingsNull, addr 0x6da48c8, size 0x94, virtual false, abstract: false, final false
   static inline bool get_isTMPSettingsNull();
 
-  /// @brief Method get_isTextObjectScaleStatic, addr 0x699ca30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isTextObjectScaleStatic, addr 0x6da3dfc, size 0x60, virtual false, abstract: false, final false
   static inline bool get_isTextObjectScaleStatic();
 
-  /// @brief Method get_leadingCharacters, addr 0x699d174, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharacters, addr 0x6da4540, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextAsset> get_leadingCharacters();
 
-  /// @brief Method get_linebreakingRules, addr 0x699d234, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_linebreakingRules, addr 0x6da4600, size 0x94, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Settings_LineBreakingTable* get_linebreakingRules();
 
-  /// @brief Method get_matchMaterialPreset, addr 0x699cbbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_matchMaterialPreset, addr 0x6da3f88, size 0x60, virtual false, abstract: false, final false
   static inline bool get_matchMaterialPreset();
 
-  /// @brief Method get_missingCharacterSpriteUnicode, addr 0x699ce68, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_missingCharacterSpriteUnicode, addr 0x6da4234, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t get_missingCharacterSpriteUnicode();
 
-  /// @brief Method get_missingGlyphCharacter, addr 0x699c548, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_missingGlyphCharacter, addr 0x6da3914, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_missingGlyphCharacter();
 
-  /// @brief Method get_styleSheetsResourcePath, addr 0x699d114, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheetsResourcePath, addr 0x6da44e0, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW get_styleSheetsResourcePath();
 
-  /// @brief Method get_textWrappingMode, addr 0x699bf70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_textWrappingMode, addr 0x6da333c, size 0x60, virtual false, abstract: false, final false
   static inline ::TMPro::TextWrappingModes get_textWrappingMode();
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x699d434, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x6da4800, size 0x60, virtual false, abstract: false, final false
   static inline bool get_useModernHangulLineBreakingRules();
 
-  /// @brief Method get_version, addr 0x699bec8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6da3294, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW get_version();
 
-  /// @brief Method get_warningsDisabled, addr 0x699c66c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_warningsDisabled, addr 0x6da3a38, size 0x60, virtual false, abstract: false, final false
   static inline bool get_warningsDisabled();
 
   static inline void setStaticF_s_CurrentAssetVersion(::StringW value);
 
   static inline void setStaticF_s_Instance(::UnityW<::TMPro::TMP_Settings> value);
 
-  /// @brief Method set_defaultFontAsset, addr 0x699c72c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_defaultFontAsset, addr 0x6da3af8, size 0x64, virtual false, abstract: false, final false
   static inline void set_defaultFontAsset(::TMPro::TMP_FontAsset* value);
 
-  /// @brief Method set_defaultSpriteAsset, addr 0x699ccdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSpriteAsset, addr 0x6da40a8, size 0x64, virtual false, abstract: false, final false
   static inline void set_defaultSpriteAsset(::TMPro::TMP_SpriteAsset* value);
 
-  /// @brief Method set_defaultStyleSheet, addr 0x699d0b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_defaultStyleSheet, addr 0x6da447c, size 0x64, virtual false, abstract: false, final false
   static inline void set_defaultStyleSheet(::TMPro::TMP_StyleSheet* value);
 
-  /// @brief Method set_emojiFallbackTextAssets, addr 0x699cf8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_emojiFallbackTextAssets, addr 0x6da4358, size 0x64, virtual false, abstract: false, final false
   static inline void set_emojiFallbackTextAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Asset>>* value);
 
-  /// @brief Method set_enableEmojiSupport, addr 0x699ce00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_enableEmojiSupport, addr 0x6da41cc, size 0x68, virtual false, abstract: false, final false
   static inline void set_enableEmojiSupport(bool value);
 
-  /// @brief Method set_fallbackFontAssets, addr 0x699cb58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackFontAssets, addr 0x6da3f24, size 0x64, virtual false, abstract: false, final false
   static inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  /// @brief Method set_isTextObjectScaleStatic, addr 0x699ca90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_isTextObjectScaleStatic, addr 0x6da3e5c, size 0x68, virtual false, abstract: false, final false
   static inline void set_isTextObjectScaleStatic(bool value);
 
-  /// @brief Method set_missingCharacterSpriteUnicode, addr 0x699cec8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_missingCharacterSpriteUnicode, addr 0x6da4294, size 0x64, virtual false, abstract: false, final false
   static inline void set_missingCharacterSpriteUnicode(uint32_t value);
 
-  /// @brief Method set_missingGlyphCharacter, addr 0x699c5a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_missingGlyphCharacter, addr 0x6da3974, size 0x64, virtual false, abstract: false, final false
   static inline void set_missingGlyphCharacter(int32_t value);
 
-  /// @brief Method set_useModernHangulLineBreakingRules, addr 0x699d494, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_useModernHangulLineBreakingRules, addr 0x6da4860, size 0x68, virtual false, abstract: false, final false
   static inline void set_useModernHangulLineBreakingRules(bool value);
 
 protected:
@@ -661,7 +661,7 @@ public:
   TMP_Settings(TMP_Settings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16192 };
 
   /// [SerializeField]
   /// @brief Field assetVersion, offset: 0x18, size: 0x8, def value: None

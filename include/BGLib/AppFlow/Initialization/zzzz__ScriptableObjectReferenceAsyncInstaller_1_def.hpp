@@ -76,7 +76,7 @@ public:
                                                                                             ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22287 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -156,7 +156,7 @@ public:
   ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22288 };
 
   /// @brief Field _operationHandle, offset: 0x38, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ____operationHandle;

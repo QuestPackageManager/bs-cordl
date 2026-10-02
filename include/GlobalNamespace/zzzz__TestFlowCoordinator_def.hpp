@@ -37,7 +37,7 @@ public:
   /// @brief Field _viewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController)) ::UnityW<::HMUI::ViewController> _viewController;
 
-  /// @brief Method DidActivate, addr 0x5939e90, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d54594, size 0x24, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::TestFlowCoordinator* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x5939eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d545b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   TestFlowCoordinator(TestFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6981 };
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]

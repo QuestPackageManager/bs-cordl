@@ -61,25 +61,25 @@ public:
 
   static inline ::GlobalNamespace::LightWithIdMonoBehaviour* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x586f224, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c84968, size 0x88, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x586f194, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c848d8, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterLight, addr 0x586f198, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x5c848dc, size 0x88, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method SetLightId, addr 0x586f2ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetLightId, addr 0x5c849f0, size 0xb4, virtual false, abstract: false, final false
   inline void SetLightId(int32_t newLightId);
 
-  /// @brief Method Start, addr 0x586f220, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5c84964, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method __SetIsRegistered, addr 0x586f180, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method __SetIsRegistered, addr 0x5c848c4, size 0xc, virtual true, abstract: false, final true
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered, addr 0x586f18c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method __SetIsUnRegistered, addr 0x5c848d0, size 0x8, virtual true, abstract: false, final true
   inline void __SetIsUnRegistered();
 
   constexpr int32_t const& __cordl_internal_get__ID() const;
@@ -112,19 +112,19 @@ public:
 
   constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method .ctor, addr 0x586c314, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c824e8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_elementId, addr 0x586f170, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_elementId, addr 0x5c848b4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_elementId();
 
-  /// @brief Method get_groupId, addr 0x586f168, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x5c848ac, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_isRegistered, addr 0x586f178, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isRegistered, addr 0x5c848bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isRegistered();
 
-  /// @brief Method get_lightId, addr 0x586f160, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lightId, addr 0x5c848a4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_lightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightWithId"
@@ -145,7 +145,7 @@ public:
   LightWithIdMonoBehaviour(LightWithIdMonoBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19966 };
 
   /// [SerializeField]
   /// @brief Field _ID, offset: 0x20, size: 0x4, def value: None

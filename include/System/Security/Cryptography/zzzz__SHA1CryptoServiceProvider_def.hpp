@@ -28,19 +28,19 @@ public:
   /// @brief Field sha, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_sha, put = __cordl_internal_set_sha)) ::System::Security::Cryptography::SHA1Internal* sha;
 
-  /// @brief Method Dispose, addr 0x5b11078, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5f28f70, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5b11028, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5f28f20, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HashCore, addr 0x5b11088, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x5f28f80, size 0x20, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x5b110a8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x5f28fa0, size 0x1c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> HashFinal();
 
-  /// @brief Method Initialize, addr 0x5b110c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f28fbc, size 0x14, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* New_ctor();
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_sha(::System::Security::Cryptography::SHA1Internal* value);
 
-  /// @brief Method .ctor, addr 0x5b10fc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f28ec0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

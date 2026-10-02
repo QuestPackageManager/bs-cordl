@@ -60,7 +60,7 @@ public:
   constexpr ProbeVolumePerSceneData_ObsoletePerScenarioData(int32_t sceneHash, ::UnityW<::UnityEngine::TextAsset> cellDataAsset, ::UnityW<::UnityEngine::TextAsset> cellOptionalDataAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -102,7 +102,7 @@ public:
   constexpr ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem(::StringW scenario, ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -158,30 +158,30 @@ public:
   /// @brief Field serializedBakingSet, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_serializedBakingSet, put = __cordl_internal_set_serializedBakingSet)) ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> serializedBakingSet;
 
-  /// @brief Method Clear, addr 0x67969d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6bb1ae0, size 0x18, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Initialize, addr 0x6796d54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bb1e64, size 0xc0, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::Rendering::ProbeVolumePerSceneData* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6796c98, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6bb1da8, size 0xb8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6796be8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6bb1cf8, size 0xb0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6796d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6bb1e60, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method QueueSceneLoading, addr 0x6796ae8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QueueSceneLoading, addr 0x6bb1bf8, size 0x100, virtual false, abstract: false, final false
   inline void QueueSceneLoading();
 
-  /// @brief Method QueueSceneRemoval, addr 0x67969e8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QueueSceneRemoval, addr 0x6bb1af8, size 0x100, virtual false, abstract: false, final false
   inline void QueueSceneRemoval();
 
-  /// @brief Method ResolveCellData, addr 0x6796e14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ResolveCellData, addr 0x6bb1f24, size 0xa4, virtual false, abstract: false, final false
   inline bool ResolveCellData();
 
   constexpr ::UnityW<::UnityEngine::Rendering::ObsoleteProbeVolumeAsset> const& __cordl_internal_get_obsoleteAsset() const;
@@ -222,10 +222,10 @@ public:
 
   constexpr void __cordl_internal_set_serializedBakingSet(::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> value);
 
-  /// @brief Method .ctor, addr 0x6796eb0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb1fc8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakingSet, addr 0x67969c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakingSet, addr 0x6bb1ad8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> get_bakingSet();
 
 protected:
@@ -243,7 +243,7 @@ public:
   ProbeVolumePerSceneData(ProbeVolumePerSceneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9019 };
 
   /// [SerializeField]
   /// [FormerlySerializedAs("bakingSet")]

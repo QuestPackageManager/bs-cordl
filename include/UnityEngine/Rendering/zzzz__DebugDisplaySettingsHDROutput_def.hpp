@@ -158,7 +158,7 @@ public:
   DebugDisplaySettingsHDROutput_Strings(DebugDisplaySettingsHDROutput_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,34 +179,34 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__0, addr 0x675af10, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__0, addr 0x6b71880, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__0();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__1, addr 0x675af48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__1, addr 0x6b718b8, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__1();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__2, addr 0x675af80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__2, addr 0x6b718f0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__2();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__3, addr 0x675b040, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__3, addr 0x6b719b0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__3();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__4, addr 0x675b100, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__4, addr 0x6b71a70, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__4();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__5, addr 0x675b1ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__5, addr 0x6b71b1c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__5();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__6, addr 0x675b254, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__6, addr 0x6b71bc4, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__6();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__7, addr 0x675b300, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__7, addr 0x6b71c70, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__7();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__8, addr 0x675b3ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__8, addr 0x6b71d1c, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__8();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__9, addr 0x675b458, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__9, addr 0x6b71dc8, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__9();
 
   constexpr ::UnityEngine::HDROutputSettings* const& __cordl_internal_get_d() const;
@@ -215,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_d(::UnityEngine::HDROutputSettings* value);
 
-  /// @brief Method .ctor, addr 0x675af0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
   DebugDisplaySettingsHDROutput___c__DisplayClass1_0(DebugDisplaySettingsHDROutput___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8814 };
 
   /// @brief Field d, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::HDROutputSettings* ___d;
@@ -257,12 +257,12 @@ public:
 
   using __c__DisplayClass1_0 = ::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0;
 
-  /// @brief Method CreateHDROuputDisplayTable, addr 0x67594cc, size 0xca0, virtual false, abstract: false, final false
+  /// @brief Method CreateHDROuputDisplayTable, addr 0x6b7090c, size 0xc74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Table* CreateHDROuputDisplayTable();
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsHDROutput* New_ctor();
 
-  /// @brief Method .ctor, addr 0x675a16c, size 0xa8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71684, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -280,7 +280,7 @@ public:
   DebugDisplaySettingsHDROutput(DebugDisplaySettingsHDROutput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -76,9 +76,6 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 struct TouchScreenKeyboardType;
 }
 namespace UnityEngine {
@@ -285,7 +282,7 @@ public:
   TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4233 };
 
   /// @brief Field m_MaxLength, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_MaxLength;
@@ -348,10 +345,10 @@ template <typename TValueType>
 class CORDL_TYPE TextInputBaseField_1_TextInputBase : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
-  /// @brief Field <isDragging>k__BackingField, offset 0x4c0, size 0x1
+  /// @brief Field <isDragging>k__BackingField, offset 0x2e0, size 0x1
   __declspec(property(get = __cordl_internal_get__isDragging_k__BackingField, put = __cordl_internal_set__isDragging_k__BackingField)) bool _isDragging_k__BackingField;
 
-  /// @brief Field <textElement>k__BackingField, offset 0x4a8, size 0x8
+  /// @brief Field <textElement>k__BackingField, offset 0x2c8, size 0x8
   __declspec(property(get = __cordl_internal_get__textElement_k__BackingField,
                       put = __cordl_internal_set__textElement_k__BackingField)) ::UnityEngine::UIElements::TextElement* _textElement_k__BackingField;
 
@@ -379,21 +376,21 @@ public:
 
   __declspec(property(put = set_isDragging)) bool isDragging;
 
-  /// @brief Field lastCursorPos, offset 0x4d0, size 0x8
+  /// @brief Field lastCursorPos, offset 0x2f0, size 0x8
   __declspec(property(get = __cordl_internal_get_lastCursorPos, put = __cordl_internal_set_lastCursorPos)) ::UnityEngine::Vector2 lastCursorPos;
 
-  /// @brief Field m_ScrollViewWasClamped, offset 0x4cc, size 0x1
+  /// @brief Field m_ScrollViewWasClamped, offset 0x2ec, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ScrollViewWasClamped, put = __cordl_internal_set_m_ScrollViewWasClamped)) bool m_ScrollViewWasClamped;
 
-  /// @brief Field multilineContainer, offset 0x4b8, size 0x8
+  /// @brief Field multilineContainer, offset 0x2d8, size 0x8
   __declspec(property(get = __cordl_internal_get_multilineContainer, put = __cordl_internal_set_multilineContainer)) ::UnityEngine::UIElements::VisualElement* multilineContainer;
 
   __declspec(property(get = get_originalText)) ::StringW originalText;
 
-  /// @brief Field scrollOffset, offset 0x4c4, size 0x8
+  /// @brief Field scrollOffset, offset 0x2e4, size 0x8
   __declspec(property(get = __cordl_internal_get_scrollOffset, put = __cordl_internal_set_scrollOffset)) ::UnityEngine::Vector2 scrollOffset;
 
-  /// @brief Field scrollView, offset 0x4b0, size 0x8
+  /// @brief Field scrollView, offset 0x2d0, size 0x8
   __declspec(property(get = __cordl_internal_get_scrollView, put = __cordl_internal_set_scrollView)) ::UnityEngine::UIElements::ScrollView* scrollView;
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
@@ -408,7 +405,7 @@ public:
   __declspec(property(get = getStaticF_verticalHorizontalVariantInnerTextElementUssClassName,
                       put = setStaticF_verticalHorizontalVariantInnerTextElementUssClassName)) ::StringW verticalHorizontalVariantInnerTextElementUssClassName;
 
-  /// @brief Field verticalScrollerVisibility, offset 0x4d8, size 0x4
+  /// @brief Field verticalScrollerVisibility, offset 0x2f8, size 0x4
   __declspec(property(get = __cordl_internal_get_verticalScrollerVisibility,
                       put = __cordl_internal_set_verticalScrollerVisibility)) ::UnityEngine::UIElements::ScrollerVisibility verticalScrollerVisibility;
 
@@ -607,34 +604,34 @@ public:
   TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <textElement>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
+  /// @brief Field <textElement>k__BackingField, offset: 0x2c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ____textElement_k__BackingField;
 
-  /// @brief Field scrollView, offset: 0x4b0, size: 0x8, def value: None
+  /// @brief Field scrollView, offset: 0x2d0, size: 0x8, def value: None
   ::UnityEngine::UIElements::ScrollView* ___scrollView;
 
-  /// @brief Field multilineContainer, offset: 0x4b8, size: 0x8, def value: None
+  /// @brief Field multilineContainer, offset: 0x2d8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___multilineContainer;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <isDragging>k__BackingField, offset: 0x4c0, size: 0x1, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <isDragging>k__BackingField, offset: 0x2e0, size: 0x1, def value: None
   bool ____isDragging_k__BackingField;
 
-  /// @brief Field scrollOffset, offset: 0x4c4, size: 0x8, def value: None
+  /// @brief Field scrollOffset, offset: 0x2e4, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___scrollOffset;
 
-  /// @brief Field m_ScrollViewWasClamped, offset: 0x4cc, size: 0x1, def value: None
+  /// @brief Field m_ScrollViewWasClamped, offset: 0x2ec, size: 0x1, def value: None
   bool ___m_ScrollViewWasClamped;
 
-  /// @brief Field lastCursorPos, offset: 0x4d0, size: 0x8, def value: None
+  /// @brief Field lastCursorPos, offset: 0x2f0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___lastCursorPos;
 
-  /// @brief Field verticalScrollerVisibility, offset: 0x4d8, size: 0x4, def value: None
+  /// @brief Field verticalScrollerVisibility, offset: 0x2f8, size: 0x4, def value: None
   ::UnityEngine::UIElements::ScrollerVisibility ___verticalScrollerVisibility;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -660,11 +657,7 @@ public:
   /// @brief Field autoCorrectionProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_autoCorrectionProperty, put = setStaticF_autoCorrectionProperty)) ::UnityEngine::UIElements::BindingId autoCorrectionProperty;
 
-  /// @brief [CreateProperty(ReadOnly = true)]
-  __declspec(property(get = get_cursorColor)) ::UnityEngine::Color cursorColor;
-
-  /// @brief Field cursorColorProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_cursorColorProperty, put = setStaticF_cursorColorProperty)) ::UnityEngine::UIElements::BindingId cursorColorProperty;
+  __declspec(property(get = get_canSwitchToMixedValue)) bool canSwitchToMixedValue;
 
   /// @brief [CreateProperty]
   __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
@@ -702,6 +695,12 @@ public:
   /// @brief Field hidePlaceholderOnFocusProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_hidePlaceholderOnFocusProperty, put = setStaticF_hidePlaceholderOnFocusProperty)) ::UnityEngine::UIElements::BindingId hidePlaceholderOnFocusProperty;
 
+  /// @brief [CreateProperty]
+  __declspec(property(get = get_hideSoftKeyboard, put = set_hideSoftKeyboard)) bool hideSoftKeyboard;
+
+  /// @brief Field hideSoftKeyboardProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_hideSoftKeyboardProperty, put = setStaticF_hideSoftKeyboardProperty)) ::UnityEngine::UIElements::BindingId hideSoftKeyboardProperty;
+
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
@@ -732,9 +731,12 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_TextInputBase, offset 0x528, size 0x8
+  /// @brief Field m_TextInputBase, offset 0x358, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextInputBase,
                       put = __cordl_internal_set_m_TextInputBase)) ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* m_TextInputBase;
+
+  /// @brief Field m_UpdateTextFromValue, offset 0x360, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_UpdateTextFromValue, put = __cordl_internal_set_m_UpdateTextFromValue)) bool m_UpdateTextFromValue;
 
   /// @brief [CreateProperty]
   __declspec(property(get = get_maskChar, put = set_maskChar)) char16_t maskChar;
@@ -797,12 +799,6 @@ public:
   /// @brief Field selectIndexProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_selectIndexProperty, put = setStaticF_selectIndexProperty)) ::UnityEngine::UIElements::BindingId selectIndexProperty;
 
-  /// @brief [CreateProperty(ReadOnly = true)]
-  __declspec(property(get = get_selectionColor)) ::UnityEngine::Color selectionColor;
-
-  /// @brief Field selectionColorProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_selectionColorProperty, put = setStaticF_selectionColorProperty)) ::UnityEngine::UIElements::BindingId selectionColorProperty;
-
   /// @brief Field singleLineInputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_singleLineInputUssClassName, put = setStaticF_singleLineInputUssClassName)) ::StringW singleLineInputUssClassName;
 
@@ -858,6 +854,9 @@ public:
   /// @brief Method OnPlaceholderChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnPlaceholderChanged();
 
+  /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetValueWithoutNotify(TValueType newValue);
+
   /// @brief Method StringToValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType StringToValue(::StringW str);
 
@@ -880,14 +879,18 @@ public:
 
   constexpr ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*& __cordl_internal_get_m_TextInputBase();
 
+  constexpr bool const& __cordl_internal_get_m_UpdateTextFromValue() const;
+
+  constexpr bool& __cordl_internal_get_m_UpdateTextFromValue();
+
   constexpr void __cordl_internal_set_m_TextInputBase(::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* value);
+
+  constexpr void __cordl_internal_set_m_UpdateTextFromValue(bool value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength, char16_t maskChar, ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* textInputBase);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_autoCorrectionProperty();
-
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorColorProperty();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorIndexProperty();
 
@@ -900,6 +903,8 @@ public:
   static inline ::UnityEngine::UIElements::BindingId getStaticF_hideMobileInputProperty();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_hidePlaceholderOnFocusProperty();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_hideSoftKeyboardProperty();
 
   static inline ::StringW getStaticF_inputUssClassName();
 
@@ -937,8 +942,6 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_selectIndexProperty();
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_selectionColorProperty();
-
   static inline ::StringW getStaticF_singleLineInputUssClassName();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_textEditionProperty();
@@ -956,8 +959,8 @@ public:
   /// @brief Method get_autoCorrection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_autoCorrection();
 
-  /// @brief Method get_cursorColor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_cursorColor();
+  /// @brief Method get_canSwitchToMixedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_canSwitchToMixedValue();
 
   /// @brief Method get_cursorIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_cursorIndex();
@@ -976,6 +979,9 @@ public:
 
   /// @brief Method get_hidePlaceholderOnFocus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_hidePlaceholderOnFocus();
+
+  /// @brief Method get_hideSoftKeyboard, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_hideSoftKeyboard();
 
   /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isDelayed();
@@ -1010,9 +1016,6 @@ public:
   /// @brief Method get_selectIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method get_selectionColor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_selectionColor();
-
   /// @brief Method get_text, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
@@ -1036,8 +1039,6 @@ public:
 
   static inline void setStaticF_autoCorrectionProperty(::UnityEngine::UIElements::BindingId value);
 
-  static inline void setStaticF_cursorColorProperty(::UnityEngine::UIElements::BindingId value);
-
   static inline void setStaticF_cursorIndexProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_cursorPositionProperty(::UnityEngine::UIElements::BindingId value);
@@ -1049,6 +1050,8 @@ public:
   static inline void setStaticF_hideMobileInputProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_hidePlaceholderOnFocusProperty(::UnityEngine::UIElements::BindingId value);
+
+  static inline void setStaticF_hideSoftKeyboardProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_inputUssClassName(::StringW value);
 
@@ -1086,8 +1089,6 @@ public:
 
   static inline void setStaticF_selectIndexProperty(::UnityEngine::UIElements::BindingId value);
 
-  static inline void setStaticF_selectionColorProperty(::UnityEngine::UIElements::BindingId value);
-
   static inline void setStaticF_singleLineInputUssClassName(::StringW value);
 
   static inline void setStaticF_textEditionProperty(::UnityEngine::UIElements::BindingId value);
@@ -1119,6 +1120,9 @@ public:
 
   /// @brief Method set_hidePlaceholderOnFocus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_hidePlaceholderOnFocus(bool value);
+
+  /// @brief Method set_hideSoftKeyboard, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_hideSoftKeyboard(bool value);
 
   /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isDelayed(bool value);
@@ -1185,10 +1189,13 @@ public:
   TextInputBaseField_1(TextInputBaseField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4235 };
 
-  /// @brief Field m_TextInputBase, offset: 0x528, size: 0x8, def value: None
+  /// @brief Field m_TextInputBase, offset: 0x358, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* ___m_TextInputBase;
+
+  /// @brief Field m_UpdateTextFromValue, offset: 0x360, size: 0x1, def value: None
+  bool ___m_UpdateTextFromValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

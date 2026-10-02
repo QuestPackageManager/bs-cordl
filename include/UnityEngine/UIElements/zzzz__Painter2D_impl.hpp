@@ -2,9 +2,11 @@
 // IWYU pragma private; include "UnityEngine/UIElements/Painter2D.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__FillGradient_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SafeHandleAccess_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TempMeshAllocator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UnsafeMeshGenerationNode_impl.hpp"
@@ -16,11 +18,17 @@
 #include "UnityEngine/UIElements/UIR/zzzz__DetachedAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshGenerationCallback_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Painter2D_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 // Ctor Parameters [CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "snapshotIndex", ty:
-// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJobData::Painter2D_Painter2DJobData(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, int32_t snapshotIndex) noexcept {
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vectorImagePtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "texturePtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJobData::Painter2D_Painter2DJobData(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, int32_t snapshotIndex,
+                                                                                            ::System::IntPtr vectorImagePtr, ::System::IntPtr texturePtr) noexcept {
   this->node = node;
   this->snapshotIndex = snapshotIndex;
+  this->vectorImagePtr = vectorImagePtr;
+  this->texturePtr = texturePtr;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJobData::Painter2D_Painter2DJobData() {}
@@ -28,8 +36,8 @@ constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJobData::Painter2D_Paint
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D_Painter2DJob::*)(int32_t)>(&::UnityEngine::UIElements::Painter2D_Painter2DJob::Execute)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x6dd6a64;
+  constexpr static std::size_t size = 0x3bc;
+  constexpr static std::size_t addrs = 0x7275c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,8 +73,8 @@ constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJob::Painter2D_Painter2D
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(Il2CppObject*)>(&::UnityEngine::UIElements::Painter2D::_ctor)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6dd5078;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x7274038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,8 +86,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)()>(&::UnityEngine::UIElements::Painter2D::_ctor)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6dd648c;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x727539c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { ".ctor", {}, {} })));
@@ -90,8 +98,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)()>(&::UnityEngine::UIElements::Painter2D::Reset)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6dd5784;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x7274688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { "Reset", {}, {} })));
@@ -103,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)()>(&::UnityEngine::UIElements::Painter2D::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6dd5908;
+  constexpr static std::size_t addrs = 0x7274870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { "Dispose", {}, {} })));
@@ -114,8 +122,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(bool)>(&::UnityEngine::UIElements::Painter2D::Dispose)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6dd6618;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x7275540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
@@ -127,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::UIElements::Painter2D::set_isPainterActive)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dd66d8;
+  constexpr static std::size_t addrs = 0x727579c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,8 +147,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityE
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(Il2CppObject*)>(&::UnityEngine::UIElements::Painter2D::ScheduleJobs)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6dd673c;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x7275800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,8 +160,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(Il2CppObject*, ::System::Object*)>(&::UnityEngine::UIElements::Painter2D::OnMeshGeneration)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6dd6960;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x7275a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(),
@@ -197,6 +205,54 @@ constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_Handle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Handle = value;
 }
+constexpr ::UnityEngine::UIElements::FillGradient& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedFillGradient() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedFillGradient;
+}
+constexpr ::UnityEngine::UIElements::FillGradient const& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedFillGradient() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedFillGradient;
+}
+constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_CachedFillGradient(::UnityEngine::UIElements::FillGradient value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CachedFillGradient = value;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D>& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedFillTexture() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedFillTexture;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D> const& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedFillTexture() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedFillTexture;
+}
+constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_CachedFillTexture(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CachedFillTexture = value;
+}
+constexpr ::UnityEngine::UIElements::FillGradient& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedStrokeFillGradient() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedStrokeFillGradient;
+}
+constexpr ::UnityEngine::UIElements::FillGradient const& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedStrokeFillGradient() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedStrokeFillGradient;
+}
+constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_CachedStrokeFillGradient(::UnityEngine::UIElements::FillGradient value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CachedStrokeFillGradient = value;
+}
+constexpr ::System::Collections::Generic::List_1<float_t>*& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedDashPattern() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedDashPattern;
+}
+constexpr ::System::Collections::Generic::List_1<float_t>* const& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_CachedDashPattern() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedDashPattern;
+}
+constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_CachedDashPattern(::System::Collections::Generic::List_1<float_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CachedDashPattern = value;
+}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>*& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_JobSnapshots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_JobSnapshots;
@@ -208,6 +264,18 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Pain
 constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_JobSnapshots(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_JobSnapshots = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::VectorImage>>*& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_VectorImageToRelease() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VectorImageToRelease;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::VectorImage>>* const& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_VectorImageToRelease() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VectorImageToRelease;
+}
+constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_VectorImageToRelease(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::VectorImage>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_VectorImageToRelease = value;
 }
 constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>& UnityEngine::UIElements::Painter2D::__cordl_internal_get_m_JobParameters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -245,6 +313,12 @@ constexpr void UnityEngine::UIElements::Painter2D::__cordl_internal_set_m_OnMesh
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OnMeshGenerationDelegate = value;
 }
+inline void UnityEngine::UIElements::Painter2D::setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::Painter2D*>(std::forward<::Unity::Collections::MemoryLabel>(value));
+}
+inline ::Unity::Collections::MemoryLabel UnityEngine::UIElements::Painter2D::getStaticF_k_MemoryLabel() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::Painter2D*>();
+}
 inline void UnityEngine::UIElements::Painter2D::setStaticF__isPainterActive_k__BackingField(bool value) {
   ::cordl_internals::setStaticField<bool, "<isPainterActive>k__BackingField", ::UnityEngine::UIElements::Painter2D*>(std::forward<bool>(value));
 }
@@ -262,6 +336,12 @@ inline void UnityEngine::UIElements::Painter2D::setStaticF_s_FillMarker(::Unity:
 }
 inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::Painter2D::getStaticF_s_FillMarker() {
   return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_FillMarker", ::UnityEngine::UIElements::Painter2D*>();
+}
+inline void UnityEngine::UIElements::Painter2D::setStaticF_s_ClipMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_ClipMarker", ::UnityEngine::UIElements::Painter2D*>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::Painter2D::getStaticF_s_ClipMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_ClipMarker", ::UnityEngine::UIElements::Painter2D*>();
 }
 inline void UnityEngine::UIElements::Painter2D::_ctor(Il2CppObject* ctx) {
   static auto* ___internal_method =

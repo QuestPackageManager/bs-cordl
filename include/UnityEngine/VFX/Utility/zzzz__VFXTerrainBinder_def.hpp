@@ -51,24 +51,24 @@ public:
   /// @brief Field m_Property, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::UnityEngine::VFX::Utility::ExposedProperty* m_Property;
 
-  /// @brief Method IsValid, addr 0x69e7cf8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6e25320, size 0x10c, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXTerrainBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e7cdc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e25304, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69e7cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6e2531c, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ToString, addr 0x69e7f4c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e25574, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e7e04, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x6e2542c, size 0x148, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateSubProperties, addr 0x69e7bb4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubProperties, addr 0x6e251dc, size 0x128, virtual false, abstract: false, final false
   inline void UpdateSubProperties();
 
   constexpr ::UnityW<::UnityEngine::Terrain> const& __cordl_internal_get_Terrain() const;
@@ -107,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Property(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e8048, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e25670, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Property, addr 0x69e7b74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x6e2519c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Property();
 
-  /// @brief Method set_Property, addr 0x69e7b8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x6e251b4, size 0x28, virtual false, abstract: false, final false
   inline void set_Property(::StringW value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   VFXTerrainBinder(VFXTerrainBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20273 };
 
   /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.TerrainType" })]
   /// [FormerlySerializedAs("TerrainParameter")]

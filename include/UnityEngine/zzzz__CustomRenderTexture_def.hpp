@@ -12,8 +12,8 @@ class CustomRenderTexture;
 // Write type traits
 MARK_REF_T(::UnityEngine::CustomRenderTexture*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CustomRenderTexture*, "UnityEngine", "CustomRenderTexture");
-// [NativeHeader("Runtime/Graphics/CustomRenderTexture.h")]
 // [UsedByNativeCode]
+// [NativeHeader("Runtime/Graphics/CustomRenderTexture.h")]
 // Dependencies UnityEngine.RenderTexture
 namespace UnityEngine {
 // Is value type: false
@@ -36,7 +36,7 @@ public:
   CustomRenderTexture(CustomRenderTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -5,8 +5,10 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
@@ -15,6 +17,7 @@
 #include "UnityEngine/UIElements/zzzz__IMGUIContainer_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUIElementsUtility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__EventType_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
@@ -26,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::UIElements::UIElementsUtility::get_isOSXContextualMenuPlatform)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6cb8f14;
+  constexpr static std::size_t addrs = 0x7140b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIElementsUtility::*)()>(&::UnityEngine::UIElements::UIElementsUtility::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6cb8fd0;
+  constexpr static std::size_t addrs = 0x7140bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(), { ".ctor", {}, {} })));
@@ -52,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIElementsUtility::*)()>(
     &::UnityEngine::UIElements::UIElementsUtility::UnityEngine_UIElements_IUIElementsUtility_MakeCurrentIMGUIContainerDirty)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6cb9028;
+  constexpr static std::size_t addrs = 0x7140c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIElementsUtility::*)()>(
     &::UnityEngine::UIElements::UIElementsUtility::UnityEngine_UIElements_IUIElementsUtility_TakeCapture)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cb9120;
+  constexpr static std::size_t addrs = 0x7140d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIElementsUtility::*)()>(
     &::UnityEngine::UIElements::UIElementsUtility::UnityEngine_UIElements_IUIElementsUtility_ReleaseCapture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb91f4;
+  constexpr static std::size_t addrs = 0x7140df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIElementsUtility::*)(int32_t, ::System::IntPtr, ::by_ref<bool>)>(
     &::UnityEngine::UIElements::UIElementsUtility::UnityEngine_UIElements_IUIElementsUtility_ProcessEvent)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6cb91fc;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x7140e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIElementsUtility::*)()>(
     &::UnityEngine::UIElements::UIElementsUtility::UnityEngine_UIElements_IUIElementsUtility_CleanupRoots)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cb9928;
+  constexpr static std::size_t addrs = 0x714160c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIElementsUtility::*)(::System::Exception*)>(
     &::UnityEngine::UIElements::UIElementsUtility::UnityEngine_UIElements_IUIElementsUtility_EndContainerGUIFromException)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6cb9990;
+  constexpr static std::size_t addrs = 0x7141674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::UIElements::Panel*)>(&::UnityEngine::UIElements::UIElementsUtility::RegisterCachedPanel)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6cb59b4;
+  constexpr static std::size_t addrs = 0x713d274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::UIElementsUtility::RemoveCachedPanel)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cb5bac;
+  constexpr static std::size_t addrs = 0x713d3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::by_ref<::UnityEngine::UIElements::Panel*>)>(&::UnityEngine::UIElements::UIElementsUtility::TryGetPanel)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cb5578;
+  constexpr static std::size_t addrs = 0x713c83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GUILayoutUtility_LayoutCache*, ::UnityEngine::Event*, ::UnityEngine::UIElements::IMGUIContainer*)>(
     &::UnityEngine::UIElements::UIElementsUtility::BeginContainerGUI)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x6cb9a88;
+  constexpr static std::size_t addrs = 0x714176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(),
@@ -196,8 +199,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::G
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Event*, ::UnityEngine::Rect)>(&::UnityEngine::UIElements::UIElementsUtility::EndContainerGUI)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6cb9d08;
+  constexpr static std::size_t size = 0x2d4;
+  constexpr static std::size_t addrs = 0x71419ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::Event*)>(&::UnityEngine::UIElements::UIElementsUtility::CreateEvent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cb9fb4;
+  constexpr static std::size_t addrs = 0x7141cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::Event*, ::UnityEngine::EventType)>(
     &::UnityEngine::UIElements::UIElementsUtility::CreateEvent)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x6cb5078;
+  constexpr static std::size_t addrs = 0x713c338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(&::UnityEngine::UIElements::UIElementsUtility::DoDispatch)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x6cb9328;
+  constexpr static std::size_t addrs = 0x714100c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(),
@@ -253,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>*, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::UIElementsUtility::GetAllPanels)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6cb5c34;
+  constexpr static std::size_t addrs = 0x713d100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2_Enumerator<int32_t, ::UnityEngine::UIElements::Panel*> (*)()>(
     &::UnityEngine::UIElements::UIElementsUtility::GetPanelsIterator)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6cba02c;
+  constexpr static std::size_t addrs = 0x7141d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(), { "GetPanelsIterator", {}, {} })));
@@ -283,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::UIElementsUtility::PixelsPerUnitScaleForElement)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6cba10c;
+  constexpr static std::size_t addrs = 0x7141e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,11 +300,36 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::UIElements::UIElementsUtility::ParseMenuName)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6cba1d0;
+  constexpr static std::size_t addrs = 0x7141edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(), { "ParseMenuName", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsUtility.MarkStyleSheetAsChanged
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheet*)>(&::UnityEngine::UIElements::UIElementsUtility::MarkStyleSheetAsChanged)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x7142014;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(),
+                                                                                           { "MarkStyleSheetAsChanged", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsUtility.RebuildDirtyStyleSheets
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsUtility::RebuildDirtyStyleSheets)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x71420ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(), { "RebuildDirtyStyleSheets", {}, {} })));
     return ___internal_method;
   }
 };
@@ -358,6 +386,12 @@ inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_PanelsItera
 inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* UnityEngine::UIElements::UIElementsUtility::getStaticF_s_PanelsIterationList() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>*, "s_PanelsIterationList", ::UnityEngine::UIElements::UIElementsUtility*>();
 }
+inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_testFrameUpdateCallback(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "testFrameUpdateCallback", ::UnityEngine::UIElements::UIElementsUtility*>(std::forward<::System::Action*>(value));
+}
+inline ::System::Action* UnityEngine::UIElements::UIElementsUtility::getStaticF_testFrameUpdateCallback() {
+  return ::cordl_internals::getStaticField<::System::Action*, "testFrameUpdateCallback", ::UnityEngine::UIElements::UIElementsUtility*>();
+}
 inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_RepaintProfilerMarkerName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "s_RepaintProfilerMarkerName", ::UnityEngine::UIElements::UIElementsUtility*>(std::forward<::StringW>(value));
 }
@@ -389,6 +423,36 @@ inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_Modifiers(:
 }
 inline ::ArrayW<char16_t> UnityEngine::UIElements::UIElementsUtility::getStaticF_s_Modifiers() {
   return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "s_Modifiers", ::UnityEngine::UIElements::UIElementsUtility*>();
+}
+inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_StyleSheetsRequiringRebuilding(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*, "s_StyleSheetsRequiringRebuilding",
+                                    ::UnityEngine::UIElements::UIElementsUtility*>(std::forward<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*>(value));
+}
+inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* UnityEngine::UIElements::UIElementsUtility::getStaticF_s_StyleSheetsRequiringRebuilding() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*, "s_StyleSheetsRequiringRebuilding",
+                                           ::UnityEngine::UIElements::UIElementsUtility*>();
+}
+inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_ReimportedStyleSheetsPath(::System::Collections::Generic::HashSet_1<::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<::StringW>*, "s_ReimportedStyleSheetsPath", ::UnityEngine::UIElements::UIElementsUtility*>(
+      std::forward<::System::Collections::Generic::HashSet_1<::StringW>*>(value));
+}
+inline ::System::Collections::Generic::HashSet_1<::StringW>* UnityEngine::UIElements::UIElementsUtility::getStaticF_s_ReimportedStyleSheetsPath() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<::StringW>*, "s_ReimportedStyleSheetsPath", ::UnityEngine::UIElements::UIElementsUtility*>();
+}
+inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_StyleSheetsRebuildList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*, "s_StyleSheetsRebuildList",
+                                    ::UnityEngine::UIElements::UIElementsUtility*>(std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* UnityEngine::UIElements::UIElementsUtility::getStaticF_s_StyleSheetsRebuildList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*, "s_StyleSheetsRebuildList",
+                                           ::UnityEngine::UIElements::UIElementsUtility*>();
+}
+inline void UnityEngine::UIElements::UIElementsUtility::setStaticF_s_ReimportedStyleSheetsPathList(::System::Collections::Generic::List_1<::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::StringW>*, "s_ReimportedStyleSheetsPathList", ::UnityEngine::UIElements::UIElementsUtility*>(
+      std::forward<::System::Collections::Generic::List_1<::StringW>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::StringW>* UnityEngine::UIElements::UIElementsUtility::getStaticF_s_ReimportedStyleSheetsPathList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::StringW>*, "s_ReimportedStyleSheetsPathList", ::UnityEngine::UIElements::UIElementsUtility*>();
 }
 inline bool UnityEngine::UIElements::UIElementsUtility::get_isOSXContextualMenuPlatform() {
   static auto* ___internal_method =
@@ -504,6 +568,15 @@ inline ::StringW UnityEngine::UIElements::UIElementsUtility::ParseMenuName(::Str
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(), { "ParseMenuName", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, menuName);
+}
+inline void UnityEngine::UIElements::UIElementsUtility::MarkStyleSheetAsChanged(::UnityEngine::UIElements::StyleSheet* styleSheet) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(),
+                                                                                         { "MarkStyleSheetAsChanged", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, styleSheet);
+}
+inline void UnityEngine::UIElements::UIElementsUtility::RebuildDirtyStyleSheets() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsUtility*>(), { "RebuildDirtyStyleSheets", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::UIElements::UIElementsUtility* UnityEngine::UIElements::UIElementsUtility::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIElementsUtility*>());

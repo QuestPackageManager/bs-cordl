@@ -27,6 +27,7 @@ module;
 #include "UnityEngine/VFX/VFXExpressionValues.hpp"
 #include "UnityEngine/VFX/VFXManager.hpp"
 #include "UnityEngine/VFX/VFXOutputEventArgs.hpp"
+#include "UnityEngine/VFX/VFXRenderer.hpp"
 #include "UnityEngine/VFX/VFXRuntimeResources.hpp"
 #include "UnityEngine/VFX/VFXSpace.hpp"
 #include "UnityEngine/VFX/VFXSpawnerCallbacks.hpp"

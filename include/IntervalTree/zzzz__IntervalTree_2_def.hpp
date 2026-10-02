@@ -131,7 +131,7 @@ public:
   IntervalTree_2___c(IntervalTree_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,7 +180,7 @@ public:
   IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21256 };
 
   /// [Nullable(0)]
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
@@ -233,7 +233,7 @@ public:
   IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21257 };
 
   /// [Nullable(new[] { 0, 1 })]
   /// @brief Field items, offset: 0x10, size: 0x8, def value: None
@@ -294,7 +294,7 @@ public:
   IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21258 };
 
   /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
@@ -359,7 +359,7 @@ public:
   IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21259 };
 
   /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
@@ -534,7 +534,7 @@ public:
   IntervalTree_2(IntervalTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21260 };
 
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* ___root;

@@ -27,7 +27,7 @@ class CORDL_TYPE IntrospectionExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetTypeInfo, addr 0x5b7ebf0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInfo, addr 0x5f96b44, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* type);
 
 protected:

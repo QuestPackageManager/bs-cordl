@@ -12,8 +12,8 @@ class MetalPatchShaderComputeBufferAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic*, "UnityEditor.Analytics", "MetalPatchShaderComputeBufferAnalytic");
-// [RequiredByNativeCode(GenerateProxy = true)]
 // [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -22,12 +22,12 @@ class CORDL_TYPE MetalPatchShaderComputeBufferAnalytic : public ::UnityEngine::A
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreateMetalPatchShaderComputeBufferAnalytic, addr 0x6e250c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateMetalPatchShaderComputeBufferAnalytic, addr 0x72c02ec, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* CreateMetalPatchShaderComputeBufferAnalytic();
 
   static inline ::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e25048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c0274, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   MetalPatchShaderComputeBufferAnalytic(MetalPatchShaderComputeBufferAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23286 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

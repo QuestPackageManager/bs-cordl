@@ -90,7 +90,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BurstSliderGameNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58d0ea8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce76f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,46 +190,46 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
 
-  /// @brief Method Awake, addr 0x58d030c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ce6b80, size 0x1b0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBigWasCutBySaber, addr 0x58d082c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBigWasCutBySaber, addr 0x5ce70a0, size 0x18, virtual false, abstract: false, final false
   inline void HandleBigWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCut, addr 0x58d0844, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method HandleCut, addr 0x5ce70b8, size 0x53c, virtual false, abstract: false, final false
   inline void HandleCut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec, bool allowBadCut);
 
-  /// @brief Method HandleSmallWasCutBySaber, addr 0x58d0da8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSmallWasCutBySaber, addr 0x5ce75f4, size 0x18, virtual false, abstract: false, final false
   inline void HandleSmallWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x58d0e74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x5ce76c0, size 0x20, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x58cfe7c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5ce66f0, size 0x18c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
                    float_t uniformScale);
 
-  /// @brief Method ManualUpdate, addr 0x58d07f4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5ce7068, size 0x24, virtual true, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::BurstSliderGameNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x58d0698, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x5ce6f0c, size 0xb0, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x58d0748, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x5ce6fbc, size 0xac, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method NoteDidStartJump, addr 0x58d0dc0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartJump, addr 0x5ce760c, size 0xb4, virtual true, abstract: false, final false
   inline void NoteDidStartJump();
 
-  /// @brief Method OnDestroy, addr 0x58d04bc, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ce6d30, size 0x1dc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x58d0e94, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x5ce76e0, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
-  /// @brief Method SetBigCuttableColliderSize, addr 0x58d0008, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method SetBigCuttableColliderSize, addr 0x5ce687c, size 0x304, virtual false, abstract: false, final false
   inline void SetBigCuttableColliderSize();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -310,20 +310,20 @@ public:
 
   constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
 
-  /// @brief Method .ctor, addr 0x58d0ea4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce76f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x58cfce4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x5ce6558, size 0xc0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
 
-  /// @brief Method get_gameplayType, addr 0x58cfe74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayType, addr 0x5ce66e8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
 
-  /// @brief Method get_noteMovement, addr 0x58cfe64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x5ce66d8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x58cfe6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x5ce66e0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>"
@@ -343,7 +343,7 @@ public:
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x58cfda4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x5ce6618, size 0xc0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
 
 protected:
@@ -361,7 +361,7 @@ public:
   BurstSliderGameNoteController(BurstSliderGameNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5768 };
 
   /// [SerializeField]
   /// @brief Field _bigCuttableBySaberList, offset: 0x88, size: 0x8, def value: None

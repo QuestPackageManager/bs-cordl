@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)(int32_t)>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33235fc;
+  constexpr static std::size_t addrs = 0x35ac59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33237ec;
+  constexpr static std::size_t addrs = 0x35ac78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::MoveNext)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33237f0;
+  constexpr static std::size_t addrs = 0x35ac790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332389c;
+  constexpr static std::size_t addrs = 0x35ac83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33238a4;
+  constexpr static std::size_t addrs = 0x35ac844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33238dc;
+  constexpr static std::size_t addrs = 0x35ac87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)(int32_t)>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3323658;
+  constexpr static std::size_t addrs = 0x35ac5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33238e4;
+  constexpr static std::size_t addrs = 0x35ac884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33238e8;
+  constexpr static std::size_t addrs = 0x35ac888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3323984;
+  constexpr static std::size_t addrs = 0x35ac924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1*>(),
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x332398c;
+  constexpr static std::size_t addrs = 0x35ac92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33239c4;
+  constexpr static std::size_t addrs = 0x35ac964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::System::Action*, float_t)>(&::GlobalNamespace::CoroutineHelpers::ExecuteAfterDelayCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3323598;
+  constexpr static std::size_t addrs = 0x35ac538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineHelpers*>(),
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::System::Action*)>(&::GlobalNamespace::CoroutineHelpers::ExecuteAfterFrameEnd)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3323604;
+  constexpr static std::size_t addrs = 0x35ac5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::ICoroutineStarter*, ::by_ref<::UnityEngine::Coroutine*>, ::System::Collections::IEnumerator*)>(
     &::GlobalNamespace::CoroutineHelpers::StartSingleCoroutine)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3323660;
+  constexpr static std::size_t addrs = 0x35ac600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::ICoroutineStarter*, ::by_ref<::UnityEngine::Coroutine*>)>(
     &::GlobalNamespace::CoroutineHelpers::StopSingleCoroutine)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3323728;
+  constexpr static std::size_t addrs = 0x35ac6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -91,7 +91,7 @@ public:
   FSRUtils_ShaderConstants(FSRUtils_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,24 +108,27 @@ public:
   // Declarations
   using ShaderConstants = ::UnityEngine::Rendering::FSRUtils_ShaderConstants;
 
-  /// @brief Method IsSupported, addr 0x67c2b80, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsSupported, addr 0x6bdf7d0, size 0x34, virtual false, abstract: false, final false
   static inline bool IsSupported();
 
-  /// @brief Method SetEasuConstants, addr 0x67c2a6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetEasuConstants, addr 0x6bdf6a8, size 0x14, virtual false, abstract: false, final false
   static inline void SetEasuConstants(::UnityEngine::Rendering::BaseCommandBuffer* cmd, ::UnityEngine::Vector2 inputViewportSizeInPixels, ::UnityEngine::Vector2 inputImageSizeInPixels,
                                       ::UnityEngine::Vector2 outputImageSizeInPixels);
 
-  /// @brief Method SetEasuConstants, addr 0x67c28e8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SetEasuConstants, addr 0x6bdf524, size 0x184, virtual false, abstract: false, final false
   static inline void SetEasuConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector2 inputViewportSizeInPixels, ::UnityEngine::Vector2 inputImageSizeInPixels,
                                       ::UnityEngine::Vector2 outputImageSizeInPixels);
 
-  /// @brief Method SetRcasConstants, addr 0x67c2a80, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetRcasConstants, addr 0x6bdf784, size 0x14, virtual false, abstract: false, final false
+  static inline void SetRcasConstants(::UnityEngine::Rendering::BaseCommandBuffer* cmd, float_t sharpnessStops);
+
+  /// @brief Method SetRcasConstants, addr 0x6bdf6bc, size 0xc8, virtual false, abstract: false, final false
   static inline void SetRcasConstants(::UnityEngine::Rendering::CommandBuffer* cmd, float_t sharpnessStops);
 
-  /// @brief Method SetRcasConstantsLinear, addr 0x67c2b48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRcasConstantsLinear, addr 0x6bdf798, size 0x14, virtual false, abstract: false, final false
   static inline void SetRcasConstantsLinear(::UnityEngine::Rendering::CommandBuffer* cmd, float_t sharpnessLinear);
 
-  /// @brief Method SetRcasConstantsLinear, addr 0x67c2b5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetRcasConstantsLinear, addr 0x6bdf7ac, size 0x24, virtual false, abstract: false, final false
   static inline void SetRcasConstantsLinear(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t sharpnessLinear);
 
 protected:
@@ -143,7 +146,7 @@ public:
   FSRUtils(FSRUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9157 };
 
   /// @brief Field kDefaultSharpnessLinear offset 0xffffffff size 0x4
   static constexpr float_t kDefaultSharpnessLinear{ static_cast<float_t>(0.92f) };

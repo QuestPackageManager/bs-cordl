@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3760104, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e97e4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   AudioSaveData(AudioSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15661 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

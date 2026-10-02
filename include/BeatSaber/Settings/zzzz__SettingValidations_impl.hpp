@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuest1)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x32ca498;
+  constexpr static std::size_t addrs = 0x355110c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuest2)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32ca5d0;
+  constexpr static std::size_t addrs = 0x3551244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuest3)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x32ca698;
+  constexpr static std::size_t addrs = 0x355130c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuestPro)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32ca988;
+  constexpr static std::size_t addrs = 0x35515fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, bool)>(&::BeatSaber::Settings::SettingValidations::AdjustStandalone)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32caa50;
+  constexpr static std::size_t addrs = 0x35516c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,12 +78,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatS
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatSaber::Settings::SettingValidations.AdjustStandaloneMobileGPU
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustStandaloneMobileGPU)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x355178c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingValidations*>(),
+                                                                                           { "AdjustStandaloneMobileGPU", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatSaber::Settings::SettingValidations.AdjustSettings
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, float_t)>(&::BeatSaber::Settings::SettingValidations::AdjustSettings)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32ca55c;
+  constexpr static std::size_t addrs = 0x35511d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::RoomSettings>)>(&::BeatSaber::Settings::SettingValidations::AdjustRoomSettings)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32cab18;
+  constexpr static std::size_t addrs = 0x3551818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingValidations*>(),
@@ -110,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::ControllerSettings>)>(&::BeatSaber::Settings::SettingValidations::AdjustControllerSettings)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32cab74;
+  constexpr static std::size_t addrs = 0x3551874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::SmoothCameraSettings>)>(&::BeatSaber::Settings::SettingValidations::AdjustSmoothCameraSettings)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x32cac20;
+  constexpr static std::size_t addrs = 0x3551920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::AudioSettings>, float_t)>(&::BeatSaber::Settings::SettingValidations::AdjustAudioSettings)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x32cac68;
+  constexpr static std::size_t addrs = 0x3551968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3, float_t, float_t)>(&::BeatSaber::Settings::SettingValidations::Clamp)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32cacf4;
+  constexpr static std::size_t addrs = 0x35519f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3, float_t, float_t)>(&::BeatSaber::Settings::SettingValidations::Wrap)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32cad88;
+  constexpr static std::size_t addrs = 0x3551a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::BeatSaber::Settings::SettingValidations::Wrap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32cad60;
+  constexpr static std::size_t addrs = 0x3551a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingValidations*>(),
@@ -193,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::BeatSaber::Settings::SettingValidations::Pick)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x32ca7a4;
+  constexpr static std::size_t addrs = 0x3551418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingValidations*>(),
@@ -227,6 +240,11 @@ inline void BeatSaber::Settings::SettingValidations::AdjustStandalone(::by_ref<:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingValidations*>(),
                                                            { "AdjustStandalone", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, settings, forceApplyQualityAll);
+}
+inline void BeatSaber::Settings::SettingValidations::AdjustStandaloneMobileGPU(::by_ref<::BeatSaber::Settings::Settings> settings) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingValidations*>(),
+                                                                                         { "AdjustStandaloneMobileGPU", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, settings);
 }
 inline void BeatSaber::Settings::SettingValidations::AdjustSettings(::by_ref<::BeatSaber::Settings::Settings> settings, float_t presetLatency) {
   static auto* ___internal_method =

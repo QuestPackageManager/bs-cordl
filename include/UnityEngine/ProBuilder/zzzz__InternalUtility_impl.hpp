@@ -11,6 +11,7 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0._ctor
 template <>
@@ -18,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::*)()>(
     &::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66c2b64;
+  constexpr static std::size_t addrs = 0x6acde6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::*)(char16_t)>(
     &::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::_TryParseColor_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66c2b68;
+  constexpr static std::size_t addrs = 0x6acde84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x66c25b4;
+  constexpr static std::size_t addrs = 0x6acd8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Transform*, ::UnityEngine::Mesh*, ::UnityEngine::Material*, bool)>(
     &::UnityEngine::ProBuilder::InternalUtility::MeshGameObjectWithTransform)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x66c26a0;
+  constexpr static std::size_t addrs = 0x6acd9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t)>(&::UnityEngine::ProBuilder::InternalUtility::ControlKeyString)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x66c27b4;
+  constexpr static std::size_t addrs = 0x6acdabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,12 +116,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ProBuilder::InternalUtility::TryParseColor)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x66c28d8;
+  constexpr static std::size_t addrs = 0x6acdbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(),
                                                              { "TryParseColor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::InternalUtility.GetObjectId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Object*)>(&::UnityEngine::ProBuilder::InternalUtility::GetObjectId)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6acde70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(), { "GetObjectId", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -191,6 +205,11 @@ inline T UnityEngine::ProBuilder::InternalUtility::DemandComponent(::UnityEngine
                                                                                               { "DemandComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, gameObject);
+}
+inline int32_t UnityEngine::ProBuilder::InternalUtility::GetObjectId(::UnityEngine::Object* o) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility*>(), { "GetObjectId", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, o);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::InternalUtility::InternalUtility() {}

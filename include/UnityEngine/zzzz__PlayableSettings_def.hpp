@@ -35,7 +35,7 @@ public:
                              float_t _volumeOffset_k__BackingField, double_t _triggerTimeOffset_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20301 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -50,8 +50,8 @@ public:
   /// @brief Field <scheduledTime>k__BackingField, offset: 0x8, size: 0x8, def value: None
   double_t _scheduledTime_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pitchOffset>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t _pitchOffset_k__BackingField;
 

@@ -25,11 +25,11 @@ class CORDL_TYPE ThrowHelper : public ::System::Object {
 public:
   // Declarations
   /// [DoesNotReturn]
-  /// @brief Method ThrowArgumentNullException, addr 0x6afa2e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowArgumentNullException, addr 0x6f44864, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowArgumentNullException(::System::Object* obj, ::StringW parameterName);
 
   /// [DoesNotReturn]
-  /// @brief Method ThrowNullReferenceException, addr 0x6af4468, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ThrowNullReferenceException, addr 0x6f44990, size 0x44, virtual false, abstract: false, final false
   static inline void ThrowNullReferenceException(::System::Object* obj);
 
 protected:
@@ -47,7 +47,7 @@ public:
   ThrowHelper(ThrowHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

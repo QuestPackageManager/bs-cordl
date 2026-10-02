@@ -47,39 +47,39 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Close, addr 0x5b6c6f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x5f845e8, size 0x10, virtual false, abstract: false, final false
   inline void Close();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method DangerousAddRef, addr 0x5b6c0a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DangerousAddRef, addr 0x5f83f98, size 0xbc, virtual false, abstract: false, final false
   inline void DangerousAddRef(::by_ref<bool> success);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method DangerousGetHandle, addr 0x5b6c6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousGetHandle, addr 0x5f845d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr DangerousGetHandle();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method DangerousRelease, addr 0x5b6c200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousRelease, addr 0x5f840f8, size 0x8, virtual false, abstract: false, final false
   inline void DangerousRelease();
 
-  /// @brief Method DangerousReleaseInternal, addr 0x5b6c860, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method DangerousReleaseInternal, addr 0x5f84758, size 0x154, virtual false, abstract: false, final false
   inline void DangerousReleaseInternal(bool dispose);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Dispose, addr 0x5b6c700, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f845f8, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Dispose, addr 0x5b6c710, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5f84608, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5b6c684, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5f8457c, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalDispose, addr 0x5b6c72c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InternalDispose, addr 0x5f84624, size 0xa4, virtual false, abstract: false, final false
   inline void InternalDispose();
 
-  /// @brief Method InternalFinalize, addr 0x5b6c7d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InternalFinalize, addr 0x5f846c8, size 0x14, virtual false, abstract: false, final false
   inline void InternalFinalize();
 
   /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
@@ -90,11 +90,11 @@ public:
   inline bool ReleaseHandle();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method SetHandle, addr 0x5b6c6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x5f845cc, size 0x8, virtual false, abstract: false, final false
   inline void SetHandle(::System::IntPtr handle);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method SetHandleAsInvalid, addr 0x5b6c7e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetHandleAsInvalid, addr 0x5f846dc, size 0x7c, virtual false, abstract: false, final false
   inline void SetHandleAsInvalid();
 
   constexpr bool const& __cordl_internal_get__fullyInitialized() const;
@@ -122,11 +122,11 @@ public:
   constexpr void __cordl_internal_set_handle(::System::IntPtr value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method .ctor, addr 0x5b6c5ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f844e4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method get_IsClosed, addr 0x5b6c6e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsClosed, addr 0x5f845dc, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]

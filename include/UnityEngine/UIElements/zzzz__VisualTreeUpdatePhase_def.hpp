@@ -32,7 +32,8 @@ public:
     __E_Layout = static_cast<int32_t>(0x4),
     __E_TransformClip = static_cast<int32_t>(0x5),
     __E_Repaint = static_cast<int32_t>(0x6),
-    __E_Count = static_cast<int32_t>(0x7),
+    __E_Authoring = static_cast<int32_t>(0x7),
+    __E_Count = static_cast<int32_t>(0x8),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -55,10 +56,13 @@ public:
   /// @brief Field Animation value: I32(2)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Animation;
 
+  /// @brief Field Authoring value: I32(7)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Authoring;
+
   /// @brief Field Bindings value: I32(0)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
 
-  /// @brief Field Count value: I32(7)
+  /// @brief Field Count value: I32(8)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
 
   /// @brief Field DataBinding value: I32(1)
@@ -77,7 +81,7 @@ public:
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5368 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

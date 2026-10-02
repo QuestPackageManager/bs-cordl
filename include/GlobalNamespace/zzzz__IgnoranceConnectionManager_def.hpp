@@ -228,7 +228,7 @@ public:
   static ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const Disposed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18725 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -310,7 +310,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3335738, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bec60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
@@ -332,7 +332,7 @@ public:
   IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18726 };
 
   /// @brief Field connectionRequestHandler, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectionRequestHandler* ___connectionRequestHandler;
@@ -424,7 +424,7 @@ public:
 
   constexpr void __cordl_internal_set_privateKeyPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3335744, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bec6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -442,7 +442,7 @@ public:
   IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18727 };
 
   /// @brief Field port, offset: 0x40, size: 0x4, def value: None
   int32_t ___port;
@@ -547,7 +547,7 @@ public:
 
   constexpr void __cordl_internal_set_validateCertificate(bool value);
 
-  /// @brief Method .ctor, addr 0x3335750, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bec78, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -565,7 +565,7 @@ public:
   IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18728 };
 
   /// @brief Field hostName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___hostName;
@@ -645,13 +645,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnection"
   constexpr operator ::GlobalNamespace::IConnection*() noexcept;
 
-  /// @brief Method Disconnect, addr 0x33357c0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x35bece8, size 0x20, virtual true, abstract: false, final true
   inline void Disconnect();
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection* New_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId,
                                                                                             ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
-  /// @brief Method Send, addr 0x333579c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Send, addr 0x35becc4, size 0x24, virtual true, abstract: false, final true
   inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
   constexpr ::StringW const& __cordl_internal_get__compatibilityVersion_k__BackingField() const;
@@ -690,42 +690,42 @@ public:
 
   constexpr void __cordl_internal_set_peerId(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x3334b9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35be0c4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
   /// [CompilerGenerated]
-  /// @brief Method get_compatibilityVersion, addr 0x333578c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_compatibilityVersion, addr 0x35becb4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_compatibilityVersion();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isConnectionOwner, addr 0x333577c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x35beca4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userId, addr 0x333575c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x35bec84, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userName, addr 0x333576c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x35bec94, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnection"
   constexpr ::GlobalNamespace::IConnection* i___GlobalNamespace__IConnection() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_compatibilityVersion, addr 0x3335794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compatibilityVersion, addr 0x35becbc, size 0x8, virtual false, abstract: false, final false
   inline void set_compatibilityVersion(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isConnectionOwner, addr 0x3335784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isConnectionOwner, addr 0x35becac, size 0x8, virtual false, abstract: false, final false
   inline void set_isConnectionOwner(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userId, addr 0x3335764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x35bec8c, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userName, addr 0x3335774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0x35bec9c, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
 protected:
@@ -743,7 +743,7 @@ public:
   IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18729 };
 
   /// @brief Field _connectionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IgnoranceConnectionManager* ____connectionManager;
@@ -798,7 +798,7 @@ public:
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_0* New_ctor();
 
-  /// @brief Method <DisposeAsync>b__0, addr 0x33357e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__0, addr 0x35bed0c, size 0x8, virtual false, abstract: false, final false
   inline void _DisposeAsync_b__0();
 
   constexpr ::IgnoranceCore::IgnoranceClient* const& __cordl_internal_get_client() const;
@@ -807,7 +807,7 @@ public:
 
   constexpr void __cordl_internal_set_client(::IgnoranceCore::IgnoranceClient* value);
 
-  /// @brief Method .ctor, addr 0x33357e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bed08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -825,7 +825,7 @@ public:
   IgnoranceConnectionManager___c__DisplayClass81_0(IgnoranceConnectionManager___c__DisplayClass81_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18730 };
 
   /// @brief Field client, offset: 0x10, size: 0x8, def value: None
   ::IgnoranceCore::IgnoranceClient* ___client;
@@ -851,7 +851,7 @@ public:
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_1* New_ctor();
 
-  /// @brief Method <DisposeAsync>b__1, addr 0x33357f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__1, addr 0x35bed18, size 0x8, virtual false, abstract: false, final false
   inline void _DisposeAsync_b__1();
 
   constexpr ::IgnoranceCore::IgnoranceServer* const& __cordl_internal_get_server() const;
@@ -860,7 +860,7 @@ public:
 
   constexpr void __cordl_internal_set_server(::IgnoranceCore::IgnoranceServer* value);
 
-  /// @brief Method .ctor, addr 0x33357ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bed14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -878,7 +878,7 @@ public:
   IgnoranceConnectionManager___c__DisplayClass81_1(IgnoranceConnectionManager___c__DisplayClass81_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18731 };
 
   /// @brief Field server, offset: 0x10, size: 0x8, def value: None
   ::IgnoranceCore::IgnoranceServer* ___server;
@@ -904,7 +904,7 @@ public:
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0* New_ctor();
 
-  /// @brief Method <HandleConnectionMessage>b__0, addr 0x33357f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleConnectionMessage>b__0, addr 0x35bed20, size 0x1c, virtual false, abstract: false, final false
   inline bool _HandleConnectionMessage_b__0(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection* existingConnections);
 
   constexpr ::StringW const& __cordl_internal_get_userId() const;
@@ -913,7 +913,7 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3335120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35be648, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -931,7 +931,7 @@ public:
   IgnoranceConnectionManager___c__DisplayClass85_0(IgnoranceConnectionManager___c__DisplayClass85_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18732 };
 
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___userId;
@@ -955,11 +955,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3335814, size 0x48c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35bed3c, size 0x48c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3335ca0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35bf1c8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -978,7 +978,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1025,11 +1025,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3335d0c, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35bf234, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x333613c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35bf664, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1047,7 +1047,7 @@ public:
                                                            ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1231,41 +1231,41 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// [AsyncStateMachine(typeof(IgnoranceConnectionManager::<BackgroundDisconnectSentry>d__104))]
-  /// @brief Method BackgroundDisconnectSentry, addr 0x3335684, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BackgroundDisconnectSentry, addr 0x35bebac, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BackgroundDisconnectSentry();
 
-  /// @brief Method CheckSentryState, addr 0x3333fbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CheckSentryState, addr 0x35bd4e4, size 0x24, virtual false, abstract: false, final false
   inline void CheckSentryState();
 
-  /// @brief Method Disconnect, addr 0x3334634, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x35bdb5c, size 0x1d0, virtual true, abstract: false, final true
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method DisconnectPeer, addr 0x3334f04, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x35be42c, size 0x11c, virtual false, abstract: false, final false
   inline void DisconnectPeer(uint32_t peerId, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method Dispose, addr 0x3334600, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35bdb28, size 0x34, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [AsyncStateMachine(typeof(IgnoranceConnectionManager::<DisposeAsync>d__81))]
-  /// @brief Method DisposeAsync, addr 0x333452c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x35bda54, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method GetConnection, addr 0x33352f8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetConnection, addr 0x35be820, size 0x64, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
-  /// @brief Method GetConnectionMessage, addr 0x3334994, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionMessage, addr 0x35bdebc, size 0x114, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NetDataWriter* GetConnectionMessage();
 
-  /// @brief Method HandleConnectionEvents, addr 0x3333fe0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionEvents, addr 0x35bd508, size 0x270, virtual false, abstract: false, final false
   inline void HandleConnectionEvents();
 
-  /// @brief Method HandleConnectionMessage, addr 0x3334d0c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionMessage, addr 0x35be234, size 0x1f8, virtual false, abstract: false, final false
   inline void HandleConnectionMessage(uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
-  /// @brief Method HandleDisconnectionEvents, addr 0x333446c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectionEvents, addr 0x35bd994, size 0xc0, virtual false, abstract: false, final false
   inline void HandleDisconnectionEvents();
 
-  /// @brief Method HandleIncomingEvents, addr 0x3334250, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method HandleIncomingEvents, addr 0x35bd778, size 0x21c, virtual false, abstract: false, final false
   inline void HandleIncomingEvents();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -1275,48 +1275,48 @@ public:
 
   /// [Conditional("BG_VERBOSE_LOGGING")]
   /// [Conditional("BG_MULTIPLAYER_SERVER")]
-  /// @brief Method Log, addr 0x33353e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x35be910, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW msg);
 
-  /// @brief Method LogError, addr 0x333535c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x35be884, size 0x8c, virtual false, abstract: false, final false
   static inline void LogError(::StringW msg);
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager* New_ctor();
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method PollUpdate, addr 0x3333ec8, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x35bd3f0, size 0xf4, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Send, addr 0x3334aa8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x35bdfd0, size 0xf4, virtual false, abstract: false, final false
   inline void Send(uint32_t peerId, ::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x3335134, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x35be65c, size 0xc4, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x33351f8, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x35be720, size 0x100, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
-  /// @brief Method StartBackgroundSentry, addr 0x3335474, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundSentry, addr 0x35be99c, size 0x210, virtual false, abstract: false, final false
   inline void StartBackgroundSentry();
 
-  /// @brief Method ToChannel, addr 0x3335124, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToChannel, addr 0x35be64c, size 0x10, virtual false, abstract: false, final false
   static inline uint8_t ToChannel(::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method ToDeliveryMethod, addr 0x3335114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToDeliveryMethod, addr 0x35be63c, size 0xc, virtual false, abstract: false, final false
   static inline ::BGNet::Core::DeliveryMethod ToDeliveryMethod(uint8_t channel);
 
-  /// @brief Method TryGetConnection, addr 0x3335020, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryGetConnection, addr 0x35be548, size 0xf4, virtual false, abstract: false, final false
   inline bool TryGetConnection(uint32_t peerId, ::by_ref<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*> connection);
 
-  /// @brief Method TryParseConnectionMessage, addr 0x3334bb4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method TryParseConnectionMessage, addr 0x35be0dc, size 0x158, virtual false, abstract: false, final false
   inline bool TryParseConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::by_ref<::StringW> userId, ::by_ref<::StringW> userName, ::by_ref<bool> isConnectionOwner,
                                         ::by_ref<::StringW> compatibilityVersion);
 
-  /// @brief Method WaitForClientShutdown, addr 0x3334804, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WaitForClientShutdown, addr 0x35bdd2c, size 0xc8, virtual false, abstract: false, final false
   static inline void WaitForClientShutdown(::IgnoranceCore::IgnoranceClient* client);
 
-  /// @brief Method WaitForServerShutdown, addr 0x33348cc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WaitForServerShutdown, addr 0x35bddf4, size 0xc8, virtual false, abstract: false, final false
   static inline void WaitForServerShutdown(::IgnoranceCore::IgnoranceServer* server);
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__backgroundSentryDisconnectCts() const;
@@ -1481,76 +1481,76 @@ public:
 
   constexpr void __cordl_internal_set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method .ctor, addr 0x3333c70, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bd198, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3333d24, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bd24c, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onConnectedEvent, addr 0x33332a8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectedEvent, addr 0x35bc7d0, size 0xac, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onConnectionConnectedEvent, addr 0x3333700, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionConnectedEvent, addr 0x35bcc28, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x3333880, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x35bcda8, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onConnectionFailedEvent, addr 0x3333580, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionFailedEvent, addr 0x35bcaa8, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onDisconnectedEvent, addr 0x3333400, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onDisconnectedEvent, addr 0x35bc928, size 0xc0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onInitializedEvent, addr 0x3333150, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_onInitializedEvent, addr 0x35bc678, size 0xac, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onReceivedDataEvent, addr 0x3333a00, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onReceivedDataEvent, addr 0x35bcf28, size 0xc0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_compatibilityVersion, addr 0x3333ba0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_compatibilityVersion, addr 0x35bd0c8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_compatibilityVersion();
 
-  /// @brief Method get_connectionCount, addr 0x3333be0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_connectionCount, addr 0x35bd108, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_connectionCount();
 
-  /// @brief Method get_isConnected, addr 0x3333bb0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x35bd0d8, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting, addr 0x3333bc0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnecting, addr 0x35bd0e8, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0x3333c30, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x35bd158, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisconnecting, addr 0x3333bd0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisconnecting, addr 0x35bd0f8, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_isDisposed, addr 0x3333c40, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisposed, addr 0x35bd168, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisposed();
 
   /// [CompilerGenerated]
-  /// @brief Method get_serverUserId, addr 0x3333c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serverUserId, addr 0x35bd178, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serverUserId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_serverUserName, addr 0x3333c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serverUserName, addr 0x35bd188, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serverUserName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userId, addr 0x3333b80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x35bd0a8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userName, addr 0x3333b90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x35bd0b8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionManager"
@@ -1566,51 +1566,51 @@ public:
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onConnectedEvent, addr 0x3333354, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectedEvent, addr 0x35bc87c, size 0xac, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onConnectionConnectedEvent, addr 0x33337c0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionConnectedEvent, addr 0x35bcce8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x3333940, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x35bce68, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onConnectionFailedEvent, addr 0x3333640, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionFailedEvent, addr 0x35bcb68, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onDisconnectedEvent, addr 0x33334c0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onDisconnectedEvent, addr 0x35bc9e8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onInitializedEvent, addr 0x33331fc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_onInitializedEvent, addr 0x35bc724, size 0xac, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onReceivedDataEvent, addr 0x3333ac0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onReceivedDataEvent, addr 0x35bcfe8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_compatibilityVersion, addr 0x3333ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compatibilityVersion, addr 0x35bd0d0, size 0x8, virtual false, abstract: false, final false
   inline void set_compatibilityVersion(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_serverUserId, addr 0x3333c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_serverUserId, addr 0x35bd180, size 0x8, virtual false, abstract: false, final false
   inline void set_serverUserId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_serverUserName, addr 0x3333c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_serverUserName, addr 0x35bd190, size 0x8, virtual false, abstract: false, final false
   inline void set_serverUserName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userId, addr 0x3333b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x35bd0b0, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userName, addr 0x3333b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0x35bd0c0, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
 protected:
@@ -1628,7 +1628,7 @@ public:
   IgnoranceConnectionManager(IgnoranceConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18735 };
 
   /// @brief Field kBackgroundDisconnectTimeoutMs offset 0xffffffff size 0x8
   static constexpr int64_t kBackgroundDisconnectTimeoutMs{ static_cast<int64_t>(0x1d4c0) };

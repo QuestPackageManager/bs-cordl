@@ -81,47 +81,47 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFilePathSongAudioClipProvider"
   constexpr operator ::GlobalNamespace::IFilePathSongAudioClipProvider*() noexcept;
 
-  /// @brief Method ContainsBeatmapData, addr 0x372ac8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ContainsBeatmapData, addr 0x39b4270, size 0x18, virtual false, abstract: false, final false
   inline bool ContainsBeatmapData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// [NullableContext(2)]
-  /// @brief Method GetAudioDataString, addr 0x372abd8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetAudioDataString, addr 0x39b41b4, size 0x7c, virtual true, abstract: false, final true
   inline ::StringW GetAudioDataString();
 
-  /// @brief Method GetAudioDataStringAsync, addr 0x372a954, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method GetAudioDataStringAsync, addr 0x39b3f28, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAudioDataStringAsync();
 
   /// [NullableContext(2)]
-  /// @brief Method GetBeatmapString, addr 0x372ac54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x39b4230, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x372aa18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x39b3fec, size 0xac, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// [NullableContext(2)]
-  /// @brief Method GetDifficultyBeatmap, addr 0x372aac0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDifficultyBeatmap, addr 0x39b4098, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::FileDifficultyBeatmap* GetDifficultyBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// [NullableContext(2)]
-  /// @brief Method GetLightshowString, addr 0x372ac70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x39b4250, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method GetLightshowStringAsync, addr 0x372ab30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x39b4108, size 0xac, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method IBeatmapLevelData.ContainsBeatmapData, addr 0x372acb4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method IBeatmapLevelData.ContainsBeatmapData, addr 0x39b4298, size 0x18, virtual true, abstract: false, final true
   inline bool IBeatmapLevelData_ContainsBeatmapData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method IBeatmapLevelData.GetBeatmapString, addr 0x372acac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IBeatmapLevelData.GetBeatmapString, addr 0x39b4290, size 0x4, virtual true, abstract: false, final true
   inline ::StringW IBeatmapLevelData_GetBeatmapString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method IBeatmapLevelData.GetBeatmapStringAsync, addr 0x372aca4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IBeatmapLevelData.GetBeatmapStringAsync, addr 0x39b4288, size 0x4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* IBeatmapLevelData_GetBeatmapStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method IBeatmapLevelData.GetLightshowString, addr 0x372acb0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IBeatmapLevelData.GetLightshowString, addr 0x39b4294, size 0x4, virtual true, abstract: false, final true
   inline ::StringW IBeatmapLevelData_GetLightshowString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method IBeatmapLevelData.GetLightshowStringAsync, addr 0x372aca8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IBeatmapLevelData.GetLightshowStringAsync, addr 0x39b428c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* IBeatmapLevelData_GetLightshowStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::FileSystemBeatmapLevelData*
@@ -165,18 +165,18 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x372a948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b3f1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW audioClipPath, ::StringW audioDataPath, /* [Nullable(new[] { 1, 0, 1 })] */
                     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
                                                                  ::GlobalNamespace::FileDifficultyBeatmap*>* difficultyBeatmaps);
 
-  /// @brief Method get_name, addr 0x372a940, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_name, addr 0x39b3f14, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_name();
 
-  /// @brief Method get_songAudioClipPath, addr 0x372a938, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songAudioClipPath, addr 0x39b3f0c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songAudioClipPath();
 
-  /// @brief Method get_version, addr 0x372a930, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x39b3f04, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
@@ -200,7 +200,7 @@ public:
   FileSystemBeatmapLevelData(FileSystemBeatmapLevelData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15235 };
 
   /// @brief Field _audioClipPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____audioClipPath;

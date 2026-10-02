@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7588;
+  constexpr static std::size_t addrs = 0x6ce5af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7590;
+  constexpr static std::size_t addrs = 0x6ce5afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_blueNoise64LTex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7598;
+  constexpr static std::size_t addrs = 0x6ce5b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::set_blueNoise64LTex)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b75a0;
+  constexpr static std::size_t addrs = 0x6ce5b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_bayerMatrixTex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7610;
+  constexpr static std::size_t addrs = 0x6ce5b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::set_bayerMatrixTex)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b7618;
+  constexpr static std::size_t addrs = 0x6ce5b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_debugFontTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b7688;
+  constexpr static std::size_t addrs = 0x6ce5bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,11 +109,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::set_debugFontTexture)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b7690;
+  constexpr static std::size_t addrs = 0x6ce5bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(),
                                                                                            { "set_debugFontTexture", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures.get_stencilDitherTex
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_stencilDitherTex)> {
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x6ce5c6c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(), { "get_stencilDitherTex", {}, {} })));
     return ___internal_method;
   }
 };
@@ -123,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68b7700;
+  constexpr static std::size_t addrs = 0x6ce5dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,6 +193,18 @@ constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntime
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DebugFontTex = value;
 }
+constexpr ::UnityW<::UnityEngine::Texture2D>& UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::__cordl_internal_get_m_StencilDitherTex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StencilDitherTex;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D> const& UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::__cordl_internal_get_m_StencilDitherTex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StencilDitherTex;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::__cordl_internal_set_m_StencilDitherTex(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StencilDitherTex = value;
+}
 inline int32_t UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_version() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(), { "get_version", {}, {} })));
@@ -218,6 +244,11 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTex
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(),
                                                                                          { "set_debugFontTexture", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_stencilDitherTex() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>(), { "get_stencilDitherTex", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::_ctor() {
   static auto* ___internal_method =

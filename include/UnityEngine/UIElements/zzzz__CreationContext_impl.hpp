@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualTreeAsset*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*)>(
     &::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbc9b4;
+  constexpr static std::size_t addrs = 0x7152b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,38 +48,6 @@ constexpr ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::Cre
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::CreationContext_AttributeOverrideRange() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::*)(
-    ::UnityEngine::UIElements::VisualTreeAsset*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*, int32_t)>(
-    &::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cbc9bc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>(),
-                            { ".ctor",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::UIElements::VisualTreeAsset*>(),
-                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::_ctor(
-    ::UnityEngine::UIElements::VisualTreeAsset* sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides,
-    int32_t templateId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>(),
-                          { ".ctor",
-                            {},
-                            { ::i2c::type_of<::UnityEngine::UIElements::VisualTreeAsset*>(),
-                              ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sourceAsset, attributeOverrides, templateId);
-}
 // Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "templateId",
 // ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attributeOverrides", ty:
 // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -98,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8d98;
+  constexpr static std::size_t addrs = 0x7152478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_target", {}, {} })));
@@ -111,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::CreationContext::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8da0;
+  constexpr static std::size_t addrs = 0x7152480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::get_veaIdsPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8da8;
+  constexpr static std::size_t addrs = 0x7152488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_veaIdsPath", {}, {} })));
@@ -138,11 +106,39 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::CreationContext::set_veaIdsPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8db0;
+  constexpr static std::size_t addrs = 0x7152490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(),
                                                                                            { "set_veaIdsPath", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_templateAsset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TemplateAsset* (::UnityEngine::UIElements::CreationContext::*)()>(
+    &::UnityEngine::UIElements::CreationContext::get_templateAsset)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7152498;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_templateAsset", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.set_templateAsset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::TemplateAsset*)>(
+    &::UnityEngine::UIElements::CreationContext::set_templateAsset)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x71524a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "set_templateAsset", {}, { ::i2c::type_of<::UnityEngine::UIElements::TemplateAsset*>() } })));
     return ___internal_method;
   }
 };
@@ -152,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::get_visualTreeAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8db8;
+  constexpr static std::size_t addrs = 0x71524a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_visualTreeAsset", {}, {} })));
@@ -165,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
     &::UnityEngine::UIElements::CreationContext::set_visualTreeAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8dc0;
+  constexpr static std::size_t addrs = 0x71524b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(),
@@ -179,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* (
     ::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_slotInsertionPoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8dc8;
+  constexpr static std::size_t addrs = 0x71524b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_slotInsertionPoints", {}, {} })));
@@ -192,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*)>(&::UnityEngine::UIElements::CreationContext::set_slotInsertionPoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8dd0;
+  constexpr static std::size_t addrs = 0x71524c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* (
     ::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_attributeOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8dd8;
+  constexpr static std::size_t addrs = 0x71524c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_attributeOverrides", {}, {} })));
@@ -221,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*)>(&::UnityEngine::UIElements::CreationContext::set_attributeOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8de0;
+  constexpr static std::size_t addrs = 0x71524d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* (
     ::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_serializedDataOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8de8;
+  constexpr static std::size_t addrs = 0x71524d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_serializedDataOverrides", {}, {} })));
@@ -250,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*)>(&::UnityEngine::UIElements::CreationContext::set_serializedDataOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8df0;
+  constexpr static std::size_t addrs = 0x71524e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::get_namesPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8df8;
+  constexpr static std::size_t addrs = 0x71524e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_namesPath", {}, {} })));
@@ -280,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::UnityEngine::UIElements::CreationContext::set_namesPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc8e00;
+  constexpr static std::size_t addrs = 0x71524f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(),
@@ -293,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_hasOverrides)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6cc1bbc;
+  constexpr static std::size_t addrs = 0x71524f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_hasOverrides", {}, {} })));
@@ -306,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
     &::UnityEngine::UIElements::CreationContext::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cc5c5c;
+  constexpr static std::size_t addrs = 0x714cd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +317,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*)>(&::UnityEngine::UIElements::CreationContext::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cc8e8c;
+  constexpr static std::size_t addrs = 0x7152640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +336,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*, ::UnityEngine::UIElements::VisualTreeAsset*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::CreationContext::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6cc8e08;
+  constexpr static std::size_t addrs = 0x71525bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,8 +355,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*, ::UnityEngine::UIElements::VisualTreeAsset*,
     ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::CreationContext::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cc8f04;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x71526b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,10 +376,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*, ::UnityEngine::UIElements::VisualTreeAsset*,
-    ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<::StringW>*)>(
+    ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<::StringW>*, ::UnityEngine::UIElements::TemplateAsset*)>(
     &::UnityEngine::UIElements::CreationContext::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cbc9cc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x714cfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -394,7 +390,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                     ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>(),
                                                     ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>(),
                                                     ::i2c::type_of<::UnityEngine::UIElements::VisualTreeAsset*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                    ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::StringW>*>() } })));
+                                                    ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::StringW>*>(),
+                                                    ::i2c::type_of<::UnityEngine::UIElements::TemplateAsset*>() } })));
     return ___internal_method;
   }
 };
@@ -402,8 +399,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CreationContext::*)(::System::Object*)>(&::UnityEngine::UIElements::CreationContext::Equals)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6cc8fa4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x715275c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::CreationContext::Equals)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6cc9074;
+  constexpr static std::size_t addrs = 0x7152824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::GetHashCode)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6cc91dc;
+  constexpr static std::size_t addrs = 0x715298c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,6 +457,16 @@ inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::UIElements:
 inline void UnityEngine::UIElements::CreationContext::set_veaIdsPath(::System::Collections::Generic::List_1<int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(),
                                                                                          { "set_veaIdsPath", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::TemplateAsset* UnityEngine::UIElements::CreationContext::get_templateAsset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "get_templateAsset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TemplateAsset*>(*this, ___internal_method);
+}
+inline void UnityEngine::UIElements::CreationContext::set_templateAsset(::UnityEngine::UIElements::TemplateAsset* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), { "set_templateAsset", {}, { ::i2c::type_of<::UnityEngine::UIElements::TemplateAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> UnityEngine::UIElements::CreationContext::get_visualTreeAsset() {
@@ -560,17 +567,19 @@ inline void UnityEngine::UIElements::CreationContext::_ctor(::System::Collection
                                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides,
                                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* serializedDataOverrides,
                                                             ::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::VisualElement* target,
-                                                            ::System::Collections::Generic::List_1<int32_t>* veaIdsPath, ::System::Collections::Generic::List_1<::StringW>* namesPath) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(),
-                                              { ".ctor",
-                                                {},
-                                                { ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>(),
-                                                  ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>(),
-                                                  ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>(),
-                                                  ::i2c::type_of<::UnityEngine::UIElements::VisualTreeAsset*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
-                                                  ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::StringW>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, slotInsertionPoints, attributeOverrides, serializedDataOverrides, vta, target, veaIdsPath, namesPath);
+                                                            ::System::Collections::Generic::List_1<int32_t>* veaIdsPath, ::System::Collections::Generic::List_1<::StringW>* namesPath,
+                                                            ::UnityEngine::UIElements::TemplateAsset* ta) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CreationContext>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::VisualTreeAsset*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::StringW>*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::TemplateAsset*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, slotInsertionPoints, attributeOverrides, serializedDataOverrides, vta, target, veaIdsPath, namesPath, ta);
 }
 inline bool UnityEngine::UIElements::CreationContext::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CreationContext>(), 0 })));
@@ -594,8 +603,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* Un
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "_veaIdsPath_k__BackingField", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_visualTreeAsset_k__BackingField",
-// ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
+// "_veaIdsPath_k__BackingField", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_templateAsset_k__BackingField", ty:
+// "::UnityEngine::UIElements::TemplateAsset*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_visualTreeAsset_k__BackingField", ty:
+// "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
 // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "_attributeOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "_serializedDataOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*",
@@ -603,13 +613,14 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* Un
 // comment: None }]
 constexpr ::UnityEngine::UIElements::CreationContext::CreationContext(
     ::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::System::Collections::Generic::List_1<int32_t>* _veaIdsPath_k__BackingField,
-    ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,
+    ::UnityEngine::UIElements::TemplateAsset* _templateAsset_k__BackingField, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* _slotInsertionPoints_k__BackingField,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* _attributeOverrides_k__BackingField,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* _serializedDataOverrides_k__BackingField,
     ::System::Collections::Generic::List_1<::StringW>* _namesPath_k__BackingField) noexcept {
   this->_target_k__BackingField = _target_k__BackingField;
   this->_veaIdsPath_k__BackingField = _veaIdsPath_k__BackingField;
+  this->_templateAsset_k__BackingField = _templateAsset_k__BackingField;
   this->_visualTreeAsset_k__BackingField = _visualTreeAsset_k__BackingField;
   this->_slotInsertionPoints_k__BackingField = _slotInsertionPoints_k__BackingField;
   this->_attributeOverrides_k__BackingField = _attributeOverrides_k__BackingField;

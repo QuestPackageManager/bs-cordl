@@ -44,11 +44,11 @@ public:
   constexpr void __cordl_internal_set__ReceiverTypeName_k__BackingField(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_PropertyName, addr 0x63c6944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x67eec10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReceiverTypeName, addr 0x63c694c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverTypeName, addr 0x67eec18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ProvidePropertyAttribute(ProvidePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12223 };
 
   /// [CompilerGenerated]
   /// @brief Field <PropertyName>k__BackingField, offset: 0x10, size: 0x8, def value: None

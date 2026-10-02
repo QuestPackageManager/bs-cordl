@@ -8,6 +8,7 @@ module;
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationStatus.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/DownloadStatus.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/GetDownloadSizeOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/GroupOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/IAsyncOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/ICachable.hpp"

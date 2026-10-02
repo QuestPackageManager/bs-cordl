@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x336f8a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f8b44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_id_Ed25519();

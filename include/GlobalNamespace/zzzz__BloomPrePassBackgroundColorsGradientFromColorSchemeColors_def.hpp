@@ -87,7 +87,7 @@ public:
   static ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColor const Color1Boost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6624 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_loadFromColorScheme(bool value);
 
-  /// @brief Method .ctor, addr 0x5a269b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf5398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element(BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6623 };
 
   /// @brief Field loadFromColorScheme, offset: 0x10, size: 0x1, def value: None
   bool ___loadFromColorScheme;
@@ -221,18 +221,18 @@ public:
   __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements)) ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element*>
       _elements;
 
-  /// @brief Method HandleColorProviderDidChangeColor, addr 0x5a26eb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleColorProviderDidChangeColor, addr 0x5cf589c, size 0x4, virtual false, abstract: false, final false
   inline void HandleColorProviderDidChangeColor();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a26d7c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cf5764, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColorsToElements, addr 0x5a26ab4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method SetColorsToElements, addr 0x5cf549c, size 0x2c8, virtual false, abstract: false, final false
   inline void SetColorsToElements();
 
-  /// @brief Method Start, addr 0x5a269b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf539c, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
@@ -253,7 +253,7 @@ public:
 
   constexpr void __cordl_internal_set__elements(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element*> value);
 
-  /// @brief Method .ctor, addr 0x5a26708, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf50f0, size 0x2a8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -271,7 +271,7 @@ public:
   BloomPrePassBackgroundColorsGradientFromColorSchemeColors(BloomPrePassBackgroundColorsGradientFromColorSchemeColors const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6625 };
 
   /// [SerializeField]
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x20, size: 0x8, def value: None

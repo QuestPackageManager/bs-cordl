@@ -38,22 +38,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BindingId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>*();
 
-  /// @brief Method Equals, addr 0x6cca1dc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7154e24, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cca18c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7154dd4, size 0x50, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BindingId other);
 
-  /// @brief Method GetHashCode, addr 0x6cca2a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7154ee8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6cca184, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7154dcc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6cc9fcc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7154c14, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x6cca058, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7154ca0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_Invalid();
@@ -61,22 +61,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BindingId>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>* i___System__IEquatable_1___UnityEngine__UIElements__BindingId_();
 
-  /// @brief Method op_Equality, addr 0x6cca2a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7154ef0, size 0x50, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
 
-  /// @brief Method op_Implicit, addr 0x6cca09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7154ce4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep);
 
-  /// @brief Method op_Implicit, addr 0x6cca0a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7154cec, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x6cca12c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7154d74, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
-  /// @brief Method op_Implicit, addr 0x6cca08c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7154cd4, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep);
 
-  /// @brief Method op_Inequality, addr 0x6cca2f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x7154f40, size 0x9c, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
 
   static inline void setStaticF_Invalid(::UnityEngine::UIElements::BindingId value);
@@ -90,7 +90,7 @@ public:
   constexpr BindingId(::Unity::Properties::PropertyPath m_PropertyPath, ::StringW m_Path) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5332 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

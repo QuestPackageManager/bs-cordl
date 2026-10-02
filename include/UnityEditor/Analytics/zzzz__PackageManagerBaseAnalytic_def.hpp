@@ -14,8 +14,8 @@ class PackageManagerBaseAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::PackageManagerBaseAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::PackageManagerBaseAnalytic*, "UnityEditor.Analytics", "PackageManagerBaseAnalytic");
-// [ExcludeFromDocs]
 // [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_status_code(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6e25378, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c05a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventName);
 
 protected:
@@ -97,7 +97,7 @@ public:
   PackageManagerBaseAnalytic(PackageManagerBaseAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23290 };
 
   /// @brief Field start_ts, offset: 0x30, size: 0x8, def value: None
   int64_t ___start_ts;

@@ -110,7 +110,7 @@ public:
   static ::UnityEngine::Rendering::PowerOfTwoTextureAtlas_BlitType const PaddingMultiply;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9112 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -142,11 +142,11 @@ public:
 
   static inline ::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c* New_ctor();
 
-  /// @brief Method <RelayoutEntries>b__23_0, addr 0x67aae14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <RelayoutEntries>b__23_0, addr 0x6bc753c, size 0x80, virtual false, abstract: false, final false
   inline int32_t _RelayoutEntries_b__23_0(/* [TupleElementNames(new[] { "instanceId", "size" })] */ ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c1,
                                           /* [TupleElementNames(new[] { "instanceId", "size" })] */ ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int> c2);
 
-  /// @brief Method .ctor, addr 0x67aae10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc7538, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c* getStaticF___9();
@@ -172,7 +172,7 @@ public:
   PowerOfTwoTextureAtlas___c(PowerOfTwoTextureAtlas___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -200,71 +200,71 @@ public:
 
   __declspec(property(get = get_mipPadding)) int32_t mipPadding;
 
-  /// @brief Method AllocateTexture, addr 0x67aa31c, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method AllocateTexture, addr 0x6bc6678, size 0x1e8, virtual true, abstract: false, final false
   inline bool AllocateTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Vector4> scaleOffset, ::UnityEngine::Texture* texture, int32_t width, int32_t height,
                               int32_t overrideInstanceID);
 
-  /// @brief Method Blit2DTexture, addr 0x67a9b18, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Blit2DTexture, addr 0x6bc52f8, size 0x36c, virtual false, abstract: false, final false
   inline void Blit2DTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset, bool blitMips,
                             ::UnityEngine::Rendering::PowerOfTwoTextureAtlas_BlitType blitType);
 
-  /// @brief Method BlitOctahedralTexture, addr 0x67aa0b8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method BlitOctahedralTexture, addr 0x6bc6424, size 0x104, virtual true, abstract: false, final false
   inline void BlitOctahedralTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset,
                                     bool blitMips, int32_t overrideInstanceID);
 
-  /// @brief Method BlitOctahedralTextureMultiply, addr 0x67aa1c4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method BlitOctahedralTextureMultiply, addr 0x6bc6528, size 0x104, virtual false, abstract: false, final false
   inline void BlitOctahedralTextureMultiply(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset,
                                             bool blitMips, int32_t overrideInstanceID);
 
-  /// @brief Method BlitTexture, addr 0x67a9ea0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6bc60c8, size 0x104, virtual true, abstract: false, final false
   inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset, bool blitMips,
                           int32_t overrideInstanceID);
 
-  /// @brief Method BlitTextureMultiply, addr 0x67a9fac, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method BlitTextureMultiply, addr 0x6bc6320, size 0x104, virtual false, abstract: false, final false
   inline void BlitTextureMultiply(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset,
                                   bool blitMips, int32_t overrideInstanceID);
 
-  /// @brief Method GetApproxCacheSizeInByte, addr 0x67aabb0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetApproxCacheSizeInByte, addr 0x6bc72d8, size 0xe8, virtual false, abstract: false, final false
   static inline int64_t GetApproxCacheSizeInByte(int32_t nbElement, int32_t resolution, bool hasMipmap, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method GetMaxCacheSizeForWeightInByte, addr 0x67aac98, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetMaxCacheSizeForWeightInByte, addr 0x6bc73c0, size 0x124, virtual false, abstract: false, final false
   static inline int32_t GetMaxCacheSizeForWeightInByte(int32_t weight, bool hasMipmap, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method GetPayloadScaleOffset, addr 0x67a9984, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetPayloadScaleOffset, addr 0x6bc5164, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetPayloadScaleOffset(::UnityEngine::Texture* texture, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset);
 
-  /// @brief Method GetPayloadScaleOffset, addr 0x67a9ae0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPayloadScaleOffset, addr 0x6bc52c0, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetPayloadScaleOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> textureSize, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> paddingSize,
                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> scaleOffset);
 
-  /// @brief Method GetPowerOfTwoTextureSize, addr 0x67a9a54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPowerOfTwoTextureSize, addr 0x6bc5234, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPowerOfTwoTextureSize(::UnityEngine::Texture* texture);
 
-  /// @brief Method GetTexturePadding, addr 0x67a9954, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTexturePadding, addr 0x6bc5134, size 0x30, virtual false, abstract: false, final false
   inline int32_t GetTexturePadding();
 
   static inline ::UnityEngine::Rendering::PowerOfTwoTextureAtlas* New_ctor(int32_t size, int32_t mipPadding, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                            ::UnityEngine::FilterMode filterMode, ::StringW name, bool useMipMap);
 
-  /// @brief Method RelayoutEntries, addr 0x67aa794, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method RelayoutEntries, addr 0x6bc6e38, size 0x418, virtual false, abstract: false, final false
   inline bool RelayoutEntries();
 
-  /// @brief Method ReserveSpace, addr 0x67aa610, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReserveSpace, addr 0x6bc6b70, size 0x144, virtual false, abstract: false, final false
   inline bool ReserveSpace(int32_t id, int32_t width, int32_t height);
 
-  /// @brief Method ReserveSpace, addr 0x67aa55c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReserveSpace, addr 0x6bc6aa4, size 0x70, virtual false, abstract: false, final false
   inline bool ReserveSpace(::UnityEngine::Texture* texture);
 
-  /// @brief Method ReserveSpace, addr 0x67aa5cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReserveSpace, addr 0x6bc6b14, size 0x44, virtual false, abstract: false, final false
   inline bool ReserveSpace(::UnityEngine::Texture* texture, int32_t width, int32_t height);
 
-  /// @brief Method ReserveSpace, addr 0x67aa75c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReserveSpace, addr 0x6bc6cb4, size 0x34, virtual false, abstract: false, final false
   inline bool ReserveSpace(::UnityEngine::Texture* textureA, ::UnityEngine::Texture* textureB, int32_t width, int32_t height);
 
-  /// @brief Method ResetRequestedTexture, addr 0x67aa508, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ResetRequestedTexture, addr 0x6bc6a50, size 0x54, virtual false, abstract: false, final false
   inline void ResetRequestedTexture();
 
-  /// @brief Method TextureSizeToPowerOfTwo, addr 0x67aa2d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TextureSizeToPowerOfTwo, addr 0x6bc662c, size 0x4c, virtual false, abstract: false, final false
   inline void TextureSizeToPowerOfTwo(::UnityEngine::Texture* texture, ::by_ref<int32_t> width, ::by_ref<int32_t> height);
 
   constexpr int32_t const& __cordl_internal_get_m_MipPadding() const;
@@ -279,10 +279,10 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestedTextures(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Vector2Int>* value);
 
-  /// @brief Method .ctor, addr 0x67a9828, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc4d18, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, int32_t mipPadding, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode, ::StringW name, bool useMipMap);
 
-  /// @brief Method get_mipPadding, addr 0x67a994c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipPadding, addr 0x6bc512c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mipPadding();
 
 protected:
@@ -300,7 +300,7 @@ public:
   PowerOfTwoTextureAtlas(PowerOfTwoTextureAtlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9114 };
 
   /// @brief Field k_MipmapFactorApprox offset 0xffffffff size 0x4
   static constexpr float_t k_MipmapFactorApprox{ static_cast<float_t>(1.33f) };

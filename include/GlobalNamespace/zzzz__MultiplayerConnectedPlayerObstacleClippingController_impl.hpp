@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x59bdaa0;
+  constexpr static std::size_t addrs = 0x5dd8fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59bdbf0;
+  constexpr static std::size_t addrs = 0x5dd9124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

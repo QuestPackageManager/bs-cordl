@@ -9,7 +9,7 @@ constexpr ::UnityEngine::UIElements::UIR::EntryType::EntryType(uint16_t value__)
 constexpr ::UnityEngine::UIElements::UIR::EntryType::EntryType() {}
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawSolidMesh{ static_cast<uint16_t>(0x0u) };
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawTexturedMesh{ static_cast<uint16_t>(0x1u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawTexturedMeshSkipAtlas{ static_cast<uint16_t>(0x2u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawDynamicTexturedMesh{ static_cast<uint16_t>(0x2u) };
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawTextMesh{ static_cast<uint16_t>(0x3u) };
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawGradients{ static_cast<uint16_t>(0x4u) };
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DrawImmediate{ static_cast<uint16_t>(0x5u) };
@@ -24,9 +24,7 @@ constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PopScissors{ static_cast<uint16_t>(0xeu) };
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PushGroupMatrix{ static_cast<uint16_t>(0xfu) };
 constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PopGroupMatrix{ static_cast<uint16_t>(0x10u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PushRenderTexture{ static_cast<uint16_t>(0x11u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::BlitAndPopRenderTexture{ static_cast<uint16_t>(0x12u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PushDefaultMaterial{ static_cast<uint16_t>(0x13u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PopDefaultMaterial{ static_cast<uint16_t>(0x14u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::CutRenderChain{ static_cast<uint16_t>(0x15u) };
-constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DedicatedPlaceholder{ static_cast<uint16_t>(0x16u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PushDefaultMaterial{ static_cast<uint16_t>(0x11u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::PopDefaultMaterial{ static_cast<uint16_t>(0x12u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::CutRenderChain{ static_cast<uint16_t>(0x13u) };
+constexpr ::UnityEngine::UIElements::UIR::EntryType UnityEngine::UIElements::UIR::EntryType::DedicatedPlaceholder{ static_cast<uint16_t>(0x14u) };

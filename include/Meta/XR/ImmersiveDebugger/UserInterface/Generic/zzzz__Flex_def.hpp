@@ -51,36 +51,36 @@ public:
   /// @brief Field _sizeDelta, offset 0x6c, size 0x8
   __declspec(property(get = __cordl_internal_get__sizeDelta, put = __cordl_internal_set__sizeDelta)) ::UnityEngine::Vector2 _sizeDelta;
 
-  /// @brief Method Forget, addr 0x5a5c3e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Forget, addr 0x5e73ec0, size 0x3c, virtual false, abstract: false, final false
   inline void Forget(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
 
-  /// @brief Method ForgetAll, addr 0x5a5c460, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ForgetAll, addr 0x5e73f38, size 0x128, virtual false, abstract: false, final false
   inline void ForgetAll();
 
-  /// @brief Method IsVerticallyInViewport, addr 0x5a5c004, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsVerticallyInViewport, addr 0x5e73a74, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsVerticallyInViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller, ::UnityEngine::Rect viewportRect, ::UnityEngine::Vector2 scroll);
 
-  /// @brief Method LateUpdate, addr 0x5a5c3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5e73eb8, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex* New_ctor();
 
-  /// @brief Method RefreshLayoutPostChildren, addr 0x5a5c0a8, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPostChildren, addr 0x5e73b80, size 0x338, virtual true, abstract: false, final false
   inline void RefreshLayoutPostChildren();
 
-  /// @brief Method RefreshLayoutPreChildren, addr 0x5a5c08c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPreChildren, addr 0x5e73b64, size 0x1c, virtual true, abstract: false, final false
   inline void RefreshLayoutPreChildren();
 
-  /// @brief Method RefreshVisibilities, addr 0x5a5bd34, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisibilities, addr 0x5e73774, size 0x300, virtual false, abstract: false, final false
   inline void RefreshVisibilities(bool force);
 
-  /// @brief Method Remember, addr 0x5a5c424, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Remember, addr 0x5e73efc, size 0x3c, virtual false, abstract: false, final false
   inline void Remember(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
 
-  /// @brief Method UpdateAnchoredPosition, addr 0x5a5b934, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateAnchoredPosition, addr 0x5e73374, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateAnchoredPosition(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller, ::by_ref<::UnityEngine::Vector2> offset, ::UnityEngine::Vector2 direction);
 
-  /// @brief Method UpdateChildrenWidth, addr 0x5a5b9e4, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method UpdateChildrenWidth, addr 0x5e73424, size 0x350, virtual false, abstract: false, final false
   inline void UpdateChildrenWidth();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> const& __cordl_internal_get__ScrollViewport_k__BackingField() const;
@@ -101,21 +101,21 @@ public:
 
   constexpr void __cordl_internal_set__sizeDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5a5c588, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e74060, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ScrollViewport, addr 0x5a5b924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScrollViewport, addr 0x5e73364, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> get_ScrollViewport();
 
-  /// @brief Method get_SizeDelta, addr 0x5a5b89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SizeDelta, addr 0x5e732dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_SizeDelta();
 
-  /// @brief Method get_SizeDeltaWithMargin, addr 0x5a5b8a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_SizeDeltaWithMargin, addr 0x5e732e4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_SizeDeltaWithMargin();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ScrollViewport, addr 0x5a5b92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ScrollViewport, addr 0x5e7336c, size 0x8, virtual false, abstract: false, final false
   inline void set_ScrollViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport* value);
 
 protected:
@@ -133,7 +133,7 @@ public:
   Flex(Flex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18932 };
 
   /// @brief Field _sizeDelta, offset: 0x6c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____sizeDelta;

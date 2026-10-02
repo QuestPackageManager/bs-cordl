@@ -37,15 +37,15 @@ public:
   /// @brief Field _prevSongTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__prevSongTime, put = __cordl_internal_set__prevSongTime)) float_t _prevSongTime;
 
-  /// @brief Method LateUpdate, addr 0x58c3edc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5cda75c, size 0x1fc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
 
-  /// @brief Method Pause, addr 0x58c40d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x5cda958, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x58c40e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x5cda964, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__prevSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x58c40f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cda970, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   BeatmapCallbacksUpdater(BeatmapCallbacksUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5736 };
 
   /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None

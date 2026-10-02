@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::PlayerSpecificSettings*, float_t, ::by_ref<::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType>,
                                                                 ::by_ref<float_t>)>(&::GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpValues)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x58cae78;
+  constexpr static std::size_t addrs = 0x5ce16f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

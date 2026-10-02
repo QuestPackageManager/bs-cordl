@@ -143,6 +143,21 @@ public:
     __E_OEM4 = static_cast<int32_t>(0x6d),
     __E_OEM5 = static_cast<int32_t>(0x6e),
     __E_IMESelected = static_cast<int32_t>(0x6f),
+    __E_F13 = static_cast<int32_t>(0x70),
+    __E_F14 = static_cast<int32_t>(0x71),
+    __E_F15 = static_cast<int32_t>(0x72),
+    __E_F16 = static_cast<int32_t>(0x73),
+    __E_F17 = static_cast<int32_t>(0x74),
+    __E_F18 = static_cast<int32_t>(0x75),
+    __E_F19 = static_cast<int32_t>(0x76),
+    __E_F20 = static_cast<int32_t>(0x77),
+    __E_F21 = static_cast<int32_t>(0x78),
+    __E_F22 = static_cast<int32_t>(0x79),
+    __E_F23 = static_cast<int32_t>(0x7a),
+    __E_F24 = static_cast<int32_t>(0x7b),
+    __E_MediaPlayPause = static_cast<int32_t>(0x7c),
+    __E_MediaRewind = static_cast<int32_t>(0x7d),
+    __E_MediaForward = static_cast<int32_t>(0x7e),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -261,8 +276,44 @@ public:
   /// @brief Field F12 value: I32(105)
   static ::UnityEngine::InputSystem::Key const F12;
 
+  /// @brief Field F13 value: I32(112)
+  static ::UnityEngine::InputSystem::Key const F13;
+
+  /// @brief Field F14 value: I32(113)
+  static ::UnityEngine::InputSystem::Key const F14;
+
+  /// @brief Field F15 value: I32(114)
+  static ::UnityEngine::InputSystem::Key const F15;
+
+  /// @brief Field F16 value: I32(115)
+  static ::UnityEngine::InputSystem::Key const F16;
+
+  /// @brief Field F17 value: I32(116)
+  static ::UnityEngine::InputSystem::Key const F17;
+
+  /// @brief Field F18 value: I32(117)
+  static ::UnityEngine::InputSystem::Key const F18;
+
+  /// @brief Field F19 value: I32(118)
+  static ::UnityEngine::InputSystem::Key const F19;
+
   /// @brief Field F2 value: I32(95)
   static ::UnityEngine::InputSystem::Key const F2;
+
+  /// @brief Field F20 value: I32(119)
+  static ::UnityEngine::InputSystem::Key const F20;
+
+  /// @brief Field F21 value: I32(120)
+  static ::UnityEngine::InputSystem::Key const F21;
+
+  /// @brief Field F22 value: I32(121)
+  static ::UnityEngine::InputSystem::Key const F22;
+
+  /// @brief Field F23 value: I32(122)
+  static ::UnityEngine::InputSystem::Key const F23;
+
+  /// @brief Field F24 value: I32(123)
+  static ::UnityEngine::InputSystem::Key const F24;
 
   /// @brief Field F3 value: I32(96)
   static ::UnityEngine::InputSystem::Key const F3;
@@ -341,6 +392,15 @@ public:
 
   /// @brief Field M value: I32(27)
   static ::UnityEngine::InputSystem::Key const M;
+
+  /// @brief Field MediaForward value: I32(126)
+  static ::UnityEngine::InputSystem::Key const MediaForward;
+
+  /// @brief Field MediaPlayPause value: I32(124)
+  static ::UnityEngine::InputSystem::Key const MediaPlayPause;
+
+  /// @brief Field MediaRewind value: I32(125)
+  static ::UnityEngine::InputSystem::Key const MediaRewind;
 
   /// @brief Field Minus value: I32(13)
   static ::UnityEngine::InputSystem::Key const Minus;
@@ -520,7 +580,7 @@ public:
   static ::UnityEngine::InputSystem::Key const Z;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

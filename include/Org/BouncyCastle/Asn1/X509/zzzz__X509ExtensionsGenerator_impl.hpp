@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(&::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::Reset)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x366f92c;
+  constexpr static std::size_t addrs = 0x38f8bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>(), { "Reset", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::AddExtension)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x366f998;
+  constexpr static std::size_t addrs = 0x38f8c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::AddExtension)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x366faa8;
+  constexpr static std::size_t addrs = 0x38f8d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(&::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::get_IsEmpty)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x366fd28;
+  constexpr static std::size_t addrs = 0x38f8fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>(), { "get_IsEmpty", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::Generate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x366fddc;
+  constexpr static std::size_t addrs = 0x38f9078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>(), { "Generate", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::*)()>(&::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x366fe40;
+  constexpr static std::size_t addrs = 0x38f90dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*>(), { ".ctor", {}, {} })));

@@ -38,64 +38,64 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class Request;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__CleanupRequestAsync_d__35;
+struct GraphQLClient__CleanupRequestAsync_d__40;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__ExecuteAsync_d__33;
+struct GraphQLClient__ExecuteAsync_d__38;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> struct GraphQLClient__InternalMutateData_d__30_1;
+template <typename T> struct GraphQLClient__InternalMutateData_d__35_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> struct GraphQLClient__InternalQueryData_d__27_1;
+template <typename TBackend> struct GraphQLClient__InternalQueryData_d__32_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> struct GraphQLClient__Mutate_d__28_1;
+template <typename TBackend> struct GraphQLClient__Mutate_d__33_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend> struct GraphQLClient__Mutate_d__29_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Mutate_d__34_2;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__ProcessRequest_d__24;
+struct GraphQLClient__ProcessRequest_d__29;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> struct GraphQLClient__Query_d__25_1;
+template <typename TBackend> struct GraphQLClient__Query_d__30_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend> struct GraphQLClient__Query_d__26_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Query_d__31_2;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37;
+struct GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> struct GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1;
+template <typename T> struct GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__WaitUntilRequestQueueIsResumed_d__36;
+struct GraphQLClient__WaitUntilRequestQueueIsResumed_d__41;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass25_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass30_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass27_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass32_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass27_1_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass32_1_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass27_2_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass32_2_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass28_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass33_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> class GraphQLClient___c__DisplayClass30_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass35_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> class GraphQLClient___c__DisplayClass32_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass37_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-class GraphQLClient___c__DisplayClass33_0;
+class GraphQLClient___c__DisplayClass38_0;
 }
 namespace OculusStudios::GraphQL::Client {
 class GraphQLRequest;
@@ -156,117 +156,117 @@ namespace OculusStudios::GraphQL::Client {
 class GraphQLClient;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass25_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass30_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass27_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass32_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass27_1_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass32_1_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass27_2_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass32_2_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> class GraphQLClient___c__DisplayClass28_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass33_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> class GraphQLClient___c__DisplayClass30_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass35_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> class GraphQLClient___c__DisplayClass32_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass37_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-class GraphQLClient___c__DisplayClass33_0;
+class GraphQLClient___c__DisplayClass38_0;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__CleanupRequestAsync_d__35;
+struct GraphQLClient__CleanupRequestAsync_d__40;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__ExecuteAsync_d__33;
+struct GraphQLClient__ExecuteAsync_d__38;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> struct GraphQLClient__InternalMutateData_d__30_1;
+template <typename T> struct GraphQLClient__InternalMutateData_d__35_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> struct GraphQLClient__InternalQueryData_d__27_1;
+template <typename TBackend> struct GraphQLClient__InternalQueryData_d__32_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> struct GraphQLClient__Mutate_d__28_1;
+template <typename TBackend> struct GraphQLClient__Mutate_d__33_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend> struct GraphQLClient__Mutate_d__29_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Mutate_d__34_2;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__ProcessRequest_d__24;
+struct GraphQLClient__ProcessRequest_d__29;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend> struct GraphQLClient__Query_d__25_1;
+template <typename TBackend> struct GraphQLClient__Query_d__30_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend> struct GraphQLClient__Query_d__26_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Query_d__31_2;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37;
+struct GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T> struct GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1;
+template <typename T> struct GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1;
 }
 namespace OculusStudios::GraphQL::Client {
-struct GraphQLClient__WaitUntilRequestQueueIsResumed_d__36;
+struct GraphQLClient__WaitUntilRequestQueueIsResumed_d__41;
 }
 // Write type traits
 MARK_REF_T(::OculusStudios::GraphQL::Client::GraphQLClient*);
-MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1);
-MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1);
-MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1);
-MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1);
-MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1);
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1);
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1);
-MARK_REF_T(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0*);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37);
-MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36);
+MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1);
+MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_2_1);
+MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1);
+MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1);
+MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass37_0_1);
+MARK_REF_T(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0*);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__35_1);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__32_1);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__33_1);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__34_2);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__30_1);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__31_2);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42);
+MARK_GEN_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient*, "OculusStudios.GraphQL.Client", "GraphQLClient");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass25_0`1");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass27_0`1");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass27_1`1");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass27_2`1");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass28_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass30_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass32_0`1");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0*, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass33_0");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, "OculusStudios.GraphQL.Client", "GraphQLClient/<CleanupRequestAsync>d__35");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33, "OculusStudios.GraphQL.Client", "GraphQLClient/<ExecuteAsync>d__33");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<InternalMutateData>d__30`1");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<InternalQueryData>d__27`1");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<Mutate>d__28`1");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2, "OculusStudios.GraphQL.Client", "GraphQLClient/<Mutate>d__29`2");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24, "OculusStudios.GraphQL.Client", "GraphQLClient/<ProcessRequest>d__24");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<Query>d__25`1");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2, "OculusStudios.GraphQL.Client", "GraphQLClient/<Query>d__26`2");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, "OculusStudios.GraphQL.Client",
-                    "GraphQLClient/<ResetRequestForUserInitiatedRetryAsync>d__37");
-DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<RetryOrErrorOutMutationAsync>d__31`1");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, "OculusStudios.GraphQL.Client", "GraphQLClient/<WaitUntilRequestQueueIsResumed>d__36");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass32_1`1");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_2_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass32_2`1");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass33_0`1");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass35_0`1");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass37_0_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass37_0`1");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0*, "OculusStudios.GraphQL.Client", "GraphQLClient/<>c__DisplayClass38_0");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, "OculusStudios.GraphQL.Client", "GraphQLClient/<CleanupRequestAsync>d__40");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38, "OculusStudios.GraphQL.Client", "GraphQLClient/<ExecuteAsync>d__38");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__35_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<InternalMutateData>d__35`1");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__32_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<InternalQueryData>d__32`1");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__33_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<Mutate>d__33`1");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__34_2, "OculusStudios.GraphQL.Client", "GraphQLClient/<Mutate>d__34`2");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29, "OculusStudios.GraphQL.Client", "GraphQLClient/<ProcessRequest>d__29");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__30_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<Query>d__30`1");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__31_2, "OculusStudios.GraphQL.Client", "GraphQLClient/<Query>d__31`2");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, "OculusStudios.GraphQL.Client",
+                    "GraphQLClient/<ResetRequestForUserInitiatedRetryAsync>d__42");
+DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<RetryOrErrorOutMutationAsync>d__36`1");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, "OculusStudios.GraphQL.Client", "GraphQLClient/<WaitUntilRequestQueueIsResumed>d__41");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass25_0`1<TBackend>
-class CORDL_TYPE GraphQLClient___c__DisplayClass25_0_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass30_0`1<TBackend>
+class CORDL_TYPE GraphQLClient___c__DisplayClass30_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -275,7 +275,7 @@ public:
   /// @brief Field request, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::OculusStudios::GraphQL::Client::QueryRequest* request;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<TBackend>* New_ctor();
 
   /// @brief Method <Query>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Query_b__0();
@@ -298,19 +298,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass25_0_1();
+  constexpr GraphQLClient___c__DisplayClass30_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass25_0_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass30_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass25_0_1(GraphQLClient___c__DisplayClass25_0_1&&) = delete;
+  GraphQLClient___c__DisplayClass30_0_1(GraphQLClient___c__DisplayClass30_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass25_0_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass30_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass25_0_1(GraphQLClient___c__DisplayClass25_0_1 const&) = delete;
+  GraphQLClient___c__DisplayClass30_0_1(GraphQLClient___c__DisplayClass30_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21019 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::QueryRequest* ___request;
@@ -328,8 +328,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass27_0`1<TBackend>
-class CORDL_TYPE GraphQLClient___c__DisplayClass27_0_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass32_0`1<TBackend>
+class CORDL_TYPE GraphQLClient___c__DisplayClass32_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -338,7 +338,7 @@ public:
   /// @brief Field request, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::OculusStudios::GraphQL::Client::QueryRequest* request;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* New_ctor();
 
   constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& __cordl_internal_get___4__this() const;
 
@@ -358,19 +358,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass27_0_1();
+  constexpr GraphQLClient___c__DisplayClass32_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_0_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass27_0_1(GraphQLClient___c__DisplayClass27_0_1&&) = delete;
+  GraphQLClient___c__DisplayClass32_0_1(GraphQLClient___c__DisplayClass32_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_0_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass27_0_1(GraphQLClient___c__DisplayClass27_0_1 const&) = delete;
+  GraphQLClient___c__DisplayClass32_0_1(GraphQLClient___c__DisplayClass32_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21020 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::QueryRequest* ___request;
@@ -388,31 +388,31 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass27_1`1<TBackend>
-class CORDL_TYPE GraphQLClient___c__DisplayClass27_1_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass32_1`1<TBackend>
+class CORDL_TYPE GraphQLClient___c__DisplayClass32_1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
-                      put = __cordl_internal_set_CS$__8__locals1)) ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* CS$__8__locals1;
+                      put = __cordl_internal_set_CS$__8__locals1)) ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* CS$__8__locals1;
 
   /// @brief Field resultObject, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_resultObject, put = __cordl_internal_set_resultObject)) ::System::Object* resultObject;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1<TBackend>* New_ctor();
 
   /// @brief Method <InternalQueryData>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _InternalQueryData_b__0();
 
-  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* const& __cordl_internal_get_CS$__8__locals1() const;
+  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*& __cordl_internal_get_CS$__8__locals1();
+  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>*& __cordl_internal_get_CS$__8__locals1();
 
   constexpr ::System::Object* const& __cordl_internal_get_resultObject() const;
 
   constexpr ::System::Object*& __cordl_internal_get_resultObject();
 
-  constexpr void __cordl_internal_set_CS$__8__locals1(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* value);
 
   constexpr void __cordl_internal_set_resultObject(::System::Object* value);
 
@@ -422,25 +422,25 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass27_1_1();
+  constexpr GraphQLClient___c__DisplayClass32_1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_1_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_1_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass27_1_1(GraphQLClient___c__DisplayClass27_1_1&&) = delete;
+  GraphQLClient___c__DisplayClass32_1_1(GraphQLClient___c__DisplayClass32_1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_1_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass27_1_1(GraphQLClient___c__DisplayClass27_1_1 const&) = delete;
+  GraphQLClient___c__DisplayClass32_1_1(GraphQLClient___c__DisplayClass32_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21021 };
 
   /// @brief Field resultObject, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___resultObject;
 
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* ___CS$__8__locals1;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* ___CS$__8__locals1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -452,31 +452,31 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass27_2`1<TBackend>
-class CORDL_TYPE GraphQLClient___c__DisplayClass27_2_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass32_2`1<TBackend>
+class CORDL_TYPE GraphQLClient___c__DisplayClass32_2_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CS$<>8__locals2, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals2,
-                      put = __cordl_internal_set_CS$__8__locals2)) ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* CS$__8__locals2;
+                      put = __cordl_internal_set_CS$__8__locals2)) ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* CS$__8__locals2;
 
   /// @brief Field e, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::System::Exception* e;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_2_1<TBackend>* New_ctor();
 
   /// @brief Method <InternalQueryData>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _InternalQueryData_b__1();
 
-  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* const& __cordl_internal_get_CS$__8__locals2() const;
+  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* const& __cordl_internal_get_CS$__8__locals2() const;
 
-  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*& __cordl_internal_get_CS$__8__locals2();
+  constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>*& __cordl_internal_get_CS$__8__locals2();
 
   constexpr ::System::Exception* const& __cordl_internal_get_e() const;
 
   constexpr ::System::Exception*& __cordl_internal_get_e();
 
-  constexpr void __cordl_internal_set_CS$__8__locals2(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* value);
+  constexpr void __cordl_internal_set_CS$__8__locals2(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* value);
 
   constexpr void __cordl_internal_set_e(::System::Exception* value);
 
@@ -486,25 +486,25 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass27_2_1();
+  constexpr GraphQLClient___c__DisplayClass32_2_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_2_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_2_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass27_2_1(GraphQLClient___c__DisplayClass27_2_1&&) = delete;
+  GraphQLClient___c__DisplayClass32_2_1(GraphQLClient___c__DisplayClass32_2_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_2_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass27_2_1(GraphQLClient___c__DisplayClass27_2_1 const&) = delete;
+  GraphQLClient___c__DisplayClass32_2_1(GraphQLClient___c__DisplayClass32_2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21022 };
 
   /// @brief Field e, offset: 0x10, size: 0x8, def value: None
   ::System::Exception* ___e;
 
   /// @brief Field CS$<>8__locals2, offset: 0x18, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* ___CS$__8__locals2;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* ___CS$__8__locals2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -516,8 +516,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass28_0`1<TBackend>
-class CORDL_TYPE GraphQLClient___c__DisplayClass28_0_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass33_0`1<TBackend>
+class CORDL_TYPE GraphQLClient___c__DisplayClass33_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -526,7 +526,7 @@ public:
   /// @brief Field request, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::OculusStudios::GraphQL::Client::MutationRequest* request;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1<TBackend>* New_ctor();
 
   /// @brief Method <Mutate>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Mutate_b__0();
@@ -549,19 +549,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass28_0_1();
+  constexpr GraphQLClient___c__DisplayClass33_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass28_0_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass33_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass28_0_1(GraphQLClient___c__DisplayClass28_0_1&&) = delete;
+  GraphQLClient___c__DisplayClass33_0_1(GraphQLClient___c__DisplayClass33_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass28_0_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass33_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass28_0_1(GraphQLClient___c__DisplayClass28_0_1 const&) = delete;
+  GraphQLClient___c__DisplayClass33_0_1(GraphQLClient___c__DisplayClass33_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21023 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::MutationRequest* ___request;
@@ -579,8 +579,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass30_0`1<T>
-class CORDL_TYPE GraphQLClient___c__DisplayClass30_0_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass35_0`1<T>
+class CORDL_TYPE GraphQLClient___c__DisplayClass35_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -592,7 +592,7 @@ public:
   /// @brief Field resultObject, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_resultObject, put = __cordl_internal_set_resultObject)) ::System::Object* resultObject;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1<T>* New_ctor();
 
   /// @brief Method <InternalMutateData>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _InternalMutateData_b__0();
@@ -621,19 +621,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass30_0_1();
+  constexpr GraphQLClient___c__DisplayClass35_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass30_0_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass35_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass30_0_1(GraphQLClient___c__DisplayClass30_0_1&&) = delete;
+  GraphQLClient___c__DisplayClass35_0_1(GraphQLClient___c__DisplayClass35_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass30_0_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass35_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass30_0_1(GraphQLClient___c__DisplayClass30_0_1 const&) = delete;
+  GraphQLClient___c__DisplayClass35_0_1(GraphQLClient___c__DisplayClass35_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21024 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::MutationRequest* ___request;
@@ -654,8 +654,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass32_0`1<T>
-class CORDL_TYPE GraphQLClient___c__DisplayClass32_0_1 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass37_0`1<T>
+class CORDL_TYPE GraphQLClient___c__DisplayClass37_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -667,7 +667,7 @@ public:
   /// @brief Field request, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::OculusStudios::GraphQL::Client::MutationRequest* request;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass37_0_1<T>* New_ctor();
 
   /// @brief Method <ErrorOutMutation>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ErrorOutMutation_b__0();
@@ -696,19 +696,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass32_0_1();
+  constexpr GraphQLClient___c__DisplayClass37_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_0_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass37_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass32_0_1(GraphQLClient___c__DisplayClass32_0_1&&) = delete;
+  GraphQLClient___c__DisplayClass37_0_1(GraphQLClient___c__DisplayClass37_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_0_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass37_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass32_0_1(GraphQLClient___c__DisplayClass32_0_1 const&) = delete;
+  GraphQLClient___c__DisplayClass37_0_1(GraphQLClient___c__DisplayClass37_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21025 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLClient* _____4__this;
@@ -727,8 +727,8 @@ public:
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass33_0
-class CORDL_TYPE GraphQLClient___c__DisplayClass33_0 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass38_0
+class CORDL_TYPE GraphQLClient___c__DisplayClass38_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -737,9 +737,9 @@ public:
   /// @brief Field request, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::OculusStudios::GraphQL::Client::GraphQLRequest* request;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__0, addr 0x5f204ec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__0, addr 0x633b168, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _ExecuteAsync_b__0();
 
   constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& __cordl_internal_get___4__this() const;
@@ -754,25 +754,25 @@ public:
 
   constexpr void __cordl_internal_set_request(::OculusStudios::GraphQL::Client::GraphQLRequest* value);
 
-  /// @brief Method .ctor, addr 0x5f204e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633b164, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient___c__DisplayClass33_0();
+  constexpr GraphQLClient___c__DisplayClass38_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass33_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass38_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClient___c__DisplayClass33_0(GraphQLClient___c__DisplayClass33_0&&) = delete;
+  GraphQLClient___c__DisplayClass38_0(GraphQLClient___c__DisplayClass38_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass38_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass33_0(GraphQLClient___c__DisplayClass33_0 const&) = delete;
+  GraphQLClient___c__DisplayClass38_0(GraphQLClient___c__DisplayClass38_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21026 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLClient* _____4__this;
@@ -783,29 +783,29 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0, ___request) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0, ___request) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0) == 0x20, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<CleanupRequestAsync>d__35
-struct CORDL_TYPE GraphQLClient__CleanupRequestAsync_d__35 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<CleanupRequestAsync>d__40
+struct CORDL_TYPE GraphQLClient__CleanupRequestAsync_d__40 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f205a8, size 0x3b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633b224, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f20958, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633b5d4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -813,19 +813,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__CleanupRequestAsync_d__35();
+  constexpr GraphQLClient__CleanupRequestAsync_d__40();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty:
   // "::OculusStudios::GraphQL::ClientInterface::Request*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "requestId", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__CleanupRequestAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClient__CleanupRequestAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                      ::OculusStudios::GraphQL::ClientInterface::Request* request, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, int64_t requestId,
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -851,37 +851,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, request) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, request) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, requestId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, requestId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35) == 0x40, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40) == 0x40, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<ExecuteAsync>d__33
-struct CORDL_TYPE GraphQLClient__ExecuteAsync_d__33 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<ExecuteAsync>d__38
+struct CORDL_TYPE GraphQLClient__ExecuteAsync_d__38 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f209c4, size 0x480, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633b640, size 0x480, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f20e44, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633bac0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -889,19 +889,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__ExecuteAsync_d__33();
+  constexpr GraphQLClient__ExecuteAsync_d__38();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty:
   // "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__ExecuteAsync_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
+  constexpr GraphQLClient__ExecuteAsync_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
                                               ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::Client::GraphQLRequest* request,
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -924,17 +924,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33, request) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38, request) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33) == 0x38, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38) == 0x38, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
@@ -943,8 +943,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<InternalMutateData>d__30`1<T>
-struct CORDL_TYPE GraphQLClient__InternalMutateData_d__30_1 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<InternalMutateData>d__35`1<T>
+struct CORDL_TYPE GraphQLClient__InternalMutateData_d__35_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -962,29 +962,29 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__InternalMutateData_d__30_1();
+  constexpr GraphQLClient__InternalMutateData_d__35_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty:
   // "::OculusStudios::GraphQL::Client::MutationRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>*", modifiers: "", def_value: None,
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1<T>*", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers: "", def_value:
   // None, comment: None }, CppParam { name: "_mutateTask_5__4", ty: "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "_timeoutTask_5__5", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__InternalMutateData_d__30_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  // comment: None }, CppParam { name: "_timeoutMs_5__5", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTask_5__6", ty: "::System::Threading::Tasks::Task*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
+  constexpr GraphQLClient__InternalMutateData_d__35_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                       ::OculusStudios::GraphQL::Client::MutationRequest* request, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
-                                                      ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>* __8__1, ::System::Object* __7__wrap1, int32_t __7__wrap2,
-                                                      ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _mutateTask_5__4,
-                                                      ::System::Threading::Tasks::Task* _timeoutTask_5__5, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1,
+                                                      ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1<T>* __8__1, ::System::Object* __7__wrap1, int32_t __7__wrap2,
+                                                      ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _mutateTask_5__4, int32_t _timeoutMs_5__5,
+                                                      ::System::Threading::Tasks::Task* _timeoutTask_5__6, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1,
                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21029 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -999,7 +999,7 @@ public:
   ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this;
 
   /// @brief Field <>8__1, offset: 0x38, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>* __8__1;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1<T>* __8__1;
 
   /// @brief Field <>7__wrap1, offset: 0x40, size: 0x8, def value: None
   ::System::Object* __7__wrap1;
@@ -1010,13 +1010,16 @@ public:
   /// @brief Field <mutateTask>5__4, offset: 0x50, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _mutateTask_5__4;
 
-  /// @brief Field <timeoutTask>5__5, offset: 0x58, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* _timeoutTask_5__5;
+  /// @brief Field <timeoutMs>5__5, offset: 0x58, size: 0x4, def value: None
+  int32_t _timeoutMs_5__5;
 
-  /// @brief Field <>u__1, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field <timeoutTask>5__6, offset: 0x60, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task* _timeoutTask_5__6;
+
+  /// @brief Field <>u__1, offset: 0x68, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -1029,8 +1032,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<InternalQueryData>d__27`1<TBackend>
-struct CORDL_TYPE GraphQLClient__InternalQueryData_d__27_1 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<InternalQueryData>d__32`1<TBackend>
+struct CORDL_TYPE GraphQLClient__InternalQueryData_d__32_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1048,31 +1051,31 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__InternalQueryData_d__27_1();
+  constexpr GraphQLClient__InternalQueryData_d__32_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::Client::QueryRequest*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__2", ty:
-  // "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Object*",
+  // name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__2", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Object*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_queryTask_5__4", ty:
-  // "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTask_5__5", ty:
-  // "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__InternalQueryData_d__27_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  // "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutMs_5__5", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTask_5__6", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
+  constexpr GraphQLClient__InternalQueryData_d__32_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                      ::OculusStudios::GraphQL::Client::QueryRequest* request, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
-                                                     ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>* __8__1,
-                                                     ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* __8__2, ::System::Object* __7__wrap1, int32_t __7__wrap2,
-                                                     ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _queryTask_5__4,
-                                                     ::System::Threading::Tasks::Task* _timeoutTask_5__5, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1,
+                                                     ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1<TBackend>* __8__1,
+                                                     ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* __8__2, ::System::Object* __7__wrap1, int32_t __7__wrap2,
+                                                     ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _queryTask_5__4, int32_t _timeoutMs_5__5,
+                                                     ::System::Threading::Tasks::Task* _timeoutTask_5__6, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1,
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21030 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1087,10 +1090,10 @@ public:
   ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this;
 
   /// @brief Field <>8__1, offset: 0x38, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>* __8__1;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1<TBackend>* __8__1;
 
   /// @brief Field <>8__2, offset: 0x40, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* __8__2;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>* __8__2;
 
   /// @brief Field <>7__wrap1, offset: 0x48, size: 0x8, def value: None
   ::System::Object* __7__wrap1;
@@ -1101,13 +1104,16 @@ public:
   /// @brief Field <queryTask>5__4, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _queryTask_5__4;
 
-  /// @brief Field <timeoutTask>5__5, offset: 0x60, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* _timeoutTask_5__5;
+  /// @brief Field <timeoutMs>5__5, offset: 0x60, size: 0x4, def value: None
+  int32_t _timeoutMs_5__5;
 
-  /// @brief Field <>u__1, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field <timeoutTask>5__6, offset: 0x68, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task* _timeoutTask_5__6;
+
+  /// @brief Field <>u__1, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x78, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -1120,8 +1126,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Mutate>d__28`1<TBackend>
-struct CORDL_TYPE GraphQLClient__Mutate_d__28_1 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Mutate>d__33`1<TBackend>
+struct CORDL_TYPE GraphQLClient__Mutate_d__33_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1139,22 +1145,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__Mutate_d__28_1();
+  constexpr GraphQLClient__Mutate_d__33_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestBase", ty:
   // "::OculusStudios::GraphQL::ClientInterface::IMutationRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
-  // "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestId_5__2", ty: "int64_t",
+  // "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestId_5__2", ty: "int64_t",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*>", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__Mutate_d__28_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend> __t__builder,
+  constexpr GraphQLClient__Mutate_d__33_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend> __t__builder,
                                           ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase,
-                                          ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>* __8__1, int64_t _requestId_5__2,
+                                          ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1<TBackend>* __8__1, int64_t _requestId_5__2,
                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21031 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1172,7 +1178,7 @@ public:
   ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase;
 
   /// @brief Field <>8__1, offset: 0x30, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>* __8__1;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1<TBackend>* __8__1;
 
   /// @brief Field <requestId>5__2, offset: 0x38, size: 0x8, def value: None
   int64_t _requestId_5__2;
@@ -1193,8 +1199,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend, typename TFrontend>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Mutate>d__29`2<TBackend,TFrontend>
-struct CORDL_TYPE GraphQLClient__Mutate_d__29_2 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Mutate>d__34`2<TBackend,TFrontend>
+struct CORDL_TYPE GraphQLClient__Mutate_d__34_2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1212,7 +1218,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__Mutate_d__29_2();
+  constexpr GraphQLClient__Mutate_d__34_2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend>", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestBase", ty:
@@ -1222,14 +1228,14 @@ public:
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend>", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__Mutate_d__29_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend> __t__builder,
+  constexpr GraphQLClient__Mutate_d__34_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend> __t__builder,
                                           ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, TBackend _result_5__2,
                                           ::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend, TFrontend>* _conversion_5__3,
                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2,
                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21032 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -1269,18 +1275,18 @@ public:
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<ProcessRequest>d__24
-struct CORDL_TYPE GraphQLClient__ProcessRequest_d__24 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<ProcessRequest>d__29
+struct CORDL_TYPE GraphQLClient__ProcessRequest_d__29 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f20ec4, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633bb40, size 0x380, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f21244, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633bec0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1288,17 +1294,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__ProcessRequest_d__24();
+  constexpr GraphQLClient__ProcessRequest_d__29();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestId", ty: "int64_t", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__ProcessRequest_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClient__ProcessRequest_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                 ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, int64_t requestId, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21033 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1321,17 +1327,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24, requestId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29, requestId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24) == 0x38, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29) == 0x38, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
@@ -1340,8 +1346,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Query>d__25`1<TBackend>
-struct CORDL_TYPE GraphQLClient__Query_d__25_1 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Query>d__30`1<TBackend>
+struct CORDL_TYPE GraphQLClient__Query_d__30_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1359,22 +1365,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__Query_d__25_1();
+  constexpr GraphQLClient__Query_d__30_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestBase", ty:
   // "::OculusStudios::GraphQL::ClientInterface::IQueryRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
-  // "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestId_5__2", ty: "int64_t",
+  // "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<TBackend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestId_5__2", ty: "int64_t",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*>", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__Query_d__25_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend> __t__builder,
+  constexpr GraphQLClient__Query_d__30_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend> __t__builder,
                                          ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase,
-                                         ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>* __8__1, int64_t _requestId_5__2,
+                                         ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<TBackend>* __8__1, int64_t _requestId_5__2,
                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21034 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1392,7 +1398,7 @@ public:
   ::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase;
 
   /// @brief Field <>8__1, offset: 0x30, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>* __8__1;
+  ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<TBackend>* __8__1;
 
   /// @brief Field <requestId>5__2, offset: 0x38, size: 0x8, def value: None
   int64_t _requestId_5__2;
@@ -1413,8 +1419,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend, typename TFrontend>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Query>d__26`2<TBackend,TFrontend>
-struct CORDL_TYPE GraphQLClient__Query_d__26_2 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Query>d__31`2<TBackend,TFrontend>
+struct CORDL_TYPE GraphQLClient__Query_d__31_2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1432,7 +1438,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__Query_d__26_2();
+  constexpr GraphQLClient__Query_d__31_2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend>", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestBase", ty:
@@ -1441,14 +1447,14 @@ public:
   // "::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend,TFrontend>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend>", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__Query_d__26_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend> __t__builder,
+  constexpr GraphQLClient__Query_d__31_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend> __t__builder,
                                          ::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, TBackend _result_5__2,
                                          ::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend, TFrontend>* _conversion_5__3,
                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2,
                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21035 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -1488,18 +1494,18 @@ public:
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<ResetRequestForUserInitiatedRetryAsync>d__37
-struct CORDL_TYPE GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<ResetRequestForUserInitiatedRetryAsync>d__42
+struct CORDL_TYPE GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f212b0, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633bf2c, size 0x330, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f215e0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633c25c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1507,19 +1513,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37();
+  constexpr GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::ClientInterface::Request*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_tries_5__2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                         ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::ClientInterface::Request* request,
                                                                         uint32_t _tries_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1545,19 +1551,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, request) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, request) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, _tries_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, _tries_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37) == 0x40, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42) == 0x40, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
@@ -1566,8 +1572,8 @@ namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<RetryOrErrorOutMutationAsync>d__31`1<T>
-struct CORDL_TYPE GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<RetryOrErrorOutMutationAsync>d__36`1<T>
+struct CORDL_TYPE GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1585,19 +1591,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1();
+  constexpr GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty:
   // "::OculusStudios::GraphQL::Client::MutationRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "e", ty: "::System::Exception*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                 ::OculusStudios::GraphQL::Client::MutationRequest* request, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
                                                                 ::System::Exception* e, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1628,18 +1634,18 @@ public:
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<WaitUntilRequestQueueIsResumed>d__36
-struct CORDL_TYPE GraphQLClient__WaitUntilRequestQueueIsResumed_d__36 {
+// CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<WaitUntilRequestQueueIsResumed>d__41
+struct CORDL_TYPE GraphQLClient__WaitUntilRequestQueueIsResumed_d__41 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f2164c, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x633c2c8, size 0x27c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f218c8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x633c544, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1647,19 +1653,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClient__WaitUntilRequestQueueIsResumed_d__36();
+  constexpr GraphQLClient__WaitUntilRequestQueueIsResumed_d__41();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "_pauseTickCounter_5__2", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
   // def_value: None, comment: None }]
-  constexpr GraphQLClient__WaitUntilRequestQueueIsResumed_d__36(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClient__WaitUntilRequestQueueIsResumed_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                 ::System::Threading::CancellationToken cancellationToken, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
                                                                 int64_t _pauseTickCounter_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1685,19 +1691,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, _pauseTickCounter_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, _pauseTickCounter_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36) == 0x40, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41) == 0x40, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
@@ -1707,48 +1713,51 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE GraphQLClient : public ::System::Object {
 public:
   // Declarations
-  using _CleanupRequestAsync_d__35 = ::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35;
+  using _CleanupRequestAsync_d__40 = ::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__40;
 
-  using _ExecuteAsync_d__33 = ::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33;
+  using _ExecuteAsync_d__38 = ::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__38;
 
-  template <typename T> using _InternalMutateData_d__30_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>;
+  template <typename T> using _InternalMutateData_d__35_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__35_1<T>;
 
-  template <typename TBackend> using _InternalQueryData_d__27_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>;
+  template <typename TBackend> using _InternalQueryData_d__32_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__32_1<TBackend>;
 
-  template <typename TBackend> using _Mutate_d__28_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>;
+  template <typename TBackend> using _Mutate_d__33_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__33_1<TBackend>;
 
-  template <typename TBackend, typename TFrontend> using _Mutate_d__29_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>;
+  template <typename TBackend, typename TFrontend> using _Mutate_d__34_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__34_2<TBackend, TFrontend>;
 
-  using _ProcessRequest_d__24 = ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24;
+  using _ProcessRequest_d__29 = ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__29;
 
-  template <typename TBackend> using _Query_d__25_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>;
+  template <typename TBackend> using _Query_d__30_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__30_1<TBackend>;
 
-  template <typename TBackend, typename TFrontend> using _Query_d__26_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>;
+  template <typename TBackend, typename TFrontend> using _Query_d__31_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__31_2<TBackend, TFrontend>;
 
-  using _ResetRequestForUserInitiatedRetryAsync_d__37 = ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37;
+  using _ResetRequestForUserInitiatedRetryAsync_d__42 = ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__42;
 
-  template <typename T> using _RetryOrErrorOutMutationAsync_d__31_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>;
+  template <typename T> using _RetryOrErrorOutMutationAsync_d__36_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__36_1<T>;
 
-  using _WaitUntilRequestQueueIsResumed_d__36 = ::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36;
+  using _WaitUntilRequestQueueIsResumed_d__41 = ::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__41;
 
-  template <typename TBackend> using __c__DisplayClass25_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass30_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<TBackend>;
 
-  template <typename TBackend> using __c__DisplayClass27_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass32_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<TBackend>;
 
-  template <typename TBackend> using __c__DisplayClass27_1_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass32_1_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_1_1<TBackend>;
 
-  template <typename TBackend> using __c__DisplayClass27_2_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass32_2_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_2_1<TBackend>;
 
-  template <typename TBackend> using __c__DisplayClass28_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass33_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0_1<TBackend>;
 
-  template <typename T> using __c__DisplayClass30_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>;
+  template <typename T> using __c__DisplayClass35_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass35_0_1<T>;
 
-  template <typename T> using __c__DisplayClass32_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>;
+  template <typename T> using __c__DisplayClass37_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass37_0_1<T>;
 
-  using __c__DisplayClass33_0 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0;
+  using __c__DisplayClass38_0 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass38_0;
 
-  /// @brief Field _endpoint, offset 0x60, size 0x8
+  /// @brief Field _endpoint, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__endpoint, put = __cordl_internal_set__endpoint)) ::StringW _endpoint;
+
+  /// @brief Field _minRequestTimeoutMs, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__minRequestTimeoutMs, put = __cordl_internal_set__minRequestTimeoutMs)) int32_t _minRequestTimeoutMs;
 
   /// @brief Field applicationOnline, offset 0x23, size 0x1
   __declspec(property(get = __cordl_internal_get_applicationOnline, put = __cordl_internal_set_applicationOnline)) bool applicationOnline;
@@ -1762,16 +1771,16 @@ public:
   /// @brief Field externalEvents, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_externalEvents, put = __cordl_internal_set_externalEvents)) ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* externalEvents;
 
-  /// @brief Field gameActiveTask, offset 0x38, size 0x8
+  /// @brief Field gameActiveTask, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_gameActiveTask, put = __cordl_internal_set_gameActiveTask)) ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* gameActiveTask;
 
-  /// @brief Field inProgressRequests, offset 0x58, size 0x8
+  /// @brief Field inProgressRequests, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_inProgressRequests, put = __cordl_internal_set_inProgressRequests)) ::System::Collections::Generic::HashSet_1<int64_t>* inProgressRequests;
 
   /// @brief Field initialized, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_initialized, put = __cordl_internal_set_initialized)) bool initialized;
 
-  /// @brief Field mainThreadExecutor, offset 0x40, size 0x8
+  /// @brief Field mainThreadExecutor, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_mainThreadExecutor, put = __cordl_internal_set_mainThreadExecutor)) ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* mainThreadExecutor;
 
   /// @brief Field onRequestCreated, offset 0xffffffff, size 0x8
@@ -1780,12 +1789,12 @@ public:
   /// @brief Field pendingRequestId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_pendingRequestId, put = __cordl_internal_set_pendingRequestId)) int64_t pendingRequestId;
 
-  /// @brief Field pendingRequests, offset 0x50, size 0x8
+  /// @brief Field pendingRequests, offset 0x58, size 0x8
   __declspec(property(
       get = __cordl_internal_get_pendingRequests,
       put = __cordl_internal_set_pendingRequests)) ::System::Collections::Concurrent::ConcurrentDictionary_2<int64_t, ::OculusStudios::GraphQL::ClientInterface::Request*>* pendingRequests;
 
-  /// @brief Field requestQueue, offset 0x48, size 0x8
+  /// @brief Field requestQueue, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_requestQueue, put = __cordl_internal_set_requestQueue)) ::System::Collections::Concurrent::ConcurrentQueue_1<int64_t>* requestQueue;
 
   /// @brief Field requestQueuePaused, offset 0x21, size 0x1
@@ -1798,11 +1807,11 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClient"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*() noexcept;
 
-  /// @brief Method CleanupRequest, addr 0x5f1f9bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CleanupRequest, addr 0x633a844, size 0x78, virtual false, abstract: false, final false
   inline void CleanupRequest(int64_t requestId, ::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<CleanupRequestAsync>d__35))]
-  /// @brief Method CleanupRequestAsync, addr 0x5f1fa34, size 0xc4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<CleanupRequestAsync>d__40))]
+  /// @brief Method CleanupRequestAsync, addr 0x633a8bc, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CleanupRequestAsync(int64_t requestId, ::OculusStudios::GraphQL::ClientInterface::Request* request);
 
   /// @brief Method ErrorOutMutation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1810,100 +1819,113 @@ public:
     requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
   inline void ErrorOutMutation(::OculusStudios::GraphQL::Client::MutationRequest* request, ::System::Exception* e);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<ExecuteAsync>d__33))]
-  /// @brief Method ExecuteAsync, addr 0x5f1f8cc, size 0xf0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<ExecuteAsync>d__38))]
+  /// @brief Method ExecuteAsync, addr 0x633a754, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* request);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<InternalMutateData>d__30`1<T>))]
+  /// @brief Method GetEffectiveTimeoutMs, addr 0x6339ec0, size 0x6c, virtual false, abstract: false, final false
+  inline int32_t GetEffectiveTimeoutMs(int32_t requestTimeoutMs);
+
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<InternalMutateData>d__35`1<T>))]
   /// @brief Method InternalMutateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
   inline void InternalMutateData(::OculusStudios::GraphQL::Client::MutationRequest* request);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<InternalQueryData>d__27`1<TBackend>))]
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<InternalQueryData>d__32`1<TBackend>))]
   /// @brief Method InternalQueryData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TBackend>
     requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
   inline void InternalQueryData(::OculusStudios::GraphQL::Client::QueryRequest* request);
 
-  /// @brief Method LogRequestState, addr 0x5f20108, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LogRequestState, addr 0x633af90, size 0x1c0, virtual false, abstract: false, final false
   inline void LogRequestState(int64_t requestId, ::OculusStudios::GraphQL::ClientInterface::RequestState requestState);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Mutate>d__28`1<TBackend>))]
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Mutate>d__33`1<TBackend>))]
   /// @brief Method Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TBackend>
     requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
   inline ::System::Threading::Tasks::Task_1<TBackend>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Mutate>d__29`2<TBackend, TFrontend>))]
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Mutate>d__34`2<TBackend, TFrontend>))]
   /// @brief Method Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TBackend, typename TFrontend>
     requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
              ::cordl_internals::reference_type_constraint<TFrontend>)
   inline ::System::Threading::Tasks::Task_1<TFrontend>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase);
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClient* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::GraphQLClient* New_ctor(int32_t minRequestTimeoutMs);
 
-  /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Initialize, addr 0x5f1ee78, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Initialize, addr 0x6339940, size 0x16c, virtual true, abstract: false, final true
   inline void OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Initialize(::StringW endpoint, ::StringW accessToken,
                                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders,
                                                                               ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
-  /// @brief Method OnApplicationResumed, addr 0x5f1ffb8, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.SetCustomAppHeaders, addr 0x6339b80, size 0xf4, virtual true, abstract: false, final true
+  inline void OculusStudios_GraphQL_ClientInterface_IGraphQLClient_SetCustomAppHeaders(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders);
+
+  /// @brief Method OnApplicationResumed, addr 0x633ae40, size 0x150, virtual true, abstract: false, final true
   inline void OnApplicationResumed();
 
-  /// @brief Method OnApplicationSuspended, addr 0x5f1fe84, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method OnApplicationSuspended, addr 0x633ad0c, size 0x134, virtual true, abstract: false, final true
   inline void OnApplicationSuspended();
 
-  /// @brief Method PauseRequestQueue, addr 0x5f1fc78, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method PauseRequestQueue, addr 0x633ab00, size 0x108, virtual true, abstract: false, final true
   inline void PauseRequestQueue();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<ProcessRequest>d__24))]
-  /// @brief Method ProcessRequest, addr 0x5f1f808, size 0xc4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<ProcessRequest>d__29))]
+  /// @brief Method ProcessRequest, addr 0x633a690, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessRequest(int64_t requestId);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Query>d__25`1<TBackend>))]
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Query>d__30`1<TBackend>))]
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TBackend>
     requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
   inline ::System::Threading::Tasks::Task_1<TBackend>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Query>d__26`2<TBackend, TFrontend>))]
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<Query>d__31`2<TBackend, TFrontend>))]
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TBackend, typename TFrontend>
     requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
              ::cordl_internals::reference_type_constraint<TFrontend>)
   inline ::System::Threading::Tasks::Task_1<TFrontend>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<ResetRequestForUserInitiatedRetryAsync>d__37))]
-  /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x5f1fbb8, size 0xc0, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<ResetRequestForUserInitiatedRetryAsync>d__42))]
+  /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x633aa40, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* ResetRequestForUserInitiatedRetryAsync(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// @brief Method ResumeRequestQueue, addr 0x5f1fd80, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method ResumeRequestQueue, addr 0x633ac08, size 0x104, virtual true, abstract: false, final true
   inline void ResumeRequestQueue();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<RetryOrErrorOutMutationAsync>d__31`1<T>))]
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<RetryOrErrorOutMutationAsync>d__36`1<T>))]
   /// @brief Method RetryOrErrorOutMutationAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
   inline ::System::Threading::Tasks::Task* RetryOrErrorOutMutationAsync(::OculusStudios::GraphQL::Client::MutationRequest* request, ::System::Exception* e);
 
-  /// @brief Method SetApplicationOffline, addr 0x5f202d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetApplicationOffline, addr 0x633b15c, size 0x8, virtual true, abstract: false, final true
   inline void SetApplicationOffline();
 
-  /// @brief Method SetApplicationOnline, addr 0x5f202c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetApplicationOnline, addr 0x633b150, size 0xc, virtual true, abstract: false, final true
   inline void SetApplicationOnline();
 
-  /// @brief Method Update, addr 0x5f1f0a4, size 0x3ec, virtual true, abstract: false, final true
+  /// @brief Method SetMinRequestTimeoutMs, addr 0x6339884, size 0xbc, virtual false, abstract: false, final false
+  inline void SetMinRequestTimeoutMs(int32_t minRequestTimeoutMs);
+
+  /// @brief Method Update, addr 0x6339f2c, size 0x3ec, virtual true, abstract: false, final true
   inline void Update(float_t deltaTime);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<WaitUntilRequestQueueIsResumed>d__36))]
-  /// @brief Method WaitUntilRequestQueueIsResumed, addr 0x5f1faf8, size 0xc0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.GraphQLClient::<WaitUntilRequestQueueIsResumed>d__41))]
+  /// @brief Method WaitUntilRequestQueueIsResumed, addr 0x633a980, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitUntilRequestQueueIsResumed(::System::Threading::CancellationToken cancellationToken, ::StringW operationType);
 
   constexpr ::StringW const& __cordl_internal_get__endpoint() const;
 
   constexpr ::StringW& __cordl_internal_get__endpoint();
+
+  constexpr int32_t const& __cordl_internal_get__minRequestTimeoutMs() const;
+
+  constexpr int32_t& __cordl_internal_get__minRequestTimeoutMs();
 
   constexpr bool const& __cordl_internal_get_applicationOnline() const;
 
@@ -1959,6 +1981,8 @@ public:
 
   constexpr void __cordl_internal_set__endpoint(::StringW value);
 
+  constexpr void __cordl_internal_set__minRequestTimeoutMs(int32_t value);
+
   constexpr void __cordl_internal_set_applicationOnline(bool value);
 
   constexpr void __cordl_internal_set_applicationSuspended(bool value);
@@ -1985,11 +2009,11 @@ public:
 
   constexpr void __cordl_internal_set_requestResponseTransport(::OculusStudios::GraphQL::Client::IGraphQLClientTransport* value);
 
-  /// @brief Method .ctor, addr 0x5f202dc, size 0x178, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method .ctor, addr 0x6339664, size 0x18c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t minRequestTimeoutMs);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onRequestCreated, addr 0x5f1ecb8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestCreated, addr 0x63394a4, size 0xe0, virtual false, abstract: false, final false
   static inline void add_onRequestCreated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::StringW>* value);
 
   static inline ::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::StringW>* getStaticF_onRequestCreated();
@@ -1998,7 +2022,7 @@ public:
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* i___OculusStudios__GraphQL__ClientInterface__IGraphQLClient() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onRequestCreated, addr 0x5f1ed98, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestCreated, addr 0x6339584, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_onRequestCreated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::StringW>* value);
 
   static inline void setStaticF_onRequestCreated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::StringW>* value);
@@ -2033,7 +2057,7 @@ public:
   static constexpr int32_t TimeToWaitBeforeRetryProcessMs{ static_cast<int32_t>(0x3e8) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21039 };
 
   /// @brief Field requestResponseTransport, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::IGraphQLClientTransport* ___requestResponseTransport;
@@ -2059,22 +2083,25 @@ public:
   /// @brief Field asyncAccessViolations, offset: 0x30, size: 0x8, def value: None
   int64_t ___asyncAccessViolations;
 
-  /// @brief Field gameActiveTask, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _minRequestTimeoutMs, offset: 0x38, size: 0x4, def value: None
+  int32_t ____minRequestTimeoutMs;
+
+  /// @brief Field gameActiveTask, offset: 0x40, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* ___gameActiveTask;
 
-  /// @brief Field mainThreadExecutor, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field mainThreadExecutor, offset: 0x48, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* ___mainThreadExecutor;
 
-  /// @brief Field requestQueue, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field requestQueue, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentQueue_1<int64_t>* ___requestQueue;
 
-  /// @brief Field pendingRequests, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field pendingRequests, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentDictionary_2<int64_t, ::OculusStudios::GraphQL::ClientInterface::Request*>* ___pendingRequests;
 
-  /// @brief Field inProgressRequests, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field inProgressRequests, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int64_t>* ___inProgressRequests;
 
-  /// @brief Field _endpoint, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _endpoint, offset: 0x68, size: 0x8, def value: None
   ::StringW ____endpoint;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -2096,18 +2123,20 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___pendi
 
 static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___asyncAccessViolations) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___gameActiveTask) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ____minRequestTimeoutMs) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___mainThreadExecutor) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___gameActiveTask) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___requestQueue) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___mainThreadExecutor) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___pendingRequests) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___requestQueue) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___inProgressRequests) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___pendingRequests) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ____endpoint) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ___inProgressRequests) == 0x60, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient) == 0x68, "Size mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLClient, ____endpoint) == 0x68, "Offset mismatch!");
+
+static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient) == 0x70, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client

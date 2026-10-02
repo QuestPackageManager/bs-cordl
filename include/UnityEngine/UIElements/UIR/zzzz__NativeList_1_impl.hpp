@@ -1,10 +1,24 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/NativeList_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__NativeList_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+template <typename T> constexpr ::Unity::Collections::MemoryLabel& UnityEngine::UIElements::UIR::NativeList_1<T>::__cordl_internal_get_m_MemoryLabel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MemoryLabel;
+}
+template <typename T> constexpr ::Unity::Collections::MemoryLabel const& UnityEngine::UIElements::UIR::NativeList_1<T>::__cordl_internal_get_m_MemoryLabel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MemoryLabel;
+}
+template <typename T> constexpr void UnityEngine::UIElements::UIR::NativeList_1<T>::__cordl_internal_set_m_MemoryLabel(::Unity::Collections::MemoryLabel value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_MemoryLabel = value;
+}
 template <typename T> constexpr ::Unity::Collections::NativeArray_1<T>& UnityEngine::UIElements::UIR::NativeList_1<T>::__cordl_internal_get_m_NativeArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NativeArray;
@@ -41,10 +55,10 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::NativeList_1<
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::NativeList_1<T>::_ctor(int32_t initialCapacity) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::NativeList_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initialCapacity);
+template <typename T> inline void UnityEngine::UIElements::UIR::NativeList_1<T>::_ctor(int32_t initialCapacity, ::Unity::Collections::MemoryLabel allocLabel) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::NativeList_1<T>*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initialCapacity, allocLabel);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::NativeList_1<T>::Expand(int32_t newLength) {
   static auto* ___internal_method =
@@ -87,8 +101,9 @@ template <typename T> inline void UnityEngine::UIElements::UIR::NativeList_1<T>:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::NativeList_1<T>*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
-template <typename T> inline ::UnityEngine::UIElements::UIR::NativeList_1<T>* UnityEngine::UIElements::UIR::NativeList_1<T>::New_ctor(int32_t initialCapacity) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::NativeList_1<T>*>(initialCapacity));
+template <typename T>
+inline ::UnityEngine::UIElements::UIR::NativeList_1<T>* UnityEngine::UIElements::UIR::NativeList_1<T>::New_ctor(int32_t initialCapacity, ::Unity::Collections::MemoryLabel allocLabel) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::NativeList_1<T>*>(initialCapacity, allocLabel));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::UIElements::UIR::NativeList_1<T>::operator ::System::IDisposable*() noexcept {

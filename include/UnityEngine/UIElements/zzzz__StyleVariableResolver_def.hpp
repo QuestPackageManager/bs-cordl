@@ -103,7 +103,7 @@ public:
   static ::UnityEngine::UIElements::StyleVariableResolver_Result const Valid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5160 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -135,7 +135,7 @@ public:
   constexpr StyleVariableResolver_ResolveContext(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5161 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -202,37 +202,37 @@ public:
 
   __declspec(property(get = get_variableContext, put = set_variableContext)) ::UnityEngine::UIElements::StyleVariableContext* variableContext;
 
-  /// @brief Method AddValue, addr 0x6c9e0e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x711ac08, size 0xb8, virtual false, abstract: false, final false
   inline void AddValue(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method Init, addr 0x6c9df14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x711aa3c, size 0xd8, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::StyleProperty* property, ::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles);
 
   static inline ::UnityEngine::UIElements::StyleVariableResolver* New_ctor();
 
-  /// @brief Method ParseVarFunction, addr 0x6c9e280, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ParseVarFunction, addr 0x711ada8, size 0xb8, virtual false, abstract: false, final false
   static inline void ParseVarFunction(::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles, ::by_ref<int32_t> index, ::by_ref<int32_t> argCount,
                                       ::by_ref<::StringW> variableName);
 
-  /// @brief Method PopContext, addr 0x6c9e05c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PopContext, addr 0x711ab84, size 0x84, virtual false, abstract: false, final false
   inline void PopContext();
 
-  /// @brief Method PushContext, addr 0x6c9dfec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method PushContext, addr 0x711ab14, size 0x70, virtual false, abstract: false, final false
   inline void PushContext(::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles);
 
-  /// @brief Method ResolveFallback, addr 0x6c9e748, size 0x2bc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::StyleVariableResolver_Result ResolveFallback(::by_ref<int32_t> index);
+  /// @brief Method ResolveFallback, addr 0x711b27c, size 0x23c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::StyleVariableResolver_Result ResolveFallback(::by_ref<int32_t> index, bool appendValues);
 
-  /// @brief Method ResolveVarFunction, addr 0x6c9e330, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ResolveVarFunction, addr 0x711ae60, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleVariableResolver_Result ResolveVarFunction(::by_ref<int32_t> index, int32_t argc, ::StringW varName);
 
-  /// @brief Method ResolveVarFunction, addr 0x6c9e198, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ResolveVarFunction, addr 0x711acc0, size 0xe8, virtual false, abstract: false, final false
   inline bool ResolveVarFunction(::by_ref<int32_t> index);
 
-  /// @brief Method ResolveVariable, addr 0x6c9e4c0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ResolveVariable, addr 0x711aff4, size 0x288, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleVariableResolver_Result ResolveVariable(::StringW variableName);
 
-  /// @brief Method ValidateResolvedValues, addr 0x6c9ea04, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ValidateResolvedValues, addr 0x711b4b8, size 0x18c, virtual false, abstract: false, final false
   inline bool ValidateResolvedValues();
 
   constexpr ::UnityEngine::UIElements::StyleVariableContext* const& __cordl_internal_get__variableContext_k__BackingField() const;
@@ -277,28 +277,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ResolvedVarStack(::System::Collections::Generic::Stack_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x6c9eb74, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x711b644, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* getStaticF_s_SyntaxParser();
 
-  /// @brief Method get_currentHandles, addr 0x6c9def4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentHandles, addr 0x711aa1c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> get_currentHandles();
 
-  /// @brief Method get_currentSheet, addr 0x6c9deec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentSheet, addr 0x711aa14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> get_currentSheet();
 
-  /// @brief Method get_resolvedValues, addr 0x6c9defc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resolvedValues, addr 0x711aa24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* get_resolvedValues();
 
   /// [CompilerGenerated]
-  /// @brief Method get_variableContext, addr 0x6c9df04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variableContext, addr 0x711aa2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleVariableContext* get_variableContext();
 
   static inline void setStaticF_s_SyntaxParser(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_variableContext, addr 0x6c9df0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variableContext, addr 0x711aa34, size 0x8, virtual false, abstract: false, final false
   inline void set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
 protected:
@@ -316,7 +316,7 @@ public:
   StyleVariableResolver(StyleVariableResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5162 };
 
   /// @brief Field kMaxResolves offset 0xffffffff size 0x4
   static constexpr int32_t kMaxResolves{ static_cast<int32_t>(0x64) };

@@ -470,6 +470,11 @@ template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeLi
                                                                                          { "CheckNoResizeHasEnoughCapacity", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, length, index);
 }
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>::CheckResize(int32_t currentLength, int32_t numElements, int32_t maxCapacity) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>(),
+                                                                                         { "CheckResize", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, currentLength, numElements, maxCapacity);
+}
 /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
 template <typename T> constexpr Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>::operator ::Unity::Collections::INativeDisposable*() {
   return static_cast<::Unity::Collections::INativeDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));

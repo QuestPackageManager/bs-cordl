@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BatchRendererGroupRuntimeAnalytic::*)()>(&::UnityEngine::BatchRendererGroupRuntimeAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a6a84c;
+  constexpr static std::size_t addrs = 0x6ebcba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BatchRendererGroupRuntimeAnalytic*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::BatchRendererGroupRuntimeAnalytic* (*)()>(
     &::UnityEngine::BatchRendererGroupRuntimeAnalytic::CreateBatchRendererGroupRuntimeAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a6a8c4;
+  constexpr static std::size_t addrs = 0x6ebcc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

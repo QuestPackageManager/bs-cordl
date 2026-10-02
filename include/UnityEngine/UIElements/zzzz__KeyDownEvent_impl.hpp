@@ -5,13 +5,12 @@
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::KeyDownEvent___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent___c::*)()>(&::UnityEngine::UIElements::KeyDownEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9e420;
+  constexpr static std::size_t addrs = 0x722bdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::KeyDownEvent* (::UnityEngine::UIElements::KeyDownEvent___c::*)()>(
     &::UnityEngine::UIElements::KeyDownEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9e424;
+  constexpr static std::size_t addrs = 0x722bdf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -51,25 +50,12 @@ inline ::UnityEngine::UIElements::KeyDownEvent___c* UnityEngine::UIElements::Key
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyDownEvent___c::KeyDownEvent___c() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::KeyDownEvent.GetEquivalentImguiEvent
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)(::UnityEngine::Event*)>(&::UnityEngine::UIElements::KeyDownEvent::GetEquivalentImguiEvent)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6d9d81c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent*>(), { "GetEquivalentImguiEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::KeyDownEvent.PostDispatch
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::KeyDownEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6d9d918;
+  constexpr static std::size_t addrs = 0x722b2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::KeyDownEvent::SendEquivalentNavigationEventIfAny)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x6d9da28;
+  constexpr static std::size_t addrs = 0x722b3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent*>(),
@@ -96,18 +82,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)()>(&::UnityEngine::UIElements::KeyDownEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d9e380;
+  constexpr static std::size_t addrs = 0x722bd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::KeyDownEvent::GetEquivalentImguiEvent(::UnityEngine::Event* outImguiEvent) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent*>(), { "GetEquivalentImguiEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, outImguiEvent);
-}
 inline void UnityEngine::UIElements::KeyDownEvent::PostDispatch(::UnityEngine::UIElements::IPanel* panel) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::KeyDownEvent*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);

@@ -108,10 +108,10 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelScenesTransitionSetupData___c* New_ctor();
 
-  /// @brief Method <Init>b__43_0, addr 0x5912644, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__43_0, addr 0x5d2cd50, size 0x28, virtual false, abstract: false, final false
   inline void _Init_b__43_0(/* [Nullable(new[] { 0, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t);
 
-  /// @brief Method .ctor, addr 0x5912640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2cd4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandardLevelScenesTransitionSetupData___c* getStaticF___9();
@@ -137,7 +137,7 @@ public:
   StandardLevelScenesTransitionSetupData___c(StandardLevelScenesTransitionSetupData___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -221,27 +221,27 @@ public:
   __declspec(property(get = get_usingOverrideEnvironment, put = set_usingOverrideEnvironment)) bool usingOverrideEnvironment;
 
   /// [NullableContext(1)]
-  /// @brief Method Finish, addr 0x59124f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5d2cc00, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method GetColorInfo, addr 0x5912458, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetColorInfo, addr 0x5d2cb64, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<bool, ::GlobalNamespace::ColorScheme*> GetColorInfo(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
                                                                                            ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme,
                                                                                            /* [Nullable(1)] */ ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
                                                                                            bool usingOverrideEnvironment);
 
   /// [NullableContext(1)]
-  /// @brief Method GetEnvironmentInfo, addr 0x590fb64, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfo, addr 0x5d2a1e4, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, bool>
   GetEnvironmentInfo(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                      /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
-  /// @brief Method GetEnvironmentOverride, addr 0x591251c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentOverride, addr 0x5d2cc28, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentOverride(/* [Nullable(1)] */ ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
                                                                                       ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
   /// [NullableContext(1)]
-  /// @brief Method Init, addr 0x590fd30, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d2a3b0, size 0x5d4, virtual false, abstract: false, final false
   inline void Init(::StringW gameMode, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, /* [Nullable(2)] */ ::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
                    bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -319,96 +319,96 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x59125e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2ccf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x590e530, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5d28bb0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapKey, addr 0x59123c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x5d2cad0, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapLevel, addr 0x59123d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x5d2cae4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorScheme, addr 0x5912408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x5d2cb14, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
   /// [CompilerGenerated]
-  /// @brief Method get_gameMode, addr 0x59123b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x5d2cac0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_gameplayModifiers, addr 0x5912448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x5d2cb54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_originalEnvironmentInfo, addr 0x5912438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_originalEnvironmentInfo, addr 0x5d2cb44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_originalEnvironmentInfo();
 
   /// [CompilerGenerated]
-  /// @brief Method get_practiceSettings, addr 0x59123e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x5d2caf4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_targetEnvironmentInfo, addr 0x5912428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetEnvironmentInfo, addr 0x5d2cb34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_targetEnvironmentInfo();
 
   /// [CompilerGenerated]
-  /// @brief Method get_usingOverrideColorScheme, addr 0x59123f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usingOverrideColorScheme, addr 0x5d2cb04, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideColorScheme();
 
   /// [CompilerGenerated]
-  /// @brief Method get_usingOverrideEnvironment, addr 0x5912418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usingOverrideEnvironment, addr 0x5d2cb24, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideEnvironment();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x590e920, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5d28fa0, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmapKey, addr 0x59123d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x5d2cadc, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmapLevel, addr 0x59123e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevel, addr 0x5d2caec, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorScheme, addr 0x5912410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x5d2cb1c, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_gameMode, addr 0x59123bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameMode, addr 0x5d2cac8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameMode(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_gameplayModifiers, addr 0x5912450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x5d2cb5c, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_originalEnvironmentInfo, addr 0x5912440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_originalEnvironmentInfo, addr 0x5d2cb4c, size 0x8, virtual false, abstract: false, final false
   inline void set_originalEnvironmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_practiceSettings, addr 0x59123f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_practiceSettings, addr 0x5d2cafc, size 0x8, virtual false, abstract: false, final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_targetEnvironmentInfo, addr 0x5912430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetEnvironmentInfo, addr 0x5d2cb3c, size 0x8, virtual false, abstract: false, final false
   inline void set_targetEnvironmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_usingOverrideColorScheme, addr 0x5912400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usingOverrideColorScheme, addr 0x5d2cb0c, size 0x8, virtual false, abstract: false, final false
   inline void set_usingOverrideColorScheme(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_usingOverrideEnvironment, addr 0x5912420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usingOverrideEnvironment, addr 0x5d2cb2c, size 0x8, virtual false, abstract: false, final false
   inline void set_usingOverrideEnvironment(bool value);
 
 protected:
@@ -426,7 +426,7 @@ public:
   StandardLevelScenesTransitionSetupData(StandardLevelScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6871 };
 
   /// [Nullable(new[] { 2, 1, 1 })]
   /// [CompilerGenerated]

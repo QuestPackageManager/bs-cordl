@@ -27,15 +27,15 @@ public:
 
   __declspec(property(get = get_discoveryPort)) int32_t discoveryPort;
 
-  __declspec(property(get = get_forceGameLift)) bool forceGameLift;
-
   __declspec(property(get = get_graphAccessToken)) ::StringW graphAccessToken;
+
+  __declspec(property(get = get_graphApiBaseUrl)) ::StringW graphApiBaseUrl;
 
   __declspec(property(get = get_graphAppId)) uint64_t graphAppId;
 
   __declspec(property(get = get_graphQLUrl)) ::StringW graphQLUrl;
 
-  __declspec(property(get = get_graphUrl)) ::StringW graphUrl;
+  __declspec(property(get = get_isDevServer)) bool isDevServer;
 
   __declspec(property(get = get_localServerPort)) int32_t localServerPort;
 
@@ -45,11 +45,11 @@ public:
 
   __declspec(property(get = get_multiplayerPort)) int32_t multiplayerPort;
 
-  __declspec(property(get = get_multiplayerStatusUrl)) ::StringW multiplayerStatusUrl;
-
   __declspec(property(get = get_partyPort)) int32_t partyPort;
 
   __declspec(property(get = get_quickPlaySetupUrl)) ::StringW quickPlaySetupUrl;
+
+  __declspec(property(get = get_remoteAssetsBaseUrl)) ::StringW remoteAssetsBaseUrl;
 
   __declspec(property(get = get_serviceEnvironment)) ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
@@ -61,11 +61,11 @@ public:
   /// @brief Method get_discoveryPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_forceGameLift, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_forceGameLift();
-
   /// @brief Method get_graphAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_graphAccessToken();
+
+  /// @brief Method get_graphApiBaseUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_graphApiBaseUrl();
 
   /// @brief Method get_graphAppId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint64_t get_graphAppId();
@@ -73,8 +73,8 @@ public:
   /// @brief Method get_graphQLUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_graphQLUrl();
 
-  /// @brief Method get_graphUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_graphUrl();
+  /// @brief Method get_isDevServer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isDevServer();
 
   /// @brief Method get_localServerPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_localServerPort();
@@ -88,14 +88,14 @@ public:
   /// @brief Method get_multiplayerPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_multiplayerStatusUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_multiplayerStatusUrl();
-
   /// @brief Method get_partyPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_partyPort();
 
   /// @brief Method get_quickPlaySetupUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_quickPlaySetupUrl();
+
+  /// @brief Method get_remoteAssetsBaseUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_remoteAssetsBaseUrl();
 
   /// @brief Method get_serviceEnvironment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
@@ -108,7 +108,7 @@ public:
   INetworkConfig(INetworkConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19455 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

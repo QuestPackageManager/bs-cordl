@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::SimpleBlockResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x349f744;
+  constexpr static std::size_t addrs = 0x37289e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)()>(&::Org::BouncyCastle::Crypto::SimpleBlockResult::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x349f74c;
+  constexpr static std::size_t addrs = 0x37289e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::SimpleBlockResult*>(), { "get_Length", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)()>(&::Org::BouncyCastle::Crypto::SimpleBlockResult::Collect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x349f764;
+  constexpr static std::size_t addrs = 0x3728a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::SimpleBlockResult*>(), { "Collect", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::SimpleBlockResult::Collect)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x349f76c;
+  constexpr static std::size_t addrs = 0x3728a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

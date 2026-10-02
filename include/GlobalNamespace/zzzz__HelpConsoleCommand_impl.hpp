@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::HelpConsoleCommand::*)()>(&::GlobalNamespace::HelpConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32dd058;
+  constexpr static std::size_t addrs = 0x35644b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::HelpConsoleCommand::*)()>(&::GlobalNamespace::HelpConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32dd09c;
+  constexpr static std::size_t addrs = 0x35644f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::HelpConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::HelpConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x32dd0e0;
+  constexpr static std::size_t addrs = 0x356453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HelpConsoleCommand::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
     &::GlobalNamespace::HelpConsoleCommand::GetCommandUsage)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x32dd2a4;
+  constexpr static std::size_t addrs = 0x3564700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
     &::GlobalNamespace::HelpConsoleCommand::GetListOfCommands)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32dd1cc;
+  constexpr static std::size_t addrs = 0x3564628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>*)>(
     &::GlobalNamespace::HelpConsoleCommand::ListCommands)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x32dd3dc;
+  constexpr static std::size_t addrs = 0x3564838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpConsoleCommand::*)()>(&::GlobalNamespace::HelpConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x32dd840;
+  constexpr static std::size_t addrs = 0x3564c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HelpConsoleCommand*>(), { ".ctor", {}, {} })));

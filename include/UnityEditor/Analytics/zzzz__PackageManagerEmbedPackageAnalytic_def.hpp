@@ -12,8 +12,8 @@ class PackageManagerEmbedPackageAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic*, "UnityEditor.Analytics", "PackageManagerEmbedPackageAnalytic");
-// [RequiredByNativeCode(GenerateProxy = true)]
 // [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEditor.Analytics.PackageManagerBaseAnalytic
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -22,12 +22,12 @@ class CORDL_TYPE PackageManagerEmbedPackageAnalytic : public ::UnityEditor::Anal
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreatePackageManagerEmbedPackageAnalytic, addr 0x6e25814, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerEmbedPackageAnalytic, addr 0x72c0a40, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* CreatePackageManagerEmbedPackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e25780, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c09ac, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   PackageManagerEmbedPackageAnalytic(PackageManagerEmbedPackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

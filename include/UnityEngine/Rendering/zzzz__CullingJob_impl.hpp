@@ -8,6 +8,7 @@
 #include "UnityEngine/Rendering/zzzz__BatchCullingViewType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BinningConfig_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CPUInstanceData_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__CPUPerCameraInstanceData_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CPUSharedInstanceData_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FrustumPlaneCuller_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODGroupCullingData_impl.hpp"
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(float_t)>(&::UnityEngine::Rendering::CullingJob::PackFloatToUint8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6816cd4;
+  constexpr static std::size_t addrs = 0x6c484f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,10 +44,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(float_t)>(&:
 //  Writing Method size for method: ::UnityEngine::Rendering::CullingJob.CalculateLODVisibility
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
     &::UnityEngine::Rendering::CullingJob::CalculateLODVisibility)> {
-  constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x6816d34;
+  constexpr static std::size_t size = 0x574;
+  constexpr static std::size_t addrs = 0x6c48558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
     &::UnityEngine::Rendering::CullingJob::CalculateVisibilityMask)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x68171ec;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6c48acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,12 +73,54 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::CullingJob.ComputeMeshLODLevel
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::CullingJob::ComputeMeshLODLevel)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x6c48cc4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "ComputeMeshLODLevel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::CullingJob.ComputeMeshLODCrossfade
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, ::by_ref<uint32_t>)>(
+    &::UnityEngine::Rendering::CullingJob::ComputeMeshLODCrossfade)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6c48fb4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(),
+                                                                                           { "ComputeMeshLODCrossfade", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::CullingJob.EnforcePreviousFrameMeshLOD
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingJob::*)(int32_t, ::by_ref<uint32_t>)>(
+    &::UnityEngine::Rendering::CullingJob::EnforcePreviousFrameMeshLOD)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6c490ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "EnforcePreviousFrameMeshLOD", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::CullingJob.Execute
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingJob::*)(int32_t)>(&::UnityEngine::Rendering::CullingJob::Execute)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x68173e8;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x6c49110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));
@@ -89,17 +132,32 @@ inline uint32_t UnityEngine::Rendering::CullingJob::PackFloatToUint8(float_t per
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "PackFloatToUint8", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, percent);
 }
-inline float_t UnityEngine::Rendering::CullingJob::CalculateLODVisibility(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags) {
+inline uint32_t UnityEngine::Rendering::CullingJob::CalculateLODVisibility(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(),
                                               { "CalculateLODVisibility", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceFlags>() } })));
-  return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, instanceIndex, sharedInstanceIndex, instanceFlags);
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, instanceIndex, sharedInstanceIndex, instanceFlags);
 }
 inline uint32_t UnityEngine::Rendering::CullingJob::CalculateVisibilityMask(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(),
                                               { "CalculateVisibilityMask", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, instanceIndex, sharedInstanceIndex, instanceFlags);
+}
+inline uint32_t UnityEngine::Rendering::CullingJob::ComputeMeshLODLevel(int32_t instanceIndex, int32_t sharedInstanceIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "ComputeMeshLODLevel", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, instanceIndex, sharedInstanceIndex);
+}
+inline uint32_t UnityEngine::Rendering::CullingJob::ComputeMeshLODCrossfade(int32_t instanceIndex, ::by_ref<uint32_t> meshLodLevel) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(),
+                                                                                         { "ComputeMeshLODCrossfade", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, instanceIndex, meshLodLevel);
+}
+inline void UnityEngine::Rendering::CullingJob::EnforcePreviousFrameMeshLOD(int32_t instanceIndex, ::by_ref<uint32_t> meshLodLevel) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(),
+                                                                                         { "EnforcePreviousFrameMeshLOD", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceIndex, meshLodLevel);
 }
 inline void UnityEngine::Rendering::CullingJob::Execute(int32_t instanceIndex) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));
@@ -115,32 +173,38 @@ constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::CullingJob::i_
 }
 // Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewType", ty:
 // "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraPosition", ty: "::Unity::Mathematics::float3", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "sqrScreenRelativeMetric", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minScreenRelativeHeight",
-// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isOrtho", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "cullLightmappedShadowCasters", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxLOD", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "frustumPlanePackets", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "frustumSplitInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "lightFacingFrustumPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "receiverSplitInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "worldToLightSpaceRotation", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
-// "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
-// "::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupCullingData", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionBuffer", ty:
-// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
+// def_value: Some("{}"), comment: None }, CppParam { name: "sqrMeshLodSelectionConstant", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "sqrScreenRelativeMetric", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minScreenRelativeHeight", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "isOrtho", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullLightmappedShadowCasters", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "maxLOD", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingLayerMask", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "animateCrossFades", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "frustumPlanePackets", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "frustumSplitInfos", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightFacingFrustumPlanes",
+// ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "receiverSplitInfos", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldToLightSpaceRotation",
+// ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "lodGroupCullingData", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "occlusionBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraInstanceData", ty:
+// "::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererVisibilityMasks", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererMeshLodSettings", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererCrossFadeValues", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CullingJob::CullingJob(
-    ::UnityEngine::Rendering::BinningConfig binningConfig, ::UnityEngine::Rendering::BatchCullingViewType viewType, ::Unity::Mathematics::float3 cameraPosition, float_t sqrScreenRelativeMetric,
-    float_t minScreenRelativeHeight, bool isOrtho, bool cullLightmappedShadowCasters, int32_t maxLOD, uint32_t cullingLayerMask, uint64_t sceneCullingMask,
-    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> frustumPlanePackets,
+    ::UnityEngine::Rendering::BinningConfig binningConfig, ::UnityEngine::Rendering::BatchCullingViewType viewType, ::Unity::Mathematics::float3 cameraPosition, float_t sqrMeshLodSelectionConstant,
+    float_t sqrScreenRelativeMetric, float_t minScreenRelativeHeight, bool isOrtho, bool cullLightmappedShadowCasters, int32_t maxLOD, uint32_t cullingLayerMask, uint64_t sceneCullingMask,
+    bool animateCrossFades, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> frustumPlanePackets,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> frustumSplitInfos, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> receiverSplitInfos, ::Unity::Mathematics::float3x3 worldToLightSpaceRotation,
     ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData, ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly sharedInstanceData,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData, ::System::IntPtr occlusionBuffer,
-    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) noexcept {
+    ::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays cameraInstanceData, ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks,
+    ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) noexcept {
   this->binningConfig = binningConfig;
   this->viewType = viewType;
   this->cameraPosition = cameraPosition;
+  this->sqrMeshLodSelectionConstant = sqrMeshLodSelectionConstant;
   this->sqrScreenRelativeMetric = sqrScreenRelativeMetric;
   this->minScreenRelativeHeight = minScreenRelativeHeight;
   this->isOrtho = isOrtho;
@@ -148,6 +212,7 @@ constexpr ::UnityEngine::Rendering::CullingJob::CullingJob(
   this->maxLOD = maxLOD;
   this->cullingLayerMask = cullingLayerMask;
   this->sceneCullingMask = sceneCullingMask;
+  this->animateCrossFades = animateCrossFades;
   this->frustumPlanePackets = frustumPlanePackets;
   this->frustumSplitInfos = frustumSplitInfos;
   this->lightFacingFrustumPlanes = lightFacingFrustumPlanes;
@@ -157,7 +222,9 @@ constexpr ::UnityEngine::Rendering::CullingJob::CullingJob(
   this->sharedInstanceData = sharedInstanceData;
   this->lodGroupCullingData = lodGroupCullingData;
   this->occlusionBuffer = occlusionBuffer;
+  this->cameraInstanceData = cameraInstanceData;
   this->rendererVisibilityMasks = rendererVisibilityMasks;
+  this->rendererMeshLodSettings = rendererMeshLodSettings;
   this->rendererCrossFadeValues = rendererCrossFadeValues;
 }
 // Ctor Parameters []

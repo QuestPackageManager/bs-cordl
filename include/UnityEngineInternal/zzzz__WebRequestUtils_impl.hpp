@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngineInternal::WebRequestUtils::RedirectTo)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6e27094;
+  constexpr static std::size_t addrs = 0x72c238c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngineInternal::WebRequestUtils::MakeInitialUrl)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x6e2717c;
+  constexpr static std::size_t addrs = 0x72c2474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, 
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Uri*, ::StringW, bool)>(&::UnityEngineInternal::WebRequestUtils::MakeUriString)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x6e27508;
+  constexpr static std::size_t size = 0x434;
+  constexpr static std::size_t addrs = 0x72c2800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngineInternal::WebRequestUtils::URLDecode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e27938;
+  constexpr static std::size_t addrs = 0x72c2c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

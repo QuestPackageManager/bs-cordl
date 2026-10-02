@@ -36,10 +36,10 @@ template <typename PassData, typename TRenderGraphContext>
 class CORDL_TYPE BaseRenderGraphPass_2 : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass {
 public:
   // Declarations
-  /// @brief Field data, offset 0xb0, size 0x8
+  /// @brief Field data, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) PassData data;
 
-  /// @brief Field renderFunc, offset 0xb8, size 0x8
+  /// @brief Field renderFunc, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_renderFunc,
                       put = __cordl_internal_set_renderFunc)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData, TRenderGraphContext>* renderFunc;
 
@@ -88,12 +88,12 @@ public:
   BaseRenderGraphPass_2(BaseRenderGraphPass_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9342 };
 
-  /// @brief Field data, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field data, offset: 0xe8, size: 0x8, def value: None
   PassData ___data;
 
-  /// @brief Field renderFunc, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field renderFunc, offset: 0xf0, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData, TRenderGraphContext>* ___renderFunc;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

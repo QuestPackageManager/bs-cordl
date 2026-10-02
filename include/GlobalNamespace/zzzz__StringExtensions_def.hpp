@@ -29,15 +29,15 @@ class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AnyContains, addr 0x330d448, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AnyContains, addr 0x3595f0c, size 0x88, virtual false, abstract: false, final false
   static inline bool AnyContains(::ArrayW<::StringW> stringArray, ::StringW value, ::System::StringComparison stringComparison);
 
   /// [Extension]
-  /// @brief Method Contains, addr 0x330d420, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3595ee4, size 0x28, virtual false, abstract: false, final false
   static inline bool Contains(/* [Nullable(2)] */ ::StringW source, ::StringW substring, ::System::StringComparison comp);
 
   /// [Extension]
-  /// @brief Method Truncate, addr 0x330d364, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x3595e28, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
 protected:
@@ -55,7 +55,7 @@ public:
   StringExtensions(StringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

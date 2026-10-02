@@ -51,13 +51,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cbeed8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x71459dc, size 0x40, virtual false, abstract: false, final false
   inline int32_t _GetValueFromBag_b__3_0(::StringW s, int32_t i);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x6cbef18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x7145a1c, size 0x40, virtual false, abstract: false, final false
   inline int32_t _TryGetValueFromBag_b__4_0(::StringW s, int32_t i);
 
-  /// @brief Method .ctor, addr 0x6cbeed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71459d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription___c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   UxmlIntAttributeDescription___c(UxmlIntAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,18 +104,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlIntAttributeDescription___c;
 
-  /// @brief Method ConvertValueToInt, addr 0x6cbee44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToInt, addr 0x7145948, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ConvertValueToInt(::StringW v, int32_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x6cbeb00, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x7145644, size 0x178, virtual true, abstract: false, final false
   inline int32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* New_ctor();
 
-  /// @brief Method TryGetValueFromBag, addr 0x6cbec98, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBag, addr 0x71457bc, size 0x18c, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6cbea60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71455a4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   UxmlIntAttributeDescription(UxmlIntAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

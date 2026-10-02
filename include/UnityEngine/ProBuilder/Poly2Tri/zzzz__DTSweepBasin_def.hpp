@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_width(double_t value);
 
-  /// @brief Method .ctor, addr 0x66b0d10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6add1d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   DTSweepBasin(DTSweepBasin const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22533 };
 
   /// @brief Field leftNode, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___leftNode;

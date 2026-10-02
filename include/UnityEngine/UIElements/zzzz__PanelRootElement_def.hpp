@@ -12,6 +12,7 @@ class PanelRootElement;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::PanelRootElement*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PanelRootElement*, "UnityEngine.UIElements", "PanelRootElement");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIToolkitAuthoringModule" })]
 // Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::PanelRootElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6db964c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726d66c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,11 +40,11 @@ public:
   PanelRootElement(PanelRootElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::PanelRootElement) == 0x4a8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::PanelRootElement) == 0x2c8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

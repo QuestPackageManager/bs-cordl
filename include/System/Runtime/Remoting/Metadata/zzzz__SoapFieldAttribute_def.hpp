@@ -33,12 +33,12 @@ public:
   /// @brief Field _isElement, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isElement, put = __cordl_internal_set__isElement)) bool _isElement;
 
-  /// @brief Method IsInteropXmlElement, addr 0x5b3e26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsInteropXmlElement, addr 0x5f56164, size 0x8, virtual false, abstract: false, final false
   inline bool IsInteropXmlElement();
 
   static inline ::System::Runtime::Remoting::Metadata::SoapFieldAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x5b3e274, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x5f5616c, size 0xb0, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get__elementName() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__isElement(bool value);
 
-  /// @brief Method .ctor, addr 0x5b3e260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f56158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XmlElementName, addr 0x5b3e264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElementName, addr 0x5f5615c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlElementName();
 
 protected:

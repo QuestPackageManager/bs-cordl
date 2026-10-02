@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>> (::BeatSaber::BeatAvatarSDK::SkinColorSetSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::SkinColorSetSO::get_colors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327e744;
+  constexpr static std::size_t addrs = 0x3504fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::SkinColorSetSO*>(), { "get_colors", {}, {} })));
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::BeatS
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::SkinColorSetSO::*)()>(&::BeatSaber::BeatAvatarSDK::SkinColorSetSO::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327e74c;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x3504fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::SkinColorSetSO*>(), { ".ctor", {}, {} })));

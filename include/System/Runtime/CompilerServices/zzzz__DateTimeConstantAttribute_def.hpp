@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__date(::System::DateTime value);
 
-  /// @brief Method get_Value, addr 0x5b70308, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5f8825c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

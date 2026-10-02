@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::SurrogateChar::*)(int32_t)>(&::System::Text::SurrogateChar::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6129988;
+  constexpr static std::size_t addrs = 0x655ac58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::SurrogateChar>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::SurrogateChar::*)(char16_t, char16_t)>(&::System::Text::SurrogateChar::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x613346c;
+  constexpr static std::size_t addrs = 0x655ad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Text::SurrogateChar::*)()>(&::System::Text::SurrogateChar::get_LowChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6133658;
+  constexpr static std::size_t addrs = 0x655af6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::SurrogateChar>(), { "get_LowChar", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Text::SurrogateChar::*)()>(&::System::Text::SurrogateChar::get_HighChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6133660;
+  constexpr static std::size_t addrs = 0x655af74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::SurrogateChar>(), { "get_HighChar", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::SurrogateChar::*)()>(&::System::Text::SurrogateChar::get_Char)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6133668;
+  constexpr static std::size_t addrs = 0x655af7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::SurrogateChar>(), { "get_Char", {}, {} })));

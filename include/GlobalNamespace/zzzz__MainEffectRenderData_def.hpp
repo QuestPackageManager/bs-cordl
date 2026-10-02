@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_tempTextureHandles(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method .ctor, addr 0x5f430cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635e880, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   MainEffectRenderData(MainEffectRenderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21123 };
 
   /// @brief Field tempTextureHandles, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> ___tempTextureHandles;

@@ -33,18 +33,18 @@ public:
   /// @brief Field _obstacleController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController)) ::UnityW<::GlobalNamespace::ObstacleControllerBase> _obstacleController;
 
-  /// @brief Method Awake, addr 0x58dad28, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cf14f0, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x58daf78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x5cf1740, size 0x24, virtual false, abstract: false, final false
   inline void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method HandleObstacleDidInitEvent, addr 0x58daf48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidInitEvent, addr 0x5cf1710, size 0x30, virtual false, abstract: false, final false
   inline void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
   static inline ::GlobalNamespace::ObstacleDissolve* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58dae14, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cf15dc, size 0x134, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase> value);
 
-  /// @brief Method .ctor, addr 0x58daf9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf1764, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   ObstacleDissolve(ObstacleDissolve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5823 };
 
   /// [SerializeField]
   /// @brief Field _obstacleController, offset: 0x20, size: 0x8, def value: None

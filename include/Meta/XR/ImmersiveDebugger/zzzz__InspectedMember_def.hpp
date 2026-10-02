@@ -55,12 +55,12 @@ public:
   /// @brief Field memberName, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName)) ::StringW memberName;
 
-  /// @brief Method Initialize, addr 0x5a41284, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5e58c20, size 0x128, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Meta::XR::ImmersiveDebugger::InspectedMember* New_ctor(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method PopulateSupportedGizmos, addr 0x5a41c3c, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method PopulateSupportedGizmos, addr 0x5e595d8, size 0x5ec, virtual false, abstract: false, final false
   inline void PopulateSupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* supportedGizmos);
 
   constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__MemberInfo_k__BackingField() const;
@@ -93,23 +93,23 @@ public:
 
   constexpr void __cordl_internal_set_memberName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a41b60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e594fc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member);
 
   /// [CompilerGenerated]
-  /// @brief Method get_MemberInfo, addr 0x5a41c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x5e595c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SupportedGizmos, addr 0x5a41c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportedGizmos, addr 0x5e595b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* get_SupportedGizmos();
 
   /// [CompilerGenerated]
-  /// @brief Method set_MemberInfo, addr 0x5a41c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberInfo, addr 0x5e595d0, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberInfo(::System::Reflection::MemberInfo* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_SupportedGizmos, addr 0x5a41c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SupportedGizmos, addr 0x5e595c0, size 0x8, virtual false, abstract: false, final false
   inline void set_SupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   static ::System::Reflection::BindingFlags const Flags;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18866 };
 
   /// [SerializeField]
   /// @brief Field attribute, offset: 0x28, size: 0x8, def value: None

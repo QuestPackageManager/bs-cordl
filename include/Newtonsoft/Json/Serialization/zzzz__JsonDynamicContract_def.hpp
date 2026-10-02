@@ -74,20 +74,20 @@ public:
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
       _callSiteSetters;
 
-  /// @brief Method CreateCallSiteGetter, addr 0x5d42e38, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteGetter, addr 0x615ca1c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteGetter(::StringW name);
 
-  /// @brief Method CreateCallSiteSetter, addr 0x5d42f5c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteSetter, addr 0x615cb40, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteSetter(::StringW name);
 
   static inline ::Newtonsoft::Json::Serialization::JsonDynamicContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method TryGetMember, addr 0x5d43080, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TryGetMember, addr 0x615cc64, size 0x10c, virtual false, abstract: false, final false
   inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, /* [Nullable(2)] */ ::by_ref<::System::Object*> value);
 
-  /// @brief Method TrySetMember, addr 0x5d4318c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TrySetMember, addr 0x615cd70, size 0x108, virtual false, abstract: false, final false
   inline bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection* const& __cordl_internal_get__Properties_k__BackingField() const;
@@ -127,19 +127,19 @@ public:
           ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
           value);
 
-  /// @brief Method .ctor, addr 0x5d3d580, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6157164, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Properties, addr 0x5d42e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x615ca04, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_PropertyNameResolver, addr 0x5d42e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameResolver, addr 0x615ca0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
 
   /// [CompilerGenerated]
-  /// @brief Method set_PropertyNameResolver, addr 0x5d42e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameResolver, addr 0x615ca14, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameResolver(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Func_2<::StringW, ::StringW>* value);
 
 protected:
@@ -157,7 +157,7 @@ public:
   JsonDynamicContract(JsonDynamicContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13746 };
 
   /// [CompilerGenerated]
   /// @brief Field <Properties>k__BackingField, offset: 0xc0, size: 0x8, def value: None

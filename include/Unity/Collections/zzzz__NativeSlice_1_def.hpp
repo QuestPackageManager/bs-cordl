@@ -46,10 +46,10 @@ MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeSlice_1, "Unity.Collections", "NativeSlice`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeSlice_1_Enumerator, "Unity.Collections", "NativeSlice`1/Enumerator");
 // [NativeContainer]
-// [NativeContainerSupportsMinMaxWriteRestriction]
 // [DebuggerTypeProxy(typeof(Unity.Collections.NativeSliceDebugView`1<T>))]
-// [DebuggerDisplay("Length = {Length}")]
 // [DefaultMember("Item")]
+// [NativeContainerSupportsMinMaxWriteRestriction]
+// [DebuggerDisplay("Length = {Length}")]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
@@ -141,7 +141,7 @@ public:
   constexpr NativeSlice_1(uint8_t* m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9577 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -219,7 +219,7 @@ public:
   constexpr NativeSlice_1_Enumerator(::Unity::Collections::NativeSlice_1<T> m_Array, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

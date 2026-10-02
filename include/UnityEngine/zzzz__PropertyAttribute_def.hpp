@@ -13,8 +13,8 @@ class PropertyAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::PropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PropertyAttribute*, "UnityEngine", "PropertyAttribute");
-// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = false)]
 // [UsedByNativeCode]
+// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -46,14 +46,14 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ad7ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f32010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ad8000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f32018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool applyToCollection);
 
   /// [CompilerGenerated]
-  /// @brief Method set_order, addr 0x6ad7ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x6f32008, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:
@@ -71,10 +71,10 @@ public:
   PropertyAttribute(PropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9862 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____order_k__BackingField;
 

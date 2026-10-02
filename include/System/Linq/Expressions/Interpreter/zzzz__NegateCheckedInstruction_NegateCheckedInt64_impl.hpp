@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::Run)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5fb7008;
+  constexpr static std::size_t addrs = 0x63d2f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::*)()>(
     &::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fb6e88;
+  constexpr static std::size_t addrs = 0x63d2e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64*>(), { ".ctor", {}, {} })));

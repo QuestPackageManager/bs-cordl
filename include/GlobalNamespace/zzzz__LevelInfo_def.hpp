@@ -61,31 +61,31 @@ public:
 
   constexpr void __cordl_internal_set__songDurationMs_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32b8ddc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3540158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmaps, addr 0x32b8dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmaps, addr 0x3540138, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapInfo*> get_beatmaps();
 
   /// [CompilerGenerated]
-  /// @brief Method get_levelID, addr 0x32b8dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x3540128, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
   /// [CompilerGenerated]
-  /// @brief Method get_songDurationMs, addr 0x32b8dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songDurationMs, addr 0x3540148, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_songDurationMs();
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmaps, addr 0x32b8dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmaps, addr 0x3540140, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmaps(::ArrayW<::GlobalNamespace::BeatmapInfo*> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_levelID, addr 0x32b8db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelID, addr 0x3540130, size 0x8, virtual false, abstract: false, final false
   inline void set_levelID(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_songDurationMs, addr 0x32b8dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songDurationMs, addr 0x3540150, size 0x8, virtual false, abstract: false, final false
   inline void set_songDurationMs(int32_t value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   LevelInfo(LevelInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19519 };
 
   /// [CompilerGenerated]
   /// @brief Field <levelID>k__BackingField, offset: 0x10, size: 0x8, def value: None

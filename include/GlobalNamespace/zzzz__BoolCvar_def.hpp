@@ -22,12 +22,12 @@ class CORDL_TYPE BoolCvar : public ::GlobalNamespace::Cvar_1<bool> {
 public:
   // Declarations
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method Init, addr 0x3327cb0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35b0f30, size 0x6c, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::BoolCvar* New_ctor(::StringW name, bool initialValue);
 
-  /// @brief Method .ctor, addr 0x3327d1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b0f9c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool initialValue);
 
 protected:
@@ -45,7 +45,7 @@ public:
   BoolCvar(BoolCvar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

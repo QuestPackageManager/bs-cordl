@@ -31,7 +31,7 @@ public:
   IPoolable_8(IPoolable_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

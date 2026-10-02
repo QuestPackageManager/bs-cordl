@@ -16,6 +16,7 @@ struct GradientSettings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::GradientSettings);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GradientSettings, "UnityEngine.UIElements", "GradientSettings");
+// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
 // Dependencies UnityEngine.RectInt, UnityEngine.UIElements.AddressMode, UnityEngine.UIElements.GradientType, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -34,7 +35,7 @@ public:
                              ::UnityEngine::RectInt location) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5319 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

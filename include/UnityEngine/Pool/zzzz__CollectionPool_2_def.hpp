@@ -69,7 +69,7 @@ public:
   CollectionPool_2___c(CollectionPool_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,7 +117,7 @@ public:
   CollectionPool_2(CollectionPool_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10236 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

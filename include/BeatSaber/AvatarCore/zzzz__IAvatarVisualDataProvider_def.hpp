@@ -26,12 +26,17 @@ public:
   // Declarations
   __declspec(property(get = get_avatarsData)) ::GlobalNamespace::MultiplayerAvatarsData avatarsData;
 
+  __declspec(property(get = get_isVisualDataResolved)) bool isVisualDataResolved;
+
   /// [CompilerGenerated]
   /// @brief Method add_visualDataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
   /// @brief Method get_avatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
+
+  /// @brief Method get_isVisualDataResolved, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isVisualDataResolved();
 
   /// [CompilerGenerated]
   /// @brief Method remove_visualDataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -42,7 +47,7 @@ public:
   IAvatarVisualDataProvider(IAvatarVisualDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

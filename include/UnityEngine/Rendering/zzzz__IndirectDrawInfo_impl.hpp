@@ -3,14 +3,14 @@
 #include "UnityEngine/Rendering/zzzz__IndirectDrawInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "indexCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstIndex", ty: "uint32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "baseVertex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstInstanceGlobalIndex", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxInstanceCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxInstanceCountAndTopology", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectDrawInfo::IndirectDrawInfo(uint32_t indexCount, uint32_t firstIndex, uint32_t baseVertex, uint32_t firstInstanceGlobalIndex,
-                                                                       uint32_t maxInstanceCount) noexcept {
+                                                                       uint32_t maxInstanceCountAndTopology) noexcept {
   this->indexCount = indexCount;
   this->firstIndex = firstIndex;
   this->baseVertex = baseVertex;
   this->firstInstanceGlobalIndex = firstInstanceGlobalIndex;
-  this->maxInstanceCount = maxInstanceCount;
+  this->maxInstanceCountAndTopology = maxInstanceCountAndTopology;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::IndirectDrawInfo::IndirectDrawInfo() {}

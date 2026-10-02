@@ -98,7 +98,7 @@ public:
   static ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5558 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -121,13 +121,13 @@ namespace UnityEngine::UIElements::Layout {
 class CORDL_TYPE LayoutNative_LayoutLogData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field eventType, offset 0x40, size 0x4
+  /// @brief Field eventType, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_eventType, put = __cordl_internal_set_eventType)) ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType eventType;
 
-  /// @brief Field message, offset 0x48, size 0x8
+  /// @brief Field message, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message)) ::StringW message;
 
-  /// @brief Field node, offset 0x10, size 0x30
+  /// @brief Field node, offset 0x10, size 0x40
   __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node)) ::UnityEngine::UIElements::Layout::LayoutNode node;
 
   static inline ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData* New_ctor();
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::UnityEngine::UIElements::Layout::LayoutNode value);
 
-  /// @brief Method .ctor, addr 0x6d03df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x719a2ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,15 +168,15 @@ public:
   LayoutNative_LayoutLogData(LayoutNative_LayoutLogData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5559 };
 
-  /// @brief Field node, offset: 0x10, size: 0x30, def value: None
+  /// @brief Field node, offset: 0x10, size: 0x40, def value: None
   ::UnityEngine::UIElements::Layout::LayoutNode ___node;
 
-  /// @brief Field eventType, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field eventType, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType ___eventType;
 
-  /// @brief Field message, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field message, offset: 0x58, size: 0x8, def value: None
   ::StringW ___message;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -184,11 +184,11 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData, ___node) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData, ___eventType) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData, ___eventType) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData, ___message) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData, ___message) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
 // [NativeHeader("Modules/UIElements/Core/Layout/Native/LayoutNative.h")]
@@ -207,11 +207,11 @@ public:
   __declspec(property(get = getStaticF_onLayoutLog, put = setStaticF_onLayoutLog)) ::System::Action_1<::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData*>* onLayoutLog;
 
   /// [NativeMethod(IsThreadSafe = false)]
-  /// @brief Method CalculateLayout, addr 0x6d03ccc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x719a1c4, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateLayout(::System::IntPtr node, float_t parentWidth, float_t parentHeight, int32_t parentDirection, ::System::IntPtr state, ::System::IntPtr exceptionGCHandle);
 
   /// [RequiredByNativeCode]
-  /// @brief Method LayoutLog_Internal, addr 0x6d03d40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LayoutLog_Internal, addr 0x719a238, size 0xb4, virtual false, abstract: false, final false
   static inline void LayoutLog_Internal(::System::IntPtr nodePtr, ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType type, ::StringW message);
 
   static inline ::System::Action_1<::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData*>* getStaticF_onLayoutLog();
@@ -233,7 +233,7 @@ public:
   LayoutNative(LayoutNative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -202,6 +202,10 @@ template <typename T> inline void System::Collections::Generic::Stack_1<T>::Push
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::Stack_1<T>*>(), { "PushWithResize", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
+template <typename T> inline ::ArrayW<T> System::Collections::Generic::Stack_1<T>::ToArray() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::Stack_1<T>*>(), { "ToArray", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(this, ___internal_method);
+}
 template <typename T> inline void System::Collections::Generic::Stack_1<T>::ThrowForEmptyStack() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::Stack_1<T>*>(), { "ThrowForEmptyStack", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);

@@ -5,9 +5,9 @@
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackOptions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action_1<::UnityEngine::UIElements::EventBase*>*)>(
     &::UnityEngine::UIElements::Clickable::add_clickedWithEventInfo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c49e94;
+  constexpr static std::size_t addrs = 0x70933b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action_1<::UnityEngine::UIElements::EventBase*>*)>(
     &::UnityEngine::UIElements::Clickable::remove_clickedWithEventInfo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c49f54;
+  constexpr static std::size_t addrs = 0x7093474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*)>(&::UnityEngine::UIElements::Clickable::add_clicked)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c4a014;
+  constexpr static std::size_t addrs = 0x7093534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*)>(&::UnityEngine::UIElements::Clickable::remove_clicked)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c4a0c0;
+  constexpr static std::size_t addrs = 0x70935e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::get_active)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4a16c;
+  constexpr static std::size_t addrs = 0x709368c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_active", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(bool)>(&::UnityEngine::UIElements::Clickable::set_active)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4a174;
+  constexpr static std::size_t addrs = 0x7093694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::get_lastMousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4a17c;
+  constexpr static std::size_t addrs = 0x709369c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_lastMousePosition", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::Clickable::set_lastMousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4a184;
+  constexpr static std::size_t addrs = 0x70936a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::get_acceptClicksIfDisabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4a18c;
+  constexpr static std::size_t addrs = 0x70936ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_acceptClicksIfDisabled", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(bool)>(&::UnityEngine::UIElements::Clickable::set_acceptClicksIfDisabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c4a194;
+  constexpr static std::size_t addrs = 0x70936b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,15 +146,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.get_invokePolicy
+//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.get_CallbackOptions
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::InvokePolicy (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::get_invokePolicy)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4a1fc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CallbackOptions (::UnityEngine::UIElements::Clickable::*)()>(
+    &::UnityEngine::UIElements::Clickable::get_CallbackOptions)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x709371c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_invokePolicy", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_CallbackOptions", {}, {} })));
     return ___internal_method;
   }
 };
@@ -163,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*, int64_t, int64_t)>(&::UnityEngine::UIElements::Clickable::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c4a204;
+  constexpr static std::size_t addrs = 0x7093728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action_1<::UnityEngine::UIElements::EventBase*>*)>(
     &::UnityEngine::UIElements::Clickable::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c4a300;
+  constexpr static std::size_t addrs = 0x7093824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*)>(&::UnityEngine::UIElements::Clickable::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6c4a230;
+  constexpr static std::size_t addrs = 0x7093754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,8 +205,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::TimerState)>(&::UnityEngine::UIElements::Clickable::OnTimer)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c4a3d8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x70938fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::IsRepeatable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c4a478;
+  constexpr static std::size_t addrs = 0x7093998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "IsRepeatable", {}, {} })));
@@ -229,8 +230,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::RegisterCallbacksOnTarget)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x6c4a56c;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x7093a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x6c4a82c;
+  constexpr static std::size_t addrs = 0x7093d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,8 +257,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerDown)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c4ab18;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x7094028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerMove)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c4abbc;
+  constexpr static std::size_t addrs = 0x70940d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerUp)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c4ac3c;
+  constexpr static std::size_t addrs = 0x7094154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerCancel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c4ace8;
+  constexpr static std::size_t addrs = 0x7094200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerCaptureOutEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerCaptureOut)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c4ad7c;
+  constexpr static std::size_t addrs = 0x7094294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(),
@@ -329,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)(int32_t)>(&::UnityEngine::UIElements::Clickable::ContainsPointer)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c4a49c;
+  constexpr static std::size_t addrs = 0x70939bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::Clickable::Invoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c4a514;
+  constexpr static std::size_t addrs = 0x7093a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,8 +356,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, int32_t)>(
     &::UnityEngine::UIElements::Clickable::SimulateSingleClick)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6c4adfc;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x7094314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,8 +370,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::ResetActivePseudoState)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4aae0;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x7093ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "ResetActivePseudoState", {}, {} })));
@@ -382,8 +383,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::UIElements::Clickable::ProcessDownEvent)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x6c4afac;
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x70944c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -396,8 +397,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::Clickable::ProcessMoveEvent)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c4b33c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x709484c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,8 +411,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::UIElements::Clickable::ProcessUpEvent)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6c4b3a8;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x70948a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,8 +425,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, int32_t)>(
     &::UnityEngine::UIElements::Clickable::ProcessCancelEvent)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6c4b538;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x7094a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -601,9 +602,9 @@ inline void UnityEngine::UIElements::Clickable::set_acceptClicksIfDisabled(bool 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "set_acceptClicksIfDisabled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::InvokePolicy UnityEngine::UIElements::Clickable::get_invokePolicy() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_invokePolicy", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::InvokePolicy>(this, ___internal_method);
+inline ::UnityEngine::UIElements::CallbackOptions UnityEngine::UIElements::Clickable::get_CallbackOptions() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Clickable*>(), { "get_CallbackOptions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::CallbackOptions>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Clickable::_ctor(::System::Action* handler, int64_t delay, int64_t interval) {
   static auto* ___internal_method = THROW_UNLESS(

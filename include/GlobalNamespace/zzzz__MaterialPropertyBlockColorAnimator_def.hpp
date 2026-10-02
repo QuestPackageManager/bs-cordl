@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x5871b98, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x5c87d6c, size 0x30, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x5871c50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c87e24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x5871b80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5c87d54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x5871b8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x5c87d60, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19997 };
 
   /// [Space]
   /// [SerializeField]

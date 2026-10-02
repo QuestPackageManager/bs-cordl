@@ -66,13 +66,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Smoothing___c* New_ctor();
 
-  /// @brief Method <ApplySmoothingGroups>b__7_0, addr 0x66f570c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <ApplySmoothingGroups>b__7_0, addr 0x6b09964, size 0x14, virtual false, abstract: false, final false
   inline int32_t _ApplySmoothingGroups_b__7_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <GetUnusedSmoothingGroup>b__3_0, addr 0x66f56f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetUnusedSmoothingGroup>b__3_0, addr 0x6b09950, size 0x14, virtual false, abstract: false, final false
   inline int32_t _GetUnusedSmoothingGroup_b__3_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x66f56f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0994c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::Smoothing___c* getStaticF___9();
@@ -102,7 +102,7 @@ public:
   Smoothing___c(Smoothing___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,28 +119,28 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::Smoothing___c;
 
-  /// @brief Method ApplySmoothingGroups, addr 0x66f4814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x6b08aec, size 0x8, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold);
 
-  /// @brief Method ApplySmoothingGroups, addr 0x66f481c, size 0x82c, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x6b08af4, size 0x82c, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold, ::ArrayW<::UnityEngine::Vector3> normals);
 
-  /// @brief Method FindSoftEdgesRecursive, addr 0x66f5048, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method FindSoftEdgesRecursive, addr 0x6b09320, size 0x298, virtual false, abstract: false, final false
   static inline bool FindSoftEdgesRecursive(::ArrayW<::UnityEngine::Vector3> normals, ::UnityEngine::ProBuilder::WingedEdge* wing, float_t angleThreshold,
                                             ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* processed);
 
-  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x66f4780, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x6b08a58, size 0x88, virtual false, abstract: false, final false
   static inline int32_t GetNextUnusedSmoothingGroup(int32_t start, ::System::Collections::Generic::HashSet_1<int32_t>* used);
 
-  /// @brief Method GetUnusedSmoothingGroup, addr 0x66f456c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetUnusedSmoothingGroup, addr 0x6b08844, size 0x214, virtual false, abstract: false, final false
   static inline int32_t GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method IsSmooth, addr 0x66f4808, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSmooth, addr 0x6b08ae0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSmooth(int32_t index);
 
-  /// @brief Method IsSoftEdge, addr 0x66f52e0, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method IsSoftEdge, addr 0x6b095b8, size 0x340, virtual false, abstract: false, final false
   static inline bool IsSoftEdge(::ArrayW<::UnityEngine::Vector3> normals, ::UnityEngine::ProBuilder::EdgeLookup left, ::UnityEngine::ProBuilder::EdgeLookup right, float_t threshold);
 
 protected:
@@ -158,7 +158,7 @@ public:
   Smoothing(Smoothing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17336 };
 
   /// @brief Field smoothRangeMax offset 0xffffffff size 0x4
   static constexpr int32_t smoothRangeMax{ static_cast<int32_t>(0x1e) };

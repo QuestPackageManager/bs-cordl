@@ -98,24 +98,24 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x375f414, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8af4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t brightnessDistributionParam, bool brightnessDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataCommon::DistributionParamType brightnessDistributionParamType,
                     ::BeatmapSaveDataCommon::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method get_brightnessDistributionEaseType, addr 0x375f404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionEaseType, addr 0x39e8ae4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_brightnessDistributionEaseType();
 
-  /// @brief Method get_brightnessDistributionParam, addr 0x375f3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionParam, addr 0x39e8ac4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightnessDistributionParam();
 
-  /// @brief Method get_brightnessDistributionParamType, addr 0x375f3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionParamType, addr 0x39e8acc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_brightnessDistributionParamType();
 
-  /// @brief Method get_brightnessDistributionShouldAffectFirstBaseEvent, addr 0x375f3f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionShouldAffectFirstBaseEvent, addr 0x39e8ad4, size 0x10, virtual false, abstract: false, final false
   inline bool get_brightnessDistributionShouldAffectFirstBaseEvent();
 
-  /// @brief Method get_lightColorBaseDataList, addr 0x375f40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightColorBaseDataList, addr 0x39e8aec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* get_lightColorBaseDataList();
 
 protected:
@@ -133,7 +133,7 @@ public:
   LightColorEventBox(LightColorEventBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15603 };
 
   /// [SerializeField]
   /// @brief Field r, offset: 0x20, size: 0x4, def value: None

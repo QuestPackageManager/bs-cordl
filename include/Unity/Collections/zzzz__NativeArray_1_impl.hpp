@@ -12,6 +12,7 @@
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArrayOptions_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
@@ -21,6 +22,13 @@ template <typename T> inline void Unity::Collections::NativeArray_1<T>::_ctor(in
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
                                        { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::Unity::Collections::NativeArrayOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, length, allocator, options);
+}
+template <typename T> inline void Unity::Collections::NativeArray_1<T>::_ctor(int32_t length, ::Unity::Collections::MemoryLabel label, ::Unity::Collections::NativeArrayOptions options) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
+                          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>(), ::i2c::type_of<::Unity::Collections::NativeArrayOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, length, label, options);
 }
 template <typename T> inline void Unity::Collections::NativeArray_1<T>::_ctor(::ArrayW<T> array, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
@@ -33,12 +41,16 @@ template <typename T> inline void Unity::Collections::NativeArray_1<T>::_ctor(::
                                                            { ".ctor", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, array, allocator);
 }
-template <typename T> inline void Unity::Collections::NativeArray_1<T>::Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<T>> array) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
-                          { "Allocate", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, length, allocator, array);
+template <typename T>
+inline void Unity::Collections::NativeArray_1<T>::Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::MemoryLabel label,
+                                                           ::by_ref<::Unity::Collections::NativeArray_1<T>> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
+                                                           { "Allocate",
+                                                             {},
+                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, length, allocator, label, array);
 }
 template <typename T> inline int32_t Unity::Collections::NativeArray_1<T>::get_Length() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(), { "get_Length", {}, {} })));

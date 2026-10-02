@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DomainReloadInitOutsourceAttribute::*)(::System::Type*)>(
     &::GlobalNamespace::DomainReloadInitOutsourceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330b424;
+  constexpr static std::size_t addrs = 0x3593ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::GlobalNamespace::DomainReloadInitOutsourceAttribute::*)()>(
     &::GlobalNamespace::DomainReloadInitOutsourceAttribute::get_OutsourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330b42c;
+  constexpr static std::size_t addrs = 0x3593ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -84,43 +84,43 @@ public:
 
   constexpr void __cordl_internal_set_m_MinAtlasSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6da9d8c, size 0xa40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7243270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeFilters, addr 0x6da9d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeFilters, addr 0x72431e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasFilters get_activeFilters();
 
-  /// @brief Method get_customFilter, addr 0x6da9d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customFilter, addr 0x7243200, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* get_customFilter();
 
-  /// @brief Method get_defaultFilters, addr 0x6da9d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFilters, addr 0x72431f8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters();
 
-  /// @brief Method get_defaults, addr 0x6da9d2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaults, addr 0x7243210, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasSettings* get_defaults();
 
-  /// @brief Method get_maxAtlasSize, addr 0x6da9ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x72431c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxSubTextureSize, addr 0x6da9cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSubTextureSize, addr 0x72431d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxSubTextureSize();
 
-  /// @brief Method get_minAtlasSize, addr 0x6da9cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minAtlasSize, addr 0x72431b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minAtlasSize();
 
-  /// @brief Method set_activeFilters, addr 0x6da9d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeFilters, addr 0x72431f0, size 0x8, virtual false, abstract: false, final false
   inline void set_activeFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
 
-  /// @brief Method set_customFilter, addr 0x6da9d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customFilter, addr 0x7243208, size 0x8, virtual false, abstract: false, final false
   inline void set_customFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
-  /// @brief Method set_maxAtlasSize, addr 0x6da9cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxAtlasSize, addr 0x72431d0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxAtlasSize(int32_t value);
 
-  /// @brief Method set_maxSubTextureSize, addr 0x6da9cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxSubTextureSize, addr 0x72431e0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxSubTextureSize(int32_t value);
 
-  /// @brief Method set_minAtlasSize, addr 0x6da9cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minAtlasSize, addr 0x72431c0, size 0x8, virtual false, abstract: false, final false
   inline void set_minAtlasSize(int32_t value);
 
 protected:
@@ -138,7 +138,7 @@ public:
   DynamicAtlasSettings(DynamicAtlasSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4610 };
 
   /// [HideInInspector]
   /// [SerializeField]
@@ -150,13 +150,13 @@ public:
   /// @brief Field m_MaxAtlasSize, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_MaxAtlasSize;
 
-  /// [SerializeField]
   /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_MaxSubTextureSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_MaxSubTextureSize;
 
-  /// [HideInInspector]
   /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_ActiveFilters, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::UIElements::DynamicAtlasFilters ___m_ActiveFilters;
 

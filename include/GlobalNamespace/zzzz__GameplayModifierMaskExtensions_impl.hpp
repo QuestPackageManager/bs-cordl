@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::Contains)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x377cb78;
+  constexpr static std::size_t addrs = 0x3a06d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x377cb88;
+  constexpr static std::size_t addrs = 0x3a06d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::GameplayModifierMaskExtensions::ToHexString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x377cba4;
+  constexpr static std::size_t addrs = 0x3a06d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifierMask (*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::ToMask)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x377cc08;
+  constexpr static std::size_t addrs = 0x3a06d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::ToModifiers)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x377ccc0;
+  constexpr static std::size_t addrs = 0x3a06e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifierMask (*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::ToGameplayModifierMask)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x377cc0c;
+  constexpr static std::size_t addrs = 0x3a06d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierMaskExtensions*>(),

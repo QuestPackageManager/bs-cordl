@@ -45,11 +45,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37704dc, size 0x450, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39f9bb0, size 0x450, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x377092c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39fa000, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -70,7 +70,7 @@ public:
                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21830 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -124,13 +124,13 @@ public:
                           __cordl_internal_set__handle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
       _handle;
 
-  /// @brief Method HandleSceneContextPostInstall, addr 0x377035c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneContextPostInstall, addr 0x39f9a2c, size 0x180, virtual false, abstract: false, final false
   inline void HandleSceneContextPostInstall();
 
   static inline ::GlobalNamespace::GameLoader* New_ctor();
 
   /// [AsyncStateMachine(typeof(GameLoader::<Start>d__3))]
-  /// @brief Method Start, addr 0x37702b8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39f9988, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__context() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
 
-  /// @brief Method .ctor, addr 0x37704d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f9bac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   GameLoader(GameLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21831 };
 
   /// @brief Field kInitSceneAssetLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kInitSceneAssetLabel{ u"AppInit" };

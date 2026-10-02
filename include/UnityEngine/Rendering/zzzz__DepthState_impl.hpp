@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DepthState (*)()>(&::UnityEngine::Rendering::DepthState::get_defaultValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b20b7c;
+  constexpr static std::size_t addrs = 0x6f7ef98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(), { "get_defaultValue", {}, {} })));
@@ -21,24 +21,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DepthState::*)(bool, ::UnityEngine::Rendering::CompareFunction)>(&::UnityEngine::Rendering::DepthState::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b20ba0;
+  constexpr static std::size_t addrs = 0x6f7efbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(),
                                                                                            { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::CompareFunction>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DepthState.get_compareFunction
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CompareFunction (::UnityEngine::Rendering::DepthState::*)()>(
-    &::UnityEngine::Rendering::DepthState::get_compareFunction)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b20c10;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(), { "get_compareFunction", {}, {} })));
     return ___internal_method;
   }
 };
@@ -47,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DepthState::*)(::UnityEngine::Rendering::DepthState)>(&::UnityEngine::Rendering::DepthState::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b20c18;
+  constexpr static std::size_t addrs = 0x6f7f02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DepthState::*)(::System::Object*)>(&::UnityEngine::Rendering::DepthState::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b20c40;
+  constexpr static std::size_t addrs = 0x6f7f054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DepthState::*)()>(&::UnityEngine::Rendering::DepthState::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b20ccc;
+  constexpr static std::size_t addrs = 0x6f7f0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,10 +76,6 @@ inline void UnityEngine::Rendering::DepthState::_ctor(bool writeEnabled, ::Unity
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::CompareFunction>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, writeEnabled, compareFunction);
-}
-inline ::UnityEngine::Rendering::CompareFunction UnityEngine::Rendering::DepthState::get_compareFunction() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(), { "get_compareFunction", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CompareFunction>(*this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::DepthState::Equals(::UnityEngine::Rendering::DepthState other) {
   static auto* ___internal_method =

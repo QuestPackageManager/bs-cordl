@@ -25,7 +25,7 @@ public:
   /// @brief Field _menuColorScheme, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__menuColorScheme, put = __cordl_internal_set__menuColorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> _menuColorScheme;
 
-  /// @brief Method InstallBindings, addr 0x59fb0e0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x5e166d4, size 0xe4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ColorManagerInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__menuColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  /// @brief Method .ctor, addr 0x59fb1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e167b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ColorManagerInstaller(ColorManagerInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };
 
   /// [SerializeField]
   /// @brief Field _menuColorScheme, offset: 0x28, size: 0x8, def value: None

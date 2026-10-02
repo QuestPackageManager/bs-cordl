@@ -15,7 +15,7 @@ struct ShaderVariablesProbeVolumes;
 MARK_VAL_T(::UnityEngine::Rendering::ShaderVariablesProbeVolumes);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShaderVariablesProbeVolumes, "UnityEngine.Rendering", "ShaderVariablesProbeVolumes");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Lighting\\ProbeVolume\\ShaderVariablesProbeVolumes.cs", needAccessors = false, generateCBuffer = true,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\Lighting\\ProbeVolume\\ShaderVariablesProbeVolumes.cs", needAccessors = false, generateCBuffer = true,
 // constantRegister = 6)] Dependencies Unity.Mathematics.uint4, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -40,7 +40,7 @@ public:
                                         ::UnityEngine::Vector4 _FrameIndex_Weights, ::Unity::Mathematics::uint4 _ProbeVolumeLayerMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9033 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

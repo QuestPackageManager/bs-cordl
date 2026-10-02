@@ -45,15 +45,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x58d306c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ce9888, size 0xd4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x58d324c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x5ce9a68, size 0x74, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::NoteBigCuttableColliderSize* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58d3140, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ce995c, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get__boxCollider() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteController> value);
 
-  /// @brief Method .ctor, addr 0x58d32c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce9adc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
@@ -95,7 +95,7 @@ public:
   NoteBigCuttableColliderSize(NoteBigCuttableColliderSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5789 };
 
   /// [SerializeField]
   /// @brief Field _noteController, offset: 0x20, size: 0x8, def value: None

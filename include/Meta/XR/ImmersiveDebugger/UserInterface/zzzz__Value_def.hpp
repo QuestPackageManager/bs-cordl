@@ -57,16 +57,16 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Value* New_ctor();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5a57b10, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5e6f478, size 0xc, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RefreshStyle, addr 0x5a57884, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x5e6f1ec, size 0xc, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
-  /// @brief Method Setup, addr 0x5a578a8, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5e6f210, size 0x13c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method UpdateBackground, addr 0x5a579e4, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBackground, addr 0x5e6f34c, size 0x12c, virtual true, abstract: false, final false
   inline void UpdateBackground();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__background() const;
@@ -87,28 +87,28 @@ public:
 
   constexpr void __cordl_internal_set__label(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> value);
 
-  /// @brief Method .ctor, addr 0x5a57b74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6f4dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Background, addr 0x5a57874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Background, addr 0x5e6f1dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> get_Background();
 
-  /// @brief Method get_Content, addr 0x5a57b1c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x5e6f484, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW get_Content();
 
-  /// @brief Method get_Label, addr 0x5a5787c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5e6f1e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> get_Label();
 
-  /// @brief Method get_TextStyle, addr 0x5a57890, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TextStyle, addr 0x5e6f1f8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle> get_TextStyle();
 
-  /// @brief Method set_BackgroundStyle, addr 0x5a54790, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x5e6c12c, size 0x88, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_Content, addr 0x5a57b48, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x5e6f4b0, size 0x2c, virtual true, abstract: false, final false
   inline void set_Content(::StringW value);
 
-  /// @brief Method set_TextStyle, addr 0x5a54778, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_TextStyle, addr 0x5e6c114, size 0x18, virtual false, abstract: false, final false
   inline void set_TextStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle* value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   Value(Value const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18920 };
 
   /// @brief Field _label, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> ____label;

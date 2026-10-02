@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::Execute)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x68c1eb0;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x6cf9254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,12 +36,14 @@ constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::Universal::ReflectionP
 }
 // Ctor Parameters [CppParam { name: "worldToViews", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: Some("{}"), comment: None },
 // CppParam { name: "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "minMaxZs", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: Some("{}"), comment: None }]
+// name: "reflectionProbeRotation", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minMaxZs", ty:
+// "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::ReflectionProbeMinMaxZJob(
     ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes,
-    ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs) noexcept {
+    bool reflectionProbeRotation, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs) noexcept {
   this->worldToViews = worldToViews;
   this->reflectionProbes = reflectionProbes;
+  this->reflectionProbeRotation = reflectionProbeRotation;
   this->minMaxZs = minMaxZs;
 }
 // Ctor Parameters []

@@ -40,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x59f0d98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e0c360, size 0x40, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BlocksBlade> const& __cordl_internal_get__blocksBlade() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x59f0dd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0c3a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6357 };
 
   /// [SerializeField]
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None

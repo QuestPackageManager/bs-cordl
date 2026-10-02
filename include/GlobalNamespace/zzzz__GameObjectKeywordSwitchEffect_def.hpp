@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_keyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59948a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5daf8d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5966 };
 
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
@@ -110,7 +110,7 @@ public:
       _gameObjectKeywordItems;
 
   /// [Inject]
-  /// @brief Method Initialize, addr 0x5994758, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5daf78c, size 0x148, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   static inline ::GlobalNamespace::GameObjectKeywordSwitchEffect* New_ctor();
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectKeywordItems(::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*> value);
 
-  /// @brief Method .ctor, addr 0x59948a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5daf8d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5967 };
 
   /// [SerializeField]
   /// @brief Field _defaultGameObject, offset: 0x20, size: 0x8, def value: None

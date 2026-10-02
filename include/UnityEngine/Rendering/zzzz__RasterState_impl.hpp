@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RasterState::*)(::UnityEngine::Rendering::CullMode, int32_t, float_t, bool)>(
     &::UnityEngine::Rendering::RasterState::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b21c28;
+  constexpr static std::size_t addrs = 0x6f7ff68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RasterState::*)(::UnityEngine::Rendering::RasterState)>(&::UnityEngine::Rendering::RasterState::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b21cbc;
+  constexpr static std::size_t addrs = 0x6f7fffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RasterState::*)(::System::Object*)>(&::UnityEngine::Rendering::RasterState::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6b21d38;
+  constexpr static std::size_t addrs = 0x6f80078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RasterState::*)()>(&::UnityEngine::Rendering::RasterState::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b21dec;
+  constexpr static std::size_t addrs = 0x6f8012c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

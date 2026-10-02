@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TaskExtensions___c__DisplayClass3_0::*)()>(&::GlobalNamespace::TaskExtensions___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330d748;
+  constexpr static std::size_t addrs = 0x359620c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TaskExtensions___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TaskExtensions___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::TaskExtensions___c__DisplayClass3_0::_WaitAsyncInternal_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x330d74c;
+  constexpr static std::size_t addrs = 0x3596210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TaskExtensions__WaitAsyncInternal_d__3::*)()>(&::GlobalNamespace::TaskExtensions__WaitAsyncInternal_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x330d7a4;
+  constexpr static std::size_t addrs = 0x3596268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TaskExtensions__WaitAsyncInternal_d__3>(), { "MoveNext", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TaskExtensions__WaitAsyncInternal_d__3::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::TaskExtensions__WaitAsyncInternal_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x330df68;
+  constexpr static std::size_t addrs = 0x3596a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TaskExtensions__WaitAsyncInternal_d__3>(),
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TaskExtensions__WaitWithTimeoutAsync_d__6::*)()>(
     &::GlobalNamespace::TaskExtensions__WaitWithTimeoutAsync_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x330dfd4;
+  constexpr static std::size_t addrs = 0x3596a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TaskExtensions__WaitWithTimeoutAsync_d__6>(), { "MoveNext", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TaskExtensions__WaitWithTimeoutAsync_d__6::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::TaskExtensions__WaitWithTimeoutAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x330e5bc;
+  constexpr static std::size_t addrs = 0x3597080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TaskExtensions__WaitWithTimeoutAsync_d__6>(),
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x330d4d0;
+  constexpr static std::size_t addrs = 0x3595f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitAsyncInternal)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x330d5b4;
+  constexpr static std::size_t addrs = 0x3596078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::TimeSpan, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitWithTimeoutAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x330d680;
+  constexpr static std::size_t addrs = 0x3596144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

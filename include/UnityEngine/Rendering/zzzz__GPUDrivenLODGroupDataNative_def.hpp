@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GPUDrivenLODGroupDataNative)
 namespace UnityEngine {
+struct EntityId;
+}
+namespace UnityEngine {
 struct LODFadeMode;
 }
 namespace UnityEngine {
@@ -32,27 +35,28 @@ public:
   // @brief default ctor
   constexpr GPUDrivenLODGroupDataNative();
 
-  // Ctor Parameters [CppParam { name: "lodGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodOffset", ty: "int32_t*", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "lodCount", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fadeMode", ty: "::UnityEngine::LODFadeMode*", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "worldSpaceReferencePoint", ty: "::UnityEngine::Vector3*", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpaceSize",
-  // ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderersCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "lastLODIsBillboard", ty: "bool*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "invalidLODGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "invalidLODGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None
-  // }, CppParam { name: "lodRenderersCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty: "float_t*", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "lodFadeTransitionWidth", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodDataCount", ty: "int32_t",
-  // modifiers: "", def_value: None, comment: None }]
-  constexpr GPUDrivenLODGroupDataNative(int32_t* lodGroupID, int32_t* lodOffset, int32_t* lodCount, ::UnityEngine::LODFadeMode* fadeMode, ::UnityEngine::Vector3* worldSpaceReferencePoint,
-                                        float_t* worldSpaceSize, int16_t* renderersCount, bool* lastLODIsBillboard, int32_t lodGroupCount, int32_t* invalidLODGroupID, int32_t invalidLODGroupCount,
-                                        int16_t* lodRenderersCount, float_t* lodScreenRelativeTransitionHeight, float_t* lodFadeTransitionWidth, int32_t lodDataCount) noexcept;
+  // Ctor Parameters [CppParam { name: "lodGroupID", ty: "::UnityEngine::EntityId*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodOffset", ty: "int32_t*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "lodCount", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fadeMode", ty: "::UnityEngine::LODFadeMode*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpaceReferencePoint", ty: "::UnityEngine::Vector3*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "worldSpaceSize", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderersCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "lastLODIsBillboard", ty: "bool*", modifiers: "", def_value: None, comment: None }, CppParam { name: "forceLODMask", ty: "uint8_t*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "lodGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "invalidLODGroupID", ty: "::UnityEngine::EntityId*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "invalidLODGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodRenderersCount", ty: "int16_t*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lodFadeTransitionWidth", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodDataCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr GPUDrivenLODGroupDataNative(::UnityEngine::EntityId* lodGroupID, int32_t* lodOffset, int32_t* lodCount, ::UnityEngine::LODFadeMode* fadeMode,
+                                        ::UnityEngine::Vector3* worldSpaceReferencePoint, float_t* worldSpaceSize, int16_t* renderersCount, bool* lastLODIsBillboard, uint8_t* forceLODMask,
+                                        int32_t lodGroupCount, ::UnityEngine::EntityId* invalidLODGroupID, int32_t invalidLODGroupCount, int16_t* lodRenderersCount,
+                                        float_t* lodScreenRelativeTransitionHeight, float_t* lodFadeTransitionWidth, int32_t lodDataCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10491 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
   /// @brief Field lodGroupID, offset: 0x0, size: 0x8, def value: None
-  int32_t* lodGroupID;
+  ::UnityEngine::EntityId* lodGroupID;
 
   /// @brief Field lodOffset, offset: 0x8, size: 0x8, def value: None
   int32_t* lodOffset;
@@ -75,25 +79,28 @@ public:
   /// @brief Field lastLODIsBillboard, offset: 0x38, size: 0x8, def value: None
   bool* lastLODIsBillboard;
 
-  /// @brief Field lodGroupCount, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field forceLODMask, offset: 0x40, size: 0x8, def value: None
+  uint8_t* forceLODMask;
+
+  /// @brief Field lodGroupCount, offset: 0x48, size: 0x4, def value: None
   int32_t lodGroupCount;
 
-  /// @brief Field invalidLODGroupID, offset: 0x48, size: 0x8, def value: None
-  int32_t* invalidLODGroupID;
+  /// @brief Field invalidLODGroupID, offset: 0x50, size: 0x8, def value: None
+  ::UnityEngine::EntityId* invalidLODGroupID;
 
-  /// @brief Field invalidLODGroupCount, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field invalidLODGroupCount, offset: 0x58, size: 0x4, def value: None
   int32_t invalidLODGroupCount;
 
-  /// @brief Field lodRenderersCount, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field lodRenderersCount, offset: 0x60, size: 0x8, def value: None
   int16_t* lodRenderersCount;
 
-  /// @brief Field lodScreenRelativeTransitionHeight, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field lodScreenRelativeTransitionHeight, offset: 0x68, size: 0x8, def value: None
   float_t* lodScreenRelativeTransitionHeight;
 
-  /// @brief Field lodFadeTransitionWidth, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field lodFadeTransitionWidth, offset: 0x70, size: 0x8, def value: None
   float_t* lodFadeTransitionWidth;
 
-  /// @brief Field lodDataCount, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field lodDataCount, offset: 0x78, size: 0x4, def value: None
   int32_t lodDataCount;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -115,20 +122,22 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, re
 
 static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lastLODIsBillboard) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodGroupCount) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, forceLODMask) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, invalidLODGroupID) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodGroupCount) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, invalidLODGroupCount) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, invalidLODGroupID) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodRenderersCount) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, invalidLODGroupCount) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodScreenRelativeTransitionHeight) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodRenderersCount) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodFadeTransitionWidth) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodScreenRelativeTransitionHeight) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodDataCount) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodFadeTransitionWidth) == 0x70, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative) == 0x78, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, lodDataCount) == 0x78, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

@@ -21,8 +21,8 @@ template <typename T> class LazyInject_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::LazyInject_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::LazyInject_1, "Zenject", "LazyInject`1");
-// [ZenjectAllowDuringValidation]
 // [NoReflectionBaking]
+// [ZenjectAllowDuringValidation]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -102,7 +102,7 @@ public:
   LazyInject_1(LazyInject_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14710 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

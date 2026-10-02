@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_guid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x5862de8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c78c7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19900 };
 
   /// @brief Field guid, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___guid;
@@ -159,7 +159,7 @@ public:
   BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19901 };
 
   /// @brief Field onLoadFinished, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<T>* ___onLoadFinished;
@@ -184,7 +184,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <Create>b__0, addr 0x5862dec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__0, addr 0x5c78c80, size 0xc8, virtual false, abstract: false, final false
   inline void _Create_b__0(::GlobalNamespace::BloomPrePassEffectSO* effectOverride);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererFeature> const& __cordl_internal_get___4__this() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set_currentGuid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x5862bb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c78a94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,7 +217,7 @@ public:
   BloomPrePassRendererFeature___c__DisplayClass6_0(BloomPrePassRendererFeature___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19902 };
 
   /// @brief Field currentGuid, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___currentGuid;
@@ -268,13 +268,13 @@ public:
   /// @brief Field _renderPassEvent, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__renderPassEvent, put = __cordl_internal_set__renderPassEvent)) ::UnityEngine::Rendering::Universal::RenderPassEvent _renderPassEvent;
 
-  /// @brief Method AddRenderPasses, addr 0x5862d04, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5c78b98, size 0x28, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5862a48, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5c78920, size 0x174, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x5862d80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5c78c14, size 0x8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -285,10 +285,10 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassRendererFeature* New_ctor();
 
-  /// @brief Method ReleaseHandles, addr 0x5862bbc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseHandles, addr 0x5c78a98, size 0xd0, virtual false, abstract: false, final false
   inline void ReleaseHandles();
 
-  /// @brief Method ResolveBloomPrePass, addr 0x5862d2c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ResolveBloomPrePass, addr 0x5c78bc0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BloomPrePass> ResolveBloomPrePass(::UnityEngine::Camera* camera);
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>> const& __cordl_internal_get__effectOverrideLoadHandle() const;
@@ -321,7 +321,7 @@ public:
 
   constexpr void __cordl_internal_set__renderPassEvent(::UnityEngine::Rendering::Universal::RenderPassEvent value);
 
-  /// @brief Method .ctor, addr 0x5862d88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c78c1c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -339,7 +339,7 @@ public:
   BloomPrePassRendererFeature(BloomPrePassRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19903 };
 
   /// [SerializeField]
   /// @brief Field _renderPassEvent, offset: 0x1c, size: 0x4, def value: None

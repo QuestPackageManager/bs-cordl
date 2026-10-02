@@ -52,7 +52,7 @@ public:
   /// @brief Field _sGen, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__sGen, put = __cordl_internal_set__sGen)) ::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sGen;
 
-  /// @brief Method Close, addr 0x36a9be8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3932e84, size 0xc0, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator_CmsCompressedOutputStream* New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* outStream,
@@ -60,10 +60,10 @@ public:
                                                                                                                ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                                                                                                                ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method Write, addr 0x36a9bc8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3932e64, size 0x20, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> bytes, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x36a9ba8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x3932e44, size 0x20, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator* const& __cordl_internal_get__cGen() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__sGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  /// @brief Method .ctor, addr 0x36a9b68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3932e04, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
@@ -151,13 +151,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator* New_ctor();
 
-  /// @brief Method Open, addr 0x36a9834, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3932ad0, size 0x80, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW compressionOID);
 
-  /// @brief Method Open, addr 0x36a98b4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3932b50, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW contentOID, ::StringW compressionOID);
 
-  /// @brief Method SetBufferSize, addr 0x36a982c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x3932ac8, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
   constexpr int32_t const& __cordl_internal_get__bufferSize() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x36a9828, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3932ac4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

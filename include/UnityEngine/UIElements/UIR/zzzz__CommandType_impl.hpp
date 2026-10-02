@@ -14,11 +14,8 @@ constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::U
 constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PopView{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PushScissor{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PopScissor{ static_cast<int32_t>(0x6) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PushRenderTexture{ static_cast<int32_t>(0x7) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PopRenderTexture{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::BlitToPreviousRT{ static_cast<int32_t>(0x9) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PushDefaultMaterial{ static_cast<int32_t>(0xa) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PopDefaultMaterial{ static_cast<int32_t>(0xb) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::BeginDisable{ static_cast<int32_t>(0xc) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::EndDisable{ static_cast<int32_t>(0xd) };
-constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::CutRenderChain{ static_cast<int32_t>(0xe) };
+constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PushDefaultMaterial{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PopDefaultMaterial{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::BeginDisable{ static_cast<int32_t>(0x9) };
+constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::EndDisable{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::CutRenderChain{ static_cast<int32_t>(0xb) };

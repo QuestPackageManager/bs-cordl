@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::Tls::Certificate*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34406d0;
+  constexpr static std::size_t addrs = 0x36c996c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::Tls::Certificate*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*,
     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::_ctor)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x34406d8;
+  constexpr static std::size_t addrs = 0x36c9974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::Certificate* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3440ac8;
+  constexpr static std::size_t addrs = 0x36c9d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::GenerateCertificateSignature)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3440ad0;
+  constexpr static std::size_t addrs = 0x36c9d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::get_SignatureAndHashAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3440d10;
+  constexpr static std::size_t addrs = 0x36c9fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*>(),

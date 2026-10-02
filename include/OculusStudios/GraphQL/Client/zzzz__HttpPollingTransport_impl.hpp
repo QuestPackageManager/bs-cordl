@@ -18,106 +18,106 @@
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0._ctor
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f26874;
+  constexpr static std::size_t addrs = 0x6341530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0._ExecuteAsync_b__0
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0._ExecuteAsync_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::_ExecuteAsync_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::_ExecuteAsync_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f26878;
+  constexpr static std::size_t addrs = 0x6341534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*>(), { "<ExecuteAsync>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0*>(), { "<ExecuteAsync>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::OculusStudios::GraphQL::Client::GraphQLLiveQuery*& OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::__cordl_internal_get_liveQuery() {
+constexpr ::OculusStudios::GraphQL::Client::GraphQLLiveQuery*& OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::__cordl_internal_get_liveQuery() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___liveQuery;
 }
-constexpr ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* const& OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::__cordl_internal_get_liveQuery() const {
+constexpr ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* const& OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::__cordl_internal_get_liveQuery() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___liveQuery;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::__cordl_internal_set_liveQuery(::OculusStudios::GraphQL::Client::GraphQLLiveQuery* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::__cordl_internal_set_liveQuery(::OculusStudios::GraphQL::Client::GraphQLLiveQuery* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___liveQuery = value;
 }
-inline void OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::_ctor() {
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::_ExecuteAsync_b__0() {
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::_ExecuteAsync_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*>(), { "<ExecuteAsync>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0*>(), { "<ExecuteAsync>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0* OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*>());
+inline ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0* OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0*>());
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0::HttpPollingTransport___c__DisplayClass12_0() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12.MoveNext
+constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0::HttpPollingTransport___c__DisplayClass15_0() {}
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::MoveNext)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x5f26894;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::MoveNext)> {
+  constexpr static std::size_t size = 0x428;
+  constexpr static std::size_t addrs = 0x6341550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12.SetStateMachine
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f26e58;
+  constexpr static std::size_t addrs = 0x6341b18;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::MoveNext() {
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12>(),
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -125,12 +125,12 @@ OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::i___Sy
 // "graphQLRequest", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::OculusStudios::GraphQL::Client::HttpPollingTransport*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "executor", ty:
 // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
-// "::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::HttpPollingTransport__ExecuteAsync_d__12(
+constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::HttpPollingTransport__ExecuteAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
     ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::HttpPollingTransport* __4__this,
-    ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* executor, ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0* __8__1,
+    ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* executor, ::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass15_0* __8__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -141,52 +141,52 @@ constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12::HttpPollingTransport__ExecuteAsync_d__12() {}
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13.MoveNext
+constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__15::HttpPollingTransport__ExecuteAsync_d__15() {}
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::*)()>(
-    &::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x5f26ed8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::MoveNext)> {
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x6341b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13.SetStateMachine
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f27334;
+  constexpr static std::size_t addrs = 0x6341ff8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::MoveNext() {
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13>(),
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -199,7 +199,7 @@ OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__1
 // "::OculusStudios::GraphQL::Client::GraphQLResponse*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::HttpPollingTransport__StartHttpPollingAsync_d__13(
+constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::HttpPollingTransport__StartHttpPollingAsync_d__16(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery,
     ::OculusStudios::GraphQL::Client::HttpPollingTransport* __4__this, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* operation,
     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* executor, ::OculusStudios::GraphQL::Client::HttpTransport* _httpTransport_5__2,
@@ -217,14 +217,14 @@ constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPolli
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13::HttpPollingTransport__StartHttpPollingAsync_d__13() {}
+constexpr ::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__16::HttpPollingTransport__StartHttpPollingAsync_d__16() {}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport.get_Endpoint
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::get_Endpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2656c;
+  constexpr static std::size_t addrs = 0x63411f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "get_Endpoint", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::set_Endpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f26574;
+  constexpr static std::size_t addrs = 0x6341200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::get_AccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2657c;
+  constexpr static std::size_t addrs = 0x6341208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "get_AccessToken", {}, {} })));
@@ -264,11 +264,40 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::set_AccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f26584;
+  constexpr static std::size_t addrs = 0x6341210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "set_AccessToken", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport.get_CustomAppHeaders
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport::get_CustomAppHeaders)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6341218;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "get_CustomAppHeaders", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::GraphQL::Client::HttpPollingTransport.set_CustomAppHeaders
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)>(
+    &::OculusStudios::GraphQL::Client::HttpPollingTransport::set_CustomAppHeaders)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6341224;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(),
+                                                             { "set_CustomAppHeaders", {}, { ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>() } })));
     return ___internal_method;
   }
 };
@@ -278,8 +307,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::HttpTransport* (
     ::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::StringW, ::StringW, ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::GetHttpTransport)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5f2658c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6341240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +326,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::OculusStudios::GraphQL::Client::HttpPollingTransport::*)(::OculusStudios::GraphQL::Client::GraphQLRequest*, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f2661c;
+  constexpr static std::size_t addrs = 0x63412d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +344,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
     ::OculusStudios::GraphQL::Client::GraphQLLiveQuery*, ::OculusStudios::GraphQL::Client::GraphQLResponseStream*, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*)>(
     &::OculusStudios::GraphQL::Client::HttpPollingTransport::StartHttpPollingAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f26710;
+  constexpr static std::size_t addrs = 0x63413c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(&::OculusStudios::GraphQL::Client::HttpPollingTransport::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f267d8;
+  constexpr static std::size_t addrs = 0x6341490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "Dispose", {}, {} })));
@@ -343,8 +372,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpPollingTransport::*)()>(&::OculusStudios::GraphQL::Client::HttpPollingTransport::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f267dc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6341494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { ".ctor", {}, {} })));
@@ -375,17 +404,17 @@ constexpr void OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AccessToken_k__BackingField = value;
 }
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_get_CustomAppHeaders() {
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_get__customAppHeaders() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CustomAppHeaders;
+  return this->____customAppHeaders;
 }
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_get_CustomAppHeaders() const {
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_get__customAppHeaders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CustomAppHeaders;
+  return this->____customAppHeaders;
 }
-constexpr void OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
+constexpr void OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_set__customAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___CustomAppHeaders = value;
+  this->____customAppHeaders = value;
 }
 constexpr ::OculusStudios::GraphQL::Client::HttpTransport*& OculusStudios::GraphQL::Client::HttpPollingTransport::__cordl_internal_get__httpTransport() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -421,6 +450,17 @@ inline ::StringW OculusStudios::GraphQL::Client::HttpPollingTransport::get_Acces
 inline void OculusStudios::GraphQL::Client::HttpPollingTransport::set_AccessToken(::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "set_AccessToken", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* OculusStudios::GraphQL::Client::HttpPollingTransport::get_CustomAppHeaders() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(), { "get_CustomAppHeaders", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>(this, ___internal_method);
+}
+inline void OculusStudios::GraphQL::Client::HttpPollingTransport::set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpPollingTransport*>(),
+                                                           { "set_CustomAppHeaders", {}, { ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::OculusStudios::GraphQL::Client::HttpTransport*

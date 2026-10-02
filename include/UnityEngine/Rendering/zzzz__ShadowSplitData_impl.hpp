@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ShadowSplitData::*)()>(&::UnityEngine::Rendering::ShadowSplitData::get_cullingPlaneCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b287f4;
+  constexpr static std::size_t addrs = 0x6f85b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadowSplitData>(), { "get_cullingPlaneCount", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::ShadowSplitData::*)()>(&::UnityEngine::Rendering::ShadowSplitData::get_cullingSphere)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b287fc;
+  constexpr static std::size_t addrs = 0x6f85b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadowSplitData>(), { "get_cullingSphere", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShadowSplitData::*)(float_t)>(&::UnityEngine::Rendering::ShadowSplitData::set_shadowCascadeBlendCullingFactor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6b28240;
+  constexpr static std::size_t addrs = 0x6f855d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::ShadowSplitData::*)(int32_t)>(&::UnityEngine::Rendering::ShadowSplitData::GetCullingPlane)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6b28808;
+  constexpr static std::size_t addrs = 0x6f85b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShadowSplitData::*)(::UnityEngine::Rendering::ShadowSplitData)>(
     &::UnityEngine::Rendering::ShadowSplitData::Equals)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6b28484;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x6f85818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShadowSplitData::*)(::System::Object*)>(&::UnityEngine::Rendering::ShadowSplitData::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6b28950;
+  constexpr static std::size_t addrs = 0x6f85cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ShadowSplitData::*)()>(&::UnityEngine::Rendering::ShadowSplitData::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b28778;
+  constexpr static std::size_t addrs = 0x6f85ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

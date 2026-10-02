@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/zzzz__CollisionPairEventFlags_def.hpp"
 #include "UnityEngine/zzzz__CollisionPairFlags_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
@@ -27,6 +28,9 @@ namespace UnityEngine {
 struct ContactPoint;
 }
 namespace UnityEngine {
+struct EntityId;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 // Forward declare root types
@@ -38,7 +42,7 @@ MARK_VAL_T(::UnityEngine::ContactPair);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactPair, "UnityEngine", "ContactPair");
 // [UsedByNativeCode]
 // [IsReadOnly]
-// Dependencies System.IntPtr, UnityEngine.CollisionPairEventFlags, UnityEngine.CollisionPairFlags, UnityEngine.Vector3
+// Dependencies System.IntPtr, UnityEngine.CollisionPairEventFlags, UnityEngine.CollisionPairFlags, UnityEngine.EntityId, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.ContactPair
@@ -74,6 +78,9 @@ public:
 
   __declspec(property(get = get_collider)) ::UnityW<::UnityEngine::Collider> collider;
 
+  __declspec(property(get = get_colliderEntityId)) ::UnityEngine::EntityId colliderEntityId;
+
+  /// @brief [Obsolete("colliderInstanceID is deprecated, use colliderEntityId instead.", false)]
   __declspec(property(get = get_colliderInstanceID)) int32_t colliderInstanceID;
 
   __declspec(property(get = get_contactCount)) int32_t contactCount;
@@ -90,97 +97,106 @@ public:
 
   __declspec(property(get = get_otherCollider)) ::UnityW<::UnityEngine::Collider> otherCollider;
 
+  __declspec(property(get = get_otherColliderEntityId)) ::UnityEngine::EntityId otherColliderEntityId;
+
+  /// @brief [Obsolete("otherColliderInstanceID is deprecated, use otherColliderEntityId instead.", false)]
   __declspec(property(get = get_otherColliderInstanceID)) int32_t otherColliderInstanceID;
 
-  /// @brief Method CopyToNativeArray, addr 0x6b92fa8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyToNativeArray, addr 0x6ffe9b0, size 0x68, virtual false, abstract: false, final false
   inline void CopyToNativeArray(::Unity::Collections::NativeArray_1<::UnityEngine::ContactPairPoint> buffer);
 
-  /// @brief Method ExtractContacts, addr 0x6b71fd4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ExtractContacts, addr 0x6fddb6c, size 0x1e4, virtual false, abstract: false, final false
   inline int32_t ExtractContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* managedContainer, bool flipped);
 
-  /// @brief Method ExtractContactsArray, addr 0x6b7198c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ExtractContactsArray, addr 0x6fdd50c, size 0x144, virtual false, abstract: false, final false
   inline int32_t ExtractContactsArray(::ArrayW<::UnityEngine::ContactPoint> managedContainer, bool flipped);
 
-  /// @brief Method GetContactPoint, addr 0x6b92fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetContactPoint, addr 0x6ffe9ac, size 0x4, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::ContactPairPoint> GetContactPoint(int32_t index);
 
-  /// @brief Method GetContactPointFaceIndex, addr 0x6b93010, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetContactPointFaceIndex, addr 0x6ffea18, size 0xc8, virtual false, abstract: false, final false
   inline uint32_t GetContactPointFaceIndex(int32_t contactIndex);
 
-  /// @brief Method GetContactPoint_Internal, addr 0x6b71d68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetContactPoint_Internal, addr 0x6fdd900, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::ContactPairPoint* GetContactPoint_Internal(int32_t index);
 
-  /// @brief Method get_Collider, addr 0x6b93108, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Collider, addr 0x6ffeaf0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_Collider();
 
-  /// @brief Method get_ColliderInstanceID, addr 0x6b930f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColliderInstanceID, addr 0x6ffeae0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ColliderInstanceID();
 
-  /// @brief Method get_ContactCount, addr 0x6b93110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContactCount, addr 0x6ffeaf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ContactCount();
 
-  /// @brief Method get_ImpulseSum, addr 0x6b93118, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ImpulseSum, addr 0x6ffeb00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_ImpulseSum();
 
-  /// @brief Method get_IsCollisionEnter, addr 0x6b93124, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionEnter, addr 0x6ffeb0c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionEnter();
 
-  /// @brief Method get_IsCollisionExit, addr 0x6b93130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionExit, addr 0x6ffeb18, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionExit();
 
-  /// @brief Method get_IsCollisionStay, addr 0x6b9313c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionStay, addr 0x6ffeb24, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionStay();
 
-  /// @brief Method get_OtherCollider, addr 0x6b9310c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_OtherCollider, addr 0x6ffeaf4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_OtherCollider();
 
-  /// @brief Method get_OtherColliderInstanceID, addr 0x6b93100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherColliderInstanceID, addr 0x6ffeae8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OtherColliderInstanceID();
 
-  /// @brief Method get_collider, addr 0x6b71764, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x6fdd1ec, size 0x70, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_colliderInstanceID, addr 0x6b92f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colliderEntityId, addr 0x6ffe988, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::EntityId get_colliderEntityId();
+
+  /// @brief Method get_colliderInstanceID, addr 0x6ffe978, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colliderInstanceID();
 
-  /// @brief Method get_contactCount, addr 0x6b92f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactCount, addr 0x6ffe998, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contactCount();
 
-  /// @brief Method get_hasRemovedCollider, addr 0x6b8f72c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasRemovedCollider, addr 0x6ffb064, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasRemovedCollider();
 
-  /// @brief Method get_impulseSum, addr 0x6b92f98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulseSum, addr 0x6ffe9a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulseSum();
 
-  /// @brief Method get_isCollisionEnter, addr 0x6b8f73c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isCollisionEnter, addr 0x6ffb074, size 0xc, virtual false, abstract: false, final false
   inline bool get_isCollisionEnter();
 
-  /// @brief Method get_isCollisionExit, addr 0x6b8f87c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isCollisionExit, addr 0x6ffb1b8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isCollisionExit();
 
-  /// @brief Method get_isCollisionStay, addr 0x6b8f870, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isCollisionStay, addr 0x6ffb1ac, size 0xc, virtual false, abstract: false, final false
   inline bool get_isCollisionStay();
 
-  /// @brief Method get_otherCollider, addr 0x6b716f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_otherCollider, addr 0x6fdd25c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
 
-  /// @brief Method get_otherColliderInstanceID, addr 0x6b92f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherColliderEntityId, addr 0x6ffe990, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::EntityId get_otherColliderEntityId();
+
+  /// @brief Method get_otherColliderInstanceID, addr 0x6ffe980, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_otherColliderInstanceID();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ContactPair();
 
-  // Ctor Parameters [CppParam { name: "m_ColliderID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OtherColliderID", ty: "int32_t", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NbPoints", ty: "uint32_t", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Events", ty:
-  // "::UnityEngine::CollisionPairEventFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ImpulseSum", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment:
-  // None }]
-  constexpr ContactPair(int32_t m_ColliderID, int32_t m_OtherColliderID, ::System::IntPtr m_StartPtr, uint32_t m_NbPoints, ::UnityEngine::CollisionPairFlags m_Flags,
+  // Ctor Parameters [CppParam { name: "m_ColliderID", ty: "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OtherColliderID", ty:
+  // "::UnityEngine::EntityId", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_NbPoints", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairFlags", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Events", ty: "::UnityEngine::CollisionPairEventFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ImpulseSum", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }]
+  constexpr ContactPair(::UnityEngine::EntityId m_ColliderID, ::UnityEngine::EntityId m_OtherColliderID, ::System::IntPtr m_StartPtr, uint32_t m_NbPoints, ::UnityEngine::CollisionPairFlags m_Flags,
                         ::UnityEngine::CollisionPairEventFlags m_Events, ::UnityEngine::Vector3 m_ImpulseSum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19080 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -189,10 +205,10 @@ public:
   static constexpr uint32_t c_InvalidFaceIndex{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field m_ColliderID, offset: 0x0, size: 0x4, def value: None
-  int32_t m_ColliderID;
+  ::UnityEngine::EntityId m_ColliderID;
 
   /// @brief Field m_OtherColliderID, offset: 0x4, size: 0x4, def value: None
-  int32_t m_OtherColliderID;
+  ::UnityEngine::EntityId m_OtherColliderID;
 
   /// @brief Field m_StartPtr, offset: 0x8, size: 0x8, def value: None
   ::System::IntPtr m_StartPtr;

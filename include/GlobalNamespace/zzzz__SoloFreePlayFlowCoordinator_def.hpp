@@ -51,13 +51,13 @@ namespace GlobalNamespace {
 class RunLevelMenuDestination;
 }
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator___c__DisplayClass19_0;
+class SoloFreePlayFlowCoordinator___c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator___c__DisplayClass22_0;
+class SoloFreePlayFlowCoordinator___c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator___c__DisplayClass24_0;
+class SoloFreePlayFlowCoordinator___c__DisplayClass23_0;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupData;
@@ -70,29 +70,29 @@ namespace GlobalNamespace {
 class SoloFreePlayFlowCoordinator;
 }
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator___c__DisplayClass19_0;
+class SoloFreePlayFlowCoordinator___c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator___c__DisplayClass22_0;
+class SoloFreePlayFlowCoordinator___c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator___c__DisplayClass24_0;
+class SoloFreePlayFlowCoordinator___c__DisplayClass23_0;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator*);
-MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0*);
-MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0*);
-MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0*);
+MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0*);
+MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0*);
+MARK_REF_T(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFreePlayFlowCoordinator");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass19_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass22_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass24_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass18_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0");
 // [CompilerGenerated]
 // Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SoloFreePlayFlowCoordinator/<>c__DisplayClass19_0
-class CORDL_TYPE SoloFreePlayFlowCoordinator___c__DisplayClass19_0 : public ::System::Object {
+// CS Name: SoloFreePlayFlowCoordinator/<>c__DisplayClass18_0
+class CORDL_TYPE SoloFreePlayFlowCoordinator___c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -107,9 +107,9 @@ public:
   /// @brief Field modifiers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_modifiers, put = __cordl_internal_set_modifiers)) ::GlobalNamespace::GameplayModifiers* modifiers;
 
-  static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0* New_ctor();
+  static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x5939dc0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x5d544c4, size 0x34, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _ProcessLevelCompletionResultsAfterLevelDidFinish_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -136,25 +136,25 @@ public:
 
   constexpr void __cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method .ctor, addr 0x5939990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d54094, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SoloFreePlayFlowCoordinator___c__DisplayClass19_0();
+  constexpr SoloFreePlayFlowCoordinator___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0&&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass18_0(SoloFreePlayFlowCoordinator___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0 const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass18_0(SoloFreePlayFlowCoordinator___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6977 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> _____4__this;
@@ -171,23 +171,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0, ___levelCompletionResults) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0, ___levelCompletionResults) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0, ___beatmapKey) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0, ___beatmapKey) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0, ___modifiers) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0, ___modifiers) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SoloFreePlayFlowCoordinator/<>c__DisplayClass22_0
-class CORDL_TYPE SoloFreePlayFlowCoordinator___c__DisplayClass22_0 : public ::System::Object {
+// CS Name: SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0
+class CORDL_TYPE SoloFreePlayFlowCoordinator___c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -199,9 +199,9 @@ public:
   /// @brief Field transitionSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_transitionSetupData, put = __cordl_internal_set_transitionSetupData)) ::GlobalNamespace::StandardLevelScenesTransitionSetupData* transitionSetupData;
 
-  static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0* New_ctor();
+  static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <HandleStandardLevelWasRestarted>b__0, addr 0x5939df4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <HandleStandardLevelWasRestarted>b__0, addr 0x5d544f8, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _HandleStandardLevelWasRestarted_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -222,25 +222,25 @@ public:
 
   constexpr void __cordl_internal_set_transitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x5939b0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d54210, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SoloFreePlayFlowCoordinator___c__DisplayClass22_0();
+  constexpr SoloFreePlayFlowCoordinator___c__DisplayClass21_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass21_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0&&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass21_0(SoloFreePlayFlowCoordinator___c__DisplayClass21_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0 const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass21_0(SoloFreePlayFlowCoordinator___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6978 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> _____4__this;
@@ -254,21 +254,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0, ___results) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0, ___results) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0, ___transitionSetupData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0, ___transitionSetupData) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0) == 0x28, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SoloFreePlayFlowCoordinator/<>c__DisplayClass24_0
-class CORDL_TYPE SoloFreePlayFlowCoordinator___c__DisplayClass24_0 : public ::System::Object {
+// CS Name: SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0
+class CORDL_TYPE SoloFreePlayFlowCoordinator___c__DisplayClass23_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -277,9 +277,9 @@ public:
   /// @brief Field resultsViewController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_resultsViewController, put = __cordl_internal_set_resultsViewController)) ::UnityW<::GlobalNamespace::ResultsViewController> resultsViewController;
 
-  static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0* New_ctor();
+  static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x5939e3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x5d54540, size 0x54, virtual false, abstract: false, final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -294,25 +294,25 @@ public:
 
   constexpr void __cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5939c4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d54350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SoloFreePlayFlowCoordinator___c__DisplayClass24_0();
+  constexpr SoloFreePlayFlowCoordinator___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0&&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass23_0(SoloFreePlayFlowCoordinator___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0 const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass23_0(SoloFreePlayFlowCoordinator___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6979 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> _____4__this;
@@ -323,11 +323,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0, ___resultsViewController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0, ___resultsViewController) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies SinglePlayerLevelSelectionFlowCoordinator
@@ -337,11 +337,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE SoloFreePlayFlowCoordinator : public ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator {
 public:
   // Declarations
-  using __c__DisplayClass19_0 = ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0;
+  using __c__DisplayClass18_0 = ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0;
 
-  using __c__DisplayClass22_0 = ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0;
+  using __c__DisplayClass21_0 = ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0;
 
-  using __c__DisplayClass24_0 = ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0;
+  using __c__DisplayClass23_0 = ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0;
 
   /// @brief Field _beatLeaderboards, offset 0x150, size 0x8
   __declspec(property(get = __cordl_internal_get__beatLeaderboards, put = __cordl_internal_set__beatLeaderboards)) ::BeatSaber::Main::Leaderboards::BeatLeaderboards* _beatLeaderboards;
@@ -380,35 +380,35 @@ public:
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x5939b10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x5d54214, size 0x40, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* viewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x5939b50, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x5d54254, size 0xfc, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method HandleStandardLevelWasRestarted, addr 0x59399fc, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method HandleStandardLevelWasRestarted, addr 0x5d54100, size 0x110, virtual true, abstract: false, final false
   inline void HandleStandardLevelWasRestarted(::GlobalNamespace::StandardLevelScenesTransitionSetupData* transitionSetupData, ::GlobalNamespace::LevelCompletionResults* results);
 
-  /// @brief Method IsNewHighScore, addr 0x5939994, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsNewHighScore, addr 0x5d54098, size 0x28, virtual false, abstract: false, final false
   inline bool IsNewHighScore(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x59396ac, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x5d53db0, size 0x2e4, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* modifiers,
                                                                bool practice);
 
-  /// @brief Method Refresh, addr 0x59399bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5d540c0, size 0x40, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x59393dc, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x5d53ae0, size 0x194, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x5939570, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x5d53c74, size 0x13c, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method __SetupFromDestination, addr 0x5939c50, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method __SetupFromDestination, addr 0x5d54354, size 0x168, virtual false, abstract: false, final false
   inline void __SetupFromDestination(::GlobalNamespace::RunLevelMenuDestination* runLevelMenuDestination);
 
   constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards* const& __cordl_internal_get__beatLeaderboards() const;
@@ -459,19 +459,19 @@ public:
 
   constexpr void __cordl_internal_set__resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5939db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d544bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameMode, addr 0x5939340, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x5d53a44, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_leaderboardViewController, addr 0x5939384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_leaderboardViewController, addr 0x5d53a88, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardViewController> get_leaderboardViewController();
 
-  /// @brief Method get_mainTitle, addr 0x5939394, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x5d53a98, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x593938c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x5d53a90, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
 protected:
@@ -489,10 +489,7 @@ public:
   SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
-
-  /// @brief Field kTitleSoloLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kTitleSoloLocalizationKey{ u"TITLE_SOLO" };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6980 };
 
   /// [SerializeField]
   /// @brief Field _defaultLightsPreset, offset: 0x118, size: 0x8, def value: None

@@ -226,7 +226,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <AnchorCreationTask>g__CreateCompletedCallback|0, addr 0x5a7ea70, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <AnchorCreationTask>g__CreateCompletedCallback|0, addr 0x5e968dc, size 0x90, virtual false, abstract: false, final false
   inline void _AnchorCreationTask_g__CreateCompletedCallback_0(::GlobalNamespace::OVRSpatialAnchor* anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
   constexpr ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* const& __cordl_internal_get___4__this() const;
@@ -244,7 +244,7 @@ public:
   constexpr void __cordl_internal_set_task(
       ::System::Threading::Tasks::TaskCompletionSource_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>* value);
 
-  /// @brief Method .ctor, addr 0x5a7ea6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e968d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,7 +262,7 @@ public:
   SharedAnchorManager___c__DisplayClass21_0(SharedAnchorManager___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21664 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* _____4__this;
@@ -298,7 +298,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <RetrieveAnchorsFromGroup>g__LoadCompletedCallback|0, addr 0x5a7eb04, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <RetrieveAnchorsFromGroup>g__LoadCompletedCallback|0, addr 0x5e96970, size 0xc8, virtual false, abstract: false, final false
   inline void _RetrieveAnchorsFromGroup_g__LoadCompletedCallback_0(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* loadedAnchors,
                                                                    ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
@@ -315,7 +315,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* value);
 
-  /// @brief Method .ctor, addr 0x5a7eb00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e9696c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -333,7 +333,7 @@ public:
   SharedAnchorManager___c__DisplayClass23_0(SharedAnchorManager___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21665 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* _____4__this;
@@ -369,7 +369,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <RetrieveAnchors>g__LoadCompletedCallback|0, addr 0x5a7ebd0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <RetrieveAnchors>g__LoadCompletedCallback|0, addr 0x5e96a3c, size 0xc8, virtual false, abstract: false, final false
   inline void _RetrieveAnchors_g__LoadCompletedCallback_0(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* loadedAnchors,
                                                           ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
@@ -386,7 +386,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* value);
 
-  /// @brief Method .ctor, addr 0x5a7ebcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e96a38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -404,7 +404,7 @@ public:
   SharedAnchorManager___c__DisplayClass24_0(SharedAnchorManager___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21666 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* _____4__this;
@@ -438,7 +438,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0* New_ctor();
 
-  /// @brief Method <ShareAnchorsWithGroup>g__ShareToGroupCompletedCallback|0, addr 0x5a7ec9c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <ShareAnchorsWithGroup>g__ShareToGroupCompletedCallback|0, addr 0x5e96b08, size 0x118, virtual false, abstract: false, final false
   inline void _ShareAnchorsWithGroup_g__ShareToGroupCompletedCallback_0(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* _,
                                                                         ::GlobalNamespace::OVRAnchor_ShareResult result);
 
@@ -454,7 +454,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5a7ec98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e96b04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -472,7 +472,7 @@ public:
   SharedAnchorManager___c__DisplayClass26_0(SharedAnchorManager___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21667 };
 
   /// @brief Field task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___task;
@@ -506,7 +506,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0* New_ctor();
 
-  /// @brief Method <ShareAnchorsWithUser>g__ShareCompleteCallback|0, addr 0x5a7edb8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <ShareAnchorsWithUser>g__ShareCompleteCallback|0, addr 0x5e96c24, size 0x118, virtual false, abstract: false, final false
   inline void _ShareAnchorsWithUser_g__ShareCompleteCallback_0(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* _,
                                                                ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
@@ -522,7 +522,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5a7edb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e96c20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -540,7 +540,7 @@ public:
   SharedAnchorManager___c__DisplayClass27_0(SharedAnchorManager___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21668 };
 
   /// @brief Field task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___task;
@@ -571,7 +571,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method <StopSharingAnchorsWithUser>b__0, addr 0x5a7eed0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <StopSharingAnchorsWithUser>b__0, addr 0x5e96d3c, size 0x34, virtual false, abstract: false, final false
   inline bool _StopSharingAnchorsWithUser_b__0(::GlobalNamespace::OVRSpaceUser el);
 
   constexpr uint64_t const& __cordl_internal_get_userId() const;
@@ -580,7 +580,7 @@ public:
 
   constexpr void __cordl_internal_set_userId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5a7ea68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e968d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -598,7 +598,7 @@ public:
   SharedAnchorManager___c__DisplayClass29_0(SharedAnchorManager___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21669 };
 
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___userId;
@@ -623,11 +623,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a7ef04, size 0x480, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e96d70, size 0x480, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a7f384, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e971f0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -654,7 +654,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21670 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -712,11 +712,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a7f404, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e97270, size 0x240, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a7f644, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e974b0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -735,7 +735,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -777,11 +777,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a7f64c, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e974b8, size 0x224, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a7f870, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e976dc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -800,7 +800,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -842,11 +842,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a7f878, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e976e4, size 0x240, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a7fab8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e97924, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -865,7 +865,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21673 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -908,11 +908,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a7fac0, size 0x4e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e9792c, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a7ffa8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e97e14, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -933,7 +933,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21674 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -976,11 +976,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a80028, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e97e94, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a80500, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e9836c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1005,7 +1005,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21675 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1058,11 +1058,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a80580, size 0x4dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e983ec, size 0x4dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a80a5c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e988c8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1086,7 +1086,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21676 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1138,11 +1138,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a80adc, size 0x464, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e98948, size 0x464, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a80f40, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e98dac, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1165,7 +1165,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21677 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1217,11 +1217,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a80fc0, size 0x46c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e98e2c, size 0x46c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a8142c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e99298, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1242,7 +1242,7 @@ public:
                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21678 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1294,11 +1294,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a814ac, size 0x6d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e99318, size 0x6d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a81b80, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e999ec, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1319,7 +1319,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21679 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1439,51 +1439,51 @@ public:
   __declspec(property(get = __cordl_internal_get__userShareList, put = __cordl_internal_set__userShareList)) ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRSpaceUser>* _userShareList;
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<AnchorCreationTask>d__21))]
-  /// @brief Method AnchorCreationTask, addr 0x5a7e634, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AnchorCreationTask, addr 0x5e964a0, size 0x130, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>*
   AnchorCreationTask(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CheckIfRetrievingAnchorServiceHung>d__25))]
-  /// @brief Method CheckIfRetrievingAnchorServiceHung, addr 0x5a7e808, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfRetrievingAnchorServiceHung, addr 0x5e96674, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfRetrievingAnchorServiceHung();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CheckIfSavingAnchorsServiceHung>d__22))]
-  /// @brief Method CheckIfSavingAnchorsServiceHung, addr 0x5a7e764, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfSavingAnchorsServiceHung, addr 0x5e965d0, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfSavingAnchorsServiceHung();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CheckIfSharingAnchorServiceHung>d__28))]
-  /// @brief Method CheckIfSharingAnchorServiceHung, addr 0x5a7e8ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfSharingAnchorServiceHung, addr 0x5e96718, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfSharingAnchorServiceHung();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CreateAlignmentAnchor>d__19))]
-  /// @brief Method CreateAlignmentAnchor, addr 0x5a71e0c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateAlignmentAnchor, addr 0x5e89c74, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* CreateAlignmentAnchor();
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<CreateAnchor>d__20))]
-  /// @brief Method CreateAnchor, addr 0x5a7e508, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateAnchor, addr 0x5e96374, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>>*
   CreateAnchor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation);
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager* New_ctor(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore* ssaCore);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<RetrieveAnchors>d__24))]
-  /// @brief Method RetrieveAnchors, addr 0x5a7cfc4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RetrieveAnchors, addr 0x5e94e30, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>*
   RetrieveAnchors(::System::Collections::Generic::List_1<::System::Guid>* anchorIds);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<RetrieveAnchorsFromGroup>d__23))]
-  /// @brief Method RetrieveAnchorsFromGroup, addr 0x5a72464, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RetrieveAnchorsFromGroup, addr 0x5e8a2cc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* RetrieveAnchorsFromGroup(::System::Guid groupUuid);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<ShareAnchorsWithGroup>d__26))]
-  /// @brief Method ShareAnchorsWithGroup, addr 0x5a71ee8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ShareAnchorsWithGroup, addr 0x5e89d50, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ShareAnchorsWithGroup(::System::Guid groupUuid);
 
   /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Colocation.SharedAnchorManager::<ShareAnchorsWithUser>d__27))]
-  /// @brief Method ShareAnchorsWithUser, addr 0x5a7d604, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ShareAnchorsWithUser, addr 0x5e95470, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ShareAnchorsWithUser(uint64_t userId);
 
-  /// @brief Method StopSharingAnchorsWithUser, addr 0x5a7e950, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method StopSharingAnchorsWithUser, addr 0x5e967bc, size 0x118, virtual false, abstract: false, final false
   inline void StopSharingAnchorsWithUser(uint64_t userId);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__AnchorPrefab_k__BackingField() const;
@@ -1546,18 +1546,18 @@ public:
 
   constexpr void __cordl_internal_set__userShareList(::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRSpaceUser>* value);
 
-  /// @brief Method .ctor, addr 0x5a7174c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e895b4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore* ssaCore);
 
   /// [CompilerGenerated]
-  /// @brief Method get_AnchorPrefab, addr 0x5a7e4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnchorPrefab, addr 0x5e9635c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_AnchorPrefab();
 
-  /// @brief Method get_LocalAnchors, addr 0x5a7e500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAnchors, addr 0x5e9636c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* get_LocalAnchors();
 
   /// [CompilerGenerated]
-  /// @brief Method set_AnchorPrefab, addr 0x5a7e4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnchorPrefab, addr 0x5e96364, size 0x8, virtual false, abstract: false, final false
   inline void set_AnchorPrefab(::UnityEngine::GameObject* value);
 
 protected:
@@ -1584,7 +1584,7 @@ public:
   static constexpr int32_t ShareAnchorWaitTimeThreshold{ static_cast<int32_t>(0x2710) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21680 };
 
   /// @brief Field _localAnchors, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* ____localAnchors;

@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_line(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5aaeac0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec69a4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, int32_t line, int32_t column);
 
 protected:

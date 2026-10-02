@@ -27,50 +27,50 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::MoveNext)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x594bf30;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::MoveNext)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x5d6667c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594c204;
+  constexpr static std::size_t addrs = 0x5d66948;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::MoveNext() {
+inline void GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40>(),
+inline void GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -78,7 +78,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::PlatformLeaderboardViewController__Refresh_d__40(
+constexpr ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::PlatformLeaderboardViewController__Refresh_d__35(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this, bool showLoadingIndicator,
     bool clear, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -89,221 +89,221 @@ constexpr ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::P
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__40::PlatformLeaderboardViewController__Refresh_d__40() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42._ctor
+constexpr ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__35::PlatformLeaderboardViewController__Refresh_d__35() {}
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::*)(int32_t)>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::*)(int32_t)>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594c20c;
+  constexpr static std::size_t addrs = 0x5d663e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x594c214;
+  constexpr static std::size_t addrs = 0x5d66950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.IDisposable.Dispose", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::MoveNext)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x594c218;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::MoveNext)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x5d66954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594c50c;
+  constexpr static std::size_t addrs = 0x5d66c44;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x594c514;
+  constexpr static std::size_t addrs = 0x5d66c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594c54c;
+  constexpr static std::size_t addrs = 0x5d66c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> value) {
+constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr bool& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get_clear() {
+constexpr bool& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get_clear() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clear;
 }
-constexpr bool const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get_clear() const {
+constexpr bool const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get_clear() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clear;
 }
-constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_set_clear(bool value) {
+constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_set_clear(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clear = value;
 }
-constexpr bool& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get_showLoadingIndicator() {
+constexpr bool& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get_showLoadingIndicator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showLoadingIndicator;
 }
-constexpr bool const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_get_showLoadingIndicator() const {
+constexpr bool const& GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_get_showLoadingIndicator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showLoadingIndicator;
 }
-constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::__cordl_internal_set_showLoadingIndicator(bool value) {
+constexpr void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::__cordl_internal_set_showLoadingIndicator(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showLoadingIndicator = value;
 }
-inline void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_IDisposable_Dispose() {
+inline void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::MoveNext() {
+inline bool GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(),
+inline ::System::Object* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42*>(__1__state));
+inline ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__42::PlatformLeaderboardViewController__RefreshDelayed_d__42() {}
+constexpr ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__37::PlatformLeaderboardViewController__RefreshDelayed_d__37() {}
 //  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController.get_leaderboardsModel
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594a91c;
+  constexpr static std::size_t addrs = 0x5d65060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::SetData)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x594a924;
+  constexpr static std::size_t addrs = 0x5d65068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(),
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(&::GlobalNamespace::PlatformLeaderboardViewController::RefreshLevelStats)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x594ac20;
+  constexpr static std::size_t addrs = 0x5d65364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(),
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::DidActivate)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x594ac50;
+  constexpr static std::size_t addrs = 0x5d65394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x594b314;
+  constexpr static std::size_t addrs = 0x5d65a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(),
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(&::GlobalNamespace::PlatformLeaderboardViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x594b4ec;
+  constexpr static std::size_t addrs = 0x5d65c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(),
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PlatformLeaderboardViewController::*)(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x594b27c;
+  constexpr static std::size_t addrs = 0x5d659c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope (::GlobalNamespace::PlatformLeaderboardViewController::*)(int32_t)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::ScopeScopeIndexToScoreScope)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x594b724;
+  constexpr static std::size_t addrs = 0x5d65e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleDidPressRefreshButton)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x594b760;
+  constexpr static std::size_t addrs = 0x5d65ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleGameplayModifiersDidChange)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x594b780;
+  constexpr static std::size_t addrs = 0x5d65ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>, int32_t)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x594b80c;
+  constexpr static std::size_t addrs = 0x5d65f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x594ba7c;
+  constexpr static std::size_t addrs = 0x5d661c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandlePlatformLeaderboardsModelAllScoresDidUpload)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x594baf8;
+  constexpr static std::size_t addrs = 0x5d6623c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(&::GlobalNamespace::PlatformLeaderboardViewController::Refresh)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x594aa40;
+  constexpr static std::size_t addrs = 0x5d65184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::RefreshAsync)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x594bb18;
+  constexpr static std::size_t addrs = 0x5d6625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::RefreshDelayed)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x594bc30;
+  constexpr static std::size_t addrs = 0x5d66374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::RefreshBeatLeaderboards)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x594ab00;
+  constexpr static std::size_t addrs = 0x5d65244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(&::GlobalNamespace::PlatformLeaderboardViewController::ClearContent)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x594bca4;
+  constexpr static std::size_t addrs = 0x5d663f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "ClearContent", {}, {} })));
@@ -557,52 +557,52 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(&::GlobalNamespace::PlatformLeaderboardViewController::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x594bd88;
+  constexpr static std::size_t addrs = 0x5d664d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController._RefreshBeatLeaderboards_b__43_0
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController._RefreshBeatLeaderboards_b__38_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__43_0)> {
+    &::GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__38_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x594be40;
+  constexpr static std::size_t addrs = 0x5d6658c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__43_0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__38_0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController._RefreshBeatLeaderboards_b__43_1
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController._RefreshBeatLeaderboards_b__38_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__43_1)> {
+    &::GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__38_1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x594be90;
+  constexpr static std::size_t addrs = 0x5d665dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__43_1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__38_1", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController._RefreshBeatLeaderboards_b__43_2
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardViewController._RefreshBeatLeaderboards_b__38_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
-    &::GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__43_2)> {
+    &::GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__38_2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x594bee0;
+  constexpr static std::size_t addrs = 0x5d6662c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__43_2", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__38_2", {}, {} })));
     return ___internal_method;
   }
 };
@@ -942,19 +942,19 @@ inline void GlobalNamespace::PlatformLeaderboardViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__43_0() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__38_0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__43_0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__38_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__43_1() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__38_1() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__43_1", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__38_1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__43_2() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::PlatformLeaderboardViewController::_RefreshBeatLeaderboards_b__38_2() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__43_2", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLeaderboardViewController*>(), { "<RefreshBeatLeaderboards>b__38_2", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::PlatformLeaderboardViewController* GlobalNamespace::PlatformLeaderboardViewController::New_ctor() {

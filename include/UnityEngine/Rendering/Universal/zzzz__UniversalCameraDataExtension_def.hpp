@@ -28,7 +28,7 @@ class CORDL_TYPE UniversalCameraDataExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetGPUProjectionMatrixRenderGraph, addr 0x683ce58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGPUProjectionMatrixRenderGraph, addr 0x6c75b08, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrixRenderGraph(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, int32_t viewIndex);
 
 protected:
@@ -46,7 +46,7 @@ public:
   UniversalCameraDataExtension(UniversalCameraDataExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

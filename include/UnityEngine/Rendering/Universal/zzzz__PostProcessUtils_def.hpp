@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PostProcessUtils)
 namespace UnityEngine::Rendering::Universal {
@@ -29,6 +30,9 @@ class Camera;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
@@ -106,7 +110,7 @@ public:
   PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,28 +127,34 @@ public:
   // Declarations
   using ShaderConstants = ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants;
 
-  /// [Obsolete("This method is obsolete. Use ConfigureDithering override that takes camera pixel width and height instead.")]
-  /// @brief Method ConfigureDithering, addr 0x68ab408, size 0x64, virtual false, abstract: false, final false
+  /// [Obsolete("This method is obsolete. Use ConfigureDithering override that takes camera pixel width and height instead. #from(2021.1)")]
+  /// @brief Method ConfigureDithering, addr 0x6ce08ec, size 0x64, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, ::UnityEngine::Camera* camera, ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureDithering, addr 0x68ab46c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDithering, addr 0x6ce0950, size 0x224, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, int32_t cameraPixelWidth, int32_t cameraPixelHeight,
                                            ::UnityEngine::Material* material);
 
-  /// [Obsolete("This method is obsolete. Use ConfigureFilmGrain override that takes camera pixel width and height instead.")]
-  /// @brief Method ConfigureFilmGrain, addr 0x68ab690, size 0x64, virtual false, abstract: false, final false
+  /// [Obsolete("This method is obsolete. Use ConfigureFilmGrain override that takes camera pixel width and height instead. #from(2021.1)")]
+  /// @brief Method ConfigureFilmGrain, addr 0x6ce0b74, size 0x64, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, ::UnityEngine::Camera* camera,
                                         ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureFilmGrain, addr 0x68ab6f4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ConfigureFilmGrain, addr 0x6ce0bd8, size 0x354, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, int32_t cameraPixelWidth,
                                         int32_t cameraPixelHeight, ::UnityEngine::Material* material);
 
-  /// @brief Method SetSourceSize, addr 0x689ebfc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6cd7a7c, size 0xb4, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
 
-  /// @brief Method SetSourceSize, addr 0x689f74c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6cdde24, size 0xcc, virtual false, abstract: false, final false
+  static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, float_t width, float_t height, ::UnityEngine::RenderTexture* rt);
+
+  /// @brief Method SetSourceSize, addr 0x6cd85c4, size 0x64, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
+
+  /// @brief Method SetSourceSize, addr 0x6ce0f2c, size 0x148, virtual false, abstract: false, final false
+  static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t width, float_t height, ::UnityEngine::RenderTexture* rt);
 
 protected:
   // Ctor Parameters []
@@ -161,7 +171,7 @@ public:
   PostProcessUtils(PostProcessUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

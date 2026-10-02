@@ -81,15 +81,15 @@ public:
   /// @brief [InputControl(offset = 40, displayName = "RightEyeRotation")]
   __declspec(property(get = get_rightEyeRotation, put = set_rightEyeRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* rightEyeRotation;
 
-  /// @brief Method FinishSetup, addr 0x658af94, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69b6c20, size 0x1cc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::EyesControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x658b160, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x69b6dec, size 0x1c4, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Eyes ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x658b324, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x69b6fb0, size 0x114, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::Eyes value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__fixationPoint_k__BackingField() const;
@@ -134,63 +134,63 @@ public:
 
   constexpr void __cordl_internal_set__rightEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x658b438, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69b70c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fixationPoint, addr 0x658af64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixationPoint, addr 0x69b6bf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_fixationPoint();
 
   /// [CompilerGenerated]
-  /// @brief Method get_leftEyeOpenAmount, addr 0x658af74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeOpenAmount, addr 0x69b6c00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_leftEyeOpenAmount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_leftEyePosition, addr 0x658af24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyePosition, addr 0x69b6bb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_leftEyeRotation, addr 0x658af34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeRotation, addr 0x69b6bc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rightEyeOpenAmount, addr 0x658af84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeOpenAmount, addr 0x69b6c10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_rightEyeOpenAmount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rightEyePosition, addr 0x658af44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyePosition, addr 0x69b6bd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rightEyeRotation, addr 0x658af54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeRotation, addr 0x69b6be0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method set_fixationPoint, addr 0x658af6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fixationPoint, addr 0x69b6bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_fixationPoint(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftEyeOpenAmount, addr 0x658af7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeOpenAmount, addr 0x69b6c08, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeOpenAmount(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftEyePosition, addr 0x658af2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyePosition, addr 0x69b6bb8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftEyeRotation, addr 0x658af3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeRotation, addr 0x69b6bc8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightEyeOpenAmount, addr 0x658af8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeOpenAmount, addr 0x69b6c18, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeOpenAmount(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightEyePosition, addr 0x658af4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyePosition, addr 0x69b6bd8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightEyeRotation, addr 0x658af5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeRotation, addr 0x69b6be8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
 protected:
@@ -208,7 +208,7 @@ public:
   EyesControl(EyesControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10791 };
 
   /// [CompilerGenerated]
   /// @brief Field <leftEyePosition>k__BackingField, offset: 0x198, size: 0x8, def value: None

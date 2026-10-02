@@ -54,11 +54,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687df80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbd448, size 0x8, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687df88, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbd450, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ColorCurves* New_ctor();
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_satVsSat(::UnityEngine::Rendering::TextureCurveParameter* value);
 
-  /// @brief Method .ctor, addr 0x687df90, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbd458, size 0x454, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -132,7 +132,7 @@ public:
   ColorCurves(ColorCurves const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13030 };
 
   /// [Tooltip("Affects the luminance across the whole image.")]
   /// @brief Field master, offset: 0x38, size: 0x8, def value: None

@@ -6,9 +6,10 @@
 // Ctor Parameters [CppParam { name: "headSrc", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "headDst", ty: "::System::IntPtr", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "headCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tailSrc", ty: "::System::IntPtr",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tailDst", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tailCount", ty:
-// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }]
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "keepZ", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::NudgeJobData::NudgeJobData(::System::IntPtr headSrc, ::System::IntPtr headDst, int32_t headCount, ::System::IntPtr tailSrc, ::System::IntPtr tailDst,
-                                                                     int32_t tailCount, ::UnityEngine::Matrix4x4 transform) noexcept {
+                                                                     int32_t tailCount, ::UnityEngine::Matrix4x4 transform, int32_t keepZ) noexcept {
   this->headSrc = headSrc;
   this->headDst = headDst;
   this->headCount = headCount;
@@ -16,6 +17,7 @@ constexpr ::UnityEngine::UIElements::UIR::NudgeJobData::NudgeJobData(::System::I
   this->tailDst = tailDst;
   this->tailCount = tailCount;
   this->transform = transform;
+  this->keepZ = keepZ;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::NudgeJobData::NudgeJobData() {}

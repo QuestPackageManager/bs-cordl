@@ -34,18 +34,18 @@ namespace TMPro {
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method AddMaterialReference, addr 0x6938728, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x6d5053c, size 0x218, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_FontAsset* fontAsset, ::by_ref<::ArrayW<::TMPro::MaterialReference>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference, addr 0x6938940, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x6d50754, size 0x1e8, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_SpriteAsset* spriteAsset, ::by_ref<::ArrayW<::TMPro::MaterialReference>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method Contains, addr 0x6938628, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6d5043c, size 0x100, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::TMPro::MaterialReference> materialReferences, ::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method .ctor, addr 0x69385ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d503c0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
   // Ctor Parameters []
@@ -62,7 +62,7 @@ public:
                               bool isDefaultMaterial, bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding, int32_t referenceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

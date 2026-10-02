@@ -21,12 +21,12 @@ class CORDL_TYPE AudioManagerTestProxy : public ::System::Object {
 public:
   // Declarations
   /// [NativeMethod(Name = "AudioManagerTestProxy::ComputeAudibilityConsistency", IsFreeFunction = true)]
-  /// @brief Method ComputeAudibilityConsistency, addr 0x6a558cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ComputeAudibilityConsistency, addr 0x6ea474c, size 0x28, virtual false, abstract: false, final false
   static inline bool ComputeAudibilityConsistency();
 
   static inline ::UnityEngine::Audio::AudioManagerTestProxy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a558f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea4774, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   AudioManagerTestProxy(AudioManagerTestProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

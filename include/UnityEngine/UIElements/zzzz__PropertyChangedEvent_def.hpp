@@ -38,10 +38,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6cca660, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x71552a8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PropertyChangedEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6cca65c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71552a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent___c* getStaticF___9();
@@ -63,7 +63,7 @@ public:
   PropertyChangedEvent___c(PropertyChangedEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5333 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,7 +86,7 @@ public:
 
   __declspec(property(get = get_property, put = set_property)) ::UnityEngine::UIElements::BindingId property;
 
-  /// @brief Method GetPooled, addr 0x6cca574, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x71551bc, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropertyChangedEvent* GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent* New_ctor();
@@ -97,15 +97,15 @@ public:
 
   constexpr void __cordl_internal_set__property_k__BackingField(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method .ctor, addr 0x6cca4f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7155138, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_property, addr 0x6cca4d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_property, addr 0x715511c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_property();
 
   /// [CompilerGenerated]
-  /// @brief Method set_property, addr 0x6cca4e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_property, addr 0x715512c, size 0xc, virtual false, abstract: false, final false
   inline void set_property(::UnityEngine::UIElements::BindingId value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   PropertyChangedEvent(PropertyChangedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5334 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

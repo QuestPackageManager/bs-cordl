@@ -24,7 +24,7 @@ public:
 
   static inline ::System::Net::SystemNetworkCredential* New_ctor();
 
-  /// @brief Method .ctor, addr 0x640ba20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6833cec, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::SystemNetworkCredential* getStaticF_defaultCredential();
@@ -46,7 +46,7 @@ public:
   SystemNetworkCredential(SystemNetworkCredential const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12418 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t, int32_t)>(&::UnityEngine::ArticulationJacobian::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6b72558;
+  constexpr static std::size_t addrs = 0x6fddf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ArticulationJacobian::*)(int32_t, int32_t)>(&::UnityEngine::ArticulationJacobian::get_Item)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6b72678;
+  constexpr static std::size_t addrs = 0x6fde0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t, int32_t, float_t)>(&::UnityEngine::ArticulationJacobian::set_Item)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6b72734;
+  constexpr static std::size_t addrs = 0x6fde178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ArticulationJacobian>(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ArticulationJacobian::*)()>(&::UnityEngine::ArticulationJacobian::get_rows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72800;
+  constexpr static std::size_t addrs = 0x6fde244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ArticulationJacobian>(), { "get_rows", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t)>(&::UnityEngine::ArticulationJacobian::set_rows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72808;
+  constexpr static std::size_t addrs = 0x6fde24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ArticulationJacobian>(), { "set_rows", {}, { ::i2c::type_of<int32_t>() } })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ArticulationJacobian::*)()>(&::UnityEngine::ArticulationJacobian::get_columns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72810;
+  constexpr static std::size_t addrs = 0x6fde254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ArticulationJacobian>(), { "get_columns", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t)>(&::UnityEngine::ArticulationJacobian::set_columns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72818;
+  constexpr static std::size_t addrs = 0x6fde25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<float_t>* (::UnityEngine::ArticulationJacobian::*)()>(
     &::UnityEngine::ArticulationJacobian::get_elements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72820;
+  constexpr static std::size_t addrs = 0x6fde264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ArticulationJacobian>(), { "get_elements", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(::System::Collections::Generic::List_1<float_t>*)>(
     &::UnityEngine::ArticulationJacobian::set_elements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b72828;
+  constexpr static std::size_t addrs = 0x6fde26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

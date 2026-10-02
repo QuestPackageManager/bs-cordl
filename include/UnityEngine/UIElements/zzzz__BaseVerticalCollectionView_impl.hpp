@@ -16,7 +16,6 @@
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -27,6 +26,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AlternatingRowBackground_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
@@ -63,6 +63,7 @@
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits._ctor
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x6d2c580;
+  constexpr static std::size_t addrs = 0x70a7ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -84,8 +85,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x6d2bf68;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x70a7910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView_UxmlTraits*>(),
@@ -207,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::get_selectedIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d3611c;
+  constexpr static std::size_t addrs = 0x70b1804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::set_selectedIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d36124;
+  constexpr static std::size_t addrs = 0x70b180c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView_Selection*>(),
@@ -235,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::get_indexCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d2ebbc;
+  constexpr static std::size_t addrs = 0x70aa6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::get_idCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d30e04;
+  constexpr static std::size_t addrs = 0x70ac3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::get_minIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d32344;
+  constexpr static std::size_t addrs = 0x70ad848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::get_maxIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d32318;
+  constexpr static std::size_t addrs = 0x70ad81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::get_capacity)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d34e94;
+  constexpr static std::size_t addrs = 0x70b04bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::set_capacity)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6d34eec;
+  constexpr static std::size_t addrs = 0x70b0514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::FirstIndex)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d2ec0c;
+  constexpr static std::size_t addrs = 0x70aa74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::FirstObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6d2eca8;
+  constexpr static std::size_t addrs = 0x70aa7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::ContainsIndex)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d30e54;
+  constexpr static std::size_t addrs = 0x70ac418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::ContainsId)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d337c0;
+  constexpr static std::size_t addrs = 0x70aef78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::AddId)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d34100;
+  constexpr static std::size_t addrs = 0x70af800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::AddIndex)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6d30eb8;
+  constexpr static std::size_t addrs = 0x70ac47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView_Selection*>(),
@@ -403,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::TryRemove)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d34904;
+  constexpr static std::size_t addrs = 0x70b0004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::RemoveId)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6d34a40;
+  constexpr static std::size_t addrs = 0x70b0140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::ClearItems)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d3612c;
+  constexpr static std::size_t addrs = 0x70b1814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::ClearIds)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d36180;
+  constexpr static std::size_t addrs = 0x70b1868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::ClearIndices)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d30d2c;
+  constexpr static std::size_t addrs = 0x70ac2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::Clear)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d34f9c;
+  constexpr static std::size_t addrs = 0x70b05c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView_Selection*>(), { "Clear", {}, {} })));
@@ -486,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6d302ec;
+  constexpr static std::size_t addrs = 0x70ab90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView_Selection*>(), { ".ctor", {}, {} })));
@@ -684,29 +685,50 @@ inline ::UnityEngine::UIElements::BaseVerticalCollectionView_Selection* UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_Selection::BaseVerticalCollectionView_Selection() {}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection::BaseVerticalCollectionView_RangeSelectionDirection(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection::BaseVerticalCollectionView_RangeSelectionDirection() {}
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection::Up{ static_cast<int32_t>(
+    0xffffffff) };
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection::Down{ static_cast<int32_t>(0x1) };
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum::BaseVerticalCollectionView_pointerProcessingStateEnum(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum::BaseVerticalCollectionView_pointerProcessingStateEnum() {}
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum::None{ static_cast<int32_t>(
+    0x0) };
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum::PointerDown{
+  static_cast<int32_t>(0x1)
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView___c::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d36254;
+  constexpr static std::size_t addrs = 0x70b193c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c.__ctor_b__177_1
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c.__ctor_b__191_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView___c::*)()>(
-    &::UnityEngine::UIElements::BaseVerticalCollectionView___c::__ctor_b__177_1)> {
+    &::UnityEngine::UIElements::BaseVerticalCollectionView___c::__ctor_b__191_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d36258;
+  constexpr static std::size_t addrs = 0x70b1940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(), { "<.ctor>b__177_1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(), { "<.ctor>b__191_1", {}, {} })));
     return ___internal_method;
   }
 };
@@ -717,19 +739,19 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView___c::setStaticF_
 inline ::UnityEngine::UIElements::BaseVerticalCollectionView___c* UnityEngine::UIElements::BaseVerticalCollectionView___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BaseVerticalCollectionView___c*, "<>9", ::UnityEngine::UIElements::BaseVerticalCollectionView___c*>();
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView___c::setStaticF___9__177_1(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__177_1", ::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(std::forward<::System::Action*>(value));
+inline void UnityEngine::UIElements::BaseVerticalCollectionView___c::setStaticF___9__191_1(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__191_1", ::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(std::forward<::System::Action*>(value));
 }
-inline ::System::Action* UnityEngine::UIElements::BaseVerticalCollectionView___c::getStaticF___9__177_1() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__177_1", ::UnityEngine::UIElements::BaseVerticalCollectionView___c*>();
+inline ::System::Action* UnityEngine::UIElements::BaseVerticalCollectionView___c::getStaticF___9__191_1() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__191_1", ::UnityEngine::UIElements::BaseVerticalCollectionView___c*>();
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView___c::__ctor_b__177_1() {
+inline void UnityEngine::UIElements::BaseVerticalCollectionView___c::__ctor_b__191_1() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(), { "<.ctor>b__177_1", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c*>(), { "<.ctor>b__191_1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::BaseVerticalCollectionView___c* UnityEngine::UIElements::BaseVerticalCollectionView___c::New_ctor() {
@@ -737,90 +759,90 @@ inline ::UnityEngine::UIElements::BaseVerticalCollectionView___c* UnityEngine::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c::BaseVerticalCollectionView___c() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::*)()>(
-    &::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::*)()>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d30544;
+  constexpr static std::size_t addrs = 0x70abb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0._GetRootElementForId_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0._GetRootElementForId_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
-    &::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::_GetRootElementForId_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::_GetRootElementForId_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d3625c;
+  constexpr static std::size_t addrs = 0x70b1944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0*>(),
                                                              { "<GetRootElementForId>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>() } })));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::__cordl_internal_get_id() {
+constexpr int32_t& UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::__cordl_internal_get_id() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___id;
 }
-constexpr int32_t const& UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::__cordl_internal_get_id() const {
+constexpr int32_t const& UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::__cordl_internal_get_id() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___id;
 }
-constexpr void UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::__cordl_internal_set_id(int32_t value) {
+constexpr void UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::__cordl_internal_set_id(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___id = value;
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::_ctor() {
+inline void UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::_GetRootElementForId_b__0(::UnityEngine::UIElements::ReusableCollectionItem* t) {
+inline bool UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::_GetRootElementForId_b__0(::UnityEngine::UIElements::ReusableCollectionItem* t) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0*>(),
                                                            { "<GetRootElementForId>b__0", {}, { ::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, t);
 }
-inline ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0* UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0*>());
+inline ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0* UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::BaseVerticalCollectionView___c__DisplayClass180_0() {}
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass194_0::BaseVerticalCollectionView___c__DisplayClass194_0() {}
 // Ctor Parameters [CppParam { name: "selectedIndicesChanged", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousSelectionCount", ty: "int32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0::BaseVerticalCollectionView___c__DisplayClass191_0(
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass205_0::BaseVerticalCollectionView___c__DisplayClass205_0(
     bool selectedIndicesChanged, ::UnityEngine::UIElements::BaseVerticalCollectionView* __4__this, int32_t previousSelectionCount) noexcept {
   this->selectedIndicesChanged = selectedIndicesChanged;
   this->__4__this = __4__this;
   this->previousSelectionCount = previousSelectionCount;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0::BaseVerticalCollectionView___c__DisplayClass191_0() {}
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass205_0::BaseVerticalCollectionView___c__DisplayClass205_0() {}
 // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shiftKey", ty:
 // "bool", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0::BaseVerticalCollectionView___c__DisplayClass202_0(
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass216_0::BaseVerticalCollectionView___c__DisplayClass216_0(
     ::UnityEngine::UIElements::BaseVerticalCollectionView* __4__this, bool shiftKey) noexcept {
   this->__4__this = __4__this;
   this->shiftKey = shiftKey;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0::BaseVerticalCollectionView___c__DisplayClass202_0() {}
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass216_0::BaseVerticalCollectionView___c__DisplayClass216_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d2ed9c;
+  constexpr static std::size_t addrs = 0x70aa8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -834,7 +856,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d3627c;
+  constexpr static std::size_t addrs = 0x70b1964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -848,7 +870,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::MoveNext)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6d362e8;
+  constexpr static std::size_t addrs = 0x70b19d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -862,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::__m__Finally1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6d3652c;
+  constexpr static std::size_t addrs = 0x70b1c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -876,7 +898,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d36574;
+  constexpr static std::size_t addrs = 0x70b1c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88*>(),
@@ -890,7 +912,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d3657c;
+  constexpr static std::size_t addrs = 0x70b1c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -905,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d365b4;
+  constexpr static std::size_t addrs = 0x70b1c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88*>(),
@@ -920,7 +942,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>* (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
         &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::System_Collections_Generic_IEnumerable_System_Object__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d365bc;
+  constexpr static std::size_t addrs = 0x70b1ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88*>(),
@@ -934,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d36654;
+  constexpr static std::size_t addrs = 0x70b1d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88*>(),
@@ -1126,7 +1148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::HasCanStartDrag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d2e730;
+  constexpr static std::size_t addrs = 0x70aa35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "HasCanStartDrag", {}, {} })));
@@ -1137,16 +1159,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
-    ::UnityEngine::UIElements::ReusableCollectionItem*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseCanStartDrag)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d2e740;
+    ::UnityEngine::UIElements::ReusableCollectionItem*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::EventModifiers)>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseCanStartDrag)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x70aa36c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-            { "RaiseCanStartDrag", {}, { ::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
+                                                             { "RaiseCanStartDrag",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>(),
+                                                                 ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>(), ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
     return ___internal_method;
   }
 };
@@ -1157,7 +1181,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::ReusableCollectionItem*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::UIElements::StartDragArgs)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseSetupDragAndDrop)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d2e814;
+  constexpr static std::size_t addrs = 0x70aa450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1174,8 +1198,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::Vector2, ::UnityEngine::UIElements::DragAndDropArgs)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseHandleDragAndDrop)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d2e8d0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x70aa50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1189,8 +1213,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::Vector2, ::UnityEngine::UIElements::DragAndDropArgs)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RaiseDrop)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d2e914;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x70aa558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1205,7 +1229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_itemsSource)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d2e958;
+  constexpr static std::size_t addrs = 0x709d0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_itemsSource", {}, {} })));
@@ -1217,8 +1241,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::IList*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_itemsSource)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6d2e970;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x70aa5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1233,11 +1257,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2ea80;
+  constexpr static std::size_t addrs = 0x70aa60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 135 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 138 }));
     return ___internal_method;
   }
 };
@@ -1247,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SelectionType (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2ea88;
+  constexpr static std::size_t addrs = 0x70aa614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1261,7 +1285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::SelectionType)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_selectionType)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d2ea90;
+  constexpr static std::size_t addrs = 0x70aa61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -1275,7 +1299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedItem)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d2ec94;
+  constexpr static std::size_t addrs = 0x70aa7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_selectedItem", {}, {} })));
@@ -1288,7 +1312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedItems)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6d2ed2c;
+  constexpr static std::size_t addrs = 0x70aa86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1302,7 +1326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d2d970;
+  constexpr static std::size_t addrs = 0x70a913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1315,8 +1339,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_selectedIndex)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d2edbc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x70aa8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1330,7 +1354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedIndices)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d2ee68;
+  constexpr static std::size_t addrs = 0x709cc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1344,7 +1368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_selectedIds)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d2d844;
+  constexpr static std::size_t addrs = 0x70a9010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_selectedIds", {}, {} })));
@@ -1357,7 +1381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* (
     ::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_activeItems)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6d2ee80;
+  constexpr static std::size_t addrs = 0x70a6794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_activeItems", {}, {} })));
@@ -1370,7 +1394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ScrollView* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_scrollView)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2eefc;
+  constexpr static std::size_t addrs = 0x70aa900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_scrollView", {}, {} })));
@@ -1383,7 +1407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ListViewDragger* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_dragger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2ef04;
+  constexpr static std::size_t addrs = 0x70aa908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_dragger", {}, {} })));
@@ -1396,7 +1420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CollectionVirtualizationController* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_virtualizationController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d2ef0c;
+  constexpr static std::size_t addrs = 0x70a8a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1410,7 +1434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CollectionViewController* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_viewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2ef6c;
+  constexpr static std::size_t addrs = 0x70aa940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1423,8 +1447,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ResolveItemHeight)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d2ef74;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x70aa948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1437,7 +1461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_showBorder)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d2efcc;
+  constexpr static std::size_t addrs = 0x70aa958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_showBorder", {}, {} })));
@@ -1449,7 +1473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::set_showBorder)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6d2f040;
+  constexpr static std::size_t addrs = 0x70aa9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1462,7 +1486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_reorderable)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d2f128;
+  constexpr static std::size_t addrs = 0x709deb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_reorderable", {}, {} })));
@@ -1475,7 +1499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_reorderable)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6d2f208;
+  constexpr static std::size_t addrs = 0x70aaab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1489,7 +1513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_horizontalScrollingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2f64c;
+  constexpr static std::size_t addrs = 0x70aacdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1503,7 +1527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_horizontalScrollingEnabled)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6d2f654;
+  constexpr static std::size_t addrs = 0x70aace4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1517,7 +1541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::AlternatingRowBackground (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_showAlternatingRowBackgrounds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2f724;
+  constexpr static std::size_t addrs = 0x70aadb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1531,7 +1555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::AlternatingRowBackground)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_showAlternatingRowBackgrounds)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6d2f72c;
+  constexpr static std::size_t addrs = 0x70aadbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1546,7 +1570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CollectionVirtualizationMethod (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_virtualizationMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2f7c8;
+  constexpr static std::size_t addrs = 0x70aae58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1560,7 +1584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::CollectionVirtualizationMethod)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_virtualizationMethod)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6d2f7d0;
+  constexpr static std::size_t addrs = 0x70aae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1575,7 +1599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::get_fixedItemHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2f880;
+  constexpr static std::size_t addrs = 0x70aaf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1589,7 +1613,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::set_fixedItemHeight)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d2f888;
+  constexpr static std::size_t addrs = 0x70aaf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1597,15 +1621,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.get_lastHeight
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.get_isRebuildScheduled
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::get_lastHeight)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2f9c4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView::get_isRebuildScheduled)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x70ab054;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_lastHeight", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_isRebuildScheduled", {}, {} })));
     return ___internal_method;
   }
 };
@@ -1615,11 +1641,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::CreateVirtualizationController)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d2f9cc;
+  constexpr static std::size_t addrs = 0x70ab104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 140 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 145 }));
     return ___internal_method;
   }
 };
@@ -1629,7 +1655,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CollectionVirtualizationController* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::GetOrCreateVirtualizationController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d2ef3c;
+  constexpr static std::size_t addrs = 0x70aa910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1643,7 +1669,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CollectionViewController* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::GetOrCreateViewController)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6d2ca6c;
+  constexpr static std::size_t addrs = 0x70a482c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1661,7 +1687,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 141 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 146 }));
     return ___internal_method;
   }
 };
@@ -1670,12 +1696,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::CollectionViewController*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SetViewController)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d2cce4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x70a5698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 142 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 147 }));
     return ___internal_method;
   }
 };
@@ -1685,11 +1711,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ListViewDragger* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::CreateDragger)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d2fa18;
+  constexpr static std::size_t addrs = 0x70ab150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 143 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 148 }));
     return ___internal_method;
   }
 };
@@ -1699,7 +1725,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::InitializeDragAndDropController)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6d2fa84;
+  constexpr static std::size_t addrs = 0x70a5830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1717,7 +1743,36 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 144 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 149 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.set_pointerProcessingState
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
+    ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::set_pointerProcessingState)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x70ab1bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
+                                                { "set_pointerProcessingState", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.set_currentPointerButton
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView::set_currentPointerButton)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x70ab1c4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "set_currentPointerButton", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -1725,8 +1780,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::_ctor)> {
-  constexpr static std::size_t size = 0x73c;
-  constexpr static std::size_t addrs = 0x6d2fbb0;
+  constexpr static std::size_t size = 0x740;
+  constexpr static std::size_t addrs = 0x70ab1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { ".ctor", {}, {} })));
@@ -1739,7 +1794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::IList*, float_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6d2d1ec;
+  constexpr static std::size_t addrs = 0x70a5fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -1753,7 +1808,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::GetRootElementForId)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6d3043c;
+  constexpr static std::size_t addrs = 0x70aba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1767,11 +1822,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::HasValidDataAndBindings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d30548;
+  constexpr static std::size_t addrs = 0x70abb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 145 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 150 }));
     return ___internal_method;
   }
 };
@@ -1781,7 +1836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnItemIndexChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d30570;
+  constexpr static std::size_t addrs = 0x70abb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -1794,8 +1849,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnItemsSourceChanged)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6d3059c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x70abbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1808,7 +1863,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RefreshItems)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6d2cd8c;
+  constexpr static std::size_t addrs = 0x709c594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "RefreshItems", {}, {} })));
@@ -1820,7 +1875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::Rebuild)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6d2f430;
+  constexpr static std::size_t addrs = 0x70a453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "Rebuild", {}, {} })));
@@ -1832,7 +1887,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::ScheduleRebuild)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6d30b14;
+  constexpr static std::size_t addrs = 0x70ac0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "ScheduleRebuild", {}, {} })));
@@ -1843,8 +1898,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::RefreshSelection)> {
-  constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x6d306b0;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x70abc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "RefreshSelection", {}, {} })));
@@ -1855,12 +1910,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::PostRefresh)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d31000;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x70a60a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 146 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 151 }));
     return ___internal_method;
   }
 };
@@ -1870,7 +1925,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ScrollToItem)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d2db54;
+  constexpr static std::size_t addrs = 0x70a5100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1884,7 +1939,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ScrollToItemById)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d2da28;
+  constexpr static std::size_t addrs = 0x70a91f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1898,7 +1953,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnScroll)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d3111c;
+  constexpr static std::size_t addrs = 0x70ac654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1912,7 +1967,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::Resize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6d3108c;
+  constexpr static std::size_t addrs = 0x70ac5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1926,7 +1981,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnAttachToPanel)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x6d31194;
+  constexpr static std::size_t addrs = 0x70ac6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -1940,7 +1995,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnDetachFromPanel)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x6d3154c;
+  constexpr static std::size_t addrs = 0x70aca84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -1953,8 +2008,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::KeyboardNavigationOperation, bool, bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::Apply)> {
-  constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x6d31848;
+  constexpr static std::size_t size = 0x630;
+  constexpr static std::size_t addrs = 0x70acd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1969,7 +2024,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
     ::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::Apply)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6d32370;
+  constexpr static std::size_t addrs = 0x70ad9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1985,11 +2040,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(bool, bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::HandleItemNavigation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d325fc;
+  constexpr static std::size_t addrs = 0x70adc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 147 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 152 }));
     return ___internal_method;
   }
 };
@@ -1999,7 +2054,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerMove)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6d32604;
+  constexpr static std::size_t addrs = 0x70adc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2013,7 +2068,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerDown)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d330ec;
+  constexpr static std::size_t addrs = 0x70ae8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2027,7 +2082,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerCancel)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d330f0;
+  constexpr static std::size_t addrs = 0x70ae8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2041,7 +2096,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerUp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d33178;
+  constexpr static std::size_t addrs = 0x70ae92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2054,8 +2109,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ProcessPointerDown)> {
-  constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6d32ca0;
+  constexpr static std::size_t size = 0x5b8;
+  constexpr static std::size_t addrs = 0x70ae2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2068,8 +2123,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ProcessPointerUp)> {
-  constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x6d326ac;
+  constexpr static std::size_t size = 0x600;
+  constexpr static std::size_t addrs = 0x70adce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2082,8 +2137,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::Vector2, int32_t, int32_t, bool, bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::DoSelect)> {
-  constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x6d3317c;
+  constexpr static std::size_t size = 0x644;
+  constexpr static std::size_t addrs = 0x70ae930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2098,8 +2153,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::DoRangeSelection)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6d338fc;
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x70af0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2113,7 +2168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ProcessSingleClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d337bc;
+  constexpr static std::size_t addrs = 0x70aef74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2126,7 +2181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::SelectAll)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x6d31d78;
+  constexpr static std::size_t addrs = 0x70ad3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "SelectAll", {}, {} })));
@@ -2138,8 +2193,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6d33880;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x70af038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2150,14 +2205,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.AddToSelection
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::Generic::IList_1<int32_t>*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::ReadOnlySpan_1<int32_t>)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6d33db8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x70af754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                           { "AddToSelection", {}, { ::i2c::type_of<::System::Collections::Generic::IList_1<int32_t>*>() } })));
+                                                                                           { "AddToSelection", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -2167,7 +2222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelectionWithoutValidation)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6d34264;
+  constexpr static std::size_t addrs = 0x70af964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2181,7 +2236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RemoveFromSelection)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d33824;
+  constexpr static std::size_t addrs = 0x70aefdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2195,7 +2250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::RemoveFromSelectionWithoutValidation)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x6d345d4;
+  constexpr static std::size_t addrs = 0x70afcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2209,8 +2264,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d2dabc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x70a503c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2221,14 +2276,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.SetSelection
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::ReadOnlySpan_1<int32_t>)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d34ad0;
+  constexpr static std::size_t addrs = 0x70b01d0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                           { "SetSelection", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "SetSelection", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -2238,7 +2294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d34ad8;
+  constexpr static std::size_t addrs = 0x70b0338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2252,8 +2308,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*, bool)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionInternal)> {
-  constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x6d2dcc0;
+  constexpr static std::size_t size = 0x950;
+  constexpr static std::size_t addrs = 0x70a9380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2262,18 +2318,32 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.MatchesExistingSelection
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.SetSelectionInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
-    &::UnityEngine::UIElements::BaseVerticalCollectionView::MatchesExistingSelection)> {
-  constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x6d34ae0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::ReadOnlySpan_1<int32_t>, bool)>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionInternal)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x70b01d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                             { "MatchesExistingSelection", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
+                                                             { "SetSelectionInternal", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.MatchesExistingSelection
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::System::ReadOnlySpan_1<int32_t>)>(
+    &::UnityEngine::UIElements::BaseVerticalCollectionView::MatchesExistingSelection)> {
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x70b0340;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
+                                                                                           { "MatchesExistingSelection", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -2283,7 +2353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::NotifyOfSelectionChange)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6d341e0;
+  constexpr static std::size_t addrs = 0x70af8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2296,7 +2366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::ClearSelection)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d2eb70;
+  constexpr static std::size_t addrs = 0x70a53d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "ClearSelection", {}, {} })));
@@ -2309,7 +2379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ClearSelectionWithoutValidation)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6d33ae4;
+  constexpr static std::size_t addrs = 0x70af480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2322,11 +2392,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(&::UnityEngine::UIElements::BaseVerticalCollectionView::OnViewDataReady)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d2d2e8;
+  constexpr static std::size_t addrs = 0x70a8ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 132 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 135 }));
     return ___internal_method;
   }
 };
@@ -2336,7 +2406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::HandleEventBubbleUp)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6d34fbc;
+  constexpr static std::size_t addrs = 0x70b05e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2350,7 +2420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::ExecuteDefaultAction)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d3531c;
+  constexpr static std::size_t addrs = 0x70b0944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2363,8 +2433,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnSizeChanged)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6d35320;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x70b0948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
@@ -2378,7 +2448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::OnCustomStyleResolved)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6d35430;
+  constexpr static std::size_t addrs = 0x70b0b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2393,7 +2463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d355bc;
+  constexpr static std::size_t addrs = 0x70b0ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2408,7 +2478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)()>(
     &::UnityEngine::UIElements::BaseVerticalCollectionView::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6d355c0;
+  constexpr static std::size_t addrs = 0x70b0ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2417,51 +2487,51 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.__ctor_b__177_0
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView.__ctor_b__191_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(float_t)>(
-    &::UnityEngine::UIElements::BaseVerticalCollectionView::__ctor_b__177_0)> {
+    &::UnityEngine::UIElements::BaseVerticalCollectionView::__ctor_b__191_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d36110;
+  constexpr static std::size_t addrs = 0x70b17f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "<.ctor>b__177_0", {}, { ::i2c::type_of<float_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "<.ctor>b__191_0", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView._RefreshSelection_g__NotifyIfChanged_191_0
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView._RefreshSelection_g__NotifyIfChanged_205_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(
-    ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0>)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::_RefreshSelection_g__NotifyIfChanged_191_0)> {
+    ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass205_0>)>(&::UnityEngine::UIElements::BaseVerticalCollectionView::_RefreshSelection_g__NotifyIfChanged_205_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d30db4;
+  constexpr static std::size_t addrs = 0x70ac378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                            { "<RefreshSelection>g__NotifyIfChanged|191_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0>>() } })));
+                            { "<RefreshSelection>g__NotifyIfChanged|205_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass205_0>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView._Apply_g__HandleSelectionAndScroll_202_0
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseVerticalCollectionView._Apply_g__HandleSelectionAndScroll_216_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t, ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0>)>(
-        &::UnityEngine::UIElements::BaseVerticalCollectionView::_Apply_g__HandleSelectionAndScroll_202_0)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6d321e4;
+    static_cast<void (::UnityEngine::UIElements::BaseVerticalCollectionView::*)(int32_t, ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass216_0>)>(
+        &::UnityEngine::UIElements::BaseVerticalCollectionView::_Apply_g__HandleSelectionAndScroll_216_0)> {
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x70ad874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                { "<Apply>g__HandleSelectionAndScroll|202_0",
+                                                { "<Apply>g__HandleSelectionAndScroll|216_0",
                                                   {},
-                                                  { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0>>() } })));
+                                                  { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass216_0>>() } })));
     return ___internal_method;
   }
 };
@@ -2776,17 +2846,19 @@ constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastHeight = value;
 }
-constexpr bool& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_IsRangeSelectionDirectionUp() {
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_RangeSelectionDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsRangeSelectionDirectionUp;
+  return this->___m_RangeSelectionDirection;
 }
-constexpr bool const& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_IsRangeSelectionDirectionUp() const {
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection const&
+UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_RangeSelectionDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsRangeSelectionDirectionUp;
+  return this->___m_RangeSelectionDirection;
 }
-constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set_m_IsRangeSelectionDirectionUp(bool value) {
+constexpr void
+UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set_m_RangeSelectionDirection(::UnityEngine::UIElements::BaseVerticalCollectionView_RangeSelectionDirection value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsRangeSelectionDirectionUp = value;
+  this->___m_RangeSelectionDirection = value;
 }
 constexpr ::UnityEngine::UIElements::ListViewDragger*& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_Dragger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -2836,6 +2908,33 @@ constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RebuildScheduled = value;
 }
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum&
+UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get__pointerProcessingState_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____pointerProcessingState_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum const&
+UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get__pointerProcessingState_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____pointerProcessingState_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set__pointerProcessingState_k__BackingField(
+    ::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____pointerProcessingState_k__BackingField = value;
+}
+constexpr int32_t& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get__currentPointerButton_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentPointerButton_k__BackingField;
+}
+constexpr int32_t const& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get__currentPointerButton_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentPointerButton_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set__currentPointerButton_k__BackingField(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____currentPointerButton_k__BackingField = value;
+}
 constexpr int32_t& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_PreviousRefreshedCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreviousRefreshedCount;
@@ -2859,6 +2958,30 @@ constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::BaseVerticalCol
 constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set_m_TouchDownPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TouchDownPosition = value;
+}
+constexpr int64_t& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_LastPointerDownTimeStamp() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastPointerDownTimeStamp;
+}
+constexpr int64_t const& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_LastPointerDownTimeStamp() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastPointerDownTimeStamp;
+}
+constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set_m_LastPointerDownTimeStamp(int64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LastPointerDownTimeStamp = value;
+}
+constexpr int32_t& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_PointerDownCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PointerDownCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_get_m_PointerDownCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PointerDownCount;
+}
+constexpr void UnityEngine::UIElements::BaseVerticalCollectionView::__cordl_internal_set_m_PointerDownCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PointerDownCount = value;
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::setStaticF_itemsSourceProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "itemsSourceProperty", ::UnityEngine::UIElements::BaseVerticalCollectionView*>(
@@ -3044,14 +3167,15 @@ inline bool UnityEngine::UIElements::BaseVerticalCollectionView::HasCanStartDrag
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "HasCanStartDrag", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::BaseVerticalCollectionView::RaiseCanStartDrag(::UnityEngine::UIElements::ReusableCollectionItem* item,
-                                                                                   ::System::Collections::Generic::IEnumerable_1<int32_t>* ids) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-          { "RaiseCanStartDrag", {}, { ::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item, ids);
+inline bool UnityEngine::UIElements::BaseVerticalCollectionView::RaiseCanStartDrag(::UnityEngine::UIElements::ReusableCollectionItem* item, ::System::Collections::Generic::IEnumerable_1<int32_t>* ids,
+                                                                                   ::UnityEngine::EventModifiers modifiers) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
+                                                           { "RaiseCanStartDrag",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>(), ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item, ids, modifiers);
 }
 inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::BaseVerticalCollectionView::RaiseSetupDragAndDrop(::UnityEngine::UIElements::ReusableCollectionItem* item,
                                                                                                                            ::System::Collections::Generic::IEnumerable_1<int32_t>* ids,
@@ -3090,7 +3214,7 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::set_itemsSource
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseVerticalCollectionView::get_contentContainer() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 135 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 138 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::SelectionType UnityEngine::UIElements::BaseVerticalCollectionView::get_selectionType() {
@@ -3214,13 +3338,14 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::set_fixedItemHe
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "set_fixedItemHeight", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline float_t UnityEngine::UIElements::BaseVerticalCollectionView::get_lastHeight() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_lastHeight", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+inline bool UnityEngine::UIElements::BaseVerticalCollectionView::get_isRebuildScheduled() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "get_isRebuildScheduled", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::CreateVirtualizationController() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 140 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 145 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::CollectionVirtualizationController* UnityEngine::UIElements::BaseVerticalCollectionView::GetOrCreateVirtualizationController() {
@@ -3243,17 +3368,17 @@ inline ::UnityEngine::UIElements::CollectionViewController* UnityEngine::UIEleme
 }
 inline ::UnityEngine::UIElements::CollectionViewController* UnityEngine::UIElements::BaseVerticalCollectionView::CreateViewController() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 141 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 146 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::CollectionViewController*>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetViewController(::UnityEngine::UIElements::CollectionViewController* controller) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 142 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 147 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, controller);
 }
 inline ::UnityEngine::UIElements::ListViewDragger* UnityEngine::UIElements::BaseVerticalCollectionView::CreateDragger() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 143 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 148 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ListViewDragger*>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::InitializeDragAndDropController(bool enableReordering) {
@@ -3263,8 +3388,19 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::InitializeDragA
 }
 inline ::UnityEngine::UIElements::ICollectionDragAndDropController* UnityEngine::UIElements::BaseVerticalCollectionView::CreateDragAndDropController() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 144 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 149 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ICollectionDragAndDropController*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::set_pointerProcessingState(::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
+                                              { "set_pointerProcessingState", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView_pointerProcessingStateEnum>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::set_currentPointerButton(int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "set_currentPointerButton", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { ".ctor", {}, {} })));
@@ -3282,7 +3418,7 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseVe
 }
 inline bool UnityEngine::UIElements::BaseVerticalCollectionView::HasValidDataAndBindings() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 145 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 150 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::OnItemIndexChanged(int32_t srcIndex, int32_t dstIndex) {
@@ -3313,7 +3449,7 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::RefreshSelectio
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::PostRefresh() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 146 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 151 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::ScrollToItem(int32_t index) {
@@ -3360,7 +3496,7 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::Apply(::UnityEn
 }
 inline bool UnityEngine::UIElements::BaseVerticalCollectionView::HandleItemNavigation(bool moveIn, bool altKey) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 147 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 152 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, moveIn, altKey);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt) {
@@ -3419,9 +3555,10 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "AddToSelection", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index);
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection(::System::Collections::Generic::IList_1<int32_t>* indexes) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                         { "AddToSelection", {}, { ::i2c::type_of<::System::Collections::Generic::IList_1<int32_t>*>() } })));
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelection(::System::ReadOnlySpan_1<int32_t> indexes) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "AddToSelection", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indexes);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::AddToSelectionWithoutValidation(int32_t index) {
@@ -3445,9 +3582,10 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection(in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "SetSelection", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index);
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection(::System::Collections::Generic::IEnumerable_1<int32_t>* indices) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                                                         { "SetSelection", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetSelection(::System::ReadOnlySpan_1<int32_t> indices) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "SetSelection", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionWithoutNotify(::System::Collections::Generic::IEnumerable_1<int32_t>* indices) {
@@ -3462,10 +3600,15 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionInt
                                                            { "SetSelectionInternal", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, sendNotification);
 }
-inline bool UnityEngine::UIElements::BaseVerticalCollectionView::MatchesExistingSelection(::System::Collections::Generic::IEnumerable_1<int32_t>* indices) {
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::SetSelectionInternal(::System::ReadOnlySpan_1<int32_t> indices, bool sendNotification) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                                           { "MatchesExistingSelection", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
+                                                           { "SetSelectionInternal", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, sendNotification);
+}
+inline bool UnityEngine::UIElements::BaseVerticalCollectionView::MatchesExistingSelection(::System::ReadOnlySpan_1<int32_t> indices) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
+                                                                                         { "MatchesExistingSelection", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, indices);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::NotifyOfSelectionChange() {
@@ -3484,7 +3627,7 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::ClearSelectionW
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::OnViewDataReady() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 132 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseVerticalCollectionView::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
@@ -3517,26 +3660,26 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::UnityEngine_ISe
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView::__ctor_b__177_0(float_t v) {
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::__ctor_b__191_0(float_t v) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "<.ctor>b__177_0", {}, { ::i2c::type_of<float_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "<.ctor>b__191_0", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView::_RefreshSelection_g__NotifyIfChanged_191_0(
-    ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0> _cordl_fixed_empty_name_whitespace) {
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::_RefreshSelection_g__NotifyIfChanged_205_0(
+    ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass205_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                          { "<RefreshSelection>g__NotifyIfChanged|191_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0>>() } })));
+                          { "<RefreshSelection>g__NotifyIfChanged|205_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass205_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace);
 }
-inline void UnityEngine::UIElements::BaseVerticalCollectionView::_Apply_g__HandleSelectionAndScroll_202_0(
-    int32_t index, ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0> _cordl_fixed_empty_name_whitespace) {
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::_Apply_g__HandleSelectionAndScroll_216_0(
+    int32_t index, ::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass216_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(),
-                                              { "<Apply>g__HandleSelectionAndScroll|202_0",
+                                              { "<Apply>g__HandleSelectionAndScroll|216_0",
                                                 {},
-                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0>>() } })));
+                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass216_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, _cordl_fixed_empty_name_whitespace);
 }
 inline ::UnityEngine::UIElements::BaseVerticalCollectionView* UnityEngine::UIElements::BaseVerticalCollectionView::New_ctor() {

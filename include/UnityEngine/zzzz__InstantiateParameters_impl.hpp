@@ -4,11 +4,14 @@
 #include "UnityEngine/zzzz__InstantiateParameters_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scene", ty:
-// "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldSpace", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::InstantiateParameters::InstantiateParameters(::UnityW<::UnityEngine::Transform> parent, ::UnityEngine::SceneManagement::Scene scene, bool worldSpace) noexcept {
+// "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldSpace", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "originalImmutable", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::InstantiateParameters::InstantiateParameters(::UnityW<::UnityEngine::Transform> parent, ::UnityEngine::SceneManagement::Scene scene, bool worldSpace,
+                                                                      bool originalImmutable) noexcept {
   this->parent = parent;
   this->scene = scene;
   this->worldSpace = worldSpace;
+  this->originalImmutable = originalImmutable;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InstantiateParameters::InstantiateParameters() {}

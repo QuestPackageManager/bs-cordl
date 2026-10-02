@@ -6,6 +6,7 @@
 #include "UnityEngine/UIElements/zzzz__SliderDirection_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ClampedDragger_1_def.hpp"
@@ -125,6 +126,18 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlide
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fillElement_k__BackingField = value;
 }
+template <typename TValueType> constexpr float_t& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_AdjustedPageSizeFromClick() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AdjustedPageSizeFromClick;
+}
+template <typename TValueType> constexpr float_t const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_AdjustedPageSizeFromClick() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AdjustedPageSizeFromClick;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_AdjustedPageSizeFromClick(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AdjustedPageSizeFromClick = value;
+}
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_IsEditingTextField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsEditingTextField;
@@ -235,6 +248,18 @@ template <typename TValueType> constexpr ::UnityEngine::Rect const& UnityEngine:
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_DragElementStartPos(::UnityEngine::Rect value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DragElementStartPos = value;
+}
+template <typename TValueType> constexpr ::System::Action_1<TValueType>*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_onSetValueWithoutNotify() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onSetValueWithoutNotify;
+}
+template <typename TValueType> constexpr ::System::Action_1<TValueType>* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_onSetValueWithoutNotify() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onSetValueWithoutNotify;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_onSetValueWithoutNotify(::System::Action_1<TValueType>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___onSetValueWithoutNotify = value;
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::SliderDirection& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Direction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -443,6 +468,11 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
                                                                                          { "set_fillElement", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_canSwitchToMixedValue() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 154 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_lowValue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_lowValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
@@ -472,22 +502,22 @@ template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSl
 }
 template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::get_pageSize() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 159 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 165 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_pageSize(float_t value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 160 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 166 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_showInputField() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 161 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 167 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_showInputField(bool value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 162 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 168 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fill() {
@@ -531,18 +561,18 @@ template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSl
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_value() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 143 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 148 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_value(TValueType value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 144 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 149 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 163 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 169 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnityEngine_UIElements_IValueField_TValueType__StartDragging() {
@@ -555,9 +585,19 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UnityEngine.UIElements.IValueField<TValueType>.StopDragging", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::add_onSetValueWithoutNotify(::System::Action_1<TValueType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
+                                                                                         { "add_onSetValueWithoutNotify", {}, { ::i2c::type_of<::System::Action_1<TValueType>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::remove_onSetValueWithoutNotify(::System::Action_1<TValueType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
+                                                                                         { "remove_onSetValueWithoutNotify", {}, { ::i2c::type_of<::System::Action_1<TValueType>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 153 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::SliderDirection UnityEngine::UIElements::BaseSlider_1<TValueType>::get_direction() {
@@ -603,28 +643,28 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpUnclamped(TValueType a, TValueType b, float_t interpolant) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 164 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 170 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, a, b, interpolant);
 }
 template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 165 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 171 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, currentValue, lowerValue, higherValue);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderRange() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 166 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 172 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::ParseStringToValue(::StringW previousValue, ::StringW newValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 167 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 173 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, previousValue, newValue);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> sliderKey, bool isShift) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 168 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 174 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderKey, isShift);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpDirectionalUnclamped(TValueType a, TValueType b, float_t positionInterpolant) {
@@ -669,7 +709,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 169 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 175 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderLength, dragElementLength, dragElementPos, dragElementLastPos);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::AdjustDragElement(float_t factor) {
@@ -684,7 +724,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnViewDataReady() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 132 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::SameValues(float_t a, float_t b, float_t epsilon) {
@@ -750,17 +790,17 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateMixedValueContent() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 152 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 158 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::RegisterEditingCallbacks() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 150 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 156 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnregisterEditingCallbacks() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 151 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 157 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType>

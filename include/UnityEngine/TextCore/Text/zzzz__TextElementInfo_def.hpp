@@ -45,7 +45,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6c02ae0, size 0x1774, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7056da0, size 0x1568, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -57,12 +57,11 @@ public:
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "alternativeGlyph", ty: "::UnityEngine::TextCore::Glyph*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty:
   // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty:
-  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None, comment:
-  // None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None
-  // }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers:
-  // "", def_value: None, comment: None }, CppParam { name: "vertexBottomLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "vertexBottomLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "vertexTopRight", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexBottomRight", ty:
   // "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment:
   // None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "",
@@ -80,8 +79,8 @@ public:
   // "", def_value: None, comment: None }]
   constexpr TextElementInfo(uint32_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength,
                             ::UnityEngine::TextCore::Text::TextElement* textElement, ::UnityEngine::TextCore::Glyph* alternativeGlyph, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
-                            ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, int32_t spriteIndex, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex,
-                            bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex, ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft,
+                            ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex, bool isUsingAlternateTypeface,
+                            float_t pointSize, int32_t lineNumber, int32_t vertexIndex, ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft,
                             ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft, ::UnityEngine::TextCore::Text::TextVertex vertexTopRight,
                             ::UnityEngine::TextCore::Text::TextVertex vertexBottomRight, ::UnityEngine::Vector3 topLeft, ::UnityEngine::Vector3 bottomLeft, ::UnityEngine::Vector3 topRight,
                             ::UnityEngine::Vector3 bottomRight, float_t origin, float_t ascender, float_t baseLine, float_t descender, float_t adjustedAscender, float_t adjustedDescender,
@@ -90,10 +89,10 @@ public:
                             ::UnityEngine::TextCore::Text::HighlightState highlightState, ::UnityEngine::TextCore::Text::FontStyles style, bool isVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17841 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x188 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x178 };
 
   /// @brief Field character, offset: 0x0, size: 0x4, def value: None
   uint32_t character;
@@ -119,109 +118,103 @@ public:
   /// @brief Field spriteAsset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset;
 
-  /// @brief Field spriteIndex, offset: 0x30, size: 0x4, def value: None
-  int32_t spriteIndex;
-
-  /// @brief Field material, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field material, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;
 
-  /// @brief Field materialReferenceIndex, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field materialReferenceIndex, offset: 0x38, size: 0x4, def value: None
   int32_t materialReferenceIndex;
 
-  /// @brief Field isUsingAlternateTypeface, offset: 0x44, size: 0x1, def value: None
+  /// @brief Field isUsingAlternateTypeface, offset: 0x3c, size: 0x1, def value: None
   bool isUsingAlternateTypeface;
 
-  /// @brief Field pointSize, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field pointSize, offset: 0x40, size: 0x4, def value: None
   float_t pointSize;
 
-  /// @brief Field lineNumber, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field lineNumber, offset: 0x44, size: 0x4, def value: None
   int32_t lineNumber;
 
-  /// @brief Field pageNumber, offset: 0x50, size: 0x4, def value: None
-  int32_t pageNumber;
-
-  /// @brief Field vertexIndex, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field vertexIndex, offset: 0x48, size: 0x4, def value: None
   int32_t vertexIndex;
 
-  /// @brief Field vertexTopLeft, offset: 0x58, size: 0x28, def value: None
+  /// @brief Field vertexTopLeft, offset: 0x4c, size: 0x28, def value: None
   ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft;
 
-  /// @brief Field vertexBottomLeft, offset: 0x80, size: 0x28, def value: None
+  /// @brief Field vertexBottomLeft, offset: 0x74, size: 0x28, def value: None
   ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft;
 
-  /// @brief Field vertexTopRight, offset: 0xa8, size: 0x28, def value: None
+  /// @brief Field vertexTopRight, offset: 0x9c, size: 0x28, def value: None
   ::UnityEngine::TextCore::Text::TextVertex vertexTopRight;
 
-  /// @brief Field vertexBottomRight, offset: 0xd0, size: 0x28, def value: None
+  /// @brief Field vertexBottomRight, offset: 0xc4, size: 0x28, def value: None
   ::UnityEngine::TextCore::Text::TextVertex vertexBottomRight;
 
-  /// @brief Field topLeft, offset: 0xf8, size: 0xc, def value: None
+  /// @brief Field topLeft, offset: 0xec, size: 0xc, def value: None
   ::UnityEngine::Vector3 topLeft;
 
-  /// @brief Field bottomLeft, offset: 0x104, size: 0xc, def value: None
+  /// @brief Field bottomLeft, offset: 0xf8, size: 0xc, def value: None
   ::UnityEngine::Vector3 bottomLeft;
 
-  /// @brief Field topRight, offset: 0x110, size: 0xc, def value: None
+  /// @brief Field topRight, offset: 0x104, size: 0xc, def value: None
   ::UnityEngine::Vector3 topRight;
 
-  /// @brief Field bottomRight, offset: 0x11c, size: 0xc, def value: None
+  /// @brief Field bottomRight, offset: 0x110, size: 0xc, def value: None
   ::UnityEngine::Vector3 bottomRight;
 
-  /// @brief Field origin, offset: 0x128, size: 0x4, def value: None
+  /// @brief Field origin, offset: 0x11c, size: 0x4, def value: None
   float_t origin;
 
-  /// @brief Field ascender, offset: 0x12c, size: 0x4, def value: None
+  /// @brief Field ascender, offset: 0x120, size: 0x4, def value: None
   float_t ascender;
 
-  /// @brief Field baseLine, offset: 0x130, size: 0x4, def value: None
+  /// @brief Field baseLine, offset: 0x124, size: 0x4, def value: None
   float_t baseLine;
 
-  /// @brief Field descender, offset: 0x134, size: 0x4, def value: None
+  /// @brief Field descender, offset: 0x128, size: 0x4, def value: None
   float_t descender;
 
-  /// @brief Field adjustedAscender, offset: 0x138, size: 0x4, def value: None
+  /// @brief Field adjustedAscender, offset: 0x12c, size: 0x4, def value: None
   float_t adjustedAscender;
 
-  /// @brief Field adjustedDescender, offset: 0x13c, size: 0x4, def value: None
+  /// @brief Field adjustedDescender, offset: 0x130, size: 0x4, def value: None
   float_t adjustedDescender;
 
-  /// @brief Field adjustedHorizontalAdvance, offset: 0x140, size: 0x4, def value: None
+  /// @brief Field adjustedHorizontalAdvance, offset: 0x134, size: 0x4, def value: None
   float_t adjustedHorizontalAdvance;
 
-  /// @brief Field xAdvance, offset: 0x144, size: 0x4, def value: None
+  /// @brief Field xAdvance, offset: 0x138, size: 0x4, def value: None
   float_t xAdvance;
 
-  /// @brief Field aspectRatio, offset: 0x148, size: 0x4, def value: None
+  /// @brief Field aspectRatio, offset: 0x13c, size: 0x4, def value: None
   float_t aspectRatio;
 
-  /// @brief Field scale, offset: 0x14c, size: 0x4, def value: None
+  /// @brief Field scale, offset: 0x140, size: 0x4, def value: None
   float_t scale;
 
-  /// @brief Field color, offset: 0x150, size: 0x4, def value: None
+  /// @brief Field color, offset: 0x144, size: 0x4, def value: None
   ::UnityEngine::Color32 color;
 
-  /// @brief Field underlineColor, offset: 0x154, size: 0x4, def value: None
+  /// @brief Field underlineColor, offset: 0x148, size: 0x4, def value: None
   ::UnityEngine::Color32 underlineColor;
 
-  /// @brief Field underlineVertexIndex, offset: 0x158, size: 0x4, def value: None
+  /// @brief Field underlineVertexIndex, offset: 0x14c, size: 0x4, def value: None
   int32_t underlineVertexIndex;
 
-  /// @brief Field strikethroughColor, offset: 0x15c, size: 0x4, def value: None
+  /// @brief Field strikethroughColor, offset: 0x150, size: 0x4, def value: None
   ::UnityEngine::Color32 strikethroughColor;
 
-  /// @brief Field strikethroughVertexIndex, offset: 0x160, size: 0x4, def value: None
+  /// @brief Field strikethroughVertexIndex, offset: 0x154, size: 0x4, def value: None
   int32_t strikethroughVertexIndex;
 
-  /// @brief Field highlightColor, offset: 0x164, size: 0x4, def value: None
+  /// @brief Field highlightColor, offset: 0x158, size: 0x4, def value: None
   ::UnityEngine::Color32 highlightColor;
 
-  /// @brief Field highlightState, offset: 0x168, size: 0x14, def value: None
+  /// @brief Field highlightState, offset: 0x15c, size: 0x14, def value: None
   ::UnityEngine::TextCore::Text::HighlightState highlightState;
 
-  /// @brief Field style, offset: 0x17c, size: 0x4, def value: None
+  /// @brief Field style, offset: 0x170, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::FontStyles style;
 
-  /// @brief Field isVisible, offset: 0x180, size: 0x1, def value: None
+  /// @brief Field isVisible, offset: 0x174, size: 0x1, def value: None
   bool isVisible;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -243,76 +236,72 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, fontAsset
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, spriteAsset) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, spriteIndex) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, material) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, material) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, materialReferenceIndex) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, materialReferenceIndex) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isUsingAlternateTypeface) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isUsingAlternateTypeface) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, pointSize) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, pointSize) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, lineNumber) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, lineNumber) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexIndex) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, pageNumber) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexTopLeft) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexIndex) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexBottomLeft) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexTopLeft) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexTopRight) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexBottomLeft) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexBottomRight) == 0xc4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexTopRight) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, topLeft) == 0xec, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, vertexBottomRight) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, bottomLeft) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, topLeft) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, topRight) == 0x104, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, bottomLeft) == 0x104, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, bottomRight) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, topRight) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, origin) == 0x11c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, bottomRight) == 0x11c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, ascender) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, origin) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, baseLine) == 0x124, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, ascender) == 0x12c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, descender) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, baseLine) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, adjustedAscender) == 0x12c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, descender) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, adjustedDescender) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, adjustedAscender) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, adjustedHorizontalAdvance) == 0x134, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, adjustedDescender) == 0x13c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, xAdvance) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, adjustedHorizontalAdvance) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, aspectRatio) == 0x13c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, xAdvance) == 0x144, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, scale) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, aspectRatio) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, color) == 0x144, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, scale) == 0x14c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, underlineColor) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, color) == 0x150, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, underlineVertexIndex) == 0x14c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, underlineColor) == 0x154, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, strikethroughColor) == 0x150, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, underlineVertexIndex) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, strikethroughVertexIndex) == 0x154, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, strikethroughColor) == 0x15c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, highlightColor) == 0x158, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, strikethroughVertexIndex) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, highlightState) == 0x15c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, highlightColor) == 0x164, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, style) == 0x170, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, highlightState) == 0x168, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isVisible) == 0x174, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, style) == 0x17c, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isVisible) == 0x180, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::TextCore::Text::TextElementInfo) == 0x188, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::TextCore::Text::TextElementInfo) == 0x178, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text

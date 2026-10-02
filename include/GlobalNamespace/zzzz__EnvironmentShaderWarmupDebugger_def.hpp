@@ -64,10 +64,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* New_ctor();
 
-  /// @brief Method <Initialize>b__4_0, addr 0x58af3d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__4_0, addr 0x5cc5f50, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> _Initialize_b__4_0(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method .ctor, addr 0x58af3cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc5f4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* getStaticF___9();
@@ -93,7 +93,7 @@ public:
   EnvironmentShaderWarmupDebugger___c(EnvironmentShaderWarmupDebugger___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,19 +131,19 @@ public:
   /// @brief Convert operator to "::Zenject::ILateTickable"
   constexpr operator ::Zenject::ILateTickable*() noexcept;
 
-  /// @brief Method FullMaterialLookup, addr 0x58aed34, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method FullMaterialLookup, addr 0x5cc58b4, size 0x5a0, virtual false, abstract: false, final false
   inline void FullMaterialLookup();
 
-  /// @brief Method GetGameObjectPath, addr 0x58aebe0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectPath, addr 0x5cc5760, size 0x154, virtual false, abstract: false, final false
   inline ::StringW GetGameObjectPath(::UnityEngine::GameObject* obj);
 
-  /// @brief Method Initialize, addr 0x58ae7a4, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5cc5324, size 0x1a8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method JustRenderersAndInitialMaterials, addr 0x58ae950, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method JustRenderersAndInitialMaterials, addr 0x5cc54d0, size 0x290, virtual false, abstract: false, final false
   inline void JustRenderersAndInitialMaterials();
 
-  /// @brief Method LateTick, addr 0x58ae94c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LateTick, addr 0x5cc54cc, size 0x4, virtual true, abstract: false, final true
   inline void LateTick();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger* New_ctor();
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set__reusableStringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x58af2d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc5e54, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -196,7 +196,7 @@ public:
   EnvironmentShaderWarmupDebugger(EnvironmentShaderWarmupDebugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5654 };
 
   /// @brief Field _renderersThatWereNotRendered, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Renderer>>* ____renderersThatWereNotRendered;

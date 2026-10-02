@@ -35,7 +35,7 @@ namespace GlobalNamespace {
 struct LevelFilter;
 }
 namespace GlobalNamespace {
-struct LevelSearchViewController__RefreshAsync_d__42;
+struct LevelSearchViewController__RefreshAsync_d__40;
 }
 namespace GlobalNamespace {
 struct LevelSelectionOptions;
@@ -84,29 +84,29 @@ namespace GlobalNamespace {
 class LevelSearchViewController;
 }
 namespace GlobalNamespace {
-struct LevelSearchViewController__RefreshAsync_d__42;
+struct LevelSearchViewController__RefreshAsync_d__40;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LevelSearchViewController*);
-MARK_VAL_T(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42);
+MARK_VAL_T(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42, "", "LevelSearchViewController/<RefreshAsync>d__42");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40, "", "LevelSearchViewController/<RefreshAsync>d__40");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: LevelSearchViewController/<RefreshAsync>d__42
-struct CORDL_TYPE LevelSearchViewController__RefreshAsync_d__42 {
+// CS Name: LevelSearchViewController/<RefreshAsync>d__40
+struct CORDL_TYPE LevelSearchViewController__RefreshAsync_d__40 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5956b70, size 0xa5c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d712a8, size 0xa5c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x59575cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d71d04, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -114,18 +114,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LevelSearchViewController__RefreshAsync_d__42();
+  constexpr LevelSearchViewController__RefreshAsync_d__40();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::UnityW<::GlobalNamespace::LevelSearchViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: None, comment: None }]
-  constexpr LevelSearchViewController__RefreshAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr LevelSearchViewController__RefreshAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                           ::UnityW<::GlobalNamespace::LevelSearchViewController> __4__this,
                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -145,15 +145,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapCharacteristic, BeatmapDifficulty, BeatmapLevelPack, HMUI.ViewController, LevelFilter, System.Nullable`1<T>
@@ -163,7 +163,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelSearchViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _RefreshAsync_d__42 = ::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42;
+  using _RefreshAsync_d__40 = ::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__40;
 
   /// @brief Field _beatmapCharacteristicCollection, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
@@ -231,61 +231,61 @@ public:
   __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
                       put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* didStartLoadingEvent;
 
-  /// @brief Method DidActivate, addr 0x5956058, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d70790, size 0x1d8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5956230, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5d70968, size 0xe0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method IsFilteringPlayCounts, addr 0x5953ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsFilteringPlayCounts, addr 0x5d6e41c, size 0x8, virtual false, abstract: false, final false
   inline bool IsFilteringPlayCounts();
 
-  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x59563e8, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x5d70b20, size 0x68c, virtual false, abstract: false, final false
   static inline ::StringW LocalizedLevelFilterParamsDescription(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
                                                                 ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* characteristics,
                                                                 bool isPlayerSensitivityForced);
 
   static inline ::GlobalNamespace::LevelSearchViewController* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5953cec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5d6e424, size 0x4, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Refresh, addr 0x5956038, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5d70770, size 0x20, virtual false, abstract: false, final false
   inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter);
 
-  /// [AsyncStateMachine(typeof(LevelSearchViewController::<RefreshAsync>d__42))]
-  /// @brief Method RefreshAsync, addr 0x5955f94, size 0xa4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(LevelSearchViewController::<RefreshAsync>d__40))]
+  /// @brief Method RefreshAsync, addr 0x5d706cc, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAsync();
 
-  /// @brief Method ResetAllFilterSettings, addr 0x5955f7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResetAllFilterSettings, addr 0x5d706b4, size 0x18, virtual false, abstract: false, final false
   inline void ResetAllFilterSettings(bool onlyFavorites);
 
-  /// @brief Method ResetFilter, addr 0x5953ad4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ResetFilter, addr 0x5d6e20c, size 0x2c, virtual false, abstract: false, final false
   inline void ResetFilter(bool onlyFavorites);
 
-  /// @brief Method ResetOptionFilterSettings, addr 0x5956318, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ResetOptionFilterSettings, addr 0x5d70a50, size 0xb8, virtual false, abstract: false, final false
   inline void ResetOptionFilterSettings(bool onlyFavorites);
 
-  /// @brief Method ResetTextFilterSettings, addr 0x5956310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetTextFilterSettings, addr 0x5d70a48, size 0x8, virtual false, abstract: false, final false
   inline void ResetTextFilterSettings(::StringW text);
 
-  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x59563d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x5d70b08, size 0x18, virtual false, abstract: false, final false
   inline void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
 
-  /// @brief Method Setup, addr 0x5955f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d706ac, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::BeatmapLevelPack*> beatmapLevelPacks);
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__37_0, addr 0x5956afc, size 0x50, virtual false, abstract: false, final false
-  inline void _DidActivate_b__37_0();
+  /// @brief Method <DidActivate>b__35_0, addr 0x5d71234, size 0x50, virtual false, abstract: false, final false
+  inline void _DidActivate_b__35_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__37_1, addr 0x5956b4c, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__37_1();
+  /// @brief Method <DidActivate>b__35_1, addr 0x5d71284, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__35_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|44_0, addr 0x5956a74, size 0x84, virtual false, abstract: false, final false
-  static inline void _LocalizedLevelFilterParamsDescription_g__Append_44_0(::System::Text::StringBuilder* sb, ::StringW value);
+  /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|42_0, addr 0x5d711ac, size 0x84, virtual false, abstract: false, final false
+  static inline void _LocalizedLevelFilterParamsDescription_g__Append_42_0(::System::Text::StringBuilder* sb, ::StringW value);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
@@ -401,31 +401,31 @@ public:
 
   constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x5956af8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d71230, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x5952f10, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x5d6d648, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didPressSearchButtonEvent, addr 0x5955df4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressSearchButtonEvent, addr 0x5d7052c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didStartLoadingEvent, addr 0x5952fd0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didStartLoadingEvent, addr 0x5d6d708, size 0xc0, virtual false, abstract: false, final false
   inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x5953734, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x5d6de6c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didPressSearchButtonEvent, addr 0x5955eb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressSearchButtonEvent, addr 0x5d705ec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didStartLoadingEvent, addr 0x59537f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didStartLoadingEvent, addr 0x5d6df2c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
 protected:
@@ -443,7 +443,7 @@ public:
   LevelSearchViewController(LevelSearchViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7059 };
 
   /// @brief Field kFilterByNotOwnedSongsLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kFilterByNotOwnedSongsLocalizationKey{ u"FILTER_BY_NOT_OWNED_SONGS" };
@@ -453,12 +453,6 @@ public:
 
   /// @brief Field kFilterByOwnedSongsLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kFilterByOwnedSongsLocalizationKey{ u"FILTER_BY_OWNED_SONGS" };
-
-  /// @brief Field kFilterContentRatingCleanLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kFilterContentRatingCleanLocalizationKey{ u"FILTER_CONTENT_RATING_CLEAN" };
-
-  /// @brief Field kFilterContentRatingExplicitLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kFilterContentRatingExplicitLocalizationKey{ u"FILTER_CONTENT_RATING_EXPLICIT" };
 
   /// @brief Field kMaxBpmLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kMaxBpmLocalizationKey{ u"MAX_BPM" };

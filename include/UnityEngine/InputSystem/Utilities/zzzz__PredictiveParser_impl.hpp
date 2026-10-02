@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>, char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::ExpectSingleChar)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x65071a8;
+  constexpr static std::size_t addrs = 0x6930044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::ExpectInt)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x65072a0;
+  constexpr static std::size_t addrs = 0x693013c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::ExpectString)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x65073bc;
+  constexpr static std::size_t addrs = 0x6930258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PredictiveParser>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>, char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptSingleChar)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x65075bc;
+  constexpr static std::size_t addrs = 0x6930458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::by_ref<::System::ReadOnlySpan_1<char16_t>>)>(&::UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptString)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x65075f0;
+  constexpr static std::size_t addrs = 0x693048c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::PredictiveParser::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptInt)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6507720;
+  constexpr static std::size_t addrs = 0x69305bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

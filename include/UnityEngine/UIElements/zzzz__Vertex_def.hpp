@@ -36,19 +36,21 @@ public:
   constexpr Vertex();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "xformClipPages", ty:
-  // "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "ids", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "settingIndex", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value: None, comment: None }]
-  constexpr Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids,
-                   ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityColorPages, ::UnityEngine::Color32 settingIndex, ::UnityEngine::Vector4 circle, float_t textureId) noexcept;
+  // def_value: None, comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "layoutUV", ty: "::UnityEngine::Vector2",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "xformClipPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "ids", ty:
+  // "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "settingIndex", ty: "::UnityEngine::Color32", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
+  constexpr Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector2 layoutUV, ::UnityEngine::Color32 xformClipPages,
+                   ::UnityEngine::Color32 ids, ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityColorPages, ::UnityEngine::Color32 settingIndex, ::UnityEngine::Vector4 circle,
+                   float_t textureId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
@@ -59,25 +61,28 @@ public:
   /// @brief Field uv, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 uv;
 
-  /// @brief Field xformClipPages, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field layoutUV, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Vector2 layoutUV;
+
+  /// @brief Field xformClipPages, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Color32 xformClipPages;
 
-  /// @brief Field ids, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field ids, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::Color32 ids;
 
-  /// @brief Field flags, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field flags, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Color32 flags;
 
-  /// @brief Field opacityColorPages, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field opacityColorPages, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::Color32 opacityColorPages;
 
-  /// @brief Field settingIndex, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field settingIndex, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::Color32 settingIndex;
 
-  /// @brief Field circle, offset: 0x2c, size: 0x10, def value: None
+  /// @brief Field circle, offset: 0x34, size: 0x10, def value: None
   ::UnityEngine::Vector4 circle;
 
-  /// @brief Field textureId, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field textureId, offset: 0x44, size: 0x4, def value: None
   float_t textureId;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -89,20 +94,22 @@ static_assert(offsetof(::UnityEngine::UIElements::Vertex, tint) == 0xc, "Offset 
 
 static_assert(offsetof(::UnityEngine::UIElements::Vertex, uv) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, xformClipPages) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, layoutUV) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, ids) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, xformClipPages) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, flags) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, ids) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, opacityColorPages) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, flags) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, settingIndex) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, opacityColorPages) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, circle) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, settingIndex) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vertex, textureId) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, circle) == 0x34, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Vertex) == 0x40, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vertex, textureId) == 0x44, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::Vertex) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

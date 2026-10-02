@@ -38,15 +38,15 @@ public:
 
   constexpr void __cordl_internal_set__BaseType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e3df18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::System::Type* baseType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_BaseType, addr 0x6e3df20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x72d9a70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_BaseType, addr 0x6e3df28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x72d9a78, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Type* value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   BaseTypeRequiredAttribute(BaseTypeRequiredAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23350 };
 
   /// [CompilerGenerated]
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None

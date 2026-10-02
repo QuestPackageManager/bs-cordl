@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::HighlightState::*)(::UnityEngine::Color32, ::TMPro::TMP_Offset)>(&::TMPro::HighlightState::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x694a410;
+  constexpr static std::size_t addrs = 0x6d50e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::HighlightState, ::TMPro::HighlightState)>(&::TMPro::HighlightState::op_Equality)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x694a420;
+  constexpr static std::size_t addrs = 0x6d50e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::HighlightState, ::TMPro::HighlightState)>(&::TMPro::HighlightState::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x694a4cc;
+  constexpr static std::size_t addrs = 0x6d50ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::HighlightState::*)()>(&::TMPro::HighlightState::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x694a514;
+  constexpr static std::size_t addrs = 0x6d50f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::HighlightState>(), { ::i2c::class_of<::TMPro::HighlightState>(), 2 }));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::HighlightState::*)(::System::Object*)>(&::TMPro::HighlightState::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x694a580;
+  constexpr static std::size_t addrs = 0x6d50fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::HighlightState>(), { ::i2c::class_of<::TMPro::HighlightState>(), 0 }));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::HighlightState::*)(::TMPro::HighlightState)>(&::TMPro::HighlightState::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x694a5f8;
+  constexpr static std::size_t addrs = 0x6d51020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

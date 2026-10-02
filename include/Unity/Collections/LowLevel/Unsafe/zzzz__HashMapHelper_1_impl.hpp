@@ -116,15 +116,15 @@ template <typename TKey> inline void Unity::Collections::LowLevel::Unsafe::HashM
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TKey>
-inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::CalculateDataSize(int32_t capacity, int32_t bucketCapacity, int32_t sizeOfTValue, ::by_ref<int32_t> outKeyOffset,
-                                                                                              ::by_ref<int32_t> outNextOffset, ::by_ref<int32_t> outBucketOffset) {
+inline int64_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::CalculateDataSize(int32_t capacity, int32_t bucketCapacity, int32_t sizeOfTValue, ::by_ref<int64_t> outKeyOffset,
+                                                                                              ::by_ref<int64_t> outNextOffset, ::by_ref<int64_t> outBucketOffset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(),
                                                            { "CalculateDataSize",
                                                              {},
-                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                               ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, capacity, bucketCapacity, sizeOfTValue, outKeyOffset, outNextOffset, outBucketOffset);
+                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int64_t>>(),
+                                                               ::i2c::type_of<::by_ref<int64_t>>(), ::i2c::type_of<::by_ref<int64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, capacity, bucketCapacity, sizeOfTValue, outKeyOffset, outNextOffset, outBucketOffset);
 }
 template <typename TKey> inline int32_t Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::GetCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "GetCount", {}, {} })));
@@ -203,6 +203,11 @@ template <typename TKey> inline void Unity::Collections::LowLevel::Unsafe::HashM
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "CheckIndexOutOfBounds", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, idx);
+}
+template <typename TKey> inline void Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>::CheckCapacity(int32_t capacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>>(), { "CheckCapacity", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, capacity);
 }
 // Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Keys", ty: "TKey*", modifiers: "", def_value: Some("{}"), comment:
 // None }, CppParam { name: "Next", ty: "int32_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buckets", ty: "int32_t*", modifiers: "", def_value: Some("{}"), comment:

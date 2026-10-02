@@ -38,6 +38,12 @@ namespace UnityEngine::UIElements {
 struct IMGUIContainer_GUIGlobals;
 }
 namespace UnityEngine::UIElements {
+struct IMGUIContainer_NotUITKScope;
+}
+namespace UnityEngine::UIElements {
+struct IMGUIContainer_UITKScope;
+}
+namespace UnityEngine::UIElements {
 class IMGUIContainer_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
@@ -77,15 +83,25 @@ class IMGUIContainer_UxmlTraits;
 namespace UnityEngine::UIElements {
 struct IMGUIContainer_GUIGlobals;
 }
+namespace UnityEngine::UIElements {
+struct IMGUIContainer_NotUITKScope;
+}
+namespace UnityEngine::UIElements {
+struct IMGUIContainer_UITKScope;
+}
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::IMGUIContainer*);
 MARK_REF_T(::UnityEngine::UIElements::IMGUIContainer_UxmlFactory*);
 MARK_REF_T(::UnityEngine::UIElements::IMGUIContainer_UxmlTraits*);
 MARK_VAL_T(::UnityEngine::UIElements::IMGUIContainer_GUIGlobals);
+MARK_VAL_T(::UnityEngine::UIElements::IMGUIContainer_NotUITKScope);
+MARK_VAL_T(::UnityEngine::UIElements::IMGUIContainer_UITKScope);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer*, "UnityEngine.UIElements", "IMGUIContainer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_UxmlFactory*, "UnityEngine.UIElements", "IMGUIContainer/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_UxmlTraits*, "UnityEngine.UIElements", "IMGUIContainer/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_GUIGlobals, "UnityEngine.UIElements", "IMGUIContainer/GUIGlobals");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_NotUITKScope, "UnityEngine.UIElements", "IMGUIContainer/NotUITKScope");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_UITKScope, "UnityEngine.UIElements", "IMGUIContainer/UITKScope");
 // [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
@@ -96,7 +112,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::IMGUIContainer_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6db59e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726893c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +130,7 @@ public:
   IMGUIContainer_UxmlFactory(IMGUIContainer_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4648 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +148,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6db5a4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72689a4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,12 +166,98 @@ public:
   IMGUIContainer_UxmlTraits(IMGUIContainer_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(sizeof(::UnityEngine::UIElements::IMGUIContainer_UxmlTraits) == 0x88, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
+// Dependencies
+namespace UnityEngine::UIElements {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.IMGUIContainer/UITKScope
+struct CORDL_TYPE IMGUIContainer_UITKScope {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
+
+  /// @brief Method Dispose, addr 0x7268b14, size 0xa4, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method .ctor, addr 0x7268a24, size 0xf0, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IMGUIContainer_UITKScope();
+
+  // Ctor Parameters [CppParam { name: "wasUITK", ty: "bool", modifiers: "", def_value: None, comment: None }]
+  constexpr IMGUIContainer_UITKScope(bool wasUITK) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4650 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Field wasUITK, offset: 0x0, size: 0x1, def value: None
+  bool wasUITK;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer_UITKScope, wasUITK) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::IMGUIContainer_UITKScope) == 0x1, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
+// Dependencies
+namespace UnityEngine::UIElements {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.IMGUIContainer/NotUITKScope
+struct CORDL_TYPE IMGUIContainer_NotUITKScope {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
+
+  /// @brief Method Dispose, addr 0x7268ca4, size 0xa4, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method .ctor, addr 0x7268bb8, size 0xec, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IMGUIContainer_NotUITKScope();
+
+  // Ctor Parameters [CppParam { name: "wasUITK", ty: "bool", modifiers: "", def_value: None, comment: None }]
+  constexpr IMGUIContainer_NotUITKScope(bool wasUITK) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4651 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Field wasUITK, offset: 0x0, size: 0x1, def value: None
+  bool wasUITK;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer_NotUITKScope, wasUITK) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::IMGUIContainer_NotUITKScope) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.Color, UnityEngine.Matrix4x4
@@ -178,7 +280,7 @@ public:
                                       int32_t displayIndex, float_t pixelsPerPoint) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4652 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x7c };
@@ -239,15 +341,19 @@ public:
   // Declarations
   using GUIGlobals = ::UnityEngine::UIElements::IMGUIContainer_GUIGlobals;
 
+  using NotUITKScope = ::UnityEngine::UIElements::IMGUIContainer_NotUITKScope;
+
+  using UITKScope = ::UnityEngine::UIElements::IMGUIContainer_UITKScope;
+
   using UxmlFactory = ::UnityEngine::UIElements::IMGUIContainer_UxmlFactory;
 
   using UxmlTraits = ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits;
 
-  /// @brief Field <focusOnlyIfHasFocusableControls>k__BackingField, offset 0x540, size 0x1
+  /// @brief Field <focusOnlyIfHasFocusableControls>k__BackingField, offset 0x360, size 0x1
   __declspec(property(get = __cordl_internal_get__focusOnlyIfHasFocusableControls_k__BackingField,
                       put = __cordl_internal_set__focusOnlyIfHasFocusableControls_k__BackingField)) bool _focusOnlyIfHasFocusableControls_k__BackingField;
 
-  /// @brief Field <lastWorldClip>k__BackingField, offset 0x4bc, size 0x10
+  /// @brief Field <lastWorldClip>k__BackingField, offset 0x2dc, size 0x10
   __declspec(property(get = __cordl_internal_get__lastWorldClip_k__BackingField, put = __cordl_internal_set__lastWorldClip_k__BackingField)) ::UnityEngine::Rect _lastWorldClip_k__BackingField;
 
   __declspec(property(get = get_cache)) ::UnityEngine::GUILayoutUtility_LayoutCache* cache;
@@ -266,14 +372,14 @@ public:
   /// @brief Field cullingEnabledProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_cullingEnabledProperty, put = setStaticF_cullingEnabledProperty)) ::UnityEngine::UIElements::BindingId cullingEnabledProperty;
 
-  /// @brief Field focusChangeDirection, offset 0x530, size 0x8
+  /// @brief Field focusChangeDirection, offset 0x350, size 0x8
   __declspec(property(get = __cordl_internal_get_focusChangeDirection, put = __cordl_internal_set_focusChangeDirection)) ::UnityEngine::UIElements::FocusChangeDirection* focusChangeDirection;
 
   __declspec(property(get = get_focusOnlyIfHasFocusableControls)) bool focusOnlyIfHasFocusableControls;
 
   __declspec(property(get = get_guiState)) ::UnityEngine::ObjectGUIState* guiState;
 
-  /// @brief Field hasFocusableControls, offset 0x538, size 0x1
+  /// @brief Field hasFocusableControls, offset 0x358, size 0x1
   __declspec(property(get = __cordl_internal_get_hasFocusableControls, put = __cordl_internal_set_hasFocusableControls)) bool hasFocusableControls;
 
   /// @brief Field k_ImmediateCallbackMarker, offset 0xffffffff, size 0x8
@@ -288,45 +394,45 @@ public:
 
   __declspec(property(get = get_layoutMeasuredWidth)) float_t layoutMeasuredWidth;
 
-  /// @brief Field lostFocus, offset 0x52c, size 0x1
+  /// @brief Field lostFocus, offset 0x34c, size 0x1
   __declspec(property(get = __cordl_internal_get_lostFocus, put = __cordl_internal_set_lostFocus)) bool lostFocus;
 
-  /// @brief Field m_Cache, offset 0x4d0, size 0x8
+  /// @brief Field m_Cache, offset 0x2f0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Cache, put = __cordl_internal_set_m_Cache)) ::UnityEngine::GUILayoutUtility_LayoutCache* m_Cache;
 
-  /// @brief Field m_CachedClippingRect, offset 0x4d8, size 0x10
+  /// @brief Field m_CachedClippingRect, offset 0x2f8, size 0x10
   __declspec(property(get = __cordl_internal_get_m_CachedClippingRect, put = __cordl_internal_set_m_CachedClippingRect)) ::UnityEngine::Rect m_CachedClippingRect;
 
-  /// @brief Field m_CachedTransform, offset 0x4e8, size 0x40
+  /// @brief Field m_CachedTransform, offset 0x308, size 0x40
   __declspec(property(get = __cordl_internal_get_m_CachedTransform, put = __cordl_internal_set_m_CachedTransform)) ::UnityEngine::Matrix4x4 m_CachedTransform;
 
-  /// @brief Field m_ContextType, offset 0x528, size 0x4
+  /// @brief Field m_ContextType, offset 0x348, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ContextType, put = __cordl_internal_set_m_ContextType)) ::UnityEngine::UIElements::ContextType m_ContextType;
 
-  /// @brief Field m_CullingEnabled, offset 0x4cc, size 0x1
+  /// @brief Field m_CullingEnabled, offset 0x2ec, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CullingEnabled, put = __cordl_internal_set_m_CullingEnabled)) bool m_CullingEnabled;
 
-  /// @brief Field m_GUIGlobals, offset 0x544, size 0x7c
+  /// @brief Field m_GUIGlobals, offset 0x364, size 0x7c
   __declspec(property(get = __cordl_internal_get_m_GUIGlobals, put = __cordl_internal_set_m_GUIGlobals)) ::UnityEngine::UIElements::IMGUIContainer_GUIGlobals m_GUIGlobals;
 
-  /// @brief Field m_IsFocusDelegated, offset 0x4cd, size 0x1
+  /// @brief Field m_IsFocusDelegated, offset 0x2ed, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsFocusDelegated, put = __cordl_internal_set_m_IsFocusDelegated)) bool m_IsFocusDelegated;
 
-  /// @brief Field m_ObjectGUIState, offset 0x4b0, size 0x8
+  /// @brief Field m_ObjectGUIState, offset 0x2d0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ObjectGUIState, put = __cordl_internal_set_m_ObjectGUIState)) ::UnityEngine::ObjectGUIState* m_ObjectGUIState;
 
-  /// @brief Field m_OnGUIHandler, offset 0x4a8, size 0x8
+  /// @brief Field m_OnGUIHandler, offset 0x2c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnGUIHandler, put = __cordl_internal_set_m_OnGUIHandler)) ::System::Action* m_OnGUIHandler;
 
-  /// @brief Field m_RefreshCachedLayout, offset 0x4ce, size 0x1
+  /// @brief Field m_RefreshCachedLayout, offset 0x2ee, size 0x1
   __declspec(property(get = __cordl_internal_get_m_RefreshCachedLayout, put = __cordl_internal_set_m_RefreshCachedLayout)) bool m_RefreshCachedLayout;
 
-  /// @brief Field newKeyboardFocusControlID, offset 0x53c, size 0x4
+  /// @brief Field newKeyboardFocusControlID, offset 0x35c, size 0x4
   __declspec(property(get = __cordl_internal_get_newKeyboardFocusControlID, put = __cordl_internal_set_newKeyboardFocusControlID)) int32_t newKeyboardFocusControlID;
 
   __declspec(property(get = get_onGUIHandler, put = set_onGUIHandler)) ::System::Action* onGUIHandler;
 
-  /// @brief Field receivedFocus, offset 0x52d, size 0x1
+  /// @brief Field receivedFocus, offset 0x34d, size 0x1
   __declspec(property(get = __cordl_internal_get_receivedFocus, put = __cordl_internal_set_receivedFocus)) bool receivedFocus;
 
   /// @brief Field s_CurrentEvent, offset 0xffffffff, size 0x8
@@ -338,7 +444,7 @@ public:
   /// @brief Field s_MeasureEvent, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_MeasureEvent, put = setStaticF_s_MeasureEvent)) ::UnityEngine::Event* s_MeasureEvent;
 
-  /// @brief Field useOwnerObjectGUIState, offset 0x4b8, size 0x1
+  /// @brief Field useOwnerObjectGUIState, offset 0x2d8, size 0x1
   __declspec(property(get = __cordl_internal_get_useOwnerObjectGUIState, put = __cordl_internal_set_useOwnerObjectGUIState)) bool useOwnerObjectGUIState;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
@@ -354,94 +460,94 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6db5934, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7251fc4, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6db59a8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x7252038, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposeManaged);
 
-  /// @brief Method DoIMGUIRepaint, addr 0x6db3d5c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method DoIMGUIRepaint, addr 0x7250100, size 0x414, virtual false, abstract: false, final false
   inline void DoIMGUIRepaint();
 
-  /// @brief Method DoMeasure, addr 0x6db5670, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x7251bf8, size 0x3cc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
-  /// @brief Method DoOnGUI, addr 0x6db2d00, size 0x1030, virtual false, abstract: false, final false
+  /// @brief Method DoOnGUI, addr 0x724f02c, size 0x10a8, virtual false, abstract: false, final false
   inline void DoOnGUI(::UnityEngine::Event* evt, ::UnityEngine::Matrix4x4 parentTransform, ::UnityEngine::Rect clippingRect, bool isComputingLayout, ::UnityEngine::Rect layoutSize,
                       ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method GetCurrentClipRect, addr 0x6db4d5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentClipRect, addr 0x7251310, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCurrentClipRect();
 
-  /// @brief Method GetCurrentTransformAndClip, addr 0x6db4e60, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTransformAndClip, addr 0x72514a0, size 0x100, virtual false, abstract: false, final false
   static inline void GetCurrentTransformAndClip(::UnityEngine::UIElements::IMGUIContainer* container, ::UnityEngine::Event* evt, ::by_ref<::UnityEngine::Matrix4x4> transform,
                                                 ::by_ref<::UnityEngine::Rect> clipRect);
 
-  /// [EventInterest((UnityEngine.UIElements.EventInterestOptionsInternal)426094)]
   /// [EventInterest(new[] { typeof(UnityEngine.UIElements.NavigationMoveEvent), typeof(UnityEngine.UIElements.NavigationSubmitEvent), typeof(UnityEngine.UIElements.NavigationCancelEvent),
   /// typeof(UnityEngine.UIElements.BlurEvent), typeof(UnityEngine.UIElements.FocusEvent), typeof(UnityEngine.UIElements.DetachFromPanelEvent), typeof(UnityEngine.UIElements.AttachToPanelEvent) })]
-  /// @brief Method HandleEventBubbleUp, addr 0x6db5024, size 0x4cc, virtual true, abstract: false, final false
+  /// [EventInterest((UnityEngine.UIElements.EventInterestOptionsInternal)426094)]
+  /// @brief Method HandleEventBubbleUp, addr 0x72515ac, size 0x4cc, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
+  /// [EventInterest((UnityEngine.UIElements.EventInterestOptionsInternal)426094)]
   /// [EventInterest(new[] { typeof(UnityEngine.UIElements.NavigationMoveEvent), typeof(UnityEngine.UIElements.NavigationSubmitEvent), typeof(UnityEngine.UIElements.NavigationCancelEvent),
   /// typeof(UnityEngine.UIElements.BlurEvent), typeof(UnityEngine.UIElements.FocusEvent), typeof(UnityEngine.UIElements.DetachFromPanelEvent), typeof(UnityEngine.UIElements.AttachToPanelEvent) })]
-  /// [EventInterest((UnityEngine.UIElements.EventInterestOptionsInternal)426094)]
-  /// @brief Method HandleEventBubbleUpDisabled, addr 0x6db5018, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUpDisabled, addr 0x72515a0, size 0xc, virtual true, abstract: false, final false
   inline void HandleEventBubbleUpDisabled(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x6db474c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x7250d2c, size 0xc, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x6db4d94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x72513d4, size 0xcc, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x6db403c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x7250514, size 0x468, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::UnityEngine::Matrix4x4 worldTransform, ::UnityEngine::Rect clippingRect, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method IsContainerCapturingTheMouse, addr 0x6db4758, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsContainerCapturingTheMouse, addr 0x7250d38, size 0x118, virtual false, abstract: false, final false
   inline bool IsContainerCapturingTheMouse();
 
-  /// @brief Method IsDockAreaMouseUp, addr 0x6db4c58, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsDockAreaMouseUp, addr 0x725123c, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsDockAreaMouseUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsEventInsideLocalWindow, addr 0x6db4aa0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method IsEventInsideLocalWindow, addr 0x7251084, size 0x1b8, virtual false, abstract: false, final false
   inline bool IsEventInsideLocalWindow(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsLocalEvent, addr 0x6db486c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method IsLocalEvent, addr 0x7250e50, size 0x234, virtual false, abstract: false, final false
   inline bool IsLocalEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method MarkDirtyLayout, addr 0x6db3d30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method MarkDirtyLayout, addr 0x72500d4, size 0x2c, virtual false, abstract: false, final false
   inline void MarkDirtyLayout();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor(::System::Action* onGUIHandler);
 
-  /// @brief Method OnGenerateVisualContent, addr 0x6db27c0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x724eaf4, size 0x19c, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(Il2CppObject* mgc);
 
-  /// @brief Method RestoreGlobals, addr 0x6db2b10, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method RestoreGlobals, addr 0x724ee3c, size 0x1f0, virtual false, abstract: false, final false
   inline void RestoreGlobals();
 
-  /// @brief Method SaveGlobals, addr 0x6db2964, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SaveGlobals, addr 0x724ec90, size 0x1ac, virtual false, abstract: false, final false
   inline void SaveGlobals();
 
-  /// @brief Method SendEventToIMGUI, addr 0x6db439c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUI, addr 0x725097c, size 0x26c, virtual false, abstract: false, final false
   inline bool SendEventToIMGUI(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method SendEventToIMGUIRaw, addr 0x6db4608, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUIRaw, addr 0x7250be8, size 0xa4, virtual false, abstract: false, final false
   inline bool SendEventToIMGUIRaw(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method SetFoldoutDepthClass, addr 0x6db54f0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetFoldoutDepthClass, addr 0x7251a78, size 0x180, virtual false, abstract: false, final false
   inline void SetFoldoutDepthClass();
 
-  /// @brief Method VerifyBounds, addr 0x6db46ac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method VerifyBounds, addr 0x7250c8c, size 0xa0, virtual false, abstract: false, final false
   inline bool VerifyBounds(::UnityEngine::UIElements::EventBase* evt);
 
   /// [CompilerGenerated]
-  /// @brief Method <DoOnGUI>b__59_0, addr 0x6db59c0, size 0x24, virtual false, abstract: false, final false
-  inline void _DoOnGUI_b__59_0();
+  /// @brief Method <DoOnGUI>b__61_0, addr 0x7252050, size 0x24, virtual false, abstract: false, final false
+  inline void _DoOnGUI_b__61_0();
 
   constexpr bool const& __cordl_internal_get__focusOnlyIfHasFocusableControls_k__BackingField() const;
 
@@ -551,10 +657,10 @@ public:
 
   constexpr void __cordl_internal_set_useOwnerObjectGUIState(bool value);
 
-  /// @brief Method .ctor, addr 0x6db2560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724e824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6db2568, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724e82c, size 0x2c8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* onGUIHandler);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_contextTypeProperty();
@@ -577,36 +683,36 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_ussFoldoutChildDepthClassNames();
 
-  /// @brief Method get_cache, addr 0x6db1e40, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_cache, addr 0x724e104, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::GUILayoutUtility_LayoutCache* get_cache();
 
-  /// @brief Method get_canGrabFocus, addr 0x6db1fa0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_canGrabFocus, addr 0x724e264, size 0x20, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
-  /// @brief Method get_contextType, addr 0x6db1efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contextType, addr 0x724e1c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
-  /// @brief Method get_cullingEnabled, addr 0x6db1d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingEnabled, addr 0x724e04c, size 0x8, virtual false, abstract: false, final false
   inline bool get_cullingEnabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x6db1f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x724e25c, size 0x8, virtual false, abstract: false, final false
   inline bool get_focusOnlyIfHasFocusableControls();
 
-  /// @brief Method get_guiState, addr 0x6db1c80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_guiState, addr 0x724df44, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::ObjectGUIState* get_guiState();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastWorldClip, addr 0x6db1d60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_lastWorldClip, addr 0x724e024, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_lastWorldClip();
 
-  /// @brief Method get_layoutMeasuredHeight, addr 0x6db1ed4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_layoutMeasuredHeight, addr 0x724e198, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredHeight();
 
-  /// @brief Method get_layoutMeasuredWidth, addr 0x6db1eac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_layoutMeasuredWidth, addr 0x724e170, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredWidth();
 
-  /// @brief Method get_onGUIHandler, addr 0x6db1be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onGUIHandler, addr 0x724dea8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_onGUIHandler();
 
   /// @brief Convert to "::System::IDisposable"
@@ -632,17 +738,17 @@ public:
 
   static inline void setStaticF_ussFoldoutChildDepthClassNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method set_contextType, addr 0x6db1f04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_contextType, addr 0x724e1c8, size 0x94, virtual false, abstract: false, final false
   inline void set_contextType(::UnityEngine::UIElements::ContextType value);
 
-  /// @brief Method set_cullingEnabled, addr 0x6db1d90, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_cullingEnabled, addr 0x724e054, size 0xb0, virtual false, abstract: false, final false
   inline void set_cullingEnabled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastWorldClip, addr 0x6db1d74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_lastWorldClip, addr 0x724e038, size 0x14, virtual false, abstract: false, final false
   inline void set_lastWorldClip(::UnityEngine::Rect value);
 
-  /// @brief Method set_onGUIHandler, addr 0x6db1bec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_onGUIHandler, addr 0x724deb0, size 0x94, virtual false, abstract: false, final false
   inline void set_onGUIHandler(::System::Action* value);
 
 protected:
@@ -660,105 +766,105 @@ public:
   IMGUIContainer(IMGUIContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4653 };
 
-  /// @brief Field m_OnGUIHandler, offset: 0x4a8, size: 0x8, def value: None
+  /// @brief Field m_OnGUIHandler, offset: 0x2c8, size: 0x8, def value: None
   ::System::Action* ___m_OnGUIHandler;
 
-  /// @brief Field m_ObjectGUIState, offset: 0x4b0, size: 0x8, def value: None
+  /// @brief Field m_ObjectGUIState, offset: 0x2d0, size: 0x8, def value: None
   ::UnityEngine::ObjectGUIState* ___m_ObjectGUIState;
 
-  /// @brief Field useOwnerObjectGUIState, offset: 0x4b8, size: 0x1, def value: None
+  /// @brief Field useOwnerObjectGUIState, offset: 0x2d8, size: 0x1, def value: None
   bool ___useOwnerObjectGUIState;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <lastWorldClip>k__BackingField, offset: 0x4bc, size: 0x10, def value: None
+  /// @brief Field <lastWorldClip>k__BackingField, offset: 0x2dc, size: 0x10, def value: None
   ::UnityEngine::Rect ____lastWorldClip_k__BackingField;
 
-  /// @brief Field m_CullingEnabled, offset: 0x4cc, size: 0x1, def value: None
+  /// @brief Field m_CullingEnabled, offset: 0x2ec, size: 0x1, def value: None
   bool ___m_CullingEnabled;
 
-  /// @brief Field m_IsFocusDelegated, offset: 0x4cd, size: 0x1, def value: None
+  /// @brief Field m_IsFocusDelegated, offset: 0x2ed, size: 0x1, def value: None
   bool ___m_IsFocusDelegated;
 
-  /// @brief Field m_RefreshCachedLayout, offset: 0x4ce, size: 0x1, def value: None
+  /// @brief Field m_RefreshCachedLayout, offset: 0x2ee, size: 0x1, def value: None
   bool ___m_RefreshCachedLayout;
 
-  /// @brief Field m_Cache, offset: 0x4d0, size: 0x8, def value: None
+  /// @brief Field m_Cache, offset: 0x2f0, size: 0x8, def value: None
   ::UnityEngine::GUILayoutUtility_LayoutCache* ___m_Cache;
 
-  /// @brief Field m_CachedClippingRect, offset: 0x4d8, size: 0x10, def value: None
+  /// @brief Field m_CachedClippingRect, offset: 0x2f8, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_CachedClippingRect;
 
-  /// @brief Field m_CachedTransform, offset: 0x4e8, size: 0x40, def value: None
+  /// @brief Field m_CachedTransform, offset: 0x308, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___m_CachedTransform;
 
-  /// @brief Field m_ContextType, offset: 0x528, size: 0x4, def value: None
+  /// @brief Field m_ContextType, offset: 0x348, size: 0x4, def value: None
   ::UnityEngine::UIElements::ContextType ___m_ContextType;
 
-  /// @brief Field lostFocus, offset: 0x52c, size: 0x1, def value: None
+  /// @brief Field lostFocus, offset: 0x34c, size: 0x1, def value: None
   bool ___lostFocus;
 
-  /// @brief Field receivedFocus, offset: 0x52d, size: 0x1, def value: None
+  /// @brief Field receivedFocus, offset: 0x34d, size: 0x1, def value: None
   bool ___receivedFocus;
 
-  /// @brief Field focusChangeDirection, offset: 0x530, size: 0x8, def value: None
+  /// @brief Field focusChangeDirection, offset: 0x350, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusChangeDirection* ___focusChangeDirection;
 
-  /// @brief Field hasFocusableControls, offset: 0x538, size: 0x1, def value: None
+  /// @brief Field hasFocusableControls, offset: 0x358, size: 0x1, def value: None
   bool ___hasFocusableControls;
 
-  /// @brief Field newKeyboardFocusControlID, offset: 0x53c, size: 0x4, def value: None
+  /// @brief Field newKeyboardFocusControlID, offset: 0x35c, size: 0x4, def value: None
   int32_t ___newKeyboardFocusControlID;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <focusOnlyIfHasFocusableControls>k__BackingField, offset: 0x540, size: 0x1, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <focusOnlyIfHasFocusableControls>k__BackingField, offset: 0x360, size: 0x1, def value: None
   bool ____focusOnlyIfHasFocusableControls_k__BackingField;
 
-  /// @brief Field m_GUIGlobals, offset: 0x544, size: 0x7c, def value: None
+  /// @brief Field m_GUIGlobals, offset: 0x364, size: 0x7c, def value: None
   ::UnityEngine::UIElements::IMGUIContainer_GUIGlobals ___m_GUIGlobals;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_OnGUIHandler) == 0x4a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_OnGUIHandler) == 0x2c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_ObjectGUIState) == 0x4b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_ObjectGUIState) == 0x2d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___useOwnerObjectGUIState) == 0x4b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___useOwnerObjectGUIState) == 0x2d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ____lastWorldClip_k__BackingField) == 0x4bc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ____lastWorldClip_k__BackingField) == 0x2dc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_CullingEnabled) == 0x4cc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_CullingEnabled) == 0x2ec, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_IsFocusDelegated) == 0x4cd, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_IsFocusDelegated) == 0x2ed, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_RefreshCachedLayout) == 0x4ce, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_RefreshCachedLayout) == 0x2ee, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_Cache) == 0x4d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_Cache) == 0x2f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_CachedClippingRect) == 0x4d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_CachedClippingRect) == 0x2f8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_CachedTransform) == 0x4e8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_CachedTransform) == 0x308, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_ContextType) == 0x528, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_ContextType) == 0x348, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___lostFocus) == 0x52c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___lostFocus) == 0x34c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___receivedFocus) == 0x52d, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___receivedFocus) == 0x34d, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___focusChangeDirection) == 0x530, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___focusChangeDirection) == 0x350, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___hasFocusableControls) == 0x538, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___hasFocusableControls) == 0x358, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___newKeyboardFocusControlID) == 0x53c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___newKeyboardFocusControlID) == 0x35c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ____focusOnlyIfHasFocusableControls_k__BackingField) == 0x540, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ____focusOnlyIfHasFocusableControls_k__BackingField) == 0x360, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_GUIGlobals) == 0x544, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_GUIGlobals) == 0x364, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::IMGUIContainer) == 0x5c0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::IMGUIContainer) == 0x3e0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

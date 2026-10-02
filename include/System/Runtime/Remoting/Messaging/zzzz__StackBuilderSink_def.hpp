@@ -46,23 +46,23 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x5b4b7a0, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x5f63698, size 0x128, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method CheckParameters, addr 0x5b4b430, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method CheckParameters, addr 0x5f63328, size 0x370, virtual false, abstract: false, final false
   inline void CheckParameters(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method ExecuteAsyncMessage, addr 0x5b4b8c8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAsyncMessage, addr 0x5f637c0, size 0x214, virtual false, abstract: false, final false
   inline void ExecuteAsyncMessage(::System::Object* ob);
 
   static inline ::System::Runtime::Remoting::Messaging::StackBuilderSink* New_ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 
-  /// @brief Method SyncProcessMessage, addr 0x5b4b350, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x5f63248, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   /// [CompilerGenerated]
-  /// @brief Method <AsyncProcessMessage>b__4_0, addr 0x5b4badc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AsyncProcessMessage>b__4_0, addr 0x5f639d4, size 0x7c, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__4_0(::System::Object* data);
 
   constexpr ::System::Runtime::Remoting::Proxies::RealProxy* const& __cordl_internal_get__rp() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__target(::System::MarshalByRefObject* value);
 
-  /// @brief Method .ctor, addr 0x5b4b2d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f631d0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

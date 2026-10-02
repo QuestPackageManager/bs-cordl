@@ -23,6 +23,9 @@ namespace UnityEngine::UIElements {
 struct MeshGenerationNode;
 }
 namespace UnityEngine::UIElements {
+struct TextureOptions;
+}
+namespace UnityEngine::UIElements {
 struct UnsafeMeshGenerationNode;
 }
 namespace UnityEngine::UIElements {
@@ -65,35 +68,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6dd5fb0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7274ec0, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6dd6018, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x7274f28, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawGradients, addr 0x6dd5d14, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DrawGradients, addr 0x7274c24, size 0x10c, virtual false, abstract: false, final false
   inline void DrawGradients(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
                             ::UnityEngine::UIElements::VectorImage* gradientsOwner);
 
-  /// @brief Method DrawMesh, addr 0x6dd5b90, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x7274b04, size 0xcc, virtual false, abstract: false, final false
   inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
-                       bool skipAtlas);
+                       ::UnityEngine::UIElements::TextureOptions textureOptions);
 
-  /// @brief Method GetNode, addr 0x6dd5f80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x7274e90, size 0xc, virtual false, abstract: false, final false
   inline void GetNode(::by_ref<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method GetParentEntry, addr 0x6dd5f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x7274ea8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
-  /// @brief Method GetUnsafeNode, addr 0x6dd5f8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeNode, addr 0x7274e9c, size 0xc, virtual false, abstract: false, final false
   inline void GetUnsafeNode(::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method Init, addr 0x6dd5e60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x7274d70, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder, bool safe);
 
   static inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* New_ctor();
 
-  /// @brief Method Reset, addr 0x6dd5efc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x7274e0c, size 0x84, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -120,18 +123,18 @@ public:
 
   constexpr void __cordl_internal_set_m_SelfHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x6dd5e40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7274d50, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6dd5fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x7274eb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6dd5fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x7274eb8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -149,7 +152,7 @@ public:
   MeshGenerationNodeImpl(MeshGenerationNodeImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4719 };
 
   /// @brief Field m_SelfHandle, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ___m_SelfHandle;
@@ -160,8 +163,8 @@ public:
   /// @brief Field m_EntryRecorder, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::EntryRecorder* ___m_EntryRecorder;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

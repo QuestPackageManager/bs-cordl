@@ -20,13 +20,13 @@ namespace System::Buffers::Text {
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x5bf4148, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x600c410, size 0x68, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountDigits, addr 0x5bf406c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x600c334, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint64_t value);
 
-  /// @brief Method CountHexDigits, addr 0x5bf41b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountHexDigits, addr 0x600c478, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
 protected:
@@ -44,7 +44,7 @@ public:
   FormattingHelpers(FormattingHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

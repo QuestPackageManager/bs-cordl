@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EmptyBoxGraphic::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::EmptyBoxGraphic::OnPopulateMesh)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5880c30;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x5c97158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::EmptyBoxGraphic*>(), { ::i2c::class_of<::HMUI::EmptyBoxGraphic*>(), 44 }));
@@ -19,8 +19,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EmptyBoxGra
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EmptyBoxGraphic::*)()>(&::HMUI::EmptyBoxGraphic::OnDrawGizmosSelected)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5880ec8;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5c97430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::EmptyBoxGraphic*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EmptyBoxGraphic::*)()>(&::HMUI::EmptyBoxGraphic::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5881000;
+  constexpr static std::size_t addrs = 0x5c975a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::EmptyBoxGraphic*>(), { ".ctor", {}, {} })));

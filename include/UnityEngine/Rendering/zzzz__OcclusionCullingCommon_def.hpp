@@ -190,7 +190,7 @@ public:
   constexpr OcclusionCullingCommon_OccluderContextSlot(bool valid, int32_t lastUsedFrameIndex, int32_t viewInstanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -266,7 +266,7 @@ public:
   OcclusionCullingCommon_ShaderIDs(OcclusionCullingCommon_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -292,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_cb(::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables value);
 
-  /// @brief Method .ctor, addr 0x683660c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6d3c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -310,7 +310,7 @@ public:
   OcclusionCullingCommon_OcclusionTestOverlaySetupPassData(OcclusionCullingCommon_OcclusionTestOverlaySetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18309 };
 
   /// @brief Field cb, offset: 0x10, size: 0xa0, def value: None
   ::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables ___cb;
@@ -341,7 +341,7 @@ public:
 
   constexpr void __cordl_internal_set_debugPyramid(::UnityEngine::Rendering::RenderGraphModule::BufferHandle value);
 
-  /// @brief Method .ctor, addr 0x6836610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6d3c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -359,7 +359,7 @@ public:
   OcclusionCullingCommon_OcclusionTestOverlayPassData(OcclusionCullingCommon_OcclusionTestOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18310 };
 
   /// @brief Field debugPyramid, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::BufferHandle ___debugPyramid;
@@ -388,7 +388,7 @@ public:
   constexpr OcclusionCullingCommon_DebugOccluderViewData(int32_t passIndex, ::UnityEngine::Rect viewport, bool valid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18311 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -468,7 +468,7 @@ public:
 
   constexpr void __cordl_internal_set_viewport(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x6836614, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6d3cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -486,7 +486,7 @@ public:
   OcclusionCullingCommon_OccluderOverlayPassData(OcclusionCullingCommon_OccluderOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18312 };
 
   /// @brief Field debugMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___debugMaterial;
@@ -556,7 +556,7 @@ public:
 
   constexpr void __cordl_internal_set_occluderSubviewUpdates(::System::Collections::Generic::List_1<::UnityEngine::Rendering::OccluderSubviewUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x6836618, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6d3d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -574,7 +574,7 @@ public:
   OcclusionCullingCommon_UpdateOccludersPassData(OcclusionCullingCommon_UpdateOccludersPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18313 };
 
   /// @brief Field occluderParams, offset: 0x10, size: 0x24, def value: None
   ::UnityEngine::Rendering::OccluderParameters ___occluderParams;
@@ -625,18 +625,18 @@ public:
 
   static inline ::UnityEngine::Rendering::OcclusionCullingCommon___c* New_ctor();
 
-  /// @brief Method <RenderDebugOccluderOverlay>b__32_0, addr 0x68367b0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method <RenderDebugOccluderOverlay>b__32_0, addr 0x6c6d568, size 0x1a0, virtual false, abstract: false, final false
   inline void _RenderDebugOccluderOverlay_b__32_0(::UnityEngine::Rendering::OcclusionCullingCommon_OccluderOverlayPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext ctx);
 
-  /// @brief Method <RenderDebugOcclusionTestOverlay>b__29_0, addr 0x6836674, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method <RenderDebugOcclusionTestOverlay>b__29_0, addr 0x6c6d42c, size 0x13c, virtual false, abstract: false, final false
   inline void _RenderDebugOcclusionTestOverlay_b__29_0(::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlaySetupPassData* data,
                                                        ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
 
-  /// @brief Method <UpdateInstanceOccluders>b__37_0, addr 0x6836950, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method <UpdateInstanceOccluders>b__37_0, addr 0x6c6d708, size 0x2cc, virtual false, abstract: false, final false
   inline void _UpdateInstanceOccluders_b__37_0(::UnityEngine::Rendering::OcclusionCullingCommon_UpdateOccludersPassData* data,
                                                ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x6836670, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6d428, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::OcclusionCullingCommon___c* getStaticF___9();
@@ -679,7 +679,7 @@ public:
   OcclusionCullingCommon___c(OcclusionCullingCommon___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18314 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -785,81 +785,81 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateFarDepthPyramid, addr 0x6834fd0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method CreateFarDepthPyramid, addr 0x6c6bd88, size 0x224, virtual false, abstract: false, final false
   inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
 
-  /// @brief Method DeleteContext, addr 0x6834e24, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DeleteContext, addr 0x6c6bbdc, size 0x1ac, virtual false, abstract: false, final false
   inline void DeleteContext(int32_t viewInstanceID);
 
-  /// @brief Method DispatchDebugClear, addr 0x6833510, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method DispatchDebugClear, addr 0x6c6a2ac, size 0x2ec, virtual false, abstract: false, final false
   inline void DispatchDebugClear(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, int32_t viewInstanceID);
 
-  /// @brief Method Dispose, addr 0x683611c, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c6ced4, size 0x27c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetOccluderContext, addr 0x6835d78, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetOccluderContext, addr 0x6c6cb30, size 0x128, virtual false, abstract: false, final false
   inline bool GetOccluderContext(int32_t viewInstanceID, ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderContext);
 
-  /// @brief Method GetOcclusionTestDebugOutput, addr 0x68341fc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetOcclusionTestDebugOutput, addr 0x6c6af90, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OcclusionCullingDebugOutput GetOcclusionTestDebugOutput(int32_t viewInstanceID);
 
-  /// @brief Method HasOccluderContext, addr 0x6835d1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HasOccluderContext, addr 0x6c6cad4, size 0x5c, virtual false, abstract: false, final false
   inline bool HasOccluderContext(int32_t viewInstanceID);
 
-  /// @brief Method Init, addr 0x6832c5c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c69978, size 0x3b0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
-  /// @brief Method NewContext, addr 0x6834b34, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method NewContext, addr 0x6c6b8ec, size 0x2f0, virtual false, abstract: false, final false
   inline int32_t NewContext(int32_t viewInstanceID);
 
   static inline ::UnityEngine::Rendering::OcclusionCullingCommon* New_ctor();
 
-  /// @brief Method PrepareCulling, addr 0x683301c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method PrepareCulling, addr 0x6c69d38, size 0x1cc, virtual false, abstract: false, final false
   inline void PrepareCulling(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, bool useOcclusionDebug);
 
-  /// @brief Method PrepareOccluders, addr 0x68348e4, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method PrepareOccluders, addr 0x6c6b69c, size 0x250, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderHandles PrepareOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
 
-  /// @brief Method RenderDebugOccluderOverlay, addr 0x6834370, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method RenderDebugOccluderOverlay, addr 0x6c6b104, size 0x598, virtual false, abstract: false, final false
   inline void RenderDebugOccluderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
-                                         ::UnityEngine::Vector2 screenPos, float_t maxHeight, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorBuffer);
+                                         ::UnityEngine::Vector2 screenPos, float_t maxHeight, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer);
 
-  /// @brief Method RenderDebugOcclusionTestOverlay, addr 0x683397c, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method RenderDebugOcclusionTestOverlay, addr 0x6c6a718, size 0x878, virtual false, abstract: false, final false
   inline void RenderDebugOcclusionTestOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
-                                              int32_t viewInstanceID, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorBuffer);
+                                              int32_t viewInstanceID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer);
 
-  /// @brief Method SetDebugPyramid, addr 0x6833898, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetDebugPyramid, addr 0x6c6a634, size 0xe4, virtual false, abstract: false, final false
   static inline void SetDebugPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
 
-  /// @brief Method SetDepthPyramid, addr 0x68337fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetDepthPyramid, addr 0x6c6a598, size 0x9c, virtual false, abstract: false, final false
   static inline void SetDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
 
-  /// @brief Method UpdateFrame, addr 0x6835ea0, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrame, addr 0x6c6cc58, size 0x27c, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
-  /// @brief Method UpdateInstanceOccluders, addr 0x68351f4, size 0x79c, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceOccluders, addr 0x6c6bfac, size 0x79c, virtual false, abstract: false, final false
   inline bool UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
-  /// @brief Method UpdateOccluderStats, addr 0x683599c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method UpdateOccluderStats, addr 0x6c6c754, size 0x380, virtual false, abstract: false, final false
   inline void UpdateOccluderStats(::UnityEngine::Rendering::DebugRendererBatcherStats* debugStats);
 
-  /// @brief Method UpdateSilhouettePlanes, addr 0x6835990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateSilhouettePlanes, addr 0x6c6c748, size 0xc, virtual false, abstract: false, final false
   inline void UpdateSilhouettePlanes(int32_t viewInstanceID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> planes);
 
-  /// @brief Method UseOcclusionDebug, addr 0x683300c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UseOcclusionDebug, addr 0x6c69d28, size 0x10, virtual false, abstract: false, final false
   static inline bool UseOcclusionDebug(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx);
 
   /// [CompilerGenerated]
-  /// @brief Method <RenderDebugOcclusionTestOverlay>b__29_1, addr 0x68363ec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <RenderDebugOcclusionTestOverlay>b__29_1, addr 0x6c6d1a4, size 0x114, virtual false, abstract: false, final false
   inline void _RenderDebugOcclusionTestOverlay_b__29_1(::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlayPassData* data,
                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext ctx);
 
@@ -977,7 +977,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ViewIDToIndexMap(::Unity::Collections::NativeParallelHashMap_2<int32_t, int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6836398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6d150, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_s_MaxContextGCFrame();
@@ -1002,7 +1002,7 @@ public:
   OcclusionCullingCommon(OcclusionCullingCommon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18315 };
 
   /// @brief Field m_DebugOcclusionTestMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_DebugOcclusionTestMaterial;

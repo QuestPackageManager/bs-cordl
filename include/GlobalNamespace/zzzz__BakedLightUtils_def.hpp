@@ -42,13 +42,13 @@ public:
   /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
 
-  /// @brief Method ValidateBakedLights, addr 0x58e2690, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method ValidateBakedLights, addr 0x5cfd178, size 0x418, virtual false, abstract: false, final false
   static inline void ValidateBakedLights(::UnityEngine::GameObject* activeSceneRootObject, ::UnityEngine::SceneManagement::Scene envScene, bool validateBakedGIEnabled);
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x58e2440, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x5cfcf20, size 0x258, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled, ::System::Nullable_1<::UnityEngine::SceneManagement::Scene> optionalEnvScene);
 
-  /// @brief Method ValidateMirrors, addr 0x58e2aa8, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method ValidateMirrors, addr 0x5cfd590, size 0x3d8, virtual false, abstract: false, final false
   static inline void ValidateMirrors(::UnityEngine::GameObject* activeSceneRootObject, ::UnityEngine::SceneManagement::Scene envScene);
 
   static inline int32_t getStaticF__stencilCompPropertyId();
@@ -82,7 +82,7 @@ public:
   BakedLightUtils(BakedLightUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6649 };
 
   /// @brief Field kDepthOnlyShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthOnlyShaderName{ u"Custom/SetDepthOnly" };

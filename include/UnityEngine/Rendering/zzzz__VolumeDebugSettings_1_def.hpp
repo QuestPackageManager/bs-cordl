@@ -166,7 +166,7 @@ public:
   VolumeDebugSettings_1___c(VolumeDebugSettings_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,7 +214,7 @@ public:
   VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8929 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___value;
@@ -223,6 +223,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [Obsolete("This is not longer supported Please use DebugDisplaySettingsVolume. #from(6000.2)")]
 // Dependencies System.Object, UnityEngine.Camera, UnityEngine.Rendering.Volume
 namespace UnityEngine::Rendering {
 // cpp template
@@ -279,7 +280,7 @@ public:
   __declspec(property(get = get_selectedComponentType, put = set_selectedComponentType)) ::System::Type* selectedComponentType;
 
   /// @brief [Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths.
-  /// #from(23.2)", false)]
+  /// #from(2023.2)")]
   __declspec(property(get = get_targetRenderPipeline)) ::System::Type* targetRenderPipeline;
 
   __declspec(property(get = get_volumeComponentsPathAndType)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>* volumeComponentsPathAndType;
@@ -296,7 +297,7 @@ public:
   /// @brief Method ChangedStates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ChangedStates(::System::Object* newStates);
 
-  /// [Obsolete("Please use componentPathAndType instead, and get the first element of the tuple", false)]
+  /// [Obsolete("Please use componentPathAndType instead, and get the first element of the tuple #from(2022.2)")]
   /// @brief Method ComponentDisplayName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::StringW ComponentDisplayName(::System::Type* component);
 
@@ -326,11 +327,11 @@ public:
   /// @brief Method RefreshVolumes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool RefreshVolumes(::ArrayW<::UnityEngine::Rendering::Volume*> newVolumes);
 
-  /// [Obsolete("Cameras are auto registered/unregistered", false)]
+  /// [Obsolete("Cameras are auto registered/unregistered #from(2022.2)")]
   /// @brief Method RegisterCamera, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void RegisterCamera(T additionalCamera);
 
-  /// [Obsolete("Cameras are auto registered/unregistered", false)]
+  /// [Obsolete("Cameras are auto registered/unregistered #from(2022.2)")]
   /// @brief Method UnRegisterCamera, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void UnRegisterCamera(T additionalCamera);
 
@@ -467,7 +468,7 @@ public:
   VolumeDebugSettings_1(VolumeDebugSettings_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8930 };
 
   /// [CompilerGenerated]
   /// @brief Field <selectedComponent>k__BackingField, offset: 0x10, size: 0x4, def value: None

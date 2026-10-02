@@ -86,31 +86,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
 
-  /// @brief Method FinishSetup, addr 0x65247b8, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6987758, size 0x1ac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x6524358, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x69872f8, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Pointer* New_ctor();
 
-  /// @brief Method OnNextUpdate, addr 0x65249fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnNextUpdate, addr 0x698799c, size 0x90, virtual false, abstract: false, final false
   inline void OnNextUpdate();
 
-  /// @brief Method OnRemoved, addr 0x652449c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x698743c, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method OnStateEvent, addr 0x6524ad4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnStateEvent, addr 0x6987a74, size 0x50, virtual false, abstract: false, final false
   inline void OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.GetStateOffsetForEvent, addr 0x6525230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.GetStateOffsetForEvent, addr 0x69881d0, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_GetStateOffsetForEvent(::UnityEngine::InputSystem::InputControl* control,
                                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::by_ref<uint32_t> offset);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate, addr 0x6525228, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate, addr 0x69881c8, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnNextUpdate();
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent, addr 0x652522c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent, addr 0x69881cc, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::DeltaControl* const& __cordl_internal_get__delta_k__BackingField() const;
@@ -149,37 +149,37 @@ public:
 
   constexpr void __cordl_internal_set__radius_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method .ctor, addr 0x6524b4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6987aec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Pointer* getStaticF__current_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_current, addr 0x652518c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x698812c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Pointer* get_current();
 
   /// [CompilerGenerated]
-  /// @brief Method get_delta, addr 0x652513c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x69880dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_delta();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayIndex, addr 0x652517c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x698811c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_displayIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_position, addr 0x652512c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x69880cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_position();
 
   /// [CompilerGenerated]
-  /// @brief Method get_press, addr 0x652516c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_press, addr 0x698810c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_press();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pressure, addr 0x652515c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x69880fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pressure();
 
   /// [CompilerGenerated]
-  /// @brief Method get_radius, addr 0x652514c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x69880ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_radius();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
@@ -188,31 +188,31 @@ public:
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pointer* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_current, addr 0x65251d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x6988178, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Pointer* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_delta, addr 0x6525144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x69880e4, size 0x8, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayIndex, addr 0x6525184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayIndex, addr 0x6988124, size 0x8, virtual false, abstract: false, final false
   inline void set_displayIndex(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_position, addr 0x6525134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x69880d4, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_press, addr 0x6525174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_press, addr 0x6988114, size 0x8, virtual false, abstract: false, final false
   inline void set_press(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pressure, addr 0x6525164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressure, addr 0x6988104, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radius, addr 0x6525154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x69880f4, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
 protected:
@@ -230,7 +230,7 @@ public:
   Pointer(Pointer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10694 };
 
   /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x188, size: 0x8, def value: None

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::NavigationEventSender* (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)()>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::get_Navigation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32578e0;
+  constexpr static std::size_t addrs = 0x34dcfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::AnalyticsEventsDispatcher*>(), { "get_Navigation", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::Events::SessionEventSender* (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)()>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::get_Session)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32578e8;
+  constexpr static std::size_t addrs = 0x34dcfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::AnalyticsEventsDispatcher*>(), { "get_Session", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::Events::TelemetryEventSender* (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)()>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::get_Telemetry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32578f0;
+  constexpr static std::size_t addrs = 0x34dcfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::AnalyticsEventsDispatcher*>(), { "get_Telemetry", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)(::OSCE::Analytics::AnalyticsManager*, ::StringW)>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x32578f8;
+  constexpr static std::size_t addrs = 0x34dcfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::AnalyticsEventsDispatcher*>(),

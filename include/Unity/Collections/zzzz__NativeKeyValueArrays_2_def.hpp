@@ -74,7 +74,7 @@ public:
   constexpr NativeKeyValueArrays_2(::Unity::Collections::NativeArray_1<TKey> Keys, ::Unity::Collections::NativeArray_1<TValue> Values) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

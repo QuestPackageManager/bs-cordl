@@ -38,22 +38,27 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method GetPoint, addr 0x6a8166c, size 0x14, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetPoint, addr 0x6ed3d7c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPoint(float_t distance);
 
-  /// @brief Method ToString, addr 0x6a81680, size 0x10, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6ed3d90, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6a81690, size 0x198, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6ed3da0, size 0x14c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6a81580, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed3cc4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);
 
-  /// @brief Method get_direction, addr 0x6a81664, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_direction, addr 0x6ed3d74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_direction();
 
-  /// @brief Method get_origin, addr 0x6a8165c, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_origin, addr 0x6ed3d6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_origin();
 
   /// @brief Convert to "::System::IFormattable"
@@ -68,7 +73,7 @@ public:
   constexpr Ray2D(::UnityEngine::Vector2 m_Origin, ::UnityEngine::Vector2 m_Direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

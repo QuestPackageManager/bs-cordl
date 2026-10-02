@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::StringW)>(&::GlobalNamespace::SongPackMask::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3784abc;
+  constexpr static std::size_t addrs = 0x3a0ec88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMask>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::BitMask256)>(&::GlobalNamespace::SongPackMask::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3784b34;
+  constexpr static std::size_t addrs = 0x3a0ed00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::GlobalNamespace::SongPackMask::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3784b40;
+  constexpr static std::size_t addrs = 0x3a0ed0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)()>(&::GlobalNamespace::SongPackMask::get_all)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3784bb8;
+  constexpr static std::size_t addrs = 0x3a0ed84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMask>(), { "get_all", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3784bc4;
+  constexpr static std::size_t addrs = 0x3a0ed90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMask::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3784bdc;
+  constexpr static std::size_t addrs = 0x3a0eda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMask::op_Equality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3784bf4;
+  constexpr static std::size_t addrs = 0x3a0edc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::SongPackMask, ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMask::op_Inequality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3784c40;
+  constexpr static std::size_t addrs = 0x3a0ee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)(::StringW)>(&::GlobalNamespace::SongPackMask::op_Implicit___GlobalNamespace__SongPackMask)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3784c8c;
+  constexpr static std::size_t addrs = 0x3a0ee58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMask::Contains)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3784ca0;
+  constexpr static std::size_t addrs = 0x3a0ee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMask::DifferenceFrom)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3784cf0;
+  constexpr static std::size_t addrs = 0x3a0eebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPackMask::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::SongPackMask::Serialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3784d68;
+  constexpr static std::size_t addrs = 0x3a0ef34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::SongPackMask::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SongPackMask::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3784d6c;
+  constexpr static std::size_t addrs = 0x3a0ef38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::SongPackMask::Deserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3784d98;
+  constexpr static std::size_t addrs = 0x3a0ef64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3784dc0;
+  constexpr static std::size_t addrs = 0x3a0ef8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::ToShortString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3784e38;
+  constexpr static std::size_t addrs = 0x3a0f004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMask>(), { "ToShortString", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::ToBytes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3784e98;
+  constexpr static std::size_t addrs = 0x3a0f064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMask>(), { "ToBytes", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SongPackMask::*)()>(&::GlobalNamespace::SongPackMask::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3784ef8;
+  constexpr static std::size_t addrs = 0x3a0f0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPackMask::*)(::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMask::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3784f24;
+  constexpr static std::size_t addrs = 0x3a0f0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPackMask::*)(::System::Object*)>(&::GlobalNamespace::SongPackMask::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3784f70;
+  constexpr static std::size_t addrs = 0x3a0f13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::GlobalNamespace::SongPackMask>)>(&::GlobalNamespace::SongPackMask::TryParse)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3785020;
+  constexpr static std::size_t addrs = 0x3a0f1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)(::StringW)>(&::GlobalNamespace::SongPackMask::Parse)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3785160;
+  constexpr static std::size_t addrs = 0x3a0f32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMask>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (*)(::ArrayW<uint8_t>, int32_t)>(&::GlobalNamespace::SongPackMask::FromBytes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x37851f4;
+  constexpr static std::size_t addrs = 0x3a0f3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

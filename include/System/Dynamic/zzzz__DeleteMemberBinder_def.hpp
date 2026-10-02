@@ -34,10 +34,10 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x5fc2dcc, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x63ded54, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
-  /// @brief Method FallbackDeleteMember, addr 0x5fc2dbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackDeleteMember, addr 0x63ded44, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteMember(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackDeleteMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -56,11 +56,11 @@ public:
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_IgnoreCase, addr 0x5fc2db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x63ded3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x5fc2dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x63ded34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -78,7 +78,7 @@ public:
   DeleteMemberBinder(DeleteMemberBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17170 };
 
   /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None

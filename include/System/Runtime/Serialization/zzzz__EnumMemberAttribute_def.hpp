@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method get_IsValueSetExplicitly, addr 0x61504b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueSetExplicitly, addr 0x6576544, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsValueSetExplicitly();
 
-  /// @brief Method get_Value, addr 0x61504ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x657653c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -64,7 +64,7 @@ public:
   EnumMemberAttribute(EnumMemberAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16410 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::StringW ___value;

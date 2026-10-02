@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b61e8;
+  constexpr static std::size_t addrs = 0x5cccd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_threshold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b61f0;
+  constexpr static std::size_t addrs = 0x5cccd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_threshold", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_impact)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b61f8;
+  constexpr static std::size_t addrs = 0x5cccd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_impact", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_attackTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b6200;
+  constexpr static std::size_t addrs = 0x5cccd58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_attackTime", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_releaseTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b6208;
+  constexpr static std::size_t addrs = 0x5cccd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_releaseTime", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_minVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b6210;
+  constexpr static std::size_t addrs = 0x5cccd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_minVolume", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b6218;
+  constexpr static std::size_t addrs = 0x5cccd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_maxVolume", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::get_volumeSmooth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b6220;
+  constexpr static std::size_t addrs = 0x5cccd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { "get_volumeSmooth", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&::GlobalNamespace::AutomaticSFXVolumeParamsSO::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58b6228;
+  constexpr static std::size_t addrs = 0x5cccd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutomaticSFXVolumeParamsSO*>(), { ".ctor", {}, {} })));

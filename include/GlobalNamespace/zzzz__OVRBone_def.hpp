@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5f0f91c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6329dfc, size 0xa8, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::OVRBone* New_ctor();
@@ -73,37 +73,37 @@ public:
 
   constexpr void __cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5f0f9c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6329ea4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f11d9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632c25c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRSkeleton_BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Id, addr 0x5f11d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x632c22c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId get_Id();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ParentBoneIndex, addr 0x5f11d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentBoneIndex, addr 0x632c23c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_ParentBoneIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Transform, addr 0x5f11d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x632c24c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Id, addr 0x5f11d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x632c234, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::GlobalNamespace::OVRSkeleton_BoneId value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ParentBoneIndex, addr 0x5f11d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentBoneIndex, addr 0x632c244, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentBoneIndex(int16_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Transform, addr 0x5f11d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x632c254, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
 protected:
@@ -121,7 +121,7 @@ public:
   OVRBone(OVRBone const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8105 };
 
   /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x4, def value: None

@@ -30,7 +30,7 @@ public:
                       put = __cordl_internal_set__bloomPrePassBackgroundColorsGradient)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>
       _bloomPrePassBackgroundColorsGradient;
 
-  /// @brief Method ColorWasSet, addr 0x586c3bc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x5c82590, size 0x1c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds* New_ctor();
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value);
 
-  /// @brief Method .ctor, addr 0x586c3d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c825ac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   BloomPrePassBackgroundColorsGradientTintColorWithLightIds(BloomPrePassBackgroundColorsGradientTintColorWithLightIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19943 };
 
   /// [SerializeField]
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x40, size: 0x8, def value: None

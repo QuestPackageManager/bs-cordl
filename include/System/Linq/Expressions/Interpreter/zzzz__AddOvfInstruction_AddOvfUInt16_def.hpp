@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AddOvfInstruction_AddOvfUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x5f8c374, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x63a82f0, size 0x14c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5f8bf60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a7edc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   AddOvfInstruction_AddOvfUInt16(AddOvfInstruction_AddOvfUInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

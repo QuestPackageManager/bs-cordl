@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::SignalOnUIButtonClick* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58592a4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5c6f050, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58591e0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5c6ef8c, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x58593b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6f15c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   SignalOnUIButtonClick(SignalOnUIButtonClick const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22157 };
 
   /// [SerializeField]
   /// [SignalSender]

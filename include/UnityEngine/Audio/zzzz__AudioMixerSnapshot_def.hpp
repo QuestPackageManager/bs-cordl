@@ -38,16 +38,16 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
 
-  /// @brief Method TransitionTo, addr 0x6a588a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TransitionTo, addr 0x6ea7728, size 0x30, virtual false, abstract: false, final false
   inline void TransitionTo(float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x6a58814, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea7694, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x6a5768c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x6ea650c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
-  /// @brief Method get_audioMixer_Injected, addr 0x6a5886c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer_Injected, addr 0x6ea76ec, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_audioMixer_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -68,7 +68,7 @@ public:
   AudioMixerSnapshot(AudioMixerSnapshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

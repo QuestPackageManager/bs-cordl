@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentsAsyncInstaller___c::*)()>(&::Environments::Definitions::EnvironmentsAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x376d00c;
+  constexpr static std::size_t addrs = 0x39f66ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Environments::Definitions::EnvironmentsAsyncInstaller___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller___c::_LoadResourcesBeforeInstall_b__5_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x376d010;
+  constexpr static std::size_t addrs = 0x39f66f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller___c*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x376cc14;
+  constexpr static std::size_t addrs = 0x39f62f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::get_telemetryEventName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x376cc58;
+  constexpr static std::size_t addrs = 0x39f6338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller*>(),
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Def
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x376cc9c;
+  constexpr static std::size_t addrs = 0x39f637c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x376cde4;
+  constexpr static std::size_t addrs = 0x39f64c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller*>(),
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>> (*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::LoadEnvironmentInfoListAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x376ceb0;
+  constexpr static std::size_t addrs = 0x39f6590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(&::Environments::Definitions::EnvironmentsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x376cf2c;
+  constexpr static std::size_t addrs = 0x39f660c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentsAsyncInstaller*>(), { ".ctor", {}, {} })));

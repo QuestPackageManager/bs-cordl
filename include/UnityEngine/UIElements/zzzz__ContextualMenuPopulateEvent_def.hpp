@@ -49,10 +49,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da1a18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722f45c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da1a14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722f458, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   ContextualMenuPopulateEvent___c(ContextualMenuPopulateEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,14 +91,14 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::ContextualMenuPopulateEvent___c;
 
-  /// @brief Field <menu>k__BackingField, offset 0x98, size 0x8
+  /// @brief Field <menu>k__BackingField, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__menu_k__BackingField, put = __cordl_internal_set__menu_k__BackingField)) ::UnityEngine::UIElements::DropdownMenu* _menu_k__BackingField;
 
-  /// @brief Field <triggerEvent>k__BackingField, offset 0xa0, size 0x8
+  /// @brief Field <triggerEvent>k__BackingField, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__triggerEvent_k__BackingField,
                       put = __cordl_internal_set__triggerEvent_k__BackingField)) ::UnityEngine::UIElements::EventBase* _triggerEvent_k__BackingField;
 
-  /// @brief Field m_ContextualMenuManager, offset 0xa8, size 0x8
+  /// @brief Field m_ContextualMenuManager, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ContextualMenuManager,
                       put = __cordl_internal_set_m_ContextualMenuManager)) ::UnityEngine::UIElements::ContextualMenuManager* m_ContextualMenuManager;
 
@@ -106,19 +106,19 @@ public:
 
   __declspec(property(get = get_triggerEvent, put = set_triggerEvent)) ::UnityEngine::UIElements::EventBase* triggerEvent;
 
-  /// @brief Method GetPooled, addr 0x6da1008, size 0x7f8, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x722ebe8, size 0x654, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* GetPooled(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::DropdownMenu* menu,
                                                                                   ::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::ContextualMenuManager* menuManager);
 
-  /// @brief Method Init, addr 0x6da1800, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x722f23c, size 0x74, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6da1874, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x722f2b0, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6da191c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x722f358, size 0xac, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr ::UnityEngine::UIElements::DropdownMenu* const& __cordl_internal_get__menu_k__BackingField() const;
@@ -139,23 +139,23 @@ public:
 
   constexpr void __cordl_internal_set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
-  /// @brief Method .ctor, addr 0x6da18a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722f2e4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_menu, addr 0x6da0fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x722ebc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenu* get_menu();
 
   /// [CompilerGenerated]
-  /// @brief Method get_triggerEvent, addr 0x6da0ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerEvent, addr 0x722ebd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* get_triggerEvent();
 
   /// [CompilerGenerated]
-  /// @brief Method set_menu, addr 0x6da0ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x722ebd0, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::UIElements::DropdownMenu* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_triggerEvent, addr 0x6da1000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerEvent, addr 0x722ebe0, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEvent(::UnityEngine::UIElements::EventBase* value);
 
 protected:
@@ -173,30 +173,30 @@ public:
   ContextualMenuPopulateEvent(ContextualMenuPopulateEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4509 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <menu>k__BackingField, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field <menu>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::UIElements::DropdownMenu* ____menu_k__BackingField;
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <triggerEvent>k__BackingField, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field <triggerEvent>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventBase* ____triggerEvent_k__BackingField;
 
-  /// @brief Field m_ContextualMenuManager, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field m_ContextualMenuManager, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::UIElements::ContextualMenuManager* ___m_ContextualMenuManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ____menu_k__BackingField) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ____menu_k__BackingField) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ____triggerEvent_k__BackingField) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ____triggerEvent_k__BackingField) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ___m_ContextualMenuManager) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ContextualMenuPopulateEvent, ___m_ContextualMenuManager) == 0xc8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::ContextualMenuPopulateEvent) == 0xb0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ContextualMenuPopulateEvent) == 0xd0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

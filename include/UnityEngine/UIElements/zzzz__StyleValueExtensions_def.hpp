@@ -31,6 +31,12 @@ namespace UnityEngine::UIElements {
 struct StyleLength;
 }
 namespace UnityEngine::UIElements {
+struct StyleRatio;
+}
+namespace UnityEngine::UIElements {
+struct TextAutoSize;
+}
+namespace UnityEngine::UIElements {
 struct Translate;
 }
 // Forward declare root types
@@ -57,27 +63,35 @@ public:
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
   /// [Extension]
-  /// @brief Method ToLayoutValue, addr 0x6c94cf0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToLayoutValue, addr 0x710afa8, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue ToLayoutValue(::UnityEngine::UIElements::Length length);
 
   /// [Extension]
-  /// @brief Method ToLength, addr 0x6c94e54, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x710b10c, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToLength, addr 0x6c9531c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x710b6ec, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
   /// [Extension]
-  /// @brief Method ToRotate, addr 0x6c94f64, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x710b21c, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToScale, addr 0x6c950cc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x710b384, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
   /// [Extension]
-  /// @brief Method ToTranslate, addr 0x6c951d8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ToStyleRatio, addr 0x710b71c, size 0x104, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::StyleRatio ToStyleRatio(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// [Extension]
+  /// @brief Method ToTextAutoSize, addr 0x710b5d4, size 0x118, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::TextAutoSize ToTextAutoSize(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// [Extension]
+  /// @brief Method ToTranslate, addr 0x710b490, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
 protected:
@@ -95,7 +109,7 @@ public:
   StyleValueExtensions(StyleValueExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

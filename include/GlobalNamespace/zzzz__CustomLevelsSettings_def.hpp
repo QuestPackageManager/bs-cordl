@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3707f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39912c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool enabled);
 
 protected:
@@ -48,7 +48,7 @@ public:
   CustomLevelsSettings(CustomLevelsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15057 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;

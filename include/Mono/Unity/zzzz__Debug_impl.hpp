@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::StringW, ::Mono::Security::Interface::AlertDescription)>(
     &::Mono::Unity::Debug::CheckAndThrow)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5fd0fb8;
+  constexpr static std::size_t addrs = 0x63ecf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::StringW,
                                                                 ::Mono::Security::Interface::AlertDescription)>(&::Mono::Unity::Debug::CheckAndThrow)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5fd1050;
+  constexpr static std::size_t addrs = 0x63ecfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

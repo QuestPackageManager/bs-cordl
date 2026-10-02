@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)()>(&::UnityEngine::InputForUI::EventSanitizer::Reset)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6b5ba84;
+  constexpr static std::size_t addrs = 0x6fbb8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer>(), { "Reset", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)()>(&::UnityEngine::InputForUI::EventSanitizer::BeforeProviderUpdate)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6b5be28;
+  constexpr static std::size_t addrs = 0x6fbbc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer>(), { "BeforeProviderUpdate", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)()>(&::UnityEngine::InputForUI::EventSanitizer::AfterProviderUpdate)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6b5bf24;
+  constexpr static std::size_t addrs = 0x6fbbd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer>(), { "AfterProviderUpdate", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::InputForUI::EventSanitizer::Inspect)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6b5b980;
+  constexpr static std::size_t addrs = 0x6fbb79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

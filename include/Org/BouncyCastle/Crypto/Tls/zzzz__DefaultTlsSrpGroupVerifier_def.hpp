@@ -40,13 +40,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*() noexcept;
 
-  /// @brief Method Accept, addr 0x34411ac, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x36ca448, size 0x320, virtual true, abstract: false, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group);
 
-  /// @brief Method AreGroupsEqual, addr 0x34414cc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method AreGroupsEqual, addr 0x36ca768, size 0x78, virtual true, abstract: false, final false
   inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* a, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* b);
 
-  /// @brief Method AreParametersEqual, addr 0x3441544, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method AreParametersEqual, addr 0x36ca7e0, size 0x34, virtual true, abstract: false, final false
   inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_mGroups(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x3441140, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ca3dc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34411a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ca440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* groups);
 
   static inline ::System::Collections::IList* getStaticF_DefaultGroups();

@@ -32,21 +32,21 @@ public:
   constexpr DrawBatch(::UnityEngine::Rendering::DrawKey key, int32_t instanceCount, int32_t instanceOffset, ::UnityEngine::Rendering::MeshProceduralInfo procInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18158 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
 
-  /// @brief Field key, offset: 0x0, size: 0x38, def value: None
+  /// @brief Field key, offset: 0x0, size: 0x3c, def value: None
   ::UnityEngine::Rendering::DrawKey key;
 
-  /// @brief Field instanceCount, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field instanceCount, offset: 0x3c, size: 0x4, def value: None
   int32_t instanceCount;
 
-  /// @brief Field instanceOffset, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field instanceOffset, offset: 0x40, size: 0x4, def value: None
   int32_t instanceOffset;
 
-  /// @brief Field procInfo, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field procInfo, offset: 0x44, size: 0x10, def value: None
   ::UnityEngine::Rendering::MeshProceduralInfo procInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -54,12 +54,12 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, key) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, instanceCount) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, instanceCount) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, instanceOffset) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, instanceOffset) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, procInfo) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DrawBatch, procInfo) == 0x44, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DrawBatch) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DrawBatch) == 0x54, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

@@ -95,7 +95,7 @@ public:
   static ::System::Xml::Schema::XsdDuration_Parts const HasYears;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11823 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,7 +154,7 @@ public:
   static ::System::Xml::Schema::XsdDuration_DurationType const YearMonthDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -197,70 +197,70 @@ public:
 
   __declspec(property(get = get_Years)) int32_t Years;
 
-  /// @brief Method ToString, addr 0x627146c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6699110, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6271474, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x6699118, size 0x45c, virtual false, abstract: false, final false
   inline ::StringW ToString(::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method ToTimeSpan, addr 0x6270da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x6698a44, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan ToTimeSpan();
 
-  /// @brief Method ToTimeSpan, addr 0x6270da8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x6698a4c, size 0x48, virtual false, abstract: false, final false
   inline ::System::TimeSpan ToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method TryParse, addr 0x6270640, size 0x718, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x66982e4, size 0x718, virtual false, abstract: false, final false
   static inline ::System::Exception* TryParse(::StringW s, ::System::Xml::Schema::XsdDuration_DurationType durationType, ::by_ref<::System::Xml::Schema::XsdDuration> result);
 
-  /// @brief Method TryParse, addr 0x62718d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6699574, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Exception* TryParse(::StringW s, ::by_ref<::System::Xml::Schema::XsdDuration> result);
 
-  /// @brief Method TryParseDigits, addr 0x62718dc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryParseDigits, addr 0x6699580, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW TryParseDigits(::StringW s, ::by_ref<int32_t> offset, bool eatDigits, ::by_ref<int32_t> result, ::by_ref<int32_t> numDigits);
 
-  /// @brief Method TryToTimeSpan, addr 0x6270df0, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method TryToTimeSpan, addr 0x6698a94, size 0x670, virtual false, abstract: false, final false
   inline ::System::Exception* TryToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType, ::by_ref<::System::TimeSpan> result);
 
-  /// @brief Method TryToTimeSpan, addr 0x6271460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryToTimeSpan, addr 0x6699104, size 0xc, virtual false, abstract: false, final false
   inline ::System::Exception* TryToTimeSpan(::by_ref<::System::TimeSpan> result);
 
-  /// @brief Method .ctor, addr 0x6270290, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6697f34, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(bool isNegative, int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, int32_t nanoseconds);
 
-  /// @brief Method .ctor, addr 0x62705c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6698268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x62705cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6698270, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW s, ::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method .ctor, addr 0x62703ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6698090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan timeSpan);
 
-  /// @brief Method .ctor, addr 0x62703f4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6698098, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan timeSpan, ::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method get_Days, addr 0x6270d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Days, addr 0x6698a24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Days();
 
-  /// @brief Method get_Hours, addr 0x6270d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hours, addr 0x6698a2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Hours();
 
-  /// @brief Method get_IsNegative, addr 0x6270d64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsNegative, addr 0x6698a08, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsNegative();
 
-  /// @brief Method get_Minutes, addr 0x6270d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Minutes, addr 0x6698a34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Minutes();
 
-  /// @brief Method get_Months, addr 0x6270d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Months, addr 0x6698a1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Months();
 
-  /// @brief Method get_Nanoseconds, addr 0x6270d58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Nanoseconds, addr 0x66989fc, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Nanoseconds();
 
-  /// @brief Method get_Seconds, addr 0x6270d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x6698a3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
-  /// @brief Method get_Years, addr 0x6270d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Years, addr 0x6698a14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Years();
 
   // Ctor Parameters []
@@ -274,7 +274,7 @@ public:
   constexpr XsdDuration(int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, uint32_t nanoseconds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

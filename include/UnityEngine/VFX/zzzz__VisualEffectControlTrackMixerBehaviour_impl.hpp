@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::VFX::VisualEffectControlTrack*, bool, bool)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69d4e20;
+  constexpr static std::size_t addrs = 0x6e11fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::ApplyFrame)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x69d7c7c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6e14e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::BindVFX)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69d7e28;
+  constexpr static std::size_t addrs = 0x6e14f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::UnbindVFX)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69d7ecc;
+  constexpr static std::size_t addrs = 0x6e14ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour*>(), { "UnbindVFX", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::PrepareFrame)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x69d7f5c;
+  constexpr static std::size_t addrs = 0x6e15088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::OnBehaviourPause)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69d8158;
+  constexpr static std::size_t addrs = 0x6e15284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::InvalidateScrubbingHelper)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69d8130;
+  constexpr static std::size_t addrs = 0x6e1525c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::OnPlayableCreate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69d8184;
+  constexpr static std::size_t addrs = 0x6e152b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69d81ac;
+  constexpr static std::size_t addrs = 0x6e152d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour*>(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::*)()>(&::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d81d8;
+  constexpr static std::size_t addrs = 0x6e15304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackMixerBehaviour*>(), { ".ctor", {}, {} })));

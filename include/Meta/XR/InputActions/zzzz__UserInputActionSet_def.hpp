@@ -35,7 +35,7 @@ public:
 
   static inline ::Meta::XR::InputActions::UserInputActionSet* New_ctor();
 
-  /// @brief Method ToString, addr 0x5e51008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x626ada0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* const& __cordl_internal_get_InputActionDefinitions() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_InteractionProfile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5e51010, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626ada8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   UserInputActionSet(UserInputActionSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8694 };
 
   /// [InlineLink("https://registry.khronos.org/OpenXR/specs/1.0/html/xrspec.html#semantic-path-interaction-profiles")]
   /// [Tooltip("The interaction profile of the device these actions should be applied to.")]

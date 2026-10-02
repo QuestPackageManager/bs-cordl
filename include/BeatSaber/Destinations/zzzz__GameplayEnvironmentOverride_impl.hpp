@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Destinations::GameplayEnvironmentOverride::*)()>(
     &::BeatSaber::Destinations::GameplayEnvironmentOverride::get_overrideEnvironment)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32811a8;
+  constexpr static std::size_t addrs = 0x3507a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Destinations::GameplayEnvironmentOverride::*)()>(
     &::BeatSaber::Destinations::GameplayEnvironmentOverride::get_overrideColorScheme)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32811c8;
+  constexpr static std::size_t addrs = 0x3507a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::GameplayEnvironmentOverride::*)()>(&::BeatSaber::Destinations::GameplayEnvironmentOverride::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32811e8;
+  constexpr static std::size_t addrs = 0x3507aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::GameplayEnvironmentOverride*>(), { ".ctor", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::GameplayEnvironmentOverride::*)(::StringW, ::StringW, bool)>(
     &::BeatSaber::Destinations::GameplayEnvironmentOverride::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3281204;
+  constexpr static std::size_t addrs = 0x3507ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::GameplayEnvironmentOverride*>(),

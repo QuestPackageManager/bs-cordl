@@ -99,10 +99,10 @@ public:
   StyleValuePropertyBag_2_ValueProperty(StyleValuePropertyBag_2_ValueProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5056 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -180,10 +180,10 @@ public:
   StyleValuePropertyBag_2_KeywordProperty(StyleValuePropertyBag_2_KeywordProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5057 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -229,7 +229,7 @@ public:
   StyleValuePropertyBag_2(StyleValuePropertyBag_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

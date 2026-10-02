@@ -12,5 +12,4 @@ constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore:
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::Masking{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::Truncate{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::ScrollRect{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::Page{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::Linked{ static_cast<int32_t>(0x6) };

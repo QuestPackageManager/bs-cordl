@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>)>(
     &::GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x58e2440;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x5cfcf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::SceneManagement::Scene, bool)>(&::GlobalNamespace::BakedLightUtils::ValidateBakedLights)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x58e2690;
+  constexpr static std::size_t addrs = 0x5cfd178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::SceneManagement::Scene)>(&::GlobalNamespace::BakedLightUtils::ValidateMirrors)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x58e2aa8;
+  constexpr static std::size_t addrs = 0x5cfd590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

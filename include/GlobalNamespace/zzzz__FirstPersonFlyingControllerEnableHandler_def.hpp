@@ -38,7 +38,7 @@ public:
 
   /// [Inject]
   /// [UsedImplicitly]
-  /// @brief Method InstallDependencies, addr 0x591d078, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InstallDependencies, addr 0x5d3777c, size 0xb0, virtual false, abstract: false, final false
   inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
   static inline ::GlobalNamespace::FirstPersonFlyingControllerEnableHandler* New_ctor();
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__flyingController(::UnityW<::GlobalNamespace::FirstPersonFlyingController> value);
 
-  /// @brief Method .ctor, addr 0x591d128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3782c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flyingControllerEnabled, addr 0x591d044, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_flyingControllerEnabled, addr 0x5d37748, size 0x18, virtual false, abstract: false, final false
   inline bool get_flyingControllerEnabled();
 
-  /// @brief Method set_flyingControllerEnabled, addr 0x591d05c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_flyingControllerEnabled, addr 0x5d37760, size 0x1c, virtual false, abstract: false, final false
   inline void set_flyingControllerEnabled(bool value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   FirstPersonFlyingControllerEnableHandler(FirstPersonFlyingControllerEnableHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6923 };
 
   /// @brief Field kKeyToToggleFPFC value: I32(292)
   static ::UnityEngine::KeyCode const kKeyToToggleFPFC;

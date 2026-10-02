@@ -137,7 +137,7 @@ public:
   LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23005 };
 
   /// [Tooltip("The text component to localize")]
   /// [SerializeField]

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationAsyncInitializer::*)(
     ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*, ::Zenject::LazyInject_1<::Zenject::TickableManager*>*)>(&::Zenject::SignalDeclarationAsyncInitializer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e49e64;
+  constexpr static std::size_t addrs = 0x72e59bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationAsyncInitializer::*)()>(&::Zenject::SignalDeclarationAsyncInitializer::Initialize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6e49e6c;
+  constexpr static std::size_t addrs = 0x72e59c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationAsyncInitializer*>(), { "Initialize", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::SignalDeclarationAsyncInitializer::__zenCreate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6e49f84;
+  constexpr static std::size_t addrs = 0x72e5adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SignalDeclarationAsyncInitializer::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6e4a094;
+  constexpr static std::size_t addrs = 0x72e5bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationAsyncInitializer*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

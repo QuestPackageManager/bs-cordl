@@ -91,12 +91,12 @@ public:
   constexpr void __cordl_internal_set_parentTooltip(::StringW value);
 
   /// [NullableContext(2)]
-  /// @brief Method .ctor, addr 0x5f2dcb4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6348980, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
                     ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex);
 
   /// [NullableContext(2)]
-  /// @brief Method .ctor, addr 0x5f2dbe0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63488ac, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, /* [Nullable(1)] */ ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip, ::StringW parentIconPath,
                     ::StringW parentIconHex);
 
@@ -115,7 +115,7 @@ public:
   HierarchyIconAttribute(HierarchyIconAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24309 };
 
   /// @brief Field gameObjectTooltip, offset: 0x10, size: 0x8, def value: None
   ::StringW ___gameObjectTooltip;

@@ -26,14 +26,14 @@ namespace UnityEngine::UIElements::Experimental {
 class CORDL_TYPE Lerp : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x6d1fc68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x71d1450, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x6d1fca0, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x71d1488, size 0x400, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end,
                                                                                  float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x6d1fc58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x71d1440, size 0x10, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
 
 protected:
@@ -51,7 +51,7 @@ public:
   Lerp(Lerp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

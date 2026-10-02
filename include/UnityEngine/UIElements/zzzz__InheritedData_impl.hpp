@@ -3,6 +3,8 @@
 #include "UnityEngine/UIElements/zzzz__EditorTextRenderingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__TextAutoSize_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextShadow_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__WhiteSpace_impl.hpp"
@@ -20,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::InheritedData (::UnityEngine::UIElements::InheritedData::*)()>(&::UnityEngine::UIElements::InheritedData::Copy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c8e048;
+  constexpr static std::size_t addrs = 0x70f06a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InheritedData>(), { "Copy", {}, {} })));
@@ -33,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::InheritedData::*)(::by_ref<::UnityEngine::UIElements::InheritedData>)>(
     &::UnityEngine::UIElements::InheritedData::CopyFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8e058;
+  constexpr static std::size_t addrs = 0x70f06b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::InheritedData, ::UnityEngine::UIElements::InheritedData)>(
     &::UnityEngine::UIElements::InheritedData::op_Equality)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6c8e060;
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x70f06bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::InheritedData::*)(::UnityEngine::UIElements::InheritedData)>(
     &::UnityEngine::UIElements::InheritedData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c8e308;
+  constexpr static std::size_t addrs = 0x70f09b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::InheritedData::*)(::System::Object*)>(&::UnityEngine::UIElements::InheritedData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c8e354;
+  constexpr static std::size_t addrs = 0x70f0a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,8 +90,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::InheritedData::*)()>(&::UnityEngine::UIElements::InheritedData::GetHashCode)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x6c8e3f8;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x70f0aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,18 +150,20 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* Unit
 // name: "textShadow", ty: "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityEditorTextRenderingMode", ty:
 // "::UnityEngine::UIElements::EditorTextRenderingMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "unityFontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityParagraphSpacing", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "unityTextGenerator", ty: "::UnityEngine::TextGeneratorType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOutlineColor", ty:
-// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "visibility", ty: "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "whiteSpace", ty:
-// "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
-// Some("{}"), comment: None }]
+// name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityMaterial", ty:
+// "::UnityEngine::UIElements::MaterialDefinition", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "unityTextAutoSize", ty: "::UnityEngine::UIElements::TextAutoSize", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextGenerator", ty:
+// "::UnityEngine::TextGeneratorType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOutlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibility", ty:
+// "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::InheritedData::InheritedData(::UnityEngine::Color color, ::UnityEngine::UIElements::Length fontSize, ::UnityEngine::UIElements::Length letterSpacing,
                                                                   ::UnityEngine::UIElements::TextShadow textShadow, ::UnityEngine::UIElements::EditorTextRenderingMode unityEditorTextRenderingMode,
                                                                   ::UnityW<::UnityEngine::Font> unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition,
-                                                                  ::UnityEngine::FontStyle unityFontStyleAndWeight, ::UnityEngine::UIElements::Length unityParagraphSpacing,
-                                                                  ::UnityEngine::TextAnchor unityTextAlign, ::UnityEngine::TextGeneratorType unityTextGenerator,
+                                                                  ::UnityEngine::FontStyle unityFontStyleAndWeight, ::UnityEngine::UIElements::MaterialDefinition unityMaterial,
+                                                                  ::UnityEngine::UIElements::Length unityParagraphSpacing, ::UnityEngine::TextAnchor unityTextAlign,
+                                                                  ::UnityEngine::UIElements::TextAutoSize unityTextAutoSize, ::UnityEngine::TextGeneratorType unityTextGenerator,
                                                                   ::UnityEngine::Color unityTextOutlineColor, float_t unityTextOutlineWidth, ::UnityEngine::UIElements::Visibility visibility,
                                                                   ::UnityEngine::UIElements::WhiteSpace whiteSpace, ::UnityEngine::UIElements::Length wordSpacing) noexcept {
   this->color = color;
@@ -170,8 +174,10 @@ constexpr ::UnityEngine::UIElements::InheritedData::InheritedData(::UnityEngine:
   this->unityFont = unityFont;
   this->unityFontDefinition = unityFontDefinition;
   this->unityFontStyleAndWeight = unityFontStyleAndWeight;
+  this->unityMaterial = unityMaterial;
   this->unityParagraphSpacing = unityParagraphSpacing;
   this->unityTextAlign = unityTextAlign;
+  this->unityTextAutoSize = unityTextAutoSize;
   this->unityTextGenerator = unityTextGenerator;
   this->unityTextOutlineColor = unityTextOutlineColor;
   this->unityTextOutlineWidth = unityTextOutlineWidth;

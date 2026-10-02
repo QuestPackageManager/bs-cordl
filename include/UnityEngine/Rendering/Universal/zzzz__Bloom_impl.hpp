@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/Rendering/Universal/Bloom.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__Bloom_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__BloomFilterModeParameter_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DownscaleParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BoolParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
@@ -15,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Bloom::*)()>(&::UnityEngine::Rendering::Universal::Bloom::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6873f0c;
+  constexpr static std::size_t addrs = 0x6ca2118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Bloom*>(), { "IsActive", {}, {} })));
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Bloom::*)()>(&::UnityEngine::Rendering::Universal::Bloom::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873f3c;
+  constexpr static std::size_t addrs = 0x6ca2148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Bloom*>(), { "IsTileCompatible", {}, {} })));
@@ -38,8 +39,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Bloom::*)()>(&::UnityEngine::Rendering::Universal::Bloom::_ctor)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x6873f44;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x6ca2150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Bloom*>(), { ".ctor", {}, {} })));
@@ -129,6 +130,18 @@ constexpr ::UnityEngine::Rendering::BoolParameter* const& UnityEngine::Rendering
 constexpr void UnityEngine::Rendering::Universal::Bloom::__cordl_internal_set_highQualityFiltering(::UnityEngine::Rendering::BoolParameter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___highQualityFiltering = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::BloomFilterModeParameter*& UnityEngine::Rendering::Universal::Bloom::__cordl_internal_get_filter() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___filter;
+}
+constexpr ::UnityEngine::Rendering::Universal::BloomFilterModeParameter* const& UnityEngine::Rendering::Universal::Bloom::__cordl_internal_get_filter() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___filter;
+}
+constexpr void UnityEngine::Rendering::Universal::Bloom::__cordl_internal_set_filter(::UnityEngine::Rendering::Universal::BloomFilterModeParameter* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___filter = value;
 }
 constexpr ::UnityEngine::Rendering::Universal::DownscaleParameter*& UnityEngine::Rendering::Universal::Bloom::__cordl_internal_get_downscale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

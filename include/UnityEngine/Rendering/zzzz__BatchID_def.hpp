@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchID>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*();
 
-  /// @brief Method Equals, addr 0x6b2a444, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f8794c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b2a4f4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f879fc, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchID other);
 
-  /// @brief Method GetHashCode, addr 0x6b2a43c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f87944, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::BatchID getStaticF_Null();
@@ -59,7 +59,7 @@ public:
   constexpr BatchID(uint32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10453 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

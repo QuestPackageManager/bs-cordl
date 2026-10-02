@@ -2,9 +2,11 @@
 // IWYU pragma private; include "UnityEngine/UIElements/PanelSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingLogLevel_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__ColliderUpdateMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRenderMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelScaleMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelScreenMatchMode_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureSlotCount_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
@@ -13,6 +15,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingLogLevel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ColliderUpdateMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IDebugPanelChangeReceiver_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRenderMode_def.hpp"
@@ -21,6 +24,7 @@
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureSlotCount_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ThemeStyleSheet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIDocumentList_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
@@ -32,13 +36,14 @@
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)(::UnityEngine::UIElements::PanelSettings*)>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac198;
+  constexpr static std::size_t addrs = 0x72464f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(),
@@ -52,11 +57,39 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::get_isInitialized)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dac09c;
+  constexpr static std::size_t addrs = 0x72463b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "get_isInitialized", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess.get_isTransient
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
+    &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::get_isTransient)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7247adc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "get_isTransient", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess.set_isTransient
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)(bool)>(
+    &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::set_isTransient)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7247ae4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "set_isTransient", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -65,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::get_panel)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6dabf2c;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x72461fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "get_panel", {}, {} })));
@@ -79,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::DisposePanel)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dac4bc;
+  constexpr static std::size_t addrs = 0x7246884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::SetTargetTexture)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dabca4;
+  constexpr static std::size_t addrs = 0x7245f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::SetSortingPriority)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6dabdf0;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x72460ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::SetTargetDisplay)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dabe54;
+  constexpr static std::size_t addrs = 0x7246114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::SetPanelChangeReceiver)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6dac534;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x72468fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::CreateRelatedRuntimePanel)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6dad8a4;
+  constexpr static std::size_t addrs = 0x7247aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::DisposeRelatedPanel)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6dadb74;
+  constexpr static std::size_t addrs = 0x7247c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::MarkPotentiallyEmpty)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6dad844;
+  constexpr static std::size_t addrs = 0x7247a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,6 +242,18 @@ constexpr void UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RuntimePanel = value;
 }
+constexpr bool& UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::__cordl_internal_get__isTransient_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isTransient_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::__cordl_internal_get__isTransient_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isTransient_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::__cordl_internal_set__isTransient_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isTransient_k__BackingField = value;
+}
 inline void UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::_ctor(::UnityEngine::UIElements::PanelSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::PanelSettings*>() } })));
@@ -218,6 +263,16 @@ inline bool UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::get_isIni
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "get_isInitialized", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::get_isTransient() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "get_isTransient", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::set_isTransient(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "set_isTransient", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::BaseRuntimePanel* UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::get_panel() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*>(), { "get_panel", {}, {} })));
@@ -267,13 +322,67 @@ inline ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess* UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess::PanelSettings_RuntimePanelAccess() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::*)()>(
+    &::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x724751c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0._SetScreenToPanelSpaceFunction_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::*)(::UnityEngine::Vector2)>(
+    &::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::_SetScreenToPanelSpaceFunction_b__0)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x7247ca8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0*>(),
+                                                                                           { "<SetScreenToPanelSpaceFunction>b__0", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::__cordl_internal_get_screenToPanelSpaceFunction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___screenToPanelSpaceFunction;
+}
+constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* const&
+UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::__cordl_internal_get_screenToPanelSpaceFunction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___screenToPanelSpaceFunction;
+}
+constexpr void UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::__cordl_internal_set_screenToPanelSpaceFunction(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___screenToPanelSpaceFunction = value;
+}
+inline void UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::_SetScreenToPanelSpaceFunction_b__0(::UnityEngine::Vector2 p) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0*>(),
+                                                                                         { "<SetScreenToPanelSpaceFunction>b__0", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, p);
+}
+inline ::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0* UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PanelSettings___c__DisplayClass146_0::PanelSettings___c__DisplayClass146_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_themeStyleSheet
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::ThemeStyleSheet> (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_themeStyleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabb0c;
+  constexpr static std::size_t addrs = 0x7245d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_themeStyleSheet", {}, {} })));
@@ -286,11 +395,36 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::ThemeStyleSheet*)>(
     &::UnityEngine::UIElements::PanelSettings::set_themeStyleSheet)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dabb14;
+  constexpr static std::size_t addrs = 0x7245d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
                                                                                            { "set_themeStyleSheet", {}, { ::i2c::type_of<::UnityEngine::UIElements::ThemeStyleSheet*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_disableNoThemeWarning
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_disableNoThemeWarning)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7245f04;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_disableNoThemeWarning", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.set_disableNoThemeWarning
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(&::UnityEngine::UIElements::PanelSettings::set_disableNoThemeWarning)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7245f0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_disableNoThemeWarning", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -300,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_targetTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabc68;
+  constexpr static std::size_t addrs = 0x7245f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_targetTexture", {}, {} })));
@@ -313,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::PanelSettings::set_targetTexture)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6dabc70;
+  constexpr static std::size_t addrs = 0x7245f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PanelRenderMode (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_renderMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabcc8;
+  constexpr static std::size_t addrs = 0x7245f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_renderMode", {}, {} })));
@@ -340,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::PanelRenderMode)>(
     &::UnityEngine::UIElements::PanelSettings::set_renderMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabcd0;
+  constexpr static std::size_t addrs = 0x7245f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,28 +483,55 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_worldSpaceLayer
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_colliderUpdateMode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_worldSpaceLayer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ColliderUpdateMode (::UnityEngine::UIElements::PanelSettings::*)()>(
+    &::UnityEngine::UIElements::PanelSettings::get_colliderUpdateMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabcd8;
+  constexpr static std::size_t addrs = 0x7245f84;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_worldSpaceLayer", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_colliderUpdateMode", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.set_worldSpaceLayer
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.set_colliderUpdateMode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(int32_t)>(&::UnityEngine::UIElements::PanelSettings::set_worldSpaceLayer)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::ColliderUpdateMode)>(
+    &::UnityEngine::UIElements::PanelSettings::set_colliderUpdateMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabce0;
+  constexpr static std::size_t addrs = 0x7245f8c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
+                                                                                           { "set_colliderUpdateMode", {}, { ::i2c::type_of<::UnityEngine::UIElements::ColliderUpdateMode>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_colliderIsTrigger
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_colliderIsTrigger)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7245f94;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_colliderIsTrigger", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.set_colliderIsTrigger
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(&::UnityEngine::UIElements::PanelSettings::set_colliderIsTrigger)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7245f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_worldSpaceLayer", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_colliderIsTrigger", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -380,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PanelScaleMode (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabce8;
+  constexpr static std::size_t addrs = 0x7245fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_scaleMode", {}, {} })));
@@ -393,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::PanelScaleMode)>(
     &::UnityEngine::UIElements::PanelSettings::set_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabcf0;
+  constexpr static std::size_t addrs = 0x7245fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_referenceSpritePixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabcf8;
+  constexpr static std::size_t addrs = 0x7245fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_referenceSpritePixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd00;
+  constexpr static std::size_t addrs = 0x7245fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +594,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_pixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd08;
+  constexpr static std::size_t addrs = 0x7245fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_pixelsPerUnit", {}, {} })));
@@ -445,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_pixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd10;
+  constexpr static std::size_t addrs = 0x7245fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd18;
+  constexpr static std::size_t addrs = 0x7245fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_scale", {}, {} })));
@@ -470,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd20;
+  constexpr static std::size_t addrs = 0x7245fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +644,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_referenceDpi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd28;
+  constexpr static std::size_t addrs = 0x7245fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_referenceDpi", {}, {} })));
@@ -495,7 +656,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_referenceDpi)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6dabd30;
+  constexpr static std::size_t addrs = 0x7245fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -508,7 +669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_fallbackDpi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd58;
+  constexpr static std::size_t addrs = 0x7246014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_fallbackDpi", {}, {} })));
@@ -520,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_fallbackDpi)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6dabd60;
+  constexpr static std::size_t addrs = 0x724601c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -533,7 +694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_referenceResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd88;
+  constexpr static std::size_t addrs = 0x7246044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_referenceResolution", {}, {} })));
@@ -546,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::Vector2Int)>(
     &::UnityEngine::UIElements::PanelSettings::set_referenceResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd90;
+  constexpr static std::size_t addrs = 0x724604c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PanelScreenMatchMode (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_screenMatchMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabd98;
+  constexpr static std::size_t addrs = 0x7246054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_screenMatchMode", {}, {} })));
@@ -573,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::PanelScreenMatchMode)>(
     &::UnityEngine::UIElements::PanelSettings::set_screenMatchMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabda0;
+  constexpr static std::size_t addrs = 0x724605c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
@@ -586,7 +747,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabda8;
+  constexpr static std::size_t addrs = 0x7246064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_match", {}, {} })));
@@ -598,7 +759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabdb0;
+  constexpr static std::size_t addrs = 0x724606c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -611,7 +772,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_sortingOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabdb8;
+  constexpr static std::size_t addrs = 0x7246074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_sortingOrder", {}, {} })));
@@ -623,7 +784,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_sortingOrder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dabdc0;
+  constexpr static std::size_t addrs = 0x724607c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +797,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::ApplySortingOrder)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6dabddc;
+  constexpr static std::size_t addrs = 0x7246098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "ApplySortingOrder", {}, {} })));
@@ -648,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_targetDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabe18;
+  constexpr static std::size_t addrs = 0x72460d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_targetDisplay", {}, {} })));
@@ -660,7 +821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(int32_t)>(&::UnityEngine::UIElements::PanelSettings::set_targetDisplay)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6dabe20;
+  constexpr static std::size_t addrs = 0x72460e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -674,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingLogLevel (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_bindingLogLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabe78;
+  constexpr static std::size_t addrs = 0x7246138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_bindingLogLevel", {}, {} })));
@@ -687,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::BindingLogLevel)>(
     &::UnityEngine::UIElements::PanelSettings::set_bindingLogLevel)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6dabe80;
+  constexpr static std::size_t addrs = 0x7246140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
@@ -700,7 +861,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_clearDepthStencil)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabed8;
+  constexpr static std::size_t addrs = 0x7246198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_clearDepthStencil", {}, {} })));
@@ -712,7 +873,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(&::UnityEngine::UIElements::PanelSettings::set_clearDepthStencil)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabee0;
+  constexpr static std::size_t addrs = 0x72461a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +886,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_depthClearValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dabee8;
+  constexpr static std::size_t addrs = 0x72461a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_depthClearValue", {}, {} })));
@@ -737,7 +898,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_clearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabef4;
+  constexpr static std::size_t addrs = 0x72461b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_clearColor", {}, {} })));
@@ -749,7 +910,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(&::UnityEngine::UIElements::PanelSettings::set_clearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabefc;
+  constexpr static std::size_t addrs = 0x72461bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -762,7 +923,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_colorClearValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dabf04;
+  constexpr static std::size_t addrs = 0x72461c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_colorClearValue", {}, {} })));
@@ -774,7 +935,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::Color)>(&::UnityEngine::UIElements::PanelSettings::set_colorClearValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dabf10;
+  constexpr static std::size_t addrs = 0x72461d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -787,7 +948,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_vertexBudget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabf1c;
+  constexpr static std::size_t addrs = 0x72461dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_vertexBudget", {}, {} })));
@@ -799,11 +960,38 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(uint32_t)>(&::UnityEngine::UIElements::PanelSettings::set_vertexBudget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dabf24;
+  constexpr static std::size_t addrs = 0x72461e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_vertexBudget", {}, { ::i2c::type_of<uint32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_textureSlotCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextureSlotCount (::UnityEngine::UIElements::PanelSettings::*)()>(
+    &::UnityEngine::UIElements::PanelSettings::get_textureSlotCount)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x72461ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_textureSlotCount", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.set_textureSlotCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::TextureSlotCount)>(
+    &::UnityEngine::UIElements::PanelSettings::set_textureSlotCount)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x72461f4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
+                                                                                           { "set_textureSlotCount", {}, { ::i2c::type_of<::UnityEngine::UIElements::TextureSlotCount>() } })));
     return ___internal_method;
   }
 };
@@ -813,7 +1001,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_panel)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6dabec4;
+  constexpr static std::size_t addrs = 0x7246184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_panel", {}, {} })));
@@ -825,10 +1013,35 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_isInitialized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dac07c;
+  constexpr static std::size_t addrs = 0x7246394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_isInitialized", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.get_isTransient
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_isTransient)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x72463c4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_isTransient", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.set_isTransient
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(&::UnityEngine::UIElements::PanelSettings::set_isTransient)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x72463dc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_isTransient", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -838,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_visualTree)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6dac0ac;
+  constexpr static std::size_t addrs = 0x72463f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_visualTree", {}, {} })));
@@ -851,7 +1064,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DynamicAtlasSettings* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_dynamicAtlasSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac0d8;
+  constexpr static std::size_t addrs = 0x7246424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_dynamicAtlasSettings", {}, {} })));
@@ -864,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::DynamicAtlasSettings*)>(
     &::UnityEngine::UIElements::PanelSettings::set_dynamicAtlasSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac0e0;
+  constexpr static std::size_t addrs = 0x724642c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -877,8 +1090,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6dac0e8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x7246434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { ".ctor", {}, {} })));
@@ -890,7 +1103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dac1a0;
+  constexpr static std::size_t addrs = 0x72464f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "Reset", {}, {} })));
@@ -901,8 +1114,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::OnEnable)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6dac1a4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x72464fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "OnEnable", {}, {} })));
@@ -914,7 +1127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::OnDisable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6dac490;
+  constexpr static std::size_t addrs = 0x7246858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "OnDisable", {}, {} })));
@@ -926,7 +1139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::DisposePanel)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6dac4dc;
+  constexpr static std::size_t addrs = 0x72468a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "DisposePanel", {}, {} })));
@@ -938,7 +1151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_ScreenDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac508;
+  constexpr static std::size_t addrs = 0x72468d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_ScreenDPI", {}, {} })));
@@ -950,7 +1163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_ScreenDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac510;
+  constexpr static std::size_t addrs = 0x72468d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -964,7 +1177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::IDebugPanelChangeReceiver*)>(
     &::UnityEngine::UIElements::PanelSettings::SetPanelChangeReceiver)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dac518;
+  constexpr static std::size_t addrs = 0x72468e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -979,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IDebugPanelChangeReceiver* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::GetPanelChangeReceiver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac55c;
+  constexpr static std::size_t addrs = 0x7246928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "GetPanelChangeReceiver", {}, {} })));
@@ -991,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::UpdateScreenDPI)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6dac2d0;
+  constexpr static std::size_t addrs = 0x7246540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "UpdateScreenDPI", {}, {} })));
@@ -1003,8 +1216,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::PanelSettings::ApplyThemeStyleSheet)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6dabb24;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x7245d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
@@ -1017,7 +1230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::AssignICUData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac488;
+  constexpr static std::size_t addrs = 0x7246850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "AssignICUData", {}, {} })));
@@ -1028,8 +1241,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::InitializeShaders)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6dac310;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x7246580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "InitializeShaders", {}, {} })));
@@ -1040,11 +1253,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::ApplyPanelSettings)> {
-  constexpr static std::size_t size = 0x7bc;
-  constexpr static std::size_t addrs = 0x6dac564;
+  constexpr static std::size_t size = 0x864;
+  constexpr static std::size_t addrs = 0x7246930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "ApplyPanelSettings", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelSettings.SetScreenToPanelSpaceFunction3D
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>*)>(
+    &::UnityEngine::UIElements::PanelSettings::SetScreenToPanelSpaceFunction3D)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x72473e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
+                                                             { "SetScreenToPanelSpaceFunction3D", {}, { ::i2c::type_of<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>*>() } })));
     return ___internal_method;
   }
 };
@@ -1053,8 +1281,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*)>(
     &::UnityEngine::UIElements::PanelSettings::SetScreenToPanelSpaceFunction)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6dad0a0;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x7247410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1067,8 +1295,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::Rect, float_t)>(&::UnityEngine::UIElements::PanelSettings::ResolveScale)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6dace18;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x7247294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1081,8 +1309,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::GetDisplayRect)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6dacd20;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x7247194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "GetDisplayRect", {}, {} })));
@@ -1094,8 +1322,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::PanelSettings::AttachAndInsertUIDocumentToVisualTree)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6dad308;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x7247520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1110,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::PanelSettings::DetachUIDocument)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6dad7b4;
+  constexpr static std::size_t addrs = 0x72479ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1167,17 +1395,29 @@ constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_Re
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RenderMode = value;
 }
-constexpr int32_t& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_WorldSpaceLayer() {
+constexpr ::UnityEngine::UIElements::ColliderUpdateMode& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_ColliderUpdateMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldSpaceLayer;
+  return this->___m_ColliderUpdateMode;
 }
-constexpr int32_t const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_WorldSpaceLayer() const {
+constexpr ::UnityEngine::UIElements::ColliderUpdateMode const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_ColliderUpdateMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WorldSpaceLayer;
+  return this->___m_ColliderUpdateMode;
 }
-constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_WorldSpaceLayer(int32_t value) {
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_ColliderUpdateMode(::UnityEngine::UIElements::ColliderUpdateMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_WorldSpaceLayer = value;
+  this->___m_ColliderUpdateMode = value;
+}
+constexpr bool& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_ColliderIsTrigger() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ColliderIsTrigger;
+}
+constexpr bool const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_ColliderIsTrigger() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ColliderIsTrigger;
+}
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_ColliderIsTrigger(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ColliderIsTrigger = value;
 }
 constexpr ::UnityEngine::UIElements::PanelScaleMode& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_ScaleMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1371,6 +1611,18 @@ constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_Ve
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VertexBudget = value;
 }
+constexpr ::UnityEngine::UIElements::TextureSlotCount& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_TextureSlotCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextureSlotCount;
+}
+constexpr ::UnityEngine::UIElements::TextureSlotCount const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_TextureSlotCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextureSlotCount;
+}
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_TextureSlotCount(::UnityEngine::UIElements::TextureSlotCount value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TextureSlotCount = value;
+}
 constexpr ::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess*& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_PanelAccess() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PanelAccess;
@@ -1419,29 +1671,77 @@ constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_At
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AtlasBlitShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeShader() {
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_DefaultShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RuntimeShader;
+  return this->___m_DefaultShader;
 }
-constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeShader() const {
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_DefaultShader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RuntimeShader;
+  return this->___m_DefaultShader;
 }
-constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_RuntimeShader(::UnityW<::UnityEngine::Shader> value) {
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_DefaultShader(::UnityW<::UnityEngine::Shader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_RuntimeShader = value;
+  this->___m_DefaultShader = value;
 }
-constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeWorldShader() {
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeGaussianBlurShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RuntimeWorldShader;
+  return this->___m_RuntimeGaussianBlurShader;
 }
-constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeWorldShader() const {
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeGaussianBlurShader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RuntimeWorldShader;
+  return this->___m_RuntimeGaussianBlurShader;
 }
-constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_RuntimeWorldShader(::UnityW<::UnityEngine::Shader> value) {
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_RuntimeGaussianBlurShader(::UnityW<::UnityEngine::Shader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_RuntimeWorldShader = value;
+  this->___m_RuntimeGaussianBlurShader = value;
+}
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeColorEffectShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RuntimeColorEffectShader;
+}
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_RuntimeColorEffectShader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RuntimeColorEffectShader;
+}
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_RuntimeColorEffectShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RuntimeColorEffectShader = value;
+}
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_SDFShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SDFShader;
+}
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_SDFShader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SDFShader;
+}
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_SDFShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SDFShader = value;
+}
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_BitmapShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_BitmapShader;
+}
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_BitmapShader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_BitmapShader;
+}
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_BitmapShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_BitmapShader = value;
+}
+constexpr ::UnityW<::UnityEngine::Shader>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_SpriteShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SpriteShader;
+}
+constexpr ::UnityW<::UnityEngine::Shader> const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_SpriteShader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SpriteShader;
+}
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_SpriteShader(::UnityW<::UnityEngine::Shader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SpriteShader = value;
 }
 constexpr ::UnityW<::UnityEngine::TextAsset>& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_ICUDataAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1539,15 +1839,15 @@ constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_Pa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PanelChangeReceiver = value;
 }
-constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_AssignedScreenToPanel() {
+constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>*& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_AssignedScreenToPanel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssignedScreenToPanel;
 }
-constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_AssignedScreenToPanel() const {
+constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>* const& UnityEngine::UIElements::PanelSettings::__cordl_internal_get_m_AssignedScreenToPanel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AssignedScreenToPanel;
 }
-constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_AssignedScreenToPanel(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value) {
+constexpr void UnityEngine::UIElements::PanelSettings::__cordl_internal_set_m_AssignedScreenToPanel(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AssignedScreenToPanel = value;
 }
@@ -1558,6 +1858,15 @@ inline ::UnityW<::UnityEngine::UIElements::ThemeStyleSheet> UnityEngine::UIEleme
 inline void UnityEngine::UIElements::PanelSettings::set_themeStyleSheet(::UnityEngine::UIElements::ThemeStyleSheet* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
                                                                                          { "set_themeStyleSheet", {}, { ::i2c::type_of<::UnityEngine::UIElements::ThemeStyleSheet*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::PanelSettings::get_disableNoThemeWarning() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_disableNoThemeWarning", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelSettings::set_disableNoThemeWarning(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_disableNoThemeWarning", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::UIElements::PanelSettings::get_targetTexture() {
@@ -1579,13 +1888,22 @@ inline void UnityEngine::UIElements::PanelSettings::set_renderMode(::UnityEngine
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_renderMode", {}, { ::i2c::type_of<::UnityEngine::UIElements::PanelRenderMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::UIElements::PanelSettings::get_worldSpaceLayer() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_worldSpaceLayer", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+inline ::UnityEngine::UIElements::ColliderUpdateMode UnityEngine::UIElements::PanelSettings::get_colliderUpdateMode() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_colliderUpdateMode", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ColliderUpdateMode>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::PanelSettings::set_worldSpaceLayer(int32_t value) {
+inline void UnityEngine::UIElements::PanelSettings::set_colliderUpdateMode(::UnityEngine::UIElements::ColliderUpdateMode value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
+                                                                                         { "set_colliderUpdateMode", {}, { ::i2c::type_of<::UnityEngine::UIElements::ColliderUpdateMode>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::PanelSettings::get_colliderIsTrigger() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_colliderIsTrigger", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelSettings::set_colliderIsTrigger(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_worldSpaceLayer", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_colliderIsTrigger", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::PanelScaleMode UnityEngine::UIElements::PanelSettings::get_scaleMode() {
@@ -1742,6 +2060,15 @@ inline void UnityEngine::UIElements::PanelSettings::set_vertexBudget(uint32_t va
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_vertexBudget", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+inline ::UnityEngine::UIElements::TextureSlotCount UnityEngine::UIElements::PanelSettings::get_textureSlotCount() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_textureSlotCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextureSlotCount>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelSettings::set_textureSlotCount(::UnityEngine::UIElements::TextureSlotCount value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
+                                                                                         { "set_textureSlotCount", {}, { ::i2c::type_of<::UnityEngine::UIElements::TextureSlotCount>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline ::UnityEngine::UIElements::BaseRuntimePanel* UnityEngine::UIElements::PanelSettings::get_panel() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_panel", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BaseRuntimePanel*>(this, ___internal_method);
@@ -1749,6 +2076,15 @@ inline ::UnityEngine::UIElements::BaseRuntimePanel* UnityEngine::UIElements::Pan
 inline bool UnityEngine::UIElements::PanelSettings::get_isInitialized() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_isInitialized", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelSettings::get_isTransient() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_isTransient", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelSettings::set_isTransient(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "set_isTransient", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::PanelSettings::get_visualTree() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "get_visualTree", {}, {} })));
@@ -1824,11 +2160,17 @@ inline void UnityEngine::UIElements::PanelSettings::ApplyPanelSettings() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(), { "ApplyPanelSettings", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::PanelSettings::SetScreenToPanelSpaceFunction(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* screentoPanelSpaceFunction) {
+inline void UnityEngine::UIElements::PanelSettings::SetScreenToPanelSpaceFunction3D(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>* screenToPanelSpaceFunction) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
+                                                           { "SetScreenToPanelSpaceFunction3D", {}, { ::i2c::type_of<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, screenToPanelSpaceFunction);
+}
+inline void UnityEngine::UIElements::PanelSettings::SetScreenToPanelSpaceFunction(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* screenToPanelSpaceFunction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelSettings*>(),
                                                            { "SetScreenToPanelSpaceFunction", {}, { ::i2c::type_of<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, screentoPanelSpaceFunction);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, screenToPanelSpaceFunction);
 }
 inline float_t UnityEngine::UIElements::PanelSettings::ResolveScale(::UnityEngine::Rect targetRect, float_t screenDpi) {
   static auto* ___internal_method =

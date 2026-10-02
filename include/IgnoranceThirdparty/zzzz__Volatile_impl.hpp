@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58913a0;
+  constexpr static std::size_t addrs = 0x5ca7f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::ReadUnfenced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58913a8;
+  constexpr static std::size_t addrs = 0x5ca7f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceThirdparty::Volatile_PaddedLong>(), { "ReadUnfenced", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::ReadAcquireFence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58913b0;
+  constexpr static std::size_t addrs = 0x5ca7f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceThirdparty::Volatile_PaddedLong>(), { "ReadAcquireFence", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::ReadFullFence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58913bc;
+  constexpr static std::size_t addrs = 0x5ca7f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceThirdparty::Volatile_PaddedLong>(), { "ReadFullFence", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::ReadCompilerOnlyFence)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58913c8;
+  constexpr static std::size_t addrs = 0x5ca7f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceThirdparty::Volatile_PaddedLong>(), { "ReadCompilerOnlyFence", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::WriteReleaseFence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58913ec;
+  constexpr static std::size_t addrs = 0x5ca7f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::WriteFullFence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58913f8;
+  constexpr static std::size_t addrs = 0x5ca7f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::WriteCompilerOnlyFence)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5891404;
+  constexpr static std::size_t addrs = 0x5ca7f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::WriteUnfenced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5891430;
+  constexpr static std::size_t addrs = 0x5ca7fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t, int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::AtomicCompareExchange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5891438;
+  constexpr static std::size_t addrs = 0x5ca7fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::AtomicExchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5891460;
+  constexpr static std::size_t addrs = 0x5ca7fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::AtomicAddAndGet)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5891480;
+  constexpr static std::size_t addrs = 0x5ca8000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::AtomicIncrementAndGet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58914a4;
+  constexpr static std::size_t addrs = 0x5ca8024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceThirdparty::Volatile_PaddedLong>(), { "AtomicIncrementAndGet", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::AtomicDecrementAndGet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58914c4;
+  constexpr static std::size_t addrs = 0x5ca8044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceThirdparty::Volatile_PaddedLong>(), { "AtomicDecrementAndGet", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::ToString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58914e4;
+  constexpr static std::size_t addrs = 0x5ca8064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

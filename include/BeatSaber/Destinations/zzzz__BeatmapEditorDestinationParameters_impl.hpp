@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::BeatmapEditorDestinationParameters::*)()>(
     &::BeatSaber::Destinations::BeatmapEditorDestinationParameters::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3281420;
+  constexpr static std::size_t addrs = 0x3507ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::BeatmapEditorDestinationParameters*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destin
     ::StringW, bool, ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>)>(
     &::BeatSaber::Destinations::BeatmapEditorDestinationParameters::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3281444;
+  constexpr static std::size_t addrs = 0x3507d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

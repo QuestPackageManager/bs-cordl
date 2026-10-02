@@ -38,34 +38,41 @@ namespace UnityEngine {
 class CORDL_TYPE ResourcesAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)2)]
   /// [FreeFunction("Resources_Bindings::FindObjectsOfTypeAll")]
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6ad8c14, size 0x3c, virtual false, abstract: false, final false
+  /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)2)]
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6f32c84, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
   /// [FreeFunction("GetShaderNameRegistry().FindShader")]
-  /// @brief Method FindShaderByName, addr 0x6ad8c50, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x6f32cc0, size 0x274, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method FindShaderByName_Injected, addr 0x6ad8ec4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName_Injected, addr 0x6f32f34, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr FindShaderByName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [NativeThrows]
   /// [FreeFunction("Resources_Bindings::Load")]
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)1)]
-  /// [NativeThrows]
-  /// @brief Method Load, addr 0x6ad8f00, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6f32f70, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, /* [NotNull] */ ::System::Type* systemTypeInstance);
 
-  /// [NativeThrows]
   /// [FreeFunction("Resources_Bindings::LoadAll")]
-  /// @brief Method LoadAll, addr 0x6ad91d0, size 0x188, virtual false, abstract: false, final false
+  /// [NativeThrows]
+  /// @brief Method LoadAll, addr 0x6f33240, size 0x188, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(/* [NotNull] */ ::StringW path, /* [NotNull] */ ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll_Injected, addr 0x6ad9358, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAll_Injected, addr 0x6f333c8, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method Load_Injected, addr 0x6ad918c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Load_Injected, addr 0x6f331fc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Load_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, ::System::Type* systemTypeInstance);
+
+  /// [FreeFunction("Scripting::UnloadAssetFromScripting")]
+  /// @brief Method UnloadAsset, addr 0x6f3340c, size 0x80, virtual false, abstract: false, final false
+  static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
+
+  /// @brief Method UnloadAsset_Injected, addr 0x6f3348c, size 0x3c, virtual false, abstract: false, final false
+  static inline void UnloadAsset_Injected(::System::IntPtr assetToUnload);
 
 protected:
   // Ctor Parameters []
@@ -82,7 +89,7 @@ public:
   ResourcesAPIInternal(ResourcesAPIInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9879 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

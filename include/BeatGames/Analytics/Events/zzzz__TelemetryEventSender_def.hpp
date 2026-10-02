@@ -30,7 +30,7 @@ public:
 
   static inline ::BeatGames::Analytics::Events::TelemetryEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
-  /// @brief Method SendTelemetryEvent, addr 0x3258438, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SendTelemetryEvent, addr 0x34ddb20, size 0xf4, virtual false, abstract: false, final false
   inline void SendTelemetryEvent(::StringW eventName, ::StringW eventFamily, ::StringW stringValue, int32_t intValue, int32_t durationMS, ::ArrayW<::StringW> tags);
 
   constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
-  /// @brief Method .ctor, addr 0x3257a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dd168, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
 protected:
@@ -57,7 +57,7 @@ public:
   TelemetryEventSender(TelemetryEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24064 };
 
   /// @brief Field _analyticsManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;

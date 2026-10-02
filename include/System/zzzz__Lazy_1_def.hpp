@@ -58,7 +58,11 @@ public:
 
   static inline ::System::Lazy_1<T>* New_ctor();
 
+  static inline ::System::Lazy_1<T>* New_ctor(bool isThreadSafe);
+
   static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory);
+
+  static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory, bool isThreadSafe);
 
   static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
@@ -105,7 +109,13 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(bool isThreadSafe);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<T>* valueFactory);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Func_1<T>* valueFactory, bool isThreadSafe);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);

@@ -26,7 +26,7 @@ public:
   /// @brief Field horizontalUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_horizontalUssClassName, put = setStaticF_horizontalUssClassName)) ::StringW horizontalUssClassName;
 
-  /// @brief Field m_Preview, offset 0x4a8, size 0x8
+  /// @brief Field m_Preview, offset 0x2c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Preview, put = __cordl_internal_set_m_Preview)) ::UnityEngine::UIElements::VisualElement* m_Preview;
 
   __declspec(property(get = get_preview)) ::UnityEngine::UIElements::VisualElement* preview;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Preview(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6d74900, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7206480, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_horizontalUssClassName();
@@ -59,7 +59,7 @@ public:
 
   static inline ::StringW getStaticF_visualUssClassName();
 
-  /// @brief Method get_preview, addr 0x6d748f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preview, addr 0x7206478, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_preview();
 
   static inline void setStaticF_horizontalUssClassName(::StringW value);
@@ -85,16 +85,16 @@ public:
   TabDragLocationPreview(TabDragLocationPreview const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4332 };
 
-  /// @brief Field m_Preview, offset: 0x4a8, size: 0x8, def value: None
+  /// @brief Field m_Preview, offset: 0x2c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Preview;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::TabDragLocationPreview, ___m_Preview) == 0x4a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TabDragLocationPreview, ___m_Preview) == 0x2c8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::TabDragLocationPreview) == 0x4b0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::TabDragLocationPreview) == 0x2d0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -32,15 +32,15 @@ class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method GetColorPrimaries, addr 0x6a8c0cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColorPrimaries, addr 0x6ee0548, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
 
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method GetTransferFunction, addr 0x6a8c144, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTransferFunction, addr 0x6ee05c0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
 
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method GetWhitePoint, addr 0x6a8c108, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWhitePoint, addr 0x6ee0584, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ColorGamutUtility(ColorGamutUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

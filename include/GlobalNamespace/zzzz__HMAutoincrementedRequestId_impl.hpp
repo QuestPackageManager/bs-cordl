@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::HMAutoincrementedRequestId::*)()>(&::GlobalNamespace::HMAutoincrementedRequestId::get_RequestId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857014;
+  constexpr static std::size_t addrs = 0x5c6cd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMAutoincrementedRequestId*>(), { "get_RequestId", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAutoincrementedRequestId::*)()>(&::GlobalNamespace::HMAutoincrementedRequestId::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5856e34;
+  constexpr static std::size_t addrs = 0x5c6cbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMAutoincrementedRequestId*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HMAutoincrementedRequestId::*)(::GlobalNamespace::HMAutoincrementedRequestId*)>(
     &::GlobalNamespace::HMAutoincrementedRequestId::Equals)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x585701c;
+  constexpr static std::size_t addrs = 0x5c6cda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HMAutoincrementedRequestId::*)(::System::Object*)>(&::GlobalNamespace::HMAutoincrementedRequestId::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x585703c;
+  constexpr static std::size_t addrs = 0x5c6cdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::HMAutoincrementedRequestId::*)()>(&::GlobalNamespace::HMAutoincrementedRequestId::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58570d8;
+  constexpr static std::size_t addrs = 0x5c6ce5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

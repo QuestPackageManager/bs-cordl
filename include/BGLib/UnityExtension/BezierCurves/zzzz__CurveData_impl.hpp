@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::UnityExtension::BezierCurves::CurveData (::BGLib::UnityExtension::BezierCurves::CurveData::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::BGLib::UnityExtension::BezierCurves::CurveData::RotatePointsAroundPivot)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x332bb24;
+  constexpr static std::size_t addrs = 0x35b4da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::CurveData::*)(float_t)>(
     &::BGLib::UnityExtension::BezierCurves::CurveData::Evaluate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x332b500;
+  constexpr static std::size_t addrs = 0x35b4784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::BGLib::UnityExtension::BezierCurves::CurveData::RotatePointAroundPivot)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x332bca8;
+  constexpr static std::size_t addrs = 0x35b4f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

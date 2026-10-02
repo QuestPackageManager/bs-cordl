@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoExperimentModel::*)()>(&::GlobalNamespace::NoExperimentModel::IsEmployee)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x370a040;
+  constexpr static std::size_t addrs = 0x39933a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoExperimentModel*>(), { "IsEmployee", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoExperimentModel::*)(::GlobalNamespace::IExperimentData*)>(
     &::GlobalNamespace::NoExperimentModel::IsInTest)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x370a0b0;
+  constexpr static std::size_t addrs = 0x3993418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoExperimentModel::*)()>(&::GlobalNamespace::NoExperimentModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x370a120;
+  constexpr static std::size_t addrs = 0x3993488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoExperimentModel*>(), { ".ctor", {}, {} })));

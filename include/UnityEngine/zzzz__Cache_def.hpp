@@ -23,8 +23,8 @@ struct Cache;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Cache);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Cache, "UnityEngine", "Cache");
-// [NativeHeader("Runtime/Misc/Cache.h")]
 // [StaticAccessor("CacheWrapper", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Misc/Cache.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -46,48 +46,48 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::Cache>*();
 
   /// [NativeThrows]
-  /// @brief Method Cache_GetPath, addr 0x6a69830, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Cache_GetPath, addr 0x6ebbb8c, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW Cache_GetPath(int32_t handle);
 
-  /// @brief Method Cache_GetPath_Injected, addr 0x6a698fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Cache_GetPath_Injected, addr 0x6ebbc58, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_GetPath_Injected(int32_t handle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method Cache_IsValid, addr 0x6a697ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cache_IsValid, addr 0x6ebbb48, size 0x3c, virtual false, abstract: false, final false
   static inline bool Cache_IsValid(int32_t handle);
 
   /// [NativeThrows]
-  /// @brief Method Cache_SetExpirationDelay, addr 0x6a69a0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Cache_SetExpirationDelay, addr 0x6ebbd68, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_SetExpirationDelay(int32_t handle, int32_t value);
 
   /// [NativeThrows]
-  /// @brief Method Cache_SetMaximumDiskSpaceAvailable, addr 0x6a69984, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Cache_SetMaximumDiskSpaceAvailable, addr 0x6ebbce0, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_SetMaximumDiskSpaceAvailable(int32_t handle, int64_t value);
 
-  /// @brief Method Equals, addr 0x6a69724, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ebba80, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6a697a0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ebbafc, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Cache other);
 
-  /// @brief Method GetHashCode, addr 0x6a6971c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ebba78, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_handle, addr 0x6a69714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x6ebba70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method get_path, addr 0x6a69828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x6ebbb84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_valid, addr 0x6a697b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6ebbb0c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Cache>"
   constexpr ::System::IEquatable_1<::UnityEngine::Cache>* i___System__IEquatable_1___UnityEngine__Cache_();
 
-  /// @brief Method set_expirationDelay, addr 0x6a699c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_expirationDelay, addr 0x6ebbd24, size 0x44, virtual false, abstract: false, final false
   inline void set_expirationDelay(int32_t value);
 
-  /// @brief Method set_maximumAvailableStorageSpace, addr 0x6a69940, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_maximumAvailableStorageSpace, addr 0x6ebbc9c, size 0x44, virtual false, abstract: false, final false
   inline void set_maximumAvailableStorageSpace(int64_t value);
 
   // Ctor Parameters []
@@ -98,7 +98,7 @@ public:
   constexpr Cache(int32_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9652 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

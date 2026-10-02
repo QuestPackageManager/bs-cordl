@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextProcessingElementType (::TMPro::TextProcessingElement::*)()>(&::TMPro::TextProcessingElement::get_ElementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d10;
+  constexpr static std::size_t addrs = 0x6dbc8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "get_ElementType", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(::TMPro::TextProcessingElementType)>(&::TMPro::TextProcessingElement::set_ElementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d18;
+  constexpr static std::size_t addrs = 0x6dbc8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TextProcessingElement::*)()>(&::TMPro::TextProcessingElement::get_StartIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d20;
+  constexpr static std::size_t addrs = 0x6dbc8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "get_StartIndex", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(int32_t)>(&::TMPro::TextProcessingElement::set_StartIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d28;
+  constexpr static std::size_t addrs = 0x6dbc8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TextProcessingElement::*)()>(&::TMPro::TextProcessingElement::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d30;
+  constexpr static std::size_t addrs = 0x6dbc8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "get_Length", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(int32_t)>(&::TMPro::TextProcessingElement::set_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d38;
+  constexpr static std::size_t addrs = 0x6dbc8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "set_Length", {}, { ::i2c::type_of<int32_t>() } })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::CharacterElement (::TMPro::TextProcessingElement::*)()>(&::TMPro::TextProcessingElement::get_CharacterElement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69a6d40;
+  constexpr static std::size_t addrs = 0x6dbc904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "get_CharacterElement", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::MarkupElement (::TMPro::TextProcessingElement::*)()>(&::TMPro::TextProcessingElement::get_MarkupElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d4c;
+  constexpr static std::size_t addrs = 0x6dbc910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "get_MarkupElement", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(::TMPro::MarkupElement)>(&::TMPro::TextProcessingElement::set_MarkupElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a6d54;
+  constexpr static std::size_t addrs = 0x6dbc918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(::TMPro::TextProcessingElementType, int32_t, int32_t)>(&::TMPro::TextProcessingElement::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a6d5c;
+  constexpr static std::size_t addrs = 0x6dbc920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(::TMPro::TMP_TextElement*, int32_t, int32_t)>(&::TMPro::TextProcessingElement::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69a6d70;
+  constexpr static std::size_t addrs = 0x6dbc934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(::TMPro::CharacterElement, int32_t, int32_t)>(&::TMPro::TextProcessingElement::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69a6d98;
+  constexpr static std::size_t addrs = 0x6dbc95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextProcessingElement::*)(::TMPro::MarkupElement)>(&::TMPro::TextProcessingElement::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69a6db0;
+  constexpr static std::size_t addrs = 0x6dbc974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextProcessingElement (*)()>(&::TMPro::TextProcessingElement::get_Undefined)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69a6df0;
+  constexpr static std::size_t addrs = 0x6dbc9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "get_Undefined", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TextProcessingElement::*)()>(&::TMPro::TextProcessingElement::DebuggerDisplay)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x69a6e00;
+  constexpr static std::size_t addrs = 0x6dbc9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextProcessingElement>(), { "DebuggerDisplay", {}, {} })));

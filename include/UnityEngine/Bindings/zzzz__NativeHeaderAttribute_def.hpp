@@ -13,8 +13,8 @@ class NativeHeaderAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeHeaderAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
-// [AttributeUsage((System.AttributeTargets)10716, AllowMultiple = true)]
 // [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)10716, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -35,11 +35,11 @@ public:
 
   constexpr void __cordl_internal_set__Header_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bb5fb4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014b14, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Header, addr 0x6bb5fac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x7014b0c, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
 protected:
@@ -57,10 +57,10 @@ public:
   NativeHeaderAttribute(NativeHeaderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23531 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;
 

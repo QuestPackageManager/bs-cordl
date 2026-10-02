@@ -70,7 +70,7 @@ public:
   constexpr GUILayoutOption_Type(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20047 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6b45aa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa2ee0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUILayoutOption_Type type, ::System::Object* value);
 
 protected:
@@ -175,7 +175,7 @@ public:
   GUILayoutOption(GUILayoutOption const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20048 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::GUILayoutOption_Type ___type;

@@ -30,11 +30,11 @@ public:
   static inline bool getStaticF__IsOpenGL_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsDX10, addr 0x68e92d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDX10, addr 0x6d128cc, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsDX10();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsOpenGL, addr 0x68e9230, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpenGL, addr 0x6d1282c, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsOpenGL();
 
   static inline void setStaticF__IsDX10_k__BackingField(bool value);
@@ -42,11 +42,11 @@ public:
   static inline void setStaticF__IsOpenGL_k__BackingField(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDX10, addr 0x68e931c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_IsDX10, addr 0x6d12918, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsDX10(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsOpenGL, addr 0x68e927c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_IsOpenGL, addr 0x6d12878, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsOpenGL(bool value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   DeferredConfig(DeferredConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -37,65 +37,6 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolume*, "UnityEngine.Renderi
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: UnityEngine.Rendering.ProbeVolume/Mode
-struct CORDL_TYPE ProbeVolume_Mode {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct __ProbeVolume_Mode_Unwrapped
-  enum struct __ProbeVolume_Mode_Unwrapped : int32_t {
-    __E_Global = static_cast<int32_t>(0x0),
-    __E_Scene = static_cast<int32_t>(0x1),
-    __E_Local = static_cast<int32_t>(0x2),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ProbeVolume_Mode_Unwrapped() const noexcept {
-    return static_cast<__ProbeVolume_Mode_Unwrapped>(this->value__);
-  }
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolume_Mode();
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr ProbeVolume_Mode(int32_t value__) noexcept;
-
-  /// @brief Field Global value: I32(0)
-  static ::UnityEngine::Rendering::ProbeVolume_Mode const Global;
-
-  /// @brief Field Local value: I32(2)
-  static ::UnityEngine::Rendering::ProbeVolume_Mode const Local;
-
-  /// @brief Field Scene value: I32(1)
-  static ::UnityEngine::Rendering::ProbeVolume_Mode const Scene;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12124 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume_Mode, value__) == 0x0, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::ProbeVolume_Mode) == 0x4, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies
-namespace UnityEngine::Rendering {
-// Is value type: true
 // CS Name: UnityEngine.Rendering.ProbeVolume/Version
 struct CORDL_TYPE ProbeVolume_Version {
 public:
@@ -140,7 +81,7 @@ public:
   static ::UnityEngine::Rendering::ProbeVolume_Version const LocalMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8995 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -156,6 +97,65 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume_Version, value__) =
 static_assert(sizeof(::UnityEngine::Rendering::ProbeVolume_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// Dependencies
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.ProbeVolume/Mode
+struct CORDL_TYPE ProbeVolume_Mode {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __ProbeVolume_Mode_Unwrapped
+  enum struct __ProbeVolume_Mode_Unwrapped : int32_t {
+    __E_Global = static_cast<int32_t>(0x0),
+    __E_Scene = static_cast<int32_t>(0x1),
+    __E_Local = static_cast<int32_t>(0x2),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __ProbeVolume_Mode_Unwrapped() const noexcept {
+    return static_cast<__ProbeVolume_Mode_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProbeVolume_Mode();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr ProbeVolume_Mode(int32_t value__) noexcept;
+
+  /// @brief Field Global value: I32(0)
+  static ::UnityEngine::Rendering::ProbeVolume_Mode const Global;
+
+  /// @brief Field Local value: I32(2)
+  static ::UnityEngine::Rendering::ProbeVolume_Mode const Local;
+
+  /// @brief Field Scene value: I32(1)
+  static ::UnityEngine::Rendering::ProbeVolume_Mode const Scene;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8996 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume_Mode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::ProbeVolume_Mode) == 0x4, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
 // [ExecuteAlways]
 // [AddComponentMenu("Rendering/Adaptive Probe Volume")]
 // Dependencies UnityEngine.LayerMask, UnityEngine.Matrix4x4, UnityEngine.MonoBehaviour, UnityEngine.Rendering.ProbeVolume::Mode, UnityEngine.Rendering.ProbeVolume::Version, UnityEngine.Vector3
@@ -169,49 +169,49 @@ public:
 
   using Version = ::UnityEngine::Rendering::ProbeVolume_Version;
 
-  /// @brief Field cachedHashCode, offset 0x88, size 0x4
+  /// @brief Field cachedHashCode, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_cachedHashCode, put = __cordl_internal_set_cachedHashCode)) int32_t cachedHashCode;
 
-  /// @brief Field cachedTransform, offset 0x48, size 0x40
+  /// @brief Field cachedTransform, offset 0x50, size 0x40
   __declspec(property(get = __cordl_internal_get_cachedTransform, put = __cordl_internal_set_cachedTransform)) ::UnityEngine::Matrix4x4 cachedTransform;
 
-  /// @brief Field fillEmptySpaces, offset 0x8c, size 0x1
+  /// @brief Field fillEmptySpaces, offset 0x94, size 0x1
   __declspec(property(get = __cordl_internal_get_fillEmptySpaces, put = __cordl_internal_set_fillEmptySpaces)) bool fillEmptySpaces;
 
-  /// @brief Field globalVolume, offset 0x94, size 0x1
+  /// @brief Field globalVolume, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_globalVolume, put = __cordl_internal_set_globalVolume)) bool globalVolume;
 
-  /// @brief Field highestSubdivLevelOverride, offset 0x40, size 0x4
+  /// @brief Field highestSubdivLevelOverride, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_highestSubdivLevelOverride, put = __cordl_internal_set_highestSubdivLevelOverride)) int32_t highestSubdivLevelOverride;
 
-  /// @brief Field lowestSubdivLevelOverride, offset 0x3c, size 0x4
+  /// @brief Field lowestSubdivLevelOverride, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_lowestSubdivLevelOverride, put = __cordl_internal_set_lowestSubdivLevelOverride)) int32_t lowestSubdivLevelOverride;
 
-  /// @brief Field mightNeedRebaking, offset 0x45, size 0x1
+  /// @brief Field mightNeedRebaking, offset 0x4d, size 0x1
   __declspec(property(get = __cordl_internal_get_mightNeedRebaking, put = __cordl_internal_set_mightNeedRebaking)) bool mightNeedRebaking;
 
-  /// @brief Field minRendererVolumeSize, offset 0x34, size 0x4
+  /// @brief Field minRendererVolumeSize, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_minRendererVolumeSize, put = __cordl_internal_set_minRendererVolumeSize)) float_t minRendererVolumeSize;
 
-  /// @brief Field mode, offset 0x20, size 0x4
+  /// @brief Field mode, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) ::UnityEngine::Rendering::ProbeVolume_Mode mode;
 
-  /// @brief Field objectLayerMask, offset 0x38, size 0x4
+  /// @brief Field objectLayerMask, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_objectLayerMask, put = __cordl_internal_set_objectLayerMask)) ::UnityEngine::LayerMask objectLayerMask;
 
-  /// @brief Field overrideRendererFilters, offset 0x30, size 0x1
+  /// @brief Field overrideRendererFilters, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideRendererFilters, put = __cordl_internal_set_overrideRendererFilters)) bool overrideRendererFilters;
 
-  /// @brief Field overridesSubdivLevels, offset 0x44, size 0x1
+  /// @brief Field overridesSubdivLevels, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_overridesSubdivLevels, put = __cordl_internal_set_overridesSubdivLevels)) bool overridesSubdivLevels;
 
-  /// @brief Field size, offset 0x24, size 0xc
+  /// @brief Field size, offset 0x2c, size 0xc
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) ::UnityEngine::Vector3 size;
 
-  /// @brief Field version, offset 0x90, size 0x4
+  /// @brief Field version, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::UnityEngine::Rendering::ProbeVolume_Version version;
 
-  /// @brief Method Awake, addr 0x6791c6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6baca78, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::Rendering::ProbeVolume* New_ctor();
@@ -300,7 +300,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolume_Version value);
 
-  /// @brief Method .ctor, addr 0x6791c9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bacaa8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -318,97 +318,97 @@ public:
   ProbeVolume(ProbeVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8997 };
+
+  /// [SerializeField]
+  /// @brief Field version, offset: 0x20, size: 0x4, def value: None
+  ::UnityEngine::Rendering::ProbeVolume_Version ___version;
+
+  /// [SerializeField]
+  /// [Obsolete("Use mode instead. #from(2023.1)")]
+  /// @brief Field globalVolume, offset: 0x24, size: 0x1, def value: None
+  bool ___globalVolume;
 
   /// [Tooltip("When set to Global this Probe Volume considers all renderers with Contribute Global Illumination enabled. Local only considers renderers in the scene.\nThis list updates every time the
   /// Scene is saved or the lighting is baked.")]
-  /// @brief Field mode, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field mode, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolume_Mode ___mode;
 
-  /// @brief Field size, offset: 0x24, size: 0xc, def value: None
+  /// @brief Field size, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___size;
 
   /// [HideInInspector]
   /// [Min(0)]
-  /// @brief Field overrideRendererFilters, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field overrideRendererFilters, offset: 0x38, size: 0x1, def value: None
   bool ___overrideRendererFilters;
 
   /// [HideInInspector]
   /// [Min(0)]
-  /// @brief Field minRendererVolumeSize, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field minRendererVolumeSize, offset: 0x3c, size: 0x4, def value: None
   float_t ___minRendererVolumeSize;
 
-  /// @brief Field objectLayerMask, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field objectLayerMask, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___objectLayerMask;
 
   /// [HideInInspector]
-  /// @brief Field lowestSubdivLevelOverride, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field lowestSubdivLevelOverride, offset: 0x44, size: 0x4, def value: None
   int32_t ___lowestSubdivLevelOverride;
 
   /// [HideInInspector]
-  /// @brief Field highestSubdivLevelOverride, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field highestSubdivLevelOverride, offset: 0x48, size: 0x4, def value: None
   int32_t ___highestSubdivLevelOverride;
 
   /// [HideInInspector]
-  /// @brief Field overridesSubdivLevels, offset: 0x44, size: 0x1, def value: None
+  /// @brief Field overridesSubdivLevels, offset: 0x4c, size: 0x1, def value: None
   bool ___overridesSubdivLevels;
 
   /// [SerializeField]
-  /// @brief Field mightNeedRebaking, offset: 0x45, size: 0x1, def value: None
+  /// @brief Field mightNeedRebaking, offset: 0x4d, size: 0x1, def value: None
   bool ___mightNeedRebaking;
 
   /// [SerializeField]
-  /// @brief Field cachedTransform, offset: 0x48, size: 0x40, def value: None
+  /// @brief Field cachedTransform, offset: 0x50, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___cachedTransform;
 
   /// [SerializeField]
-  /// @brief Field cachedHashCode, offset: 0x88, size: 0x4, def value: None
+  /// @brief Field cachedHashCode, offset: 0x90, size: 0x4, def value: None
   int32_t ___cachedHashCode;
 
   /// [HideInInspector]
   /// [Tooltip("Whether Unity should fill empty space between renderers with bricks at the highest subdivision level.")]
-  /// @brief Field fillEmptySpaces, offset: 0x8c, size: 0x1, def value: None
+  /// @brief Field fillEmptySpaces, offset: 0x94, size: 0x1, def value: None
   bool ___fillEmptySpaces;
-
-  /// [SerializeField]
-  /// @brief Field version, offset: 0x90, size: 0x4, def value: None
-  ::UnityEngine::Rendering::ProbeVolume_Version ___version;
-
-  /// [SerializeField]
-  /// [Obsolete("Use mode instead")]
-  /// @brief Field globalVolume, offset: 0x94, size: 0x1, def value: None
-  bool ___globalVolume;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___mode) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___version) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___size) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___globalVolume) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___overrideRendererFilters) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___mode) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___minRendererVolumeSize) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___size) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___objectLayerMask) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___overrideRendererFilters) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___lowestSubdivLevelOverride) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___minRendererVolumeSize) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___highestSubdivLevelOverride) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___objectLayerMask) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___overridesSubdivLevels) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___lowestSubdivLevelOverride) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___mightNeedRebaking) == 0x45, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___highestSubdivLevelOverride) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___cachedTransform) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___overridesSubdivLevels) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___cachedHashCode) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___mightNeedRebaking) == 0x4d, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___fillEmptySpaces) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___cachedTransform) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___version) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___cachedHashCode) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___globalVolume) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume, ___fillEmptySpaces) == 0x94, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::ProbeVolume) == 0x98, "Size mismatch!");
 

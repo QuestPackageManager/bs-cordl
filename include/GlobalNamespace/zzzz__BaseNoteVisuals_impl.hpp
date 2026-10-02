@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)()>(&::GlobalNamespace::BaseNoteVisuals::Awake)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x58ce610;
+  constexpr static std::size_t addrs = 0x5ce4e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNoteVisuals*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)()>(&::GlobalNamespace::BaseNoteVisuals::OnDestroy)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x58ce75c;
+  constexpr static std::size_t addrs = 0x5ce4fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNoteVisuals*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::BaseNoteVisuals::HandleNoteControllerDidInit)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58ce8f8;
+  constexpr static std::size_t addrs = 0x5ce516c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*, float_t)>(
     &::GlobalNamespace::BaseNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58ce928;
+  constexpr static std::size_t addrs = 0x5ce519c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)(float_t, float_t, float_t)>(&::GlobalNamespace::BaseNoteVisuals::AnimateCutout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58ce938;
+  constexpr static std::size_t addrs = 0x5ce51ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)()>(&::GlobalNamespace::BaseNoteVisuals::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ce95c;
+  constexpr static std::size_t addrs = 0x5ce51d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNoteVisuals*>(), { ".ctor", {}, {} })));

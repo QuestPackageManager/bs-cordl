@@ -24,10 +24,10 @@ namespace System::Net {
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x63f7a9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x681fd68, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get, addr 0x63f7aa0, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x681fd6c, size 0x930, virtual false, abstract: false, final false
   static inline ::StringW Get(int32_t code);
 
 protected:
@@ -45,7 +45,7 @@ public:
   HttpStatusDescription(HttpStatusDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -72,18 +72,18 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method ApplyStyles, addr 0x6ccef08, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyles, addr 0x715ba8c, size 0xe0, virtual false, abstract: false, final false
   inline void ApplyStyles();
 
-  /// @brief Method Dispose, addr 0x6ccf300, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x715be84, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x6cceb34, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x715b6b8, size 0xe8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x6ccecac, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x715b830, size 0x25c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6ccf360, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x715bec4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
@@ -136,10 +136,10 @@ public:
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6ccf2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x715be74, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_profilerMarker, addr 0x6ccead8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x715b65c, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
@@ -147,7 +147,7 @@ public:
   static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6ccf2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x715be7c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -165,7 +165,7 @@ public:
   VisualTreeStyleUpdater(VisualTreeStyleUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5364 };
 
   /// @brief Field m_ApplyStyleUpdateList, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_ApplyStyleUpdateList;

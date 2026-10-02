@@ -37,13 +37,13 @@ public:
       put =
           setStaticF_m_Tracked)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* m_Tracked;
 
-  /// @brief Method RebuildForFont, addr 0x6c23808, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method RebuildForFont, addr 0x7076d64, size 0x1fc, virtual false, abstract: false, final false
   static inline void RebuildForFont(::UnityEngine::Font* f);
 
-  /// @brief Method TrackText, addr 0x6c2358c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method TrackText, addr 0x7076ae8, size 0x27c, virtual false, abstract: false, final false
   static inline void TrackText(::UnityEngine::UI::Text* t);
 
-  /// @brief Method UntrackText, addr 0x6c23974, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method UntrackText, addr 0x7076f60, size 0x220, virtual false, abstract: false, final false
   static inline void UntrackText(::UnityEngine::UI::Text* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* getStaticF_m_Tracked();
@@ -66,7 +66,7 @@ public:
   FontUpdateTracker(FontUpdateTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

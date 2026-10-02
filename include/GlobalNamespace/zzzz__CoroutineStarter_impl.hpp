@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Coroutine* (::GlobalNamespace::CoroutineStarter::*)(::System::Collections::IEnumerator*)>(
     &::GlobalNamespace::CoroutineStarter::ICoroutineStarter_StartCoroutine)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x33239cc;
+  constexpr static std::size_t addrs = 0x35ac96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineStarter*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineStarter::*)(::UnityEngine::Coroutine*)>(
     &::GlobalNamespace::CoroutineStarter::ICoroutineStarter_StopCoroutine)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3323aac;
+  constexpr static std::size_t addrs = 0x35aca4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoroutineStarter::*)()>(&::GlobalNamespace::CoroutineStarter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3323b84;
+  constexpr static std::size_t addrs = 0x35acb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoroutineStarter*>(), { ".ctor", {}, {} })));

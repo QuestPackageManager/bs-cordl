@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(MultiplayerSpectatingSpotPickerViewController)
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
@@ -37,24 +36,24 @@ public:
   /// @brief Field _stepValuePicker, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__stepValuePicker, put = __cordl_internal_set__stepValuePicker)) ::UnityW<::GlobalNamespace::StepValuePicker> _stepValuePicker;
 
-  /// @brief Method HandleDecButtonWasPressed, addr 0x59b2940, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleDecButtonWasPressed, addr 0x5dcdebc, size 0x18, virtual false, abstract: false, final false
   inline void HandleDecButtonWasPressed();
 
-  /// @brief Method HandleIncButtonWasPressed, addr 0x59b2928, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleIncButtonWasPressed, addr 0x5dcdea4, size 0x18, virtual false, abstract: false, final false
   inline void HandleIncButtonWasPressed();
 
-  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x59b2924, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x5dcdea0, size 0x4, virtual false, abstract: false, final false
   inline void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59b2704, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dcdc80, size 0x220, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshSpectatingSpotName, addr 0x59b25f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RefreshSpectatingSpotName, addr 0x5dcdb70, size 0x110, virtual false, abstract: false, final false
   inline void RefreshSpectatingSpotName();
 
-  /// @brief Method Start, addr 0x59b2444, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dcd9c0, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const& __cordl_internal_get__spectatorController() const;
@@ -69,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x59b2958, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dcded4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,10 +86,7 @@ public:
   MultiplayerSpectatingSpotPickerViewController(MultiplayerSpectatingSpotPickerViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6030 };
-
-  /// @brief Field kLabelGrandstandLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kLabelGrandstandLocalizationKey{ u"LABEL_GRANDSTAND" };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
 
   /// [SerializeField]
   /// @brief Field _stepValuePicker, offset: 0x20, size: 0x8, def value: None

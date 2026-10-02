@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ReflectionOnlyType::*)()>(&::System::ReflectionOnlyType::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c89e70;
+  constexpr static std::size_t addrs = 0x60a39b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ReflectionOnlyType*>(), { ".ctor", {}, {} })));
@@ -20,10 +20,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeTypeHandle (::System::ReflectionOnlyType::*)()>(&::System::ReflectionOnlyType::get_TypeHandle)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5c89ec4;
+  constexpr static std::size_t addrs = 0x60a3a0c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ReflectionOnlyType*>(), { ::i2c::class_of<::System::ReflectionOnlyType*>(), 113 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ReflectionOnlyType*>(), { ::i2c::class_of<::System::ReflectionOnlyType*>(), 114 }));
     return ___internal_method;
   }
 };
@@ -32,7 +32,7 @@ inline void System::ReflectionOnlyType::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::RuntimeTypeHandle System::ReflectionOnlyType::get_TypeHandle() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::ReflectionOnlyType*>(), 113 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::ReflectionOnlyType*>(), 114 })));
   return ::cordl_internals::RunMethodRethrow<::System::RuntimeTypeHandle>(this, ___internal_method);
 }
 inline ::System::ReflectionOnlyType* System::ReflectionOnlyType::New_ctor() {

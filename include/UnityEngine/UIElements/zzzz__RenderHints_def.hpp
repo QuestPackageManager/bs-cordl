@@ -31,13 +31,17 @@ public:
     __E_ClipWithScissors = static_cast<int32_t>(0x4),
     __E_MaskContainer = static_cast<int32_t>(0x8),
     __E_DynamicColor = static_cast<int32_t>(0x10),
-    __E_DirtyOffset = static_cast<int32_t>(0x5),
-    __E_DirtyGroupTransform = static_cast<int32_t>(0x20),
-    __E_DirtyBoneTransform = static_cast<int32_t>(0x40),
-    __E_DirtyClipWithScissors = static_cast<int32_t>(0x80),
-    __E_DirtyMaskContainer = static_cast<int32_t>(0x100),
-    __E_DirtyDynamicColor = static_cast<int32_t>(0x200),
-    __E_DirtyAll = static_cast<int32_t>(0x3e0),
+    __E_DynamicPostProcessing = static_cast<int32_t>(0x20),
+    __E_LargePixelCoverage = static_cast<int32_t>(0x40),
+    __E_DirtyOffset = static_cast<int32_t>(0x7),
+    __E_DirtyGroupTransform = static_cast<int32_t>(0x80),
+    __E_DirtyBoneTransform = static_cast<int32_t>(0x100),
+    __E_DirtyClipWithScissors = static_cast<int32_t>(0x200),
+    __E_DirtyMaskContainer = static_cast<int32_t>(0x400),
+    __E_DirtyDynamicColor = static_cast<int32_t>(0x800),
+    __E_DirtyDynamicPostProcessing = static_cast<int32_t>(0x1000),
+    __E_DirtyLargePixelCoverage = static_cast<int32_t>(0x2000),
+    __E_DirtyAll = static_cast<int32_t>(0x3f80),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -63,32 +67,44 @@ public:
   /// @brief Field ClipWithScissors value: I32(4)
   static ::UnityEngine::UIElements::RenderHints const ClipWithScissors;
 
-  /// @brief Field DirtyAll value: I32(992)
+  /// @brief Field DirtyAll value: I32(16256)
   static ::UnityEngine::UIElements::RenderHints const DirtyAll;
 
-  /// @brief Field DirtyBoneTransform value: I32(64)
+  /// @brief Field DirtyBoneTransform value: I32(256)
   static ::UnityEngine::UIElements::RenderHints const DirtyBoneTransform;
 
-  /// @brief Field DirtyClipWithScissors value: I32(128)
+  /// @brief Field DirtyClipWithScissors value: I32(512)
   static ::UnityEngine::UIElements::RenderHints const DirtyClipWithScissors;
 
-  /// @brief Field DirtyDynamicColor value: I32(512)
+  /// @brief Field DirtyDynamicColor value: I32(2048)
   static ::UnityEngine::UIElements::RenderHints const DirtyDynamicColor;
 
-  /// @brief Field DirtyGroupTransform value: I32(32)
+  /// @brief Field DirtyDynamicPostProcessing value: I32(4096)
+  static ::UnityEngine::UIElements::RenderHints const DirtyDynamicPostProcessing;
+
+  /// @brief Field DirtyGroupTransform value: I32(128)
   static ::UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
 
-  /// @brief Field DirtyMaskContainer value: I32(256)
+  /// @brief Field DirtyLargePixelCoverage value: I32(8192)
+  static ::UnityEngine::UIElements::RenderHints const DirtyLargePixelCoverage;
+
+  /// @brief Field DirtyMaskContainer value: I32(1024)
   static ::UnityEngine::UIElements::RenderHints const DirtyMaskContainer;
 
-  /// @brief Field DirtyOffset value: I32(5)
+  /// @brief Field DirtyOffset value: I32(7)
   static ::UnityEngine::UIElements::RenderHints const DirtyOffset;
 
   /// @brief Field DynamicColor value: I32(16)
   static ::UnityEngine::UIElements::RenderHints const DynamicColor;
 
+  /// @brief Field DynamicPostProcessing value: I32(32)
+  static ::UnityEngine::UIElements::RenderHints const DynamicPostProcessing;
+
   /// @brief Field GroupTransform value: I32(1)
   static ::UnityEngine::UIElements::RenderHints const GroupTransform;
+
+  /// @brief Field LargePixelCoverage value: I32(64)
+  static ::UnityEngine::UIElements::RenderHints const LargePixelCoverage;
 
   /// @brief Field MaskContainer value: I32(8)
   static ::UnityEngine::UIElements::RenderHints const MaskContainer;
@@ -97,7 +113,7 @@ public:
   static ::UnityEngine::UIElements::RenderHints const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4680 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

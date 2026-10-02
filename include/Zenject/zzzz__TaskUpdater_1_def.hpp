@@ -119,7 +119,7 @@ public:
   TaskUpdater_1_TaskInfo(TaskUpdater_1_TaskInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14927 };
 
   /// @brief Field Task, offset: 0x10, size: 0x8, def value: None
   TTask ___Task;
@@ -188,7 +188,7 @@ public:
   TaskUpdater_1___c(TaskUpdater_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -243,7 +243,7 @@ public:
   TaskUpdater_1___c__DisplayClass8_0(TaskUpdater_1___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };
 
   /// @brief Field task, offset: 0x10, size: 0x8, def value: None
   TTask ___task;
@@ -351,7 +351,7 @@ public:
   TaskUpdater_1(TaskUpdater_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14930 };
 
   /// @brief Field _tasks, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::Zenject::TaskUpdater_1_TaskInfo<TTask>*>* ____tasks;

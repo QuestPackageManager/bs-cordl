@@ -27,8 +27,8 @@ struct GlyphPairAdjustmentRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
-// [UsedByNativeCode]
 // [DebuggerDisplay("First glyphIndex = {m_FirstAdjustmentRecord.m_GlyphIndex},  Second glyphIndex = {m_SecondAdjustmentRecord.m_GlyphIndex}")]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags, UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -46,33 +46,33 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*();
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x6bc0a8c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x70200b0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x6bc0b04, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7020128, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other);
 
   /// [ExcludeFromDocs]
-  /// @brief Method GetHashCode, addr 0x6bc0a20, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7020044, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6bc09fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7020020, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord firstAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord secondAdjustmentRecord);
 
-  /// @brief Method get_featureLookupFlags, addr 0x6bc09f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureLookupFlags, addr 0x7020018, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags get_featureLookupFlags();
 
-  /// @brief Method get_firstAdjustmentRecord, addr 0x6bc09b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_firstAdjustmentRecord, addr 0x701ffdc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord();
 
-  /// @brief Method get_secondAdjustmentRecord, addr 0x6bc09e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_secondAdjustmentRecord, addr 0x7020004, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_secondAdjustmentRecord();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_();
 
-  /// @brief Method set_firstAdjustmentRecord, addr 0x6bc09cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_firstAdjustmentRecord, addr 0x701fff0, size 0x14, virtual false, abstract: false, final false
   inline void set_firstAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value);
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                       ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22896 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

@@ -16,8 +16,8 @@ class StyleValueKeywordExtension;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleValueKeywordExtension*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleValueKeywordExtension*, "UnityEngine.UIElements", "StyleValueKeywordExtension");
-// [Extension]
 // [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -26,7 +26,7 @@ class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToUssString, addr 0x6c9d428, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x7119f50, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
 
 protected:
@@ -44,7 +44,7 @@ public:
   StyleValueKeywordExtension(StyleValueKeywordExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

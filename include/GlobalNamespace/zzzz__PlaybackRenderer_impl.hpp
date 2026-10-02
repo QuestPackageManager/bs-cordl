@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(&::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e97b0;
+  constexpr static std::size_t addrs = 0x5d03ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(), { "get_name", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
     &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e97b8;
+  constexpr static std::size_t addrs = 0x5d03ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(), { "get_texture", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
     &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_layerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e97c0;
+  constexpr static std::size_t addrs = 0x5d03ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(), { "get_layerMask", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
     &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e97c8;
+  constexpr static std::size_t addrs = 0x5d03ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(), { "get_type", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(&::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e97d0;
+  constexpr static std::size_t addrs = 0x5d03ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(), { "get_path", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)(::StringW)>(
     &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::set_path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e97d8;
+  constexpr static std::size_t addrs = 0x5d03f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)()>(
     &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::get_backgroundColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e97e0;
+  constexpr static std::size_t addrs = 0x5d03f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)(
     ::StringW, ::UnityEngine::LayerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type, ::UnityEngine::Color)>(&::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58e97ec;
+  constexpr static std::size_t addrs = 0x5d03f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::*)(int32_t, int32_t)>(
     &::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot::CreateTexture)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x58e8e14;
+  constexpr static std::size_t addrs = 0x5d0355c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>(),
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::System::Action*)>(&::GlobalNamespace::PlaybackRenderer::add_texturesReadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58e88d8;
+  constexpr static std::size_t addrs = 0x5d03020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::System::Action*)>(&::GlobalNamespace::PlaybackRenderer::remove_texturesReadyEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58e8984;
+  constexpr static std::size_t addrs = 0x5d030cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> (::GlobalNamespace::PlaybackRenderer::*)()>(
     &::GlobalNamespace::PlaybackRenderer::get_screenshots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e8a30;
+  constexpr static std::size_t addrs = 0x5d03178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(), { "get_screenshots", {}, {} })));
@@ -318,7 +318,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::UnityEngine::Camera*, ::UnityEngine::Camera*, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*, int32_t, int32_t,
                                                               ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>)>(&::GlobalNamespace::PlaybackRenderer::Setup)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x58e7f50;
+  constexpr static std::size_t addrs = 0x5d02698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::CreateClipQuad)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x58e8b20;
+  constexpr static std::size_t addrs = 0x5d03268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(), { "CreateClipQuad", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::UnityEngine::Camera*, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*)>(
     &::GlobalNamespace::PlaybackRenderer::InitCamera)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x58e8a38;
+  constexpr static std::size_t addrs = 0x5d03180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(int32_t, int32_t)>(&::GlobalNamespace::PlaybackRenderer::CreateTextures)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x58e8dac;
+  constexpr static std::size_t addrs = 0x5d034f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,8 +376,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::GetDistanceToHMD)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x58e8edc;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x5d03624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(), { "GetDistanceToHMD", {}, {} })));
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::OrientClipQuad)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x58e9208;
+  constexpr static std::size_t addrs = 0x5d03930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(), { "OrientClipQuad", {}, {} })));
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*)>(
     &::GlobalNamespace::PlaybackRenderer::RenderForeground)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x58e9344;
+  constexpr static std::size_t addrs = 0x5d03a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(),
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*)>(
     &::GlobalNamespace::PlaybackRenderer::RenderBackground)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x58e956c;
+  constexpr static std::size_t addrs = 0x5d03c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(),
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::LateUpdate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58e96fc;
+  constexpr static std::size_t addrs = 0x5d03e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(), { "LateUpdate", {}, {} })));
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlaybackRenderer::*)()>(&::GlobalNamespace::PlaybackRenderer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e97ac;
+  constexpr static std::size_t addrs = 0x5d03ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlaybackRenderer*>(), { ".ctor", {}, {} })));

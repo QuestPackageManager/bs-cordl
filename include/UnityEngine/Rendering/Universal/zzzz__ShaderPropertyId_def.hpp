@@ -107,6 +107,9 @@ public:
   /// @brief Field lightPosition, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_lightPosition, put = setStaticF_lightPosition)) int32_t lightPosition;
 
+  /// @brief Field offscreenUIViewportParams, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_offscreenUIViewportParams, put = setStaticF_offscreenUIViewportParams)) int32_t offscreenUIViewportParams;
+
   /// @brief Field orthoParams, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_orthoParams, put = setStaticF_orthoParams)) int32_t orthoParams;
 
@@ -131,9 +134,6 @@ public:
   /// @brief Field renderingLayerMaxInt, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_renderingLayerMaxInt, put = setStaticF_renderingLayerMaxInt)) int32_t renderingLayerMaxInt;
 
-  /// @brief Field renderingLayerRcpMaxInt, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_renderingLayerRcpMaxInt, put = setStaticF_renderingLayerRcpMaxInt)) int32_t renderingLayerRcpMaxInt;
-
   /// @brief Field rtHandleScale, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_rtHandleScale, put = setStaticF_rtHandleScale)) int32_t rtHandleScale;
 
@@ -157,6 +157,9 @@ public:
 
   /// @brief Field screenSizeOverride, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_screenSizeOverride, put = setStaticF_screenSizeOverride)) int32_t screenSizeOverride;
+
+  /// @brief Field screenSpaceIrradiance, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_screenSpaceIrradiance, put = setStaticF_screenSpaceIrradiance)) int32_t screenSpaceIrradiance;
 
   /// @brief Field shadowBias, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_shadowBias, put = setStaticF_shadowBias)) int32_t shadowBias;
@@ -255,6 +258,8 @@ public:
 
   static inline int32_t getStaticF_lightPosition();
 
+  static inline int32_t getStaticF_offscreenUIViewportParams();
+
   static inline int32_t getStaticF_orthoParams();
 
   static inline int32_t getStaticF_overlayUITexture();
@@ -271,8 +276,6 @@ public:
 
   static inline int32_t getStaticF_renderingLayerMaxInt();
 
-  static inline int32_t getStaticF_renderingLayerRcpMaxInt();
-
   static inline int32_t getStaticF_rtHandleScale();
 
   static inline int32_t getStaticF_scaleBias();
@@ -288,6 +291,8 @@ public:
   static inline int32_t getStaticF_screenSize();
 
   static inline int32_t getStaticF_screenSizeOverride();
+
+  static inline int32_t getStaticF_screenSpaceIrradiance();
 
   static inline int32_t getStaticF_shadowBias();
 
@@ -373,6 +378,8 @@ public:
 
   static inline void setStaticF_lightPosition(int32_t value);
 
+  static inline void setStaticF_offscreenUIViewportParams(int32_t value);
+
   static inline void setStaticF_orthoParams(int32_t value);
 
   static inline void setStaticF_overlayUITexture(int32_t value);
@@ -389,8 +396,6 @@ public:
 
   static inline void setStaticF_renderingLayerMaxInt(int32_t value);
 
-  static inline void setStaticF_renderingLayerRcpMaxInt(int32_t value);
-
   static inline void setStaticF_rtHandleScale(int32_t value);
 
   static inline void setStaticF_scaleBias(int32_t value);
@@ -406,6 +411,8 @@ public:
   static inline void setStaticF_screenSize(int32_t value);
 
   static inline void setStaticF_screenSizeOverride(int32_t value);
+
+  static inline void setStaticF_screenSpaceIrradiance(int32_t value);
 
   static inline void setStaticF_shadowBias(int32_t value);
 
@@ -448,7 +455,7 @@ public:
   ShaderPropertyId(ShaderPropertyId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

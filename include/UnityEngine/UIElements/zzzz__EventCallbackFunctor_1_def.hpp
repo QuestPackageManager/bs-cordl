@@ -13,13 +13,13 @@ namespace UnityEngine::UIElements {
 class CallbackEventHandler;
 }
 namespace UnityEngine::UIElements {
+struct CallbackOptions;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
 struct TrickleDown;
@@ -48,7 +48,7 @@ public:
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* GetPooled(int64_t eventTypeId, ::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
-                                                                                         ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+                                                                                         ::UnityEngine::UIElements::CallbackOptions callbackOptions);
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt);
@@ -85,7 +85,7 @@ public:
   EventCallbackFunctor_1(EventCallbackFunctor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
 
   /// @brief Field m_Callback, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_1<TEventType>* ___m_Callback;

@@ -53,6 +53,15 @@ template <typename T> inline void System::Lazy_1<T>::_ctor(::System::Func_1<T>* 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Lazy_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<::System::Func_1<T>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, valueFactory);
 }
+template <typename T> inline void System::Lazy_1<T>::_ctor(bool isThreadSafe) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Lazy_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isThreadSafe);
+}
+template <typename T> inline void System::Lazy_1<T>::_ctor(::System::Func_1<T>* valueFactory, bool isThreadSafe) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Lazy_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<::System::Func_1<T>*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, valueFactory, isThreadSafe);
+}
 template <typename T> inline void System::Lazy_1<T>::_ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Lazy_1<T>*>(),
@@ -113,6 +122,12 @@ template <typename T> inline ::System::Lazy_1<T>* System::Lazy_1<T>::New_ctor() 
 }
 template <typename T> inline ::System::Lazy_1<T>* System::Lazy_1<T>::New_ctor(::System::Func_1<T>* valueFactory) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Lazy_1<T>*>(valueFactory));
+}
+template <typename T> inline ::System::Lazy_1<T>* System::Lazy_1<T>::New_ctor(bool isThreadSafe) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Lazy_1<T>*>(isThreadSafe));
+}
+template <typename T> inline ::System::Lazy_1<T>* System::Lazy_1<T>::New_ctor(::System::Func_1<T>* valueFactory, bool isThreadSafe) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Lazy_1<T>*>(valueFactory, isThreadSafe));
 }
 template <typename T> inline ::System::Lazy_1<T>* System::Lazy_1<T>::New_ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Lazy_1<T>*>(valueFactory, mode, useDefaultConstructor));

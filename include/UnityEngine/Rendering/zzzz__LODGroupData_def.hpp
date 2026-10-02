@@ -48,7 +48,7 @@ public:
   constexpr LODGroupData__fadeTransitionWidth_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -86,7 +86,7 @@ public:
   constexpr LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18281 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -129,7 +129,7 @@ public:
                          ::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer fadeTransitionWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18282 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4c };

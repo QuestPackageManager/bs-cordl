@@ -45,25 +45,25 @@ public:
 
   static inline ::UnityEngine::Rendering::FrameTimeSampleHistory___c* New_ctor();
 
-  /// @brief Method <.cctor>b__15_0, addr 0x676d7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__15_0, addr 0x6b85870, size 0x8, virtual false, abstract: false, final false
   inline float_t __cctor_b__15_0(float_t value, float_t other);
 
-  /// @brief Method <.cctor>b__15_1, addr 0x676d7cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__15_1, addr 0x6b85878, size 0x14, virtual false, abstract: false, final false
   inline float_t __cctor_b__15_1(float_t value, float_t other);
 
-  /// @brief Method <.cctor>b__15_2, addr 0x676d7e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__15_2, addr 0x6b8588c, size 0xc, virtual false, abstract: false, final false
   inline float_t __cctor_b__15_2(float_t value, float_t other);
 
-  /// @brief Method <.cctor>b__15_3, addr 0x676d7ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__15_3, addr 0x6b85898, size 0x14, virtual false, abstract: false, final false
   inline float_t __cctor_b__15_3(float_t value, float_t other);
 
-  /// @brief Method <.cctor>b__15_4, addr 0x676d800, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__15_4, addr 0x6b858ac, size 0x10, virtual false, abstract: false, final false
   inline float_t __cctor_b__15_4(float_t value, float_t other);
 
-  /// @brief Method <.cctor>b__15_5, addr 0x676d810, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__15_5, addr 0x6b858bc, size 0x14, virtual false, abstract: false, final false
   inline float_t __cctor_b__15_5(float_t value, float_t other);
 
-  /// @brief Method .ctor, addr 0x676d7c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8586c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::FrameTimeSampleHistory___c* getStaticF___9();
@@ -85,7 +85,7 @@ public:
   FrameTimeSampleHistory___c(FrameTimeSampleHistory___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,22 +132,22 @@ public:
   /// @brief Field s_SampleValueMin, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SampleValueMin, put = setStaticF_s_SampleValueMin)) ::System::Func_3<float_t, float_t, float_t>* s_SampleValueMin;
 
-  /// @brief Method Add, addr 0x6760ec4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6b782a0, size 0xe8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Rendering::FrameTimeSample sample);
 
-  /// @brief Method Clear, addr 0x6762b08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6b79ee0, size 0x58, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeAggregateValues, addr 0x6760fac, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ComputeAggregateValues, addr 0x6b78388, size 0x258, virtual false, abstract: false, final false
   inline void ComputeAggregateValues();
 
-  /// @brief Method DiscardOldSamples, addr 0x6760e14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DiscardOldSamples, addr 0x6b781f0, size 0xb0, virtual false, abstract: false, final false
   inline void DiscardOldSamples(int32_t sampleHistorySize);
 
   static inline ::UnityEngine::Rendering::FrameTimeSampleHistory* New_ctor(int32_t initialCapacity);
 
   /// [CompilerGenerated]
-  /// @brief Method <ComputeAggregateValues>g__ForEachSampleMember|12_0, addr 0x676d438, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <ComputeAggregateValues>g__ForEachSampleMember|12_0, addr 0x6b854e4, size 0xe4, virtual false, abstract: false, final false
   static inline void _ComputeAggregateValues_g__ForEachSampleMember_12_0(::by_ref<::UnityEngine::Rendering::FrameTimeSample> aggregate, ::UnityEngine::Rendering::FrameTimeSample sample,
                                                                          ::System::Func_3<float_t, float_t, float_t>* func);
 
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Samples(::System::Collections::Generic::List_1<::UnityEngine::Rendering::FrameTimeSample>* value);
 
-  /// @brief Method .ctor, addr 0x6760ad8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b77eb4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
   static inline ::System::Func_3<float_t, float_t, float_t>* getStaticF_s_SampleValueAdd();
@@ -217,7 +217,7 @@ public:
   FrameTimeSampleHistory(FrameTimeSampleHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8910 };
 
   /// @brief Field m_Samples, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::FrameTimeSample>* ___m_Samples;

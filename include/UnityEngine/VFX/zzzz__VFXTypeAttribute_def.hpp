@@ -67,7 +67,7 @@ public:
   static ::UnityEngine::VFX::VFXTypeAttribute_Usage const GraphicsBuffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20193 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,23 +117,23 @@ public:
 
   constexpr void __cordl_internal_set__usages_k__BackingField(::UnityEngine::VFX::VFXTypeAttribute_Usage value);
 
-  /// @brief Method .ctor, addr 0x69d2234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0f3c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::VFX::VFXTypeAttribute_Usage usages, ::StringW name);
 
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x69d2250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6e0f3e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// [CompilerGenerated]
-  /// @brief Method get_usages, addr 0x69d2240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x6e0f3d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXTypeAttribute_Usage get_usages();
 
   /// [CompilerGenerated]
-  /// @brief Method set_name, addr 0x69d2258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6e0f3e8, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_usages, addr 0x69d2248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x6e0f3d8, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::UnityEngine::VFX::VFXTypeAttribute_Usage value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   VFXTypeAttribute(VFXTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20194 };
 
   /// [CompilerGenerated]
   /// @brief Field <usages>k__BackingField, offset: 0x10, size: 0x4, def value: None

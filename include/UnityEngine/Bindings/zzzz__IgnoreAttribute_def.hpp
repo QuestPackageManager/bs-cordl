@@ -12,8 +12,8 @@ class IgnoreAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::IgnoreAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
-// [AttributeUsage((System.AttributeTargets)256)]
 // [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -35,11 +35,11 @@ public:
 
   constexpr void __cordl_internal_set__DoesNotContributeToSize_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6bb6574, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7015094, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_DoesNotContributeToSize, addr 0x6bb656c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DoesNotContributeToSize, addr 0x701508c, size 0x8, virtual false, abstract: false, final false
   inline void set_DoesNotContributeToSize(bool value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   IgnoreAttribute(IgnoreAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23545 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredGameNoteController_Pool::*)()>(&::GlobalNamespace::MirroredGameNoteController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58d2d14;
+  constexpr static std::size_t addrs = 0x5ce9530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredGameNoteController_Pool*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*)>(
     &::GlobalNamespace::MirroredGameNoteController::add_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58d282c;
+  constexpr static std::size_t addrs = 0x5ce9048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*)>(
     &::GlobalNamespace::MirroredGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58d28ec;
+  constexpr static std::size_t addrs = 0x5ce9108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::NoteMovement> (::GlobalNamespace::MirroredGameNoteController::*)()>(
     &::GlobalNamespace::MirroredGameNoteController::get_noteMovement)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58d29ac;
+  constexpr static std::size_t addrs = 0x5ce91c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredGameNoteController*>(), { "get_noteMovement", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteVisualModifierType (::GlobalNamespace::MirroredGameNoteController::*)()>(
     &::GlobalNamespace::MirroredGameNoteController::get_noteVisualModifierType)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x58d2a5c;
+  constexpr static std::size_t addrs = 0x5ce9278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(::GlobalNamespace::IGameNoteMirrorable*)>(
     &::GlobalNamespace::MirroredGameNoteController::Mirror)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x58d2b04;
+  constexpr static std::size_t addrs = 0x5ce9320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)()>(&::GlobalNamespace::MirroredGameNoteController::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x58d2c58;
+  constexpr static std::size_t addrs = 0x5ce9474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredGameNoteController*>(), { ".ctor", {}, {} })));

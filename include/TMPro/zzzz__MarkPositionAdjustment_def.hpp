@@ -24,19 +24,19 @@ public:
 
   __declspec(property(get = get_yPositionAdjustment, put = set_yPositionAdjustment)) float_t yPositionAdjustment;
 
-  /// @brief Method .ctor, addr 0x69378c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4f590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y);
 
-  /// @brief Method get_xPositionAdjustment, addr 0x69378a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPositionAdjustment, addr 0x6d4f570, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPositionAdjustment();
 
-  /// @brief Method get_yPositionAdjustment, addr 0x69378b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPositionAdjustment, addr 0x6d4f580, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPositionAdjustment();
 
-  /// @brief Method set_xPositionAdjustment, addr 0x69378b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xPositionAdjustment, addr 0x6d4f578, size 0x8, virtual false, abstract: false, final false
   inline void set_xPositionAdjustment(float_t value);
 
-  /// @brief Method set_yPositionAdjustment, addr 0x69378c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yPositionAdjustment, addr 0x6d4f588, size 0x8, virtual false, abstract: false, final false
   inline void set_yPositionAdjustment(float_t value);
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16089 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::StringW)>(&::System::Security::Principal::SecurityIdentifier::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5b13d00;
+  constexpr static std::size_t addrs = 0x5f2bbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Principal::SecurityIdentifier::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b141fc;
+  constexpr static std::size_t addrs = 0x5f2c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::System::IntPtr, int32_t)>(
     &::System::Security::Principal::SecurityIdentifier::CreateFromBinaryForm)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5b142b8;
+  constexpr static std::size_t addrs = 0x5f2c1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Principal::SecurityIdentifier::*)()>(&::System::Security::Principal::SecurityIdentifier::get_BinaryLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b14400;
+  constexpr static std::size_t addrs = 0x5f2c2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(), { "get_BinaryLength", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::SecurityIdentifier::*)()>(&::System::Security::Principal::SecurityIdentifier::get_Value)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5b14418;
+  constexpr static std::size_t addrs = 0x5f2c310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::System::Security::Principal::SecurityIdentifier::*)()>(&::System::Security::Principal::SecurityIdentifier::GetSidAuthority)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5b1460c;
+  constexpr static std::size_t addrs = 0x5f2c504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(), { "GetSidAuthority", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Security::Principal::SecurityIdentifier::*)()>(&::System::Security::Principal::SecurityIdentifier::GetSidSubAuthorityCount)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b14708;
+  constexpr static std::size_t addrs = 0x5f2c600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Security::Principal::SecurityIdentifier::*)(uint8_t)>(
     &::System::Security::Principal::SecurityIdentifier::GetSidSubAuthority)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5b1468c;
+  constexpr static std::size_t addrs = 0x5f2c584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Principal::SecurityIdentifier::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::Principal::SecurityIdentifier::CompareTo)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5b14734;
+  constexpr static std::size_t addrs = 0x5f2c62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(),
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Principal::SecurityIdentifier::*)(::System::Object*)>(&::System::Security::Principal::SecurityIdentifier::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5b148d8;
+  constexpr static std::size_t addrs = 0x5f2c7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Principal::SecurityIdentifier::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::Principal::SecurityIdentifier::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5b14948;
+  constexpr static std::size_t addrs = 0x5f2c840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Principal::SecurityIdentifier::GetBinaryForm)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5b149f0;
+  constexpr static std::size_t addrs = 0x5f2c8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(),
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Principal::SecurityIdentifier::*)()>(&::System::Security::Principal::SecurityIdentifier::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b14ab0;
+  constexpr static std::size_t addrs = 0x5f2c9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::SecurityIdentifier::*)()>(&::System::Security::Principal::SecurityIdentifier::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b14ad8;
+  constexpr static std::size_t addrs = 0x5f2c9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::IdentityReference* (::System::Security::Principal::SecurityIdentifier::*)(::System::Type*)>(
     &::System::Security::Principal::SecurityIdentifier::Translate)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5b14ae4;
+  constexpr static std::size_t addrs = 0x5f2c9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Principal::SecurityIdentifier*, ::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::Principal::SecurityIdentifier::op_Equality)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b14874;
+  constexpr static std::size_t addrs = 0x5f2c76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::System::Security::Principal::SecurityIdentifier::ParseSddlForm)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x5b13db8;
+  constexpr static std::size_t addrs = 0x5f2bcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<uint64_t>)>(&::System::Security::Principal::SecurityIdentifier::TryParseAuthority)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5b14e4c;
+  constexpr static std::size_t addrs = 0x5f2cd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(),
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<uint32_t>)>(&::System::Security::Principal::SecurityIdentifier::TryParseSubAuthority)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5b14f44;
+  constexpr static std::size_t addrs = 0x5f2ce3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::SecurityIdentifier*>(),

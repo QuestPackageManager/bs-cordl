@@ -10,7 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializedCommand)
 namespace UnityEngine {
-class Texture;
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -33,17 +33,19 @@ public:
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::UIR::SerializedCommandType", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexBuffer", ty:
   // "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "firstRange", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "rangeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "textureName", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "gpuDataOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gpuData0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "gpuData1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
+  // "textureName", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "texturePtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "gpuDataOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gpuData0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "gpuData1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "userProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr SerializedCommand(::UnityEngine::UIElements::UIR::SerializedCommandType type, ::System::IntPtr vertexBuffer, ::System::IntPtr indexBuffer, int32_t firstRange, int32_t rangeCount,
-                              int32_t textureName, ::UnityW<::UnityEngine::Texture> texture, int32_t gpuDataOffset, ::UnityEngine::Vector4 gpuData0, ::UnityEngine::Vector4 gpuData1) noexcept;
+                              int32_t textureName, ::System::IntPtr texturePtr, int32_t gpuDataOffset, ::UnityEngine::Vector4 gpuData0, ::UnityEngine::Vector4 gpuData1,
+                              ::UnityEngine::MaterialPropertyBlock* userProps) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5387 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::UIR::SerializedCommandType type;
@@ -63,8 +65,8 @@ public:
   /// @brief Field textureName, offset: 0x20, size: 0x4, def value: None
   int32_t textureName;
 
-  /// @brief Field texture, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture> texture;
+  /// @brief Field texturePtr, offset: 0x28, size: 0x8, def value: None
+  ::System::IntPtr texturePtr;
 
   /// @brief Field gpuDataOffset, offset: 0x30, size: 0x4, def value: None
   int32_t gpuDataOffset;
@@ -74,6 +76,9 @@ public:
 
   /// @brief Field gpuData1, offset: 0x44, size: 0x10, def value: None
   ::UnityEngine::Vector4 gpuData1;
+
+  /// @brief Field userProps, offset: 0x58, size: 0x8, def value: None
+  ::UnityEngine::MaterialPropertyBlock* userProps;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -90,7 +95,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, rangeC
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, textureName) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, texture) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, texturePtr) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, gpuDataOffset) == 0x30, "Offset mismatch!");
 
@@ -98,6 +103,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, gpuDat
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, gpuData1) == 0x44, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::UIR::SerializedCommand) == 0x58, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::SerializedCommand, userProps) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::SerializedCommand) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR

@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_ColorScheme::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_ColorScheme::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37600fc;
+  constexpr static std::size_t addrs = 0x39e97dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_ColorScheme*>(), { ".ctor", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_DifficultyBeatmap::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_DifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3760100;
+  constexpr static std::size_t addrs = 0x39e97e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::*)()>(&::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x376001c;
+  constexpr static std::size_t addrs = 0x39e96fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>(), { ".ctor", {}, {} })));

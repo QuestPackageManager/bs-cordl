@@ -11,3 +11,4 @@ constexpr ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::Ho
 constexpr ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::HorizontalAlignment::Center{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::HorizontalAlignment::Right{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::HorizontalAlignment::Justified{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::HorizontalAlignment::Flush{ static_cast<int32_t>(0x4) };

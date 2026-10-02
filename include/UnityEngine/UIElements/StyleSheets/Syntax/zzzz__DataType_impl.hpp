@@ -16,5 +16,8 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Resource{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Url{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Time{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Angle{ static_cast<int32_t>(0x9) };
-constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::CustomIdent{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::FilterFunction{ static_cast<int32_t>(0x9) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Prop{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Angle{ static_cast<int32_t>(0xb) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::CustomIdent{ static_cast<int32_t>(0xc) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Ratio{ static_cast<int32_t>(0xd) };

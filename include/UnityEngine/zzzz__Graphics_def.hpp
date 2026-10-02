@@ -102,12 +102,12 @@ class Graphics;
 // Write type traits
 MARK_REF_T(::UnityEngine::Graphics*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Graphics*, "UnityEngine", "Graphics");
+// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
+// [NativeHeader("Runtime/Graphics/CopyTexture.h")]
 // [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
 // [NativeHeader("Runtime/Misc/PlayerSettings.h")]
-// [NativeHeader("Runtime/Camera/LightProbeProxyVolume.h")]
 // [NativeHeader("Runtime/Graphics/ColorGamut.h")]
-// [NativeHeader("Runtime/Graphics/CopyTexture.h")]
-// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
+// [NativeHeader("Runtime/Camera/LightProbeProxyVolume.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -122,92 +122,92 @@ public:
   __declspec(property(get = getStaticF_s_RenderInstancedDataLayouts,
                       put = setStaticF_s_RenderInstancedDataLayouts)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::RenderInstancedDataLayout>* s_RenderInstancedDataLayouts;
 
-  /// @brief Method Blit, addr 0x6a885b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x6edb588, size 0x68, virtual false, abstract: false, final false
   static inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method Blit, addr 0x6a88738, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x6edb70c, size 0x74, virtual false, abstract: false, final false
   static inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat);
 
-  /// @brief Method Blit, addr 0x6a886b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x6edb688, size 0x84, virtual false, abstract: false, final false
   static inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, /* [DefaultValue("-1")] */ int32_t pass);
 
-  /// @brief Method Blit, addr 0x6a8861c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x6edb5f0, size 0x98, virtual false, abstract: false, final false
   static inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset);
 
   /// [FreeFunction("GraphicsScripting::Blit")]
-  /// @brief Method Blit2, addr 0x6a86e08, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Blit2, addr 0x6ed9e4c, size 0xe8, virtual false, abstract: false, final false
   static inline void Blit2(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method Blit2_Injected, addr 0x6a86ef0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Blit2_Injected, addr 0x6ed9f34, size 0x44, virtual false, abstract: false, final false
   static inline void Blit2_Injected(::System::IntPtr source, ::System::IntPtr dest);
 
   /// [FreeFunction("GraphicsScripting::Blit")]
-  /// @brief Method Blit4, addr 0x6a86f34, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Blit4, addr 0x6ed9f78, size 0x104, virtual false, abstract: false, final false
   static inline void Blit4(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset);
 
-  /// @brief Method Blit4_Injected, addr 0x6a87038, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Blit4_Injected, addr 0x6eda07c, size 0x5c, virtual false, abstract: false, final false
   static inline void Blit4_Injected(::System::IntPtr source, ::System::IntPtr dest, ::by_ref<::UnityEngine::Vector2> scale, ::by_ref<::UnityEngine::Vector2> offset);
 
-  /// @brief Method CheckLoadActionValid, addr 0x6a87188, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckLoadActionValid, addr 0x6eda1cc, size 0x6c, virtual false, abstract: false, final false
   static inline void CheckLoadActionValid(::UnityEngine::Rendering::RenderBufferLoadAction load, ::StringW bufferType);
 
-  /// @brief Method CheckStoreActionValid, addr 0x6a8722c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckStoreActionValid, addr 0x6eda238, size 0x70, virtual false, abstract: false, final false
   static inline void CheckStoreActionValid(::UnityEngine::Rendering::RenderBufferStoreAction store, ::StringW bufferType);
 
   /// [StaticAccessor("GetGfxDevice()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method ClearRandomWriteTargets, addr 0x6a85e18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ClearRandomWriteTargets, addr 0x6ed8e5c, size 0x28, virtual false, abstract: false, final false
   static inline void ClearRandomWriteTargets();
 
-  /// @brief Method CopyTexture, addr 0x6a87854, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture, addr 0x6eda828, size 0x98, virtual false, abstract: false, final false
   static inline void CopyTexture(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, ::UnityEngine::Texture* dst, int32_t dstElement, int32_t dstMip);
 
-  /// @brief Method CopyTexture, addr 0x6a878ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture, addr 0x6eda8c0, size 0x124, virtual false, abstract: false, final false
   static inline void CopyTexture(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, ::UnityEngine::Texture* dst,
                                  int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY);
 
   /// [FreeFunction("CopyTextureRegion")]
-  /// @brief Method CopyTexture_Region, addr 0x6a85fb4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture_Region, addr 0x6ed8ff8, size 0x138, virtual false, abstract: false, final false
   static inline void CopyTexture_Region(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, ::UnityEngine::Texture* dst,
                                         int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY);
 
-  /// @brief Method CopyTexture_Region_Injected, addr 0x6a860ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture_Region_Injected, addr 0x6ed9130, size 0xc0, virtual false, abstract: false, final false
   static inline void CopyTexture_Region_Injected(::System::IntPtr src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight, ::System::IntPtr dst,
                                                  int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY);
 
   /// [FreeFunction("CopyTexture")]
-  /// @brief Method CopyTexture_Slice, addr 0x6a85e40, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture_Slice, addr 0x6ed8e84, size 0x100, virtual false, abstract: false, final false
   static inline void CopyTexture_Slice(::UnityEngine::Texture* src, int32_t srcElement, int32_t srcMip, ::UnityEngine::Texture* dst, int32_t dstElement, int32_t dstMip);
 
-  /// @brief Method CopyTexture_Slice_Injected, addr 0x6a85f40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture_Slice_Injected, addr 0x6ed8f84, size 0x74, virtual false, abstract: false, final false
   static inline void CopyTexture_Slice_Injected(::System::IntPtr src, int32_t srcElement, int32_t srcMip, ::System::IntPtr dst, int32_t dstElement, int32_t dstMip);
 
   /// [ExcludeFromDocs]
-  /// @brief Method DrawMesh, addr 0x6a88904, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6edb910, size 0xd4, virtual false, abstract: false, final false
   static inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t layer, ::UnityEngine::Camera* camera, int32_t submeshIndex,
                               ::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method DrawMesh, addr 0x6a87b30, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6edab04, size 0x1a0, virtual false, abstract: false, final false
   static inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t layer, ::UnityEngine::Camera* camera, int32_t submeshIndex,
                               ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, ::UnityEngine::Transform* probeAnchor,
                               ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, /* [DefaultValue("null")] */ ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
   /// [ExcludeFromDocs]
-  /// @brief Method DrawMesh, addr 0x6a887ac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6edb780, size 0x190, virtual false, abstract: false, final false
   static inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Material* material, int32_t layer,
                               ::UnityEngine::Camera* camera);
 
   /// [ExcludeFromDocs]
-  /// @brief Method DrawMeshInstanced, addr 0x6a889d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInstanced, addr 0x6edb9e4, size 0xd4, virtual false, abstract: false, final false
   static inline void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count,
                                        ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer);
 
   /// [ExcludeFromDocs]
-  /// @brief Method DrawMeshInstanced, addr 0x6a88aac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInstanced, addr 0x6edbab8, size 0xd8, virtual false, abstract: false, final false
   static inline void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count,
                                        ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer,
                                        ::UnityEngine::Camera* camera);
 
-  /// @brief Method DrawMeshInstanced, addr 0x6a87cd0, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInstanced, addr 0x6edaca4, size 0x434, virtual false, abstract: false, final false
   static inline void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices,
                                        /* [DefaultValue("matrices.Length")] */ int32_t count, /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties,
                                        /* [DefaultValue("ShadowCastingMode.On")] */ ::UnityEngine::Rendering::ShadowCastingMode castShadows, /* [DefaultValue("true")] */ bool receiveShadows,
@@ -216,13 +216,13 @@ public:
                                        /* [DefaultValue("null")] */ ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
   /// [ExcludeFromDocs]
-  /// @brief Method DrawMeshInstancedIndirect, addr 0x6a88b84, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInstancedIndirect, addr 0x6edbb90, size 0xf4, virtual false, abstract: false, final false
   static inline void DrawMeshInstancedIndirect(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::UnityEngine::Bounds bounds,
                                                ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset, ::UnityEngine::MaterialPropertyBlock* properties,
                                                ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::UnityEngine::Camera* camera,
                                                ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage);
 
-  /// @brief Method DrawMeshInstancedIndirect, addr 0x6a881ac, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInstancedIndirect, addr 0x6edb180, size 0x378, virtual false, abstract: false, final false
   static inline void DrawMeshInstancedIndirect(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, ::UnityEngine::Bounds bounds,
                                                ::UnityEngine::ComputeBuffer* bufferWithArgs, /* [DefaultValue("0")] */ int32_t argsOffset,
                                                /* [DefaultValue("null")] */ ::UnityEngine::MaterialPropertyBlock* properties,
@@ -231,159 +231,159 @@ public:
                                                /* [DefaultValue("LightProbeUsage.BlendProbes")] */ ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
                                                /* [DefaultValue("null")] */ ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
-  /// @brief Method DrawMeshNow, addr 0x6a87a10, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshNow, addr 0x6eda9e4, size 0x120, virtual false, abstract: false, final false
   static inline void DrawMeshNow(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, int32_t materialIndex);
 
-  /// @brief Method DrawProceduralNow, addr 0x6a88524, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DrawProceduralNow, addr 0x6edb4f8, size 0x90, virtual false, abstract: false, final false
   static inline void DrawProceduralNow(::UnityEngine::MeshTopology topology, int32_t vertexCount, int32_t instanceCount);
 
   /// [NativeMethod(Name = "GraphicsScripting::ExecuteCommandBuffer", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method ExecuteCommandBuffer, addr 0x6a87094, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBuffer, addr 0x6eda0d8, size 0xb8, virtual false, abstract: false, final false
   static inline void ExecuteCommandBuffer(/* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* buffer);
 
-  /// @brief Method ExecuteCommandBuffer_Injected, addr 0x6a8714c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBuffer_Injected, addr 0x6eda190, size 0x3c, virtual false, abstract: false, final false
   static inline void ExecuteCommandBuffer_Injected(::System::IntPtr buffer);
 
   /// [NativeMethod(Name = "GetMinOpenGLESVersion")]
   /// [StaticAccessor("GetPlayerSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetMinOpenGLESVersion, addr 0x6a85950, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMinOpenGLESVersion, addr 0x6ed8994, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::OpenGLESVersion GetMinOpenGLESVersion();
 
-  /// [NativeMethod(Name = "GetPreserveFramebufferAlpha")]
   /// [StaticAccessor("GetPlayerSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method GetPreserveFramebufferAlpha, addr 0x6a858bc, size 0x28, virtual false, abstract: false, final false
+  /// [NativeMethod(Name = "GetPreserveFramebufferAlpha")]
+  /// @brief Method GetPreserveFramebufferAlpha, addr 0x6ed8900, size 0x28, virtual false, abstract: false, final false
   static inline bool GetPreserveFramebufferAlpha();
 
   /// [FreeFunction("GraphicsScripting::BlitMaterial")]
-  /// @brief Method Internal_BlitMaterial5, addr 0x6a86c40, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Internal_BlitMaterial5, addr 0x6ed9c84, size 0x15c, virtual false, abstract: false, final false
   static inline void Internal_BlitMaterial5(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, /* [NotNull] */ ::UnityEngine::Material* mat, int32_t pass, bool setRT);
 
-  /// @brief Method Internal_BlitMaterial5_Injected, addr 0x6a86d9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_BlitMaterial5_Injected, addr 0x6ed9de0, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_BlitMaterial5_Injected(::System::IntPtr source, ::System::IntPtr dest, ::System::IntPtr mat, int32_t pass, bool setRT);
 
   /// [FreeFunction("GraphicsScripting::DrawMesh")]
-  /// @brief Method Internal_DrawMesh, addr 0x6a862e4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMesh, addr 0x6ed9328, size 0x200, virtual false, abstract: false, final false
   static inline void Internal_DrawMesh(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t layer,
                                        ::UnityEngine::Camera* camera, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows,
                                        ::UnityEngine::Transform* probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
   /// [FreeFunction("GraphicsScripting::DrawMeshInstanced")]
-  /// @brief Method Internal_DrawMeshInstanced, addr 0x6a865a8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshInstanced, addr 0x6ed95ec, size 0x294, virtual false, abstract: false, final false
   static inline void Internal_DrawMeshInstanced(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t submeshIndex, /* [NotNull] */ ::UnityEngine::Material* material,
                                                 ::ArrayW<::UnityEngine::Matrix4x4> matrices, int32_t count, ::UnityEngine::MaterialPropertyBlock* properties,
                                                 ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::UnityEngine::Camera* camera,
                                                 ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
   /// [FreeFunction("GraphicsScripting::DrawMeshInstancedIndirect")]
-  /// @brief Method Internal_DrawMeshInstancedIndirect, addr 0x6a86900, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshInstancedIndirect, addr 0x6ed9944, size 0x228, virtual false, abstract: false, final false
   static inline void Internal_DrawMeshInstancedIndirect(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t submeshIndex, /* [NotNull] */ ::UnityEngine::Material* material,
                                                         ::UnityEngine::Bounds bounds, ::UnityEngine::ComputeBuffer* bufferWithArgs, int32_t argsOffset,
                                                         ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer,
                                                         ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage,
                                                         ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
 
-  /// @brief Method Internal_DrawMeshInstancedIndirect_Injected, addr 0x6a86b28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshInstancedIndirect_Injected, addr 0x6ed9b6c, size 0xc4, virtual false, abstract: false, final false
   static inline void Internal_DrawMeshInstancedIndirect_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, ::by_ref<::UnityEngine::Bounds> bounds,
                                                                  ::System::IntPtr bufferWithArgs, int32_t argsOffset, ::System::IntPtr properties,
                                                                  ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::System::IntPtr camera,
                                                                  ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume);
 
-  /// @brief Method Internal_DrawMeshInstanced_Injected, addr 0x6a8683c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshInstanced_Injected, addr 0x6ed9880, size 0xc4, virtual false, abstract: false, final false
   static inline void Internal_DrawMeshInstanced_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> matrices,
                                                          int32_t count, ::System::IntPtr properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer,
                                                          ::System::IntPtr camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume);
 
   /// [FreeFunction("GraphicsScripting::DrawMeshNow")]
-  /// @brief Method Internal_DrawMeshNow2, addr 0x6a861ac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshNow2, addr 0x6ed91f0, size 0xe4, virtual false, abstract: false, final false
   static inline void Internal_DrawMeshNow2(/* [NotNull] */ ::UnityEngine::Mesh* mesh, int32_t subsetIndex, ::UnityEngine::Matrix4x4 matrix);
 
-  /// @brief Method Internal_DrawMeshNow2_Injected, addr 0x6a86290, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshNow2_Injected, addr 0x6ed92d4, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_DrawMeshNow2_Injected(::System::IntPtr mesh, int32_t subsetIndex, ::by_ref<::UnityEngine::Matrix4x4> matrix);
 
-  /// @brief Method Internal_DrawMesh_Injected, addr 0x6a864e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMesh_Injected, addr 0x6ed9528, size 0xc4, virtual false, abstract: false, final false
   static inline void Internal_DrawMesh_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::by_ref<::UnityEngine::Matrix4x4> matrix, ::System::IntPtr material, int32_t layer,
                                                 ::System::IntPtr camera, ::System::IntPtr properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows,
                                                 ::System::IntPtr probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume);
 
   /// [FreeFunction("GraphicsScripting::DrawProceduralNow")]
-  /// @brief Method Internal_DrawProceduralNow, addr 0x6a86bec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawProceduralNow, addr 0x6ed9c30, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_DrawProceduralNow(::UnityEngine::MeshTopology topology, int32_t vertexCount, int32_t instanceCount);
 
   /// [FreeFunction("GraphicsScripting::GetMaxDrawMeshInstanceCount", IsThreadSafe = true)]
-  /// @brief Method Internal_GetMaxDrawMeshInstanceCount, addr 0x6a85830, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetMaxDrawMeshInstanceCount, addr 0x6ed8874, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetMaxDrawMeshInstanceCount();
 
   /// [NativeMethod(Name = "GraphicsScripting::SetMRTFull", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method Internal_SetMRTFullSetup, addr 0x6a85b24, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetMRTFullSetup, addr 0x6ed8b68, size 0x258, virtual false, abstract: false, final false
   static inline void Internal_SetMRTFullSetup(/* [NotNull] */ ::ArrayW<::UnityEngine::RenderBuffer> color, ::UnityEngine::RenderBuffer depth, int32_t mip, ::UnityEngine::CubemapFace face,
                                               int32_t depthSlice, /* [NotNull] */ ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> colorLA,
                                               /* [NotNull] */ ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> colorSA, ::UnityEngine::Rendering::RenderBufferLoadAction depthLA,
                                               ::UnityEngine::Rendering::RenderBufferStoreAction depthSA);
 
-  /// @brief Method Internal_SetMRTFullSetup_Injected, addr 0x6a85d7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetMRTFullSetup_Injected, addr 0x6ed8dc0, size 0x9c, virtual false, abstract: false, final false
   static inline void Internal_SetMRTFullSetup_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> color, ::by_ref<::UnityEngine::RenderBuffer> depth, int32_t mip,
                                                        ::UnityEngine::CubemapFace face, int32_t depthSlice, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorLA,
                                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorSA, ::UnityEngine::Rendering::RenderBufferLoadAction depthLA,
                                                        ::UnityEngine::Rendering::RenderBufferStoreAction depthSA);
 
   /// [FreeFunction("GraphicsScripting::SetNullRT")]
-  /// @brief Method Internal_SetNullRT, addr 0x6a859e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetNullRT, addr 0x6ed8a28, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_SetNullRT();
 
   /// [NativeMethod(Name = "GraphicsScripting::SetRTSimple", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method Internal_SetRTSimple, addr 0x6a85a0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetRTSimple, addr 0x6ed8a50, size 0xac, virtual false, abstract: false, final false
   static inline void Internal_SetRTSimple(::UnityEngine::RenderBuffer color, ::UnityEngine::RenderBuffer depth, int32_t mip, ::UnityEngine::CubemapFace face, int32_t depthSlice);
 
-  /// @brief Method Internal_SetRTSimple_Injected, addr 0x6a85ab8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetRTSimple_Injected, addr 0x6ed8afc, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SetRTSimple_Injected(::by_ref<::UnityEngine::RenderBuffer> color, ::by_ref<::UnityEngine::RenderBuffer> depth, int32_t mip, ::UnityEngine::CubemapFace face,
                                                    int32_t depthSlice);
 
   /// [ExcludeFromDocs]
-  /// @brief Method SetRenderTarget, addr 0x6a88c78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6edbc84, size 0x64, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::RenderTexture* rt);
 
   /// [ExcludeFromDocs]
-  /// @brief Method SetRenderTarget, addr 0x6a88cdc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6edbce8, size 0x70, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::RenderTexture* rt, int32_t mipLevel);
 
   /// [ExcludeFromDocs]
-  /// @brief Method SetRenderTarget, addr 0x6a88d4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6edbd58, size 0x74, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::RenderTexture* rt, int32_t mipLevel, ::UnityEngine::CubemapFace face);
 
-  /// @brief Method SetRenderTarget, addr 0x6a87760, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6eda734, size 0x80, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::RenderTexture* rt, /* [DefaultValue("0")] */ int32_t mipLevel, /* [DefaultValue("CubemapFace.Unknown")] */ ::UnityEngine::CubemapFace face,
                                      /* [DefaultValue("0")] */ int32_t depthSlice);
 
-  /// @brief Method SetRenderTarget, addr 0x6a877e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6eda7b4, size 0x74, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::RenderTargetSetup setup);
 
-  /// @brief Method SetRenderTargetImpl, addr 0x6a87590, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTargetImpl, addr 0x6eda564, size 0xa0, virtual false, abstract: false, final false
   static inline void SetRenderTargetImpl(::UnityEngine::RenderBuffer colorBuffer, ::UnityEngine::RenderBuffer depthBuffer, int32_t mipLevel, ::UnityEngine::CubemapFace face, int32_t depthSlice);
 
-  /// @brief Method SetRenderTargetImpl, addr 0x6a87630, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTargetImpl, addr 0x6eda604, size 0x130, virtual false, abstract: false, final false
   static inline void SetRenderTargetImpl(::UnityEngine::RenderTexture* rt, int32_t mipLevel, ::UnityEngine::CubemapFace face, int32_t depthSlice);
 
-  /// @brief Method SetRenderTargetImpl, addr 0x6a872d4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTargetImpl, addr 0x6eda2a8, size 0x2bc, virtual false, abstract: false, final false
   static inline void SetRenderTargetImpl(::UnityEngine::RenderTargetSetup setup);
 
   static inline int32_t getStaticF_kMaxDrawMeshInstanceCount();
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::RenderInstancedDataLayout>* getStaticF_s_RenderInstancedDataLayouts();
 
-  /// @brief Method get_activeTier, addr 0x6a85858, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeTier, addr 0x6ed889c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GraphicsTier get_activeTier();
 
-  /// @brief Method get_minOpenGLESVersion, addr 0x6a85978, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_minOpenGLESVersion, addr 0x6ed89bc, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::OpenGLESVersion get_minOpenGLESVersion();
 
-  /// @brief Method get_preserveFramebufferAlpha, addr 0x6a858e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_preserveFramebufferAlpha, addr 0x6ed8928, size 0x6c, virtual false, abstract: false, final false
   static inline bool get_preserveFramebufferAlpha();
 
   static inline void setStaticF_kMaxDrawMeshInstanceCount(int32_t value);
 
   static inline void setStaticF_s_RenderInstancedDataLayouts(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::RenderInstancedDataLayout>* value);
 
-  /// @brief Method set_activeTier, addr 0x6a85880, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_activeTier, addr 0x6ed88c4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_activeTier(::UnityEngine::Rendering::GraphicsTier value);
 
 protected:
@@ -401,7 +401,7 @@ public:
   Graphics(Graphics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

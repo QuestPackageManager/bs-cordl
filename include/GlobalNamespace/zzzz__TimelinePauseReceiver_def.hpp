@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::TimelinePauseReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x58596e8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x5c6f494, size 0xa4, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr ::System::Action* const& __cordl_internal_get_timelinePauseEvent() const;
@@ -51,18 +51,18 @@ public:
 
   constexpr void __cordl_internal_set_timelinePauseEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x585978c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6f538, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_timelinePauseEvent, addr 0x5859590, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_timelinePauseEvent, addr 0x5c6f33c, size 0xac, virtual false, abstract: false, final false
   inline void add_timelinePauseEvent(::System::Action* value);
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_timelinePauseEvent, addr 0x585963c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_timelinePauseEvent, addr 0x5c6f3e8, size 0xac, virtual false, abstract: false, final false
   inline void remove_timelinePauseEvent(::System::Action* value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   TimelinePauseReceiver(TimelinePauseReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22164 };
 
   /// [CompilerGenerated]
   /// @brief Field timelinePauseEvent, offset: 0x20, size: 0x8, def value: None

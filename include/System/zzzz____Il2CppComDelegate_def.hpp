@@ -19,7 +19,7 @@ namespace System {
 class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x6ea7198, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x7342d44, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
 protected:
@@ -37,10 +37,7 @@ public:
   __Il2CppComDelegate(__Il2CppComDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23792 };
-
-  /// @brief Size padding 0xb0 - 0x10 = 0xa0, packed as 0xa0
-  uint8_t _cordl_size_padding[0xa0];
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

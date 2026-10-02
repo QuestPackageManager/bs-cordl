@@ -31,6 +31,7 @@ public:
     __E_Mouse = static_cast<int32_t>(0x3),
     __E_Pen = static_cast<int32_t>(0x4),
     __E_Touch = static_cast<int32_t>(0x5),
+    __E_TrackedDevice = static_cast<int32_t>(0x6),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -65,11 +66,14 @@ public:
   /// @brief Field Touch value: I32(5)
   static ::UnityEngine::InputForUI::EventSource const Touch;
 
+  /// @brief Field TrackedDevice value: I32(6)
+  static ::UnityEngine::InputForUI::EventSource const TrackedDevice;
+
   /// @brief Field Unspecified value: I32(0)
   static ::UnityEngine::InputForUI::EventSource const Unspecified;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22485 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

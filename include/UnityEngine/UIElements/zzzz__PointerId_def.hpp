@@ -21,9 +21,6 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerId : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field hoveringPointers, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_hoveringPointers, put = setStaticF_hoveringPointers)) ::ArrayW<int32_t> hoveringPointers;
-
   /// @brief Field invalidPointerId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_invalidPointerId, put = setStaticF_invalidPointerId)) int32_t invalidPointerId;
 
@@ -39,13 +36,20 @@ public:
   /// @brief Field penPointerIdBase, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_penPointerIdBase, put = setStaticF_penPointerIdBase)) int32_t penPointerIdBase;
 
+  /// @brief Field screenHoveringPointers, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_screenHoveringPointers, put = setStaticF_screenHoveringPointers)) ::ArrayW<int32_t> screenHoveringPointers;
+
   /// @brief Field touchPointerCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_touchPointerCount, put = setStaticF_touchPointerCount)) int32_t touchPointerCount;
 
   /// @brief Field touchPointerIdBase, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_touchPointerIdBase, put = setStaticF_touchPointerIdBase)) int32_t touchPointerIdBase;
 
-  static inline ::ArrayW<int32_t> getStaticF_hoveringPointers();
+  /// @brief Field trackedPointerCount, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_trackedPointerCount, put = setStaticF_trackedPointerCount)) int32_t trackedPointerCount;
+
+  /// @brief Field trackedPointerIdBase, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_trackedPointerIdBase, put = setStaticF_trackedPointerIdBase)) int32_t trackedPointerIdBase;
 
   static inline int32_t getStaticF_invalidPointerId();
 
@@ -57,11 +61,15 @@ public:
 
   static inline int32_t getStaticF_penPointerIdBase();
 
+  static inline ::ArrayW<int32_t> getStaticF_screenHoveringPointers();
+
   static inline int32_t getStaticF_touchPointerCount();
 
   static inline int32_t getStaticF_touchPointerIdBase();
 
-  static inline void setStaticF_hoveringPointers(::ArrayW<int32_t> value);
+  static inline int32_t getStaticF_trackedPointerCount();
+
+  static inline int32_t getStaticF_trackedPointerIdBase();
 
   static inline void setStaticF_invalidPointerId(int32_t value);
 
@@ -73,9 +81,15 @@ public:
 
   static inline void setStaticF_penPointerIdBase(int32_t value);
 
+  static inline void setStaticF_screenHoveringPointers(::ArrayW<int32_t> value);
+
   static inline void setStaticF_touchPointerCount(int32_t value);
 
   static inline void setStaticF_touchPointerIdBase(int32_t value);
+
+  static inline void setStaticF_trackedPointerCount(int32_t value);
+
+  static inline void setStaticF_trackedPointerIdBase(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -92,7 +106,7 @@ public:
   PointerId(PointerId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

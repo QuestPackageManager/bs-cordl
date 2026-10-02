@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*)>(&::OculusStudios::GraphQL::Client::GraphQLUtils::ConvertObject2Json)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5f228b8;
+  constexpr static std::size_t addrs = 0x633d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* (*)(::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*)>(
         &::OculusStudios::GraphQL::Client::GraphQLUtils::Convert4Json)> {
   constexpr static std::size_t size = 0x824;
-  constexpr static std::size_t addrs = 0x5f21cf4;
+  constexpr static std::size_t addrs = 0x633c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

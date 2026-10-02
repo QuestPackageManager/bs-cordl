@@ -14,6 +14,7 @@ struct Name;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "Name");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -21,7 +22,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE Name {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x67edcc0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c18fe8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool computeUTF8ByteCount);
 
   // Ctor Parameters []
@@ -33,7 +34,7 @@ public:
   constexpr Name(::StringW name, int32_t utf8ByteCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9394 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

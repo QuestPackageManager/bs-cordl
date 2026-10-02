@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationBinderAdapter::*)(::System::Runtime::Serialization::SerializationBinder*)>(
     &::Newtonsoft::Json::Serialization::SerializationBinderAdapter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d5a5e0;
+  constexpr static std::size_t addrs = 0x61741c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationBinderAdapter*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::SerializationBinderAdapter::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d5a5e8;
+  constexpr static std::size_t addrs = 0x61741cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationBinderAdapter*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationBinderAdapter::*)(::System::Type*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
     &::Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d5a604;
+  constexpr static std::size_t addrs = 0x61741e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

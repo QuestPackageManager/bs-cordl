@@ -14,11 +14,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5f4c00c;
+  constexpr static std::size_t addrs = 0x636810c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 5 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(bool)>(
     &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f4c4a4;
+  constexpr static std::size_t addrs = 0x6368554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(),
@@ -43,11 +43,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                             ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f4c544;
+  constexpr static std::size_t addrs = 0x63685f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 7 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f4c60c;
+  constexpr static std::size_t addrs = 0x63686bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f4c698;
+  constexpr static std::size_t addrs = 0x6368748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), { ".ctor", {}, {} })));
@@ -138,7 +138,7 @@ inline int32_t GlobalNamespace::ScreenDisplacementEffectRendererFeature::getStat
 }
 inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose(bool disposing) {
@@ -149,7 +149,7 @@ inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose(bo
 inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                                       ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectRendererFeature*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe(::UnityEngine::Object* obj) {

@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)(::by_ref<::BeatSaber::Settings::Settings>)>(
     &::BeatSaber::Settings::LegacySettingsV1::ApplyTo)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32c6050;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x3551af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)()>(&::BeatSaber::Settings::LegacySettingsV1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c619c;
+  constexpr static std::size_t addrs = 0x3551c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV1*>(), { ".ctor", {}, {} })));
@@ -556,18 +556,6 @@ constexpr bool const& BeatSaber::Settings::LegacySettingsV1::__cordl_internal_ge
 constexpr void BeatSaber::Settings::LegacySettingsV1::__cordl_internal_set_useCustomServerEnvironment(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useCustomServerEnvironment = value;
-}
-constexpr bool& BeatSaber::Settings::LegacySettingsV1::__cordl_internal_get_forceGameLiftServerEnvironment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___forceGameLiftServerEnvironment;
-}
-constexpr bool const& BeatSaber::Settings::LegacySettingsV1::__cordl_internal_get_forceGameLiftServerEnvironment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___forceGameLiftServerEnvironment;
-}
-constexpr void BeatSaber::Settings::LegacySettingsV1::__cordl_internal_set_forceGameLiftServerEnvironment(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___forceGameLiftServerEnvironment = value;
 }
 constexpr ::StringW& BeatSaber::Settings::LegacySettingsV1::__cordl_internal_get_customServerHostName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

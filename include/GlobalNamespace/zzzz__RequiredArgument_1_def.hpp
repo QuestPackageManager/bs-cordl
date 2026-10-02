@@ -91,7 +91,7 @@ public:
   RequiredArgument_1(RequiredArgument_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19711 };
 
   /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
   T ____value;

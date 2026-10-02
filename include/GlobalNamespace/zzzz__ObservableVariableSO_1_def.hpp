@@ -99,7 +99,7 @@ public:
   ObservableVariableSO_1(ObservableVariableSO_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21440 };
 
   /// [CompilerGenerated]
   /// @brief Field didChangeEvent, offset: 0x18, size: 0x8, def value: None

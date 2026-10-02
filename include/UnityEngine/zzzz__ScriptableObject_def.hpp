@@ -18,9 +18,9 @@ class ScriptableObject;
 // Write type traits
 MARK_REF_T(::UnityEngine::ScriptableObject*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
-// [ExtensionOfNativeClass]
-// [RequiredByNativeCode]
 // [NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+// [RequiredByNativeCode]
+// [ExtensionOfNativeClass]
 // [NativeClass(null)]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
@@ -29,26 +29,26 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x6ae5d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x6f40704, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method CreateScriptableObject, addr 0x6ae5d44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObject, addr 0x6f406c8, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateScriptableObject(/* [Writable] */ ::UnityEngine::ScriptableObject* self);
 
   /// [NativeMethod(Name = "Scripting::CreateScriptableObjectWithType", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x6ae5d88, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x6f4070c, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
-  /// @brief Method CreateScriptableObjectInstanceFromType_Injected, addr 0x6ae5eb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObjectInstanceFromType_Injected, addr 0x6f40834, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateScriptableObjectInstanceFromType_Injected(::System::Type* type, bool applyDefaultsAndReset);
 
   static inline ::UnityEngine::ScriptableObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ae5ccc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f40650, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ScriptableObject(ScriptableObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

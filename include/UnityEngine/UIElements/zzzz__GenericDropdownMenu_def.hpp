@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AbstractGenericMenu_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -30,6 +31,9 @@ namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
+struct DropdownMenuSizeMode;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
@@ -39,16 +43,13 @@ namespace UnityEngine::UIElements {
 class GenericDropdownMenu_MenuItem;
 }
 namespace UnityEngine::UIElements {
-struct GenericDropdownMenu___c__DisplayClass48_0;
+struct GenericDropdownMenu___c__DisplayClass56_0;
 }
 namespace UnityEngine::UIElements {
-class GenericDropdownMenu___c__DisplayClass63_0;
+class GenericDropdownMenu___c__DisplayClass71_0;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
 }
 namespace UnityEngine::UIElements {
 class KeyboardNavigationManipulator;
@@ -82,20 +83,20 @@ namespace UnityEngine::UIElements {
 class GenericDropdownMenu_MenuItem;
 }
 namespace UnityEngine::UIElements {
-class GenericDropdownMenu___c__DisplayClass63_0;
+class GenericDropdownMenu___c__DisplayClass71_0;
 }
 namespace UnityEngine::UIElements {
-struct GenericDropdownMenu___c__DisplayClass48_0;
+struct GenericDropdownMenu___c__DisplayClass56_0;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::GenericDropdownMenu*);
 MARK_REF_T(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*);
-MARK_REF_T(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*);
-MARK_VAL_T(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0);
+MARK_REF_T(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*);
+MARK_VAL_T(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GenericDropdownMenu*, "UnityEngine.UIElements", "GenericDropdownMenu");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*, "UnityEngine.UIElements", "GenericDropdownMenu/MenuItem");
-DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0*, "UnityEngine.UIElements", "GenericDropdownMenu/<>c__DisplayClass63_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0, "UnityEngine.UIElements", "GenericDropdownMenu/<>c__DisplayClass48_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0*, "UnityEngine.UIElements", "GenericDropdownMenu/<>c__DisplayClass71_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0, "UnityEngine.UIElements", "GenericDropdownMenu/<>c__DisplayClass56_0");
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -141,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d460e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b7674, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,7 +160,7 @@ public:
   GenericDropdownMenu_MenuItem(GenericDropdownMenu_MenuItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -191,20 +192,20 @@ static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem) ==
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: UnityEngine.UIElements.GenericDropdownMenu/<>c__DisplayClass48_0
-struct CORDL_TYPE GenericDropdownMenu___c__DisplayClass48_0 {
+// CS Name: UnityEngine.UIElements.GenericDropdownMenu/<>c__DisplayClass56_0
+struct CORDL_TYPE GenericDropdownMenu___c__DisplayClass56_0 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GenericDropdownMenu___c__DisplayClass48_0();
+  constexpr GenericDropdownMenu___c__DisplayClass56_0();
 
   // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedIndex", ty:
   // "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr GenericDropdownMenu___c__DisplayClass48_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this, int32_t selectedIndex) noexcept;
+  constexpr GenericDropdownMenu___c__DisplayClass56_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this, int32_t selectedIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4203 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -218,27 +219,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0, __4__this) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0, __4__this) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0, selectedIndex) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0, selectedIndex) == 0x8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0) == 0x10, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: UnityEngine.UIElements.GenericDropdownMenu/<>c__DisplayClass63_0
-class CORDL_TYPE GenericDropdownMenu___c__DisplayClass63_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.GenericDropdownMenu/<>c__DisplayClass71_0
+class CORDL_TYPE GenericDropdownMenu___c__DisplayClass71_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field itemName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_itemName, put = __cordl_internal_set_itemName)) ::StringW itemName;
 
-  static inline ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0* New_ctor();
+  static inline ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0* New_ctor();
 
-  /// @brief Method <UpdateItem>b__0, addr 0x6d460ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <UpdateItem>b__0, addr 0x71b99ec, size 0x1c, virtual false, abstract: false, final false
   inline bool _UpdateItem_b__0(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* x);
 
   constexpr ::StringW const& __cordl_internal_get_itemName() const;
@@ -247,25 +248,25 @@ public:
 
   constexpr void __cordl_internal_set_itemName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d460e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b7794, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GenericDropdownMenu___c__DisplayClass63_0();
+  constexpr GenericDropdownMenu___c__DisplayClass71_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass71_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0&&) = delete;
+  GenericDropdownMenu___c__DisplayClass71_0(GenericDropdownMenu___c__DisplayClass71_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass71_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0 const&) = delete;
+  GenericDropdownMenu___c__DisplayClass71_0(GenericDropdownMenu___c__DisplayClass71_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4204 };
 
   /// @brief Field itemName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___itemName;
@@ -273,23 +274,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0, ___itemName) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0, ___itemName) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies System.Object, UnityEngine.Rect, UnityEngine.Vector2
+// Dependencies UnityEngine.Rect, UnityEngine.UIElements.AbstractGenericMenu, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.GenericDropdownMenu
-class CORDL_TYPE GenericDropdownMenu : public ::System::Object {
+class CORDL_TYPE GenericDropdownMenu : public ::UnityEngine::UIElements::AbstractGenericMenu {
 public:
   // Declarations
   using MenuItem = ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem;
 
-  using __c__DisplayClass48_0 = ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0;
+  using __c__DisplayClass56_0 = ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0;
 
-  using __c__DisplayClass63_0 = ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass63_0;
+  using __c__DisplayClass71_0 = ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass71_0;
 
   /// @brief Field <closeOnParentResize>k__BackingField, offset 0x67, size 0x1
   __declspec(property(get = __cordl_internal_get__closeOnParentResize_k__BackingField, put = __cordl_internal_set__closeOnParentResize_k__BackingField)) bool _closeOnParentResize_k__BackingField;
@@ -341,7 +342,7 @@ public:
   /// @brief Field m_MenuContainer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MenuContainer, put = __cordl_internal_set_m_MenuContainer)) ::UnityEngine::UIElements::VisualElement* m_MenuContainer;
 
-  /// @brief Field m_MousePosition, offset 0x68, size 0x8
+  /// @brief Field m_MousePosition, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition)) ::UnityEngine::Vector2 m_MousePosition;
 
   /// @brief Field m_NavigationManipulator, offset 0x50, size 0x8
@@ -370,99 +371,112 @@ public:
   /// @brief Field m_TargetElement, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TargetElement, put = __cordl_internal_set_m_TargetElement)) ::UnityEngine::UIElements::VisualElement* m_TargetElement;
 
+  /// @brief Field onClose, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_onClose, put = __cordl_internal_set_onClose)) ::System::Action* onClose;
+
+  /// @brief Field onOpen, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_onOpen, put = __cordl_internal_set_onOpen)) ::System::Action* onOpen;
+
   /// @brief Field separatorUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_separatorUssClassName, put = setStaticF_separatorUssClassName)) ::StringW separatorUssClassName;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IGenericMenu"
-  constexpr operator ::UnityEngine::UIElements::IGenericMenu*() noexcept;
-
-  /// @brief Method AddDisabledItem, addr 0x6d44118, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method AddDisabledItem, addr 0x71b75a8, size 0xc, virtual true, abstract: false, final false
   inline void AddDisabledItem(::StringW itemName, bool isChecked);
 
-  /// @brief Method AddItem, addr 0x6d43d84, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method AddItem, addr 0x71b71fc, size 0x38c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data);
 
-  /// @brief Method AddItem, addr 0x6d43d60, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method AddItem, addr 0x71b71d8, size 0x24, virtual true, abstract: false, final false
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
 
-  /// @brief Method AddItem, addr 0x6d440f8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method AddItem, addr 0x71b7588, size 0x20, virtual true, abstract: false, final false
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action_1<::System::Object*>* action, ::System::Object* data);
 
-  /// @brief Method AddSeparator, addr 0x6d44124, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AddSeparator, addr 0x71b75b4, size 0xc0, virtual true, abstract: false, final false
   inline void AddSeparator(::StringW path);
 
-  /// @brief Method Apply, addr 0x6d43264, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x71b66dc, size 0x1e0, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method Apply, addr 0x6d43238, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x71b66b0, size 0x2c, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
-  /// @brief Method ChangeSelectedIndex, addr 0x6d43c34, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelectedIndex, addr 0x71b70ac, size 0x12c, virtual false, abstract: false, final false
   inline void ChangeSelectedIndex(int32_t newIndex, int32_t previousIndex);
 
-  /// @brief Method DropDown, addr 0x6d44308, size 0xa54, virtual true, abstract: false, final true
+  /// @brief Method DoDropDown, addr 0x71b78e0, size 0xbe8, virtual false, abstract: false, final false
+  inline void DoDropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
+
+  /// [Obsolete("This version of Dropdown is deprecated. Please use DropDown(Rect position, VisualElement targetElement, DropdownMenuSizeMode dropdownMenuSizeMode).", false)]
+  /// @brief Method DropDown, addr 0x71b7798, size 0x24, virtual false, abstract: false, final false
   inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
 
-  /// @brief Method EnsureVisibilityInParent, addr 0x6d44d5c, size 0x9fc, virtual false, abstract: false, final false
+  /// @brief Method DropDown, addr 0x71b77bc, size 0x88, virtual true, abstract: false, final false
+  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, ::UnityEngine::UIElements::DropdownMenuSizeMode dropdownMenuSizeMode);
+
+  /// @brief Method EnsureVisibilityInParent, addr 0x71b84c8, size 0xb48, virtual false, abstract: false, final false
   inline void EnsureVisibilityInParent();
 
-  /// @brief Method GetLargestItemWidth, addr 0x6d45784, size 0x734, virtual false, abstract: false, final false
+  /// @brief Method GetLargestItemWidth, addr 0x71b903c, size 0x784, virtual false, abstract: false, final false
   inline float_t GetLargestItemWidth();
 
-  /// @brief Method GetSelectedIndex, addr 0x6d43444, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedIndex, addr 0x71b68bc, size 0xa8, virtual false, abstract: false, final false
   inline int32_t GetSelectedIndex();
 
-  /// @brief Method Hide, addr 0x6d43118, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x71b6550, size 0x160, virtual false, abstract: false, final false
   inline void Hide(bool giveFocusBack);
 
   static inline ::UnityEngine::UIElements::GenericDropdownMenu* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x6d42840, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x71b5c7c, size 0x4fc, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnContainerGeometryChanged, addr 0x6d45760, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnContainerGeometryChanged, addr 0x71b9018, size 0x4, virtual false, abstract: false, final false
   inline void OnContainerGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnDetachFromPanel, addr 0x6d42d40, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method OnDetachFromPanel, addr 0x71b6178, size 0x3d8, virtual false, abstract: false, final false
   inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnFocusOut, addr 0x6d43aa8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOut, addr 0x71b6f20, size 0x178, virtual false, abstract: false, final false
   inline void OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
 
-  /// @brief Method OnInitialDisplay, addr 0x6d45764, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnInitialDisplay, addr 0x71b901c, size 0x20, virtual false, abstract: false, final false
   inline void OnInitialDisplay(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnParentResized, addr 0x6d43c20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnParentResized, addr 0x71b7098, size 0x14, virtual false, abstract: false, final false
   inline void OnParentResized(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnPointerDown, addr 0x6d43660, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x71b6ad8, size 0xec, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove, addr 0x6d43864, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x71b6cdc, size 0xec, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp, addr 0x6d43950, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x71b6dc8, size 0x158, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnTargetElementDetachFromPanel, addr 0x6d45758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnTargetElementDetachFromPanel, addr 0x71b9010, size 0x8, virtual false, abstract: false, final false
   inline void OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method UpdateItem, addr 0x6d441e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetFitContentWidth, addr 0x71b7844, size 0x9c, virtual false, abstract: false, final false
+  inline void SetFitContentWidth(bool fit);
+
+  /// @brief Method UpdateItem, addr 0x71b7678, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateItem(::StringW itemName, bool isChecked);
 
-  /// @brief Method UpdateSelection, addr 0x6d4374c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateSelection, addr 0x71b6bc4, size 0x118, virtual false, abstract: false, final false
   inline void UpdateSelection(::UnityEngine::UIElements::VisualElement* target);
 
   /// [CompilerGenerated]
-  /// @brief Method <Apply>g__UpdateSelectionDown|48_0, addr 0x6d43598, size 0xc8, virtual false, abstract: false, final false
-  inline void _Apply_g__UpdateSelectionDown_48_0(int32_t newIndex, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0> _cordl_fixed_empty_name_whitespace);
+  /// @brief Method <Apply>g__UpdateSelectionDown|56_0, addr 0x71b6a10, size 0xc8, virtual false, abstract: false, final false
+  inline void _Apply_g__UpdateSelectionDown_56_0(int32_t newIndex, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0> _cordl_fixed_empty_name_whitespace);
 
   /// [CompilerGenerated]
-  /// @brief Method <Apply>g__UpdateSelectionUp|48_1, addr 0x6d434ec, size 0xac, virtual false, abstract: false, final false
-  inline void _Apply_g__UpdateSelectionUp_48_1(int32_t newIndex, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0> _cordl_fixed_empty_name_whitespace);
+  /// @brief Method <Apply>g__UpdateSelectionUp|56_1, addr 0x71b6964, size 0xac, virtual false, abstract: false, final false
+  inline void _Apply_g__UpdateSelectionUp_56_1(int32_t newIndex, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass56_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr bool const& __cordl_internal_get__closeOnParentResize_k__BackingField() const;
 
@@ -528,6 +542,14 @@ public:
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_TargetElement();
 
+  constexpr ::System::Action* const& __cordl_internal_get_onClose() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_onClose();
+
+  constexpr ::System::Action* const& __cordl_internal_get_onOpen() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_onOpen();
+
   constexpr void __cordl_internal_set__closeOnParentResize_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__isSingleSelectionDropdown_k__BackingField(bool value);
@@ -560,7 +582,11 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6d3fe14, size 0x320, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_onClose(::System::Action* value);
+
+  constexpr void __cordl_internal_set_onOpen(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x71b595c, size 0x320, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -582,18 +608,15 @@ public:
   static inline ::StringW getStaticF_ussClassName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_closeOnParentResize, addr 0x6d42810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_closeOnParentResize, addr 0x71b592c, size 0x8, virtual false, abstract: false, final false
   inline bool get_closeOnParentResize();
 
-  /// @brief Method get_contentContainer, addr 0x6d42820, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x71b593c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isSingleSelectionDropdown, addr 0x6d42800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSingleSelectionDropdown, addr 0x71b591c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSingleSelectionDropdown();
-
-  /// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
-  constexpr ::UnityEngine::UIElements::IGenericMenu* i___UnityEngine__UIElements__IGenericMenu() noexcept;
 
   static inline void setStaticF_checkmarkUssClassName(::StringW value);
 
@@ -614,11 +637,11 @@ public:
   static inline void setStaticF_ussClassName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_closeOnParentResize, addr 0x6d42818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_closeOnParentResize, addr 0x71b5934, size 0x8, virtual false, abstract: false, final false
   inline void set_closeOnParentResize(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isSingleSelectionDropdown, addr 0x6d42808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isSingleSelectionDropdown, addr 0x71b5924, size 0x8, virtual false, abstract: false, final false
   inline void set_isSingleSelectionDropdown(bool value);
 
 protected:
@@ -636,7 +659,7 @@ public:
   GenericDropdownMenu(GenericDropdownMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4205 };
 
   /// @brief Field m_Items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*>* ___m_Items;
@@ -677,17 +700,27 @@ public:
   /// @brief Field m_ShownAboveTarget, offset: 0x65, size: 0x1, def value: None
   bool ___m_ShownAboveTarget;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isSingleSelectionDropdown>k__BackingField, offset: 0x66, size: 0x1, def value: None
   bool ____isSingleSelectionDropdown_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <closeOnParentResize>k__BackingField, offset: 0x67, size: 0x1, def value: None
   bool ____closeOnParentResize_k__BackingField;
 
-  /// @brief Field m_MousePosition, offset: 0x68, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field onOpen, offset: 0x68, size: 0x8, def value: None
+  ::System::Action* ___onOpen;
+
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field onClose, offset: 0x70, size: 0x8, def value: None
+  ::System::Action* ___onClose;
+
+  /// @brief Field m_MousePosition, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_MousePosition;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -723,8 +756,12 @@ static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu, ____isSin
 
 static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu, ____closeOnParentResize_k__BackingField) == 0x67, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu, ___m_MousePosition) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu, ___onOpen) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu) == 0x70, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu, ___onClose) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu, ___m_MousePosition) == 0x78, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

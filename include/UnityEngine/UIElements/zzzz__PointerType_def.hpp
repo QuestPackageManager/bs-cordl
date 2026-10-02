@@ -30,13 +30,16 @@ public:
   /// @brief Field touch, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_touch, put = setStaticF_touch)) ::StringW touch;
 
+  /// @brief Field tracked, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_tracked, put = setStaticF_tracked)) ::StringW tracked;
+
   /// @brief Field unknown, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_unknown, put = setStaticF_unknown)) ::StringW unknown;
 
-  /// @brief Method GetPointerType, addr 0x6da3508, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetPointerType, addr 0x7231cc0, size 0x180, virtual false, abstract: false, final false
   static inline ::StringW GetPointerType(int32_t pointerId);
 
-  /// @brief Method IsDirectManipulationDevice, addr 0x6da3600, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsDirectManipulationDevice, addr 0x7231e40, size 0x90, virtual false, abstract: false, final false
   static inline bool IsDirectManipulationDevice(::StringW pointerType);
 
   static inline ::StringW getStaticF_mouse();
@@ -45,6 +48,8 @@ public:
 
   static inline ::StringW getStaticF_touch();
 
+  static inline ::StringW getStaticF_tracked();
+
   static inline ::StringW getStaticF_unknown();
 
   static inline void setStaticF_mouse(::StringW value);
@@ -52,6 +57,8 @@ public:
   static inline void setStaticF_pen(::StringW value);
 
   static inline void setStaticF_touch(::StringW value);
+
+  static inline void setStaticF_tracked(::StringW value);
 
   static inline void setStaticF_unknown(::StringW value);
 
@@ -70,7 +77,7 @@ public:
   PointerType(PointerType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

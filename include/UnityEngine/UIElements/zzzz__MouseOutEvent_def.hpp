@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da043c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722e148, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da0438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722e144, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseOutEvent___c* getStaticF___9();
@@ -65,7 +65,7 @@ public:
   MouseOutEvent___c(MouseOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,15 +83,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseOutEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6da030c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x722e018, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseOutEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6da0310, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x722e01c, size 0x88, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6da0398, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722e0a4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,11 +109,11 @@ public:
   MouseOutEvent(MouseOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::MouseOutEvent) == 0x98, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::MouseOutEvent) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

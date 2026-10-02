@@ -119,7 +119,7 @@ public:
   constexpr OneOrMore_2(bool m_IsSingle, TValue m_Single, TList m_Multiple) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11156 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -221,7 +221,7 @@ public:
   OneOrMore_2_Enumerator(OneOrMore_2_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11155 };
 
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Index;

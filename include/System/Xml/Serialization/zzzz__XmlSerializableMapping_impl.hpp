@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Seri
                                                                                                                       ::System::Xml::Serialization::TypeData*, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializableMapping::_ctor)> {
   constexpr static std::size_t size = 0x780;
-  constexpr static std::size_t addrs = 0x63138f8;
+  constexpr static std::size_t addrs = 0x673b8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

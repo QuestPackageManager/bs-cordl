@@ -35,7 +35,7 @@ public:
   __declspec(property(get = getStaticF_kScenesThatShouldDisableRootObjects,
                       put = setStaticF_kScenesThatShouldDisableRootObjects)) ::System::Collections::Generic::HashSet_1<::StringW>* kScenesThatShouldDisableRootObjects;
 
-  /// @brief Method ShouldDisableRootObjects, addr 0x3281be4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ShouldDisableRootObjects, addr 0x35084a4, size 0xc8, virtual false, abstract: false, final false
   static inline bool ShouldDisableRootObjects(::StringW sceneName);
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* getStaticF_kAllSceneNames();
@@ -61,7 +61,7 @@ public:
   SceneNames(SceneNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23836 };
 
   /// @brief Field kBigMirrorEnvironmentSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kBigMirrorEnvironmentSceneName{ u"BigMirrorEnvironment" };

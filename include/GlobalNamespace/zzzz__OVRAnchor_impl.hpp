@@ -42,87 +42,6 @@
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult::OVRAnchor_SaveResult(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult::OVRAnchor_SaveResult() {}
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::Success{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::Failure{ static_cast<int32_t>(0xfffffc18) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureInvalidAnchor{ static_cast<int32_t>(0xfffffc0b) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureInsufficientResources{ static_cast<int32_t>(0xffffdcd8) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureStorageAtCapacity{ static_cast<int32_t>(0xffffdcd7) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureInsufficientView{ static_cast<int32_t>(0xffffdcd6) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureRateLimited{ static_cast<int32_t>(0xffffdcd4) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureTooDark{ static_cast<int32_t>(0xffffdcd3) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureTooBright{ static_cast<int32_t>(0xffffdcd2) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
-constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailurePersistenceNotEnabled{ static_cast<int32_t>(0xfffff82a) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult::OVRAnchor_EraseResult(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult::OVRAnchor_EraseResult() {}
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::Success{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::Failure{ static_cast<int32_t>(0xfffffc18) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureInvalidAnchor{ static_cast<int32_t>(0xfffffc0b) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureInsufficientResources{ static_cast<int32_t>(0xffffdcd8) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureRateLimited{ static_cast<int32_t>(0xffffdcd4) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
-constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailurePersistenceNotEnabled{ static_cast<int32_t>(0xfffff82a) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult::OVRAnchor_FetchResult(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult::OVRAnchor_FetchResult() {}
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::Success{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::Failure{ static_cast<int32_t>(0xfffffc18) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureInvalidOption{ static_cast<int32_t>(0xfffffc17) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureInsufficientResources{ static_cast<int32_t>(0xffffdcd8) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureInsufficientView{ static_cast<int32_t>(0xffffdcd6) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureRateLimited{ static_cast<int32_t>(0xffffdcd4) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureTooDark{ static_cast<int32_t>(0xffffdcd3) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureTooBright{ static_cast<int32_t>(0xffffdcd2) };
-constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult::OVRAnchor_ShareResult(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult::OVRAnchor_ShareResult() {}
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::Success{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::Failure{ static_cast<int32_t>(0xfffffc18) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureOperationFailed{ static_cast<int32_t>(0xfffffc12) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureInvalidParameter{ static_cast<int32_t>(0xfffffc17) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureHandleInvalid{ static_cast<int32_t>(0xfffffc0b) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureNetworkTimeout{ static_cast<int32_t>(0xfffff82d) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureNetworkRequestFailed{ static_cast<int32_t>(0xfffff82c) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureMappingInsufficient{ static_cast<int32_t>(0xfffff82f) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureLocalizationFailed{ static_cast<int32_t>(0xfffff82e) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureSharableComponentNotEnabled{ static_cast<int32_t>(0xfffff82a) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureCloudStorageDisabled{ static_cast<int32_t>(0xfffff830) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
-constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
-// Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "IncrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor_FetchTaskData::OVRAnchor_FetchTaskData(
-    ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* Anchors,
-    ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* IncrementalResultsCallback) noexcept {
-  this->Anchors = Anchors;
-  this->IncrementalResultsCallback = IncrementalResultsCallback;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor_FetchTaskData::OVRAnchor_FetchTaskData() {}
 // Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "EnabledDesired", ty: "bool", modifiers:
 // "", def_value: Some("{}"), comment: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Timeout", ty: "double_t",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "StartTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -142,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRAnchor_DeferredKey (*)(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData)>(
     &::GlobalNamespace::OVRAnchor_DeferredKey::FromEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e079dc;
+  constexpr static std::size_t addrs = 0x621ccc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor_DeferredKey::*)(::GlobalNamespace::OVRAnchor_DeferredKey)>(
     &::GlobalNamespace::OVRAnchor_DeferredKey::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e092d8;
+  constexpr static std::size_t addrs = 0x6222f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor_DeferredKey::*)(::System::Object*)>(&::GlobalNamespace::OVRAnchor_DeferredKey::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e092fc;
+  constexpr static std::size_t addrs = 0x6222f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRAnchor_DeferredKey::*)()>(&::GlobalNamespace::OVRAnchor_DeferredKey::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e09388;
+  constexpr static std::size_t addrs = 0x6223020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (::GlobalNamespace::OVRAnchor_FetchOptions::*)(::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRAnchor_FetchOptions::DiscoverSpaces)> {
   constexpr static std::size_t size = 0x964;
-  constexpr static std::size_t addrs = 0x5e03350;
+  constexpr static std::size_t addrs = 0x621edb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (*)(::System::Type*)>(&::GlobalNamespace::OVRAnchor_FetchOptions::GetSpaceComponentType)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5e093a4;
+  constexpr static std::size_t addrs = 0x622303c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Telemetry_OVRAnchor_Key::*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t)>(
     &::GlobalNamespace::Telemetry_OVRAnchor_Key::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e096ec;
+  constexpr static std::size_t addrs = 0x6223384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Telemetry_OVRAnchor_Key::*)(::GlobalNamespace::OVRTelemetryMarker, uint64_t)>(
     &::GlobalNamespace::Telemetry_OVRAnchor_Key::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e095fc;
+  constexpr static std::size_t addrs = 0x6223294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Telemetry_OVRAnchor_Key>(),
@@ -359,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Telemetry_OVRAnchor_Key::*)(::GlobalNamespace::Telemetry_OVRAnchor_Key)>(
     &::GlobalNamespace::Telemetry_OVRAnchor_Key::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e099b0;
+  constexpr static std::size_t addrs = 0x6223648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -372,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Telemetry_OVRAnchor_Key::*)(::System::Object*)>(&::GlobalNamespace::Telemetry_OVRAnchor_Key::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e099d4;
+  constexpr static std::size_t addrs = 0x622366c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Telemetry_OVRAnchor_Key::*)()>(&::GlobalNamespace::Telemetry_OVRAnchor_Key::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e09a60;
+  constexpr static std::size_t addrs = 0x62236f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::OVRAnchor_Telemetry::OnInit)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e06d6c;
+  constexpr static std::size_t addrs = 0x62223c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_Telemetry*>(), { "OnInit", {}, {} })));
@@ -465,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRTelemetryMarker)>(&::GlobalNamespace::OVRAnchor_Telemetry::AddMarker)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5e09534;
+  constexpr static std::size_t addrs = 0x62231cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -480,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::Start)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5e0960c;
+  constexpr static std::size_t addrs = 0x62232a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRTelemetryMarker, uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::SetSyncResult)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5e047d4;
+  constexpr static std::size_t addrs = 0x621d75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t, int64_t)>(&::GlobalNamespace::OVRAnchor_Telemetry::SetAsyncResultAndSend)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5e02d2c;
+  constexpr static std::size_t addrs = 0x621d994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::OVRTelemetryMarker> (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t, int64_t)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::SetAsyncResult)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5e0806c;
+  constexpr static std::size_t addrs = 0x621d350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::OVRTelemetryMarker> (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::GetMarker)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e02c68;
+  constexpr static std::size_t addrs = 0x621e7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t, ::by_ref<::GlobalNamespace::OVRTelemetryMarker>)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::TryGetMarker)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5e096f8;
+  constexpr static std::size_t addrs = 0x6223390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -577,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t, ::by_ref<::GlobalNamespace::OVRTelemetryMarker>)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::Remove)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5e09798;
+  constexpr static std::size_t addrs = 0x6223430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::OVRTelemetryMarker> (*)(::GlobalNamespace::Telemetry_OVRAnchor_MarkerId, uint64_t)>(
     &::GlobalNamespace::OVRAnchor_Telemetry::GetRemove)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e09838;
+  constexpr static std::size_t addrs = 0x62234d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)()>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::get_KeyboardTrackingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09a7c;
+  constexpr static std::size_t addrs = 0x6223714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(bool)>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::set_KeyboardTrackingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09a84;
+  constexpr static std::size_t addrs = 0x622371c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -716,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::get_KeyboardTrackingSupported)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5e09a8c;
+  constexpr static std::size_t addrs = 0x6223724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -730,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)()>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::get_RequiresDynamicObjectTracker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09b28;
+  constexpr static std::size_t addrs = 0x62237c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -744,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRNativeList_1<::GlobalNamespace::OVRPlugin_DynamicObjectClass> (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(
     ::Unity::Collections::Allocator)>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::ToDynamicObjectClasses)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e09b30;
+  constexpr static std::size_t addrs = 0x62237c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_TrackerConfiguration>(),
@@ -757,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)()>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::ResetDynamicObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09bf0;
+  constexpr static std::size_t addrs = 0x6223888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_TrackerConfiguration>(), { "ResetDynamicObjects", {}, {} })));
@@ -770,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration>)>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::SetDynamicObjectState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e09bf8;
+  constexpr static std::size_t addrs = 0x6223890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -785,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor_TrackableType>*)>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::GetTrackableTypes)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5e09c04;
+  constexpr static std::size_t addrs = 0x622389c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -799,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)()>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::ToString)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x5e09d18;
+  constexpr static std::size_t addrs = 0x62239b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -813,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::Equals)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e09f7c;
+  constexpr static std::size_t addrs = 0x6223c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_TrackerConfiguration>(),
@@ -826,7 +745,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)(::System::Object*)>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e09f98;
+  constexpr static std::size_t addrs = 0x6223c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -839,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRAnchor_TrackerConfiguration::*)()>(&::GlobalNamespace::OVRAnchor_TrackerConfiguration::GetHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e0a020;
+  constexpr static std::size_t addrs = 0x6223cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -853,7 +772,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRAnchor_TrackerConfiguration, ::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::op_Equality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e0a0a0;
+  constexpr static std::size_t addrs = 0x6223d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -869,7 +788,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRAnchor_TrackerConfiguration, ::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(
     &::GlobalNamespace::OVRAnchor_TrackerConfiguration::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e0a0b8;
+  constexpr static std::size_t addrs = 0x6223d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -987,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor_AsyncLock::*)(::GlobalNamespace::OVRAnchor_Tracker*)>(
     &::GlobalNamespace::Tracker_OVRAnchor_AsyncLock::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e0a7b4;
+  constexpr static std::size_t addrs = 0x622444c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1000,7 +919,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor_AsyncLock::*)()>(&::GlobalNamespace::Tracker_OVRAnchor_AsyncLock::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e0a7d4;
+  constexpr static std::size_t addrs = 0x622446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>(), { "Dispose", {}, {} })));
@@ -1013,7 +932,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock> (*)(::GlobalNamespace::OVRAnchor_Tracker*)>(
     &::GlobalNamespace::Tracker_OVRAnchor_AsyncLock::AcquireAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e0a7f4;
+  constexpr static std::size_t addrs = 0x622448c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1056,7 +975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3::*)()>(
     &::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5e0a8ac;
+  constexpr static std::size_t addrs = 0x6224544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1070,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0aaa0;
+  constexpr static std::size_t addrs = 0x6224738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3>(),
@@ -1116,7 +1035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d::*)()>(
     &::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d::MoveNext)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x5e0aadc;
+  constexpr static std::size_t addrs = 0x6224774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1130,7 +1049,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0b18c;
+  constexpr static std::size_t addrs = 0x6224e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1187,7 +1106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7::*)()>(&::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x920;
-  constexpr static std::size_t addrs = 0x5e0b1c8;
+  constexpr static std::size_t addrs = 0x6224e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7>(), { "MoveNext", {}, {} })));
@@ -1200,7 +1119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0bae8;
+  constexpr static std::size_t addrs = 0x6225780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7>(),
@@ -1257,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10::*)()>(&::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5e0bb24;
+  constexpr static std::size_t addrs = 0x62257bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10>(), { "MoveNext", {}, {} })));
@@ -1270,7 +1189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0be40;
+  constexpr static std::size_t addrs = 0x6225ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10>(),
@@ -1315,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5::*)()>(
     &::GlobalNamespace::Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x5e0be48;
+  constexpr static std::size_t addrs = 0x6225ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1329,7 +1248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0c1d4;
+  constexpr static std::size_t addrs = 0x6225e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5>(),
@@ -1377,7 +1296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRAnchor_TrackerConfiguration (::GlobalNamespace::OVRAnchor_Tracker::*)()>(
     &::GlobalNamespace::OVRAnchor_Tracker::get_Configuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0a0d0;
+  constexpr static std::size_t addrs = 0x6223d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_Tracker*>(), { "get_Configuration", {}, {} })));
@@ -1390,7 +1309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> (::GlobalNamespace::OVRAnchor_Tracker::*)(
     ::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(&::GlobalNamespace::OVRAnchor_Tracker::SetupDynamicObjectTracker)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5e0a0d8;
+  constexpr static std::size_t addrs = 0x6223d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1405,7 +1324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ConfigureTrackerResult>> (
     ::GlobalNamespace::OVRAnchor_Tracker::*)(::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(&::GlobalNamespace::OVRAnchor_Tracker::ConfigureAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5e0a1a4;
+  constexpr static std::size_t addrs = 0x6223e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1422,7 +1341,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTas
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*)>(
     &::GlobalNamespace::OVRAnchor_Tracker::FetchTrackablesAsync)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e0a278;
+  constexpr static std::size_t addrs = 0x6223f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1439,7 +1358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_Tracker::*)()>(&::GlobalNamespace::OVRAnchor_Tracker::Finalize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e0a428;
+  constexpr static std::size_t addrs = 0x62240c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1452,7 +1371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_Tracker::*)()>(&::GlobalNamespace::OVRAnchor_Tracker::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5e0a4dc;
+  constexpr static std::size_t addrs = 0x6224174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_Tracker*>(), { "Dispose", {}, {} })));
@@ -1464,7 +1383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor_Tracker::*)()>(&::GlobalNamespace::OVRAnchor_Tracker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0a57c;
+  constexpr static std::size_t addrs = 0x6224214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_Tracker*>(), { ".ctor", {}, {} })));
@@ -1477,7 +1396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRPlugin_Result>> (*)(
     uint64_t, ::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(&::GlobalNamespace::OVRAnchor_Tracker::_SetupDynamicObjectTracker_g__SetClassesAsync_5_0)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5e0a580;
+  constexpr static std::size_t addrs = 0x6224218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1493,7 +1412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>> (*)(
     uint64_t, ::GlobalNamespace::OVRAnchor_TrackerConfiguration)>(&::GlobalNamespace::OVRAnchor_Tracker::_SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5e0a6e8;
+  constexpr static std::size_t addrs = 0x6224380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor_Tracker*>(),
@@ -1611,520 +1530,94 @@ constexpr ::System::IDisposable* GlobalNamespace::OVRAnchor_Tracker::i___System_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRAnchor_Tracker::OVRAnchor_Tracker() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnSpaceDiscoveryComplete
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryCompleteData)>(&::GlobalNamespace::OVRAnchor::OnSpaceDiscoveryComplete)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x5e028f4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceDiscoveryComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceDiscoveryCompleteData>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnSpaceDiscoveryResultsAvailable
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryResultsData)>(&::GlobalNamespace::OVRAnchor::OnSpaceDiscoveryResultsAvailable)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x5e02e34;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "OnSpaceDiscoveryResultsAvailable", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceDiscoveryResultsData>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchAnchorsAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (*)(
-        ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchOptions,
-        ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*)>(&::GlobalNamespace::OVRAnchor::FetchAnchorsAsync)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e031a0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                         { "FetchAnchorsAsync",
-                                           {},
-                                           { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::GlobalNamespace::OVRAnchor_FetchOptions>(),
-                                             ::i2c::type_of<::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchSharedAnchorsAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (*)(
-        ::System::Guid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*)>(&::GlobalNamespace::OVRAnchor::FetchSharedAnchorsAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5e03cb4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                            { "FetchSharedAnchorsAsync", {}, { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchSharedAnchorsAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (*)(
-        ::System::Guid, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*)>(
-        &::GlobalNamespace::OVRAnchor::FetchSharedAnchorsAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5e03d88;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "FetchSharedAnchorsAsync",
-                                                                               {},
-                                                                               { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>(),
-                                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.CreateSpatialAnchorAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> (*)(::UnityEngine::Pose)>(&::GlobalNamespace::OVRAnchor::CreateSpatialAnchorAsync)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5e03e64;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "CreateSpatialAnchorAsync", {}, { ::i2c::type_of<::UnityEngine::Pose>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.CreateSpatialAnchorAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> (*)(::UnityEngine::Transform*, ::UnityEngine::Camera*)>(
-    &::GlobalNamespace::OVRAnchor::CreateSpatialAnchorAsync)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5e04008;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "CreateSpatialAnchorAsync", {}, { ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.SaveAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> (::GlobalNamespace::OVRAnchor::*)()>(
-    &::GlobalNamespace::OVRAnchor::SaveAsync)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5e0417c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "SaveAsync", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.SaveAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> (*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*)>(&::GlobalNamespace::OVRAnchor::SaveAsync)> {
-  constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x5e04408;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "SaveAsync", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.SaveSpacesAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> (*)(::System::ReadOnlySpan_1<uint64_t>)>(
-    &::GlobalNamespace::OVRAnchor::SaveSpacesAsync)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5e04200;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "SaveSpacesAsync", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnSaveSpacesResult
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpacesSaveResultData)>(&::GlobalNamespace::OVRAnchor::OnSaveSpacesResult)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e0499c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSaveSpacesResult", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpacesSaveResultData>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.EraseAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> (::GlobalNamespace::OVRAnchor::*)()>(
-    &::GlobalNamespace::OVRAnchor::EraseAsync)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e04a0c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "EraseAsync", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.EraseAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> (*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*)>(&::GlobalNamespace::OVRAnchor::EraseAsync)> {
-  constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x5e04d2c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "EraseAsync",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>(),
-                                                                                                     ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.EraseSpacesAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> (*)(
-    ::System::ReadOnlySpan_1<uint64_t>, ::System::ReadOnlySpan_1<::System::Guid>)>(&::GlobalNamespace::OVRAnchor::EraseSpacesAsync)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5e04a98;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                { "EraseSpacesAsync", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<::System::Guid>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnEraseSpacesResult
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpacesEraseResultData)>(&::GlobalNamespace::OVRAnchor::OnEraseSpacesResult)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e052a8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnEraseSpacesResult", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpacesEraseResultData>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (::GlobalNamespace::OVRAnchor::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*)>(&::GlobalNamespace::OVRAnchor::ShareAsync)> {
-  constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x5e05318;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "ShareAsync", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*)>(
-    &::GlobalNamespace::OVRAnchor::ShareAsync)> {
-  constexpr static std::size_t size = 0x748;
-  constexpr static std::size_t addrs = 0x5e058b4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "ShareAsync",
-                                                                                            {},
-                                                                                            { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>(),
-                                                                                              ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareSpacesAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
-    ::System::ReadOnlySpan_1<uint64_t>, ::System::ReadOnlySpan_1<uint64_t>)>(&::GlobalNamespace::OVRAnchor::ShareSpacesAsync)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5e05770;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                { "ShareSpacesAsync", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (::GlobalNamespace::OVRAnchor::*)(
-    ::System::Guid)>(&::GlobalNamespace::OVRAnchor::ShareAsync)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e05ffc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "ShareAsync", {}, { ::i2c::type_of<::System::Guid>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*, ::System::Guid)>(&::GlobalNamespace::OVRAnchor::ShareAsync)> {
-  constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x5e06228;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                         { "ShareAsync", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::System::Guid>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsyncInternal
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
-    ::System::ReadOnlySpan_1<uint64_t>, ::System::ReadOnlySpan_1<::System::Guid>)>(&::GlobalNamespace::OVRAnchor::ShareAsyncInternal)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e060a0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                { "ShareAsyncInternal", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<::System::Guid>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnShareAnchorsToGroupsComplete
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRAnchor::OnShareAnchorsToGroupsComplete)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e065f8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "OnShareAnchorsToGroupsComplete", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Result>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.get_Handle
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::get_Handle)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e06680;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "get_Handle", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.get_Uuid
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::get_Uuid)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e06688;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "get_Uuid", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor::*)(uint64_t, ::System::Guid)>(&::GlobalNamespace::OVRAnchor::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e03194;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::System::Guid>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.GetSupportedComponents
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor::*)(::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*)>(
-    &::GlobalNamespace::OVRAnchor::GetSupportedComponents)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x5e06694;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                { "GetSupportedComponents", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Equals
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRAnchor::Equals)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e068dc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::OVRAnchor>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Equals
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor::*)(::System::Object*)>(&::GlobalNamespace::OVRAnchor::Equals)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5e06998;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ::i2c::class_of<::GlobalNamespace::OVRAnchor>(), 0 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.op_Equality
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRAnchor, ::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRAnchor::op_Equality)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e06a38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "op_Equality", {}, { ::i2c::type_of<::GlobalNamespace::OVRAnchor>(), ::i2c::type_of<::GlobalNamespace::OVRAnchor>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.op_Inequality
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRAnchor, ::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRAnchor::op_Inequality)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e06ac0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "op_Inequality", {}, { ::i2c::type_of<::GlobalNamespace::OVRAnchor>(), ::i2c::type_of<::GlobalNamespace::OVRAnchor>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.GetHashCode
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::GetHashCode)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e06b4c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ::i2c::class_of<::GlobalNamespace::OVRAnchor>(), 2 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ToString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::ToString)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e06bc8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ::i2c::class_of<::GlobalNamespace::OVRAnchor>(), 3 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Dispose
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::Dispose)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e06c38;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "Dispose", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Init
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::OVRAnchor::Init)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e06cc0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "Init", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchAnchors
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> (*)(
-    ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2)>(&::GlobalNamespace::OVRAnchor::FetchAnchors)> {
-  constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x5e06dec;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-            { "FetchAnchors", {}, { ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>() } })));
-    return ___internal_method;
-  }
-};
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult::OVRAnchor_SaveResult(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult::OVRAnchor_SaveResult() {}
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::Success{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::Failure{ static_cast<int32_t>(0xfffffc18) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureInvalidAnchor{ static_cast<int32_t>(0xfffffc0b) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureInsufficientResources{ static_cast<int32_t>(0xffffdcd8) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureStorageAtCapacity{ static_cast<int32_t>(0xffffdcd7) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureInsufficientView{ static_cast<int32_t>(0xffffdcd6) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureRateLimited{ static_cast<int32_t>(0xffffdcd4) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureTooDark{ static_cast<int32_t>(0xffffdcd3) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureTooBright{ static_cast<int32_t>(0xffffdcd2) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
+constexpr ::GlobalNamespace::OVRAnchor_SaveResult GlobalNamespace::OVRAnchor_SaveResult::FailurePersistenceNotEnabled{ static_cast<int32_t>(0xfffff82a) };
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult::OVRAnchor_EraseResult(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult::OVRAnchor_EraseResult() {}
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::Success{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::Failure{ static_cast<int32_t>(0xfffffc18) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureInvalidAnchor{ static_cast<int32_t>(0xfffffc0b) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureInsufficientResources{ static_cast<int32_t>(0xffffdcd8) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureRateLimited{ static_cast<int32_t>(0xffffdcd4) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
+constexpr ::GlobalNamespace::OVRAnchor_EraseResult GlobalNamespace::OVRAnchor_EraseResult::FailurePersistenceNotEnabled{ static_cast<int32_t>(0xfffff82a) };
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult::OVRAnchor_FetchResult(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult::OVRAnchor_FetchResult() {}
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::Success{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::Failure{ static_cast<int32_t>(0xfffffc18) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureInvalidOption{ static_cast<int32_t>(0xfffffc17) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureInsufficientResources{ static_cast<int32_t>(0xffffdcd8) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureInsufficientView{ static_cast<int32_t>(0xffffdcd6) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureRateLimited{ static_cast<int32_t>(0xffffdcd4) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureTooDark{ static_cast<int32_t>(0xffffdcd3) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureTooBright{ static_cast<int32_t>(0xffffdcd2) };
+constexpr ::GlobalNamespace::OVRAnchor_FetchResult GlobalNamespace::OVRAnchor_FetchResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult::OVRAnchor_ShareResult(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult::OVRAnchor_ShareResult() {}
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::Success{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::Failure{ static_cast<int32_t>(0xfffffc18) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureOperationFailed{ static_cast<int32_t>(0xfffffc12) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureInvalidParameter{ static_cast<int32_t>(0xfffffc17) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureHandleInvalid{ static_cast<int32_t>(0xfffffc0b) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureDataIsInvalid{ static_cast<int32_t>(0xfffffc10) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureNetworkTimeout{ static_cast<int32_t>(0xfffff82d) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureNetworkRequestFailed{ static_cast<int32_t>(0xfffff82c) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureMappingInsufficient{ static_cast<int32_t>(0xfffff82f) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureLocalizationFailed{ static_cast<int32_t>(0xfffff82e) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureSharableComponentNotEnabled{ static_cast<int32_t>(0xfffff82a) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureCloudStorageDisabled{ static_cast<int32_t>(0xfffff830) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailurePermissionInsufficient{ static_cast<int32_t>(0xffffdcd5) };
+constexpr ::GlobalNamespace::OVRAnchor_ShareResult GlobalNamespace::OVRAnchor_ShareResult::FailureUnsupported{ static_cast<int32_t>(0xfffffc14) };
+// Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "IncrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::OVRAnchor_FetchTaskData::OVRAnchor_FetchTaskData(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* Anchors,
+    ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* IncrementalResultsCallback) noexcept {
+  this->Anchors = Anchors;
+  this->IncrementalResultsCallback = IncrementalResultsCallback;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRAnchor_FetchTaskData::OVRAnchor_FetchTaskData() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRAnchor.CreateDeferredSpaceComponentStatusTask
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (*)(uint64_t, ::GlobalNamespace::OVRPlugin_SpaceComponentType, bool, double_t)>(
     &::GlobalNamespace::OVRAnchor::CreateDeferredSpaceComponentStatusTask)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5e072a8;
+  constexpr static std::size_t addrs = 0x621c58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2142,7 +1635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData)>(
     &::GlobalNamespace::OVRAnchor::OnSpaceSetComponentStatusComplete)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x5e074fc;
+  constexpr static std::size_t addrs = 0x621c7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2158,7 +1651,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTas
     ::System::Collections::Generic::IEnumerable_1<::System::Guid>*, ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRSpace_StorageLocation, double_t)>(
     &::GlobalNamespace::OVRAnchor::FetchAnchorsAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e079ec;
+  constexpr static std::size_t addrs = 0x621ccd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2175,7 +1668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData)>(&::GlobalNamespace::OVRAnchor::OnSpaceQueryComplete)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x5e07ae0;
+  constexpr static std::size_t addrs = 0x621cdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2191,7 +1684,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTas
     ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRSpace_StorageLocation, int32_t, double_t)>(
     &::GlobalNamespace::OVRAnchor::FetchAnchorsAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e081cc;
+  constexpr static std::size_t addrs = 0x621d4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2210,7 +1703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t*, uint32_t, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRAnchor::SaveSpaceList)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5e082c0;
+  constexpr static std::size_t addrs = 0x621d5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2227,7 +1720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData)>(&::GlobalNamespace::OVRAnchor::OnSpaceListSaveResult)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e0846c;
+  constexpr static std::size_t addrs = 0x621d924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2242,7 +1735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRAnchor::EraseSpace)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5e084dc;
+  constexpr static std::size_t addrs = 0x621da9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2257,7 +1750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData)>(&::GlobalNamespace::OVRAnchor::OnSpaceEraseComplete)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e08634;
+  constexpr static std::size_t addrs = 0x621dbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2271,7 +1764,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRAnchor_TrackableType (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::GetTrackableType)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5e086a0;
+  constexpr static std::size_t addrs = 0x621dc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "GetTrackableType", {}, {} })));
@@ -2285,7 +1778,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*,
     ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*)>(&::GlobalNamespace::OVRAnchor::GetRequiredComponents)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5e08974;
+  constexpr static std::size_t addrs = 0x621e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2306,7 +1799,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*,
         ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*)>(&::GlobalNamespace::OVRAnchor::FetchTrackablesAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5e08b94;
+  constexpr static std::size_t addrs = 0x621e39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2319,20 +1812,527 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor._FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnSpaceDiscoveryComplete
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryCompleteData)>(&::GlobalNamespace::OVRAnchor::OnSpaceDiscoveryComplete)> {
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x621e470;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceDiscoveryComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceDiscoveryCompleteData>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnSpaceDiscoveryResultsAvailable
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryResultsData)>(&::GlobalNamespace::OVRAnchor::OnSpaceDiscoveryResultsAvailable)> {
+  constexpr static std::size_t size = 0x360;
+  constexpr static std::size_t addrs = 0x621e8a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                             { "OnSpaceDiscoveryResultsAvailable", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceDiscoveryResultsData>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchAnchorsAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (*)(
+        ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchOptions,
+        ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*)>(&::GlobalNamespace::OVRAnchor::FetchAnchorsAsync)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x621ec08;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                         { "FetchAnchorsAsync",
+                                           {},
+                                           { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::GlobalNamespace::OVRAnchor_FetchOptions>(),
+                                             ::i2c::type_of<::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchSharedAnchorsAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (*)(
+        ::System::Guid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*)>(&::GlobalNamespace::OVRAnchor::FetchSharedAnchorsAsync)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x621f71c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                            { "FetchSharedAnchorsAsync", {}, { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchSharedAnchorsAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (*)(
+        ::System::Guid, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*)>(
+        &::GlobalNamespace::OVRAnchor::FetchSharedAnchorsAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x621f7f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "FetchSharedAnchorsAsync",
+                                                                               {},
+                                                                               { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>(),
+                                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.CreateSpatialAnchorAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> (*)(::UnityEngine::Pose)>(&::GlobalNamespace::OVRAnchor::CreateSpatialAnchorAsync)> {
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x621f8cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "CreateSpatialAnchorAsync", {}, { ::i2c::type_of<::UnityEngine::Pose>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.CreateSpatialAnchorAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRAnchor> (*)(::UnityEngine::Transform*, ::UnityEngine::Camera*)>(
+    &::GlobalNamespace::OVRAnchor::CreateSpatialAnchorAsync)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x621fa70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                             { "CreateSpatialAnchorAsync", {}, { ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.SaveAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> (::GlobalNamespace::OVRAnchor::*)()>(
+    &::GlobalNamespace::OVRAnchor::SaveAsync)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x621fbe4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "SaveAsync", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.SaveAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> (*)(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*)>(&::GlobalNamespace::OVRAnchor::SaveAsync)> {
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x621fe70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "SaveAsync", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.SaveSpacesAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>> (*)(::System::ReadOnlySpan_1<uint64_t>)>(
+    &::GlobalNamespace::OVRAnchor::SaveSpacesAsync)> {
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x621fc68;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "SaveSpacesAsync", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnSaveSpacesResult
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpacesSaveResultData)>(&::GlobalNamespace::OVRAnchor::OnSaveSpacesResult)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x622023c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSaveSpacesResult", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpacesSaveResultData>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.EraseAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> (::GlobalNamespace::OVRAnchor::*)()>(
+    &::GlobalNamespace::OVRAnchor::EraseAsync)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x62202ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "EraseAsync", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.EraseAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> (*)(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*, ::System::Collections::Generic::IEnumerable_1<::System::Guid>*)>(&::GlobalNamespace::OVRAnchor::EraseAsync)> {
+  constexpr static std::size_t size = 0x57c;
+  constexpr static std::size_t addrs = 0x62205cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "EraseAsync",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>(),
+                                                                                                     ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.EraseSpacesAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>> (*)(
+    ::System::ReadOnlySpan_1<uint64_t>, ::System::ReadOnlySpan_1<::System::Guid>)>(&::GlobalNamespace::OVRAnchor::EraseSpacesAsync)> {
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6220338;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                { "EraseSpacesAsync", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<::System::Guid>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnEraseSpacesResult
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRDeserialize_SpacesEraseResultData)>(&::GlobalNamespace::OVRAnchor::OnEraseSpacesResult)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6220b48;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnEraseSpacesResult", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpacesEraseResultData>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (::GlobalNamespace::OVRAnchor::*)(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*)>(&::GlobalNamespace::OVRAnchor::ShareAsync)> {
+  constexpr static std::size_t size = 0x458;
+  constexpr static std::size_t addrs = 0x6220bb8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                             { "ShareAsync", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*)>(
+    &::GlobalNamespace::OVRAnchor::ShareAsync)> {
+  constexpr static std::size_t size = 0x748;
+  constexpr static std::size_t addrs = 0x6221154;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "ShareAsync",
+                                                                                            {},
+                                                                                            { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>(),
+                                                                                              ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareSpacesAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
+    ::System::ReadOnlySpan_1<uint64_t>, ::System::ReadOnlySpan_1<uint64_t>)>(&::GlobalNamespace::OVRAnchor::ShareSpacesAsync)> {
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x6221010;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                { "ShareSpacesAsync", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (::GlobalNamespace::OVRAnchor::*)(
+    ::System::Guid)>(&::GlobalNamespace::OVRAnchor::ShareAsync)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x622189c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "ShareAsync", {}, { ::i2c::type_of<::System::Guid>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*, ::System::Guid)>(&::GlobalNamespace::OVRAnchor::ShareAsync)> {
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x6221ac8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                         { "ShareAsync", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::System::Guid>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ShareAsyncInternal
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ShareResult>> (*)(
+    ::System::ReadOnlySpan_1<uint64_t>, ::System::ReadOnlySpan_1<::System::Guid>)>(&::GlobalNamespace::OVRAnchor::ShareAsyncInternal)> {
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6221940;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                { "ShareAsyncInternal", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<uint64_t>>(), ::i2c::type_of<::System::ReadOnlySpan_1<::System::Guid>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.OnShareAnchorsToGroupsComplete
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRAnchor::OnShareAnchorsToGroupsComplete)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6221e98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                             { "OnShareAnchorsToGroupsComplete", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_Result>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.get_Handle
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::get_Handle)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6221f20;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "get_Handle", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.get_Uuid
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::get_Uuid)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6221f28;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "get_Uuid", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor::*)(uint64_t, ::System::Guid)>(&::GlobalNamespace::OVRAnchor::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x621d4b0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::System::Guid>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.GetSupportedComponents
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor::*)(::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*)>(
+    &::GlobalNamespace::OVRAnchor::GetSupportedComponents)> {
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x621df34;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                { "GetSupportedComponents", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRAnchor::Equals)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6221f34;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::OVRAnchor>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRAnchor::*)(::System::Object*)>(&::GlobalNamespace::OVRAnchor::Equals)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6221ff0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ::i2c::class_of<::GlobalNamespace::OVRAnchor>(), 0 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.op_Equality
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRAnchor, ::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRAnchor::op_Equality)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6222090;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                             { "op_Equality", {}, { ::i2c::type_of<::GlobalNamespace::OVRAnchor>(), ::i2c::type_of<::GlobalNamespace::OVRAnchor>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.op_Inequality
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRAnchor, ::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRAnchor::op_Inequality)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6222118;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                             { "op_Inequality", {}, { ::i2c::type_of<::GlobalNamespace::OVRAnchor>(), ::i2c::type_of<::GlobalNamespace::OVRAnchor>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.GetHashCode
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::GetHashCode)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x62221a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ::i2c::class_of<::GlobalNamespace::OVRAnchor>(), 2 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.ToString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::ToString)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6222220;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { ::i2c::class_of<::GlobalNamespace::OVRAnchor>(), 3 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Dispose
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor::*)()>(&::GlobalNamespace::OVRAnchor::Dispose)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6222290;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.Init
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::OVRAnchor::Init)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6222318;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "Init", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor.FetchAnchors
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> (*)(
+    ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2)>(&::GlobalNamespace::OVRAnchor::FetchAnchors)> {
+  constexpr static std::size_t size = 0x4bc;
+  constexpr static std::size_t addrs = 0x6222444;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+            { "FetchAnchors", {}, { ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor._FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> (*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*,
     ::GlobalNamespace::OVRPlugin_SpaceComponentType, ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*)>(
-    &::GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0)> {
+    &::GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e090d4;
+  constexpr static std::size_t addrs = 0x6222d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "<FetchTrackablesAsync>g__QuerySingleComponentAsync|66_0",
+                                                             { "<FetchTrackablesAsync>g__QuerySingleComponentAsync|18_0",
                                                                {},
                                                                { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>(),
                                                                  ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
@@ -2341,31 +2341,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor._FetchTrackablesAsync_g__DoesComponentMatchTrackableType_66_1
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor._FetchTrackablesAsync_g__DoesComponentMatchTrackableType_18_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*, ::GlobalNamespace::OVRAnchor, ::GlobalNamespace::OVRPlugin_SpaceComponentType)>(
-        &::GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__DoesComponentMatchTrackableType_66_1)> {
+        &::GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__DoesComponentMatchTrackableType_18_1)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5e091b8;
+  constexpr static std::size_t addrs = 0x6222e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                             { "<FetchTrackablesAsync>g__DoesComponentMatchTrackableType|66_1",
+                                                             { "<FetchTrackablesAsync>g__DoesComponentMatchTrackableType|18_1",
                                                                {},
                                                                { ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::OVRAnchor>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRAnchor::setStaticF_Null(::GlobalNamespace::OVRAnchor value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::OVRAnchor, "Null", ::GlobalNamespace::OVRAnchor>(std::forward<::GlobalNamespace::OVRAnchor>(value));
-}
-inline ::GlobalNamespace::OVRAnchor GlobalNamespace::OVRAnchor::getStaticF_Null() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRAnchor, "Null", ::GlobalNamespace::OVRAnchor>();
-}
 inline void GlobalNamespace::OVRAnchor::setStaticF__deferredTasks(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor_DeferredKey, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor_DeferredValue>*>* value) {
   ::cordl_internals::setStaticField<
@@ -2380,12 +2374,136 @@ GlobalNamespace::OVRAnchor::getStaticF__deferredTasks() {
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor_DeferredKey, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor_DeferredValue>*>*, "_deferredTasks",
       ::GlobalNamespace::OVRAnchor>();
 }
+inline void GlobalNamespace::OVRAnchor::setStaticF_Null(::GlobalNamespace::OVRAnchor value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::OVRAnchor, "Null", ::GlobalNamespace::OVRAnchor>(std::forward<::GlobalNamespace::OVRAnchor>(value));
+}
+inline ::GlobalNamespace::OVRAnchor GlobalNamespace::OVRAnchor::getStaticF_Null() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRAnchor, "Null", ::GlobalNamespace::OVRAnchor>();
+}
 inline void GlobalNamespace::OVRAnchor::setStaticF__typeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>* value) {
   ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>*, "_typeMap", ::GlobalNamespace::OVRAnchor>(
       std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>*>(value));
 }
 inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>* GlobalNamespace::OVRAnchor::getStaticF__typeMap() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>*, "_typeMap", ::GlobalNamespace::OVRAnchor>();
+}
+inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::CreateDeferredSpaceComponentStatusTask(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType,
+                                                                                                             bool enabledDesired, double_t timeout) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                       { "CreateDeferredSpaceComponentStatusTask",
+                                         {},
+                                         { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>(), ::i2c::type_of<bool>(), ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, space, componentType, enabledDesired, timeout);
+}
+inline void GlobalNamespace::OVRAnchor::OnSpaceSetComponentStatusComplete(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData eventData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                           { "OnSpaceSetComponentStatusComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventData);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::FetchAnchorsAsync(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
+                                                                                        ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                           { "FetchAnchorsAsync",
+                                                             { ::i2c::class_of<T>() },
+                                                             { ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, anchors, location, maxResults, timeout);
+}
+inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
+                                                                                        ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
+                                                                                        ::GlobalNamespace::OVRSpace_StorageLocation location, double_t timeout) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "FetchAnchorsAsync",
+                                                                                                 {},
+                                                                                                 { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>(),
+                                                                                                   ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(),
+                                                                                                   ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>(), ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, uuids, anchors, location, timeout);
+}
+inline void GlobalNamespace::OVRAnchor::OnSpaceQueryComplete(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData data) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceQueryComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data);
+}
+inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::FetchAnchorsAsync(::GlobalNamespace::OVRPlugin_SpaceComponentType type,
+                                                                                        ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
+                                                                                        ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                       { "FetchAnchorsAsync",
+                                         {},
+                                         { ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>(), ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(),
+                                           ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, type, anchors, location, maxResults, timeout);
+}
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRAnchor::SaveSpaceList(uint64_t* spaces, uint32_t numSpaces, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location,
+                                                                                     ::by_ref<uint64_t> requestId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                          { "SaveSpaceList",
+                            {},
+                            { ::i2c::type_of<uint64_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaces, numSpaces, location, requestId);
+}
+inline void GlobalNamespace::OVRAnchor::OnSpaceListSaveResult(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData eventData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceListSaveResult", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventData);
+}
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRAnchor::EraseSpace(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                          { "EraseSpace", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, space, location, requestId);
+}
+inline void GlobalNamespace::OVRAnchor::OnSpaceEraseComplete(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData eventData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceEraseComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventData);
+}
+inline ::GlobalNamespace::OVRAnchor_TrackableType GlobalNamespace::OVRAnchor::GetTrackableType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "GetTrackableType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRAnchor_TrackableType>(*this, ___internal_method);
+}
+inline void GlobalNamespace::OVRAnchor::GetRequiredComponents(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
+                                                              ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypesOut,
+                                                              ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>* requiredComponentsOut) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "GetRequiredComponents",
+                                                                             {},
+                                                                             { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
+                                                                               ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
+                                                                               ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, trackableTypes, trackableTypesOut, requiredComponentsOut);
+}
+inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
+GlobalNamespace::OVRAnchor::FetchTrackablesAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
+                                                 ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
+                                                 ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
+                                                           { "FetchTrackablesAsync",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>(),
+                                                               ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
+                                                               ::i2c::type_of<::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<
+      ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>>(
+      nullptr, ___internal_method, anchors, trackableTypes, incrementalResultsCallback);
 }
 inline void GlobalNamespace::OVRAnchor::OnSpaceDiscoveryComplete(::GlobalNamespace::OVRDeserialize_SpaceDiscoveryCompleteData data) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2631,130 +2749,12 @@ inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> GlobalN
           { "FetchAnchors", {}, { ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result>>(nullptr, ___internal_method, anchors, queryInfo);
 }
-inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::CreateDeferredSpaceComponentStatusTask(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType,
-                                                                                                             bool enabledDesired, double_t timeout) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                       { "CreateDeferredSpaceComponentStatusTask",
-                                         {},
-                                         { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>(), ::i2c::type_of<bool>(), ::i2c::type_of<double_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, space, componentType, enabledDesired, timeout);
-}
-inline void GlobalNamespace::OVRAnchor::OnSpaceSetComponentStatusComplete(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData eventData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                           { "OnSpaceSetComponentStatusComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventData);
-}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::FetchAnchorsAsync(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                                        ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                           { "FetchAnchorsAsync",
-                                                             { ::i2c::class_of<T>() },
-                                                             { ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>() } })));
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, anchors, location, maxResults, timeout);
-}
-inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
-                                                                                        ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                                        ::GlobalNamespace::OVRSpace_StorageLocation location, double_t timeout) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "FetchAnchorsAsync",
-                                                                                                 {},
-                                                                                                 { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>(),
-                                                                                                   ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(),
-                                                                                                   ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>(), ::i2c::type_of<double_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, uuids, anchors, location, timeout);
-}
-inline void GlobalNamespace::OVRAnchor::OnSpaceQueryComplete(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData data) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceQueryComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data);
-}
-inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor::FetchAnchorsAsync(::GlobalNamespace::OVRPlugin_SpaceComponentType type,
-                                                                                        ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                                        ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                       { "FetchAnchorsAsync",
-                                         {},
-                                         { ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>(), ::i2c::type_of<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*>(),
-                                           ::i2c::type_of<::GlobalNamespace::OVRSpace_StorageLocation>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(nullptr, ___internal_method, type, anchors, location, maxResults, timeout);
-}
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRAnchor::SaveSpaceList(uint64_t* spaces, uint32_t numSpaces, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location,
-                                                                                     ::by_ref<uint64_t> requestId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                          { "SaveSpaceList",
-                            {},
-                            { ::i2c::type_of<uint64_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaces, numSpaces, location, requestId);
-}
-inline void GlobalNamespace::OVRAnchor::OnSpaceListSaveResult(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData eventData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceListSaveResult", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventData);
-}
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRAnchor::EraseSpace(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                          { "EraseSpace", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, space, location, requestId);
-}
-inline void GlobalNamespace::OVRAnchor::OnSpaceEraseComplete(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData eventData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "OnSpaceEraseComplete", {}, { ::i2c::type_of<::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventData);
-}
-inline ::GlobalNamespace::OVRAnchor_TrackableType GlobalNamespace::OVRAnchor::GetTrackableType() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "GetTrackableType", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRAnchor_TrackableType>(*this, ___internal_method);
-}
-inline void GlobalNamespace::OVRAnchor::GetRequiredComponents(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
-                                                              ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypesOut,
-                                                              ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>* requiredComponentsOut) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "GetRequiredComponents",
-                                                                             {},
-                                                                             { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
-                                                                               ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
-                                                                               ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, trackableTypes, trackableTypesOut, requiredComponentsOut);
-}
-inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
-GlobalNamespace::OVRAnchor::FetchTrackablesAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                 ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
-                                                 ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                           { "FetchTrackablesAsync",
-                                                             {},
-                                                             { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>(),
-                                                               ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
-                                                               ::i2c::type_of<::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<
-      ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>>(
-      nullptr, ___internal_method, anchors, trackableTypes, incrementalResultsCallback);
-}
-inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0(
+inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0(
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
     ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType, ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(),
-                                                           { "<FetchTrackablesAsync>g__QuerySingleComponentAsync|66_0",
+                                                           { "<FetchTrackablesAsync>g__QuerySingleComponentAsync|18_0",
                                                              {},
                                                              { ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>(),
                                                                ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
@@ -2764,11 +2764,11 @@ inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> GlobalN
                                                                                                                 incrementalResultsCallback);
 }
 inline bool
-GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__DoesComponentMatchTrackableType_66_1(::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
+GlobalNamespace::OVRAnchor::_FetchTrackablesAsync_g__DoesComponentMatchTrackableType_18_1(::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
                                                                                           ::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "<FetchTrackablesAsync>g__DoesComponentMatchTrackableType|66_1",
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor>(), { "<FetchTrackablesAsync>g__DoesComponentMatchTrackableType|18_1",
                                                                              {},
                                                                              { ::i2c::type_of<::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*>(),
                                                                                ::i2c::type_of<::GlobalNamespace::OVRAnchor>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>() } })));
@@ -2798,51 +2798,51 @@ constexpr ::GlobalNamespace::OVRAnchor::OVRAnchor(uint64_t _Handle_k__BackingFie
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRAnchor::OVRAnchor() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::*)()>(
-    &::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::*)()>(
+    &::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::MoveNext)> {
   constexpr static std::size_t size = 0x778;
-  constexpr static std::size_t addrs = 0x5e0c210;
+  constexpr static std::size_t addrs = 0x6225ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0c988;
+  constexpr static std::size_t addrs = 0x6226620;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::MoveNext() {
+inline void GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d>(),
+inline void GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -2854,7 +2854,7 @@ GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_6
 // "_anchorsWithComponent_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty:
 // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d(
+constexpr ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result> __t__builder, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType,
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback,
@@ -2871,60 +2871,60 @@ constexpr ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComp
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d() {}
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d.MoveNext
+constexpr ::GlobalNamespace::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d::OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_18_0_d() {}
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::*)()>(
-    &::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::MoveNext)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x5e0ca80;
+  constexpr static std::size_t addrs = 0x6226718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0cf20;
+  constexpr static std::size_t addrs = 0x6226bb8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::MoveNext() {
+inline void GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(),
+inline void GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
-// "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*",
+// "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor___c__DisplayClass6_0*",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value:
 // Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d(
-    int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0* __4__this,
+constexpr ::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d(
+    int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::GlobalNamespace::OVRAnchor___c__DisplayClass6_0* __4__this,
     ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -2932,136 +2932,136 @@ constexpr ::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0._ctor
+constexpr ::GlobalNamespace::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d::__c__DisplayClass6_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___c__DisplayClass6_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor___c__DisplayClass54_0::*)()>(&::GlobalNamespace::OVRAnchor___c__DisplayClass54_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor___c__DisplayClass6_0::*)()>(&::GlobalNamespace::OVRAnchor___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0c9c4;
+  constexpr static std::size_t addrs = 0x622665c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0._FetchAnchorsAsync_g__execute_0
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor___c__DisplayClass6_0._FetchAnchorsAsync_g__execute_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRAnchor___c__DisplayClass54_0::*)()>(
-    &::GlobalNamespace::OVRAnchor___c__DisplayClass54_0::_FetchAnchorsAsync_g__execute_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRAnchor___c__DisplayClass6_0::*)()>(
+    &::GlobalNamespace::OVRAnchor___c__DisplayClass6_0::_FetchAnchorsAsync_g__execute_0)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e0c9c8;
+  constexpr static std::size_t addrs = 0x6226660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*>(), { "<FetchAnchorsAsync>g__execute|0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass6_0*>(), { "<FetchAnchorsAsync>g__execute|0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Guid>*& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_uuids() {
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Guid>*& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_uuids() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uuids;
 }
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Guid>* const& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_uuids() const {
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Guid>* const& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_uuids() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uuids;
 }
-constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_set_uuids(::System::Collections::Generic::IEnumerable_1<::System::Guid>* value) {
+constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_set_uuids(::System::Collections::Generic::IEnumerable_1<::System::Guid>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___uuids = value;
 }
-constexpr ::GlobalNamespace::OVRSpace_StorageLocation& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_location() {
+constexpr ::GlobalNamespace::OVRSpace_StorageLocation& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_location() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___location;
 }
-constexpr ::GlobalNamespace::OVRSpace_StorageLocation const& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_location() const {
+constexpr ::GlobalNamespace::OVRSpace_StorageLocation const& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_location() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___location;
 }
-constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_set_location(::GlobalNamespace::OVRSpace_StorageLocation value) {
+constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_set_location(::GlobalNamespace::OVRSpace_StorageLocation value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___location = value;
 }
-constexpr double_t& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_timeout() {
+constexpr double_t& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_timeout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
-constexpr double_t const& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_timeout() const {
+constexpr double_t const& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_timeout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
-constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_set_timeout(double_t value) {
+constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_set_timeout(double_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeout = value;
 }
-constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_anchors() {
+constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_anchors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anchors;
 }
-constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* const& GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_get_anchors() const {
+constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* const& GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_get_anchors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anchors;
 }
-constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass54_0::__cordl_internal_set_anchors(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* value) {
+constexpr void GlobalNamespace::OVRAnchor___c__DisplayClass6_0::__cordl_internal_set_anchors(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___anchors = value;
 }
-inline void GlobalNamespace::OVRAnchor___c__DisplayClass54_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::OVRAnchor___c__DisplayClass6_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor___c__DisplayClass54_0::_FetchAnchorsAsync_g__execute_0() {
+inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRAnchor___c__DisplayClass6_0::_FetchAnchorsAsync_g__execute_0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*>(), { "<FetchAnchorsAsync>g__execute|0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor___c__DisplayClass6_0*>(), { "<FetchAnchorsAsync>g__execute|0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0* GlobalNamespace::OVRAnchor___c__DisplayClass54_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*>());
+inline ::GlobalNamespace::OVRAnchor___c__DisplayClass6_0* GlobalNamespace::OVRAnchor___c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRAnchor___c__DisplayClass6_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0::OVRAnchor___c__DisplayClass54_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56.MoveNext
+constexpr ::GlobalNamespace::OVRAnchor___c__DisplayClass6_0::OVRAnchor___c__DisplayClass6_0() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::*)()>(&::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::*)()>(&::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5e0cf5c;
+  constexpr static std::size_t addrs = 0x6226bf4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0d308;
+  constexpr static std::size_t addrs = 0x6226fa0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56>(),
+inline void GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -3070,11 +3070,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "maxResults", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timeout", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "anchors", ty: "::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::OVRAnchor__FetchAnchorsAsync_d__56(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder,
-                                                                                                    ::GlobalNamespace::OVRPlugin_SpaceComponentType type,
-                                                                                                    ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout,
-                                                                                                    ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
-                                                                                                    ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept {
+constexpr ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::OVRAnchor__FetchAnchorsAsync_d__8(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder,
+                                                                                                  ::GlobalNamespace::OVRPlugin_SpaceComponentType type,
+                                                                                                  ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout,
+                                                                                                  ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
+                                                                                                  ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->type = type;
@@ -3085,49 +3085,113 @@ constexpr ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::OVRAnchor__Fetc
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56::OVRAnchor__FetchAnchorsAsync_d__56() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10.MoveNext
+constexpr ::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__8::OVRAnchor__FetchAnchorsAsync_d__8() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::*)()>(
-    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x5e0d344;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::*)()>(
+    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::MoveNext)> {
+  constexpr static std::size_t size = 0x3b8;
+  constexpr static std::size_t addrs = 0x6226fdc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0d75c;
+  constexpr static std::size_t addrs = 0x6227394;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10>(),
+inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::OVRAnchor__FetchSharedAnchorsAsync_d__32(
+    int32_t __1__state,
+    ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,
+    ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Guid groupUuid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* __7__wrap1,
+    ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->anchors = anchors;
+  this->groupUuid = groupUuid;
+  this->__7__wrap1 = __7__wrap1;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__32::OVRAnchor__FetchSharedAnchorsAsync_d__32() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::*)()>(
+    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::MoveNext)> {
+  constexpr static std::size_t size = 0x418;
+  constexpr static std::size_t addrs = 0x62273d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::SetStateMachine)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x62277e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33>(),
+                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -3137,7 +3201,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers:
 // "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: Some("{}"),
 // comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::OVRAnchor__FetchSharedAnchorsAsync_d__10(
+constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::OVRAnchor__FetchSharedAnchorsAsync_d__33(
     int32_t __1__state,
     ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,
     ::System::Collections::Generic::IEnumerable_1<::System::Guid>* allowedAnchorUuids, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Guid groupUuid,
@@ -3151,111 +3215,48 @@ constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::OVRAnchor
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10::OVRAnchor__FetchSharedAnchorsAsync_d__10() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9.MoveNext
+constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__33::OVRAnchor__FetchSharedAnchorsAsync_d__33() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::*)()>(&::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x5e0d798;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9>(), { "MoveNext", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::SetStateMachine)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0db50;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9>(),
-                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9>(), { "MoveNext", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
-}
-inline void GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9>(),
-                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
-// "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::OVRAnchor__FetchSharedAnchorsAsync_d__9(
-    int32_t __1__state,
-    ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,
-    ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Guid groupUuid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* __7__wrap1,
-    ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->anchors = anchors;
-  this->groupUuid = groupUuid;
-  this->__7__wrap1 = __7__wrap1;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9::OVRAnchor__FetchSharedAnchorsAsync_d__9() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::*)()>(&::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::*)()>(&::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x9b8;
-  constexpr static std::size_t addrs = 0x5e0db8c;
+  constexpr static std::size_t addrs = 0x6227824;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e0e544;
+  constexpr static std::size_t addrs = 0x62281dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66>(),
+inline void GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -3267,7 +3268,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // None }, CppParam { name: "__7__wrap2", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>", modifiers: "", def_value: Some("{}"), comment: None },
 // CppParam { name: "__7__wrap3", ty: "::GlobalNamespace::OVRObjectPool_TaskScope_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::OVRAnchor__FetchTrackablesAsync_d__66(
+constexpr ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::OVRAnchor__FetchTrackablesAsync_d__18(
     int32_t __1__state,
     ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
@@ -3287,4 +3288,4 @@ constexpr ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::OVRAnchor__F
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__66::OVRAnchor__FetchTrackablesAsync_d__66() {}
+constexpr ::GlobalNamespace::OVRAnchor__FetchTrackablesAsync_d__18::OVRAnchor__FetchTrackablesAsync_d__18() {}

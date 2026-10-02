@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include <cmath>
 CORDL_MODULE_EXPORT(IPanel)
 namespace System {
 class IDisposable;
@@ -39,6 +40,10 @@ public:
 
   __declspec(property(get = get_focusController)) ::UnityEngine::UIElements::FocusController* focusController;
 
+  __declspec(property(get = get_isDirty)) bool isDirty;
+
+  __declspec(property(get = get_scaledPixelsPerPoint)) float_t scaledPixelsPerPoint;
+
   __declspec(property(get = get_visualTree)) ::UnityEngine::UIElements::VisualElement* visualTree;
 
   /// @brief Convert operator to "::System::IDisposable"
@@ -53,6 +58,12 @@ public:
   /// @brief Method get_focusController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
+  /// @brief Method get_isDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isDirty();
+
+  /// @brief Method get_scaledPixelsPerPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_scaledPixelsPerPoint();
+
   /// @brief Method get_visualTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
@@ -64,7 +75,7 @@ public:
   IPanel(IPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

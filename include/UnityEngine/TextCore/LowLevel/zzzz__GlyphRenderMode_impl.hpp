@@ -7,6 +7,7 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode::GlyphRenderMode(in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode::GlyphRenderMode() {}
+constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::DEFAULT{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::SMOOTH_HINTED{ static_cast<int32_t>(0x1019) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::SMOOTH{ static_cast<int32_t>(0x1015) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::COLOR_HINTED{ static_cast<int32_t>(0x11018) };

@@ -5,13 +5,18 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__IMECompositionEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultEventSystem)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -23,6 +28,9 @@ template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
@@ -70,9 +78,6 @@ namespace UnityEngine::InputForUI {
 struct TextInputEvent;
 }
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine::UIElements {
 struct DefaultEventSystem_FocusBasedEventSequenceContext;
 }
 namespace UnityEngine::UIElements {
@@ -88,6 +93,9 @@ namespace UnityEngine::UIElements {
 class DefaultEventSystem___c;
 }
 namespace UnityEngine::UIElements {
+template <typename TArg> class DefaultEventSystem___c__37_1;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
@@ -97,7 +105,13 @@ namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
+class IScreenRaycaster;
+}
+namespace UnityEngine::UIElements {
 class InputForUIProcessor_DefaultEventSystem___c;
+}
+namespace UnityEngine::UIElements {
+class InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0;
 }
 namespace UnityEngine::UIElements {
 class Label;
@@ -121,7 +135,22 @@ namespace UnityEngine::UIElements {
 struct NavigationMoveEvent_Direction;
 }
 namespace UnityEngine::UIElements {
+class PhysicsDocumentPicker;
+}
+namespace UnityEngine::UIElements {
 class RuntimePanel;
+}
+namespace UnityEngine::UIElements {
+class ScreenOverlayPanelPicker;
+}
+namespace UnityEngine::UIElements {
+class UIDocument;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 struct EventModifiers;
@@ -134,6 +163,9 @@ struct KeyCode;
 }
 namespace UnityEngine {
 struct PenData;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct Touch;
@@ -161,7 +193,13 @@ namespace UnityEngine::UIElements {
 class DefaultEventSystem___c;
 }
 namespace UnityEngine::UIElements {
+template <typename TArg> class DefaultEventSystem___c__37_1;
+}
+namespace UnityEngine::UIElements {
 class InputForUIProcessor_DefaultEventSystem___c;
+}
+namespace UnityEngine::UIElements {
+class InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0;
 }
 namespace UnityEngine::UIElements {
 class LegacyInputProcessor_DefaultEventSystem_IInput;
@@ -184,7 +222,9 @@ MARK_REF_T(::UnityEngine::UIElements::DefaultEventSystem*);
 MARK_REF_T(::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*);
 MARK_REF_T(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*);
 MARK_REF_T(::UnityEngine::UIElements::DefaultEventSystem___c*);
+MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::DefaultEventSystem___c__37_1);
 MARK_REF_T(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*);
+MARK_REF_T(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*);
 MARK_REF_T(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*);
 MARK_REF_T(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input*);
 MARK_REF_T(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput*);
@@ -195,7 +235,9 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DefaultEventSystem*, "UnityEngine
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*, "UnityEngine.UIElements", "DefaultEventSystem/InputForUIProcessor");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, "UnityEngine.UIElements", "DefaultEventSystem/LegacyInputProcessor");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DefaultEventSystem___c*, "UnityEngine.UIElements", "DefaultEventSystem/<>c");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::DefaultEventSystem___c__37_1, "UnityEngine.UIElements", "DefaultEventSystem/<>c__37`1");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*, "UnityEngine.UIElements", "DefaultEventSystem/InputForUIProcessor/<>c");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*, "UnityEngine.UIElements", "DefaultEventSystem/InputForUIProcessor/<>c__DisplayClass14_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*, "UnityEngine.UIElements", "DefaultEventSystem/LegacyInputProcessor/IInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input*, "UnityEngine.UIElements", "DefaultEventSystem/LegacyInputProcessor/Input");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput*, "UnityEngine.UIElements", "DefaultEventSystem/LegacyInputProcessor/NoInput");
@@ -243,89 +285,75 @@ public:
                       put = setStaticF___9__12_0)) ::System::Func_2<::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t>, ::UnityEngine::UIElements::EventBase*>* __9__12_0;
 
   /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__9_0,
-                      put = setStaticF___9__9_0)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                                   ::UnityEngine::UIElements::EventBase*>* __9__9_0;
+  __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0)) ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
+                                                                                              ::UnityEngine::UIElements::EventBase*>* __9__9_0;
 
   /// @brief Field <>9__9_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__9_1,
-                      put = setStaticF___9__9_1)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                                   ::UnityEngine::UIElements::EventBase*>* __9__9_1;
+  __declspec(property(get = getStaticF___9__9_1, put = setStaticF___9__9_1)) ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
+                                                                                              ::UnityEngine::UIElements::EventBase*>* __9__9_1;
 
   /// @brief Field <>9__9_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__9_2,
-                      put = setStaticF___9__9_2)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                                   ::UnityEngine::UIElements::EventBase*>* __9__9_2;
+  __declspec(property(get = getStaticF___9__9_2, put = setStaticF___9__9_2)) ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
+                                                                                              ::UnityEngine::UIElements::EventBase*>* __9__9_2;
 
   /// @brief Field <>9__9_3, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__9_3,
-                      put = setStaticF___9__9_3)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                                   ::UnityEngine::UIElements::EventBase*>* __9__9_3;
-
-  /// @brief Field <>9__9_4, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__9_4,
-                      put = setStaticF___9__9_4)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>,
-                                                                   ::UnityEngine::UIElements::EventBase*>* __9__9_4;
+  __declspec(property(get = getStaticF___9__9_3, put = setStaticF___9__9_3)) ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
+                                                                                              ::UnityEngine::UIElements::EventBase*>* __9__9_3;
 
   static inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c* New_ctor();
 
-  /// @brief Method <ProcessKeyEvent>b__11_0, addr 0x6d8605c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ProcessKeyEvent>b__11_0, addr 0x723e8dc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
   _ProcessKeyEvent_b__11_0(/* [TupleElementNames(new[] { "modifiers", "keyCode" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t);
 
-  /// @brief Method <ProcessKeyEvent>b__11_1, addr 0x6d860b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ProcessKeyEvent>b__11_1, addr 0x723e930, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
   _ProcessKeyEvent_b__11_1(/* [TupleElementNames(new[] { "modifiers", "keyCode" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t);
 
-  /// @brief Method <ProcessNavigationEvent>b__10_0, addr 0x6d85fbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <ProcessNavigationEvent>b__10_0, addr 0x723e83c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
   _ProcessNavigationEvent_b__10_0(/* [TupleElementNames(new[] { "deviceType", "mod" })] */ ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
 
-  /// @brief Method <ProcessNavigationEvent>b__10_1, addr 0x6d8600c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <ProcessNavigationEvent>b__10_1, addr 0x723e88c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
   _ProcessNavigationEvent_b__10_1(/* [TupleElementNames(new[] { "deviceType", "mod" })] */ ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t);
 
-  /// @brief Method <ProcessNavigationEvent>b__10_2, addr 0x6d85ed4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <ProcessNavigationEvent>b__10_2, addr 0x723e754, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessNavigationEvent_b__10_2(
       /* [TupleElementNames(new[] { "move", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>
           t);
 
-  /// @brief Method <ProcessNavigationEvent>b__10_3, addr 0x6d85f4c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <ProcessNavigationEvent>b__10_3, addr 0x723e7cc, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessNavigationEvent_b__10_3(
       /* [TupleElementNames(new[] { "direction", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction,
                                                                                                    ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>
           t);
 
-  /// @brief Method <ProcessPointerEvent>b__9_0, addr 0x6d85bb4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <ProcessPointerEvent>b__9_0, addr 0x723e4f4, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _ProcessPointerEvent_b__9_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  _ProcessPointerEvent_b__9_0(::UnityEngine::Vector3 panelPosition,
                               /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
-  /// @brief Method <ProcessPointerEvent>b__9_1, addr 0x6d85c54, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <ProcessPointerEvent>b__9_1, addr 0x723e58c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _ProcessPointerEvent_b__9_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  _ProcessPointerEvent_b__9_1(::UnityEngine::Vector3 panelPosition,
                               /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
-  /// @brief Method <ProcessPointerEvent>b__9_2, addr 0x6d85cf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <ProcessPointerEvent>b__9_2, addr 0x723e624, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _ProcessPointerEvent_b__9_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  _ProcessPointerEvent_b__9_2(::UnityEngine::Vector3 panelPosition,
                               /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
-  /// @brief Method <ProcessPointerEvent>b__9_3, addr 0x6d85d94, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <ProcessPointerEvent>b__9_3, addr 0x723e6bc, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _ProcessPointerEvent_b__9_3(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  _ProcessPointerEvent_b__9_3(::UnityEngine::Vector3 panelPosition,
                               /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
-  /// @brief Method <ProcessPointerEvent>b__9_4, addr 0x6d85e34, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase*
-  _ProcessPointerEvent_b__9_4(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
-                              /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
-
-  /// @brief Method <ProcessTextInputEvent>b__12_0, addr 0x6d86104, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ProcessTextInputEvent>b__12_0, addr 0x723e984, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
   _ProcessTextInputEvent_b__12_0(/* [TupleElementNames(new[] { "modifiers", "character" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t> t);
 
-  /// @brief Method .ctor, addr 0x6d85bb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x723e4f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c* getStaticF___9();
@@ -347,24 +375,17 @@ public:
 
   static inline ::System::Func_2<::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t>, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__12_0();
 
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                 ::UnityEngine::UIElements::EventBase*>*
+  static inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
   getStaticF___9__9_0();
 
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                 ::UnityEngine::UIElements::EventBase*>*
+  static inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
   getStaticF___9__9_1();
 
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                 ::UnityEngine::UIElements::EventBase*>*
+  static inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
   getStaticF___9__9_2();
 
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                 ::UnityEngine::UIElements::EventBase*>*
+  static inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
   getStaticF___9__9_3();
-
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*
-  getStaticF___9__9_4();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c* value);
 
@@ -387,20 +408,17 @@ public:
 
   static inline void setStaticF___9__12_0(::System::Func_2<::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t>, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__9_0(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                          ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void
+  setStaticF___9__9_0(::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__9_1(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                          ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void
+  setStaticF___9__9_1(::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__9_2(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                          ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void
+  setStaticF___9__9_2(::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__9_3(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>,
-                                                          ::UnityEngine::UIElements::EventBase*>* value);
-
-  static inline void setStaticF___9__9_4(
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void
+  setStaticF___9__9_3(::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value);
 
 protected:
   // Ctor Parameters []
@@ -417,12 +435,65 @@ public:
   InputForUIProcessor_DefaultEventSystem___c(InputForUIProcessor_DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(sizeof(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c) == 0x10, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.InputForUI.IMECompositionEvent
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.DefaultEventSystem/InputForUIProcessor/<>c__DisplayClass14_0
+class CORDL_TYPE InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field compositionEvent, offset 0x10, size 0x20
+  __declspec(property(get = __cordl_internal_get_compositionEvent, put = __cordl_internal_set_compositionEvent)) ::UnityEngine::InputForUI::IMECompositionEvent compositionEvent;
+
+  static inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0* New_ctor();
+
+  /// @brief Method <ProcessIMECompositionEvent>b__0, addr 0x723e9d8, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _ProcessIMECompositionEvent_b__0(int32_t _);
+
+  constexpr ::UnityEngine::InputForUI::IMECompositionEvent const& __cordl_internal_get_compositionEvent() const;
+
+  constexpr ::UnityEngine::InputForUI::IMECompositionEvent& __cordl_internal_get_compositionEvent();
+
+  constexpr void __cordl_internal_set_compositionEvent(::UnityEngine::InputForUI::IMECompositionEvent value);
+
+  /// @brief Method .ctor, addr 0x723e3f4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0(InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0(InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4596 };
+
+  /// @brief Field compositionEvent, offset: 0x10, size: 0x20, def value: None
+  ::UnityEngine::InputForUI::IMECompositionEvent ___compositionEvent;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0, ___compositionEvent) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies System.Object, Unity.IntegerTime.DiscreteTime
@@ -433,6 +504,8 @@ class CORDL_TYPE DefaultEventSystem_InputForUIProcessor : public ::System::Objec
 public:
   // Declarations
   using __c = ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c;
+
+  using __c__DisplayClass14_0 = ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0;
 
   /// @brief Field m_EventList, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EventList, put = __cordl_internal_set_m_EventList)) ::System::Collections::Generic::Queue_1<::UnityEngine::InputForUI::Event>* m_EventList;
@@ -446,34 +519,43 @@ public:
   /// @brief Field m_NextPointerTimestamp, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NextPointerTimestamp, put = __cordl_internal_set_m_NextPointerTimestamp)) ::Unity::IntegerTime::DiscreteTime m_NextPointerTimestamp;
 
-  /// @brief Method GetModifiers, addr 0x6d85b08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetModifiers, addr 0x723e3a0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers GetModifiers(::UnityEngine::InputForUI::EventModifiers eventModifiers);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* New_ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem);
 
-  /// @brief Method OnEvent, addr 0x6d8481c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnEvent, addr 0x723c890, size 0xb8, virtual false, abstract: false, final false
   inline bool OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
 
-  /// @brief Method ProcessCommandEvent, addr 0x6d85548, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ProcessCommandEvent, addr 0x723ddd8, size 0x90, virtual false, abstract: false, final false
   inline void ProcessCommandEvent(::UnityEngine::InputForUI::CommandEvent commandEvent);
 
-  /// @brief Method ProcessIMECompositionEvent, addr 0x6d854bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ProcessIMECompositionEvent, addr 0x723dc64, size 0x174, virtual false, abstract: false, final false
   inline void ProcessIMECompositionEvent(::UnityEngine::InputForUI::IMECompositionEvent compositionEvent);
 
-  /// @brief Method ProcessInputForUIEvents, addr 0x6d834ec, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method ProcessInputForUIEvents, addr 0x723c948, size 0x42c, virtual false, abstract: false, final false
   inline void ProcessInputForUIEvents();
 
-  /// @brief Method ProcessKeyEvent, addr 0x6d850a4, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method ProcessKeyEvent, addr 0x723d844, size 0x294, virtual false, abstract: false, final false
   inline void ProcessKeyEvent(::UnityEngine::InputForUI::KeyEvent keyEvent);
 
-  /// @brief Method ProcessNavigationEvent, addr 0x6d855d4, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method ProcessNavigationEvent, addr 0x723de68, size 0x520, virtual false, abstract: false, final false
   inline void ProcessNavigationEvent(::UnityEngine::InputForUI::NavigationEvent navigationEvent);
 
-  /// @brief Method ProcessPointerEvent, addr 0x6d848d4, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerEvent, addr 0x723cd74, size 0xad0, virtual false, abstract: false, final false
   inline void ProcessPointerEvent(::UnityEngine::InputForUI::PointerEvent pointerEvent);
 
-  /// @brief Method ProcessTextInputEvent, addr 0x6d85334, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ProcessTextInputEvent, addr 0x723dad8, size 0x18c, virtual false, abstract: false, final false
   inline void ProcessTextInputEvent(::UnityEngine::InputForUI::TextInputEvent textInputEvent);
+
+  /// @brief Method Reset, addr 0x723c7f8, size 0x98, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// [CompilerGenerated]
+  /// @brief Method <ProcessPointerEvent>b__9_4, addr 0x723e3f8, size 0xa4, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase*
+  _ProcessPointerEvent_b__9_4(::UnityEngine::Vector3 panelPosition,
+                              /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t);
 
   constexpr ::System::Collections::Generic::Queue_1<::UnityEngine::InputForUI::Event>* const& __cordl_internal_get_m_EventList() const;
 
@@ -499,7 +581,7 @@ public:
 
   constexpr void __cordl_internal_set_m_NextPointerTimestamp(::Unity::IntegerTime::DiscreteTime value);
 
-  /// @brief Method .ctor, addr 0x6d83b40, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x723c730, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem);
 
 protected:
@@ -517,7 +599,7 @@ public:
   DefaultEventSystem_InputForUIProcessor(DefaultEventSystem_InputForUIProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4597 };
 
   /// @brief Field m_EventSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::DefaultEventSystem* ___m_EventSystem;
@@ -613,7 +695,7 @@ public:
   LegacyInputProcessor_DefaultEventSystem_IInput(LegacyInputProcessor_DefaultEventSystem_IInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -643,51 +725,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput"
   constexpr operator ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*() noexcept;
 
-  /// @brief Method ClearLastPenContactEvent, addr 0x6d887ac, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method ClearLastPenContactEvent, addr 0x724160c, size 0x28, virtual true, abstract: false, final true
   inline void ClearLastPenContactEvent();
 
-  /// @brief Method GetAxisRaw, addr 0x6d887a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAxisRaw, addr 0x7241604, size 0x8, virtual true, abstract: false, final true
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0x6d8879c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetButtonDown, addr 0x72415fc, size 0x8, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetLastPenContactEvent, addr 0x6d887d4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetLastPenContactEvent, addr 0x7241634, size 0x6c, virtual true, abstract: false, final true
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButtonDown, addr 0x6d888f0, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonDown, addr 0x7241750, size 0x3c, virtual true, abstract: false, final true
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x6d8892c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonUp, addr 0x724178c, size 0x3c, virtual true, abstract: false, final true
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x6d88868, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetTouch, addr 0x72416c8, size 0x80, virtual true, abstract: false, final true
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d86330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x723ed5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anyKey, addr 0x6d88978, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_anyKey, addr 0x72417d8, size 0x28, virtual true, abstract: false, final true
   inline bool get_anyKey();
 
-  /// @brief Method get_doubleClickTime, addr 0x6d889c8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_doubleClickTime, addr 0x7241828, size 0x3c, virtual true, abstract: false, final true
   inline float_t get_doubleClickTime();
 
-  /// @brief Method get_mouseButtonCount, addr 0x6d88970, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mouseButtonCount, addr 0x72417d0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_mouseButtonCount();
 
-  /// @brief Method get_mousePosition, addr 0x6d88968, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePosition, addr 0x72417c8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x6d888e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePresent, addr 0x7241748, size 0x8, virtual true, abstract: false, final true
   inline bool get_mousePresent();
 
-  /// @brief Method get_touchCount, addr 0x6d88840, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_touchCount, addr 0x72416a0, size 0x28, virtual true, abstract: false, final true
   inline int32_t get_touchCount();
 
-  /// @brief Method get_unscaledTime, addr 0x6d889a0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_unscaledTime, addr 0x7241800, size 0x28, virtual true, abstract: false, final true
   inline float_t get_unscaledTime();
 
   /// @brief Convert to "::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput"
@@ -708,7 +790,7 @@ public:
   LegacyInputProcessor_DefaultEventSystem_Input(LegacyInputProcessor_DefaultEventSystem_Input const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -740,51 +822,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput"
   constexpr operator ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*() noexcept;
 
-  /// @brief Method ClearLastPenContactEvent, addr 0x6d88a30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ClearLastPenContactEvent, addr 0x7241890, size 0x4, virtual true, abstract: false, final true
   inline void ClearLastPenContactEvent();
 
-  /// @brief Method GetAxisRaw, addr 0x6d88a0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAxisRaw, addr 0x724186c, size 0x8, virtual true, abstract: false, final true
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0x6d88a04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetButtonDown, addr 0x7241864, size 0x8, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetLastPenContactEvent, addr 0x6d88a34, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method GetLastPenContactEvent, addr 0x7241894, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButtonDown, addr 0x6d88a4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonDown, addr 0x72418ac, size 0x8, virtual true, abstract: false, final true
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x6d88a54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonUp, addr 0x72418b4, size 0x8, virtual true, abstract: false, final true
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x6d88a1c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetTouch, addr 0x724187c, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d86334, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x723ed60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anyKey, addr 0x6d88a74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_anyKey, addr 0x72418d4, size 0x8, virtual true, abstract: false, final true
   inline bool get_anyKey();
 
-  /// @brief Method get_doubleClickTime, addr 0x6d88a84, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_doubleClickTime, addr 0x72418e4, size 0xc, virtual true, abstract: false, final true
   inline float_t get_doubleClickTime();
 
-  /// @brief Method get_mouseButtonCount, addr 0x6d88a6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mouseButtonCount, addr 0x72418cc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_mouseButtonCount();
 
-  /// @brief Method get_mousePosition, addr 0x6d88a5c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_mousePosition, addr 0x72418bc, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x6d88a44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePresent, addr 0x72418a4, size 0x8, virtual true, abstract: false, final true
   inline bool get_mousePresent();
 
-  /// @brief Method get_touchCount, addr 0x6d88a14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_touchCount, addr 0x7241874, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_touchCount();
 
-  /// @brief Method get_unscaledTime, addr 0x6d88a7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_unscaledTime, addr 0x72418dc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_unscaledTime();
 
   /// @brief Convert to "::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput"
@@ -805,7 +887,7 @@ public:
   LegacyInputProcessor_DefaultEventSystem_NoInput(LegacyInputProcessor_DefaultEventSystem_NoInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -824,181 +906,181 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c* __9;
 
-  /// @brief Field <>9__26_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__26_0, put = setStaticF___9__26_0)) ::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* __9__26_0;
-
-  /// @brief Field <>9__26_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__26_1,
-                      put = setStaticF___9__26_1)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>,
-                                                                    ::UnityEngine::UIElements::EventBase*>* __9__26_1;
-
-  /// @brief Field <>9__26_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__26_2,
-                      put = setStaticF___9__26_2)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* __9__26_2;
-
-  /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Func_4<
-      ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>* __9__27_0;
-
-  /// @brief Field <>9__27_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__27_1, put = setStaticF___9__27_1)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                                                ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                                                                                                ::UnityEngine::UIElements::EventBase*>* __9__27_1;
-
-  /// @brief Field <>9__27_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__27_2, put = setStaticF___9__27_2)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                                                ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                                                                                                ::UnityEngine::UIElements::EventBase*>* __9__27_2;
-
   /// @brief Field <>9__28_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__28_0,
-                      put = setStaticF___9__28_0)) ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* __9__28_0;
+  __declspec(property(get = getStaticF___9__28_0, put = setStaticF___9__28_0)) ::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* __9__28_0;
 
   /// @brief Field <>9__28_1, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9__28_1,
-                      put = setStaticF___9__28_1)) ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* __9__28_1;
+                      put = setStaticF___9__28_1)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>,
+                                                                    ::UnityEngine::UIElements::EventBase*>* __9__28_1;
 
   /// @brief Field <>9__28_2, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9__28_2,
-                      put = setStaticF___9__28_2)) ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* __9__28_2;
+                      put = setStaticF___9__28_2)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* __9__28_2;
 
   /// @brief Field <>9__29_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__29_0,
-                      put = setStaticF___9__29_0)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>,
-                                                                    ::UnityEngine::UIElements::EventBase*>* __9__29_0;
+  __declspec(property(get = getStaticF___9__29_0, put = setStaticF___9__29_0)) ::System::Func_4<
+      ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>* __9__29_0;
+
+  /// @brief Field <>9__29_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__29_1, put = setStaticF___9__29_1)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
+                                                                                                ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                                                                                                ::UnityEngine::UIElements::EventBase*>* __9__29_1;
+
+  /// @brief Field <>9__29_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__29_2, put = setStaticF___9__29_2)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
+                                                                                                ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                                                                                                ::UnityEngine::UIElements::EventBase*>* __9__29_2;
 
   /// @brief Field <>9__30_0, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9__30_0,
-                      put = setStaticF___9__30_0)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* __9__30_0;
+                      put = setStaticF___9__30_0)) ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* __9__30_0;
 
-  /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0)) ::System::Func_2<
+  /// @brief Field <>9__30_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__30_1,
+                      put = setStaticF___9__30_1)) ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* __9__30_1;
+
+  /// @brief Field <>9__30_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__30_2,
+                      put = setStaticF___9__30_2)) ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* __9__30_2;
+
+  /// @brief Field <>9__31_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__31_0, put = setStaticF___9__31_0)) ::System::Func_4<
+      ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>* __9__31_0;
+
+  /// @brief Field <>9__32_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__32_0,
+                      put = setStaticF___9__32_0)) ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* __9__32_0;
+
+  /// @brief Field <>9__39_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__39_0, put = setStaticF___9__39_0)) ::System::Func_2<
       ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
-      ::UnityEngine::UIElements::EventBase*>* __9__37_0;
+      ::UnityEngine::UIElements::EventBase*>* __9__39_0;
 
   static inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c* New_ctor();
 
-  /// @brief Method <ProcessMouseEvents>b__27_0, addr 0x6d88c90, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMouseEvents>b__29_0, addr 0x7241af0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _ProcessMouseEvents_b__27_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  _ProcessMouseEvents_b__29_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
                               /* [TupleElementNames(new[] { "modifiers", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
 
-  /// @brief Method <ProcessMouseEvents>b__27_1, addr 0x6d88d4c, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__27_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  /// @brief Method <ProcessMouseEvents>b__29_1, addr 0x7241bac, size 0x94, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__29_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
                                                                            /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
                                                                            ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
 
-  /// @brief Method <ProcessMouseEvents>b__27_2, addr 0x6d88de0, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__27_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+  /// @brief Method <ProcessMouseEvents>b__29_2, addr 0x7241c40, size 0x94, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__29_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
                                                                            /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
                                                                            ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t);
 
-  /// @brief Method <ProcessPenEvents>b__30_0, addr 0x6d891a8, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessPenEvents_b__30_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::PenData _pen);
+  /// @brief Method <ProcessPenEvents>b__32_0, addr 0x7241fe0, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _ProcessPenEvents_b__32_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::PenData _pen);
 
-  /// @brief Method <ProcessTabEvent>b__37_0, addr 0x6d8924c, size 0xfc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _ProcessTabEvent_b__37_0(
+  /// @brief Method <ProcessTabEvent>b__39_0, addr 0x724201c, size 0xfc, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _ProcessTabEvent_b__39_0(
       /* [TupleElementNames(new[] { "direction", "modifiers", "input" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                                     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>
           t);
 
-  /// @brief Method <ProcessTouchEvents>b__29_0, addr 0x6d890ec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <ProcessTouchEvents>b__31_0, addr 0x7241f4c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _ProcessTouchEvents_b__29_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                              /* [TupleElementNames(new[] { "touch", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>> t);
+  _ProcessTouchEvents_b__31_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+                              /* [TupleElementNames(new[] { "touch", "pointerId", "targetDisplay" })] */ ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>> t);
 
-  /// @brief Method <SendIMGUIEvents>b__26_0, addr 0x6d88ae8, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__26_0(::UnityEngine::Event* e);
+  /// @brief Method <SendIMGUIEvents>b__28_0, addr 0x7241948, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__28_0(::UnityEngine::Event* e);
 
-  /// @brief Method <SendIMGUIEvents>b__26_1, addr 0x6d88b44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <SendIMGUIEvents>b__28_1, addr 0x72419a4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
-  _SendIMGUIEvents_b__26_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
+  _SendIMGUIEvents_b__28_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
                            /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
 
-  /// @brief Method <SendIMGUIEvents>b__26_2, addr 0x6d88be4, size 0xac, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__26_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Event* evt);
+  /// @brief Method <SendIMGUIEvents>b__28_2, addr 0x7241a44, size 0xac, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__28_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Event* evt);
 
-  /// @brief Method <SendInputEvents>b__28_0, addr 0x6d88e74, size 0x98, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__28_0(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self);
+  /// @brief Method <SendInputEvents>b__30_0, addr 0x7241cd4, size 0x98, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__30_0(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self);
 
-  /// @brief Method <SendInputEvents>b__28_1, addr 0x6d88f0c, size 0xf0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__28_1(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self);
+  /// @brief Method <SendInputEvents>b__30_1, addr 0x7241d6c, size 0xf0, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__30_1(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self);
 
-  /// @brief Method <SendInputEvents>b__28_2, addr 0x6d88ffc, size 0xf0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__28_2(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self);
+  /// @brief Method <SendInputEvents>b__30_2, addr 0x7241e5c, size 0xf0, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__30_2(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self);
 
-  /// @brief Method .ctor, addr 0x6d88ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7241944, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__26_0();
+  static inline ::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__28_0();
 
   static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*
-  getStaticF___9__26_1();
+  getStaticF___9__28_1();
 
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__26_2();
+  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__28_2();
 
   static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
                                  ::UnityEngine::UIElements::EventBase*>*
-  getStaticF___9__27_0();
-
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                                 ::UnityEngine::UIElements::EventBase*>*
-  getStaticF___9__27_1();
-
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                                 ::UnityEngine::UIElements::EventBase*>*
-  getStaticF___9__27_2();
-
-  static inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__28_0();
-
-  static inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__28_1();
-
-  static inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__28_2();
-
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*
   getStaticF___9__29_0();
 
-  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__30_0();
+  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                                 ::UnityEngine::UIElements::EventBase*>*
+  getStaticF___9__29_1();
+
+  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                                 ::UnityEngine::UIElements::EventBase*>*
+  getStaticF___9__29_2();
+
+  static inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__30_0();
+
+  static inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__30_1();
+
+  static inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__30_2();
+
+  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>,
+                                 ::UnityEngine::UIElements::EventBase*>*
+  getStaticF___9__31_0();
+
+  static inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* getStaticF___9__32_0();
 
   static inline ::System::Func_2<
       ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
       ::UnityEngine::UIElements::EventBase*>*
-  getStaticF___9__37_0();
+  getStaticF___9__39_0();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c* value);
 
-  static inline void setStaticF___9__26_0(::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__28_0(::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__26_1(
+  static inline void setStaticF___9__28_1(
       ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__26_2(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__28_2(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__27_0(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+  static inline void setStaticF___9__29_0(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
                                                            ::UnityEngine::UIElements::EventBase*>* value);
 
   static inline void
-  setStaticF___9__27_1(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+  setStaticF___9__29_1(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
                                         ::UnityEngine::UIElements::EventBase*>* value);
 
   static inline void
-  setStaticF___9__27_2(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+  setStaticF___9__29_2(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
                                         ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__28_0(::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__30_0(::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__28_1(::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__30_1(::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__28_2(::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__30_2(::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__29_0(
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__31_0(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>,
+                                                           ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__30_0(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* value);
+  static inline void setStaticF___9__32_0(::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* value);
 
-  static inline void setStaticF___9__37_0(::System::Func_2<::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
+  static inline void setStaticF___9__39_0(::System::Func_2<::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                   ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
                                                            ::UnityEngine::UIElements::EventBase*>* value);
 
@@ -1017,7 +1099,7 @@ public:
   LegacyInputProcessor_DefaultEventSystem___c(LegacyInputProcessor_DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4601 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1042,7 +1124,7 @@ public:
 
   __declspec(property(get = get_input)) ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* input;
 
-  /// @brief Field m_ConsecutiveMoveCount, offset 0x48, size 0x4
+  /// @brief Field m_ConsecutiveMoveCount, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ConsecutiveMoveCount, put = __cordl_internal_set_m_ConsecutiveMoveCount)) int32_t m_ConsecutiveMoveCount;
 
   /// @brief Field m_CurrentModifiers, offset 0x14, size 0x4
@@ -1050,16 +1132,16 @@ public:
 
   __declspec(property(get = get_m_CurrentPointerModifiers)) ::UnityEngine::EventModifiers m_CurrentPointerModifiers;
 
-  /// @brief Field m_Event, offset 0x38, size 0x8
+  /// @brief Field m_Event, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Event, put = __cordl_internal_set_m_Event)) ::UnityEngine::Event* m_Event;
 
-  /// @brief Field m_EventSystem, offset 0x40, size 0x8
+  /// @brief Field m_EventSystem, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem)) ::UnityEngine::UIElements::DefaultEventSystem* m_EventSystem;
 
-  /// @brief Field m_Input, offset 0x30, size 0x8
+  /// @brief Field m_Input, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Input, put = __cordl_internal_set_m_Input)) ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* m_Input;
 
-  /// @brief Field m_IsMoveFromKeyboard, offset 0x58, size 0x1
+  /// @brief Field m_IsMoveFromKeyboard, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsMoveFromKeyboard, put = __cordl_internal_set_m_IsMoveFromKeyboard)) bool m_IsMoveFromKeyboard;
 
   /// @brief Field m_LastMouseClickCount, offset 0x20, size 0x4
@@ -1071,7 +1153,7 @@ public:
   /// @brief Field m_LastMousePressButton, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LastMousePressButton, put = __cordl_internal_set_m_LastMousePressButton)) int32_t m_LastMousePressButton;
 
-  /// @brief Field m_LastMoveVector, offset 0x4c, size 0x8
+  /// @brief Field m_LastMoveVector, offset 0x5c, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LastMoveVector, put = __cordl_internal_set_m_LastMoveVector)) ::UnityEngine::Vector2 m_LastMoveVector;
 
   /// @brief Field m_MouseProcessedAtLeastOnce, offset 0x2c, size 0x1
@@ -1080,7 +1162,7 @@ public:
   /// @brief Field m_NextMousePressTime, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NextMousePressTime, put = __cordl_internal_set_m_NextMousePressTime)) float_t m_NextMousePressTime;
 
-  /// @brief Field m_PrevActionTime, offset 0x54, size 0x4
+  /// @brief Field m_PrevActionTime, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_m_PrevActionTime, put = __cordl_internal_set_m_PrevActionTime)) float_t m_PrevActionTime;
 
   /// @brief Field m_SendingPenEvent, offset 0x11, size 0x1
@@ -1089,36 +1171,49 @@ public:
   /// @brief Field m_SendingTouchEvents, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SendingTouchEvents, put = __cordl_internal_set_m_SendingTouchEvents)) bool m_SendingTouchEvents;
 
-  /// @brief Method GetDefaultInput, addr 0x6d86188, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Field m_TouchFingerIdToFingerIndex, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TouchFingerIdToFingerIndex,
+                      put = __cordl_internal_set_m_TouchFingerIdToFingerIndex)) ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_TouchFingerIdToFingerIndex;
+
+  /// @brief Field m_TouchNextFingerIndex, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_TouchNextFingerIndex, put = __cordl_internal_set_m_TouchNextFingerIndex)) int32_t m_TouchNextFingerIndex;
+
+  /// @brief Method GetDefaultInput, addr 0x723ea68, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* GetDefaultInput();
 
-  /// @brief Method GetRawMoveVector, addr 0x6d884a4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetRawMoveVector, addr 0x72410c4, size 0x2f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetRawMoveVector();
+
+  /// @brief Method MakePenEvent, addr 0x7241508, size 0xf4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::EventBase* MakePenEvent(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay);
+
+  /// @brief Method MakeTouchEvent, addr 0x72413bc, size 0x14c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::EventBase* MakeTouchEvent(::UnityEngine::Touch touch, int32_t pointerId, ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* New_ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem);
 
-  /// @brief Method ProcessLegacyInputEvents, addr 0x6d8397c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ProcessLegacyInputEvents, addr 0x723ed64, size 0xec, virtual false, abstract: false, final false
   inline void ProcessLegacyInputEvents();
 
-  /// @brief Method ProcessMouseEvents, addr 0x6d86a64, size 0x988, virtual false, abstract: false, final false
+  /// @brief Method ProcessMouseEvents, addr 0x723f684, size 0x988, virtual false, abstract: false, final false
   inline void ProcessMouseEvents();
 
-  /// @brief Method ProcessPenEvents, addr 0x6d86338, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method ProcessPenEvents, addr 0x723ee50, size 0x2e0, virtual false, abstract: false, final false
   inline bool ProcessPenEvents();
 
-  /// @brief Method ProcessTabEvent, addr 0x6d87ee8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTabEvent, addr 0x7240b08, size 0x18c, virtual false, abstract: false, final false
   inline void ProcessTabEvent(::UnityEngine::Event* e, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method ProcessTouchEvents, addr 0x6d86618, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchEvents, addr 0x723f130, size 0x554, virtual false, abstract: false, final false
   inline bool ProcessTouchEvents();
 
-  /// @brief Method SendIMGUIEvents, addr 0x6d873ec, size 0x73c, virtual false, abstract: false, final false
+  /// @brief Method SendIMGUIEvents, addr 0x724000c, size 0x73c, virtual false, abstract: false, final false
   inline void SendIMGUIEvents();
 
-  /// @brief Method SendInputEvents, addr 0x6d87b28, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method SendInputEvents, addr 0x7240748, size 0x3c0, virtual false, abstract: false, final false
   inline void SendInputEvents();
 
-  /// @brief Method ShouldSendMoveFromInput, addr 0x6d88074, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendMoveFromInput, addr 0x7240c94, size 0x430, virtual false, abstract: false, final false
   inline bool ShouldSendMoveFromInput();
 
   constexpr int32_t const& __cordl_internal_get_m_ConsecutiveMoveCount() const;
@@ -1181,6 +1276,14 @@ public:
 
   constexpr bool& __cordl_internal_get_m_SendingTouchEvents();
 
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get_m_TouchFingerIdToFingerIndex() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_TouchFingerIdToFingerIndex();
+
+  constexpr int32_t const& __cordl_internal_get_m_TouchNextFingerIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_TouchNextFingerIndex();
+
   constexpr void __cordl_internal_set_m_ConsecutiveMoveCount(int32_t value);
 
   constexpr void __cordl_internal_set_m_CurrentModifiers(::UnityEngine::EventModifiers value);
@@ -1211,13 +1314,17 @@ public:
 
   constexpr void __cordl_internal_set_m_SendingTouchEvents(bool value);
 
-  /// @brief Method .ctor, addr 0x6d83a68, size 0xd8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_TouchFingerIdToFingerIndex(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_TouchNextFingerIndex(int32_t value);
+
+  /// @brief Method .ctor, addr 0x723ec14, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem);
 
-  /// @brief Method get_input, addr 0x6d86164, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_input, addr 0x723ea44, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* get_input();
 
-  /// @brief Method get_m_CurrentPointerModifiers, addr 0x6d86158, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_m_CurrentPointerModifiers, addr 0x723ea38, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_m_CurrentPointerModifiers();
 
 protected:
@@ -1235,7 +1342,7 @@ public:
   DefaultEventSystem_LegacyInputProcessor(DefaultEventSystem_LegacyInputProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4602 };
 
   /// @brief Field m_SendingTouchEvents, offset: 0x10, size: 0x1, def value: None
   bool ___m_SendingTouchEvents;
@@ -1261,25 +1368,31 @@ public:
   /// @brief Field m_MouseProcessedAtLeastOnce, offset: 0x2c, size: 0x1, def value: None
   bool ___m_MouseProcessedAtLeastOnce;
 
-  /// @brief Field m_Input, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_TouchFingerIdToFingerIndex, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___m_TouchFingerIdToFingerIndex;
+
+  /// @brief Field m_TouchNextFingerIndex, offset: 0x38, size: 0x4, def value: None
+  int32_t ___m_TouchNextFingerIndex;
+
+  /// @brief Field m_Input, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* ___m_Input;
 
-  /// @brief Field m_Event, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_Event, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Event* ___m_Event;
 
-  /// @brief Field m_EventSystem, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_EventSystem, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::UIElements::DefaultEventSystem* ___m_EventSystem;
 
-  /// @brief Field m_ConsecutiveMoveCount, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field m_ConsecutiveMoveCount, offset: 0x58, size: 0x4, def value: None
   int32_t ___m_ConsecutiveMoveCount;
 
-  /// @brief Field m_LastMoveVector, offset: 0x4c, size: 0x8, def value: None
+  /// @brief Field m_LastMoveVector, offset: 0x5c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_LastMoveVector;
 
-  /// @brief Field m_PrevActionTime, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field m_PrevActionTime, offset: 0x64, size: 0x4, def value: None
   float_t ___m_PrevActionTime;
 
-  /// @brief Field m_IsMoveFromKeyboard, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field m_IsMoveFromKeyboard, offset: 0x68, size: 0x1, def value: None
   bool ___m_IsMoveFromKeyboard;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1301,21 +1414,25 @@ static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInput
 
 static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_MouseProcessedAtLeastOnce) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_Input) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_TouchFingerIdToFingerIndex) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_Event) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_TouchNextFingerIndex) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_EventSystem) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_Input) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_ConsecutiveMoveCount) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_Event) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_LastMoveVector) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_EventSystem) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_PrevActionTime) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_ConsecutiveMoveCount) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_IsMoveFromKeyboard) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_LastMoveVector) == 0x5c, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor) == 0x60, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_PrevActionTime) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor, ___m_IsMoveFromKeyboard) == 0x68, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies
@@ -1357,7 +1474,7 @@ public:
   static ::UnityEngine::UIElements::DefaultEventSystem_UpdateMode const IgnoreIfAppNotFocused;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1383,10 +1500,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6d85af0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x723e388, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6d83e74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7242118, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DefaultEventSystem* es);
 
   /// @brief Convert to "::System::IDisposable"
@@ -1400,7 +1517,7 @@ public:
   constexpr DefaultEventSystem_FocusBasedEventSequenceContext(::UnityEngine::UIElements::DefaultEventSystem* es) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4604 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1429,10 +1546,10 @@ public:
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem___c* New_ctor();
 
-  /// @brief Method <.cctor>b__48_0, addr 0x6d893a0, size 0x8, virtual false, abstract: false, final false
-  inline bool __cctor_b__48_0();
+  /// @brief Method <.cctor>b__62_0, addr 0x72421b8, size 0x8, virtual false, abstract: false, final false
+  inline bool __cctor_b__62_0();
 
-  /// @brief Method .ctor, addr 0x6d8939c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72421b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem___c* getStaticF___9();
@@ -1454,7 +1571,7 @@ public:
   DefaultEventSystem___c(DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1462,7 +1579,71 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::DefaultEventSystem___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename TArg>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.DefaultEventSystem/<>c__37`1<TArg>
+class CORDL_TYPE DefaultEventSystem___c__37_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* __9;
+
+  /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0)) ::System::Func_3<
+      ::UnityEngine::Vector3, ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+      ::UnityEngine::UIElements::EventBase*>* __9__37_0;
+
+  static inline ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* New_ctor();
+
+  /// @brief Method <SendPositionBasedEvent>b__37_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventBase*
+  _SendPositionBasedEvent_b__37_0(::UnityEngine::Vector3 p, /* [TupleElementNames(new[] { "evtFactory", "delta", "arg" })] */ ::System::ValueTuple_3<
+                                      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>
+                                      t);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* getStaticF___9();
+
+  static inline ::System::Func_3<::UnityEngine::Vector3,
+                                 ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+                                 ::UnityEngine::UIElements::EventBase*>*
+  getStaticF___9__37_0();
+
+  static inline void setStaticF___9(::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* value);
+
+  static inline void setStaticF___9__37_0(
+      ::System::Func_3<::UnityEngine::Vector3,
+                       ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+                       ::UnityEngine::UIElements::EventBase*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultEventSystem___c__37_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c__37_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DefaultEventSystem___c__37_1(DefaultEventSystem___c__37_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c__37_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DefaultEventSystem___c__37_1(DefaultEventSystem___c__37_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4606 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
+// Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DefaultEventSystem
@@ -1479,10 +1660,12 @@ public:
 
   using __c = ::UnityEngine::UIElements::DefaultEventSystem___c;
 
+  template <typename TArg> using __c__37_1 = ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>;
+
   /// @brief Field IsEditorRemoteConnected, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_IsEditorRemoteConnected, put = setStaticF_IsEditorRemoteConnected)) ::System::Func_1<bool>* IsEditorRemoteConnected;
 
-  __declspec(property(get = get_focusedPanel, put = set_focusedPanel)) ::UnityEngine::UIElements::BaseRuntimePanel* focusedPanel;
+  __declspec(property(get = get_focusedPanel, put = set_focusedPanel)) ::UnityEngine::UIElements::RuntimePanel* focusedPanel;
 
   __declspec(property(get = get_inputForUIProcessor)) ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* inputForUIProcessor;
 
@@ -1492,71 +1675,102 @@ public:
 
   __declspec(property(get = get_legacyInputProcessor)) ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* legacyInputProcessor;
 
-  /// @brief Field logToGameScreen, offset 0x3c, size 0x1
+  /// @brief Field logToGameScreen, offset 0x69, size 0x1
   __declspec(property(get = __cordl_internal_get_logToGameScreen, put = __cordl_internal_set_logToGameScreen)) bool logToGameScreen;
 
   /// @brief Field m_FocusedPanel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FocusedPanel, put = __cordl_internal_set_m_FocusedPanel)) ::UnityEngine::UIElements::BaseRuntimePanel* m_FocusedPanel;
+  __declspec(property(get = __cordl_internal_get_m_FocusedPanel, put = __cordl_internal_set_m_FocusedPanel)) ::UnityEngine::UIElements::RuntimePanel* m_FocusedPanel;
 
-  /// @brief Field m_InputForUIProcessor, offset 0x30, size 0x8
+  /// @brief Field m_InputForUIProcessor, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InputForUIProcessor,
                       put = __cordl_internal_set_m_InputForUIProcessor)) ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* m_InputForUIProcessor;
 
-  /// @brief Field m_IsInputForUIActive, offset 0x3a, size 0x1
+  /// @brief Field m_IsInputForUIActive, offset 0x42, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsInputForUIActive, put = __cordl_internal_set_m_IsInputForUIActive)) bool m_IsInputForUIActive;
 
-  /// @brief Field m_IsInputReady, offset 0x38, size 0x1
+  /// @brief Field m_IsInputReady, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsInputReady, put = __cordl_internal_set_m_IsInputReady)) bool m_IsInputReady;
 
-  /// @brief Field m_LegacyInputProcessor, offset 0x28, size 0x8
+  /// @brief Field m_LegacyInputProcessor, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LegacyInputProcessor,
                       put = __cordl_internal_set_m_LegacyInputProcessor)) ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* m_LegacyInputProcessor;
 
-  /// @brief Field m_LogLabel, offset 0x40, size 0x8
+  /// @brief Field m_LogLabel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LogLabel, put = __cordl_internal_set_m_LogLabel)) ::UnityEngine::UIElements::Label* m_LogLabel;
 
-  /// @brief Field m_LogLines, offset 0x48, size 0x8
+  /// @brief Field m_LogLines, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LogLines, put = __cordl_internal_set_m_LogLines)) ::System::Collections::Generic::List_1<::StringW>* m_LogLines;
 
   /// @brief Field m_PreviousFocusedElement, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreviousFocusedElement, put = __cordl_internal_set_m_PreviousFocusedElement)) ::UnityEngine::UIElements::Focusable* m_PreviousFocusedElement;
 
   /// @brief Field m_PreviousFocusedPanel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousFocusedPanel, put = __cordl_internal_set_m_PreviousFocusedPanel)) ::UnityEngine::UIElements::BaseRuntimePanel* m_PreviousFocusedPanel;
+  __declspec(property(get = __cordl_internal_get_m_PreviousFocusedPanel, put = __cordl_internal_set_m_PreviousFocusedPanel)) ::UnityEngine::UIElements::RuntimePanel* m_PreviousFocusedPanel;
 
-  /// @brief Field m_UseInputForUI, offset 0x39, size 0x1
+  /// @brief Field m_Raycaster, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Raycaster, put = __cordl_internal_set_m_Raycaster)) ::UnityEngine::UIElements::IScreenRaycaster* m_Raycaster;
+
+  /// @brief Field m_ScreenOverlayPicker, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ScreenOverlayPicker, put = __cordl_internal_set_m_ScreenOverlayPicker)) ::UnityEngine::UIElements::ScreenOverlayPanelPicker* m_ScreenOverlayPicker;
+
+  /// @brief Field m_UpdateFrameCount, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UpdateFrameCount, put = __cordl_internal_set_m_UpdateFrameCount)) int32_t m_UpdateFrameCount;
+
+  /// @brief Field m_UseInputForUI, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UseInputForUI, put = __cordl_internal_set_m_UseInputForUI)) bool m_UseInputForUI;
 
-  /// @brief Field verbose, offset 0x3b, size 0x1
+  /// @brief Field m_WorldSpacePicker, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_WorldSpacePicker, put = __cordl_internal_set_m_WorldSpacePicker)) ::UnityEngine::UIElements::PhysicsDocumentPicker* m_WorldSpacePicker;
+
+  __declspec(property(get = get_raycaster, put = set_raycaster)) ::UnityEngine::UIElements::IScreenRaycaster* raycaster;
+
+  /// @brief Field s_InvalidPanelCoordinates, offset 0xffffffff, size 0xc
+  __declspec(property(get = getStaticF_s_InvalidPanelCoordinates, put = setStaticF_s_InvalidPanelCoordinates)) ::UnityEngine::Vector3 s_InvalidPanelCoordinates;
+
+  /// @brief Field verbose, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_verbose, put = __cordl_internal_set_verbose)) bool verbose;
 
-  /// @brief Method FocusBasedEventSequence, addr 0x6d83e58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Field worldSpaceLayers, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_worldSpaceLayers, put = __cordl_internal_set_worldSpaceLayers)) int32_t worldSpaceLayers;
+
+  /// @brief Field worldSpaceMaxDistance, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_worldSpaceMaxDistance, put = __cordl_internal_set_worldSpaceMaxDistance)) float_t worldSpaceMaxDistance;
+
+  /// @brief Method FindTargetAtPosition, addr 0x723a840, size 0x804, virtual false, abstract: false, final false
+  inline void FindTargetAtPosition(::UnityEngine::Vector2 mousePosition, ::UnityEngine::Vector2 delta, int32_t pointerId, ::System::Nullable_1<int32_t> targetDisplay,
+                                   ::by_ref<::UnityEngine::UIElements::VisualElement*> target, ::by_ref<::UnityEngine::UIElements::RuntimePanel*> targetPanel,
+                                   ::by_ref<::UnityEngine::Vector3> targetPanelPosition, ::by_ref<::UnityEngine::UIElements::VisualElement*> elementUnderPointer,
+                                   ::by_ref<::UnityEngine::Camera*> camera);
+
+  /// @brief Method FindTargetAtRay, addr 0x723b120, size 0x350, virtual false, abstract: false, final false
+  inline void FindTargetAtRay(::UnityEngine::Ray worldRay, float_t maxDistance, int32_t pointerId, ::by_ref<::UnityEngine::UIElements::VisualElement*> target,
+                              ::by_ref<::UnityEngine::UIElements::RuntimePanel*> targetPanel, ::by_ref<::UnityEngine::Vector3> targetPanelPosition,
+                              ::by_ref<::UnityEngine::UIElements::VisualElement*> elementUnderPointer);
+
+  /// @brief Method FocusBasedEventSequence, addr 0x723a7ac, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext FocusBasedEventSequence();
 
-  /// @brief Method InitInputProcessor, addr 0x6d83c2c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetPanelPosition, addr 0x723b044, size 0xdc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetPanelPosition(::UnityEngine::UIElements::VisualElement* pickedElement, ::UnityEngine::UIElements::UIDocument* document, ::UnityEngine::Ray worldRay);
+
+  /// @brief Method InitInputProcessor, addr 0x723a56c, size 0x16c, virtual false, abstract: false, final false
   inline void InitInputProcessor();
 
-  /// @brief Method Log, addr 0x6d8417c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x723b4f4, size 0xc8, virtual false, abstract: false, final false
   inline void Log(::System::Object* o);
 
-  /// @brief Method LogToGameScreen, addr 0x6d84244, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method LogToGameScreen, addr 0x723b5bc, size 0x3b8, virtual false, abstract: false, final false
   inline void LogToGameScreen(::StringW s);
 
-  /// @brief Method LogWarning, addr 0x6d845fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x723b974, size 0xd4, virtual false, abstract: false, final false
   inline void LogWarning(::System::Object* o);
-
-  /// @brief Method MakePenEvent, addr 0x6d84088, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::EventBase* MakePenEvent(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay);
-
-  /// @brief Method MakeTouchEvent, addr 0x6d83f4c, size 0x13c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::EventBase* MakeTouchEvent(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem* New_ctor();
 
-  /// @brief Method OnFocusEvent, addr 0x6d83ebc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnFocusEvent, addr 0x723a7cc, size 0x4, virtual false, abstract: false, final false
   inline void OnFocusEvent(::UnityEngine::UIElements::RuntimePanel* panel, ::UnityEngine::UIElements::FocusEvent* evt);
 
-  /// @brief Method RemoveInputProcessor, addr 0x6d83d84, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RemoveInputProcessor, addr 0x723a6d8, size 0xd4, virtual false, abstract: false, final false
   inline void RemoveInputProcessor();
 
   /// @brief Method SendFocusBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1565,24 +1779,37 @@ public:
   /// @brief Method SendPositionBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TArg>
   inline void SendPositionBasedEvent(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 delta, int32_t pointerId, ::System::Nullable_1<int32_t> targetDisplay,
+                                     ::System::Func_3<::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg, bool deselectIfNoTarget);
+
+  /// @brief Method SendPositionBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TArg>
+  inline void SendPositionBasedEvent(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 delta, int32_t pointerId, ::System::Nullable_1<int32_t> targetDisplay,
                                      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg, bool deselectIfNoTarget);
 
-  /// @brief Method ShouldIgnoreEventsOnAppNotFocused, addr 0x6d83358, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SendRayBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TArg>
+  inline void SendRayBasedEvent(::UnityEngine::Ray worldRay, float_t maxDistance, int32_t pointerId, ::System::Func_3<::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory,
+                                TArg arg, bool deselectIfNoTarget);
+
+  /// @brief Method ShouldIgnoreEventsOnAppNotFocused, addr 0x7239e48, size 0x38, virtual false, abstract: false, final false
   inline bool ShouldIgnoreEventsOnAppNotFocused();
 
-  /// @brief Method Update, addr 0x6d833f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x7239edc, size 0x144, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::DefaultEventSystem_UpdateMode updateMode);
 
-  /// @brief Method UpdateFocusedPanel, addr 0x6d83ec0, size 0x8c, virtual false, abstract: false, final false
-  inline void UpdateFocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* runtimePanel);
+  /// @brief Method UpdateFocusedPanel, addr 0x723b470, size 0x84, virtual false, abstract: false, final false
+  inline void UpdateFocusedPanel(::UnityEngine::UIElements::RuntimePanel* runtimePanel);
+
+  /// @brief Method UpdateWorldSpacePointers, addr 0x723a0f8, size 0x450, virtual false, abstract: false, final false
+  inline void UpdateWorldSpacePointers();
 
   constexpr bool const& __cordl_internal_get_logToGameScreen() const;
 
   constexpr bool& __cordl_internal_get_logToGameScreen();
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& __cordl_internal_get_m_FocusedPanel() const;
+  constexpr ::UnityEngine::UIElements::RuntimePanel* const& __cordl_internal_get_m_FocusedPanel() const;
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __cordl_internal_get_m_FocusedPanel();
+  constexpr ::UnityEngine::UIElements::RuntimePanel*& __cordl_internal_get_m_FocusedPanel();
 
   constexpr ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* const& __cordl_internal_get_m_InputForUIProcessor() const;
 
@@ -1612,21 +1839,45 @@ public:
 
   constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get_m_PreviousFocusedElement();
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& __cordl_internal_get_m_PreviousFocusedPanel() const;
+  constexpr ::UnityEngine::UIElements::RuntimePanel* const& __cordl_internal_get_m_PreviousFocusedPanel() const;
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __cordl_internal_get_m_PreviousFocusedPanel();
+  constexpr ::UnityEngine::UIElements::RuntimePanel*& __cordl_internal_get_m_PreviousFocusedPanel();
+
+  constexpr ::UnityEngine::UIElements::IScreenRaycaster* const& __cordl_internal_get_m_Raycaster() const;
+
+  constexpr ::UnityEngine::UIElements::IScreenRaycaster*& __cordl_internal_get_m_Raycaster();
+
+  constexpr ::UnityEngine::UIElements::ScreenOverlayPanelPicker* const& __cordl_internal_get_m_ScreenOverlayPicker() const;
+
+  constexpr ::UnityEngine::UIElements::ScreenOverlayPanelPicker*& __cordl_internal_get_m_ScreenOverlayPicker();
+
+  constexpr int32_t const& __cordl_internal_get_m_UpdateFrameCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_UpdateFrameCount();
 
   constexpr bool const& __cordl_internal_get_m_UseInputForUI() const;
 
   constexpr bool& __cordl_internal_get_m_UseInputForUI();
 
+  constexpr ::UnityEngine::UIElements::PhysicsDocumentPicker* const& __cordl_internal_get_m_WorldSpacePicker() const;
+
+  constexpr ::UnityEngine::UIElements::PhysicsDocumentPicker*& __cordl_internal_get_m_WorldSpacePicker();
+
   constexpr bool const& __cordl_internal_get_verbose() const;
 
   constexpr bool& __cordl_internal_get_verbose();
 
+  constexpr int32_t const& __cordl_internal_get_worldSpaceLayers() const;
+
+  constexpr int32_t& __cordl_internal_get_worldSpaceLayers();
+
+  constexpr float_t const& __cordl_internal_get_worldSpaceMaxDistance() const;
+
+  constexpr float_t& __cordl_internal_get_worldSpaceMaxDistance();
+
   constexpr void __cordl_internal_set_logToGameScreen(bool value);
 
-  constexpr void __cordl_internal_set_m_FocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
+  constexpr void __cordl_internal_set_m_FocusedPanel(::UnityEngine::UIElements::RuntimePanel* value);
 
   constexpr void __cordl_internal_set_m_InputForUIProcessor(::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* value);
 
@@ -1642,36 +1893,58 @@ public:
 
   constexpr void __cordl_internal_set_m_PreviousFocusedElement(::UnityEngine::UIElements::Focusable* value);
 
-  constexpr void __cordl_internal_set_m_PreviousFocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
+  constexpr void __cordl_internal_set_m_PreviousFocusedPanel(::UnityEngine::UIElements::RuntimePanel* value);
+
+  constexpr void __cordl_internal_set_m_Raycaster(::UnityEngine::UIElements::IScreenRaycaster* value);
+
+  constexpr void __cordl_internal_set_m_ScreenOverlayPicker(::UnityEngine::UIElements::ScreenOverlayPanelPicker* value);
+
+  constexpr void __cordl_internal_set_m_UpdateFrameCount(int32_t value);
 
   constexpr void __cordl_internal_set_m_UseInputForUI(bool value);
 
+  constexpr void __cordl_internal_set_m_WorldSpacePicker(::UnityEngine::UIElements::PhysicsDocumentPicker* value);
+
   constexpr void __cordl_internal_set_verbose(bool value);
 
-  /// @brief Method .ctor, addr 0x6d846d0, size 0x80, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_worldSpaceLayers(int32_t value);
+
+  constexpr void __cordl_internal_set_worldSpaceMaxDistance(float_t value);
+
+  /// @brief Method .ctor, addr 0x723ba48, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<bool>* getStaticF_IsEditorRemoteConnected();
 
-  /// @brief Method get_focusedPanel, addr 0x6d83390, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BaseRuntimePanel* get_focusedPanel();
+  static inline ::UnityEngine::Vector3 getStaticF_s_InvalidPanelCoordinates();
 
-  /// @brief Method get_inputForUIProcessor, addr 0x6d83484, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_focusedPanel, addr 0x7239e80, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::RuntimePanel* get_focusedPanel();
+
+  /// @brief Method get_inputForUIProcessor, addr 0x723a020, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* get_inputForUIProcessor();
 
-  /// @brief Method get_isAppFocused, addr 0x6d832ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_isAppFocused, addr 0x7239ddc, size 0x6c, virtual false, abstract: false, final false
   inline bool get_isAppFocused();
 
-  /// @brief Method get_legacyInputProcessor, addr 0x6d83914, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_legacyInputProcessor, addr 0x723a08c, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* get_legacyInputProcessor();
+
+  /// @brief Method get_raycaster, addr 0x723a7d0, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::IScreenRaycaster* get_raycaster();
 
   static inline void setStaticF_IsEditorRemoteConnected(::System::Func_1<bool>* value);
 
-  /// @brief Method set_focusedPanel, addr 0x6d83398, size 0x58, virtual false, abstract: false, final false
-  inline void set_focusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
+  static inline void setStaticF_s_InvalidPanelCoordinates(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_isInputReady, addr 0x6d83c08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_focusedPanel, addr 0x7239e88, size 0x54, virtual false, abstract: false, final false
+  inline void set_focusedPanel(::UnityEngine::UIElements::RuntimePanel* value);
+
+  /// @brief Method set_isInputReady, addr 0x723a548, size 0x24, virtual false, abstract: false, final false
   inline void set_isInputReady(bool value);
+
+  /// @brief Method set_raycaster, addr 0x723a838, size 0x8, virtual false, abstract: false, final false
+  inline void set_raycaster(::UnityEngine::UIElements::IScreenRaycaster* value);
 
 protected:
   // Ctor Parameters []
@@ -1688,42 +1961,60 @@ public:
   DefaultEventSystem(DefaultEventSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4607 };
 
   /// @brief Field m_FocusedPanel, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::BaseRuntimePanel* ___m_FocusedPanel;
+  ::UnityEngine::UIElements::RuntimePanel* ___m_FocusedPanel;
 
   /// @brief Field m_PreviousFocusedPanel, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::BaseRuntimePanel* ___m_PreviousFocusedPanel;
+  ::UnityEngine::UIElements::RuntimePanel* ___m_PreviousFocusedPanel;
 
   /// @brief Field m_PreviousFocusedElement, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ___m_PreviousFocusedElement;
 
-  /// @brief Field m_LegacyInputProcessor, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_UpdateFrameCount, offset: 0x28, size: 0x4, def value: None
+  int32_t ___m_UpdateFrameCount;
+
+  /// @brief Field m_LegacyInputProcessor, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* ___m_LegacyInputProcessor;
 
-  /// @brief Field m_InputForUIProcessor, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_InputForUIProcessor, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* ___m_InputForUIProcessor;
 
-  /// @brief Field m_IsInputReady, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field m_IsInputReady, offset: 0x40, size: 0x1, def value: None
   bool ___m_IsInputReady;
 
-  /// @brief Field m_UseInputForUI, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field m_UseInputForUI, offset: 0x41, size: 0x1, def value: None
   bool ___m_UseInputForUI;
 
-  /// @brief Field m_IsInputForUIActive, offset: 0x3a, size: 0x1, def value: None
+  /// @brief Field m_IsInputForUIActive, offset: 0x42, size: 0x1, def value: None
   bool ___m_IsInputForUIActive;
 
-  /// @brief Field verbose, offset: 0x3b, size: 0x1, def value: None
+  /// @brief Field m_Raycaster, offset: 0x48, size: 0x8, def value: None
+  ::UnityEngine::UIElements::IScreenRaycaster* ___m_Raycaster;
+
+  /// @brief Field m_WorldSpacePicker, offset: 0x50, size: 0x8, def value: None
+  ::UnityEngine::UIElements::PhysicsDocumentPicker* ___m_WorldSpacePicker;
+
+  /// @brief Field m_ScreenOverlayPicker, offset: 0x58, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ScreenOverlayPanelPicker* ___m_ScreenOverlayPicker;
+
+  /// @brief Field worldSpaceMaxDistance, offset: 0x60, size: 0x4, def value: None
+  float_t ___worldSpaceMaxDistance;
+
+  /// @brief Field worldSpaceLayers, offset: 0x64, size: 0x4, def value: None
+  int32_t ___worldSpaceLayers;
+
+  /// @brief Field verbose, offset: 0x68, size: 0x1, def value: None
   bool ___verbose;
 
-  /// @brief Field logToGameScreen, offset: 0x3c, size: 0x1, def value: None
+  /// @brief Field logToGameScreen, offset: 0x69, size: 0x1, def value: None
   bool ___logToGameScreen;
 
-  /// @brief Field m_LogLabel, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_LogLabel, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_LogLabel;
 
-  /// @brief Field m_LogLines, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_LogLines, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_LogLines;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1735,24 +2026,36 @@ static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_Previ
 
 static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_PreviousFocusedElement) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_LegacyInputProcessor) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_UpdateFrameCount) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_InputForUIProcessor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_LegacyInputProcessor) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_IsInputReady) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_InputForUIProcessor) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_UseInputForUI) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_IsInputReady) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_IsInputForUIActive) == 0x3a, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_UseInputForUI) == 0x41, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___verbose) == 0x3b, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_IsInputForUIActive) == 0x42, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___logToGameScreen) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_Raycaster) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_LogLabel) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_WorldSpacePicker) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_LogLines) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_ScreenOverlayPicker) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::DefaultEventSystem) == 0x50, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___worldSpaceMaxDistance) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___worldSpaceLayers) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___verbose) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___logToGameScreen) == 0x69, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_LogLabel) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::DefaultEventSystem, ___m_LogLines) == 0x78, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::DefaultEventSystem) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

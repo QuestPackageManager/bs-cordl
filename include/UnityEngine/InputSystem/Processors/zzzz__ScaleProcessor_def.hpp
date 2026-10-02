@@ -29,10 +29,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x65bf0c8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x69eb030, size 0xc, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x65bf0d4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69eb03c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_factor() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_factor(float_t value);
 
-  /// @brief Method .ctor, addr 0x65bf16c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eb0d4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   ScaleProcessor(ScaleProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11049 };
 
   /// [Tooltip("Scale factor to multiply incoming float values by.")]
   /// @brief Field factor, offset: 0x10, size: 0x4, def value: None

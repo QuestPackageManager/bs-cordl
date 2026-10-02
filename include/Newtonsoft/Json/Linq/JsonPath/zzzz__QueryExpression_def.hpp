@@ -34,7 +34,7 @@ public:
   /// @brief Field Operator, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_Operator, put = __cordl_internal_set_Operator)) ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
 
-  /// @brief Method IsMatch, addr 0x5d92dcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x61ac9b0, size 0x10, virtual false, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t);
 
   /// @brief Method IsMatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
-  /// @brief Method .ctor, addr 0x5d92dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ac9a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
 protected:
@@ -66,7 +66,7 @@ public:
   QueryExpression(QueryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13876 };
 
   /// @brief Field Operator, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::JsonPath::QueryOperator ___Operator;

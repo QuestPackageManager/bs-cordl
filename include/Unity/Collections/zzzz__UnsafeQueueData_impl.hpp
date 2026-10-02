@@ -4,14 +4,13 @@
 #include "Unity/Collections/zzzz__UnsafeQueueData_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueBlockHeader_def.hpp"
-#include "Unity/Collections/zzzz__UnsafeQueueBlockPoolData_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::UnsafeQueueData.GetCurrentWriteBlockTLS
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::UnsafeQueueBlockHeader* (::Unity::Collections::UnsafeQueueData::*)(int32_t)>(
     &::Unity::Collections::UnsafeQueueData::GetCurrentWriteBlockTLS)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c95c0;
+  constexpr static std::size_t addrs = 0x68f2798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueData::*)(int32_t, ::Unity::Collections::UnsafeQueueBlockHeader*)>(
     &::Unity::Collections::UnsafeQueueData::SetCurrentWriteBlockTLS)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c95d0;
+  constexpr static std::size_t addrs = 0x68f27a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,18 +36,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::UnsafeQueueData.DeallocateQueue
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::UnsafeQueueData*, ::Unity::Collections::UnsafeQueueBlockPoolData*,
-                                                                ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::UnsafeQueueData::DeallocateQueue)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64c95e0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::UnsafeQueueData*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
+    &::Unity::Collections::UnsafeQueueData::DeallocateQueue)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x68f27b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
-                                                             { "DeallocateQueue",
-                                                               {},
-                                                               { ::i2c::type_of<::Unity::Collections::UnsafeQueueData*>(), ::i2c::type_of<::Unity::Collections::UnsafeQueueBlockPoolData*>(),
-                                                                 ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
+                            { "DeallocateQueue", {}, { ::i2c::type_of<::Unity::Collections::UnsafeQueueData*>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
     return ___internal_method;
   }
 };
@@ -66,36 +63,33 @@ inline void Unity::Collections::UnsafeQueueData::SetCurrentWriteBlockTLS(int32_t
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::UnsafeQueueBlockHeader* Unity::Collections::UnsafeQueueData::AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data,
-                                                                                                               ::Unity::Collections::UnsafeQueueBlockPoolData* pool, int32_t threadIndex) {
+                                                                                                               ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int32_t threadIndex) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
                           { "AllocateWriteBlockMT",
                             { ::i2c::class_of<T>() },
-                            { ::i2c::type_of<::Unity::Collections::UnsafeQueueData*>(), ::i2c::type_of<::Unity::Collections::UnsafeQueueBlockPoolData*>(), ::i2c::type_of<int32_t>() } })));
+                            { ::i2c::type_of<::Unity::Collections::UnsafeQueueData*>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::UnsafeQueueBlockHeader*>(nullptr, ___internal_method, data, pool, threadIndex);
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::UnsafeQueueBlockHeader*>(nullptr, ___internal_method, data, allocator, threadIndex);
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Collections::UnsafeQueueData::AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle label, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf) {
+inline void Unity::Collections::UnsafeQueueData::AllocateQueue(::Unity::Collections::AllocatorManager_AllocatorHandle allocator, ::by_ref<::Unity::Collections::UnsafeQueueData*> outBuf) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
                                               { "AllocateQueue",
                                                 { ::i2c::class_of<T>() },
                                                 { ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>(), ::i2c::type_of<::by_ref<::Unity::Collections::UnsafeQueueData*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, label, outBuf);
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, allocator, outBuf);
 }
-inline void Unity::Collections::UnsafeQueueData::DeallocateQueue(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::UnsafeQueueBlockPoolData* pool,
-                                                                 ::Unity::Collections::AllocatorManager_AllocatorHandle allocation) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
-                                                           { "DeallocateQueue",
-                                                             {},
-                                                             { ::i2c::type_of<::Unity::Collections::UnsafeQueueData*>(), ::i2c::type_of<::Unity::Collections::UnsafeQueueBlockPoolData*>(),
-                                                               ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, pool, allocation);
+inline void Unity::Collections::UnsafeQueueData::DeallocateQueue(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueData>(),
+                          { "DeallocateQueue", {}, { ::i2c::type_of<::Unity::Collections::UnsafeQueueData*>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, allocator);
 }
 // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LastBlock", ty: "::System::IntPtr", modifiers:
 // "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MaxItems", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentRead", ty: "int32_t",

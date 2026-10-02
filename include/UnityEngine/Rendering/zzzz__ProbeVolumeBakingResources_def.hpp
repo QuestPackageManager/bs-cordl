@@ -138,10 +138,10 @@ public:
 
   constexpr void __cordl_internal_set_voxelizeSceneShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6796930, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb1a40, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x6796928, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6bb1a38, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -165,7 +165,7 @@ public:
   ProbeVolumeBakingResources(ProbeVolumeBakingResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9015 };
 
   /// [SerializeField]
   /// [HideInInspector]

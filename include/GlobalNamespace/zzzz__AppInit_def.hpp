@@ -94,10 +94,10 @@ public:
 
   static inline ::GlobalNamespace::AppInit___c* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__10_1, addr 0x32ffc0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__10_1, addr 0x3588240, size 0x28, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__10_1();
 
-  /// @brief Method .ctor, addr 0x32ffc08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358823c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::AppInit___c* getStaticF___9();
@@ -123,7 +123,7 @@ public:
   AppInit___c(AppInit___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -142,11 +142,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32ffc34, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3588268, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x32ffe78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35884ac, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -163,7 +163,7 @@ public:
                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -205,11 +205,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32ffe80, size 0x5d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35884b4, size 0x5d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3300584, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3588bbc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -226,7 +226,7 @@ public:
                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22234 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -268,11 +268,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x33005f0, size 0x40c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3588c28, size 0x40c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3300cc8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3589300, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -290,7 +290,7 @@ public:
                                          ::BGLib::AppFlow::Initialization::InitializationTime* _currentInitialization_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22235 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -355,19 +355,19 @@ public:
   __declspec(property(get = get_gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> gameScenesManager;
 
   /// [AsyncStateMachine(typeof(AppInit::<Awake>d__7))]
-  /// @brief Method Awake, addr 0x32ff740, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3587d74, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0x32ffae0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x3588114, size 0xa0, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes(::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenes);
 
   /// [AsyncStateMachine(typeof(AppInit::<InitializeAsync>d__10))]
-  /// @brief Method InitializeAsync, addr 0x32ff898, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x3587ecc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::AppInit* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x32ff948, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3587f7c, size 0xd8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// @brief Method PreInitializeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -377,14 +377,14 @@ public:
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
   /// [AsyncStateMachine(typeof(AppInit::<StartGameAsync>d__8))]
-  /// @brief Method StartGameAsync, addr 0x32ff7e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartGameAsync, addr 0x3587e18, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartGameAsync();
 
   /// @brief Method TransitionToNextSceneAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* TransitionToNextSceneAsync();
 
   /// [CompilerGenerated]
-  /// @brief Method <InitializeAsync>b__10_0, addr 0x32ffb84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__10_0, addr 0x35881b8, size 0x20, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__10_0();
 
   constexpr ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> const& __cordl_internal_get__asyncSceneContext() const;
@@ -405,13 +405,13 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x32ffb80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35881b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_asyncSceneContext, addr 0x32ff730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asyncSceneContext, addr 0x3587d64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> get_asyncSceneContext();
 
-  /// @brief Method get_gameScenesManager, addr 0x32ff738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameScenesManager, addr 0x3587d6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameScenesManager> get_gameScenesManager();
 
 protected:
@@ -429,7 +429,7 @@ public:
   AppInit(AppInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22236 };
 
   /// [SerializeField]
   /// @brief Field _cameraGO, offset: 0x28, size: 0x8, def value: None

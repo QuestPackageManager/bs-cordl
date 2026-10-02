@@ -83,7 +83,7 @@ public:
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_EffectData(int32_t environmentLayerMask, bool showHit, bool useScale, bool hit, float_t length, ::Unity::Mathematics::float3 scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6070 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -135,7 +135,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x59a3760, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5dbe7c4, size 0xc0, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -151,7 +151,7 @@ public:
       ::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6071 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -178,7 +178,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x59a3820, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5dbe884, size 0x120, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -194,7 +194,7 @@ public:
                                                                               ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand> raycastCommands) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6072 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -226,7 +226,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x59a3940, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5dbe9a4, size 0x218, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -242,7 +242,7 @@ public:
                                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> raycastHits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6073 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -312,27 +312,27 @@ public:
   /// @brief Field _scalingTransforms, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__scalingTransforms, put = __cordl_internal_set__scalingTransforms)) ::UnityEngine::Jobs::TransformAccessArray _scalingTransforms;
 
-  /// @brief Method Add, addr 0x59a29d0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5dbda34, size 0x1b8, virtual false, abstract: false, final false
   inline void Add(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* effect);
 
-  /// @brief Method Awake, addr 0x59a300c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5dbe070, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ExpandCapacity, addr 0x59a3080, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ExpandCapacity, addr 0x5dbe0e4, size 0x204, virtual false, abstract: false, final false
   inline void ExpandCapacity(int32_t size);
 
-  /// @brief Method LateUpdate, addr 0x59a34ec, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5dbe550, size 0x130, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59a361c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dbe680, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Remove, addr 0x59a2d68, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x5dbddcc, size 0x190, virtual false, abstract: false, final false
   inline void Remove(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* effect);
 
-  /// @brief Method Update, addr 0x59a3284, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5dbe2e8, size 0x268, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> const& __cordl_internal_get__effectData() const;
@@ -395,7 +395,7 @@ public:
 
   constexpr void __cordl_internal_set__scalingTransforms(::UnityEngine::Jobs::TransformAccessArray value);
 
-  /// @brief Method .ctor, addr 0x59a375c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dbe7c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -413,7 +413,7 @@ public:
   TubeBloomPrePassLightCollisionEffectUpdater(TubeBloomPrePassLightCollisionEffectUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6074 };
 
   /// @brief Field kInitialCapacity offset 0xffffffff size 0x4
   static constexpr int32_t kInitialCapacity{ static_cast<int32_t>(0x400) };

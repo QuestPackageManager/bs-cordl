@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData::*)(::by_ref<::ArrayW<uint32_t>>)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData::Pack)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x678e7f4;
+  constexpr static std::size_t addrs = 0x6ba94c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(&::UnityEngine::Rendering::ProbeGlobalIndirection::get_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x678e17c;
+  constexpr static std::size_t addrs = 0x6ba8e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeGlobalIndirection*>(), { "get_estimatedVMemCost", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(int32_t)>(&::UnityEngine::Rendering::ProbeGlobalIndirection::set_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x678e184;
+  constexpr static std::size_t addrs = 0x6ba8e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::by_ref<::UnityEngine::Vector3Int>, ::by_ref<::UnityEngine::Vector3Int>)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetMinMaxEntry)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x678e18c;
+  constexpr static std::size_t addrs = 0x6ba8e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetGlobalIndirectionDimension)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x678e1b0;
+  constexpr static std::size_t addrs = 0x6ba8e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetGlobalIndirectionMinEntry)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x678e1c0;
+  constexpr static std::size_t addrs = 0x6ba8e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(&::UnityEngine::Rendering::ProbeGlobalIndirection::get_entrySizeInBricks)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x678e1d0;
+  constexpr static std::size_t addrs = 0x6ba8ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeGlobalIndirection*>(), { "get_entrySizeInBricks", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::get_entriesPerCellDimension)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x678e1e4;
+  constexpr static std::size_t addrs = 0x6ba8eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetFlatIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x678e204;
+  constexpr static std::size_t addrs = 0x6ba8ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int, int32_t)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x678e21c;
+  constexpr static std::size_t addrs = 0x6ba8ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetFlatIdxForEntry)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x678e3ec;
+  constexpr static std::size_t addrs = 0x6ba90c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetFlatIndicesForCell)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x678e41c;
+  constexpr static std::size_t addrs = 0x6ba90f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo*)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::UpdateCell)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x678e55c;
+  constexpr static std::size_t addrs = 0x6ba9230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeGlobalIndirection*>(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::ArrayW<int32_t>)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::MarkEntriesAsUnloaded)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x678e920;
+  constexpr static std::size_t addrs = 0x6ba95f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(&::UnityEngine::Rendering::ProbeGlobalIndirection::PushComputeData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x678e9a4;
+  constexpr static std::size_t addrs = 0x6ba9678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeGlobalIndirection*>(), { "PushComputeData", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources>)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetRuntimeResources)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x678e9d0;
+  constexpr static std::size_t addrs = 0x6ba96a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(&::UnityEngine::Rendering::ProbeGlobalIndirection::Cleanup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x678ea04;
+  constexpr static std::size_t addrs = 0x6ba96d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeGlobalIndirection*>(), { "Cleanup", {}, {} })));

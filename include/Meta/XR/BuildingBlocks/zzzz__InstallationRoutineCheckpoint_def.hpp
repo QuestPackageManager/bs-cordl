@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__installationVariants(::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* value);
 
-  /// @brief Method .ctor, addr 0x5a3c44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e53cec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW installationRoutineId, ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* installationVariants);
 
-  /// @brief Method get_InstallationRoutineId, addr 0x5a3c43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstallationRoutineId, addr 0x5e53cdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InstallationRoutineId();
 
-  /// @brief Method get_InstallationVariants, addr 0x5a3c444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstallationVariants, addr 0x5e53ce4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* get_InstallationVariants();
 
 protected:
@@ -76,7 +76,7 @@ public:
   InstallationRoutineCheckpoint(InstallationRoutineCheckpoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22102 };
 
   /// [SerializeField]
   /// [HideInInspector]

@@ -86,7 +86,7 @@ public:
   static ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode const Unsupported;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -118,13 +118,13 @@ public:
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* New_ctor();
 
-  /// @brief Method <.cctor>b__12_0, addr 0x6b1ccac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__12_0, addr 0x6f7ad34, size 0xd4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> __cctor_b__12_0();
 
-  /// @brief Method <.ctor>b__6_0, addr 0x6b1cc8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6_0, addr 0x6f7ad14, size 0x20, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__6_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x6b1cc88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7ad10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* getStaticF___9();
@@ -150,7 +150,7 @@ public:
   SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,13 +179,13 @@ public:
 
   __declspec(property(get = get_renderPipelineTypes)) ::ArrayW<::System::Type*> renderPipelineTypes;
 
-  /// @brief Method GetSupportedMode, addr 0x6b1c8e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedMode, addr 0x6f7a9e0, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::System::Type* renderPipelineAssetType);
 
-  /// @brief Method GetSupportedMode, addr 0x6b1c94c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedMode, addr 0x6f7aa4c, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::ArrayW<::System::Type*> renderPipelineTypes, ::System::Type* renderPipelineAssetType);
 
-  /// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x6b1ca94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x6f65d60, size 0x78, virtual false, abstract: false, final false
   static inline bool IsTypeSupportedOnRenderPipeline(::System::Type* type, ::System::Type* renderPipelineAssetType);
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline);
@@ -198,16 +198,16 @@ public:
 
   constexpr void __cordl_internal_set__renderPipelineTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x6b1c5d4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7a6d4, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline);
 
-  /// @brief Method .ctor, addr 0x6b1c530, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7a630, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* renderPipeline);
 
   static inline ::System::Lazy_1<::ArrayW<::System::Type*>>* getStaticF_k_DefaultRenderPipelineAsset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderPipelineTypes, addr 0x6b1c528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipelineTypes, addr 0x6f7a628, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_renderPipelineTypes();
 
   static inline void setStaticF_k_DefaultRenderPipelineAsset(::System::Lazy_1<::ArrayW<::System::Type*>>* value);
@@ -227,10 +227,10 @@ public:
   SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10389 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <renderPipelineTypes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____renderPipelineTypes_k__BackingField;
 

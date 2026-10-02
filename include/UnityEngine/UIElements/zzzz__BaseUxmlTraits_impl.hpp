@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseUxmlTraits::*)()>(&::UnityEngine::UIElements::BaseUxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cbfd7c;
+  constexpr static std::size_t addrs = 0x7146898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseUxmlTraits*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseUxmlTraits::*)(bool)>(&::UnityEngine::UIElements::BaseUxmlTraits::set_canHaveAnyAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbfd88;
+  constexpr static std::size_t addrs = 0x71468a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

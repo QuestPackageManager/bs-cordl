@@ -34,44 +34,44 @@ public:
 
   __declspec(property(get = get_rectSelectMode, put = set_rectSelectMode)) ::UnityEngine::ProBuilder::RectSelectMode rectSelectMode;
 
-  /// @brief Method Equals, addr 0x66e36ec, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6af82f8, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x66e37a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6af83ac, size 0xa4, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ProBuilder::PickerOptions other);
 
-  /// @brief Method GetHashCode, addr 0x66e3844, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6af8450, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ProBuilder::PickerOptions getStaticF_k_Default();
 
-  /// @brief Method get_Default, addr 0x66e3690, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6af829c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::PickerOptions get_Default();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_depthTest, addr 0x66e3670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthTest, addr 0x6af827c, size 0x8, virtual false, abstract: false, final false
   inline bool get_depthTest();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_rectSelectMode, addr 0x66e3680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectSelectMode, addr 0x6af828c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::RectSelectMode get_rectSelectMode();
 
-  /// @brief Method op_Equality, addr 0x66e38c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6af84cc, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::PickerOptions a, ::UnityEngine::ProBuilder::PickerOptions b);
 
-  /// @brief Method op_Inequality, addr 0x66e3930, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6af853c, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::PickerOptions a, ::UnityEngine::ProBuilder::PickerOptions b);
 
   static inline void setStaticF_k_Default(::UnityEngine::ProBuilder::PickerOptions value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_depthTest, addr 0x66e3678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthTest, addr 0x6af8284, size 0x8, virtual false, abstract: false, final false
   inline void set_depthTest(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rectSelectMode, addr 0x66e3688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rectSelectMode, addr 0x6af8294, size 0x8, virtual false, abstract: false, final false
   inline void set_rectSelectMode(::UnityEngine::ProBuilder::RectSelectMode value);
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
   constexpr PickerOptions(bool _depthTest_k__BackingField, ::UnityEngine::ProBuilder::RectSelectMode _rectSelectMode_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

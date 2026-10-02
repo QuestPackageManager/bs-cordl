@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/BaseStyleMatcher.hpp"
+#include "UnityEngine/UIElements/StyleSheets/CSSSpec.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Dimension.hpp"
 #include "UnityEngine/UIElements/StyleSheets/HierarchyTraversal.hpp"
 #include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
@@ -22,7 +23,6 @@ module;
 #include "UnityEngine/UIElements/StyleSheets/StylePropertyValue.hpp"
 #include "UnityEngine/UIElements/StyleSheets/StylePropertyValueMatcher.hpp"
 #include "UnityEngine/UIElements/StyleSheets/StyleSelectorHelper.hpp"
-#include "UnityEngine/UIElements/StyleSheets/StyleSheetCache.hpp"
 #include "UnityEngine/UIElements/StyleSheets/StyleSheetColor.hpp"
 #include "UnityEngine/UIElements/StyleSheets/StyleSheetExtensions.hpp"
 #include "UnityEngine/UIElements/StyleSheets/StyleValue.hpp"

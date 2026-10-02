@@ -57,18 +57,18 @@ public:
   /// @brief Field _samples, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__samples, put = __cordl_internal_set__samples)) ::ArrayW<float_t> _samples;
 
-  /// @brief Method Awake, addr 0x59a7584, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5dc2768, size 0xb0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetFakeSamples, addr 0x59a724c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetFakeSamples, addr 0x5dc2430, size 0x144, virtual false, abstract: false, final false
   inline void GetFakeSamples(::ArrayW<float_t> samples);
 
-  /// @brief Method LateUpdate, addr 0x59a7634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5dc2818, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BasicSpectrogramData* New_ctor();
 
-  /// @brief Method ProcessSamples, addr 0x59a73cc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ProcessSamples, addr 0x5dc25b0, size 0x1b8, virtual false, abstract: false, final false
   inline void ProcessSamples(::ArrayW<float_t> sourceSamples, ::System::Collections::Generic::List_1<float_t>* processedSamples);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -113,13 +113,13 @@ public:
 
   constexpr void __cordl_internal_set__samples(::ArrayW<float_t> value);
 
-  /// @brief Method .ctor, addr 0x59a763c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc2820, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ProcessedSamples, addr 0x59a7390, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessedSamples, addr 0x5dc2574, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_ProcessedSamples();
 
-  /// @brief Method get_Samples, addr 0x59a7194, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Samples, addr 0x5dc2378, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_Samples();
 
 protected:
@@ -137,7 +137,7 @@ public:
   BasicSpectrogramData(BasicSpectrogramData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6102 };
 
   /// @brief Field kNumberOfSamples offset 0xffffffff size 0x4
   static constexpr int32_t kNumberOfSamples{ static_cast<int32_t>(0x40) };

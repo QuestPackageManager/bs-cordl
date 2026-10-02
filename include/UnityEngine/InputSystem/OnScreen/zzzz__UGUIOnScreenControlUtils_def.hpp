@@ -25,7 +25,7 @@ namespace UnityEngine::InputSystem::OnScreen {
 class CORDL_TYPE UGUIOnScreenControlUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCanvasRectTransform, addr 0x659db44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRectTransform, addr 0x69c9a50, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RectTransform> GetCanvasRectTransform(::UnityEngine::Transform* transform);
 
 protected:
@@ -43,7 +43,7 @@ public:
   UGUIOnScreenControlUtils(UGUIOnScreenControlUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

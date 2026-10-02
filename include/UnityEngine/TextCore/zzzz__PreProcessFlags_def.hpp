@@ -1,0 +1,75 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/PreProcessFlags.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(PreProcessFlags)
+// Forward declare root types
+namespace UnityEngine::TextCore {
+struct PreProcessFlags;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::TextCore::PreProcessFlags);
+DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::PreProcessFlags, "UnityEngine.TextCore", "PreProcessFlags");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+// Dependencies
+namespace UnityEngine::TextCore {
+// Is value type: true
+// CS Name: UnityEngine.TextCore.PreProcessFlags
+struct CORDL_TYPE PreProcessFlags {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __PreProcessFlags_Unwrapped
+  enum struct __PreProcessFlags_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
+    __E_CollapseWhiteSpaces = static_cast<int32_t>(0x1),
+    __E_ParseEscapeSequences = static_cast<int32_t>(0x2),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __PreProcessFlags_Unwrapped() const noexcept {
+    return static_cast<__PreProcessFlags_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreProcessFlags();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr PreProcessFlags(int32_t value__) noexcept;
+
+  /// @brief Field CollapseWhiteSpaces value: I32(1)
+  static ::UnityEngine::TextCore::PreProcessFlags const CollapseWhiteSpaces;
+
+  /// @brief Field None value: I32(0)
+  static ::UnityEngine::TextCore::PreProcessFlags const None;
+
+  /// @brief Field ParseEscapeSequences value: I32(2)
+  static ::UnityEngine::TextCore::PreProcessFlags const ParseEscapeSequences;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17783 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::TextCore::PreProcessFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::TextCore::PreProcessFlags) == 0x4, "Size mismatch!");
+
+} // namespace UnityEngine::TextCore

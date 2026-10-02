@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5def924, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6209508, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -70,7 +70,7 @@ public:
   GroupPresenceLeaveIntent(GroupPresenceLeaveIntent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18578 };
 
   /// @brief Field DestinationApiName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DestinationApiName;

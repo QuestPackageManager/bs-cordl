@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationSubmitEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da2644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722ff8c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationSubmitEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da2640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722ff88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::NavigationSubmitEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   NavigationSubmitEvent___c(NavigationSubmitEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4520 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,7 +78,7 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationSubmitEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6da25a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722fee8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   NavigationSubmitEvent(NavigationSubmitEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,5 +11,5 @@ constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::Instan
 constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::InstanceFlags::AffectsLightmaps{ static_cast<uint8_t>(0x1u) };
 constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::InstanceFlags::IsShadowsOff{ static_cast<uint8_t>(0x2u) };
 constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::InstanceFlags::IsShadowsOnly{ static_cast<uint8_t>(0x4u) };
-constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::InstanceFlags::HasProgressiveLod{ static_cast<uint8_t>(0x8u) };
+constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::InstanceFlags::HasMeshLod{ static_cast<uint8_t>(0x8u) };
 constexpr ::UnityEngine::Rendering::InstanceFlags UnityEngine::Rendering::InstanceFlags::SmallMeshCulling{ static_cast<uint8_t>(0x10u) };

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::*)(bool)>(
     &::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a33234;
+  constexpr static std::size_t addrs = 0x6e81b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

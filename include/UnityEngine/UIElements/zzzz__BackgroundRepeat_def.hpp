@@ -62,31 +62,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*();
 
-  /// @brief Method Equals, addr 0x6c2fbc0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x70852b8, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c2fc4c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7085344, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BackgroundRepeat other);
 
-  /// @brief Method GetHashCode, addr 0x6c2fc74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x708536c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x6c2fbb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x70852b0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat Initial();
 
-  /// @brief Method ToString, addr 0x6c2fca0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7085398, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c2f8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7084fac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Repeat repeatX, ::UnityEngine::UIElements::Repeat repeatY);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundRepeat_();
 
-  /// @brief Method op_Equality, addr 0x6c2fb40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7085238, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::BackgroundRepeat style1, ::UnityEngine::UIElements::BackgroundRepeat style2);
 
-  /// @brief Method op_Inequality, addr 0x6c2fc94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x708538c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundRepeat style1, ::UnityEngine::UIElements::BackgroundRepeat style2);
 
   // Ctor Parameters []
@@ -98,7 +98,7 @@ public:
   constexpr BackgroundRepeat(::UnityEngine::UIElements::Repeat x, ::UnityEngine::UIElements::Repeat y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4013 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -136,12 +136,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c2ff3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7085638, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Repeat GetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_BackgroundRepeat_XProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c2ff44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7085640, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container, ::UnityEngine::UIElements::Repeat value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -156,15 +156,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c2fe64, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7085560, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c2ff34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7085630, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c2ff2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7085628, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -182,7 +182,7 @@ public:
   PropertyBag_BackgroundRepeat_XProperty(PropertyBag_BackgroundRepeat_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4010 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
@@ -221,12 +221,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c2ff5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7085658, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Repeat GetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_BackgroundRepeat_YProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c2ff64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7085660, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container, ::UnityEngine::UIElements::Repeat value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -241,15 +241,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c2fec8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70855c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c2ff54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7085650, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c2ff4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7085648, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -267,7 +267,7 @@ public:
   PropertyBag_BackgroundRepeat_YProperty(PropertyBag_BackgroundRepeat_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4011 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -302,7 +302,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BackgroundRepeat_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c2fd68, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7085460, size 0x100, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -320,7 +320,7 @@ public:
   BackgroundRepeat_PropertyBag(BackgroundRepeat_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

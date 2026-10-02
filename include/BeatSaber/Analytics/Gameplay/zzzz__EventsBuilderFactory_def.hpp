@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__eventsBuilderSharedCache,
                       put = __cordl_internal_set__eventsBuilderSharedCache)) ::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* _eventsBuilderSharedCache;
 
-  /// @brief Method Create, addr 0x3262eb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x34e8598, size 0x60, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* Create();
 
   static inline ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* New_ctor();
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__eventsBuilderSharedCache(::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* value);
 
-  /// @brief Method .ctor, addr 0x3262f10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e85f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   EventsBuilderFactory(EventsBuilderFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22962 };
 
   /// @brief Field _eventsBuilderSharedCache, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* ____eventsBuilderSharedCache;

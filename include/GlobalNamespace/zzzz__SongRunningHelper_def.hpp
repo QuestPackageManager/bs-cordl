@@ -154,7 +154,7 @@ public:
   SongRunningHelper_MessageStrings(SongRunningHelper_MessageStrings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5709 };
 
   /// @brief Field kFmtMessagePlayDurationReached offset 0xffffffff size 0x8
   static constexpr ::ConstString kFmtMessagePlayDurationReached{ u"RunSong: -- playDurationSec {0:F1}s reached, stopping level" };
@@ -197,7 +197,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SongRunningHelper_QueuedSongParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58bceb4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd3718, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud,
                     ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
                     ::StringW reportDescriptor, bool zenMode, bool disablePause,
@@ -225,7 +225,7 @@ public:
                                                bool zenMode, bool disablePause, float_t startTimeSec, bool clearNotesOnStart, float_t playDurationSec) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5710 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -343,26 +343,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58bd914, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cd4178, size 0x1e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58bdaf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5cd4358, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58bdafc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cd4360, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58bdb34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cd4398, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x58bd910, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5cd4174, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -390,7 +390,7 @@ public:
   constexpr void __cordl_internal_set__targetSongTime_5__2(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x58bd908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd416c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -417,7 +417,7 @@ public:
   __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5711 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -482,18 +482,18 @@ public:
 
   static inline ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|0, addr 0x58bcf08, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|0, addr 0x5cd376c, size 0x444, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelDidFinishCallback_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransition,
                                                             ::GlobalNamespace::LevelCompletionResults* results);
 
-  /// @brief Method <StartLevel>g__HandleLevelEnded|2, addr 0x58bd57c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelEnded|2, addr 0x5cd3de0, size 0x338, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelEnded_2();
 
-  /// @brief Method <StartLevel>g__HandleStateChanged|1, addr 0x58bd34c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleStateChanged|1, addr 0x5cd3bb0, size 0x230, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleStateChanged_1();
 
   /// [IteratorStateMachine(typeof(SongRunningHelper::<>c__DisplayClass13_0::<<StartLevel>g__WatchPlayDuration|3>d))]
-  /// @brief Method <StartLevel>g__WatchPlayDuration|3, addr 0x58bd8b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__WatchPlayDuration|3, addr 0x5cd4118, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _StartLevel_g__WatchPlayDuration_3();
 
   constexpr ::GlobalNamespace::SongRunningHelper* const& __cordl_internal_get___4__this() const;
@@ -544,7 +544,7 @@ public:
 
   constexpr void __cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value);
 
-  /// @brief Method .ctor, addr 0x58bcf04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd3768, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -562,7 +562,7 @@ public:
   SongRunningHelper___c__DisplayClass13_0(SongRunningHelper___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5712 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SongRunningHelper* _____4__this;
@@ -646,26 +646,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58bdb40, size 0xa78, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cd43a4, size 0xa7c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__13* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58be5b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5cd4e20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58be5c0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cd4e28, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58be5f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cd4e60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x58bdb3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5cd43a0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -699,7 +699,7 @@ public:
   constexpr void __cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x58bcd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd357c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -726,7 +726,7 @@ public:
   SongRunningHelper__StartLevel_d__13(SongRunningHelper__StartLevel_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5713 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -799,25 +799,25 @@ public:
   __declspec(property(get = __cordl_internal_get__playQueue,
                       put = __cordl_internal_set__playQueue)) ::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>* _playQueue;
 
-  /// @brief Method EnqueueLevel, addr 0x58bca70, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLevel, addr 0x5cd32d4, size 0x230, virtual false, abstract: false, final false
   inline bool EnqueueLevel(::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams);
 
-  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x58bc858, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x5cd30bc, size 0x218, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevel*> FindBeatmapLevelPackBeatmaps(::StringW packId, bool ignoreCase);
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x58bcd20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x5cd3584, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
   static inline ::GlobalNamespace::SongRunningHelper* New_ctor();
 
   /// [IteratorStateMachine(typeof(SongRunningHelper::<StartLevel>d__13))]
-  /// @brief Method StartLevel, addr 0x58bcca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x5cd3504, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel(::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams);
 
-  /// @brief Method StopAllLevels, addr 0x58bcd3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopAllLevels, addr 0x5cd35a0, size 0xa0, virtual false, abstract: false, final false
   inline void StopAllLevels();
 
-  /// @brief Method StopCurrentLevel, addr 0x58bcddc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StopCurrentLevel, addr 0x5cd3640, size 0x64, virtual false, abstract: false, final false
   inline void StopCurrentLevel();
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevels() const;
@@ -862,10 +862,10 @@ public:
 
   constexpr void __cordl_internal_set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>* value);
 
-  /// @brief Method .ctor, addr 0x58bce40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd36a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SongsRunning, addr 0x58bc814, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_SongsRunning, addr 0x5cd3078, size 0x44, virtual false, abstract: false, final false
   inline bool get_SongsRunning();
 
 protected:
@@ -883,7 +883,7 @@ public:
   SongRunningHelper(SongRunningHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5714 };
 
   /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0x10, size: 0x8, def value: None

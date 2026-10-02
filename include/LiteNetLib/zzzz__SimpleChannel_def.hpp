@@ -27,13 +27,13 @@ public:
   // Declarations
   static inline ::LiteNetLib::SimpleChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method ProcessPacket, addr 0x58a94dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x5cc005c, size 0x8, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x58a9364, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x5cbfee4, size 0x178, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
-  /// @brief Method .ctor, addr 0x58a9360, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbfee0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
 protected:
@@ -51,7 +51,7 @@ public:
   SimpleChannel(SimpleChannel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

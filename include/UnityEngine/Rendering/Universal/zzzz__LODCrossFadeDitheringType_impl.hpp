@@ -9,3 +9,4 @@ constexpr ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType::LODCro
 constexpr ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType::LODCrossFadeDitheringType() {}
 constexpr ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType UnityEngine::Rendering::Universal::LODCrossFadeDitheringType::BayerMatrix{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType UnityEngine::Rendering::Universal::LODCrossFadeDitheringType::BlueNoise{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType UnityEngine::Rendering::Universal::LODCrossFadeDitheringType::Stencil{ static_cast<int32_t>(0x2) };

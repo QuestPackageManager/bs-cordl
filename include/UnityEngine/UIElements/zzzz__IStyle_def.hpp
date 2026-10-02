@@ -17,6 +17,9 @@ namespace UnityEngine::UIElements {
 struct EditorTextRenderingMode;
 }
 namespace UnityEngine::UIElements {
+struct FilterFunction;
+}
+namespace UnityEngine::UIElements {
 struct FlexDirection;
 }
 namespace UnityEngine::UIElements {
@@ -30,6 +33,9 @@ struct Overflow;
 }
 namespace UnityEngine::UIElements {
 struct Position;
+}
+namespace UnityEngine::UIElements {
+struct SliceType;
 }
 namespace UnityEngine::UIElements {
 struct StyleBackgroundPosition;
@@ -71,13 +77,22 @@ namespace UnityEngine::UIElements {
 template <typename T> struct StyleList_1;
 }
 namespace UnityEngine::UIElements {
+struct StyleMaterialDefinition;
+}
+namespace UnityEngine::UIElements {
 struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+struct StyleRatio;
 }
 namespace UnityEngine::UIElements {
 struct StyleRotate;
 }
 namespace UnityEngine::UIElements {
 struct StyleScale;
+}
+namespace UnityEngine::UIElements {
+struct StyleTextAutoSize;
 }
 namespace UnityEngine::UIElements {
 struct StyleTextShadow;
@@ -135,6 +150,8 @@ public:
 
   __declspec(property(get = get_alignSelf, put = set_alignSelf)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> alignSelf;
 
+  __declspec(property(get = get_aspectRatio, put = set_aspectRatio)) ::UnityEngine::UIElements::StyleRatio aspectRatio;
+
   __declspec(property(get = get_backgroundColor, put = set_backgroundColor)) ::UnityEngine::UIElements::StyleColor backgroundColor;
 
   __declspec(property(get = get_backgroundImage, put = set_backgroundImage)) ::UnityEngine::UIElements::StyleBackground backgroundImage;
@@ -178,6 +195,8 @@ public:
   __declspec(property(get = get_cursor, put = set_cursor)) ::UnityEngine::UIElements::StyleCursor cursor;
 
   __declspec(property(get = get_display, put = set_display)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> display;
+
+  __declspec(property(get = get_filter, put = set_filter)) ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::FilterFunction> filter;
 
   __declspec(property(get = get_flexBasis, put = set_flexBasis)) ::UnityEngine::UIElements::StyleLength flexBasis;
 
@@ -265,6 +284,8 @@ public:
 
   __declspec(property(get = get_unityFontStyleAndWeight, put = set_unityFontStyleAndWeight)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> unityFontStyleAndWeight;
 
+  __declspec(property(get = get_unityMaterial, put = set_unityMaterial)) ::UnityEngine::UIElements::StyleMaterialDefinition unityMaterial;
+
   __declspec(property(get = get_unityOverflowClipBox, put = set_unityOverflowClipBox)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> unityOverflowClipBox;
 
   __declspec(property(get = get_unityParagraphSpacing, put = set_unityParagraphSpacing)) ::UnityEngine::UIElements::StyleLength unityParagraphSpacing;
@@ -279,7 +300,11 @@ public:
 
   __declspec(property(get = get_unitySliceTop, put = set_unitySliceTop)) ::UnityEngine::UIElements::StyleInt unitySliceTop;
 
+  __declspec(property(get = get_unitySliceType, put = set_unitySliceType)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::SliceType> unitySliceType;
+
   __declspec(property(get = get_unityTextAlign, put = set_unityTextAlign)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> unityTextAlign;
+
+  __declspec(property(get = get_unityTextAutoSize, put = set_unityTextAutoSize)) ::UnityEngine::UIElements::StyleTextAutoSize unityTextAutoSize;
 
   __declspec(property(get = get_unityTextGenerator, put = set_unityTextGenerator)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> unityTextGenerator;
 
@@ -306,6 +331,9 @@ public:
 
   /// @brief Method get_alignSelf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> get_alignSelf();
+
+  /// @brief Method get_aspectRatio, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleRatio get_aspectRatio();
 
   /// @brief Method get_backgroundColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleColor get_backgroundColor();
@@ -372,6 +400,9 @@ public:
 
   /// @brief Method get_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> get_display();
+
+  /// @brief Method get_filter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::FilterFunction> get_filter();
 
   /// @brief Method get_flexBasis, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleLength get_flexBasis();
@@ -499,6 +530,9 @@ public:
   /// @brief Method get_unityFontStyleAndWeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> get_unityFontStyleAndWeight();
 
+  /// @brief Method get_unityMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleMaterialDefinition get_unityMaterial();
+
   /// @brief Method get_unityOverflowClipBox, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> get_unityOverflowClipBox();
 
@@ -520,8 +554,14 @@ public:
   /// @brief Method get_unitySliceTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleInt get_unitySliceTop();
 
+  /// @brief Method get_unitySliceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::SliceType> get_unitySliceType();
+
   /// @brief Method get_unityTextAlign, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> get_unityTextAlign();
+
+  /// @brief Method get_unityTextAutoSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleTextAutoSize get_unityTextAutoSize();
 
   /// @brief Method get_unityTextGenerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> get_unityTextGenerator();
@@ -555,6 +595,9 @@ public:
 
   /// @brief Method set_alignSelf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_alignSelf(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
+
+  /// @brief Method set_aspectRatio, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_aspectRatio(::UnityEngine::UIElements::StyleRatio value);
 
   /// @brief Method set_backgroundColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_backgroundColor(::UnityEngine::UIElements::StyleColor value);
@@ -621,6 +664,9 @@ public:
 
   /// @brief Method set_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_display(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> value);
+
+  /// @brief Method set_filter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_filter(::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::FilterFunction> value);
 
   /// @brief Method set_flexBasis, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_flexBasis(::UnityEngine::UIElements::StyleLength value);
@@ -748,6 +794,9 @@ public:
   /// @brief Method set_unityFontStyleAndWeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_unityFontStyleAndWeight(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> value);
 
+  /// @brief Method set_unityMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_unityMaterial(::UnityEngine::UIElements::StyleMaterialDefinition value);
+
   /// @brief Method set_unityOverflowClipBox, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_unityOverflowClipBox(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> value);
 
@@ -769,8 +818,14 @@ public:
   /// @brief Method set_unitySliceTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_unitySliceTop(::UnityEngine::UIElements::StyleInt value);
 
+  /// @brief Method set_unitySliceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_unitySliceType(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::SliceType> value);
+
   /// @brief Method set_unityTextAlign, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_unityTextAlign(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> value);
+
+  /// @brief Method set_unityTextAutoSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_unityTextAutoSize(::UnityEngine::UIElements::StyleTextAutoSize value);
 
   /// @brief Method set_unityTextGenerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_unityTextGenerator(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> value);
@@ -801,7 +856,7 @@ public:
   IStyle(IStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

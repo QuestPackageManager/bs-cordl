@@ -81,7 +81,7 @@ public:
   CommandEventBase_1(CommandEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4435 };
 
   /// @brief Field m_CommandName, offset: 0x68, size: 0x8, def value: None
   ::StringW ___m_CommandName;

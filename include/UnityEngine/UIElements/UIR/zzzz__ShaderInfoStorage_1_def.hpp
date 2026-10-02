@@ -152,7 +152,7 @@ public:
   ShaderInfoStorage_1(ShaderInfoStorage_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5460 };
 
   /// @brief Field m_InitialSize, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_InitialSize;

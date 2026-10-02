@@ -70,7 +70,7 @@ public:
   static ::HMUI::TimeSlider_TimeType const Normalized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19619 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,15 +107,15 @@ public:
   /// @brief Field _valuesValid, offset 0x174, size 0x1
   __declspec(property(get = __cordl_internal_get__valuesValid, put = __cordl_internal_set__valuesValid)) bool _valuesValid;
 
-  /// @brief Method FormatTimeSpan, addr 0x5880134, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method FormatTimeSpan, addr 0x5c965d0, size 0x25c, virtual false, abstract: false, final false
   static inline ::StringW FormatTimeSpan(::System::TimeSpan ts);
 
   static inline ::HMUI::TimeSlider* New_ctor();
 
-  /// @brief Method SetBounds, addr 0x587fec8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetBounds, addr 0x5c96364, size 0x10, virtual false, abstract: false, final false
   inline void SetBounds(bool valuesValid, float_t lowerValue, float_t upperValue);
 
-  /// @brief Method TextForValue, addr 0x587fed8, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x5c96374, size 0x25c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr float_t const& __cordl_internal_get__lowerValue() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__valuesValid(bool value);
 
-  /// @brief Method .ctor, addr 0x5880390, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c9682c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   TimeSlider(TimeSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19620 };
 
   /// [SerializeField]
   /// @brief Field _timeType, offset: 0x170, size: 0x4, def value: None

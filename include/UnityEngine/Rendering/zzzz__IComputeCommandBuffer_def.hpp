@@ -24,6 +24,9 @@ namespace UnityEngine::Rendering {
 class IBaseCommandBuffer;
 }
 namespace UnityEngine::Rendering {
+struct RayTracingAccelerationStructure_BuildSettings;
+}
+namespace UnityEngine::Rendering {
 class RayTracingAccelerationStructure;
 }
 namespace UnityEngine::Rendering {
@@ -46,6 +49,9 @@ struct GraphicsBufferHandle;
 }
 namespace UnityEngine {
 class GraphicsBuffer;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 struct Matrix4x4;
@@ -77,6 +83,10 @@ public:
   inline void BuildRayTracingAccelerationStructure(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure);
 
   /// @brief Method BuildRayTracingAccelerationStructure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void BuildRayTracingAccelerationStructure(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure,
+                                                   ::UnityEngine::Rendering::RayTracingAccelerationStructure_BuildSettings buildSettings);
+
+  /// @brief Method BuildRayTracingAccelerationStructure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void BuildRayTracingAccelerationStructure(::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure, ::UnityEngine::Vector3 relativeOrigin);
 
   /// @brief Method CopyCounterValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -99,6 +109,10 @@ public:
 
   /// @brief Method DispatchCompute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DispatchCompute(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, int32_t threadGroupsX, int32_t threadGroupsY, int32_t threadGroupsZ);
+
+  /// @brief Method DispatchRays, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void DispatchRays(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW rayGenName, ::UnityEngine::GraphicsBuffer* argsBuffer, uint32_t argsOffset,
+                           ::UnityEngine::Camera* camera);
 
   /// @brief Method DispatchRays, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DispatchRays(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW rayGenName, uint32_t width, uint32_t height, uint32_t depth, ::UnityEngine::Camera* camera);
@@ -227,6 +241,9 @@ public:
   /// @brief Method SetComputeMatrixParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetComputeMatrixParam(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::UnityEngine::Matrix4x4 val);
 
+  /// @brief Method SetComputeParamsFromMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetComputeParamsFromMaterial(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::UnityEngine::Material* material);
+
   /// @brief Method SetComputeTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetComputeTextureParam(::UnityEngine::ComputeShader* computeShader, int32_t kernelIndex, ::StringW name, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle rt);
 
@@ -341,6 +358,9 @@ public:
   /// @brief Method SetRayTracingMatrixParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRayTracingMatrixParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::UnityEngine::Matrix4x4 val);
 
+  /// @brief Method SetRayTracingShaderPass, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetRayTracingShaderPass(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW passName);
+
   /// @brief Method SetRayTracingTextureParam, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRayTracingTextureParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle rt);
 
@@ -367,7 +387,7 @@ public:
   IComputeCommandBuffer(IComputeCommandBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

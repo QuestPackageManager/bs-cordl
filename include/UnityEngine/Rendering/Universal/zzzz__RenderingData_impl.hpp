@@ -6,7 +6,6 @@
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowData_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderingData_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingResults_def.hpp"
 #include "UnityEngine/Rendering/zzzz__PerObjectData_def.hpp"
@@ -16,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RenderingData::*)(::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::RenderingData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68e36ac;
+  constexpr static std::size_t addrs = 0x6d0d200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,24 +30,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::UniversalRenderingData* (::UnityEngine::Rendering::Universal::RenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::RenderingData::get_universalRenderingData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68e36bc;
+  constexpr static std::size_t addrs = 0x6d0d210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_universalRenderingData", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::RenderingData.get_commandBuffer
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::CommandBuffer*> (::UnityEngine::Rendering::Universal::RenderingData::*)()>(
-    &::UnityEngine::Rendering::Universal::RenderingData::get_commandBuffer)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x68e3710;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_commandBuffer", {}, {} })));
     return ___internal_method;
   }
 };
@@ -58,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::CullingResults> (::UnityEngine::Rendering::Universal::RenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::RenderingData::get_cullResults)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68e37c8;
+  constexpr static std::size_t addrs = 0x6d0d264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_cullResults", {}, {} })));
@@ -71,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::RenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::RenderingData::get_supportsDynamicBatching)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68e3828;
+  constexpr static std::size_t addrs = 0x6d0d2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::PerObjectData> (::UnityEngine::Rendering::Universal::RenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::RenderingData::get_perObjectData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68e3888;
+  constexpr static std::size_t addrs = 0x6d0d324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_perObjectData", {}, {} })));
@@ -98,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::RenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::RenderingData::get_postProcessingEnabled)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68e38e8;
+  constexpr static std::size_t addrs = 0x6d0d384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,10 +102,6 @@ inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* UnityEngine:
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_universalRenderingData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(*this, ___internal_method);
-}
-inline ::by_ref<::UnityEngine::Rendering::CommandBuffer*> UnityEngine::Rendering::Universal::RenderingData::get_commandBuffer() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_commandBuffer", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::Rendering::CommandBuffer*>>(*this, ___internal_method);
 }
 inline ::by_ref<::UnityEngine::Rendering::CullingResults> UnityEngine::Rendering::Universal::RenderingData::get_cullResults() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_cullResults", {}, {} })));

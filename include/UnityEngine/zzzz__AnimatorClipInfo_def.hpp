@@ -15,8 +15,8 @@ struct AnimatorClipInfo;
 MARK_VAL_T(::UnityEngine::AnimatorClipInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
 // [NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
-// [NativeHeader("Modules/Animation/AnimatorInfo.h")]
 // [UsedByNativeCode]
+// [NativeHeader("Modules/Animation/AnimatorInfo.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -33,7 +33,7 @@ public:
   constexpr AnimatorClipInfo(int32_t m_ClipInstanceID, float_t m_Weight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20878 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

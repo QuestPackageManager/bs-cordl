@@ -161,26 +161,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3327540, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35b07c0, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3327610, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x35b0890, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3327618, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35b0898, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3327650, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35b08d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x332753c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35b07bc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -202,7 +202,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3327534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b07b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -229,7 +229,7 @@ public:
   __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21418 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -271,7 +271,7 @@ public:
   static inline ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0* New_ctor();
 
   /// [IteratorStateMachine(typeof(UnityAsyncHelper::<>c__DisplayClass5_0::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d))]
-  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x3327334, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x35b05b4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_predicate() const;
@@ -286,7 +286,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3327330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b05b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -304,7 +304,7 @@ public:
   UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21419 };
 
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___predicate;
@@ -351,26 +351,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3327664, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35b08e4, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3327734, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x35b09b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x332773c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35b09bc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3327774, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35b09f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3327660, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35b08e0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -392,7 +392,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3327658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b08d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -419,7 +419,7 @@ public:
   __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21420 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -461,7 +461,7 @@ public:
   static inline ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0* New_ctor();
 
   /// [IteratorStateMachine(typeof(UnityAsyncHelper::<>c__DisplayClass6_0::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d))]
-  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x33274e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x35b0760, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_predicate() const;
@@ -476,7 +476,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x33274dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b075c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -494,7 +494,7 @@ public:
   UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21421 };
 
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___predicate;
@@ -523,11 +523,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x332777c, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35b09fc, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x33279cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35b0c4c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -545,7 +545,7 @@ public:
                                               ::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21422 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -611,7 +611,7 @@ public:
                                                 ::System::Func_2<A, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21423 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -672,7 +672,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21424 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -736,7 +736,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21425 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -804,7 +804,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21426 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -859,7 +859,7 @@ public:
   using __c__DisplayClass6_0 = ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0;
 
   /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__0))]
-  /// @brief Method InvokeSafe, addr 0x33271a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InvokeSafe, addr 0x35b0420, size 0xa4, virtual false, abstract: false, final false
   static inline void InvokeSafe(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
   /// [AsyncStateMachine(typeof(UnityAsyncHelper::<InvokeSafe>d__1`1<A>))]
@@ -880,10 +880,10 @@ public:
   template <typename A, typename B, typename C, typename D>
   static inline void InvokeSafe(::System::Func_5<A, B, C, D, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter, C thirdParameter, D fourthParameter);
 
-  /// @brief Method WaitUntilAsync, addr 0x3327388, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilAsync, addr 0x35b0608, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitUntilAsync(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ::System::Func_1<bool>* predicate);
 
-  /// @brief Method WaitUntilAsync, addr 0x3327244, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilAsync, addr 0x35b04c4, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitUntilAsync(::UnityEngine::MonoBehaviour* coroutineStarter, ::System::Func_1<bool>* predicate);
 
 protected:
@@ -901,7 +901,7 @@ public:
   UnityAsyncHelper(UnityAsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,8 +3,10 @@
 #include "System/zzzz__Func_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_impl.hpp"
+#include "UnityEngine/zzzz__Camera_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__GUIContent_impl.hpp"
+#include "UnityEngine/zzzz__RenderingLayerMask_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
@@ -16,6 +18,7 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__Enum_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -25,10 +28,12 @@
 #include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ListChangedEventArgs_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ObservableList_1_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DebugUI_Flags::DebugUI_Flags(int32_t value__) noexcept {
   this->value__ = value__;
@@ -40,13 +45,38 @@ constexpr ::UnityEngine::Rendering::DebugUI_Flags UnityEngine::Rendering::DebugU
 constexpr ::UnityEngine::Rendering::DebugUI_Flags UnityEngine::Rendering::DebugUI_Flags::RuntimeOnly{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::DebugUI_Flags UnityEngine::Rendering::DebugUI_Flags::EditorForceUpdate{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::Rendering::DebugUI_Flags UnityEngine::Rendering::DebugUI_Flags::FrequentlyUsed{ static_cast<int32_t>(0x10) };
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Widget.get_order
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_order)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b83c7c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_order", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Widget.set_order
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_Widget::set_order)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b83c84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "set_order", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Widget.get_panel
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Panel* (::UnityEngine::Rendering::DebugUI_Widget::*)()>(
     &::UnityEngine::Rendering::DebugUI_Widget::get_panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aa9c;
+  constexpr static std::size_t addrs = 0x6b83c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::UnityEngine::Rendering::DebugUI_Panel*)>(
     &::UnityEngine::Rendering::DebugUI_Widget::set_panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aaa4;
+  constexpr static std::size_t addrs = 0x6b83c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_IContainer* (::UnityEngine::Rendering::DebugUI_Widget::*)()>(
     &::UnityEngine::Rendering::DebugUI_Widget::get_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aaac;
+  constexpr static std::size_t addrs = 0x6b83c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::UnityEngine::Rendering::DebugUI_IContainer*)>(
     &::UnityEngine::Rendering::DebugUI_Widget::set_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aab4;
+  constexpr static std::size_t addrs = 0x6b83ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Flags (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aabc;
+  constexpr static std::size_t addrs = 0x6b83cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_flags", {}, {} })));
@@ -114,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::UnityEngine::Rendering::DebugUI_Flags)>(
     &::UnityEngine::Rendering::DebugUI_Widget::set_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aac4;
+  constexpr static std::size_t addrs = 0x6b83cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aacc;
+  constexpr static std::size_t addrs = 0x6b83cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_displayName", {}, {} })));
@@ -139,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_Widget::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aad4;
+  constexpr static std::size_t addrs = 0x6b83cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aadc;
+  constexpr static std::size_t addrs = 0x6b83ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_tooltip", {}, {} })));
@@ -164,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_Widget::set_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aae4;
+  constexpr static std::size_t addrs = 0x6b83cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_queryPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aaec;
+  constexpr static std::size_t addrs = 0x6b83cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_queryPath", {}, {} })));
@@ -189,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_Widget::set_queryPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aaf4;
+  constexpr static std::size_t addrs = 0x6b83ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_isEditorOnly)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x676aafc;
+  constexpr static std::size_t addrs = 0x6b83cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_isEditorOnly", {}, {} })));
@@ -214,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_isRuntimeOnly)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x676ab08;
+  constexpr static std::size_t addrs = 0x6b83cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_isRuntimeOnly", {}, {} })));
@@ -226,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_isInactiveInEditor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x676ab14;
+  constexpr static std::size_t addrs = 0x6b83d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_isInactiveInEditor", {}, {} })));
@@ -238,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::get_isHidden)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x676a284;
+  constexpr static std::size_t addrs = 0x6b816d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_isHidden", {}, {} })));
@@ -250,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::GenerateQueryPath)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6769ed0;
+  constexpr static std::size_t addrs = 0x6b8132c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::GetHashCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x676aba0;
+  constexpr static std::size_t addrs = 0x6b83d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip)>(
     &::UnityEngine::Rendering::DebugUI_Widget::set_nameAndTooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675f9e8;
+  constexpr static std::size_t addrs = 0x6b77040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,13 +321,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Widget::*)()>(&::UnityEngine::Rendering::DebugUI_Widget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6769e0c;
+  constexpr static std::size_t addrs = 0x6b8126c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr int32_t& UnityEngine::Rendering::DebugUI_Widget::__cordl_internal_get__order_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____order_k__BackingField;
+}
+constexpr int32_t const& UnityEngine::Rendering::DebugUI_Widget::__cordl_internal_get__order_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____order_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::DebugUI_Widget::__cordl_internal_set__order_k__BackingField(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____order_k__BackingField = value;
+}
 constexpr ::UnityEngine::Rendering::DebugUI_Panel*& UnityEngine::Rendering::DebugUI_Widget::__cordl_internal_get_m_Panel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Panel;
@@ -381,6 +423,15 @@ constexpr ::System::Func_1<bool>* const& UnityEngine::Rendering::DebugUI_Widget:
 constexpr void UnityEngine::Rendering::DebugUI_Widget::__cordl_internal_set_isHiddenCallback(::System::Func_1<bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isHiddenCallback = value;
+}
+inline int32_t UnityEngine::Rendering::DebugUI_Widget::get_order() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "get_order", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_Widget::set_order(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), { "set_order", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Rendering::DebugUI_Panel* UnityEngine::Rendering::DebugUI_Widget::get_panel() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Widget*>(), 4 })));
@@ -477,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Container::*)()>(&::UnityEngine::Rendering::DebugUI_Container::get_hideDisplayName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6769970;
+  constexpr static std::size_t addrs = 0x6b80dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Container*>(), { "get_hideDisplayName", {}, {} })));
@@ -490,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* (::UnityEngine::Rendering::DebugUI_Container::*)()>(
     &::UnityEngine::Rendering::DebugUI_Container::get_children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67699dc;
+  constexpr static std::size_t addrs = 0x6b80e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Container*>(), { "get_children", {}, {} })));
@@ -503,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Container::*)(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Container::set_children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67699e4;
+  constexpr static std::size_t addrs = 0x6b80e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -518,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Panel* (::UnityEngine::Rendering::DebugUI_Container::*)()>(
     &::UnityEngine::Rendering::DebugUI_Container::get_panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67699ec;
+  constexpr static std::size_t addrs = 0x6b80e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,8 +582,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Container::*)(::UnityEngine::Rendering::DebugUI_Panel*)>(
     &::UnityEngine::Rendering::DebugUI_Container::set_panel)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x67699f4;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6b80e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,8 +595,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Container::*)()>(&::UnityEngine::Rendering::DebugUI_Container::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6769ac4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6b80f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Container*>(), { ".ctor", {}, {} })));
@@ -556,8 +607,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Container::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_Container::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6769d44;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6b811a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,8 +621,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Container::*)(
     ::StringW, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(&::UnityEngine::Rendering::DebugUI_Container::_ctor)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6769b60;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x6b80fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -585,8 +636,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Container::*)()>(&::UnityEngine::Rendering::DebugUI_Container::GenerateQueryPath)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6769e10;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6b81270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -601,7 +652,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*, ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Container::OnItemAdded)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6769fbc;
+  constexpr static std::size_t addrs = 0x6b81418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +667,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*, ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Container::OnItemRemoved)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x676a0f4;
+  constexpr static std::size_t addrs = 0x6b8154c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -628,8 +679,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_Container::*)()>(&::UnityEngine::Rendering::DebugUI_Container::GetHashCode)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x676a15c;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6b815b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -745,10 +796,60 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::get_isReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676a2a4;
+  constexpr static std::size_t addrs = 0x6b816f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_isReadOnly", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Foldout.get_opened
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::get_opened)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b81700;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_opened", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Foldout.set_opened
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(bool)>(&::UnityEngine::Rendering::DebugUI_Foldout::set_opened)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b81708;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "set_opened", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Foldout.get_documentationUrl
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::get_documentationUrl)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b81710;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_documentationUrl", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Foldout.set_documentationUrl
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_Foldout::set_documentationUrl)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b81718;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "set_documentationUrl", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -757,7 +858,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::get_columnLabels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676a2ac;
+  constexpr static std::size_t addrs = 0x6b81720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_columnLabels", {}, {} })));
@@ -769,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(::ArrayW<::StringW>)>(&::UnityEngine::Rendering::DebugUI_Foldout::set_columnLabels)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6762a08;
+  constexpr static std::size_t addrs = 0x6b79de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -782,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::get_columnTooltips)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676a2b4;
+  constexpr static std::size_t addrs = 0x6b81728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_columnTooltips", {}, {} })));
@@ -794,7 +895,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(::ArrayW<::StringW>)>(&::UnityEngine::Rendering::DebugUI_Foldout::set_columnTooltips)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x676a2bc;
+  constexpr static std::size_t addrs = 0x6b81730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -808,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>* (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(
     &::UnityEngine::Rendering::DebugUI_Foldout::get_rowContents)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x676a2cc;
+  constexpr static std::size_t addrs = 0x6b81740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_rowContents", {}, {} })));
@@ -820,7 +921,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6762990;
+  constexpr static std::size_t addrs = 0x6b79d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { ".ctor", {}, {} })));
@@ -833,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(
     ::StringW, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*, ::ArrayW<::StringW>, ::ArrayW<::StringW>)>(&::UnityEngine::Rendering::DebugUI_Foldout::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x676a574;
+  constexpr static std::size_t addrs = 0x6b819e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -850,7 +951,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(&::UnityEngine::Rendering::DebugUI_Foldout::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676a624;
+  constexpr static std::size_t addrs = 0x6b81a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "GetValue", {}, {} })));
@@ -863,7 +964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_Foldout::*)()>(
     &::UnityEngine::Rendering::DebugUI_Foldout::UnityEngine_Rendering_DebugUI_IValueField_GetValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x676a62c;
+  constexpr static std::size_t addrs = 0x6b81aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -876,7 +977,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(::System::Object*)>(&::UnityEngine::Rendering::DebugUI_Foldout::SetValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x676a650;
+  constexpr static std::size_t addrs = 0x6b81ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -890,7 +991,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_Foldout::*)(::System::Object*)>(
     &::UnityEngine::Rendering::DebugUI_Foldout::ValidateValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676a694;
+  constexpr static std::size_t addrs = 0x6b81b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -903,7 +1004,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Foldout::*)(bool)>(&::UnityEngine::Rendering::DebugUI_Foldout::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676a69c;
+  constexpr static std::size_t addrs = 0x6b81b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -911,17 +1012,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get_opened() {
+constexpr bool& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get__opened_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___opened;
+  return this->____opened_k__BackingField;
 }
-constexpr bool const& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get_opened() const {
+constexpr bool const& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get__opened_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___opened;
+  return this->____opened_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_set_opened(bool value) {
+constexpr void UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_set__opened_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___opened = value;
+  this->____opened_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get_isHeader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -948,6 +1049,18 @@ constexpr void
 UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_set_contextMenuItems(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___contextMenuItems = value;
+}
+constexpr ::StringW& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get__documentationUrl_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____documentationUrl_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get__documentationUrl_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____documentationUrl_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_set__documentationUrl_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____documentationUrl_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_get_m_Dirty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1000,6 +1113,24 @@ constexpr void UnityEngine::Rendering::DebugUI_Foldout::__cordl_internal_set_m_R
 inline bool UnityEngine::Rendering::DebugUI_Foldout::get_isReadOnly() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_isReadOnly", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::DebugUI_Foldout::get_opened() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_opened", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_Foldout::set_opened(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "set_opened", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW UnityEngine::Rendering::DebugUI_Foldout::get_documentationUrl() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_documentationUrl", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_Foldout::set_documentationUrl(::StringW value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "set_documentationUrl", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::ArrayW<::StringW> UnityEngine::Rendering::DebugUI_Foldout::get_columnLabels() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Foldout*>(), { "get_columnLabels", {}, {} })));
@@ -1084,7 +1215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_HBox::*)()>(&::UnityEngine::Rendering::DebugUI_HBox::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x676a6a4;
+  constexpr static std::size_t addrs = 0x6b81b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HBox*>(), { ".ctor", {}, {} })));
@@ -1105,7 +1236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_VBox::*)()>(&::UnityEngine::Rendering::DebugUI_VBox::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x676a6f8;
+  constexpr static std::size_t addrs = 0x6b81b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_VBox*>(), { ".ctor", {}, {} })));
@@ -1126,7 +1257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Table_DebugUI_Row::*)()>(&::UnityEngine::Rendering::Table_DebugUI_Row::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x675fa70;
+  constexpr static std::size_t addrs = 0x6b715d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Table_DebugUI_Row*>(), { ".ctor", {}, {} })));
@@ -1147,7 +1278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Table::*)()>(&::UnityEngine::Rendering::DebugUI_Table::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x675eaa8;
+  constexpr static std::size_t addrs = 0x6b71580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Table*>(), { ".ctor", {}, {} })));
@@ -1159,7 +1290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Table::*)(int32_t, bool)>(&::UnityEngine::Rendering::DebugUI_Table::SetColumnVisibility)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x675f994;
+  constexpr static std::size_t addrs = 0x6b81bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1172,7 +1303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Table::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_Table::GetColumnVisibility)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x676a990;
+  constexpr static std::size_t addrs = 0x6b81e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1184,8 +1315,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (::UnityEngine::Rendering::DebugUI_Table::*)()>(&::UnityEngine::Rendering::DebugUI_Table::get_VisibleColumns)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x676a74c;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x6b81c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Table*>(), { "get_VisibleColumns", {}, {} })));
@@ -1199,7 +1330,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                          ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Table::OnItemAdded)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x676a9dc;
+  constexpr static std::size_t addrs = 0x6b81e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1214,7 +1345,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                          ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Table::OnItemRemoved)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x676a9f4;
+  constexpr static std::size_t addrs = 0x6b81ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1285,495 +1416,6 @@ inline ::UnityEngine::Rendering::DebugUI_Table* UnityEngine::Rendering::DebugUI_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_Table::DebugUI_Table() {}
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: Some("{}"),
-// comment: None }]
-constexpr ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip::Widget_DebugUI_NameAndTooltip(::StringW name, ::StringW tooltip) noexcept {
-  this->name = name;
-  this->tooltip = tooltip;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip::Widget_DebugUI_NameAndTooltip() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.get_children
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* (::UnityEngine::Rendering::DebugUI_IContainer::*)()>(
-    &::UnityEngine::Rendering::DebugUI_IContainer::get_children)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 0 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.get_displayName
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_IContainer::*)()>(&::UnityEngine::Rendering::DebugUI_IContainer::get_displayName)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 1 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.set_displayName
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_IContainer::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_IContainer::set_displayName)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 2 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.get_queryPath
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_IContainer::*)()>(&::UnityEngine::Rendering::DebugUI_IContainer::get_queryPath)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 3 }));
-    return ___internal_method;
-  }
-};
-inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* UnityEngine::Rendering::DebugUI_IContainer::get_children() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 0 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*>(this, ___internal_method);
-}
-inline ::StringW UnityEngine::Rendering::DebugUI_IContainer::get_displayName() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 1 })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::DebugUI_IContainer::set_displayName(::StringW value) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 2 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline ::StringW UnityEngine::Rendering::DebugUI_IContainer::get_queryPath() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 3 })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
-}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IValueField.GetValue
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_IValueField::*)()>(&::UnityEngine::Rendering::DebugUI_IValueField::GetValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 0 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IValueField.SetValue
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_IValueField::*)(::System::Object*)>(&::UnityEngine::Rendering::DebugUI_IValueField::SetValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 1 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IValueField.ValidateValue
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_IValueField::*)(::System::Object*)>(
-    &::UnityEngine::Rendering::DebugUI_IValueField::ValidateValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 2 }));
-    return ___internal_method;
-  }
-};
-inline ::System::Object* UnityEngine::Rendering::DebugUI_IValueField::GetValue() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 0 })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::DebugUI_IValueField::SetValue(::System::Object* value) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 1 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline ::System::Object* UnityEngine::Rendering::DebugUI_IValueField::ValidateValue(::System::Object* value) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 2 })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value);
-}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Button.get_action
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (::UnityEngine::Rendering::DebugUI_Button::*)()>(&::UnityEngine::Rendering::DebugUI_Button::get_action)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ac10;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "get_action", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Button.set_action
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Button::*)(::System::Action*)>(&::UnityEngine::Rendering::DebugUI_Button::set_action)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ac18;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "set_action", {}, { ::i2c::type_of<::System::Action*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Button._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Button::*)()>(&::UnityEngine::Rendering::DebugUI_Button::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676ac20;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Action*& UnityEngine::Rendering::DebugUI_Button::__cordl_internal_get__action_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____action_k__BackingField;
-}
-constexpr ::System::Action* const& UnityEngine::Rendering::DebugUI_Button::__cordl_internal_get__action_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____action_k__BackingField;
-}
-constexpr void UnityEngine::Rendering::DebugUI_Button::__cordl_internal_set__action_k__BackingField(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____action_k__BackingField = value;
-}
-inline ::System::Action* UnityEngine::Rendering::DebugUI_Button::get_action() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "get_action", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Action*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::DebugUI_Button::set_action(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "set_action", {}, { ::i2c::type_of<::System::Action*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void UnityEngine::Rendering::DebugUI_Button::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::DebugUI_Button* UnityEngine::Rendering::DebugUI_Button::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_Button*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugUI_Button::DebugUI_Button() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.get_getter
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_1<::System::Object*>* (::UnityEngine::Rendering::DebugUI_Value::*)()>(&::UnityEngine::Rendering::DebugUI_Value::get_getter)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ac24;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "get_getter", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.set_getter
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Value::*)(::System::Func_1<::System::Object*>*)>(&::UnityEngine::Rendering::DebugUI_Value::set_getter)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676ac2c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "set_getter", {}, { ::i2c::type_of<::System::Func_1<::System::Object*>*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Value::*)()>(&::UnityEngine::Rendering::DebugUI_Value::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x675dbd4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.GetValue
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_Value::*)()>(&::UnityEngine::Rendering::DebugUI_Value::GetValue)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x676ac34;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 12 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.FormatString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Value::*)(::System::Object*)>(&::UnityEngine::Rendering::DebugUI_Value::FormatString)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x676ac54;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 13 }));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Func_1<::System::Object*>*& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get__getter_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____getter_k__BackingField;
-}
-constexpr ::System::Func_1<::System::Object*>* const& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get__getter_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____getter_k__BackingField;
-}
-constexpr void UnityEngine::Rendering::DebugUI_Value::__cordl_internal_set__getter_k__BackingField(::System::Func_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____getter_k__BackingField = value;
-}
-constexpr float_t& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_refreshRate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___refreshRate;
-}
-constexpr float_t const& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_refreshRate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___refreshRate;
-}
-constexpr void UnityEngine::Rendering::DebugUI_Value::__cordl_internal_set_refreshRate(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___refreshRate = value;
-}
-constexpr ::StringW& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_formatString() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___formatString;
-}
-constexpr ::StringW const& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_formatString() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___formatString;
-}
-constexpr void UnityEngine::Rendering::DebugUI_Value::__cordl_internal_set_formatString(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___formatString = value;
-}
-inline ::System::Func_1<::System::Object*>* UnityEngine::Rendering::DebugUI_Value::get_getter() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "get_getter", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Func_1<::System::Object*>*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::DebugUI_Value::set_getter(::System::Func_1<::System::Object*>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "set_getter", {}, { ::i2c::type_of<::System::Func_1<::System::Object*>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void UnityEngine::Rendering::DebugUI_Value::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::System::Object* UnityEngine::Rendering::DebugUI_Value::GetValue() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 12 })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
-}
-inline ::StringW UnityEngine::Rendering::DebugUI_Value::FormatString(::System::Object* value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 13 })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::DebugUI_Value* UnityEngine::Rendering::DebugUI_Value::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_Value*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugUI_Value::DebugUI_Value() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ProgressBarValue.FormatString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_ProgressBarValue::*)(::System::Object*)>(
-    &::UnityEngine::Rendering::DebugUI_ProgressBarValue::FormatString)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x676acf0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), 13 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ProgressBarValue._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ProgressBarValue::*)()>(&::UnityEngine::Rendering::DebugUI_ProgressBarValue::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6762a24;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ProgressBarValue._FormatString_g__Remap01_2_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::Rendering::DebugUI_ProgressBarValue::_FormatString_g__Remap01_2_0)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x676ade0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(),
-                                                             { "<FormatString>g__Remap01|2_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-    return ___internal_method;
-  }
-};
-constexpr float_t& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_min() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___min;
-}
-constexpr float_t const& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_min() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___min;
-}
-constexpr void UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_set_min(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___min = value;
-}
-constexpr float_t& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_max() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___max;
-}
-constexpr float_t const& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_max() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___max;
-}
-constexpr void UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_set_max(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___max = value;
-}
-inline ::StringW UnityEngine::Rendering::DebugUI_ProgressBarValue::FormatString(::System::Object* value) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), 13 })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
-}
-inline void UnityEngine::Rendering::DebugUI_ProgressBarValue::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline float_t UnityEngine::Rendering::DebugUI_ProgressBarValue::_FormatString_g__Remap01_2_0(float_t v, float_t x0, float_t y0) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(),
-                                                           { "<FormatString>g__Remap01|2_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, v, x0, y0);
-}
-inline ::UnityEngine::Rendering::DebugUI_ProgressBarValue* UnityEngine::Rendering::DebugUI_ProgressBarValue::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugUI_ProgressBarValue::DebugUI_ProgressBarValue() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ValueTuple.get_numElements
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_ValueTuple::*)()>(&::UnityEngine::Rendering::DebugUI_ValueTuple::get_numElements)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x676adf0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_numElements", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ValueTuple.get_refreshRate
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::DebugUI_ValueTuple::*)()>(&::UnityEngine::Rendering::DebugUI_ValueTuple::get_refreshRate)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x676ae08;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_refreshRate", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ValueTuple._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ValueTuple::*)()>(&::UnityEngine::Rendering::DebugUI_ValueTuple::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6762a18;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*>& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_values() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___values;
-}
-constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> const& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_values() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___values;
-}
-constexpr void UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_set_values(::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___values = value;
-}
-constexpr int32_t& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_pinnedElementIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___pinnedElementIndex;
-}
-constexpr int32_t const& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_pinnedElementIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___pinnedElementIndex;
-}
-constexpr void UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_set_pinnedElementIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___pinnedElementIndex = value;
-}
-inline int32_t UnityEngine::Rendering::DebugUI_ValueTuple::get_numElements() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_numElements", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
-}
-inline float_t UnityEngine::Rendering::DebugUI_ValueTuple::get_refreshRate() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_refreshRate", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::DebugUI_ValueTuple::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::DebugUI_ValueTuple* UnityEngine::Rendering::DebugUI_ValueTuple::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_ValueTuple*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugUI_ValueTuple::DebugUI_ValueTuple() {}
 template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::Rendering::DebugUI_Field_1<T>::__cordl_internal_get__getter_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getter_k__BackingField;
@@ -1879,7 +1521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_BoolField::*)()>(&::UnityEngine::Rendering::DebugUI_BoolField::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x676ae6c;
+  constexpr static std::size_t addrs = 0x6b81f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_BoolField*>(), { ".ctor", {}, {} })));
@@ -1901,7 +1543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Func_1<bool>*> (::UnityEngine::Rendering::DebugUI_HistoryBoolField::*)()>(
     &::UnityEngine::Rendering::DebugUI_HistoryBoolField::get_historyGetter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aea8;
+  constexpr static std::size_t addrs = 0x6b81f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryBoolField*>(), { "get_historyGetter", {}, {} })));
@@ -1914,7 +1556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_HistoryBoolField::*)(::ArrayW<::System::Func_1<bool>*>)>(
     &::UnityEngine::Rendering::DebugUI_HistoryBoolField::set_historyGetter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676aeb0;
+  constexpr static std::size_t addrs = 0x6b81f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryBoolField*>(),
@@ -1927,7 +1569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_HistoryBoolField::*)()>(&::UnityEngine::Rendering::DebugUI_HistoryBoolField::get_historyDepth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x676aeb8;
+  constexpr static std::size_t addrs = 0x6b81f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryBoolField*>(), { "get_historyDepth", {}, {} })));
@@ -1939,7 +1581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_HistoryBoolField::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_HistoryBoolField::GetHistoryValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x676aed0;
+  constexpr static std::size_t addrs = 0x6b81fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1952,7 +1594,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_HistoryBoolField::*)()>(&::UnityEngine::Rendering::DebugUI_HistoryBoolField::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x676af10;
+  constexpr static std::size_t addrs = 0x6b81fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryBoolField*>(), { ".ctor", {}, {} })));
@@ -2004,7 +1646,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_IntField::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_IntField::ValidateValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x676af4c;
+  constexpr static std::size_t addrs = 0x6b82028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2017,7 +1659,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_IntField::*)()>(&::UnityEngine::Rendering::DebugUI_IntField::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x676afb0;
+  constexpr static std::size_t addrs = 0x6b8208c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IntField*>(), { ".ctor", {}, {} })));
@@ -2091,7 +1733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::DebugUI_UIntField::*)(uint32_t)>(&::UnityEngine::Rendering::DebugUI_UIntField::ValidateValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x676affc;
+  constexpr static std::size_t addrs = 0x6b820d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2104,7 +1746,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_UIntField::*)()>(&::UnityEngine::Rendering::DebugUI_UIntField::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x676b060;
+  constexpr static std::size_t addrs = 0x6b8213c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_UIntField*>(), { ".ctor", {}, {} })));
@@ -2178,7 +1820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::DebugUI_FloatField::*)(float_t)>(&::UnityEngine::Rendering::DebugUI_FloatField::ValidateValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x676b0ac;
+  constexpr static std::size_t addrs = 0x6b82188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2191,7 +1833,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_FloatField::*)()>(&::UnityEngine::Rendering::DebugUI_FloatField::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x676b10c;
+  constexpr static std::size_t addrs = 0x6b821e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_FloatField*>(), { ".ctor", {}, {} })));
@@ -2272,6 +1914,367 @@ inline ::UnityEngine::Rendering::DebugUI_FloatField* UnityEngine::Rendering::Deb
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_FloatField::DebugUI_FloatField() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b82770;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0._Resize_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::_Resize_b__0)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6b82b68;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>(), { "<Resize>b__0", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0._Resize_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::*)(::UnityEngine::Color)>(
+    &::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::_Resize_b__1)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6b82b98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>(),
+                                                                                           { "<Resize>b__1", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::__cordl_internal_get_index() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___index;
+}
+constexpr int32_t const& UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::__cordl_internal_get_index() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___index;
+}
+constexpr void UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::__cordl_internal_set_index(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___index = value;
+}
+constexpr ::UnityEngine::Rendering::DebugUI_RenderingLayerField*& UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityEngine::Rendering::DebugUI_RenderingLayerField* const& UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::__cordl_internal_set___4__this(::UnityEngine::Rendering::DebugUI_RenderingLayerField* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+inline void UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Color UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::_Resize_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>(), { "<Resize>b__0", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::_Resize_b__1(::UnityEngine::Color value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>(),
+                                                                                         { "<Resize>b__1", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0* UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0::RenderingLayerField_DebugUI___c__DisplayClass5_0() {}
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
+constexpr ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip::Widget_DebugUI_NameAndTooltip(::StringW name, ::StringW tooltip) noexcept {
+  this->name = name;
+  this->tooltip = tooltip;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip::Widget_DebugUI_NameAndTooltip() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.get_maxRenderingLayerCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(
+    &::UnityEngine::Rendering::DebugUI_RenderingLayerField::get_maxRenderingLayerCount)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6b8223c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_maxRenderingLayerCount", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.Resize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(&::UnityEngine::Rendering::DebugUI_RenderingLayerField::Resize)> {
+  constexpr static std::size_t size = 0x4c8;
+  constexpr static std::size_t addrs = 0x6b822a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "Resize", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.get_renderingLayersNames
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(
+    &::UnityEngine::Rendering::DebugUI_RenderingLayerField::get_renderingLayersNames)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6b827d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_renderingLayersNames", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.get_children
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* (
+    ::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(&::UnityEngine::Rendering::DebugUI_RenderingLayerField::get_children)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6b8285c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_children", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.get_getRenderingLayerColor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_2<int32_t, ::UnityEngine::Vector4>* (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(
+    &::UnityEngine::Rendering::DebugUI_RenderingLayerField::get_getRenderingLayerColor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b828e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_getRenderingLayerColor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.set_getRenderingLayerColor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)(::System::Func_2<int32_t, ::UnityEngine::Vector4>*)>(
+    &::UnityEngine::Rendering::DebugUI_RenderingLayerField::set_getRenderingLayerColor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b828f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(),
+                                                             { "set_getRenderingLayerColor", {}, { ::i2c::type_of<::System::Func_2<int32_t, ::UnityEngine::Vector4>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.get_setRenderingLayerColor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_2<::UnityEngine::Vector4, int32_t>* (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(
+    &::UnityEngine::Rendering::DebugUI_RenderingLayerField::get_setRenderingLayerColor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b828f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_setRenderingLayerColor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.set_setRenderingLayerColor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)(::System::Action_2<::UnityEngine::Vector4, int32_t>*)>(
+    &::UnityEngine::Rendering::DebugUI_RenderingLayerField::set_setRenderingLayerColor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b82900;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(),
+                                                             { "set_setRenderingLayerColor", {}, { ::i2c::type_of<::System::Action_2<::UnityEngine::Vector4, int32_t>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField.GenerateQueryPath
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(&::UnityEngine::Rendering::DebugUI_RenderingLayerField::GenerateQueryPath)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6b82908;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), 11 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_RenderingLayerField._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_RenderingLayerField::*)()>(&::UnityEngine::Rendering::DebugUI_RenderingLayerField::_ctor)> {
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6b829cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::StringW>& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get_m_RenderingLayersNames() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderingLayersNames;
+}
+constexpr ::ArrayW<::StringW> const& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get_m_RenderingLayersNames() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderingLayersNames;
+}
+constexpr void UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_set_m_RenderingLayersNames(::ArrayW<::StringW> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RenderingLayersNames = value;
+}
+constexpr int32_t& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get_m_DefinedRenderingLayersCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DefinedRenderingLayersCount;
+}
+constexpr int32_t const& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get_m_DefinedRenderingLayersCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DefinedRenderingLayersCount;
+}
+constexpr void UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_set_m_DefinedRenderingLayersCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DefinedRenderingLayersCount = value;
+}
+constexpr ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get_m_RenderingLayersColors() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderingLayersColors;
+}
+constexpr ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* const&
+UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get_m_RenderingLayersColors() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RenderingLayersColors;
+}
+constexpr void
+UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_set_m_RenderingLayersColors(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RenderingLayersColors = value;
+}
+constexpr ::System::Func_2<int32_t, ::UnityEngine::Vector4>*& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get__getRenderingLayerColor_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____getRenderingLayerColor_k__BackingField;
+}
+constexpr ::System::Func_2<int32_t, ::UnityEngine::Vector4>* const& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get__getRenderingLayerColor_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____getRenderingLayerColor_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_set__getRenderingLayerColor_k__BackingField(::System::Func_2<int32_t, ::UnityEngine::Vector4>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____getRenderingLayerColor_k__BackingField = value;
+}
+constexpr ::System::Action_2<::UnityEngine::Vector4, int32_t>*& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get__setRenderingLayerColor_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____setRenderingLayerColor_k__BackingField;
+}
+constexpr ::System::Action_2<::UnityEngine::Vector4, int32_t>* const& UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_get__setRenderingLayerColor_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____setRenderingLayerColor_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::DebugUI_RenderingLayerField::__cordl_internal_set__setRenderingLayerColor_k__BackingField(::System::Action_2<::UnityEngine::Vector4, int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____setRenderingLayerColor_k__BackingField = value;
+}
+inline void UnityEngine::Rendering::DebugUI_RenderingLayerField::setStaticF_s_RenderingLayerColors(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "s_RenderingLayerColors", ::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(
+      std::forward<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip>(value));
+}
+inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip UnityEngine::Rendering::DebugUI_RenderingLayerField::getStaticF_s_RenderingLayerColors() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, "s_RenderingLayerColors", ::UnityEngine::Rendering::DebugUI_RenderingLayerField*>();
+}
+inline int32_t UnityEngine::Rendering::DebugUI_RenderingLayerField::get_maxRenderingLayerCount() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_maxRenderingLayerCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_RenderingLayerField::Resize() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "Resize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::ArrayW<::StringW> UnityEngine::Rendering::DebugUI_RenderingLayerField::get_renderingLayersNames() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_renderingLayersNames", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* UnityEngine::Rendering::DebugUI_RenderingLayerField::get_children() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_children", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*>(this, ___internal_method);
+}
+inline ::System::Func_2<int32_t, ::UnityEngine::Vector4>* UnityEngine::Rendering::DebugUI_RenderingLayerField::get_getRenderingLayerColor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_getRenderingLayerColor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Func_2<int32_t, ::UnityEngine::Vector4>*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_RenderingLayerField::set_getRenderingLayerColor(::System::Func_2<int32_t, ::UnityEngine::Vector4>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(),
+                                                           { "set_getRenderingLayerColor", {}, { ::i2c::type_of<::System::Func_2<int32_t, ::UnityEngine::Vector4>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Action_2<::UnityEngine::Vector4, int32_t>* UnityEngine::Rendering::DebugUI_RenderingLayerField::get_setRenderingLayerColor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { "get_setRenderingLayerColor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Action_2<::UnityEngine::Vector4, int32_t>*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_RenderingLayerField::set_setRenderingLayerColor(::System::Action_2<::UnityEngine::Vector4, int32_t>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(),
+                                                           { "set_setRenderingLayerColor", {}, { ::i2c::type_of<::System::Action_2<::UnityEngine::Vector4, int32_t>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DebugUI_RenderingLayerField::GenerateQueryPath() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_RenderingLayerField::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::DebugUI_RenderingLayerField* UnityEngine::Rendering::DebugUI_RenderingLayerField::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_RenderingLayerField*>());
+}
+/// @brief Convert operator to "::UnityEngine::Rendering::DebugUI_IContainer"
+constexpr UnityEngine::Rendering::DebugUI_RenderingLayerField::operator ::UnityEngine::Rendering::DebugUI_IContainer*() noexcept {
+  return static_cast<::UnityEngine::Rendering::DebugUI_IContainer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::DebugUI_IContainer"
+constexpr ::UnityEngine::Rendering::DebugUI_IContainer* UnityEngine::Rendering::DebugUI_RenderingLayerField::i___UnityEngine__Rendering__DebugUI_IContainer() noexcept {
+  return static_cast<::UnityEngine::Rendering::DebugUI_IContainer*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_RenderingLayerField::DebugUI_RenderingLayerField() {}
 template <typename T> inline void UnityEngine::Rendering::EnumField_1_DebugUI___c<T>::setStaticF___9(::UnityEngine::Rendering::EnumField_1_DebugUI___c<T>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::EnumField_1_DebugUI___c<T>*, "<>9", ::UnityEngine::Rendering::EnumField_1_DebugUI___c<T>*>(
       std::forward<::UnityEngine::Rendering::EnumField_1_DebugUI___c<T>*>(value));
@@ -2359,7 +2362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EnumField_DebugUI___c::*)()>(&::UnityEngine::Rendering::EnumField_DebugUI___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676b670;
+  constexpr static std::size_t addrs = 0x6b830d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::EnumField_DebugUI___c*>(), { ".ctor", {}, {} })));
@@ -2372,7 +2375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::EnumField_DebugUI___c::*)(::UnityEngine::GUIContent*)>(
     &::UnityEngine::Rendering::EnumField_DebugUI___c::_InitQuickSeparators_b__17_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x676b674;
+  constexpr static std::size_t addrs = 0x6b830dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::EnumField_DebugUI___c*>(),
@@ -2414,7 +2417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::Rendering::DebugUI_EnumField::*)()>(&::UnityEngine::Rendering::DebugUI_EnumField::get_indexes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x676b160;
+  constexpr static std::size_t addrs = 0x6b82bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_EnumField*>(), { "get_indexes", {}, {} })));
@@ -2426,7 +2429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_1<int32_t>* (::UnityEngine::Rendering::DebugUI_EnumField::*)()>(&::UnityEngine::Rendering::DebugUI_EnumField::get_getIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b1d8;
+  constexpr static std::size_t addrs = 0x6b82c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_EnumField*>(), { "get_getIndex", {}, {} })));
@@ -2438,7 +2441,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)(::System::Func_1<int32_t>*)>(&::UnityEngine::Rendering::DebugUI_EnumField::set_getIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b1e0;
+  constexpr static std::size_t addrs = 0x6b82c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2451,7 +2454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_1<int32_t>* (::UnityEngine::Rendering::DebugUI_EnumField::*)()>(&::UnityEngine::Rendering::DebugUI_EnumField::get_setIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b1e8;
+  constexpr static std::size_t addrs = 0x6b82c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_EnumField*>(), { "get_setIndex", {}, {} })));
@@ -2464,7 +2467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)(::System::Action_1<int32_t>*)>(
     &::UnityEngine::Rendering::DebugUI_EnumField::set_setIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b1f0;
+  constexpr static std::size_t addrs = 0x6b82c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2477,7 +2480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_EnumField::*)()>(&::UnityEngine::Rendering::DebugUI_EnumField::get_currentIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x676b1f8;
+  constexpr static std::size_t addrs = 0x6b82c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_EnumField*>(), { "get_currentIndex", {}, {} })));
@@ -2489,7 +2492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_EnumField::set_currentIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x676b218;
+  constexpr static std::size_t addrs = 0x6b82c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2502,7 +2505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)(::System::Type*)>(&::UnityEngine::Rendering::DebugUI_EnumField::set_autoEnum)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x676b238;
+  constexpr static std::size_t addrs = 0x6b82ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2515,7 +2518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)()>(&::UnityEngine::Rendering::DebugUI_EnumField::InitQuickSeparators)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x676b29c;
+  constexpr static std::size_t addrs = 0x6b82d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_EnumField*>(), { "InitQuickSeparators", {}, {} })));
@@ -2527,7 +2530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_EnumField::SetValue)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x676b4b0;
+  constexpr static std::size_t addrs = 0x6b82f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2540,7 +2543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_EnumField::*)()>(&::UnityEngine::Rendering::DebugUI_EnumField::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x675d828;
+  constexpr static std::size_t addrs = 0x6b751bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_EnumField*>(), { ".ctor", {}, {} })));
@@ -2655,7 +2658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* (
     ::UnityEngine::Rendering::DebugUI_ObjectPopupField::*)()>(&::UnityEngine::Rendering::DebugUI_ObjectPopupField::get_getObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b700;
+  constexpr static std::size_t addrs = 0x6b83168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ObjectPopupField*>(), { "get_getObjects", {}, {} })));
@@ -2668,7 +2671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ObjectPopupField::*)(
     ::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>*)>(&::UnityEngine::Rendering::DebugUI_ObjectPopupField::set_getObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b708;
+  constexpr static std::size_t addrs = 0x6b83170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2682,7 +2685,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ObjectPopupField::*)()>(&::UnityEngine::Rendering::DebugUI_ObjectPopupField::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x675db08;
+  constexpr static std::size_t addrs = 0x6b83178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ObjectPopupField*>(), { ".ctor", {}, {} })));
@@ -2723,13 +2726,92 @@ inline ::UnityEngine::Rendering::DebugUI_ObjectPopupField* UnityEngine::Renderin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_ObjectPopupField::DebugUI_ObjectPopupField() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_CameraSelector._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_CameraSelector::*)()>(&::UnityEngine::Rendering::DebugUI_CameraSelector::_ctor)> {
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6b753c4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_CameraSelector*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_CameraSelector.get_cameras
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* (::UnityEngine::Rendering::DebugUI_CameraSelector::*)()>(
+    &::UnityEngine::Rendering::DebugUI_CameraSelector::get_cameras)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x6b831b4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_CameraSelector*>(), { "get_cameras", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_CameraSelector.__ctor_b__0_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* (::UnityEngine::Rendering::DebugUI_CameraSelector::*)()>(
+    &::UnityEngine::Rendering::DebugUI_CameraSelector::__ctor_b__0_0)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b83414;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_CameraSelector*>(), { "<.ctor>b__0_0", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>>& UnityEngine::Rendering::DebugUI_CameraSelector::__cordl_internal_get_m_CamerasArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CamerasArray;
+}
+constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>> const& UnityEngine::Rendering::DebugUI_CameraSelector::__cordl_internal_get_m_CamerasArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CamerasArray;
+}
+constexpr void UnityEngine::Rendering::DebugUI_CameraSelector::__cordl_internal_set_m_CamerasArray(::ArrayW<::UnityW<::UnityEngine::Camera>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CamerasArray = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*& UnityEngine::Rendering::DebugUI_CameraSelector::__cordl_internal_get_m_Cameras() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Cameras;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* const& UnityEngine::Rendering::DebugUI_CameraSelector::__cordl_internal_get_m_Cameras() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Cameras;
+}
+constexpr void UnityEngine::Rendering::DebugUI_CameraSelector::__cordl_internal_set_m_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Cameras = value;
+}
+inline void UnityEngine::Rendering::DebugUI_CameraSelector::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_CameraSelector*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::DebugUI_CameraSelector::get_cameras() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_CameraSelector*>(), { "get_cameras", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* UnityEngine::Rendering::DebugUI_CameraSelector::__ctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_CameraSelector*>(), { "<.ctor>b__0_0", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::DebugUI_CameraSelector* UnityEngine::Rendering::DebugUI_CameraSelector::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_CameraSelector*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_CameraSelector::DebugUI_CameraSelector() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_HistoryEnumField.get_historyIndexGetter
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Func_1<int32_t>*> (::UnityEngine::Rendering::DebugUI_HistoryEnumField::*)()>(
     &::UnityEngine::Rendering::DebugUI_HistoryEnumField::get_historyIndexGetter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b710;
+  constexpr static std::size_t addrs = 0x6b83418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2743,7 +2825,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_HistoryEnumField::*)(::ArrayW<::System::Func_1<int32_t>*>)>(
     &::UnityEngine::Rendering::DebugUI_HistoryEnumField::set_historyIndexGetter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b718;
+  constexpr static std::size_t addrs = 0x6b83420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryEnumField*>(),
@@ -2756,7 +2838,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_HistoryEnumField::*)()>(&::UnityEngine::Rendering::DebugUI_HistoryEnumField::get_historyDepth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x676b720;
+  constexpr static std::size_t addrs = 0x6b83428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryEnumField*>(), { "get_historyDepth", {}, {} })));
@@ -2769,7 +2851,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_HistoryEnumField::*)(int32_t)>(
     &::UnityEngine::Rendering::DebugUI_HistoryEnumField::GetHistoryValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x676b738;
+  constexpr static std::size_t addrs = 0x6b83440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2782,7 +2864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_HistoryEnumField::*)()>(&::UnityEngine::Rendering::DebugUI_HistoryEnumField::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676b778;
+  constexpr static std::size_t addrs = 0x6b83480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_HistoryEnumField*>(), { ".ctor", {}, {} })));
@@ -2834,7 +2916,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::Rendering::DebugUI_BitField::*)()>(&::UnityEngine::Rendering::DebugUI_BitField::get_enumType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b77c;
+  constexpr static std::size_t addrs = 0x6b83484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_BitField*>(), { "get_enumType", {}, {} })));
@@ -2846,7 +2928,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_BitField::*)(::System::Type*)>(&::UnityEngine::Rendering::DebugUI_BitField::set_enumType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x676b784;
+  constexpr static std::size_t addrs = 0x6b8348c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2859,7 +2941,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_BitField::*)()>(&::UnityEngine::Rendering::DebugUI_BitField::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x676b7e4;
+  constexpr static std::size_t addrs = 0x6b834ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_BitField*>(), { ".ctor", {}, {} })));
@@ -2896,70 +2978,13 @@ inline ::UnityEngine::Rendering::DebugUI_BitField* UnityEngine::Rendering::Debug
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_BitField::DebugUI_BitField() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_MaskField.Fill
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MaskField::*)(::ArrayW<::StringW>)>(&::UnityEngine::Rendering::DebugUI_MaskField::Fill)> {
-  constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x676b850;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { "Fill", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_MaskField.SetValue
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MaskField::*)(uint32_t)>(&::UnityEngine::Rendering::DebugUI_MaskField::SetValue)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x676bc84;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), 16 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_MaskField._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MaskField::*)()>(&::UnityEngine::Rendering::DebugUI_MaskField::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x676bd6c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::Rendering::DebugUI_MaskField::Fill(::ArrayW<::StringW> names) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { "Fill", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, names);
-}
-inline void UnityEngine::Rendering::DebugUI_MaskField::SetValue(uint32_t value) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), 16 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void UnityEngine::Rendering::DebugUI_MaskField::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::DebugUI_MaskField* UnityEngine::Rendering::DebugUI_MaskField::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_MaskField*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::DebugUI_MaskField::DebugUI_MaskField() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ColorField.ValidateValue
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::Rendering::DebugUI_ColorField::*)(::UnityEngine::Color)>(
     &::UnityEngine::Rendering::DebugUI_ColorField::ValidateValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x676bdd8;
+  constexpr static std::size_t addrs = 0x6b83558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2972,7 +2997,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ColorField::*)()>(&::UnityEngine::Rendering::DebugUI_ColorField::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x676be30;
+  constexpr static std::size_t addrs = 0x6b82774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ColorField*>(), { ".ctor", {}, {} })));
@@ -3070,7 +3095,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Vector2Field::*)()>(&::UnityEngine::Rendering::DebugUI_Vector2Field::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x676be8c;
+  constexpr static std::size_t addrs = 0x6b835b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Vector2Field*>(), { ".ctor", {}, {} })));
@@ -3127,7 +3152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Vector3Field::*)()>(&::UnityEngine::Rendering::DebugUI_Vector3Field::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x676bee0;
+  constexpr static std::size_t addrs = 0x6b83604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Vector3Field*>(), { ".ctor", {}, {} })));
@@ -3184,7 +3209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Vector4Field::*)()>(&::UnityEngine::Rendering::DebugUI_Vector4Field::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x676bf34;
+  constexpr static std::size_t addrs = 0x6b83658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Vector4Field*>(), { ".ctor", {}, {} })));
@@ -3241,7 +3266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ObjectField::*)()>(&::UnityEngine::Rendering::DebugUI_ObjectField::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x675f9f0;
+  constexpr static std::size_t addrs = 0x6b77048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ObjectField*>(), { ".ctor", {}, {} })));
@@ -3274,7 +3299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ObjectListField::*)()>(&::UnityEngine::Rendering::DebugUI_ObjectListField::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x676bf88;
+  constexpr static std::size_t addrs = 0x6b836ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ObjectListField*>(), { ".ctor", {}, {} })));
@@ -3316,7 +3341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_MessageBox::*)()>(&::UnityEngine::Rendering::DebugUI_MessageBox::get_message)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x676c008;
+  constexpr static std::size_t addrs = 0x6b8372c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MessageBox*>(), { "get_message", {}, {} })));
@@ -3328,7 +3353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MessageBox::*)()>(&::UnityEngine::Rendering::DebugUI_MessageBox::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676c028;
+  constexpr static std::size_t addrs = 0x6b7781c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MessageBox*>(), { ".ctor", {}, {} })));
@@ -3378,7 +3403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c::*)()>(
     &::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676c188;
+  constexpr static std::size_t addrs = 0x6b838a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3392,7 +3417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c::*)()>(
     &::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x676c18c;
+  constexpr static std::size_t addrs = 0x6b838ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3434,7 +3459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox::*)()>(
     &::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x676c02c;
+  constexpr static std::size_t addrs = 0x6b8374c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox*>(), { ".ctor", {}, {} })));
@@ -3455,7 +3480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Panel_DebugUI___c::*)()>(&::UnityEngine::Rendering::Panel_DebugUI___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676c530;
+  constexpr static std::size_t addrs = 0x6b83c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(), { ".ctor", {}, {} })));
@@ -3465,15 +3490,31 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Panel_DebugUI___c.__ctor_b__29_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Panel_DebugUI___c::*)(::UnityEngine::Rendering::DebugUI_Panel*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Panel_DebugUI___c::*)(::UnityEngine::Rendering::DebugUI_Widget*, ::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::Panel_DebugUI___c::__ctor_b__29_0)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676c534;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6b83c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(), { "<.ctor>b__29_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Panel*>() } })));
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(),
+                                         { "<.ctor>b__29_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Widget*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Widget*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Panel_DebugUI___c.__ctor_b__29_1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Panel_DebugUI___c::*)(::UnityEngine::Rendering::DebugUI_Panel*)>(
+    &::UnityEngine::Rendering::Panel_DebugUI___c::__ctor_b__29_1)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b83c78;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(), { "<.ctor>b__29_1", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Panel*>() } })));
     return ___internal_method;
   }
 };
@@ -3484,21 +3525,34 @@ inline void UnityEngine::Rendering::Panel_DebugUI___c::setStaticF___9(::UnityEng
 inline ::UnityEngine::Rendering::Panel_DebugUI___c* UnityEngine::Rendering::Panel_DebugUI___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Panel_DebugUI___c*, "<>9", ::UnityEngine::Rendering::Panel_DebugUI___c*>();
 }
-inline void UnityEngine::Rendering::Panel_DebugUI___c::setStaticF___9__29_0(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*, "<>9__29_0", ::UnityEngine::Rendering::Panel_DebugUI___c*>(
+inline void UnityEngine::Rendering::Panel_DebugUI___c::setStaticF___9__29_0(::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>* value) {
+  ::cordl_internals::setStaticField<::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>*, "<>9__29_0", ::UnityEngine::Rendering::Panel_DebugUI___c*>(
+      std::forward<::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>*>(value));
+}
+inline ::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>* UnityEngine::Rendering::Panel_DebugUI___c::getStaticF___9__29_0() {
+  return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>*, "<>9__29_0", ::UnityEngine::Rendering::Panel_DebugUI___c*>();
+}
+inline void UnityEngine::Rendering::Panel_DebugUI___c::setStaticF___9__29_1(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*, "<>9__29_1", ::UnityEngine::Rendering::Panel_DebugUI___c*>(
       std::forward<::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*>(value));
 }
-inline ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* UnityEngine::Rendering::Panel_DebugUI___c::getStaticF___9__29_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*, "<>9__29_0", ::UnityEngine::Rendering::Panel_DebugUI___c*>();
+inline ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* UnityEngine::Rendering::Panel_DebugUI___c::getStaticF___9__29_1() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*, "<>9__29_1", ::UnityEngine::Rendering::Panel_DebugUI___c*>();
 }
 inline void UnityEngine::Rendering::Panel_DebugUI___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Panel_DebugUI___c::__ctor_b__29_0(::UnityEngine::Rendering::DebugUI_Panel* _p0_) {
+inline int32_t UnityEngine::Rendering::Panel_DebugUI___c::__ctor_b__29_0(::UnityEngine::Rendering::DebugUI_Widget* widget, ::UnityEngine::Rendering::DebugUI_Widget* widget1) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(),
+                                              { "<.ctor>b__29_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Widget*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Widget*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, widget, widget1);
+}
+inline void UnityEngine::Rendering::Panel_DebugUI___c::__ctor_b__29_1(::UnityEngine::Rendering::DebugUI_Panel* _p0_) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(), { "<.ctor>b__29_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Panel*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Panel_DebugUI___c*>(), { "<.ctor>b__29_1", {}, { ::i2c::type_of<::UnityEngine::Rendering::DebugUI_Panel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _p0_);
 }
 inline ::UnityEngine::Rendering::Panel_DebugUI___c* UnityEngine::Rendering::Panel_DebugUI___c::New_ctor() {
@@ -3511,7 +3565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Flags (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c228;
+  constexpr static std::size_t addrs = 0x6b83948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_flags", {}, {} })));
@@ -3524,7 +3578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)(::UnityEngine::Rendering::DebugUI_Flags)>(
     &::UnityEngine::Rendering::DebugUI_Panel::set_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c230;
+  constexpr static std::size_t addrs = 0x6b83950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3537,7 +3591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c238;
+  constexpr static std::size_t addrs = 0x6b83958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_displayName", {}, {} })));
@@ -3549,7 +3603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_Panel::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c240;
+  constexpr static std::size_t addrs = 0x6b83960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3562,7 +3616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_groupIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c248;
+  constexpr static std::size_t addrs = 0x6b83968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_groupIndex", {}, {} })));
@@ -3574,7 +3628,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)(int32_t)>(&::UnityEngine::Rendering::DebugUI_Panel::set_groupIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c250;
+  constexpr static std::size_t addrs = 0x6b83970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3587,7 +3641,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_queryPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c258;
+  constexpr static std::size_t addrs = 0x6b83978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_queryPath", {}, {} })));
@@ -3599,7 +3653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_isEditorOnly)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x676c260;
+  constexpr static std::size_t addrs = 0x6b83980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_isEditorOnly", {}, {} })));
@@ -3611,7 +3665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_isRuntimeOnly)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x676c26c;
+  constexpr static std::size_t addrs = 0x6b8398c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_isRuntimeOnly", {}, {} })));
@@ -3623,7 +3677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_isInactiveInEditor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x676c278;
+  constexpr static std::size_t addrs = 0x6b83998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_isInactiveInEditor", {}, {} })));
@@ -3635,7 +3689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::get_editorForceUpdate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x676c304;
+  constexpr static std::size_t addrs = 0x6b83a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_editorForceUpdate", {}, {} })));
@@ -3648,7 +3702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* (::UnityEngine::Rendering::DebugUI_Panel::*)()>(
     &::UnityEngine::Rendering::DebugUI_Panel::get_children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c310;
+  constexpr static std::size_t addrs = 0x6b83a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "get_children", {}, {} })));
@@ -3661,7 +3715,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Panel::set_children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676c318;
+  constexpr static std::size_t addrs = 0x6b83a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3676,7 +3730,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*)>(
     &::UnityEngine::Rendering::DebugUI_Panel::add_onSetDirty)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x67660a8;
+  constexpr static std::size_t addrs = 0x6b7dc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3691,7 +3745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>*)>(
     &::UnityEngine::Rendering::DebugUI_Panel::remove_onSetDirty)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6765d78;
+  constexpr static std::size_t addrs = 0x6b7d858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3704,8 +3758,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::_ctor)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6765eb8;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x6b7d998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { ".ctor", {}, {} })));
@@ -3719,7 +3773,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                          ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Panel::OnItemAdded)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x676c320;
+  constexpr static std::size_t addrs = 0x6b83a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3734,7 +3788,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                          ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(
     &::UnityEngine::Rendering::DebugUI_Panel::OnItemRemoved)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x676c378;
+  constexpr static std::size_t addrs = 0x6b83a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3746,8 +3800,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::SetDirty)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x676a024;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6b81480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Panel*>(), { "SetDirty", {}, {} })));
@@ -3758,8 +3812,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_Panel::*)()>(&::UnityEngine::Rendering::DebugUI_Panel::GetHashCode)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x676c3d0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6b83af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3773,7 +3827,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_Panel::*)(::UnityEngine::Rendering::DebugUI_Panel*)>(
     &::UnityEngine::Rendering::DebugUI_Panel::System_IComparable_UnityEngine_Rendering_DebugUI_Panel__CompareTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x676c4b8;
+  constexpr static std::size_t addrs = 0x6b83bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3960,12 +4014,550 @@ constexpr ::System::IComparable_1<::UnityEngine::Rendering::DebugUI_Panel*>* Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::DebugUI_Panel::DebugUI_Panel() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.get_children
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* (::UnityEngine::Rendering::DebugUI_IContainer::*)()>(
+    &::UnityEngine::Rendering::DebugUI_IContainer::get_children)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 0 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.get_displayName
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_IContainer::*)()>(&::UnityEngine::Rendering::DebugUI_IContainer::get_displayName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 1 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.set_displayName
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_IContainer::*)(::StringW)>(&::UnityEngine::Rendering::DebugUI_IContainer::set_displayName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 2 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IContainer.get_queryPath
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_IContainer::*)()>(&::UnityEngine::Rendering::DebugUI_IContainer::get_queryPath)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 3 }));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* UnityEngine::Rendering::DebugUI_IContainer::get_children() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*>(this, ___internal_method);
+}
+inline ::StringW UnityEngine::Rendering::DebugUI_IContainer::get_displayName() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 1 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_IContainer::set_displayName(::StringW value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW UnityEngine::Rendering::DebugUI_IContainer::get_queryPath() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IContainer*>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IValueField.GetValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_IValueField::*)()>(&::UnityEngine::Rendering::DebugUI_IValueField::GetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 0 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IValueField.SetValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_IValueField::*)(::System::Object*)>(&::UnityEngine::Rendering::DebugUI_IValueField::SetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 1 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_IValueField.ValidateValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_IValueField::*)(::System::Object*)>(
+    &::UnityEngine::Rendering::DebugUI_IValueField::ValidateValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 2 }));
+    return ___internal_method;
+  }
+};
+inline ::System::Object* UnityEngine::Rendering::DebugUI_IValueField::GetValue() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_IValueField::SetValue(::System::Object* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 1 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Object* UnityEngine::Rendering::DebugUI_IValueField::ValidateValue(::System::Object* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_IValueField*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value);
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Button.get_action
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (::UnityEngine::Rendering::DebugUI_Button::*)()>(&::UnityEngine::Rendering::DebugUI_Button::get_action)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b83e00;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "get_action", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Button.set_action
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Button::*)(::System::Action*)>(&::UnityEngine::Rendering::DebugUI_Button::set_action)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b83e08;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "set_action", {}, { ::i2c::type_of<::System::Action*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Button._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Button::*)()>(&::UnityEngine::Rendering::DebugUI_Button::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b83e10;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Action*& UnityEngine::Rendering::DebugUI_Button::__cordl_internal_get__action_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____action_k__BackingField;
+}
+constexpr ::System::Action* const& UnityEngine::Rendering::DebugUI_Button::__cordl_internal_get__action_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____action_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::DebugUI_Button::__cordl_internal_set__action_k__BackingField(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____action_k__BackingField = value;
+}
+inline ::System::Action* UnityEngine::Rendering::DebugUI_Button::get_action() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "get_action", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Action*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_Button::set_action(::System::Action* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { "set_action", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DebugUI_Button::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Button*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::DebugUI_Button* UnityEngine::Rendering::DebugUI_Button::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_Button*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_Button::DebugUI_Button() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.get_getter
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_1<::System::Object*>* (::UnityEngine::Rendering::DebugUI_Value::*)()>(&::UnityEngine::Rendering::DebugUI_Value::get_getter)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b83e14;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "get_getter", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.set_getter
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Value::*)(::System::Func_1<::System::Object*>*)>(&::UnityEngine::Rendering::DebugUI_Value::set_getter)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b83e1c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "set_getter", {}, { ::i2c::type_of<::System::Func_1<::System::Object*>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_Value::*)()>(&::UnityEngine::Rendering::DebugUI_Value::_ctor)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b7162c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.GetValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugUI_Value::*)()>(&::UnityEngine::Rendering::DebugUI_Value::GetValue)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6b83e24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 12 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_Value.FormatString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_Value::*)(::System::Object*)>(&::UnityEngine::Rendering::DebugUI_Value::FormatString)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b83e44;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 13 }));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Func_1<::System::Object*>*& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get__getter_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____getter_k__BackingField;
+}
+constexpr ::System::Func_1<::System::Object*>* const& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get__getter_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____getter_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::DebugUI_Value::__cordl_internal_set__getter_k__BackingField(::System::Func_1<::System::Object*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____getter_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_refreshRate() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___refreshRate;
+}
+constexpr float_t const& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_refreshRate() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___refreshRate;
+}
+constexpr void UnityEngine::Rendering::DebugUI_Value::__cordl_internal_set_refreshRate(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___refreshRate = value;
+}
+constexpr ::StringW& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_formatString() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___formatString;
+}
+constexpr ::StringW const& UnityEngine::Rendering::DebugUI_Value::__cordl_internal_get_formatString() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___formatString;
+}
+constexpr void UnityEngine::Rendering::DebugUI_Value::__cordl_internal_set_formatString(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___formatString = value;
+}
+inline ::System::Func_1<::System::Object*>* UnityEngine::Rendering::DebugUI_Value::get_getter() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "get_getter", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Func_1<::System::Object*>*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_Value::set_getter(::System::Func_1<::System::Object*>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { "set_getter", {}, { ::i2c::type_of<::System::Func_1<::System::Object*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DebugUI_Value::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* UnityEngine::Rendering::DebugUI_Value::GetValue() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::StringW UnityEngine::Rendering::DebugUI_Value::FormatString(::System::Object* value) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_Value*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::DebugUI_Value* UnityEngine::Rendering::DebugUI_Value::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_Value*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_Value::DebugUI_Value() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ProgressBarValue.FormatString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugUI_ProgressBarValue::*)(::System::Object*)>(
+    &::UnityEngine::Rendering::DebugUI_ProgressBarValue::FormatString)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6b83ee0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ProgressBarValue._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ProgressBarValue::*)()>(&::UnityEngine::Rendering::DebugUI_ProgressBarValue::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6b79dfc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ProgressBarValue._FormatString_g__Remap01_2_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::Rendering::DebugUI_ProgressBarValue::_FormatString_g__Remap01_2_0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6b83fd0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(),
+                                                             { "<FormatString>g__Remap01|2_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+constexpr float_t& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_min() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___min;
+}
+constexpr float_t const& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_min() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___min;
+}
+constexpr void UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_set_min(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___min = value;
+}
+constexpr float_t& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_max() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___max;
+}
+constexpr float_t const& UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_get_max() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___max;
+}
+constexpr void UnityEngine::Rendering::DebugUI_ProgressBarValue::__cordl_internal_set_max(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___max = value;
+}
+inline ::StringW UnityEngine::Rendering::DebugUI_ProgressBarValue::FormatString(::System::Object* value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DebugUI_ProgressBarValue::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline float_t UnityEngine::Rendering::DebugUI_ProgressBarValue::_FormatString_g__Remap01_2_0(float_t v, float_t x0, float_t y0) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>(),
+                                                           { "<FormatString>g__Remap01|2_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, v, x0, y0);
+}
+inline ::UnityEngine::Rendering::DebugUI_ProgressBarValue* UnityEngine::Rendering::DebugUI_ProgressBarValue::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_ProgressBarValue*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_ProgressBarValue::DebugUI_ProgressBarValue() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ValueTuple.get_numElements
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DebugUI_ValueTuple::*)()>(&::UnityEngine::Rendering::DebugUI_ValueTuple::get_numElements)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6b83fe0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_numElements", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ValueTuple.get_refreshRate
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::DebugUI_ValueTuple::*)()>(&::UnityEngine::Rendering::DebugUI_ValueTuple::get_refreshRate)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b83ff8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_refreshRate", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_ValueTuple._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_ValueTuple::*)()>(&::UnityEngine::Rendering::DebugUI_ValueTuple::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6b79df0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*>& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_values() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___values;
+}
+constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> const& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_values() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___values;
+}
+constexpr void UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_set_values(::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___values = value;
+}
+constexpr int32_t& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_pinnedElementIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pinnedElementIndex;
+}
+constexpr int32_t const& UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_get_pinnedElementIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pinnedElementIndex;
+}
+constexpr void UnityEngine::Rendering::DebugUI_ValueTuple::__cordl_internal_set_pinnedElementIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___pinnedElementIndex = value;
+}
+inline int32_t UnityEngine::Rendering::DebugUI_ValueTuple::get_numElements() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_numElements", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline float_t UnityEngine::Rendering::DebugUI_ValueTuple::get_refreshRate() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { "get_refreshRate", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::DebugUI_ValueTuple::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_ValueTuple*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::DebugUI_ValueTuple* UnityEngine::Rendering::DebugUI_ValueTuple::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_ValueTuple*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_ValueTuple::DebugUI_ValueTuple() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_MaskField.Fill
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MaskField::*)(::ArrayW<::StringW>)>(&::UnityEngine::Rendering::DebugUI_MaskField::Fill)> {
+  constexpr static std::size_t size = 0x434;
+  constexpr static std::size_t addrs = 0x6b8405c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { "Fill", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_MaskField.SetValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MaskField::*)(uint32_t)>(&::UnityEngine::Rendering::DebugUI_MaskField::SetValue)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6b84490;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), 16 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DebugUI_MaskField._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI_MaskField::*)()>(&::UnityEngine::Rendering::DebugUI_MaskField::_ctor)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6b84578;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::DebugUI_MaskField::Fill(::ArrayW<::StringW> names) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { "Fill", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, names);
+}
+inline void UnityEngine::Rendering::DebugUI_MaskField::SetValue(uint32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DebugUI_MaskField::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI_MaskField*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::DebugUI_MaskField* UnityEngine::Rendering::DebugUI_MaskField::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUI_MaskField*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DebugUI_MaskField::DebugUI_MaskField() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::DebugUI._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugUI::*)()>(&::UnityEngine::Rendering::DebugUI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676996c;
+  constexpr static std::size_t addrs = 0x6b80dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUI*>(), { ".ctor", {}, {} })));

@@ -47,38 +47,38 @@ public:
   /// @brief Field writer_queue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_writer_queue, put = __cordl_internal_set_writer_queue)) ::System::Threading::LockQueue* writer_queue;
 
-  /// @brief Method AcquireReaderLock, addr 0x5cb8c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x60d2750, size 0x8, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireReaderLock, addr 0x5cb8c10, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x60d2758, size 0x350, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method AcquireWriterLock, addr 0x5cb9134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x60d2c7c, size 0x8, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireWriterLock, addr 0x5cb8f90, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x60d2ad8, size 0x1a4, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method Finalize, addr 0x5cb8b28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x60d2670, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HasWriterLock, addr 0x5cb8f60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HasWriterLock, addr 0x60d2aa8, size 0x30, virtual false, abstract: false, final false
   inline bool HasWriterLock();
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method ReleaseReaderLock, addr 0x5cb913c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x60d2c84, size 0x1bc, virtual false, abstract: false, final false
   inline void ReleaseReaderLock();
 
-  /// @brief Method ReleaseReaderLock, addr 0x5cb9420, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x60d2f68, size 0x114, virtual false, abstract: false, final false
   inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method ReleaseWriterLock, addr 0x5cb92f8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x60d2e40, size 0x128, virtual false, abstract: false, final false
   inline void ReleaseWriterLock();
 
-  /// @brief Method ReleaseWriterLock, addr 0x5cb9534, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x60d307c, size 0x5c, virtual false, abstract: false, final false
   inline void ReleaseWriterLock(int32_t releaseCount);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_reader_locks() const;
@@ -117,11 +117,11 @@ public:
 
   constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue* value);
 
-  /// @brief Method .ctor, addr 0x5cb8a64, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60d25ac, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method get_IsWriterLockHeld, addr 0x5cb8b2c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IsWriterLockHeld, addr 0x60d2674, size 0xdc, virtual false, abstract: false, final false
   inline bool get_IsWriterLockHeld();
 
 protected:

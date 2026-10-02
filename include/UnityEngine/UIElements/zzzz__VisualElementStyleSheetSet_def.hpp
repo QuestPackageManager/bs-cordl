@@ -33,26 +33,34 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE VisualElementStyleSheetSet {
 public:
   // Declarations
+  __declspec(property(get = get_count)) int32_t count;
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*();
 
-  /// @brief Method Add, addr 0x6cccaec, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x714f598, size 0x2c, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Equals, addr 0x6ccce58, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7157bcc, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ccce28, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7157b9c, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other);
 
-  /// @brief Method GetHashCode, addr 0x6cccf00, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7157c74, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Remove, addr 0x6ccccd8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x715789c, size 0x1b0, virtual false, abstract: false, final false
+  inline void Insert(int32_t index, ::UnityEngine::UIElements::StyleSheet* styleSheet);
+
+  /// @brief Method Remove, addr 0x7157a4c, size 0x150, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method .ctor, addr 0x6cccae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7157834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
+
+  /// @brief Method get_count, addr 0x715783c, size 0x60, virtual false, abstract: false, final false
+  inline int32_t get_count();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>* i___System__IEquatable_1___UnityEngine__UIElements__VisualElementStyleSheetSet_();
@@ -65,7 +73,7 @@ public:
   constexpr VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement* m_Element) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5353 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

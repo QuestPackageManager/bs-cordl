@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5ccac60, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e47a8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

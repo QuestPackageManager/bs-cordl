@@ -25,7 +25,7 @@ public:
   /// @brief Field _sharedWarmupColorScheme, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sharedWarmupColorScheme, put = __cordl_internal_set__sharedWarmupColorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> _sharedWarmupColorScheme;
 
-  /// @brief Method InstallBindings, addr 0x5912768, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x5d2ce74, size 0xe4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ShaderWarmupSceneSetup* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  /// @brief Method .ctor, addr 0x591284c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2cf58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ShaderWarmupSceneSetup(ShaderWarmupSceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6875 };
 
   /// [SerializeField]
   /// @brief Field _sharedWarmupColorScheme, offset: 0x28, size: 0x8, def value: None

@@ -118,8 +118,11 @@ public:
   // Ctor Parameters [CppParam { name: "m_RingQueue", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeRingQueue_1(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>* m_RingQueue) noexcept;
 
+  /// @brief Field MaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x7fffffff) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15928 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

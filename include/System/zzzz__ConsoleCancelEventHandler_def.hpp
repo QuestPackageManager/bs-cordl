@@ -28,12 +28,12 @@ namespace System {
 class CORDL_TYPE ConsoleCancelEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5c68534, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6082168, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ConsoleCancelEventArgs* e);
 
   static inline ::System::ConsoleCancelEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5c683ec, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6082020, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

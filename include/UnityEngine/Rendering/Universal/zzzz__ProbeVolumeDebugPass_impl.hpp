@@ -12,10 +12,7 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ProbeVolumeDebugPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"
-#include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData._ctor
 template <>
@@ -23,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData::*)()>(
     &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a2190;
+  constexpr static std::size_t addrs = 0x6cdb268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,25 +104,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a21e8;
+  constexpr static std::size_t addrs = 0x6cdb2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c._Render_b__7_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c._Render_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::*)(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*)>(
-    &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_Render_b__7_0)> {
+    &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_Render_b__3_0)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x68a21ec;
+  constexpr static std::size_t addrs = 0x6cdb2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(),
-                                                                                           { "<Render>b__7_0",
+                                                                                           { "<Render>b__3_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>() } })));
@@ -139,30 +136,30 @@ inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::setStat
 inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*, "<>9", ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::setStaticF___9__7_0(
+inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::setStaticF___9__3_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*,
-                                    "<>9__7_0", ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(
+                                    "<>9__3_0", ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*
-UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::getStaticF___9__7_0() {
+UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*,
-                                           "<>9__7_0", ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>();
+                                           "<>9__3_0", ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_Render_b__7_0(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData* data,
+inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_Render_b__3_0(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData* data,
                                                                                         ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(),
-                                                                                         { "<Render>b__7_0",
+                                                                                         { "<Render>b__3_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>() } })));
@@ -178,42 +175,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::ComputeShader*)>(&::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68a176c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6cdabd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(),
                                                 { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass.Setup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
-    &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Setup)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a183c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(),
-                                                             { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Execute)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x68a1844;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -223,8 +191,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(&::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Render)> {
-  constexpr static std::size_t size = 0x604;
-  constexpr static std::size_t addrs = 0x68a1b8c;
+  constexpr static std::size_t size = 0x5f0;
+  constexpr static std::size_t addrs = 0x6cdac78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,47 +217,11 @@ constexpr void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ComputeShader = value;
 }
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_internal_get_m_DepthTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_DepthTexture;
-}
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_internal_get_m_DepthTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_DepthTexture;
-}
-constexpr void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_internal_set_m_DepthTexture(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_DepthTexture = value;
-}
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_internal_get_m_NormalTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_NormalTexture;
-}
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_internal_get_m_NormalTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_NormalTexture;
-}
-constexpr void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::__cordl_internal_set_m_NormalTexture(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_NormalTexture = value;
-}
 inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::ComputeShader* computeShader) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(),
                                               { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<::UnityEngine::ComputeShader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, computeShader);
-}
-inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Setup(::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::RTHandle* normalBuffer) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(),
-                                                           { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, depthBuffer, normalBuffer);
-}
-inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                             ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                             ::UnityEngine::Rendering::ContextContainer* frameData,

@@ -32,10 +32,10 @@ public:
   /// @brief Field IsReusedPeer, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_IsReusedPeer, put = __cordl_internal_set_IsReusedPeer)) bool IsReusedPeer;
 
-  /// @brief Method FromData, addr 0x58a15cc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x5cb814c, size 0xc8, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x58a4614, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x5cbb194, size 0xc0, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_IsReusedPeer(bool value);
 
-  /// @brief Method .ctor, addr 0x58a4604, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbb184, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
 protected:
@@ -79,7 +79,7 @@ public:
   static constexpr int32_t Size{ static_cast<int32_t>(0xb) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20558 };
 
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;

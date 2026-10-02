@@ -13,3 +13,4 @@ constexpr ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::EventS
 constexpr ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::EventSource::Mouse{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::EventSource::Pen{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::EventSource::Touch{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::EventSource::TrackedDevice{ static_cast<int32_t>(0x6) };

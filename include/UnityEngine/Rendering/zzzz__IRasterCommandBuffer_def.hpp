@@ -22,6 +22,15 @@ struct RTClearFlags;
 namespace UnityEngine::Rendering {
 struct RendererList;
 }
+namespace UnityEngine::Rendering {
+struct ShadingRateCombinerStage;
+}
+namespace UnityEngine::Rendering {
+struct ShadingRateCombiner;
+}
+namespace UnityEngine::Rendering {
+struct ShadingRateFragmentSize;
+}
 namespace UnityEngine {
 struct Color;
 }
@@ -231,6 +240,12 @@ public:
   /// @brief Method SetInstanceMultiplier, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetInstanceMultiplier(uint32_t multiplier);
 
+  /// @brief Method SetShadingRateCombiner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetShadingRateCombiner(::UnityEngine::Rendering::ShadingRateCombinerStage stage, ::UnityEngine::Rendering::ShadingRateCombiner combiner);
+
+  /// @brief Method SetShadingRateFragmentSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetShadingRateFragmentSize(::UnityEngine::Rendering::ShadingRateFragmentSize shadingRateFragmentSize);
+
   /// @brief Method SetWireframe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetWireframe(bool enable);
 
@@ -242,7 +257,7 @@ public:
   IRasterCommandBuffer(IRasterCommandBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

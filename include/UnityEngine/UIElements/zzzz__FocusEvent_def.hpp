@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9d3b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722ab68, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9d3ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722ab64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::FocusEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   FocusEvent___c(FocusEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,7 +78,7 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d9d30c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722aac4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   FocusEvent(FocusEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

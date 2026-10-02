@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShadowMask(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x6a897b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6edc8dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   LightmapData(LightmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9715 };
 
   /// @brief Field m_Light, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_Light;

@@ -92,7 +92,7 @@ public:
   static ::UnityEngine::InputForUI::NavigationEvent_Type const Submit;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22493 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -167,7 +167,7 @@ public:
   static ::UnityEngine::InputForUI::NavigationEvent_Direction const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22494 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -207,39 +207,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method DetermineMoveDirection, addr 0x6b5a034, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x6fb9d10, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::NavigationEvent_Direction DetermineMoveDirection(::UnityEngine::Vector2 vec, float_t deadZone);
 
-  /// @brief Method ToString, addr 0x6b59e50, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fb9b2c, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_eventModifiers, addr 0x6b59e40, size 0x8, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method get_eventModifiers, addr 0x6fb9b1c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_eventSource, addr 0x6b59e28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x6fb9b04, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
   /// [CompilerGenerated]
-  /// @brief Method set_eventModifiers, addr 0x6b59e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventModifiers, addr 0x6fb9b24, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_eventSource, addr 0x6b59e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventSource, addr 0x6fb9b0c, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerId, addr 0x6b59e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x6fb9b14, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_timestamp, addr 0x6b59e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6fb9afc, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -256,7 +256,7 @@ public:
                             ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22495 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -270,8 +270,8 @@ public:
   /// @brief Field shouldBeUsed, offset: 0x8, size: 0x1, def value: None
   bool shouldBeUsed;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <timestamp>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField;
 
@@ -280,13 +280,13 @@ public:
   /// @brief Field <eventSource>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <playerId>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

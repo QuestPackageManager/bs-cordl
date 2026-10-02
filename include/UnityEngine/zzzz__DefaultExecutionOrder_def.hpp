@@ -13,8 +13,8 @@ class DefaultExecutionOrder;
 // Write type traits
 MARK_REF_T(::UnityEngine::DefaultExecutionOrder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");
-// [AttributeUsage((System.AttributeTargets)4)]
 // [UsedByNativeCode]
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6adab98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f35038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x6ada9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x6f34e60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:
@@ -56,7 +56,7 @@ public:
   DefaultExecutionOrder(DefaultExecutionOrder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9898 };
 
   /// @brief Field m_Order, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Order;

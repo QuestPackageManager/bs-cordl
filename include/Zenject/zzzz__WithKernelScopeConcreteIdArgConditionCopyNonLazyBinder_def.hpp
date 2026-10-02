@@ -35,7 +35,7 @@ public:
 
   static inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x6e5fde0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithKernel, addr 0x72fc75c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x6e5fdd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72fc750, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -67,7 +67,7 @@ public:
   WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14544 };
 
   /// @brief Field _subContainerBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____subContainerBindInfo;

@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE Pkcs5Scheme2Utf8PbeKey : public ::Org::BouncyCastle::Cms::CmsPbeKey {
 public:
   // Declarations
-  /// @brief Method GetEncoded, addr 0x36d3198, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x395c434, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::ArrayW<char16_t> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
@@ -41,18 +41,18 @@ public:
   /// @brief [Obsolete("Use version taking \'char[]\' instead")]
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x36d3194, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395c430, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x36d3154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395c3f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
   /// [Obsolete("Use version taking \'char[]\' instead")]
-  /// @brief Method .ctor, addr 0x36d3158, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395c3f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
   /// [Obsolete("Use version taking \'char[]\' instead")]
-  /// @brief Method .ctor, addr 0x36d3110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395c3ac, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
 protected:

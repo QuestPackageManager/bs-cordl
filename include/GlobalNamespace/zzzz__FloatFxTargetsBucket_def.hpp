@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__targets(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> value);
 
-  /// @brief Method .ctor, addr 0x5993200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae0e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targets, addr 0x59931f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x5dae0e0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> get_targets();
 
 protected:
@@ -58,7 +58,7 @@ public:
   FloatFxTargetsBucket(FloatFxTargetsBucket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
 
   /// [SerializeField]
   /// @brief Field _targets, offset: 0x10, size: 0x8, def value: None

@@ -12,3 +12,4 @@ constexpr ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategory:
 constexpr ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategory::Quest2{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategory::Quest3{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategory::QuestPro{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::HardwareCategory GlobalNamespace::HardwareCategory::MobileGPU{ static_cast<int32_t>(0x5) };

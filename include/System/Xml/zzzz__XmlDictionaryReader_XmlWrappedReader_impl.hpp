@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::System::Xml::XmlReader*, ::System::Xml::XmlNamespaceManager*)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61205a0;
+  constexpr static std::size_t addrs = 0x6547724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x612389c;
+  constexpr static std::size_t addrs = 0x654ae98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -49,11 +49,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_BaseURI)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61238bc;
+  constexpr static std::size_t addrs = 0x654aeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
                                                                                           { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader.get_CanReadBinaryContent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
+    &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_CanReadBinaryContent)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x654aed8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 59 }));
     return ___internal_method;
   }
 };
@@ -63,11 +77,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_CanReadValueChunk)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61238dc;
+  constexpr static std::size_t addrs = 0x654aef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 61 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 62 }));
     return ___internal_method;
   }
 };
@@ -76,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::Close)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x61238fc;
+  constexpr static std::size_t addrs = 0x654af18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -89,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_Depth)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x612392c;
+  constexpr static std::size_t addrs = 0x654af48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -102,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_EOF)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123948;
+  constexpr static std::size_t addrs = 0x654af64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -116,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(int32_t)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::GetAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123968;
+  constexpr static std::size_t addrs = 0x654af84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -130,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::StringW)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::GetAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123988;
+  constexpr static std::size_t addrs = 0x654afa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -144,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::GetAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61239a8;
+  constexpr static std::size_t addrs = 0x654afc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -157,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61239c8;
+  constexpr static std::size_t addrs = 0x654afe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -171,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61239e8;
+  constexpr static std::size_t addrs = 0x654b004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -185,11 +199,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::IsStartElement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123a08;
+  constexpr static std::size_t addrs = 0x654b024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 69 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 70 }));
     return ___internal_method;
   }
 };
@@ -199,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_LocalName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6123a28;
+  constexpr static std::size_t addrs = 0x654b044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -213,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::StringW)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::LookupNamespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123a44;
+  constexpr static std::size_t addrs = 0x654b060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -227,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(int32_t)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123a64;
+  constexpr static std::size_t addrs = 0x654b080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -241,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::StringW)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123a84;
+  constexpr static std::size_t addrs = 0x654b0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -255,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123aa4;
+  constexpr static std::size_t addrs = 0x654b0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -268,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::MoveToElement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123ac4;
+  constexpr static std::size_t addrs = 0x654b0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -282,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123ae4;
+  constexpr static std::size_t addrs = 0x654b100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -296,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123b04;
+  constexpr static std::size_t addrs = 0x654b120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -309,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_Name)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6123b24;
+  constexpr static std::size_t addrs = 0x654b140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -323,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6123b40;
+  constexpr static std::size_t addrs = 0x654b15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -337,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_NameTable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123b5c;
+  constexpr static std::size_t addrs = 0x654b178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -351,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_NodeType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6123b7c;
+  constexpr static std::size_t addrs = 0x654b198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -365,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_Prefix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6123b98;
+  constexpr static std::size_t addrs = 0x654b1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -379,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123bb4;
+  constexpr static std::size_t addrs = 0x654b1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -392,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123bd4;
+  constexpr static std::size_t addrs = 0x654b1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -406,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123bf4;
+  constexpr static std::size_t addrs = 0x654b210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -420,11 +434,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadInnerXml)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123c14;
+  constexpr static std::size_t addrs = 0x654b230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 70 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 71 }));
     return ___internal_method;
   }
 };
@@ -433,11 +447,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadEndElement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123c34;
+  constexpr static std::size_t addrs = 0x654b250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 67 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 68 }));
     return ___internal_method;
   }
 };
@@ -447,11 +461,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123c54;
+  constexpr static std::size_t addrs = 0x654b270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 63 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 64 }));
     return ___internal_method;
   }
 };
@@ -461,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ReadState (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_ReadState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123c74;
+  constexpr static std::size_t addrs = 0x654b290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -474,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123c94;
+  constexpr static std::size_t addrs = 0x654b2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -487,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6123cb4;
+  constexpr static std::size_t addrs = 0x654b2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -501,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_XmlLang)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123cd0;
+  constexpr static std::size_t addrs = 0x654b2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -515,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlSpace (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123cf0;
+  constexpr static std::size_t addrs = 0x654b30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -529,11 +543,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsBase64)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123d10;
+  constexpr static std::size_t addrs = 0x654b32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 59 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 60 }));
     return ___internal_method;
   }
 };
@@ -543,11 +557,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsBinHex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123d30;
+  constexpr static std::size_t addrs = 0x654b34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 60 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 61 }));
     return ___internal_method;
   }
 };
@@ -557,11 +571,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadValueChunk)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123d50;
+  constexpr static std::size_t addrs = 0x654b36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 62 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 63 }));
     return ___internal_method;
   }
 };
@@ -571,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_ValueType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123d70;
+  constexpr static std::size_t addrs = 0x654b38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -585,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsBoolean)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123d90;
+  constexpr static std::size_t addrs = 0x654b3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -599,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsDateTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123db0;
+  constexpr static std::size_t addrs = 0x654b3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -613,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsDecimal)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6123dd0;
+  constexpr static std::size_t addrs = 0x654b3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -627,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsDouble)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123ea0;
+  constexpr static std::size_t addrs = 0x654b4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -641,7 +655,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123ec0;
+  constexpr static std::size_t addrs = 0x654b4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -655,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsLong)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123ee0;
+  constexpr static std::size_t addrs = 0x654b4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -669,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsFloat)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123f00;
+  constexpr static std::size_t addrs = 0x654b51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -683,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123f20;
+  constexpr static std::size_t addrs = 0x654b53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -697,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)(::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAs)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6123f40;
+  constexpr static std::size_t addrs = 0x654b55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(),
@@ -710,7 +724,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(&::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::HasLineInfo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6123f60;
+  constexpr static std::size_t addrs = 0x654b57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), { "HasLineInfo", {}, {} })));
@@ -723,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_LineNumber)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6124018;
+  constexpr static std::size_t addrs = 0x654b634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), { "get_LineNumber", {}, {} })));
@@ -736,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::*)()>(
     &::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_LinePosition)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61240d8;
+  constexpr static std::size_t addrs = 0x654b6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -784,9 +798,14 @@ inline ::StringW GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_Base
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
+inline bool GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_CanReadBinaryContent() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 59 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
 inline bool GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_CanReadValueChunk() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 61 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 62 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::Close() {
@@ -831,7 +850,7 @@ inline bool GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_IsEmptyEl
 }
 inline bool GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::IsStartElement(::StringW localName, ::StringW namespaceUri) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 69 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 70 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, localName, namespaceUri);
 }
 inline ::StringW GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_LocalName() {
@@ -916,17 +935,17 @@ inline bool GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadAttribute
 }
 inline ::StringW GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadInnerXml() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 70 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 71 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline void GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadEndElement() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 67 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 68 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadString() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 63 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 64 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::System::Xml::ReadState GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_ReadState() {
@@ -956,17 +975,17 @@ inline ::System::Xml::XmlSpace GlobalNamespace::XmlDictionaryReader_XmlWrappedRe
 }
 inline int32_t GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsBase64(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 59 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 60 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, offset, count);
 }
 inline int32_t GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadContentAsBinHex(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 60 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 61 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, offset, count);
 }
 inline int32_t GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::ReadValueChunk(::ArrayW<char16_t> chars, int32_t offset, int32_t count) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 62 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::XmlDictionaryReader_XmlWrappedReader*>(), 63 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, chars, offset, count);
 }
 inline ::System::Type* GlobalNamespace::XmlDictionaryReader_XmlWrappedReader::get_ValueType() {

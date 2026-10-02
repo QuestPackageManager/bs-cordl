@@ -70,7 +70,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x59b8e28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd4350, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::IPoolableSerializable* beatmapObjectEventData);
 
   // Ctor Parameters []
@@ -82,7 +82,7 @@ public:
   constexpr MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventData(float_t time, ::GlobalNamespace::IPoolableSerializable* beatmapObjectEventData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6170 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -159,24 +159,24 @@ public:
     requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolableSerializable*>)
   inline void HandleBeatmapObjectEventData(::StringW userId, int64_t syncTime, float_t songTime, T beatmapObjectEventData);
 
-  /// @brief Method InvokeCallback, addr 0x59b8b6c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x5dd4094, size 0x230, virtual false, abstract: false, final false
   inline void InvokeCallback(::GlobalNamespace::IPoolableSerializable* noteEventData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59b86bc, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dd3be4, size 0x3e0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x59b8d9c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x5dd42c4, size 0xc, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x59b8da8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x5dd42d0, size 0x8, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method Start, addr 0x59b82ec, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dd3814, size 0x3d0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59b8a9c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5dd3fc4, size 0xd0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventData>* const&
@@ -242,50 +242,50 @@ public:
 
   constexpr void __cordl_internal_set_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method .ctor, addr 0x59b8db0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd42d8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_connectedPlayerNoteWasCutEvent, addr 0x59b7fec, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerNoteWasCutEvent, addr 0x5dd3514, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_connectedPlayerNoteWasMissedEvent, addr 0x59b816c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerNoteWasMissedEvent, addr 0x5dd3694, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_connectedPlayerNoteWasSpawnedEvent, addr 0x59b7b6c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerNoteWasSpawnedEvent, addr 0x5dd3094, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_connectedPlayerObstacleWasSpawnedEvent, addr 0x59b7cec, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerObstacleWasSpawnedEvent, addr 0x5dd3214, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_connectedPlayerSliderWasSpawnedEvent, addr 0x59b7e6c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerSliderWasSpawnedEvent, addr 0x5dd3394, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager"
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* i___GlobalNamespace__IConnectedPlayerBeatmapObjectEventManager() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_connectedPlayerNoteWasCutEvent, addr 0x59b80ac, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerNoteWasCutEvent, addr 0x5dd35d4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_connectedPlayerNoteWasMissedEvent, addr 0x59b822c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerNoteWasMissedEvent, addr 0x5dd3754, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_connectedPlayerNoteWasSpawnedEvent, addr 0x59b7c2c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerNoteWasSpawnedEvent, addr 0x5dd3154, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_connectedPlayerObstacleWasSpawnedEvent, addr 0x59b7dac, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerObstacleWasSpawnedEvent, addr 0x5dd32d4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_connectedPlayerSliderWasSpawnedEvent, addr 0x59b7f2c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerSliderWasSpawnedEvent, addr 0x5dd3454, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
 protected:
@@ -303,7 +303,7 @@ public:
   MultiplayerConnectedPlayerBeatmapObjectEventManager(MultiplayerConnectedPlayerBeatmapObjectEventManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6171 };
 
   /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x20, size: 0x8, def value: None

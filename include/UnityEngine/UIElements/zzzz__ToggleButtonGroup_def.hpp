@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ToggleButtonGroupState_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ToggleButtonGroup)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -29,6 +29,9 @@ namespace UnityEngine::UIElements {
 struct ToggleButtonGroupState;
 }
 namespace UnityEngine::UIElements {
+class ToggleButtonGroup_ButtonGroupContainer;
+}
+namespace UnityEngine::UIElements {
 class ToggleButtonGroup_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
@@ -45,6 +48,9 @@ namespace UnityEngine::UIElements {
 class ToggleButtonGroup;
 }
 namespace UnityEngine::UIElements {
+class ToggleButtonGroup_ButtonGroupContainer;
+}
+namespace UnityEngine::UIElements {
 class ToggleButtonGroup_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
@@ -52,9 +58,11 @@ class ToggleButtonGroup_UxmlTraits;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::ToggleButtonGroup*);
+MARK_REF_T(::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*);
 MARK_REF_T(::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*);
 MARK_REF_T(::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup*, "UnityEngine.UIElements", "ToggleButtonGroup");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*, "UnityEngine.UIElements", "ToggleButtonGroup/ButtonGroupContainer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*, "UnityEngine.UIElements", "ToggleButtonGroup/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*, "UnityEngine.UIElements", "ToggleButtonGroup/UxmlTraits");
 // [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
@@ -68,7 +76,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d7a960, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720d938, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +94,7 @@ public:
   ToggleButtonGroup_UxmlFactory(ToggleButtonGroup_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +118,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_IsMultipleSelection,
                       put = __cordl_internal_set_m_IsMultipleSelection)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsMultipleSelection;
 
-  /// @brief Method Init, addr 0x6d7a9c8, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x720d9a0, size 0x160, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits* New_ctor();
@@ -127,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IsMultipleSelection(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d7ab40, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720db00, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +153,7 @@ public:
   ToggleButtonGroup_UxmlTraits(ToggleButtonGroup_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4350 };
 
   /// @brief Field m_IsMultipleSelection, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_IsMultipleSelection;
@@ -163,6 +171,62 @@ static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits, 
 static_assert(sizeof(::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.VisualElement
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.ToggleButtonGroup/ButtonGroupContainer
+class CORDL_TYPE ToggleButtonGroup_ButtonGroupContainer : public ::UnityEngine::UIElements::VisualElement {
+public:
+  // Declarations
+  /// @brief Field m_Group, offset 0x2c8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Group, put = __cordl_internal_set_m_Group)) ::UnityEngine::UIElements::ToggleButtonGroup* m_Group;
+
+  static inline ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer* New_ctor(::UnityEngine::UIElements::ToggleButtonGroup* group);
+
+  /// @brief Method OnChildAdded, addr 0x720dbe0, size 0x14, virtual true, abstract: false, final false
+  inline void OnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
+
+  /// @brief Method OnChildRemoved, addr 0x720dbf4, size 0x14, virtual true, abstract: false, final false
+  inline void OnChildRemoved(::UnityEngine::UIElements::VisualElement* ve);
+
+  constexpr ::UnityEngine::UIElements::ToggleButtonGroup* const& __cordl_internal_get_m_Group() const;
+
+  constexpr ::UnityEngine::UIElements::ToggleButtonGroup*& __cordl_internal_get_m_Group();
+
+  constexpr void __cordl_internal_set_m_Group(::UnityEngine::UIElements::ToggleButtonGroup* value);
+
+  /// @brief Method .ctor, addr 0x720c2a0, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::ToggleButtonGroup* group);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ToggleButtonGroup_ButtonGroupContainer();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_ButtonGroupContainer", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ToggleButtonGroup_ButtonGroupContainer(ToggleButtonGroup_ButtonGroupContainer&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_ButtonGroupContainer", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ToggleButtonGroup_ButtonGroupContainer(ToggleButtonGroup_ButtonGroupContainer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4351 };
+
+  /// @brief Field m_Group, offset: 0x2c8, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ToggleButtonGroup* ___m_Group;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer, ___m_Group) == 0x2c8, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer) == 0x2d0, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
+// [UxmlElement(null, new[] { typeof(UnityEngine.UIElements.Button) })]
 // Dependencies UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.ToggleButtonGroupState
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -170,6 +234,8 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ToggleButtonGroup : public ::UnityEngine::UIElements::BaseField_1<::UnityEngine::UIElements::ToggleButtonGroupState> {
 public:
   // Declarations
+  using ButtonGroupContainer = ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer;
+
   using UxmlFactory = ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory;
 
   using UxmlTraits = ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits;
@@ -215,19 +281,19 @@ public:
   /// @brief Field k_MaxToggleButtonGroupMessage, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_MaxToggleButtonGroupMessage, put = setStaticF_k_MaxToggleButtonGroupMessage)) ::StringW k_MaxToggleButtonGroupMessage;
 
-  /// @brief Field m_AllowEmptySelection, offset 0x549, size 0x1
+  /// @brief Field m_AllowEmptySelection, offset 0x379, size 0x1
   __declspec(property(get = __cordl_internal_get_m_AllowEmptySelection, put = __cordl_internal_set_m_AllowEmptySelection)) bool m_AllowEmptySelection;
 
-  /// @brief Field m_ButtonGroupContainer, offset 0x530, size 0x8
+  /// @brief Field m_ButtonGroupContainer, offset 0x360, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ButtonGroupContainer, put = __cordl_internal_set_m_ButtonGroupContainer)) ::UnityEngine::UIElements::VisualElement* m_ButtonGroupContainer;
 
-  /// @brief Field m_Buttons, offset 0x538, size 0x8
+  /// @brief Field m_Buttons, offset 0x368, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Buttons, put = __cordl_internal_set_m_Buttons)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* m_Buttons;
 
-  /// @brief Field m_EmptyLabel, offset 0x540, size 0x8
+  /// @brief Field m_EmptyLabel, offset 0x370, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EmptyLabel, put = __cordl_internal_set_m_EmptyLabel)) ::UnityEngine::UIElements::VisualElement* m_EmptyLabel;
 
-  /// @brief Field m_IsMultipleSelection, offset 0x548, size 0x1
+  /// @brief Field m_IsMultipleSelection, offset 0x378, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsMultipleSelection, put = __cordl_internal_set_m_IsMultipleSelection)) bool m_IsMultipleSelection;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
@@ -239,28 +305,28 @@ public:
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup* New_ctor(::StringW label, ::UnityEngine::UIElements::ToggleButtonGroupState toggleButtonGroupState);
 
-  /// @brief Method OnButtonGroupContainerElementAdded, addr 0x6d79968, size 0x340, virtual false, abstract: false, final false
-  inline void OnButtonGroupContainerElementAdded(::UnityEngine::UIElements::VisualElement* ve, int32_t index);
+  /// @brief Method OnButtonGroupContainerElementAdded, addr 0x720c944, size 0x340, virtual false, abstract: false, final false
+  inline void OnButtonGroupContainerElementAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnButtonGroupContainerElementRemoved, addr 0x6d79e44, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method OnButtonGroupContainerElementRemoved, addr 0x720ce20, size 0x378, virtual false, abstract: false, final false
   inline void OnButtonGroupContainerElementRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnOptionChange, addr 0x6d7a1c0, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method OnOptionChange, addr 0x720d198, size 0x300, virtual false, abstract: false, final false
   inline void OnOptionChange(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x6d7933c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x720c320, size 0x78, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6d79784, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x720c760, size 0x1e4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::UIElements::ToggleButtonGroupState newValue);
 
-  /// @brief Method UpdateButtonStates, addr 0x6d793b4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonStates, addr 0x720c398, size 0x234, virtual false, abstract: false, final false
   inline void UpdateButtonStates(::UnityEngine::UIElements::ToggleButtonGroupState options);
 
-  /// @brief Method UpdateButtonsStyling, addr 0x6d79ca8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonsStyling, addr 0x720cc84, size 0x19c, virtual false, abstract: false, final false
   inline void UpdateButtonsStyling();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x6d795ec, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x720c5cc, size 0x194, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr bool const& __cordl_internal_get_m_AllowEmptySelection() const;
@@ -293,13 +359,13 @@ public:
 
   constexpr void __cordl_internal_set_m_IsMultipleSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x6d78ea0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720bee0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d78eb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720bef0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x6d79008, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720c048, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::ToggleButtonGroupState toggleButtonGroupState);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_allowEmptySelectionProperty();
@@ -326,13 +392,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_allowEmptySelection, addr 0x6d78cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmptySelection, addr 0x720bcf0, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowEmptySelection();
 
-  /// @brief Method get_contentContainer, addr 0x6d7932c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x720c310, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_isMultipleSelection, addr 0x6d78848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMultipleSelection, addr 0x720b888, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMultipleSelection();
 
   static inline void setStaticF_allowEmptySelectionProperty(::UnityEngine::UIElements::BindingId value);
@@ -359,10 +425,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_allowEmptySelection, addr 0x6d78cb8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method set_allowEmptySelection, addr 0x720bcf8, size 0x1e8, virtual false, abstract: false, final false
   inline void set_allowEmptySelection(bool value);
 
-  /// @brief Method set_isMultipleSelection, addr 0x6d78850, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method set_isMultipleSelection, addr 0x720b890, size 0x1e8, virtual false, abstract: false, final false
   inline void set_isMultipleSelection(bool value);
 
 protected:
@@ -380,36 +446,36 @@ public:
   ToggleButtonGroup(ToggleButtonGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4352 };
 
-  /// @brief Field m_ButtonGroupContainer, offset: 0x530, size: 0x8, def value: None
+  /// @brief Field m_ButtonGroupContainer, offset: 0x360, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ButtonGroupContainer;
 
-  /// @brief Field m_Buttons, offset: 0x538, size: 0x8, def value: None
+  /// @brief Field m_Buttons, offset: 0x368, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* ___m_Buttons;
 
-  /// @brief Field m_EmptyLabel, offset: 0x540, size: 0x8, def value: None
+  /// @brief Field m_EmptyLabel, offset: 0x370, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_EmptyLabel;
 
-  /// @brief Field m_IsMultipleSelection, offset: 0x548, size: 0x1, def value: None
+  /// @brief Field m_IsMultipleSelection, offset: 0x378, size: 0x1, def value: None
   bool ___m_IsMultipleSelection;
 
-  /// @brief Field m_AllowEmptySelection, offset: 0x549, size: 0x1, def value: None
+  /// @brief Field m_AllowEmptySelection, offset: 0x379, size: 0x1, def value: None
   bool ___m_AllowEmptySelection;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_ButtonGroupContainer) == 0x530, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_ButtonGroupContainer) == 0x360, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_Buttons) == 0x538, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_Buttons) == 0x368, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_EmptyLabel) == 0x540, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_EmptyLabel) == 0x370, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_IsMultipleSelection) == 0x548, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_IsMultipleSelection) == 0x378, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_AllowEmptySelection) == 0x549, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ToggleButtonGroup, ___m_AllowEmptySelection) == 0x379, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::ToggleButtonGroup) == 0x550, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ToggleButtonGroup) == 0x380, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

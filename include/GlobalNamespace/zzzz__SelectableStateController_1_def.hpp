@@ -50,7 +50,7 @@ public:
   SelectableStateController_1(SelectableStateController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23108 };
 
   /// [SerializeField]
   /// @brief Field _component, offset: 0x38, size: 0x8, def value: None

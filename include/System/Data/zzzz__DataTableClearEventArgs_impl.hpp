@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableClearEventArgs::*)(::System::Data::DataTable*)>(&::System::Data::DataTableClearEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x602eb98;
+  constexpr static std::size_t addrs = 0x644ad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

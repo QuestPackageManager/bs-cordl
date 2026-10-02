@@ -3,17 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__State_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRenderDevice)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
@@ -32,11 +33,20 @@ template <typename TResult> class Func_1;
 namespace System {
 class IDisposable;
 }
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
+}
+namespace UnityEngine::UIElements::UIR {
+struct CommandFlags;
+}
+namespace UnityEngine::UIElements::UIR {
+class CommandListManager;
 }
 namespace UnityEngine::UIElements::UIR {
 class CommandList;
@@ -75,6 +85,9 @@ namespace UnityEngine::UIElements::UIR {
 struct UIRenderDevice_DrawStatistics;
 }
 namespace UnityEngine::UIElements::UIR {
+struct UIRenderDevice_EvaluationFlags;
+}
+namespace UnityEngine::UIElements::UIR {
 struct UIRenderDevice_EvaluationState;
 }
 namespace UnityEngine::UIElements::UIR {
@@ -84,7 +97,13 @@ namespace UnityEngine::UIElements::UIR {
 template <typename T> class Utility_GPUBuffer_1;
 }
 namespace UnityEngine::UIElements {
+struct TextureSlotCount;
+}
+namespace UnityEngine::UIElements {
 struct Vertex;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -93,9 +112,18 @@ namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
 class Texture;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 // Forward declare root types
+namespace UnityEngine::UIElements::UIR {
+struct UIRenderDevice_EvaluationFlags;
+}
 namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice;
 }
@@ -118,6 +146,7 @@ namespace UnityEngine::UIElements::UIR {
 struct UIRenderDevice_EvaluationState;
 }
 // Write type traits
+MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags);
 MARK_REF_T(::UnityEngine::UIElements::UIR::UIRenderDevice*);
 MARK_REF_T(::UnityEngine::UIElements::UIR::UIRenderDevice___c*);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFree);
@@ -125,6 +154,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags, "UnityEngine.UIElements.UIR", "UIRenderDevice/EvaluationFlags");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::UIRenderDevice*, "UnityEngine.UIElements.UIR", "UIRenderDevice");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::UIRenderDevice___c*, "UnityEngine.UIElements.UIR", "UIRenderDevice/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFree, "UnityEngine.UIElements.UIR", "UIRenderDevice/AllocToFree");
@@ -152,7 +182,7 @@ public:
                                          ::UnityEngine::UIElements::UIR::Alloc permAllocIndices, ::UnityEngine::UIElements::UIR::Page* permPage, bool copyBackIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5485 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -214,7 +244,7 @@ public:
   constexpr UIRenderDevice_AllocToFree(::UnityEngine::UIElements::UIR::Alloc alloc, ::UnityEngine::UIElements::UIR::Page* page, bool vertices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5486 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -240,14 +270,14 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFre
 static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFree) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.Collections.Generic.List`1<T>
+// Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice/DeviceToFree
 struct CORDL_TYPE UIRenderDevice_DeviceToFree {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6cfb484, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x718bef4, size 0x3c, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -255,13 +285,11 @@ public:
   constexpr UIRenderDevice_DeviceToFree();
 
   // Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "commandLists", ty: "::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>", modifiers: "", def_value:
-  // None, comment: None }]
-  constexpr UIRenderDevice_DeviceToFree(uint32_t handle, ::UnityEngine::UIElements::UIR::Page* page,
-                                        ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> commandLists) noexcept;
+  // def_value: None, comment: None }, CppParam { name: "commandListManager", ty: "::UnityEngine::UIElements::UIR::CommandListManager*", modifiers: "", def_value: None, comment: None }]
+  constexpr UIRenderDevice_DeviceToFree(uint32_t handle, ::UnityEngine::UIElements::UIR::Page* page, ::UnityEngine::UIElements::UIR::CommandListManager* commandListManager) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5487 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -272,8 +300,8 @@ public:
   /// @brief Field page, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::Page* page;
 
-  /// @brief Field commandLists, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> commandLists;
+  /// @brief Field commandListManager, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::CommandListManager* commandListManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -282,12 +310,132 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFr
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree, page) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree, commandLists) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree, commandListManager) == 0x10, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies UnityEngine.UIElements.UIR.State
+// [Flags]
+// Dependencies
+namespace UnityEngine::UIElements::UIR {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.UIR.UIRenderDevice/EvaluationFlags
+struct CORDL_TYPE UIRenderDevice_EvaluationFlags {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __UIRenderDevice_EvaluationFlags_Unwrapped
+  enum struct __UIRenderDevice_EvaluationFlags_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
+    __E_MustApplyMaterial = static_cast<int32_t>(0x1),
+    __E_MustApplyBatchProps = static_cast<int32_t>(0x2),
+    __E_MustApplyStencil = static_cast<int32_t>(0x4),
+    __E_ForceRenderTypeBitOffset = static_cast<int32_t>(0x3),
+    __E_ForceRenderTypeSolid = static_cast<int32_t>(0x8),
+    __E_ForceRenderTypeTextured = static_cast<int32_t>(0x10),
+    __E_ForceRenderTypeText = static_cast<int32_t>(0x18),
+    __E_ForceRenderTypeSvgGradient = static_cast<int32_t>(0x20),
+    __E_ForceRenderTypeBits = static_cast<int32_t>(0x38),
+    __E_TextureSlotCountBitOffset = static_cast<int32_t>(0x6),
+    __E_TextureSlotCount1 = static_cast<int32_t>(0x40),
+    __E_TextureSlotCount2 = static_cast<int32_t>(0x80),
+    __E_TextureSlotCount4 = static_cast<int32_t>(0xc0),
+    __E_TextureSlotCount8 = static_cast<int32_t>(0x100),
+    __E_TextureSlotCountBits = static_cast<int32_t>(0x1c0),
+    __E_IsSerializing = static_cast<int32_t>(0x200),
+    __E_IsRenderingNestedTreeRT = static_cast<int32_t>(0x400),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __UIRenderDevice_EvaluationFlags_Unwrapped() const noexcept {
+    return static_cast<__UIRenderDevice_EvaluationFlags_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIRenderDevice_EvaluationFlags();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
+  constexpr UIRenderDevice_EvaluationFlags(int32_t value__) noexcept;
+
+  /// @brief Field ForceRenderTypeBitOffset value: I32(3)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const ForceRenderTypeBitOffset;
+
+  /// @brief Field ForceRenderTypeBits value: I32(56)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const ForceRenderTypeBits;
+
+  /// @brief Field ForceRenderTypeSolid value: I32(8)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const ForceRenderTypeSolid;
+
+  /// @brief Field ForceRenderTypeSvgGradient value: I32(32)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const ForceRenderTypeSvgGradient;
+
+  /// @brief Field ForceRenderTypeText value: I32(24)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const ForceRenderTypeText;
+
+  /// @brief Field ForceRenderTypeTextured value: I32(16)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const ForceRenderTypeTextured;
+
+  /// @brief Field IsRenderingNestedTreeRT value: I32(1024)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const IsRenderingNestedTreeRT;
+
+  /// @brief Field IsSerializing value: I32(512)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const IsSerializing;
+
+  /// @brief Field MustApplyBatchProps value: I32(2)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const MustApplyBatchProps;
+
+  /// @brief Field MustApplyMaterial value: I32(1)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const MustApplyMaterial;
+
+  /// @brief Field MustApplyStencil value: I32(4)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const MustApplyStencil;
+
+  /// @brief Field None value: I32(0)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const None;
+
+  /// @brief Field TextureSlotCount1 value: I32(64)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const TextureSlotCount1;
+
+  /// @brief Field TextureSlotCount2 value: I32(128)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const TextureSlotCount2;
+
+  /// @brief Field TextureSlotCount4 value: I32(192)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const TextureSlotCount4;
+
+  /// @brief Field TextureSlotCount8 value: I32(256)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const TextureSlotCount8;
+
+  /// @brief Field TextureSlotCountBitOffset value: I32(6)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const TextureSlotCountBitOffset;
+
+  /// @brief Field TextureSlotCountBits value: I32(448)
+  static ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags const TextureSlotCountBits;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5488 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags) == 0x4, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements::UIR
+// Dependencies UnityEngine.UIElements.UIR.UIRenderDevice::EvaluationFlags
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice/EvaluationState
@@ -300,16 +448,18 @@ public:
 
   // Ctor Parameters [CppParam { name: "activeCommandList", ty: "::UnityEngine::UIElements::UIR::CommandList*", modifiers: "", def_value: None, comment: None }, CppParam { name: "constantProps", ty:
   // "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "defaultMat", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "curState", ty:
-  // "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value: None, comment: None }, CppParam { name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None,
-  // comment: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "mustApplyBatchProps", ty: "bool", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "", def_value: None, comment: None }]
+  // None, comment: None }, CppParam { name: "userProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty:
+  // "::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "commandListOwner", ty:
+  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }]
   constexpr UIRenderDevice_EvaluationState(::UnityEngine::UIElements::UIR::CommandList* activeCommandList, ::UnityEngine::MaterialPropertyBlock* constantProps,
-                                           ::UnityEngine::MaterialPropertyBlock* batchProps, ::UnityW<::UnityEngine::Material> defaultMat, ::UnityEngine::UIElements::UIR::State curState,
-                                           ::UnityEngine::UIElements::UIR::Page* curPage, bool mustApplyMaterial, bool mustApplyBatchProps, bool mustApplyStencil) noexcept;
+                                           ::UnityEngine::MaterialPropertyBlock* batchProps, ::UnityEngine::MaterialPropertyBlock* userProps, ::UnityW<::UnityEngine::Material> material,
+                                           int32_t stencilRef, ::UnityEngine::UIElements::UIR::Page* curPage, ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags flags,
+                                           ::UnityEngine::UIElements::VisualElement* commandListOwner) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5489 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -323,23 +473,23 @@ public:
   /// @brief Field batchProps, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::MaterialPropertyBlock* batchProps;
 
-  /// @brief Field defaultMat, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> defaultMat;
+  /// @brief Field userProps, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::MaterialPropertyBlock* userProps;
 
-  /// @brief Field curState, offset: 0x20, size: 0x18, def value: None
-  ::UnityEngine::UIElements::UIR::State curState;
+  /// @brief Field material, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Material> material;
 
-  /// @brief Field curPage, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field stencilRef, offset: 0x28, size: 0x4, def value: None
+  int32_t stencilRef;
+
+  /// @brief Field curPage, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::Page* curPage;
 
-  /// @brief Field mustApplyMaterial, offset: 0x40, size: 0x1, def value: None
-  bool mustApplyMaterial;
+  /// @brief Field flags, offset: 0x38, size: 0x4, def value: None
+  ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags flags;
 
-  /// @brief Field mustApplyBatchProps, offset: 0x41, size: 0x1, def value: None
-  bool mustApplyBatchProps;
-
-  /// @brief Field mustApplyStencil, offset: 0x42, size: 0x1, def value: None
-  bool mustApplyStencil;
+  /// @brief Field commandListOwner, offset: 0x40, size: 0x8, def value: None
+  ::UnityEngine::UIElements::VisualElement* commandListOwner;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -350,17 +500,17 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_Evaluation
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, batchProps) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, defaultMat) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, userProps) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, curState) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, material) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, curPage) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, stencilRef) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, mustApplyMaterial) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, curPage) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, mustApplyBatchProps) == 0x41, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, flags) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, mustApplyStencil) == 0x42, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState, commandListOwner) == 0x40, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState) == 0x48, "Size mismatch!");
 
@@ -387,7 +537,7 @@ public:
                                           uint32_t stencilRefChanges) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5490 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };
@@ -464,34 +614,34 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::UIRenderDevice___c* __9;
 
-  /// @brief Field <>9__58_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__58_0, put = setStaticF___9__58_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__58_0;
+  /// @brief Field <>9__53_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__53_0, put = setStaticF___9__53_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__53_0;
 
-  /// @brief Field <>9__58_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__58_1, put = setStaticF___9__58_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__58_1;
+  /// @brief Field <>9__53_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__53_1, put = setStaticF___9__53_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__53_1;
 
   static inline ::UnityEngine::UIElements::UIR::UIRenderDevice___c* New_ctor();
 
-  /// @brief Method <.ctor>b__58_0, addr 0x6cfb6cc, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::MeshHandle* __ctor_b__58_0();
+  /// @brief Method <.ctor>b__53_0, addr 0x7191c4c, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::MeshHandle* __ctor_b__53_0();
 
-  /// @brief Method <.ctor>b__58_1, addr 0x6cfb744, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__58_1(::UnityEngine::UIElements::UIR::MeshHandle* mh);
+  /// @brief Method <.ctor>b__53_1, addr 0x7191cc4, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__53_1(::UnityEngine::UIElements::UIR::MeshHandle* mh);
 
-  /// @brief Method .ctor, addr 0x6cfb6c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7191c48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::UIRenderDevice___c* getStaticF___9();
 
-  static inline ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__58_0();
+  static inline ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__53_0();
 
-  static inline ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__58_1();
+  static inline ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__53_1();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::UIR::UIRenderDevice___c* value);
 
-  static inline void setStaticF___9__58_0(::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
+  static inline void setStaticF___9__53_0(::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
-  static inline void setStaticF___9__58_1(::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
+  static inline void setStaticF___9__53_1(::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
 protected:
   // Ctor Parameters []
@@ -508,7 +658,7 @@ public:
   UIRenderDevice___c(UIRenderDevice___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -516,7 +666,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.Collections.Generic.List`1<T>, System.IntPtr, System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.UIR.UIRenderDevice::DrawStatistics
+// Dependencies System.IntPtr, System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.UIR.UIRenderDevice::DrawStatistics
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice
@@ -531,40 +681,31 @@ public:
 
   using DrawStatistics = ::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics;
 
+  using EvaluationFlags = ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags;
+
   using EvaluationState = ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState;
 
   using __c = ::UnityEngine::UIElements::UIR::UIRenderDevice___c;
 
-  /// @brief Field <breakBatches>k__BackingField, offset 0xc0, size 0x1
+  /// @brief Field <breakBatches>k__BackingField, offset 0xc8, size 0x1
   __declspec(property(get = __cordl_internal_get__breakBatches_k__BackingField, put = __cordl_internal_set__breakBatches_k__BackingField)) bool _breakBatches_k__BackingField;
 
-  /// @brief Field <disposed>k__BackingField, offset 0xc8, size 0x1
+  /// @brief Field <disposed>k__BackingField, offset 0xcb, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
-  /// @brief Field <drawsInCameras>k__BackingField, offset 0xc2, size 0x1
-  __declspec(property(get = __cordl_internal_get__drawsInCameras_k__BackingField, put = __cordl_internal_set__drawsInCameras_k__BackingField)) bool _drawsInCameras_k__BackingField;
+  /// @brief Field <forceGammaRendering>k__BackingField, offset 0xca, size 0x1
+  __declspec(property(get = __cordl_internal_get__forceGammaRendering_k__BackingField, put = __cordl_internal_set__forceGammaRendering_k__BackingField)) bool _forceGammaRendering_k__BackingField;
 
-  /// @brief Field <isFlat>k__BackingField, offset 0xc1, size 0x1
+  /// @brief Field <isFlat>k__BackingField, offset 0xc9, size 0x1
   __declspec(property(get = __cordl_internal_get__isFlat_k__BackingField, put = __cordl_internal_set__isFlat_k__BackingField)) bool _isFlat_k__BackingField;
 
   __declspec(property(get = get_breakBatches, put = set_breakBatches)) bool breakBatches;
 
-  __declspec(property(get = get_commandLists)) ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> commandLists;
-
-  /// @brief Field currentFrameCommandListCount, offset 0xc4, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentFrameCommandListCount, put = __cordl_internal_set_currentFrameCommandListCount)) int32_t currentFrameCommandListCount;
-
-  __declspec(property(get = get_currentFrameCommandLists)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>* currentFrameCommandLists;
-
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  __declspec(property(get = get_drawsInCameras, put = set_drawsInCameras)) bool drawsInCameras;
+  __declspec(property(get = get_forceGammaRendering)) bool forceGammaRendering;
 
-  __declspec(property(get = get_frameIndex)) uint32_t frameIndex;
-
-  __declspec(property(get = get_fullyCreated)) bool fullyCreated;
-
-  __declspec(property(get = get_isFlat, put = set_isFlat)) bool isFlat;
+  __declspec(property(get = get_isFlat)) bool isFlat;
 
   /// @brief Field m_ActiveDeviceCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_ActiveDeviceCount, put = setStaticF_m_ActiveDeviceCount)) int32_t m_ActiveDeviceCount;
@@ -572,18 +713,16 @@ public:
   /// @brief Field m_BatchProps, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BatchProps, put = __cordl_internal_set_m_BatchProps)) ::UnityEngine::MaterialPropertyBlock* m_BatchProps;
 
-  /// @brief Field m_CommandLists, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CommandLists,
-                      put = __cordl_internal_set_m_CommandLists)) ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>
-      m_CommandLists;
+  /// @brief Field m_CommandListManager, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CommandListManager, put = __cordl_internal_set_m_CommandListManager)) ::UnityEngine::UIElements::UIR::CommandListManager* m_CommandListManager;
 
   /// @brief Field m_ConstantProps, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ConstantProps, put = __cordl_internal_set_m_ConstantProps)) ::UnityEngine::MaterialPropertyBlock* m_ConstantProps;
 
-  /// @brief Field m_DefaultStencilState, offset 0x18, size 0x8
+  /// @brief Field m_DefaultStencilState, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DefaultStencilState, put = __cordl_internal_set_m_DefaultStencilState)) ::System::IntPtr m_DefaultStencilState;
 
-  /// @brief Field m_DeferredFrees, offset 0x40, size 0x8
+  /// @brief Field m_DeferredFrees, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DeferredFrees, put = __cordl_internal_set_m_DeferredFrees)) ::System::Collections::Generic::List_1<
       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFree>*>* m_DeferredFrees;
 
@@ -600,30 +739,38 @@ public:
   /// @brief Field m_Fences, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Fences, put = __cordl_internal_set_m_Fences)) ::ArrayW<uint32_t> m_Fences;
 
-  /// @brief Field m_FirstPage, offset 0x28, size 0x8
+  /// @brief Field m_FirstPage, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FirstPage, put = __cordl_internal_set_m_FirstPage)) ::UnityEngine::UIElements::UIR::Page* m_FirstPage;
 
   /// @brief Field m_FrameIndex, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FrameIndex, put = __cordl_internal_set_m_FrameIndex)) uint32_t m_FrameIndex;
 
-  /// @brief Field m_IndexToVertexCountRatio, offset 0x38, size 0x4
+  /// @brief Field m_IndexToVertexCountRatio, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_IndexToVertexCountRatio, put = __cordl_internal_set_m_IndexToVertexCountRatio)) float_t m_IndexToVertexCountRatio;
 
-  /// @brief Field m_LargeMeshVertexCount, offset 0x34, size 0x4
+  /// @brief Field m_LargeMeshVertexCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LargeMeshVertexCount, put = __cordl_internal_set_m_LargeMeshVertexCount)) uint32_t m_LargeMeshVertexCount;
 
   /// @brief Field m_MeshHandles, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MeshHandles,
                       put = __cordl_internal_set_m_MeshHandles)) ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* m_MeshHandles;
 
-  /// @brief Field m_MockDevice, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_MockDevice, put = __cordl_internal_set_m_MockDevice)) bool m_MockDevice;
+  /// @brief Field m_MeshesPendingFree, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MeshesPendingFree,
+                      put = __cordl_internal_set_m_MeshesPendingFree)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::MeshHandle*>* m_MeshesPendingFree;
 
-  /// @brief Field m_NextPageVertexCount, offset 0x30, size 0x4
+  /// @brief Field m_NextPageVertexCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NextPageVertexCount, put = __cordl_internal_set_m_NextPageVertexCount)) uint32_t m_NextPageVertexCount;
 
   /// @brief Field m_NextUpdateID, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NextUpdateID, put = __cordl_internal_set_m_NextUpdateID)) uint32_t m_NextUpdateID;
+
+  /// @brief Field m_RenderingInProgress, offset 0xa4, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_RenderingInProgress, put = __cordl_internal_set_m_RenderingInProgress)) bool m_RenderingInProgress;
+
+  /// @brief Field m_ScreenSpaceAlteredMaterials, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ScreenSpaceAlteredMaterials,
+                      put = __cordl_internal_set_m_ScreenSpaceAlteredMaterials)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* m_ScreenSpaceAlteredMaterials;
 
   /// @brief Field m_SubscribedToNotifications, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_m_SubscribedToNotifications, put = setStaticF_m_SubscribedToNotifications)) bool m_SubscribedToNotifications;
@@ -634,13 +781,16 @@ public:
   /// @brief Field m_TextureSlotManager, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextureSlotManager, put = __cordl_internal_set_m_TextureSlotManager)) ::UnityEngine::UIElements::UIR::TextureSlotManager* m_TextureSlotManager;
 
-  /// @brief Field m_Updates, offset 0x48, size 0x8
+  /// @brief Field m_Updates, offset 0x40, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_Updates,
       put = __cordl_internal_set_m_Updates)) ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate>*>* m_Updates;
 
-  /// @brief Field m_VertexDecl, offset 0x20, size 0x8
+  /// @brief Field m_VertexDecl, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VertexDecl, put = __cordl_internal_set_m_VertexDecl)) ::System::IntPtr m_VertexDecl;
+
+  /// @brief Field s_EvaluationFlagsToTextureSlotCount, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_EvaluationFlagsToTextureSlotCount, put = setStaticF_s_EvaluationFlagsToTextureSlotCount)) ::ArrayW<int32_t> s_EvaluationFlagsToTextureSlotCount;
 
   /// @brief Field s_GradientSettingsTexID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_GradientSettingsTexID, put = setStaticF_s_GradientSettingsTexID)) int32_t s_GradientSettingsTexID;
@@ -663,83 +813,89 @@ public:
   /// @brief Field s_ShaderInfoTexID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_ShaderInfoTexID, put = setStaticF_s_ShaderInfoTexID)) int32_t s_ShaderInfoTexID;
 
+  /// @brief Field s_TextureSlotCountToEvaluationFlags, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_TextureSlotCountToEvaluationFlags, put = setStaticF_s_TextureSlotCountToEvaluationFlags)) ::ArrayW<int32_t> s_TextureSlotCountToEvaluationFlags;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ActiveUpdatesForMeshHandle, addr 0x6cf8e10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ActiveUpdatesForMeshHandle, addr 0x718d320, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate>* ActiveUpdatesForMeshHandle(::UnityEngine::UIElements::UIR::MeshHandle* mesh);
 
-  /// @brief Method AdvanceFrame, addr 0x6cf9044, size 0x8e0, virtual false, abstract: false, final false
+  /// @brief Method AdvanceFrame, addr 0x7190e78, size 0x9f4, virtual false, abstract: false, final false
   inline void AdvanceFrame();
 
-  /// @brief Method Allocate, addr 0x6cf7d68, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x718c224, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::MeshHandle* Allocate(uint32_t vertexCount, uint32_t indexCount, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData,
                                                               ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, ::by_ref<uint16_t> indexOffset);
 
-  /// @brief Method Allocate, addr 0x6cf7e34, size 0x660, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x718c32c, size 0x660, virtual false, abstract: false, final false
   inline void Allocate(::UnityEngine::UIElements::UIR::MeshHandle* meshHandle, uint32_t vertexCount, uint32_t indexCount,
                        ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, bool shortLived);
 
-  /// @brief Method ApplyBatchState, addr 0x6cf9ad4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ApplyBatchState, addr 0x718e538, size 0x730, virtual false, abstract: false, final false
   inline void ApplyBatchState(::by_ref<::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState> st);
 
-  /// @brief Method ApplyDrawCommandState, addr 0x6cf9924, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ApplyDrawCommandState, addr 0x718e1d8, size 0x2cc, virtual false, abstract: false, final false
   inline void ApplyDrawCommandState(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd, int32_t textureSlot, ::UnityEngine::Material* newMat, bool newMatDiffers,
-                                    ::by_ref<::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState> st);
+                                    ::UnityEngine::MaterialPropertyBlock* userProps, ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags defaultTextureSlotCountFlags, bool kickRanges,
+                                    ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo, ::by_ref<::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState> st);
 
-  /// @brief Method CompleteCreation, addr 0x6cf75f4, size 0x260, virtual false, abstract: false, final false
-  inline void CompleteCreation();
-
-  /// @brief Method Dispose, addr 0x6cf7874, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x718bd04, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cf78e4, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x718bd74, size 0x180, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawRanges, addr 0x6cfad10, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method DrawRanges, addr 0x7190bdc, size 0x1d8, virtual false, abstract: false, final false
   inline void DrawRanges(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<uint16_t>* ib, ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<::UnityEngine::UIElements::Vertex>* vb,
                          ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange> ranges, ::UnityEngine::UIElements::UIR::CommandList* commandList);
 
-  /// @brief Method EvaluateChain, addr 0x6cf9ca0, size 0xd44, virtual false, abstract: false, final false
-  inline void EvaluateChain(::UnityEngine::UIElements::UIR::RenderChainCommand* head, ::UnityEngine::Material* initialMat, ::UnityEngine::Material* defaultMat,
-                            ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo, float_t pixelsPerPoint, ::by_ref<::System::Exception*> immediateException);
+  /// @brief Method EvaluateChain, addr 0x718ec68, size 0xd4c, virtual false, abstract: false, final false
+  inline void EvaluateChain(::UnityEngine::UIElements::UIR::RenderChainCommand* head, ::UnityEngine::Material* defaultMat, ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo,
+                            ::System::Nullable_1<::UnityEngine::Rect> scissor, ::UnityEngine::Vector2 boundsMin, float_t pixelsPerPoint, bool isSerializing,
+                            ::UnityEngine::UIElements::TextureSlotCount defaultTextureSlotCount, bool isRenderingNestedTreeRT, ::by_ref<::System::Exception*> immediateException);
 
-  /// @brief Method FlushAllPendingDeviceDisposes, addr 0x6cfb174, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FlagsToTextureSlotCount, addr 0x718e0d0, size 0x84, virtual false, abstract: false, final false
+  static inline int32_t FlagsToTextureSlotCount(::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags flags);
+
+  /// @brief Method FlushAllPendingDeviceDisposes, addr 0x7191a94, size 0x98, virtual false, abstract: false, final false
   static inline void FlushAllPendingDeviceDisposes();
 
-  /// @brief Method Free, addr 0x6cef4e0, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x718d7ac, size 0x784, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::MeshHandle* mesh);
 
-  /// @brief Method GatherDrawStatistics, addr 0x6cfb20c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GatherDrawStatistics, addr 0x7191b2c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics GatherDrawStatistics();
 
-  /// @brief Method InitVertexDeclaration, addr 0x6cf7494, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method InitVertexDeclaration, addr 0x718bb94, size 0x160, virtual false, abstract: false, final false
   inline void InitVertexDeclaration();
 
-  /// @brief Method KickRanges, addr 0x6cfa9e4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method InitializeConstantProperties, addr 0x718f9b4, size 0x120, virtual false, abstract: false, final false
+  inline void InitializeConstantProperties(::UnityEngine::MaterialPropertyBlock* constantProps, ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo);
+
+  /// @brief Method KickRanges, addr 0x718fe30, size 0x230, virtual false, abstract: false, final false
   inline void KickRanges(::UnityEngine::UIElements::UIR::DrawBufferRange* ranges, ::by_ref<int32_t> rangesReady, ::by_ref<int32_t> rangesStart, int32_t rangesCount,
                          ::UnityEngine::UIElements::UIR::Page* curPage, ::UnityEngine::UIElements::UIR::CommandList* commandList);
 
-  static inline ::UnityEngine::UIElements::UIR::UIRenderDevice* New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity);
+  static inline ::UnityEngine::UIElements::UIR::UIRenderDevice* New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool isFlat, bool forceGammaRendering);
 
-  static inline ::UnityEngine::UIElements::UIR::UIRenderDevice* New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
-
-  /// @brief Method OnEngineUpdateGlobal, addr 0x6cfb224, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEngineUpdateGlobal, addr 0x7191b44, size 0x50, virtual false, abstract: false, final false
   static inline void OnEngineUpdateGlobal();
 
-  /// @brief Method OnFlushPendingResources, addr 0x6cfb274, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnFlushPendingResources, addr 0x7191b94, size 0x60, virtual false, abstract: false, final false
   static inline void OnFlushPendingResources();
 
-  /// @brief Method OnFrameRenderingBegin, addr 0x6cf8f94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnFrameRenderingBegin, addr 0x718df30, size 0xbc, virtual false, abstract: false, final false
   inline void OnFrameRenderingBegin();
 
-  /// @brief Method PrepareForGfxDeviceRecreate, addr 0x6cfb0ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PrepareForGfxDeviceRecreate, addr 0x71919cc, size 0x64, virtual false, abstract: false, final false
   static inline void PrepareForGfxDeviceRecreate();
 
-  /// @brief Method ProcessDeviceFreeQueue, addr 0x6cf7a68, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ProcessDeviceFreeQueue, addr 0x718bf30, size 0x2f4, virtual false, abstract: false, final false
   static inline void ProcessDeviceFreeQueue();
 
-  /// @brief Method PruneUnusedPages, addr 0x6cfafb4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method PruneUnusedPages, addr 0x719186c, size 0xf0, virtual false, abstract: false, final false
   inline void PruneUnusedPages();
 
   /// @brief Method PtrToSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -747,33 +903,43 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeSlice_1<T> PtrToSlice(void* p, int32_t count);
 
-  /// @brief Method TryAllocFromPage, addr 0x6cf8e98, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ResetScreenSpaceMaterials, addr 0x7190060, size 0x278, virtual false, abstract: false, final false
+  inline void ResetScreenSpaceMaterials();
+
+  /// @brief Method SetupCommandList, addr 0x718e4a4, size 0x94, virtual false, abstract: false, final false
+  inline void SetupCommandList(::by_ref<::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState> st, ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo,
+                               ::UnityEngine::UIElements::UIR::CommandFlags commandFlags);
+
+  /// @brief Method TextureSlotCountToFlags, addr 0x718e154, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationFlags TextureSlotCountToFlags(::UnityEngine::UIElements::TextureSlotCount count);
+
+  /// @brief Method TryAllocFromPage, addr 0x718d3a8, size 0xf0, virtual false, abstract: false, final false
   inline bool TryAllocFromPage(::UnityEngine::UIElements::UIR::Page* page, uint32_t vertexCount, uint32_t indexCount, ::by_ref<::UnityEngine::UIElements::UIR::Alloc> va,
                                ::by_ref<::UnityEngine::UIElements::UIR::Alloc> ia, bool shortLived);
 
-  /// @brief Method Update, addr 0x6cf8b50, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x718d04c, size 0x1cc, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, uint32_t indexCount,
                      ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indexData,
                      ::by_ref<uint16_t> indexOffset);
 
-  /// @brief Method Update, addr 0x6cf0c30, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x7183fd8, size 0x230, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData);
 
-  /// @brief Method UpdateAfterGPUUsedData, addr 0x6cf8494, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateAfterGPUUsedData, addr 0x718c98c, size 0x6c0, virtual false, abstract: false, final false
   inline void UpdateAfterGPUUsedData(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, uint32_t indexCount,
                                      ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indexData,
                                      ::by_ref<uint16_t> indexOffset, ::by_ref<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate> allocToUpdate, bool copyBackIndices);
 
-  /// @brief Method UpdateCopyBackIndices, addr 0x6cf8d08, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdateCopyBackIndices, addr 0x718d218, size 0x108, virtual false, abstract: false, final false
   inline void UpdateCopyBackIndices(::UnityEngine::UIElements::UIR::MeshHandle* mesh, bool copyBackIndices);
 
-  /// @brief Method UpdateFenceValue, addr 0x6cfac24, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UpdateFenceValue, addr 0x718dfec, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateFenceValue();
 
-  /// @brief Method WaitOnCpuFence, addr 0x6cfaef0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method WaitOnCpuFence, addr 0x7190db4, size 0xc4, virtual false, abstract: false, final false
   inline void WaitOnCpuFence(uint32_t fence);
 
-  /// @brief Method WrapUpGfxDeviceRecreate, addr 0x6cfb110, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WrapUpGfxDeviceRecreate, addr 0x7191a30, size 0x64, virtual false, abstract: false, final false
   static inline void WrapUpGfxDeviceRecreate();
 
   constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
@@ -784,25 +950,21 @@ public:
 
   constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __cordl_internal_get__drawsInCameras_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__forceGammaRendering_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__drawsInCameras_k__BackingField();
+  constexpr bool& __cordl_internal_get__forceGammaRendering_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__isFlat_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__isFlat_k__BackingField();
 
-  constexpr int32_t const& __cordl_internal_get_currentFrameCommandListCount() const;
-
-  constexpr int32_t& __cordl_internal_get_currentFrameCommandListCount();
-
   constexpr ::UnityEngine::MaterialPropertyBlock* const& __cordl_internal_get_m_BatchProps() const;
 
   constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get_m_BatchProps();
 
-  constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> const& __cordl_internal_get_m_CommandLists() const;
+  constexpr ::UnityEngine::UIElements::UIR::CommandListManager* const& __cordl_internal_get_m_CommandListManager() const;
 
-  constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>& __cordl_internal_get_m_CommandLists();
+  constexpr ::UnityEngine::UIElements::UIR::CommandListManager*& __cordl_internal_get_m_CommandListManager();
 
   constexpr ::UnityEngine::MaterialPropertyBlock* const& __cordl_internal_get_m_ConstantProps() const;
 
@@ -849,9 +1011,9 @@ public:
 
   constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*& __cordl_internal_get_m_MeshHandles();
 
-  constexpr bool const& __cordl_internal_get_m_MockDevice() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::MeshHandle*>* const& __cordl_internal_get_m_MeshesPendingFree() const;
 
-  constexpr bool& __cordl_internal_get_m_MockDevice();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::MeshHandle*>*& __cordl_internal_get_m_MeshesPendingFree();
 
   constexpr uint32_t const& __cordl_internal_get_m_NextPageVertexCount() const;
 
@@ -860,6 +1022,14 @@ public:
   constexpr uint32_t const& __cordl_internal_get_m_NextUpdateID() const;
 
   constexpr uint32_t& __cordl_internal_get_m_NextUpdateID();
+
+  constexpr bool const& __cordl_internal_get_m_RenderingInProgress() const;
+
+  constexpr bool& __cordl_internal_get_m_RenderingInProgress();
+
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* const& __cordl_internal_get_m_ScreenSpaceAlteredMaterials() const;
+
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_m_ScreenSpaceAlteredMaterials();
 
   constexpr ::UnityEngine::UIElements::UIR::TextureSlotManager* const& __cordl_internal_get_m_TextureSlotManager() const;
 
@@ -878,15 +1048,13 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set__drawsInCameras_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__forceGammaRendering_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__isFlat_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set_currentFrameCommandListCount(int32_t value);
-
   constexpr void __cordl_internal_set_m_BatchProps(::UnityEngine::MaterialPropertyBlock* value);
 
-  constexpr void __cordl_internal_set_m_CommandLists(::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> value);
+  constexpr void __cordl_internal_set_m_CommandListManager(::UnityEngine::UIElements::UIR::CommandListManager* value);
 
   constexpr void __cordl_internal_set_m_ConstantProps(::UnityEngine::MaterialPropertyBlock* value);
 
@@ -911,11 +1079,15 @@ public:
 
   constexpr void __cordl_internal_set_m_MeshHandles(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
-  constexpr void __cordl_internal_set_m_MockDevice(bool value);
+  constexpr void __cordl_internal_set_m_MeshesPendingFree(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
   constexpr void __cordl_internal_set_m_NextPageVertexCount(uint32_t value);
 
   constexpr void __cordl_internal_set_m_NextUpdateID(uint32_t value);
+
+  constexpr void __cordl_internal_set_m_RenderingInProgress(bool value);
+
+  constexpr void __cordl_internal_set_m_ScreenSpaceAlteredMaterials(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* value);
 
   constexpr void __cordl_internal_set_m_TextureSlotManager(::UnityEngine::UIElements::UIR::TextureSlotManager* value);
 
@@ -923,11 +1095,8 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexDecl(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6cf6ea8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity);
-
-  /// @brief Method .ctor, addr 0x6cf6eb0, size 0x5e4, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
+  /// @brief Method .ctor, addr 0x718b260, size 0x7d8, virtual false, abstract: false, final false
+  inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool isFlat, bool forceGammaRendering);
 
   static inline int32_t getStaticF_m_ActiveDeviceCount();
 
@@ -936,6 +1105,8 @@ public:
   static inline bool getStaticF_m_SubscribedToNotifications();
 
   static inline bool getStaticF_m_SynchronousFree();
+
+  static inline ::ArrayW<int32_t> getStaticF_s_EvaluationFlagsToTextureSlotCount();
 
   static inline int32_t getStaticF_s_GradientSettingsTexID();
 
@@ -951,35 +1122,25 @@ public:
 
   static inline int32_t getStaticF_s_ShaderInfoTexID();
 
+  static inline ::ArrayW<int32_t> getStaticF_s_TextureSlotCountToEvaluationFlags();
+
   /// [CompilerGenerated]
-  /// @brief Method get_breakBatches, addr 0x6cf6b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakBatches, addr 0x718aeb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
-  /// @brief Method get_commandLists, addr 0x6cf6b70, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> get_commandLists();
-
-  /// @brief Method get_currentFrameCommandLists, addr 0x6cf6b78, size 0x40, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>* get_currentFrameCommandLists();
-
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cf7864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x718bcf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// [CompilerGenerated]
-  /// @brief Method get_drawsInCameras, addr 0x6cf6b58, size 0x8, virtual false, abstract: false, final false
-  inline bool get_drawsInCameras();
-
-  /// @brief Method get_frameIndex, addr 0x6cf6b68, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_frameIndex();
-
-  /// @brief Method get_fullyCreated, addr 0x6cf7854, size 0x10, virtual false, abstract: false, final false
-  inline bool get_fullyCreated();
+  /// @brief Method get_forceGammaRendering, addr 0x718aed0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_forceGammaRendering();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isFlat, addr 0x6cf6b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFlat, addr 0x718aec8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFlat();
 
-  /// @brief Method get_maxVerticesPerPage, addr 0x6cf1df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVerticesPerPage, addr 0x7185488, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t get_maxVerticesPerPage();
 
   /// @brief Convert to "::System::IDisposable"
@@ -992,6 +1153,8 @@ public:
   static inline void setStaticF_m_SubscribedToNotifications(bool value);
 
   static inline void setStaticF_m_SynchronousFree(bool value);
+
+  static inline void setStaticF_s_EvaluationFlagsToTextureSlotCount(::ArrayW<int32_t> value);
 
   static inline void setStaticF_s_GradientSettingsTexID(int32_t value);
 
@@ -1007,21 +1170,15 @@ public:
 
   static inline void setStaticF_s_ShaderInfoTexID(int32_t value);
 
+  static inline void setStaticF_s_TextureSlotCountToEvaluationFlags(::ArrayW<int32_t> value);
+
   /// [CompilerGenerated]
-  /// @brief Method set_breakBatches, addr 0x6cf6b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_breakBatches, addr 0x718aec0, size 0x8, virtual false, abstract: false, final false
   inline void set_breakBatches(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cf786c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x718bcfc, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_drawsInCameras, addr 0x6cf6b60, size 0x8, virtual false, abstract: false, final false
-  inline void set_drawsInCameras(bool value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_isFlat, addr 0x6cf6b50, size 0x8, virtual false, abstract: false, final false
-  inline void set_isFlat(bool value);
 
 protected:
   // Ctor Parameters []
@@ -1038,37 +1195,43 @@ public:
   UIRenderDevice(UIRenderDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5492 };
 
-  /// @brief Field m_MockDevice, offset: 0x10, size: 0x1, def value: None
-  bool ___m_MockDevice;
+  /// @brief Field k_MaxQueuedFrameCount offset 0xffffffff size 0x4
+  static constexpr uint32_t k_MaxQueuedFrameCount{ static_cast<uint32_t>(0x4u) };
 
-  /// @brief Field m_DefaultStencilState, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field k_PruneEmptyPageFrameCount offset 0xffffffff size 0x4
+  static constexpr int32_t k_PruneEmptyPageFrameCount{ static_cast<int32_t>(0x3c) };
+
+  /// @brief Field m_DefaultStencilState, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_DefaultStencilState;
 
-  /// @brief Field m_VertexDecl, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_VertexDecl, offset: 0x18, size: 0x8, def value: None
   ::System::IntPtr ___m_VertexDecl;
 
-  /// @brief Field m_FirstPage, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_FirstPage, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::Page* ___m_FirstPage;
 
-  /// @brief Field m_NextPageVertexCount, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field m_NextPageVertexCount, offset: 0x28, size: 0x4, def value: None
   uint32_t ___m_NextPageVertexCount;
 
-  /// @brief Field m_LargeMeshVertexCount, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field m_LargeMeshVertexCount, offset: 0x2c, size: 0x4, def value: None
   uint32_t ___m_LargeMeshVertexCount;
 
-  /// @brief Field m_IndexToVertexCountRatio, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field m_IndexToVertexCountRatio, offset: 0x30, size: 0x4, def value: None
   float_t ___m_IndexToVertexCountRatio;
 
-  /// @brief Field m_DeferredFrees, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_DeferredFrees, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFree>*>* ___m_DeferredFrees;
 
-  /// @brief Field m_Updates, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_Updates, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate>*>* ___m_Updates;
 
-  /// @brief Field m_CommandLists, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> ___m_CommandLists;
+  /// @brief Field m_MeshesPendingFree, offset: 0x48, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::MeshHandle*>* ___m_MeshesPendingFree;
+
+  /// @brief Field m_CommandListManager, offset: 0x50, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::CommandListManager* ___m_CommandListManager;
 
   /// @brief Field m_Fences, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_Fences;
@@ -1088,6 +1251,9 @@ public:
   /// @brief Field m_DrawStats, offset: 0x78, size: 0x2c, def value: None
   ::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics ___m_DrawStats;
 
+  /// @brief Field m_RenderingInProgress, offset: 0xa4, size: 0x1, def value: None
+  bool ___m_RenderingInProgress;
+
   /// @brief Field m_MeshHandles, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* ___m_MeshHandles;
 
@@ -1097,51 +1263,51 @@ public:
   /// @brief Field m_TextureSlotManager, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TextureSlotManager* ___m_TextureSlotManager;
 
+  /// @brief Field m_ScreenSpaceAlteredMaterials, offset: 0xc0, size: 0x8, def value: None
+  ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* ___m_ScreenSpaceAlteredMaterials;
+
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <breakBatches>k__BackingField, offset: 0xc0, size: 0x1, def value: None
+  /// @brief Field <breakBatches>k__BackingField, offset: 0xc8, size: 0x1, def value: None
   bool ____breakBatches_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <isFlat>k__BackingField, offset: 0xc1, size: 0x1, def value: None
+  /// @brief Field <isFlat>k__BackingField, offset: 0xc9, size: 0x1, def value: None
   bool ____isFlat_k__BackingField;
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <drawsInCameras>k__BackingField, offset: 0xc2, size: 0x1, def value: None
-  bool ____drawsInCameras_k__BackingField;
+  /// @brief Field <forceGammaRendering>k__BackingField, offset: 0xca, size: 0x1, def value: None
+  bool ____forceGammaRendering_k__BackingField;
 
-  /// @brief Field currentFrameCommandListCount, offset: 0xc4, size: 0x4, def value: None
-  int32_t ___currentFrameCommandListCount;
-
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <disposed>k__BackingField, offset: 0xc8, size: 0x1, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <disposed>k__BackingField, offset: 0xcb, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_MockDevice) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_DefaultStencilState) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_DefaultStencilState) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_VertexDecl) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_VertexDecl) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_FirstPage) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_FirstPage) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_NextPageVertexCount) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_NextPageVertexCount) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_LargeMeshVertexCount) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_LargeMeshVertexCount) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_IndexToVertexCountRatio) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_IndexToVertexCountRatio) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_DeferredFrees) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_DeferredFrees) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_Updates) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_Updates) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_MeshesPendingFree) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_CommandLists) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_CommandListManager) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_Fences) == 0x58, "Offset mismatch!");
 
@@ -1155,21 +1321,23 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_Next
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_DrawStats) == 0x78, "Offset mismatch!");
 
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_RenderingInProgress) == 0xa4, "Offset mismatch!");
+
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_MeshHandles) == 0xa8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_DrawParams) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_TextureSlotManager) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____breakBatches_k__BackingField) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___m_ScreenSpaceAlteredMaterials) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____isFlat_k__BackingField) == 0xc1, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____breakBatches_k__BackingField) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____drawsInCameras_k__BackingField) == 0xc2, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____isFlat_k__BackingField) == 0xc9, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ___currentFrameCommandListCount) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____forceGammaRendering_k__BackingField) == 0xca, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____disposed_k__BackingField) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice, ____disposed_k__BackingField) == 0xcb, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice) == 0xd0, "Size mismatch!");
 

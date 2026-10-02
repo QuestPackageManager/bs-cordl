@@ -72,7 +72,7 @@ public:
   ContextContainer_TypeId_1(ContextContainer_TypeId_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,7 +94,7 @@ public:
   constexpr ContextContainer_Item(::UnityEngine::Rendering::ContextItem* storage, bool isSet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8753 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -143,7 +143,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
   inline bool Contains();
 
-  /// @brief Method Contains, addr 0x6756410, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6b6cabc, size 0x4c, virtual false, abstract: false, final false
   inline bool Contains(uint32_t typeId);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -156,7 +156,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
   inline T CreateAndGetData(uint32_t typeId);
 
-  /// @brief Method Dispose, addr 0x675645c, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b6cb08, size 0x17c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Items(::ArrayW<::UnityEngine::Rendering::ContextContainer_Item> value);
 
-  /// @brief Method .ctor, addr 0x67565d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6cc84, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF_s_TypeCount();
@@ -208,7 +208,7 @@ public:
   ContextContainer(ContextContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8754 };
 
   /// @brief Field m_Items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::ContextContainer_Item> ___m_Items;

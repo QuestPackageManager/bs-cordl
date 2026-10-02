@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::RichPresenceTimestamp::*)()>(
     &::OculusStudios::Platform::Core::RichPresenceTimestamp::get_timestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2e464;
+  constexpr static std::size_t addrs = 0x6349ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::RichPresenceTimestamp>(), { "get_timestamp", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::RichPresenceTimestampType (::OculusStudios::Platform::Core::RichPresenceTimestamp::*)()>(
     &::OculusStudios::Platform::Core::RichPresenceTimestamp::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2e46c;
+  constexpr static std::size_t addrs = 0x6349ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::RichPresenceTimestamp>(), { "get_type", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::RichPresenceTimestamp::*)(::StringW, ::OculusStudios::Platform::Core::RichPresenceTimestampType)>(
     &::OculusStudios::Platform::Core::RichPresenceTimestamp::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f2e474;
+  constexpr static std::size_t addrs = 0x6349ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

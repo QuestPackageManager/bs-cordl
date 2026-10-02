@@ -44,11 +44,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a299c4, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e4127c, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a29ca0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e41558, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -65,7 +65,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -101,12 +101,12 @@ public:
   using _IsConnectedToInternetAsync_d__0 = ::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0;
 
   /// [AsyncStateMachine(typeof(InternetConnectionChecker::<IsConnectedToInternetAsync>d__0))]
-  /// @brief Method IsConnectedToInternetAsync, addr 0x5a298e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsConnectedToInternetAsync, addr 0x5e411a0, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::InternetConnectionChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a299c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e41278, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
   InternetConnectionChecker(InternetConnectionChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingResult (::UnityEngine::UIElements::CustomBinding::*)(::by_ref<::UnityEngine::UIElements::BindingContext>)>(
     &::UnityEngine::UIElements::CustomBinding::Update)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c3efdc;
+  constexpr static std::size_t addrs = 0x70881c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

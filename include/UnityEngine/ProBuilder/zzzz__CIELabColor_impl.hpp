@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::CIELabColor::*)(float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::CIELabColor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66b9d08;
+  constexpr static std::size_t addrs = 0x6ac4678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::CIELabColor*>(),
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProB
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::ProBuilder::XYZColor*)>(&::UnityEngine::ProBuilder::CIELabColor::FromXYZ)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x66b9d14;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6ac4684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::CIELabColor::FromRGB)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66b9ed0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6ac47ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::CIELabColor::*)()>(&::UnityEngine::ProBuilder::CIELabColor::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x66b9f60;
+  constexpr static std::size_t addrs = 0x6ac47fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

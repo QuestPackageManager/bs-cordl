@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::TrackAsset> (*)(::UnityEngine::Timeline::TimelineAsset*, ::StringW)>(
     &::GlobalNamespace::TimelineUtils::FindTrackAssetByName)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x590a5dc;
+  constexpr static std::size_t addrs = 0x5d24c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -21,6 +21,7 @@ class VectorImage;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::VectorImage*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VectorImage*, "UnityEngine.UIElements", "VectorImage");
+// [HelpURL("ui-systems/work-with-vector-graphics")]
 // Dependencies UnityEngine.ScriptableObject, UnityEngine.UIElements.GradientSettings, UnityEngine.UIElements.VectorImageVertex, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -51,6 +52,9 @@ public:
   __declspec(property(get = get_width)) float_t width;
 
   static inline ::UnityEngine::UIElements::VectorImage* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x7152d84, size 0xac, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_atlas() const;
 
@@ -88,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<::UnityEngine::UIElements::VectorImageVertex> value);
 
-  /// @brief Method .ctor, addr 0x6cc937c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7152e30, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_height, addr 0x6cc9374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x7152d7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_width, addr 0x6cc936c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x7152d74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
 protected:
@@ -112,28 +116,34 @@ public:
   VectorImage(VectorImage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5320 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule" })]
   /// [SerializeField]
   /// @brief Field version, offset: 0x18, size: 0x4, def value: None
   int32_t ___version;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
   /// [SerializeField]
   /// @brief Field atlas, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___atlas;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
   /// [SerializeField]
   /// @brief Field vertices, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::VectorImageVertex> ___vertices;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule" })]
   /// [SerializeField]
   /// @brief Field indices, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint16_t> ___indices;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule" })]
   /// [SerializeField]
   /// @brief Field settings, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::GradientSettings> ___settings;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VectorGraphicsModule" })]
   /// [SerializeField]
   /// @brief Field size, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___size;

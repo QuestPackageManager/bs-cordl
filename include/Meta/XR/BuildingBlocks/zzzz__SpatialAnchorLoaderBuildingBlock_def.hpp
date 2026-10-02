@@ -40,13 +40,13 @@ public:
   __declspec(property(get = __cordl_internal_get__spatialAnchorSpawner, put = __cordl_internal_set__spatialAnchorSpawner)) ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock>
       _spatialAnchorSpawner;
 
-  /// @brief Method Awake, addr 0x5a3593c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e4d1dc, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LoadAnchorsFromDefaultLocalStorage, addr 0x5a35b20, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method LoadAnchorsFromDefaultLocalStorage, addr 0x5e4d3c0, size 0x210, virtual true, abstract: false, final false
   inline void LoadAnchorsFromDefaultLocalStorage();
 
-  /// @brief Method LoadAndInstantiateAnchors, addr 0x5a35af0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method LoadAndInstantiateAnchors, addr 0x5e4d390, size 0x30, virtual true, abstract: false, final false
   inline void LoadAndInstantiateAnchors(::System::Collections::Generic::List_1<::System::Guid>* uuids);
 
   static inline ::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__spatialAnchorSpawner(::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock> value);
 
-  /// @brief Method .ctor, addr 0x5a35f2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4d7cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   SpatialAnchorLoaderBuildingBlock(SpatialAnchorLoaderBuildingBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22084 };
 
   /// @brief Field _spatialAnchorCore, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> ____spatialAnchorCore;

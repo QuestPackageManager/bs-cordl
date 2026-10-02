@@ -49,10 +49,10 @@ public:
   /// @brief Field mPublicKey, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mPublicKey, put = __cordl_internal_set_mPublicKey)) ::Org::BouncyCastle::Asn1::DerBitString* mPublicKey;
 
-  /// @brief Method GetInstance, addr 0x335d7a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35e6a40, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3352064, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35db300, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t> publicKey);
@@ -60,7 +60,7 @@ public:
   /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x335dc4c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35e6ee8, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_mAlgorithm() const;
@@ -75,17 +75,17 @@ public:
 
   constexpr void __cordl_internal_set_mPublicKey(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x335db18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e6db4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t> publicKey);
 
   /// [Obsolete("Use \'GetInstance\' instead")]
-  /// @brief Method .ctor, addr 0x335db8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e6e28, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Algorithm, addr 0x335dc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x35e6ed8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_PublicKey, addr 0x335dc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x35e6ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_PublicKey();
 
 protected:

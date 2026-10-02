@@ -13,7 +13,7 @@ struct RendererOverrideOption;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::RendererOverrideOption);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::RendererOverrideOption, "UnityEngine.Rendering.Universal", "RendererOverrideOption");
-// [Obsolete("Renderer override is no longer used, renderers are referenced by index on the pipeline asset.")]
+// [Obsolete("Renderer override is no longer used, renderers are referenced by index on the pipeline asset. #from(2023.1)")]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -53,7 +53,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RendererOverrideOption const UsePipelineSettings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13236 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

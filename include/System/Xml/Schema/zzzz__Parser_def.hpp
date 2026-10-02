@@ -137,37 +137,37 @@ public:
   /// @brief Field xmlns, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlns, put = __cordl_internal_set_xmlns)) ::StringW xmlns;
 
-  /// @brief Method CheckSchemaRoot, addr 0x61e025c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CheckSchemaRoot, addr 0x6607f00, size 0x120, virtual false, abstract: false, final false
   inline bool CheckSchemaRoot(::System::Xml::Schema::SchemaType rootType, ::by_ref<::StringW> code);
 
-  /// @brief Method CreateXmlNsAttribute, addr 0x61e0b4c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateXmlNsAttribute, addr 0x66087f0, size 0x118, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* CreateXmlNsAttribute(::StringW prefix, ::StringW value);
 
-  /// @brief Method FinishParsing, addr 0x61e037c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FinishParsing, addr 0x6608020, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType FinishParsing();
 
-  /// @brief Method LoadAttributeNode, addr 0x61e09e0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadAttributeNode, addr 0x6608684, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* LoadAttributeNode();
 
-  /// @brief Method LoadElementNode, addr 0x61e0608, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method LoadElementNode, addr 0x66082ac, size 0x3d8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlElement* LoadElementNode(bool root);
 
-  /// @brief Method LoadEntityReferenceInAttribute, addr 0x61e0c64, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method LoadEntityReferenceInAttribute, addr 0x6608908, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlEntityReference* LoadEntityReferenceInAttribute();
 
   static inline ::System::Xml::Schema::Parser* New_ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                         ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method Parse, addr 0x61df7e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6607488, size 0x50, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType Parse(::System::Xml::XmlReader* reader, ::StringW targetNamespace);
 
-  /// @brief Method ParseReaderNode, addr 0x61dfbf4, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method ParseReaderNode, addr 0x6607898, size 0x668, virtual false, abstract: false, final false
   inline bool ParseReaderNode();
 
-  /// @brief Method ProcessAppInfoDocMarkup, addr 0x61e039c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ProcessAppInfoDocMarkup, addr 0x6608040, size 0x26c, virtual false, abstract: false, final false
   inline void ProcessAppInfoDocMarkup(bool root);
 
-  /// @brief Method StartParsing, addr 0x61df834, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method StartParsing, addr 0x66074d8, size 0x3c0, virtual false, abstract: false, final false
   inline void StartParsing(::System::Xml::XmlReader* reader, ::StringW targetNamespace);
 
   constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get_annotationNSManager() const;
@@ -290,17 +290,17 @@ public:
 
   constexpr void __cordl_internal_set_xmlns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61df73c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66073e0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                     ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method get_XdrSchema, addr 0x61e0394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XdrSchema, addr 0x6608038, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_XdrSchema();
 
-  /// @brief Method get_XmlSchema, addr 0x61e0384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlSchema, addr 0x6608028, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_XmlSchema();
 
-  /// @brief Method set_XmlResolver, addr 0x61e038c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x6608030, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:
@@ -318,7 +318,7 @@ public:
   Parser(Parser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11663 };
 
   /// @brief Field schemaType, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Schema::SchemaType ___schemaType;

@@ -25,8 +25,8 @@ struct ProfilerRecorderHandle;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle, "Unity.Profiling.LowLevel.Unsafe", "ProfilerRecorderHandle");
-// [IsReadOnly]
 // [UsedByNativeCode]
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: true
@@ -41,39 +41,39 @@ public:
   __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) uint64_t handle;
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetAvailable, addr 0x6a5e0dc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetAvailable, addr 0x6eafc50, size 0x1b4, virtual false, abstract: false, final false
   static inline void GetAvailable(/* [NotNull] */ ::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>* outRecorderHandleList);
 
-  /// @brief Method GetAvailable_Injected, addr 0x6a5e290, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAvailable_Injected, addr 0x6eafe04, size 0x3c, virtual false, abstract: false, final false
   static inline void GetAvailable_Injected(::by_ref<::UnityEngine::Bindings::BlittableListWrapper> outRecorderHandleList);
 
-  /// @brief Method GetByName, addr 0x6a5e38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x6eaff00, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName(::Unity::Profiling::ProfilerCategory category, char16_t* name, int32_t nameLen);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetByName_Unsafe, addr 0x6a5e394, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetByName_Unsafe, addr 0x6eaff08, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName_Unsafe(::Unity::Profiling::ProfilerCategory category, char16_t* name, int32_t nameLen);
 
-  /// @brief Method GetByName_Unsafe_Injected, addr 0x6a5e3f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetByName_Unsafe_Injected, addr 0x6eaff6c, size 0x5c, virtual false, abstract: false, final false
   static inline void GetByName_Unsafe_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, char16_t* name, int32_t nameLen,
                                                ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetByName__Unmanaged, addr 0x6a5e2cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetByName__Unmanaged, addr 0x6eafe40, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle GetByName__Unmanaged(::Unity::Profiling::ProfilerCategory category, uint8_t* name, int32_t nameLen);
 
-  /// @brief Method GetByName__Unmanaged_Injected, addr 0x6a5e330, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetByName__Unmanaged_Injected, addr 0x6eafea4, size 0x5c, virtual false, abstract: false, final false
   static inline void GetByName__Unmanaged_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, uint8_t* name, int32_t nameLen,
                                                    ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret);
 
-  /// @brief Method GetDescription, addr 0x6a5df7c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDescription, addr 0x6eafaf0, size 0xdc, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription GetDescription(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetDescriptionInternal, addr 0x6a5e058, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDescriptionInternal, addr 0x6eafbcc, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription GetDescriptionInternal(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle handle);
 
-  /// @brief Method GetDescriptionInternal_Injected, addr 0x6a5e454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDescriptionInternal_Injected, addr 0x6eaffc8, size 0x44, virtual false, abstract: false, final false
   static inline void GetDescriptionInternal_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> handle,
                                                      ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription> ret);
 
@@ -83,10 +83,10 @@ public:
 
   constexpr void __cordl_internal_set_handle(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x6a5df60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eafad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle);
 
-  /// @brief Method get_Valid, addr 0x6a5df68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x6eafadc, size 0x14, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   // Ctor Parameters []
@@ -117,7 +117,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

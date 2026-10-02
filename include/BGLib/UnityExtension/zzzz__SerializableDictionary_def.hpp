@@ -59,7 +59,7 @@ public:
   SerializableDictionary_Storage_1(SerializableDictionary_Storage_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21465 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   T ___data;
@@ -92,7 +92,7 @@ public:
   SerializableDictionary(SerializableDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

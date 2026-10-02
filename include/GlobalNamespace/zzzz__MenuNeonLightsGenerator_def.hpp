@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__widthMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x58bfc90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd64f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,7 +157,7 @@ public:
   MenuNeonLightsGenerator(MenuNeonLightsGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5724 };
 
   /// [SerializeField]
   /// @brief Field _generate, offset: 0x20, size: 0x1, def value: None

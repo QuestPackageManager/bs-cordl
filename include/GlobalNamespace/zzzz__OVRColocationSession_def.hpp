@@ -66,20 +66,20 @@ public:
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_AdvertisementUuid, addr 0x5e1cbf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AdvertisementUuid, addr 0x6236904, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_AdvertisementUuid();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Metadata, addr 0x5e1cc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Metadata, addr 0x6236918, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Metadata();
 
   /// [CompilerGenerated]
-  /// @brief Method set_AdvertisementUuid, addr 0x5e1cc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdvertisementUuid, addr 0x6236910, size 0x8, virtual false, abstract: false, final false
   inline void set_AdvertisementUuid(::System::Guid value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Metadata, addr 0x5e1cc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Metadata, addr 0x6236920, size 0x8, virtual false, abstract: false, final false
   inline void set_Metadata(::ArrayW<uint8_t> value);
 
   // Ctor Parameters []
@@ -94,7 +94,7 @@ public:
   static constexpr int32_t MaxMetadataSize{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7247 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -185,7 +185,7 @@ public:
   static ::GlobalNamespace::OVRColocationSession_Result const Unsupported;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -218,51 +218,51 @@ public:
 
   static inline ::GlobalNamespace::OVRColocationSession* New_ctor();
 
-  /// @brief Method OnColocationSessionAdvertisementComplete, addr 0x5e1ca20, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionAdvertisementComplete, addr 0x6236730, size 0xe8, virtual false, abstract: false, final false
   static inline void OnColocationSessionAdvertisementComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method OnColocationSessionDiscoveryComplete, addr 0x5e1cb08, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionDiscoveryComplete, addr 0x6236818, size 0xe8, virtual false, abstract: false, final false
   static inline void OnColocationSessionDiscoveryComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method OnColocationSessionDiscoveryResult, addr 0x5e1c920, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionDiscoveryResult, addr 0x6236630, size 0x100, virtual false, abstract: false, final false
   static inline void OnColocationSessionDiscoveryResult(uint64_t requestId, ::System::Guid uuid, uint32_t metaDataCount, uint8_t* metaDataPtr);
 
-  /// @brief Method OnColocationSessionStartAdvertisementComplete, addr 0x5e1c6e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionStartAdvertisementComplete, addr 0x62363f0, size 0xa8, virtual false, abstract: false, final false
   static inline void OnColocationSessionStartAdvertisementComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result, ::System::Guid uuid);
 
-  /// @brief Method OnColocationSessionStartDiscoveryComplete, addr 0x5e1c810, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionStartDiscoveryComplete, addr 0x6236520, size 0x88, virtual false, abstract: false, final false
   static inline void OnColocationSessionStartDiscoveryComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method OnColocationSessionStopAdvertisementComplete, addr 0x5e1c788, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionStopAdvertisementComplete, addr 0x6236498, size 0x88, virtual false, abstract: false, final false
   static inline void OnColocationSessionStopAdvertisementComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method OnColocationSessionStopDiscoveryComplete, addr 0x5e1c898, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnColocationSessionStopDiscoveryComplete, addr 0x62365a8, size 0x88, virtual false, abstract: false, final false
   static inline void OnColocationSessionStopDiscoveryComplete(uint64_t requestId, ::GlobalNamespace::OVRPlugin_Result result);
 
-  /// @brief Method StartAdvertisementAsync, addr 0x5e1c284, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method StartAdvertisementAsync, addr 0x6235f94, size 0x1b0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Guid, ::GlobalNamespace::OVRColocationSession_Result>>
   StartAdvertisementAsync(::System::ReadOnlySpan_1<uint8_t> colocationSessionData);
 
-  /// @brief Method StartDiscoveryAsync, addr 0x5e1c518, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method StartDiscoveryAsync, addr 0x6236228, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> StartDiscoveryAsync();
 
-  /// @brief Method StopAdvertisementAsync, addr 0x5e1c434, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method StopAdvertisementAsync, addr 0x6236144, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> StopAdvertisementAsync();
 
-  /// @brief Method StopDiscoveryAsync, addr 0x5e1c5fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method StopDiscoveryAsync, addr 0x623630c, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> StopDiscoveryAsync();
 
-  /// @brief Method .ctor, addr 0x5e1cbf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6236900, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_ColocationSessionDiscovered, addr 0x5e1c0c4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method add_ColocationSessionDiscovered, addr 0x6235dd4, size 0xe0, virtual false, abstract: false, final false
   static inline void add_ColocationSessionDiscovered(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* value);
 
   static inline ::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* getStaticF_ColocationSessionDiscovered();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_ColocationSessionDiscovered, addr 0x5e1c1a4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method remove_ColocationSessionDiscovered, addr 0x6235eb4, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_ColocationSessionDiscovered(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* value);
 
   static inline void setStaticF_ColocationSessionDiscovered(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* value);
@@ -282,7 +282,7 @@ public:
   OVRColocationSession(OVRColocationSession const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

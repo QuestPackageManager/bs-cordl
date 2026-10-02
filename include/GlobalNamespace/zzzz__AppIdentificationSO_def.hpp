@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__graphAppId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3704c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398dfb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_appId, addr 0x3704c38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_appId, addr 0x398dfa0, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_appId();
 
-  /// @brief Method get_graphAppId, addr 0x3704c40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphAppId, addr 0x398dfa8, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_graphAppId();
 
   /// @brief Convert to "::GlobalNamespace::IAppIdentification"
@@ -77,7 +77,7 @@ public:
   AppIdentificationSO(AppIdentificationSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15034 };
 
   /// [SerializeField]
   /// @brief Field _appId, offset: 0x18, size: 0x8, def value: None

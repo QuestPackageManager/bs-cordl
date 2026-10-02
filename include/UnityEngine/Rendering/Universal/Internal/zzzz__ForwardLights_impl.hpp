@@ -9,12 +9,15 @@
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__ForwardLights_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "Unity/Mathematics/zzzz__float4_def.hpp"
 #include "Unity/Mathematics/zzzz__float4x4_def.hpp"
+#include "Unity/Mathematics/zzzz__int2_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__ForwardLights_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__Fixed2_1_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__LightCookieManager_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ReflectionProbeManager_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
@@ -27,7 +30,6 @@
 #include "UnityEngine/Rendering/zzzz__UnsafeCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleLight_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleReflectionProbe_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 inline void UnityEngine::Rendering::Universal::Internal::ForwardLights_LightConstantBuffer::setStaticF__MainLightPosition(int32_t value) {
@@ -104,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams (*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams::Create)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x68f829c;
+  constexpr static std::size_t addrs = 0x6d275ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68f83a4;
+  constexpr static std::size_t addrs = 0x6d2ae8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,25 +208,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68f83fc;
+  constexpr static std::size_t addrs = 0x6d2aee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c._SetupRenderGraphLights_b__44_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c._SetupRenderGraphLights_b__45_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights___c::*)(
     ::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
-    &::UnityEngine::Rendering::Universal::Internal::ForwardLights___c::_SetupRenderGraphLights_b__44_0)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68f8400;
+    &::UnityEngine::Rendering::Universal::Internal::ForwardLights___c::_SetupRenderGraphLights_b__45_0)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6d2aee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>(),
-                                                                                           { "<SetupRenderGraphLights>b__44_0",
+                                                                                           { "<SetupRenderGraphLights>b__45_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -238,30 +240,30 @@ inline void UnityEngine::Rendering::Universal::Internal::ForwardLights___c::setS
 inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c* UnityEngine::Rendering::Universal::Internal::ForwardLights___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::ForwardLights___c::setStaticF___9__44_0(
+inline void UnityEngine::Rendering::Universal::Internal::ForwardLights___c::setStaticF___9__45_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                    "<>9__44_0", ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>(
+                                    "<>9__45_0", ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-UnityEngine::Rendering::Universal::Internal::ForwardLights___c::getStaticF___9__44_0() {
+UnityEngine::Rendering::Universal::Internal::ForwardLights___c::getStaticF___9__45_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                           "<>9__44_0", ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>();
+                                           "<>9__45_0", ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::ForwardLights___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::ForwardLights___c::_SetupRenderGraphLights_b__44_0(::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData* data,
+inline void UnityEngine::Rendering::Universal::Internal::ForwardLights___c::_SetupRenderGraphLights_b__45_0(::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData* data,
                                                                                                             ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights___c*>(),
-                                                                                         { "<SetupRenderGraphLights>b__44_0",
+                                                                                         { "<SetupRenderGraphLights>b__45_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -272,13 +274,29 @@ inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c* UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c::ForwardLights___c() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights.Setup
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::Setup)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d27580;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
+                            { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68f4bbc;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6d27584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(), { ".ctor", {}, {} })));
@@ -291,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams)>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::_ctor)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x68f4be8;
+  constexpr static std::size_t addrs = 0x6d276b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::CreateForwardPlusBuffers)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x68f5028;
+  constexpr static std::size_t addrs = 0x6d27af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ReflectionProbeManager (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::get_reflectionProbeManager)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68f51d4;
+  constexpr static std::size_t addrs = 0x6d27ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::AlignByteCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68f51e4;
+  constexpr static std::size_t addrs = 0x6d27cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
@@ -344,19 +362,58 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int3
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights.GetViewParams
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(::UnityEngine::Camera*, ::Unity::Mathematics::float4x4, ::by_ref<float_t>,
-                                                                                                                              ::by_ref<float_t>, ::by_ref<::Unity::Mathematics::float4>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::Unity::Mathematics::float4x4, ::by_ref<float_t>, ::by_ref<float_t>, ::by_ref<::Unity::Mathematics::float4>)>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::GetViewParams)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x68f51f8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6d27cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
                                                              { "GetViewParams",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::Unity::Mathematics::float4x4>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::float4x4>(), ::i2c::type_of<::by_ref<float_t>>(),
                                                                  ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::Unity::Mathematics::float4>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights.ScheduleClusteringJobs
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(
+    bool, bool, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>,
+    ::Unity::Collections::NativeArray_1<uint32_t>, ::Unity::Collections::NativeArray_1<uint32_t>, ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>,
+    ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>, int32_t, ::Unity::Mathematics::int2, float_t, float_t, bool, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>,
+    ::by_ref<float_t>, ::by_ref<float_t>, ::by_ref<::Unity::Mathematics::int2>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
+    &::UnityEngine::Rendering::Universal::Internal::ForwardLights::ScheduleClusteringJobs)> {
+  constexpr static std::size_t size = 0xd2c;
+  constexpr static std::size_t addrs = 0x6d27d2c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
+                                                                                           { "ScheduleClusteringJobs",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<bool>(),
+                                                                                               ::i2c::type_of<bool>(),
+                                                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>(),
+                                                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>>(),
+                                                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<uint32_t>>(),
+                                                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<uint32_t>>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>>(),
+                                                                                               ::i2c::type_of<int32_t>(),
+                                                                                               ::i2c::type_of<::Unity::Mathematics::int2>(),
+                                                                                               ::i2c::type_of<float_t>(),
+                                                                                               ::i2c::type_of<float_t>(),
+                                                                                               ::i2c::type_of<bool>(),
+                                                                                               ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                               ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                               ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                               ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                               ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                               ::i2c::type_of<::by_ref<::Unity::Mathematics::int2>>(),
+                                                                                               ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                               ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -366,8 +423,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
     ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::PreSetup)> {
-  constexpr static std::size_t size = 0x12d8;
-  constexpr static std::size_t addrs = 0x68f52b0;
+  constexpr static std::size_t size = 0x570;
+  constexpr static std::size_t addrs = 0x6d28b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
@@ -379,22 +436,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights.Setup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::Setup)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x68f65f0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
-                            { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights.SetupRenderGraphLights
 template <>
 
@@ -402,7 +443,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
     ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupRenderGraphLights)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x68f7160;
+  constexpr static std::size_t addrs = 0x6d290ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,8 +462,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
     ::UnityEngine::Rendering::UnsafeCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
     ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupLights)> {
-  constexpr static std::size_t size = 0xa5c;
-  constexpr static std::size_t addrs = 0x68f6704;
+  constexpr static std::size_t size = 0xc2c;
+  constexpr static std::size_t addrs = 0x6d29490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::Cleanup)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x68f754c;
+  constexpr static std::size_t addrs = 0x6d2a104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(), { "Cleanup", {}, {} })));
@@ -454,8 +495,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>, int32_t, bool, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>,
     ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<uint32_t>, ::by_ref<bool>)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::InitializeLightConstants)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x68f7630;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x6d2a1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +517,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::UnsafeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::CullingResults>, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupShaderLightConstants)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x68f7504;
+  constexpr static std::size_t addrs = 0x6d2a0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +536,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(::UnityEngine::Rendering::UnsafeCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
         &::UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupMainLightConstants)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x68f782c;
+  constexpr static std::size_t addrs = 0x6d2a414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,8 +553,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
     ::UnityEngine::Rendering::UnsafeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::CullingResults>, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupAdditionalLightConstants)> {
-  constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x68f7994;
+  constexpr static std::size_t size = 0x580;
+  constexpr static std::size_t addrs = 0x6d2a57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::ForwardLights::*)(
     ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupPerObjectLightIndices)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x68f7f0c;
+  constexpr static std::size_t addrs = 0x6d2aafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -542,20 +583,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights._PreSetup_g__IsProbeGreater_40_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::ForwardLights._ScheduleClusteringJobs_g__IsProbeGreater_41_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::VisibleReflectionProbe, ::UnityEngine::Rendering::VisibleReflectionProbe)>(
-    &::UnityEngine::Rendering::Universal::Internal::ForwardLights::_PreSetup_g__IsProbeGreater_40_0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68f6588;
+    &::UnityEngine::Rendering::Universal::Internal::ForwardLights::_ScheduleClusteringJobs_g__IsProbeGreater_41_0)> {
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6d28a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
-            { "<PreSetup>g__IsProbeGreater|40_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>(), ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
+                                                { "<ScheduleClusteringJobs>g__IsProbeGreater|41_0",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>(), ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>() } })));
     return ___internal_method;
   }
 };
@@ -906,6 +947,14 @@ inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::setStati
 inline ::UnityEngine::Rendering::ProfilingSampler* UnityEngine::Rendering::Universal::Internal::ForwardLights::getStaticF_s_SetupForwardLights() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::ProfilingSampler*, "s_SetupForwardLights", ::UnityEngine::Rendering::Universal::Internal::ForwardLights*>();
 }
+inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::Setup(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                              ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
+                          { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
+}
 inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -931,15 +980,50 @@ inline int32_t UnityEngine::Rendering::Universal::Internal::ForwardLights::Align
                                                                                          { "AlignByteCount", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, count, align);
 }
-inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::GetViewParams(::UnityEngine::Camera* camera, ::Unity::Mathematics::float4x4 viewToClip, ::by_ref<float_t> viewPlaneBot,
+inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::GetViewParams(bool isOrthographic, ::Unity::Mathematics::float4x4 viewToClip, ::by_ref<float_t> viewPlaneBot,
                                                                                       ::by_ref<float_t> viewPlaneTop, ::by_ref<::Unity::Mathematics::float4> viewToViewportScaleBias) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
                                                            { "GetViewParams",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::Unity::Mathematics::float4x4>(), ::i2c::type_of<::by_ref<float_t>>(),
+                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::float4x4>(), ::i2c::type_of<::by_ref<float_t>>(),
                                                                ::i2c::type_of<::by_ref<float_t>>(), ::i2c::type_of<::by_ref<::Unity::Mathematics::float4>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, camera, viewToClip, viewPlaneBot, viewPlaneTop, viewToViewportScaleBias);
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isOrthographic, viewToClip, viewPlaneBot, viewPlaneTop, viewToViewportScaleBias);
+}
+inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::Universal::Internal::ForwardLights::ScheduleClusteringJobs(
+    bool hasMainLight, bool supportsAdditionalLights, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights,
+    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> probes, ::Unity::Collections::NativeArray_1<uint32_t> zBins,
+    ::Unity::Collections::NativeArray_1<uint32_t> tileMasks, ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews,
+    ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> viewToClips, int32_t viewCount, ::Unity::Mathematics::int2 screenResolution, float_t nearClipPlane,
+    float_t farClipPlane, bool isOrthographic, ::by_ref<int32_t> localLightCount, ::by_ref<int32_t> directionalLightCount, ::by_ref<int32_t> binCount, ::by_ref<float_t> zBinScale,
+    ::by_ref<float_t> zBinOffset, ::by_ref<::Unity::Mathematics::int2> tileResolution, ::by_ref<int32_t> actualTileWidth, ::by_ref<int32_t> wordsPerTile) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
+                                                                                         { "ScheduleClusteringJobs",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<bool>(),
+                                                                                             ::i2c::type_of<bool>(),
+                                                                                             ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>(),
+                                                                                             ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>>(),
+                                                                                             ::i2c::type_of<::Unity::Collections::NativeArray_1<uint32_t>>(),
+                                                                                             ::i2c::type_of<::Unity::Collections::NativeArray_1<uint32_t>>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>>(),
+                                                                                             ::i2c::type_of<int32_t>(),
+                                                                                             ::i2c::type_of<::Unity::Mathematics::int2>(),
+                                                                                             ::i2c::type_of<float_t>(),
+                                                                                             ::i2c::type_of<float_t>(),
+                                                                                             ::i2c::type_of<bool>(),
+                                                                                             ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                             ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                             ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                             ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                             ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                             ::i2c::type_of<::by_ref<::Unity::Mathematics::int2>>(),
+                                                                                             ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                             ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, hasMainLight, supportsAdditionalLights, lights, probes, zBins, tileMasks, worldToViews, viewToClips,
+                                                                       viewCount, screenResolution, nearClipPlane, farClipPlane, isOrthographic, localLightCount, directionalLightCount, binCount,
+                                                                       zBinScale, zBinOffset, tileResolution, actualTileWidth, wordsPerTile);
 }
 inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::PreSetup(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                                  ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
@@ -952,14 +1036,6 @@ inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::PreSetup
                                          { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalLightData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderingData, cameraData, lightData);
-}
-inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::Setup(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                              ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
-                          { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::ForwardLights::SetupRenderGraphLights(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
@@ -1048,13 +1124,13 @@ inline int32_t UnityEngine::Rendering::Universal::Internal::ForwardLights::Setup
           { "SetupPerObjectLightIndices", {}, { ::i2c::type_of<::UnityEngine::Rendering::CullingResults>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalLightData*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, cullResults, lightData);
 }
-inline bool UnityEngine::Rendering::Universal::Internal::ForwardLights::_PreSetup_g__IsProbeGreater_40_0(::UnityEngine::Rendering::VisibleReflectionProbe probe,
-                                                                                                         ::UnityEngine::Rendering::VisibleReflectionProbe otherProbe) {
+inline bool UnityEngine::Rendering::Universal::Internal::ForwardLights::_ScheduleClusteringJobs_g__IsProbeGreater_41_0(::UnityEngine::Rendering::VisibleReflectionProbe probe,
+                                                                                                                       ::UnityEngine::Rendering::VisibleReflectionProbe otherProbe) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
-          { "<PreSetup>g__IsProbeGreater|40_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>(), ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ForwardLights*>(),
+                                              { "<ScheduleClusteringJobs>g__IsProbeGreater|41_0",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>(), ::i2c::type_of<::UnityEngine::Rendering::VisibleReflectionProbe>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, probe, otherProbe);
 }
 inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights* UnityEngine::Rendering::Universal::Internal::ForwardLights::New_ctor() {

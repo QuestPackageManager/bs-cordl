@@ -49,26 +49,26 @@ public:
 
   constexpr void __cordl_internal_set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x5dae3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c7fcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CalculatedSize, addr 0x5dae3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CalculatedSize, addr 0x61c7fbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CalculatedSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Parent, addr 0x5dae3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x61c7fac, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_CalculatedSize, addr 0x5dae3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CalculatedSize, addr 0x61c7fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Parent, addr 0x5dae3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x61c7fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   BsonToken(BsonToken const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13935 };
 
   /// [CompilerGenerated]
   /// @brief Field <Parent>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -27,6 +27,7 @@ module;
 #include "UnityEditor/Analytics/StallMarkerAnalytic.hpp"
 #include "UnityEditor/Analytics/StallSummaryAnalytic.hpp"
 #include "UnityEditor/Analytics/TestAnalytic.hpp"
+#include "UnityEditor/Analytics/VCProviderAnalytics.hpp"
 #ifdef __cpp_modules
 export module Analytics;
 #endif

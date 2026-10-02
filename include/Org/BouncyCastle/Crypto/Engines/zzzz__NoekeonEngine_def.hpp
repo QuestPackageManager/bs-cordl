@@ -47,24 +47,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DecryptBlock, addr 0x33b7c58, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x3640ef4, size 0x22c, virtual false, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x33b7e84, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x3641120, size 0x22c, virtual false, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x33b7910, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x3640bac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x33b7918, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3640bb4, size 0x1e0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NoekeonEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x33b7af8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x3640d94, size 0x160, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x33b80b0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x364134c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__forEncryption() const;
@@ -85,15 +85,15 @@ public:
 
   constexpr void __cordl_internal_set_k(::ArrayW<uint32_t> value);
 
-  /// @brief Method .ctor, addr 0x33b786c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3640b08, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_RoundConstants();
 
-  /// @brief Method get_AlgorithmName, addr 0x33b78c4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3640b60, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x33b7908, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x3640ba4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__keywords(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* value);
 
-  /// @brief Method .ctor, addr 0x375fd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e942c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords);
 
-  /// @brief Method get_keywords, addr 0x375fd44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x39e9424, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* get_keywords();
 
 protected:
@@ -61,7 +61,7 @@ public:
   SpecialEventKeywordFiltersData(SpecialEventKeywordFiltersData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15633 };
 
   /// [SerializeField]
   /// @brief Field _keywords, offset: 0x10, size: 0x8, def value: None

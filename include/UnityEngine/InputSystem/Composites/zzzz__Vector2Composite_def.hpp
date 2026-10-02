@@ -73,7 +73,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::Vector2Composite_Mode const DigitalNormalized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11183 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -118,12 +118,12 @@ public:
   /// @brief Field up, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
-  /// @brief Method EvaluateMagnitude, addr 0x650cbb8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6935ab8, size 0x7c, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector2Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x650ca44, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6935944, size 0x174, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_down() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x650cc34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6935b34, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,7 +180,7 @@ public:
   Vector2Composite(Vector2Composite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11184 };
 
   /// [InputControl(layout = "Axis")]
   /// @brief Field up, offset: 0x10, size: 0x4, def value: None

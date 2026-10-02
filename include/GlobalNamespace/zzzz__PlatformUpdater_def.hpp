@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::PlatformUpdater* New_ctor(::OculusStudios::Platform::Core::IPlatform* platform);
 
-  /// @brief Method Tick, addr 0x37798d8, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3a0327c, size 0xe4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get_platform() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_platform(::OculusStudios::Platform::Core::IPlatform* value);
 
-  /// @brief Method .ctor, addr 0x37798d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a03274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::IPlatform* platform);
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -63,7 +63,7 @@ public:
   PlatformUpdater(PlatformUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21863 };
 
   /// @brief Field platform, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ___platform;

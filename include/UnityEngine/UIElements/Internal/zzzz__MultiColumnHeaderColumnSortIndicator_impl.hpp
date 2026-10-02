@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::*)(::StringW)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::set_sortOrderLabel)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d29ffc;
+  constexpr static std::size_t addrs = 0x71db9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6d2a01c;
+  constexpr static std::size_t addrs = 0x71db9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

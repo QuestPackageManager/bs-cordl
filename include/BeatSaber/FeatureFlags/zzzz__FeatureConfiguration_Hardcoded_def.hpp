@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_value(bool value);
 
-  /// @brief Method .ctor, addr 0x328b778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3511eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
 protected:
@@ -48,7 +48,7 @@ public:
   FeatureConfiguration_Hardcoded(FeatureConfiguration_Hardcoded const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23714 };
 
   /// @brief Field value, offset: 0x10, size: 0x1, def value: None
   bool ___value;

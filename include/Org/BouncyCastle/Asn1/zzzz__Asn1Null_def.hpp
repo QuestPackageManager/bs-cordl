@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* New_ctor();
 
-  /// @brief Method ToString, addr 0x3684b8c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x390de28, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3684b88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x390de24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

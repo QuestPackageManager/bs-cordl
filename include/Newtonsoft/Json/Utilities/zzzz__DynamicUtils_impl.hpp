@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::Init)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5d251b8;
+  constexpr static std::size_t addrs = 0x613ed9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(), { "Init", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<int32_t>)>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateSharpArgumentInfoArray)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x5d25388;
+  constexpr static std::size_t addrs = 0x613ef6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::CreateMemberCalls)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x5d25668;
+  constexpr static std::size_t addrs = 0x613f24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::GetMember)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5d25b5c;
+  constexpr static std::size_t addrs = 0x613f740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper::SetMember)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5d25d2c;
+  constexpr static std::size_t addrs = 0x613f910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper*>(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::System::Dynamic::IDynamicMetaObjectProvider*)>(
     &::Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d250c8;
+  constexpr static std::size_t addrs = 0x613ecac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicUtils*>(),

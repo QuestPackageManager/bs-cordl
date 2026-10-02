@@ -62,7 +62,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x5b3e544, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x5f5643c, size 0x1f8, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr bool const& __cordl_internal_get__isElement() const;
@@ -107,28 +107,28 @@ public:
 
   constexpr void __cordl_internal_set__xmlTypeNamespace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b3e508, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f56400, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInteropXmlElement, addr 0x5b3e534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInteropXmlElement, addr 0x5f5642c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInteropXmlElement();
 
-  /// @brief Method get_IsInteropXmlType, addr 0x5b3e53c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInteropXmlType, addr 0x5f56434, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInteropXmlType();
 
-  /// @brief Method get_UseAttribute, addr 0x5b3e50c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x5f56404, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlElementName, addr 0x5b3e514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElementName, addr 0x5f5640c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlElementName();
 
-  /// @brief Method get_XmlNamespace, addr 0x5b3e51c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x5f56414, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method get_XmlTypeName, addr 0x5b3e524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeName, addr 0x5f5641c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeName();
 
-  /// @brief Method get_XmlTypeNamespace, addr 0x5b3e52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeNamespace, addr 0x5f56424, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeNamespace();
 
 protected:

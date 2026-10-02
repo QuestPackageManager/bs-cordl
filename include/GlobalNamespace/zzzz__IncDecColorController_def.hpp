@@ -34,7 +34,7 @@ public:
 
   __declspec(property(put = set_enableInc)) bool enableInc;
 
-  /// @brief Method Awake, addr 0x5a2f3c0, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e46c78, size 0x11c, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecColorController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a2f4dc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e46d94, size 0x16c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ColorStepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::ColorStepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x5a2f648, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e46f00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x5a2f394, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x5e46c4c, size 0x2c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_enableDec, addr 0x5a2f344, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x5e46bfc, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x5a2f36c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x5e46c24, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   IncDecColorController(IncDecColorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24076 };
 
   /// [SerializeField]
   /// @brief Field _stepValuePicker, offset: 0x20, size: 0x8, def value: None

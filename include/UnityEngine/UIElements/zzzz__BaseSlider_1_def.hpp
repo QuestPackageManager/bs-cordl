@@ -13,6 +13,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseSlider_1)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine::UIElements {
 template <typename TValueType> struct BaseSlider_1_SliderKey;
 }
@@ -111,7 +114,7 @@ public:
   BaseSlider_1_UxmlTraits_1(BaseSlider_1_UxmlTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4117 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +181,7 @@ public:
   static ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -203,36 +206,38 @@ public:
 
   template <typename TValueUxmlAttributeType> using UxmlTraits_1 = ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>;
 
-  /// @brief Field <clampedDragger>k__BackingField, offset 0x578, size 0x8
+  /// @brief Field <clampedDragger>k__BackingField, offset 0x3a8, size 0x8
   __declspec(property(get = __cordl_internal_get__clampedDragger_k__BackingField,
                       put = __cordl_internal_set__clampedDragger_k__BackingField)) ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* _clampedDragger_k__BackingField;
 
-  /// @brief Field <clamped>k__BackingField, offset 0x575, size 0x1
+  /// @brief Field <clamped>k__BackingField, offset 0x3a5, size 0x1
   __declspec(property(get = __cordl_internal_get__clamped_k__BackingField, put = __cordl_internal_set__clamped_k__BackingField)) bool _clamped_k__BackingField;
 
-  /// @brief Field <dragBorderElement>k__BackingField, offset 0x540, size 0x8
+  /// @brief Field <dragBorderElement>k__BackingField, offset 0x370, size 0x8
   __declspec(property(get = __cordl_internal_get__dragBorderElement_k__BackingField,
                       put = __cordl_internal_set__dragBorderElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragBorderElement_k__BackingField;
 
-  /// @brief Field <dragContainer>k__BackingField, offset 0x528, size 0x8
+  /// @brief Field <dragContainer>k__BackingField, offset 0x358, size 0x8
   __declspec(property(get = __cordl_internal_get__dragContainer_k__BackingField,
                       put = __cordl_internal_set__dragContainer_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragContainer_k__BackingField;
 
-  /// @brief Field <dragElement>k__BackingField, offset 0x530, size 0x8
+  /// @brief Field <dragElement>k__BackingField, offset 0x360, size 0x8
   __declspec(property(get = __cordl_internal_get__dragElement_k__BackingField,
                       put = __cordl_internal_set__dragElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragElement_k__BackingField;
 
-  /// @brief Field <fillElement>k__BackingField, offset 0x550, size 0x8
+  /// @brief Field <fillElement>k__BackingField, offset 0x380, size 0x8
   __declspec(property(get = __cordl_internal_get__fillElement_k__BackingField,
                       put = __cordl_internal_set__fillElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _fillElement_k__BackingField;
 
-  /// @brief Field <inputTextField>k__BackingField, offset 0x548, size 0x8
+  /// @brief Field <inputTextField>k__BackingField, offset 0x378, size 0x8
   __declspec(property(get = __cordl_internal_get__inputTextField_k__BackingField,
                       put = __cordl_internal_set__inputTextField_k__BackingField)) ::UnityEngine::UIElements::TextField* _inputTextField_k__BackingField;
 
-  /// @brief Field <trackElement>k__BackingField, offset 0x538, size 0x8
+  /// @brief Field <trackElement>k__BackingField, offset 0x368, size 0x8
   __declspec(property(get = __cordl_internal_get__trackElement_k__BackingField,
                       put = __cordl_internal_set__trackElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _trackElement_k__BackingField;
+
+  __declspec(property(get = get_canSwitchToMixedValue)) bool canSwitchToMixedValue;
 
   __declspec(property(get = get_clamped, put = set_clamped)) bool clamped;
 
@@ -299,35 +304,41 @@ public:
   /// @brief Field lowValueProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_lowValueProperty, put = setStaticF_lowValueProperty)) ::UnityEngine::UIElements::BindingId lowValueProperty;
 
-  /// @brief Field m_Direction, offset 0x590, size 0x4
+  /// @brief Field m_AdjustedPageSizeFromClick, offset 0x388, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_AdjustedPageSizeFromClick, put = __cordl_internal_set_m_AdjustedPageSizeFromClick)) float_t m_AdjustedPageSizeFromClick;
+
+  /// @brief Field m_Direction, offset 0x3c8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction)) ::UnityEngine::UIElements::SliderDirection m_Direction;
 
-  /// @brief Field m_DragElementStartPos, offset 0x580, size 0x10
+  /// @brief Field m_DragElementStartPos, offset 0x3b0, size 0x10
   __declspec(property(get = __cordl_internal_get_m_DragElementStartPos, put = __cordl_internal_set_m_DragElementStartPos)) ::UnityEngine::Rect m_DragElementStartPos;
 
-  /// @brief Field m_Fill, offset 0x559, size 0x1
+  /// @brief Field m_Fill, offset 0x38d, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Fill, put = __cordl_internal_set_m_Fill)) bool m_Fill;
 
-  /// @brief Field m_HighValue, offset 0x568, size 0x8
+  /// @brief Field m_HighValue, offset 0x398, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue)) TValueType m_HighValue;
 
-  /// @brief Field m_Inverted, offset 0x594, size 0x1
+  /// @brief Field m_Inverted, offset 0x3cc, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Inverted, put = __cordl_internal_set_m_Inverted)) bool m_Inverted;
 
-  /// @brief Field m_IsEditingTextField, offset 0x558, size 0x1
+  /// @brief Field m_IsEditingTextField, offset 0x38c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsEditingTextField, put = __cordl_internal_set_m_IsEditingTextField)) bool m_IsEditingTextField;
 
-  /// @brief Field m_LowValue, offset 0x560, size 0x8
+  /// @brief Field m_LowValue, offset 0x390, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue)) TValueType m_LowValue;
 
-  /// @brief Field m_PageSize, offset 0x570, size 0x4
+  /// @brief Field m_PageSize, offset 0x3a0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_PageSize, put = __cordl_internal_set_m_PageSize)) float_t m_PageSize;
 
-  /// @brief Field m_ShowInputField, offset 0x574, size 0x1
+  /// @brief Field m_ShowInputField, offset 0x3a4, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) bool m_ShowInputField;
 
   /// @brief Field movableUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_movableUssClassName, put = setStaticF_movableUssClassName)) ::StringW movableUssClassName;
+
+  /// @brief Field onSetValueWithoutNotify, offset 0x3c0, size 0x8
+  __declspec(property(get = __cordl_internal_get_onSetValueWithoutNotify, put = __cordl_internal_set_onSetValueWithoutNotify)) ::System::Action_1<TValueType>* onSetValueWithoutNotify;
 
   /// @brief [CreateProperty]
   __declspec(property(get = get_pageSize, put = set_pageSize)) float_t pageSize;
@@ -387,8 +398,8 @@ public:
   /// @brief Method ComputeValueFromKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> sliderKey, bool isShift);
 
-  /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
   /// [Obsolete("ExecuteDefaultAction override has been removed because default event handling was migrated to HandleEventBubbleUp. Please use HandleEventBubbleUp.", false)]
+  /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
   /// @brief Method ExecuteDefaultAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
@@ -527,6 +538,10 @@ public:
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__trackElement_k__BackingField();
 
+  constexpr float_t const& __cordl_internal_get_m_AdjustedPageSizeFromClick() const;
+
+  constexpr float_t& __cordl_internal_get_m_AdjustedPageSizeFromClick();
+
   constexpr ::UnityEngine::UIElements::SliderDirection const& __cordl_internal_get_m_Direction() const;
 
   constexpr ::UnityEngine::UIElements::SliderDirection& __cordl_internal_get_m_Direction();
@@ -563,6 +578,10 @@ public:
 
   constexpr bool& __cordl_internal_get_m_ShowInputField();
 
+  constexpr ::System::Action_1<TValueType>* const& __cordl_internal_get_onSetValueWithoutNotify() const;
+
+  constexpr ::System::Action_1<TValueType>*& __cordl_internal_get_onSetValueWithoutNotify();
+
   constexpr void __cordl_internal_set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value);
 
   constexpr void __cordl_internal_set__clamped_k__BackingField(bool value);
@@ -578,6 +597,8 @@ public:
   constexpr void __cordl_internal_set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value);
 
   constexpr void __cordl_internal_set__trackElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+
+  constexpr void __cordl_internal_set_m_AdjustedPageSizeFromClick(float_t value);
 
   constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UIElements::SliderDirection value);
 
@@ -597,8 +618,14 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowInputField(bool value);
 
+  constexpr void __cordl_internal_set_onSetValueWithoutNotify(::System::Action_1<TValueType>* value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
+
+  /// [CompilerGenerated]
+  /// @brief Method add_onSetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void add_onSetValueWithoutNotify(::System::Action_1<TValueType>* value);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_directionProperty();
 
@@ -639,6 +666,9 @@ public:
   static inline ::StringW getStaticF_ussClassName();
 
   static inline ::StringW getStaticF_verticalVariantUssClassName();
+
+  /// @brief Method get_canSwitchToMixedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_canSwitchToMixedValue();
 
   /// [CompilerGenerated]
   /// @brief Method get_clamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -701,6 +731,10 @@ public:
 
   /// @brief Convert to "::UnityEngine::UIElements::IValueField_1<TValueType>"
   constexpr ::UnityEngine::UIElements::IValueField_1<TValueType>* i___UnityEngine__UIElements__IValueField_1_TValueType_() noexcept;
+
+  /// [CompilerGenerated]
+  /// @brief Method remove_onSetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void remove_onSetValueWithoutNotify(::System::Action_1<TValueType>* value);
 
   static inline void setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value);
 
@@ -813,77 +847,85 @@ public:
   BaseSlider_1(BaseSlider_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4119 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <dragContainer>k__BackingField, offset: 0x528, size: 0x8, def value: None
+  /// @brief Field <dragContainer>k__BackingField, offset: 0x358, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragContainer_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <dragElement>k__BackingField, offset: 0x530, size: 0x8, def value: None
+  /// @brief Field <dragElement>k__BackingField, offset: 0x360, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragElement_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <trackElement>k__BackingField, offset: 0x538, size: 0x8, def value: None
+  /// @brief Field <trackElement>k__BackingField, offset: 0x368, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____trackElement_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <dragBorderElement>k__BackingField, offset: 0x540, size: 0x8, def value: None
+  /// @brief Field <dragBorderElement>k__BackingField, offset: 0x370, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragBorderElement_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <inputTextField>k__BackingField, offset: 0x548, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field <inputTextField>k__BackingField, offset: 0x378, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextField* ____inputTextField_k__BackingField;
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <fillElement>k__BackingField, offset: 0x550, size: 0x8, def value: None
+  /// @brief Field <fillElement>k__BackingField, offset: 0x380, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____fillElement_k__BackingField;
 
-  /// @brief Field m_IsEditingTextField, offset: 0x558, size: 0x1, def value: None
+  /// @brief Field m_AdjustedPageSizeFromClick, offset: 0x388, size: 0x4, def value: None
+  float_t ___m_AdjustedPageSizeFromClick;
+
+  /// @brief Field m_IsEditingTextField, offset: 0x38c, size: 0x1, def value: None
   bool ___m_IsEditingTextField;
 
-  /// @brief Field m_Fill, offset: 0x559, size: 0x1, def value: None
+  /// @brief Field m_Fill, offset: 0x38d, size: 0x1, def value: None
   bool ___m_Fill;
 
-  /// [DontCreateProperty]
   /// [SerializeField]
-  /// @brief Field m_LowValue, offset: 0x560, size: 0x8, def value: None
+  /// [DontCreateProperty]
+  /// @brief Field m_LowValue, offset: 0x390, size: 0x8, def value: None
   TValueType ___m_LowValue;
 
-  /// [DontCreateProperty]
   /// [SerializeField]
-  /// @brief Field m_HighValue, offset: 0x568, size: 0x8, def value: None
+  /// [DontCreateProperty]
+  /// @brief Field m_HighValue, offset: 0x398, size: 0x8, def value: None
   TValueType ___m_HighValue;
 
-  /// @brief Field m_PageSize, offset: 0x570, size: 0x4, def value: None
+  /// @brief Field m_PageSize, offset: 0x3a0, size: 0x4, def value: None
   float_t ___m_PageSize;
 
-  /// @brief Field m_ShowInputField, offset: 0x574, size: 0x1, def value: None
+  /// @brief Field m_ShowInputField, offset: 0x3a4, size: 0x1, def value: None
   bool ___m_ShowInputField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <clamped>k__BackingField, offset: 0x575, size: 0x1, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <clamped>k__BackingField, offset: 0x3a5, size: 0x1, def value: None
   bool ____clamped_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <clampedDragger>k__BackingField, offset: 0x578, size: 0x8, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <clampedDragger>k__BackingField, offset: 0x3a8, size: 0x8, def value: None
   ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* ____clampedDragger_k__BackingField;
 
-  /// @brief Field m_DragElementStartPos, offset: 0x580, size: 0x10, def value: None
+  /// @brief Field m_DragElementStartPos, offset: 0x3b0, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_DragElementStartPos;
 
-  /// @brief Field m_Direction, offset: 0x590, size: 0x4, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
+  /// @brief Field onSetValueWithoutNotify, offset: 0x3c0, size: 0x8, def value: None
+  ::System::Action_1<TValueType>* ___onSetValueWithoutNotify;
+
+  /// @brief Field m_Direction, offset: 0x3c8, size: 0x4, def value: None
   ::UnityEngine::UIElements::SliderDirection ___m_Direction;
 
-  /// @brief Field m_Inverted, offset: 0x594, size: 0x1, def value: None
+  /// @brief Field m_Inverted, offset: 0x3cc, size: 0x1, def value: None
   bool ___m_Inverted;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

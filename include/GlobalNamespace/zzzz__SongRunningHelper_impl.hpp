@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*, float_t, bool, float_t)>(
     &::GlobalNamespace::SongRunningHelper_QueuedSongParams::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58bceb4;
+  constexpr static std::size_t addrs = 0x5cd3718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)(int32_t)>(
     &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd908;
+  constexpr static std::size_t addrs = 0x5cd416c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
     &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bd910;
+  constexpr static std::size_t addrs = 0x5cd4174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
     &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::MoveNext)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x58bd914;
+  constexpr static std::size_t addrs = 0x5cd4178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
     &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bdaf4;
+  constexpr static std::size_t addrs = 0x5cd4358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
     &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58bdafc;
+  constexpr static std::size_t addrs = 0x5cd4360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
     &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bdb34;
+  constexpr static std::size_t addrs = 0x5cd4398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(&::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bcf04;
+  constexpr static std::size_t addrs = 0x5cd3768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { ".ctor", {}, {} })));
@@ -334,7 +334,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(
         &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleLevelDidFinishCallback_0)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x58bcf08;
+  constexpr static std::size_t addrs = 0x5cd376c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleStateChanged_1)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x58bd34c;
+  constexpr static std::size_t addrs = 0x5cd3bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleLevelEnded_2)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x58bd57c;
+  constexpr static std::size_t addrs = 0x5cd3de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__WatchPlayDuration_3)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x58bd8b4;
+  constexpr static std::size_t addrs = 0x5cd4118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)(int32_t)>(&::GlobalNamespace::SongRunningHelper__StartLevel_d__13::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bcd18;
+  constexpr static std::size_t addrs = 0x5cd357c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
     &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bdb3c;
+  constexpr static std::size_t addrs = 0x5cd43a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,8 +548,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(&::GlobalNamespace::SongRunningHelper__StartLevel_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0xa78;
-  constexpr static std::size_t addrs = 0x58bdb40;
+  constexpr static std::size_t size = 0xa7c;
+  constexpr static std::size_t addrs = 0x5cd43a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "MoveNext", {}, {} })));
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
     &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58be5b8;
+  constexpr static std::size_t addrs = 0x5cd4e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
     &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58be5c0;
+  constexpr static std::size_t addrs = 0x5cd4e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
     &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58be5f8;
+  constexpr static std::size_t addrs = 0x5cd4e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::get_SongsRunning)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58bc814;
+  constexpr static std::size_t addrs = 0x5cd3078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "get_SongsRunning", {}, {} })));
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapLevel*> (::GlobalNamespace::SongRunningHelper::*)(::StringW, bool)>(
     &::GlobalNamespace::SongRunningHelper::FindBeatmapLevelPackBeatmaps)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x58bc858;
+  constexpr static std::size_t addrs = 0x5cd30bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper::*)(::GlobalNamespace::SongRunningHelper_QueuedSongParams)>(
     &::GlobalNamespace::SongRunningHelper::EnqueueLevel)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x58bca70;
+  constexpr static std::size_t addrs = 0x5cd32d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(),
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongRunningHelper::*)(::GlobalNamespace::SongRunningHelper_QueuedSongParams)>(
     &::GlobalNamespace::SongRunningHelper::StartLevel)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58bcca0;
+  constexpr static std::size_t addrs = 0x5cd3504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -782,7 +782,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::SongRunningHelper::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58bcd20;
+  constexpr static std::size_t addrs = 0x5cd3584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::StopAllLevels)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58bcd3c;
+  constexpr static std::size_t addrs = 0x5cd35a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopAllLevels", {}, {} })));
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::StopCurrentLevel)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58bcddc;
+  constexpr static std::size_t addrs = 0x5cd3640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopCurrentLevel", {}, {} })));
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58bce40;
+  constexpr static std::size_t addrs = 0x5cd36a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { ".ctor", {}, {} })));

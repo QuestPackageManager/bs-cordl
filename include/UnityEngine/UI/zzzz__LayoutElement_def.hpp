@@ -76,30 +76,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutIgnorer"
   constexpr operator ::UnityEngine::UI::ILayoutIgnorer*() noexcept;
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x6dfc150, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x7294690, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x6dfc154, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x7294694, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::UnityEngine::UI::LayoutElement* New_ctor();
 
-  /// @brief Method OnBeforeTransformParentChanged, addr 0x6dfc504, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeTransformParentChanged, addr 0x7294a44, size 0x4, virtual true, abstract: false, final false
   inline void OnBeforeTransformParentChanged();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6dfc500, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x7294a40, size 0x4, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x6dfc4fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x7294a3c, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6dfc4f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x7294a34, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x6dfc4f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x7294a38, size 0x4, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method SetDirty, addr 0x6dfc090, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x72945d0, size 0xc0, virtual false, abstract: false, final false
   inline void SetDirty();
 
   constexpr float_t const& __cordl_internal_get_m_FlexibleHeight() const;
@@ -150,31 +150,31 @@ public:
 
   constexpr void __cordl_internal_set_m_PreferredWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x6dfc4d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7294a18, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flexibleHeight, addr 0x6dfc3d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x7294918, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x6dfc358, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x7294898, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_ignoreLayout, addr 0x6dfc010, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ignoreLayout, addr 0x7294550, size 0x8, virtual true, abstract: false, final false
   inline bool get_ignoreLayout();
 
-  /// @brief Method get_layoutPriority, addr 0x6dfc458, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x7294998, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_minHeight, addr 0x6dfc1d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x7294718, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x6dfc158, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x7294698, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_preferredHeight, addr 0x6dfc2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x7294818, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x6dfc258, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x7294798, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
@@ -183,28 +183,28 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutIgnorer"
   constexpr ::UnityEngine::UI::ILayoutIgnorer* i___UnityEngine__UI__ILayoutIgnorer() noexcept;
 
-  /// @brief Method set_flexibleHeight, addr 0x6dfc3e0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_flexibleHeight, addr 0x7294920, size 0x78, virtual true, abstract: false, final false
   inline void set_flexibleHeight(float_t value);
 
-  /// @brief Method set_flexibleWidth, addr 0x6dfc360, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_flexibleWidth, addr 0x72948a0, size 0x78, virtual true, abstract: false, final false
   inline void set_flexibleWidth(float_t value);
 
-  /// @brief Method set_ignoreLayout, addr 0x6dfc018, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_ignoreLayout, addr 0x7294558, size 0x78, virtual true, abstract: false, final false
   inline void set_ignoreLayout(bool value);
 
-  /// @brief Method set_layoutPriority, addr 0x6dfc460, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_layoutPriority, addr 0x72949a0, size 0x78, virtual true, abstract: false, final false
   inline void set_layoutPriority(int32_t value);
 
-  /// @brief Method set_minHeight, addr 0x6dfc1e0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_minHeight, addr 0x7294720, size 0x78, virtual true, abstract: false, final false
   inline void set_minHeight(float_t value);
 
-  /// @brief Method set_minWidth, addr 0x6dfc160, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_minWidth, addr 0x72946a0, size 0x78, virtual true, abstract: false, final false
   inline void set_minWidth(float_t value);
 
-  /// @brief Method set_preferredHeight, addr 0x6dfc2e0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_preferredHeight, addr 0x7294820, size 0x78, virtual true, abstract: false, final false
   inline void set_preferredHeight(float_t value);
 
-  /// @brief Method set_preferredWidth, addr 0x6dfc260, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_preferredWidth, addr 0x72947a0, size 0x78, virtual true, abstract: false, final false
   inline void set_preferredWidth(float_t value);
 
 protected:
@@ -222,7 +222,7 @@ public:
   LayoutElement(LayoutElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17966 };
 
   /// [SerializeField]
   /// @brief Field m_IgnoreLayout, offset: 0x20, size: 0x1, def value: None

@@ -71,46 +71,46 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method AddCrlEntry, addr 0x366a2f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddCrlEntry, addr 0x38f3594, size 0xf4, virtual false, abstract: false, final false
   inline void AddCrlEntry(::Org::BouncyCastle::Asn1::Asn1Sequence* crlEntry);
 
-  /// @brief Method AddCrlEntry, addr 0x366a3ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddCrlEntry, addr 0x38f3688, size 0x88, virtual false, abstract: false, final false
   inline void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger* userCertificate, ::Org::BouncyCastle::Asn1::DerUtcTime* revocationDate, int32_t reason);
 
-  /// @brief Method AddCrlEntry, addr 0x366af08, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method AddCrlEntry, addr 0x38f41a4, size 0x158, virtual false, abstract: false, final false
   inline void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger* userCertificate, ::Org::BouncyCastle::Asn1::X509::Time* revocationDate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method AddCrlEntry, addr 0x366a474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddCrlEntry, addr 0x38f3710, size 0x8, virtual false, abstract: false, final false
   inline void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger* userCertificate, ::Org::BouncyCastle::Asn1::X509::Time* revocationDate, int32_t reason);
 
-  /// @brief Method AddCrlEntry, addr 0x366a47c, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method AddCrlEntry, addr 0x38f3718, size 0x5ac, virtual false, abstract: false, final false
   inline void AddCrlEntry(::Org::BouncyCastle::Asn1::DerInteger* userCertificate, ::Org::BouncyCastle::Asn1::X509::Time* revocationDate, int32_t reason,
                           ::Org::BouncyCastle::Asn1::DerGeneralizedTime* invalidityDate);
 
-  /// @brief Method GenerateTbsCertList, addr 0x366b068, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method GenerateTbsCertList, addr 0x38f4304, size 0x4fc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GenerateTbsCertList();
 
   static inline ::Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator* New_ctor();
 
-  /// @brief Method SetExtensions, addr 0x366b060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0x38f42fc, size 0x8, virtual false, abstract: false, final false
   inline void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method SetIssuer, addr 0x366a1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x38f3498, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetNextUpdate, addr 0x366a26c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetNextUpdate, addr 0x38f3508, size 0x7c, virtual false, abstract: false, final false
   inline void SetNextUpdate(::Org::BouncyCastle::Asn1::DerUtcTime* nextUpdate);
 
-  /// @brief Method SetNextUpdate, addr 0x366a2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNextUpdate, addr 0x38f358c, size 0x8, virtual false, abstract: false, final false
   inline void SetNextUpdate(::Org::BouncyCastle::Asn1::X509::Time* nextUpdate);
 
-  /// @brief Method SetSignature, addr 0x366a1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x38f3490, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetThisUpdate, addr 0x366a204, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetThisUpdate, addr 0x38f34a0, size 0x68, virtual false, abstract: false, final false
   inline void SetThisUpdate(::Org::BouncyCastle::Asn1::DerUtcTime* thisUpdate);
 
-  /// @brief Method SetThisUpdate, addr 0x366a2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetThisUpdate, addr 0x38f3584, size 0x8, virtual false, abstract: false, final false
   inline void SetThisUpdate(::Org::BouncyCastle::Asn1::X509::Time* thisUpdate);
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_crlEntries() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x366a194, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38f3430, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

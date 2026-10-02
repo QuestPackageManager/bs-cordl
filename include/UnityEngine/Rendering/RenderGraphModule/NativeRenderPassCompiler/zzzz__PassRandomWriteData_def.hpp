@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PassRandomWriteData)
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct ResourceHandle;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct PassRandomWriteData;
@@ -15,6 +18,7 @@ struct PassRandomWriteData;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "PassRandomWriteData");
+// [IsReadOnly]
 // [DebuggerDisplay("PassRandomWriteData: Res({resource.index}):{index}:{preserveCounterValue}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -23,8 +27,11 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassRandomWriteData {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67f94d0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c2706c, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x6c27054, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource, int32_t index, bool preserveCounterValue);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -35,7 +42,7 @@ public:
   constexpr PassRandomWriteData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, int32_t index, bool preserveCounterValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9406 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

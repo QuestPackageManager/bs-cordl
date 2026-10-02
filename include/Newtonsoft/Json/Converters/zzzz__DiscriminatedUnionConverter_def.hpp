@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_TagReader(::Newtonsoft::Json::Utilities::FSharpFunction* value);
 
-  /// @brief Method .ctor, addr 0x5d99678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b325c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Utilities::FSharpFunction* tagReader, ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase*>* cases);
 
 protected:
@@ -127,7 +127,7 @@ public:
   DiscriminatedUnionConverter_Union(DiscriminatedUnionConverter_Union const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13894 };
 
   /// @brief Field TagReader, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::FSharpFunction* ___TagReader;
@@ -202,7 +202,7 @@ public:
 
   constexpr void __cordl_internal_set_Tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5d99680, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b3264, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::StringW name, ::ArrayW<::System::Reflection::PropertyInfo*> fields, ::Newtonsoft::Json::Utilities::FSharpFunction* fieldReader,
                     ::Newtonsoft::Json::Utilities::FSharpFunction* constructor);
 
@@ -221,7 +221,7 @@ public:
   DiscriminatedUnionConverter_UnionCase(DiscriminatedUnionConverter_UnionCase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13895 };
 
   /// @brief Field Tag, offset: 0x10, size: 0x4, def value: None
   int32_t ___Tag;
@@ -268,7 +268,7 @@ public:
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass8_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <WriteJson>b__0, addr 0x5d9a61c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WriteJson>b__0, addr 0x61b4200, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteJson_b__0(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase* c);
 
   constexpr int32_t const& __cordl_internal_get_tag() const;
@@ -277,7 +277,7 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5d99b88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b376c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +295,7 @@ public:
   DiscriminatedUnionConverter___c__DisplayClass8_0(DiscriminatedUnionConverter___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13896 };
 
   /// @brief Field tag, offset: 0x10, size: 0x4, def value: None
   int32_t ___tag;
@@ -325,7 +325,7 @@ public:
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass9_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <ReadJson>b__0, addr 0x5d9a63c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__0, addr 0x61b4220, size 0x1c, virtual false, abstract: false, final false
   inline bool _ReadJson_b__0(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase* c);
 
   constexpr ::System::Func_2<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase*, bool>* const& __cordl_internal_get___9__0() const;
@@ -340,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set_caseName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d9a208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b3dec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -358,7 +358,7 @@ public:
   DiscriminatedUnionConverter___c__DisplayClass9_0(DiscriminatedUnionConverter___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13897 };
 
   /// [Nullable(0)]
   /// @brief Field caseName, offset: 0x10, size: 0x8, def value: None
@@ -403,25 +403,25 @@ public:
   __declspec(property(get = getStaticF_UnionTypeLookupCache,
                       put = setStaticF_UnionTypeLookupCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* UnionTypeLookupCache;
 
-  /// @brief Method CanConvert, addr 0x5d9a20c, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x61b3df0, size 0x28c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method CreateUnion, addr 0x5d98ebc, size 0x7bc, virtual false, abstract: false, final false
+  /// @brief Method CreateUnion, addr 0x61b2aa0, size 0x7bc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union* CreateUnion(::System::Type* t);
 
-  /// @brief Method CreateUnionTypeLookup, addr 0x5d98cb0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnionTypeLookup, addr 0x61b2894, size 0x20c, virtual false, abstract: false, final false
   static inline ::System::Type* CreateUnionTypeLookup(::System::Type* t);
 
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5d99b8c, size 0x67c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61b3770, size 0x67c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5d99690, size 0x4f8, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61b3274, size 0x4f8, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5d9a498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b407c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union*>* getStaticF_UnionCache();
@@ -453,7 +453,7 @@ public:
   static constexpr ::ConstString FieldsPropertyName{ u"Fields" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

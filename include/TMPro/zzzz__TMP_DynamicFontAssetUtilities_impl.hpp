@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_DynamicFontAssetUtilities_FontReference::*)(::StringW, ::StringW, int32_t)>(
     &::TMPro::TMP_DynamicFontAssetUtilities_FontReference::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x6951594;
+  constexpr static std::size_t addrs = 0x6d58128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DynamicFontAssetUtilities_FontReference>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_DynamicFontAssetUtilities::*)()>(&::TMPro::TMP_DynamicFontAssetUtilities::InitializeSystemFontReferenceCache)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x6950f94;
+  constexpr static std::size_t addrs = 0x6d57b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::TMPro::TMP_DynamicFontAssetUtilities_FontReference>)>(
     &::TMPro::TMP_DynamicFontAssetUtilities::TryGetSystemFontReference)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69517d0;
+  constexpr static std::size_t addrs = 0x6d58364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<::TMPro::TMP_DynamicFontAssetUtilities_FontReference>)>(
     &::TMPro::TMP_DynamicFontAssetUtilities::TryGetSystemFontReference)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6951ad8;
+  constexpr static std::size_t addrs = 0x6d5866c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_DynamicFontAssetUtilities::*)(::StringW, ::StringW, ::by_ref<::TMPro::TMP_DynamicFontAssetUtilities_FontReference>)>(
     &::TMPro::TMP_DynamicFontAssetUtilities::TryGetSystemFontReferenceInternal)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6951850;
+  constexpr static std::size_t addrs = 0x6d583e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_DynamicFontAssetUtilities::*)()>(&::TMPro::TMP_DynamicFontAssetUtilities::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6951b5c;
+  constexpr static std::size_t addrs = 0x6d586f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DynamicFontAssetUtilities*>(), { ".ctor", {}, {} })));

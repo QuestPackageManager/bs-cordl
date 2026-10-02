@@ -42,7 +42,7 @@ public:
   __declspec(property(get = __cordl_internal_get_playersLayoutWasCalculatedEvent,
                       put = __cordl_internal_set_playersLayoutWasCalculatedEvent)) ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* playersLayoutWasCalculatedEvent;
 
-  /// @brief Method CalculateLayout, addr 0x59dacf4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x5df606c, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int32_t activePlayersCount);
 
   static inline ::GlobalNamespace::MultiplayerLayoutProvider* New_ctor();
@@ -65,31 +65,31 @@ public:
 
   constexpr void __cordl_internal_set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x59dad50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df60c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x59d0534, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x5deba70, size 0xc0, virtual false, abstract: false, final false
   inline void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_activePlayerSpotsCount, addr 0x59dace4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePlayerSpotsCount, addr 0x5df605c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePlayerSpotsCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_layout, addr 0x59dacd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x5df604c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x59d06c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x5debbfc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_activePlayerSpotsCount, addr 0x59dacec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePlayerSpotsCount, addr 0x5df6064, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpotsCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_layout, addr 0x59dacdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x5df6054, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   MultiplayerLayoutProvider(MultiplayerLayoutProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6270 };
 
   /// [CompilerGenerated]
   /// @brief Field <layout>k__BackingField, offset: 0x10, size: 0x4, def value: None

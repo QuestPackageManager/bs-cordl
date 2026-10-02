@@ -27,7 +27,7 @@ public:
   __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault)) ::BeatSaber::RecPlay::PoseOffsets kDefault;
 
   /// [IsReadOnly]
-  /// @brief Method Adjust, addr 0x32c5554, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Adjust, addr 0x354c994, size 0x198, virtual false, abstract: false, final false
   inline void Adjust(::by_ref<::BeatSaber::RecPlay::PlayerPose> pose);
 
   static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault();
@@ -43,7 +43,7 @@ public:
   constexpr PoseOffsets(::UnityEngine::Pose room, ::UnityEngine::Pose leftController, ::UnityEngine::Pose rightController) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24051 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

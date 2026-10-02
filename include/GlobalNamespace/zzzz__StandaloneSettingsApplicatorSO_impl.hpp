@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneSettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::WindowSettings>)>(
     &::GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5901dc8;
+  constexpr static std::size_t addrs = 0x5d1c418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneSettingsApplicatorSO::*)()>(&::GlobalNamespace::StandaloneSettingsApplicatorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5901f24;
+  constexpr static std::size_t addrs = 0x5d1c574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneSettingsApplicatorSO*>(), { ".ctor", {}, {} })));

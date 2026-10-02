@@ -139,25 +139,25 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x36d078c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3959a28, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyBoolArray, addr 0x36d09b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CopyBoolArray, addr 0x3959c50, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CopyBoolArray(::ArrayW<bool> b);
 
-  /// @brief Method CopySet, addr 0x36d08f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CopySet, addr 0x3959b90, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* CopySet(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 
-  /// @brief Method GetSubjectPublicKey, addr 0x36d1654, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSubjectPublicKey, addr 0x395a8f0, size 0x28, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetSubjectPublicKey(::Org::BouncyCastle::X509::X509Certificate* c);
 
-  /// @brief Method IssuersMatch, addr 0x36d167c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IssuersMatch, addr 0x395a918, size 0x1c, virtual false, abstract: false, final false
   static inline bool IssuersMatch(::Org::BouncyCastle::Asn1::X509::X509Name* a, ::Org::BouncyCastle::Asn1::X509::X509Name* b);
 
-  /// @brief Method Match, addr 0x36d0acc, size 0xacc, virtual true, abstract: false, final false
+  /// @brief Method Match, addr 0x3959d68, size 0xacc, virtual true, abstract: false, final false
   inline bool Match(::System::Object* obj);
 
-  /// @brief Method MatchExtension, addr 0x36d1598, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MatchExtension, addr 0x395a834, size 0xbc, virtual false, abstract: false, final false
   static inline bool MatchExtension(::ArrayW<uint8_t> b, ::Org::BouncyCastle::X509::X509Certificate* c, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* New_ctor();
@@ -254,61 +254,61 @@ public:
 
   constexpr void __cordl_internal_set_subjectPublicKeyAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x36d0608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39598a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36d0614, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39598b0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* o);
 
-  /// @brief Method get_AuthorityKeyIdentifier, addr 0x36d06b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AuthorityKeyIdentifier, addr 0x3959950, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_AuthorityKeyIdentifier();
 
-  /// @brief Method get_BasicConstraints, addr 0x36d0858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasicConstraints, addr 0x3959af4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BasicConstraints();
 
-  /// @brief Method get_Certificate, addr 0x36d08d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x3959b70, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Certificate();
 
-  /// @brief Method get_CertificateValid, addr 0x36d08e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateValid, addr 0x3959b80, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_CertificateValid();
 
-  /// @brief Method get_ExtendedKeyUsage, addr 0x36d0714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedKeyUsage, addr 0x39599b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_ExtendedKeyUsage();
 
-  /// @brief Method get_IgnoreX509NameOrdering, addr 0x36d097c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreX509NameOrdering, addr 0x3959c18, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreX509NameOrdering();
 
-  /// @brief Method get_Issuer, addr 0x36d098c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x3959c28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_IssuerAsString, addr 0x36d099c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerAsString, addr 0x3959c38, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_IssuerAsString();
 
-  /// @brief Method get_KeyUsage, addr 0x36d071c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyUsage, addr 0x39599b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<bool> get_KeyUsage();
 
-  /// @brief Method get_Policy, addr 0x36d0724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x39599c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_Policy();
 
-  /// @brief Method get_PrivateKeyValid, addr 0x36d0a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKeyValid, addr 0x3959d00, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_PrivateKeyValid();
 
-  /// @brief Method get_SerialNumber, addr 0x36d0a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3959d10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Subject, addr 0x36d0a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x3959d20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_SubjectAsString, addr 0x36d0a94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectAsString, addr 0x3959d30, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_SubjectAsString();
 
-  /// @brief Method get_SubjectKeyIdentifier, addr 0x36d072c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectKeyIdentifier, addr 0x39599c8, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_SubjectKeyIdentifier();
 
-  /// @brief Method get_SubjectPublicKey, addr 0x36d0aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKey, addr 0x3959d48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKey();
 
-  /// @brief Method get_SubjectPublicKeyAlgID, addr 0x36d0abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyAlgID, addr 0x3959d58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SubjectPublicKeyAlgID();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
@@ -317,49 +317,49 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_AuthorityKeyIdentifier, addr 0x36d07e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_AuthorityKeyIdentifier, addr 0x3959a84, size 0x70, virtual false, abstract: false, final false
   inline void set_AuthorityKeyIdentifier(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_BasicConstraints, addr 0x36d0860, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_BasicConstraints, addr 0x3959afc, size 0x74, virtual false, abstract: false, final false
   inline void set_BasicConstraints(int32_t value);
 
-  /// @brief Method set_Certificate, addr 0x36d08dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Certificate, addr 0x3959b78, size 0x8, virtual false, abstract: false, final false
   inline void set_Certificate(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method set_CertificateValid, addr 0x36d08ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateValid, addr 0x3959b88, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_ExtendedKeyUsage, addr 0x36d0960, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ExtendedKeyUsage, addr 0x3959bfc, size 0x1c, virtual false, abstract: false, final false
   inline void set_ExtendedKeyUsage(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method set_IgnoreX509NameOrdering, addr 0x36d0984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreX509NameOrdering, addr 0x3959c20, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreX509NameOrdering(bool value);
 
-  /// @brief Method set_Issuer, addr 0x36d0994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Issuer, addr 0x3959c30, size 0x8, virtual false, abstract: false, final false
   inline void set_Issuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  /// @brief Method set_KeyUsage, addr 0x36d0a2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_KeyUsage, addr 0x3959cc8, size 0x1c, virtual false, abstract: false, final false
   inline void set_KeyUsage(::ArrayW<bool> value);
 
-  /// @brief Method set_Policy, addr 0x36d0a48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Policy, addr 0x3959ce4, size 0x1c, virtual false, abstract: false, final false
   inline void set_Policy(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method set_PrivateKeyValid, addr 0x36d0a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PrivateKeyValid, addr 0x3959d08, size 0x8, virtual false, abstract: false, final false
   inline void set_PrivateKeyValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_SerialNumber, addr 0x36d0a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SerialNumber, addr 0x3959d18, size 0x8, virtual false, abstract: false, final false
   inline void set_SerialNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method set_Subject, addr 0x36d0a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Subject, addr 0x3959d28, size 0x8, virtual false, abstract: false, final false
   inline void set_Subject(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  /// @brief Method set_SubjectKeyIdentifier, addr 0x36ceee0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_SubjectKeyIdentifier, addr 0x395817c, size 0x70, virtual false, abstract: false, final false
   inline void set_SubjectKeyIdentifier(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_SubjectPublicKey, addr 0x36d0ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubjectPublicKey, addr 0x3959d50, size 0x8, virtual false, abstract: false, final false
   inline void set_SubjectPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  /// @brief Method set_SubjectPublicKeyAlgID, addr 0x36d0ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubjectPublicKeyAlgID, addr 0x3959d60, size 0x8, virtual false, abstract: false, final false
   inline void set_SubjectPublicKeyAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
 protected:

@@ -27,7 +27,7 @@ public:
   // Declarations
   __declspec(property(get = get_ProxyClass)) ::Mono::RuntimeClassHandle ProxyClass;
 
-  /// @brief Method get_ProxyClass, addr 0x5aadaa0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyClass, addr 0x5ec5984, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::RuntimeClassHandle get_ProxyClass();
 
   // Ctor Parameters []

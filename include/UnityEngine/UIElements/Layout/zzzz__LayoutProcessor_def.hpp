@@ -32,7 +32,7 @@ public:
   /// @brief Field s_Processor, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Processor, put = setStaticF_s_Processor)) ::UnityEngine::UIElements::Layout::ILayoutProcessor* s_Processor;
 
-  /// @brief Method CalculateLayout, addr 0x6d02388, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x7197b7c, size 0x130, virtual false, abstract: false, final false
   static inline void CalculateLayout(::UnityEngine::UIElements::Layout::LayoutNode node, float_t parentWidth, float_t parentHeight, ::UnityEngine::UIElements::Layout::LayoutDirection parentDirection);
 
   static inline ::UnityEngine::UIElements::Layout::ILayoutProcessor* getStaticF_s_Processor();
@@ -54,7 +54,7 @@ public:
   LayoutProcessor(LayoutProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5517 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

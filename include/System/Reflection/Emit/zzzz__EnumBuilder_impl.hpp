@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Assembly)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b922b4;
+  constexpr static std::size_t addrs = 0x5faa208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b922ec;
+  constexpr static std::size_t addrs = 0x5faa240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,11 +50,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_BaseType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92324;
+  constexpr static std::size_t addrs = 0x5faa278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 116 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 117 }));
     return ___internal_method;
   }
 };
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_FullName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9235c;
+  constexpr static std::size_t addrs = 0x5faa2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,11 +76,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_GUID)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92394;
+  constexpr static std::size_t addrs = 0x5faa2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 115 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 116 }));
     return ___internal_method;
   }
 };
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Module* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Module)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b923cc;
+  constexpr static std::size_t addrs = 0x5faa320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92404;
+  constexpr static std::size_t addrs = 0x5faa358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Namespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9243c;
+  constexpr static std::size_t addrs = 0x5faa390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92474;
+  constexpr static std::size_t addrs = 0x5faa3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b924ac;
+  constexpr static std::size_t addrs = 0x5faa400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,11 +157,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Con
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::EnumBuilder::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b924e4;
+  constexpr static std::size_t addrs = 0x5faa438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 80 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 81 }));
     return ___internal_method;
   }
 };
@@ -171,11 +171,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetConstructors)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9251c;
+  constexpr static std::size_t addrs = 0x5faa470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 82 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 83 }));
     return ___internal_method;
   }
 };
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::EnumBuilder::*)(bool)>(&::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92554;
+  constexpr static std::size_t addrs = 0x5faa4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9258c;
+  constexpr static std::size_t addrs = 0x5faa4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::GetElementType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b925c4;
+  constexpr static std::size_t addrs = 0x5faa518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,11 +225,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::EventInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b925fc;
+  constexpr static std::size_t addrs = 0x5faa550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 84 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 85 }));
     return ___internal_method;
   }
 };
@@ -239,11 +239,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::EventInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92634;
+  constexpr static std::size_t addrs = 0x5faa588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 85 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 86 }));
     return ___internal_method;
   }
 };
@@ -253,11 +253,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::FieldInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetField)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9266c;
+  constexpr static std::size_t addrs = 0x5faa5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 87 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 88 }));
     return ___internal_method;
   }
 };
@@ -267,11 +267,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::FieldInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetFields)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b926a4;
+  constexpr static std::size_t addrs = 0x5faa5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 89 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 90 }));
     return ___internal_method;
   }
 };
@@ -280,11 +280,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, bool)>(&::System::Reflection::Emit::EnumBuilder::GetInterface)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b926dc;
+  constexpr static std::size_t addrs = 0x5faa630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 119 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 120 }));
     return ___internal_method;
   }
 };
@@ -293,11 +293,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::GetInterfaces)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92714;
+  constexpr static std::size_t addrs = 0x5faa668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 120 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 121 }));
     return ___internal_method;
   }
 };
@@ -307,11 +307,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MemberInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetMembers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9274c;
+  constexpr static std::size_t addrs = 0x5faa6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 93 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 94 }));
     return ___internal_method;
   }
 };
@@ -322,11 +322,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Met
     ::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::EnumBuilder::GetMethodImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92784;
+  constexpr static std::size_t addrs = 0x5faa6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 100 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 101 }));
     return ___internal_method;
   }
 };
@@ -336,11 +336,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetMethods)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b927bc;
+  constexpr static std::size_t addrs = 0x5faa710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 102 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 103 }));
     return ___internal_method;
   }
 };
@@ -350,11 +350,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetNestedType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b927f4;
+  constexpr static std::size_t addrs = 0x5faa748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 103 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 104 }));
     return ___internal_method;
   }
 };
@@ -364,11 +364,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9282c;
+  constexpr static std::size_t addrs = 0x5faa780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 112 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 113 }));
     return ___internal_method;
   }
 };
@@ -379,11 +379,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Pro
     ::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Type*, ::ArrayW<::System::Type*>,
                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::EnumBuilder::GetPropertyImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92864;
+  constexpr static std::size_t addrs = 0x5faa7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 110 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 111 }));
     return ___internal_method;
   }
 };
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9289c;
+  constexpr static std::size_t addrs = 0x5faa7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,11 +408,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
                                                 ::ArrayW<::System::Reflection::ParameterModifier>, ::System::Globalization::CultureInfo*, ::ArrayW<::StringW>)>(
     &::System::Reflection::Emit::EnumBuilder::InvokeMember)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b928d4;
+  constexpr static std::size_t addrs = 0x5faa828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 117 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 118 }));
     return ___internal_method;
   }
 };
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsArrayImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9290c;
+  constexpr static std::size_t addrs = 0x5faa860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsByRefImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92944;
+  constexpr static std::size_t addrs = 0x5faa898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,11 +447,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9297c;
+  constexpr static std::size_t addrs = 0x5faa8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 65 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 66 }));
     return ___internal_method;
   }
 };
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)(::System::Type*, bool)>(&::System::Reflection::Emit::EnumBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b929b4;
+  constexpr static std::size_t addrs = 0x5faa908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPointerImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b929ec;
+  constexpr static std::size_t addrs = 0x5faa940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,11 +486,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92a24;
+  constexpr static std::size_t addrs = 0x5faa978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 73 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 74 }));
     return ___internal_method;
   }
 };
@@ -503,7 +503,7 @@ inline ::StringW System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedNam
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::System::Type* System::Reflection::Emit::EnumBuilder::get_BaseType() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 116 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 117 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
 inline ::StringW System::Reflection::Emit::EnumBuilder::get_FullName() {
@@ -511,7 +511,7 @@ inline ::StringW System::Reflection::Emit::EnumBuilder::get_FullName() {
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::System::Guid System::Reflection::Emit::EnumBuilder::get_GUID() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 115 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 116 })));
   return ::cordl_internals::RunMethodRethrow<::System::Guid>(this, ___internal_method);
 }
 inline ::System::Reflection::Module* System::Reflection::Emit::EnumBuilder::get_Module() {
@@ -537,11 +537,11 @@ inline ::System::Reflection::TypeAttributes System::Reflection::Emit::EnumBuilde
 inline ::System::Reflection::ConstructorInfo* System::Reflection::Emit::EnumBuilder::GetConstructorImpl(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                                                         ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                                                         ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 80 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 81 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::ConstructorInfo*>(this, ___internal_method, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::ConstructorInfo*> System::Reflection::Emit::EnumBuilder::GetConstructors(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 82 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 83 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::ConstructorInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::ArrayW<::System::Object*> System::Reflection::Emit::EnumBuilder::GetCustomAttributes(bool inherit) {
@@ -557,55 +557,55 @@ inline ::System::Type* System::Reflection::Emit::EnumBuilder::GetElementType() {
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
 inline ::System::Reflection::EventInfo* System::Reflection::Emit::EnumBuilder::GetEvent(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 84 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 85 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::EventInfo*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::EventInfo*> System::Reflection::Emit::EnumBuilder::GetEvents(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 85 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 86 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::EventInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::FieldInfo* System::Reflection::Emit::EnumBuilder::GetField(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 87 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 88 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::FieldInfo*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::FieldInfo*> System::Reflection::Emit::EnumBuilder::GetFields(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 89 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 90 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::FieldInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::Emit::EnumBuilder::GetInterface(::StringW name, bool ignoreCase) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 119 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 120 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, name, ignoreCase);
 }
 inline ::ArrayW<::System::Type*> System::Reflection::Emit::EnumBuilder::GetInterfaces() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 120 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 121 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(this, ___internal_method);
 }
 inline ::ArrayW<::System::Reflection::MemberInfo*> System::Reflection::Emit::EnumBuilder::GetMembers(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 93 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 94 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MemberInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::MethodInfo* System::Reflection::Emit::EnumBuilder::GetMethodImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                                               ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                                               ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 100 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 101 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, name, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::MethodInfo*> System::Reflection::Emit::EnumBuilder::GetMethods(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 102 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 103 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MethodInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::Emit::EnumBuilder::GetNestedType(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 103 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 104 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::PropertyInfo*> System::Reflection::Emit::EnumBuilder::GetProperties(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 112 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 113 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::PropertyInfo* System::Reflection::Emit::EnumBuilder::GetPropertyImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                                                   ::System::Type* returnType, ::ArrayW<::System::Type*> types,
                                                                                                   ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 110 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 111 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::PropertyInfo*>(this, ___internal_method, name, bindingAttr, binder, returnType, types, modifiers);
 }
 inline bool System::Reflection::Emit::EnumBuilder::HasElementTypeImpl() {
@@ -615,7 +615,7 @@ inline bool System::Reflection::Emit::EnumBuilder::HasElementTypeImpl() {
 inline ::System::Object* System::Reflection::Emit::EnumBuilder::InvokeMember(::StringW name, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                                                              ::System::Object* target, ::ArrayW<::System::Object*> args, ::ArrayW<::System::Reflection::ParameterModifier> modifiers,
                                                                              ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW> namedParameters) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 117 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 118 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, name, invokeAttr, binder, target, args, modifiers, culture, namedParameters);
 }
 inline bool System::Reflection::Emit::EnumBuilder::IsArrayImpl() {
@@ -627,7 +627,7 @@ inline bool System::Reflection::Emit::EnumBuilder::IsByRefImpl() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 65 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 66 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::Emit::EnumBuilder::IsDefined(::System::Type* attributeType, bool inherit) {
@@ -639,7 +639,7 @@ inline bool System::Reflection::Emit::EnumBuilder::IsPointerImpl() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 73 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::EnumBuilder*>(), 74 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 // Ctor Parameters []

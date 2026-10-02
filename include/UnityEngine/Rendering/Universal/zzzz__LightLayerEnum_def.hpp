@@ -14,6 +14,7 @@ struct LightLayerEnum;
 MARK_VAL_T(::UnityEngine::Rendering::Universal::LightLayerEnum);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::LightLayerEnum, "UnityEngine.Rendering.Universal", "LightLayerEnum");
 // [Flags]
+// [Obsolete("Use RenderingLayerMask instead. #from(6000.2)")]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -85,7 +86,7 @@ public:
   static ::UnityEngine::Rendering::Universal::LightLayerEnum const Nothing;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13240 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

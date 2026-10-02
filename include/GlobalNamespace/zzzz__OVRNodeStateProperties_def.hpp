@@ -46,24 +46,24 @@ public:
   /// @brief Field nodeStateList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_nodeStateList, put = setStaticF_nodeStateList)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStateList;
 
-  /// @brief Method GetNodeStatePropertyQuaternion, addr 0x5e10a28, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStatePropertyQuaternion, addr 0x622a738, size 0x168, virtual false, abstract: false, final false
   static inline bool GetNodeStatePropertyQuaternion(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::GlobalNamespace::OVRPlugin_Node ovrpNodeType,
                                                     ::GlobalNamespace::OVRPlugin_Step stepType, ::by_ref<::UnityEngine::Quaternion> retQuat);
 
-  /// @brief Method GetNodeStatePropertyVector3, addr 0x5e106b0, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStatePropertyVector3, addr 0x622a3c0, size 0x378, virtual false, abstract: false, final false
   static inline bool GetNodeStatePropertyVector3(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::GlobalNamespace::OVRPlugin_Node ovrpNodeType,
                                                  ::GlobalNamespace::OVRPlugin_Step stepType, ::by_ref<::UnityEngine::Vector3> retVec);
 
-  /// @brief Method GetUnityXRNodeStateQuaternion, addr 0x5e1dac4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetUnityXRNodeStateQuaternion, addr 0x62377d4, size 0x108, virtual false, abstract: false, final false
   static inline bool GetUnityXRNodeStateQuaternion(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::by_ref<::UnityEngine::Quaternion> retQuat);
 
-  /// @brief Method GetUnityXRNodeStateVector3, addr 0x5e1d92c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetUnityXRNodeStateVector3, addr 0x623763c, size 0x198, virtual false, abstract: false, final false
   static inline bool GetUnityXRNodeStateVector3(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::by_ref<::UnityEngine::Vector3> retVec);
 
-  /// @brief Method IsHmdPresent, addr 0x5e1aa98, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsHmdPresent, addr 0x6234884, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsHmdPresent();
 
-  /// @brief Method ValidateProperty, addr 0x5e1dbcc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ValidateProperty, addr 0x62378dc, size 0x1c4, virtual false, abstract: false, final false
   static inline bool ValidateProperty(::UnityEngine::XR::XRNode nodeType, ::by_ref<::UnityEngine::XR::XRNodeState> requestedNodeState);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStateList();
@@ -85,7 +85,7 @@ public:
   OVRNodeStateProperties(OVRNodeStateProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

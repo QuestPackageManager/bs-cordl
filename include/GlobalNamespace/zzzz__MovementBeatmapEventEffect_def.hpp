@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__localPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x59a5b34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc0cf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localPositionOffset, addr 0x59a5b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPositionOffset, addr 0x5dc0cec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPositionOffset();
 
 protected:
@@ -83,7 +83,7 @@ public:
   MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6091 };
 
   /// [SerializeField]
   /// @brief Field _localPositionOffset, offset: 0x10, size: 0xc, def value: None
@@ -142,24 +142,24 @@ public:
   /// @brief Field _transitionSpeed, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__transitionSpeed, put = __cordl_internal_set__transitionSpeed)) float_t _transitionSpeed;
 
-  /// @brief Method FixedUpdate, addr 0x59a5978, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x5dc0b3c, size 0x130, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x59a5aec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5dc0cb0, size 0x38, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LateUpdate, addr 0x59a5aa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5dc0c6c, size 0x44, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MovementBeatmapEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59a595c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dc0b20, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x59a58b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x5dc0a74, size 0xac, virtual false, abstract: false, final false
   inline void SetLocalPositionOffsetsForAllObjects(::UnityEngine::Vector3 localPositionOffset);
 
-  /// @brief Method Start, addr 0x59a56b4, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc0878, size 0x1fc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -228,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set__transitionSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x59a5b24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc0ce8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -246,7 +246,7 @@ public:
   MovementBeatmapEventEffect(MovementBeatmapEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6092 };
 
   /// [SerializeField]
   /// @brief Field _beatmapEventType, offset: 0x20, size: 0x4, def value: None

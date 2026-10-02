@@ -57,11 +57,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687d9b0, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbce58, size 0x154, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687db04, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbcfac, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ChannelMixer* New_ctor();
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_redOutRedIn(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x687db0c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbcfb4, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -141,7 +141,7 @@ public:
   ChannelMixer(ChannelMixer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13027 };
 
   /// [Tooltip("Modify influence of the red channel in the overall mix.")]
   /// @brief Field redOutRedIn, offset: 0x38, size: 0x8, def value: None

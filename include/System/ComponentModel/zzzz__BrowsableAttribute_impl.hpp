@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::BrowsableAttribute::*)(bool)>(&::System::ComponentModel::BrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b398c;
+  constexpr static std::size_t addrs = 0x67dbc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(&::System::ComponentModel::BrowsableAttribute::get_Browsable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b3994;
+  constexpr static std::size_t addrs = 0x67dbc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::BrowsableAttribute*>(), { "get_Browsable", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)(::System::Object*)>(&::System::ComponentModel::BrowsableAttribute::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x63b399c;
+  constexpr static std::size_t addrs = 0x67dbc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::BrowsableAttribute::*)()>(&::System::ComponentModel::BrowsableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63b3a7c;
+  constexpr static std::size_t addrs = 0x67dbd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(&::System::ComponentModel::BrowsableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63b3aa8;
+  constexpr static std::size_t addrs = 0x67dbd74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

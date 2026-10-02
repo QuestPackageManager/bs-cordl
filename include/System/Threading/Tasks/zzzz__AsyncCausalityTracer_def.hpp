@@ -32,21 +32,21 @@ class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
   /// [FriendAccessAllowed]
-  /// @brief Method TraceOperationCompletion, addr 0x5cc8b88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x60e26d0, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
   /// [FriendAccessAllowed]
-  /// @brief Method TraceOperationCreation, addr 0x5cc8b84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x60e26cc, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x5cc5454, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x60def9c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x5cc8b8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x60e26d4, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
   /// [FriendAccessAllowed]
-  /// @brief Method get_LoggingOn, addr 0x5cc544c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x60def94, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
 protected:

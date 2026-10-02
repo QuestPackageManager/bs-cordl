@@ -46,10 +46,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseUpEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9f0f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722ccdc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseUpEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9f0ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722ccd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseUpEvent___c* getStaticF___9();
@@ -71,7 +71,7 @@ public:
   MouseUpEvent___c(MouseUpEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,27 +88,27 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseUpEvent___c;
 
-  /// @brief Method GetPooled, addr 0x6d9f040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x722cc2c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerCancelEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x6d9efe8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x722cbd4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x6d9ef90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x722cb7c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x6d9ee88, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x722c9d0, size 0x88, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9eee0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x722ca58, size 0x50, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method MakeFromPointerEvent, addr 0x6d9ef44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MakeFromPointerEvent, addr 0x722cb30, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
   static inline ::UnityEngine::UIElements::MouseUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d9eeec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722caa8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,11 +126,11 @@ public:
   MouseUpEvent(MouseUpEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::MouseUpEvent) == 0x98, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::MouseUpEvent) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

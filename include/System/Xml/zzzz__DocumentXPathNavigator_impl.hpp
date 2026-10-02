@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x62b3d00;
+  constexpr static std::size_t addrs = 0x66dbcd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::DocumentXPathNavigator*)>(&::System::Xml::DocumentXPathNavigator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62b3e40;
+  constexpr static std::size_t addrs = 0x66dbe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNavigator* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62b3ec0;
+  constexpr static std::size_t addrs = 0x66dbe98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_NameTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x62b3f1c;
+  constexpr static std::size_t addrs = 0x66dbef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNodeType (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_NodeType)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x62b3f58;
+  constexpr static std::size_t addrs = 0x66dbf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_LocalName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62b3fcc;
+  constexpr static std::size_t addrs = 0x66dbfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_NamespaceURI)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x62b3fec;
+  constexpr static std::size_t addrs = 0x66dbfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_Prefix)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x62b40d0;
+  constexpr static std::size_t addrs = 0x66dc0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_Value)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x62b4184;
+  constexpr static std::size_t addrs = 0x66dc15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_ValueDocument)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62b421c;
+  constexpr static std::size_t addrs = 0x66dc1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DocumentXPathNavigator*>(), { "get_ValueDocument", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_ValueText)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x62b4260;
+  constexpr static std::size_t addrs = 0x66dc238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DocumentXPathNavigator*>(), { "get_ValueText", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_UnderlyingObject)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62b4480;
+  constexpr static std::size_t addrs = 0x66dc458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::StringW)>(&::System::Xml::DocumentXPathNavigator::MoveToNamespace)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x62b4498;
+  constexpr static std::size_t addrs = 0x66dc470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
     &::System::Xml::DocumentXPathNavigator::MoveToFirstNamespace)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x62b4774;
+  constexpr static std::size_t addrs = 0x66dc74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlAttributeCollection*, ::by_ref<int32_t>)>(&::System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceLocal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62b4974;
+  constexpr static std::size_t addrs = 0x66dc94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Xml::XmlAttributeCollection*>, ::by_ref<int32_t>)>(
     &::System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceGlobal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x62b4b1c;
+  constexpr static std::size_t addrs = 0x66dcaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
     &::System::Xml::DocumentXPathNavigator::MoveToNextNamespace)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x62b4da4;
+  constexpr static std::size_t addrs = 0x66dcd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlAttributeCollection*, ::by_ref<int32_t>)>(&::System::Xml::DocumentXPathNavigator::MoveToNextNamespaceLocal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62b5160;
+  constexpr static std::size_t addrs = 0x66dd138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Xml::XmlAttributeCollection*>, ::by_ref<int32_t>)>(
     &::System::Xml::DocumentXPathNavigator::MoveToNextNamespaceGlobal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x62b4c60;
+  constexpr static std::size_t addrs = 0x66dcc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlElement*, ::System::Xml::XmlElement*, ::StringW)>(
     &::System::Xml::DocumentXPathNavigator::PathHasDuplicateNamespace)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x62b51b4;
+  constexpr static std::size_t addrs = 0x66dd18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)(::StringW)>(&::System::Xml::DocumentXPathNavigator::LookupNamespace)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62b52ac;
+  constexpr static std::size_t addrs = 0x66dd284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::MoveToParent)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x62b5308;
+  constexpr static std::size_t addrs = 0x66dd2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNavigator*)>(
     &::System::Xml::DocumentXPathNavigator::IsSamePosition)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x62b5454;
+  constexpr static std::size_t addrs = 0x66dd42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_SchemaInfo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62b54f0;
+  constexpr static std::size_t addrs = 0x66dd4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::ResetPosition)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x62b3d70;
+  constexpr static std::size_t addrs = 0x66dbd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlAttribute*, ::System::Xml::XmlAttributeCollection*, ::by_ref<int32_t>)>(
     &::System::Xml::DocumentXPathNavigator::ResetAttributePosition)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62b50cc;
+  constexpr static std::size_t addrs = 0x66dd0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlAttribute*, ::by_ref<::System::Xml::XmlAttributeCollection*>, int32_t)>(
     &::System::Xml::DocumentXPathNavigator::CheckAttributePosition)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62b5038;
+  constexpr static std::size_t addrs = 0x66dd010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::CalibrateText)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x62b3f84;
+  constexpr static std::size_t addrs = 0x66dbf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DocumentXPathNavigator*>(), { "CalibrateText", {}, {} })));
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::ParentNode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x62b53dc;
+  constexpr static std::size_t addrs = 0x66dd3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::ParentNodeTail)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x62b556c;
+  constexpr static std::size_t addrs = 0x66dd544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::NextSibling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62b4424;
+  constexpr static std::size_t addrs = 0x66dc3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::NextSiblingTail)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x62b55b4;
+  constexpr static std::size_t addrs = 0x66dd58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::PreviousText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62b5510;
+  constexpr static std::size_t addrs = 0x66dd4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(
     &::System::Xml::DocumentXPathNavigator::PreviousTextTail)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x62b5668;
+  constexpr static std::size_t addrs = 0x66dd640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

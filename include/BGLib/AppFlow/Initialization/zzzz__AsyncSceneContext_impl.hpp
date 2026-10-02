@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext___c::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3308e68;
+  constexpr static std::size_t addrs = 0x3591a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext___c*>(), { ".ctor", {}, {} })));
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::BGLib::AppFlow::Initialization::AsyncSceneContext___c::*)(::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>)>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c::_LoadInstallersAsync_b__15_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308e6c;
+  constexpr static std::size_t addrs = 0x3591a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3308e74;
+  constexpr static std::size_t addrs = 0x3591a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::
     ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0::*)(::BGLib::AppFlow::Initialization::AsyncLoader*)>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0::_LoadInstallersAsync_b__0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3308e78;
+  constexpr static std::size_t addrs = 0x3591a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0*>(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3308ee0;
+  constexpr static std::size_t addrs = 0x3591aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::AppFlow::I
     ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>)>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1::_LoadInstallersAsync_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3308ee4;
+  constexpr static std::size_t addrs = 0x3591aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0xa80;
-  constexpr static std::size_t addrs = 0x3308f1c;
+  constexpr static std::size_t addrs = 0x3591ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x330999c;
+  constexpr static std::size_t addrs = 0x3592560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15>(),
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x3309a1c;
+  constexpr static std::size_t addrs = 0x35925e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3309df4;
+  constexpr static std::size_t addrs = 0x35929b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14>(),
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::get_telemetryLoadersDurationMS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308ac0;
+  constexpr static std::size_t addrs = 0x3591684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)(int32_t)>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::set_telemetryLoadersDurationMS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308ac8;
+  constexpr static std::size_t addrs = 0x359168c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::get_telemetryInstallersDurationMS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308ad0;
+  constexpr static std::size_t addrs = 0x3591694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)(int32_t)>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::set_telemetryInstallersDurationMS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308ad8;
+  constexpr static std::size_t addrs = 0x359169c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext::Run)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3308ae0;
+  constexpr static std::size_t addrs = 0x35916a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext*>(),
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::GetOrCreateContainerForLoading)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3300a58;
+  constexpr static std::size_t addrs = 0x3589090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContext::RunAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3300b60;
+  constexpr static std::size_t addrs = 0x3589198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext*>(), { "RunAsync", {}, {} })));
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* (
     ::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext::LoadInstallersAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3308b60;
+  constexpr static std::size_t addrs = 0x3591724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext::InstallInstallers)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3308c40;
+  constexpr static std::size_t addrs = 0x3591804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext*>(),
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308e04;
+  constexpr static std::size_t addrs = 0x35919c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext*>(), { ".ctor", {}, {} })));
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContext::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContext::__n__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3308e0c;
+  constexpr static std::size_t addrs = 0x35919d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContext*>(), { "<>n__0", {}, {} })));

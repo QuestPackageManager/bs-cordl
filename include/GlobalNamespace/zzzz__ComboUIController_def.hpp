@@ -45,27 +45,27 @@ public:
   /// @brief Field _fullComboLost, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__fullComboLost, put = __cordl_internal_set__fullComboLost)) bool _fullComboLost;
 
-  /// @brief Method HandleComboBreakingEventHappened, addr 0x59ab3f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleComboBreakingEventHappened, addr 0x5dc4ee4, size 0x30, virtual false, abstract: false, final false
   inline void HandleComboBreakingEventHappened();
 
-  /// @brief Method HandleComboDidChange, addr 0x59ab3b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x5dc4ea0, size 0x44, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
   static inline ::GlobalNamespace::ComboUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59ab1b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5dc4c9c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59ab1ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5dc4c98, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x59aae9c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x5dc4988, size 0x310, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x59aae0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc48f8, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x59ab1b4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x5dc4ca0, size 0x200, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__fullComboLost(bool value);
 
-  /// @brief Method .ctor, addr 0x59ab428, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc4f14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ComboUIController(ComboUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6115 };
 
   /// [SerializeField]
   /// @brief Field _comboText, offset: 0x20, size: 0x8, def value: None

@@ -46,13 +46,13 @@ public:
   /// @brief Field table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Collections::IDictionary* table;
 
-  /// @brief Method GetFirstRecipient, addr 0x36d355c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRecipient, addr 0x395c7f8, size 0x19c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method GetRecipients, addr 0x36d37a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x395ca3c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients();
 
-  /// @brief Method GetRecipients, addr 0x36d3800, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x395ca9c, size 0x150, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients(::Org::BouncyCastle::Cms::RecipientID* selector);
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* New_ctor(::System::Collections::ICollection* recipientInfos);
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x36ae68c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3937928, size 0x570, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method get_Count, addr 0x36d36f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x395c994, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x36d3558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x395c7f4, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* get_Item(::Org::BouncyCastle::Cms::RecipientID* selector);
 
 protected:

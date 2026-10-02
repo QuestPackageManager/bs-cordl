@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -27,13 +28,16 @@ namespace UnityEngine::UIElements {
 template <typename TValueType, typename TField, typename TFieldValue> struct BaseCompositeField_3_FieldDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3___c__DisplayClass18_0;
+template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3___c__DisplayClass23_0;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType, typename TField, typename TFieldValue> class FieldDescription_BaseCompositeField_3_WriteDelegate;
+}
+namespace UnityEngine::UIElements {
+class IDelayedField;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -43,7 +47,7 @@ namespace UnityEngine::UIElements {
 template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3___c__DisplayClass18_0;
+template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3___c__DisplayClass23_0;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType, typename TField, typename TFieldValue> class FieldDescription_BaseCompositeField_3_WriteDelegate;
@@ -53,11 +57,11 @@ template <typename TValueType, typename TField, typename TFieldValue> struct Bas
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseCompositeField_3);
-MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0);
+MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate);
 MARK_GEN_VAL_T(::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseCompositeField_3, "UnityEngine.UIElements", "BaseCompositeField`3");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0, "UnityEngine.UIElements", "BaseCompositeField`3/<>c__DisplayClass18_0");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0, "UnityEngine.UIElements", "BaseCompositeField`3/<>c__DisplayClass23_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate, "UnityEngine.UIElements", "BaseCompositeField`3/FieldDescription/WriteDelegate");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription, "UnityEngine.UIElements", "BaseCompositeField`3/FieldDescription");
 // Dependencies System.MulticastDelegate
@@ -92,7 +96,7 @@ public:
   FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4105 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,7 +128,7 @@ public:
                                                   ::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate<TValueType, TField, TFieldValue>* write) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4106 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -151,8 +155,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TField, typename TFieldValue>
 // Is value type: false
-// CS Name: UnityEngine.UIElements.BaseCompositeField`3/<>c__DisplayClass18_0<TValueType,TField,TFieldValue>
-class CORDL_TYPE BaseCompositeField_3___c__DisplayClass18_0 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.BaseCompositeField`3/<>c__DisplayClass23_0<TValueType,TField,TFieldValue>
+class CORDL_TYPE BaseCompositeField_3___c__DisplayClass23_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x38, size 0x8
@@ -164,7 +168,7 @@ public:
   /// @brief Field field, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_field, put = __cordl_internal_set_field)) TField field;
 
-  static inline ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>* New_ctor();
+  static inline ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>* New_ctor();
 
   constexpr ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>* const& __cordl_internal_get___4__this() const;
 
@@ -196,19 +200,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr BaseCompositeField_3___c__DisplayClass18_0();
+  constexpr BaseCompositeField_3___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0&&) = delete;
+  BaseCompositeField_3___c__DisplayClass23_0(BaseCompositeField_3___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0 const&) = delete;
+  BaseCompositeField_3___c__DisplayClass23_0(BaseCompositeField_3___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4107 };
 
   /// @brief Field desc, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue> ___desc;
@@ -224,7 +228,7 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
-// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>
+// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TField, typename TFieldValue>
@@ -235,7 +239,7 @@ public:
   // Declarations
   using FieldDescription = ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>;
 
-  using __c__DisplayClass18_0 = ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0<TValueType, TField, TFieldValue>;
+  using __c__DisplayClass23_0 = ::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass23_0<TValueType, TField, TFieldValue>;
 
   /// @brief Field fieldGroupUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_fieldGroupUssClassName, put = setStaticF_fieldGroupUssClassName)) ::StringW fieldGroupUssClassName;
@@ -243,22 +247,33 @@ public:
   /// @brief Field fieldUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_fieldUssClassName, put = setStaticF_fieldUssClassName)) ::StringW fieldUssClassName;
 
+  __declspec(property(get = get_fields)) ::System::Collections::Generic::List_1<TField>* fields;
+
   /// @brief Field firstFieldVariantUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_firstFieldVariantUssClassName, put = setStaticF_firstFieldVariantUssClassName)) ::StringW firstFieldVariantUssClassName;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
+  /// @brief [CreateProperty]
+  __declspec(property(get = get_isDelayed, put = set_isDelayed)) bool isDelayed;
+
+  /// @brief Field isDelayedProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_isDelayedProperty, put = setStaticF_isDelayedProperty)) ::UnityEngine::UIElements::BindingId isDelayedProperty;
+
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_Fields, offset 0x528, size 0x8
+  /// @brief Field m_Fields, offset 0x358, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Fields, put = __cordl_internal_set_m_Fields)) ::System::Collections::Generic::List_1<TField>* m_Fields;
 
-  /// @brief Field m_ForceUpdateDisplay, offset 0x531, size 0x1
+  /// @brief Field m_ForceUpdateDisplay, offset 0x361, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ForceUpdateDisplay, put = __cordl_internal_set_m_ForceUpdateDisplay)) bool m_ForceUpdateDisplay;
 
-  /// @brief Field m_ShouldUpdateDisplay, offset 0x530, size 0x1
+  /// @brief Field m_IsDelayed, offset 0x362, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_IsDelayed, put = __cordl_internal_set_m_IsDelayed)) bool m_IsDelayed;
+
+  /// @brief Field m_ShouldUpdateDisplay, offset 0x360, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShouldUpdateDisplay, put = __cordl_internal_set_m_ShouldUpdateDisplay)) bool m_ShouldUpdateDisplay;
 
   /// @brief Field multilineVariantUssClassName, offset 0xffffffff, size 0x8
@@ -272,6 +287,9 @@ public:
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+
+  /// @brief Convert operator to "::UnityEngine::UIElements::IDelayedField"
+  constexpr operator ::UnityEngine::UIElements::IDelayedField*() noexcept;
 
   /// @brief Method DescribeFields, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>> DescribeFields();
@@ -301,6 +319,10 @@ public:
 
   constexpr bool& __cordl_internal_get_m_ForceUpdateDisplay();
 
+  constexpr bool const& __cordl_internal_get_m_IsDelayed() const;
+
+  constexpr bool& __cordl_internal_get_m_IsDelayed();
+
   constexpr bool const& __cordl_internal_get_m_ShouldUpdateDisplay() const;
 
   constexpr bool& __cordl_internal_get_m_ShouldUpdateDisplay();
@@ -308,6 +330,8 @@ public:
   constexpr void __cordl_internal_set_m_Fields(::System::Collections::Generic::List_1<TField>* value);
 
   constexpr void __cordl_internal_set_m_ForceUpdateDisplay(bool value);
+
+  constexpr void __cordl_internal_set_m_IsDelayed(bool value);
 
   constexpr void __cordl_internal_set_m_ShouldUpdateDisplay(bool value);
 
@@ -322,6 +346,8 @@ public:
 
   static inline ::StringW getStaticF_inputUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_isDelayedProperty();
+
   static inline ::StringW getStaticF_labelUssClassName();
 
   static inline ::StringW getStaticF_multilineVariantUssClassName();
@@ -332,6 +358,15 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
+  /// @brief Method get_fields, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<TField>* get_fields();
+
+  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool get_isDelayed();
+
+  /// @brief Convert to "::UnityEngine::UIElements::IDelayedField"
+  constexpr ::UnityEngine::UIElements::IDelayedField* i___UnityEngine__UIElements__IDelayedField() noexcept;
+
   static inline void setStaticF_fieldGroupUssClassName(::StringW value);
 
   static inline void setStaticF_fieldUssClassName(::StringW value);
@@ -339,6 +374,8 @@ public:
   static inline void setStaticF_firstFieldVariantUssClassName(::StringW value);
 
   static inline void setStaticF_inputUssClassName(::StringW value);
+
+  static inline void setStaticF_isDelayedProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_labelUssClassName(::StringW value);
 
@@ -349,6 +386,9 @@ public:
   static inline void setStaticF_twoLinesVariantUssClassName(::StringW value);
 
   static inline void setStaticF_ussClassName(::StringW value);
+
+  /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_isDelayed(bool value);
 
 protected:
   // Ctor Parameters []
@@ -365,16 +405,19 @@ public:
   BaseCompositeField_3(BaseCompositeField_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4108 };
 
-  /// @brief Field m_Fields, offset: 0x528, size: 0x8, def value: None
+  /// @brief Field m_Fields, offset: 0x358, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TField>* ___m_Fields;
 
-  /// @brief Field m_ShouldUpdateDisplay, offset: 0x530, size: 0x1, def value: None
+  /// @brief Field m_ShouldUpdateDisplay, offset: 0x360, size: 0x1, def value: None
   bool ___m_ShouldUpdateDisplay;
 
-  /// @brief Field m_ForceUpdateDisplay, offset: 0x531, size: 0x1, def value: None
+  /// @brief Field m_ForceUpdateDisplay, offset: 0x361, size: 0x1, def value: None
   bool ___m_ForceUpdateDisplay;
+
+  /// @brief Field m_IsDelayed, offset: 0x362, size: 0x1, def value: None
+  bool ___m_IsDelayed;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

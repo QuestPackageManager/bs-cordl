@@ -28,27 +28,27 @@ public:
   /// @brief Field val2char, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_val2char, put = setStaticF_val2char)) ::StringW val2char;
 
-  /// @brief Method GetByteCount, addr 0x61328b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x655a0a4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
-  /// @brief Method GetBytes, addr 0x61328cc, size 0x550, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x655a0b8, size 0x550, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetCharCount, addr 0x6132f28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x655a714, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x6132f3c, size 0x458, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x655a728, size 0x458, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
-  /// @brief Method GetMaxByteCount, addr 0x61327a0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetMaxByteCount, addr 0x6559f8c, size 0x118, virtual true, abstract: false, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount, addr 0x6132e1c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetMaxCharCount, addr 0x655a608, size 0x10c, virtual true, abstract: false, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
   static inline ::System::Text::BinHexEncoding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6133394, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x655ab80, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_char2val();
@@ -74,7 +74,7 @@ public:
   BinHexEncoding(BinHexEncoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

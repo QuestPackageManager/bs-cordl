@@ -24,10 +24,10 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLClientInfraException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f1eca0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633948c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f1eca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6339490, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -45,7 +45,7 @@ public:
   GraphQLClientInfraException(GraphQLClientInfraException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

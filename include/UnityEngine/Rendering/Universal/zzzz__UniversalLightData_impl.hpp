@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalLightData::*)()>(&::UnityEngine::Rendering::Universal::UniversalLightData::Reset)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6876c70;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6cb6508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalLightData*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalLightData::*)()>(&::UnityEngine::Rendering::Universal::UniversalLightData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6876c88;
+  constexpr static std::size_t addrs = 0x6cb6524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalLightData*>(), { ".ctor", {}, {} })));
@@ -124,6 +124,18 @@ constexpr bool const& UnityEngine::Rendering::Universal::UniversalLightData::__c
 constexpr void UnityEngine::Rendering::Universal::UniversalLightData::__cordl_internal_set_reflectionProbeBlending(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reflectionProbeBlending = value;
+}
+constexpr bool& UnityEngine::Rendering::Universal::UniversalLightData::__cordl_internal_get_reflectionProbeAtlas() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___reflectionProbeAtlas;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::UniversalLightData::__cordl_internal_get_reflectionProbeAtlas() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___reflectionProbeAtlas;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalLightData::__cordl_internal_set_reflectionProbeAtlas(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___reflectionProbeAtlas = value;
 }
 constexpr bool& UnityEngine::Rendering::Universal::UniversalLightData::__cordl_internal_get_supportsLightLayers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

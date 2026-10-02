@@ -129,10 +129,10 @@ public:
   UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5226 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <matches>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TElement>* ____matches_k__BackingField;
 
@@ -152,7 +152,7 @@ public:
   /// @brief Field <callBack>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__callBack_k__BackingField, put = __cordl_internal_set__callBack_k__BackingField)) ::System::Action_1<T>* _callBack_k__BackingField;
 
-  __declspec(property(get = get_callBack)) ::System::Action_1<T>* callBack;
+  __declspec(property(get = get_callBack, put = set_callBack)) ::System::Action_1<T>* callBack;
 
   static inline ::UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher<T>* New_ctor();
 
@@ -172,6 +172,10 @@ public:
   /// @brief Method get_callBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<T>* get_callBack();
 
+  /// [CompilerGenerated]
+  /// @brief Method set_callBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_callBack(::System::Action_1<T>* value);
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -187,7 +191,7 @@ public:
   UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5227 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
@@ -256,7 +260,7 @@ public:
   constexpr UQueryState_1_Enumerator(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* iterationList, int32_t currentIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5228 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -313,6 +317,9 @@ public:
 
   /// @brief Method First, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T First();
+
+  /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ForEach(::System::Action_1<T>* funcCall);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryState_1_Enumerator<T> GetEnumerator();
@@ -371,7 +378,7 @@ public:
   constexpr UQueryState_1(::UnityEngine::UIElements::VisualElement* m_Element, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

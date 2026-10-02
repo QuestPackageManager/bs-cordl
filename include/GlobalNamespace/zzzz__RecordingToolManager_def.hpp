@@ -85,15 +85,15 @@ public:
                                                                   ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                                                   ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method Run, addr 0x58fdec8, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x5d18504, size 0x2e4, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method SetupNextSettings, addr 0x58fe1a8, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method SetupNextSettings, addr 0x5d187e8, size 0x360, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingSettings* SetupNextSettings();
 
   /// [NullableContext(1)]
   /// [CompilerGenerated]
-  /// @brief Method <Run>b__14_0, addr 0x58fe508, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Run>b__14_0, addr 0x5d18b48, size 0x4, virtual false, abstract: false, final false
   inline void _Run_b__14_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* StandardLevelScenesTransitionSetupData, ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults);
 
   constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor* const& __cordl_internal_get__configurationProcessor() const;
@@ -156,11 +156,11 @@ public:
 
   constexpr void __cordl_internal_set_recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x58fdeac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d184e8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::Zenject::DiContainer* diContainer, ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method get_showRecordingToolScene, addr 0x58fde98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x5d184d4, size 0x14, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
 protected:
@@ -178,7 +178,7 @@ public:
   RecordingToolManager(RecordingToolManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6757 };
 
   /// @brief Field kRecordingToolId offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolId{ u"RecordingTool" };

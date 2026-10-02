@@ -7,12 +7,13 @@
 #include "UnityEngine/Rendering/zzzz__DrawBatch_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AllocateBinsPerBatch_def.hpp"
 #include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
+#include "UnityEngine/zzzz__MeshTopology_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::AllocateBinsPerBatch.IsInstanceFlipped
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x68175b4;
+  constexpr static std::size_t addrs = 0x6c4931c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,12 +21,41 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::AllocateBinsPerBatch.IsMeshLodVisible
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t, int32_t, bool)>(
+    &::UnityEngine::Rendering::AllocateBinsPerBatch::IsMeshLodVisible)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6c493bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AllocateBinsPerBatch>(),
+                                                             { "IsMeshLodVisible", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::AllocateBinsPerBatch.GetPrimitiveCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::UnityEngine::MeshTopology, bool)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::GetPrimitiveCount)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6c49410;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AllocateBinsPerBatch>(),
+                                                             { "GetPrimitiveCount", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::MeshTopology>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::AllocateBinsPerBatch.Execute
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::Execute)> {
-  constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x6817654;
+  constexpr static std::size_t size = 0x5a0;
+  constexpr static std::size_t addrs = 0x6c494ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,6 +67,18 @@ inline bool UnityEngine::Rendering::AllocateBinsPerBatch::IsInstanceFlipped(int3
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AllocateBinsPerBatch>(), { "IsInstanceFlipped", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, rendererIndex);
+}
+inline bool UnityEngine::Rendering::AllocateBinsPerBatch::IsMeshLodVisible(int32_t batchLodLevel, int32_t rendererIndex, bool supportsCrossFade) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AllocateBinsPerBatch>(),
+                                                           { "IsMeshLodVisible", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, batchLodLevel, rendererIndex, supportsCrossFade);
+}
+inline int32_t UnityEngine::Rendering::AllocateBinsPerBatch::GetPrimitiveCount(int32_t indexCount, ::UnityEngine::MeshTopology topology, bool nativeQuads) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AllocateBinsPerBatch>(),
+                                                           { "GetPrimitiveCount", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::MeshTopology>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, indexCount, topology, nativeQuads);
 }
 inline void UnityEngine::Rendering::AllocateBinsPerBatch::Execute(int32_t batchIndex) {
   static auto* ___internal_method =
@@ -55,7 +97,8 @@ constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::AllocateBinsPe
 // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInstanceIndices", ty:
 // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment:
-// None }, CppParam { name: "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchBinCounts", ty:
+// None }, CppParam { name: "rendererMeshLodSettings", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchBinCounts", ty:
 // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binAllocCounter", ty: "::Unity::Collections::NativeArray_1<int32_t>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}"), comment: None
 // }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "debugCounterIndexBase",
@@ -64,14 +107,16 @@ constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::AllocateBinsPe
 constexpr ::UnityEngine::Rendering::AllocateBinsPerBatch::AllocateBinsPerBatch(
     ::UnityEngine::Rendering::BinningConfig binningConfig, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches,
     ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices, ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData,
-    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets,
-    ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts, ::Unity::Collections::NativeArray_1<int32_t> binAllocCounter, ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices,
-    ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts, int32_t debugCounterIndexBase, ::Unity::Collections::NativeArray_1<int32_t> splitDebugCounters) noexcept {
+    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings,
+    ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets, ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts, ::Unity::Collections::NativeArray_1<int32_t> binAllocCounter,
+    ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices, ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts, int32_t debugCounterIndexBase,
+    ::Unity::Collections::NativeArray_1<int32_t> splitDebugCounters) noexcept {
   this->binningConfig = binningConfig;
   this->drawBatches = drawBatches;
   this->drawInstanceIndices = drawInstanceIndices;
   this->instanceData = instanceData;
   this->rendererVisibilityMasks = rendererVisibilityMasks;
+  this->rendererMeshLodSettings = rendererMeshLodSettings;
   this->batchBinAllocOffsets = batchBinAllocOffsets;
   this->batchBinCounts = batchBinCounts;
   this->binAllocCounter = binAllocCounter;

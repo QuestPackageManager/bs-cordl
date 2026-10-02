@@ -7,8 +7,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
 #include "UnityEngine/Rendering/zzzz__FilteringSettings_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
-#include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(DecalGBufferRenderPass)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -38,9 +36,6 @@ namespace UnityEngine::Rendering::Universal {
 class DecalScreenSpaceSettings;
 }
 namespace UnityEngine::Rendering::Universal {
-struct RenderingData;
-}
-namespace UnityEngine::Rendering::Universal {
 class UniversalCameraData;
 }
 namespace UnityEngine::Rendering {
@@ -56,13 +51,7 @@ namespace UnityEngine::Rendering {
 struct RendererList;
 }
 namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
-}
-namespace UnityEngine::Rendering {
 struct ShaderTagId;
-}
-namespace UnityEngine {
-struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
@@ -135,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* value);
 
-  /// @brief Method .ctor, addr 0x6860d94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c99634, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +142,7 @@ public:
   DecalGBufferRenderPass_PassData(DecalGBufferRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12927 };
 
   /// @brief Field drawSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* ___drawSystem;
@@ -197,28 +186,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* __9;
 
-  /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__15_0,
-                      put = setStaticF___9__15_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__15_0;
+  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__11_0,
+                      put = setStaticF___9__11_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__11_0;
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__15_0, addr 0x68625e8, size 0x50, virtual false, abstract: false, final false
-  inline void _RecordRenderGraph_b__15_0(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
+  /// @brief Method <RecordRenderGraph>b__11_0, addr 0x6c99690, size 0x50, virtual false, abstract: false, final false
+  inline void _RecordRenderGraph_b__11_0(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x68625e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9968c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__15_0();
+  getStaticF___9__11_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* value);
 
-  static inline void setStaticF___9__15_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
+  static inline void setStaticF___9__11_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -236,7 +225,7 @@ public:
   DecalGBufferRenderPass___c(DecalGBufferRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -244,7 +233,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// Dependencies UnityEngine.Rendering.FilteringSettings, UnityEngine.Rendering.RTHandle, UnityEngine.Rendering.Universal.ScriptableRenderPass
+// Dependencies UnityEngine.Rendering.FilteringSettings, UnityEngine.Rendering.Universal.ScriptableRenderPass
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DecalGBufferRenderPass
@@ -255,56 +244,42 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c;
 
-  /// @brief Field m_DecalLayers, offset 0x100, size 0x1
+  /// @brief Field m_DecalLayers, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DecalLayers, put = __cordl_internal_set_m_DecalLayers)) bool m_DecalLayers;
 
-  /// @brief Field m_DeferredLights, offset 0xf0, size 0x8
+  /// @brief Field m_DeferredLights, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DeferredLights, put = __cordl_internal_set_m_DeferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights* m_DeferredLights;
 
-  /// @brief Field m_DrawSystem, offset 0xe0, size 0x8
+  /// @brief Field m_DrawSystem, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DrawSystem, put = __cordl_internal_set_m_DrawSystem)) ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* m_DrawSystem;
 
-  /// @brief Field m_FilteringSettings, offset 0xb8, size 0x20
+  /// @brief Field m_FilteringSettings, offset 0x5c, size 0x20
   __declspec(property(get = __cordl_internal_get_m_FilteringSettings, put = __cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings m_FilteringSettings;
 
-  /// @brief Field m_GbufferAttachments, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_GbufferAttachments, put = __cordl_internal_set_m_GbufferAttachments)) ::ArrayW<::UnityEngine::Rendering::RTHandle*> m_GbufferAttachments;
-
-  /// @brief Field m_PassData, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* m_PassData;
-
-  /// @brief Field m_Settings, offset 0xe8, size 0x8
+  /// @brief Field m_Settings, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Settings, put = __cordl_internal_set_m_Settings)) ::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* m_Settings;
 
-  /// @brief Field m_ShaderTagIdList, offset 0xd8, size 0x8
+  /// @brief Field m_ShaderTagIdList, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Configure, addr 0x6860da0, size 0x470, virtual true, abstract: false, final false
-  inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x6861218, size 0x330, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
-
-  /// @brief Method ExecutePass, addr 0x686158c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6c98274, size 0x170, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x6861548, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6c98230, size 0x44, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*> passData);
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass* New_ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings,
                                                                                       ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers);
 
-  /// @brief Method OnCameraCleanup, addr 0x68624a4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6c99548, size 0xec, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x68616fc, size 0xda8, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6c983e4, size 0x1164, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x6860d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6c98228, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
   constexpr bool const& __cordl_internal_get_m_DecalLayers() const;
@@ -323,14 +298,6 @@ public:
 
   constexpr ::UnityEngine::Rendering::FilteringSettings& __cordl_internal_get_m_FilteringSettings();
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get_m_GbufferAttachments() const;
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*>& __cordl_internal_get_m_GbufferAttachments();
-
-  constexpr ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*& __cordl_internal_get_m_PassData();
-
   constexpr ::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* const& __cordl_internal_get_m_Settings() const;
 
   constexpr ::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings*& __cordl_internal_get_m_Settings();
@@ -347,15 +314,11 @@ public:
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  constexpr void __cordl_internal_set_m_GbufferAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
-
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* value);
-
   constexpr void __cordl_internal_set_m_Settings(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* value);
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6860abc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c97fd4, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings, ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers);
 
 protected:
@@ -373,51 +336,41 @@ public:
   DecalGBufferRenderPass(DecalGBufferRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12929 };
 
-  /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
+  /// @brief Field m_FilteringSettings, offset: 0x5c, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;
 
-  /// @brief Field m_ShaderTagIdList, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field m_ShaderTagIdList, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* ___m_ShaderTagIdList;
 
-  /// @brief Field m_DrawSystem, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field m_DrawSystem, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* ___m_DrawSystem;
 
-  /// @brief Field m_Settings, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field m_Settings, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* ___m_Settings;
 
-  /// @brief Field m_DeferredLights, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field m_DeferredLights, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Internal::DeferredLights* ___m_DeferredLights;
 
-  /// @brief Field m_GbufferAttachments, offset: 0xf8, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___m_GbufferAttachments;
-
-  /// @brief Field m_DecalLayers, offset: 0x100, size: 0x1, def value: None
+  /// @brief Field m_DecalLayers, offset: 0xa0, size: 0x1, def value: None
   bool ___m_DecalLayers;
-
-  /// @brief Field m_PassData, offset: 0x108, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* ___m_PassData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_FilteringSettings) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_FilteringSettings) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_ShaderTagIdList) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_ShaderTagIdList) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_DrawSystem) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_DrawSystem) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_Settings) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_Settings) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_DeferredLights) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_DeferredLights) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_GbufferAttachments) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_DecalLayers) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_DecalLayers) == 0x100, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass, ___m_PassData) == 0x108, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass) == 0x110, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

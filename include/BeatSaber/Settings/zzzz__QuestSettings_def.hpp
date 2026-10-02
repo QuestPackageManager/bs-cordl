@@ -72,7 +72,7 @@ public:
   static ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22852 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,7 +108,7 @@ public:
                           bool eyeTrackedFoveatedRendering, bool dynamicFoveatedRendering) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

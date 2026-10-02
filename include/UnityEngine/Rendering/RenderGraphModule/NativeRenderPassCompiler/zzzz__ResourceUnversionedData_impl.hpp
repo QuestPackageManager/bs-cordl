@@ -1,5 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceUnversionedData.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureUVOriginSelection_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__ResourceUnversionedData_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferDesc_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRenderGraphResource_def.hpp"
@@ -7,18 +9,19 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderTargetInfo_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureDesc_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureResource_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData.GetName
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)(
-    Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67fce88;
+    Il2CppObject*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c2b6e8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
-                                                             { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
+                                                { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -26,17 +29,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>,
+    ::UnityEngine::Rendering::RenderGraphModule::TextureResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, bool)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67fceac;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6c2b704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*>(),
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
@@ -48,8 +51,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)(
     ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc>, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67fcf04;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6c2b768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,8 +70,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)(
     ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc>, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67fcf4c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6c2b7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::InitializeNullResource)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67fcf94;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c2b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,14 +98,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline ::StringW UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName(Il2CppObject* ctx,
-                                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
-                                                           { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>() } })));
+inline ::StringW
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName(Il2CppObject* ctx,
+                                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
+                                              { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, ctx, h);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll,
+inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor(::UnityEngine::Rendering::RenderGraphModule::TextureResource* rll,
                                                                                                                 ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> info,
                                                                                                                 ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc,
                                                                                                                 bool isResourceShared) {
@@ -110,7 +114,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*>(),
+                                                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, rll, info, desc, isResourceShared);
@@ -147,14 +151,15 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
 // comment: None }, CppParam { name: "lastWritePassID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstUsePassID", ty: "int32_t", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "memoryLess", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "latestVersionNumber", ty:
-// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "discard", ty:
-// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::ResourceUnversionedData(bool isImported, bool isShared, int32_t tag, int32_t lastUsePassID,
-                                                                                                                                  int32_t lastWritePassID, int32_t firstUsePassID, bool memoryLess,
-                                                                                                                                  int32_t width, int32_t height, int32_t volumeDepth,
-                                                                                                                                  int32_t msaaSamples, int32_t latestVersionNumber, bool clear,
-                                                                                                                                  bool discard, bool bindMS) noexcept {
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "graphicsFormat", ty:
+// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "latestVersionNumber", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "discard", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textureUVOrigin", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::ResourceUnversionedData(
+    bool isImported, bool isShared, int32_t tag, int32_t lastUsePassID, int32_t lastWritePassID, int32_t firstUsePassID, bool memoryLess, int32_t width, int32_t height, int32_t volumeDepth,
+    int32_t msaaSamples, ::UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat, int32_t latestVersionNumber, bool clear, bool discard, bool bindMS,
+    ::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection textureUVOrigin) noexcept {
   this->isImported = isImported;
   this->isShared = isShared;
   this->tag = tag;
@@ -166,10 +171,12 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
   this->height = height;
   this->volumeDepth = volumeDepth;
   this->msaaSamples = msaaSamples;
+  this->graphicsFormat = graphicsFormat;
   this->latestVersionNumber = latestVersionNumber;
   this->clear = clear;
   this->discard = discard;
   this->bindMS = bindMS;
+  this->textureUVOrigin = textureUVOrigin;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::ResourceUnversionedData() {}

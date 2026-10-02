@@ -36,11 +36,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687f254, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbe754, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687f284, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbe784, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::PaniniProjection* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_distance(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x687f28c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe78c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -78,7 +78,7 @@ public:
   PaniniProjection(PaniniProjection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
 
   /// [Tooltip("Panini projection distance.")]
   /// @brief Field distance, offset: 0x38, size: 0x8, def value: None

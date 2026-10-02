@@ -11,6 +11,9 @@ namespace UnityEngine::UIElements::Experimental {
 class PointerDownLinkTagEvent___c;
 }
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 // Forward declare root types
@@ -38,10 +41,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d1f5d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x71d0db0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d1f5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d0dac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c* getStaticF___9();
@@ -63,7 +66,7 @@ public:
   PointerDownLinkTagEvent___c(PointerDownLinkTagEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5612 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -71,6 +74,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Experimental
+// [EventCategory((UnityEngine.UIElements.EventCategory)3)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
@@ -80,23 +84,26 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c;
 
-  /// @brief Field <linkID>k__BackingField, offset 0xf8, size 0x8
+  /// @brief Field <linkID>k__BackingField, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__linkID_k__BackingField, put = __cordl_internal_set__linkID_k__BackingField)) ::StringW _linkID_k__BackingField;
 
-  /// @brief Field <linkText>k__BackingField, offset 0x100, size 0x8
+  /// @brief Field <linkText>k__BackingField, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__linkText_k__BackingField, put = __cordl_internal_set__linkText_k__BackingField)) ::StringW _linkText_k__BackingField;
 
   __declspec(property(put = set_linkID)) ::StringW linkID;
 
   __declspec(property(put = set_linkText)) ::StringW linkText;
 
-  /// @brief Method GetPooled, addr 0x6d1f4b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x71d0d50, size 0x8, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method GetPooled, addr 0x71d0c8c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID, ::StringW linkText);
 
-  /// @brief Method Init, addr 0x6d1f450, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71d0c28, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d1f4a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x71d0c80, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* New_ctor();
@@ -113,15 +120,15 @@ public:
 
   constexpr void __cordl_internal_set__linkText_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d1f520, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d0cf8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_linkID, addr 0x6d1f440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkID, addr 0x71d0c18, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_linkText, addr 0x6d1f448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkText, addr 0x71d0c20, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
 protected:
@@ -139,25 +146,25 @@ public:
   PointerDownLinkTagEvent(PointerDownLinkTagEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5613 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <linkID>k__BackingField, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field <linkID>k__BackingField, offset: 0x118, size: 0x8, def value: None
   ::StringW ____linkID_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <linkText>k__BackingField, offset: 0x100, size: 0x8, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <linkText>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::StringW ____linkText_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent, ____linkID_k__BackingField) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent, ____linkID_k__BackingField) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent, ____linkText_k__BackingField) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent, ____linkText_k__BackingField) == 0x120, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent) == 0x108, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent) == 0x128, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Experimental

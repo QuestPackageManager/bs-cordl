@@ -13,7 +13,6 @@
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawScreenSpaceSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScreenSpaceRenderPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScreenSpaceSettings_def.hpp"
-#include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalLightData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderingData_def.hpp"
@@ -22,7 +21,6 @@
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererListParams_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData._ctor
 template <>
@@ -30,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x686296c;
+  constexpr static std::size_t addrs = 0x6c9a93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68639b8;
+  constexpr static std::size_t addrs = 0x6c9a994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,18 +144,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c._RecordRenderGraph_b__12_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c._RecordRenderGraph_b__10_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::*)(
     ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::_RecordRenderGraph_b__12_0)> {
+    &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::_RecordRenderGraph_b__10_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68639bc;
+  constexpr static std::size_t addrs = 0x6c9a998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>(),
-                                                                                           { "<RecordRenderGraph>b__12_0",
+                                                                                           { "<RecordRenderGraph>b__10_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -171,31 +169,31 @@ inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::s
 inline ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c* UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*, "<>9", ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::setStaticF___9__12_0(
+inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::setStaticF___9__10_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__12_0", ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>(
+                                    "<>9__10_0", ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::getStaticF___9__12_0() {
+UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::getStaticF___9__10_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__12_0", ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>();
+                                           "<>9__10_0", ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::_RecordRenderGraph_b__12_0(::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c::_RecordRenderGraph_b__10_0(::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData* data,
                                                                                                           ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c*>(),
-                                                                                         { "<RecordRenderGraph>b__12_0",
+                                                                                         { "<RecordRenderGraph>b__10_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -212,8 +210,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::*)(
     ::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings*, ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem*, bool)>(
     &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::_ctor)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x68626d0;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x6c99778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +230,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(
     &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::CreateRenderListParams)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6862970;
+  constexpr static std::size_t addrs = 0x6c999d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(),
@@ -244,20 +242,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::Execute)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x6862a9c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(), 10 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass.InitPassData
 template <>
 
@@ -265,7 +249,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*>)>(
     &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::InitPassData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6862d74;
+  constexpr static std::size_t addrs = 0x6c99b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::ExecutePass)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6862e28;
+  constexpr static std::size_t addrs = 0x6c99bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(),
@@ -300,8 +284,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0x8d8;
-  constexpr static std::size_t addrs = 0x6862fa0;
+  constexpr static std::size_t size = 0xb24;
+  constexpr static std::size_t addrs = 0x6c99d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(),
@@ -315,11 +299,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::OnCameraCleanup)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6863878;
+  constexpr static std::size_t addrs = 0x6c9a850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(), 8 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -385,18 +369,6 @@ constexpr void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DecalLayers = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*& UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData* const& UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
 inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::_ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings,
                                                                                  ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* drawSystem, bool decalLayers) {
   static auto* ___internal_method =
@@ -419,12 +391,6 @@ UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::CreateRenderListP
                                          { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalLightData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererListParams>(this, ___internal_method, renderingData, cameraData, lightData);
-}
-inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                   ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                         ::by_ref<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*> passData) {
@@ -456,7 +422,7 @@ inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::Recor
 }
 inline void UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass::OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
 }
 inline ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass*

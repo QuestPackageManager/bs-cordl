@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> (*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::get_Null)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b36038;
+  constexpr static std::size_t addrs = 0x6f980fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_Null", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNode (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::get_Node)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3a060;
+  constexpr static std::size_t addrs = 0x6f98144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_Node", {}, {} })));
@@ -35,22 +35,34 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::get_NextSiblingOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3a068;
+  constexpr static std::size_t addrs = 0x6f9814c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_NextSiblingOffset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Hierarchy::HierarchyFlattenedNode.get_ChildrenCount
+//  Writing Method size for method: ::Unity::Hierarchy::HierarchyFlattenedNode.get_Depth
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::get_ChildrenCount)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::get_Depth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3a070;
+  constexpr static std::size_t addrs = 0x6f98154;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_ChildrenCount", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_Depth", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Hierarchy::HierarchyFlattenedNode._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::_ctor)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6f9815c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
@@ -60,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>, ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>)>(
     &::Unity::Hierarchy::HierarchyFlattenedNode::op_Equality)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b36080;
+  constexpr static std::size_t addrs = 0x6f98240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyFlattenedNode::*)(::Unity::Hierarchy::HierarchyFlattenedNode)>(
     &::Unity::Hierarchy::HierarchyFlattenedNode::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b3a078;
+  constexpr static std::size_t addrs = 0x6f98254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::ToString)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6b3a08c;
+  constexpr static std::size_t addrs = 0x6f98268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyFlattenedNode::*)(::System::Object*)>(&::Unity::Hierarchy::HierarchyFlattenedNode::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b3a1f0;
+  constexpr static std::size_t addrs = 0x6f983cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyFlattenedNode::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNode::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b3a26c;
+  constexpr static std::size_t addrs = 0x6f98448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNode> (*)(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>)>(
     &::Unity::Hierarchy::HierarchyFlattenedNode::GetNodeByRef)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b3a300;
+  constexpr static std::size_t addrs = 0x6f984dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
@@ -156,9 +168,13 @@ inline int32_t Unity::Hierarchy::HierarchyFlattenedNode::get_NextSiblingOffset()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_NextSiblingOffset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline int32_t Unity::Hierarchy::HierarchyFlattenedNode::get_ChildrenCount() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_ChildrenCount", {}, {} })));
+inline int32_t Unity::Hierarchy::HierarchyFlattenedNode::get_Depth() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_Depth", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline void Unity::Hierarchy::HierarchyFlattenedNode::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline bool Unity::Hierarchy::HierarchyFlattenedNode::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs,
                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs) {
@@ -200,15 +216,19 @@ constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>* Un
   return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Type", ty:
-// "::Unity::Hierarchy::HierarchyNodeType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ParentOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "m_NextSiblingOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value:
+// "::Unity::Hierarchy::HierarchyNodeType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_ParentOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NextSiblingOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_ChildIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "m_Depth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::Unity::Hierarchy::HierarchyFlattenedNode::HierarchyFlattenedNode(::Unity::Hierarchy::HierarchyNode m_Node, ::Unity::Hierarchy::HierarchyNodeType m_Type, int32_t m_ParentOffset,
-                                                                             int32_t m_NextSiblingOffset, int32_t m_ChildrenCount, int32_t m_Depth) noexcept {
+constexpr ::Unity::Hierarchy::HierarchyFlattenedNode::HierarchyFlattenedNode(::Unity::Hierarchy::HierarchyNode m_Node, ::Unity::Hierarchy::HierarchyNodeType m_Type, int32_t m_Version,
+                                                                             int32_t m_ParentOffset, int32_t m_NextSiblingOffset, int32_t m_ChildIndex, int32_t m_ChildrenCount,
+                                                                             int32_t m_Depth) noexcept {
   this->m_Node = m_Node;
   this->m_Type = m_Type;
+  this->m_Version = m_Version;
   this->m_ParentOffset = m_ParentOffset;
   this->m_NextSiblingOffset = m_NextSiblingOffset;
+  this->m_ChildIndex = m_ChildIndex;
   this->m_ChildrenCount = m_ChildrenCount;
   this->m_Depth = m_Depth;
 }

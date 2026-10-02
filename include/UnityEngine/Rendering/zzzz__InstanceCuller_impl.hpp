@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/Rendering/InstanceCuller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
+#include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContextHandles_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContextStorage_impl.hpp"
@@ -19,7 +20,6 @@
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_def.hpp"
-#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ComputeGraphContext_def.hpp"
@@ -30,11 +30,11 @@
 #include "UnityEngine/Rendering/zzzz__BinningConfig_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CPUDrawInstanceData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CPUInstanceData_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CPUPerCameraInstanceData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CPUSharedInstanceData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ComputeCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugRendererBatcherStats_def.hpp"
-#include "UnityEngine/Rendering/zzzz__FrustumPlaneCuller_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentDrawerResources_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContextHandles_def.hpp"
@@ -46,12 +46,18 @@
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ParallelBitArray_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProfilingSampler_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ReceiverPlanes_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ReceiverSphereCuller_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderersBatchersContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SubviewOcclusionTest_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
+// Ctor Parameters [CppParam { name: "cameraID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jobHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "",
+// def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::InstanceCuller_AnimatedFadeData::InstanceCuller_AnimatedFadeData(int32_t cameraID, ::Unity::Jobs::JobHandle jobHandle) noexcept {
+  this->cameraID = cameraID;
+  this->jobHandle = jobHandle;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::InstanceCuller_AnimatedFadeData::InstanceCuller_AnimatedFadeData() {}
 inline void UnityEngine::Rendering::InstanceCuller_ShaderIDs::setStaticF_InstanceOcclusionCullerShaderVariables(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "InstanceOcclusionCullerShaderVariables", ::UnityEngine::Rendering::InstanceCuller_ShaderIDs*>(std::forward<int32_t>(value));
 }
@@ -69,6 +75,12 @@ inline void UnityEngine::Rendering::InstanceCuller_ShaderIDs::setStaticF__Instan
 }
 inline int32_t UnityEngine::Rendering::InstanceCuller_ShaderIDs::getStaticF__InstanceInfo() {
   return ::cordl_internals::getStaticField<int32_t, "_InstanceInfo", ::UnityEngine::Rendering::InstanceCuller_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::InstanceCuller_ShaderIDs::setStaticF__DispatchArgs(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_DispatchArgs", ::UnityEngine::Rendering::InstanceCuller_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::InstanceCuller_ShaderIDs::getStaticF__DispatchArgs() {
+  return ::cordl_internals::getStaticField<int32_t, "_DispatchArgs", ::UnityEngine::Rendering::InstanceCuller_ShaderIDs*>();
 }
 inline void UnityEngine::Rendering::InstanceCuller_ShaderIDs::setStaticF__DrawArgs(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_DrawArgs", ::UnityEngine::Rendering::InstanceCuller_ShaderIDs*>(std::forward<int32_t>(value));
@@ -102,57 +114,13 @@ inline int32_t UnityEngine::Rendering::InstanceCuller_ShaderIDs::getStaticF__Occ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::InstanceCuller_ShaderIDs::InstanceCuller_ShaderIDs() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::*)()>(
-    &::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::Execute)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x681ba5c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput>(), { "Execute", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::Execute() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput>(), { "Execute", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
-}
-/// @brief Convert operator to "::Unity::Jobs::IJob"
-constexpr UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::operator ::Unity::Jobs::IJob*() {
-  return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::Unity::Jobs::IJob"
-constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::i___Unity__Jobs__IJob() {
-  return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "lodBias", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "context", ty: "::UnityEngine::Rendering::BatchCullingContext*",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "receiverPlanes", ty: "::UnityEngine::Rendering::ReceiverPlanes*", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "receiverSphereCuller", ty: "::UnityEngine::Rendering::ReceiverSphereCuller*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "frustumPlaneCuller", ty:
-// "::UnityEngine::Rendering::FrustumPlaneCuller*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "screenRelativeMetric", ty: "float_t*", modifiers: "", def_value:
-// Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::InstanceCuller_SetupCullingJobInput(float_t lodBias, ::UnityEngine::Rendering::BatchCullingContext* context,
-                                                                                                             ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes,
-                                                                                                             ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller,
-                                                                                                             ::UnityEngine::Rendering::FrustumPlaneCuller* frustumPlaneCuller,
-                                                                                                             float_t* screenRelativeMetric) noexcept {
-  this->lodBias = lodBias;
-  this->context = context;
-  this->receiverPlanes = receiverPlanes;
-  this->receiverSphereCuller = receiverSphereCuller;
-  this->frustumPlaneCuller = frustumPlaneCuller;
-  this->screenRelativeMetric = screenRelativeMetric;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::InstanceCuller_SetupCullingJobInput::InstanceCuller_SetupCullingJobInput() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData::*)()>(
     &::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681bb58;
+  constexpr static std::size_t addrs = 0x6c4e5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,25 +191,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller___c::*)()>(&::UnityEngine::Rendering::InstanceCuller___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681bbb0;
+  constexpr static std::size_t addrs = 0x6c4e648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller___c._InstanceOcclusionTest_b__26_0
+//  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller___c._InstanceOcclusionTest_b__28_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller___c::*)(::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*,
                                                                                                               ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*)>(
-    &::UnityEngine::Rendering::InstanceCuller___c::_InstanceOcclusionTest_b__26_0)> {
+    &::UnityEngine::Rendering::InstanceCuller___c::_InstanceOcclusionTest_b__28_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x681bbb4;
+  constexpr static std::size_t addrs = 0x6c4e64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller___c*>(),
-                                                                                           { "<InstanceOcclusionTest>b__26_0",
+                                                                                           { "<InstanceOcclusionTest>b__28_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>() } })));
@@ -255,31 +223,31 @@ inline void UnityEngine::Rendering::InstanceCuller___c::setStaticF___9(::UnityEn
 inline ::UnityEngine::Rendering::InstanceCuller___c* UnityEngine::Rendering::InstanceCuller___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::InstanceCuller___c*, "<>9", ::UnityEngine::Rendering::InstanceCuller___c*>();
 }
-inline void UnityEngine::Rendering::InstanceCuller___c::setStaticF___9__26_0(
+inline void UnityEngine::Rendering::InstanceCuller___c::setStaticF___9__28_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*,
-                                    "<>9__26_0", ::UnityEngine::Rendering::InstanceCuller___c*>(
+                                    "<>9__28_0", ::UnityEngine::Rendering::InstanceCuller___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*
-UnityEngine::Rendering::InstanceCuller___c::getStaticF___9__26_0() {
+UnityEngine::Rendering::InstanceCuller___c::getStaticF___9__28_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*,
-                                           "<>9__26_0", ::UnityEngine::Rendering::InstanceCuller___c*>();
+                                           "<>9__28_0", ::UnityEngine::Rendering::InstanceCuller___c*>();
 }
 inline void UnityEngine::Rendering::InstanceCuller___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::InstanceCuller___c::_InstanceOcclusionTest_b__26_0(::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData* data,
+inline void UnityEngine::Rendering::InstanceCuller___c::_InstanceOcclusionTest_b__28_0(::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData* data,
                                                                                        ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* context) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller___c*>(), { "<InstanceOcclusionTest>b__26_0",
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller___c*>(), { "<InstanceOcclusionTest>b__28_0",
                                                                                                            {},
                                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData*>(),
                                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>() } })));
@@ -295,8 +263,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(
     ::UnityEngine::Rendering::GPUResidentDrawerResources*, ::UnityEngine::Rendering::DebugRendererBatcherStats*)>(&::UnityEngine::Rendering::InstanceCuller::Init)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x681970c;
+  constexpr static std::size_t size = 0x2b8;
+  constexpr static std::size_t addrs = 0x6c4b6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,38 +274,59 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller.AnimateCrossFades
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::InstanceCuller::*)(
+    ::UnityEngine::Rendering::CPUPerCameraInstanceData, ::UnityEngine::Rendering::BatchCullingContext, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays>,
+    ::by_ref<bool>)>(&::UnityEngine::Rendering::InstanceCuller::AnimateCrossFades)> {
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x6c4b978;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
+                                                { "AnimateCrossFades",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::CPUPerCameraInstanceData>(), ::i2c::type_of<::UnityEngine::Rendering::BatchCullingContext>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays>>(), ::i2c::type_of<::by_ref<bool>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller.CreateFrustumCullingJob
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::InstanceCuller::*)(
     ::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>, ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>,
-    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>, ::by_ref<::UnityEngine::Rendering::BinningConfig>, float_t, ::UnityEngine::Rendering::OcclusionCullingCommon*,
-    ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>)>(&::UnityEngine::Rendering::InstanceCuller::CreateFrustumCullingJob)> {
-  constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x6819990;
+    ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>, ::by_ref<::UnityEngine::Rendering::BinningConfig>,
+    float_t, ::UnityEngine::Rendering::OcclusionCullingCommon*, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>,
+    ::Unity::Collections::NativeArray_1<uint8_t>)>(&::UnityEngine::Rendering::InstanceCuller::CreateFrustumCullingJob)> {
+  constexpr static std::size_t size = 0x4fc;
+  constexpr static std::size_t addrs = 0x6c4bbf0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
-                            { "CreateFrustumCullingJob",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(),
-                                ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BinningConfig>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-                                ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
+                         { "CreateFrustumCullingJob",
+                           {},
+                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(),
+                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(),
+                             ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BinningConfig>>(),
+                             ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(),
+                             ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller.ComputeWorstCaseDrawCommandCount
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceCuller::*)(
-    ::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::UnityEngine::Rendering::BinningConfig, ::UnityEngine::Rendering::CPUDrawInstanceData*, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceCuller::*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext>,
+                                                                                                             ::UnityEngine::Rendering::BinningConfig, ::UnityEngine::Rendering::CPUDrawInstanceData*)>(
     &::UnityEngine::Rendering::InstanceCuller::ComputeWorstCaseDrawCommandCount)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6819de0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6c4c0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +334,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
                                                              { "ComputeWorstCaseDrawCommandCount",
                                                                {},
                                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::UnityEngine::Rendering::BinningConfig>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>(), ::i2c::type_of<int32_t>() } })));
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>() } })));
     return ___internal_method;
   }
 };
@@ -354,12 +343,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::InstanceCuller::*)(
     ::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::UnityEngine::Rendering::BatchCullingOutput, ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>,
-    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>, ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly>,
-    ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>, ::UnityEngine::Rendering::CPUDrawInstanceData*,
-    ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID>, int32_t, float_t, ::UnityEngine::Rendering::OcclusionCullingCommon*)>(
-    &::UnityEngine::Rendering::InstanceCuller::CreateCullJobTree)> {
-  constexpr static std::size_t size = 0x82c;
-  constexpr static std::size_t addrs = 0x6819edc;
+    ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>, ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>,
+    ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly>, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>,
+    ::UnityEngine::Rendering::CPUDrawInstanceData*, ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID>, float_t,
+    ::UnityEngine::Rendering::OcclusionCullingCommon*)>(&::UnityEngine::Rendering::InstanceCuller::CreateCullJobTree)> {
+  constexpr static std::size_t size = 0x8ec;
+  constexpr static std::size_t addrs = 0x6c4c1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,9 +358,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                               {},
                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::UnityEngine::Rendering::BatchCullingOutput>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly>>(),
                                 ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(), ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>(),
-                                ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(),
+                                ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID>>(), ::i2c::type_of<float_t>(),
                                 ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>() } })));
     return ___internal_method;
   }
@@ -383,7 +372,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                                                               ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::InstanceCuller::CreateCompactedVisibilityMaskJob)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x681a708;
+  constexpr static std::size_t addrs = 0x6c4cac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(int32_t, int32_t, ::UnityEngine::Rendering::RenderersBatchersContext*)>(
     &::UnityEngine::Rendering::InstanceCuller::InstanceOccludersUpdated)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x681a85c;
+  constexpr static std::size_t addrs = 0x6c4cc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::DisposeCompactVisibilityMasks)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x681a8f0;
+  constexpr static std::size_t addrs = 0x6c4ccac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "DisposeCompactVisibilityMasks", {}, {} })));
@@ -428,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::DisposeSceneViewHiddenBits)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681a94c;
+  constexpr static std::size_t addrs = 0x6c4cd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "DisposeSceneViewHiddenBits", {}, {} })));
@@ -441,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ParallelBitArray (::UnityEngine::Rendering::InstanceCuller::*)(bool)>(
     &::UnityEngine::Rendering::InstanceCuller::GetCompactedVisibilityMasks)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x681a950;
+  constexpr static std::size_t addrs = 0x6c4cd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -455,8 +444,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>,
     ::UnityEngine::Rendering::RenderersBatchersContext*)>(&::UnityEngine::Rendering::InstanceCuller::InstanceOcclusionTest)> {
-  constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x6811560;
+  constexpr static std::size_t size = 0x4f4;
+  constexpr static std::size_t addrs = 0x6c41f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(int32_t)>(&::UnityEngine::Rendering::InstanceCuller::EnsureValidOcclusionTestResults)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x681a9b4;
+  constexpr static std::size_t addrs = 0x6c4cd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -490,8 +479,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>,
     ::by_ref<::UnityEngine::Rendering::IndirectBufferContextHandles>, ::by_ref<::UnityEngine::Rendering::OccluderHandles>, ::UnityEngine::Rendering::RenderersBatchersContext*)>(
     &::UnityEngine::Rendering::InstanceCuller::AddOcclusionCullingDispatch)> {
-  constexpr static std::size_t size = 0xa2c;
-  constexpr static std::size_t addrs = 0x681ac5c;
+  constexpr static std::size_t size = 0xaf8;
+  constexpr static std::size_t addrs = 0x6c4d018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,8 +498,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::FlushDebugCounters)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x681b688;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6c4db10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "FlushDebugCounters", {}, {} })));
@@ -522,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::OnBeginSceneViewCameraRendering)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681b6bc;
+  constexpr static std::size_t addrs = 0x6c4db58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -535,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::OnEndSceneViewCameraRendering)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681b6c0;
+  constexpr static std::size_t addrs = 0x6c4db5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "OnEndSceneViewCameraRendering", {}, {} })));
@@ -545,12 +534,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::InstanceCuller.UpdateFrame
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::UpdateFrame)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x681b6c4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(int32_t)>(&::UnityEngine::Rendering::InstanceCuller::UpdateFrame)> {
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6c4db60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "UpdateFrame", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "UpdateFrame", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -559,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::InstanceCuller::OnBeginCameraRendering)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x681b728;
+  constexpr static std::size_t addrs = 0x6c4dc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -572,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::InstanceCuller::OnEndCameraRendering)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x681b740;
+  constexpr static std::size_t addrs = 0x6c4dc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,8 +574,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCuller::*)()>(&::UnityEngine::Rendering::InstanceCuller::Dispose)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x681b758;
+  constexpr static std::size_t size = 0x738;
+  constexpr static std::size_t addrs = 0x6c4dca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "Dispose", {}, {} })));
@@ -599,59 +589,72 @@ inline void UnityEngine::Rendering::InstanceCuller::Init(::UnityEngine::Renderin
                           { "Init", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUResidentDrawerResources*>(), ::i2c::type_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, resources, debugStats);
 }
+inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::AnimateCrossFades(::UnityEngine::Rendering::CPUPerCameraInstanceData perCameraInstanceData,
+                                                                                          ::UnityEngine::Rendering::BatchCullingContext cc,
+                                                                                          ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays> cameraInstanceData,
+                                                                                          ::by_ref<bool> hasAnimatedCrossfade) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
+                                              { "AnimateCrossFades",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::CPUPerCameraInstanceData>(), ::i2c::type_of<::UnityEngine::Rendering::BatchCullingContext>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays>>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, perCameraInstanceData, cc, cameraInstanceData, hasAnimatedCrossfade);
+}
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateFrustumCullingJob(
     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BinningConfig> binningConfig,
     float_t smallMeshScreenPercentage, ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon, ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks,
-    ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) {
+    ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
-          { "CreateFrustumCullingJob",
-            {},
-            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(), ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BinningConfig>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(),
-              ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, cc, instanceData, sharedInstanceData, lodGroupCullingData, binningConfig, smallMeshScreenPercentage,
-                                                                       occlusionCullingCommon, rendererVisibilityMasks, rendererCrossFadeValues);
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
+                          { "CreateFrustumCullingJob",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(),
+                              ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BinningConfig>>(),
+                              ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(),
+                              ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, cc, instanceData, sharedInstanceData, perCameraInstanceData, lodGroupCullingData, binningConfig,
+                                                                       smallMeshScreenPercentage, occlusionCullingCommon, rendererVisibilityMasks, rendererMeshLodSettings, rendererCrossFadeValues);
 }
 inline int32_t UnityEngine::Rendering::InstanceCuller::ComputeWorstCaseDrawCommandCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
                                                                                         ::UnityEngine::Rendering::BinningConfig binningConfig,
-                                                                                        ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData, int32_t crossFadedRendererCount) {
+                                                                                        ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
                                                            { "ComputeWorstCaseDrawCommandCount",
                                                              {},
                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::UnityEngine::Rendering::BinningConfig>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, cc, binningConfig, drawInstanceData, crossFadedRendererCount);
+                                                               ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, cc, binningConfig, drawInstanceData);
 }
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCullJobTree(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
                                                                                           ::UnityEngine::Rendering::BatchCullingOutput cullingOutput,
                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly> sharedInstanceData,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData> perCameraInstanceData,
                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly> instanceDataBuffer,
                                                                                           ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData,
                                                                                           ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData,
                                                                                           ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs,
-                                                                                          int32_t crossFadedRendererCount, float_t smallMeshScreenPercentage,
-                                                                                          ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon) {
+                                                                                          float_t smallMeshScreenPercentage, ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
-          { "CreateCullJobTree",
-            {},
-            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::UnityEngine::Rendering::BatchCullingOutput>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly>>(), ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(),
-              ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>(), ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID>>(),
-              ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, cc, cullingOutput, instanceData, sharedInstanceData, instanceDataBuffer, lodGroupCullingData,
-                                                                       drawInstanceData, batchIDs, crossFadedRendererCount, smallMeshScreenPercentage, occlusionCullingCommon);
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(),
+                          { "CreateCullJobTree",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::UnityEngine::Rendering::BatchCullingOutput>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly>>(),
+                              ::i2c::type_of<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>(), ::i2c::type_of<::UnityEngine::Rendering::CPUDrawInstanceData*>(),
+                              ::i2c::type_of<::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID>>(), ::i2c::type_of<float_t>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::OcclusionCullingCommon*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, cc, cullingOutput, instanceData, sharedInstanceData, perCameraInstanceData, instanceDataBuffer,
+                                                                       lodGroupCullingData, drawInstanceData, batchIDs, smallMeshScreenPercentage, occlusionCullingCommon);
 }
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::InstanceCuller::CreateCompactedVisibilityMaskJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
                                                                                                          ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks,
@@ -730,9 +733,10 @@ inline void UnityEngine::Rendering::InstanceCuller::OnEndSceneViewCameraRenderin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "OnEndSceneViewCameraRendering", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::InstanceCuller::UpdateFrame() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "UpdateFrame", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+inline void UnityEngine::Rendering::InstanceCuller::UpdateFrame(int32_t cameraCount) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCuller>(), { "UpdateFrame", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cameraCount);
 }
 inline void UnityEngine::Rendering::InstanceCuller::OnBeginCameraRendering(::UnityEngine::Camera* camera) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -756,8 +760,9 @@ constexpr UnityEngine::Rendering::InstanceCuller::operator ::System::IDisposable
 constexpr ::System::IDisposable* UnityEngine::Rendering::InstanceCuller::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_CompactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "m_CompactedVisibilityMasksJobsHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IndirectStorage", ty:
+// Ctor Parameters [CppParam { name: "m_LODParamsToCameraID", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::InstanceCuller_AnimatedFadeData>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_CompactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_CompactedVisibilityMasksJobsHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IndirectStorage", ty:
 // "::UnityEngine::Rendering::IndirectBufferContextStorage", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OcclusionTestShader", ty:
 // "::UnityEngine::Rendering::OcclusionTestComputeShader", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ResetDrawArgsKernel", ty: "int32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "m_CopyInstancesKernel", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CullInstancesKernel", ty: "int32_t",
@@ -768,15 +773,16 @@ constexpr ::System::IDisposable* UnityEngine::Rendering::InstanceCuller::i___Sys
 // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ConstantBuffer",
 // ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CommandBuffer", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "",
 // def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::InstanceCuller::InstanceCuller(::UnityEngine::Rendering::ParallelBitArray m_CompactedVisibilityMasks, ::Unity::Jobs::JobHandle m_CompactedVisibilityMasksJobsHandle,
-                                                                   ::UnityEngine::Rendering::IndirectBufferContextStorage m_IndirectStorage,
-                                                                   ::UnityEngine::Rendering::OcclusionTestComputeShader m_OcclusionTestShader, int32_t m_ResetDrawArgsKernel,
-                                                                   int32_t m_CopyInstancesKernel, int32_t m_CullInstancesKernel, ::UnityEngine::Rendering::DebugRendererBatcherStats* m_DebugStats,
-                                                                   ::UnityEngine::Rendering::InstanceCullerSplitDebugArray m_SplitDebugArray,
-                                                                   ::UnityEngine::Rendering::InstanceOcclusionEventDebugArray m_OcclusionEventDebugArray,
-                                                                   ::UnityEngine::Rendering::ProfilingSampler* m_ProfilingSampleInstanceOcclusionTest,
-                                                                   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables> m_ShaderVariables,
-                                                                   ::UnityEngine::ComputeBuffer* m_ConstantBuffer, ::UnityEngine::Rendering::CommandBuffer* m_CommandBuffer) noexcept {
+constexpr ::UnityEngine::Rendering::InstanceCuller::InstanceCuller(
+    ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceCuller_AnimatedFadeData> m_LODParamsToCameraID,
+    ::UnityEngine::Rendering::ParallelBitArray m_CompactedVisibilityMasks, ::Unity::Jobs::JobHandle m_CompactedVisibilityMasksJobsHandle,
+    ::UnityEngine::Rendering::IndirectBufferContextStorage m_IndirectStorage, ::UnityEngine::Rendering::OcclusionTestComputeShader m_OcclusionTestShader, int32_t m_ResetDrawArgsKernel,
+    int32_t m_CopyInstancesKernel, int32_t m_CullInstancesKernel, ::UnityEngine::Rendering::DebugRendererBatcherStats* m_DebugStats,
+    ::UnityEngine::Rendering::InstanceCullerSplitDebugArray m_SplitDebugArray, ::UnityEngine::Rendering::InstanceOcclusionEventDebugArray m_OcclusionEventDebugArray,
+    ::UnityEngine::Rendering::ProfilingSampler* m_ProfilingSampleInstanceOcclusionTest,
+    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables> m_ShaderVariables, ::UnityEngine::ComputeBuffer* m_ConstantBuffer,
+    ::UnityEngine::Rendering::CommandBuffer* m_CommandBuffer) noexcept {
+  this->m_LODParamsToCameraID = m_LODParamsToCameraID;
   this->m_CompactedVisibilityMasks = m_CompactedVisibilityMasks;
   this->m_CompactedVisibilityMasksJobsHandle = m_CompactedVisibilityMasksJobsHandle;
   this->m_IndirectStorage = m_IndirectStorage;

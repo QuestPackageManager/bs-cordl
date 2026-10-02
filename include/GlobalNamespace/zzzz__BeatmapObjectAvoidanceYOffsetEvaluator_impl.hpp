@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::*)(float_t, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3282758;
+  constexpr static std::size_t addrs = 0x350be54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>(),
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::IJumpOffsetYProvider*, ::GlobalNamespace::IVariableMovementDataProvider*, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x328259c;
+  constexpr static std::size_t addrs = 0x350bc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::ManualUpdate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3282760;
+  constexpr static std::size_t addrs = 0x350be5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>(), { "ManualUpdate", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)(float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::GetJumpOffsetYAtJumpStartSongTime)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x32828d8;
+  constexpr static std::size_t addrs = 0x350bfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

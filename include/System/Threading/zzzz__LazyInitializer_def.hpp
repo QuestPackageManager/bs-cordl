@@ -61,7 +61,7 @@ public:
     requires(::cordl_internals::reference_type_constraint<T>)
   static inline T EnsureInitializedCore(::by_ref<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized, addr 0x5ca8bf4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EnsureLockInitialized, addr 0x60c273c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(::by_ref<::System::Object*> syncLock);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<::BeatSaber::FeatureFlags::Feature, ::BeatSaber::FeatureFlags::FeatureConfiguration*>* (
     ::BeatSaber::FeatureFlags::FeatureFlags::*)()>(&::BeatSaber::FeatureFlags::FeatureFlags::GetConfiguration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328b79c;
+  constexpr static std::size_t addrs = 0x35140bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlags*>(), { "GetConfiguration", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlags::*)()>(&::BeatSaber::FeatureFlags::FeatureFlags::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x328b7a4;
+  constexpr static std::size_t addrs = 0x35140c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlags*>(), { ".ctor", {}, {} })));

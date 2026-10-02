@@ -67,19 +67,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_multiplayerStatusUrl
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_multiplayerStatusUrl)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 5 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_quickPlaySetupUrl
 template <>
 
@@ -89,20 +76,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 6 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 5 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_graphUrl
+//  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_graphApiBaseUrl
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_graphUrl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_graphApiBaseUrl)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -115,7 +102,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 7 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_remoteAssetsBaseUrl
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_remoteAssetsBaseUrl)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 8 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_isDevServer
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_isDevServer)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -128,7 +141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 9 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -136,19 +149,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_graphAppId)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 10 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_forceGameLift
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::INetworkConfig::*)()>(&::GlobalNamespace::INetworkConfig::get_forceGameLift)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -230,33 +230,33 @@ inline int32_t GlobalNamespace::INetworkConfig::get_masterServerPort() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::INetworkConfig::get_multiplayerStatusUrl() {
+inline ::StringW GlobalNamespace::INetworkConfig::get_quickPlaySetupUrl() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::INetworkConfig::get_quickPlaySetupUrl() {
+inline ::StringW GlobalNamespace::INetworkConfig::get_graphApiBaseUrl() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::INetworkConfig::get_graphUrl() {
+inline ::StringW GlobalNamespace::INetworkConfig::get_graphQLUrl() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::INetworkConfig::get_graphQLUrl() {
+inline ::StringW GlobalNamespace::INetworkConfig::get_remoteAssetsBaseUrl() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::INetworkConfig::get_graphAccessToken() {
+inline bool GlobalNamespace::INetworkConfig::get_isDevServer() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::INetworkConfig::get_graphAccessToken() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline uint64_t GlobalNamespace::INetworkConfig::get_graphAppId() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t>(this, ___internal_method);
-}
-inline bool GlobalNamespace::INetworkConfig::get_forceGameLift() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 11 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<uint64_t>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::INetworkConfig::get_localServerPort() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::INetworkConfig*>(), 12 })));

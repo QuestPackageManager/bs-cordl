@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::OculusStudios::GraphQL::Client::GraphQLModel*>* (
     ::OculusStudios::GraphQL::Client::IFragment::*)()>(&::OculusStudios::GraphQL::Client::IFragment::GetNestedFragments)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f229d4;
+  constexpr static std::size_t addrs = 0x633d650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

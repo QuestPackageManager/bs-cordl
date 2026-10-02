@@ -7,13 +7,14 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Resources.FindObjectsOfTypeAll
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::System::Type*)>(&::UnityEngine::Resources::FindObjectsOfTypeAll)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ad9560;
+  constexpr static std::size_t addrs = 0x6f33694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW)>(&::UnityEngine::Resources::Load)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ad95cc;
+  constexpr static std::size_t addrs = 0x6f33700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "Load", {}, { ::i2c::type_of<::StringW>() } })));
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW, ::System::Type*)>(&::UnityEngine::Resources::Load)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ad8af4;
+  constexpr static std::size_t addrs = 0x6f32b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::StringW, ::System::Type*)>(&::UnityEngine::Resources::LoadAll)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ad963c;
+  constexpr static std::size_t addrs = 0x6f33770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::StringW)>(&::UnityEngine::Resources::LoadAll)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ad96b8;
+  constexpr static std::size_t addrs = 0x6f337ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "LoadAll", {}, { ::i2c::type_of<::StringW>() } })));
@@ -76,11 +77,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*, ::StringW)>(&::UnityEngine::Resources::GetBuiltinResource)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6ad9728;
+  constexpr static std::size_t addrs = 0x6f3385c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "GetBuiltinResource", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Resources.UnloadAsset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::UnityEngine::Resources::UnloadAsset)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6f33b2c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadAsset", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
     return ___internal_method;
   }
 };
@@ -89,10 +103,36 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)()>(&::UnityEngine::Resources::UnloadUnusedAssets)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ad99f8;
+  constexpr static std::size_t addrs = 0x6f33b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadUnusedAssets", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Resources.EntityIdToObject
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::EntityId)>(&::UnityEngine::Resources::EntityIdToObject)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6f33c80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject", {}, { ::i2c::type_of<::UnityEngine::EntityId>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Resources.EntityIdIsValid
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EntityId)>(&::UnityEngine::Resources::EntityIdIsValid)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6f33ddc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid", {}, { ::i2c::type_of<::UnityEngine::EntityId>() } })));
     return ___internal_method;
   }
 };
@@ -102,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Type*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Resources::GetBuiltinResource_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad99b4;
+  constexpr static std::size_t addrs = 0x6f33ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,10 +157,36 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Resources::UnloadUnusedAssets_Injected)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ad9a30;
+  constexpr static std::size_t addrs = 0x6f33bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadUnusedAssets_Injected", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Resources.EntityIdToObject_Injected
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Resources::EntityIdToObject_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6f33da0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Resources.EntityIdIsValid_Injected
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Resources::EntityIdIsValid_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6f33e20;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
     return ___internal_method;
   }
 };
@@ -183,9 +249,24 @@ inline T UnityEngine::Resources::GetBuiltinResource(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, path);
 }
+inline void UnityEngine::Resources::UnloadAsset(::UnityEngine::Object* assetToUnload) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadAsset", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, assetToUnload);
+}
 inline ::UnityEngine::AsyncOperation* UnityEngine::Resources::UnloadUnusedAssets() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadUnusedAssets", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AsyncOperation*>(nullptr, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Resources::EntityIdToObject(::UnityEngine::EntityId entityId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject", {}, { ::i2c::type_of<::UnityEngine::EntityId>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, entityId);
+}
+inline bool UnityEngine::Resources::EntityIdIsValid(::UnityEngine::EntityId entityId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid", {}, { ::i2c::type_of<::UnityEngine::EntityId>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, entityId);
 }
 inline ::System::IntPtr UnityEngine::Resources::GetBuiltinResource_Injected(::System::Type* type, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -196,6 +277,16 @@ inline ::System::IntPtr UnityEngine::Resources::GetBuiltinResource_Injected(::Sy
 inline ::System::IntPtr UnityEngine::Resources::UnloadUnusedAssets_Injected() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadUnusedAssets_Injected", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
+}
+inline ::System::IntPtr UnityEngine::Resources::EntityIdToObject_Injected(::by_ref<::UnityEngine::EntityId> entityId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, entityId);
+}
+inline bool UnityEngine::Resources::EntityIdIsValid_Injected(::by_ref<::UnityEngine::EntityId> entityId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, entityId);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Resources::Resources() {}

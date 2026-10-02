@@ -21,7 +21,7 @@ namespace UnityEngine::Scripting::APIUpdating {
 struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x6aff128, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6f5a30c, size 0x34, virtual false, abstract: false, final false
   inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr MovedFromAttributeData(::StringW className, ::StringW nameSpace, ::StringW assembly, bool classHasChanged, bool nameSpaceHasChanged, bool assemblyHasChanged, bool autoUdpateAPI) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10074 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

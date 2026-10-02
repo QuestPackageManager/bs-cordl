@@ -24,7 +24,7 @@ class CORDL_TYPE SceneTransitionFadingExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ShouldFadeOnSceneTransition, addr 0x5f4b8a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ShouldFadeOnSceneTransition, addr 0x63679a8, size 0x10, virtual false, abstract: false, final false
   static inline bool ShouldFadeOnSceneTransition(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType);
 
 protected:
@@ -42,7 +42,7 @@ public:
   SceneTransitionFadingExtensions(SceneTransitionFadingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

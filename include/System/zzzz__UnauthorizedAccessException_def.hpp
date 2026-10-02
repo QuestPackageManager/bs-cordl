@@ -37,16 +37,16 @@ public:
 
   static inline ::System::UnauthorizedAccessException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5c667c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60803fc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c66864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6080498, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c66824, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6080458, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c66844, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6080478, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

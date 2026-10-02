@@ -4,10 +4,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Component_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LODGroup)
 namespace System {
 struct IntPtr;
+}
+namespace UnityEngine {
+struct LOD;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -19,10 +23,10 @@ class LODGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::LODGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LODGroup*, "UnityEngine", "LODGroup");
-// [NativeHeader("Runtime/Graphics/LOD/LODGroup.h")]
 // [NativeHeader("Runtime/Graphics/LOD/LODGroupManager.h")]
-// [NativeHeader("Runtime/Graphics/LOD/LODUtility.h")]
 // [StaticAccessor("GetLODGroupManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Runtime/Graphics/LOD/LODUtility.h")]
+// [NativeHeader("Runtime/Graphics/LOD/LODGroup.h")]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -34,16 +38,23 @@ public:
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method get_localReferencePoint, addr 0x6aa6a68, size 0xa0, virtual false, abstract: false, final false
+  /// [FreeFunction("GetLODs_Binding", HasExplicitThis = true)]
+  /// @brief Method GetLODs, addr 0x6efc920, size 0x80, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::LOD> GetLODs();
+
+  /// @brief Method GetLODs_Injected, addr 0x6efc9a0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::LOD> GetLODs_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_localReferencePoint, addr 0x6efc780, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localReferencePoint();
 
-  /// @brief Method get_localReferencePoint_Injected, addr 0x6aa6b08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localReferencePoint_Injected, addr 0x6efc820, size 0x44, virtual false, abstract: false, final false
   static inline void get_localReferencePoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_size, addr 0x6aa6b4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6efc864, size 0x80, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6aa6bcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x6efc8e4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_size_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -61,7 +72,7 @@ public:
   LODGroup(LODGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

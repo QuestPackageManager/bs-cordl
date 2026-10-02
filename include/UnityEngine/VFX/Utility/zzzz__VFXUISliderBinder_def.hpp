@@ -39,15 +39,15 @@ public:
   /// @brief Field m_Property, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::UnityEngine::VFX::Utility::ExposedProperty* m_Property;
 
-  /// @brief Method IsValid, addr 0x69e87a8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6e25dd0, size 0xac, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXUISliderBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69e88b0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e25ed8, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e8854, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x6e25e7c, size 0x5c, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::UnityW<::UnityEngine::UI::Slider> const& __cordl_internal_get_Target() const;
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Property(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e89ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e25fd4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Property, addr 0x69e8770, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x6e25d98, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Property();
 
-  /// @brief Method set_Property, addr 0x69e8788, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x6e25db0, size 0x20, virtual false, abstract: false, final false
   inline void set_Property(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   VFXUISliderBinder(VFXUISliderBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20276 };
 
   /// [VFXPropertyBinding(new[] { "System.Single" })]
   /// [SerializeField]

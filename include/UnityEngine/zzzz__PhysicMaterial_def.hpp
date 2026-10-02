@@ -5,15 +5,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__PhysicMaterialCombine_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PhysicMaterial)
 namespace UnityEngine {
 struct PhysicMaterialCombine;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -22,9 +18,9 @@ class PhysicMaterial;
 // Write type traits
 MARK_REF_T(::UnityEngine::PhysicMaterial*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PhysicMaterial*, "UnityEngine", "PhysicMaterial");
-// [Obsolete("PhysicMaterial has been renamed to PhysicsMaterial. Please use PhysicsMaterial instead. (UnityUpgradable) -> PhysicsMaterial", true)]
 // [NativeClass(null)]
-// Dependencies UnityEngine.Object, UnityEngine.PhysicMaterialCombine, UnityEngine.Vector3
+// [Obsolete("PhysicMaterial has been renamed to PhysicsMaterial. Please use PhysicsMaterial instead. (UnityUpgradable) -> PhysicsMaterial", true)]
+// Dependencies UnityEngine.Object, UnityEngine.PhysicMaterialCombine
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.PhysicMaterial
@@ -41,26 +37,12 @@ public:
   /// @brief Field <bouncyness>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__bouncyness_k__BackingField, put = __cordl_internal_set__bouncyness_k__BackingField)) float_t _bouncyness_k__BackingField;
 
-  /// @brief Field <dynamicFriction2>k__BackingField, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__dynamicFriction2_k__BackingField, put = __cordl_internal_set__dynamicFriction2_k__BackingField)) float_t _dynamicFriction2_k__BackingField;
-
   /// @brief Field <dynamicFriction>k__BackingField, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__dynamicFriction_k__BackingField, put = __cordl_internal_set__dynamicFriction_k__BackingField)) float_t _dynamicFriction_k__BackingField;
 
   /// @brief Field <frictionCombine>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__frictionCombine_k__BackingField,
                       put = __cordl_internal_set__frictionCombine_k__BackingField)) ::UnityEngine::PhysicMaterialCombine _frictionCombine_k__BackingField;
-
-  /// @brief Field <frictionDirection2>k__BackingField, offset 0x30, size 0xc
-  __declspec(property(get = __cordl_internal_get__frictionDirection2_k__BackingField,
-                      put = __cordl_internal_set__frictionDirection2_k__BackingField)) ::UnityEngine::Vector3 _frictionDirection2_k__BackingField;
-
-  /// @brief Field <frictionDirection>k__BackingField, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get__frictionDirection_k__BackingField,
-                      put = __cordl_internal_set__frictionDirection_k__BackingField)) ::UnityEngine::Vector3 _frictionDirection_k__BackingField;
-
-  /// @brief Field <staticFriction2>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__staticFriction2_k__BackingField, put = __cordl_internal_set__staticFriction2_k__BackingField)) float_t _staticFriction2_k__BackingField;
 
   /// @brief Field <staticFriction>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__staticFriction_k__BackingField, put = __cordl_internal_set__staticFriction_k__BackingField)) float_t _staticFriction_k__BackingField;
@@ -74,25 +56,9 @@ public:
 
   __declspec(property(get = get_dynamicFriction, put = set_dynamicFriction)) float_t dynamicFriction;
 
-  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief [Obsolete("Anisotropic friction is no longer supported since Unity 5.0.", true)]
-  __declspec(property(get = get_dynamicFriction2, put = set_dynamicFriction2)) float_t dynamicFriction2;
-
   __declspec(property(get = get_frictionCombine, put = set_frictionCombine)) ::UnityEngine::PhysicMaterialCombine frictionCombine;
 
-  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief [Obsolete("Anisotropic friction is no longer supported since Unity 5.0.", true)]
-  __declspec(property(get = get_frictionDirection, put = set_frictionDirection)) ::UnityEngine::Vector3 frictionDirection;
-
-  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief [Obsolete("Anisotropic friction is no longer supported since Unity 5.0.", true)]
-  __declspec(property(get = get_frictionDirection2, put = set_frictionDirection2)) ::UnityEngine::Vector3 frictionDirection2;
-
   __declspec(property(get = get_staticFriction, put = set_staticFriction)) float_t staticFriction;
-
-  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief [Obsolete("Anisotropic friction is no longer supported since Unity 5.0.", true)]
-  __declspec(property(get = get_staticFriction2, put = set_staticFriction2)) float_t staticFriction2;
 
   static inline ::UnityEngine::PhysicMaterial* New_ctor();
 
@@ -110,10 +76,6 @@ public:
 
   constexpr float_t& __cordl_internal_get__bouncyness_k__BackingField();
 
-  constexpr float_t const& __cordl_internal_get__dynamicFriction2_k__BackingField() const;
-
-  constexpr float_t& __cordl_internal_get__dynamicFriction2_k__BackingField();
-
   constexpr float_t const& __cordl_internal_get__dynamicFriction_k__BackingField() const;
 
   constexpr float_t& __cordl_internal_get__dynamicFriction_k__BackingField();
@@ -121,18 +83,6 @@ public:
   constexpr ::UnityEngine::PhysicMaterialCombine const& __cordl_internal_get__frictionCombine_k__BackingField() const;
 
   constexpr ::UnityEngine::PhysicMaterialCombine& __cordl_internal_get__frictionCombine_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__frictionDirection2_k__BackingField() const;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__frictionDirection2_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__frictionDirection_k__BackingField() const;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__frictionDirection_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__staticFriction2_k__BackingField() const;
-
-  constexpr float_t& __cordl_internal_get__staticFriction2_k__BackingField();
 
   constexpr float_t const& __cordl_internal_get__staticFriction_k__BackingField() const;
 
@@ -144,105 +94,65 @@ public:
 
   constexpr void __cordl_internal_set__bouncyness_k__BackingField(float_t value);
 
-  constexpr void __cordl_internal_set__dynamicFriction2_k__BackingField(float_t value);
-
   constexpr void __cordl_internal_set__dynamicFriction_k__BackingField(float_t value);
 
   constexpr void __cordl_internal_set__frictionCombine_k__BackingField(::UnityEngine::PhysicMaterialCombine value);
 
-  constexpr void __cordl_internal_set__frictionDirection2_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr void __cordl_internal_set__frictionDirection_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr void __cordl_internal_set__staticFriction2_k__BackingField(float_t value);
-
   constexpr void __cordl_internal_set__staticFriction_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x6b93bdc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fff5c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b93c34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fff61c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   /// [CompilerGenerated]
-  /// @brief Method get_bounceCombine, addr 0x6b93ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounceCombine, addr 0x6fff6b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicMaterialCombine get_bounceCombine();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bounciness, addr 0x6b93c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x6fff674, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bouncyness, addr 0x6b93cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bouncyness, addr 0x6fff6c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bouncyness();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dynamicFriction, addr 0x6b93c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicFriction, addr 0x6fff684, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dynamicFriction();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dynamicFriction2, addr 0x6b93d04, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_dynamicFriction2();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_frictionCombine, addr 0x6b93cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frictionCombine, addr 0x6fff6a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicMaterialCombine get_frictionCombine();
 
   /// [CompilerGenerated]
-  /// @brief Method get_frictionDirection, addr 0x6b93d24, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_frictionDirection();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_frictionDirection2, addr 0x6b93cec, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_frictionDirection2();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_staticFriction, addr 0x6b93cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_staticFriction, addr 0x6fff694, size 0x8, virtual false, abstract: false, final false
   inline float_t get_staticFriction();
 
   /// [CompilerGenerated]
-  /// @brief Method get_staticFriction2, addr 0x6b93d14, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_staticFriction2();
-
-  /// [CompilerGenerated]
-  /// @brief Method set_bounceCombine, addr 0x6b93cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounceCombine, addr 0x6fff6bc, size 0x8, virtual false, abstract: false, final false
   inline void set_bounceCombine(::UnityEngine::PhysicMaterialCombine value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_bounciness, addr 0x6b93c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x6fff67c, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_bouncyness, addr 0x6b93ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bouncyness, addr 0x6fff6cc, size 0x8, virtual false, abstract: false, final false
   inline void set_bouncyness(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dynamicFriction, addr 0x6b93ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicFriction, addr 0x6fff68c, size 0x8, virtual false, abstract: false, final false
   inline void set_dynamicFriction(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dynamicFriction2, addr 0x6b93d0c, size 0x8, virtual false, abstract: false, final false
-  inline void set_dynamicFriction2(float_t value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_frictionCombine, addr 0x6b93cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frictionCombine, addr 0x6fff6ac, size 0x8, virtual false, abstract: false, final false
   inline void set_frictionCombine(::UnityEngine::PhysicMaterialCombine value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_frictionDirection, addr 0x6b93d30, size 0xc, virtual false, abstract: false, final false
-  inline void set_frictionDirection(::UnityEngine::Vector3 value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_frictionDirection2, addr 0x6b93cf8, size 0xc, virtual false, abstract: false, final false
-  inline void set_frictionDirection2(::UnityEngine::Vector3 value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_staticFriction, addr 0x6b93cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_staticFriction, addr 0x6fff69c, size 0x8, virtual false, abstract: false, final false
   inline void set_staticFriction(float_t value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_staticFriction2, addr 0x6b93d1c, size 0x8, virtual false, abstract: false, final false
-  inline void set_staticFriction2(float_t value);
 
 protected:
   // Ctor Parameters []
@@ -259,7 +169,7 @@ public:
   PhysicMaterial(PhysicMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19088 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
@@ -271,8 +181,8 @@ public:
   /// @brief Field <dynamicFriction>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   float_t ____dynamicFriction_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <staticFriction>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____staticFriction_k__BackingField;
 
@@ -286,30 +196,10 @@ public:
   /// @brief Field <bounceCombine>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::PhysicMaterialCombine ____bounceCombine_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <bouncyness>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   float_t ____bouncyness_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <frictionDirection2>k__BackingField, offset: 0x30, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____frictionDirection2_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <dynamicFriction2>k__BackingField, offset: 0x3c, size: 0x4, def value: None
-  float_t ____dynamicFriction2_k__BackingField;
-
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// [CompilerGenerated]
-  /// @brief Field <staticFriction2>k__BackingField, offset: 0x40, size: 0x4, def value: None
-  float_t ____staticFriction2_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <frictionDirection>k__BackingField, offset: 0x44, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____frictionDirection_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -326,14 +216,6 @@ static_assert(offsetof(::UnityEngine::PhysicMaterial, ____bounceCombine_k__Backi
 
 static_assert(offsetof(::UnityEngine::PhysicMaterial, ____bouncyness_k__BackingField) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::PhysicMaterial, ____frictionDirection2_k__BackingField) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::PhysicMaterial, ____dynamicFriction2_k__BackingField) == 0x3c, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::PhysicMaterial, ____staticFriction2_k__BackingField) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::PhysicMaterial, ____frictionDirection_k__BackingField) == 0x44, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::PhysicMaterial) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::PhysicMaterial) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine

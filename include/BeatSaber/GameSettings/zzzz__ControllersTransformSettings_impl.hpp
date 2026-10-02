@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::get_selectedControllerProfile)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3294d54;
+  constexpr static std::size_t addrs = 0x351b5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(&::BeatSaber::GameSettings::ControllersTransformSettings::Initialize)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x32941b0;
+  constexpr static std::size_t addrs = 0x351aa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllersTransformSettings*>(), { "Initialize", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(&::BeatSaber::GameSettings::ControllersTransformSettings::Deactivate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3294774;
+  constexpr static std::size_t addrs = 0x351afe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllersTransformSettings*>(), { "Deactivate", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(::BeatSaber::GameSettings::ControllerProfile*)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::RefreshView)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3294b54;
+  constexpr static std::size_t addrs = 0x351b3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllersTransformSettings*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(bool)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::SetInteractable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3294dac;
+  constexpr static std::size_t addrs = 0x351b61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::HandlePositionSliderValueDidChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3294e40;
+  constexpr static std::size_t addrs = 0x351b6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::HandleRotationSliderValueDidChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3294f10;
+  constexpr static std::size_t addrs = 0x351b780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(&::BeatSaber::GameSettings::ControllersTransformSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3294fe0;
+  constexpr static std::size_t addrs = 0x351b850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllersTransformSettings*>(), { ".ctor", {}, {} })));

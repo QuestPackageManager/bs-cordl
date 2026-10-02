@@ -71,7 +71,7 @@ public:
 
   static inline ::GlobalNamespace::CommandNode___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <IntegrateCommand>b__0, addr 0x32cc328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <IntegrateCommand>b__0, addr 0x3553910, size 0x28, virtual false, abstract: false, final false
   inline bool _IntegrateCommand_b__0(::GlobalNamespace::CommandNode* node);
 
   constexpr ::StringW const& __cordl_internal_get_commandNameSubstring() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_commandNameSubstring(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32cbb08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35530f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   CommandNode___c__DisplayClass6_0(CommandNode___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19704 };
 
   /// @brief Field commandNameSubstring, offset: 0x10, size: 0x8, def value: None
   ::StringW ___commandNameSubstring;
@@ -124,7 +124,7 @@ public:
 
   static inline ::GlobalNamespace::CommandNode___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <FindAutocompleteArgumentNames>b__0, addr 0x32cc350, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <FindAutocompleteArgumentNames>b__0, addr 0x3553938, size 0x20, virtual false, abstract: false, final false
   inline bool _FindAutocompleteArgumentNames_b__0(::StringW arg);
 
   constexpr ::StringW const& __cordl_internal_get_inputArgumentName() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_inputArgumentName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32cbcb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35532a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -151,7 +151,7 @@ public:
   CommandNode___c__DisplayClass7_0(CommandNode___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19705 };
 
   /// @brief Field inputArgumentName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___inputArgumentName;
@@ -177,7 +177,7 @@ public:
 
   static inline ::GlobalNamespace::CommandNode___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <FindAutocompleteArgumentValues>b__0, addr 0x32cc370, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <FindAutocompleteArgumentValues>b__0, addr 0x3553958, size 0x88, virtual false, abstract: false, final false
   inline bool _FindAutocompleteArgumentValues_b__0(::StringW autocompleteValue);
 
   constexpr ::StringW const& __cordl_internal_get_inputArgumentValue() const;
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_inputArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32cbeb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35534a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,7 +204,7 @@ public:
   CommandNode___c__DisplayClass8_0(CommandNode___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19706 };
 
   /// @brief Field inputArgumentValue, offset: 0x10, size: 0x8, def value: None
   ::StringW ___inputArgumentValue;
@@ -230,10 +230,10 @@ public:
 
   static inline ::GlobalNamespace::CommandNode___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <FindAutocompleteNodes>b__0, addr 0x32cc3f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <FindAutocompleteNodes>b__0, addr 0x35539e0, size 0x64, virtual false, abstract: false, final false
   inline bool _FindAutocompleteNodes_b__0(::GlobalNamespace::CommandNode* node);
 
-  /// @brief Method <FindAutocompleteNodes>b__1, addr 0x32cc45c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FindAutocompleteNodes>b__1, addr 0x3553a44, size 0x24, virtual false, abstract: false, final false
   inline bool _FindAutocompleteNodes_b__1(::GlobalNamespace::CommandNode* node);
 
   constexpr ::StringW const& __cordl_internal_get_input() const;
@@ -242,7 +242,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32cc1e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35537cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -260,7 +260,7 @@ public:
   CommandNode___c__DisplayClass9_0(CommandNode___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19707 };
 
   /// @brief Field input, offset: 0x10, size: 0x8, def value: None
   ::StringW ___input;
@@ -305,23 +305,23 @@ public:
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
 
   /// [NotNull]
-  /// @brief Method FindAutocompleteArgumentNames, addr 0x32cbb0c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FindAutocompleteArgumentNames, addr 0x35530f4, size 0x1ac, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> FindAutocompleteArgumentNames(::StringW inputArgumentName);
 
   /// [NotNull]
-  /// @brief Method FindAutocompleteArgumentValues, addr 0x32cbcbc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method FindAutocompleteArgumentValues, addr 0x35532a4, size 0x1fc, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> FindAutocompleteArgumentValues(::StringW inputArgumentName, ::StringW inputArgumentValue);
 
   /// [NotNull]
-  /// @brief Method FindAutocompleteNodes, addr 0x32cbedc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method FindAutocompleteNodes, addr 0x35534c4, size 0x308, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::CommandNode*> FindAutocompleteNodes(::StringW input, bool exact);
 
-  /// @brief Method IntegrateCommand, addr 0x32cb758, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method IntegrateCommand, addr 0x3552d40, size 0x3b0, virtual false, abstract: false, final false
   inline void IntegrateCommand(::GlobalNamespace::ConsoleCommandBase* newCommand);
 
   static inline ::GlobalNamespace::CommandNode* New_ctor();
 
-  /// @brief Method ToString, addr 0x32cb750, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3552d38, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_arguments() const;
@@ -354,7 +354,7 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32cc1e8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35537d0, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -372,7 +372,7 @@ public:
   CommandNode(CommandNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19708 };
 
   /// @brief Field argumentsMap, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ArgumentBase*>* ___argumentsMap;

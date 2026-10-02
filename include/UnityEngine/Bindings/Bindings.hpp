@@ -18,6 +18,7 @@ module;
 #include "UnityEngine/Bindings/NativeNameAttribute.hpp"
 #include "UnityEngine/Bindings/NativePropertyAttribute.hpp"
 #include "UnityEngine/Bindings/NativeThrowsAttribute.hpp"
+#include "UnityEngine/Bindings/NativeType.hpp"
 #include "UnityEngine/Bindings/NativeTypeAttribute.hpp"
 #include "UnityEngine/Bindings/NotNullAttribute.hpp"
 #include "UnityEngine/Bindings/OutStringMarshaller.hpp"
@@ -28,8 +29,8 @@ module;
 #include "UnityEngine/Bindings/TargetType.hpp"
 #include "UnityEngine/Bindings/ThreadSafeAttribute.hpp"
 #include "UnityEngine/Bindings/ThrowHelper.hpp"
+#include "UnityEngine/Bindings/UnityMarshalAsAttribute.hpp"
 #include "UnityEngine/Bindings/Unmarshal.hpp"
-#include "UnityEngine/Bindings/UnmarshalledAttribute.hpp"
 #include "UnityEngine/Bindings/VisibleToOtherModulesAttribute.hpp"
 #ifdef __cpp_modules
 export module Bindings;

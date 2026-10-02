@@ -26,11 +26,11 @@ public:
   template <typename T> static inline ::StringW GetMessage(::StringW pattern, T value, T other, ::StringW message);
 
   /// [Conditional("UNITY_ASSERTIONS")]
-  /// @brief Method GreaterOrEqual, addr 0x3321b98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GreaterOrEqual, addr 0x35aab38, size 0x4, virtual false, abstract: false, final false
   static inline void GreaterOrEqual(float_t value, float_t expectedLessValue, ::StringW message);
 
   /// [Conditional("UNITY_ASSERTIONS")]
-  /// @brief Method LessThan, addr 0x3321b94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x35aab34, size 0x4, virtual false, abstract: false, final false
   static inline void LessThan(float_t value, float_t expectedGreaterValue, ::StringW message);
 
 protected:
@@ -48,7 +48,7 @@ public:
   AssertExtensions(AssertExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21376 };
 
   /// @brief Field kUnityAssertions offset 0xffffffff size 0x8
   static constexpr ::ConstString kUnityAssertions{ u"UNITY_ASSERTIONS" };

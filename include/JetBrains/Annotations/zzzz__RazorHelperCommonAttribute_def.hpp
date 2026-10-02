@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::RazorHelperCommonAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e3e2ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9e3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +40,7 @@ public:
   RazorHelperCommonAttribute(RazorHelperCommonAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

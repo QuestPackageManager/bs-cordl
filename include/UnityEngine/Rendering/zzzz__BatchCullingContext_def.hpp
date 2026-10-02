@@ -50,8 +50,8 @@ struct BatchCullingContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BatchCullingContext, "UnityEngine.Rendering", "BatchCullingContext");
-// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 // [UsedByNativeCode]
+// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 // Dependencies System.IntPtr, Unity.Collections.NativeArray`1<T>, UnityEngine.Matrix4x4, UnityEngine.Plane, UnityEngine.Rendering.BatchCullingFlags, UnityEngine.Rendering.BatchCullingProjectionType,
 // UnityEngine.Rendering.BatchCullingViewType, UnityEngine.Rendering.BatchPackedCullingViewID, UnityEngine.Rendering.CullingSplit, UnityEngine.Rendering.LODParameters
 namespace UnityEngine::Rendering {
@@ -60,7 +60,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6b2a918, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f87e20, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit> inCullingSplits,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inLocalToWorldMatrix, ::UnityEngine::Rendering::BatchCullingViewType inViewType,
                     ::UnityEngine::Rendering::BatchCullingProjectionType inProjectionType, ::UnityEngine::Rendering::BatchCullingFlags inBatchCullingFlags, uint64_t inViewID,
@@ -88,7 +88,7 @@ public:
                                 int32_t receiverPlaneOffset, int32_t receiverPlaneCount, ::System::IntPtr occlusionBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10472 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };

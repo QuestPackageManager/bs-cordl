@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5996538;
+  constexpr static std::size_t addrs = 0x5db156c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59968c0;
+  constexpr static std::size_t addrs = 0x5db18f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x599653c;
+  constexpr static std::size_t addrs = 0x5db1570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59968c4;
+  constexpr static std::size_t addrs = 0x5db18f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -26,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::OVRModeParms* New_ctor();
 
-  /// @brief Method Start, addr 0x5f04b5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x631ef94, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TestPowerStateMode, addr 0x5f04cb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TestPowerStateMode, addr 0x631f0e8, size 0xb0, virtual false, abstract: false, final false
   inline void TestPowerStateMode();
 
-  /// @brief Method Update, addr 0x5f04bfc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x631f034, size 0xb4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::OVRInput_RawButton const& __cordl_internal_get_resetButton() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x5f04d60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631f198, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   OVRModeParms(OVRModeParms const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8062 };
 
   /// @brief Field resetButton, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawButton ___resetButton;

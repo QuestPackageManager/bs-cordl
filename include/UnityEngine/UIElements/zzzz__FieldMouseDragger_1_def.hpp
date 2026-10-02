@@ -163,7 +163,7 @@ public:
   FieldMouseDragger_1(FieldMouseDragger_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4579 };
 
   /// @brief Field m_DrivenField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::IValueField_1<T>* ___m_DrivenField;
@@ -179,8 +179,8 @@ public:
   /// @brief Field <dragging>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____dragging_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <startValue>k__BackingField, offset: 0x38, size: 0x8, def value: None
   T ____startValue_k__BackingField;
 

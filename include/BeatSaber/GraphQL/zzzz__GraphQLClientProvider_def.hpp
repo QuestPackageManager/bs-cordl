@@ -23,10 +23,10 @@ namespace BeatSaber::GraphQL {
 class GraphQLClientProvider_Settings;
 }
 namespace BeatSaber::GraphQL {
-struct GraphQLClientProvider__InitializationTask_d__24;
+struct GraphQLClientProvider__InitializationTask_d__27;
 }
 namespace BeatSaber::GraphQL {
-struct GraphQLClientProvider__InitializeAsync_d__23;
+struct GraphQLClientProvider__InitializeAsync_d__26;
 }
 namespace BeatSaber::GraphQL {
 class IGraphQLClientProvider;
@@ -37,8 +37,14 @@ class IGraphQLClient;
 namespace OculusStudios::GraphQL::ClientInterface {
 class Request;
 }
+namespace OculusStudios::MetaNetworking::Utils {
+class IMetaApiUserAgentProvider;
+}
 namespace OculusStudios::Platform::Core {
 class IPlatform;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -78,20 +84,20 @@ namespace BeatSaber::GraphQL {
 class GraphQLClientProvider_Settings;
 }
 namespace BeatSaber::GraphQL {
-struct GraphQLClientProvider__InitializationTask_d__24;
+struct GraphQLClientProvider__InitializationTask_d__27;
 }
 namespace BeatSaber::GraphQL {
-struct GraphQLClientProvider__InitializeAsync_d__23;
+struct GraphQLClientProvider__InitializeAsync_d__26;
 }
 // Write type traits
 MARK_REF_T(::BeatSaber::GraphQL::GraphQLClientProvider*);
 MARK_REF_T(::BeatSaber::GraphQL::GraphQLClientProvider_Settings*);
-MARK_VAL_T(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24);
-MARK_VAL_T(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23);
+MARK_VAL_T(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27);
+MARK_VAL_T(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26);
 DEFINE_IL2CPP_CLASS(::BeatSaber::GraphQL::GraphQLClientProvider*, "BeatSaber.GraphQL", "GraphQLClientProvider");
 DEFINE_IL2CPP_CLASS(::BeatSaber::GraphQL::GraphQLClientProvider_Settings*, "BeatSaber.GraphQL", "GraphQLClientProvider/Settings");
-DEFINE_IL2CPP_CLASS(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, "BeatSaber.GraphQL", "GraphQLClientProvider/<InitializationTask>d__24");
-DEFINE_IL2CPP_CLASS(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23, "BeatSaber.GraphQL", "GraphQLClientProvider/<InitializeAsync>d__23");
+DEFINE_IL2CPP_CLASS(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, "BeatSaber.GraphQL", "GraphQLClientProvider/<InitializationTask>d__27");
+DEFINE_IL2CPP_CLASS(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26, "BeatSaber.GraphQL", "GraphQLClientProvider/<InitializeAsync>d__26");
 // Dependencies System.Object
 namespace BeatSaber::GraphQL {
 // Is value type: false
@@ -105,7 +111,10 @@ public:
   /// @brief Field endpoint, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_endpoint, put = __cordl_internal_set_endpoint)) ::StringW endpoint;
 
-  static inline ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* New_ctor(::StringW endpoint, bool autoInitialize);
+  /// @brief Field requestTimeoutMsOverride, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_requestTimeoutMsOverride, put = __cordl_internal_set_requestTimeoutMsOverride)) int32_t requestTimeoutMsOverride;
+
+  static inline ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* New_ctor(::StringW endpoint, bool autoInitialize, int32_t requestTimeoutMsOverride);
 
   constexpr bool const& __cordl_internal_get_autoInitialize() const;
 
@@ -115,12 +124,18 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_endpoint();
 
+  constexpr int32_t const& __cordl_internal_get_requestTimeoutMsOverride() const;
+
+  constexpr int32_t& __cordl_internal_get_requestTimeoutMsOverride();
+
   constexpr void __cordl_internal_set_autoInitialize(bool value);
 
   constexpr void __cordl_internal_set_endpoint(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32960ec, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW endpoint, bool autoInitialize);
+  constexpr void __cordl_internal_set_requestTimeoutMsOverride(int32_t value);
+
+  /// @brief Method .ctor, addr 0x351cc34, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW endpoint, bool autoInitialize, int32_t requestTimeoutMsOverride);
 
 protected:
   // Ctor Parameters []
@@ -137,13 +152,16 @@ public:
   GraphQLClientProvider_Settings(GraphQLClientProvider_Settings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23424 };
 
   /// @brief Field endpoint, offset: 0x10, size: 0x8, def value: None
   ::StringW ___endpoint;
 
   /// @brief Field autoInitialize, offset: 0x18, size: 0x1, def value: None
   bool ___autoInitialize;
+
+  /// @brief Field requestTimeoutMsOverride, offset: 0x1c, size: 0x4, def value: None
+  int32_t ___requestTimeoutMsOverride;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,6 +170,8 @@ static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings, ___
 
 static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings, ___autoInitialize) == 0x18, "Offset mismatch!");
 
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings, ___requestTimeoutMsOverride) == 0x1c, "Offset mismatch!");
+
 static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::GraphQL
@@ -159,18 +179,18 @@ static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider_Settings) == 0x
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace BeatSaber::GraphQL {
 // Is value type: true
-// CS Name: BeatSaber.GraphQL.GraphQLClientProvider/<InitializationTask>d__24
-struct CORDL_TYPE GraphQLClientProvider__InitializationTask_d__24 {
+// CS Name: BeatSaber.GraphQL.GraphQLClientProvider/<InitializationTask>d__27
+struct CORDL_TYPE GraphQLClientProvider__InitializationTask_d__27 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32960f8, size 0x92c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x351cc44, size 0xad8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3296a24, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x351d71c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -178,19 +198,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClientProvider__InitializationTask_d__24();
+  constexpr GraphQLClientProvider__InitializationTask_d__27();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "_appVersion_5__2", ty: "::System::Version*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>",
   // modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClientProvider__InitializationTask_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClientProvider__InitializationTask_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this, ::System::Threading::CancellationToken ctx, ::System::Version* _appVersion_5__2,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23425 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -216,37 +236,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, ctx) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, ctx) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, _appVersion_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, _appVersion_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24) == 0x40, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27) == 0x40, "Size mismatch!");
 
 } // namespace BeatSaber::GraphQL
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace BeatSaber::GraphQL {
 // Is value type: true
-// CS Name: BeatSaber.GraphQL.GraphQLClientProvider/<InitializeAsync>d__23
-struct CORDL_TYPE GraphQLClientProvider__InitializeAsync_d__23 {
+// CS Name: BeatSaber.GraphQL.GraphQLClientProvider/<InitializeAsync>d__26
+struct CORDL_TYPE GraphQLClientProvider__InitializeAsync_d__26 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3296a90, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x351d788, size 0x200, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3296c90, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x351d988, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -254,18 +274,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GraphQLClientProvider__InitializeAsync_d__23();
+  constexpr GraphQLClientProvider__InitializeAsync_d__26();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
   // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr GraphQLClientProvider__InitializeAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GraphQLClientProvider__InitializeAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                          ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this, ::System::Threading::CancellationToken ctx,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23426 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -288,17 +308,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23, ctx) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26, ctx) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23) == 0x38, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::GraphQL
 // Dependencies BeatSaber.GraphQL.BSClientProviderInitializationState, System.Object
@@ -310,26 +330,37 @@ public:
   // Declarations
   using Settings = ::BeatSaber::GraphQL::GraphQLClientProvider_Settings;
 
-  using _InitializationTask_d__24 = ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24;
+  using _InitializationTask_d__27 = ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__27;
 
-  using _InitializeAsync_d__23 = ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23;
+  using _InitializeAsync_d__26 = ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__26;
 
-  /// @brief Field _graphQLClient, offset 0x50, size 0x8
+  /// @brief Field _customAppHeaders, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__customAppHeaders,
+                      put = __cordl_internal_set__customAppHeaders)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _customAppHeaders;
+
+  /// @brief Field _graphQLClient, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__graphQLClient, put = __cordl_internal_set__graphQLClient)) ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* _graphQLClient;
 
-  /// @brief Field _graphQLClientEvents, offset 0x38, size 0x8
+  /// @brief Field _graphQLClientEvents, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__graphQLClientEvents, put = __cordl_internal_set__graphQLClientEvents)) ::BeatSaber::GraphQL::GraphQLClientEvents* _graphQLClientEvents;
 
-  /// @brief Field _initializationCancellationToken, offset 0x40, size 0x8
+  /// @brief Field _initializationCancellationToken, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__initializationCancellationToken,
                       put = __cordl_internal_set__initializationCancellationToken)) ::System::Threading::CancellationTokenSource* _initializationCancellationToken;
 
-  /// @brief Field <initializationState>k__BackingField, offset 0x48, size 0x4
+  /// @brief Field <initializationState>k__BackingField, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__initializationState_k__BackingField,
                       put = __cordl_internal_set__initializationState_k__BackingField)) ::BeatSaber::GraphQL::BSClientProviderInitializationState _initializationState_k__BackingField;
 
-  /// @brief Field _initializationTask, offset 0x58, size 0x8
+  /// @brief Field _initializationTask, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask)) ::System::Threading::Tasks::Task* _initializationTask;
+
+  /// @brief Field _isSubscribedToUserAgentChanges, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get__isSubscribedToUserAgentChanges, put = __cordl_internal_set__isSubscribedToUserAgentChanges)) bool _isSubscribedToUserAgentChanges;
+
+  /// @brief Field _metaApiUserAgentProvider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__metaApiUserAgentProvider,
+                      put = __cordl_internal_set__metaApiUserAgentProvider)) ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* _metaApiUserAgentProvider;
 
   /// @brief Field _platform, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
@@ -337,17 +368,17 @@ public:
   /// @brief Field _settings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::BeatSaber::GraphQL::GraphQLClientProvider_Settings* _settings;
 
-  /// @brief Field globalRequestFailureEvent, offset 0x30, size 0x8
+  /// @brief Field globalRequestFailureEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_globalRequestFailureEvent,
                       put = __cordl_internal_set_globalRequestFailureEvent)) ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* globalRequestFailureEvent;
 
-  /// @brief Field globalRequestSucceededEvent, offset 0x28, size 0x8
+  /// @brief Field globalRequestSucceededEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_globalRequestSucceededEvent,
                       put = __cordl_internal_set_globalRequestSucceededEvent)) ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* globalRequestSucceededEvent;
 
   __declspec(property(get = get_graphQLClient)) ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* graphQLClient;
 
-  /// @brief Field initializationDidFinishEvent, offset 0x20, size 0x8
+  /// @brief Field initializationDidFinishEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_initializationDidFinishEvent, put = __cordl_internal_set_initializationDidFinishEvent)) ::System::Action* initializationDidFinishEvent;
 
   __declspec(property(get = get_initializationState, put = set_initializationState)) ::BeatSaber::GraphQL::BSClientProviderInitializationState initializationState;
@@ -364,28 +395,35 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3295f78, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x351c7e8, size 0x190, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializationTask>d__24))]
-  /// @brief Method InitializationTask, addr 0x3295d80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleMetaApiUserAgentValueDidChange, addr 0x351ca5c, size 0x1a4, virtual false, abstract: false, final false
+  inline void HandleMetaApiUserAgentValueDidChange();
+
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializationTask>d__27))]
+  /// @brief Method InitializationTask, addr 0x351c5f0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializationTask(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method Initialize, addr 0x3295e40, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x351c6b0, size 0x138, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializeAsync>d__23))]
-  /// @brief Method InitializeAsync, addr 0x3295cbc, size 0xc4, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializeAsync>d__26))]
+  /// @brief Method InitializeAsync, addr 0x351c52c, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync(::System::Threading::CancellationToken ctx);
 
   static inline ::BeatSaber::GraphQL::GraphQLClientProvider* New_ctor();
 
-  /// @brief Method Tick, addr 0x3295fd4, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x351c978, size 0xe4, virtual true, abstract: false, final true
   inline void Tick();
 
   /// [CompilerGenerated]
-  /// @brief Method <Initialize>b__25_0, addr 0x32960b8, size 0x34, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* _Initialize_b__25_0();
+  /// @brief Method <Initialize>b__28_0, addr 0x351cc00, size 0x34, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* _Initialize_b__28_0();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__customAppHeaders() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__customAppHeaders();
 
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* const& __cordl_internal_get__graphQLClient() const;
 
@@ -407,6 +445,14 @@ public:
 
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__initializationTask();
 
+  constexpr bool const& __cordl_internal_get__isSubscribedToUserAgentChanges() const;
+
+  constexpr bool& __cordl_internal_get__isSubscribedToUserAgentChanges();
+
+  constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* const& __cordl_internal_get__metaApiUserAgentProvider() const;
+
+  constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*& __cordl_internal_get__metaApiUserAgentProvider();
+
   constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
 
   constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform();
@@ -427,6 +473,8 @@ public:
 
   constexpr ::System::Action*& __cordl_internal_get_initializationDidFinishEvent();
 
+  constexpr void __cordl_internal_set__customAppHeaders(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+
   constexpr void __cordl_internal_set__graphQLClient(::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* value);
 
   constexpr void __cordl_internal_set__graphQLClientEvents(::BeatSaber::GraphQL::GraphQLClientEvents* value);
@@ -436,6 +484,10 @@ public:
   constexpr void __cordl_internal_set__initializationState_k__BackingField(::BeatSaber::GraphQL::BSClientProviderInitializationState value);
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value);
+
+  constexpr void __cordl_internal_set__isSubscribedToUserAgentChanges(bool value);
+
+  constexpr void __cordl_internal_set__metaApiUserAgentProvider(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* value);
 
   constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value);
 
@@ -447,26 +499,26 @@ public:
 
   constexpr void __cordl_internal_set_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3295c10, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351c480, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestFailureEvent, addr 0x3295a78, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestFailureEvent, addr 0x351c2e8, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestSucceededEvent, addr 0x32958f8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestSucceededEvent, addr 0x351c168, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_initializationDidFinishEvent, addr 0x32957a0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_initializationDidFinishEvent, addr 0x351c010, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_graphQLClient, addr 0x3295bf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphQLClient, addr 0x351c468, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* get_graphQLClient();
 
   /// [CompilerGenerated]
-  /// @brief Method get_initializationState, addr 0x3295c00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_initializationState, addr 0x351c470, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GraphQL::BSClientProviderInitializationState get_initializationState();
 
   /// @brief Convert to "::BeatSaber::GraphQL::IGraphQLClientProvider"
@@ -482,19 +534,19 @@ public:
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestFailureEvent, addr 0x3295b38, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestFailureEvent, addr 0x351c3a8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestSucceededEvent, addr 0x32959b8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestSucceededEvent, addr 0x351c228, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_initializationDidFinishEvent, addr 0x329584c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_initializationDidFinishEvent, addr 0x351c0bc, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_initializationState, addr 0x3295c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_initializationState, addr 0x351c478, size 0x8, virtual false, abstract: false, final false
   inline void set_initializationState(::BeatSaber::GraphQL::BSClientProviderInitializationState value);
 
 protected:
@@ -512,7 +564,7 @@ public:
   GraphQLClientProvider(GraphQLClientProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23427 };
 
   /// [Inject]
   /// @brief Field _settings, offset: 0x10, size: 0x8, def value: None
@@ -522,33 +574,43 @@ public:
   /// @brief Field _platform, offset: 0x18, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
+  /// [Inject]
+  /// @brief Field _metaApiUserAgentProvider, offset: 0x20, size: 0x8, def value: None
+  ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* ____metaApiUserAgentProvider;
+
   /// [CompilerGenerated]
-  /// @brief Field initializationDidFinishEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field initializationDidFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___initializationDidFinishEvent;
 
   /// [CompilerGenerated]
-  /// @brief Field globalRequestSucceededEvent, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field globalRequestSucceededEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestSucceededEvent;
 
   /// [CompilerGenerated]
-  /// @brief Field globalRequestFailureEvent, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field globalRequestFailureEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestFailureEvent;
 
-  /// @brief Field _graphQLClientEvents, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _graphQLClientEvents, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::GraphQL::GraphQLClientEvents* ____graphQLClientEvents;
 
-  /// @brief Field _initializationCancellationToken, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _initializationCancellationToken, offset: 0x48, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____initializationCancellationToken;
 
   /// [CompilerGenerated]
-  /// @brief Field <initializationState>k__BackingField, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field <initializationState>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::BeatSaber::GraphQL::BSClientProviderInitializationState ____initializationState_k__BackingField;
 
-  /// @brief Field _graphQLClient, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _graphQLClient, offset: 0x58, size: 0x8, def value: None
   ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* ____graphQLClient;
 
-  /// @brief Field _initializationTask, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _initializationTask, offset: 0x60, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____initializationTask;
+
+  /// @brief Field _customAppHeaders, offset: 0x68, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____customAppHeaders;
+
+  /// @brief Field _isSubscribedToUserAgentChanges, offset: 0x70, size: 0x1, def value: None
+  bool ____isSubscribedToUserAgentChanges;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -557,22 +619,28 @@ static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____settings
 
 static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____platform) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ___initializationDidFinishEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____metaApiUserAgentProvider) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ___globalRequestSucceededEvent) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ___initializationDidFinishEvent) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ___globalRequestFailureEvent) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ___globalRequestSucceededEvent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____graphQLClientEvents) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ___globalRequestFailureEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____initializationCancellationToken) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____graphQLClientEvents) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____initializationState_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____initializationCancellationToken) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____graphQLClient) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____initializationState_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____initializationTask) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____graphQLClient) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider) == 0x60, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____initializationTask) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____customAppHeaders) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::GraphQL::GraphQLClientProvider, ____isSubscribedToUserAgentChanges) == 0x70, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::GraphQL::GraphQLClientProvider) == 0x78, "Size mismatch!");
 
 } // namespace BeatSaber::GraphQL

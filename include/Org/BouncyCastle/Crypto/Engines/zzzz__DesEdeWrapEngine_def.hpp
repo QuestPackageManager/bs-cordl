@@ -69,21 +69,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method CalculateCmsKeyChecksum, addr 0x33ac00c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CalculateCmsKeyChecksum, addr 0x36352a8, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> CalculateCmsKeyChecksum(::ArrayW<uint8_t> key);
 
-  /// @brief Method CheckCmsKeyChecksum, addr 0x33ac658, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckCmsKeyChecksum, addr 0x36358f4, size 0x84, virtual false, abstract: false, final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> checksum);
 
-  /// @brief Method Init, addr 0x33ab8e0, size 0x3b0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3634b7c, size 0x3b0, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine* New_ctor();
 
-  /// @brief Method Unwrap, addr 0x33ac23c, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x36354d8, size 0x41c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> Unwrap(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x33abcd4, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x3634f70, size 0x338, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> Wrap(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_digest() const;
@@ -128,18 +128,18 @@ public:
 
   constexpr void __cordl_internal_set_sha1(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x33ac774, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3635a10, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_IV2();
 
-  /// @brief Method get_AlgorithmName, addr 0x33abc90, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3634f2c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
-  /// @brief Method reverse, addr 0x33ac194, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method reverse, addr 0x3635430, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> reverse(::ArrayW<uint8_t> bs);
 
   static inline void setStaticF_IV2(::ArrayW<uint8_t> value);

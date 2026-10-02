@@ -25,17 +25,13 @@ public:
   // @brief default ctor
   constexpr DeprecationMessage();
 
-  /// @brief Field CompatibilityScriptingAPIConsoleWarning offset 0xffffffff size 0x8
-  static constexpr ::ConstString CompatibilityScriptingAPIConsoleWarning{
-    u"The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing "
-    u"ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph."
+  /// @brief Field CompatibilityScriptingAPIHidden offset 0xffffffff size 0x8
+  static constexpr ::ConstString CompatibilityScriptingAPIHidden{
+    u"This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing."
   };
 
-  /// @brief Field CompatibilityScriptingAPIObsolete offset 0xffffffff size 0x8
-  static constexpr ::ConstString CompatibilityScriptingAPIObsolete{ u"This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead." };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12963 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

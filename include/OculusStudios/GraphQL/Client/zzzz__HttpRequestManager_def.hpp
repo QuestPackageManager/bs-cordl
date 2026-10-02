@@ -14,7 +14,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
-#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpRequestManager)
@@ -28,22 +27,22 @@ namespace OculusStudios::GraphQL::Client {
 struct HttpRequestManager_SessionConfig;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35;
+struct HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__CheckFastFallbackAsync_d__30;
+struct HttpRequestManager__CheckFastFallbackAsync_d__32;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__CheckFastFallbackNoWait_d__29;
+struct HttpRequestManager__CheckFastFallbackNoWait_d__31;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__SendAsyncInternal_d__39;
+struct HttpRequestManager__SendAsyncInternal_d__41;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__SendAsyncReceiveByteArray_d__41;
+struct HttpRequestManager__SendAsyncReceiveByteArray_d__43;
 }
 namespace OculusStudios::GraphQL::Client {
-class HttpRequestManager___c__DisplayClass30_0;
+class HttpRequestManager___c__DisplayClass32_0;
 }
 namespace OculusStudios::GraphQL::Client {
 struct HttpRequestManager_fastFallbackState;
@@ -112,6 +111,9 @@ namespace System {
 class Object;
 }
 namespace System {
+struct TimeSpan;
+}
+namespace System {
 class Uri;
 }
 // Forward declare root types
@@ -125,7 +127,7 @@ namespace OculusStudios::GraphQL::Client {
 class HttpRequestManager_ByteArrayResultCallback;
 }
 namespace OculusStudios::GraphQL::Client {
-class HttpRequestManager___c__DisplayClass30_0;
+class HttpRequestManager___c__DisplayClass32_0;
 }
 namespace OculusStudios::GraphQL::Client {
 struct HttpRequestManager_GlobalConfig;
@@ -134,44 +136,44 @@ namespace OculusStudios::GraphQL::Client {
 struct HttpRequestManager_SessionConfig;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35;
+struct HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__CheckFastFallbackAsync_d__30;
+struct HttpRequestManager__CheckFastFallbackAsync_d__32;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__CheckFastFallbackNoWait_d__29;
+struct HttpRequestManager__CheckFastFallbackNoWait_d__31;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__SendAsyncInternal_d__39;
+struct HttpRequestManager__SendAsyncInternal_d__41;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpRequestManager__SendAsyncReceiveByteArray_d__41;
+struct HttpRequestManager__SendAsyncReceiveByteArray_d__43;
 }
 // Write type traits
 MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState);
 MARK_REF_T(::OculusStudios::GraphQL::Client::HttpRequestManager*);
 MARK_REF_T(::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*);
-MARK_REF_T(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0*);
+MARK_REF_T(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0*);
 MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig);
 MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState, "OculusStudios.GraphQL.Client", "HttpRequestManager/fastFallbackState");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager*, "OculusStudios.GraphQL.Client", "HttpRequestManager");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*, "OculusStudios.GraphQL.Client", "HttpRequestManager/ByteArrayResultCallback");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0*, "OculusStudios.GraphQL.Client", "HttpRequestManager/<>c__DisplayClass30_0");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0*, "OculusStudios.GraphQL.Client", "HttpRequestManager/<>c__DisplayClass32_0");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig, "OculusStudios.GraphQL.Client", "HttpRequestManager/GlobalConfig");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig, "OculusStudios.GraphQL.Client", "HttpRequestManager/SessionConfig");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35, "OculusStudios.GraphQL.Client",
-                    "HttpRequestManager/<CheckAndConsiderFastFallbackAsync>d__35");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, "OculusStudios.GraphQL.Client", "HttpRequestManager/<CheckFastFallbackAsync>d__30");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29, "OculusStudios.GraphQL.Client", "HttpRequestManager/<CheckFastFallbackNoWait>d__29");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39, "OculusStudios.GraphQL.Client", "HttpRequestManager/<SendAsyncInternal>d__39");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, "OculusStudios.GraphQL.Client", "HttpRequestManager/<SendAsyncReceiveByteArray>d__41");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37, "OculusStudios.GraphQL.Client",
+                    "HttpRequestManager/<CheckAndConsiderFastFallbackAsync>d__37");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, "OculusStudios.GraphQL.Client", "HttpRequestManager/<CheckFastFallbackAsync>d__32");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31, "OculusStudios.GraphQL.Client", "HttpRequestManager/<CheckFastFallbackNoWait>d__31");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41, "OculusStudios.GraphQL.Client", "HttpRequestManager/<SendAsyncInternal>d__41");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, "OculusStudios.GraphQL.Client", "HttpRequestManager/<SendAsyncReceiveByteArray>d__43");
 // Dependencies System.TimeSpan
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
@@ -195,7 +197,7 @@ public:
   constexpr HttpRequestManager_GlobalConfig(int32_t connectionLimit, ::System::TimeSpan defaultRequestTimeout, bool forceIPV6) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21079 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -244,7 +246,7 @@ public:
   constexpr HttpRequestManager_SessionConfig(::System::Uri* baseAddress, ::System::TimeSpan requestTimeout) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21080 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -328,7 +330,7 @@ public:
   static ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState const NOT_REQUIRED_NO_IPV6;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21081 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -351,19 +353,19 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE HttpRequestManager_ByteArrayResultCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5f28794, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6343464, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> result, ::System::Net::HttpStatusCode statusCode, ::StringW reasonPhrase, ::System::Exception* exception,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5f28840, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6343510, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5f28780, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6343450, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<uint8_t> result, ::System::Net::HttpStatusCode statusCode, ::StringW reasonPhrase, ::System::Exception* exception);
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5f28700, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63433d0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -381,7 +383,7 @@ public:
   HttpRequestManager_ByteArrayResultCallback(HttpRequestManager_ByteArrayResultCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -393,16 +395,16 @@ static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager_ByteAr
 // Dependencies OculusStudios.GraphQL.Client.HttpRequestManager::fastFallbackState, System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
-// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<>c__DisplayClass30_0
-class CORDL_TYPE HttpRequestManager___c__DisplayClass30_0 : public ::System::Object {
+// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<>c__DisplayClass32_0
+class CORDL_TYPE HttpRequestManager___c__DisplayClass32_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tmpState, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tmpState, put = __cordl_internal_set_tmpState)) ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState tmpState;
 
-  static inline ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0* New_ctor();
+  static inline ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <CheckFastFallbackAsync>b__0, addr 0x5f28850, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method <CheckFastFallbackAsync>b__0, addr 0x6343520, size 0x1dc, virtual false, abstract: false, final false
   inline void _CheckFastFallbackAsync_b__0(::System::IAsyncResult* a);
 
   constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState const& __cordl_internal_get_tmpState() const;
@@ -411,25 +413,25 @@ public:
 
   constexpr void __cordl_internal_set_tmpState(::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState value);
 
-  /// @brief Method .ctor, addr 0x5f2884c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634351c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpRequestManager___c__DisplayClass30_0();
+  constexpr HttpRequestManager___c__DisplayClass32_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager___c__DisplayClass30_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager___c__DisplayClass32_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  HttpRequestManager___c__DisplayClass30_0(HttpRequestManager___c__DisplayClass30_0&&) = delete;
+  HttpRequestManager___c__DisplayClass32_0(HttpRequestManager___c__DisplayClass32_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager___c__DisplayClass32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestManager___c__DisplayClass30_0(HttpRequestManager___c__DisplayClass30_0 const&) = delete;
+  HttpRequestManager___c__DisplayClass32_0(HttpRequestManager___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21083 };
 
   /// @brief Field tmpState, offset: 0x10, size: 0x4, def value: None
   ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState ___tmpState;
@@ -437,27 +439,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0, ___tmpState) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0, ___tmpState) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<CheckAndConsiderFastFallbackAsync>d__35
-struct CORDL_TYPE HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35 {
+// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<CheckAndConsiderFastFallbackAsync>d__37
+struct CORDL_TYPE HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f28a2c, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63436fc, size 0x210, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f28c3c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x634390c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -465,16 +467,16 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35();
+  constexpr HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Uri* uri,
+  constexpr HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Uri* uri,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21084 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -494,33 +496,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35, uri) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37, uri) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35) == 0x30, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37) == 0x30, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<CheckFastFallbackAsync>d__30
-struct CORDL_TYPE HttpRequestManager__CheckFastFallbackAsync_d__30 {
+// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<CheckFastFallbackAsync>d__32
+struct CORDL_TYPE HttpRequestManager__CheckFastFallbackAsync_d__32 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f28ca8, size 0xb94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6343978, size 0xb94, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f2983c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x634450c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -528,25 +530,25 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpRequestManager__CheckFastFallbackAsync_d__30();
+  constexpr HttpRequestManager__CheckFastFallbackAsync_d__32();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
-  // "::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ipv4_5__2", ty: "::System::Net::IPAddress*",
+  // "::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ipv4_5__2", ty: "::System::Net::IPAddress*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_ipv6_5__3", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_socket_5__4", ty:
   // "::System::Net::Sockets::Socket*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }]
-  constexpr HttpRequestManager__CheckFastFallbackAsync_d__30(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                             ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0* __8__1, ::System::Net::IPAddress* _ipv4_5__2,
+  constexpr HttpRequestManager__CheckFastFallbackAsync_d__32(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                             ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0* __8__1, ::System::Net::IPAddress* _ipv4_5__2,
                                                              ::System::Net::IPAddress* _ipv6_5__3, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>> __u__2,
                                                              ::System::Net::Sockets::Socket* _socket_5__4,
                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -558,7 +560,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
   /// @brief Field <>8__1, offset: 0x20, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0* __8__1;
+  ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0* __8__1;
 
   /// @brief Field <ipv4>5__2, offset: 0x28, size: 0x8, def value: None
   ::System::Net::IPAddress* _ipv4_5__2;
@@ -581,43 +583,43 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, __8__1) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, __8__1) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, _ipv4_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, _ipv4_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, _ipv6_5__3) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, _ipv6_5__3) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, __u__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, __u__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, _socket_5__4) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, _socket_5__4) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30, __u__3) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32, __u__3) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30) == 0x58, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32) == 0x58, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<CheckFastFallbackNoWait>d__29
-struct CORDL_TYPE HttpRequestManager__CheckFastFallbackNoWait_d__29 {
+// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<CheckFastFallbackNoWait>d__31
+struct CORDL_TYPE HttpRequestManager__CheckFastFallbackNoWait_d__31 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f298a8, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6344578, size 0x19c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f29a44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6344714, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -625,16 +627,16 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpRequestManager__CheckFastFallbackNoWait_d__29();
+  constexpr HttpRequestManager__CheckFastFallbackNoWait_d__31();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
   // modifiers: "", def_value: None, comment: None }]
-  constexpr HttpRequestManager__CheckFastFallbackNoWait_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr HttpRequestManager__CheckFastFallbackNoWait_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                               ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21086 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -651,31 +653,31 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29) == 0x30, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31) == 0x30, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<SendAsyncInternal>d__39
-struct CORDL_TYPE HttpRequestManager__SendAsyncInternal_d__39 {
+// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<SendAsyncInternal>d__41
+struct CORDL_TYPE HttpRequestManager__SendAsyncInternal_d__41 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f29a4c, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x634471c, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f29e7c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6344b4c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -683,19 +685,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpRequestManager__SendAsyncInternal_d__39();
+  constexpr HttpRequestManager__SendAsyncInternal_d__41();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "request", ty:
   // "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None,
   // comment: None }]
-  constexpr HttpRequestManager__SendAsyncInternal_d__39(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder,
+  constexpr HttpRequestManager__SendAsyncInternal_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder,
                                                         ::System::Net::Http::HttpRequestMessage* request, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21087 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -718,35 +720,35 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39, request) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41, request) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39, __u__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41, __u__2) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39) == 0x38, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41) == 0x38, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
 // Dependencies System.Net.HttpStatusCode, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<SendAsyncReceiveByteArray>d__41
-struct CORDL_TYPE HttpRequestManager__SendAsyncReceiveByteArray_d__41 {
+// CS Name: OculusStudios.GraphQL.Client.HttpRequestManager/<SendAsyncReceiveByteArray>d__43
+struct CORDL_TYPE HttpRequestManager__SendAsyncReceiveByteArray_d__43 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f29efc, size 0x6b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6344bcc, size 0x6b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f2a5b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6345280, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -754,7 +756,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpRequestManager__SendAsyncReceiveByteArray_d__41();
+  constexpr HttpRequestManager__SendAsyncReceiveByteArray_d__43();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "callback", ty:
@@ -767,7 +769,7 @@ public:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_resultTask_5__7", ty:
   // "::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None, comment: None }]
-  constexpr HttpRequestManager__SendAsyncReceiveByteArray_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr HttpRequestManager__SendAsyncReceiveByteArray_d__43(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                 ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback* callback,
                                                                 ::OculusStudios::GraphQL::Client::HttpRequestManager* __4__this, ::System::Net::Http::HttpRequestMessage* request,
                                                                 ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* _responseTask_5__2,
@@ -778,7 +780,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21088 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -825,37 +827,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, callback) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, callback) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, __4__this) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, __4__this) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, request) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, request) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, _responseTask_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, _responseTask_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, _response_5__3) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, _response_5__3) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, _statusCode_5__4) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, _statusCode_5__4) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, _reasonPhrase_5__5) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, _reasonPhrase_5__5) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, _exception_5__6) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, _exception_5__6) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, __u__1) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, __u__1) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, _resultTask_5__7) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, _resultTask_5__7) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41, __u__2) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43, __u__2) == 0x78, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41) == 0x80, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43) == 0x80, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // Dependencies OculusStudios.GraphQL.Client.HttpRequestManager::GlobalConfig, OculusStudios.GraphQL.Client.HttpRequestManager::SessionConfig,
-// OculusStudios.GraphQL.Client.HttpRequestManager::fastFallbackState, System.Object
+// OculusStudios.GraphQL.Client.HttpRequestManager::fastFallbackState, System.Object, System.TimeSpan
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.HttpRequestManager
@@ -868,19 +870,34 @@ public:
 
   using SessionConfig = ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig;
 
-  using _CheckAndConsiderFastFallbackAsync_d__35 = ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35;
+  using _CheckAndConsiderFastFallbackAsync_d__37 = ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__37;
 
-  using _CheckFastFallbackAsync_d__30 = ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30;
+  using _CheckFastFallbackAsync_d__32 = ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__32;
 
-  using _CheckFastFallbackNoWait_d__29 = ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29;
+  using _CheckFastFallbackNoWait_d__31 = ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__31;
 
-  using _SendAsyncInternal_d__39 = ::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39;
+  using _SendAsyncInternal_d__41 = ::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__41;
 
-  using _SendAsyncReceiveByteArray_d__41 = ::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41;
+  using _SendAsyncReceiveByteArray_d__43 = ::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__43;
 
-  using __c__DisplayClass30_0 = ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0;
+  using __c__DisplayClass32_0 = ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0;
 
   using fastFallbackState = ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState;
+
+  /// @brief Field _globalConfig, offset 0xffffffff, size 0x18
+  __declspec(property(get = getStaticF__globalConfig, put = setStaticF__globalConfig)) ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig _globalConfig;
+
+  /// @brief Field _httpClient, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__httpClient, put = setStaticF__httpClient)) ::System::Net::Http::HttpClient* _httpClient;
+
+  /// @brief Field _queryTimeout, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__queryTimeout, put = setStaticF__queryTimeout)) ::System::TimeSpan _queryTimeout;
+
+  /// @brief Field _queryTimeoutConfigured, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF__queryTimeoutConfigured, put = setStaticF__queryTimeoutConfigured)) bool _queryTimeoutConfigured;
+
+  /// @brief Field _sessionConfig, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get__sessionConfig, put = __cordl_internal_set__sessionConfig)) ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig _sessionConfig;
 
   /// @brief Field anyIPv4, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_anyIPv4, put = setStaticF_anyIPv4)) ::System::Net::IPEndPoint* anyIPv4;
@@ -891,46 +908,37 @@ public:
   /// @brief Field fastFallback, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_fastFallback, put = setStaticF_fastFallback)) ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState fastFallback;
 
-  /// @brief Field globalConfig_, offset 0xffffffff, size 0x18
-  __declspec(property(get = getStaticF_globalConfig_, put = setStaticF_globalConfig_)) ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig globalConfig_;
-
-  /// @brief Field httpClient_, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_httpClient_, put = setStaticF_httpClient_)) ::System::Net::Http::HttpClient* httpClient_;
-
   __declspec(property(get = get_sessionConfig)) ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig sessionConfig;
 
-  /// @brief Field sessionConfig_, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_sessionConfig_, put = __cordl_internal_set_sessionConfig_)) ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig sessionConfig_;
-
-  /// @brief Method BindTo, addr 0x5f27c54, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method BindTo, addr 0x63428e0, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Net::IPEndPoint* BindTo(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckAndConsiderFastFallbackAsync>d__35))]
-  /// @brief Method CheckAndConsiderFastFallbackAsync, addr 0x5f27f50, size 0xb0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckAndConsiderFastFallbackAsync>d__37))]
+  /// @brief Method CheckAndConsiderFastFallbackAsync, addr 0x6342bdc, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CheckAndConsiderFastFallbackAsync(::System::Uri* uri);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckFastFallbackAsync>d__30))]
-  /// @brief Method CheckFastFallbackAsync, addr 0x5f27ba0, size 0xb4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckFastFallbackAsync>d__32))]
+  /// @brief Method CheckFastFallbackAsync, addr 0x634282c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CheckFastFallbackAsync();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckFastFallbackNoWait>d__29))]
-  /// @brief Method CheckFastFallbackNoWait, addr 0x5f27b08, size 0x98, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckFastFallbackNoWait>d__31))]
+  /// @brief Method CheckFastFallbackNoWait, addr 0x6342794, size 0x98, virtual false, abstract: false, final false
   static inline void CheckFastFallbackNoWait();
 
-  /// @brief Method ConsiderFastFallback, addr 0x5f27e38, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ConsiderFastFallback, addr 0x6342ac4, size 0x118, virtual false, abstract: false, final false
   static inline void ConsiderFastFallback(::System::Uri* uri);
 
-  /// @brief Method CreateByteArrayRequest, addr 0x5f28150, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CreateByteArrayRequest, addr 0x6342ddc, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* CreateByteArrayRequest(::System::Net::Http::HttpMethod* method, ::System::Uri* uri, ::StringW accept, ::StringW contentType,
                                                                          ::ArrayW<uint8_t> content);
 
-  /// @brief Method CreateHttpClient, addr 0x5f274a0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CreateHttpClient, addr 0x6342164, size 0x278, virtual false, abstract: false, final false
   static inline void CreateHttpClient();
 
-  /// @brief Method CreateRequest, addr 0x5f28000, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateRequest, addr 0x6342c8c, size 0x150, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* CreateRequest(::System::Net::Http::HttpMethod* method, ::System::Uri* uri);
 
-  /// @brief Method MyCertHandler, addr 0x5f278ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MyCertHandler, addr 0x6342538, size 0x8, virtual false, abstract: false, final false
   static inline bool MyCertHandler(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                    ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors error);
 
@@ -940,43 +948,54 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager* New_ctor(::System::Net::Http::HttpMessageHandler* handler);
 
-  /// @brief Method OpenPersistentStream, addr 0x5f2655c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OpenPersistentStream, addr 0x63411e8, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* OpenPersistentStream(::System::Net::Http::HttpRequestMessage* request);
 
-  /// @brief Method ResetFastFallback, addr 0x5f27750, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ResetFastFallback, addr 0x63423dc, size 0x7c, virtual false, abstract: false, final false
   static inline void ResetFastFallback();
 
-  /// @brief Method SendAsync, addr 0x5f2830c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x6342f98, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<SendAsyncInternal>d__39))]
-  /// @brief Method SendAsyncInternal, addr 0x5f28310, size 0xe0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<SendAsyncInternal>d__41))]
+  /// @brief Method SendAsyncInternal, addr 0x6342f9c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsyncInternal(::System::Net::Http::HttpRequestMessage* request);
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<SendAsyncReceiveByteArray>d__41))]
-  /// @brief Method SendAsyncReceiveByteArray, addr 0x5f283f0, size 0xbc, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<SendAsyncReceiveByteArray>d__43))]
+  /// @brief Method SendAsyncReceiveByteArray, addr 0x634307c, size 0xbc, virtual false, abstract: false, final false
   inline void SendAsyncReceiveByteArray(::System::Net::Http::HttpRequestMessage* request, ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback* callback);
 
-  /// @brief Method UpdateGlobalConfig, addr 0x5f277cc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetQueryTimeout, addr 0x6339c74, size 0x24c, virtual false, abstract: false, final false
+  static inline void SetQueryTimeout(::System::TimeSpan timeout);
+
+  /// @brief Method UpdateGlobalConfig, addr 0x6342458, size 0xe0, virtual false, abstract: false, final false
   static inline void UpdateGlobalConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig config);
 
-  /// @brief Method UpdateSessionConfig, addr 0x5f278b4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateSessionConfig, addr 0x6342540, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateSessionConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig config);
 
-  constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig const& __cordl_internal_get_sessionConfig_() const;
+  constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig const& __cordl_internal_get__sessionConfig() const;
 
-  constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig& __cordl_internal_get_sessionConfig_();
+  constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig& __cordl_internal_get__sessionConfig();
 
-  constexpr void __cordl_internal_set_sessionConfig_(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig value);
+  constexpr void __cordl_internal_set__sessionConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig value);
 
-  /// @brief Method .ctor, addr 0x5f23f58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633ebf0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f279a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6342630, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig config);
 
-  /// @brief Method .ctor, addr 0x5f27a24, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63426b0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler);
+
+  static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig getStaticF__globalConfig();
+
+  static inline ::System::Net::Http::HttpClient* getStaticF__httpClient();
+
+  static inline ::System::TimeSpan getStaticF__queryTimeout();
+
+  static inline bool getStaticF__queryTimeoutConfigured();
 
   static inline ::System::Net::IPEndPoint* getStaticF_anyIPv4();
 
@@ -984,31 +1003,31 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState getStaticF_fastFallback();
 
-  static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig getStaticF_globalConfig_();
-
-  static inline ::System::Net::Http::HttpClient* getStaticF_httpClient_();
-
-  /// @brief Method get_currentFastFallbackState, addr 0x5f273cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_currentFastFallbackState, addr 0x6342090, size 0x5c, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState get_currentFastFallbackState();
 
-  /// @brief Method get_fastFallbackChecked, addr 0x5f27dd4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_fastFallbackChecked, addr 0x6342a60, size 0x64, virtual false, abstract: false, final false
   static inline bool get_fastFallbackChecked();
 
-  /// @brief Method get_globalConfig, addr 0x5f27428, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_globalConfig, addr 0x63420ec, size 0x6c, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig get_globalConfig();
 
-  /// @brief Method get_sessionConfig, addr 0x5f27494, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_sessionConfig, addr 0x6342158, size 0xc, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig get_sessionConfig();
+
+  static inline void setStaticF__globalConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig value);
+
+  static inline void setStaticF__httpClient(::System::Net::Http::HttpClient* value);
+
+  static inline void setStaticF__queryTimeout(::System::TimeSpan value);
+
+  static inline void setStaticF__queryTimeoutConfigured(bool value);
 
   static inline void setStaticF_anyIPv4(::System::Net::IPEndPoint* value);
 
   static inline void setStaticF_anyIPv6(::System::Net::IPEndPoint* value);
 
   static inline void setStaticF_fastFallback(::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState value);
-
-  static inline void setStaticF_globalConfig_(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig value);
-
-  static inline void setStaticF_httpClient_(::System::Net::Http::HttpClient* value);
 
 protected:
   // Ctor Parameters []
@@ -1036,19 +1055,16 @@ public:
   /// @brief Field FAST_FALLBACK_TEST_WAIT_INTERVAL_MS offset 0xffffffff size 0x4
   static constexpr int32_t FAST_FALLBACK_TEST_WAIT_INTERVAL_MS{ static_cast<int32_t>(0xc8) };
 
-  /// @brief Field QUERY_TIMEOUT offset 0xffffffff size 0x4
-  static constexpr float_t QUERY_TIMEOUT{ static_cast<float_t>(30.0f) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21089 };
 
-  /// @brief Field sessionConfig_, offset: 0x10, size: 0x10, def value: None
-  ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig ___sessionConfig_;
+  /// @brief Field _sessionConfig, offset: 0x10, size: 0x10, def value: None
+  ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig ____sessionConfig;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager, ___sessionConfig_) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpRequestManager, ____sessionConfig) == 0x10, "Offset mismatch!");
 
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpRequestManager) == 0x20, "Size mismatch!");
 

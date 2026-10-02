@@ -39,23 +39,23 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SharedInstanceHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SharedInstanceHandle>*();
 
-  /// @brief Method CompareTo, addr 0x6823270, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6c57304, size 0x70, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Rendering::SharedInstanceHandle other);
 
-  /// @brief Method Equals, addr 0x6823204, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c57298, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SharedInstanceHandle other);
 
-  /// @brief Method GetHashCode, addr 0x68232e0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c57374, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::SharedInstanceHandle getStaticF_Invalid();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_index, addr 0x6823194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6c57228, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_valid, addr 0x68231a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6c57238, size 0x60, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::Rendering::SharedInstanceHandle>"
@@ -67,7 +67,7 @@ public:
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::SharedInstanceHandle value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_index, addr 0x682319c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x6c57230, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
   // Ctor Parameters []
@@ -78,7 +78,7 @@ public:
   constexpr SharedInstanceHandle(int32_t _index_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18214 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

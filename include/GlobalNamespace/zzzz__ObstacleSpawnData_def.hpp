@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE ObstacleSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58cd0e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce3954, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr ObstacleSpawnData(::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -31,7 +31,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x586c408, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x5c825dc, size 0x1c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* New_ctor();
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value);
 
-  /// @brief Method .ctor, addr 0x586c424, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c825f8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x586c3ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5c825c0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -63,7 +63,7 @@ public:
   BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19944 };
 
   /// [SerializeField]
   /// @brief Field _bloomPrePassBackgroundColor, offset: 0x40, size: 0x8, def value: None

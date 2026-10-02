@@ -34,6 +34,8 @@ public:
 
   __declspec(property(get = get_avatarsData)) ::GlobalNamespace::MultiplayerAvatarsData avatarsData;
 
+  __declspec(property(get = get_isVisualDataResolved)) bool isVisualDataResolved;
+
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
 
@@ -45,19 +47,22 @@ public:
 
   constexpr void __cordl_internal_set__avatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x3271e00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f8668, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
-  /// @brief Method add_visualDataDidChangeEvent, addr 0x3271df8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method add_visualDataDidChangeEvent, addr 0x34f8660, size 0x4, virtual true, abstract: false, final true
   inline void add_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
-  /// @brief Method get_avatarsData, addr 0x3271de4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x34f8644, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
+
+  /// @brief Method get_isVisualDataResolved, addr 0x34f8658, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isVisualDataResolved();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
 
-  /// @brief Method remove_visualDataDidChangeEvent, addr 0x3271dfc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method remove_visualDataDidChangeEvent, addr 0x34f8664, size 0x4, virtual true, abstract: false, final true
   inline void remove_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
 protected:
@@ -75,7 +80,7 @@ public:
   StaticAvatarVisualDataProvider(StaticAvatarVisualDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22394 };
 
   /// @brief Field _avatarsData, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____avatarsData;

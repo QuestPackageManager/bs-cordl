@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PassFragmentData)
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct AccessFlags;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct ResourceHandle;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct PassFragmentData;
@@ -15,6 +21,7 @@ struct PassFragmentData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassFragmentData");
+// [IsReadOnly]
 // [DebuggerDisplay("PassFragmentData: Res({resource.index}):{accessFlags}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.AccessFlags, UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -23,12 +30,16 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassFragmentData {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67f93a8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c26f44, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SameSubResource, addr 0x67f9434, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SameSubResource, addr 0x6c26fbc, size 0x98, virtual false, abstract: false, final false
   static inline bool SameSubResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y);
+
+  /// @brief Method .ctor, addr 0x6c26f2c, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel,
+                    int32_t depthSlice);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -41,7 +52,7 @@ public:
                              int32_t depthSlice) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

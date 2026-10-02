@@ -22,15 +22,15 @@ public:
   // Declarations
   __declspec(property(get = get_DomainName)) ::StringW DomainName;
 
-  /// @brief Method GetIPGlobalProperties, addr 0x6352298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetIPGlobalProperties, addr 0x677a204, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
 
-  /// @brief Method InternalGetIPGlobalProperties, addr 0x63522e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetIPGlobalProperties, addr 0x677a250, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
 
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63522e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677a254, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DomainName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -51,7 +51,7 @@ public:
   IPGlobalProperties(IPGlobalProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

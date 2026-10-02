@@ -63,29 +63,29 @@ public:
   /// @brief Field useMachineKeyStore, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useMachineKeyStore, put = setStaticF_useMachineKeyStore)) bool useMachineKeyStore;
 
-  /// @brief Method Common, addr 0x5b0cd8c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Common, addr 0x5f24c84, size 0x20c, virtual false, abstract: false, final false
   inline void Common(int32_t dwKeySize, bool parameters);
 
-  /// @brief Method Dispose, addr 0x5b0d120, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5f25018, size 0x58, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExportParameters, addr 0x5b0d01c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x5f24f14, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method Finalize, addr 0x5b0cf98, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5f24e90, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method ImportParameters, addr 0x5b0d0c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x5f24fb8, size 0x44, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
   static inline ::System::Security::Cryptography::DSACryptoServiceProvider* New_ctor();
 
   static inline ::System::Security::Cryptography::DSACryptoServiceProvider* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method OnKeyGenerated, addr 0x5b0d178, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnKeyGenerated, addr 0x5f25070, size 0x80, virtual false, abstract: false, final false
   inline void OnKeyGenerated(::System::Object* sender, ::System::EventArgs* e);
 
-  /// @brief Method VerifySignature, addr 0x5b0d104, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5f24ffc, size 0x1c, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
 
   constexpr ::Mono::Security::Cryptography::DSAManaged* const& __cordl_internal_get_dsa() const;
@@ -124,18 +124,18 @@ public:
 
   constexpr void __cordl_internal_set_store(::Mono::Security::Cryptography::KeyPairPersistence* value);
 
-  /// @brief Method .ctor, addr 0x5b0abec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f22ae4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b0cd7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f24c74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize);
 
   static inline bool getStaticF_useMachineKeyStore();
 
-  /// @brief Method get_KeySize, addr 0x5b0cfe8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x5f24ee0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x5b0d004, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x5f24efc, size 0x18, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
   static inline void setStaticF_useMachineKeyStore(bool value);

@@ -27,7 +27,7 @@ class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method SetSizeOptimized, addr 0x5a57fdc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetSizeOptimized, addr 0x5e6f944, size 0x124, virtual false, abstract: false, final false
   static inline void SetSizeOptimized(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Vector2 offsetMin, ::UnityEngine::Vector2 offsetMax, ::UnityEngine::Vector2 fixedDimensions,
                                       bool setAnchoredPosition);
 
@@ -46,7 +46,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

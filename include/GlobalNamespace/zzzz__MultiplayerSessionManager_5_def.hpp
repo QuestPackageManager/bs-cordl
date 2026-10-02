@@ -155,7 +155,7 @@ public:
       Disconnecting;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -217,7 +217,7 @@ public:
   MultiplayerSessionManager_5___c(MultiplayerSessionManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -266,7 +266,7 @@ public:
   MultiplayerSessionManager_5___c__DisplayClass94_0(MultiplayerSessionManager_5___c__DisplayClass94_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18753 };
 
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___userId;
@@ -756,7 +756,7 @@ public:
   MultiplayerSessionManager_5(MultiplayerSessionManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18754 };
 
   /// @brief Field kMultiplayerSessionState offset 0xffffffff size 0x8
   static constexpr ::ConstString kMultiplayerSessionState{ u"multiplayer_session" };

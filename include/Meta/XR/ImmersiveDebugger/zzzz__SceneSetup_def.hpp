@@ -20,13 +20,13 @@ class CORDL_TYPE SceneSetup : public ::System::Object {
 public:
   // Declarations
   /// [RuntimeInitializeOnLoadMethod]
-  /// @brief Method OnLoad, addr 0x5a42e98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnLoad, addr 0x5e5a834, size 0x5c, virtual false, abstract: false, final false
   static inline void OnLoad();
 
   /// [Conditional("UNITY_EDITOR")]
   /// [Conditional("DEBUG")]
   /// [Conditional("IMMERSIVE_DEBUGGER_ALLOW_USE_IN_PROD")]
-  /// @brief Method SetupImmersiveDebugger, addr 0x5a42ef4, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method SetupImmersiveDebugger, addr 0x5e5a890, size 0x34c, virtual false, abstract: false, final false
   static inline void SetupImmersiveDebugger();
 
 protected:
@@ -44,7 +44,7 @@ public:
   SceneSetup(SceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

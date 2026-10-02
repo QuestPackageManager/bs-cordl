@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t* (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::get_firstFreeTLS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cec70;
+  constexpr static std::size_t addrs = 0x68f79c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,9 +22,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t* (::Unity::Collec
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData.GetBucketSize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketSize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cec78;
+  constexpr static std::size_t addrs = 0x68f79cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GrowCapacity)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64cec80;
+  constexpr static std::size_t addrs = 0x68f79d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::DeallocateHashMap)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64cec90;
+  constexpr static std::size_t addrs = 0x68f79e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::IsEmpty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ced1c;
+  constexpr static std::size_t addrs = 0x68f7a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetCount)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x64ced78;
+  constexpr static std::size_t addrs = 0x68f7acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::MoveNextSearch)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64cee28;
+  constexpr static std::size_t addrs = 0x68f7b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::MoveNext)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64cee9c;
+  constexpr static std::size_t addrs = 0x68f7bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData (
     ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64ceed4;
+  constexpr static std::size_t addrs = 0x68f7c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,13 +149,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CheckHashMapReallocateDoesNotShrink)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64ceeec;
+  constexpr static std::size_t addrs = 0x68f7c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
                             { "CheckHashMapReallocateDoesNotShrink", {}, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData.CheckCapacity
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CheckCapacity)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x68f7ca8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(), { "CheckCapacity", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -227,10 +240,10 @@ inline int32_t* Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(), { "get_firstFreeTLS", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t*>(*this, ___internal_method);
 }
-inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketSize(int32_t capacity) {
+inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketSize(int32_t capacity) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(), { "GetBucketSize", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, capacity);
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, capacity);
 }
 inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GrowCapacity(int32_t capacity) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -240,13 +253,13 @@ inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::
 template <typename TKey, typename TValue>
   requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
            ::cordl_internals::default_constructor_constraint<TValue>)
-inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::AllocateHashMap(int32_t length, int32_t bucketLength, ::Unity::Collections::AllocatorManager_AllocatorHandle label,
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::AllocateHashMap(int32_t length, int64_t bucketLength, ::Unity::Collections::AllocatorManager_AllocatorHandle label,
                                                                                              ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*> outBuf) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
                                                            { "AllocateHashMap",
                                                              { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() },
-                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>(),
+                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, length, bucketLength, label, outBuf);
@@ -255,13 +268,13 @@ template <typename TKey, typename TValue>
   requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
            ::cordl_internals::default_constructor_constraint<TValue>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::ReallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity,
-                                                                                               int32_t newBucketCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle label) {
+                                                                                               int64_t newBucketCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle label) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
                                                            { "ReallocateHashMap",
                                                              { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() },
                                                              { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>(), ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
+                                                               ::i2c::type_of<int64_t>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, newCapacity, newBucketCapacity, label);
 }
@@ -278,15 +291,15 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Dea
 template <typename TKey, typename TValue>
   requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
            ::cordl_internals::default_constructor_constraint<TValue>)
-inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CalculateDataSize(int32_t length, int32_t bucketLength, ::by_ref<int32_t> keyOffset, ::by_ref<int32_t> nextOffset,
-                                                                                                  ::by_ref<int32_t> bucketOffset) {
+inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CalculateDataSize(int32_t length, int64_t bucketLength, ::by_ref<int64_t> keyOffset, ::by_ref<int64_t> nextOffset,
+                                                                                                  ::by_ref<int64_t> bucketOffset) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
                                                                                               { "CalculateDataSize",
                                                                                                 { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() },
-                                                                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(),
-                                                                                                  ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+                                                                                                { ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<int64_t>>(),
+                                                                                                  ::i2c::type_of<::by_ref<int64_t>>(), ::i2c::type_of<::by_ref<int64_t>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, length, bucketLength, keyOffset, nextOffset, bucketOffset);
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, length, bucketLength, keyOffset, nextOffset, bucketOffset);
 }
 inline bool Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::IsEmpty(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
@@ -371,6 +384,11 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Che
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
                           { "CheckHashMapReallocateDoesNotShrink", {}, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, newCapacity);
+}
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CheckCapacity(int32_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(), { "CheckCapacity", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, capacity);
 }
 // Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "next", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: Some("{}"),

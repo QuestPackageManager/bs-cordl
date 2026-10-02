@@ -1,15 +1,28 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/LowLevelPhysics/GeometryHolder.hpp"
-#include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__IGeometry_impl.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__GeometryHolder_def.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__GeometryHolder_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer::GeometryHolder__m_Blob_e__FixedBuffer(uint32_t FixedElementField) noexcept {
+#include "UnityEngine/LowLevelPhysics/zzzz__GeometryType_def.hpp"
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Data_e__FixedBuffer::GeometryHolder__m_Data_e__FixedBuffer(int32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer::GeometryHolder__m_Blob_e__FixedBuffer() {}
+constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Data_e__FixedBuffer::GeometryHolder__m_Data_e__FixedBuffer() {}
+//  Writing Method size for method: ::UnityEngine::LowLevelPhysics::GeometryHolder.get_Type
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics::GeometryType (::UnityEngine::LowLevelPhysics::GeometryHolder::*)()>(
+    &::UnityEngine::LowLevelPhysics::GeometryHolder::get_Type)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7009abc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics::GeometryHolder>(), { "get_Type", {}, {} })));
+    return ___internal_method;
+  }
+};
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::UnityEngine::LowLevelPhysics::IGeometry*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline T UnityEngine::LowLevelPhysics::GeometryHolder::As() {
@@ -18,17 +31,13 @@ inline T UnityEngine::LowLevelPhysics::GeometryHolder::As() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DataStart", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "m_FakePointer0", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FakePointer1", ty:
-// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Blob", ty: "::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer", modifiers: "",
-// def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder::GeometryHolder(int32_t m_Type, uint32_t m_DataStart, ::System::IntPtr m_FakePointer0, ::System::IntPtr m_FakePointer1,
-                                                                         ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer m_Blob) noexcept {
-  this->m_Type = m_Type;
-  this->m_DataStart = m_DataStart;
-  this->m_FakePointer0 = m_FakePointer0;
-  this->m_FakePointer1 = m_FakePointer1;
-  this->m_Blob = m_Blob;
+inline ::UnityEngine::LowLevelPhysics::GeometryType UnityEngine::LowLevelPhysics::GeometryHolder::get_Type() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics::GeometryHolder>(), { "get_Type", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::LowLevelPhysics::GeometryType>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "m_Data", ty: "::UnityEngine::LowLevelPhysics::GeometryHolder__m_Data_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder::GeometryHolder(::UnityEngine::LowLevelPhysics::GeometryHolder__m_Data_e__FixedBuffer m_Data) noexcept {
+  this->m_Data = m_Data;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LowLevelPhysics::GeometryHolder::GeometryHolder() {}

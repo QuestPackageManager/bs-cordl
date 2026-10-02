@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::SetWidget)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6804b94;
+  constexpr static std::size_t addrs = 0x6c33734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::ChangeSelectedObject)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6804bf8;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6c33798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::OnIncrement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6804d00;
+  constexpr static std::size_t addrs = 0x6c33880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::OnDecrement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6804d10;
+  constexpr static std::size_t addrs = 0x6c33890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::UpdateValueLabel)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6804d20;
+  constexpr static std::size_t addrs = 0x6c338a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6804e18;
+  constexpr static std::size_t addrs = 0x6c33998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(), { ".ctor", {}, {} })));

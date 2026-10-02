@@ -14,6 +14,7 @@ struct ResourceReaderData;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "ResourceReaderData");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -21,6 +22,9 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE ResourceReaderData {
 public:
   // Declarations
+  /// @brief Method .ctor, addr 0x6c2b6e0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t _passId, int32_t _inputSlot);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr ResourceReaderData();
@@ -30,7 +34,7 @@ public:
   constexpr ResourceReaderData(int32_t passId, int32_t inputSlot) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

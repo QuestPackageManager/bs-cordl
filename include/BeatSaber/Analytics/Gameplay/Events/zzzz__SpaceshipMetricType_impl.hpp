@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32655f0;
+  constexpr static std::size_t addrs = 0x34e9fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32655f8;
+  constexpr static std::size_t addrs = 0x34e9fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3265600;
+  constexpr static std::size_t addrs = 0x34e9fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>(),
@@ -62,6 +62,13 @@ inline void BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::setStat
 }
 inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::getStaticF_Action() {
   return ::cordl_internals::getStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*, "Action", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>();
+}
+inline void BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::setStaticF_Click(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*, "Click", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>(
+      std::forward<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>(value));
+}
+inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::getStaticF_Click() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*, "Click", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>();
 }
 inline void BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType::setStaticF_Damage(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* value) {
   ::cordl_internals::setStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*, "Damage", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*>(

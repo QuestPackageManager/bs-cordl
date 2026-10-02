@@ -30,6 +30,8 @@ public:
     __E_GroupTransform = static_cast<int32_t>(0x2),
     __E_MaskContainer = static_cast<int32_t>(0x4),
     __E_DynamicColor = static_cast<int32_t>(0x8),
+    __E_DynamicPostProcessing = static_cast<int32_t>(0x10),
+    __E_LargePixelCoverage = static_cast<int32_t>(0x20),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,11 +54,17 @@ public:
   /// @brief Field DynamicColor value: I32(8)
   static ::UnityEngine::UIElements::UsageHints const DynamicColor;
 
+  /// @brief Field DynamicPostProcessing value: I32(16)
+  static ::UnityEngine::UIElements::UsageHints const DynamicPostProcessing;
+
   /// @brief Field DynamicTransform value: I32(1)
   static ::UnityEngine::UIElements::UsageHints const DynamicTransform;
 
   /// @brief Field GroupTransform value: I32(2)
   static ::UnityEngine::UIElements::UsageHints const GroupTransform;
+
+  /// @brief Field LargePixelCoverage value: I32(32)
+  static ::UnityEngine::UIElements::UsageHints const LargePixelCoverage;
 
   /// @brief Field MaskContainer value: I32(4)
   static ::UnityEngine::UIElements::UsageHints const MaskContainer;
@@ -65,7 +73,7 @@ public:
   static ::UnityEngine::UIElements::UsageHints const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4679 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

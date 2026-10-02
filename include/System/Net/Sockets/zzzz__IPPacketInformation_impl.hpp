@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::IPPacketInformation::*)(::System::Object*)>(&::System::Net::Sockets::IPPacketInformation::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x636a008;
+  constexpr static std::size_t addrs = 0x679226c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::IPPacketInformation::*)()>(&::System::Net::Sockets::IPPacketInformation::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x636a0a4;
+  constexpr static std::size_t addrs = 0x6792308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

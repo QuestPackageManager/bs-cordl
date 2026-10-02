@@ -46,15 +46,15 @@ public:
   /// @brief Field _transform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method HandleNoteDidMoveInJumpPhase, addr 0x58d8a34, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidMoveInJumpPhase, addr 0x5cef248, size 0x15c, virtual false, abstract: false, final false
   inline void HandleNoteDidMoveInJumpPhase();
 
   static inline ::GlobalNamespace::ProModeTrailingCollidersController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58d8928, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cef13c, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58d8888, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cef09c, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__mainSmallCuttableBySaber() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x58d8b90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cef3a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ProModeTrailingCollidersController(ProModeTrailingCollidersController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5812 };
 
   /// [SerializeField]
   /// @brief Field _mainSmallCuttableBySaber, offset: 0x20, size: 0x8, def value: None

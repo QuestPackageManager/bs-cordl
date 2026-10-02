@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::get_Copies)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a6eca4;
+  constexpr static std::size_t addrs = 0x5e86b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>(), { "get_Copies", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::get_BufferSize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a6ecb8;
+  constexpr static std::size_t addrs = 0x5e86b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>(), { "get_BufferSize", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::get_LineScaleFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a6eccc;
+  constexpr static std::size_t addrs = 0x5e86b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::set_LineScaleFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a6ecd4;
+  constexpr static std::size_t addrs = 0x5e86b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(::UnityEngine::Material*, bool)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::_ctor)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x5a6afec;
+  constexpr static std::size_t addrs = 0x5e82d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>(),
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::Cleanup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5a6b4cc;
+  constexpr static std::size_t addrs = 0x5e83210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>(), { "Cleanup", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::UnityEngine::Color)>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetLines)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a6ecdc;
+  constexpr static std::size_t addrs = 0x5e86b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
                                                                                                                         ::System::Collections::Generic::List_1<::UnityEngine::Color>*, int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetLines)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a6b5fc;
+  constexpr static std::size_t addrs = 0x5e83340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetPositions)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x5a6ed90;
+  constexpr static std::size_t addrs = 0x5e86bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t, ::System::Collections::Generic::List_1<::UnityEngine::Color>*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetColors)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5a6f1e8;
+  constexpr static std::size_t addrs = 0x5e87050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t, ::UnityEngine::Color)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetColor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5a6f114;
+  constexpr static std::size_t addrs = 0x5e86f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetDrawCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a6f0d0;
+  constexpr static std::size_t addrs = 0x5e86f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::PrepareColorBuffer)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5a6f308;
+  constexpr static std::size_t addrs = 0x5e87170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,8 +202,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::RenderLines)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5a6b698;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x5e833dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>(), { "RenderLines", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(::UnityEngine::Transform*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetTransform)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5a6f418;
+  constexpr static std::size_t addrs = 0x5e87280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

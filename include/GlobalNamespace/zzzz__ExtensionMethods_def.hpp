@@ -78,27 +78,27 @@ class CORDL_TYPE ExtensionMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ContainsLayer, addr 0x3323b88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ContainsLayer, addr 0x35acc5c, size 0xc, virtual false, abstract: false, final false
   static inline bool ContainsLayer(::UnityEngine::LayerMask layerMask, int32_t layer);
 
   /// [Extension]
-  /// @brief Method CreateTexture2D, addr 0x3324010, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture2D, addr 0x35ad0f8, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> CreateTexture2D(::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::TextureFormat textureFormat);
 
   /// [Extension]
-  /// @brief Method GetFixedSeed, addr 0x33243b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetFixedSeed, addr 0x35ad49c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetFixedSeed(::UnityEngine::Component* component);
 
   /// [Extension]
-  /// @brief Method GetFixedSeed, addr 0x3324398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetFixedSeed, addr 0x35ad480, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetFixedSeed(::UnityEngine::GameObject* gameObject);
 
   /// [Extension]
-  /// @brief Method GetFixedSeed, addr 0x3324230, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetFixedSeed, addr 0x35ad318, size 0x168, virtual false, abstract: false, final false
   static inline int32_t GetFixedSeed(::UnityEngine::Transform* transform);
 
   /// [Extension]
-  /// @brief Method GetPath, addr 0x3323d88, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x35ace5c, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW GetPath(::UnityEngine::Transform* current);
 
   /// [Extension]
@@ -106,7 +106,7 @@ public:
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* GetRange(::System::Collections::Generic::IReadOnlyList_1<T>* list, int32_t index, int32_t count);
 
   /// [Extension]
-  /// @brief Method IsDescendantOf, addr 0x3323c64, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOf, addr 0x35acd38, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsDescendantOf(::UnityEngine::Transform* transform, ::UnityEngine::Transform* parent);
 
   /// [Extension]
@@ -114,23 +114,23 @@ public:
   template <typename T> static inline T LastUnsafe(::System::Collections::Generic::IReadOnlyList_1<T>* list);
 
   /// [Extension]
-  /// @brief Method Reflect, addr 0x3323e84, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Reflect, addr 0x35acf58, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Reflect(::UnityEngine::Quaternion source, ::UnityEngine::Vector3 normal);
 
   /// [Extension]
-  /// @brief Method Rotate, addr 0x332416c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x35ad254, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Rotate(::UnityEngine::Vector2 vector, float_t rads);
 
   /// [Extension]
-  /// @brief Method SetLocalPositionAndRotation, addr 0x3323d30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation, addr 0x35ace04, size 0x58, virtual false, abstract: false, final false
   static inline void SetLocalPositionAndRotation(::UnityEngine::Transform* tr, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
   /// [Extension]
-  /// @brief Method SetSeed, addr 0x33241b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x35ad29c, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t seed);
 
   /// [Extension]
-  /// @brief Method StartUniqueCoroutine, addr 0x3323b94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartUniqueCoroutine, addr 0x35acc68, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
 
   /// [Extension]
@@ -138,7 +138,7 @@ public:
   template <typename T> static inline ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_2<T, ::System::Collections::IEnumerator*>* func, T value);
 
   /// [Extension]
-  /// @brief Method StopUniqueCoroutine, addr 0x3323c18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method StopUniqueCoroutine, addr 0x35accec, size 0x4c, virtual false, abstract: false, final false
   static inline void StopUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
 
   /// [Extension]
@@ -160,7 +160,7 @@ public:
   ExtensionMethods(ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

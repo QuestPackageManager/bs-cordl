@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ByRefParameterExpression::*)(::System::Type*, ::StringW)>(
     &::System::Linq::Expressions::ByRefParameterExpression::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f89458;
+  constexpr static std::size_t addrs = 0x63a53d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ByRefParameterExpression*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::ByRefParameterExpression::*)()>(&::System::Linq::Expressions::ByRefParameterExpression::GetIsByRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f89518;
+  constexpr static std::size_t addrs = 0x63a5494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ByRefParameterExpression*>(),

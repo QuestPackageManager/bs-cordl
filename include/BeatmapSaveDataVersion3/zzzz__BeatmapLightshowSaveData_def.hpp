@@ -118,10 +118,10 @@ public:
 
   constexpr void __cordl_internal_set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* value);
 
-  /// @brief Method .ctor, addr 0x375e7c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7ea0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEmpty, addr 0x375e6a8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x39e7d88, size 0x118, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -139,7 +139,7 @@ public:
   BeatmapLightshowSaveData(BeatmapLightshowSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15586 };
 
   /// @brief Field basicBeatmapEvents, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* ___basicBeatmapEvents;

@@ -52,13 +52,13 @@ public:
   /// @brief Field <TypeOperand>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__TypeOperand_k__BackingField, put = __cordl_internal_set__TypeOperand_k__BackingField)) ::System::Type* _TypeOperand_k__BackingField;
 
-  /// @brief Method Accept, addr 0x5f89780, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x63a56fc, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::TypeBinaryExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand,
                                                                             ::System::Linq::Expressions::ExpressionType nodeType);
 
-  /// @brief Method Update, addr 0x5f854b0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x63a142c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::TypeBinaryExpression* Update(::System::Linq::Expressions::Expression* expression);
 
   constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set__TypeOperand_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f896c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a563c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand, ::System::Linq::Expressions::ExpressionType nodeType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Expression, addr 0x5f89770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x63a56ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
   /// [CompilerGenerated]
-  /// @brief Method get_NodeType, addr 0x5f89768, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x63a56e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x5f89738, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x63a56b4, size 0x30, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TypeOperand, addr 0x5f89778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOperand, addr 0x63a56f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_TypeOperand();
 
 protected:
@@ -112,7 +112,7 @@ public:
   TypeBinaryExpression(TypeBinaryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16753 };
 
   /// [CompilerGenerated]
   /// @brief Field <NodeType>k__BackingField, offset: 0x10, size: 0x4, def value: None

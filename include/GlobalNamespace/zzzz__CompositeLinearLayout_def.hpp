@@ -36,7 +36,7 @@ public:
   /// @brief Field _startFromCenter, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__startFromCenter, put = __cordl_internal_set__startFromCenter)) bool _startFromCenter;
 
-  /// @brief Method Apply, addr 0x5993300, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Apply, addr 0x5dae26c, size 0x4, virtual true, abstract: false, final false
   inline void Apply(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>* childTransforms, int32_t numberOfElements, int32_t sameIdElements);
 
   static inline ::GlobalNamespace::CompositeLinearLayout* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x5993304, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae270, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   CompositeLinearLayout(CompositeLinearLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5950 };
 
   /// [SerializeField]
   /// @brief Field _movementStep, offset: 0x24, size: 0xc, def value: None

@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x68a2b04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6caa0a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   RenderObjectsPass_PassData(RenderObjectsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12975 };
 
   /// @brief Field cameraSettings, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* ___cameraSettings;
@@ -257,10 +257,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderObjectsPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__33_0, addr 0x68a4d10, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__33_0, addr 0x6cab828, size 0xac, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__33_0(::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x68a4d0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cab824, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::RenderObjectsPass___c* getStaticF___9();
@@ -289,7 +289,7 @@ public:
   RenderObjectsPass___c(RenderObjectsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12976 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -309,36 +309,36 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::RenderObjectsPass___c;
 
-  /// @brief Field <overrideMaterialPassIndex>k__BackingField, offset 0xf0, size 0x4
+  /// @brief Field <overrideMaterialPassIndex>k__BackingField, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__overrideMaterialPassIndex_k__BackingField,
                       put = __cordl_internal_set__overrideMaterialPassIndex_k__BackingField)) int32_t _overrideMaterialPassIndex_k__BackingField;
 
-  /// @brief Field <overrideMaterial>k__BackingField, offset 0xe8, size 0x8
+  /// @brief Field <overrideMaterial>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__overrideMaterial_k__BackingField, put = __cordl_internal_set__overrideMaterial_k__BackingField)) ::UnityW<::UnityEngine::Material>
       _overrideMaterial_k__BackingField;
 
-  /// @brief Field <overrideShaderPassIndex>k__BackingField, offset 0x100, size 0x4
+  /// @brief Field <overrideShaderPassIndex>k__BackingField, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get__overrideShaderPassIndex_k__BackingField,
                       put = __cordl_internal_set__overrideShaderPassIndex_k__BackingField)) int32_t _overrideShaderPassIndex_k__BackingField;
 
-  /// @brief Field <overrideShader>k__BackingField, offset 0xf8, size 0x8
+  /// @brief Field <overrideShader>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__overrideShader_k__BackingField, put = __cordl_internal_set__overrideShader_k__BackingField)) ::UnityW<::UnityEngine::Shader>
       _overrideShader_k__BackingField;
 
-  /// @brief Field m_CameraSettings, offset 0xe0, size 0x8
+  /// @brief Field m_CameraSettings, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraSettings,
                       put = __cordl_internal_set_m_CameraSettings)) ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* m_CameraSettings;
 
-  /// @brief Field m_FilteringSettings, offset 0xbc, size 0x20
+  /// @brief Field m_FilteringSettings, offset 0x60, size 0x20
   __declspec(property(get = __cordl_internal_get_m_FilteringSettings, put = __cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings m_FilteringSettings;
 
-  /// @brief Field m_PassData, offset 0x110, size 0x8
+  /// @brief Field m_PassData, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData* m_PassData;
 
-  /// @brief Field m_RenderStateBlock, offset 0x118, size 0x6c
+  /// @brief Field m_RenderStateBlock, offset 0xb8, size 0x6c
   __declspec(property(get = __cordl_internal_get_m_RenderStateBlock, put = __cordl_internal_set_m_RenderStateBlock)) ::UnityEngine::Rendering::RenderStateBlock m_RenderStateBlock;
 
-  /// @brief Field m_ShaderTagIdList, offset 0x108, size 0x8
+  /// @brief Field m_ShaderTagIdList, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
@@ -350,25 +350,25 @@ public:
 
   __declspec(property(get = get_overrideShaderPassIndex, put = set_overrideShaderPassIndex)) int32_t overrideShaderPassIndex;
 
-  /// @brief Field renderQueueType, offset 0xb8, size 0x4
+  /// @brief Field renderQueueType, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_renderQueueType, put = __cordl_internal_set_renderQueueType)) ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType;
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68a2b08, size 0x1f0, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6ca99a8, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68a3078, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6caa0a4, size 0x400, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData* passData, ::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                  ::UnityEngine::Rendering::RendererList rendererList, bool isYFlipped);
 
-  /// @brief Method Init, addr 0x68a2648, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6ca9c10, size 0x3a8, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags, ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType,
                    int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method InitPassData, addr 0x68a2cf8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6caa4a4, size 0x34, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData*> passData);
 
-  /// @brief Method InitRendererLists, addr 0x68a2d2c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6caa4d8, size 0x324, virtual false, abstract: false, final false
   inline void InitRendererLists(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                 ::by_ref<::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
@@ -382,17 +382,17 @@ public:
                                                                                  ::ArrayW<::StringW> shaderTags, ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType,
                                                                                  int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method RecordRenderGraph, addr 0x68a3ef0, size 0xdc8, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6caa7fc, size 0xdb4, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method SetDepthState, addr 0x68a2438, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDepthState, addr 0x6ca9a28, size 0x3c, virtual false, abstract: false, final false
   inline void SetDepthState(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction function);
 
-  /// [Obsolete("Use SetDepthState instead", true)]
-  /// @brief Method SetDetphState, addr 0x68a23fc, size 0x3c, virtual false, abstract: false, final false
+  /// [Obsolete("Use SetDepthState instead. #from(2023.1) #breakingFrom(2023.1)", true)]
+  /// @brief Method SetDetphState, addr 0x6ca99ec, size 0x3c, virtual false, abstract: false, final false
   inline void SetDetphState(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction function);
 
-  /// @brief Method SetStencilState, addr 0x68a2474, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetStencilState, addr 0x6ca9a64, size 0xa4, virtual false, abstract: false, final false
   inline void SetStencilState(int32_t reference, ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::StencilOp passOp, ::UnityEngine::Rendering::StencilOp failOp,
                               ::UnityEngine::Rendering::StencilOp zFailOp);
 
@@ -456,44 +456,44 @@ public:
 
   constexpr void __cordl_internal_set_renderQueueType(::UnityEngine::Rendering::Universal::RenderQueueType value);
 
-  /// @brief Method .ctor, addr 0x68a29f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca9fb8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profileId, ::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags,
                     ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType, int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
-  /// @brief Method .ctor, addr 0x68a2518, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca9b08, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, ::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::ArrayW<::StringW> shaderTags,
                     ::UnityEngine::Rendering::Universal::RenderQueueType renderQueueType, int32_t layerMask, ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings);
 
   /// [CompilerGenerated]
-  /// @brief Method get_overrideMaterial, addr 0x68a23bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideMaterial, addr 0x6ca99ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_overrideMaterial();
 
   /// [CompilerGenerated]
-  /// @brief Method get_overrideMaterialPassIndex, addr 0x68a23cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideMaterialPassIndex, addr 0x6ca99bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overrideMaterialPassIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_overrideShader, addr 0x68a23dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideShader, addr 0x6ca99cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_overrideShader();
 
   /// [CompilerGenerated]
-  /// @brief Method get_overrideShaderPassIndex, addr 0x68a23ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideShaderPassIndex, addr 0x6ca99dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_overrideShaderPassIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method set_overrideMaterial, addr 0x68a23c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterial, addr 0x6ca99b4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterial(::UnityEngine::Material* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_overrideMaterialPassIndex, addr 0x68a23d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterialPassIndex, addr 0x6ca99c4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterialPassIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_overrideShader, addr 0x68a23e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShader, addr 0x6ca99d4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShader(::UnityEngine::Shader* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_overrideShaderPassIndex, addr 0x68a23f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShaderPassIndex, addr 0x6ca99e4, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShaderPassIndex(int32_t value);
 
 protected:
@@ -511,65 +511,65 @@ public:
   RenderObjectsPass(RenderObjectsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12977 };
 
-  /// @brief Field renderQueueType, offset: 0xb8, size: 0x4, def value: None
+  /// @brief Field renderQueueType, offset: 0x5c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderQueueType ___renderQueueType;
 
-  /// @brief Field m_FilteringSettings, offset: 0xbc, size: 0x20, def value: None
+  /// @brief Field m_FilteringSettings, offset: 0x60, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;
 
-  /// @brief Field m_CameraSettings, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field m_CameraSettings, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::RenderObjects_CustomCameraSettings* ___m_CameraSettings;
 
   /// [CompilerGenerated]
-  /// @brief Field <overrideMaterial>k__BackingField, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field <overrideMaterial>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____overrideMaterial_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <overrideMaterialPassIndex>k__BackingField, offset: 0xf0, size: 0x4, def value: None
+  /// @brief Field <overrideMaterialPassIndex>k__BackingField, offset: 0x90, size: 0x4, def value: None
   int32_t ____overrideMaterialPassIndex_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <overrideShader>k__BackingField, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field <overrideShader>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____overrideShader_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <overrideShaderPassIndex>k__BackingField, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field <overrideShaderPassIndex>k__BackingField, offset: 0xa0, size: 0x4, def value: None
   int32_t ____overrideShaderPassIndex_k__BackingField;
 
-  /// @brief Field m_ShaderTagIdList, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field m_ShaderTagIdList, offset: 0xa8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* ___m_ShaderTagIdList;
 
-  /// @brief Field m_PassData, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field m_PassData, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::RenderObjectsPass_PassData* ___m_PassData;
 
-  /// @brief Field m_RenderStateBlock, offset: 0x118, size: 0x6c, def value: None
+  /// @brief Field m_RenderStateBlock, offset: 0xb8, size: 0x6c, def value: None
   ::UnityEngine::Rendering::RenderStateBlock ___m_RenderStateBlock;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___renderQueueType) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___renderQueueType) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_FilteringSettings) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_FilteringSettings) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_CameraSettings) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_CameraSettings) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideMaterial_k__BackingField) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideMaterial_k__BackingField) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideMaterialPassIndex_k__BackingField) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideMaterialPassIndex_k__BackingField) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideShader_k__BackingField) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideShader_k__BackingField) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideShaderPassIndex_k__BackingField) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ____overrideShaderPassIndex_k__BackingField) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_ShaderTagIdList) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_ShaderTagIdList) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_PassData) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_PassData) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_RenderStateBlock) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderObjectsPass, ___m_RenderStateBlock) == 0xb8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderObjectsPass) == 0x188, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderObjectsPass) == 0x128, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

@@ -24,25 +24,25 @@ public:
 
   __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
 
-  /// @brief Method .ctor, addr 0x658c2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69b7f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_samplesAvailable, addr 0x658c2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesAvailable, addr 0x69b7f84, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesAvailable();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_samplesQueued, addr 0x658c2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesQueued, addr 0x69b7f74, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesQueued();
 
   /// [CompilerGenerated]
-  /// @brief Method set_samplesAvailable, addr 0x658c300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesAvailable, addr 0x69b7f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesAvailable(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_samplesQueued, addr 0x658c2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesQueued, addr 0x69b7f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesQueued(uint32_t value);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr HapticState(uint32_t _samplesQueued_k__BackingField, uint32_t _samplesAvailable_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

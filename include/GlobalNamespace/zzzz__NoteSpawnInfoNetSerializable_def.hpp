@@ -110,10 +110,10 @@ public:
   /// @brief Field timeToPrevColorNote, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToPrevColorNote, put = __cordl_internal_set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  /// @brief Method Deserialize, addr 0x377ffe4, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x3a0a1b0, size 0x210, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x377fb40, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a09d0c, size 0x118, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, float_t beat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                                                                ::GlobalNamespace::NoteData_ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
@@ -124,10 +124,10 @@ public:
   /// @brief [Preserve]
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x377fad4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x3a09ca0, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x377fcb0, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x3a09e7c, size 0x334, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_beat() const;
@@ -251,7 +251,7 @@ public:
   constexpr void __cordl_internal_set_timeToPrevColorNote(float_t value);
 
   /// [Preserve]
-  /// @brief Method .ctor, addr 0x377fc58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a09e24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,7 +269,7 @@ public:
   NoteSpawnInfoNetSerializable(NoteSpawnInfoNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21920 };
 
   /// @brief Field time, offset: 0x14, size: 0x4, def value: None
   float_t ___time;

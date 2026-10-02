@@ -41,12 +41,12 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IMutationRequest"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IMutationRequest*() noexcept;
 
-  /// @brief Method GetCodeGenInfo, addr 0x5f22c88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCodeGenInfo, addr 0x633d904, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* GetCodeGenInfo();
 
   static inline ::OculusStudios::GraphQL::Client::MutationRequest* New_ctor(::OculusStudios::GraphQL::Client::GraphQLMutationOperation* mutation, bool forceRequestWhenOffline);
 
-  /// @brief Method PerformRequest, addr 0x5f22c68, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method PerformRequest, addr 0x633d8e4, size 0x20, virtual true, abstract: false, final false
   inline void PerformRequest();
 
   constexpr ::OculusStudios::GraphQL::Client::GraphQLMutationOperation* const& __cordl_internal_get_mutation() const;
@@ -61,18 +61,18 @@ public:
 
   constexpr void __cordl_internal_set_performRequestCalled(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>* value);
 
-  /// @brief Method .ctor, addr 0x5f22bec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633d868, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::Client::GraphQLMutationOperation* mutation, bool forceRequestWhenOffline);
 
   /// [CompilerGenerated]
-  /// @brief Method add_performRequestCalled, addr 0x5f22a6c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_performRequestCalled, addr 0x633d6e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_performRequestCalled(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>* value);
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IMutationRequest"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* i___OculusStudios__GraphQL__ClientInterface__IMutationRequest() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_performRequestCalled, addr 0x5f22b2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_performRequestCalled, addr 0x633d7a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_performRequestCalled(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   MutationRequest(MutationRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21061 };
 
   /// [CompilerGenerated]
   /// @brief Field performRequestCalled, offset: 0x58, size: 0x8, def value: None

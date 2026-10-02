@@ -132,153 +132,153 @@ public:
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method AcceptChanges, addr 0x602b794, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method AcceptChanges, addr 0x6447974, size 0x364, virtual false, abstract: false, final false
   inline void AcceptChanges();
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
-  /// @brief Method BeginEdit, addr 0x602baf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BeginEdit, addr 0x6447cd8, size 0x4, virtual false, abstract: false, final false
   inline void BeginEdit();
 
-  /// @brief Method BeginEditInternal, addr 0x602b0ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method BeginEditInternal, addr 0x6447290, size 0xc4, virtual false, abstract: false, final false
   inline bool BeginEditInternal();
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
-  /// @brief Method CancelEdit, addr 0x602b1e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CancelEdit, addr 0x644738c, size 0x64, virtual false, abstract: false, final false
   inline void CancelEdit();
 
-  /// @brief Method CheckColumn, addr 0x602b014, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckColumn, addr 0x64471b8, size 0x78, virtual false, abstract: false, final false
   inline void CheckColumn(::System::Data::DataColumn* column);
 
-  /// @brief Method CheckForLoops, addr 0x6026f74, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CheckForLoops, addr 0x64430a8, size 0xd4, virtual false, abstract: false, final false
   inline void CheckForLoops(::System::Data::DataRelation* rel);
 
-  /// @brief Method CheckInTable, addr 0x602bafc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckInTable, addr 0x6447cdc, size 0x38, virtual false, abstract: false, final false
   inline void CheckInTable();
 
-  /// @brief Method ClearError, addr 0x6022798, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ClearError, addr 0x643e84c, size 0x28, virtual false, abstract: false, final false
   inline void ClearError(::System::Data::DataColumn* column);
 
-  /// @brief Method ClearErrors, addr 0x602be68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ClearErrors, addr 0x6448048, size 0x28, virtual false, abstract: false, final false
   inline void ClearErrors();
 
-  /// @brief Method CopyValuesIntoStore, addr 0x602d524, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesIntoStore, addr 0x6449704, size 0x314, virtual false, abstract: false, final false
   inline int32_t CopyValuesIntoStore(::System::Collections::ArrayList* storeList, ::System::Collections::ArrayList* nullbitList, int32_t storeIndex);
 
-  /// @brief Method Delete, addr 0x602bb34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x6447d14, size 0x60, virtual false, abstract: false, final false
   inline void Delete();
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)2)]
-  /// @brief Method EndEdit, addr 0x602b24c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method EndEdit, addr 0x64473f0, size 0xdc, virtual false, abstract: false, final false
   inline void EndEdit();
 
-  /// @brief Method GetChildRows, addr 0x602bf80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetChildRows, addr 0x6448160, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataRow*> GetChildRows(::System::Data::DataRelation* relation);
 
-  /// @brief Method GetChildRows, addr 0x602bf88, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetChildRows, addr 0x6448168, size 0x11c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataRow*> GetChildRows(::System::Data::DataRelation* relation, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetColumnError, addr 0x602bde0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetColumnError, addr 0x6447fc0, size 0x88, virtual false, abstract: false, final false
   inline ::StringW GetColumnError(::System::Data::DataColumn* column);
 
-  /// @brief Method GetColumnValues, addr 0x602c394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnValues, addr 0x6448574, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetColumnValues(::ArrayW<::System::Data::DataColumn*> columns);
 
-  /// @brief Method GetColumnValues, addr 0x602c39c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetColumnValues, addr 0x644857c, size 0x44, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetColumnValues(::ArrayW<::System::Data::DataColumn*> columns, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetColumnsInError, addr 0x602bed0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetColumnsInError, addr 0x64480b0, size 0xb0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> GetColumnsInError();
 
-  /// @brief Method GetCurrentRecordNo, addr 0x602c3fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentRecordNo, addr 0x64485dc, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetCurrentRecordNo();
 
-  /// @brief Method GetDataColumn, addr 0x602aca8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDataColumn, addr 0x6446e10, size 0x68, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* GetDataColumn(::StringW columnName);
 
-  /// @brief Method GetDefaultRecord, addr 0x602b08c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultRecord, addr 0x6447230, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetDefaultRecord();
 
-  /// @brief Method GetDefaultRowVersion, addr 0x602c46c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultRowVersion, addr 0x644864c, size 0x30, virtual false, abstract: false, final false
   inline ::System::Data::DataRowVersion GetDefaultRowVersion(::System::Data::DataViewRowState viewState);
 
-  /// @brief Method GetKeyValues, addr 0x602c3e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetKeyValues, addr 0x64485c0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetKeyValues(::System::Data::DataKey key);
 
-  /// @brief Method GetKeyValues, addr 0x6024fe8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetKeyValues, addr 0x644111c, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetKeyValues(::System::Data::DataKey key, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetNestedParentCount, addr 0x602abb4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetNestedParentCount, addr 0x6446d1c, size 0xc8, virtual false, abstract: false, final false
   inline int32_t GetNestedParentCount();
 
-  /// @brief Method GetNestedParentRow, addr 0x602c1b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetNestedParentRow, addr 0x6448394, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetNestedParentRow(::System::Data::DataRowVersion version);
 
-  /// @brief Method GetOriginalRecordNo, addr 0x602c434, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetOriginalRecordNo, addr 0x6448614, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetOriginalRecordNo();
 
-  /// @brief Method GetParentRow, addr 0x6027048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParentRow, addr 0x644317c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetParentRow(::System::Data::DataRelation* relation);
 
-  /// @brief Method GetParentRow, addr 0x602c0a4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetParentRow, addr 0x6448284, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetParentRow(::System::Data::DataRelation* relation, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetParentRows, addr 0x602c270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParentRows, addr 0x6448450, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataRow*> GetParentRows(::System::Data::DataRelation* relation);
 
-  /// @brief Method GetParentRows, addr 0x602c278, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetParentRows, addr 0x6448458, size 0x11c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataRow*> GetParentRows(::System::Data::DataRelation* relation, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetProposedRecordNo, addr 0x602b1b0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetProposedRecordNo, addr 0x6447354, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetProposedRecordNo();
 
-  /// @brief Method GetRecordFromVersion, addr 0x602b374, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetRecordFromVersion, addr 0x6447518, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetRecordFromVersion(::System::Data::DataRowVersion version);
 
-  /// @brief Method GetRecordState, addr 0x602c49c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRecordState, addr 0x644867c, size 0x58, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState GetRecordState(int32_t record);
 
-  /// @brief Method HasKeyChanged, addr 0x602c4f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasKeyChanged, addr 0x64486d4, size 0xc, virtual false, abstract: false, final false
   inline bool HasKeyChanged(::System::Data::DataKey key);
 
-  /// @brief Method HasKeyChanged, addr 0x602c500, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HasKeyChanged, addr 0x64486e0, size 0x84, virtual false, abstract: false, final false
   inline bool HasKeyChanged(::System::Data::DataKey key, ::System::Data::DataRowVersion version1, ::System::Data::DataRowVersion version2);
 
-  /// @brief Method HasVersion, addr 0x60251ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HasVersion, addr 0x6441320, size 0x84, virtual false, abstract: false, final false
   inline bool HasVersion(::System::Data::DataRowVersion version);
 
-  /// @brief Method HaveValuesChanged, addr 0x602c584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HaveValuesChanged, addr 0x6448764, size 0xc, virtual false, abstract: false, final false
   inline bool HaveValuesChanged(::ArrayW<::System::Data::DataColumn*> columns);
 
-  /// @brief Method HaveValuesChanged, addr 0x602c590, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HaveValuesChanged, addr 0x6448770, size 0xa0, virtual false, abstract: false, final false
   inline bool HaveValuesChanged(::ArrayW<::System::Data::DataColumn*> columns, ::System::Data::DataRowVersion version1, ::System::Data::DataRowVersion version2);
 
   static inline ::System::Data::DataRow* New_ctor(::System::Data::DataRowBuilder* builder);
 
-  /// @brief Method RejectChanges, addr 0x602c630, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method RejectChanges, addr 0x6448810, size 0x5f0, virtual false, abstract: false, final false
   inline void RejectChanges();
 
-  /// @brief Method ResetLastChangedColumn, addr 0x602a970, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetLastChangedColumn, addr 0x6446ad8, size 0xc, virtual false, abstract: false, final false
   inline void ResetLastChangedColumn();
 
-  /// @brief Method RowErrorChanged, addr 0x602a908, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RowErrorChanged, addr 0x6446a70, size 0x50, virtual false, abstract: false, final false
   inline void RowErrorChanged();
 
-  /// @brief Method SetColumnError, addr 0x602bbf8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method SetColumnError, addr 0x6447dd8, size 0x1e8, virtual false, abstract: false, final false
   inline void SetColumnError(::System::Data::DataColumn* column, ::StringW error);
 
-  /// @brief Method SetColumnError, addr 0x602bb94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetColumnError, addr 0x6447d74, size 0x64, virtual false, abstract: false, final false
   inline void SetColumnError(int32_t columnIndex, ::StringW error);
 
-  /// @brief Method SetKeyValues, addr 0x602cc20, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetKeyValues, addr 0x6448e00, size 0x118, virtual false, abstract: false, final false
   inline void SetKeyValues(::System::Data::DataKey key, ::ArrayW<::System::Object*> keyValues);
 
-  /// @brief Method SetNestedParentRow, addr 0x602cd38, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method SetNestedParentRow, addr 0x6448f18, size 0x3cc, virtual false, abstract: false, final false
   inline void SetNestedParentRow(::System::Data::DataRow* parentRow, bool setNonNested);
 
-  /// @brief Method SetParentRowToDBNull, addr 0x602d104, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method SetParentRowToDBNull, addr 0x64492e4, size 0x2b8, virtual false, abstract: false, final false
   inline void SetParentRowToDBNull();
 
-  /// @brief Method SetParentRowToDBNull, addr 0x602d3bc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetParentRowToDBNull, addr 0x644959c, size 0x168, virtual false, abstract: false, final false
   inline void SetParentRowToDBNull(::System::Data::DataRelation* relation);
 
   constexpr ::System::Data::DataRowAction const& __cordl_internal_get__action() const;
@@ -371,62 +371,62 @@ public:
 
   constexpr void __cordl_internal_set__tempRecord(int32_t value);
 
-  /// @brief Method .ctor, addr 0x602a604, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644676c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRowBuilder* builder);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_HasErrors, addr 0x602be90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_HasErrors, addr 0x6448070, size 0x40, virtual false, abstract: false, final false
   inline bool get_HasErrors();
 
-  /// @brief Method get_HasPropertyChanged, addr 0x602a6d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPropertyChanged, addr 0x644683c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPropertyChanged();
 
-  /// @brief Method get_Item, addr 0x602ab68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6446cd0, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::System::Data::DataColumn* column);
 
-  /// @brief Method get_Item, addr 0x602b328, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x64474cc, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::System::Data::DataColumn* column, ::System::Data::DataRowVersion version);
 
-  /// @brief Method get_LastChangedColumn, addr 0x602a6a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_LastChangedColumn, addr 0x644680c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* get_LastChangedColumn();
 
-  /// @brief Method get_RBTreeNodeId, addr 0x602a6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RBTreeNodeId, addr 0x644684c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RBTreeNodeId();
 
-  /// @brief Method get_RowError, addr 0x602a7a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_RowError, addr 0x6446910, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_RowError();
 
-  /// @brief Method get_RowState, addr 0x602a97c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method get_RowState, addr 0x6446ae4, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Data::DataRowState get_RowState();
 
-  /// @brief Method get_Table, addr 0x602abac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x6446d14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get_rowID, addr 0x602a958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rowID, addr 0x6446ac0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_rowID();
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);
 
-  /// @brief Method set_Item, addr 0x602ad10, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6446e78, size 0x340, virtual false, abstract: false, final false
   inline void set_Item(::System::Data::DataColumn* column, ::System::Object* value);
 
-  /// @brief Method set_Item, addr 0x602ac7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6446de4, size 0x2c, virtual false, abstract: false, final false
   inline void set_Item(::StringW columnName, ::System::Object* value);
 
-  /// @brief Method set_ItemArray, addr 0x602b3d4, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method set_ItemArray, addr 0x6447578, size 0x3fc, virtual false, abstract: false, final false
   inline void set_ItemArray(::ArrayW<::System::Object*> value);
 
-  /// @brief Method set_LastChangedColumn, addr 0x602a6c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_LastChangedColumn, addr 0x6446828, size 0x14, virtual false, abstract: false, final false
   inline void set_LastChangedColumn(::System::Data::DataColumn* value);
 
-  /// @brief Method set_RBTreeNodeId, addr 0x602a6ec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_RBTreeNodeId, addr 0x6446854, size 0xbc, virtual false, abstract: false, final false
   inline void set_RBTreeNodeId(int32_t value);
 
-  /// @brief Method set_RowError, addr 0x602a7cc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method set_RowError, addr 0x6446934, size 0x13c, virtual false, abstract: false, final false
   inline void set_RowError(::StringW value);
 
-  /// @brief Method set_rowID, addr 0x602a960, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_rowID, addr 0x6446ac8, size 0x10, virtual false, abstract: false, final false
   inline void set_rowID(int64_t value);
 
 protected:
@@ -444,7 +444,7 @@ public:
   DataRow(DataRow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14016 };
 
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____table;

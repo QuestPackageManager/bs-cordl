@@ -28,12 +28,6 @@ class InvokeOnRenderObjectCallbackPass___c;
 namespace UnityEngine::Rendering::Universal {
 struct RenderPassEvent;
 }
-namespace UnityEngine::Rendering::Universal {
-struct RenderingData;
-}
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
-}
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
 class InvokeOnRenderObjectCallbackPass;
@@ -78,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_depthTarget(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x68870b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc4bb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +90,7 @@ public:
   InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
 
   /// @brief Field colorTarget, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___colorTarget;
@@ -125,28 +119,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* __9;
 
-  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__3_0,
-                      put = setStaticF___9__3_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__3_0;
+  /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__2_0,
+                      put = setStaticF___9__2_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
+                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__2_0;
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x6887114, size 0x20, virtual false, abstract: false, final false
-  inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
+  /// @brief Method <Render>b__2_0, addr 0x6cc4c10, size 0xec, virtual false, abstract: false, final false
+  inline void _Render_b__2_0(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x6887110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc4c0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__3_0();
+  getStaticF___9__2_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* value);
 
-  static inline void setStaticF___9__3_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
+  static inline void setStaticF___9__2_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*,
                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
 
 protected:
@@ -164,7 +158,7 @@ public:
   InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -183,17 +177,13 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c;
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x6886c10, size 0x38, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
-
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6886c48, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6cc4754, size 0x460, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget);
 
-  /// @brief Method .ctor, addr 0x6886b44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc46b4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -211,11 +201,11 @@ public:
   InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass) == 0xb8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

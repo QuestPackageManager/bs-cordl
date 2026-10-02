@@ -62,21 +62,21 @@ public:
   /// @brief Field gridSizeZ, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Method CreateCubeGrid, addr 0x5efdb78, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x6317fb0, size 0x3a0, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x5efdf18, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x6318350, size 0x17c, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method SetOVRCameraController, addr 0x5efdb6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x6317fa4, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(::by_ref<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method Update, addr 0x5efd908, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6317d40, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCubeGrid, addr 0x5efd90c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method UpdateCubeGrid, addr 0x6317d44, size 0x260, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5efe094, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63184cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   OVRGridCube(OVRGridCube const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8035 };
 
   /// @brief Field GridKey, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___GridKey;

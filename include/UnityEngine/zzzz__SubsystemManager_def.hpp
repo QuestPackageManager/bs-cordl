@@ -69,11 +69,11 @@ public:
   static inline void AddSubsystemSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ClearSubsystems, addr 0x6bb8940, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ClearSubsystems, addr 0x7017468, size 0x220, virtual false, abstract: false, final false
   static inline void ClearSubsystems();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
-  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x6bb8cd4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x70177fc, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::IntegratedSubsystem* GetIntegratedSubsystemByPtr(::System::IntPtr ptr);
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -87,27 +87,27 @@ public:
   static inline void GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InitializeIntegratedSubsystem, addr 0x6bb8848, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitializeIntegratedSubsystem, addr 0x7017370, size 0xf8, virtual false, abstract: false, final false
   static inline void InitializeIntegratedSubsystem(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystem* subsystem);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ReloadSubsystemsCompleted, addr 0x6bb8764, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReloadSubsystemsCompleted, addr 0x701728c, size 0xe4, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsCompleted();
 
   /// [RequiredByNativeCode]
-  /// @brief Method ReloadSubsystemsStarted, addr 0x6bb8680, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReloadSubsystemsStarted, addr 0x70171a8, size 0xe4, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsStarted();
 
-  /// @brief Method RemoveDeprecatedSubsystem, addr 0x6bb8504, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveDeprecatedSubsystem, addr 0x701702c, size 0x88, virtual false, abstract: false, final false
   static inline bool RemoveDeprecatedSubsystem(::UnityEngine::Subsystem* subsystem);
 
-  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x6bb80bc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x7016be4, size 0x168, virtual false, abstract: false, final false
   static inline void RemoveIntegratedSubsystemByPtr(::System::IntPtr ptr);
 
-  /// @brief Method RemoveStandaloneSubsystem, addr 0x6bb8e10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveStandaloneSubsystem, addr 0x7017938, size 0x88, virtual false, abstract: false, final false
   static inline bool RemoveStandaloneSubsystem(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* subsystem);
 
-  /// @brief Method StaticConstructScriptingClassMap, addr 0x6bb8b60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StaticConstructScriptingClassMap, addr 0x7017688, size 0x28, virtual false, abstract: false, final false
   static inline void StaticConstructScriptingClassMap();
 
   static inline ::System::Action* getStaticF_afterReloadSubsystems();
@@ -153,7 +153,7 @@ public:
   SubsystemManager(SubsystemManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

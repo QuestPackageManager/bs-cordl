@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder::*)(::ArrayW<::System::Object*>)>(
     &::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder::SetEventAttribute)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69e14e4;
+  constexpr static std::size_t addrs = 0x6e1ead0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder::*)(::UnityEngine::Collision*)>(
     &::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder::OnCollisionEnter)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x69e15e0;
+  constexpr static std::size_t addrs = 0x6e1ebcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69e1734;
+  constexpr static std::size_t addrs = 0x6e1ed20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXRigidBodyCollisionEventBinder*>(), { ".ctor", {}, {} })));

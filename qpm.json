@@ -18,6 +18,7 @@
         "cppFlags": [
           "-fdeclspec",
           "-DUNITY_6",
+          "-DUNITY_6_3",
           "-DHAS_CODEGEN",
           "-Wno-invalid-offsetof"
         ]

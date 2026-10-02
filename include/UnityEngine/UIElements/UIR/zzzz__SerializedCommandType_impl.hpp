@@ -10,3 +10,4 @@ constexpr ::UnityEngine::UIElements::UIR::SerializedCommandType::SerializedComma
 constexpr ::UnityEngine::UIElements::UIR::SerializedCommandType UnityEngine::UIElements::UIR::SerializedCommandType::DrawRanges{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::UIR::SerializedCommandType UnityEngine::UIElements::UIR::SerializedCommandType::SetTexture{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::UIR::SerializedCommandType UnityEngine::UIElements::UIR::SerializedCommandType::ApplyBatchProps{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::UIR::SerializedCommandType UnityEngine::UIElements::UIR::SerializedCommandType::ApplyUserProps{ static_cast<int32_t>(0x3) };

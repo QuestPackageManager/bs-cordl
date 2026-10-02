@@ -27,7 +27,7 @@ public:
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW hint, ::System::Exception* innerException);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x33114b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3599f78, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW hint, ::System::Exception* innerException);
 
 protected:
@@ -45,7 +45,7 @@ public:
   CommandLineParseException(CommandLineParseException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

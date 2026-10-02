@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::get_Frame)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d4c7f0;
+  constexpr static std::size_t addrs = 0x71c030c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler*>(), { "get_Frame", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t)>(&::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::set_Frame)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d4c83c;
+  constexpr static std::size_t addrs = 0x71c0358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TouchScreenKeyboard*)>(&::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::set_activeTouchScreenKeyboard)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d4c88c;
+  constexpr static std::size_t addrs = 0x71c03a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)(
     ::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(&::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d4c8dc;
+  constexpr static std::size_t addrs = 0x71c03f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::PollTouchScreenKeyboard)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x6d4c8ec;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x71c0408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::DoPollTouchScreenKeyboard)> {
-  constexpr static std::size_t size = 0x880;
-  constexpr static std::size_t addrs = 0x6d4cb48;
+  constexpr static std::size_t size = 0x980;
+  constexpr static std::size_t addrs = 0x71c0648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::UpdateStringPositionFromKeyboard)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6d4d4fc;
+  constexpr static std::size_t addrs = 0x71c10d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::CloseTouchScreenKeyboard)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6d4d3c8;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x71c0fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::OpenTouchScreenKeyboard)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x6d4d748;
+  constexpr static std::size_t addrs = 0x71c1320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::HandleEventBubbleUp)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6d4dc68;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x71c1840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler*>(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::OnPointerDownEvent)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6d4de54;
+  constexpr static std::size_t addrs = 0x71c1a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::OnPointerUpEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d4dfe8;
+  constexpr static std::size_t addrs = 0x71c1c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler*>(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::OnFocusInEvent)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6d4e008;
+  constexpr static std::size_t addrs = 0x71c1c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::*)(::UnityEngine::UIElements::FocusOutEvent*)>(
     &::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::OnFocusOutEvent)> {
-  constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x6d4e16c;
+  constexpr static std::size_t size = 0x520;
+  constexpr static std::size_t addrs = 0x71c1db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler*>(),
@@ -213,18 +213,6 @@ constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& UnityEn
 constexpr void UnityEngine::UIElements::TouchScreenTextEditorEventHandler::__cordl_internal_set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TouchKeyboardPoller = value;
-}
-constexpr bool& UnityEngine::UIElements::TouchScreenTextEditorEventHandler::__cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TouchKeyboardAllowsInPlaceEditing;
-}
-constexpr bool const& UnityEngine::UIElements::TouchScreenTextEditorEventHandler::__cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TouchKeyboardAllowsInPlaceEditing;
-}
-constexpr void UnityEngine::UIElements::TouchScreenTextEditorEventHandler::__cordl_internal_set_m_TouchKeyboardAllowsInPlaceEditing(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_TouchKeyboardAllowsInPlaceEditing = value;
 }
 constexpr bool& UnityEngine::UIElements::TouchScreenTextEditorEventHandler::__cordl_internal_get_m_IsClicking() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

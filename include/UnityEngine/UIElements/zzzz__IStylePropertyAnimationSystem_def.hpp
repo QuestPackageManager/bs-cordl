@@ -28,10 +28,19 @@ namespace UnityEngine::UIElements {
 struct Background;
 }
 namespace UnityEngine::UIElements {
+struct FilterFunction;
+}
+namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
 namespace UnityEngine::UIElements {
 struct Length;
+}
+namespace UnityEngine::UIElements {
+struct MaterialDefinition;
+}
+namespace UnityEngine::UIElements {
+struct Ratio;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
@@ -85,6 +94,12 @@ public:
   inline void GetAllAnimations(::UnityEngine::UIElements::VisualElement* owner, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* propertyIds);
 
   /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
+                              ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* startValue,
+                              ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* endValue, int32_t durationMs, int32_t delayMs,
+                              /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Color startValue,
                               ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
@@ -117,6 +132,14 @@ public:
                               ::UnityEngine::UIElements::Length endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::MaterialDefinition startValue,
+                              ::UnityEngine::UIElements::MaterialDefinition endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Ratio startValue,
+                              ::UnityEngine::UIElements::Ratio endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Rotate startValue,
                               ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
@@ -144,8 +167,12 @@ public:
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, int32_t startValue, int32_t endValue, int32_t durationMs,
                               int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
 
+  /// @brief Method StartTransitionEnum, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransitionEnum(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, int32_t startValue, int32_t endValue,
+                                  int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve);
+
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Update();
+  inline void Update(double_t updateTimeInSeconds);
 
   /// @brief Method UpdateAnimation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAnimation(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
@@ -155,7 +182,7 @@ public:
   IStylePropertyAnimationSystem(IStylePropertyAnimationSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

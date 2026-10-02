@@ -26,12 +26,12 @@ namespace BeatSaber::FeatureFlags {
 class CORDL_TYPE FeatureFlagsEnabledQuery : public ::OculusStudios::GraphQL::Client::QueryRequest {
 public:
   // Declarations
-  /// @brief Method CreateQuery, addr 0x328ddd4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateQuery, addr 0x3514548, size 0x6c, virtual false, abstract: false, final false
   static inline ::Main::GraphQL::Queries::FeatureFlagsEnabled* CreateQuery(::System::Collections::Generic::List_1<::StringW>* features);
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery* New_ctor(::System::Collections::Generic::List_1<::StringW>* features);
 
-  /// @brief Method .ctor, addr 0x328d870, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3513df0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* features);
 
 protected:
@@ -49,7 +49,7 @@ public:
   FeatureFlagsEnabledQuery(FeatureFlagsEnabledQuery const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

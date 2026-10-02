@@ -25,10 +25,10 @@ public:
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
-  /// @brief Method .ctor, addr 0x5ac7490, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edf374, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x5ac756c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x5edf450, size 0x14, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

@@ -44,15 +44,18 @@ public:
   /// @brief Field k_CubeVertices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_CubeVertices, put = setStaticF_k_CubeVertices)) ::ArrayW<::UnityEngine::Vector3> k_CubeVertices;
 
-  /// @brief Method CopyShape, addr 0x6703ee0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x6b18bec, size 0x4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cube* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x6703ee4, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x6b18bf0, size 0x2bc, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x67040f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetParametersToBuiltInShape, addr 0x6b18be8, size 0x4, virtual true, abstract: false, final false
+  inline void SetParametersToBuiltInShape();
+
+  /// @brief Method .ctor, addr 0x6b18eac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_k_CubeTriangles();
@@ -78,7 +81,7 @@ public:
   Cube(Cube const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

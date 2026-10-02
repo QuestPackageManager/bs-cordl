@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(PassInputData)
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct ResourceHandle;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct PassInputData;
@@ -13,6 +16,7 @@ struct PassInputData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassInputData");
+// [IsReadOnly]
 // [DebuggerDisplay("PassInputData: Res({resource.index})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -21,6 +25,9 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassInputData {
 public:
   // Declarations
+  /// @brief Method .ctor, addr 0x6c26f04, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr PassInputData();
@@ -29,7 +36,7 @@ public:
   constexpr PassInputData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9403 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

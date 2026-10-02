@@ -16,3 +16,7 @@ constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::Warning{ static_cast<uint16_t>(0x10u) };
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::Counter{ static_cast<uint16_t>(0x80u) };
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::SampleGPU{ static_cast<uint16_t>(0x100u) };
+constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::VerbosityDebug{ static_cast<uint16_t>(0x400u) };
+constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::VerbosityInternal{ static_cast<uint16_t>(0x800u) };
+constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::VerbosityExternal{ static_cast<uint16_t>(0xc00u) };
+constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::VerbosityAdvanced{ static_cast<uint16_t>(0x1000u) };

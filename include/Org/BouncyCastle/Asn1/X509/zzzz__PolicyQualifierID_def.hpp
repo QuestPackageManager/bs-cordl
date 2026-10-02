@@ -28,7 +28,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x36638ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38ecb88, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* getStaticF_IdQtCps();

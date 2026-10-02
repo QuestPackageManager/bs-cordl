@@ -4,6 +4,7 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryBuilder_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
@@ -116,6 +117,11 @@ template <typename T> inline ::UnityEngine::UIElements::UQueryState_1<T> UnityEn
 template <typename T> inline ::System::Collections::Generic::List_1<T>* UnityEngine::UIElements::UQueryBuilder_1<T>::ToList() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryBuilder_1<T>>(), { "ToList", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<T>*>(*this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::UQueryBuilder_1<T>::ForEach(::System::Action_1<T>* funcCall) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryBuilder_1<T>>(), { "ForEach", {}, { ::i2c::type_of<::System::Action_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, funcCall);
 }
 template <typename T> inline bool UnityEngine::UIElements::UQueryBuilder_1<T>::Equals(::UnityEngine::UIElements::UQueryBuilder_1<T> other) {
   static auto* ___internal_method =

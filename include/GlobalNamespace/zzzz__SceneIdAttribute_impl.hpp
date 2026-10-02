@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowGameScenes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3300d34;
+  constexpr static std::size_t addrs = 0x358936c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneIdAttribute*>(), { "get_allowGameScenes", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowEnvironmentScenes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3300d40;
+  constexpr static std::size_t addrs = 0x3589378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneIdAttribute*>(), { "get_allowEnvironmentScenes", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowEmpty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3300d4c;
+  constexpr static std::size_t addrs = 0x3589384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneIdAttribute*>(), { "get_allowEmpty", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowAllScenes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3300d58;
+  constexpr static std::size_t addrs = 0x3589390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneIdAttribute*>(), { "get_allowAllScenes", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_onlyAllowEnvironmentScenes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3300d6c;
+  constexpr static std::size_t addrs = 0x35893a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneIdAttribute*>(), { "get_onlyAllowEnvironmentScenes", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneIdAttribute::*)(::GlobalNamespace::BeatmapSceneIdFilter)>(&::GlobalNamespace::SceneIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3300d80;
+  constexpr static std::size_t addrs = 0x35893b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

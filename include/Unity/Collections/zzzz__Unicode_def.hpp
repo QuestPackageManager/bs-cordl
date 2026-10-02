@@ -36,46 +36,46 @@ struct CORDL_TYPE Unicode_Rune {
 public:
   // Declarations
   /// [ExcludeFromBurstCompatTesting("Takes managed object")]
-  /// @brief Method Equals, addr 0x64c8f2c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x68f25bc, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x64c8fa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x68f2638, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAscii, addr 0x64c8fe0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAscii, addr 0x68f2670, size 0x10, virtual false, abstract: false, final false
   inline bool IsAscii();
 
-  /// @brief Method IsDigit, addr 0x64c8fcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x68f265c, size 0x14, virtual false, abstract: false, final false
   inline bool IsDigit();
 
-  /// @brief Method IsDigit, addr 0x64c8fbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x68f264c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsDigit(::Unity::Collections::Unicode_Rune r);
 
-  /// @brief Method IsLatin1, addr 0x64c8ff0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLatin1, addr 0x68f2680, size 0x10, virtual false, abstract: false, final false
   inline bool IsLatin1();
 
-  /// @brief Method IsWhiteSpace, addr 0x64c9000, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x68f2690, size 0x90, virtual false, abstract: false, final false
   inline bool IsWhiteSpace();
 
-  /// @brief Method LengthInUtf8Bytes, addr 0x64c90c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LengthInUtf8Bytes, addr 0x68f2754, size 0x44, virtual false, abstract: false, final false
   inline int32_t LengthInUtf8Bytes();
 
-  /// @brief Method ToLowerAscii, addr 0x64c9090, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToLowerAscii, addr 0x68f2720, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::Unicode_Rune ToLowerAscii();
 
-  /// @brief Method ToUpperAscii, addr 0x64c90a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperAscii, addr 0x68f2738, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Collections::Unicode_Rune ToUpperAscii();
 
-  /// @brief Method .ctor, addr 0x64c8f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68f25a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t codepoint);
 
-  /// @brief Method op_Equality, addr 0x64c8f20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x68f25b0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::Unity::Collections::Unicode_Rune lhs, ::Unity::Collections::Unicode_Rune rhs);
 
-  /// @brief Method op_Implicit, addr 0x64c8f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x68f25a8, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::Unicode_Rune op_Implicit___Unity__Collections__Unicode_Rune(char16_t codepoint);
 
-  /// @brief Method op_Inequality, addr 0x64c8fb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x68f2640, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Unity::Collections::Unicode_Rune lhs, ::Unity::Collections::Unicode_Rune rhs);
 
   // Ctor Parameters []
@@ -86,7 +86,7 @@ public:
   constexpr Unicode_Rune(int32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15971 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,56 +113,56 @@ public:
   // Declarations
   using Rune = ::Unity::Collections::Unicode_Rune;
 
-  /// @brief Method CountRunes, addr 0x64c8ec0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CountRunes, addr 0x68f2550, size 0x50, virtual false, abstract: false, final false
   static inline int32_t CountRunes(uint8_t* utf8Buffer, int32_t utf8Length, int32_t maxRunes);
 
-  /// @brief Method FindUtf8CharStartInReverse, addr 0x64c89e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method FindUtf8CharStartInReverse, addr 0x68f2314, size 0x38, virtual false, abstract: false, final false
   static inline int32_t FindUtf8CharStartInReverse(uint8_t* ptr, ::by_ref<int32_t> index);
 
-  /// @brief Method IsLeadingSurrogate, addr 0x64c8a84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLeadingSurrogate, addr 0x68f23b4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsLeadingSurrogate(char16_t c);
 
-  /// @brief Method IsTrailingSurrogate, addr 0x64c8a94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsTrailingSurrogate, addr 0x68f23c4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsTrailingSurrogate(char16_t c);
 
-  /// @brief Method IsValidCodePoint, addr 0x64c89b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidCodePoint, addr 0x68f22e8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidCodePoint(int32_t codepoint);
 
-  /// @brief Method NotTrailer, addr 0x64c89c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotTrailer, addr 0x68f22f4, size 0x10, virtual false, abstract: false, final false
   static inline bool NotTrailer(uint8_t b);
 
-  /// @brief Method UcsToUcs, addr 0x64c8b2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UcsToUcs, addr 0x68f20e4, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError UcsToUcs(::by_ref<::Unity::Collections::Unicode_Rune> rune, ::Unity::Collections::Unicode_Rune* buffer, ::by_ref<int32_t> index,
                                                                int32_t capacity);
 
-  /// @brief Method UcsToUtf16, addr 0x64c8c6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UcsToUtf16, addr 0x68f24d4, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError UcsToUtf16(char16_t* buffer, ::by_ref<int32_t> index, int32_t capacity, ::Unity::Collections::Unicode_Rune rune);
 
-  /// @brief Method UcsToUtf8, addr 0x64c8b6c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UcsToUtf8, addr 0x68f23d4, size 0x100, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError UcsToUtf8(uint8_t* buffer, ::by_ref<int32_t> index, int32_t capacity, ::Unity::Collections::Unicode_Rune rune);
 
-  /// @brief Method Utf16ToUcs, addr 0x64c8aa4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Utf16ToUcs, addr 0x68f21ac, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError Utf16ToUcs(::by_ref<::Unity::Collections::Unicode_Rune> rune, char16_t* buffer, ::by_ref<int32_t> index, int32_t capacity);
 
-  /// @brief Method Utf16ToUtf8, addr 0x64c8ce8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Utf16ToUtf8, addr 0x68f1b10, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError Utf16ToUtf8(char16_t* utf16Buffer, int32_t utf16Length, uint8_t* utf8Buffer, ::by_ref<int32_t> utf8Length, int32_t utf8Capacity);
 
-  /// @brief Method Utf8ToUcs, addr 0x64c5da8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToUcs, addr 0x68eef00, size 0x184, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError Utf8ToUcs(::by_ref<::Unity::Collections::Unicode_Rune> rune, uint8_t* buffer, ::by_ref<int32_t> index, int32_t capacity);
 
-  /// @brief Method Utf8ToUcsReverse, addr 0x64c8a1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToUcsReverse, addr 0x68f234c, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError Utf8ToUcsReverse(::by_ref<::Unity::Collections::Unicode_Rune> rune, uint8_t* buffer, ::by_ref<int32_t> index, int32_t capacity);
 
-  /// @brief Method Utf8ToUtf16, addr 0x64c8e3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToUtf16, addr 0x68f1d54, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError Utf8ToUtf16(uint8_t* utf8Buffer, int32_t utf8Length, char16_t* utf16Buffer, ::by_ref<int32_t> utf16Length, int32_t utf16Capacity);
 
-  /// @brief Method Utf8ToUtf8, addr 0x64c8d6c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToUtf8, addr 0x68f1c20, size 0xd0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ConversionError Utf8ToUtf8(uint8_t* srcBuffer, int32_t srcLength, uint8_t* destBuffer, ::by_ref<int32_t> destLength, int32_t destCapacity);
 
-  /// @brief Method get_BadRune, addr 0x64c89dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BadRune, addr 0x68f230c, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::Unicode_Rune get_BadRune();
 
-  /// @brief Method get_ReplacementCharacter, addr 0x64c89d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementCharacter, addr 0x68f2304, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::Unicode_Rune get_ReplacementCharacter();
 
   // Ctor Parameters []
@@ -170,7 +170,7 @@ public:
   constexpr Unicode();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15972 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

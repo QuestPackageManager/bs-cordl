@@ -24,11 +24,11 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE LocaleHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSystemLocale, addr 0x5f2e9dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSystemLocale, addr 0x634a040, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW GetSystemLocale();
 
   /// [Extension]
-  /// @brief Method ToLocale, addr 0x5f2ea4c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ToLocale, addr 0x634a0b0, size 0x398, virtual false, abstract: false, final false
   static inline ::StringW ToLocale(::UnityEngine::SystemLanguage lang);
 
 protected:
@@ -46,7 +46,7 @@ public:
   LocaleHelper(LocaleHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

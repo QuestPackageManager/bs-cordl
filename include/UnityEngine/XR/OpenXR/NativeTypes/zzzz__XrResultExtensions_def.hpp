@@ -24,15 +24,15 @@ class CORDL_TYPE XrResultExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsError, addr 0x69f6e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x6e3e130, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrResult);
 
   /// [Extension]
-  /// @brief Method IsSuccess, addr 0x69f6e44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x6e3e118, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrResult);
 
   /// [Extension]
-  /// @brief Method IsUnqualifiedSuccess, addr 0x69f6e50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsUnqualifiedSuccess, addr 0x6e3e124, size 0xc, virtual false, abstract: false, final false
   static inline bool IsUnqualifiedSuccess(::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrResult);
 
 protected:
@@ -50,7 +50,7 @@ public:
   XrResultExtensions(XrResultExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

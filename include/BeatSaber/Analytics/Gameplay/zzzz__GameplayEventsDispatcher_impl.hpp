@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x326341c;
+  constexpr static std::size_t addrs = 0x34e8b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3263608;
+  constexpr static std::size_t addrs = 0x34e8cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3263674;
+  constexpr static std::size_t addrs = 0x34e8d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3263b60;
+  constexpr static std::size_t addrs = 0x34e9248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::get_beatmapAttempt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263160;
+  constexpr static std::size_t addrs = 0x34e8848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)(
     ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender*)>(&::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::set_beatmapAttempt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263168;
+  constexpr static std::size_t addrs = 0x34e8850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* (
     ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)()>(&::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::get_blockLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263170;
+  constexpr static std::size_t addrs = 0x34e8858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)(
     ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender*)>(&::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::set_blockLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263178;
+  constexpr static std::size_t addrs = 0x34e8860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::get_hmdSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263180;
+  constexpr static std::size_t addrs = 0x34e8868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)(::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender*)>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::set_hmdSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263188;
+  constexpr static std::size_t addrs = 0x34e8870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)(
     ::BeatSaber::FeatureFlags::IFeatureFlagService*, ::OSCE::Analytics::AnalyticsManager*, uint64_t)>(&::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3263190;
+  constexpr static std::size_t addrs = 0x34e8878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::Initialize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3263294;
+  constexpr static std::size_t addrs = 0x34e897c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*>(), { "Initialize", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::InitializeAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32632b8;
+  constexpr static std::size_t addrs = 0x34e89a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher::InitializeInternalAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3263368;
+  constexpr static std::size_t addrs = 0x34e8a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

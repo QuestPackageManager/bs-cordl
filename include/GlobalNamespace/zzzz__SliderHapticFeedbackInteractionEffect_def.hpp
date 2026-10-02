@@ -43,21 +43,21 @@ public:
   /// @brief Field _saberType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType)) ::GlobalNamespace::SaberType _saberType;
 
-  /// @brief Method EndEffect, addr 0x597a7c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x5d94f9c, size 0xc, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x597a50c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5d94ce4, size 0x4c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x597a77c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x5d94f54, size 0x48, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method Update, addr 0x597a65c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d94e34, size 0xd8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Vibrate, addr 0x597a74c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Vibrate, addr 0x5d94f24, size 0x30, virtual false, abstract: false, final false
   inline void Vibrate();
 
   constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x597a7d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d94fa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5843 };
 
   /// @brief Field kVibrationSaberInteractionParamThreshold offset 0xffffffff size 0x4
   static constexpr float_t kVibrationSaberInteractionParamThreshold{ static_cast<float_t>(0.2f) };

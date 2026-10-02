@@ -54,18 +54,18 @@ public:
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  /// @brief Method Awake, addr 0x587aa48, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5c90d34, size 0xac, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculatePanelPosition, addr 0x587aaf4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x5c90de0, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
-  /// @brief Method Hide, addr 0x587a184, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x5c90448, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method Show, addr 0x587a58c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x5c90878, size 0x260, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
@@ -104,15 +104,15 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x587ab6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c90f14, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isShown, addr 0x587aa38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x5c90d24, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isShown, addr 0x587aa40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x5c90d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   HoverHintPanel(HoverHintPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19601 };
 
   /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None

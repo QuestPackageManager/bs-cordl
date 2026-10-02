@@ -36,7 +36,7 @@ public:
   BlockingCollectionDebugView_1(BlockingCollectionDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

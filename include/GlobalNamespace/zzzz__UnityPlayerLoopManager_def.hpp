@@ -92,7 +92,7 @@ public:
   static ::GlobalNamespace::UnityPlayerLoopManager_InsertPosition const Before;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23591 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE UnityPlayerLoopManager_SystemToInsert {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58532fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c69080, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW relativeToSystem, ::GlobalNamespace::UnityPlayerLoopManager_InsertPosition position, ::UnityEngine::LowLevel::PlayerLoopSystem system);
 
   // Ctor Parameters []
@@ -128,7 +128,7 @@ public:
                                                   ::UnityEngine::LowLevel::PlayerLoopSystem System) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23592 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -173,10 +173,10 @@ public:
 
   static inline ::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <InsertSystems>b__0, addr 0x5853fc8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <InsertSystems>b__0, addr 0x5c69d4c, size 0x38, virtual false, abstract: false, final false
   inline bool _InsertSystems_b__0(::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert s);
 
-  /// @brief Method <InsertSystems>b__1, addr 0x5854000, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <InsertSystems>b__1, addr 0x5c69d84, size 0x38, virtual false, abstract: false, final false
   inline bool _InsertSystems_b__1(::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert s);
 
   constexpr ::System::Func_2<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert, bool>* const& __cordl_internal_get___9__0() const;
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_currentSystemName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5853fc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c69d48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,7 +215,7 @@ public:
   UnityPlayerLoopManager___c__DisplayClass3_0(UnityPlayerLoopManager___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23593 };
 
   /// @brief Field currentSystemName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___currentSystemName;
@@ -251,14 +251,14 @@ public:
 
   using __c__DisplayClass3_0 = ::GlobalNamespace::UnityPlayerLoopManager___c__DisplayClass3_0;
 
-  /// @brief Method InitializePlayerLoop, addr 0x5852efc, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerLoop, addr 0x5c68c80, size 0x400, virtual false, abstract: false, final false
   static inline void InitializePlayerLoop();
 
-  /// @brief Method InsertSystems, addr 0x5853318, size 0xa5c, virtual false, abstract: false, final false
+  /// @brief Method InsertSystems, addr 0x5c6909c, size 0xa5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevel::PlayerLoopSystem InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
                                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>* systemsToInsert);
 
-  /// @brief Method RemoveDisabledSubsystems, addr 0x5853d74, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method RemoveDisabledSubsystems, addr 0x5c69af8, size 0x250, virtual false, abstract: false, final false
   static inline bool RemoveDisabledSubsystems(::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loop, ::ArrayW<::System::Type*> typesToRemove);
 
 protected:
@@ -276,7 +276,7 @@ public:
   UnityPlayerLoopManager(UnityPlayerLoopManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

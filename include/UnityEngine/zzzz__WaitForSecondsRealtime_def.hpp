@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::WaitForSecondsRealtime* New_ctor(float_t time);
 
-  /// @brief Method Reset, addr 0x6aebf78, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6f46e40, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr float_t const& __cordl_internal_get__waitTime_k__BackingField() const;
@@ -47,18 +47,18 @@ public:
 
   constexpr void __cordl_internal_set_m_WaitUntilTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x6aebf68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f46e30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method get_keepWaiting, addr 0x6aebea4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x6f46d6c, size 0x9c, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
   /// [CompilerGenerated]
-  /// @brief Method get_waitTime, addr 0x6aebe94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_waitTime, addr 0x6f46d5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_waitTime();
 
   /// [CompilerGenerated]
-  /// @brief Method set_waitTime, addr 0x6aebe9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_waitTime, addr 0x6f46d64, size 0x8, virtual false, abstract: false, final false
   inline void set_waitTime(float_t value);
 
 protected:
@@ -76,10 +76,10 @@ public:
   WaitForSecondsRealtime(WaitForSecondsRealtime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9973 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <waitTime>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____waitTime_k__BackingField;
 

@@ -123,23 +123,23 @@ public:
   /// @brief Field kBufferNames, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW> kBufferNames;
 
-  /// @brief Method GetBurnMarkPos, addr 0x5987084, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x5da5da8, size 0x324, virtual false, abstract: false, final false
   static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> plane,
                                     ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
   /// [Inject]
-  /// @brief Method Initialize, addr 0x598646c, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5da51b4, size 0x444, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
 
-  /// @brief Method LateUpdate, addr 0x5986a08, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5da5750, size 0x658, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59868b0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5da55f8, size 0x158, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method WorldToNormalized, addr 0x59873b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WorldToNormalized, addr 0x5da60cc, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 WorldToNormalized(::UnityEngine::Vector3 worldPos);
 
   constexpr bool const& __cordl_internal_get__anyActive() const;
@@ -238,7 +238,7 @@ public:
 
   constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x5987414, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da6130, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__aspectShaderPropertyID();
@@ -276,7 +276,7 @@ public:
   SaberBurnMarkArea(SaberBurnMarkArea const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5927 };
 
   /// @brief Field kBufferCount offset 0xffffffff size 0x4
   static constexpr int32_t kBufferCount{ static_cast<int32_t>(0x2) };

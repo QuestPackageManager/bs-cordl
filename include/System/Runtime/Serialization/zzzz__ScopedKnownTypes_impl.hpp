@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ScopedKnownTypes::*)(
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*)>(&::System::Runtime::Serialization::ScopedKnownTypes::Push)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6160810;
+  constexpr static std::size_t addrs = 0x65883cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ScopedKnownTypes::*)()>(&::System::Runtime::Serialization::ScopedKnownTypes::Pop)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x616091c;
+  constexpr static std::size_t addrs = 0x65884d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ScopedKnownTypes>(), { "Pop", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::ScopedKnownTypes::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Runtime::Serialization::ScopedKnownTypes::GetDataContract)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x616092c;
+  constexpr static std::size_t addrs = 0x65884e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

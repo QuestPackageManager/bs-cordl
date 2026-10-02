@@ -36,20 +36,20 @@ public:
   static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x5da0ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61baa88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method get_LocalName, addr 0x5da1984, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x61bb568, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
   /// [NullableContext(1)]
-  /// @brief Method get_ProcessingInstruction, addr 0x5da1908, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessingInstruction, addr 0x61bb4ec, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
 
-  /// @brief Method get_Value, addr 0x5da19a0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x61bb584, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x5da19bc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x61bb5a0, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   XProcessingInstructionWrapper(XProcessingInstructionWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

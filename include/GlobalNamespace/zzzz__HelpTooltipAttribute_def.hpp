@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_hint(::StringW value);
 
-  /// @brief Method .ctor, addr 0x330b458, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3593f1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW hint);
 
 protected:
@@ -51,7 +51,7 @@ public:
   HelpTooltipAttribute(HelpTooltipAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24213 };
 
   /// @brief Field hint, offset: 0x18, size: 0x8, def value: None
   ::StringW ___hint;

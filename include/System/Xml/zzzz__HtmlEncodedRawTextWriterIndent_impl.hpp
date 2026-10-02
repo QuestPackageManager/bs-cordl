@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::System::IO::TextWriter*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x61af9fc;
+  constexpr static std::size_t addrs = 0x65d754c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::System::IO::Stream*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x61afa68;
+  constexpr static std::size_t addrs = 0x65d75b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::WriteDocType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x61afab0;
+  constexpr static std::size_t addrs = 0x65d7600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartElement)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x61afacc;
+  constexpr static std::size_t addrs = 0x65d761c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,11 +68,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)()>(&::System::Xml::HtmlEncodedRawTextWriterIndent::StartElementContent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61afcd8;
+  constexpr static std::size_t addrs = 0x65d7828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 48 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 49 }));
     return ___internal_method;
   }
 };
@@ -82,11 +82,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::WriteEndElement)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x61afd48;
+  constexpr static std::size_t addrs = 0x65d7898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 50 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 51 }));
     return ___internal_method;
   }
 };
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61afde8;
+  constexpr static std::size_t addrs = 0x65d7938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,11 +109,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)()>(&::System::Xml::HtmlEncodedRawTextWriterIndent::FlushBuffer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x61afe58;
+  constexpr static std::size_t addrs = 0x65d79a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 59 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 60 }));
     return ___internal_method;
   }
 };
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)(::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::HtmlEncodedRawTextWriterIndent::Init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x61afa44;
+  constexpr static std::size_t addrs = 0x65d7594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::HtmlEncodedRawTextWriterIndent::*)()>(&::System::Xml::HtmlEncodedRawTextWriterIndent::WriteIndent)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x61afc90;
+  constexpr static std::size_t addrs = 0x65d77e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), { "WriteIndent", {}, {} })));
@@ -215,12 +215,12 @@ inline void System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartElement(::Str
 }
 inline void System::Xml::HtmlEncodedRawTextWriterIndent::StartElementContent() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 48 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 49 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void System::Xml::HtmlEncodedRawTextWriterIndent::WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 50 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 51 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, prefix, localName, ns);
 }
 inline void System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns) {
@@ -230,7 +230,7 @@ inline void System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartAttribute(::S
 }
 inline void System::Xml::HtmlEncodedRawTextWriterIndent::FlushBuffer() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 59 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::HtmlEncodedRawTextWriterIndent*>(), 60 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void System::Xml::HtmlEncodedRawTextWriterIndent::Init(::System::Xml::XmlWriterSettings* settings) {

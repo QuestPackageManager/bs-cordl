@@ -25,6 +25,11 @@ template <typename T> inline void UnityEngine::UIElements::StyleList_1<T>::set_k
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleList_1<T>>(), { "set_keyword", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
+template <typename T> inline void UnityEngine::UIElements::StyleList_1<T>::_ctor(::System::Collections::Generic::List_1<T>* v) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleList_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v);
+}
 template <typename T> inline void UnityEngine::UIElements::StyleList_1<T>::_ctor(::UnityEngine::UIElements::StyleKeyword keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleList_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
@@ -47,6 +52,12 @@ inline ::UnityEngine::UIElements::StyleList_1<T> UnityEngine::UIElements::StyleL
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleList_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleList_1<T>>(nullptr, ___internal_method, keyword);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::StyleList_1<T> UnityEngine::UIElements::StyleList_1<T>::op_Implicit___UnityEngine__UIElements__StyleList_1_T_(::System::Collections::Generic::List_1<T>* v) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleList_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleList_1<T>>(nullptr, ___internal_method, v);
 }
 template <typename T> inline bool UnityEngine::UIElements::StyleList_1<T>::Equals(::UnityEngine::UIElements::StyleList_1<T> other) {
   static auto* ___internal_method = THROW_UNLESS(

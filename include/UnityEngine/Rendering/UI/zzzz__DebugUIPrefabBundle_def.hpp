@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x67ff1d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2db04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   DebugUIPrefabBundle(DebugUIPrefabBundle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9426 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::StringW ___type;

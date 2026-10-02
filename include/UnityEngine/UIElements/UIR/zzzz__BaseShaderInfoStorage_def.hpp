@@ -58,10 +58,10 @@ public:
   /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AllocateRect(int32_t width, int32_t height, ::by_ref<::UnityEngine::RectInt> uvs);
 
-  /// @brief Method Dispose, addr 0x6cf10b0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7184760, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cf1120, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71847d0, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* New_ctor();
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6cf1138, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71847e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerCopyTexture();
@@ -90,7 +90,7 @@ public:
   static inline int32_t getStaticF_s_TextureCounter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6cf10a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x7184750, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Method get_texture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -108,7 +108,7 @@ public:
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6cf10a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x7184758, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   BaseShaderInfoStorage(BaseShaderInfoStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5459 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

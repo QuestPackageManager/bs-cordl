@@ -40,18 +40,18 @@ public:
   /// @brief Field _rotationOffset, offset 0x34, size 0x10
   __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset)) ::UnityEngine::Quaternion _rotationOffset;
 
-  /// @brief Method Awake, addr 0x59df710, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5dfa778, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor();
 
-  /// @brief Method SetEnabled, addr 0x59da4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x5df5820, size 0x8, virtual false, abstract: false, final false
   inline void SetEnabled(bool isEnabled);
 
-  /// @brief Method Update, addr 0x59df760, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5dfa7c8, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x59df764, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x5dfa7cc, size 0x208, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotationIfNeeded();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastParentPosition() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x59df9f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dfaa58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   MultiplayerOffsetPositionByLocalPlayerPosition(MultiplayerOffsetPositionByLocalPlayerPosition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6287 };
 
   /// [Inject]
   /// @brief Field _multiplayerPlayersManager, offset: 0x20, size: 0x8, def value: None

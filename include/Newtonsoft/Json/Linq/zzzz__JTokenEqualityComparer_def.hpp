@@ -30,16 +30,16 @@ public:
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
   /// [NullableContext(2)]
-  /// @brief Method Equals, addr 0x5d85e38, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x619fa1c, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
 
   /// [NullableContext(1)]
-  /// @brief Method GetHashCode, addr 0x5d85ed4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x619fab8, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
 
   static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d85ef8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x619fadc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -60,7 +60,7 @@ public:
   JTokenEqualityComparer(JTokenEqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

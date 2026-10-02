@@ -14,7 +14,7 @@ struct TransformUpdatePacket;
 MARK_VAL_T(::UnityEngine::Rendering::TransformUpdatePacket);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::TransformUpdatePacket, "UnityEngine.Rendering", "TransformUpdatePacket");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceData\\InstanceTransformUpdateDefs.cs")] Dependencies Unity.Mathematics.float4
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\InstanceData\\InstanceTransformUpdateDefs.cs")] Dependencies Unity.Mathematics.float4
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.TransformUpdatePacket
@@ -31,7 +31,7 @@ public:
   constexpr TransformUpdatePacket(::Unity::Mathematics::float4 localToWorld0, ::Unity::Mathematics::float4 localToWorld1, ::Unity::Mathematics::float4 localToWorld2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18256 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

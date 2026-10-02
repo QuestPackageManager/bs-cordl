@@ -65,7 +65,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaBuilder___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <MapType>b__0, addr 0x5d62e70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <MapType>b__0, addr 0x617ca54, size 0x58, virtual false, abstract: false, final false
   inline bool _MapType_b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType> kv);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchemaType const& __cordl_internal_get_type() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::Newtonsoft::Json::Schema::JsonSchemaType value);
 
-  /// @brief Method .ctor, addr 0x5d62e6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x617ca50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   JsonSchemaBuilder___c__DisplayClass23_0(JsonSchemaBuilder___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13782 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaType ___type;
@@ -133,54 +133,54 @@ public:
   /// @brief Field _stack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _stack;
 
-  /// @brief Method BuildSchema, addr 0x5d5f2b0, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema, addr 0x6178e94, size 0x3b8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* BuildSchema(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method MapType, addr 0x5d62bb4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method MapType, addr 0x617c798, size 0x16c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Schema::JsonSchemaType MapType(::StringW type);
 
-  /// @brief Method MapType, addr 0x5d62d20, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method MapType, addr 0x617c904, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW MapType(::Newtonsoft::Json::Schema::JsonSchemaType type);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaBuilder* New_ctor(::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method Pop, addr 0x5d5f148, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x6178d2c, size 0x160, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* Pop();
 
-  /// @brief Method ProcessAdditionalItems, addr 0x5d621e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ProcessAdditionalItems, addr 0x617bdc8, size 0xb8, virtual false, abstract: false, final false
   inline void ProcessAdditionalItems(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method ProcessAdditionalProperties, addr 0x5d6212c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ProcessAdditionalProperties, addr 0x617bd10, size 0xb8, virtual false, abstract: false, final false
   inline void ProcessAdditionalProperties(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method ProcessEnum, addr 0x5d6229c, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method ProcessEnum, addr 0x617be80, size 0x47c, virtual false, abstract: false, final false
   inline void ProcessEnum(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method ProcessExtends, addr 0x5d62718, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method ProcessExtends, addr 0x617c2fc, size 0x49c, virtual false, abstract: false, final false
   inline void ProcessExtends(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method ProcessItems, addr 0x5d61c0c, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method ProcessItems, addr 0x617b7f0, size 0x520, virtual false, abstract: false, final false
   inline void ProcessItems(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method ProcessProperties, addr 0x5d61610, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method ProcessProperties, addr 0x617b1f4, size 0x5fc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* ProcessProperties(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method ProcessSchemaProperties, addr 0x5d60010, size 0x1070, virtual false, abstract: false, final false
+  /// @brief Method ProcessSchemaProperties, addr 0x6179bf4, size 0x1070, virtual false, abstract: false, final false
   inline void ProcessSchemaProperties(::Newtonsoft::Json::Linq::JObject* schemaObject);
 
-  /// @brief Method ProcessType, addr 0x5d61080, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method ProcessType, addr 0x617ac64, size 0x590, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> ProcessType(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method Push, addr 0x5d5ef90, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x6178b74, size 0x1b8, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::Schema::JsonSchema* value);
 
-  /// @brief Method Read, addr 0x5d5d9c0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x61775a4, size 0xe0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* Read(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ResolveReferences, addr 0x5d5f668, size 0x8c0, virtual false, abstract: false, final false
+  /// @brief Method ResolveReferences, addr 0x617924c, size 0x8c0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* ResolveReferences(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method UnescapeReference, addr 0x5d5ff28, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UnescapeReference, addr 0x6179b0c, size 0xe8, virtual false, abstract: false, final false
   inline ::StringW UnescapeReference(::StringW reference);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchema* const& __cordl_internal_get__currentSchema() const;
@@ -213,10 +213,10 @@ public:
 
   constexpr void __cordl_internal_set__stack(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x5d5d8d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61774b8, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method get_CurrentSchema, addr 0x5d5f2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSchema, addr 0x6178e8c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_CurrentSchema();
 
 protected:
@@ -234,7 +234,7 @@ public:
   JsonSchemaBuilder(JsonSchemaBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13783 };
 
   /// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* ____stack;

@@ -26,18 +26,18 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x66b87d8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6ac339c, size 0x11c, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x66b89e0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x6ac35a4, size 0xb4, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x66b8a94, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x6ac3658, size 0xb4, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x66b8b48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac370c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ColliderBehaviour(ColliderBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17242 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

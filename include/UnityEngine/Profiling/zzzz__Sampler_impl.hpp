@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Sampler::*)()>(&::UnityEngine::Profiling::Sampler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6afb8cc;
+  constexpr static std::size_t addrs = 0x6f56ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Sampler*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Sampler::*)(::System::IntPtr)>(&::UnityEngine::Profiling::Sampler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb8d0;
+  constexpr static std::size_t addrs = 0x6f56abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Profiling::Sampler::*)()>(&::UnityEngine::Profiling::Sampler::get_isValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6afb8d8;
+  constexpr static std::size_t addrs = 0x6f56ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Sampler*>(), { "get_isValid", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Profiling::Recorder* (::UnityEngine::Profiling::Sampler::*)()>(&::UnityEngine::Profiling::Sampler::GetRecorder)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6afb8e8;
+  constexpr static std::size_t addrs = 0x6f56ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Sampler*>(), { "GetRecorder", {}, {} })));

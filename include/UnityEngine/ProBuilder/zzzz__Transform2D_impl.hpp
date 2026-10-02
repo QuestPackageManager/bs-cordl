@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Transform2D::*)(::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::Transform2D::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f8098;
+  constexpr static std::size_t addrs = 0x6b0c2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::Transform2D::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::Transform2D::TransformPoint)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f80a8;
+  constexpr static std::size_t addrs = 0x6b0c30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::Transform2D::*)()>(&::UnityEngine::ProBuilder::Transform2D::ToString)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x66f80b8;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6b0c31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

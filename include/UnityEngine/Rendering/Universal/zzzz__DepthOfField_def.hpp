@@ -75,11 +75,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687e74c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbdc24, size 0xb8, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687e804, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbdcdc, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::DepthOfField* New_ctor();
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_mode(::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter* value);
 
-  /// @brief Method .ctor, addr 0x687e80c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbdce4, size 0x258, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -171,7 +171,7 @@ public:
   DepthOfField(DepthOfField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13033 };
 
   /// [Tooltip("Use \"Gaussian\" for a faster but non physical depth of field; \"Bokeh\" for a more realistic but slower depth of field.")]
   /// @brief Field mode, offset: 0x38, size: 0x8, def value: None

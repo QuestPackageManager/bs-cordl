@@ -31,7 +31,7 @@ namespace System::Diagnostics {
 class CORDL_TYPE TraceFilter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldTrace, addr 0x6398848, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x67c0b14, size 0x30, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
 
   /// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -53,7 +53,7 @@ public:
   TraceFilter(TraceFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

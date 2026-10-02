@@ -11,11 +11,11 @@
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortingPosition", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleOffset",
 // ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "submeshIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "unusedPadding2", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// comment: None }, CppParam { name: "activeMeshLod", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchDrawCommand::BatchDrawCommand(::UnityEngine::Rendering::BatchDrawCommandFlags flags, ::UnityEngine::Rendering::BatchID batchID,
                                                                        ::UnityEngine::Rendering::BatchMaterialID materialID, uint16_t splitVisibilityMask, uint16_t lightmapIndex,
                                                                        int32_t sortingPosition, uint32_t visibleOffset, uint32_t visibleCount, ::UnityEngine::Rendering::BatchMeshID meshID,
-                                                                       uint16_t submeshIndex, uint16_t unusedPadding2) noexcept {
+                                                                       uint16_t submeshIndex, uint16_t activeMeshLod) noexcept {
   this->flags = flags;
   this->batchID = batchID;
   this->materialID = materialID;
@@ -26,7 +26,7 @@ constexpr ::UnityEngine::Rendering::BatchDrawCommand::BatchDrawCommand(::UnityEn
   this->visibleCount = visibleCount;
   this->meshID = meshID;
   this->submeshIndex = submeshIndex;
-  this->unusedPadding2 = unusedPadding2;
+  this->activeMeshLod = activeMeshLod;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::BatchDrawCommand::BatchDrawCommand() {}

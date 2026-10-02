@@ -77,7 +77,9 @@ public:
     __E_QNXX64 = static_cast<int32_t>(0x30),
     __E_QNXX86 = static_cast<int32_t>(0x31),
     __E_VisionOS = static_cast<int32_t>(0x32),
-    __E_ReservedCFE = static_cast<int32_t>(0x33),
+    __E_Switch2 = static_cast<int32_t>(0x33),
+    __E_KeplerArm64 = static_cast<int32_t>(0x34),
+    __E_KeplerX64 = static_cast<int32_t>(0x35),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -132,6 +134,12 @@ public:
 
   /// @brief Field IPhonePlayer value: I32(8)
   static ::UnityEngine::RuntimePlatform const IPhonePlayer;
+
+  /// @brief Field KeplerArm64 value: I32(52)
+  static ::UnityEngine::RuntimePlatform const KeplerArm64;
+
+  /// @brief Field KeplerX64 value: I32(53)
+  static ::UnityEngine::RuntimePlatform const KeplerX64;
 
   /// @brief Field LinuxEditor value: I32(16)
   static ::UnityEngine::RuntimePlatform const LinuxEditor;
@@ -202,9 +210,6 @@ public:
   /// @brief Field QNXX86 value: I32(49)
   static ::UnityEngine::RuntimePlatform const QNXX86;
 
-  /// @brief Field ReservedCFE value: I32(51)
-  static ::UnityEngine::RuntimePlatform const ReservedCFE;
-
   /// @brief Field SamsungTVPlayer value: I32(28)
   static ::UnityEngine::RuntimePlatform const SamsungTVPlayer;
 
@@ -213,6 +218,9 @@ public:
 
   /// @brief Field Switch value: I32(32)
   static ::UnityEngine::RuntimePlatform const Switch;
+
+  /// @brief Field Switch2 value: I32(51)
+  static ::UnityEngine::RuntimePlatform const Switch2;
 
   /// @brief Field TizenPlayer value: I32(23)
   static ::UnityEngine::RuntimePlatform const TizenPlayer;
@@ -257,7 +265,7 @@ public:
   static ::UnityEngine::RuntimePlatform const XboxOne;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9645 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

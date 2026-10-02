@@ -25,15 +25,47 @@
 #include "UnityEngine/Rendering/zzzz__RenderersBatchersContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SubviewOcclusionTest_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.ProcessTrees
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::ProcessTrees)> {
+  constexpr static std::size_t size = 0x3ac;
+  constexpr static std::size_t addrs = 0x6c41448;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "ProcessTrees", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.UpdateSpeedTreeWindAndUploadWindParamsToGPU
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<int32_t>,
+                                                                                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>, bool)>(
+    &::UnityEngine::Rendering::GPUResidentBatcher::UpdateSpeedTreeWindAndUploadWindParamsToGPU)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x6c417f4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                             { "UpdateSpeedTreeWindAndUploadWindParamsToGPU",
+                                                               {},
+                                                               { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(),
+                                                                 ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.get_batchersContext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderersBatchersContext* (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(
     &::UnityEngine::Rendering::GPUResidentBatcher::get_batchersContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6811098;
+  constexpr static std::size_t addrs = 0x6c41ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "get_batchersContext", {}, {} })));
@@ -46,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OcclusionCullingCommon* (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(
     &::UnityEngine::Rendering::GPUResidentBatcher::get_occlusionCullingCommon)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68110a0;
+  constexpr static std::size_t addrs = 0x6c41ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceCullingBatcher* (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(
     &::UnityEngine::Rendering::GPUResidentBatcher::get_instanceCullingBatcher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68110b8;
+  constexpr static std::size_t addrs = 0x6c41ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderersBatchersContext*, ::UnityEngine::Rendering::InstanceCullingBatcherDesc, ::UnityEngine::Rendering::GPUDrivenProcessor*)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x68110c0;
+  constexpr static std::size_t addrs = 0x6c41ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x681121c;
+  constexpr static std::size_t addrs = 0x6c41c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "Dispose", {}, {} })));
@@ -104,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::OnBeginContextRendering)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x681129c;
+  constexpr static std::size_t addrs = 0x6c41cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "OnBeginContextRendering", {}, {} })));
@@ -116,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::OnEndContextRendering)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68112f8;
+  constexpr static std::size_t addrs = 0x6c41d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "OnEndContextRendering", {}, {} })));
@@ -129,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::OnBeginCameraRendering)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x681130c;
+  constexpr static std::size_t addrs = 0x6c41d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::OnEndCameraRendering)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6811330;
+  constexpr static std::size_t addrs = 0x6c41d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::UpdateFrame)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6811354;
+  constexpr static std::size_t addrs = 0x6c41d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "UpdateFrame", {}, {} })));
@@ -166,14 +198,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.DestroyMaterials
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<int32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::DestroyMaterials)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6811384;
+  constexpr static std::size_t addrs = 0x6c41dac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                                                           { "DestroyMaterials", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                             { "DestroyMaterials", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>() } })));
     return ___internal_method;
   }
 };
@@ -183,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::DestroyDrawInstances)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x681139c;
+  constexpr static std::size_t addrs = 0x6c41dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,28 +228,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.DestroyMeshes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<int32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::DestroyMeshes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68113b4;
+  constexpr static std::size_t addrs = 0x6c41ddc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                                                           { "DestroyMeshes", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                             { "DestroyMeshes", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.FreeRendererGroupInstances
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<int32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::FreeRendererGroupInstances)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x68113cc;
+  constexpr static std::size_t addrs = 0x6c41df4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                                                           { "FreeRendererGroupInstances", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                             { "FreeRendererGroupInstances", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>() } })));
     return ___internal_method;
   }
 };
@@ -227,7 +262,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6811524;
+  constexpr static std::size_t addrs = 0x6c41f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
@@ -246,7 +281,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::UpdateInstanceOccluders)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6811a34;
+  constexpr static std::size_t addrs = 0x6c4247c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,15 +297,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.UpdateRenderers
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<int32_t>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>, bool)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::UpdateRenderers)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6811a70;
+  constexpr static std::size_t addrs = 0x6c424b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                             { "UpdateRenderers", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(), ::i2c::type_of<bool>() } })));
+                                                             { "UpdateRenderers", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -278,17 +313,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::GPUResidentBatcher::*)(
-    ::Unity::Collections::NativeArray_1<int32_t>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>)>(
+    ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::SchedulePackedMaterialCacheUpdate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6811b54;
+  constexpr static std::size_t addrs = 0x6c4259c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
                                                              { "SchedulePackedMaterialCacheUpdate",
                                                                {},
-                                                               { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(),
+                                                               { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(),
                                                                  ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>() } })));
     return ___internal_method;
   }
@@ -299,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::UnityEngine::Rendering::RenderRequestBatcherContext)>(
     &::UnityEngine::Rendering::GPUResidentBatcher::PostCullBeginCameraRendering)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6811b6c;
+  constexpr static std::size_t addrs = 0x6c425b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::OnSetupAmbientProbe)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6811b80;
+  constexpr static std::size_t addrs = 0x6c425c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "OnSetupAmbientProbe", {}, {} })));
@@ -326,8 +361,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(
     ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*,
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*)>(&::UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesAndBatches)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6811b9c;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x6c425e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
@@ -345,8 +380,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(
     ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData>, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>*,
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*)>(&::UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererBatches)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6811df4;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x6c4288c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
@@ -363,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::System::IntPtr)>(&::UnityEngine::Rendering::GPUResidentBatcher::OnFinishedCulling)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6811f3c;
+  constexpr static std::size_t addrs = 0x6c429cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,37 +406,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.ProcessTrees
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)()>(&::UnityEngine::Rendering::GPUResidentBatcher::ProcessTrees)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x6811f70;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "ProcessTrees", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::GPUResidentBatcher.UpdateSpeedTreeWindAndUploadWindParamsToGPU
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUResidentBatcher::*)(::Unity::Collections::NativeArray_1<int32_t>,
-                                                                                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>, bool)>(
-    &::UnityEngine::Rendering::GPUResidentBatcher::UpdateSpeedTreeWindAndUploadWindParamsToGPU)> {
-  constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6812320;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                             { "UpdateSpeedTreeWindAndUploadWindParamsToGPU",
-                                                               {},
-                                                               { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(),
-                                                                 ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
+constexpr ::UnityEngine::Rendering::ParallelBitArray& UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_get_m_ProcessedThisFrameTreeBits() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProcessedThisFrameTreeBits;
+}
+constexpr ::UnityEngine::Rendering::ParallelBitArray const& UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_get_m_ProcessedThisFrameTreeBits() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProcessedThisFrameTreeBits;
+}
+constexpr void UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_set_m_ProcessedThisFrameTreeBits(::UnityEngine::Rendering::ParallelBitArray value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ProcessedThisFrameTreeBits = value;
+}
 constexpr ::UnityEngine::Rendering::RenderersBatchersContext*& UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_get_m_BatchersContext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BatchersContext;
@@ -462,17 +478,20 @@ constexpr void UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InstanceCullingBatcher = value;
 }
-constexpr ::UnityEngine::Rendering::ParallelBitArray& UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_get_m_ProcessedThisFrameTreeBits() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ProcessedThisFrameTreeBits;
+inline void UnityEngine::Rendering::GPUResidentBatcher::ProcessTrees() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "ProcessTrees", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-constexpr ::UnityEngine::Rendering::ParallelBitArray const& UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_get_m_ProcessedThisFrameTreeBits() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ProcessedThisFrameTreeBits;
-}
-constexpr void UnityEngine::Rendering::GPUResidentBatcher::__cordl_internal_set_m_ProcessedThisFrameTreeBits(::UnityEngine::Rendering::ParallelBitArray value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ProcessedThisFrameTreeBits = value;
+inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateSpeedTreeWindAndUploadWindParamsToGPU(::Unity::Collections::NativeArray_1<int32_t> treeRendererIDs,
+                                                                                                    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> treeInstances,
+                                                                                                    bool history) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                           { "UpdateSpeedTreeWindAndUploadWindParamsToGPU",
+                                                             {},
+                                                             { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(),
+                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, treeRendererIDs, treeInstances, history);
 }
 inline ::UnityEngine::Rendering::RenderersBatchersContext* UnityEngine::Rendering::GPUResidentBatcher::get_batchersContext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "get_batchersContext", {}, {} })));
@@ -523,9 +542,10 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateFrame() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "UpdateFrame", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::DestroyMaterials(::Unity::Collections::NativeArray_1<int32_t> destroyedMaterials) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                                                         { "DestroyMaterials", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
+inline void UnityEngine::Rendering::GPUResidentBatcher::DestroyMaterials(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedMaterials) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                           { "DestroyMaterials", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, destroyedMaterials);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances) {
@@ -534,15 +554,15 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::DestroyDrawInstances(::U
                                                            { "DestroyDrawInstances", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instances);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::DestroyMeshes(::Unity::Collections::NativeArray_1<int32_t> destroyedMeshes) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "DestroyMeshes", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
+inline void UnityEngine::Rendering::GPUResidentBatcher::DestroyMeshes(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> destroyedMeshes) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                                                         { "DestroyMeshes", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, destroyedMeshes);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                                                         { "FreeRendererGroupInstances", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
+inline void UnityEngine::Rendering::GPUResidentBatcher::FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> rendererGroupIDs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
+                                                           { "FreeRendererGroupInstances", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererGroupIDs);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
@@ -568,20 +588,20 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateInstanceOccluders(
                                                   ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, occluderParams, occluderSubviewUpdates);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRenderers(::Unity::Collections::NativeArray_1<int32_t> renderersID, bool materialUpdateOnly) {
+inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRenderers(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> renderersID, bool materialUpdateOnly) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                           { "UpdateRenderers", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(), ::i2c::type_of<bool>() } })));
+                                                           { "UpdateRenderers", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderersID, materialUpdateOnly);
 }
 inline ::Unity::Jobs::JobHandle
-UnityEngine::Rendering::GPUResidentBatcher::SchedulePackedMaterialCacheUpdate(::Unity::Collections::NativeArray_1<int32_t> materialIDs,
+UnityEngine::Rendering::GPUResidentBatcher::SchedulePackedMaterialCacheUpdate(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> materialIDs,
                                                                               ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
                                                            { "SchedulePackedMaterialCacheUpdate",
                                                              {},
-                                                             { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(),
+                                                             { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(),
                                                                ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(this, ___internal_method, materialIDs, packedMaterialDatas);
 }
@@ -621,21 +641,6 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::OnFinishedCulling(::Syst
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "OnFinishedCulling", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, customCullingResult);
-}
-inline void UnityEngine::Rendering::GPUResidentBatcher::ProcessTrees() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "ProcessTrees", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateSpeedTreeWindAndUploadWindParamsToGPU(::Unity::Collections::NativeArray_1<int32_t> treeRendererIDs,
-                                                                                                    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> treeInstances,
-                                                                                                    bool history) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
-                                                           { "UpdateSpeedTreeWindAndUploadWindParamsToGPU",
-                                                             {},
-                                                             { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(),
-                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, treeRendererIDs, treeInstances, history);
 }
 inline ::UnityEngine::Rendering::GPUResidentBatcher* UnityEngine::Rendering::GPUResidentBatcher::New_ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext,
                                                                                                           ::UnityEngine::Rendering::InstanceCullingBatcherDesc instanceCullerBatcherDesc,

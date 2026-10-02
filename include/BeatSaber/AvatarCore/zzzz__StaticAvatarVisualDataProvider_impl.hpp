@@ -12,11 +12,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::*)()>(
     &::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::get_avatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3271de4;
+  constexpr static std::size_t addrs = 0x34f8644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider*>(), { "get_avatarsData", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider.get_isVisualDataResolved
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::*)()>(
+    &::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::get_isVisualDataResolved)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x34f8658;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider*>(), { "get_isVisualDataResolved", {}, {} })));
     return ___internal_method;
   }
 };
@@ -26,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::*)(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>*)>(
     &::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::add_visualDataDidChangeEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3271df8;
+  constexpr static std::size_t addrs = 0x34f8660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::*)(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>*)>(
     &::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::remove_visualDataDidChangeEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3271dfc;
+  constexpr static std::size_t addrs = 0x34f8664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3271e00;
+  constexpr static std::size_t addrs = 0x34f8668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider*>(),
@@ -79,6 +93,11 @@ constexpr void BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::__cordl_in
 inline ::GlobalNamespace::MultiplayerAvatarsData BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::get_avatarsData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider*>(), { "get_avatarsData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerAvatarsData>(this, ___internal_method);
+}
+inline bool BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::get_isVisualDataResolved() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::StaticAvatarVisualDataProvider*>(), { "get_isVisualDataResolved", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void BeatSaber::AvatarCore::StaticAvatarVisualDataProvider::add_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value) {
   static auto* ___internal_method =

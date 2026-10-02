@@ -22,7 +22,7 @@ namespace OculusStudios::GraphQL::Client {
 class HttpRequestManager;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpTransport__ExecuteAsync_d__10;
+struct HttpTransport__ExecuteAsync_d__13;
 }
 namespace OculusStudios::GraphQL::Client {
 class IGraphQLClientTransport;
@@ -59,29 +59,29 @@ namespace OculusStudios::GraphQL::Client {
 class HttpTransport;
 }
 namespace OculusStudios::GraphQL::Client {
-struct HttpTransport__ExecuteAsync_d__10;
+struct HttpTransport__ExecuteAsync_d__13;
 }
 // Write type traits
 MARK_REF_T(::OculusStudios::GraphQL::Client::HttpTransport*);
-MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10);
+MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpTransport*, "OculusStudios.GraphQL.Client", "HttpTransport");
-DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, "OculusStudios.GraphQL.Client", "HttpTransport/<ExecuteAsync>d__10");
+DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, "OculusStudios.GraphQL.Client", "HttpTransport/<ExecuteAsync>d__13");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.TimeSpan
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
-// CS Name: OculusStudios.GraphQL.Client.HttpTransport/<ExecuteAsync>d__10
-struct CORDL_TYPE HttpTransport__ExecuteAsync_d__10 {
+// CS Name: OculusStudios.GraphQL.Client.HttpTransport/<ExecuteAsync>d__13
+struct CORDL_TYPE HttpTransport__ExecuteAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f2b370, size 0x910, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6346038, size 0x910, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f2bc80, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6346948, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HttpTransport__ExecuteAsync_d__10();
+  constexpr HttpTransport__ExecuteAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
@@ -101,7 +101,7 @@ public:
   // "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_latency_5__6", ty:
   // "::System::TimeSpan", modifiers: "", def_value: None, comment: None }]
-  constexpr HttpTransport__ExecuteAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
+  constexpr HttpTransport__ExecuteAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
                                               ::OculusStudios::GraphQL::Client::HttpTransport* __4__this, ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest,
                                               ::System::Net::Http::HttpRequestMessage* _httpRequest_5__2, ::System::Diagnostics::Stopwatch* _stopWatch_5__3,
                                               ::OculusStudios::GraphQL::Client::GraphQLRequest* __7__wrap3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> __u__1,
@@ -109,7 +109,7 @@ public:
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__2, ::System::TimeSpan _latency_5__6) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -150,29 +150,29 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, graphQLRequest) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, graphQLRequest) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, _httpRequest_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, _httpRequest_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, _stopWatch_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, _stopWatch_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, __7__wrap3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, __7__wrap3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, _httpResponse_5__5) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, _httpResponse_5__5) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, __u__2) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, __u__2) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, _latency_5__6) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13, _latency_5__6) == 0x60, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10) == 0x68, "Size mismatch!");
+static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13) == 0x68, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
 // Dependencies System.Object
@@ -182,12 +182,11 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE HttpTransport : public ::System::Object {
 public:
   // Declarations
-  using _ExecuteAsync_d__10 = ::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10;
+  using _ExecuteAsync_d__13 = ::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__13;
 
   __declspec(property(get = get_AccessToken, put = set_AccessToken)) ::StringW AccessToken;
 
-  /// @brief Field CustomAppHeaders, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_CustomAppHeaders, put = __cordl_internal_set_CustomAppHeaders)) ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* CustomAppHeaders;
+  __declspec(property(get = get_CustomAppHeaders, put = set_CustomAppHeaders)) ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* CustomAppHeaders;
 
   __declspec(property(get = get_Endpoint, put = set_Endpoint)) ::StringW Endpoint;
 
@@ -196,6 +195,10 @@ public:
 
   /// @brief Field <Endpoint>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Endpoint_k__BackingField, put = __cordl_internal_set__Endpoint_k__BackingField)) ::StringW _Endpoint_k__BackingField;
+
+  /// @brief Field _customAppHeaders, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__customAppHeaders,
+                      put = __cordl_internal_set__customAppHeaders)) ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* _customAppHeaders;
 
   /// @brief Field http_, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_http_, put = __cordl_internal_set_http_)) ::OculusStudios::GraphQL::Client::HttpRequestManager* http_;
@@ -206,25 +209,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5f2b36c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6346034, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpTransport::<ExecuteAsync>d__10))]
-  /// @brief Method ExecuteAsync, addr 0x5f26cb8, size 0xf4, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpTransport::<ExecuteAsync>d__13))]
+  /// @brief Method ExecuteAsync, addr 0x6341978, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest,
                                                                                                                     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* _);
 
-  /// @brief Method GetFullURL, addr 0x5f2b09c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetFullURL, addr 0x6345d64, size 0x2d0, virtual false, abstract: false, final false
   inline ::System::Uri* GetFullURL(::OculusStudios::GraphQL::Client::GraphQLRequest* req);
 
-  /// @brief Method GetHttpRequest, addr 0x5f2a5d8, size 0xac4, virtual false, abstract: false, final false
+  /// @brief Method GetHttpRequest, addr 0x63452b4, size 0xab0, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* GetHttpRequest(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest);
 
   static inline ::OculusStudios::GraphQL::Client::HttpTransport* New_ctor();
-
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& __cordl_internal_get_CustomAppHeaders() const;
-
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& __cordl_internal_get_CustomAppHeaders();
 
   constexpr ::StringW const& __cordl_internal_get__AccessToken_k__BackingField() const;
 
@@ -234,27 +233,34 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__Endpoint_k__BackingField();
 
+  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__customAppHeaders() const;
+
+  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& __cordl_internal_get__customAppHeaders();
+
   constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager* const& __cordl_internal_get_http_() const;
 
   constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager*& __cordl_internal_get_http_();
-
-  constexpr void __cordl_internal_set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value);
 
   constexpr void __cordl_internal_set__AccessToken_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__Endpoint_k__BackingField(::StringW value);
 
+  constexpr void __cordl_internal_set__customAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value);
+
   constexpr void __cordl_internal_set_http_(::OculusStudios::GraphQL::Client::HttpRequestManager* value);
 
-  /// @brief Method .ctor, addr 0x5f1efe0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6339aac, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AccessToken, addr 0x5f2a5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessToken, addr 0x6345298, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
+  /// @brief Method get_CustomAppHeaders, addr 0x63452a8, size 0xc, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_CustomAppHeaders();
+
   /// [CompilerGenerated]
-  /// @brief Method get_Endpoint, addr 0x5f2a5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Endpoint, addr 0x6345288, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
   /// @brief Convert to "::OculusStudios::GraphQL::Client::IGraphQLClientTransport"
@@ -264,11 +270,14 @@ public:
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_AccessToken, addr 0x5f2a5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessToken, addr 0x63452a0, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
+  /// @brief Method set_CustomAppHeaders, addr 0x6339b74, size 0xc, virtual true, abstract: false, final true
+  inline void set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value);
+
   /// [CompilerGenerated]
-  /// @brief Method set_Endpoint, addr 0x5f2a5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Endpoint, addr 0x6345290, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
 protected:
@@ -286,7 +295,7 @@ public:
   HttpTransport(HttpTransport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21091 };
 
   /// [CompilerGenerated]
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -296,8 +305,8 @@ public:
   /// @brief Field <AccessToken>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____AccessToken_k__BackingField;
 
-  /// @brief Field CustomAppHeaders, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* ___CustomAppHeaders;
+  /// @brief Field _customAppHeaders, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* ____customAppHeaders;
 
   /// @brief Field http_, offset: 0x28, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::HttpRequestManager* ___http_;
@@ -309,7 +318,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport, ____Endp
 
 static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport, ____AccessToken_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport, ___CustomAppHeaders) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport, ____customAppHeaders) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpTransport, ___http_) == 0x28, "Offset mismatch!");
 

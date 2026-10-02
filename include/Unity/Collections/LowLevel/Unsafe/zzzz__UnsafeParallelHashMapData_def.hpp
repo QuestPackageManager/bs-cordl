@@ -61,7 +61,7 @@ public:
   template <typename TKey, typename TValue>
     requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
              ::cordl_internals::default_constructor_constraint<TValue>)
-  static inline void AllocateHashMap(int32_t length, int32_t bucketLength, ::Unity::Collections::AllocatorManager_AllocatorHandle label,
+  static inline void AllocateHashMap(int32_t length, int64_t bucketLength, ::Unity::Collections::AllocatorManager_AllocatorHandle label,
                                      ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*> outBuf);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
@@ -69,23 +69,28 @@ public:
   template <typename TKey, typename TValue>
     requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
              ::cordl_internals::default_constructor_constraint<TValue>)
-  static inline int32_t CalculateDataSize(int32_t length, int32_t bucketLength, ::by_ref<int32_t> keyOffset, ::by_ref<int32_t> nextOffset, ::by_ref<int32_t> bucketOffset);
+  static inline int64_t CalculateDataSize(int32_t length, int64_t bucketLength, ::by_ref<int64_t> keyOffset, ::by_ref<int64_t> nextOffset, ::by_ref<int64_t> bucketOffset);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckHashMapReallocateDoesNotShrink, addr 0x64ceeec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CheckCapacity, addr 0x68f7ca8, size 0xa4, virtual false, abstract: false, final false
+  static inline void CheckCapacity(int32_t capacity);
+
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
+  /// @brief Method CheckHashMapReallocateDoesNotShrink, addr 0x68f7c40, size 0x68, virtual false, abstract: false, final false
   static inline void CheckHashMapReallocateDoesNotShrink(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity);
 
-  /// @brief Method DeallocateHashMap, addr 0x64cec90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DeallocateHashMap, addr 0x68f79e4, size 0x8c, virtual false, abstract: false, final false
   static inline void DeallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method GetBucketData, addr 0x64ceed4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBucketData, addr 0x68f7c28, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData GetBucketData();
 
-  /// @brief Method GetBucketSize, addr 0x64cec78, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetBucketSize(int32_t capacity);
+  /// @brief Method GetBucketSize, addr 0x68f79cc, size 0x8, virtual false, abstract: false, final false
+  static inline int64_t GetBucketSize(int32_t capacity);
 
-  /// @brief Method GetCount, addr 0x64ced78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCount, addr 0x68f7acc, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetCount(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -107,16 +112,16 @@ public:
     requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline void GetValueArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeArray_1<TValue> result);
 
-  /// @brief Method GrowCapacity, addr 0x64cec80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GrowCapacity, addr 0x68f79d4, size 0x10, virtual false, abstract: false, final false
   static inline int32_t GrowCapacity(int32_t capacity);
 
-  /// @brief Method IsEmpty, addr 0x64ced1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x68f7a70, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsEmpty(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
-  /// @brief Method MoveNext, addr 0x64cee9c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x68f7bf0, size 0x38, virtual false, abstract: false, final false
   static inline bool MoveNext(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::by_ref<int32_t> bucketIndex, ::by_ref<int32_t> nextIndex, ::by_ref<int32_t> index);
 
-  /// @brief Method MoveNextSearch, addr 0x64cee28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MoveNextSearch, addr 0x68f7b7c, size 0x74, virtual false, abstract: false, final false
   static inline bool MoveNextSearch(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::by_ref<int32_t> bucketIndex, ::by_ref<int32_t> nextIndex, ::by_ref<int32_t> index);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
@@ -124,7 +129,7 @@ public:
   template <typename TKey, typename TValue>
     requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
              ::cordl_internals::default_constructor_constraint<TValue>)
-  static inline void ReallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity, int32_t newBucketCapacity,
+  static inline void ReallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity, int64_t newBucketCapacity,
                                        ::Unity::Collections::AllocatorManager_AllocatorHandle label);
 
   constexpr int32_t const& __cordl_internal_get_allocatedIndexLength() const;
@@ -169,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_values(uint8_t* value);
 
-  /// @brief Method get_firstFreeTLS, addr 0x64cec70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstFreeTLS, addr 0x68f79c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t* get_firstFreeTLS();
 
   // Ctor Parameters []
@@ -290,13 +295,16 @@ public:
   static constexpr int32_t IntsPerCacheLine{ static_cast<int32_t>(0x10) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field kFirstFreeTLSOffset offset 0xffffffff size 0x4
   static constexpr int32_t kFirstFreeTLSOffset{ static_cast<int32_t>(0x40) };
+
+  /// @brief Field kMaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxCapacity{ static_cast<int32_t>(0x3fffffff) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::EtwProvider::*)(::System::Guid)>(&::System::Runtime::Diagnostics::EtwProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x618efec;
+  constexpr static std::size_t addrs = 0x65b6b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (::System::Runtime::Diagnostics::EtwProvider::*)()>(&::System::Runtime::Diagnostics::EtwProvider::get_ControllerCallBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191208;
+  constexpr static std::size_t addrs = 0x65b8d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EtwProvider*>(), { "get_ControllerCallBack", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::EtwProvider::*)(::System::Action*)>(
     &::System::Runtime::Diagnostics::EtwProvider::set_ControllerCallBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191210;
+  constexpr static std::size_t addrs = 0x65b8d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::EtwProvider::*)()>(&::System::Runtime::Diagnostics::EtwProvider::OnControllerCommand)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6191218;
+  constexpr static std::size_t addrs = 0x65b8d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::EtwProvider::*)(bool)>(&::System::Runtime::Diagnostics::EtwProvider::SetEnd2EndActivityTracingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6191238;
+  constexpr static std::size_t addrs = 0x65b8d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::EtwProvider::*)(
     ::by_ref<::System::Runtime::Diagnostics::EventDescriptor>, ::System::Runtime::Diagnostics::EventTraceActivity*, ::StringW, ::StringW)>(&::System::Runtime::Diagnostics::EtwProvider::WriteEvent)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x618a294;
+  constexpr static std::size_t addrs = 0x65b1de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
                                                                                                              ::System::Runtime::Diagnostics::EventTraceActivity*, ::StringW, ::StringW, ::StringW)>(
     &::System::Runtime::Diagnostics::EtwProvider::WriteEvent)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x618a154;
+  constexpr static std::size_t addrs = 0x65b1ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
     ::by_ref<::System::Runtime::Diagnostics::EventDescriptor>, ::System::Runtime::Diagnostics::EventTraceActivity*, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Runtime::Diagnostics::EtwProvider::WriteEvent)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6189fd0;
+  constexpr static std::size_t addrs = 0x65b1b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

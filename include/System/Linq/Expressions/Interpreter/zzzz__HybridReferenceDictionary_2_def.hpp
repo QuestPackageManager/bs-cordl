@@ -154,7 +154,7 @@ public:
   HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17142 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -246,7 +246,7 @@ public:
   HybridReferenceDictionary_2(HybridReferenceDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17143 };
 
   /// @brief Field _keysAndValues, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> ____keysAndValues;

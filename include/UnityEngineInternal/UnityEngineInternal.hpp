@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngineInternal/DisplayInternal.hpp"
 #include "UnityEngineInternal/GenericStack.hpp"
 #include "UnityEngineInternal/LightmapType.hpp"
 #include "UnityEngineInternal/MathfInternal.hpp"

@@ -43,12 +43,12 @@ public:
   /// @brief Field handles, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_handles, put = __cordl_internal_set_handles)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedHandle*>* handles;
 
-  /// @brief Method Initialize, addr 0x5a3f894, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5e57230, size 0x2e8, virtual false, abstract: false, final false
   inline void Initialize(::Meta::XR::ImmersiveDebugger::DebugInspector* owner);
 
   static inline ::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionRegistry* New_ctor();
 
-  /// @brief Method TryGetHandle, addr 0x5a40274, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TryGetHandle, addr 0x5e57c10, size 0x16c, virtual false, abstract: false, final false
   inline bool TryGetHandle(::UnityEngine::Component* component, ::by_ref<::Meta::XR::ImmersiveDebugger::InspectedHandle*> inspectedHandle);
 
   constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedHandle*>* const& __cordl_internal_get_handles() const;
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_handles(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedHandle*>* value);
 
-  /// @brief Method .ctor, addr 0x5a3fe0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e577a8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Handles, addr 0x5a3fe80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handles, addr 0x5e5781c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedHandle*>* get_Handles();
 
 protected:
@@ -78,7 +78,7 @@ public:
   DebugInspector_InspectionRegistry(DebugInspector_InspectionRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18859 };
 
   /// [SerializeField]
   /// @brief Field handles, offset: 0x10, size: 0x8, def value: None
@@ -112,18 +112,18 @@ public:
   /// @brief Field registry, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_registry, put = __cordl_internal_set_registry)) ::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionRegistry* registry;
 
-  /// @brief Method Initialize, addr 0x5a3f87c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5e57218, size 0x18, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Meta::XR::ImmersiveDebugger::DebugInspector* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a3fce8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e57684, size 0x58, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a3fb7c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e57518, size 0xb8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x5a3f878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5e57214, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::StringW const& __cordl_internal_get__category() const;
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set_registry(::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionRegistry* value);
 
-  /// @brief Method .ctor, addr 0x5a3fdb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e5774c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Category, addr 0x5a3f868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x5e57204, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Category();
 
-  /// @brief Method get_Registry, addr 0x5a3f870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Registry, addr 0x5e5720c, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::DebugInspector_InspectionRegistry* get_Registry();
 
 protected:
@@ -162,7 +162,7 @@ public:
   DebugInspector(DebugInspector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18860 };
 
   /// [Tooltip("Defines a default category for all inspected data handled by this component. These can still be overriden by specifying another category individually in the inspected data
   /// properties.")] [SerializeField]

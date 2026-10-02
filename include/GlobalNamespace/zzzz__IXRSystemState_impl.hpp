@@ -70,6 +70,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::IXRSystemState.IsAppFocusCurrentlyLost
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IXRSystemState::*)()>(&::GlobalNamespace::IXRSystemState::IsAppFocusCurrentlyLost)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 5 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::IXRSystemState.RefreshControllersReference
 template <>
 
@@ -79,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -104,7 +117,11 @@ inline bool GlobalNamespace::IXRSystemState::get_hasHmdMounted() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::IXRSystemState::RefreshControllersReference() {
+inline bool GlobalNamespace::IXRSystemState::IsAppFocusCurrentlyLost() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void GlobalNamespace::IXRSystemState::RefreshControllersReference() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }

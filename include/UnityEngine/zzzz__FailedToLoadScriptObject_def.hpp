@@ -12,9 +12,9 @@ class FailedToLoadScriptObject;
 // Write type traits
 MARK_REF_T(::UnityEngine::FailedToLoadScriptObject*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::FailedToLoadScriptObject*, "UnityEngine", "FailedToLoadScriptObject");
+// [ExcludeFromObjectFactory]
 // [NativeClass(null)]
 // [RequiredByNativeCode]
-// [ExcludeFromObjectFactory]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -37,7 +37,7 @@ public:
   FailedToLoadScriptObject(FailedToLoadScriptObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

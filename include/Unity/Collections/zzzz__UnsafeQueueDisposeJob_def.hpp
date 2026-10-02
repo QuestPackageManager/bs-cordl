@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x64c9674, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68f2864, size 0x10, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -41,12 +41,12 @@ public:
   constexpr UnsafeQueueDisposeJob(::Unity::Collections::UnsafeQueueDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-  /// @brief Field Data, offset: 0x0, size: 0x18, def value: None
+  /// @brief Field Data, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::UnsafeQueueDispose Data;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -54,6 +54,6 @@ public:
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::UnsafeQueueDisposeJob, Data) == 0x0, "Offset mismatch!");
 
-static_assert(sizeof(::Unity::Collections::UnsafeQueueDisposeJob) == 0x18, "Size mismatch!");
+static_assert(sizeof(::Unity::Collections::UnsafeQueueDisposeJob) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections

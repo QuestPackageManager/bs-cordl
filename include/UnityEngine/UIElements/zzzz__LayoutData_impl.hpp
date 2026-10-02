@@ -6,6 +6,7 @@
 #include "UnityEngine/UIElements/zzzz__Justify_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Wrap_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__LayoutData_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -16,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LayoutData (::UnityEngine::UIElements::LayoutData::*)()>(&::UnityEngine::UIElements::LayoutData::Copy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c8e6d0;
+  constexpr static std::size_t addrs = 0x70f0dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LayoutData>(), { "Copy", {}, {} })));
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LayoutData::*)(::by_ref<::UnityEngine::UIElements::LayoutData>)>(
     &::UnityEngine::UIElements::LayoutData::CopyFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8e6e0;
+  constexpr static std::size_t addrs = 0x70f0dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +42,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::LayoutData, ::UnityEngine::UIElements::LayoutData)>(&::UnityEngine::UIElements::LayoutData::op_Equality)> {
-  constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x6c8e6e8;
+  constexpr static std::size_t size = 0x418;
+  constexpr static std::size_t addrs = 0x70f0de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LayoutData::*)(::UnityEngine::UIElements::LayoutData)>(&::UnityEngine::UIElements::LayoutData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c8eacc;
+  constexpr static std::size_t addrs = 0x70f11f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LayoutData::*)(::System::Object*)>(&::UnityEngine::UIElements::LayoutData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c8eb18;
+  constexpr static std::size_t addrs = 0x70f1244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,8 +82,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::LayoutData::*)()>(&::UnityEngine::UIElements::LayoutData::GetHashCode)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6c8ebbc;
+  constexpr static std::size_t size = 0x3bc;
+  constexpr static std::size_t addrs = 0x70f12e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,40 +138,41 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>* UnityEn
 }
 // Ctor Parameters [CppParam { name: "alignContent", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "alignItems", ty:
 // "::UnityEngine::UIElements::Align", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "alignSelf", ty: "::UnityEngine::UIElements::Align", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "borderBottomWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderLeftWidth", ty: "float_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderRightWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderTopWidth",
-// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "display", ty: "::UnityEngine::UIElements::DisplayStyle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flexBasis", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flexDirection", ty: "::UnityEngine::UIElements::FlexDirection", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "flexGrow", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flexShrink", ty: "float_t", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "flexWrap", ty: "::UnityEngine::UIElements::Wrap", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "height", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "justifyContent", ty: "::UnityEngine::UIElements::Justify", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "left", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marginBottom", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marginLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "marginRight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marginTop", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxHeight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "maxWidth", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minHeight", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minWidth", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "paddingBottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paddingLeft", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paddingRight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "paddingTop", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty:
-// "::UnityEngine::UIElements::Position", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "right", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "top", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }]
+// Some("{}"), comment: None }, CppParam { name: "aspectRatio", ty: "::UnityEngine::UIElements::Ratio", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderBottomWidth", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderLeftWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "borderRightWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "borderTopWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "bottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "display", ty: "::UnityEngine::UIElements::DisplayStyle",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flexBasis", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "flexDirection", ty: "::UnityEngine::UIElements::FlexDirection", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flexGrow", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "flexShrink", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flexWrap", ty: "::UnityEngine::UIElements::Wrap",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "justifyContent", ty: "::UnityEngine::UIElements::Justify", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "left", ty: "::UnityEngine::UIElements::Length", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "marginBottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "marginLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marginRight", ty: "::UnityEngine::UIElements::Length", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "marginTop", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxHeight",
+// ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxWidth", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "minHeight", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minWidth", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paddingBottom", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "paddingLeft", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paddingRight", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paddingTop", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "position", ty: "::UnityEngine::UIElements::Position", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "right", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "top", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::LayoutData::LayoutData(::UnityEngine::UIElements::Align alignContent, ::UnityEngine::UIElements::Align alignItems, ::UnityEngine::UIElements::Align alignSelf,
-                                                            float_t borderBottomWidth, float_t borderLeftWidth, float_t borderRightWidth, float_t borderTopWidth,
-                                                            ::UnityEngine::UIElements::Length bottom, ::UnityEngine::UIElements::DisplayStyle display, ::UnityEngine::UIElements::Length flexBasis,
-                                                            ::UnityEngine::UIElements::FlexDirection flexDirection, float_t flexGrow, float_t flexShrink, ::UnityEngine::UIElements::Wrap flexWrap,
-                                                            ::UnityEngine::UIElements::Length height, ::UnityEngine::UIElements::Justify justifyContent, ::UnityEngine::UIElements::Length left,
-                                                            ::UnityEngine::UIElements::Length marginBottom, ::UnityEngine::UIElements::Length marginLeft, ::UnityEngine::UIElements::Length marginRight,
-                                                            ::UnityEngine::UIElements::Length marginTop, ::UnityEngine::UIElements::Length maxHeight, ::UnityEngine::UIElements::Length maxWidth,
-                                                            ::UnityEngine::UIElements::Length minHeight, ::UnityEngine::UIElements::Length minWidth, ::UnityEngine::UIElements::Length paddingBottom,
-                                                            ::UnityEngine::UIElements::Length paddingLeft, ::UnityEngine::UIElements::Length paddingRight, ::UnityEngine::UIElements::Length paddingTop,
-                                                            ::UnityEngine::UIElements::Position position, ::UnityEngine::UIElements::Length right, ::UnityEngine::UIElements::Length top,
-                                                            ::UnityEngine::UIElements::Length width) noexcept {
+                                                            ::UnityEngine::UIElements::Ratio aspectRatio, float_t borderBottomWidth, float_t borderLeftWidth, float_t borderRightWidth,
+                                                            float_t borderTopWidth, ::UnityEngine::UIElements::Length bottom, ::UnityEngine::UIElements::DisplayStyle display,
+                                                            ::UnityEngine::UIElements::Length flexBasis, ::UnityEngine::UIElements::FlexDirection flexDirection, float_t flexGrow, float_t flexShrink,
+                                                            ::UnityEngine::UIElements::Wrap flexWrap, ::UnityEngine::UIElements::Length height, ::UnityEngine::UIElements::Justify justifyContent,
+                                                            ::UnityEngine::UIElements::Length left, ::UnityEngine::UIElements::Length marginBottom, ::UnityEngine::UIElements::Length marginLeft,
+                                                            ::UnityEngine::UIElements::Length marginRight, ::UnityEngine::UIElements::Length marginTop, ::UnityEngine::UIElements::Length maxHeight,
+                                                            ::UnityEngine::UIElements::Length maxWidth, ::UnityEngine::UIElements::Length minHeight, ::UnityEngine::UIElements::Length minWidth,
+                                                            ::UnityEngine::UIElements::Length paddingBottom, ::UnityEngine::UIElements::Length paddingLeft,
+                                                            ::UnityEngine::UIElements::Length paddingRight, ::UnityEngine::UIElements::Length paddingTop, ::UnityEngine::UIElements::Position position,
+                                                            ::UnityEngine::UIElements::Length right, ::UnityEngine::UIElements::Length top, ::UnityEngine::UIElements::Length width) noexcept {
   this->alignContent = alignContent;
   this->alignItems = alignItems;
   this->alignSelf = alignSelf;
+  this->aspectRatio = aspectRatio;
   this->borderBottomWidth = borderBottomWidth;
   this->borderLeftWidth = borderLeftWidth;
   this->borderRightWidth = borderRightWidth;

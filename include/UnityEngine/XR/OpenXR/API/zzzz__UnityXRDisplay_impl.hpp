@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureDesc, ::by_ref<uint32_t>)>(
     &::UnityEngine::XR::OpenXR::API::UnityXRDisplay::CreateTexture)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69f6da0;
+  constexpr static std::size_t addrs = 0x6e3c908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -18,11 +18,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::X
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::XR::OpenXR::API::UnityXRDisplay.DestroyTexture
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::XR::OpenXR::API::UnityXRDisplay::DestroyTexture)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6e3c9ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::API::UnityXRDisplay*>(), { "DestroyTexture", {}, { ::i2c::type_of<uint32_t>() } })));
+    return ___internal_method;
+  }
+};
 inline bool UnityEngine::XR::OpenXR::API::UnityXRDisplay::CreateTexture(::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureDesc desc, ::by_ref<uint32_t> id) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::API::UnityXRDisplay*>(),
                                               { "CreateTexture", {}, { ::i2c::type_of<::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureDesc>(), ::i2c::type_of<::by_ref<uint32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, desc, id);
+}
+inline bool UnityEngine::XR::OpenXR::API::UnityXRDisplay::DestroyTexture(uint32_t textureId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::API::UnityXRDisplay*>(), { "DestroyTexture", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, textureId);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::OpenXR::API::UnityXRDisplay::UnityXRDisplay() {}

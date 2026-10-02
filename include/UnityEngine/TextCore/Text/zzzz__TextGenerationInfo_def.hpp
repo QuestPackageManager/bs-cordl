@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationInfo)
 namespace System {
 struct IntPtr;
@@ -23,12 +24,34 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextGenerationInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6c0d058, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create();
+  /// @brief Field <CurrentGenerationIteration>k__BackingField, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__CurrentGenerationIteration_k__BackingField, put = setStaticF__CurrentGenerationIteration_k__BackingField)) int32_t _CurrentGenerationIteration_k__BackingField;
 
-  /// [FreeFunction("TextGenerationInfo::Destroy", IsThreadSafe = true)]
-  /// @brief Method Destroy, addr 0x6c0d080, size 0x3c, virtual false, abstract: false, final false
+  /// [ThreadSafe]
+  /// @brief Method Create, addr 0x705fa54, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Create(bool isPermanent);
+
+  /// [ThreadSafe]
+  /// @brief Method Destroy, addr 0x705fa90, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr ptr);
+
+  /// @brief Method DestroyAllTempAllocations, addr 0x705fb78, size 0x28, virtual false, abstract: false, final false
+  static inline void DestroyAllTempAllocations();
+
+  /// @brief Method OnRepaintEnd, addr 0x705facc, size 0xac, virtual false, abstract: false, final false
+  static inline void OnRepaintEnd();
+
+  static inline int32_t getStaticF__CurrentGenerationIteration_k__BackingField();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_CurrentGenerationIteration, addr 0x705f9b8, size 0x4c, virtual false, abstract: false, final false
+  static inline int32_t get_CurrentGenerationIteration();
+
+  static inline void setStaticF__CurrentGenerationIteration_k__BackingField(int32_t value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_CurrentGenerationIteration, addr 0x705fa04, size 0x50, virtual false, abstract: false, final false
+  static inline void set_CurrentGenerationIteration(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -45,7 +68,7 @@ public:
   TextGenerationInfo(TextGenerationInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

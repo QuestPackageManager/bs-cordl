@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Xml::Int16ArrayHelperWithString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x60fe29c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x651a7b8, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x60fe2d4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x651a7f0, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x60fe310, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x651a82c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Int16ArrayHelperWithString* getStaticF_Instance();
@@ -61,7 +61,7 @@ public:
   Int16ArrayHelperWithString(Int16ArrayHelperWithString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

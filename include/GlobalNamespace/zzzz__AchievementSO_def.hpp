@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x36fb348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3982044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementId, addr 0x36fb340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementId, addr 0x398203c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_achievementId();
 
 protected:
@@ -54,7 +54,7 @@ public:
   AchievementSO(AchievementSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15000 };
 
   /// [SerializeField]
   /// @brief Field _achievementId, offset: 0x18, size: 0x8, def value: None

@@ -55,11 +55,11 @@ public:
 
   constexpr void __cordl_internal_set__intervalBit_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x69c5160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6decee0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_intervalBit, addr 0x69c5b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalBit, addr 0x6ded898, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
   /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -75,7 +75,7 @@ public:
   inline void set_enable(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_intervalBit, addr 0x69c5b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalBit, addr 0x6ded8a0, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   RuntimeElement(RuntimeElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19316 };
 
   /// [CompilerGenerated]
   /// @brief Field <intervalBit>k__BackingField, offset: 0x10, size: 0x4, def value: None

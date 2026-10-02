@@ -19,9 +19,9 @@ class Cloth;
 // Write type traits
 MARK_REF_T(::UnityEngine::Cloth*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Cloth*, "UnityEngine", "Cloth");
+// [RequireComponent(typeof(UnityEngine.Transform), typeof(UnityEngine.SkinnedMeshRenderer))]
 // [NativeClass("Unity::Cloth")]
 // [NativeHeader("Modules/Cloth/Cloth.h")]
-// [RequireComponent(typeof(UnityEngine.Transform), typeof(UnityEngine.SkinnedMeshRenderer))]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x6a5b800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ead218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_externalAcceleration, addr 0x6a5b724, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x6ead13c, size 0x98, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x6a5b7bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x6ead1d4, size 0x44, virtual false, abstract: false, final false
   static inline void set_externalAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
 protected:
@@ -76,15 +76,15 @@ public:
   Cloth(Cloth const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23939 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <useContinuousCollision>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____useContinuousCollision_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <selfCollision>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____selfCollision_k__BackingField;
 

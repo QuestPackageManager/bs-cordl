@@ -154,15 +154,15 @@ public:
   static inline T Read(::by_ref<T> location);
 
   /// [Intrinsic]
-  /// @brief Method Read, addr 0x5cbb108, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x60d4c50, size 0xc, virtual false, abstract: false, final false
   static inline bool Read(::by_ref<bool> location);
 
   /// [Intrinsic]
-  /// @brief Method Read, addr 0x5cbb120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x60d4c68, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Read(::by_ref<int32_t> location);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Read, addr 0x5cbb138, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x60d4c80, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Read(::by_ref<int64_t> location);
 
   /// [Intrinsic]
@@ -172,15 +172,15 @@ public:
   static inline void Write(::by_ref<T> location, T value);
 
   /// [Intrinsic]
-  /// @brief Method Write, addr 0x5cbb114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x60d4c5c, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<bool> location, bool value);
 
   /// [Intrinsic]
-  /// @brief Method Write, addr 0x5cbb12c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x60d4c74, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<int32_t> location, int32_t value);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method Write, addr 0x5cbb144, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x60d4c8c, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<int64_t> location, int64_t value);
 
 protected:

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c::*)()>(
     &::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc6e5c;
+  constexpr static std::size_t addrs = 0x60e09a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c::*)(::System::Object*)>(
     &::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c::_Run_b__2_0)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5cc6e60;
+  constexpr static std::size_t addrs = 0x60e09a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::*)(::System::Threading::Tasks::TaskScheduler*, ::System::Action*, bool)>(
     &::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cc16b4;
+  constexpr static std::size_t addrs = 0x60db1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::Run)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5cc69c0;
+  constexpr static std::size_t addrs = 0x60e0508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation*>(),

@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::ApplicationInviteList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x5dd9b3c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f3720, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ApplicationInviteList(ApplicationInviteList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18551 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

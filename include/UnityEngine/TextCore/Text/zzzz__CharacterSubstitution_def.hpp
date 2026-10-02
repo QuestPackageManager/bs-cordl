@@ -20,7 +20,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE CharacterSubstitution {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c07968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x705a650, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, uint32_t unicode);
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr CharacterSubstitution(int32_t index, uint32_t unicode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17856 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

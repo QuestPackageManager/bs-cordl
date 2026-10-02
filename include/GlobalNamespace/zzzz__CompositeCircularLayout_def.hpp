@@ -47,7 +47,7 @@ public:
   /// @brief Field _staticRotation, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__staticRotation, put = __cordl_internal_set__staticRotation)) bool _staticRotation;
 
-  /// @brief Method Apply, addr 0x598da74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Apply, addr 0x5da80e8, size 0x4, virtual true, abstract: false, final false
   inline void Apply(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>* childTransforms, int32_t numberOfElements, int32_t sameIdElements);
 
   static inline ::GlobalNamespace::CompositeCircularLayout* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__staticRotation(bool value);
 
-  /// @brief Method .ctor, addr 0x598da78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da80ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   CompositeCircularLayout(CompositeCircularLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5934 };
 
   /// [SerializeField]
   /// @brief Field _radius, offset: 0x24, size: 0x4, def value: None

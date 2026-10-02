@@ -89,7 +89,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MainEffectOption const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22847 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -144,7 +144,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_BloomQuality const LightBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22848 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -207,7 +207,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -266,7 +266,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22850 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -318,7 +318,7 @@ public:
                             bool smokeGraphics, bool burnMarkTrails, int32_t maxShockwaveParticles, int32_t maxNumberOfCutSoundEffects) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22851 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

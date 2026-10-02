@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::DotNetUtilities::*)()>(&::Org::BouncyCastle::Security::DotNetUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35fa824;
+  constexpr static std::size_t addrs = 0x3883ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToX509Certificate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35fa828;
+  constexpr static std::size_t addrs = 0x3883ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToX509Certificate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35fa8a4;
+  constexpr static std::size_t addrs = 0x3883b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::FromX509Certificate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x35fa928;
+  constexpr static std::size_t addrs = 0x3883bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(::System::Security::Cryptography::DSA*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetDsaKeyPair)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x35fa9a0;
+  constexpr static std::size_t addrs = 0x3883c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(::System::Security::Cryptography::DSAParameters)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetDsaKeyPair)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x35fa9e8;
+  constexpr static std::size_t addrs = 0x3883c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* (*)(::System::Security::Cryptography::DSA*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetDsaPublicKey)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x35fac00;
+  constexpr static std::size_t addrs = 0x3883e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* (*)(::System::Security::Cryptography::DSAParameters)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetDsaPublicKey)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x35fac48;
+  constexpr static std::size_t addrs = 0x3883ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(::System::Security::Cryptography::RSA*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetRsaKeyPair)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x35fadd8;
+  constexpr static std::size_t addrs = 0x3884074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(::System::Security::Cryptography::RSAParameters)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetRsaKeyPair)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x35fae20;
+  constexpr static std::size_t addrs = 0x38840bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (*)(::System::Security::Cryptography::RSA*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetRsaPublicKey)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x35fb044;
+  constexpr static std::size_t addrs = 0x38842e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (*)(::System::Security::Cryptography::RSAParameters)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetRsaPublicKey)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35fb08c;
+  constexpr static std::size_t addrs = 0x3884328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::GetKeyPair)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x35fb154;
+  constexpr static std::size_t addrs = 0x38843f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToRSA)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35fb2c4;
+  constexpr static std::size_t addrs = 0x3884560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -224,7 +224,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::RSA* (*)(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*, ::System::Security::Cryptography::CspParameters*)>(
         &::Org::BouncyCastle::Security::DotNetUtilities::ToRSA)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x35fb4c0;
+  constexpr static std::size_t addrs = 0x388475c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToRSA)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35fb590;
+  constexpr static std::size_t addrs = 0x388482c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::RSA* (*)(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*, ::System::Security::Cryptography::CspParameters*)>(
         &::Org::BouncyCastle::Security::DotNetUtilities::ToRSA)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x35fb6a8;
+  constexpr static std::size_t addrs = 0x3884944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToRSA)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35fb6d4;
+  constexpr static std::size_t addrs = 0x3884970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -288,7 +288,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::RSA* (*)(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*, ::System::Security::Cryptography::CspParameters*)>(
         &::Org::BouncyCastle::Security::DotNetUtilities::ToRSA)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x35fb7ec;
+  constexpr static std::size_t addrs = 0x3884a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSAParameters (*)(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToRSAParameters)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35fb2e8;
+  constexpr static std::size_t addrs = 0x3884584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSAParameters (*)(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToRSAParameters)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35fb5b4;
+  constexpr static std::size_t addrs = 0x3884850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSAParameters (*)(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ToRSAParameters)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35fb6f8;
+  constexpr static std::size_t addrs = 0x3884994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::ConvertRSAParametersField)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x35fb818;
+  constexpr static std::size_t addrs = 0x3884ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::System::Security::Cryptography::RSAParameters)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::CreateRSAProvider)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x35fb368;
+  constexpr static std::size_t addrs = 0x3884604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::DotNetUtilities*>(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSA* (*)(::System::Security::Cryptography::RSAParameters, ::System::Security::Cryptography::CspParameters*)>(
     &::Org::BouncyCastle::Security::DotNetUtilities::CreateRSAProvider)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35fb4ec;
+  constexpr static std::size_t addrs = 0x3884788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

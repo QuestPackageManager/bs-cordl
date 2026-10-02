@@ -9,29 +9,39 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeProfile_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState::VolumeProfile_DirtyState(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState::VolumeProfile_DirtyState() {}
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState UnityEngine::Rendering::VolumeProfile_DirtyState::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState UnityEngine::Rendering::VolumeProfile_DirtyState::DirtyByComponentChange{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState UnityEngine::Rendering::VolumeProfile_DirtyState::DirtyByProfileReset{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState UnityEngine::Rendering::VolumeProfile_DirtyState::Other{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile___c::*)()>(&::UnityEngine::Rendering::VolumeProfile___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67cf054;
+  constexpr static std::size_t addrs = 0x6bed0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile___c._OnEnable_b__2_0
+//  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile___c._OnEnable_b__6_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VolumeProfile___c::*)(::UnityEngine::Rendering::VolumeComponent*)>(
-    &::UnityEngine::Rendering::VolumeProfile___c::_OnEnable_b__2_0)> {
+    &::UnityEngine::Rendering::VolumeProfile___c::_OnEnable_b__6_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67cf058;
+  constexpr static std::size_t addrs = 0x6bed0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile___c*>(),
-                                                                                           { "<OnEnable>b__2_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::VolumeComponent*>() } })));
+                                                                                           { "<OnEnable>b__6_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::VolumeComponent*>() } })));
     return ___internal_method;
   }
 };
@@ -42,21 +52,21 @@ inline void UnityEngine::Rendering::VolumeProfile___c::setStaticF___9(::UnityEng
 inline ::UnityEngine::Rendering::VolumeProfile___c* UnityEngine::Rendering::VolumeProfile___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::VolumeProfile___c*, "<>9", ::UnityEngine::Rendering::VolumeProfile___c*>();
 }
-inline void UnityEngine::Rendering::VolumeProfile___c::setStaticF___9__2_0(::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* value) {
-  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*, "<>9__2_0", ::UnityEngine::Rendering::VolumeProfile___c*>(
+inline void UnityEngine::Rendering::VolumeProfile___c::setStaticF___9__6_0(::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* value) {
+  ::cordl_internals::setStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*, "<>9__6_0", ::UnityEngine::Rendering::VolumeProfile___c*>(
       std::forward<::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*>(value));
 }
-inline ::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* UnityEngine::Rendering::VolumeProfile___c::getStaticF___9__2_0() {
-  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*, "<>9__2_0", ::UnityEngine::Rendering::VolumeProfile___c*>();
+inline ::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* UnityEngine::Rendering::VolumeProfile___c::getStaticF___9__6_0() {
+  return ::cordl_internals::getStaticField<::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*, "<>9__6_0", ::UnityEngine::Rendering::VolumeProfile___c*>();
 }
 inline void UnityEngine::Rendering::VolumeProfile___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::VolumeProfile___c::_OnEnable_b__2_0(::UnityEngine::Rendering::VolumeComponent* x) {
+inline bool UnityEngine::Rendering::VolumeProfile___c::_OnEnable_b__6_0(::UnityEngine::Rendering::VolumeComponent* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile___c*>(), { "<OnEnable>b__2_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::VolumeComponent*>() } })));
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile___c*>(), { "<OnEnable>b__6_0", {}, { ::i2c::type_of<::UnityEngine::Rendering::VolumeComponent*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
 inline ::UnityEngine::Rendering::VolumeProfile___c* UnityEngine::Rendering::VolumeProfile___c::New_ctor() {
@@ -64,12 +74,37 @@ inline ::UnityEngine::Rendering::VolumeProfile___c* UnityEngine::Rendering::Volu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::VolumeProfile___c::VolumeProfile___c() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile.get_isDirty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::get_isDirty)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6bec5c8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "get_isDirty", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile.set_isDirty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)(bool)>(&::UnityEngine::Rendering::VolumeProfile::set_isDirty)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6bec5d8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "set_isDirty", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::OnEnable)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x67ce5c4;
+  constexpr static std::size_t addrs = 0x6bec5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "OnEnable", {}, {} })));
@@ -81,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::OnDisable)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x67ce6d0;
+  constexpr static std::size_t addrs = 0x6bec704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "OnDisable", {}, {} })));
@@ -92,8 +127,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::Reset)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67ce7c4;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6bec7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Reset", {}, {} })));
@@ -105,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::VolumeComponent> (::UnityEngine::Rendering::VolumeProfile::*)(::System::Type*, bool)>(
     &::UnityEngine::Rendering::VolumeProfile::Add)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x67ce7d0;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6bec808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,8 +153,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)(::System::Type*)>(&::UnityEngine::Rendering::VolumeProfile::Remove)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x67cea9c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6becad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VolumeProfile::*)(::System::Type*)>(&::UnityEngine::Rendering::VolumeProfile::Has)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x67ce954;
+  constexpr static std::size_t addrs = 0x6bec990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VolumeProfile::*)(::System::Type*)>(&::UnityEngine::Rendering::VolumeProfile::HasSubclassOf)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x67ceba8;
+  constexpr static std::size_t addrs = 0x6becbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,28 +188,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile.GetHashCode
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::GetHashCode)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67cecf4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { ::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), 2 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile.GetComponentListHashCode
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::GetComponentListHashCode)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x67ceda8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6becd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "GetComponentListHashCode", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::VolumeProfile.GetStateHash
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::GetStateHash)> {
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6bece08;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "GetStateHash", {}, {} })));
     return ___internal_method;
   }
 };
@@ -183,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::Sanitize)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x67cee6c;
+  constexpr static std::size_t addrs = 0x6becf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Sanitize", {}, {} })));
@@ -194,8 +228,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeProfile::*)()>(&::UnityEngine::Rendering::VolumeProfile::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67cef7c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6bed020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { ".ctor", {}, {} })));
@@ -214,17 +248,26 @@ constexpr void UnityEngine::Rendering::VolumeProfile::__cordl_internal_set_compo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___components = value;
 }
-constexpr bool& UnityEngine::Rendering::VolumeProfile::__cordl_internal_get_isDirty() {
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState& UnityEngine::Rendering::VolumeProfile::__cordl_internal_get_dirtyState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___isDirty;
+  return this->___dirtyState;
 }
-constexpr bool const& UnityEngine::Rendering::VolumeProfile::__cordl_internal_get_isDirty() const {
+constexpr ::UnityEngine::Rendering::VolumeProfile_DirtyState const& UnityEngine::Rendering::VolumeProfile::__cordl_internal_get_dirtyState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___isDirty;
+  return this->___dirtyState;
 }
-constexpr void UnityEngine::Rendering::VolumeProfile::__cordl_internal_set_isDirty(bool value) {
+constexpr void UnityEngine::Rendering::VolumeProfile::__cordl_internal_set_dirtyState(::UnityEngine::Rendering::VolumeProfile_DirtyState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___isDirty = value;
+  this->___dirtyState = value;
+}
+inline bool UnityEngine::Rendering::VolumeProfile::get_isDirty() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "get_isDirty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::VolumeProfile::set_isDirty(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "set_isDirty", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::Rendering::VolumeProfile::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "OnEnable", {}, {} })));
@@ -317,12 +360,12 @@ inline bool UnityEngine::Rendering::VolumeProfile::TryGetAllSubclassOf(::System:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type, result);
 }
-inline int32_t UnityEngine::Rendering::VolumeProfile::GetHashCode() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), 2 })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
-}
 inline int32_t UnityEngine::Rendering::VolumeProfile::GetComponentListHashCode() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "GetComponentListHashCode", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t UnityEngine::Rendering::VolumeProfile::GetStateHash() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "GetStateHash", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::VolumeProfile::Sanitize() {

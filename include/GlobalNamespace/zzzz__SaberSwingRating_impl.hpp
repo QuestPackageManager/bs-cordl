@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::SaberSwingRating::NormalRating)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x370b5d8;
+  constexpr static std::size_t addrs = 0x3994948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::SaberSwingRating::BeforeCutStepRating)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x370b598;
+  constexpr static std::size_t addrs = 0x3994908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::SaberSwingRating::AfterCutStepRating)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x370b608;
+  constexpr static std::size_t addrs = 0x3994978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

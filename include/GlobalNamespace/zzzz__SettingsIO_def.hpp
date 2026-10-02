@@ -79,11 +79,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x328f020, size 0x10a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3515890, size 0x10a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x32900c8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3516938, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -106,7 +106,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__3, ::StringW _mainData_5__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x140 };
@@ -178,11 +178,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3290148, size 0x77c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35169b8, size 0x77c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x32908c4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3517134, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -202,7 +202,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x130 };
@@ -262,11 +262,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3290930, size 0x1168, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35171a0, size 0x1168, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3291a98, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3518308, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -284,7 +284,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -344,29 +344,29 @@ public:
   __declspec(property(get = getStaticF__settingsPath, put = setStaticF__settingsPath)) ::StringW _settingsPath;
 
   /// [NullableContext(2)]
-  /// @brief Method Decode, addr 0x328ebe4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3515434, size 0x12c, virtual false, abstract: false, final false
   static inline bool Decode(::by_ref<::BeatSaber::Settings::Settings> settings, ::StringW text);
 
-  /// @brief Method Encode, addr 0x328ee18, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3515688, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method Init, addr 0x328e2d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3514b08, size 0x78, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method Load, addr 0x328e5cc, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3514dfc, size 0x534, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::Settings Load(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
   /// [AsyncStateMachine(typeof(SettingsIO::<LoadAsync>d__15))]
-  /// @brief Method LoadAsync, addr 0x328e4d8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x3514d08, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::Settings::Settings>* LoadAsync(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
   /// [AsyncStateMachine(typeof(SettingsIO::<SaveAsync>d__14))]
-  /// @brief Method SaveAsync, addr 0x328e404, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x3514c34, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::Settings::Settings settings);
 
   /// [AsyncStateMachine(typeof(SettingsIO::<WipeAsync>d__13))]
-  /// @brief Method WipeAsync, addr 0x328e350, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WipeAsync, addr 0x3514b80, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WipeAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
   static inline ::System::Threading::SemaphoreSlim* getStaticF__lock();
@@ -374,7 +374,7 @@ public:
   static inline ::StringW getStaticF__settingsPath();
 
   /// [NullableContext(2)]
-  /// @brief Method get_SettingsPath, addr 0x328e088, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_SettingsPath, addr 0x35148b8, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW get_SettingsPath();
 
   static inline void setStaticF__lock(::System::Threading::SemaphoreSlim* value);
@@ -382,7 +382,7 @@ public:
   static inline void setStaticF__settingsPath(::StringW value);
 
   /// [NullableContext(2)]
-  /// @brief Method set_SettingsPath, addr 0x328e19c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method set_SettingsPath, addr 0x35149cc, size 0x13c, virtual false, abstract: false, final false
   static inline void set_SettingsPath(::StringW value);
 
 protected:
@@ -400,7 +400,7 @@ public:
   SettingsIO(SettingsIO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22777 };
 
   /// @brief Field kGraphicsSettingsPath offset 0xffffffff size 0x8
   static constexpr ::ConstString kGraphicsSettingsPath{ u"GraphicsSettings.json" };

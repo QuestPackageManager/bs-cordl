@@ -35,9 +35,9 @@ struct AnimationClipPlayable;
 MARK_VAL_T(::UnityEngine::Animations::AnimationClipPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
 // [RequiredByNativeCode]
-// [NativeHeader("Modules/Animation/ScriptBindings/AnimationClipPlayable.bindings.h")]
 // [StaticAccessor("AnimationClipPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // [NativeHeader("Modules/Animation/Director/AnimationClipPlayable.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationClipPlayable.bindings.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -51,54 +51,54 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x6a47344, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e95d28, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationClipPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method CreateHandle, addr 0x6a4737c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x6e95d60, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip);
 
   /// [NativeThrows]
-  /// @brief Method CreateHandleInternal, addr 0x6a47540, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x6e95f24, size 0xa8, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x6a47894, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x6e96278, size 0x54, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::System::IntPtr clip, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x6a475f8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e95fdc, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationClipPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6a475e8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6e95fcc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetApplyFootIK, addr 0x6a47674, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetApplyFootIK, addr 0x6e96058, size 0x44, virtual false, abstract: false, final false
   inline void SetApplyFootIK(bool value);
 
   /// [NativeThrows]
-  /// @brief Method SetApplyFootIKInternal, addr 0x6a476b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetApplyFootIKInternal, addr 0x6e9609c, size 0x44, virtual false, abstract: false, final false
   static inline void SetApplyFootIKInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetLoopTime, addr 0x6a4780c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLoopTime, addr 0x6e961f0, size 0x44, virtual false, abstract: false, final false
   inline void SetLoopTime(bool value);
 
   /// [NativeThrows]
-  /// @brief Method SetLoopTimeInternal, addr 0x6a47850, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLoopTimeInternal, addr 0x6e96234, size 0x44, virtual false, abstract: false, final false
   static inline void SetLoopTimeInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetOverrideLoopTime, addr 0x6a47784, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideLoopTime, addr 0x6e96168, size 0x44, virtual false, abstract: false, final false
   inline void SetOverrideLoopTime(bool value);
 
   /// [NativeThrows]
-  /// @brief Method SetOverrideLoopTimeInternal, addr 0x6a477c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideLoopTimeInternal, addr 0x6e961ac, size 0x44, virtual false, abstract: false, final false
   static inline void SetOverrideLoopTimeInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetRemoveStartOffset, addr 0x6a476fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRemoveStartOffset, addr 0x6e960e0, size 0x44, virtual false, abstract: false, final false
   inline void SetRemoveStartOffset(bool value);
 
   /// [NativeThrows]
-  /// @brief Method SetRemoveStartOffsetInternal, addr 0x6a47740, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRemoveStartOffsetInternal, addr 0x6e96124, size 0x44, virtual false, abstract: false, final false
   static inline void SetRemoveStartOffsetInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method .ctor, addr 0x6a4742c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e95e10, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationClipPlayable>"
@@ -107,7 +107,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x6a475f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e95fd8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationClipPlayable playable);
 
   // Ctor Parameters []
@@ -118,7 +118,7 @@ public:
   constexpr AnimationClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20901 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

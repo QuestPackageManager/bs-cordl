@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextAsset> (::BGLib::Polyglot::LocalizationAsset::*)()>(&::BGLib::Polyglot::LocalizationAsset::get_TextAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331cc84;
+  constexpr static std::size_t addrs = 0x35a5c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationAsset*>(), { "get_TextAsset", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizationAsset::*)(::UnityEngine::TextAsset*)>(&::BGLib::Polyglot::LocalizationAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331cc8c;
+  constexpr static std::size_t addrs = 0x35a5c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

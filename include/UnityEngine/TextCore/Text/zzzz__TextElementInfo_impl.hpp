@@ -16,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextElementInfo::*)()>(&::UnityEngine::TextCore::Text::TextElementInfo::ToString)> {
-  constexpr static std::size_t size = 0x1774;
-  constexpr static std::size_t addrs = 0x6c02ae0;
+  constexpr static std::size_t size = 0x1568;
+  constexpr static std::size_t addrs = 0x7056da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,12 +35,11 @@ inline ::StringW UnityEngine::TextCore::Text::TextElementInfo::ToString() {
 // "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*", modifiers: "", def_value: Some("{}"), comment:
 // None }, CppParam { name: "alternativeGlyph", ty: "::UnityEngine::TextCore::Glyph*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty:
 // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spriteAsset", ty:
-// "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materialReferenceIndex", ty:
-// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "pointSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
-// name: "pageNumber", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexBottomLeft", ty:
+// "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isUsingAlternateTypeface",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineNumber",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexBottomLeft", ty:
 // "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexTopRight", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers:
 // "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexBottomRight", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
@@ -60,8 +59,8 @@ inline ::StringW UnityEngine::TextCore::Text::TextElementInfo::ToString() {
 constexpr ::UnityEngine::TextCore::Text::TextElementInfo::TextElementInfo(
     uint32_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength, ::UnityEngine::TextCore::Text::TextElement* textElement,
     ::UnityEngine::TextCore::Glyph* alternativeGlyph, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset,
-    int32_t spriteIndex, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber,
-    int32_t vertexIndex, ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft, ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft, ::UnityEngine::TextCore::Text::TextVertex vertexTopRight,
+    ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t vertexIndex,
+    ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft, ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft, ::UnityEngine::TextCore::Text::TextVertex vertexTopRight,
     ::UnityEngine::TextCore::Text::TextVertex vertexBottomRight, ::UnityEngine::Vector3 topLeft, ::UnityEngine::Vector3 bottomLeft, ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight,
     float_t origin, float_t ascender, float_t baseLine, float_t descender, float_t adjustedAscender, float_t adjustedDescender, float_t adjustedHorizontalAdvance, float_t xAdvance,
     float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color, ::UnityEngine::Color32 underlineColor, int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor,
@@ -75,13 +74,11 @@ constexpr ::UnityEngine::TextCore::Text::TextElementInfo::TextElementInfo(
   this->alternativeGlyph = alternativeGlyph;
   this->fontAsset = fontAsset;
   this->spriteAsset = spriteAsset;
-  this->spriteIndex = spriteIndex;
   this->material = material;
   this->materialReferenceIndex = materialReferenceIndex;
   this->isUsingAlternateTypeface = isUsingAlternateTypeface;
   this->pointSize = pointSize;
   this->lineNumber = lineNumber;
-  this->pageNumber = pageNumber;
   this->vertexIndex = vertexIndex;
   this->vertexTopLeft = vertexTopLeft;
   this->vertexBottomLeft = vertexBottomLeft;

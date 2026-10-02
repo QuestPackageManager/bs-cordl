@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool value);
 
-  /// @brief Method .ctor, addr 0x6b47c60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa50ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   GUISettings(GUISettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20051 };
 
   /// [SerializeField]
   /// @brief Field m_DoubleClickSelectsWord, offset: 0x10, size: 0x1, def value: None

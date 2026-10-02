@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::GlobalNamespace::MirrorRendererSO*)>(&::GlobalNamespace::PlanarMirrorInitializePass::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5f48dac;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x63645f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::PlanarMirrorInitializePass::SetReflectedMatricesLeft)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f485d8;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6363e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::PlanarMirrorInitializePass::SetReflectedMatricesRight)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f48898;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6364138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::PlanarMirrorInitializePass::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5f48e9c;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x6364654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

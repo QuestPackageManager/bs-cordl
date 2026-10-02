@@ -203,10 +203,10 @@ public:
 
   static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x36ff16c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x39884d4, size 0x58, virtual false, abstract: false, final false
   inline void _LaunchCheckoutFlow_b__0();
 
-  /// @brief Method <LaunchCheckoutFlow>b__1, addr 0x36ff1c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <LaunchCheckoutFlow>b__1, addr 0x398852c, size 0x64, virtual false, abstract: false, final false
   inline void _LaunchCheckoutFlow_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg);
 
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set_launchCheckoutFlowTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value);
 
-  /// @brief Method .ctor, addr 0x36ff168, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39884d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,7 +239,7 @@ public:
   OculusPlatformAdditionalContentModel___c__DisplayClass18_0(OculusPlatformAdditionalContentModel___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15014 };
 
   /// @brief Field launchCheckoutFlowTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* ___launchCheckoutFlowTaskSource;
@@ -269,11 +269,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x36ff228, size 0x1048, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3988590, size 0x1048, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3700270, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39895d8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -297,7 +297,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -349,11 +349,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37002f0, size 0x310, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3989658, size 0x310, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3700600, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3989968, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -374,7 +374,7 @@ public:
                                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -421,11 +421,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3700680, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39899e8, size 0x29c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x370091c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3989c84, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -447,7 +447,7 @@ public:
       ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* _additionalSkus_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -504,11 +504,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x370099c, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3989d04, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3700c20, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3989f88, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -529,7 +529,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -581,11 +581,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3700ca0, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x398a008, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3700f24, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x398a28c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -606,7 +606,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -658,11 +658,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3700fa4, size 0x3b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x398a30c, size 0x3b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x370135c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x398a6c4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -686,7 +686,7 @@ public:
                                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -749,11 +749,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37013dc, size 0x43c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x398a744, size 0x43c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3701818, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x398ab80, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -774,7 +774,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15021 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -827,11 +827,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3701898, size 0x6ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x398ac00, size 0x6ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3701f84, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x398b2ec, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -857,7 +857,7 @@ public:
       ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -929,11 +929,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3702004, size 0x814, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x398b36c, size 0x814, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3702818, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x398bb80, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -956,7 +956,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1013,11 +1013,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3702898, size 0x46c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x398bc00, size 0x46c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3702d04, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x398c06c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1038,7 +1038,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1131,95 +1131,95 @@ public:
   __declspec(property(get = getStaticF_kOculusRequestTimeout, put = setStaticF_kOculusRequestTimeout)) ::System::TimeSpan kOculusRequestTimeout;
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<CheckForNewEntitlementsAsync>d__23))]
-  /// @brief Method CheckForNewEntitlementsAsync, addr 0x36fea64, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CheckForNewEntitlementsAsync, addr 0x3987dcc, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>* CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x36fd6f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3986a5c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetExcludedLevelIdsInternalAsync>d__22))]
-  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x36fe974, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x3987cdc, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLevelDataAdditionalSkus, addr 0x36fecd0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataAdditionalSkus, addr 0x3988038, size 0x40, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* GetLevelDataAdditionalSkus(::StringW levelId);
 
-  /// @brief Method GetLevelDataVersion, addr 0x36fed10, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataVersion, addr 0x3988078, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelDataVersion GetLevelDataVersion(::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* additionalSkus);
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetLevelDataVersionInternalAsync>d__14))]
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x36fd9ec, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x3986d54, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__12))]
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x36fd80c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x3986b74, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLevelProductData, addr 0x36fd6f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLevelProductData, addr 0x3986a60, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW GetLevelProductData);
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__13))]
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x36fd8fc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x3986c64, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__10))]
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x36fd710, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x3986a78, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HasLevelEntitlement, addr 0x36feb50, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HasLevelEntitlement, addr 0x3987eb8, size 0xd4, virtual false, abstract: false, final false
   inline bool HasLevelEntitlement(::StringW levelId);
 
-  /// @brief Method HasLevelEntitlement, addr 0x36fec24, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasLevelEntitlement, addr 0x3987f8c, size 0xac, virtual false, abstract: false, final false
   inline bool HasLevelEntitlement(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* productData);
 
-  /// @brief Method HasLevelPackEntitlement, addr 0x36fed80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HasLevelPackEntitlement, addr 0x39880e8, size 0xd8, virtual false, abstract: false, final false
   inline bool HasLevelPackEntitlement(::StringW levelPackId);
 
-  /// @brief Method Initialize, addr 0x36fd6f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3986a58, size 0x4, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InvalidateDataInternal, addr 0x36fd804, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x3986b6c, size 0x8, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__15))]
-  /// @brief Method IsDataValidAsync, addr 0x36fdae0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsDataValidAsync, addr 0x3986e48, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x36fdea8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x3987210, size 0x70, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<LaunchCheckoutFlow>d__18))]
-  /// @brief Method LaunchCheckoutFlow, addr 0x36fddb0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LaunchCheckoutFlow, addr 0x3987118, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* LaunchCheckoutFlow(::StringW sku,
                                                                                                                                               ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* New_ctor();
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__17))]
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x36fdcbc, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x3987024, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__16))]
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x36fdbcc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x3986f34, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method OpenStore, addr 0x36fdf18, size 0xa5c, virtual true, abstract: false, final false
+  /// @brief Method OpenStore, addr 0x3987280, size 0xa5c, virtual true, abstract: false, final false
   inline void OpenStore(::StringW uri);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetExcludedLevelIdsInternalAsync>b__22_0, addr 0x36ff04c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetExcludedLevelIdsInternalAsync>b__22_0, addr 0x39883b4, size 0x44, virtual false, abstract: false, final false
   inline bool _GetExcludedLevelIdsInternalAsync_b__22_0(::StringW levelId);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetRedirectedLevelPackProductData>g__GetSku|10_0, addr 0x36fefe4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <GetRedirectedLevelPackProductData>g__GetSku|10_0, addr 0x398834c, size 0x38, virtual false, abstract: false, final false
   static inline ::StringW _GetRedirectedLevelPackProductData_g__GetSku_10_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* levelPackProductData);
 
   /// [CompilerGenerated]
-  /// @brief Method <HasLevelPackEntitlement>b__28_0, addr 0x36ff090, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <HasLevelPackEntitlement>b__28_0, addr 0x39883f8, size 0xd8, virtual false, abstract: false, final false
   inline bool _HasLevelPackEntitlement_b__28_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
 
   /// [CompilerGenerated]
-  /// @brief Method <OpenLevelProductStoreAsync>g__GetSkuForProductFlow|16_0, addr 0x36ff01c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <OpenLevelProductStoreAsync>g__GetSkuForProductFlow|16_0, addr 0x3988384, size 0x30, virtual false, abstract: false, final false
   static inline ::StringW _OpenLevelProductStoreAsync_g__GetSkuForProductFlow_16_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__entitlementsSKU() const;
@@ -1258,7 +1258,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x36fee58, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39881c0, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeSpan getStaticF_kOculusRequestTimeout();
@@ -1280,7 +1280,7 @@ public:
   OculusPlatformAdditionalContentModel(OculusPlatformAdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15025 };
 
   /// @brief Field kStoreEventRegex offset 0xffffffff size 0x8
   static constexpr ::ConstString kStoreEventRegex{ u"^\\/item\\/event\\/\\d+$" };

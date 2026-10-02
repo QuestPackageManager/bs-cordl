@@ -28,7 +28,6 @@
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 template <typename TValueType>
@@ -504,7 +503,7 @@ template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInp
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::StringToValue(::StringW str) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>(), 136 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>(), 141 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, str);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::UpdateValueFromText() {
@@ -566,7 +565,7 @@ template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInp
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::AcceptCharacter(char16_t c) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>(), 137 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>(), 142 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, c);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::UpdateScrollOffset(bool isBackspace) {
@@ -635,6 +634,18 @@ constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TextInputBase = value;
 }
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_UpdateTextFromValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateTextFromValue;
+}
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_UpdateTextFromValue() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateTextFromValue;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_set_m_UpdateTextFromValue(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UpdateTextFromValue = value;
+}
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_autoCorrectionProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "autoCorrectionProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
@@ -648,6 +659,13 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextInputBaseField_1<TValueType>::getStaticF_hideMobileInputProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "hideMobileInputProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_hideSoftKeyboardProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "hideSoftKeyboardProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextInputBaseField_1<TValueType>::getStaticF_hideSoftKeyboardProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "hideSoftKeyboardProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>();
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_hidePlaceholderOnFocusProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "hidePlaceholderOnFocusProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(
@@ -697,20 +715,6 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextInputBaseField_1<TValueType>::getStaticF_placeholderTextProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "placeholderTextProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>();
-}
-template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_selectionColorProperty(::UnityEngine::UIElements::BindingId value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "selectionColorProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(
-      std::forward<::UnityEngine::UIElements::BindingId>(value));
-}
-template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextInputBaseField_1<TValueType>::getStaticF_selectionColorProperty() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "selectionColorProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>();
-}
-template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_cursorColorProperty(::UnityEngine::UIElements::BindingId value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "cursorColorProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(
-      std::forward<::UnityEngine::UIElements::BindingId>(value));
-}
-template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextInputBaseField_1<TValueType>::getStaticF_cursorColorProperty() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "cursorColorProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>();
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_cursorIndexProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "cursorIndexProperty", ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(
@@ -965,6 +969,16 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "set_autoCorrection", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_hideSoftKeyboard() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "get_hideSoftKeyboard", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::set_hideSoftKeyboard(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "set_hideSoftKeyboard", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_hideMobileInput() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "get_hideMobileInput", {}, {} })));
@@ -1013,16 +1027,6 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "set_maskChar", {}, { ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-template <typename TValueType> inline ::UnityEngine::Color UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_selectionColor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "get_selectionColor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
-}
-template <typename TValueType> inline ::UnityEngine::Color UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_cursorColor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), { "get_cursorColor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 template <typename TValueType> inline int32_t UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_cursorIndex() {
   static auto* ___internal_method =
@@ -1124,19 +1128,29 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 159 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
+}
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1<TValueType>::ValueToString(TValueType value) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 155 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 161 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::TextInputBaseField_1<TValueType>::StringToValue(::StringW str) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 156 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 162 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, str);
+}
+template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_canSwitchToMixedValue() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 154 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::UpdateMixedValueContent() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 152 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 158 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::OnPlaceholderChanged() {
@@ -1152,12 +1166,12 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::UpdateValueFromText() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 157 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 163 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::UpdateTextFromValue() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 158 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(), 164 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::OnFieldCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e) {

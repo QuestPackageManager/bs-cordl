@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel::set_ClientMutationId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a0ebc;
+  constexpr static std::size_t addrs = 0x3527dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel::get_ClientMutationId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a0ec4;
+  constexpr static std::size_t addrs = 0x3527db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a0ecc;
+  constexpr static std::size_t addrs = 0x3527dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel*)>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel::set_XocBeatGamesBeatmapLeaderboardEntryUpsert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a0ea8;
+  constexpr static std::size_t addrs = 0x3527d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* (
     ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel::*)()>(&::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel::get_XocBeatGamesBeatmapLeaderboardEntryUpsert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a0eb0;
+  constexpr static std::size_t addrs = 0x3527da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a0eb8;
+  constexpr static std::size_t addrs = 0x3527da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

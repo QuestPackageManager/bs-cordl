@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> (::GlobalNamespace::OVRCustomFace::*)()>(
     &::GlobalNamespace::OVRCustomFace::get_Mappings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df7ffc;
+  constexpr static std::size_t addrs = 0x6211c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCustomFace*>(), { "get_Mappings", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRCustomFace::*)(::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression>)>(
     &::GlobalNamespace::OVRCustomFace::set_Mappings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df8004;
+  constexpr static std::size_t addrs = 0x6211c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRCustomFace_RetargetingType (::GlobalNamespace::OVRCustomFace::*)()>(
     &::GlobalNamespace::OVRCustomFace::get_RetargetingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df800c;
+  constexpr static std::size_t addrs = 0x6211c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCustomFace*>(), { "get_RetargetingValue", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRCustomFace::*)(::GlobalNamespace::OVRCustomFace_RetargetingType)>(
     &::GlobalNamespace::OVRCustomFace::set_RetargetingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df8014;
+  constexpr static std::size_t addrs = 0x6211c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCustomFace*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRCustomFace::*)()>(&::GlobalNamespace::OVRCustomFace::get_AllowDuplicateMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df801c;
+  constexpr static std::size_t addrs = 0x6211c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCustomFace*>(), { "get_AllowDuplicateMapping", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRCustomFace::*)(bool)>(&::GlobalNamespace::OVRCustomFace::set_AllowDuplicateMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df8024;
+  constexpr static std::size_t addrs = 0x6211c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRCustomFace::*)()>(&::GlobalNamespace::OVRCustomFace::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df802c;
+  constexpr static std::size_t addrs = 0x6211c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRFaceExpressions_FaceExpression (::GlobalNamespace::OVRCustomFace::*)(int32_t)>(
     &::GlobalNamespace::OVRCustomFace::GetFaceExpression)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5df80c0;
+  constexpr static std::size_t addrs = 0x6211cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::ArrayW<::StringW>, ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression>> (
     ::GlobalNamespace::OVRCustomFace::*)()>(&::GlobalNamespace::OVRCustomFace::GetCustomBlendShapeNameAndExpressionPairs)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5df80f0;
+  constexpr static std::size_t addrs = 0x6211cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRCustomFace::*)()>(&::GlobalNamespace::OVRCustomFace::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5df81f4;
+  constexpr static std::size_t addrs = 0x6211df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCustomFace*>(), { ".ctor", {}, {} })));

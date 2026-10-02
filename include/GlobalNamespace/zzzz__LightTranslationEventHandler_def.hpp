@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__CompositeTransformMode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LightTranslationEventHandler)
+namespace GlobalNamespace {
+struct CompositeTransformMode;
+}
 namespace GlobalNamespace {
 struct EaseType;
 }
@@ -49,13 +53,16 @@ MARK_REF_T(::GlobalNamespace::LightTranslationEventHandler*);
 MARK_REF_T(::GlobalNamespace::LightTranslationEventHandler_InitData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightTranslationEventHandler*, "", "LightTranslationEventHandler");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightTranslationEventHandler_InitData*, "", "LightTranslationEventHandler/InitData");
-// Dependencies System.Object, UnityEngine.Vector2
+// Dependencies CompositeTransformMode, System.Object, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightTranslationEventHandler/InitData
 class CORDL_TYPE LightTranslationEventHandler_InitData : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field transformMode, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_transformMode, put = __cordl_internal_set_transformMode)) ::GlobalNamespace::CompositeTransformMode transformMode;
+
   /// @brief Field xDistributionLimits, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_xDistributionLimits, put = __cordl_internal_set_xDistributionLimits)) ::UnityEngine::Vector2 xDistributionLimits;
 
@@ -92,11 +99,14 @@ public:
   /// @brief Field zTranslationLimits, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_zTranslationLimits, put = __cordl_internal_set_zTranslationLimits)) ::UnityEngine::Vector2 zTranslationLimits;
 
-  static inline ::GlobalNamespace::LightTranslationEventHandler_InitData* New_ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform,
-                                                                                   ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
-                                                                                   ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits,
-                                                                                   ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
-                                                                                   ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
+  static inline ::GlobalNamespace::LightTranslationEventHandler_InitData*
+  New_ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
+           ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
+           ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits, ::GlobalNamespace::CompositeTransformMode transformMode);
+
+  constexpr ::GlobalNamespace::CompositeTransformMode const& __cordl_internal_get_transformMode() const;
+
+  constexpr ::GlobalNamespace::CompositeTransformMode& __cordl_internal_get_transformMode();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_xDistributionLimits() const;
 
@@ -146,6 +156,8 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get_zTranslationLimits();
 
+  constexpr void __cordl_internal_set_transformMode(::GlobalNamespace::CompositeTransformMode value);
+
   constexpr void __cordl_internal_set_xDistributionLimits(::UnityEngine::Vector2 value);
 
   constexpr void __cordl_internal_set_xMirrored(bool value);
@@ -170,10 +182,10 @@ public:
 
   constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5990800, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dab710, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
                     ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
-                    ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
+                    ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits, ::GlobalNamespace::CompositeTransformMode transformMode);
 
 protected:
   // Ctor Parameters []
@@ -190,7 +202,7 @@ public:
   LightTranslationEventHandler_InitData(LightTranslationEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
 
   /// @brief Field xMirrored, offset: 0x10, size: 0x1, def value: None
   bool ___xMirrored;
@@ -228,6 +240,9 @@ public:
   /// @brief Field zDistributionLimits, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___zDistributionLimits;
 
+  /// @brief Field transformMode, offset: 0x60, size: 0x4, def value: None
+  ::GlobalNamespace::CompositeTransformMode ___transformMode;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -255,10 +270,12 @@ static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler_InitData,
 
 static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler_InitData, ___zDistributionLimits) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightTranslationEventHandler_InitData) == 0x60, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler_InitData, ___transformMode) == 0x60, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightTranslationEventHandler_InitData) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object, UnityEngine.Vector2
+// Dependencies CompositeTransformMode, System.Object, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightTranslationEventHandler
@@ -267,74 +284,88 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::LightTranslationEventHandler_InitData;
 
+  /// @brief Field _basePositions, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__basePositions, put = __cordl_internal_set__basePositions)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _basePositions;
+
   /// @brief Field _transformMask, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__transformMask,
       put = __cordl_internal_set__transformMask)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* _transformMask;
 
+  /// @brief Field _transformMode, offset 0x74, size 0x4
+  __declspec(property(get = __cordl_internal_get__transformMode, put = __cordl_internal_set__transformMode)) ::GlobalNamespace::CompositeTransformMode _transformMode;
+
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Field _xDistributionLimits, offset 0x40, size 0x8
+  /// @brief Field _xDistributionLimits, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__xDistributionLimits, put = __cordl_internal_set__xDistributionLimits)) ::UnityEngine::Vector2 _xDistributionLimits;
 
-  /// @brief Field _xMirrored, offset 0x68, size 0x1
+  /// @brief Field _xMirrored, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__xMirrored, put = __cordl_internal_set__xMirrored)) bool _xMirrored;
 
-  /// @brief Field _xTranslationLimits, offset 0x38, size 0x8
+  /// @brief Field _xTranslationLimits, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__xTranslationLimits, put = __cordl_internal_set__xTranslationLimits)) ::UnityEngine::Vector2 _xTranslationLimits;
 
-  /// @brief Field _xTranslationTween, offset 0x20, size 0x8
+  /// @brief Field _xTranslationTween, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xTranslationTween, put = __cordl_internal_set__xTranslationTween)) ::Tweening::FloatTween* _xTranslationTween;
 
-  /// @brief Field _yDistributionLimits, offset 0x50, size 0x8
+  /// @brief Field _yDistributionLimits, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__yDistributionLimits, put = __cordl_internal_set__yDistributionLimits)) ::UnityEngine::Vector2 _yDistributionLimits;
 
-  /// @brief Field _yMirrored, offset 0x69, size 0x1
+  /// @brief Field _yMirrored, offset 0x71, size 0x1
   __declspec(property(get = __cordl_internal_get__yMirrored, put = __cordl_internal_set__yMirrored)) bool _yMirrored;
 
-  /// @brief Field _yTranslationLimits, offset 0x48, size 0x8
+  /// @brief Field _yTranslationLimits, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__yTranslationLimits, put = __cordl_internal_set__yTranslationLimits)) ::UnityEngine::Vector2 _yTranslationLimits;
 
-  /// @brief Field _yTranslationTween, offset 0x28, size 0x8
+  /// @brief Field _yTranslationTween, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__yTranslationTween, put = __cordl_internal_set__yTranslationTween)) ::Tweening::FloatTween* _yTranslationTween;
 
-  /// @brief Field _zDistributionLimits, offset 0x60, size 0x8
+  /// @brief Field _zDistributionLimits, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__zDistributionLimits, put = __cordl_internal_set__zDistributionLimits)) ::UnityEngine::Vector2 _zDistributionLimits;
 
-  /// @brief Field _zMirrored, offset 0x6a, size 0x1
+  /// @brief Field _zMirrored, offset 0x72, size 0x1
   __declspec(property(get = __cordl_internal_get__zMirrored, put = __cordl_internal_set__zMirrored)) bool _zMirrored;
 
-  /// @brief Field _zTranslationLimits, offset 0x58, size 0x8
+  /// @brief Field _zTranslationLimits, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__zTranslationLimits, put = __cordl_internal_set__zTranslationLimits)) ::UnityEngine::Vector2 _zTranslationLimits;
 
-  /// @brief Field _zTranslationTween, offset 0x30, size 0x8
+  /// @brief Field _zTranslationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zTranslationTween, put = __cordl_internal_set__zTranslationTween)) ::Tweening::FloatTween* _zTranslationTween;
 
-  /// @brief Method Cleanup, addr 0x598f75c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5daa474, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTranslation, addr 0x5994144, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTranslation, addr 0x5daf178, size 0x4c, virtual false, abstract: false, final false
   static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method HandleTranslationEvent, addr 0x59920bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleTranslationEvent, addr 0x5dacfa4, size 0x9c, virtual false, abstract: false, final false
   inline void HandleTranslationEvent(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightTranslationEventHandler* New_ctor(::GlobalNamespace::LightTranslationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
-  /// @brief Method ProcessAxisEvent, addr 0x5993fb0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ProcessAxisEvent, addr 0x5daefe4, size 0x194, virtual false, abstract: false, final false
   inline void ProcessAxisEvent(::Tweening::FloatTween* translationTween, ::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData, ::UnityEngine::Vector2 translationLimits,
                                ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method SetTranslation, addr 0x59941b0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetTranslation, addr 0x5daf1e4, size 0x194, virtual false, abstract: false, final false
   inline void SetTranslation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x5994190, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x5daf1c4, size 0x20, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get__basePositions() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__basePositions();
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* const& __cordl_internal_get__transformMask() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>*& __cordl_internal_get__transformMask();
+
+  constexpr ::GlobalNamespace::CompositeTransformMode const& __cordl_internal_get__transformMode() const;
+
+  constexpr ::GlobalNamespace::CompositeTransformMode& __cordl_internal_get__transformMode();
 
   constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
@@ -388,7 +419,11 @@ public:
 
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__zTranslationTween();
 
+  constexpr void __cordl_internal_set__basePositions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+
   constexpr void __cordl_internal_set__transformMask(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* value);
+
+  constexpr void __cordl_internal_set__transformMode(::GlobalNamespace::CompositeTransformMode value);
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
@@ -416,7 +451,7 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x5990830, size 0xb9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dab744, size 0xd70, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightTranslationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
 protected:
@@ -434,7 +469,7 @@ public:
   LightTranslationEventHandler(LightTranslationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
@@ -443,41 +478,47 @@ public:
   /// @brief Field _transformMask, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* ____transformMask;
 
-  /// @brief Field _xTranslationTween, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _basePositions, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ____basePositions;
+
+  /// @brief Field _xTranslationTween, offset: 0x28, size: 0x8, def value: None
   ::Tweening::FloatTween* ____xTranslationTween;
 
-  /// @brief Field _yTranslationTween, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _yTranslationTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::FloatTween* ____yTranslationTween;
 
-  /// @brief Field _zTranslationTween, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _zTranslationTween, offset: 0x38, size: 0x8, def value: None
   ::Tweening::FloatTween* ____zTranslationTween;
 
-  /// @brief Field _xTranslationLimits, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _xTranslationLimits, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xTranslationLimits;
 
-  /// @brief Field _xDistributionLimits, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _xDistributionLimits, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xDistributionLimits;
 
-  /// @brief Field _yTranslationLimits, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _yTranslationLimits, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yTranslationLimits;
 
-  /// @brief Field _yDistributionLimits, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _yDistributionLimits, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yDistributionLimits;
 
-  /// @brief Field _zTranslationLimits, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _zTranslationLimits, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zTranslationLimits;
 
-  /// @brief Field _zDistributionLimits, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _zDistributionLimits, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zDistributionLimits;
 
-  /// @brief Field _xMirrored, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field _xMirrored, offset: 0x70, size: 0x1, def value: None
   bool ____xMirrored;
 
-  /// @brief Field _yMirrored, offset: 0x69, size: 0x1, def value: None
+  /// @brief Field _yMirrored, offset: 0x71, size: 0x1, def value: None
   bool ____yMirrored;
 
-  /// @brief Field _zMirrored, offset: 0x6a, size: 0x1, def value: None
+  /// @brief Field _zMirrored, offset: 0x72, size: 0x1, def value: None
   bool ____zMirrored;
+
+  /// @brief Field _transformMode, offset: 0x74, size: 0x4, def value: None
+  ::GlobalNamespace::CompositeTransformMode ____transformMode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -486,30 +527,34 @@ static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____twee
 
 static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____transformMask) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xTranslationTween) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____basePositions) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yTranslationTween) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xTranslationTween) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zTranslationTween) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yTranslationTween) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xTranslationLimits) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zTranslationTween) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xDistributionLimits) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xTranslationLimits) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yTranslationLimits) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xDistributionLimits) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yDistributionLimits) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yTranslationLimits) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zTranslationLimits) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yDistributionLimits) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zDistributionLimits) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zTranslationLimits) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xMirrored) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zDistributionLimits) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yMirrored) == 0x69, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____xMirrored) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zMirrored) == 0x6a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____yMirrored) == 0x71, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightTranslationEventHandler) == 0x70, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____zMirrored) == 0x72, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightTranslationEventHandler, ____transformMode) == 0x74, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightTranslationEventHandler) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace

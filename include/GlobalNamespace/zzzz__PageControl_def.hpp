@@ -58,13 +58,13 @@ public:
 
   static inline ::GlobalNamespace::PageControl* New_ctor();
 
-  /// @brief Method SetPagesCount, addr 0x5968650, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method SetPagesCount, addr 0x5d82eac, size 0x39c, virtual false, abstract: false, final false
   inline void SetPagesCount(int32_t pagesCount);
 
-  /// @brief Method SetSelectedPageIndex, addr 0x59689ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedPageIndex, addr 0x5d83248, size 0xe0, virtual false, abstract: false, final false
   inline void SetSelectedPageIndex(int32_t page);
 
-  /// @brief Method SetVisible, addr 0x596ee14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x5d89584, size 0x30, virtual false, abstract: false, final false
   inline void SetVisible(bool isVisible);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>* const& __cordl_internal_get__activeElements() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__spacing(float_t value);
 
-  /// @brief Method .ctor, addr 0x596ee44, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d895b4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   PageControl(PageControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7133 };
 
   /// [SerializeField]
   /// @brief Field _content, offset: 0x20, size: 0x8, def value: None

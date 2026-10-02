@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__CompositeTransformMode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationEventHandler)
+namespace GlobalNamespace {
+struct CompositeTransformMode;
+}
 namespace GlobalNamespace {
 struct EaseType;
 }
@@ -32,6 +36,9 @@ namespace Tweening {
 class SongTimeTweeningManager;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
@@ -49,13 +56,16 @@ MARK_REF_T(::GlobalNamespace::LightRotationEventHandler*);
 MARK_REF_T(::GlobalNamespace::LightRotationEventHandler_InitData*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationEventHandler*, "", "LightRotationEventHandler");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationEventHandler_InitData*, "", "LightRotationEventHandler/InitData");
-// Dependencies System.Object
+// Dependencies CompositeTransformMode, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightRotationEventHandler/InitData
 class CORDL_TYPE LightRotationEventHandler_InitData : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field transformMode, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_transformMode, put = __cordl_internal_set_transformMode)) ::GlobalNamespace::CompositeTransformMode transformMode;
+
   /// @brief Field xMirrored, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_xMirrored, put = __cordl_internal_set_xMirrored)) bool xMirrored;
 
@@ -75,7 +85,12 @@ public:
   __declspec(property(get = __cordl_internal_get_zTransform, put = __cordl_internal_set_zTransform)) ::UnityW<::UnityEngine::Transform> zTransform;
 
   static inline ::GlobalNamespace::LightRotationEventHandler_InitData* New_ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform,
-                                                                                ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform);
+                                                                                ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
+                                                                                ::GlobalNamespace::CompositeTransformMode transformMode);
+
+  constexpr ::GlobalNamespace::CompositeTransformMode const& __cordl_internal_get_transformMode() const;
+
+  constexpr ::GlobalNamespace::CompositeTransformMode& __cordl_internal_get_transformMode();
 
   constexpr bool const& __cordl_internal_get_xMirrored() const;
 
@@ -101,6 +116,8 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_zTransform();
 
+  constexpr void __cordl_internal_set_transformMode(::GlobalNamespace::CompositeTransformMode value);
+
   constexpr void __cordl_internal_set_xMirrored(bool value);
 
   constexpr void __cordl_internal_set_xTransform(::UnityW<::UnityEngine::Transform> value);
@@ -113,8 +130,9 @@ public:
 
   constexpr void __cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x598f960, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform);
+  /// @brief Method .ctor, addr 0x5daa9ac, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
+                    ::GlobalNamespace::CompositeTransformMode transformMode);
 
 protected:
   // Ctor Parameters []
@@ -131,7 +149,7 @@ public:
   LightRotationEventHandler_InitData(LightRotationEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5960 };
 
   /// @brief Field xMirrored, offset: 0x10, size: 0x1, def value: None
   bool ___xMirrored;
@@ -151,6 +169,9 @@ public:
   /// @brief Field zTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___zTransform;
 
+  /// @brief Field transformMode, offset: 0x30, size: 0x4, def value: None
+  ::GlobalNamespace::CompositeTransformMode ___transformMode;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,10 +187,12 @@ static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler_InitData, __
 
 static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler_InitData, ___zTransform) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightRotationEventHandler_InitData) == 0x30, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler_InitData, ___transformMode) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightRotationEventHandler_InitData) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// Dependencies CompositeTransformMode, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightRotationEventHandler
@@ -178,58 +201,72 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::LightRotationEventHandler_InitData;
 
+  /// @brief Field _baseRotations, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__baseRotations, put = __cordl_internal_set__baseRotations)) ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _baseRotations;
+
   /// @brief Field _transformMask, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__transformMask,
       put = __cordl_internal_set__transformMask)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* _transformMask;
 
+  /// @brief Field _transformMode, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__transformMode, put = __cordl_internal_set__transformMode)) ::GlobalNamespace::CompositeTransformMode _transformMode;
+
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Field _xMirrored, offset 0x38, size 0x1
+  /// @brief Field _xMirrored, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__xMirrored, put = __cordl_internal_set__xMirrored)) bool _xMirrored;
 
-  /// @brief Field _xRotationTween, offset 0x20, size 0x8
+  /// @brief Field _xRotationTween, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xRotationTween, put = __cordl_internal_set__xRotationTween)) ::Tweening::FloatTween* _xRotationTween;
 
-  /// @brief Field _yMirrored, offset 0x39, size 0x1
+  /// @brief Field _yMirrored, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get__yMirrored, put = __cordl_internal_set__yMirrored)) bool _yMirrored;
 
-  /// @brief Field _yRotationTween, offset 0x28, size 0x8
+  /// @brief Field _yRotationTween, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__yRotationTween, put = __cordl_internal_set__yRotationTween)) ::Tweening::FloatTween* _yRotationTween;
 
-  /// @brief Field _zMirrored, offset 0x3a, size 0x1
+  /// @brief Field _zMirrored, offset 0x42, size 0x1
   __declspec(property(get = __cordl_internal_get__zMirrored, put = __cordl_internal_set__zMirrored)) bool _zMirrored;
 
-  /// @brief Field _zRotationTween, offset 0x30, size 0x8
+  /// @brief Field _zRotationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zRotationTween, put = __cordl_internal_set__zRotationTween)) ::Tweening::FloatTween* _zRotationTween;
 
-  /// @brief Method Cleanup, addr 0x598f6d0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5daa3e8, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x5993930, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x5dae898, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationEvent, addr 0x5991f18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationEvent, addr 0x5dace00, size 0x48, virtual false, abstract: false, final false
   inline void HandleRotationEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  /// @brief Method MaybeMirror, addr 0x5993fa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MaybeMirror, addr 0x5daefd4, size 0x10, virtual false, abstract: false, final false
   static inline float_t MaybeMirror(float_t value, bool mirrored);
 
   static inline ::GlobalNamespace::LightRotationEventHandler* New_ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
-  /// @brief Method ProcessAxisEvent, addr 0x59937c8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ProcessAxisEvent, addr 0x5dae730, size 0x148, virtual false, abstract: false, final false
   inline void ProcessAxisEvent(::Tweening::FloatTween* rotationTween, ::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  /// @brief Method SetRotation, addr 0x5993a00, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x5dae968, size 0x66c, virtual false, abstract: false, final false
   inline void SetRotation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x5993910, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x5dae878, size 0x20, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* const& __cordl_internal_get__baseRotations() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& __cordl_internal_get__baseRotations();
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* const& __cordl_internal_get__transformMask() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>*& __cordl_internal_get__transformMask();
+
+  constexpr ::GlobalNamespace::CompositeTransformMode const& __cordl_internal_get__transformMode() const;
+
+  constexpr ::GlobalNamespace::CompositeTransformMode& __cordl_internal_get__transformMode();
 
   constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
@@ -259,7 +296,11 @@ public:
 
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__zRotationTween();
 
+  constexpr void __cordl_internal_set__baseRotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
+
   constexpr void __cordl_internal_set__transformMask(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* value);
+
+  constexpr void __cordl_internal_set__transformMode(::GlobalNamespace::CompositeTransformMode value);
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
@@ -275,7 +316,7 @@ public:
 
   constexpr void __cordl_internal_set__zRotationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x598f978, size 0xb78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5daa9c8, size 0xd48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
 protected:
@@ -293,7 +334,7 @@ public:
   LightRotationEventHandler(LightRotationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
@@ -302,23 +343,29 @@ public:
   /// @brief Field _transformMask, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* ____transformMask;
 
-  /// @brief Field _xRotationTween, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _baseRotations, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* ____baseRotations;
+
+  /// @brief Field _xRotationTween, offset: 0x28, size: 0x8, def value: None
   ::Tweening::FloatTween* ____xRotationTween;
 
-  /// @brief Field _yRotationTween, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _yRotationTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::FloatTween* ____yRotationTween;
 
-  /// @brief Field _zRotationTween, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _zRotationTween, offset: 0x38, size: 0x8, def value: None
   ::Tweening::FloatTween* ____zRotationTween;
 
-  /// @brief Field _xMirrored, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _xMirrored, offset: 0x40, size: 0x1, def value: None
   bool ____xMirrored;
 
-  /// @brief Field _yMirrored, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field _yMirrored, offset: 0x41, size: 0x1, def value: None
   bool ____yMirrored;
 
-  /// @brief Field _zMirrored, offset: 0x3a, size: 0x1, def value: None
+  /// @brief Field _zMirrored, offset: 0x42, size: 0x1, def value: None
   bool ____zMirrored;
+
+  /// @brief Field _transformMode, offset: 0x44, size: 0x4, def value: None
+  ::GlobalNamespace::CompositeTransformMode ____transformMode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -327,18 +374,22 @@ static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____tweenin
 
 static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____transformMask) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____xRotationTween) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____baseRotations) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____yRotationTween) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____xRotationTween) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____zRotationTween) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____yRotationTween) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____xMirrored) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____zRotationTween) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____yMirrored) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____xMirrored) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____zMirrored) == 0x3a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____yMirrored) == 0x41, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightRotationEventHandler) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____zMirrored) == 0x42, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightRotationEventHandler, ____transformMode) == 0x44, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightRotationEventHandler) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

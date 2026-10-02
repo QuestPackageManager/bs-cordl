@@ -14,8 +14,8 @@ struct AnimatorTransitionInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimatorTransitionInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimatorTransitionInfo, "UnityEngine", "AnimatorTransitionInfo");
-// [RequiredByNativeCode]
 // [NativeHeader("Modules/Animation/AnimatorInfo.h")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -36,7 +36,7 @@ public:
                                    int32_t m_TransitionType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20880 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

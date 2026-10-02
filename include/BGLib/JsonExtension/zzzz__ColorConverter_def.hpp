@@ -39,14 +39,14 @@ public:
   // Declarations
   static inline ::BGLib::JsonExtension::ColorConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x331641c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x359eefc, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Color existingValue, bool hasExistingValue,
                                        ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x33164d8, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x359efb8, size 0x198, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Color value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3316670, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359f150, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   ColorConverter(ColorConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

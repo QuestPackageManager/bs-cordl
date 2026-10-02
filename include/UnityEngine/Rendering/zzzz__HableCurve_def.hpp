@@ -67,7 +67,7 @@ public:
   /// @brief Field scaleY, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_scaleY, put = __cordl_internal_set_scaleY)) float_t scaleY;
 
-  /// @brief Method Eval, addr 0x67c4cbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Eval, addr 0x6be2fe4, size 0x60, virtual false, abstract: false, final false
   inline float_t Eval(float_t x);
 
   static inline ::UnityEngine::Rendering::HableCurve_Segment* New_ctor();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleY(float_t value);
 
-  /// @brief Method .ctor, addr 0x67c4c00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be2f28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   HableCurve_Segment(HableCurve_Segment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9178 };
 
   /// @brief Field offsetX, offset: 0x10, size: 0x4, def value: None
   float_t ___offsetX;
@@ -182,7 +182,7 @@ public:
   constexpr HableCurve_DirectParams(float_t x0, float_t y0, float_t x1, float_t y1, float_t W, float_t overshootX, float_t overshootY, float_t gamma) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9179 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -265,28 +265,28 @@ public:
 
   constexpr void __cordl_internal_set_parent(::UnityEngine::Rendering::HableCurve* value);
 
-  /// @brief Method .ctor, addr 0x67c4c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be2f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::HableCurve* parent);
 
-  /// @brief Method get_curve, addr 0x67c51cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_curve, addr 0x6be34f4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_curve();
 
-  /// @brief Method get_midSegmentA, addr 0x67c5268, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_midSegmentA, addr 0x6be3590, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_midSegmentA();
 
-  /// @brief Method get_midSegmentB, addr 0x67c52a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_midSegmentB, addr 0x6be35d0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_midSegmentB();
 
-  /// @brief Method get_shoSegmentA, addr 0x67c52ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_shoSegmentA, addr 0x6be3614, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_shoSegmentA();
 
-  /// @brief Method get_shoSegmentB, addr 0x67c532c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_shoSegmentB, addr 0x6be3654, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_shoSegmentB();
 
-  /// @brief Method get_toeSegmentA, addr 0x67c51ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_toeSegmentA, addr 0x6be3514, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_toeSegmentA();
 
-  /// @brief Method get_toeSegmentB, addr 0x67c5228, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_toeSegmentB, addr 0x6be3550, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_toeSegmentB();
 
 protected:
@@ -304,7 +304,7 @@ public:
   HableCurve_Uniforms(HableCurve_Uniforms const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9180 };
 
   /// @brief Field parent, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::HableCurve* ___parent;
@@ -356,24 +356,24 @@ public:
 
   __declspec(property(get = get_x1, put = set_x1)) float_t x1;
 
-  /// @brief Method AsSlopeIntercept, addr 0x67c5114, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsSlopeIntercept, addr 0x6be343c, size 0x2c, virtual false, abstract: false, final false
   inline void AsSlopeIntercept(::by_ref<float_t> m, ::by_ref<float_t> b, float_t x0, float_t x1, float_t y0, float_t y1);
 
-  /// @brief Method Eval, addr 0x67c4c0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Eval, addr 0x6be2f34, size 0xb0, virtual false, abstract: false, final false
   inline float_t Eval(float_t x);
 
-  /// @brief Method EvalDerivativeLinearGamma, addr 0x67c5140, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EvalDerivativeLinearGamma, addr 0x6be3468, size 0x3c, virtual false, abstract: false, final false
   inline float_t EvalDerivativeLinearGamma(float_t m, float_t b, float_t g, float_t x);
 
-  /// @brief Method Init, addr 0x67c4d1c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6be3044, size 0x13c, virtual false, abstract: false, final false
   inline void Init(float_t toeStrength, float_t toeLength, float_t shoulderStrength, float_t shoulderLength, float_t shoulderAngle, float_t gamma);
 
-  /// @brief Method InitSegments, addr 0x67c4e58, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InitSegments, addr 0x6be3180, size 0x2bc, virtual false, abstract: false, final false
   inline void InitSegments(::UnityEngine::Rendering::HableCurve_DirectParams srcParams);
 
   static inline ::UnityEngine::Rendering::HableCurve* New_ctor();
 
-  /// @brief Method SolveAB, addr 0x67c517c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SolveAB, addr 0x6be34a4, size 0x50, virtual false, abstract: false, final false
   inline void SolveAB(::by_ref<float_t> lnA, ::by_ref<float_t> B, float_t x0, float_t y0, float_t m);
 
   constexpr float_t const& __cordl_internal_get__inverseWhitePoint_k__BackingField() const;
@@ -412,39 +412,39 @@ public:
 
   constexpr void __cordl_internal_set_uniforms(::UnityEngine::Rendering::HableCurve_Uniforms* value);
 
-  /// @brief Method .ctor, addr 0x67c4aec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be2e14, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_inverseWhitePoint, addr 0x67c4abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWhitePoint, addr 0x6be2de4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inverseWhitePoint();
 
   /// [CompilerGenerated]
-  /// @brief Method get_whitePoint, addr 0x67c4aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_whitePoint, addr 0x6be2dd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_whitePoint();
 
   /// [CompilerGenerated]
-  /// @brief Method get_x0, addr 0x67c4acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x0, addr 0x6be2df4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x0();
 
   /// [CompilerGenerated]
-  /// @brief Method get_x1, addr 0x67c4adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x1, addr 0x6be2e04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x1();
 
   /// [CompilerGenerated]
-  /// @brief Method set_inverseWhitePoint, addr 0x67c4ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inverseWhitePoint, addr 0x6be2dec, size 0x8, virtual false, abstract: false, final false
   inline void set_inverseWhitePoint(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_whitePoint, addr 0x67c4ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_whitePoint, addr 0x6be2ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_whitePoint(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_x0, addr 0x67c4ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x0, addr 0x6be2dfc, size 0x8, virtual false, abstract: false, final false
   inline void set_x0(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_x1, addr 0x67c4ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x1, addr 0x6be2e0c, size 0x8, virtual false, abstract: false, final false
   inline void set_x1(float_t value);
 
 protected:
@@ -462,7 +462,7 @@ public:
   HableCurve(HableCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9181 };
 
   /// [CompilerGenerated]
   /// @brief Field <whitePoint>k__BackingField, offset: 0x10, size: 0x4, def value: None

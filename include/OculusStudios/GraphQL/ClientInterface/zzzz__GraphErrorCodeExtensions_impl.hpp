@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::IsGraphQLErrorCode)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f2c60c;
+  constexpr static std::size_t addrs = 0x63472d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::GraphErrorCode (*)(int32_t)>(
     &::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GetGraphQLErrorCode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f2c6bc;
+  constexpr static std::size_t addrs = 0x6347384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

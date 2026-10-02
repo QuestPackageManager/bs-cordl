@@ -45,21 +45,21 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x3298c1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CanPlayHapticPreset, addr 0x351f8e0, size 0x3c, virtual false, abstract: false, final false
   inline bool CanPlayHapticPreset(::BeatSaber::Haptics::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetRumble, addr 0x3298a50, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetRumble, addr 0x351f714, size 0x1cc, virtual false, abstract: false, final false
   inline ::BeatSaber::Haptics::RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::System::Object* preset);
 
-  /// @brief Method LateUpdate, addr 0x3298c58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x351f91c, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::BeatSaber::Haptics::RumbleHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x3297dc0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticFeedback, addr 0x351ea84, size 0xe0, virtual false, abstract: false, final false
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::BeatSaber::Haptics::HapticPresetSO* hapticPreset);
 
-  /// @brief Method UpdateRumbles, addr 0x3298c5c, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateRumbles, addr 0x351f920, size 0x4f8, virtual false, abstract: false, final false
   inline void UpdateRumbles();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::BeatSaber::Haptics::RumbleData*>*>* const&
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3299154, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351fe18, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23948 };
 
   /// @brief Field kContinuousRumbleFrameDuration offset 0xffffffff size 0x4
   static constexpr float_t kContinuousRumbleFrameDuration{ static_cast<float_t>(0.016666668f) };

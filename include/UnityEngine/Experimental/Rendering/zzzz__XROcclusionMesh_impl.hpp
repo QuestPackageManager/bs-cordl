@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67489e4;
+  constexpr static std::size_t addrs = 0x6b5d608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XROcclusionMesh*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::UnityEngine::Material*)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::SetMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67489ec;
+  constexpr static std::size_t addrs = 0x6b5d610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::get_hasValidOcclusionMesh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x67489f4;
+  constexpr static std::size_t addrs = 0x6b5d618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::UnityEngine::Rendering::CommandBuffer*, float_t, bool)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::RenderOcclusionMesh)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x6748bb0;
+  constexpr static std::size_t addrs = 0x6b5d7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::UpdateCombinedMesh)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6749278;
+  constexpr static std::size_t addrs = 0x6b5de9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::IsOcclusionMeshSupported)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6748aac;
+  constexpr static std::size_t addrs = 0x6b5d6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::by_ref<int32_t>)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::TryGetOcclusionMeshCombinedHashCode)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x674934c;
+  constexpr static std::size_t addrs = 0x6b5df70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XROcclusionMesh*>(),
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::CreateOcclusionMeshCombined)> {
-  constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x6749444;
+  constexpr static std::size_t size = 0x354;
+  constexpr static std::size_t addrs = 0x6b5e068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

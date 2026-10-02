@@ -87,18 +87,18 @@ namespace System::IO::Compression {
 class CORDL_TYPE DeflateStream_ReadMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x63f59b0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x681dc7c, size 0x74, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> array, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x63f5ee4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x681e1b0, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x63f61e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x681e4b4, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
   static inline ::System::IO::Compression::DeflateStream_ReadMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x63f5930, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681dbfc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -116,7 +116,7 @@ public:
   DeflateStream_ReadMethod(DeflateStream_ReadMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,18 +131,18 @@ namespace System::IO::Compression {
 class CORDL_TYPE DeflateStream_WriteMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x63f5d18, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x681dfe4, size 0x74, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> array, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x63f6050, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x681e31c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x63f61fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x681e4c8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
   static inline ::System::IO::Compression::DeflateStream_WriteMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x63f5c98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681df64, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -160,7 +160,7 @@ public:
   DeflateStream_WriteMethod(DeflateStream_WriteMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -204,25 +204,25 @@ public:
   /// @brief Field native, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_native, put = __cordl_internal_set_native)) ::System::IO::Compression::DeflateStreamNative* native;
 
-  /// @brief Method BeginRead, addr 0x63f56bc, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x681d988, size 0x274, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> array, int32_t offset, int32_t count, ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method BeginWrite, addr 0x63f5a24, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x681dcf0, size 0x274, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> array, int32_t offset, int32_t count, ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method Dispose, addr 0x63f4ed4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x681d1a0, size 0xb8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x63f5d8c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x681e058, size 0x158, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x63f5f08, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x681e1d4, size 0x148, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Finalize, addr 0x63f4e80, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x681d14c, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Flush, addr 0x63f55b4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x681d880, size 0xb0, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::System::IO::Compression::DeflateStream* New_ctor(::System::IO::Stream* compressedStream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip);
@@ -235,34 +235,34 @@ public:
 
   static inline ::System::IO::Compression::DeflateStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits);
 
-  /// @brief Method Read, addr 0x63f515c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x681d428, size 0x1d0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsyncMemory, addr 0x63f4a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadAsyncMemory, addr 0x681cd20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsyncMemory(::System::Memory_1<uint8_t> destination, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadCore, addr 0x63f4588, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReadCore, addr 0x681c854, size 0x128, virtual false, abstract: false, final false
   inline int32_t ReadCore(::System::Span_1<uint8_t> destination);
 
-  /// @brief Method ReadInternal, addr 0x63f50a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReadInternal, addr 0x681d36c, size 0x40, virtual false, abstract: false, final false
   inline int32_t ReadInternal(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method Seek, addr 0x63f605c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x681e328, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x63f6094, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x681e360, size 0x38, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x63f53d8, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x681d6a4, size 0x1dc, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsyncMemory, addr 0x63f4b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WriteAsyncMemory, addr 0x681ce08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask WriteAsyncMemory(::System::ReadOnlyMemory_1<uint8_t> source, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteCore, addr 0x63f4854, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteCore, addr 0x681cb20, size 0x9c, virtual false, abstract: false, final false
   inline void WriteCore(::System::ReadOnlySpan_1<uint8_t> source);
 
-  /// @brief Method WriteInternal, addr 0x63f532c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WriteInternal, addr 0x681d5f8, size 0x3c, virtual false, abstract: false, final false
   inline void WriteInternal(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_base_stream() const;
@@ -295,37 +295,37 @@ public:
 
   constexpr void __cordl_internal_set_native(::System::IO::Compression::DeflateStreamNative* value);
 
-  /// @brief Method .ctor, addr 0x63f4be0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681ceac, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedStream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip);
 
-  /// @brief Method .ctor, addr 0x63f4e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681d144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel, bool leaveOpen, bool gzip);
 
-  /// @brief Method .ctor, addr 0x63f4180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681c44c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionLevel compressionLevel, bool leaveOpen, int32_t windowsBits);
 
-  /// @brief Method .ctor, addr 0x63f4bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681cea0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode);
 
-  /// @brief Method .ctor, addr 0x63f40d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681c39c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits);
 
-  /// @brief Method get_CanRead, addr 0x63f60cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x681e398, size 0x34, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x63f6100, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x681e3cc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x63f6108, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x681e3d4, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x63f6140, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x681e40c, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x63f6178, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x681e444, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x63f61b0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x681e47c, size 0x38, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -343,7 +343,7 @@ public:
   DeflateStream(DeflateStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12372 };
 
   /// @brief Field base_stream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ___base_stream;

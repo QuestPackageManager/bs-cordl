@@ -69,30 +69,30 @@ public:
   /// @brief Field kTimeID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_kTimeID, put = setStaticF_kTimeID)) int32_t kTimeID;
 
-  /// @brief Method Awake, addr 0x3326b48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x35afdb4, size 0x54, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EncodeTimeAsVector, addr 0x3326cfc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EncodeTimeAsVector, addr 0x35aff68, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 EncodeTimeAsVector(float_t time);
 
-  /// @brief Method FixedUpdate, addr 0x3326b9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x35afe08, size 0x90, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetFrameCount, addr 0x3326c90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFrameCount, addr 0x35afefc, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetFrameCount();
 
-  /// @brief Method GetShaderTimeValue, addr 0x3326cd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetShaderTimeValue, addr 0x35aff40, size 0x28, virtual false, abstract: false, final false
   static inline float_t GetShaderTimeValue();
 
   static inline ::GlobalNamespace::TimeHelper* New_ctor();
 
-  /// @brief Method SetCommandBufferTimeProperties, addr 0x3326d18, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetCommandBufferTimeProperties, addr 0x35aff84, size 0xd8, virtual false, abstract: false, final false
   inline void SetCommandBufferTimeProperties(::UnityEngine::Rendering::CommandBuffer* commandBuffer);
 
-  /// @brief Method SetTime, addr 0x3326574, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetTime, addr 0x35af7e0, size 0xe0, virtual false, abstract: false, final false
   inline void SetTime(float_t time);
 
-  /// @brief Method Update, addr 0x3326c2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x35afe98, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__DeltaTime_k__BackingField() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3326df0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b005c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_kTimeHelperPropertyID();
@@ -151,22 +151,22 @@ public:
   static inline int32_t getStaticF_kTimeID();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DeltaTime, addr 0x3326b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeltaTime, addr 0x35afd6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_DeltaTime();
 
   /// [CompilerGenerated]
-  /// @brief Method get_FixedDeltaTime, addr 0x3326b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FixedDeltaTime, addr 0x35afd7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FixedDeltaTime();
 
   /// [CompilerGenerated]
-  /// @brief Method get_InterpolationFactor, addr 0x3326b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InterpolationFactor, addr 0x35afd8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InterpolationFactor();
 
-  /// @brief Method get_Time, addr 0x3326af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x35afd5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Time();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TimeHelperOffset, addr 0x3326b30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TimeHelperOffset, addr 0x35afd9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_TimeHelperOffset();
 
   static inline void setStaticF_kTimeHelperPropertyID(int32_t value);
@@ -174,22 +174,22 @@ public:
   static inline void setStaticF_kTimeID(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DeltaTime, addr 0x3326b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeltaTime, addr 0x35afd74, size 0x8, virtual false, abstract: false, final false
   inline void set_DeltaTime(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_FixedDeltaTime, addr 0x3326b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FixedDeltaTime, addr 0x35afd84, size 0x8, virtual false, abstract: false, final false
   inline void set_FixedDeltaTime(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_InterpolationFactor, addr 0x3326b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InterpolationFactor, addr 0x35afd94, size 0x8, virtual false, abstract: false, final false
   inline void set_InterpolationFactor(float_t value);
 
-  /// @brief Method set_Time, addr 0x3326af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Time, addr 0x35afd64, size 0x8, virtual false, abstract: false, final false
   inline void set_Time(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_TimeHelperOffset, addr 0x3326b3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_TimeHelperOffset, addr 0x35afda8, size 0xc, virtual false, abstract: false, final false
   inline void set_TimeHelperOffset(::UnityEngine::Vector4 value);
 
 protected:
@@ -207,7 +207,7 @@ public:
   TimeHelper(TimeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21416 };
 
   /// [CompilerGenerated]
   /// @brief Field <DeltaTime>k__BackingField, offset: 0x20, size: 0x4, def value: None

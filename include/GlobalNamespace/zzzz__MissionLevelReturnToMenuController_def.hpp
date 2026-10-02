@@ -50,7 +50,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x59190dc, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x5d33ee4, size 0xb4, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData* const& __cordl_internal_get__missionLevelSceneSetupData() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x5919194, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d33f98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -92,7 +92,7 @@ public:
   MissionLevelReturnToMenuController(MissionLevelReturnToMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6906 };
 
   /// [SerializeField]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None

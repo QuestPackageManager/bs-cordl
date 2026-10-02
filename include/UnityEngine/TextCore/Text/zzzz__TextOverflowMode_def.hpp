@@ -30,7 +30,6 @@ public:
     __E_Masking = static_cast<int32_t>(0x2),
     __E_Truncate = static_cast<int32_t>(0x3),
     __E_ScrollRect = static_cast<int32_t>(0x4),
-    __E_Page = static_cast<int32_t>(0x5),
     __E_Linked = static_cast<int32_t>(0x6),
   };
 
@@ -63,9 +62,6 @@ public:
   /// @brief Field Overflow value: I32(0)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Overflow;
 
-  /// @brief Field Page value: I32(5)
-  static ::UnityEngine::TextCore::Text::TextOverflowMode const Page;
-
   /// @brief Field ScrollRect value: I32(4)
   static ::UnityEngine::TextCore::Text::TextOverflowMode const ScrollRect;
 
@@ -73,7 +69,7 @@ public:
   static ::UnityEngine::TextCore::Text::TextOverflowMode const Truncate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -29,10 +29,10 @@ public:
   /// @brief Field invalid, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid)) ::GlobalNamespace::XPlatformAccessTokenData invalid;
 
-  /// @brief Method IsValid, addr 0x333f510, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x35c87ac, size 0x40, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x333f504, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c87a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
   static inline ::GlobalNamespace::XPlatformAccessTokenData getStaticF_invalid();
@@ -48,7 +48,7 @@ public:
   constexpr XPlatformAccessTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18790 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

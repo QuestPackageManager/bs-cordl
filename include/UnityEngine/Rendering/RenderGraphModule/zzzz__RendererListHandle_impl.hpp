@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e9b4c;
+  constexpr static std::size_t addrs = 0x6c133a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::set_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e9b54;
+  constexpr static std::size_t addrs = 0x6c133ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)(
     int32_t, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType)>(&::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67e7b60;
+  constexpr static std::size_t addrs = 0x6c11008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e5148;
+  constexpr static std::size_t addrs = 0x6c0dcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RendererList (*)(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::op_Implicit___UnityEngine__Rendering__RendererList)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x67e9b5c;
+  constexpr static std::size_t addrs = 0x6c133b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::IsValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e9c78;
+  constexpr static std::size_t addrs = 0x6c134d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>(), { "IsValid", {}, {} })));

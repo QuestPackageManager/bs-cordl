@@ -111,7 +111,7 @@ public:
   ImplicitPool_1(ImplicitPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5406 };
 
   /// @brief Field m_StartCapacity, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_StartCapacity;

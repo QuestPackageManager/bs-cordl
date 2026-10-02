@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::MakeRunPackFileCommand___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <TryGetLevelsToPlay>b__0, addr 0x32df08c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <TryGetLevelsToPlay>b__0, addr 0x35664e8, size 0xa4, virtual false, abstract: false, final false
   inline bool _TryGetLevelsToPlay_b__0(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   constexpr ::GlobalNamespace::MakeRunPackFileCommand* const& __cordl_internal_get___4__this() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method .ctor, addr 0x32defd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3566430, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   MakeRunPackFileCommand___c__DisplayClass5_0(MakeRunPackFileCommand___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19742 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MakeRunPackFileCommand* _____4__this;
@@ -139,7 +139,7 @@ public:
 
   static inline ::GlobalNamespace::MakeRunPackFileCommand* New_ctor();
 
-  /// @brief Method TryGetLevelsToPlay, addr 0x32de9b0, size 0x624, virtual true, abstract: false, final false
+  /// @brief Method TryGetLevelsToPlay, addr 0x3565e0c, size 0x624, virtual true, abstract: false, final false
   inline bool TryGetLevelsToPlay(int32_t desiredNumberOfLevels, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
                                  ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*> messages,
                                  ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*> levelsToPlay);
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set__packId(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32defd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3566434, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32de928, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x3565d84, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32de96c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3565dc8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -174,7 +174,7 @@ public:
   MakeRunPackFileCommand(MakeRunPackFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19743 };
 
   /// @brief Field _packId, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::RequiredArgument_1<::StringW>* ____packId;

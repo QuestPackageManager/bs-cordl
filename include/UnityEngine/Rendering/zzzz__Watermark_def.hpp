@@ -21,7 +21,7 @@ class CORDL_TYPE Watermark : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("IsAnyWatermarkVisible")]
-  /// @brief Method IsVisible, addr 0x6b1cd80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsVisible, addr 0x6f7ae08, size 0x28, virtual false, abstract: false, final false
   static inline bool IsVisible();
 
 protected:
@@ -39,7 +39,7 @@ public:
   Watermark(Watermark const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

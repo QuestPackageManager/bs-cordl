@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::NoInterpVector2Parameter* New_ctor(::UnityEngine::Vector2 value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x67cd498, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6beb4b8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value, bool overrideState);
 
 protected:
@@ -44,7 +44,7 @@ public:
   NoInterpVector2Parameter(NoInterpVector2Parameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

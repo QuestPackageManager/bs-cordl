@@ -29,7 +29,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GradientLutBaker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BakeLut, addr 0x36f85b0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method BakeLut, addr 0x3981874, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> BakeLut(::UnityEngine::Gradient* gradient, int32_t width, ::UnityEngine::FilterMode filterMode);
 
 protected:
@@ -47,7 +47,7 @@ public:
   GradientLutBaker(GradientLutBaker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

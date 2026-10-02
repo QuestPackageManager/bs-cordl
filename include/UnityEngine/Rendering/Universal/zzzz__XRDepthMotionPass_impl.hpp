@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68a9338;
+  constexpr static std::size_t addrs = 0x6ce06d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>(), { ".ctor", {}, {} })));
@@ -89,31 +89,31 @@ inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData::XRDepthMotionPass_PassData() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0._ctor
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::*)()>(
-    &::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::*)()>(
+    &::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68aa1d8;
+  constexpr static std::size_t addrs = 0x6ce01bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0._Render_b__0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0._Render_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::*)(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::*)(
     ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::_Render_b__0)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x68aa650;
+    &::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::_Render_b__0)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6ce073c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*>(),
                                                                                            { "<Render>b__0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>(),
@@ -121,44 +121,56 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*& UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::__cordl_internal_get_passData() {
+constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass*& UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass* const& UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::__cordl_internal_set___4__this(::UnityEngine::Rendering::Universal::XRDepthMotionPass* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*& UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::__cordl_internal_get_passData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passData;
 }
-constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* const& UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::__cordl_internal_get_passData() const {
+constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* const& UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::__cordl_internal_get_passData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___passData;
 }
-constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::__cordl_internal_set_passData(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* value) {
+constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::__cordl_internal_set_passData(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___passData = value;
 }
-inline void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::_ctor() {
+inline void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::_Render_b__0(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::_Render_b__0(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* data,
                                                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*>(),
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*>(),
                                                                                          { "<Render>b__0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, context);
 }
-inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0* UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*>());
+inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0* UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0::XRDepthMotionPass___c__DisplayClass17_0() {}
+constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::XRDepthMotionPass___c__DisplayClass22_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::XRDepthMotionPass._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::_ctor)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x68a90e8;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x6cded2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DrawingSettings (*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::GetObjectMotionDrawingSettings)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x68a9490;
+  constexpr static std::size_t addrs = 0x6cdf03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(),
@@ -188,7 +200,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>, ::by_ref<::UnityEngine::Rendering::CullingResults>, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*,
     ::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::InitObjectMotionRendererLists)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x68a9608;
+  constexpr static std::size_t addrs = 0x6cdf1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,8 +219,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::by_ref<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>,
                                                                                                                         ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::InitPassData)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68a97fc;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6cdf6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(),
@@ -225,8 +237,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
         &::UnityEngine::Rendering::Universal::XRDepthMotionPass::ImportXRMotionColorAndDepth)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x68a983c;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x6cdf780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::Render)> {
-  constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x68a9ae0;
+  constexpr static std::size_t size = 0x77c;
+  constexpr static std::size_t addrs = 0x6cdfa40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)()>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::ResetMotionData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68a93a0;
+  constexpr static std::size_t addrs = 0x6cdef4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(), { "ResetMotionData", {}, {} })));
@@ -271,8 +283,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::Update)> {
-  constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x68aa1dc;
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x6ce01c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,25 +298,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)()>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68aa560;
+  constexpr static std::size_t addrs = 0x6ce05b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* const& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
 constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_XRMotionVectorColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XRMotionVectorColor;
@@ -352,6 +352,42 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& Unit
 constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_set_xrMotionVectorDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xrMotionVectorDepth = value;
+}
+constexpr bool& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_XRSpaceWarpRightHandedNDC() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_XRSpaceWarpRightHandedNDC;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_XRSpaceWarpRightHandedNDC() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_XRSpaceWarpRightHandedNDC;
+}
+constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_set_m_XRSpaceWarpRightHandedNDC(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_XRSpaceWarpRightHandedNDC = value;
+}
+constexpr ::ArrayW<::UnityEngine::Matrix4x4>& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_StagingMatrixArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StagingMatrixArray;
+}
+constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_StagingMatrixArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_StagingMatrixArray;
+}
+constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_set_m_StagingMatrixArray(::ArrayW<::UnityEngine::Matrix4x4> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_StagingMatrixArray = value;
+}
+constexpr ::ArrayW<::UnityEngine::Matrix4x4>& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_PreviousStagingMatrixArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PreviousStagingMatrixArray;
+}
+constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_PreviousStagingMatrixArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PreviousStagingMatrixArray;
+}
+constexpr void UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_set_m_PreviousStagingMatrixArray(::ArrayW<::UnityEngine::Matrix4x4> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PreviousStagingMatrixArray = value;
 }
 constexpr ::ArrayW<::UnityEngine::Matrix4x4>& UnityEngine::Rendering::Universal::XRDepthMotionPass::__cordl_internal_get_m_ViewProjection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -407,6 +443,12 @@ inline void UnityEngine::Rendering::Universal::XRDepthMotionPass::setStaticF_k_M
 }
 inline ::UnityEngine::Rendering::ShaderTagId UnityEngine::Rendering::Universal::XRDepthMotionPass::getStaticF_k_MotionOnlyShaderTagId() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::ShaderTagId, "k_MotionOnlyShaderTagId", ::UnityEngine::Rendering::Universal::XRDepthMotionPass*>();
+}
+inline void UnityEngine::Rendering::Universal::XRDepthMotionPass::setStaticF_k_SpaceWarpNDCModifier(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "k_SpaceWarpNDCModifier", ::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::Universal::XRDepthMotionPass::getStaticF_k_SpaceWarpNDCModifier() {
+  return ::cordl_internals::getStaticField<int32_t, "k_SpaceWarpNDCModifier", ::UnityEngine::Rendering::Universal::XRDepthMotionPass*>();
 }
 inline void UnityEngine::Rendering::Universal::XRDepthMotionPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* xrMotionVector) {
   static auto* ___internal_method =

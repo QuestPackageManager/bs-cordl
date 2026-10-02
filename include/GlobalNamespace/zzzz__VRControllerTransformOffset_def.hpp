@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x585d12c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c72f10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_alternativeHandling, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -67,7 +67,7 @@ public:
   VRControllerTransformOffset(VRControllerTransformOffset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

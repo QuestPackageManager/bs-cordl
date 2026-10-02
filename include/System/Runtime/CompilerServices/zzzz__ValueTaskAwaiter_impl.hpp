@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter___c::*)()>(&::System::Runtime::CompilerServices::ValueTaskAwaiter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b70fe0;
+  constexpr static std::size_t addrs = 0x5f88f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter___c::*)(::System::Object*)>(
     &::System::Runtime::CompilerServices::ValueTaskAwaiter___c::__cctor_b__9_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5b70fe4;
+  constexpr static std::size_t addrs = 0x5f88f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)(::System::Threading::Tasks::ValueTask)>(
     &::System::Runtime::CompilerServices::ValueTaskAwaiter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b708c4;
+  constexpr static std::size_t addrs = 0x5f88818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)()>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5b708cc;
+  constexpr static std::size_t addrs = 0x5f88820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(), { "get_IsCompleted", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)()>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5b70a18;
+  constexpr static std::size_t addrs = 0x5f8896c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(), { "GetResult", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::ValueTaskAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5b70b78;
+  constexpr static std::size_t addrs = 0x5f88acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::ValueTaskAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5b70d1c;
+  constexpr static std::size_t addrs = 0x5f88c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

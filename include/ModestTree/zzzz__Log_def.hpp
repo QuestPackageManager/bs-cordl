@@ -28,25 +28,25 @@ class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method Debug, addr 0x6e3fbd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x72db728, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method Error, addr 0x6e3fda4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x72db8f4, size 0x7c, virtual false, abstract: false, final false
   static inline void Error(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method ErrorException, addr 0x6e3fcd4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x72db824, size 0x5c, virtual false, abstract: false, final false
   static inline void ErrorException(::System::Exception* e);
 
-  /// @brief Method ErrorException, addr 0x6e3fd30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x72db880, size 0x74, virtual false, abstract: false, final false
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-  /// @brief Method Info, addr 0x6e3fbdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x72db72c, size 0x7c, virtual false, abstract: false, final false
   static inline void Info(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method Trace, addr 0x6e3fc58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x72db7a8, size 0x7c, virtual false, abstract: false, final false
   static inline void Trace(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method Warn, addr 0x6e3f5a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x72db0f8, size 0x7c, virtual false, abstract: false, final false
   static inline void Warn(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
 protected:
@@ -64,7 +64,7 @@ public:
   Log(Log const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

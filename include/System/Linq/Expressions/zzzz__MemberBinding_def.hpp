@@ -50,11 +50,11 @@ public:
   constexpr void __cordl_internal_set__Member_k__BackingField(::System::Reflection::MemberInfo* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_BindingType, addr 0x5f86c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingType, addr 0x63a2b84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberBindingType get_BindingType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Member, addr 0x5f86c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x63a2b8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
 protected:
@@ -72,7 +72,7 @@ public:
   MemberBinding(MemberBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16716 };
 
   /// [CompilerGenerated]
   /// @brief Field <BindingType>k__BackingField, offset: 0x10, size: 0x4, def value: None

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::LevelStartDestinationParameters::*)()>(&::BeatSaber::Destinations::LevelStartDestinationParameters::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3281210;
+  constexpr static std::size_t addrs = 0x3507ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::LevelStartDestinationParameters*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destin
     ::BeatSaber::Destinations::GameMode, ::GlobalNamespace::BeatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride*, ::GlobalNamespace::GameplayModifiers*,
     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*)>(&::BeatSaber::Destinations::LevelStartDestinationParameters::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32812d0;
+  constexpr static std::size_t addrs = 0x3507b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

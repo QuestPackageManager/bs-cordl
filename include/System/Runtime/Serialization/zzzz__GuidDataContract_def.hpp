@@ -46,22 +46,22 @@ public:
 
   static inline ::System::Runtime::Serialization::GuidDataContract* New_ctor(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method ReadXmlValue, addr 0x615eb40, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6586718, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteXmlValue, addr 0x615eab8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x6586690, size 0x88, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x615e940, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6586518, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x615e9a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6586580, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method get_ReadMethodName, addr 0x615ea74, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x658664c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x615ea30, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x6586608, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -79,7 +79,7 @@ public:
   GuidDataContract(GuidDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

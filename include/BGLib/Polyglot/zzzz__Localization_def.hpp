@@ -55,22 +55,22 @@ public:
   __declspec(property(get = __cordl_internal_get_supportedLanguages,
                       put = __cordl_internal_set_supportedLanguages)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationLanguage>* supportedLanguages;
 
-  /// @brief Method Get, addr 0x331c96c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x35a590c, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW Get(::StringW key);
 
-  /// @brief Method HasNoSupportedLanguage, addr 0x331cba0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasNoSupportedLanguage, addr 0x35a5b40, size 0x58, virtual false, abstract: false, final false
   inline bool HasNoSupportedLanguage();
 
-  /// @brief Method IsLanguageSupported, addr 0x331cbf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsLanguageSupported, addr 0x35a5b98, size 0x84, virtual false, abstract: false, final false
   inline bool IsLanguageSupported(::BGLib::Polyglot::LocalizationLanguage language);
 
   static inline ::BGLib::Polyglot::Localization* New_ctor();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x331c920, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x35a58c0, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method SetSingletonInstance, addr 0x331ca68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetSingletonInstance, addr 0x35a5a08, size 0x9c, virtual false, abstract: false, final false
   static inline void SetSingletonInstance(::BGLib::Polyglot::LocalizationModel* model);
 
   constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get_fallbackLanguage() const;
@@ -91,21 +91,21 @@ public:
 
   constexpr void __cordl_internal_set_supportedLanguages(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
-  /// @brief Method .ctor, addr 0x331cc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a5c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::LocalizationModel* getStaticF__instance();
 
-  /// @brief Method get_FallbackLanguage, addr 0x331cb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackLanguage, addr 0x35a5aac, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationLanguage get_FallbackLanguage();
 
-  /// @brief Method get_Instance, addr 0x331bb4c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x35a4aec, size 0x98, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LocalizationModel* get_Instance();
 
-  /// @brief Method get_SupportedLanguages, addr 0x331cb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportedLanguages, addr 0x35a5aa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::LocalizationLanguage>* get_SupportedLanguages();
 
-  /// @brief Method get_selectedLanguageIndex, addr 0x331cb14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLanguageIndex, addr 0x35a5ab4, size 0x8c, virtual false, abstract: false, final false
   inline int32_t get_selectedLanguageIndex();
 
   static inline void setStaticF__instance(::BGLib::Polyglot::LocalizationModel* value);
@@ -125,7 +125,7 @@ public:
   Localization(Localization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23011 };
 
   /// [Header("Language Support")]
   /// [Tooltip("The supported languages by the game.\n Leave empty if you support them all.")]

@@ -17,8 +17,8 @@ struct ArticulationJacobian;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ArticulationJacobian);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ArticulationJacobian, "UnityEngine", "ArticulationJacobian");
-// [DefaultMember("Item")]
 // [NativeHeader("Modules/Physics/ArticulationBody.h")]
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -34,31 +34,31 @@ public:
 
   __declspec(property(get = get_rows, put = set_rows)) int32_t rows;
 
-  /// @brief Method .ctor, addr 0x6b72558, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fddf9c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(int32_t rows, int32_t cols);
 
-  /// @brief Method get_Item, addr 0x6b72678, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6fde0bc, size 0xbc, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t row, int32_t col);
 
-  /// @brief Method get_columns, addr 0x6b72810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x6fde254, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columns();
 
-  /// @brief Method get_elements, addr 0x6b72820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elements, addr 0x6fde264, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_elements();
 
-  /// @brief Method get_rows, addr 0x6b72800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rows, addr 0x6fde244, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rows();
 
-  /// @brief Method set_Item, addr 0x6b72734, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6fde178, size 0xcc, virtual false, abstract: false, final false
   inline void set_Item(int32_t row, int32_t col, float_t value);
 
-  /// @brief Method set_columns, addr 0x6b72818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columns, addr 0x6fde25c, size 0x8, virtual false, abstract: false, final false
   inline void set_columns(int32_t value);
 
-  /// @brief Method set_elements, addr 0x6b72828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elements, addr 0x6fde26c, size 0x8, virtual false, abstract: false, final false
   inline void set_elements(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method set_rows, addr 0x6b72808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rows, addr 0x6fde24c, size 0x8, virtual false, abstract: false, final false
   inline void set_rows(int32_t value);
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
   constexpr ArticulationJacobian(int32_t rowsCount, int32_t colsCount, ::System::Collections::Generic::List_1<float_t>* matrixData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19039 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

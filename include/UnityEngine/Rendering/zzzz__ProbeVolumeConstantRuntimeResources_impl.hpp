@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources>)>(
     &::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::GetRuntimeResources)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6796314;
+  constexpr static std::size_t addrs = 0x6bb146c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::Initialize)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6796378;
+  constexpr static std::size_t addrs = 0x6bb14d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::GetSkySamplingDirections)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6796700;
+  constexpr static std::size_t addrs = 0x6bb1810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::Cleanup)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x679675c;
+  constexpr static std::size_t addrs = 0x6bb186c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources*>(), { "Cleanup", {}, {} })));
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)()>(&::UnityEngine::Rendering::ProbeVolumeConstantRuntimeResources::GenerateSkyDirections)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x67964e4;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x6bb163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

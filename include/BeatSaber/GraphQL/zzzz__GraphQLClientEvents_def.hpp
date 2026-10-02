@@ -42,31 +42,31 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents*() noexcept;
 
-  /// @brief Method LogError, addr 0x32954f4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x351bd64, size 0xac, virtual true, abstract: false, final true
   inline void LogError(::System::Exception* exception);
 
-  /// @brief Method LogError, addr 0x3295468, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x351bcd8, size 0x8c, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0x329562c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x351be9c, size 0xac, virtual true, abstract: false, final true
   inline void LogInfo(::System::Exception* exception);
 
-  /// @brief Method LogInfo, addr 0x32955a0, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x351be10, size 0x8c, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0x32956d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogVerbose, addr 0x351bf48, size 0x4, virtual true, abstract: false, final true
   inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x32956dc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x351bf4c, size 0x8c, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BeatSaber::GraphQL::GraphQLClientEvents* New_ctor(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* onRequestSucceeded,
                                                                     ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* onRequestFailed);
 
-  /// @brief Method OnRequestFailed, addr 0x3295784, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnRequestFailed, addr 0x351bff4, size 0x1c, virtual true, abstract: false, final true
   inline void OnRequestFailed(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// @brief Method OnRequestSucceeded, addr 0x3295768, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnRequestSucceeded, addr 0x351bfd8, size 0x1c, virtual true, abstract: false, final true
   inline void OnRequestSucceeded(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
   constexpr ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* const& __cordl_internal_get_onRequestFailed() const;
@@ -81,27 +81,27 @@ public:
 
   constexpr void __cordl_internal_set_onRequestSucceeded(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
-  /// @brief Method .ctor, addr 0x3295460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351bcd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* onRequestSucceeded,
                     ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* onRequestFailed);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onRequestFailed, addr 0x32952e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestFailed, addr 0x351bb50, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestFailed(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onRequestSucceeded, addr 0x3295160, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestSucceeded, addr 0x351b9d0, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestSucceeded(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* i___OculusStudios__GraphQL__ClientInterface__IGraphQLClientEvents() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onRequestFailed, addr 0x32953a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestFailed, addr 0x351bc10, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestFailed(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onRequestSucceeded, addr 0x3295220, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestSucceeded, addr 0x351ba90, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestSucceeded(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   GraphQLClientEvents(GraphQLClientEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23423 };
 
   /// @brief Field kPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrefix{ u"[GraphQLClient] " };

@@ -41,7 +41,7 @@ namespace UnityEngine::VFX {
 class CORDL_TYPE VFXSpawnerState_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6e2db9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x72c9540, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::VFX::VFXSpawnerState* vfxSpawnerState);
 
 protected:
@@ -59,7 +59,7 @@ public:
   VFXSpawnerState_BindingsMarshaller(VFXSpawnerState_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,35 +103,35 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateSpawnerStateWrapper, addr 0x6e2d3cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateSpawnerStateWrapper, addr 0x72c8d70, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXSpawnerState* CreateSpawnerStateWrapper();
 
-  /// @brief Method Dispose, addr 0x6e2d624, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x72c8fc8, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x6e2d5e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x72c8f84, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method Internal_Destroy, addr 0x6e2d5a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x72c8f48, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_GetVFXEventAttribute, addr 0x6e2dae0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetVFXEventAttribute, addr 0x72c9484, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXEventAttribute* Internal_GetVFXEventAttribute();
 
-  /// @brief Method Internal_GetVFXEventAttribute_Injected, addr 0x6e2db44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetVFXEventAttribute_Injected, addr 0x72c94e8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GetVFXEventAttribute_Injected(::System::IntPtr _unity_self);
 
   static inline ::UnityEngine::VFX::VFXSpawnerState* New_ctor(::System::IntPtr ptr, bool owner);
 
-  /// @brief Method PrepareWrapper, addr 0x6e2d428, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PrepareWrapper, addr 0x72c8dcc, size 0x90, virtual false, abstract: false, final false
   inline void PrepareWrapper();
 
-  /// @brief Method Release, addr 0x6e2d54c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x72c8ef0, size 0x58, virtual false, abstract: false, final false
   inline void Release();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SetWrapValue, addr 0x6e2d4b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetWrapValue, addr 0x72c8e5c, size 0x94, virtual false, abstract: false, final false
   inline void SetWrapValue(::System::IntPtr ptrToSpawnerState, ::System::IntPtr ptrToEventAttribute);
 
   constexpr bool const& __cordl_internal_get_m_Owner() const;
@@ -152,61 +152,61 @@ public:
 
   constexpr void __cordl_internal_set_m_WrapEventAttribute(::UnityEngine::VFX::VFXEventAttribute* value);
 
-  /// @brief Method .ctor, addr 0x6e2d3c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c8d64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr, bool owner);
 
-  /// @brief Method get_deltaTime, addr 0x6e2d91c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x72c92c0, size 0x50, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_deltaTime_Injected, addr 0x6e2d96c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime_Injected, addr 0x72c9310, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_deltaTime_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_loopState, addr 0x6e2d6a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_loopState, addr 0x72c9044, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXSpawnerLoopState get_loopState();
 
-  /// @brief Method get_loopState_Injected, addr 0x6e2d764, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loopState_Injected, addr 0x72c9108, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXSpawnerLoopState get_loopState_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_playing, addr 0x6e2d688, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playing, addr 0x72c902c, size 0x18, virtual false, abstract: false, final false
   inline bool get_playing();
 
-  /// @brief Method get_spawnCount, addr 0x6e2d7e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCount, addr 0x72c9188, size 0x50, virtual false, abstract: false, final false
   inline float_t get_spawnCount();
 
-  /// @brief Method get_spawnCount_Injected, addr 0x6e2d834, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCount_Injected, addr 0x72c91d8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_spawnCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_totalTime, addr 0x6e2d9a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_totalTime, addr 0x72c934c, size 0x50, virtual false, abstract: false, final false
   inline float_t get_totalTime();
 
-  /// @brief Method get_totalTime_Injected, addr 0x6e2d9f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_totalTime_Injected, addr 0x72c939c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_totalTime_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_vfxEventAttribute, addr 0x6e2db80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_vfxEventAttribute, addr 0x72c9524, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXEventAttribute* get_vfxEventAttribute();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_loopState, addr 0x6e2d70c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_loopState, addr 0x72c90b0, size 0x58, virtual false, abstract: false, final false
   inline void set_loopState(::UnityEngine::VFX::VFXSpawnerLoopState value);
 
-  /// @brief Method set_loopState_Injected, addr 0x6e2d7a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loopState_Injected, addr 0x72c9144, size 0x44, virtual false, abstract: false, final false
   static inline void set_loopState_Injected(::System::IntPtr _unity_self, ::UnityEngine::VFX::VFXSpawnerLoopState value);
 
-  /// @brief Method set_playing, addr 0x6e2d6f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_playing, addr 0x72c9094, size 0x1c, virtual false, abstract: false, final false
   inline void set_playing(bool value);
 
-  /// @brief Method set_spawnCount, addr 0x6e2d870, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_spawnCount, addr 0x72c9214, size 0x60, virtual false, abstract: false, final false
   inline void set_spawnCount(float_t value);
 
-  /// @brief Method set_spawnCount_Injected, addr 0x6e2d8d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spawnCount_Injected, addr 0x72c9274, size 0x4c, virtual false, abstract: false, final false
   static inline void set_spawnCount_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_totalTime, addr 0x6e2da34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_totalTime, addr 0x72c93d8, size 0x60, virtual false, abstract: false, final false
   inline void set_totalTime(float_t value);
 
-  /// @brief Method set_totalTime_Injected, addr 0x6e2da94, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_totalTime_Injected, addr 0x72c9438, size 0x4c, virtual false, abstract: false, final false
   static inline void set_totalTime_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -224,7 +224,7 @@ public:
   VFXSpawnerState(VFXSpawnerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22917 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

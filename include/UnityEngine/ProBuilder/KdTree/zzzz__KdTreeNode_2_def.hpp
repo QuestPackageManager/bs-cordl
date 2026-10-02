@@ -19,6 +19,7 @@ template <typename TKey, typename TValue> class KdTreeNode_2;
 MARK_GEN_REF_T_PTR(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2, "UnityEngine.ProBuilder.KdTree", "KdTreeNode`2");
 // [DefaultMember("Item")]
+// [DataContract]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
@@ -117,20 +118,25 @@ public:
   KdTreeNode_2(KdTreeNode_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23450 };
 
+  /// [DataMember]
   /// @brief Field Point, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<TKey> ___Point;
 
+  /// [DataMember]
   /// @brief Field Value, offset: 0x18, size: 0x8, def value: None
   TValue ___Value;
 
+  /// [DataMember]
   /// @brief Field Duplicates, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TValue>* ___Duplicates;
 
+  /// [DataMember]
   /// @brief Field LeftChild, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* ___LeftChild;
 
+  /// [DataMember]
   /// @brief Field RightChild, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* ___RightChild;
 

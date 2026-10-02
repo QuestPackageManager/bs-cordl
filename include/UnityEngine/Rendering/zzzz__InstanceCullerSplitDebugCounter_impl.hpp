@@ -8,5 +8,6 @@ constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter::InstanceCul
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter::InstanceCullerSplitDebugCounter() {}
 constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter UnityEngine::Rendering::InstanceCullerSplitDebugCounter::VisibleInstances{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter UnityEngine::Rendering::InstanceCullerSplitDebugCounter::DrawCommands{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter UnityEngine::Rendering::InstanceCullerSplitDebugCounter::Count{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter UnityEngine::Rendering::InstanceCullerSplitDebugCounter::VisiblePrimitives{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter UnityEngine::Rendering::InstanceCullerSplitDebugCounter::DrawCommands{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::InstanceCullerSplitDebugCounter UnityEngine::Rendering::InstanceCullerSplitDebugCounter::Count{ static_cast<int32_t>(0x3) };

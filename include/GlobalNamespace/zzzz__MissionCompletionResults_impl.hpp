@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionCompletionResults::*)()>(&::GlobalNamespace::MissionCompletionResults::get_IsMissionComplete)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x375625c;
+  constexpr static std::size_t addrs = 0x39df93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionCompletionResults*>(), { "get_IsMissionComplete", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionCompletionResults::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>)>(&::GlobalNamespace::MissionCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37562d8;
+  constexpr static std::size_t addrs = 0x39df9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

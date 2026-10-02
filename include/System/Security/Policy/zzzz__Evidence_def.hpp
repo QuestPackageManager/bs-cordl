@@ -60,12 +60,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5af41e8, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f0c0e0, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Security::Policy::Evidence_EvidenceEnumerator* New_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
 
-  /// @brief Method Reset, addr 0x5af4314, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x5f0c20c, size 0x124, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::IEnumerator* const& __cordl_internal_get_assemblyEnum() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_hostEnum(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x5af41dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0c0d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
 
-  /// @brief Method get_Current, addr 0x5af4438, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x5f0c330, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -167,11 +167,11 @@ public:
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
   /// [Obsolete]
-  /// @brief Method CopyTo, addr 0x5af407c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x5f0bf74, size 0xc4, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
   /// [Obsolete]
-  /// @brief Method GetEnumerator, addr 0x5af4140, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x5f0c038, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Security::Policy::Evidence* New_ctor();
@@ -194,16 +194,16 @@ public:
 
   constexpr void __cordl_internal_set_hostEvidenceList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x5af4010, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0bf08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x5af4014, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x5f0bf0c, size 0x5c, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x5af4070, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x5f0bf68, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x5af4078, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x5f0bf70, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

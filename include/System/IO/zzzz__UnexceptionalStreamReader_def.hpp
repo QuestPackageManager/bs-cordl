@@ -34,27 +34,27 @@ public:
   /// @brief Field newlineChar, offset 0xffffffff, size 0x2
   __declspec(property(get = getStaticF_newlineChar, put = setStaticF_newlineChar)) char16_t newlineChar;
 
-  /// @brief Method CheckEOL, addr 0x5c21870, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CheckEOL, addr 0x603a368, size 0x1a4, virtual false, abstract: false, final false
   inline bool CheckEOL(char16_t current);
 
   static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x5c214cc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x6039fc4, size 0x8c, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x5c21558, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x603a050, size 0x8c, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x5c215e4, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x603a0dc, size 0x28c, virtual true, abstract: false, final false
   inline int32_t Read(::by_ref<::ArrayW<char16_t>> dest_buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x5c21a14, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x603a50c, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x5c21aa0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x603a598, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method .ctor, addr 0x5c21450, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6039f48, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
   static inline ::ArrayW<bool> getStaticF_newline();
@@ -80,7 +80,7 @@ public:
   UnexceptionalStreamReader(UnexceptionalStreamReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

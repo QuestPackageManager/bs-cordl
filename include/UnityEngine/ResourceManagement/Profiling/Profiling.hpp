@@ -11,7 +11,6 @@ module;
 #include "UnityEngine/ResourceManagement/Profiling/EngineEmitter.hpp"
 #include "UnityEngine/ResourceManagement/Profiling/IProfilerEmitter.hpp"
 #include "UnityEngine/ResourceManagement/Profiling/ProfilerFrameData_2.hpp"
-#include "UnityEngine/ResourceManagement/Profiling/ProfilerRuntime.hpp"
 #ifdef __cpp_modules
 export module Profiling;
 #endif

@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c::*)()>(&::HMUI::ScrollView___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889e08;
+  constexpr static std::size_t addrs = 0x5ca07a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c*>(), { ".ctor", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView___c::*)(float_t)>(&::HMUI::ScrollView___c::_Awake_b__49_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889e0c;
+  constexpr static std::size_t addrs = 0x5ca07a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c*>(), { "<Awake>b__49_1", {}, { ::i2c::type_of<float_t>() } })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView___c::*)(float_t)>(&::HMUI::ScrollView___c::_Awake_b__49_3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889e10;
+  constexpr static std::size_t addrs = 0x5ca07ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c*>(), { "<Awake>b__49_3", {}, { ::i2c::type_of<float_t>() } })));
@@ -117,79 +117,28 @@ inline ::HMUI::ScrollView___c* HMUI::ScrollView___c::New_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollView___c::ScrollView___c() {}
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass63_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass63_0::*)()>(&::HMUI::ScrollView___c__DisplayClass63_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889948;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass63_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass63_0._PageUpButtonPressed_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass63_0::*)(float_t)>(&::HMUI::ScrollView___c__DisplayClass63_0::_PageUpButtonPressed_b__0)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5889e14;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass63_0*>(), { "<PageUpButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
-    return ___internal_method;
-  }
-};
-constexpr float_t& HMUI::ScrollView___c__DisplayClass63_0::__cordl_internal_get_threshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___threshold;
-}
-constexpr float_t const& HMUI::ScrollView___c__DisplayClass63_0::__cordl_internal_get_threshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___threshold;
-}
-constexpr void HMUI::ScrollView___c__DisplayClass63_0::__cordl_internal_set_threshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___threshold = value;
-}
-inline void HMUI::ScrollView___c__DisplayClass63_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass63_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline bool HMUI::ScrollView___c__DisplayClass63_0::_PageUpButtonPressed_b__0(float_t pos) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass63_0*>(), { "<PageUpButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pos);
-}
-inline ::HMUI::ScrollView___c__DisplayClass63_0* HMUI::ScrollView___c__DisplayClass63_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ScrollView___c__DisplayClass63_0*>());
-}
-// Ctor Parameters []
-constexpr ::HMUI::ScrollView___c__DisplayClass63_0::ScrollView___c__DisplayClass63_0() {}
 //  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass64_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass64_0::*)()>(&::HMUI::ScrollView___c__DisplayClass64_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889ca0;
+  constexpr static std::size_t addrs = 0x5ca02e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass64_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass64_0._PageDownButtonPressed_b__0
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass64_0._PageUpButtonPressed_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass64_0::*)(float_t)>(&::HMUI::ScrollView___c__DisplayClass64_0::_PageDownButtonPressed_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass64_0::*)(float_t)>(&::HMUI::ScrollView___c__DisplayClass64_0::_PageUpButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5889e24;
+  constexpr static std::size_t addrs = 0x5ca07b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass64_0*>(), { "<PageDownButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass64_0*>(), { "<PageUpButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -209,9 +158,9 @@ inline void HMUI::ScrollView___c__DisplayClass64_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass64_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::ScrollView___c__DisplayClass64_0::_PageDownButtonPressed_b__0(float_t pos) {
+inline bool HMUI::ScrollView___c__DisplayClass64_0::_PageUpButtonPressed_b__0(float_t pos) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass64_0*>(), { "<PageDownButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass64_0*>(), { "<PageUpButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pos);
 }
 inline ::HMUI::ScrollView___c__DisplayClass64_0* HMUI::ScrollView___c__DisplayClass64_0::New_ctor() {
@@ -219,116 +168,167 @@ inline ::HMUI::ScrollView___c__DisplayClass64_0* HMUI::ScrollView___c__DisplayCl
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollView___c__DisplayClass64_0::ScrollView___c__DisplayClass64_0() {}
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass69_0._ctor
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass65_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass69_0::*)()>(&::HMUI::ScrollView___c__DisplayClass69_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass65_0::*)()>(&::HMUI::ScrollView___c__DisplayClass65_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889d10;
+  constexpr static std::size_t addrs = 0x5ca063c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass65_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass69_0._HandleJoystickWasCenteredThisFrame_b__0
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass65_0._PageDownButtonPressed_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass69_0::*)(float_t)>(
-    &::HMUI::ScrollView___c__DisplayClass69_0::_HandleJoystickWasCenteredThisFrame_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass65_0::*)(float_t)>(&::HMUI::ScrollView___c__DisplayClass65_0::_PageDownButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5889e34;
+  constexpr static std::size_t addrs = 0x5ca07c0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_0*>(), { "<HandleJoystickWasCenteredThisFrame>b__0", {}, { ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass65_0*>(), { "<PageDownButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-constexpr float_t& HMUI::ScrollView___c__DisplayClass69_0::__cordl_internal_get_threshold() {
+constexpr float_t& HMUI::ScrollView___c__DisplayClass65_0::__cordl_internal_get_threshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr float_t const& HMUI::ScrollView___c__DisplayClass69_0::__cordl_internal_get_threshold() const {
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass65_0::__cordl_internal_get_threshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr void HMUI::ScrollView___c__DisplayClass69_0::__cordl_internal_set_threshold(float_t value) {
+constexpr void HMUI::ScrollView___c__DisplayClass65_0::__cordl_internal_set_threshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
-inline void HMUI::ScrollView___c__DisplayClass69_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_0*>(), { ".ctor", {}, {} })));
+inline void HMUI::ScrollView___c__DisplayClass65_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass65_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::ScrollView___c__DisplayClass69_0::_HandleJoystickWasCenteredThisFrame_b__0(float_t pos) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_0*>(), { "<HandleJoystickWasCenteredThisFrame>b__0", {}, { ::i2c::type_of<float_t>() } })));
+inline bool HMUI::ScrollView___c__DisplayClass65_0::_PageDownButtonPressed_b__0(float_t pos) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass65_0*>(), { "<PageDownButtonPressed>b__0", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pos);
 }
-inline ::HMUI::ScrollView___c__DisplayClass69_0* HMUI::ScrollView___c__DisplayClass69_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ScrollView___c__DisplayClass69_0*>());
+inline ::HMUI::ScrollView___c__DisplayClass65_0* HMUI::ScrollView___c__DisplayClass65_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ScrollView___c__DisplayClass65_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::ScrollView___c__DisplayClass69_0::ScrollView___c__DisplayClass69_0() {}
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass69_1._ctor
+constexpr ::HMUI::ScrollView___c__DisplayClass65_0::ScrollView___c__DisplayClass65_0() {}
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass70_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass69_1::*)()>(&::HMUI::ScrollView___c__DisplayClass69_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass70_0::*)()>(&::HMUI::ScrollView___c__DisplayClass70_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5889d14;
+  constexpr static std::size_t addrs = 0x5ca06ac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_1*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass69_1._HandleJoystickWasCenteredThisFrame_b__1
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass70_0._HandleJoystickWasCenteredThisFrame_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass69_1::*)(float_t)>(
-    &::HMUI::ScrollView___c__DisplayClass69_1::_HandleJoystickWasCenteredThisFrame_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass70_0::*)(float_t)>(
+    &::HMUI::ScrollView___c__DisplayClass70_0::_HandleJoystickWasCenteredThisFrame_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5889e44;
+  constexpr static std::size_t addrs = 0x5ca07d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_1*>(), { "<HandleJoystickWasCenteredThisFrame>b__1", {}, { ::i2c::type_of<float_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_0*>(), { "<HandleJoystickWasCenteredThisFrame>b__0", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-constexpr float_t& HMUI::ScrollView___c__DisplayClass69_1::__cordl_internal_get_threshold() {
+constexpr float_t& HMUI::ScrollView___c__DisplayClass70_0::__cordl_internal_get_threshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr float_t const& HMUI::ScrollView___c__DisplayClass69_1::__cordl_internal_get_threshold() const {
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass70_0::__cordl_internal_get_threshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr void HMUI::ScrollView___c__DisplayClass69_1::__cordl_internal_set_threshold(float_t value) {
+constexpr void HMUI::ScrollView___c__DisplayClass70_0::__cordl_internal_set_threshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
-inline void HMUI::ScrollView___c__DisplayClass69_1::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_1*>(), { ".ctor", {}, {} })));
+inline void HMUI::ScrollView___c__DisplayClass70_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::ScrollView___c__DisplayClass69_1::_HandleJoystickWasCenteredThisFrame_b__1(float_t pos) {
+inline bool HMUI::ScrollView___c__DisplayClass70_0::_HandleJoystickWasCenteredThisFrame_b__0(float_t pos) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass69_1*>(), { "<HandleJoystickWasCenteredThisFrame>b__1", {}, { ::i2c::type_of<float_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_0*>(), { "<HandleJoystickWasCenteredThisFrame>b__0", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pos);
 }
-inline ::HMUI::ScrollView___c__DisplayClass69_1* HMUI::ScrollView___c__DisplayClass69_1::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ScrollView___c__DisplayClass69_1*>());
+inline ::HMUI::ScrollView___c__DisplayClass70_0* HMUI::ScrollView___c__DisplayClass70_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ScrollView___c__DisplayClass70_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::ScrollView___c__DisplayClass69_1::ScrollView___c__DisplayClass69_1() {}
+constexpr ::HMUI::ScrollView___c__DisplayClass70_0::ScrollView___c__DisplayClass70_0() {}
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass70_1._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView___c__DisplayClass70_1::*)()>(&::HMUI::ScrollView___c__DisplayClass70_1::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ca06b0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_1*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass70_1._HandleJoystickWasCenteredThisFrame_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass70_1::*)(float_t)>(
+    &::HMUI::ScrollView___c__DisplayClass70_1::_HandleJoystickWasCenteredThisFrame_b__1)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5ca07e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_1*>(), { "<HandleJoystickWasCenteredThisFrame>b__1", {}, { ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+constexpr float_t& HMUI::ScrollView___c__DisplayClass70_1::__cordl_internal_get_threshold() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___threshold;
+}
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass70_1::__cordl_internal_get_threshold() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___threshold;
+}
+constexpr void HMUI::ScrollView___c__DisplayClass70_1::__cordl_internal_set_threshold(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___threshold = value;
+}
+inline void HMUI::ScrollView___c__DisplayClass70_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_1*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool HMUI::ScrollView___c__DisplayClass70_1::_HandleJoystickWasCenteredThisFrame_b__1(float_t pos) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView___c__DisplayClass70_1*>(), { "<HandleJoystickWasCenteredThisFrame>b__1", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pos);
+}
+inline ::HMUI::ScrollView___c__DisplayClass70_1* HMUI::ScrollView___c__DisplayClass70_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ScrollView___c__DisplayClass70_1*>());
+}
+// Ctor Parameters []
+constexpr ::HMUI::ScrollView___c__DisplayClass70_1::ScrollView___c__DisplayClass70_1() {}
 //  Writing Method size for method: ::HMUI::ScrollView.get_needsScrolling
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_needsScrolling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58878ec;
+  constexpr static std::size_t addrs = 0x5c9e130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_needsScrolling", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_needsVerticalScrollController)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x58878f4;
+  constexpr static std::size_t addrs = 0x5c9e138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_needsVerticalScrollController", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::System::Action_1<float_t>*)>(&::HMUI::ScrollView::add_scrollPositionChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58879c8;
+  constexpr static std::size_t addrs = 0x5c9e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::System::Action_1<float_t>*)>(&::HMUI::ScrollView::remove_scrollPositionChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5887a88;
+  constexpr static std::size_t addrs = 0x5c9e2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_viewportTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887b48;
+  constexpr static std::size_t addrs = 0x5c9e38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_viewportTransform", {}, {} })));
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_contentTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5887b50;
+  constexpr static std::size_t addrs = 0x5c9e394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_contentTransform", {}, {} })));
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_position)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5887b58;
+  constexpr static std::size_t addrs = 0x5c9e39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_position", {}, {} })));
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_scrollableSize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5887b94;
+  constexpr static std::size_t addrs = 0x5c9e3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_scrollableSize", {}, {} })));
@@ -425,8 +425,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollVi
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_scrollPageSize)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5887c08;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5c9e4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_scrollPageSize", {}, {} })));
@@ -437,8 +437,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollVi
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_contentSize)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5887bc8;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5c9e40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "get_contentSize", {}, {} })));
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::Awake)> {
   constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x5887c48;
+  constexpr static std::size_t addrs = 0x5c9e53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "Awake", {}, {} })));
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::OnDestroy)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x58884bc;
+  constexpr static std::size_t addrs = 0x5c9ee04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "OnDestroy", {}, {} })));
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::CheckScrollInput)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5888780;
+  constexpr static std::size_t addrs = 0x5c9f0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "CheckScrollInput", {}, {} })));
@@ -485,8 +485,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::Update)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5888f0c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5c9f854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "Update", {}, {} })));
@@ -497,8 +497,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::SetContentSize)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5889130;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x5c9f9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "SetContentSize", {}, { ::i2c::type_of<float_t>() } })));
@@ -509,8 +509,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::UpdateContentSize)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5888344;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5c9ec38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "UpdateContentSize", {}, {} })));
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(bool)>(&::HMUI::ScrollView::ScrollToEnd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x588936c;
+  constexpr static std::size_t addrs = 0x5c9fc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "ScrollToEnd", {}, { ::i2c::type_of<bool>() } })));
@@ -534,7 +534,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::Vector3, float_t, bool)>(&::HMUI::ScrollView::ScrollToWorldPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58893ac;
+  constexpr static std::size_t addrs = 0x5c9fc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::Vector3, float_t, float_t, float_t, bool)>(
     &::HMUI::ScrollView::ScrollToWorldPositionIfOutsideArea)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58894bc;
+  constexpr static std::size_t addrs = 0x5c9fd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::ScrollToByPercentage)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5889570;
+  constexpr static std::size_t addrs = 0x5c9fe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "ScrollToByPercentage", {}, { ::i2c::type_of<float_t>() } })));
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(float_t, bool)>(&::HMUI::ScrollView::ScrollTo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5887830;
+  constexpr static std::size_t addrs = 0x5c9e074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::HMUI::ScrollView::*)(::UnityEngine::Vector3)>(&::HMUI::ScrollView::WorldPositionToScrollViewPosition)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58893fc;
+  constexpr static std::size_t addrs = 0x5c9fcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::SetDestinationPos)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x58895ac;
+  constexpr static std::size_t addrs = 0x5c9fe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "SetDestinationPos", {}, { ::i2c::type_of<float_t>() } })));
@@ -615,11 +615,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::UpdateVerticalScrollIndicator)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5889054;
+  constexpr static std::size_t addrs = 0x5c9feb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "UpdateVerticalScrollIndicator", {}, { ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ScrollView.CommitSingleAxisPosition
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::CommitSingleAxisPosition)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5c9f95c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "CommitSingleAxisPosition", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -628,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::PageUpButtonPressed)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x5889628;
+  constexpr static std::size_t addrs = 0x5c9ffc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "PageUpButtonPressed", {}, {} })));
@@ -640,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::PageDownButtonPressed)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x588994c;
+  constexpr static std::size_t addrs = 0x5ca02e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "PageDownButtonPressed", {}, {} })));
@@ -652,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::RefreshButtons)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x58883a8;
+  constexpr static std::size_t addrs = 0x5c9ecf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "RefreshButtons", {}, {} })));
@@ -664,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::ScrollView::HandlePointerDidEnter)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5889ca4;
+  constexpr static std::size_t addrs = 0x5ca0640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -677,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::ScrollView::HandlePointerDidExit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5889cb8;
+  constexpr static std::size_t addrs = 0x5ca0654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -690,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::Vector2, float_t)>(&::HMUI::ScrollView::HandleJoystickWasNotCenteredThisFrame)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x588893c;
+  constexpr static std::size_t addrs = 0x5c9f284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::HandleJoystickWasCenteredThisFrame)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x5888a30;
+  constexpr static std::size_t addrs = 0x5c9f378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "HandleJoystickWasCenteredThisFrame", {}, {} })));
@@ -716,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::ScrollView_ScrollDirection (::HMUI::ScrollView::*)(::UnityEngine::Vector2)>(&::HMUI::ScrollView::ResolveScrollDirection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5889cc0;
+  constexpr static std::size_t addrs = 0x5ca065c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5889d18;
+  constexpr static std::size_t addrs = 0x5ca06b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { ".ctor", {}, {} })));
@@ -741,7 +753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView::*)(::HMUI::ItemForFocussedScrolling*)>(&::HMUI::ScrollView::_Awake_b__49_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5889d44;
+  constexpr static std::size_t addrs = 0x5ca06e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -754,7 +766,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::ScrollView::*)(::HMUI::ItemForFocussedScrolling*)>(&::HMUI::ScrollView::_Awake_b__49_2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5889d80;
+  constexpr static std::size_t addrs = 0x5ca071c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1193,6 +1205,10 @@ inline void HMUI::ScrollView::UpdateVerticalScrollIndicator(float_t posY) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "UpdateVerticalScrollIndicator", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, posY);
+}
+inline void HMUI::ScrollView::CommitSingleAxisPosition(float_t anchoredValue) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "CommitSingleAxisPosition", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anchoredValue);
 }
 inline void HMUI::ScrollView::PageUpButtonPressed() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollView*>(), { "PageUpButtonPressed", {}, {} })));

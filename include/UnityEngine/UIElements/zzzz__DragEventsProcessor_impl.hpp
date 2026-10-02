@@ -6,15 +6,18 @@
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragEventsProcessor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IDragAndDrop_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerLeaveEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -31,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)()>(&::UnityEngine::UIElements::DragEventsProcessor::get_supportsDragEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8a6d4;
+  constexpr static std::size_t addrs = 0x7217cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)()>(&::UnityEngine::UIElements::DragEventsProcessor::get_useDragEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d8a6dc;
+  constexpr static std::size_t addrs = 0x7217cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), { "get_useDragEvents", {}, {} })));
@@ -57,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IDragAndDrop* (::UnityEngine::UIElements::DragEventsProcessor::*)()>(
     &::UnityEngine::UIElements::DragEventsProcessor::get_dragAndDrop)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d8a714;
+  constexpr static std::size_t addrs = 0x7217d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), { "get_dragAndDrop", {}, {} })));
@@ -69,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)()>(&::UnityEngine::UIElements::DragEventsProcessor::get_isEditorContext)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6d8a72c;
+  constexpr static std::size_t addrs = 0x7217d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6d8a84c;
+  constexpr static std::size_t addrs = 0x7217e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::RegisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d8acd4;
+  constexpr static std::size_t addrs = 0x72183ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,8 +113,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)()>(&::UnityEngine::UIElements::DragEventsProcessor::RegisterCallbacksFromTarget)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6d8a98c;
+  constexpr static std::size_t size = 0x448;
+  constexpr static std::size_t addrs = 0x7217fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8acd8;
+  constexpr static std::size_t addrs = 0x72183f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(bool)>(
     &::UnityEngine::UIElements::DragEventsProcessor::UnregisterCallbacksFromTarget)> {
-  constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x6d8ace0;
+  constexpr static std::size_t size = 0x550;
+  constexpr static std::size_t addrs = 0x72183f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +154,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.CanStartDrag
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::DragEventsProcessor::CanStartDrag)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -165,8 +168,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.StartDrag
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3)>(
-    &::UnityEngine::UIElements::DragEventsProcessor::StartDrag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::DragEventsProcessor::*)(
+    ::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::DragEventsProcessor::StartDrag)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -179,7 +182,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.UpdateDrag
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::DragEventsProcessor::UpdateDrag)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
+    &::UnityEngine::UIElements::DragEventsProcessor::UpdateDrag)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -192,7 +196,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.OnDrop
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::DragEventsProcessor::OnDrop)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
+    &::UnityEngine::UIElements::DragEventsProcessor::OnDrop)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -220,12 +225,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerDownEvent)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d8b130;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x7218948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
                                                                                            { "OnPointerDownEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::PointerDownEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.OnPointerOutEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerOutEvent*)>(
+    &::UnityEngine::UIElements::DragEventsProcessor::OnPointerOutEvent)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x7218a0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
+                                                                                           { "OnPointerOutEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::PointerOutEvent*>() } })));
     return ___internal_method;
   }
 };
@@ -234,8 +253,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerUpEvent)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6d8b1dc;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x7218ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
@@ -249,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerLeaveEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerLeaveEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d8b484;
+  constexpr static std::size_t addrs = 0x7218e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
@@ -262,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerCancelEvent)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6d8b494;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x7218e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
@@ -276,12 +295,39 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerCaptureOutEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerCapturedOut)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6d8b5d8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7218fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
                                                                                            { "OnPointerCapturedOut", {}, { ::i2c::type_of<::UnityEngine::UIElements::PointerCaptureOutEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.OnGeometryChanged
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
+    &::UnityEngine::UIElements::DragEventsProcessor::OnGeometryChanged)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x7218fc8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
+                                                                                           { "OnGeometryChanged", {}, { ::i2c::type_of<::UnityEngine::UIElements::GeometryChangedEvent*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DragEventsProcessor.CancelDragAndDrop
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(int32_t)>(&::UnityEngine::UIElements::DragEventsProcessor::CancelDragAndDrop)> {
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x7218e78;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), { "CancelDragAndDrop", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -290,8 +336,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerMoveEvent)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6d8b6e8;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x72190a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
@@ -304,8 +350,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragEventsProcessor* (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::DragEventsProcessor::GetDropTarget)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6d8b398;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x7218c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,6 +394,18 @@ constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::DragEventsProce
 constexpr void UnityEngine::UIElements::DragEventsProcessor::__cordl_internal_set_m_Start(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Start = value;
+}
+constexpr bool& UnityEngine::UIElements::DragEventsProcessor::__cordl_internal_get_m_PendingPerformDrag() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PendingPerformDrag;
+}
+constexpr bool const& UnityEngine::UIElements::DragEventsProcessor::__cordl_internal_get_m_PendingPerformDrag() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PendingPerformDrag;
+}
+constexpr void UnityEngine::UIElements::DragEventsProcessor::__cordl_internal_set_m_PendingPerformDrag(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PendingPerformDrag = value;
 }
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::DragEventsProcessor::__cordl_internal_get_m_Target() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -405,25 +463,25 @@ inline void UnityEngine::UIElements::DragEventsProcessor::UnregisterCallbacksFro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), { "UnregisterCallbacksFromTarget", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, unregisterPanelEvents);
 }
-inline bool UnityEngine::UIElements::DragEventsProcessor::CanStartDrag(::UnityEngine::Vector3 pointerPosition) {
+inline bool UnityEngine::UIElements::DragEventsProcessor::CanStartDrag(::UnityEngine::Vector3 pointerPosition, ::UnityEngine::EventModifiers modifiers) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pointerPosition);
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pointerPosition, modifiers);
 }
-inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::DragEventsProcessor::StartDrag(::UnityEngine::Vector3 pointerPosition) {
+inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::DragEventsProcessor::StartDrag(::UnityEngine::Vector3 pointerPosition, ::UnityEngine::EventModifiers modifiers) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StartDragArgs>(this, ___internal_method, pointerPosition);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StartDragArgs>(this, ___internal_method, pointerPosition, modifiers);
 }
-inline void UnityEngine::UIElements::DragEventsProcessor::UpdateDrag(::UnityEngine::Vector3 pointerPosition) {
+inline void UnityEngine::UIElements::DragEventsProcessor::UpdateDrag(::UnityEngine::Vector3 pointerPosition, ::UnityEngine::EventModifiers modifiers) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), 8 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerPosition);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerPosition, modifiers);
 }
-inline void UnityEngine::UIElements::DragEventsProcessor::OnDrop(::UnityEngine::Vector3 pointerPosition) {
+inline void UnityEngine::UIElements::DragEventsProcessor::OnDrop(::UnityEngine::Vector3 pointerPosition, ::UnityEngine::EventModifiers modifiers) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), 9 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerPosition);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerPosition, modifiers);
 }
 inline void UnityEngine::UIElements::DragEventsProcessor::ClearDragAndDropUI(bool dragCancelled) {
   auto* ___internal_method =
@@ -433,6 +491,11 @@ inline void UnityEngine::UIElements::DragEventsProcessor::ClearDragAndDropUI(boo
 inline void UnityEngine::UIElements::DragEventsProcessor::OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
                                                                                          { "OnPointerDownEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::PointerDownEvent*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::DragEventsProcessor::OnPointerOutEvent(::UnityEngine::UIElements::PointerOutEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
+                                                                                         { "OnPointerOutEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::PointerOutEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
 inline void UnityEngine::UIElements::DragEventsProcessor::OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt) {
@@ -454,6 +517,16 @@ inline void UnityEngine::UIElements::DragEventsProcessor::OnPointerCapturedOut(:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
                                                                                          { "OnPointerCapturedOut", {}, { ::i2c::type_of<::UnityEngine::UIElements::PointerCaptureOutEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::DragEventsProcessor::OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),
+                                                                                         { "OnGeometryChanged", {}, { ::i2c::type_of<::UnityEngine::UIElements::GeometryChangedEvent*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::DragEventsProcessor::CancelDragAndDrop(int32_t releaseCapturePointerId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(), { "CancelDragAndDrop", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, releaseCapturePointerId);
 }
 inline void UnityEngine::UIElements::DragEventsProcessor::OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragEventsProcessor*>(),

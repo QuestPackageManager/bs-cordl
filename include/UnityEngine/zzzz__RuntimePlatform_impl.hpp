@@ -60,4 +60,6 @@ constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXArm64{
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXX64{ static_cast<int32_t>(0x30) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXX86{ static_cast<int32_t>(0x31) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::VisionOS{ static_cast<int32_t>(0x32) };
-constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::ReservedCFE{ static_cast<int32_t>(0x33) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::Switch2{ static_cast<int32_t>(0x33) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::KeplerArm64{ static_cast<int32_t>(0x34) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::KeplerX64{ static_cast<int32_t>(0x35) };

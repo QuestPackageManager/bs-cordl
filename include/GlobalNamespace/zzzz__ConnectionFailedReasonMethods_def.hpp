@@ -25,11 +25,11 @@ class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ErrorCode, addr 0x3736948, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x39bff38, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
   /// [Extension]
-  /// @brief Method LocalizedKey, addr 0x3736818, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x39bfe08, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:
@@ -47,10 +47,7 @@ public:
   ConnectionFailedReasonMethods(ConnectionFailedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15087 };
-
-  /// @brief Field kConnectionFailedConnectionCanceled offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedConnectionCanceled{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15328 };
 
   /// @brief Field kConnectionFailedFailedToFindMatch offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedFailedToFindMatch{ u"CONNECTION_FAILED_FAILED_TO_FIND_MATCH" };
@@ -64,38 +61,11 @@ public:
   /// @brief Field kConnectionFailedInvalidPassword offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedInvalidPassword{ u"CONNECTION_FAILED_INVALID_PASSWORD" };
 
-  /// @brief Field kConnectionFailedMasterServerCertificateValidationFailed offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedMasterServerCertificateValidationFailed{ u"CONNECTION_FAILED_NETWORK_NOT_CONNECTED" };
-
-  /// @brief Field kConnectionFailedMasterServerNotAuthenticated offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedMasterServerNotAuthenticated{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
-
-  /// @brief Field kConnectionFailedMasterServerUnreachable offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedMasterServerUnreachable{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
-
-  /// @brief Field kConnectionFailedNetworkNotConnected offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedNetworkNotConnected{ u"CONNECTION_FAILED_NETWORK_NOT_CONNECTED" };
-
   /// @brief Field kConnectionFailedServerAtCapacity offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedServerAtCapacity{ u"CONNECTION_FAILED_SERVER_AT_CAPACITY" };
 
-  /// @brief Field kConnectionFailedServerDoesNotExist offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedServerDoesNotExist{ u"CONNECTION_FAILED_SERVER_DOES_NOT_EXIST" };
-
-  /// @brief Field kConnectionFailedServerIsTerminating offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedServerIsTerminating{ u"CONNECTION_FAILED_SERVER_DOES_NOT_EXIST" };
-
-  /// @brief Field kConnectionFailedServerUnreachable offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedServerUnreachable{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
-
   /// @brief Field kConnectionFailedTimeout offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedTimeout{ u"CONNECTION_FAILED_TIMEOUT" };
-
-  /// @brief Field kConnectionFailedUnknown offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedUnknown{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
-
-  /// @brief Field kConnectionFailedUpdateRequired offset 0xffffffff size 0x8
-  static constexpr ::ConstString kConnectionFailedUpdateRequired{ u"MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED" };
 
   /// @brief Field kConnectionFailedVersionMismatch offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedVersionMismatch{ u"CONNECTION_FAILED_VERSION_MISMATCH" };

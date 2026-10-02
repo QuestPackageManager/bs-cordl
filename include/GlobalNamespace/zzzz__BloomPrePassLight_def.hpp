@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_lights(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* value);
 
-  /// @brief Method .ctor, addr 0x586244c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c78324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
 protected:
@@ -84,7 +84,7 @@ public:
   BloomPrePassLight_LightsDataItem(BloomPrePassLight_LightsDataItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19892 };
 
   /// @brief Field lightType, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ___lightType;
@@ -141,22 +141,22 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5862440, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5c78318, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5862358, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c78230, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5862068, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c77f40, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh();
 
-  /// @brief Method RegisterLight, addr 0x586206c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x5c77f44, size 0x2ec, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method UnregisterLight, addr 0x586235c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x5c78234, size 0xe4, virtual false, abstract: false, final false
   inline void UnregisterLight();
 
   constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set__registeredWithLightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
 
-  /// @brief Method .ctor, addr 0x5862454, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c7832c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
@@ -192,12 +192,12 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* getStaticF__lightsDataItems();
 
-  /// @brief Method get_bloomLightsDict, addr 0x5861fb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_bloomLightsDict, addr 0x5c77e88, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
   get_bloomLightsDict();
 
-  /// @brief Method get_lightsDataItems, addr 0x586200c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_lightsDataItems, addr 0x5c77ee4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* get_lightsDataItems();
 
   static inline void setStaticF__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
@@ -220,7 +220,7 @@ public:
   BloomPrePassLight(BloomPrePassLight const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19893 };
 
   /// [SerializeField]
   /// @brief Field _lightType, offset: 0x20, size: 0x8, def value: None

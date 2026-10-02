@@ -20,10 +20,10 @@ namespace System::Security {
 class CORDL_TYPE SecurityManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureElevatedPermissions, addr 0x5af241c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EnsureElevatedPermissions, addr 0x5f0a314, size 0x4, virtual false, abstract: false, final false
   static inline void EnsureElevatedPermissions();
 
-  /// @brief Method get_SecurityEnabled, addr 0x5aeef6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityEnabled, addr 0x5f06e64, size 0x8, virtual false, abstract: false, final false
   static inline bool get_SecurityEnabled();
 
 protected:

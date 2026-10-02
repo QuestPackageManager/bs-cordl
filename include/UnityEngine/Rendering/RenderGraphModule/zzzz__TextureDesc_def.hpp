@@ -60,43 +60,43 @@ public:
 
   __declspec(property(get = get_depthBufferBits, put = set_depthBufferBits)) ::UnityEngine::Rendering::DepthBits depthBufferBits;
 
-  /// @brief Method CalculateFinalDimensions, addr 0x67e77b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CalculateFinalDimensions, addr 0x6c10a9c, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int CalculateFinalDimensions();
 
-  /// @brief Method GetHashCode, addr 0x67ead18, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c145c0, size 0x1f8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InitDefaultValues, addr 0x67eaa44, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InitDefaultValues, addr 0x6c142e0, size 0xd8, virtual false, abstract: false, final false
   inline void InitDefaultValues(bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x67eab88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c14424, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ScaleFunc* func, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x67e6f40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0fe30, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTexture* input);
 
-  /// @brief Method .ctor, addr 0x67eabd8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c14474, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureDescriptor input);
 
-  /// @brief Method .ctor, addr 0x67eabd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1446c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureDesc input);
 
-  /// @brief Method .ctor, addr 0x67eab48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c143e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 scale, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x67eab1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c143b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method get_colorFormat, addr 0x67ea9ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_colorFormat, addr 0x6c14248, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_colorFormat();
 
-  /// @brief Method get_depthBufferBits, addr 0x67ea874, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_depthBufferBits, addr 0x6c14110, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DepthBits get_depthBufferBits();
 
-  /// @brief Method set_colorFormat, addr 0x67eaa3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFormat, addr 0x6c142d8, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_depthBufferBits, addr 0x67ea8f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_depthBufferBits, addr 0x6c1418c, size 0xbc, virtual false, abstract: false, final false
   inline void set_depthBufferBits(::UnityEngine::Rendering::DepthBits value);
 
   // Ctor Parameters []
@@ -115,21 +115,22 @@ public:
   // comment: None }, CppParam { name: "msaaSamples", ty: "::UnityEngine::Rendering::MSAASamples", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindTextureMS", ty: "bool",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "useDynamicScale", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "useDynamicScaleExplicit", ty:
   // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "memoryless", ty: "::UnityEngine::RenderTextureMemoryless", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "vrUsage", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "fastMemoryDesc", ty: "::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc", modifiers: "", def_value: None, comment: None }, CppParam { name: "fallBackToBlackTexture",
-  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "disableFallBackToImportedTexture", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "clearBuffer", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "discardBuffer", ty: "bool", modifiers: "", def_value: None, comment: None }]
+  // name: "vrUsage", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableShadingRate", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "fastMemoryDesc", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc", modifiers: "", def_value: None, comment: None }, CppParam { name: "fallBackToBlackTexture", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "disableFallBackToImportedTexture", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "clearBuffer", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "discardBuffer", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TextureDesc(::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode sizeMode, int32_t width, int32_t height, int32_t slices, ::UnityEngine::Vector2 scale,
                         ::UnityEngine::Rendering::ScaleFunc* func, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode,
                         ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap,
                         int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale, bool useDynamicScaleExplicit,
-                        ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name,
+                        ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, bool enableShadingRate, ::StringW name,
                         ::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc fastMemoryDesc, bool fallBackToBlackTexture, bool disableFallBackToImportedTexture, bool clearBuffer,
                         ::UnityEngine::Color clearColor, bool discardBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9377 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -200,6 +201,9 @@ public:
   /// @brief Field vrUsage, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::VRTextureUsage vrUsage;
 
+  /// @brief Field enableShadingRate, offset: 0x4c, size: 0x1, def value: None
+  bool enableShadingRate;
+
   /// @brief Field name, offset: 0x50, size: 0x8, def value: None
   ::StringW name;
 
@@ -267,6 +271,8 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::TextureDesc,
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::TextureDesc, memoryless) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::TextureDesc, vrUsage) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::TextureDesc, enableShadingRate) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::TextureDesc, name) == 0x50, "Offset mismatch!");
 

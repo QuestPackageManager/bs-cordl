@@ -46,22 +46,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x68ba888, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cf1998, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeBuffer, addr 0x68ba8e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DisposeBuffer, addr 0x6cf19f8, size 0x24, virtual false, abstract: false, final false
   inline void DisposeBuffer(::by_ref<::UnityEngine::ComputeBuffer*> buffer);
 
-  /// @brief Method GetAdditionalLightShadowParamsStructuredBuffer, addr 0x68ba9cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalLightShadowParamsStructuredBuffer, addr 0x6cf1adc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ComputeBuffer* GetAdditionalLightShadowParamsStructuredBuffer(int32_t size);
 
-  /// @brief Method GetAdditionalLightShadowSliceMatricesStructuredBuffer, addr 0x68baa2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalLightShadowSliceMatricesStructuredBuffer, addr 0x6cf1b3c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ComputeBuffer* GetAdditionalLightShadowSliceMatricesStructuredBuffer(int32_t size);
 
-  /// @brief Method GetLightDataBuffer, addr 0x68ba90c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetLightDataBuffer, addr 0x6cf1a1c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ComputeBuffer* GetLightDataBuffer(int32_t size);
 
-  /// @brief Method GetLightIndicesBuffer, addr 0x68ba96c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetLightIndicesBuffer, addr 0x6cf1a7c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ComputeBuffer* GetLightIndicesBuffer(int32_t size);
 
   /// @brief Method GetOrUpdateBuffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -95,12 +95,12 @@ public:
 
   constexpr void __cordl_internal_set_m_LightIndicesBuffer(::UnityEngine::ComputeBuffer* value);
 
-  /// @brief Method .ctor, addr 0x68ba814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf1924, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ShaderData* getStaticF_m_Instance();
 
-  /// @brief Method get_instance, addr 0x68ba818, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6cf1928, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ShaderData* get_instance();
 
   /// @brief Convert to "::System::IDisposable"
@@ -123,7 +123,7 @@ public:
   ShaderData(ShaderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13198 };
 
   /// @brief Field m_LightDataBuffer, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ComputeBuffer* ___m_LightDataBuffer;

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(int32_t)>(&::System::Text::BinHexEncoding::GetMaxByteCount)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x61327a0;
+  constexpr static std::size_t addrs = 0x6559f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Text::BinHexEncoding::GetByteCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61328b8;
+  constexpr static std::size_t addrs = 0x655a0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(::ArrayW<char16_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::System::Text::BinHexEncoding::GetBytes)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x61328cc;
+  constexpr static std::size_t addrs = 0x655a0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(int32_t)>(&::System::Text::BinHexEncoding::GetMaxCharCount)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6132e1c;
+  constexpr static std::size_t addrs = 0x655a608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Text::BinHexEncoding::GetCharCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6132f28;
+  constexpr static std::size_t addrs = 0x655a714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t)>(
     &::System::Text::BinHexEncoding::GetChars)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x6132f3c;
+  constexpr static std::size_t addrs = 0x655a728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::BinHexEncoding::*)()>(&::System::Text::BinHexEncoding::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6133394;
+  constexpr static std::size_t addrs = 0x655ab80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::BinHexEncoding*>(), { ".ctor", {}, {} })));

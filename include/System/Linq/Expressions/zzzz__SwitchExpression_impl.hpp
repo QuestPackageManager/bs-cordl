@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::SwitchExpression::*)()>(
     &::System::Linq::Expressions::SwitchExpression::get_SwitchValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8954c;
+  constexpr static std::size_t addrs = 0x63a54c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::SwitchExpression*>(), { "get_SwitchValue", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* (
     ::System::Linq::Expressions::SwitchExpression::*)()>(&::System::Linq::Expressions::SwitchExpression::get_Cases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f89554;
+  constexpr static std::size_t addrs = 0x63a54d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::SwitchExpression*>(), { "get_Cases", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::SwitchExpression::*)()>(
     &::System::Linq::Expressions::SwitchExpression::get_DefaultBody)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8955c;
+  constexpr static std::size_t addrs = 0x63a54d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::SwitchExpression*>(), { "get_DefaultBody", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::SwitchExpression::*)()>(
     &::System::Linq::Expressions::SwitchExpression::get_Comparison)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f89564;
+  constexpr static std::size_t addrs = 0x63a54e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::SwitchExpression*>(), { "get_Comparison", {}, {} })));

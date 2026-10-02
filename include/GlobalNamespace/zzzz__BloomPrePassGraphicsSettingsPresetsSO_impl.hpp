@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::*)()>(
     &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37316b0;
+  constexpr static std::size_t addrs = 0x39bac94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>(), { ".ctor", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*> (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3731690;
+  constexpr static std::size_t addrs = 0x39bac74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>(), { "get_presets", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*> (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3731698;
+  constexpr static std::size_t addrs = 0x39bac7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37316a0;
+  constexpr static std::size_t addrs = 0x39bac84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>(), { ".ctor", {}, {} })));

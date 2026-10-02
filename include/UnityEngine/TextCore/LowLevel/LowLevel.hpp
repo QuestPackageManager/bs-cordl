@@ -14,6 +14,7 @@ module;
 #include "UnityEngine/TextCore/LowLevel/GlyphMarshallingStruct.hpp"
 #include "UnityEngine/TextCore/LowLevel/GlyphPackingMode.hpp"
 #include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
+#include "UnityEngine/TextCore/LowLevel/GlyphRasterModes.hpp"
 #include "UnityEngine/TextCore/LowLevel/GlyphRenderMode.hpp"
 #include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/LigatureSubstitutionRecord.hpp"

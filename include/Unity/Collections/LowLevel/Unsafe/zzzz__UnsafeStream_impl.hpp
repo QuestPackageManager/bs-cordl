@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)(int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64cf194;
+  constexpr static std::size_t addrs = 0x68f7f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                     ::Unity::Jobs::JobHandle, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::ScheduleConstruct)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64cf1c0;
+  constexpr static std::size_t addrs = 0x68f7fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::AllocateBlock)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x64c3718;
+  constexpr static std::size_t addrs = 0x68ec870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::AllocateForEach)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64c3310;
+  constexpr static std::size_t addrs = 0x68ec468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStream::IsEmpty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64c34ac;
+  constexpr static std::size_t addrs = 0x68ec604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "IsEmpty", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStream::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64cf264;
+  constexpr static std::size_t addrs = 0x68f805c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "get_IsCreated", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStream::get_ForEachCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64c3530;
+  constexpr static std::size_t addrs = 0x68ec688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "get_ForEachCount", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::AsReader)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64c3a8c;
+  constexpr static std::size_t addrs = 0x68ecbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "AsReader", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::AsWriter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64c3900;
+  constexpr static std::size_t addrs = 0x68eca58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "AsWriter", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStream::Count)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64c360c;
+  constexpr static std::size_t addrs = 0x68ec764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "Count", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStream::Deallocate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64cf2b0;
+  constexpr static std::size_t addrs = 0x68f80a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "Deallocate", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStream::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c3670;
+  constexpr static std::size_t addrs = 0x68ec7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(), { "Dispose", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::Collections::LowLevel::Unsafe::UnsafeStream::*)(::Unity::Jobs::JobHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream::Dispose)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64cf33c;
+  constexpr static std::size_t addrs = 0x68f8134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64cf3d4;
+  constexpr static std::size_t addrs = 0x68f81cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob>(), { "Execute", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJobList::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJobList::Execute)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64cf3d8;
+  constexpr static std::size_t addrs = 0x68f81d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJob::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJob::Execute)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64cf3f0;
+  constexpr static std::size_t addrs = 0x68f81e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64cf288;
+  constexpr static std::size_t addrs = 0x68f8080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer>(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::get_ForEachCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64c3944;
+  constexpr static std::size_t addrs = 0x68eca9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::BeginForEachIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64c397c;
+  constexpr static std::size_t addrs = 0x68ecad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::EndForEachIndex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64c399c;
+  constexpr static std::size_t addrs = 0x68ecaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::Allocate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64c39f4;
+  constexpr static std::size_t addrs = 0x68ecb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64cf274;
+  constexpr static std::size_t addrs = 0x68f806c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader>(),
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::BeginForEachIndex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64c3aa4;
+  constexpr static std::size_t addrs = 0x68ecbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::EndForEachIndex)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c3afc;
+  constexpr static std::size_t addrs = 0x68ecc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::get_ForEachCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64c3b18;
+  constexpr static std::size_t addrs = 0x68ecc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::get_RemainingItemCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cf3fc;
+  constexpr static std::size_t addrs = 0x68f81f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::ReadUnsafePtr)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64cf404;
+  constexpr static std::size_t addrs = 0x68f81fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::Count)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64c3b98;
+  constexpr static std::size_t addrs = 0x68eccf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader>(), { "Count", {}, {} })));

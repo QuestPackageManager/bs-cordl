@@ -55,17 +55,17 @@ public:
 
   constexpr void __cordl_internal_set_sc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x375f7b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8e98, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount);
 
-  /// @brief Method get_cuttableSlicesCount, addr 0x375f7a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableSlicesCount, addr 0x39e8e84, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_cuttableSlicesCount();
 
-  /// @brief Method get_sliceCount, addr 0x375f79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliceCount, addr 0x39e8e7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sliceCount();
 
-  /// @brief Method get_squishAmount, addr 0x375f7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squishAmount, addr 0x39e8e90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_squishAmount();
 
 protected:
@@ -83,7 +83,7 @@ public:
   BurstSliderData(BurstSliderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15619 };
 
   /// [SerializeField]
   /// @brief Field sc, offset: 0x30, size: 0x4, def value: None

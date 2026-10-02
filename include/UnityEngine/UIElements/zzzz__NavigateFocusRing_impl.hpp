@@ -10,6 +10,7 @@
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigateFocusRing_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection::*)(int32_t)>(
     &::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dab4e8;
+  constexpr static std::size_t addrs = 0x72444b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::ValidateHierarchyTraversal)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6dab54c;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x724451c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal>(),
@@ -56,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::ValidateElement)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6dab618;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x72446b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal>(),
@@ -70,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::Order)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6dab6e4;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x72448c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::StrictOrder)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6daba88;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x7244e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::StrictOrder)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6dab7d0;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x7244a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal>(),
@@ -114,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::TieBreaker)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6dab98c;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x7244ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal>(),
@@ -130,7 +131,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::GetBestOverall)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6dab120;
+  constexpr static std::size_t addrs = 0x72440f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,11 +180,14 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Naviga
                                               { "GetBestOverall", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(*this, ___internal_method, candidate, bestSoFar);
 }
-// Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "validRect", ty:
-// "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "direction", ty: "::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*", modifiers: "", def_value: Some("{}"), comment: None }]
+// Ctor Parameters [CppParam { name: "root", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentFocusable", ty:
+// "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "validRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "direction", ty:
+// "::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::NavigateFocusRing_FocusableHierarchyTraversal(
-    ::UnityEngine::UIElements::VisualElement* currentFocusable, ::UnityEngine::Rect validRect, bool firstPass, ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction) noexcept {
+    ::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* currentFocusable, ::UnityEngine::Rect validRect, bool firstPass,
+    ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction) noexcept {
+  this->root = root;
   this->currentFocusable = currentFocusable;
   this->validRect = validRect;
   this->firstPass = firstPass;
@@ -197,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusController* (::UnityEngine::UIElements::NavigateFocusRing::*)()>(
     &::UnityEngine::UIElements::NavigateFocusRing::get_focusController)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6daa7cc;
+  constexpr static std::size_t addrs = 0x7243274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(), { "get_focusController", {}, {} })));
@@ -210,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::NavigateFocusRing::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6daa7ec;
+  constexpr static std::size_t addrs = 0x7243294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +229,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::FocusChangeDirection* (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::EventBase*)>(
         &::UnityEngine::UIElements::NavigateFocusRing::GetFocusChangeDirection)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6daa860;
+  constexpr static std::size_t addrs = 0x7243308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,8 +245,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*)>(
         &::UnityEngine::UIElements::NavigateFocusRing::GetNextFocusable)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6daabc0;
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x7243668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,21 +254,38 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::NavigateFocusRing.IsWorldSpaceNavigationValid
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::by_ref<::UnityEngine::UIElements::UIDocument*>)>(
+    &::UnityEngine::UIElements::NavigateFocusRing::IsWorldSpaceNavigationValid)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x72439d8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(),
+                            { "IsWorldSpaceNavigationValid", {}, { ::i2c::type_of<::UnityEngine::UIElements::Focusable*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::UIDocument*>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::NavigateFocusRing.GetNextFocusable2D
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Focusable* (
-    ::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*)>(
+    ::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::NavigateFocusRing::GetNextFocusable2D)> {
-  constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x6daad1c;
+  constexpr static std::size_t size = 0x620;
+  constexpr static std::size_t addrs = 0x7243ad0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(),
-                         { "GetNextFocusable2D", {}, { ::i2c::type_of<::UnityEngine::UIElements::Focusable*>(), ::i2c::type_of<::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(),
+                                                { "GetNextFocusable2D",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::UIElements::Focusable*>(), ::i2c::type_of<::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*>(),
+                                                    ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
     return ___internal_method;
   }
 };
@@ -273,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::NavigateFocusRing::IsActive)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6dab214;
+  constexpr static std::size_t addrs = 0x72441e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::NavigateFocusRing::IsNavigable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6dab2ec;
+  constexpr static std::size_t addrs = 0x72442bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -384,13 +405,23 @@ inline ::UnityEngine::UIElements::Focusable* UnityEngine::UIElements::NavigateFo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Focusable*>(this, ___internal_method, currentFocusable, direction);
 }
-inline ::UnityEngine::UIElements::Focusable* UnityEngine::UIElements::NavigateFocusRing::GetNextFocusable2D(::UnityEngine::UIElements::Focusable* currentFocusable,
-                                                                                                            ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction) {
+inline bool UnityEngine::UIElements::NavigateFocusRing::IsWorldSpaceNavigationValid(::UnityEngine::UIElements::Focusable* currentFocusable, ::by_ref<::UnityEngine::UIElements::UIDocument*> document) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(),
-                          { "GetNextFocusable2D", {}, { ::i2c::type_of<::UnityEngine::UIElements::Focusable*>(), ::i2c::type_of<::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Focusable*>(this, ___internal_method, currentFocusable, direction);
+                          { "IsWorldSpaceNavigationValid", {}, { ::i2c::type_of<::UnityEngine::UIElements::Focusable*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::UIDocument*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, currentFocusable, document);
+}
+inline ::UnityEngine::UIElements::Focusable* UnityEngine::UIElements::NavigateFocusRing::GetNextFocusable2D(::UnityEngine::UIElements::Focusable* currentFocusable,
+                                                                                                            ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction,
+                                                                                                            ::UnityEngine::UIElements::VisualElement* root) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigateFocusRing*>(),
+                                                           { "GetNextFocusable2D",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::Focusable*>(), ::i2c::type_of<::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Focusable*>(this, ___internal_method, currentFocusable, direction, root);
 }
 inline bool UnityEngine::UIElements::NavigateFocusRing::IsActive(::UnityEngine::UIElements::VisualElement* v) {
   static auto* ___internal_method = THROW_UNLESS(

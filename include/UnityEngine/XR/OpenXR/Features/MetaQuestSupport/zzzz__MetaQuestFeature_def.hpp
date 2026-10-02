@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(MetaQuestFeature)
 namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
 struct MetaQuestFeature_TargetDevice;
 }
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
 class MetaQuestFeature;
@@ -39,7 +42,7 @@ public:
   constexpr MetaQuestFeature_TargetDevice(::StringW visibleName, ::StringW manifestName, bool enabled, bool active) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24436 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -79,10 +82,22 @@ public:
   // Declarations
   using TargetDevice = ::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature_TargetDevice;
 
+  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+
   static inline ::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a0cc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnAfterDeserialize, addr 0x6e46434, size 0x4, virtual true, abstract: false, final true
+  inline void OnAfterDeserialize();
+
+  /// @brief Method OnBeforeSerialize, addr 0x6e46430, size 0x4, virtual true, abstract: false, final true
+  inline void OnBeforeSerialize();
+
+  /// @brief Method .ctor, addr 0x6e46438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -99,7 +114,7 @@ public:
   MetaQuestFeature(MetaQuestFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24437 };
 
   /// @brief Field ambientOcclusionScriptName offset 0xffffffff size 0x8
   static constexpr ::ConstString ambientOcclusionScriptName{ u"ScreenSpaceAmbientOcclusion" };
@@ -110,6 +125,6 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport

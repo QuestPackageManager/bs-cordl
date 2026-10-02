@@ -60,22 +60,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x32719c0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x34f8220, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleOptionalAvatarDataChanged, addr 0x3271a80, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataChanged, addr 0x34f82e0, size 0x2e4, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarData HandleOptionalAvatarDataChanged(uint32_t dataType, ::GlobalNamespace::ByteArrayNetSerializable* data,
                                                                                      ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleOptionalAvatarDataPacket, addr 0x3271d64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataPacket, addr 0x34f85c4, size 0x80, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataPacket(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* packet, ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method SendOptionalAvatarData, addr 0x3271558, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method SendOptionalAvatarData, addr 0x34f7db8, size 0x25c, virtual false, abstract: false, final false
   inline void SendOptionalAvatarData(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
-  /// @brief Method TryGetAllLatestOptionalAvatarData, addr 0x32704e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetAllLatestOptionalAvatarData, addr 0x34f6d44, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetAllLatestOptionalAvatarData(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer,
                                                 ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*> data);
 
@@ -103,18 +103,18 @@ public:
 
   constexpr void __cordl_internal_set_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method .ctor, addr 0x32717b4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f8014, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didChangeOptionalAvatarDataEvent, addr 0x32708ac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeOptionalAvatarDataEvent, addr 0x34f710c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didChangeOptionalAvatarDataEvent, addr 0x3270a00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeOptionalAvatarDataEvent, addr 0x34f7260, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
 protected:
@@ -132,7 +132,7 @@ public:
   OptionalAvatarDataSyncHandler(OptionalAvatarDataSyncHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22393 };
 
   /// [CompilerGenerated]
   /// @brief Field didChangeOptionalAvatarDataEvent, offset: 0x10, size: 0x8, def value: None

@@ -24,18 +24,18 @@ class CORDL_TYPE Helpers : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CloneByteArray, addr 0x5ac7acc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CloneByteArray, addr 0x5edf9b0, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CloneByteArray(::ArrayW<uint8_t> src);
 
-  /// @brief Method NibbleToHex, addr 0x5ac7c24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NibbleToHex, addr 0x5edfb08, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t NibbleToHex(uint8_t b);
 
   /// [Extension]
-  /// @brief Method ToHexArrayUpper, addr 0x5ac7b44, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ToHexArrayUpper, addr 0x5edfa28, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t> ToHexArrayUpper(::ArrayW<uint8_t> bytes);
 
   /// [Extension]
-  /// @brief Method ToHexStringUpper, addr 0x5ac7c40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToHexStringUpper, addr 0x5edfb24, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t> bytes);
 
 protected:

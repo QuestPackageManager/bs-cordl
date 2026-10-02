@@ -59,14 +59,14 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method SetText, addr 0x59ae114, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x5dc7c2c, size 0x300, virtual false, abstract: false, final false
   inline void SetText(::BeatSaber::Init::GameVersion* gameVersion);
 
-  /// @brief Method Start, addr 0x59ae000, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc7b18, size 0x114, virtual false, abstract: false, final false
   inline void Start();
 
   /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
-  /// @brief Method ToggleVersionColor, addr 0x59ae414, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToggleVersionColor, addr 0x5dc7f2c, size 0x94, virtual false, abstract: false, final false
   inline void ToggleVersionColor();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__buildIdText() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x59ae4a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc7fc0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   SetApplicationVersionText(SetApplicationVersionText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6130 };
 
   /// [SerializeField]
   /// @brief Field _versionText, offset: 0x20, size: 0x8, def value: None

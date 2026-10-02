@@ -175,7 +175,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18658 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -886,7 +886,7 @@ public:
   ConnectedPlayerManager_3(ConnectedPlayerManager_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
 
   /// [CompilerGenerated]
   /// @brief Field connectedEvent, offset: 0x10, size: 0x8, def value: None

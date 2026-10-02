@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::*)()>(&::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65a389c;
+  constexpr static std::size_t addrs = 0x69cf718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::*)(::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor)>(
     &::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::_Build_b__4_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65a38a0;
+  constexpr static std::size_t addrs = 0x69cf71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::*)(::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor)>(
     &::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::_Build_b__4_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65a38c4;
+  constexpr static std::size_t addrs = 0x69cf740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::*)(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem)>(
     &::UnityEngine::InputSystem::HID::HIDLayoutBuilder_HID___c::_Build_b__4_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a38e8;
+  constexpr static std::size_t addrs = 0x69cf764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_hasNullState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a3908;
+  constexpr static std::size_t addrs = 0x69cf784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_hasPreferredState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65a3914;
+  constexpr static std::size_t addrs = 0x69cf790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_isArray)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65a3924;
+  constexpr static std::size_t addrs = 0x69cf7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>(), { "get_isArray", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_isNonLinear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a3934;
+  constexpr static std::size_t addrs = 0x69cf7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_isRelative)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a3940;
+  constexpr static std::size_t addrs = 0x69cf7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_isConstant)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a394c;
+  constexpr static std::size_t addrs = 0x69cf7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_isWrapping)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a3958;
+  constexpr static std::size_t addrs = 0x69cf7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_isSigned)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a28c4;
+  constexpr static std::size_t addrs = 0x69cf7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>(), { "get_isSigned", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_minFloatValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65a3964;
+  constexpr static std::size_t addrs = 0x69cf7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::get_maxFloatValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x65a39fc;
+  constexpr static std::size_t addrs = 0x69cf884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)(::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::Is)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65a29f4;
+  constexpr static std::size_t addrs = 0x69ce9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineName)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x65a2b2c;
+  constexpr static std::size_t addrs = 0x69ceaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>(), { "DetermineName", {}, {} })));
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineDisplayName)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x65a2d60;
+  constexpr static std::size_t addrs = 0x69ced28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::IsUsableElement)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x65a092c;
+  constexpr static std::size_t addrs = 0x69cc840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineLayout)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x65a2a18;
+  constexpr static std::size_t addrs = 0x69ce9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineFormat)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x65a2e78;
+  constexpr static std::size_t addrs = 0x69ce74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineUsages)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x65a2fc4;
+  constexpr static std::size_t addrs = 0x69cee40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineParameters)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x65a2784;
+  constexpr static std::size_t addrs = 0x69ce60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineAxisNormalizationParameters)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x65a3a9c;
+  constexpr static std::size_t addrs = 0x69cf924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineProcessors)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65a2980;
+  constexpr static std::size_t addrs = 0x69ce948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::DetermineDefaultState)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65a28d0;
+  constexpr static std::size_t addrs = 0x69ce898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     ::by_ref<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>, ::StringW, ::by_ref<::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder*>)>(
     &::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor::AddChildControls)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x65a316c;
+  constexpr static std::size_t addrs = 0x69cefe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -667,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor::*)()>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor::ToJson)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65a1918;
+  constexpr static std::size_t addrs = 0x69cd82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor>(), { "ToJson", {}, {} })));
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor (*)(::StringW)>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor::FromJson)> {
   constexpr static std::size_t size = 0xfb0;
-  constexpr static std::size_t addrs = 0x65a0968;
+  constexpr static std::size_t addrs = 0x69cc87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -723,8 +723,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder::Build)> {
-  constexpr static std::size_t size = 0xc20;
-  constexpr static std::size_t addrs = 0x65a1b64;
+  constexpr static std::size_t size = 0xb94;
+  constexpr static std::size_t addrs = 0x69cda78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder*>(), { "Build", {}, {} })));
@@ -736,7 +736,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder::*)()>(&::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65a0964;
+  constexpr static std::size_t addrs = 0x69cc878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder*>(), { ".ctor", {}, {} })));
@@ -810,7 +810,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(
     &::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65a3c84;
+  constexpr static std::size_t addrs = 0x69cfb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -825,7 +825,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(::UnityEngine::InputSystem::HID::HID_GenericDesktop)>(
     &::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65a3c9c;
+  constexpr static std::size_t addrs = 0x69cfb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder>(),
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(
     ::UnityEngine::InputSystem::HID::HID_HIDReportType, int32_t)>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::StartReport)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65a3cb8;
+  constexpr static std::size_t addrs = 0x69cfb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(
     ::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t, int32_t)>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::AddElement)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x65a3ce0;
+  constexpr static std::size_t addrs = 0x69cfb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(
     ::UnityEngine::InputSystem::HID::HID_GenericDesktop, int32_t)>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::AddElement)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x65a401c;
+  constexpr static std::size_t addrs = 0x69cfea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(
     int32_t, int32_t)>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::WithPhysicalMinMax)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x65a4064;
+  constexpr static std::size_t addrs = 0x69cfeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder>(),
@@ -898,7 +898,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)(
     int32_t, int32_t)>(&::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::WithLogicalMinMax)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x65a41dc;
+  constexpr static std::size_t addrs = 0x69d0064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder>(),
@@ -912,7 +912,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor (::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::*)()>(
     &::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder::Finish)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x65a4344;
+  constexpr static std::size_t addrs = 0x69d01cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder>(), { "Finish", {}, {} })));
@@ -1141,7 +1141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HID___c__DisplayClass13_0::*)()>(&::UnityEngine::InputSystem::HID::HID___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65a43f8;
+  constexpr static std::size_t addrs = 0x69d0280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID___c__DisplayClass13_0*>(), { ".ctor", {}, {} })));
@@ -1154,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (::UnityEngine::InputSystem::HID::HID___c__DisplayClass13_0::*)()>(
     &::UnityEngine::InputSystem::HID::HID___c__DisplayClass13_0::_OnFindLayoutForDevice_b__0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65a43fc;
+  constexpr static std::size_t addrs = 0x69d0284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1193,7 +1193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::HID::HID::get_QueryHIDReportDescriptorDeviceCommandType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x659f88c;
+  constexpr static std::size_t addrs = 0x69cb7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1206,7 +1206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::HID::HID::get_QueryHIDReportDescriptorSizeDeviceCommandType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x659f898;
+  constexpr static std::size_t addrs = 0x69cb7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1220,7 +1220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::HID::HID::get_QueryHIDParsedReportDescriptorDeviceCommandType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x659f8a4;
+  constexpr static std::size_t addrs = 0x69cb7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1234,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor (::UnityEngine::InputSystem::HID::HID::*)()>(
     &::UnityEngine::InputSystem::HID::HID::get_hidDescriptor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x659f8b0;
+  constexpr static std::size_t addrs = 0x69cb7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID*>(), { "get_hidDescriptor", {}, {} })));
@@ -1248,7 +1248,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::StringW (*)(::by_ref<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::StringW, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
         &::UnityEngine::InputSystem::HID::HID::OnFindLayoutForDevice)> {
   constexpr static std::size_t size = 0x8c0;
-  constexpr static std::size_t addrs = 0x659f954;
+  constexpr static std::size_t addrs = 0x69cb868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1267,7 +1267,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSyste
                                                                                                                     ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
     &::UnityEngine::InputSystem::HID::HID::ReadHIDDeviceDescriptor)> {
   constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x65a0214;
+  constexpr static std::size_t addrs = 0x69cc128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID*>(),
@@ -1283,7 +1283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::InputSystem::HID::HID_UsagePage)>(&::UnityEngine::InputSystem::HID::HID::UsagePageToString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x65a1988;
+  constexpr static std::size_t addrs = 0x69cd89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1297,7 +1297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(&::UnityEngine::InputSystem::HID::HID::UsageToString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x65a1a1c;
+  constexpr static std::size_t addrs = 0x69cd930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1311,7 +1311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HID::*)()>(&::UnityEngine::InputSystem::HID::HID::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a1ac8;
+  constexpr static std::size_t addrs = 0x69cd9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HID*>(), { ".ctor", {}, {} })));

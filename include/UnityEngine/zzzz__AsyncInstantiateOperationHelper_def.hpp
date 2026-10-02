@@ -29,7 +29,7 @@ class CORDL_TYPE AsyncInstantiateOperationHelper : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreateAsyncInstantiateOperationResultArray, addr 0x6ad9c0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateAsyncInstantiateOperationResultArray, addr 0x6f340b0, size 0x18, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> CreateAsyncInstantiateOperationResultArray(::UnityEngine::AsyncInstantiateOperation* op, int32_t size);
 
 protected:
@@ -47,7 +47,7 @@ public:
   AsyncInstantiateOperationHelper(AsyncInstantiateOperationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

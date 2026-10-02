@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::ConstraintStruct::*)()>(&::System::Xml::Schema::ConstraintStruct::get_TableDim)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x631bbd8;
+  constexpr static std::size_t addrs = 0x6743bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ConstraintStruct*>(), { "get_TableDim", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ConstraintStruct::*)(::System::Xml::Schema::CompiledIdentityConstraint*)>(
     &::System::Xml::Schema::ConstraintStruct::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x631bbe0;
+  constexpr static std::size_t addrs = 0x6743bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

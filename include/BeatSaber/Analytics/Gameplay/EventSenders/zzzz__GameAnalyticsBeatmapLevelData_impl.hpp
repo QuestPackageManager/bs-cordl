@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analyt
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings*,
     ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers*, ::StringW, bool)>(&::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3264910;
+  constexpr static std::size_t addrs = 0x34eb218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

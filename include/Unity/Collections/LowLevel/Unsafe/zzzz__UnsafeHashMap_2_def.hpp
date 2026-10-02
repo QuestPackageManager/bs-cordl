@@ -123,7 +123,7 @@ public:
   constexpr UnsafeHashMap_2_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<TKey> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -229,7 +229,7 @@ public:
   constexpr UnsafeHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -321,6 +321,11 @@ public:
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
+  /// @brief Method ThrowAtMaxCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ThrowAtMaxCapacity();
+
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyAlreadyAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyAlreadyAdded(TKey key);
 
@@ -385,8 +390,11 @@ public:
   // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeHashMap_2(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey> m_Data) noexcept;
 
+  /// @brief Field MaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x20000000) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

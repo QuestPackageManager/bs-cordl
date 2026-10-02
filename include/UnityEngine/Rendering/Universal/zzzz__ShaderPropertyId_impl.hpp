@@ -332,12 +332,6 @@ inline void UnityEngine::Rendering::Universal::ShaderPropertyId::setStaticF_rend
 inline int32_t UnityEngine::Rendering::Universal::ShaderPropertyId::getStaticF_renderingLayerMaxInt() {
   return ::cordl_internals::getStaticField<int32_t, "renderingLayerMaxInt", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>();
 }
-inline void UnityEngine::Rendering::Universal::ShaderPropertyId::setStaticF_renderingLayerRcpMaxInt(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "renderingLayerRcpMaxInt", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>(std::forward<int32_t>(value));
-}
-inline int32_t UnityEngine::Rendering::Universal::ShaderPropertyId::getStaticF_renderingLayerRcpMaxInt() {
-  return ::cordl_internals::getStaticField<int32_t, "renderingLayerRcpMaxInt", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>();
-}
 inline void UnityEngine::Rendering::Universal::ShaderPropertyId::setStaticF_overlayUITexture(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "overlayUITexture", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>(std::forward<int32_t>(value));
 }
@@ -355,6 +349,18 @@ inline void UnityEngine::Rendering::Universal::ShaderPropertyId::setStaticF_hdrO
 }
 inline int32_t UnityEngine::Rendering::Universal::ShaderPropertyId::getStaticF_hdrOutputGradingParams() {
   return ::cordl_internals::getStaticField<int32_t, "hdrOutputGradingParams", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>();
+}
+inline void UnityEngine::Rendering::Universal::ShaderPropertyId::setStaticF_offscreenUIViewportParams(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "offscreenUIViewportParams", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::Universal::ShaderPropertyId::getStaticF_offscreenUIViewportParams() {
+  return ::cordl_internals::getStaticField<int32_t, "offscreenUIViewportParams", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>();
+}
+inline void UnityEngine::Rendering::Universal::ShaderPropertyId::setStaticF_screenSpaceIrradiance(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "screenSpaceIrradiance", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::Universal::ShaderPropertyId::getStaticF_screenSpaceIrradiance() {
+  return ::cordl_internals::getStaticField<int32_t, "screenSpaceIrradiance", ::UnityEngine::Rendering::Universal::ShaderPropertyId*>();
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::ShaderPropertyId::ShaderPropertyId() {}

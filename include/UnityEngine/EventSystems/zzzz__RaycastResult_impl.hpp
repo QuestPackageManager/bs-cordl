@@ -4,6 +4,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::RaycastResult.get_gameObject
 template <>
@@ -11,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::EventSystems::RaycastResult::*)()>(
     &::UnityEngine::EventSystems::RaycastResult::get_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e24564;
+  constexpr static std::size_t addrs = 0x72be098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycastResult>(), { "get_gameObject", {}, {} })));
@@ -23,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::RaycastResult::*)(::UnityEngine::GameObject*)>(&::UnityEngine::EventSystems::RaycastResult::set_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2456c;
+  constexpr static std::size_t addrs = 0x72be0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::RaycastResult::*)()>(&::UnityEngine::EventSystems::RaycastResult::get_isValid)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6e24574;
+  constexpr static std::size_t addrs = 0x72be0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycastResult>(), { "get_isValid", {}, {} })));
@@ -47,8 +49,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Even
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::RaycastResult::*)()>(&::UnityEngine::EventSystems::RaycastResult::Clear)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e24610;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x72be144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycastResult>(), { "Clear", {}, {} })));
@@ -59,8 +61,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Even
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::RaycastResult::*)()>(&::UnityEngine::EventSystems::RaycastResult::ToString)> {
-  constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x6e18db0;
+  constexpr static std::size_t size = 0x43c;
+  constexpr static std::size_t addrs = 0x72b3f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,13 +96,16 @@ inline ::StringW UnityEngine::EventSystems::RaycastResult::ToString() {
 // comment: None }, CppParam { name: "index", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "sortingGroupID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortingGroupOrder", ty: "int32_t", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "sortingLayer", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortingOrder", ty: "int32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "worldNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "screenPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "screenPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "displayIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "document", ty: "::UnityW<::UnityEngine::UIElements::UIDocument>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EventSystems::RaycastResult::RaycastResult(::UnityW<::UnityEngine::GameObject> m_GameObject, ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _cordl_module,
                                                                     float_t distance, float_t index, int32_t depth, int32_t sortingGroupID, int32_t sortingGroupOrder, int32_t sortingLayer,
-                                                                    int32_t sortingOrder, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldNormal,
-                                                                    ::UnityEngine::Vector2 screenPosition, int32_t displayIndex) noexcept {
+                                                                    int32_t sortingOrder, ::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldNormal,
+                                                                    ::UnityEngine::Vector2 screenPosition, int32_t displayIndex, ::UnityW<::UnityEngine::UIElements::UIDocument> document,
+                                                                    ::UnityEngine::UIElements::VisualElement* element) noexcept {
   this->m_GameObject = m_GameObject;
   this->_cordl_module = _cordl_module;
   this->distance = distance;
@@ -110,10 +115,13 @@ constexpr ::UnityEngine::EventSystems::RaycastResult::RaycastResult(::UnityW<::U
   this->sortingGroupOrder = sortingGroupOrder;
   this->sortingLayer = sortingLayer;
   this->sortingOrder = sortingOrder;
+  this->origin = origin;
   this->worldPosition = worldPosition;
   this->worldNormal = worldNormal;
   this->screenPosition = screenPosition;
   this->displayIndex = displayIndex;
+  this->document = document;
+  this->element = element;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::RaycastResult::RaycastResult() {}

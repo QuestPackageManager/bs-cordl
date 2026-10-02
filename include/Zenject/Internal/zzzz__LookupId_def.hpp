@@ -34,7 +34,7 @@ public:
   /// @brief Field Provider, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Provider, put = __cordl_internal_set_Provider)) ::Zenject::IProvider* Provider;
 
-  /// @brief Method GetHashCode, addr 0x6e9fe00, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x733b9a8, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Zenject::Internal::LookupId* New_ctor();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_Provider(::Zenject::IProvider* value);
 
-  /// @brief Method .ctor, addr 0x6e9fd68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x733b910, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e9fd6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x733b914, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
 protected:
@@ -74,7 +74,7 @@ public:
   LookupId(LookupId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14960 };
 
   /// @brief Field Provider, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IProvider* ___Provider;

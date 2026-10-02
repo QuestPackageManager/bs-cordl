@@ -15,9 +15,9 @@ struct SkeletonBone;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SkeletonBone);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
-// [NativeHeader("Modules/Animation/HumanDescription.h")]
-// [RequiredByNativeCode]
 // [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoSkeletonBone")]
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/Animation/HumanDescription.h")]
 // Dependencies UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -35,7 +35,7 @@ public:
   constexpr SkeletonBone(::StringW name, ::StringW parentName, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> (::GlobalNamespace::FloatFxTargetsBucket::*)()>(
     &::GlobalNamespace::FloatFxTargetsBucket::get_targets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59931f8;
+  constexpr static std::size_t addrs = 0x5dae0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxTargetsBucket*>(), { "get_targets", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxTargetsBucket::*)()>(&::GlobalNamespace::FloatFxTargetsBucket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5993200;
+  constexpr static std::size_t addrs = 0x5dae0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxTargetsBucket*>(), { ".ctor", {}, {} })));

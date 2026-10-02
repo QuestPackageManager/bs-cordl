@@ -27,16 +27,16 @@ public:
 
   __declspec(property(get = get_vertical)) float_t vertical;
 
-  /// @brief Method .ctor, addr 0x6dda310, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7279488, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t left, float_t top, float_t right, float_t bottom);
 
-  /// @brief Method get_horizontal, addr 0x6dda2f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal, addr 0x7279468, size 0x10, virtual false, abstract: false, final false
   inline float_t get_horizontal();
 
-  /// @brief Method get_vertical, addr 0x6dda300, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_vertical, addr 0x7279478, size 0x10, virtual false, abstract: false, final false
   inline float_t get_vertical();
 
-  /// @brief Method op_Subtraction, addr 0x6dda31c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x7279494, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect op_Subtraction(::UnityEngine::Rect r, ::UnityEngine::UIElements::Spacing a);
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr Spacing(float_t left, float_t top, float_t right, float_t bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

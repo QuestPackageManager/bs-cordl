@@ -128,7 +128,7 @@ public:
   CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,22 +143,25 @@ namespace UnityEngine::Rendering::Universal::Internal {
 class CORDL_TYPE CopyDepthPass_PassData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field cameraData, offset 0x20, size 0x8
+  /// @brief Field cameraData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_cameraData, put = __cordl_internal_set_cameraData)) ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData;
 
-  /// @brief Field copyDepthMaterial, offset 0x28, size 0x8
+  /// @brief Field copyDepthMaterial, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_copyDepthMaterial, put = __cordl_internal_set_copyDepthMaterial)) ::UnityW<::UnityEngine::Material> copyDepthMaterial;
 
-  /// @brief Field copyResolvedDepth, offset 0x34, size 0x1
+  /// @brief Field copyResolvedDepth, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get_copyResolvedDepth, put = __cordl_internal_set_copyResolvedDepth)) bool copyResolvedDepth;
 
-  /// @brief Field copyToDepth, offset 0x35, size 0x1
+  /// @brief Field copyToDepth, offset 0x45, size 0x1
   __declspec(property(get = __cordl_internal_get_copyToDepth, put = __cordl_internal_set_copyToDepth)) bool copyToDepth;
 
-  /// @brief Field isDstBackbuffer, offset 0x36, size 0x1
+  /// @brief Field destination, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_destination, put = __cordl_internal_set_destination)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination;
+
+  /// @brief Field isDstBackbuffer, offset 0x46, size 0x1
   __declspec(property(get = __cordl_internal_get_isDstBackbuffer, put = __cordl_internal_set_isDstBackbuffer)) bool isDstBackbuffer;
 
-  /// @brief Field msaaSamples, offset 0x30, size 0x4
+  /// @brief Field msaaSamples, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_msaaSamples, put = __cordl_internal_set_msaaSamples)) int32_t msaaSamples;
 
   /// @brief Field source, offset 0x10, size 0x10
@@ -182,6 +185,10 @@ public:
 
   constexpr bool& __cordl_internal_get_copyToDepth();
 
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_destination() const;
+
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_destination();
+
   constexpr bool const& __cordl_internal_get_isDstBackbuffer() const;
 
   constexpr bool& __cordl_internal_get_isDstBackbuffer();
@@ -202,13 +209,15 @@ public:
 
   constexpr void __cordl_internal_set_copyToDepth(bool value);
 
+  constexpr void __cordl_internal_set_destination(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+
   constexpr void __cordl_internal_set_isDstBackbuffer(bool value);
 
   constexpr void __cordl_internal_set_msaaSamples(int32_t value);
 
   constexpr void __cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x68fc160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d22fd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -226,27 +235,30 @@ public:
   CopyDepthPass_PassData(CopyDepthPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13311 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
 
-  /// @brief Field cameraData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field destination, offset: 0x20, size: 0x10, def value: None
+  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destination;
+
+  /// @brief Field cameraData, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
 
-  /// @brief Field copyDepthMaterial, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field copyDepthMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___copyDepthMaterial;
 
-  /// @brief Field msaaSamples, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field msaaSamples, offset: 0x40, size: 0x4, def value: None
   int32_t ___msaaSamples;
 
-  /// @brief Field copyResolvedDepth, offset: 0x34, size: 0x1, def value: None
+  /// @brief Field copyResolvedDepth, offset: 0x44, size: 0x1, def value: None
   bool ___copyResolvedDepth;
 
-  /// @brief Field copyToDepth, offset: 0x35, size: 0x1, def value: None
+  /// @brief Field copyToDepth, offset: 0x45, size: 0x1, def value: None
   bool ___copyToDepth;
 
-  /// @brief Field isDstBackbuffer, offset: 0x36, size: 0x1, def value: None
+  /// @brief Field isDstBackbuffer, offset: 0x46, size: 0x1, def value: None
   bool ___isDstBackbuffer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -254,19 +266,21 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___source) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___cameraData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___destination) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___copyDepthMaterial) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___cameraData) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___msaaSamples) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___copyDepthMaterial) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___copyResolvedDepth) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___msaaSamples) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___copyToDepth) == 0x35, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___copyResolvedDepth) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___isDstBackbuffer) == 0x36, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___copyToDepth) == 0x45, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData) == 0x38, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData, ___isDstBackbuffer) == 0x46, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
 // [CompilerGenerated]
@@ -280,28 +294,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* __9;
 
-  /// @brief Field <>9__38_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__38_0,
-                      put = setStaticF___9__38_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__38_0;
+  /// @brief Field <>9__28_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__28_0,
+                      put = setStaticF___9__28_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__28_0;
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* New_ctor();
 
-  /// @brief Method <Render>b__38_0, addr 0x68fd5d0, size 0x88, virtual false, abstract: false, final false
-  inline void _Render_b__38_0(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__28_0, addr 0x6d23034, size 0x100, virtual false, abstract: false, final false
+  inline void _Render_b__28_0(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x68fd5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d23030, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__38_0();
+  getStaticF___9__28_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* value);
 
-  static inline void setStaticF___9__38_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
+  static inline void setStaticF___9__28_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -319,7 +333,7 @@ public:
   CopyDepthPass___c(CopyDepthPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -346,75 +360,58 @@ public:
 
   __declspec(property(get = get_CopyToDepthXR, put = set_CopyToDepthXR)) bool CopyToDepthXR;
 
-  __declspec(property(get = get_MssaSamples, put = set_MssaSamples)) int32_t MssaSamples;
+  __declspec(property(get = get_MsaaSamples, put = set_MsaaSamples)) int32_t MsaaSamples;
 
-  /// @brief Field <CopyToBackbuffer>k__BackingField, offset 0xce, size 0x1
+  /// @brief Field <CopyToBackbuffer>k__BackingField, offset 0x62, size 0x1
   __declspec(property(get = __cordl_internal_get__CopyToBackbuffer_k__BackingField, put = __cordl_internal_set__CopyToBackbuffer_k__BackingField)) bool _CopyToBackbuffer_k__BackingField;
 
-  /// @brief Field <CopyToDepthXR>k__BackingField, offset 0xcd, size 0x1
+  /// @brief Field <CopyToDepthXR>k__BackingField, offset 0x61, size 0x1
   __declspec(property(get = __cordl_internal_get__CopyToDepthXR_k__BackingField, put = __cordl_internal_set__CopyToDepthXR_k__BackingField)) bool _CopyToDepthXR_k__BackingField;
 
-  /// @brief Field <CopyToDepth>k__BackingField, offset 0xcc, size 0x1
+  /// @brief Field <CopyToDepth>k__BackingField, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__CopyToDepth_k__BackingField, put = __cordl_internal_set__CopyToDepth_k__BackingField)) bool _CopyToDepth_k__BackingField;
 
-  /// @brief Field <MssaSamples>k__BackingField, offset 0xc8, size 0x4
-  __declspec(property(get = __cordl_internal_get__MssaSamples_k__BackingField, put = __cordl_internal_set__MssaSamples_k__BackingField)) int32_t _MssaSamples_k__BackingField;
+  /// @brief Field <MsaaSamples>k__BackingField, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get__MsaaSamples_k__BackingField, put = __cordl_internal_set__MsaaSamples_k__BackingField)) int32_t _MsaaSamples_k__BackingField;
 
-  /// @brief Field <destination>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__destination_k__BackingField,
-                      put = __cordl_internal_set__destination_k__BackingField)) ::UnityEngine::Rendering::RTHandle* _destination_k__BackingField;
-
-  /// @brief Field <source>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__source_k__BackingField, put = __cordl_internal_set__source_k__BackingField)) ::UnityEngine::Rendering::RTHandle* _source_k__BackingField;
-
-  __declspec(property(get = get_destination, put = set_destination)) ::UnityEngine::Rendering::RTHandle* destination;
-
-  /// @brief Field m_CopyDepthMaterial, offset 0xd0, size 0x8
+  /// @brief Field m_CopyDepthMaterial, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CopyDepthMaterial, put = __cordl_internal_set_m_CopyDepthMaterial)) ::UnityW<::UnityEngine::Material> m_CopyDepthMaterial;
 
-  /// @brief Field m_CopyResolvedDepth, offset 0xd8, size 0x1
+  /// @brief Field m_CopyResolvedDepth, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CopyResolvedDepth, put = __cordl_internal_set_m_CopyResolvedDepth)) bool m_CopyResolvedDepth;
 
-  /// @brief Field m_PassData, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* m_PassData;
-
-  /// @brief Field m_ShouldClear, offset 0xd9, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ShouldClear, put = __cordl_internal_set_m_ShouldClear)) bool m_ShouldClear;
-
-  __declspec(property(get = get_source, put = set_source)) ::UnityEngine::Rendering::RTHandle* source;
-
-  /// @brief Method Dispose, addr 0x68fc174, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d21d28, size 0x60, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68fc20c, size 0x1e0, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6d21b78, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68fc3ec, size 0x618, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d21d88, size 0x5e0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* passData,
-                                 ::UnityEngine::Rendering::RTHandle* source);
+                                 ::UnityEngine::Rendering::RTHandle* source, bool yflip);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader,
                                                                                        bool shouldClear, bool copyToDepth, bool copyResolvedDepth, ::StringW customPassName);
 
-  /// @brief Method OnCameraCleanup, addr 0x68fca04, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d22368, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method OnCameraSetup, addr 0x68fc1d4, size 0x38, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method OnCameraSetup, addr 0x6d21b74, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x68fcbb8, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d22464, size 0xa9c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool bindAsCameraDepth, ::StringW passName);
 
-  /// @brief Method Render, addr 0x68fcac0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d2236c, size 0xf8, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, bool bindAsCameraDepth,
                      ::StringW passName);
 
-  /// @brief Method Setup, addr 0x68fc164, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d21d1c, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination);
 
   constexpr bool const& __cordl_internal_get__CopyToBackbuffer_k__BackingField() const;
@@ -429,17 +426,9 @@ public:
 
   constexpr bool& __cordl_internal_get__CopyToDepth_k__BackingField();
 
-  constexpr int32_t const& __cordl_internal_get__MssaSamples_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__MsaaSamples_k__BackingField() const;
 
-  constexpr int32_t& __cordl_internal_get__MssaSamples_k__BackingField();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get__destination_k__BackingField() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get__destination_k__BackingField();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get__source_k__BackingField() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get__source_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__MsaaSamples_k__BackingField();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_CopyDepthMaterial() const;
 
@@ -449,85 +438,53 @@ public:
 
   constexpr bool& __cordl_internal_get_m_CopyResolvedDepth();
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*& __cordl_internal_get_m_PassData();
-
-  constexpr bool const& __cordl_internal_get_m_ShouldClear() const;
-
-  constexpr bool& __cordl_internal_get_m_ShouldClear();
-
   constexpr void __cordl_internal_set__CopyToBackbuffer_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__CopyToDepthXR_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__CopyToDepth_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set__MssaSamples_k__BackingField(int32_t value);
-
-  constexpr void __cordl_internal_set__destination_k__BackingField(::UnityEngine::Rendering::RTHandle* value);
-
-  constexpr void __cordl_internal_set__source_k__BackingField(::UnityEngine::Rendering::RTHandle* value);
+  constexpr void __cordl_internal_set__MsaaSamples_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set_m_CopyDepthMaterial(::UnityW<::UnityEngine::Material> value);
 
   constexpr void __cordl_internal_set_m_CopyResolvedDepth(bool value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* value);
-
-  constexpr void __cordl_internal_set_m_ShouldClear(bool value);
-
-  /// @brief Method .ctor, addr 0x68fbf80, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d21bbc, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear, bool copyToDepth, bool copyResolvedDepth,
                     ::StringW customPassName);
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyToBackbuffer, addr 0x68fbf70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToBackbuffer, addr 0x6d21bac, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToBackbuffer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyToDepth, addr 0x68fbf50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToDepth, addr 0x6d21b8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CopyToDepthXR, addr 0x68fbf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToDepthXR, addr 0x6d21b9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepthXR();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MssaSamples, addr 0x68fbf40, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_MssaSamples();
+  /// @brief Method get_MsaaSamples, addr 0x6d21b7c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_MsaaSamples();
 
   /// [CompilerGenerated]
-  /// @brief Method get_destination, addr 0x68fbf30, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RTHandle* get_destination();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_source, addr 0x68fbf20, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RTHandle* get_source();
-
-  /// [CompilerGenerated]
-  /// @brief Method set_CopyToBackbuffer, addr 0x68fbf78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToBackbuffer, addr 0x6d21bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToBackbuffer(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CopyToDepth, addr 0x68fbf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToDepth, addr 0x6d21b94, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepth(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CopyToDepthXR, addr 0x68fbf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToDepthXR, addr 0x6d21ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepthXR(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MssaSamples, addr 0x68fbf48, size 0x8, virtual false, abstract: false, final false
-  inline void set_MssaSamples(int32_t value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_destination, addr 0x68fbf38, size 0x8, virtual false, abstract: false, final false
-  inline void set_destination(::UnityEngine::Rendering::RTHandle* value);
-
-  /// [CompilerGenerated]
-  /// @brief Method set_source, addr 0x68fbf28, size 0x8, virtual false, abstract: false, final false
-  inline void set_source(::UnityEngine::Rendering::RTHandle* value);
+  /// @brief Method set_MsaaSamples, addr 0x6d21b84, size 0x8, virtual false, abstract: false, final false
+  inline void set_MsaaSamples(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -544,67 +501,45 @@ public:
   CopyDepthPass(CopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13313 };
 
   /// [CompilerGenerated]
-  /// @brief Field <source>k__BackingField, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ____source_k__BackingField;
+  /// @brief Field <MsaaSamples>k__BackingField, offset: 0x5c, size: 0x4, def value: None
+  int32_t ____MsaaSamples_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <destination>k__BackingField, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ____destination_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// @brief Field <MssaSamples>k__BackingField, offset: 0xc8, size: 0x4, def value: None
-  int32_t ____MssaSamples_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// @brief Field <CopyToDepth>k__BackingField, offset: 0xcc, size: 0x1, def value: None
+  /// @brief Field <CopyToDepth>k__BackingField, offset: 0x60, size: 0x1, def value: None
   bool ____CopyToDepth_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <CopyToDepthXR>k__BackingField, offset: 0xcd, size: 0x1, def value: None
+  /// @brief Field <CopyToDepthXR>k__BackingField, offset: 0x61, size: 0x1, def value: None
   bool ____CopyToDepthXR_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <CopyToBackbuffer>k__BackingField, offset: 0xce, size: 0x1, def value: None
+  /// @brief Field <CopyToBackbuffer>k__BackingField, offset: 0x62, size: 0x1, def value: None
   bool ____CopyToBackbuffer_k__BackingField;
 
-  /// @brief Field m_CopyDepthMaterial, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field m_CopyDepthMaterial, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_CopyDepthMaterial;
 
-  /// @brief Field m_CopyResolvedDepth, offset: 0xd8, size: 0x1, def value: None
+  /// @brief Field m_CopyResolvedDepth, offset: 0x70, size: 0x1, def value: None
   bool ___m_CopyResolvedDepth;
-
-  /// @brief Field m_ShouldClear, offset: 0xd9, size: 0x1, def value: None
-  bool ___m_ShouldClear;
-
-  /// @brief Field m_PassData, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* ___m_PassData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____source_k__BackingField) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____MsaaSamples_k__BackingField) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____destination_k__BackingField) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____CopyToDepth_k__BackingField) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____MssaSamples_k__BackingField) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____CopyToDepthXR_k__BackingField) == 0x61, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____CopyToDepth_k__BackingField) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____CopyToBackbuffer_k__BackingField) == 0x62, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____CopyToDepthXR_k__BackingField) == 0xcd, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ___m_CopyDepthMaterial) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ____CopyToBackbuffer_k__BackingField) == 0xce, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ___m_CopyResolvedDepth) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ___m_CopyDepthMaterial) == 0xd0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ___m_CopyResolvedDepth) == 0xd8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ___m_ShouldClear) == 0xd9, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass, ___m_PassData) == 0xe0, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass) == 0xe8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal

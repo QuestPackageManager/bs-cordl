@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cstdint>
 CORDL_MODULE_EXPORT(IPointerEventInternal)
 namespace UnityEngine::UIElements {
 class IMouseEvent;
@@ -22,33 +21,17 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IPointerEventInternal {
 public:
   // Declarations
-  __declspec(property(get = get_compatibilityMouseEvent, put = set_compatibilityMouseEvent)) ::UnityEngine::UIElements::IMouseEvent* compatibilityMouseEvent;
-
-  __declspec(property(put = set_displayIndex)) int32_t displayIndex;
-
-  __declspec(property(get = get_triggeredByOS, put = set_triggeredByOS)) bool triggeredByOS;
+  __declspec(property(get = get_compatibilityMouseEvent)) ::UnityEngine::UIElements::IMouseEvent* compatibilityMouseEvent;
 
   /// @brief Method get_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IMouseEvent* get_compatibilityMouseEvent();
-
-  /// @brief Method get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_triggeredByOS();
-
-  /// @brief Method set_compatibilityMouseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value);
-
-  /// @brief Method set_displayIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_displayIndex(int32_t value);
-
-  /// @brief Method set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_triggeredByOS(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerEventInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPointerEventInternal(IPointerEventInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

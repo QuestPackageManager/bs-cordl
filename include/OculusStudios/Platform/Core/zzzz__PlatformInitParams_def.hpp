@@ -23,6 +23,12 @@ template <typename T> class HashSet_1;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 // Forward declare root types
 namespace OculusStudios::Platform::Core {
 class PlatformInitParams;
@@ -57,10 +63,14 @@ public:
   /// @brief Field graphAppId, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get_graphAppId, put = __cordl_internal_set_graphAppId)) ::System::Nullable_1<uint64_t> graphAppId;
 
-  /// @brief Field logger, offset 0x40, size 0x8
+  /// @brief Field logger, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_logger, put = __cordl_internal_set_logger)) ::OculusStudios::Platform::Core::IPlatformLogger* logger;
 
-  /// @brief Field productDefinitions, offset 0x48, size 0x8
+  /// @brief Field metaApiUserAgentConfigureHeaders, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_metaApiUserAgentConfigureHeaders,
+                      put = __cordl_internal_set_metaApiUserAgentConfigureHeaders)) ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* metaApiUserAgentConfigureHeaders;
+
+  /// @brief Field productDefinitions, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_productDefinitions,
                       put = __cordl_internal_set_productDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* productDefinitions;
 
@@ -90,6 +100,10 @@ public:
 
   constexpr ::OculusStudios::Platform::Core::IPlatformLogger*& __cordl_internal_get_logger();
 
+  constexpr ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* const& __cordl_internal_get_metaApiUserAgentConfigureHeaders() const;
+
+  constexpr ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>*& __cordl_internal_get_metaApiUserAgentConfigureHeaders();
+
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* const& __cordl_internal_get_productDefinitions() const;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>*& __cordl_internal_get_productDefinitions();
@@ -106,9 +120,11 @@ public:
 
   constexpr void __cordl_internal_set_logger(::OculusStudios::Platform::Core::IPlatformLogger* value);
 
+  constexpr void __cordl_internal_set_metaApiUserAgentConfigureHeaders(::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* value);
+
   constexpr void __cordl_internal_set_productDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* value);
 
-  /// @brief Method .ctor, addr 0x5f2ede4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634a448, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +142,7 @@ public:
   PlatformInitParams(PlatformInitParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23198 };
 
   /// @brief Field achievementIdDefinitions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ___achievementIdDefinitions;
@@ -144,10 +160,13 @@ public:
   /// @brief Field graphAppId, offset: 0x30, size: 0x10, def value: None
   ::System::Nullable_1<uint64_t> ___graphAppId;
 
-  /// @brief Field logger, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field metaApiUserAgentConfigureHeaders, offset: 0x40, size: 0x8, def value: None
+  ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>* ___metaApiUserAgentConfigureHeaders;
+
+  /// @brief Field logger, offset: 0x48, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatformLogger* ___logger;
 
-  /// @brief Field productDefinitions, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field productDefinitions, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* ___productDefinitions;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -163,10 +182,12 @@ static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___g
 
 static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___graphAppId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___logger) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___metaApiUserAgentConfigureHeaders) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___productDefinitions) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___logger) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::OculusStudios::Platform::Core::PlatformInitParams) == 0x50, "Size mismatch!");
+static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___productDefinitions) == 0x50, "Offset mismatch!");
+
+static_assert(sizeof(::OculusStudios::Platform::Core::PlatformInitParams) == 0x58, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Core

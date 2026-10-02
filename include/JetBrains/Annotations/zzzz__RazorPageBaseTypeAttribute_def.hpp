@@ -49,26 +49,26 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e3e2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x6e3e2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9e14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW baseType, ::StringW pageName);
 
   /// [CompilerGenerated]
-  /// @brief Method get_BaseType, addr 0x6e3e2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x72d9e1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_PageName, addr 0x6e3e2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x72d9e2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
   /// [CompilerGenerated]
-  /// @brief Method set_BaseType, addr 0x6e3e2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x72d9e24, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_PageName, addr 0x6e3e2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x72d9e34, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23407 };
 
   /// [CompilerGenerated]
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None

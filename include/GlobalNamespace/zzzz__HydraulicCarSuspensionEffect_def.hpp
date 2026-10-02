@@ -85,35 +85,35 @@ public:
   /// @brief Field _springJoint, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__springJoint, put = __cordl_internal_set__springJoint)) ::UnityW<::UnityEngine::SpringJoint> _springJoint;
 
-  /// @brief Method Awake, addr 0x3288ca8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x350f41c, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleContractBeatmapEvent, addr 0x3288fec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleContractBeatmapEvent, addr 0x350f760, size 0xb4, virtual false, abstract: false, final false
   inline void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleExpandBeatmapEvent, addr 0x32890a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleExpandBeatmapEvent, addr 0x350f814, size 0xb4, virtual false, abstract: false, final false
   inline void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarSuspensionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3288fe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x350f75c, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3288f98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x350f70c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3288f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x350f708, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   /// [Inject]
   /// [UsedImplicitly]
-  /// @brief Method OnInject, addr 0x3288da4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnInject, addr 0x350f518, size 0x4, virtual false, abstract: false, final false
   inline void OnInject();
 
-  /// @brief Method TrySubscribe, addr 0x3288da8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TrySubscribe, addr 0x350f51c, size 0x1ec, virtual false, abstract: false, final false
   inline void TrySubscribe();
 
-  /// @brief Method TryUnsubscribe, addr 0x3288f9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TryUnsubscribe, addr 0x350f710, size 0x4c, virtual false, abstract: false, final false
   inline void TryUnsubscribe();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__springJoint(::UnityW<::UnityEngine::SpringJoint> value);
 
-  /// @brief Method .ctor, addr 0x3289154, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350f8c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -212,7 +212,7 @@ public:
   HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24229 };
 
   /// [SerializeField]
   /// @brief Field _contractEvent, offset: 0x20, size: 0x4, def value: None

@@ -25,7 +25,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TabDragPreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d747a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7206328, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -47,11 +47,11 @@ public:
   TabDragPreview(TabDragPreview const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::TabDragPreview) == 0x4a8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::TabDragPreview) == 0x2c8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlReason::*)(int32_t)>(&::Org::BouncyCastle::Asn1::X509::CrlReason::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x365a2d0;
+  constexpr static std::size_t addrs = 0x38e356c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlReason::*)(::Org::BouncyCastle::Asn1::DerEnumerated*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlReason::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x365a33c;
+  constexpr static std::size_t addrs = 0x38e35d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::CrlReason::*)()>(&::Org::BouncyCastle::Asn1::X509::CrlReason::ToString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x365a3bc;
+  constexpr static std::size_t addrs = 0x38e3658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

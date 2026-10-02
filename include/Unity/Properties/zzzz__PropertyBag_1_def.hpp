@@ -153,7 +153,7 @@ public:
   PropertyBag_1(PropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20750 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

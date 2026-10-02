@@ -83,7 +83,7 @@ public:
   ValueAnimation_1___c(ValueAnimation_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -413,7 +413,7 @@ public:
   ValueAnimation_1(ValueAnimation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5621 };
 
   /// @brief Field m_StartTimeMs, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_StartTimeMs;
@@ -421,8 +421,8 @@ public:
   /// @brief Field m_DurationMs, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_DurationMs;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <easingCurve>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<float_t, float_t>* ____easingCurve_k__BackingField;
 
@@ -441,13 +441,13 @@ public:
   /// @brief Field <autoRecycle>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____autoRecycle_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <recycled>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____recycled_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <owner>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____owner_k__BackingField;
 
@@ -472,8 +472,8 @@ public:
   /// @brief Field fromValueSet, offset: 0x68, size: 0x1, def value: None
   bool ___fromValueSet;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <to>k__BackingField, offset: 0x70, size: 0x8, def value: None
   T ____to_k__BackingField;
 

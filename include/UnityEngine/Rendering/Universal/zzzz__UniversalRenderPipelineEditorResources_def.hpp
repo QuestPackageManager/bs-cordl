@@ -38,7 +38,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipeline
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources*, "UnityEngine.Rendering.Universal",
                     "UniversalRenderPipelineEditorResources/ShaderResources");
 // [ReloadGroup]
-// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(23.3)", false)]
+// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(2023.3)")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainDetailLitPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6874758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca3b40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12958 };
 
   /// [Reload("Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field autodeskInteractivePS, offset: 0x10, size: 0x8, def value: None
@@ -197,7 +197,7 @@ static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelin
 
 } // namespace UnityEngine::Rendering::Universal
 // [ReloadGroup]
-// [Obsolete("UniversalRenderPipelineEditorResources.MaterialResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorMaterials>(). #from(23.3)", false)]
+// [Obsolete("UniversalRenderPipelineEditorResources.MaterialResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorMaterials>(). #from(2023.3)")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainLit(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x687475c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca3b44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,7 +261,7 @@ public:
   UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };
 
   /// [Reload("Runtime/Materials/Lit.mat", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field lit, offset: 0x10, size: 0x8, def value: None
@@ -293,7 +293,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// [Obsolete("Moved to GraphicsSettings. #from(23.3)", false)]
+// [Obsolete("Moved to GraphicsSettings. #from(2023.3)")]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x6874750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca3b38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,13 +344,13 @@ public:
   UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12960 };
 
-  /// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(23.3)", false)]
+  /// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(2023.3)")]
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* ___shaders;
 
-  /// [Obsolete("UniversalRenderPipelineEditorResources.MaterialResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorMaterials>(). #from(23.3)", false)]
+  /// [Obsolete("UniversalRenderPipelineEditorResources.MaterialResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorMaterials>(). #from(2023.3)")]
   /// @brief Field materials, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources* ___materials;
 

@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_technique(::UnityEngine::Rendering::Universal::DecalTechniqueOption value);
 
-  /// @brief Method .ctor, addr 0x68adb0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce6d2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   DecalSettings(DecalSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13150 };
 
   /// @brief Field technique, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DecalTechniqueOption ___technique;

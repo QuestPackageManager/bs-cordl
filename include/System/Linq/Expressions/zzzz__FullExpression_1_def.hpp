@@ -83,7 +83,7 @@ public:
   FullExpression_1(FullExpression_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16711 };
 
   /// [CompilerGenerated]
   /// @brief Field <NameCore>k__BackingField, offset: 0x20, size: 0x8, def value: None

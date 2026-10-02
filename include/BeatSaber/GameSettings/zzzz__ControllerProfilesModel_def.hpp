@@ -132,14 +132,14 @@ public:
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel___c* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <GetControllerProfilesSaveData>b__27_0, addr 0x3292c9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetControllerProfilesSaveData>b__27_0, addr 0x351950c, size 0x14, virtual false, abstract: false, final false
   inline bool _GetControllerProfilesSaveData_b__27_0(::BeatSaber::GameSettings::ControllerProfile* profile);
 
   /// [NullableContext(0)]
-  /// @brief Method <GetControllerProfilesSaveData>b__27_1, addr 0x3292cb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetControllerProfilesSaveData>b__27_1, addr 0x3519520, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfileSaveData* _GetControllerProfilesSaveData_b__27_1(::BeatSaber::GameSettings::ControllerProfile* profile);
 
-  /// @brief Method .ctor, addr 0x3292c98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3519508, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel___c* getStaticF___9();
@@ -169,7 +169,7 @@ public:
   ControllerProfilesModel___c(ControllerProfilesModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,34 +214,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3292d64, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35195d4, size 0x88, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatSaber.GameSettings.ControllerProfile>.GetEnumerator, addr 0x3292e34, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatSaber.GameSettings.ControllerProfile>.GetEnumerator, addr 0x35196a4, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::BeatSaber::GameSettings::ControllerProfile*>* System_Collections_Generic_IEnumerable_BeatSaber_GameSettings_ControllerProfile__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatSaber.GameSettings.ControllerProfile>.get_Current, addr 0x3292dec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatSaber.GameSettings.ControllerProfile>.get_Current, addr 0x351965c, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GameSettings::ControllerProfile* System_Collections_Generic_IEnumerator_BeatSaber_GameSettings_ControllerProfile__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3292ec0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3519730, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3292df4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3519664, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3292e2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x351969c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3292d60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35195d0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -263,7 +263,7 @@ public:
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3292964, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35191d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>"
@@ -298,7 +298,7 @@ public:
   ControllerProfilesModel__GetBuiltInProfiles_d__25(ControllerProfilesModel__GetBuiltInProfiles_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22784 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -332,11 +332,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3292ec4, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3519734, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3293108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3519978, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -354,7 +354,7 @@ public:
                                                       ::BeatSaber::GameSettings::ControllerProfilesModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22785 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -397,11 +397,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3293110, size 0x504, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3519980, size 0x504, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3293748, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3519fb8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -420,7 +420,7 @@ public:
                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22786 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -499,44 +499,44 @@ public:
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
   /// [IteratorStateMachine(typeof(BeatSaber.GameSettings.ControllerProfilesModel::<GetBuiltInProfiles>d__25))]
-  /// @brief Method GetBuiltInProfiles, addr 0x329219c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInProfiles, addr 0x3518a0c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>* GetBuiltInProfiles();
 
-  /// @brief Method GetControllerProfilesSaveData, addr 0x3292650, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetControllerProfilesSaveData, addr 0x3518ec0, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* GetControllerProfilesSaveData();
 
-  /// @brief Method GetDefaultController, addr 0x3292bdc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultController, addr 0x351944c, size 0x68, virtual false, abstract: false, final false
   static inline ::BeatSaber::GameSettings::Controller GetDefaultController();
 
-  /// @brief Method GetDefaultControllersProfile, addr 0x3292ae8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultControllersProfile, addr 0x3519358, size 0xf4, virtual false, abstract: false, final false
   static inline ::BeatSaber::GameSettings::ControllerProfile* GetDefaultControllersProfile(::StringW localizationKey, int32_t index, bool modifiable);
 
-  /// @brief Method GetDefaultCustomControllerProfile, addr 0x3292984, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCustomControllerProfile, addr 0x35191f4, size 0x130, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* GetDefaultCustomControllerProfile(int32_t profileIndex);
 
-  /// @brief Method GetSelectedProfileIndexFromSettings, addr 0x3292918, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedProfileIndexFromSettings, addr 0x3519188, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetSelectedProfileIndexFromSettings(int32_t builtInProfilesCount);
 
   /// [AsyncStateMachine(typeof(BeatSaber.GameSettings.ControllerProfilesModel::<Initialize>d__19))]
-  /// @brief Method Initialize, addr 0x3292204, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3518a74, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(BeatSaber.GameSettings.ControllerProfilesModel::<LoadAsync>d__20))]
-  /// @brief Method LoadAsync, addr 0x32922a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x3518b18, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel* New_ctor();
 
-  /// @brief Method OnControllerProfilesUI, addr 0x32928f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnControllerProfilesUI, addr 0x3519168, size 0x20, virtual false, abstract: false, final false
   inline void OnControllerProfilesUI(bool opened);
 
-  /// @brief Method RefreshControllersReference, addr 0x329252c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshControllersReference, addr 0x3518d9c, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshControllersReference();
 
-  /// @brief Method SaveAsync, addr 0x32925d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x3518e44, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method UpdateSelectedProfile, addr 0x3292358, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateSelectedProfile, addr 0x3518bc8, size 0x1cc, virtual false, abstract: false, final false
   inline void UpdateSelectedProfile(int32_t newSelectedProfileIndex, bool forceUpdate);
 
   constexpr ::BeatSaber::GameSettings::ControllerProfileFileModel* const& __cordl_internal_get__fileModel() const;
@@ -575,22 +575,22 @@ public:
 
   constexpr void __cordl_internal_set_onControllerProfilesUIEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x32920b0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3518920, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method add_onControllerProfilesUIEvent, addr 0x3291f30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onControllerProfilesUIEvent, addr 0x35187a0, size 0xc0, virtual false, abstract: false, final false
   inline void add_onControllerProfilesUIEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_profiles, addr 0x3291ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_profiles, addr 0x3518730, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::GameSettings::ControllerProfile*>* get_profiles();
 
-  /// @brief Method get_selectedProfile, addr 0x3291ed8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_selectedProfile, addr 0x3518748, size 0x58, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* get_selectedProfile();
 
   /// [CompilerGenerated]
-  /// @brief Method get_selectedProfileIndex, addr 0x3291ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedProfileIndex, addr 0x3518738, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedProfileIndex();
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -598,11 +598,11 @@ public:
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method remove_onControllerProfilesUIEvent, addr 0x3291ff0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onControllerProfilesUIEvent, addr 0x3518860, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onControllerProfilesUIEvent(::System::Action_1<bool>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_selectedProfileIndex, addr 0x3291ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedProfileIndex, addr 0x3518740, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedProfileIndex(int32_t value);
 
 protected:
@@ -620,7 +620,7 @@ public:
   ControllerProfilesModel(ControllerProfilesModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22787 };
 
   /// @brief Field kCustomLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCustomLocalizationKey{ u"CONTROLLER_PROFILES_LABEL_CUSTOM" };

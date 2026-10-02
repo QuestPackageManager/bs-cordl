@@ -36,24 +36,24 @@ public:
   __declspec(property(get = __cordl_internal_get__secondaryBindInfos,
                       put = __cordl_internal_set__secondaryBindInfos)) ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _secondaryBindInfos;
 
-  /// @brief Method AddSecondaryCopyBindInfo, addr 0x6e4f058, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddSecondaryCopyBindInfo, addr 0x72eb9d4, size 0x104, virtual false, abstract: false, final false
   inline void AddSecondaryCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers, addr 0x6e49c00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoAllSubContainers, addr 0x72e5758, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers, addr 0x6e4f274, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x72ebbf0, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers, addr 0x6e4f290, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoAllSubContainers, addr 0x72ebc0c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers, addr 0x6e4f2ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x72ebc28, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
 
   static inline ::Zenject::CopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method SetInheritanceMethod, addr 0x6e4f15c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetInheritanceMethod, addr 0x72ebad8, size 0x118, virtual false, abstract: false, final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* const& __cordl_internal_get__secondaryBindInfos() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__secondaryBindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x6e4afcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72e7948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -80,7 +80,7 @@ public:
   CopyNonLazyBinder(CopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14303 };
 
   /// @brief Field _secondaryBindInfos, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* ____secondaryBindInfos;

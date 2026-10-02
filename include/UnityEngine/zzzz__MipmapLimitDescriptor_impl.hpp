@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::MipmapLimitDescriptor::*)()>(&::UnityEngine::MipmapLimitDescriptor::get_useMipmapLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac78e8;
+  constexpr static std::size_t addrs = 0x6f207f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MipmapLimitDescriptor>(), { "get_useMipmapLimit", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::MipmapLimitDescriptor::*)()>(&::UnityEngine::MipmapLimitDescriptor::get_groupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac78f0;
+  constexpr static std::size_t addrs = 0x6f20800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MipmapLimitDescriptor>(), { "get_groupName", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MipmapLimitDescriptor::*)(bool, ::StringW)>(&::UnityEngine::MipmapLimitDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ac78f8;
+  constexpr static std::size_t addrs = 0x6f20808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

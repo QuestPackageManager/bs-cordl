@@ -356,7 +356,7 @@ public:
   EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2(EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13711 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -440,7 +440,7 @@ public:
   DefaultContractResolver_EnumerableDictionaryWrapper_2(DefaultContractResolver_EnumerableDictionaryWrapper_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13712 };
 
   /// [Nullable(new[] { 1, 0, 1, 1 })]
   /// @brief Field _e, offset: 0x10, size: 0x8, def value: None
@@ -483,30 +483,30 @@ public:
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <CreateProperties>b__75_0, addr 0x5d3f6a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <CreateProperties>b__75_0, addr 0x6159284, size 0x6c, virtual false, abstract: false, final false
   inline int32_t _CreateProperties_b__75_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
 
   /// [NullableContext(0)]
-  /// @brief Method <GetAttributeConstructor>b__47_0, addr 0x5d3f61c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <GetAttributeConstructor>b__47_0, addr 0x6159200, size 0x84, virtual false, abstract: false, final false
   inline bool _GetAttributeConstructor_b__47_0(::System::Reflection::ConstructorInfo* c);
 
   /// [NullableContext(0)]
-  /// @brief Method <GetExtensionDataMemberForType>b__44_0, addr 0x5d3f190, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <GetExtensionDataMemberForType>b__44_0, addr 0x6158d74, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* _GetExtensionDataMemberForType_b__44_0(::System::Type* baseType);
 
   /// [NullableContext(0)]
-  /// @brief Method <GetExtensionDataMemberForType>b__44_1, addr 0x5d3f274, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method <GetExtensionDataMemberForType>b__44_1, addr 0x6158e58, size 0x3a8, virtual false, abstract: false, final false
   inline bool _GetExtensionDataMemberForType_b__44_1(::System::Reflection::MemberInfo* m);
 
   /// [NullableContext(0)]
-  /// @brief Method <GetSerializableMembers>b__40_0, addr 0x5d3f064, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializableMembers>b__40_0, addr 0x6158c48, size 0xb8, virtual false, abstract: false, final false
   inline bool _GetSerializableMembers_b__40_0(::System::Reflection::MemberInfo* m);
 
   /// [NullableContext(0)]
-  /// @brief Method <GetSerializableMembers>b__40_1, addr 0x5d3f11c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializableMembers>b__40_1, addr 0x6158d00, size 0x74, virtual false, abstract: false, final false
   inline bool _GetSerializableMembers_b__40_1(::System::Reflection::MemberInfo* m);
 
-  /// @brief Method .ctor, addr 0x5d3f060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6158c44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c* getStaticF___9();
@@ -552,7 +552,7 @@ public:
   DefaultContractResolver___c(DefaultContractResolver___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -573,7 +573,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass42_0* New_ctor();
 
-  /// @brief Method <CreateObjectContract>b__0, addr 0x5d3f70c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateObjectContract>b__0, addr 0x61592f0, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _CreateObjectContract_b__0(::StringW s);
 
   constexpr ::Newtonsoft::Json::Serialization::NamingStrategy* const& __cordl_internal_get_namingStrategy() const;
@@ -582,7 +582,7 @@ public:
 
   constexpr void __cordl_internal_set_namingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
-  /// @brief Method .ctor, addr 0x5d36f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6150af0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -600,7 +600,7 @@ public:
   DefaultContractResolver___c__DisplayClass42_0(DefaultContractResolver___c__DisplayClass42_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13714 };
 
   /// [Nullable(0)]
   /// @brief Field namingStrategy, offset: 0x10, size: 0x8, def value: None
@@ -643,7 +643,7 @@ public:
 
   constexpr void __cordl_internal_set_member(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x5d38538, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615211c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -661,7 +661,7 @@ public:
   DefaultContractResolver___c__DisplayClass45_0(DefaultContractResolver___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13715 };
 
   /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field getExtensionDataDictionary, offset: 0x10, size: 0x8, def value: None
@@ -707,7 +707,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1* New_ctor();
 
-  /// @brief Method <SetExtensionDataDelegates>b__0, addr 0x5d3f728, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method <SetExtensionDataDelegates>b__0, addr 0x615930c, size 0x1fc, virtual false, abstract: false, final false
   inline void _SetExtensionDataDelegates_b__0(::System::Object* o, ::StringW key, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -734,7 +734,7 @@ public:
 
   constexpr void __cordl_internal_set_setExtensionDataDictionaryValue(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d3853c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6152120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -752,7 +752,7 @@ public:
   DefaultContractResolver___c__DisplayClass45_1(DefaultContractResolver___c__DisplayClass45_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13716 };
 
   /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field setExtensionDataDictionary, offset: 0x10, size: 0x8, def value: None
@@ -802,7 +802,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_2* New_ctor();
 
-  /// @brief Method <SetExtensionDataDelegates>b__1, addr 0x5d3f924, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <SetExtensionDataDelegates>b__1, addr 0x6159508, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* _SetExtensionDataDelegates_b__1(::System::Object* o);
 
   constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_0* const& __cordl_internal_get_CS$__8__locals2() const;
@@ -817,7 +817,7 @@ public:
 
   constexpr void __cordl_internal_set_createEnumerableWrapper(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d38688, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615226c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -835,7 +835,7 @@ public:
   DefaultContractResolver___c__DisplayClass45_2(DefaultContractResolver___c__DisplayClass45_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13717 };
 
   /// [Nullable(new[] { 0, 1 })]
   /// @brief Field createEnumerableWrapper, offset: 0x10, size: 0x8, def value: None
@@ -868,7 +868,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass62_0* New_ctor();
 
-  /// @brief Method <CreateDictionaryContract>b__0, addr 0x5d3fa40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateDictionaryContract>b__0, addr 0x6159624, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _CreateDictionaryContract_b__0(::StringW s);
 
   constexpr ::Newtonsoft::Json::Serialization::NamingStrategy* const& __cordl_internal_get_namingStrategy() const;
@@ -877,7 +877,7 @@ public:
 
   constexpr void __cordl_internal_set_namingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
-  /// @brief Method .ctor, addr 0x5d3be54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6155a38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -895,7 +895,7 @@ public:
   DefaultContractResolver___c__DisplayClass62_0(DefaultContractResolver___c__DisplayClass62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13718 };
 
   /// [Nullable(0)]
   /// @brief Field namingStrategy, offset: 0x10, size: 0x8, def value: None
@@ -922,7 +922,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass67_0* New_ctor();
 
-  /// @brief Method <CreateDynamicContract>b__0, addr 0x5d3fa5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateDynamicContract>b__0, addr 0x6159640, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _CreateDynamicContract_b__0(::StringW s);
 
   constexpr ::Newtonsoft::Json::Serialization::NamingStrategy* const& __cordl_internal_get_namingStrategy() const;
@@ -931,7 +931,7 @@ public:
 
   constexpr void __cordl_internal_set_namingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
-  /// @brief Method .ctor, addr 0x5d3d730, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6157314, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -949,7 +949,7 @@ public:
   DefaultContractResolver___c__DisplayClass67_0(DefaultContractResolver___c__DisplayClass67_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13719 };
 
   /// [Nullable(0)]
   /// @brief Field namingStrategy, offset: 0x10, size: 0x8, def value: None
@@ -977,7 +977,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass80_0* New_ctor();
 
-  /// @brief Method <CreateShouldSerializeTest>b__0, addr 0x5d3fa78, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <CreateShouldSerializeTest>b__0, addr 0x615965c, size 0xf0, virtual false, abstract: false, final false
   inline bool _CreateShouldSerializeTest_b__0(::System::Object* o);
 
   constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* const& __cordl_internal_get_shouldSerializeCall() const;
@@ -986,7 +986,7 @@ public:
 
   constexpr void __cordl_internal_set_shouldSerializeCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d3eb3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6158720, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1004,7 +1004,7 @@ public:
   DefaultContractResolver___c__DisplayClass80_0(DefaultContractResolver___c__DisplayClass80_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13720 };
 
   /// [Nullable(new[] { 0, 1, 2 })]
   /// @brief Field shouldSerializeCall, offset: 0x10, size: 0x8, def value: None
@@ -1031,7 +1031,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass81_0* New_ctor();
 
-  /// @brief Method <SetIsSpecifiedActions>b__0, addr 0x5d3fb68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <SetIsSpecifiedActions>b__0, addr 0x615974c, size 0x50, virtual false, abstract: false, final false
   inline bool _SetIsSpecifiedActions_b__0(::System::Object* o);
 
   constexpr ::System::Func_2<::System::Object*, ::System::Object*>* const& __cordl_internal_get_specifiedPropertyGet() const;
@@ -1040,7 +1040,7 @@ public:
 
   constexpr void __cordl_internal_set_specifiedPropertyGet(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d3eb40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6158724, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1058,7 +1058,7 @@ public:
   DefaultContractResolver___c__DisplayClass81_0(DefaultContractResolver___c__DisplayClass81_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13721 };
 
   /// [Nullable(new[] { 0, 1, 1 })]
   /// @brief Field specifiedPropertyGet, offset: 0x10, size: 0x8, def value: None
@@ -1167,63 +1167,63 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IContractResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IContractResolver*() noexcept;
 
-  /// @brief Method CanConvertToString, addr 0x5d3dc34, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CanConvertToString, addr 0x6157818, size 0xf0, virtual false, abstract: false, final false
   static inline bool CanConvertToString(::System::Type* type);
 
-  /// @brief Method CreateArrayContract, addr 0x5d3be58, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method CreateArrayContract, addr 0x6155a3c, size 0x328, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonArrayContract* CreateArrayContract(::System::Type* objectType);
 
-  /// @brief Method CreateConstructorParameters, addr 0x5d388ec, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method CreateConstructorParameters, addr 0x61524d0, size 0x180, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::JsonProperty*>*
   CreateConstructorParameters(::System::Reflection::ConstructorInfo* constructor, ::Newtonsoft::Json::Serialization::JsonPropertyCollection* memberProperties);
 
-  /// @brief Method CreateContract, addr 0x5d3d7ac, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method CreateContract, addr 0x6157390, size 0x420, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* CreateContract(::System::Type* objectType);
 
-  /// @brief Method CreateDictionaryContract, addr 0x5d3af84, size 0x524, virtual true, abstract: false, final false
+  /// @brief Method CreateDictionaryContract, addr 0x6154b68, size 0x524, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonDictionaryContract* CreateDictionaryContract(::System::Type* objectType);
 
-  /// @brief Method CreateDynamicContract, addr 0x5d3d36c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method CreateDynamicContract, addr 0x6156f50, size 0x214, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonDynamicContract* CreateDynamicContract(::System::Type* objectType);
 
-  /// @brief Method CreateISerializableContract, addr 0x5d3d124, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method CreateISerializableContract, addr 0x6156d08, size 0x22c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonISerializableContract* CreateISerializableContract(::System::Type* objectType);
 
-  /// @brief Method CreateLinqContract, addr 0x5d3d08c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CreateLinqContract, addr 0x6156c70, size 0x7c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonLinqContract* CreateLinqContract(::System::Type* objectType);
 
-  /// @brief Method CreateMemberValueProvider, addr 0x5d3e39c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateMemberValueProvider, addr 0x6157f80, size 0x60, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IValueProvider* CreateMemberValueProvider(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method CreateObjectContract, addr 0x5d36648, size 0x604, virtual true, abstract: false, final false
+  /// @brief Method CreateObjectContract, addr 0x615022c, size 0x604, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonObjectContract* CreateObjectContract(::System::Type* objectType);
 
-  /// @brief Method CreatePrimitiveContract, addr 0x5d3cf14, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreatePrimitiveContract, addr 0x6156af8, size 0x74, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPrimitiveContract* CreatePrimitiveContract(::System::Type* objectType);
 
-  /// @brief Method CreateProperties, addr 0x5d3dfa4, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method CreateProperties, addr 0x6157b88, size 0x3f0, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::JsonProperty*>* CreateProperties(::System::Type* type, ::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method CreateProperty, addr 0x5d3e3fc, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method CreateProperty, addr 0x6157fe0, size 0x224, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* CreateProperty(::System::Reflection::MemberInfo* member, ::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method CreatePropertyFromConstructorParameter, addr 0x5d38ec0, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method CreatePropertyFromConstructorParameter, addr 0x6152aa4, size 0x2dc, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* CreatePropertyFromConstructorParameter(/* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* matchingMemberProperty,
                                                                                                  ::System::Reflection::ParameterInfo* parameterInfo);
 
-  /// @brief Method CreateShouldSerializeTest, addr 0x5d3e620, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method CreateShouldSerializeTest, addr 0x6158204, size 0x240, virtual false, abstract: false, final false
   inline ::System::Predicate_1<::System::Object*>* CreateShouldSerializeTest(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method CreateStringContract, addr 0x5d3d734, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CreateStringContract, addr 0x6157318, size 0x78, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonStringContract* CreateStringContract(::System::Type* objectType);
 
-  /// @brief Method FilterMembers, addr 0x5d35740, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FilterMembers, addr 0x614f324, size 0x154, virtual false, abstract: false, final false
   static inline bool FilterMembers(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method GetAttributeConstructor, addr 0x5d36f10, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeConstructor, addr 0x6150af4, size 0x4f8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* GetAttributeConstructor(::System::Type* objectType);
 
-  /// @brief Method GetCallbackMethodsForType, addr 0x5d39ab8, size 0x8c4, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackMethodsForType, addr 0x615369c, size 0x8c4, virtual false, abstract: false, final false
   inline void GetCallbackMethodsForType(::System::Type* type,
                                         /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerializing,
                                         /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerialized,
@@ -1231,92 +1231,92 @@ public:
                                         /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserialized,
                                         /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> onError);
 
-  /// @brief Method GetClassHierarchyForType, addr 0x5d383a0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetClassHierarchyForType, addr 0x6151f84, size 0x198, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* GetClassHierarchyForType(::System::Type* type);
 
-  /// @brief Method GetClrTypeFullName, addr 0x5d3de9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullName, addr 0x6157a80, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullName(::System::Type* type);
 
-  /// @brief Method GetDefaultCreator, addr 0x5d398c4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCreator, addr 0x61534a8, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Func_1<::System::Object*>* GetDefaultCreator(::System::Type* createdType);
 
-  /// @brief Method GetExtensionDataMemberForType, addr 0x5d37788, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionDataMemberForType, addr 0x615136c, size 0x1d8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetExtensionDataMemberForType(::System::Type* type);
 
-  /// @brief Method GetImmutableConstructor, addr 0x5d374bc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetImmutableConstructor, addr 0x61510a0, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* GetImmutableConstructor(::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonPropertyCollection* memberProperties);
 
-  /// @brief Method GetNameTable, addr 0x5d3e394, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNameTable, addr 0x6157f78, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::DefaultJsonNameTable* GetNameTable();
 
-  /// @brief Method GetParameterizedConstructor, addr 0x5d37474, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetParameterizedConstructor, addr 0x6151058, size 0x48, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* GetParameterizedConstructor(::System::Type* objectType);
 
-  /// @brief Method GetResolvedPropertyName, addr 0x5d3ebac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedPropertyName, addr 0x6158790, size 0x10, virtual false, abstract: false, final false
   inline ::StringW GetResolvedPropertyName(::StringW propertyName);
 
-  /// @brief Method GetSerializableMembers, addr 0x5d35894, size 0xca8, virtual true, abstract: false, final false
+  /// @brief Method GetSerializableMembers, addr 0x614f478, size 0xca8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* GetSerializableMembers(::System::Type* objectType);
 
-  /// @brief Method InitializeContract, addr 0x5d36ccc, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method InitializeContract, addr 0x61508b0, size 0x240, virtual false, abstract: false, final false
   inline void InitializeContract(::Newtonsoft::Json::Serialization::JsonContract* contract);
 
-  /// @brief Method IsConcurrentOrObservableCollection, addr 0x5d3ae3c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IsConcurrentOrObservableCollection, addr 0x6154a20, size 0x148, virtual false, abstract: false, final false
   static inline bool IsConcurrentOrObservableCollection(::System::Type* t);
 
-  /// @brief Method IsIConvertible, addr 0x5d3dd24, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method IsIConvertible, addr 0x6157908, size 0x178, virtual false, abstract: false, final false
   static inline bool IsIConvertible(::System::Type* t);
 
-  /// @brief Method IsJsonPrimitiveType, addr 0x5d3dbcc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsJsonPrimitiveType, addr 0x61577b0, size 0x68, virtual false, abstract: false, final false
   static inline bool IsJsonPrimitiveType(::System::Type* t);
 
-  /// @brief Method IsValidCallback, addr 0x5d3a72c, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method IsValidCallback, addr 0x6154310, size 0x5c0, virtual false, abstract: false, final false
   static inline bool IsValidCallback(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters, ::System::Type* attributeType,
                                      /* [Nullable(2)] */ ::System::Reflection::MethodInfo* currentCallback, /* [Nullable(2)] */ ::by_ref<::System::Type*> prevAttributeType);
 
-  /// @brief Method MatchProperty, addr 0x5d3888c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MatchProperty, addr 0x6152470, size 0x60, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* MatchProperty(::Newtonsoft::Json::Serialization::JsonPropertyCollection* properties, ::StringW name, ::System::Type* type);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolver* New_ctor();
 
-  /// @brief Method ResolveCallbackMethods, addr 0x5d3996c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ResolveCallbackMethods, addr 0x6153550, size 0x14c, virtual false, abstract: false, final false
   inline void ResolveCallbackMethods(::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Type* t);
 
-  /// @brief Method ResolveContract, addr 0x5d356b8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ResolveContract, addr 0x614f29c, size 0x88, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
 
-  /// @brief Method ResolveContractConverter, addr 0x5d39868, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ResolveContractConverter, addr 0x615344c, size 0x5c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* ResolveContractConverter(::System::Type* objectType);
 
-  /// @brief Method ResolveDictionaryKey, addr 0x5d3eb80, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResolveDictionaryKey, addr 0x6158764, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW ResolveDictionaryKey(::StringW dictionaryKey);
 
-  /// @brief Method ResolveExtensionDataName, addr 0x5d3eb64, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ResolveExtensionDataName, addr 0x6158748, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ResolveExtensionDataName(::StringW extensionDataName);
 
-  /// @brief Method ResolvePropertyName, addr 0x5d3eb44, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x6158728, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW propertyName);
 
-  /// @brief Method SetExtensionDataDelegates, addr 0x5d37960, size 0x7e4, virtual false, abstract: false, final false
+  /// @brief Method SetExtensionDataDelegates, addr 0x6151544, size 0x7e4, virtual false, abstract: false, final false
   static inline void SetExtensionDataDelegates(::Newtonsoft::Json::Serialization::JsonObjectContract* contract, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method SetIsSpecifiedActions, addr 0x5d3e860, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method SetIsSpecifiedActions, addr 0x6158444, size 0x2dc, virtual false, abstract: false, final false
   inline void SetIsSpecifiedActions(::Newtonsoft::Json::Serialization::JsonProperty* property, ::System::Reflection::MemberInfo* member, bool allowNonPublicAccess);
 
-  /// @brief Method SetPropertySettingsFromAttributes, addr 0x5d391e4, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method SetPropertySettingsFromAttributes, addr 0x6152dc8, size 0x5d4, virtual false, abstract: false, final false
   inline void SetPropertySettingsFromAttributes(::Newtonsoft::Json::Serialization::JsonProperty* property, ::System::Object* attributeProvider, ::StringW name, ::System::Type* declaringType,
                                                 ::Newtonsoft::Json::MemberSerialization memberSerialization, ::by_ref<bool> allowNonPublicAccess);
 
-  /// @brief Method ShouldSerializeEntityMember, addr 0x5d3653c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ShouldSerializeEntityMember, addr 0x6150120, size 0x10c, virtual false, abstract: false, final false
   inline bool ShouldSerializeEntityMember(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ShouldSkipDeserialized, addr 0x5d3a654, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ShouldSkipDeserialized, addr 0x6154238, size 0xd8, virtual false, abstract: false, final false
   static inline bool ShouldSkipDeserialized(::System::Type* t);
 
-  /// @brief Method ShouldSkipSerializing, addr 0x5d3a57c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ShouldSkipSerializing, addr 0x6154160, size 0xd8, virtual false, abstract: false, final false
   static inline bool ShouldSkipSerializing(::System::Type* t);
 
-  /// @brief Method ThrowUnableToSerializeError, addr 0x5d3830c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowUnableToSerializeError, addr 0x6151ef0, size 0x94, virtual false, abstract: false, final false
   static inline void ThrowUnableToSerializeError(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::System::Reflection::BindingFlags const& __cordl_internal_get__DefaultMembersSearchFlags_k__BackingField() const;
@@ -1373,7 +1373,7 @@ public:
 
   constexpr void __cordl_internal_set__nameTable(::Newtonsoft::Json::DefaultJsonNameTable* value);
 
-  /// @brief Method .ctor, addr 0x5d35050, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614ec34, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF_BlacklistedTypeNames();
@@ -1383,38 +1383,38 @@ public:
   static inline ::Newtonsoft::Json::Serialization::IContractResolver* getStaticF__instance();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DefaultMembersSearchFlags, addr 0x5d35648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultMembersSearchFlags, addr 0x614f22c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::BindingFlags get_DefaultMembersSearchFlags();
 
-  /// @brief Method get_DynamicCodeGeneration, addr 0x5d355f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DynamicCodeGeneration, addr 0x614f1d8, size 0x54, virtual false, abstract: false, final false
   inline bool get_DynamicCodeGeneration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IgnoreIsSpecifiedMembers, addr 0x5d35688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreIsSpecifiedMembers, addr 0x614f26c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreIsSpecifiedMembers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IgnoreSerializableAttribute, addr 0x5d35678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreSerializableAttribute, addr 0x614f25c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreSerializableAttribute();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IgnoreSerializableInterface, addr 0x5d35668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreSerializableInterface, addr 0x614f24c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreSerializableInterface();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IgnoreShouldSerializeMembers, addr 0x5d35698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreShouldSerializeMembers, addr 0x614f27c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreShouldSerializeMembers();
 
-  /// @brief Method get_Instance, addr 0x5d35598, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x614f17c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Serialization::IContractResolver* get_Instance();
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method get_NamingStrategy, addr 0x5d356a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamingStrategy, addr 0x614f28c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategy();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SerializeCompilerGeneratedMembers, addr 0x5d35658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializeCompilerGeneratedMembers, addr 0x614f23c, size 0x8, virtual false, abstract: false, final false
   inline bool get_SerializeCompilerGeneratedMembers();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IContractResolver"
@@ -1427,32 +1427,32 @@ public:
   static inline void setStaticF__instance(::Newtonsoft::Json::Serialization::IContractResolver* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DefaultMembersSearchFlags, addr 0x5d35650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultMembersSearchFlags, addr 0x614f234, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultMembersSearchFlags(::System::Reflection::BindingFlags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IgnoreIsSpecifiedMembers, addr 0x5d35690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreIsSpecifiedMembers, addr 0x614f274, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreIsSpecifiedMembers(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IgnoreSerializableAttribute, addr 0x5d35680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreSerializableAttribute, addr 0x614f264, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreSerializableAttribute(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IgnoreSerializableInterface, addr 0x5d35670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreSerializableInterface, addr 0x614f254, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreSerializableInterface(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IgnoreShouldSerializeMembers, addr 0x5d356a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreShouldSerializeMembers, addr 0x614f284, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreShouldSerializeMembers(bool value);
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method set_NamingStrategy, addr 0x5d356b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamingStrategy, addr 0x614f294, size 0x8, virtual false, abstract: false, final false
   inline void set_NamingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_SerializeCompilerGeneratedMembers, addr 0x5d35660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SerializeCompilerGeneratedMembers, addr 0x614f244, size 0x8, virtual false, abstract: false, final false
   inline void set_SerializeCompilerGeneratedMembers(bool value);
 
 protected:
@@ -1470,7 +1470,7 @@ public:
   DefaultContractResolver(DefaultContractResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13722 };
 
   /// @brief Field _nameTable, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::DefaultJsonNameTable* ____nameTable;

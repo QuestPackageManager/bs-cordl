@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::SplitToning::*)()>(&::UnityEngine::Rendering::Universal::SplitToning::IsActive)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x687f9a4;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6cbee98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SplitToning*>(), { "IsActive", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::SplitToning::*)()>(&::UnityEngine::Rendering::Universal::SplitToning::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687fa30;
+  constexpr static std::size_t addrs = 0x6cbef48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SplitToning*>(), { "IsTileCompatible", {}, {} })));
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SplitToning::*)()>(&::UnityEngine::Rendering::Universal::SplitToning::_ctor)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x687fa38;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x6cbef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SplitToning*>(), { ".ctor", {}, {} })));

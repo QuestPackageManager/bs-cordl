@@ -67,6 +67,9 @@ public:
   /// @brief Field ChromaticAberration offset 0xffffffff size 0x8
   static constexpr ::ConstString ChromaticAberration{ u"_CHROMATIC_ABERRATION" };
 
+  /// @brief Field ClusterLightLoop offset 0xffffffff size 0x8
+  static constexpr ::ConstString ClusterLightLoop{ u"_CLUSTER_LIGHT_LOOP" };
+
   /// @brief Field DBufferMRT1 offset 0xffffffff size 0x8
   static constexpr ::ConstString DBufferMRT1{ u"_DBUFFER_MRT1" };
 
@@ -169,6 +172,9 @@ public:
   /// @brief Field HighQualitySampling offset 0xffffffff size 0x8
   static constexpr ::ConstString HighQualitySampling{ u"_HIGH_QUALITY_SAMPLING" };
 
+  /// @brief Field LIGHTMAP_BICUBIC_SAMPLING offset 0xffffffff size 0x8
+  static constexpr ::ConstString LIGHTMAP_BICUBIC_SAMPLING{ u"LIGHTMAP_BICUBIC_SAMPLING" };
+
   /// @brief Field LIGHTMAP_ON offset 0xffffffff size 0x8
   static constexpr ::ConstString LIGHTMAP_ON{ u"LIGHTMAP_ON" };
 
@@ -199,6 +205,12 @@ public:
   /// @brief Field MixedLightingSubtractive offset 0xffffffff size 0x8
   static constexpr ::ConstString MixedLightingSubtractive{ u"_MIXED_LIGHTING_SUBTRACTIVE" };
 
+  /// @brief Field Msaa2 offset 0xffffffff size 0x8
+  static constexpr ::ConstString Msaa2{ u"_MSAA_2" };
+
+  /// @brief Field Msaa4 offset 0xffffffff size 0x8
+  static constexpr ::ConstString Msaa4{ u"_MSAA_4" };
+
   /// @brief Field PaniniGeneric offset 0xffffffff size 0x8
   static constexpr ::ConstString PaniniGeneric{ u"_GENERIC" };
 
@@ -217,17 +229,26 @@ public:
   /// @brief Field Rcas offset 0xffffffff size 0x8
   static constexpr ::ConstString Rcas{ u"_RCAS" };
 
+  /// @brief Field ReflectionProbeAtlas offset 0xffffffff size 0x8
+  static constexpr ::ConstString ReflectionProbeAtlas{ u"_REFLECTION_PROBE_ATLAS" };
+
   /// @brief Field ReflectionProbeBlending offset 0xffffffff size 0x8
   static constexpr ::ConstString ReflectionProbeBlending{ u"_REFLECTION_PROBE_BLENDING" };
 
   /// @brief Field ReflectionProbeBoxProjection offset 0xffffffff size 0x8
   static constexpr ::ConstString ReflectionProbeBoxProjection{ u"_REFLECTION_PROBE_BOX_PROJECTION" };
 
+  /// @brief Field ReflectionProbeRotation offset 0xffffffff size 0x8
+  static constexpr ::ConstString ReflectionProbeRotation{ u"REFLECTION_PROBE_ROTATION" };
+
   /// @brief Field RenderPassEnabled offset 0xffffffff size 0x8
   static constexpr ::ConstString RenderPassEnabled{ u"_RENDER_PASS_ENABLED" };
 
   /// @brief Field SCREEN_COORD_OVERRIDE offset 0xffffffff size 0x8
   static constexpr ::ConstString SCREEN_COORD_OVERRIDE{ u"SCREEN_COORD_OVERRIDE" };
+
+  /// @brief Field ScreenSpaceIrradiance offset 0xffffffff size 0x8
+  static constexpr ::ConstString ScreenSpaceIrradiance{ u"_SCREEN_SPACE_IRRADIANCE" };
 
   /// @brief Field ScreenSpaceOcclusion offset 0xffffffff size 0x8
   static constexpr ::ConstString ScreenSpaceOcclusion{ u"_SCREEN_SPACE_OCCLUSION" };
@@ -344,7 +365,7 @@ public:
   static constexpr ::ConstString _SURFACE_TYPE_TRANSPARENT{ u"_SURFACE_TYPE_TRANSPARENT" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

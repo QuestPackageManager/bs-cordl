@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::FxEventBox::*)()>(&::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f134;
+  constexpr static std::size_t addrs = 0x39e8814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventBox*>(), { "get_vfxDistributionParam", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::DistributionParamType (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f13c;
+  constexpr static std::size_t addrs = 0x39e881c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventBox*>(), { "get_vfxDistributionParamType", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionEaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f144;
+  constexpr static std::size_t addrs = 0x39e8824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventBox*>(), { "get_vfxDistributionEaseType", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::FxEventBox::*)()>(&::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionShouldAffectFirstBaseEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x375f14c;
+  constexpr static std::size_t addrs = 0x39e882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<int32_t>* (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxBaseDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f15c;
+  constexpr static std::size_t addrs = 0x39e883c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventBox*>(), { "get_vfxBaseDataList", {}, {} })));
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
     ::BeatmapSaveDataVersion3::IndexFilter*, float_t, ::BeatmapSaveDataCommon::DistributionParamType, float_t, ::BeatmapSaveDataCommon::DistributionParamType, ::BeatmapSaveDataCommon::EaseType, bool,
     ::System::Collections::Generic::List_1<int32_t>*)>(&::BeatmapSaveDataVersion3::FxEventBox::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x375f164;
+  constexpr static std::size_t addrs = 0x39e8844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

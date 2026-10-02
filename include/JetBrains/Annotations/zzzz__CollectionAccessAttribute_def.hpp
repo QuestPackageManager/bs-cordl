@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  /// @brief Method .ctor, addr 0x6a60ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eb2aec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
 protected:
@@ -54,10 +54,10 @@ public:
   CollectionAccessAttribute(CollectionAccessAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9613 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <CollectionAccessType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::CollectionAccessType ____CollectionAccessType_k__BackingField;
 

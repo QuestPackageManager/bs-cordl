@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PointerDownEvent)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class IMouseEvent;
+}
+namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
@@ -37,10 +43,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da3f78, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x7232828, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da3f74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7232824, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent___c* getStaticF___9();
@@ -62,7 +68,7 @@ public:
   PointerDownEvent___c(PointerDownEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,21 +86,27 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerDownEvent___c;
 
-  /// @brief Method Init, addr 0x6da3ac4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x7232764, size 0x6c, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method GetPooledCompatibilityMouseEvent, addr 0x723247c, size 0x58, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::IMouseEvent* GetPooledCompatibilityMouseEvent();
+
+  /// @brief Method Init, addr 0x723231c, size 0x88, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6da3b18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x72323a4, size 0x50, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6da3d40, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x7232584, size 0x1e0, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x6da3c14, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x72324d4, size 0xb0, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6da3bc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72323f4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,11 +124,11 @@ public:
   PointerDownEvent(PointerDownEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::PointerDownEvent) == 0xf8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::PointerDownEvent) == 0x118, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

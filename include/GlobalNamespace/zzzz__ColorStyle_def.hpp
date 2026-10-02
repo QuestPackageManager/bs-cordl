@@ -123,16 +123,16 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x36f82dc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x39815a0, size 0xcc, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method CloneGradient, addr 0x36f843c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CloneGradient, addr 0x3981700, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Gradient* CloneGradient(::UnityEngine::Gradient* gradient);
 
-  /// @brief Method Copy, addr 0x36f8520, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x39817e4, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorStyle* Copy();
 
-  /// @brief Method Lerp, addr 0x36f7e14, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x39810d8, size 0x4c8, virtual false, abstract: false, final false
   inline void Lerp(::GlobalNamespace::IReadOnlyColorStyle* from, ::GlobalNamespace::IReadOnlyColorStyle* to, float_t t, ::GlobalNamespace::LerpMask mask);
 
   static inline ::GlobalNamespace::ColorStyle* New_ctor();
@@ -233,37 +233,37 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectMultiStepGradient(bool value);
 
-  /// @brief Method .ctor, addr 0x36f83a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398166c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x36f7b04, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color, addr 0x3980dc8, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color0, addr 0x36f7bb8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color0, addr 0x3980e7c, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x36f7c4c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color1, addr 0x3980f10, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_flipGradientColors, addr 0x36f7cf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flipGradientColors, addr 0x3980fb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_flipGradientColors();
 
-  /// @brief Method get_globalLightTintIntensity, addr 0x36f7b98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_globalLightTintIntensity, addr 0x3980e5c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_globalLightTintIntensity();
 
-  /// @brief Method get_gradient, addr 0x36f7ba8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradient, addr 0x3980e6c, size 0x8, virtual true, abstract: false, final true
   inline bool get_gradient();
 
-  /// @brief Method get_gradientDirection, addr 0x36f7ce0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradientDirection, addr 0x3980fa4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GradientDirection get_gradientDirection();
 
-  /// @brief Method get_multiStepGradient, addr 0x36f7d08, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_multiStepGradient, addr 0x3980fcc, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Gradient* get_multiStepGradient();
 
-  /// @brief Method get_useMultiStepGradient, addr 0x36f7cf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useMultiStepGradient, addr 0x3980fbc, size 0x8, virtual true, abstract: false, final true
   inline bool get_useMultiStepGradient();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x36f7af4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useScriptableObjectColor, addr 0x3980db8, size 0x8, virtual true, abstract: false, final true
   inline bool get_useScriptableObjectColor();
 
   /// @brief Convert to "::GlobalNamespace::IReadOnlyColorStyle"
@@ -272,31 +272,31 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_color, addr 0x36f7b8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3980e50, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color0, addr 0x36f7c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color0, addr 0x3980f04, size 0xc, virtual false, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x36f7cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color1, addr 0x3980f98, size 0xc, virtual false, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_globalLightTintIntensity, addr 0x36f7ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_globalLightTintIntensity, addr 0x3980e64, size 0x8, virtual false, abstract: false, final false
   inline void set_globalLightTintIntensity(float_t value);
 
-  /// @brief Method set_gradient, addr 0x36f7bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x3980e74, size 0x8, virtual false, abstract: false, final false
   inline void set_gradient(bool value);
 
-  /// @brief Method set_gradientDirection, addr 0x36f7ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradientDirection, addr 0x3980fac, size 0x8, virtual false, abstract: false, final false
   inline void set_gradientDirection(::GlobalNamespace::GradientDirection value);
 
-  /// @brief Method set_multiStepGradient, addr 0x36f7e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiStepGradient, addr 0x39810d0, size 0x8, virtual false, abstract: false, final false
   inline void set_multiStepGradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method set_useMultiStepGradient, addr 0x36f7d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useMultiStepGradient, addr 0x3980fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_useMultiStepGradient(bool value);
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x36f7afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColor, addr 0x3980dc0, size 0x8, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:
@@ -314,7 +314,7 @@ public:
   ColorStyle(ColorStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23892 };
 
   /// [SerializeField]
   /// @brief Field _useScriptableObjectColor, offset: 0x10, size: 0x1, def value: None

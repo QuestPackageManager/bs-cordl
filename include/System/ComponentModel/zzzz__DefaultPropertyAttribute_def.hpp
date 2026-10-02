@@ -33,10 +33,10 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Equals, addr 0x63bfc90, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x67e7f5c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x63bfd10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67e7fdc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::DefaultPropertyAttribute* New_ctor(::StringW name);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x63bfc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7f4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::System::ComponentModel::DefaultPropertyAttribute* getStaticF_Default();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x63bfc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x67e7f54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   static inline void setStaticF_Default(::System::ComponentModel::DefaultPropertyAttribute* value);
@@ -73,7 +73,7 @@ public:
   DefaultPropertyAttribute(DefaultPropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12190 };
 
   /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None

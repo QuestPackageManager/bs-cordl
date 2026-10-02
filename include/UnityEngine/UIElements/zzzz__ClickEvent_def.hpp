@@ -38,10 +38,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ClickEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6da556c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x7233ec4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ClickEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6da5568, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7233ec0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ClickEvent___c* getStaticF___9();
@@ -63,7 +63,7 @@ public:
   ClickEvent___c(ClickEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,18 +80,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::ClickEvent___c;
 
-  /// @brief Method GetPooled, addr 0x6da5498, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x7233df0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ClickEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* pointerEvent, int32_t clickCount);
 
-  /// @brief Method Init, addr 0x6da53dc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7233d34, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6da5434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x7233d8c, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6da5440, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7233d98, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,11 +109,11 @@ public:
   ClickEvent(ClickEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4550 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::ClickEvent) == 0xf8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::ClickEvent) == 0x118, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

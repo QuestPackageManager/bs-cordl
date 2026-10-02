@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)()>(&::UnityEngine::InputSystem::Controls::IntegerControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64fbd30;
+  constexpr static std::size_t addrs = 0x6924b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::IntegerControl*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::IntegerControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x64fbdb4;
+  constexpr static std::size_t addrs = 0x6924c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::IntegerControl*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)(int32_t, void*)>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64fbe60;
+  constexpr static std::size_t addrs = 0x6924cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::IntegerControl*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::IntegerControl::*)()>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x64fbf14;
+  constexpr static std::size_t addrs = 0x6924d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::IntegerControl*>(),

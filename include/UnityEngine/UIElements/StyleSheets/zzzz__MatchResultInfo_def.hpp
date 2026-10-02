@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE MatchResultInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d16dc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71c811c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask, ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr MatchResultInfo(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask, ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

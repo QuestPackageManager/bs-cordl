@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -50,7 +51,7 @@ public:
   constexpr TempAllocator_1_Page(::Unity::Collections::NativeArray_1<T> array, int32_t used) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -65,7 +66,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.Object, UnityEngine.UIElements.UIR.TempAllocator`1::Page<T>
+// Dependencies System.Object, Unity.Collections.MemoryLabel, UnityEngine.UIElements.UIR.TempAllocator`1::Page<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -80,6 +81,9 @@ public:
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+
+  /// @brief Field k_MemoryLabel, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_k_MemoryLabel, put = setStaticF_k_MemoryLabel)) ::Unity::Collections::MemoryLabel k_MemoryLabel;
 
   /// @brief Field m_Excess, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Excess,
@@ -159,12 +163,16 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t poolCapacity, int32_t excessMinCapacity, int32_t excessMaxCapacity);
 
+  static inline ::Unity::Collections::MemoryLabel getStaticF_k_MemoryLabel();
+
   /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  static inline void setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value);
 
   /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -185,7 +193,7 @@ public:
   TempAllocator_1(TempAllocator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5465 };
 
   /// @brief Field m_ExcessMinCapacity, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_ExcessMinCapacity;
@@ -202,8 +210,8 @@ public:
   /// @brief Field m_NextExcessSize, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_NextExcessSize;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x3c, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

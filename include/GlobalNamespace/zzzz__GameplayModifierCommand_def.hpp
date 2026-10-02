@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32d16dc, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x356017c, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method GetGameplayModifierString, addr 0x32d2e68, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method GetGameplayModifierString, addr 0x3561908, size 0x728, virtual false, abstract: false, final false
   inline ::StringW GetGameplayModifierString();
 
   static inline ::GlobalNamespace::GameplayModifierCommand* New_ctor();
 
-  /// @brief Method PrintModifierState, addr 0x32d22f4, size 0xb74, virtual false, abstract: false, final false
+  /// @brief Method PrintModifierState, addr 0x3560d94, size 0xb74, virtual false, abstract: false, final false
   inline void PrintModifierState(::StringW modifierName, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method SetModifierState, addr 0x32d18ac, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method SetModifierState, addr 0x356034c, size 0xa48, virtual false, abstract: false, final false
   inline bool SetModifierState(::StringW modifierName, bool state, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>* const& __cordl_internal_get__modifierName() const;
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set__set(::GlobalNamespace::OptionalArgument_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x32d3590, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3562030, size 0x490, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32d1654, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x35600f4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32d1698, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3560138, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -105,7 +105,7 @@ public:
   GameplayModifierCommand(GameplayModifierCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19734 };
 
   /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None

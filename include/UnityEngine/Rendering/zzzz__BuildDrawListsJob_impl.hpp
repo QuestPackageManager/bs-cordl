@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t*)>(&::UnityEngine::Rendering::BuildDrawListsJob::IncrementCounter)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x681c0dc;
+  constexpr static std::size_t addrs = 0x6c4f020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BuildDrawListsJob::*)(int32_t)>(&::UnityEngine::Rendering::BuildDrawListsJob::Execute)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x681c12c;
+  constexpr static std::size_t addrs = 0x6c4f070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -57,15 +57,15 @@ public:
   /// @brief Field _trackLaneRingsManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__trackLaneRingsManager, put = __cordl_internal_set__trackLaneRingsManager)) ::UnityW<::GlobalNamespace::TrackLaneRingsManager> _trackLaneRingsManager;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x59a8cd4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5dc3f84, size 0x80, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59a8cb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dc3f68, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59a8b90, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc3e40, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingsManager(::UnityW<::GlobalNamespace::TrackLaneRingsManager> value);
 
-  /// @brief Method .ctor, addr 0x59a8d54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc4004, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   TrackLaneRingsPositionStepEffectSpawner(TrackLaneRingsPositionStepEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6110 };
 
   /// [SerializeField]
   /// @brief Field _trackLaneRingsManager, offset: 0x20, size: 0x8, def value: None

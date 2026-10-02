@@ -18,13 +18,12 @@
 #include "UnityEngine/UIElements/UIR/zzzz__Entry_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderData_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderTreeManager_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
 // Ctor Parameters [CppParam { name: "vertices", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "indices", ty: "::Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers: "", def_value:
 // Some("{}"), comment: None }]
@@ -42,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::get_firstHeadCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e4c;
+  constexpr static std::size_t addrs = 0x7169074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "get_firstHeadCommand", {}, {} })));
@@ -55,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::set_firstHeadCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e54;
+  constexpr static std::size_t addrs = 0x716907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
@@ -69,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::get_lastHeadCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e5c;
+  constexpr static std::size_t addrs = 0x7169084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "get_lastHeadCommand", {}, {} })));
@@ -82,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::set_lastHeadCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e64;
+  constexpr static std::size_t addrs = 0x716908c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
@@ -96,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::get_firstTailCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e6c;
+  constexpr static std::size_t addrs = 0x7169094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "get_firstTailCommand", {}, {} })));
@@ -109,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::set_firstTailCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e74;
+  constexpr static std::size_t addrs = 0x716909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
@@ -123,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::get_lastTailCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e7c;
+  constexpr static std::size_t addrs = 0x71690a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "get_lastTailCommand", {}, {} })));
@@ -136,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::set_lastTailCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd9e84;
+  constexpr static std::size_t addrs = 0x71690ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
@@ -148,17 +147,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(
-    ::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIR::EntryProcessor::Init)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6cd9e8c;
+    ::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::RenderTreeManager*, ::UnityEngine::UIElements::UIR::RenderData*)>(&::UnityEngine::UIElements::UIR::EntryProcessor::Init)> {
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x71690b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
                                                              { "Init",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderChain*>(),
-                                                                 ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderTreeManager*>(),
+                                                                 ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderData*>() } })));
     return ___internal_method;
   }
 };
@@ -167,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryProcessor::ClearReferences)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6cda0dc;
+  constexpr static std::size_t addrs = 0x71692ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "ClearReferences", {}, {} })));
@@ -179,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryProcessor::ProcessHead)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6cda114;
+  constexpr static std::size_t addrs = 0x7169324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "ProcessHead", {}, {} })));
@@ -191,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryProcessor::ProcessTail)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6cdac38;
+  constexpr static std::size_t addrs = 0x7169d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "ProcessTail", {}, {} })));
@@ -202,8 +201,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::EntryProcessor::ProcessRange)> {
-  constexpr static std::size_t size = 0x994;
-  constexpr static std::size_t addrs = 0x6cda2a4;
+  constexpr static std::size_t size = 0x8a8;
+  constexpr static std::size_t addrs = 0x71694b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,8 +215,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::ProcessMeshEntry)> {
-  constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x6cdad54;
+  constexpr static std::size_t size = 0x81c;
+  constexpr static std::size_t addrs = 0x7169e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryProcessor::DrawReverseMask)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6cdb364;
+  constexpr static std::size_t addrs = 0x716a694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "DrawReverseMask", {}, {} })));
@@ -244,8 +243,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (
     ::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::MeshHandle*, int32_t, int32_t, ::UnityEngine::Material*, ::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::CreateMeshDrawCommand)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6cdba04;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x716aaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)(::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::AppendCommand)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6cdbae4;
+  constexpr static std::size_t addrs = 0x716ad24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
@@ -278,7 +277,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>*, ::by_ref<::UnityEngine::UIElements::UIR::MeshHandle*>)>(
     &::UnityEngine::UIElements::UIR::EntryProcessor::ProcessFirstAlloc)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6cda174;
+  constexpr static std::size_t addrs = 0x7169384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryProcessor::ProcessNextAlloc)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6cdb854;
+  constexpr static std::size_t addrs = 0x716a940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "ProcessNextAlloc", {}, {} })));
@@ -310,7 +309,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>>, ::by_ref<uint16_t>,
                          ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(&::UnityEngine::UIElements::UIR::EntryProcessor::UpdateOrAllocate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6cdbb24;
+  constexpr static std::size_t addrs = 0x716ad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,40 +324,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryProcessor.CreateBlitShader
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(float_t)>(&::UnityEngine::UIElements::UIR::EntryProcessor::CreateBlitShader)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6cdbc14;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "CreateBlitShader", {}, { ::i2c::type_of<float_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryProcessor.GetBlitMaterial
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::UIElements::VisualElement_RenderTargetMode)>(
-    &::UnityEngine::UIElements::UIR::EntryProcessor::GetBlitMaterial)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6cdb610;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
-                                                             { "GetBlitMaterial", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement_RenderTargetMode>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::EntryProcessor._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryProcessor::*)()>(&::UnityEngine::UIElements::UIR::EntryProcessor::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6cdbe10;
+  constexpr static std::size_t addrs = 0x716ae54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { ".ctor", {}, {} })));
@@ -377,29 +348,29 @@ constexpr void UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PreProcessor = value;
 }
-constexpr ::UnityEngine::UIElements::UIR::RenderChain*& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_RenderChain() {
+constexpr ::UnityEngine::UIElements::UIR::RenderTreeManager*& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_RenderTreeManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RenderChain;
+  return this->___m_RenderTreeManager;
 }
-constexpr ::UnityEngine::UIElements::UIR::RenderChain* const& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_RenderChain() const {
+constexpr ::UnityEngine::UIElements::UIR::RenderTreeManager* const& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_RenderTreeManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RenderChain;
+  return this->___m_RenderTreeManager;
 }
-constexpr void UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_set_m_RenderChain(::UnityEngine::UIElements::UIR::RenderChain* value) {
+constexpr void UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_set_m_RenderTreeManager(::UnityEngine::UIElements::UIR::RenderTreeManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_RenderChain = value;
+  this->___m_RenderTreeManager = value;
 }
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_CurrentElement() {
+constexpr ::UnityEngine::UIElements::UIR::RenderData*& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_CurrentRenderData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CurrentElement;
+  return this->___m_CurrentRenderData;
 }
-constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_CurrentElement() const {
+constexpr ::UnityEngine::UIElements::UIR::RenderData* const& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_CurrentRenderData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CurrentElement;
+  return this->___m_CurrentRenderData;
 }
-constexpr void UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_set_m_CurrentElement(::UnityEngine::UIElements::VisualElement* value) {
+constexpr void UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_set_m_CurrentRenderData(::UnityEngine::UIElements::UIR::RenderData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_CurrentElement = value;
+  this->___m_CurrentRenderData = value;
 }
 constexpr int32_t& UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_get_m_MaskDepth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -823,33 +794,6 @@ constexpr void UnityEngine::UIElements::UIR::EntryProcessor::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastTailCommand_k__BackingField = value;
 }
-inline void UnityEngine::UIElements::UIR::EntryProcessor::setStaticF_s_blitMaterial_LinearToGamma(::UnityW<::UnityEngine::Material> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Material>, "s_blitMaterial_LinearToGamma", ::UnityEngine::UIElements::UIR::EntryProcessor*>(
-      std::forward<::UnityW<::UnityEngine::Material>>(value));
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::UIR::EntryProcessor::getStaticF_s_blitMaterial_LinearToGamma() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_blitMaterial_LinearToGamma", ::UnityEngine::UIElements::UIR::EntryProcessor*>();
-}
-inline void UnityEngine::UIElements::UIR::EntryProcessor::setStaticF_s_blitMaterial_GammaToLinear(::UnityW<::UnityEngine::Material> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Material>, "s_blitMaterial_GammaToLinear", ::UnityEngine::UIElements::UIR::EntryProcessor*>(
-      std::forward<::UnityW<::UnityEngine::Material>>(value));
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::UIR::EntryProcessor::getStaticF_s_blitMaterial_GammaToLinear() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_blitMaterial_GammaToLinear", ::UnityEngine::UIElements::UIR::EntryProcessor*>();
-}
-inline void UnityEngine::UIElements::UIR::EntryProcessor::setStaticF_s_blitMaterial_NoChange(::UnityW<::UnityEngine::Material> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Material>, "s_blitMaterial_NoChange", ::UnityEngine::UIElements::UIR::EntryProcessor*>(
-      std::forward<::UnityW<::UnityEngine::Material>>(value));
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::UIR::EntryProcessor::getStaticF_s_blitMaterial_NoChange() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_blitMaterial_NoChange", ::UnityEngine::UIElements::UIR::EntryProcessor*>();
-}
-inline void UnityEngine::UIElements::UIR::EntryProcessor::setStaticF_s_blitShader(::UnityW<::UnityEngine::Shader> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "s_blitShader", ::UnityEngine::UIElements::UIR::EntryProcessor*>(std::forward<::UnityW<::UnityEngine::Shader>>(value));
-}
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::UIElements::UIR::EntryProcessor::getStaticF_s_blitShader() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "s_blitShader", ::UnityEngine::UIElements::UIR::EntryProcessor*>();
-}
 inline ::UnityEngine::UIElements::UIR::RenderChainCommand* UnityEngine::UIElements::UIR::EntryProcessor::get_firstHeadCommand() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "get_firstHeadCommand", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::RenderChainCommand*>(this, ___internal_method);
@@ -886,15 +830,15 @@ inline void UnityEngine::UIElements::UIR::EntryProcessor::set_lastTailCommand(::
                                                                                          { "set_lastTailCommand", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderChainCommand*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::UIR::EntryProcessor::Init(::UnityEngine::UIElements::UIR::Entry* root, ::UnityEngine::UIElements::UIR::RenderChain* renderChain,
-                                                               ::UnityEngine::UIElements::VisualElement* ve) {
+inline void UnityEngine::UIElements::UIR::EntryProcessor::Init(::UnityEngine::UIElements::UIR::Entry* root, ::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager,
+                                                               ::UnityEngine::UIElements::UIR::RenderData* renderData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
                                                            { "Init",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderChain*>(),
-                                                               ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, root, renderChain, ve);
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::UIR::Entry*>(), ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderTreeManager*>(),
+                                                               ::i2c::type_of<::UnityEngine::UIElements::UIR::RenderData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, root, renderTreeManager, renderData);
 }
 inline void UnityEngine::UIElements::UIR::EntryProcessor::ClearReferences() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "ClearReferences", {}, {} })));
@@ -968,16 +912,6 @@ inline void UnityEngine::UIElements::UIR::EntryProcessor::UpdateOrAllocate(::by_
                               ::i2c::type_of<::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>>>(), ::i2c::type_of<::by_ref<uint16_t>>(),
                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, vertexCount, indexCount, device, verts, indices, indexOffset, stats);
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::UIR::EntryProcessor::CreateBlitShader(float_t colorConversion) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { "CreateBlitShader", {}, { ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(nullptr, ___internal_method, colorConversion);
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::UIElements::UIR::EntryProcessor::GetBlitMaterial(::UnityEngine::UIElements::VisualElement_RenderTargetMode mode) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(),
-                                                                                         { "GetBlitMaterial", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement_RenderTargetMode>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(nullptr, ___internal_method, mode);
 }
 inline void UnityEngine::UIElements::UIR::EntryProcessor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryProcessor*>(), { ".ctor", {}, {} })));

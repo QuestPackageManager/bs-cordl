@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSessionInitializer::*)(
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::MultiplayerSessionType)>(&::GlobalNamespace::MultiplayerSessionInitializer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32b8a5c;
+  constexpr static std::size_t addrs = 0x353fdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSessionInitializer::*)()>(
     &::GlobalNamespace::MultiplayerSessionInitializer::InitializeLocalPlayerSessionState)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x32b8a68;
+  constexpr static std::size_t addrs = 0x353fddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

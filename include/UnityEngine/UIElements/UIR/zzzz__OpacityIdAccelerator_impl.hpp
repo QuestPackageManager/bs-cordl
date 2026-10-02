@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/OpacityIdAccelerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::Execute)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6ce5ef0;
+  constexpr static std::size_t addrs = 0x7176268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::UnityEngine::Color32, int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CreateJob)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6ce5bb8;
+  constexpr static std::size_t addrs = 0x7175e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(),
@@ -76,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CompleteJobs)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6ce5cc8;
+  constexpr static std::size_t addrs = 0x7175f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { "CompleteJobs", {}, {} })));
@@ -88,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce5d90;
+  constexpr static std::size_t addrs = 0x7176034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { "get_disposed", {}, {} })));
@@ -100,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce5d98;
+  constexpr static std::size_t addrs = 0x717603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ce5da0;
+  constexpr static std::size_t addrs = 0x7176044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { "Dispose", {}, {} })));
@@ -125,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ce5e10;
+  constexpr static std::size_t addrs = 0x71760b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(),
@@ -137,8 +138,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(&::UnityEngine::UIElements::UIR::OpacityIdAccelerator::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ce5e80;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x7176124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(), { ".ctor", {}, {} })));
@@ -180,6 +181,12 @@ constexpr bool const& UnityEngine::UIElements::UIR::OpacityIdAccelerator::__cord
 constexpr void UnityEngine::UIElements::UIR::OpacityIdAccelerator::__cordl_internal_set__disposed_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
+}
+inline void UnityEngine::UIElements::UIR::OpacityIdAccelerator::setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>(std::forward<::Unity::Collections::MemoryLabel>(value));
+}
+inline ::Unity::Collections::MemoryLabel UnityEngine::UIElements::UIR::OpacityIdAccelerator::getStaticF_k_MemoryLabel() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>();
 }
 inline void UnityEngine::UIElements::UIR::OpacityIdAccelerator::CreateJob(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> oldVerts,
                                                                           ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> newVerts, ::UnityEngine::Color32 opacityData,

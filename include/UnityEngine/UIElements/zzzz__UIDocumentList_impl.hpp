@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::UIDocumentList::RemoveFromListAndFromVisualTree)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6dad418;
+  constexpr static std::size_t addrs = 0x7247634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(),
@@ -22,17 +22,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::UIDocumentList.AddToListAndToVisualTree
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(::UnityEngine::UIElements::UIDocument*, ::UnityEngine::UIElements::VisualElement*, int32_t)>(
-    &::UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x6dad4a0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(::UnityEngine::UIElements::UIDocument*, ::UnityEngine::UIElements::VisualElement*, bool,
+                                                                                                           int32_t)>(&::UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree)> {
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x72476bc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(),
-            { "AddToListAndToVisualTree", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(),
+                                                             { "AddToListAndToVisualTree",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)()>(&::UnityEngine::UIElements::UIDocumentList::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6dad3a4;
+  constexpr static std::size_t addrs = 0x72475c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(), { ".ctor", {}, {} })));
@@ -66,13 +67,14 @@ inline void UnityEngine::UIElements::UIDocumentList::RemoveFromListAndFromVisual
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uiDocument);
 }
 inline void UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree,
-                                                                              int32_t firstInsertIndex) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(),
-          { "AddToListAndToVisualTree", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uiDocument, visualTree, firstInsertIndex);
+                                                                              bool ignoreContentContainer, int32_t firstInsertIndex) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(),
+                                                           { "AddToListAndToVisualTree",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(),
+                                                               ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uiDocument, visualTree, ignoreContentContainer, firstInsertIndex);
 }
 inline void UnityEngine::UIElements::UIDocumentList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIDocumentList*>(), { ".ctor", {}, {} })));

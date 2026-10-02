@@ -95,7 +95,7 @@ public:
   FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3925 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,7 +133,7 @@ public:
   FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -186,7 +186,7 @@ public:
   FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3927 };
 
   /// @brief Field _enumerable, offset: 0x78, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* ____enumerable;
@@ -323,7 +323,7 @@ public:
   FileSystemEnumerable_1(FileSystemEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3928 };
 
   /// @brief Field _enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1_DelegateEnumerator<TResult>* ____enumerator;

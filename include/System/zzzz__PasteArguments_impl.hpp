@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&::System::PasteArguments::AppendArgument)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6373644;
+  constexpr static std::size_t addrs = 0x679b8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::PasteArguments::ContainsNoWhitespaceOrQuotes)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6373830;
+  constexpr static std::size_t addrs = 0x679ba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

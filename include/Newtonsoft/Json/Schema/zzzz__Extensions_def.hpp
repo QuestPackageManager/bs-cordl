@@ -60,7 +60,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x5d5d37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x6176f60, size 0x8, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr bool const& __cordl_internal_get_valid() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(bool value);
 
-  /// @brief Method .ctor, addr 0x5d5ce7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6176a60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13778 };
 
   /// @brief Field valid, offset: 0x10, size: 0x1, def value: None
   bool ___valid;
@@ -113,7 +113,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x5d5d384, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x6176f68, size 0xd4, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr ::System::Collections::Generic::IList_1<::StringW>* const& __cordl_internal_get_errors() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_errors(::System::Collections::Generic::IList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5d5d370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6176f54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13779 };
 
   /// @brief Field errors, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::StringW>* ___errors;
@@ -168,22 +168,22 @@ public:
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method IsValid, addr 0x5d5cdb4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6176998, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method IsValid, addr 0x5d5d1e0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6176dc4, size 0x190, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*> errorMessages);
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method Validate, addr 0x5d5d374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6176f58, size 0x8, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method Validate, addr 0x5d5cfc8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6176bac, size 0x218, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::Newtonsoft::Json::Schema::ValidationEventHandler* validationEventHandler);
 
 protected:
@@ -201,7 +201,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

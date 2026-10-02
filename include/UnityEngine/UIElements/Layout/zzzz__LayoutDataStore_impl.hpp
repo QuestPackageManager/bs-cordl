@@ -1,9 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataStore.hpp"
-#include "Unity/Collections/zzzz__Allocator_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataStore_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__ComponentType_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataStore_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutHandle_def.hpp"
@@ -16,14 +18,14 @@ constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk::LayoutDataSt
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::*)(int32_t, ::Unity::Collections::Allocator)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::*)(int32_t, ::Unity::Collections::MemoryLabel)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d031bc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x7199490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>() } })));
     return ___internal_method;
   }
 };
@@ -33,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::Dispose)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6d03334;
+  constexpr static std::size_t addrs = 0x7199708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::*)(int32_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::GetComponentDataPtr)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d03470;
+  constexpr static std::size_t addrs = 0x7199844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::*)(int32_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::ResizeCapacity)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6d0383c;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x7199d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,10 +72,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::_ctor(int32_t size, ::Unity::Collections::Allocator allocator) {
+inline void UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::_ctor(int32_t size, ::Unity::Collections::MemoryLabel allocLabel) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, size, allocator);
+                                                                                         { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, size, allocLabel);
 }
 inline void UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::Dispose() {
   static auto* ___internal_method =
@@ -98,14 +100,14 @@ constexpr UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::o
 constexpr ::System::IDisposable* UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ChunkCount", ty:
+// Ctor Parameters [CppParam { name: "MemoryLabel", ty: "::Unity::Collections::MemoryLabel", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ChunkCount", ty:
 // "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: Some("{}"),
 // comment: None }]
-constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::LayoutDataStore_ComponentDataStore(::Unity::Collections::Allocator Allocator, int32_t Size,
+constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore::LayoutDataStore_ComponentDataStore(::Unity::Collections::MemoryLabel MemoryLabel, int32_t Size,
                                                                                                                     int32_t ComponentCountPerChunk, int32_t ChunkCount,
                                                                                                                     ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk* m_Chunks) noexcept {
-  this->Allocator = Allocator;
+  this->MemoryLabel = MemoryLabel;
   this->Size = Size;
   this->ComponentCountPerChunk = ComponentCountPerChunk;
   this->ChunkCount = ChunkCount;
@@ -127,32 +129,23 @@ constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_Data::LayoutDataSto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore_Data::LayoutDataStore_Data() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataStore.get_IsValid
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutDataStore::*)()>(&::UnityEngine::UIElements::Layout::LayoutDataStore::get_IsValid)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d02dbc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "get_IsValid", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataStore._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(
-    ::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>, int32_t, ::Unity::Collections::Allocator)>(&::UnityEngine::UIElements::Layout::LayoutDataStore::_ctor)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x6cfeb00;
+    ::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>, ::System::ReadOnlySpan_1<::Unity::Collections::MemoryLabel>, int32_t, ::Unity::Collections::Allocator)>(
+    &::UnityEngine::UIElements::Layout::LayoutDataStore::_ctor)> {
+  constexpr static std::size_t size = 0x3c4;
+  constexpr static std::size_t addrs = 0x71990cc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-            { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { ".ctor",
+                                                                                                                  {},
+                                                                                                                  { ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>>(),
+                                                                                                                    ::i2c::type_of<::System::ReadOnlySpan_1<::Unity::Collections::MemoryLabel>>(),
+                                                                                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
     return ___internal_method;
   }
 };
@@ -160,8 +153,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)()>(&::UnityEngine::UIElements::Layout::LayoutDataStore::Dispose)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6cfeed0;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x719960c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Dispose", {}, {} })));
@@ -174,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::Exists)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6d0340c;
+  constexpr static std::size_t addrs = 0x71997e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
@@ -188,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::GetComponentDataPtr)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d0344c;
+  constexpr static std::size_t addrs = 0x7199820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
@@ -202,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutHandle (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(uint8_t*, int32_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::Allocate)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6d034a4;
+  constexpr static std::size_t addrs = 0x7199878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::Free)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6cff060;
+  constexpr static std::size_t addrs = 0x7199aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
@@ -230,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*, int32_t, int32_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::SetNextFreeIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d036d8;
+  constexpr static std::size_t addrs = 0x7199ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*, int32_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::GetNextFreeIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d03688;
+  constexpr static std::size_t addrs = 0x7199a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)()>(&::UnityEngine::UIElements::Layout::LayoutDataStore::IncreaseCapacity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d0369c;
+  constexpr static std::size_t addrs = 0x7199a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "IncreaseCapacity", {}, {} })));
@@ -273,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(int32_t)>(&::UnityEngine::UIElements::Layout::LayoutDataStore::ResizeCapacity)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6d031d4;
+  constexpr static std::size_t addrs = 0x71994ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,32 +277,31 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataStore.ResizeArray
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int64_t, int64_t, int64_t, int32_t, ::Unity::Collections::Allocator)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int64_t, int64_t, int64_t, int32_t, ::Unity::Collections::MemoryLabel)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::ResizeArray)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6d036f0;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x7199bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
                                                                                            { "ResizeArray",
                                                                                              {},
                                                                                              { ::i2c::type_of<void*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(),
-                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>() } })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::UIElements::Layout::LayoutDataStore::get_IsValid() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "get_IsValid", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
-}
-inline void UnityEngine::UIElements::Layout::LayoutDataStore::_ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType> components, int32_t initialCapacity,
+inline void UnityEngine::UIElements::Layout::LayoutDataStore::_ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType> components,
+                                                                    ::System::ReadOnlySpan_1<::Unity::Collections::MemoryLabel> labels, int32_t initialCapacity,
                                                                     ::Unity::Collections::Allocator allocator) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, components, initialCapacity, allocator);
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>>(), ::i2c::type_of<::System::ReadOnlySpan_1<::Unity::Collections::MemoryLabel>>(),
+                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, components, labels, initialCapacity, allocator);
 }
 inline void UnityEngine::UIElements::Layout::LayoutDataStore::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Dispose", {}, {} })));
@@ -358,13 +350,13 @@ inline void UnityEngine::UIElements::Layout::LayoutDataStore::ResizeCapacity(int
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "ResizeCapacity", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, capacity);
 }
-inline void* UnityEngine::UIElements::Layout::LayoutDataStore::ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::Allocator allocator) {
+inline void* UnityEngine::UIElements::Layout::LayoutDataStore::ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::MemoryLabel label) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
                                                                                          { "ResizeArray",
                                                                                            {},
                                                                                            { ::i2c::type_of<void*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(),
-                                                                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
-  return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, fromPtr, fromCount, toCount, size, align, allocator);
+                                                                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::MemoryLabel>() } })));
+  return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, fromPtr, fromCount, toCount, size, align, label);
 }
 template <typename T0>
   requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
@@ -398,10 +390,11 @@ constexpr UnityEngine::UIElements::Layout::LayoutDataStore::operator ::System::I
 constexpr ::System::IDisposable* UnityEngine::UIElements::Layout::LayoutDataStore::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Data", ty:
+// Ctor Parameters [CppParam { name: "m_MemoryLabel", ty: "::Unity::Collections::MemoryLabel", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Data", ty:
 // "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore::LayoutDataStore(::Unity::Collections::Allocator m_Allocator, ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data) noexcept {
-  this->m_Allocator = m_Allocator;
+constexpr ::UnityEngine::UIElements::Layout::LayoutDataStore::LayoutDataStore(::Unity::Collections::MemoryLabel m_MemoryLabel,
+                                                                              ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data) noexcept {
+  this->m_MemoryLabel = m_MemoryLabel;
   this->m_Data = m_Data;
 }
 // Ctor Parameters []

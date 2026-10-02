@@ -67,7 +67,7 @@ public:
   constexpr OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18297 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
@@ -105,7 +105,7 @@ public:
   constexpr OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18298 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -143,7 +143,7 @@ public:
   constexpr OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18299 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -181,7 +181,7 @@ public:
   constexpr OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18300 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -202,7 +202,7 @@ static_assert(sizeof(::UnityEngine::Rendering::OccluderDepthPyramidConstants___S
 
 } // namespace UnityEngine::Rendering
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OccluderDepthPyramidConstants.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\OccluderDepthPyramidConstants.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 // UnityEngine.Rendering.OccluderDepthPyramidConstants::<_InvViewProjMatrix>e__FixedBuffer, UnityEngine.Rendering.OccluderDepthPyramidConstants::<_MipOffsetAndSize>e__FixedBuffer,
 // UnityEngine.Rendering.OccluderDepthPyramidConstants::<_SilhouettePlanes>e__FixedBuffer, UnityEngine.Rendering.OccluderDepthPyramidConstants::<_SrcOffset>e__FixedBuffer
 namespace UnityEngine::Rendering {
@@ -240,7 +240,7 @@ public:
                                           uint32_t _DstSubviewIndices, uint32_t _MipCount, uint32_t _SilhouettePlaneCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18301 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2b0 };

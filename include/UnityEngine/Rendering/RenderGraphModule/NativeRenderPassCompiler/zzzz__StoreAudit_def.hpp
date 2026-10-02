@@ -19,6 +19,7 @@ struct StoreAudit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "StoreAudit");
+// [IsReadOnly]
 // [DebuggerDisplay("{reason} : {passId} / MSAA {msaaReason} : {msaaPassId}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.StoreReason
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -30,7 +31,7 @@ public:
   /// @brief Field StoreReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_StoreReasonMessages, put = setStaticF_StoreReasonMessages)) ::ArrayW<::StringW> StoreReasonMessages;
 
-  /// @brief Method .ctor, addr 0x67fa264, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2845c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason setReason, int32_t setPassId,
                     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason setMsaaReason, int32_t setMsaaPassId);
 
@@ -50,7 +51,7 @@ public:
                        ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason msaaReason, int32_t msaaPassId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9413 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

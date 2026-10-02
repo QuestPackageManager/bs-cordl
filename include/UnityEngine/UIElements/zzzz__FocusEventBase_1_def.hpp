@@ -143,15 +143,15 @@ public:
   FocusEventBase_1(FocusEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4461 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____relatedTarget_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <direction>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusChangeDirection* ____direction_k__BackingField;
 

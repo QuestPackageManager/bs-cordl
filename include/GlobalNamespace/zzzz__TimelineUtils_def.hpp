@@ -28,7 +28,7 @@ class CORDL_TYPE TimelineUtils : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method FindTrackAssetByName, addr 0x590a5dc, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method FindTrackAssetByName, addr 0x5d24c5c, size 0x3cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::TrackAsset> FindTrackAssetByName(::UnityEngine::Timeline::TimelineAsset* timeline, ::StringW name);
 
 protected:
@@ -46,7 +46,7 @@ public:
   TimelineUtils(TimelineUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

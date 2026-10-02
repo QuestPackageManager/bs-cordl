@@ -13,8 +13,8 @@ struct ArchiveHandle;
 // Write type traits
 MARK_VAL_T(::Unity::IO::Archive::ArchiveHandle);
 DEFINE_IL2CPP_CLASS(::Unity::IO::Archive::ArchiveHandle, "Unity.IO.Archive", "ArchiveHandle");
-// [NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 // [RequiredByNativeCode]
+// [NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 // Dependencies
 namespace Unity::IO::Archive {
 // Is value type: true
@@ -30,7 +30,7 @@ public:
   constexpr ArchiveHandle(uint64_t Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9553 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

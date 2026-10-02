@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ConstraintTable::*)(::System::Data::DataTable*, ::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(
     &::System::Data::ConstraintTable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6058bdc;
+  constexpr static std::size_t addrs = 0x647503c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

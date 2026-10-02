@@ -38,7 +38,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x6733d14, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b48b3c, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_Quads() const;
@@ -59,25 +59,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SmoothingThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x6733df0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b48c18, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_quads, addr 0x6733ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quads, addr 0x6b48b0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_quads();
 
-  /// @brief Method get_smoothing, addr 0x6733cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothing, addr 0x6b48b1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_smoothing();
 
-  /// @brief Method get_smoothingAngle, addr 0x6733d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothingAngle, addr 0x6b48b2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_smoothingAngle();
 
-  /// @brief Method set_quads, addr 0x6733cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_quads, addr 0x6b48b14, size 0x8, virtual false, abstract: false, final false
   inline void set_quads(bool value);
 
-  /// @brief Method set_smoothing, addr 0x6733cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothing, addr 0x6b48b24, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothing(bool value);
 
-  /// @brief Method set_smoothingAngle, addr 0x6733d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothingAngle, addr 0x6b48b34, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothingAngle(float_t value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   MeshImportSettings(MeshImportSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17405 };
 
   /// [SerializeField]
   /// @brief Field m_Quads, offset: 0x10, size: 0x1, def value: None

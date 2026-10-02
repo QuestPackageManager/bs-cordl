@@ -48,7 +48,7 @@ public:
   constexpr MathfInternal();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

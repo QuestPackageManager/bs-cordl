@@ -87,7 +87,7 @@ public:
   ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,7 +125,7 @@ public:
   ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +163,7 @@ public:
   ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,7 +201,7 @@ public:
   ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -338,7 +338,7 @@ public:
   ReflectedMemberProperty_2(ReflectedMemberProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
 
   /// @brief Field m_Info, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::IMemberInfo* ___m_Info;
@@ -358,8 +358,8 @@ public:
   /// @brief Field m_SetClassValueAction, offset: 0x40, size: 0x8, def value: None
   ::Unity::Properties::ReflectedMemberProperty_2_SetClassValueAction<TContainer, TValue>* ___m_SetClassValueAction;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

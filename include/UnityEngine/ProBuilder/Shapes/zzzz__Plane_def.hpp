@@ -42,13 +42,16 @@ public:
   /// @brief Field m_WidthSegments, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WidthSegments, put = __cordl_internal_set_m_WidthSegments)) int32_t m_WidthSegments;
 
-  /// @brief Method CopyShape, addr 0x6707400, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x6b1c200, size 0xbc, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Plane* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x67074bc, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x6b1c2bc, size 0x25c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method SetParametersToBuiltInShape, addr 0x6b1c1f4, size 0xc, virtual true, abstract: false, final false
+  inline void SetParametersToBuiltInShape();
 
   constexpr int32_t const& __cordl_internal_get_m_HeightSegments() const;
 
@@ -62,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WidthSegments(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6707718, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b1c518, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +83,7 @@ public:
   Plane(Plane const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17365 };
 
   /// [Min(0)]
   /// [SerializeField]

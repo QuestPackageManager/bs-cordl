@@ -45,16 +45,16 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::Org::BouncyCastle::Asn1::Asn1OctetString* value;
 
-  /// @brief Method ConvertValueToObject, addr 0x365bf98, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToObject, addr 0x38e5234, size 0x108, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
 
-  /// @brief Method Equals, addr 0x366c680, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x38f591c, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x366c650, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x38f58ec, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetParsedValue, addr 0x366c64c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParsedValue, addr 0x38f58e8, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetParsedValue();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x366c5d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38f5870, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x366aa28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38f3cc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method get_IsCritical, addr 0x366c63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCritical, addr 0x38f58d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCritical();
 
-  /// @brief Method get_Value, addr 0x366c644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x38f58e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
 
 protected:

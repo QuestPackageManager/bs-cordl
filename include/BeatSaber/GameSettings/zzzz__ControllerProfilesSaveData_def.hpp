@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3292818, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3519088, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles);
 
 protected:
@@ -67,7 +67,7 @@ public:
   ControllerProfilesSaveData(ControllerProfilesSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22790 };
 
   /// @brief Field version, offset: 0x10, size: 0x4, def value: None
   int32_t ___version;

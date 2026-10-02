@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::*)(::Org::BouncyCastle::Asn1::Cmp::PkiStatus)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x334fcf4;
+  constexpr static std::size_t addrs = 0x35d8f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334fd60;
+  constexpr static std::size_t addrs = 0x35d8ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x334fd68;
+  constexpr static std::size_t addrs = 0x35d9004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::get_Value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x334fee4;
+  constexpr static std::size_t addrs = 0x35d9180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334fefc;
+  constexpr static std::size_t addrs = 0x35d9198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

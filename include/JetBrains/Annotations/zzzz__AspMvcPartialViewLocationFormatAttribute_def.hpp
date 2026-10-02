@@ -35,15 +35,15 @@ public:
 
   constexpr void __cordl_internal_set__Format_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e3e0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d9c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW format);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Format, addr 0x6e3e0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x72d9c20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Format, addr 0x6e3e0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x72d9c28, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AspMvcPartialViewLocationFormatAttribute(AspMvcPartialViewLocationFormatAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23367 };
 
   /// [CompilerGenerated]
   /// @brief Field <Format>k__BackingField, offset: 0x10, size: 0x8, def value: None

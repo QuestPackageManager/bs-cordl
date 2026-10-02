@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::*)(bool, ::UnityEngine::RaycastHit)>(
     &::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::SetCollisionLength)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x59a1528;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x5dbc578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::*)(bool, ::UnityEngine::Color)>(
     &::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::SetActive)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x59a137c;
+  constexpr static std::size_t addrs = 0x5dbc3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::*)(
     float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::SetData)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x59a1438;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5dbc470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59a1750;
+  constexpr static std::size_t addrs = 0x5dbc7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)()>(&::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::Awake)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59a0e88;
+  constexpr static std::size_t addrs = 0x5dbbf0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect*>(), { "Awake", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)()>(&::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::LateUpdate)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x59a0f04;
+  constexpr static std::size_t addrs = 0x5dbbf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect*>(), { "LateUpdate", {}, {} })));
@@ -220,8 +220,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)(
     ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>,
     ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>, ::by_ref<float_t>)>(&::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::RaycastAndSetLightLength)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x59a10cc;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x5dbc150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)()>(&::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a174c;
+  constexpr static std::size_t addrs = 0x5dbc7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect*>(), { ".ctor", {}, {} })));

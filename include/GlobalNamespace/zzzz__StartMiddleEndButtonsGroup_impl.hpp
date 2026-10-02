@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&::GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5922ee8;
+  constexpr static std::size_t addrs = 0x5d3d5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StartMiddleEndButtonsGroup*>(), { "SetLayoutHorizontal", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&::GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5922fec;
+  constexpr static std::size_t addrs = 0x5d3d6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StartMiddleEndButtonsGroup*>(), { "SetLayoutVertical", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&::GlobalNamespace::StartMiddleEndButtonsGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5922ff0;
+  constexpr static std::size_t addrs = 0x5d3d6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StartMiddleEndButtonsGroup*>(), { ".ctor", {}, {} })));

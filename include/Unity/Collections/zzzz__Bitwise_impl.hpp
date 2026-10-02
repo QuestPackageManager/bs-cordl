@@ -6,11 +6,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Unity::Collections::Bitwise::AlignDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aaadc;
+  constexpr static std::size_t addrs = 0x68d3494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignDown", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::Bitwise.AlignDown
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int32_t)>(&::Unity::Collections::Bitwise::AlignDown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x68d34a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignDown", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -19,11 +32,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Unity::Collections::Bitwise::AlignUp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64aaae8;
+  constexpr static std::size_t addrs = 0x68d34b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignUp", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::Bitwise.AlignUp
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int32_t)>(&::Unity::Collections::Bitwise::AlignUp)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x68d34c4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignUp", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -32,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(bool)>(&::Unity::Collections::Bitwise::FromBool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64aaafc;
+  constexpr static std::size_t addrs = 0x68d34dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "FromBool", {}, { ::i2c::type_of<bool>() } })));
@@ -44,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t, uint32_t)>(&::Unity::Collections::Bitwise::ExtractBits)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aab04;
+  constexpr static std::size_t addrs = 0x68d34e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t, uint32_t, uint32_t)>(&::Unity::Collections::Bitwise::ReplaceBits)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64aab10;
+  constexpr static std::size_t addrs = 0x68d34f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t, uint32_t, bool)>(&::Unity::Collections::Bitwise::SetBits)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64aab28;
+  constexpr static std::size_t addrs = 0x68d3508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t)>(&::Unity::Collections::Bitwise::ExtractBits)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aab44;
+  constexpr static std::size_t addrs = 0x68d3524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t, uint64_t)>(&::Unity::Collections::Bitwise::ReplaceBits)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64aab50;
+  constexpr static std::size_t addrs = 0x68d3530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t, bool)>(&::Unity::Collections::Bitwise::SetBits)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64aab68;
+  constexpr static std::size_t addrs = 0x68d3548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t)>(&::Unity::Collections::Bitwise::lzcnt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64aab84;
+  constexpr static std::size_t addrs = 0x68d3564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "lzcnt", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -140,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t)>(&::Unity::Collections::Bitwise::tzcnt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64aabc0;
+  constexpr static std::size_t addrs = 0x68d35a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "tzcnt", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -152,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint16_t)>(&::Unity::Collections::Bitwise::lzcnt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64aac0c;
+  constexpr static std::size_t addrs = 0x68d35ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "lzcnt", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -164,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint16_t)>(&::Unity::Collections::Bitwise::tzcnt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64aac48;
+  constexpr static std::size_t addrs = 0x68d3628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "tzcnt", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -176,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindUlong)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x64aac94;
+  constexpr static std::size_t addrs = 0x68d3674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindUint)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x64aae3c;
+  constexpr static std::size_t addrs = 0x68d381c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindUshort)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x64aaf74;
+  constexpr static std::size_t addrs = 0x68d3954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindByte)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x64ab10c;
+  constexpr static std::size_t addrs = 0x68d3aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindUpto14bits)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x64ab290;
+  constexpr static std::size_t addrs = 0x68d3c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,12 +267,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, in
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Unity::Collections::Bitwise.sar
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint16_t, int32_t)>(&::Unity::Collections::Bitwise::sar)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x68d3dbc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "sar", {}, { ::i2c::type_of<uint16_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Unity::Collections::Bitwise.FindUpto6bits
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindUpto6bits)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x64ab3dc;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x68d3dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::FindWithBeginEnd)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x64ab4f0;
+  constexpr static std::size_t addrs = 0x68d3ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::Find)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64ab608;
+  constexpr static std::size_t addrs = 0x68d4010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::TestNone)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64ab610;
+  constexpr static std::size_t addrs = 0x68d4018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::TestAny)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64ab68c;
+  constexpr static std::size_t addrs = 0x68d4094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::TestAll)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64ab708;
+  constexpr static std::size_t addrs = 0x68d4110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::CountBits)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x64ab78c;
+  constexpr static std::size_t addrs = 0x68d4194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t*, int32_t)>(&::Unity::Collections::Bitwise::IsSet)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64ab854;
+  constexpr static std::size_t addrs = 0x68d425c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t*, int32_t, int32_t, int32_t)>(&::Unity::Collections::Bitwise::GetBits)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64ab868;
+  constexpr static std::size_t addrs = 0x68d4270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,10 +410,20 @@ inline int32_t Unity::Collections::Bitwise::AlignDown(int32_t value, int32_t ali
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignDown", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, value, alignPow2);
 }
+inline int64_t Unity::Collections::Bitwise::AlignDown(int64_t value, int32_t alignPow2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignDown", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, value, alignPow2);
+}
 inline int32_t Unity::Collections::Bitwise::AlignUp(int32_t value, int32_t alignPow2) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignUp", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, value, alignPow2);
+}
+inline int64_t Unity::Collections::Bitwise::AlignUp(int64_t value, int32_t alignPow2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "AlignUp", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, value, alignPow2);
 }
 inline int32_t Unity::Collections::Bitwise::FromBool(bool value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "FromBool", {}, { ::i2c::type_of<bool>() } })));
@@ -461,6 +510,11 @@ inline int32_t Unity::Collections::Bitwise::FindUpto14bits(uint64_t* ptr, int32_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(),
                                               { "FindUpto14bits", {}, { ::i2c::type_of<uint64_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, ptr, beginBit, endBit, numBits);
+}
+inline uint16_t Unity::Collections::Bitwise::sar(uint16_t val, int32_t shift) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Bitwise>(), { "sar", {}, { ::i2c::type_of<uint16_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint16_t>(nullptr, ___internal_method, val, shift);
 }
 inline int32_t Unity::Collections::Bitwise::FindUpto6bits(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits) {
   static auto* ___internal_method =

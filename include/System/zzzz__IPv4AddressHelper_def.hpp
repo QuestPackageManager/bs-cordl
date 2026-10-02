@@ -24,25 +24,25 @@ namespace System {
 class CORDL_TYPE IPv4AddressHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x5fe4774, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x64006fc, size 0x30, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t* name, int32_t start, ::by_ref<int32_t> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
 
-  /// @brief Method IsValidCanonical, addr 0x5fe47a4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method IsValidCanonical, addr 0x640072c, size 0x168, virtual false, abstract: false, final false
   static inline bool IsValidCanonical(char16_t* name, int32_t start, ::by_ref<int32_t> end, bool allowIPv6, bool notImplicitFile);
 
-  /// @brief Method Parse, addr 0x5fe4e20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6400da8, size 0x54, virtual false, abstract: false, final false
   static inline bool Parse(::StringW name, uint8_t* numbers, int32_t start, int32_t end);
 
-  /// @brief Method ParseCanonical, addr 0x5fe46e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonical, addr 0x640066c, size 0x90, virtual false, abstract: false, final false
   static inline bool ParseCanonical(::System::ReadOnlySpan_1<char16_t> name, uint8_t* numbers, int32_t start, int32_t end);
 
-  /// @brief Method ParseCanonicalName, addr 0x5fe4bd0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x6400b58, size 0x250, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::by_ref<bool> isLoopback);
 
-  /// @brief Method ParseHostNumber, addr 0x5fe46b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ParseHostNumber, addr 0x640063c, size 0x30, virtual false, abstract: false, final false
   static inline int32_t ParseHostNumber(::System::ReadOnlySpan_1<char16_t> str, int32_t start, int32_t end);
 
-  /// @brief Method ParseNonCanonical, addr 0x5fe490c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ParseNonCanonical, addr 0x6400894, size 0x2c4, virtual false, abstract: false, final false
   static inline int64_t ParseNonCanonical(char16_t* name, int32_t start, ::by_ref<int32_t> end, bool notImplicitFile);
 
 protected:
@@ -60,7 +60,7 @@ public:
   IPv4AddressHelper(IPv4AddressHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11986 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

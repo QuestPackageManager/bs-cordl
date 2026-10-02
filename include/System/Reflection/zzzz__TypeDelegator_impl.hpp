@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::TypeDelegator::*)(::System::Type*)>(&::System::Reflection::TypeDelegator::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5b7ed38;
+  constexpr static std::size_t addrs = 0x5f96c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,11 +40,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_GUID)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b83f20;
+  constexpr static std::size_t addrs = 0x5f9be74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 115 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 116 }));
     return ___internal_method;
   }
 };
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_MetadataToken)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b83f40;
+  constexpr static std::size_t addrs = 0x5f9be94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,11 +69,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                            ::ArrayW<::System::Reflection::ParameterModifier>, ::System::Globalization::CultureInfo*, ::ArrayW<::StringW>)>(
         &::System::Reflection::TypeDelegator::InvokeMember)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b83f60;
+  constexpr static std::size_t addrs = 0x5f9beb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 117 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 118 }));
     return ___internal_method;
   }
 };
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Module* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_Module)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b83f8c;
+  constexpr static std::size_t addrs = 0x5f9bee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_Assembly)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b83fac;
+  constexpr static std::size_t addrs = 0x5f9bf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,11 +108,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeTypeHandle (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_TypeHandle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b83fcc;
+  constexpr static std::size_t addrs = 0x5f9bf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 113 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 114 }));
     return ___internal_method;
   }
 };
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_Name)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5b83fec;
+  constexpr static std::size_t addrs = 0x5f9bf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_FullName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84008;
+  constexpr static std::size_t addrs = 0x5f9bf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_Namespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84028;
+  constexpr static std::size_t addrs = 0x5f9bf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84048;
+  constexpr static std::size_t addrs = 0x5f9bf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,11 +173,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_BaseType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84068;
+  constexpr static std::size_t addrs = 0x5f9bfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 116 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 117 }));
     return ___internal_method;
   }
 };
@@ -188,11 +188,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Con
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                             ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::TypeDelegator::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b84088;
+  constexpr static std::size_t addrs = 0x5f9bfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 80 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 81 }));
     return ___internal_method;
   }
 };
@@ -202,11 +202,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*> (::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetConstructors)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b840a0;
+  constexpr static std::size_t addrs = 0x5f9bff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 82 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 83 }));
     return ___internal_method;
   }
 };
@@ -217,11 +217,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Met
     ::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                             ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::TypeDelegator::GetMethodImpl)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b840c0;
+  constexpr static std::size_t addrs = 0x5f9c014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 100 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 101 }));
     return ___internal_method;
   }
 };
@@ -231,11 +231,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetMethods)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b840f0;
+  constexpr static std::size_t addrs = 0x5f9c044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 102 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 103 }));
     return ___internal_method;
   }
 };
@@ -245,11 +245,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::FieldInfo* (::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetField)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84110;
+  constexpr static std::size_t addrs = 0x5f9c064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 87 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 88 }));
     return ___internal_method;
   }
 };
@@ -259,11 +259,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::FieldInfo*> (::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetFields)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84130;
+  constexpr static std::size_t addrs = 0x5f9c084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 89 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 90 }));
     return ___internal_method;
   }
 };
@@ -272,11 +272,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)(::StringW, bool)>(&::System::Reflection::TypeDelegator::GetInterface)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5b84150;
+  constexpr static std::size_t addrs = 0x5f9c0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 119 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 120 }));
     return ___internal_method;
   }
 };
@@ -285,11 +285,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::GetInterfaces)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84174;
+  constexpr static std::size_t addrs = 0x5f9c0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 120 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 121 }));
     return ___internal_method;
   }
 };
@@ -299,11 +299,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::EventInfo* (::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84194;
+  constexpr static std::size_t addrs = 0x5f9c0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 84 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 85 }));
     return ___internal_method;
   }
 };
@@ -314,11 +314,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Pro
     ::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Type*, ::ArrayW<::System::Type*>,
                                             ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::TypeDelegator::GetPropertyImpl)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5b841b4;
+  constexpr static std::size_t addrs = 0x5f9c108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 110 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 111 }));
     return ___internal_method;
   }
 };
@@ -328,11 +328,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*> (::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetProperties)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84260;
+  constexpr static std::size_t addrs = 0x5f9c1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 112 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 113 }));
     return ___internal_method;
   }
 };
@@ -342,11 +342,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::EventInfo*> (::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetEvents)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84280;
+  constexpr static std::size_t addrs = 0x5f9c1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 85 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 86 }));
     return ___internal_method;
   }
 };
@@ -356,11 +356,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetNestedType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b842a0;
+  constexpr static std::size_t addrs = 0x5f9c1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 103 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 104 }));
     return ___internal_method;
   }
 };
@@ -370,11 +370,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MemberInfo*> (::System::Reflection::TypeDelegator::*)(
     ::StringW, ::System::Reflection::MemberTypes, ::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetMember)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b842c0;
+  constexpr static std::size_t addrs = 0x5f9c214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 92 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 93 }));
     return ___internal_method;
   }
 };
@@ -384,11 +384,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MemberInfo*> (::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetMembers)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b842e0;
+  constexpr static std::size_t addrs = 0x5f9c234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 93 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 94 }));
     return ___internal_method;
   }
 };
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84300;
+  constexpr static std::size_t addrs = 0x5f9c254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_IsSZArray)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84320;
+  constexpr static std::size_t addrs = 0x5f9c274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsArrayImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84340;
+  constexpr static std::size_t addrs = 0x5f9c294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,11 +436,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84360;
+  constexpr static std::size_t addrs = 0x5f9c2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 73 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 74 }));
     return ___internal_method;
   }
 };
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsByRefImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84380;
+  constexpr static std::size_t addrs = 0x5f9c2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_IsGenericMethodParameter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b843a0;
+  constexpr static std::size_t addrs = 0x5f9c2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsPointerImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b843c0;
+  constexpr static std::size_t addrs = 0x5f9c314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,11 +488,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsValueTypeImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b843e0;
+  constexpr static std::size_t addrs = 0x5f9c334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 75 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 76 }));
     return ___internal_method;
   }
 };
@@ -501,11 +501,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84400;
+  constexpr static std::size_t addrs = 0x5f9c354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 65 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 66 }));
     return ___internal_method;
   }
 };
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_IsConstructedGenericType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84420;
+  constexpr static std::size_t addrs = 0x5f9c374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -527,11 +527,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_IsCollectible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84440;
+  constexpr static std::size_t addrs = 0x5f9c394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 68 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 69 }));
     return ___internal_method;
   }
 };
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::GetElementType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84460;
+  constexpr static std::size_t addrs = 0x5f9c3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84480;
+  constexpr static std::size_t addrs = 0x5f9c3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -566,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b844a0;
+  constexpr static std::size_t addrs = 0x5f9c3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::TypeDelegator::*)(bool)>(&::System::Reflection::TypeDelegator::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5b844c0;
+  constexpr static std::size_t addrs = 0x5f9c414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::TypeDelegator::*)(::System::Type*, bool)>(
     &::System::Reflection::TypeDelegator::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5b844e4;
+  constexpr static std::size_t addrs = 0x5f9c438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeDelegator::*)(::System::Type*, bool)>(&::System::Reflection::TypeDelegator::IsDefined)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b84508;
+  constexpr static std::size_t addrs = 0x5f9c45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -620,11 +620,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::InterfaceMapping (::System::Reflection::TypeDelegator::*)(::System::Type*)>(
     &::System::Reflection::TypeDelegator::GetInterfaceMap)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5b84528;
+  constexpr static std::size_t addrs = 0x5f9c47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 121 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::TypeDelegator*>(), { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 122 }));
     return ___internal_method;
   }
 };
@@ -646,7 +646,7 @@ inline void System::Reflection::TypeDelegator::_ctor(::System::Type* delegatingT
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delegatingType);
 }
 inline ::System::Guid System::Reflection::TypeDelegator::get_GUID() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 115 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 116 })));
   return ::cordl_internals::RunMethodRethrow<::System::Guid>(this, ___internal_method);
 }
 inline int32_t System::Reflection::TypeDelegator::get_MetadataToken() {
@@ -656,7 +656,7 @@ inline int32_t System::Reflection::TypeDelegator::get_MetadataToken() {
 inline ::System::Object* System::Reflection::TypeDelegator::InvokeMember(::StringW name, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Object* target,
                                                                          ::ArrayW<::System::Object*> args, ::ArrayW<::System::Reflection::ParameterModifier> modifiers,
                                                                          ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW> namedParameters) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 117 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 118 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, name, invokeAttr, binder, target, args, modifiers, culture, namedParameters);
 }
 inline ::System::Reflection::Module* System::Reflection::TypeDelegator::get_Module() {
@@ -668,7 +668,7 @@ inline ::System::Reflection::Assembly* System::Reflection::TypeDelegator::get_As
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::Assembly*>(this, ___internal_method);
 }
 inline ::System::RuntimeTypeHandle System::Reflection::TypeDelegator::get_TypeHandle() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 113 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 114 })));
   return ::cordl_internals::RunMethodRethrow<::System::RuntimeTypeHandle>(this, ___internal_method);
 }
 inline ::StringW System::Reflection::TypeDelegator::get_Name() {
@@ -688,74 +688,74 @@ inline ::StringW System::Reflection::TypeDelegator::get_AssemblyQualifiedName() 
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 inline ::System::Type* System::Reflection::TypeDelegator::get_BaseType() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 116 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 117 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
 inline ::System::Reflection::ConstructorInfo* System::Reflection::TypeDelegator::GetConstructorImpl(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                                                     ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                                                     ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 80 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 81 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::ConstructorInfo*>(this, ___internal_method, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::ConstructorInfo*> System::Reflection::TypeDelegator::GetConstructors(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 82 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 83 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::ConstructorInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::MethodInfo* System::Reflection::TypeDelegator::GetMethodImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                                           ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                                           ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 100 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 101 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, name, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::MethodInfo*> System::Reflection::TypeDelegator::GetMethods(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 102 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 103 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MethodInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::FieldInfo* System::Reflection::TypeDelegator::GetField(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 87 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 88 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::FieldInfo*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::FieldInfo*> System::Reflection::TypeDelegator::GetFields(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 89 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 90 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::FieldInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::TypeDelegator::GetInterface(::StringW name, bool ignoreCase) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 119 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 120 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, name, ignoreCase);
 }
 inline ::ArrayW<::System::Type*> System::Reflection::TypeDelegator::GetInterfaces() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 120 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 121 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(this, ___internal_method);
 }
 inline ::System::Reflection::EventInfo* System::Reflection::TypeDelegator::GetEvent(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 84 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 85 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::EventInfo*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::System::Reflection::PropertyInfo* System::Reflection::TypeDelegator::GetPropertyImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                                               ::System::Type* returnType, ::ArrayW<::System::Type*> types,
                                                                                               ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 110 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 111 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::PropertyInfo*>(this, ___internal_method, name, bindingAttr, binder, returnType, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::PropertyInfo*> System::Reflection::TypeDelegator::GetProperties(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 112 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 113 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::EventInfo*> System::Reflection::TypeDelegator::GetEvents(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 85 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 86 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::EventInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::TypeDelegator::GetNestedType(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 103 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 104 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::MemberInfo*> System::Reflection::TypeDelegator::GetMember(::StringW name, ::System::Reflection::MemberTypes type,
                                                                                                 ::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 92 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 93 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MemberInfo*>>(this, ___internal_method, name, type, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::MemberInfo*> System::Reflection::TypeDelegator::GetMembers(::System::Reflection::BindingFlags bindingAttr) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 93 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 94 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MemberInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::TypeAttributes System::Reflection::TypeDelegator::GetAttributeFlagsImpl() {
@@ -771,7 +771,7 @@ inline bool System::Reflection::TypeDelegator::IsArrayImpl() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::TypeDelegator::IsPrimitiveImpl() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 73 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 74 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::TypeDelegator::IsByRefImpl() {
@@ -787,11 +787,11 @@ inline bool System::Reflection::TypeDelegator::IsPointerImpl() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::TypeDelegator::IsValueTypeImpl() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 75 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 76 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::TypeDelegator::IsCOMObjectImpl() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 65 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 66 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::TypeDelegator::get_IsConstructedGenericType() {
@@ -799,7 +799,7 @@ inline bool System::Reflection::TypeDelegator::get_IsConstructedGenericType() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::TypeDelegator::get_IsCollectible() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 68 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 69 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::System::Type* System::Reflection::TypeDelegator::GetElementType() {
@@ -827,7 +827,7 @@ inline bool System::Reflection::TypeDelegator::IsDefined(::System::Type* attribu
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, attributeType, inherit);
 }
 inline ::System::Reflection::InterfaceMapping System::Reflection::TypeDelegator::GetInterfaceMap(::System::Type* interfaceType) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 121 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::TypeDelegator*>(), 122 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::InterfaceMapping>(this, ___internal_method, interfaceType);
 }
 inline ::System::Reflection::TypeDelegator* System::Reflection::TypeDelegator::New_ctor(::System::Type* delegatingType) {

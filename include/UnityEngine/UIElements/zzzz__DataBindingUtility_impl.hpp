@@ -15,65 +15,65 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(&::UnityEngine::UIElements::DataBindingUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c452cc;
+  constexpr static std::size_t addrs = 0x708e678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_0
+//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__25_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::TypePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(
-    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0)> {
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c452d0;
+  constexpr static std::size_t addrs = 0x708e67c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_0", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__25_0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_1
+//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__25_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::TypePathVisitor*)>(
-    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1)> {
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c45314;
+  constexpr static std::size_t addrs = 0x708e6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
-                                                                                           { "<.cctor>b__23_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>() } })));
+                                                                                           { "<.cctor>b__25_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_2
+//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__25_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(
-    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2)> {
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c4533c;
+  constexpr static std::size_t addrs = 0x708e6e8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_2", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__25_2", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__23_3
+//  Writing Method size for method: ::UnityEngine::UIElements::DataBindingUtility___c.__cctor_b__25_3
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*)>(
-    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3)> {
+    &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_3)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c45394;
+  constexpr static std::size_t addrs = 0x708e740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
-                                                             { "<.cctor>b__23_3", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>() } })));
+                                                             { "<.cctor>b__25_3", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>() } })));
     return ___internal_method;
   }
 };
@@ -88,23 +88,23 @@ inline void UnityEngine::UIElements::DataBindingUtility___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::Internal::TypePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_0", {}, {} })));
+inline ::UnityEngine::UIElements::Internal::TypePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__25_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Internal::TypePathVisitor*>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1(::UnityEngine::UIElements::Internal::TypePathVisitor* v) {
+inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_1(::UnityEngine::UIElements::Internal::TypePathVisitor* v) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
-                                                                                         { "<.cctor>b__23_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>() } })));
+                                                                                         { "<.cctor>b__25_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::TypePathVisitor*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);
 }
-inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_2", {}, {} })));
+inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_2() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__25_2", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* v) {
+inline void UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__25_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* v) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
-                                                           { "<.cctor>b__23_3", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>() } })));
+                                                           { "<.cctor>b__25_3", {}, { ::i2c::type_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);
 }
 inline ::UnityEngine::UIElements::DataBindingUtility___c* UnityEngine::UIElements::DataBindingUtility___c::New_ctor() {
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>,
                                                                 ::by_ref<::UnityEngine::UIElements::BindingInfo>)>(&::UnityEngine::UIElements::DataBindingUtility::TryGetBinding)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6c44de4;
+  constexpr static std::size_t addrs = 0x708e190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

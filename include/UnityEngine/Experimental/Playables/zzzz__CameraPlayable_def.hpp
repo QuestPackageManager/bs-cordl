@@ -22,11 +22,11 @@ struct CameraPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Playables::CameraPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");
-// [RequiredByNativeCode]
-// [StaticAccessor("CameraPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
-// [NativeHeader("Runtime/Export/Director/CameraPlayable.bindings.h")]
 // [NativeHeader("Runtime/Camera//Director/CameraPlayable.h")]
+// [NativeHeader("Runtime/Export/Director/CameraPlayable.bindings.h")]
+// [StaticAccessor("CameraPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
@@ -40,10 +40,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x6b308a8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f8e3ec, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::CameraPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6b3089c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6f8e3e0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::CameraPlayable>"
@@ -60,7 +60,7 @@ public:
   constexpr CameraPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10523 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

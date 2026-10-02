@@ -53,7 +53,7 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* New_ctor(::StringW value);
 
-  /// @brief Method ToString, addr 0x32659ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34ea3e4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32659e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34ea3dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Cutscene();
@@ -82,7 +82,7 @@ public:
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Tutorial();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Value, addr 0x32659dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x34ea3d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_Cutscene(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
@@ -116,7 +116,7 @@ public:
   SpaceshipSegmentType(SpaceshipSegmentType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22979 };
 
   /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None

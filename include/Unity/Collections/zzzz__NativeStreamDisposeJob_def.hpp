@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x64c3c94, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68ecdec, size 0x10, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -41,7 +41,7 @@ public:
   constexpr NativeStreamDisposeJob(::Unity::Collections::NativeStreamDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -112,7 +112,7 @@ public:
   static ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode const OnExitClip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20195 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -145,7 +145,7 @@ public:
   constexpr VisualEffectControlClip_PrewarmClipSettings(bool enable, uint32_t stepCount, float_t deltaTime, ::UnityEngine::VFX::Utility::ExposedProperty* eventName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20196 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -201,7 +201,7 @@ public:
                                               ::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor exit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -275,7 +275,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x69d2288, size 0x604, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x6e0f418, size 0x604, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
   static inline ::UnityEngine::VFX::VisualEffectControlClip* New_ctor();
@@ -328,29 +328,29 @@ public:
 
   constexpr void __cordl_internal_set_startSeed(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x69d28ac, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0fa3c, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x69d2260, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x6e0f3f0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clipEnd, addr 0x69d2278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipEnd, addr 0x6e0f408, size 0x8, virtual false, abstract: false, final false
   inline double_t get_clipEnd();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clipStart, addr 0x69d2268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipStart, addr 0x6e0f3f8, size 0x8, virtual false, abstract: false, final false
   inline double_t get_clipStart();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_clipEnd, addr 0x69d2280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipEnd, addr 0x6e0f410, size 0x8, virtual false, abstract: false, final false
   inline void set_clipEnd(double_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_clipStart, addr 0x69d2270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipStart, addr 0x6e0f400, size 0x8, virtual false, abstract: false, final false
   inline void set_clipStart(double_t value);
 
 protected:
@@ -368,7 +368,7 @@ public:
   VisualEffectControlClip(VisualEffectControlClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20198 };
 
   /// [CompilerGenerated]
   /// @brief Field <clipStart>k__BackingField, offset: 0x18, size: 0x8, def value: None

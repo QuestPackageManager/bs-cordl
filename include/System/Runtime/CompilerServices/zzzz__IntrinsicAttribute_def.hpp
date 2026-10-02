@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IntrinsicAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b70548, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8849c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

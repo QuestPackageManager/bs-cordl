@@ -1,14 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeChildrenAlloc.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeChildrenAlloc_def.hpp"
-#include "Unity/Hierarchy/zzzz__HierarchyNodeChildrenAlloc_def.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNode_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer(int32_t FixedElementField) noexcept {
-  this->FixedElementField = FixedElementField;
-}
-// Ctor Parameters []
-constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer() {}
 constexpr ::Unity::Hierarchy::HierarchyNode*& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Ptr() {
   return this->___Ptr;
 }
@@ -36,35 +29,55 @@ constexpr int32_t const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_i
 constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_Capacity(int32_t value) {
   this->___Capacity = value;
 }
-constexpr int32_t& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_RemovedCount() {
-  return this->___RemovedCount;
+constexpr int32_t& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_ControlBit() {
+  return this->___ControlBit;
 }
-constexpr int32_t const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_RemovedCount() const {
-  return this->___RemovedCount;
+constexpr int32_t const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_ControlBit() const {
+  return this->___ControlBit;
 }
-constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_RemovedCount(int32_t value) {
-  this->___RemovedCount = value;
+constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_ControlBit(int32_t value) {
+  this->___ControlBit = value;
 }
-constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Reserved() {
-  return this->___Reserved;
+constexpr int32_t& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_NullCount() {
+  return this->___NullCount;
 }
-constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Reserved() const {
-  return this->___Reserved;
+constexpr int32_t const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_NullCount() const {
+  return this->___NullCount;
 }
-constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_Reserved(::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer value) {
-  this->___Reserved = value;
+constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_NullCount(int32_t value) {
+  this->___NullCount = value;
+}
+constexpr int32_t& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Reserved0() {
+  return this->___Reserved0;
+}
+constexpr int32_t const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Reserved0() const {
+  return this->___Reserved0;
+}
+constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_Reserved0(int32_t value) {
+  this->___Reserved0 = value;
+}
+constexpr int32_t& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Reserved1() {
+  return this->___Reserved1;
+}
+constexpr int32_t const& Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_get_Reserved1() const {
+  return this->___Reserved1;
+}
+constexpr void Unity::Hierarchy::HierarchyNodeChildrenAlloc::__cordl_internal_set_Reserved1(int32_t value) {
+  this->___Reserved1 = value;
 }
 // Ctor Parameters [CppParam { name: "Ptr", ty: "::Unity::Hierarchy::HierarchyNode*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RemovedCount", ty: "int32_t", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved", ty: "::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer", modifiers: "", def_value: Some("{}"),
-// comment: None }]
-constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc::HierarchyNodeChildrenAlloc(::Unity::Hierarchy::HierarchyNode* Ptr, int32_t Size, int32_t Capacity, int32_t RemovedCount,
-                                                                                     ::Unity::Hierarchy::HierarchyNodeChildrenAlloc__Reserved_e__FixedBuffer Reserved) noexcept {
+// def_value: Some("{}"), comment: None }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ControlBit", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "NullCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved0", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Reserved1", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc::HierarchyNodeChildrenAlloc(::Unity::Hierarchy::HierarchyNode* Ptr, int32_t Size, int32_t Capacity, int32_t ControlBit, int32_t NullCount,
+                                                                                     int32_t Reserved0, int32_t Reserved1) noexcept {
   this->Ptr = Ptr;
   this->Size = Size;
   this->Capacity = Capacity;
-  this->RemovedCount = RemovedCount;
-  this->Reserved = Reserved;
+  this->ControlBit = ControlBit;
+  this->NullCount = NullCount;
+  this->Reserved0 = Reserved0;
+  this->Reserved1 = Reserved1;
 }
 // Ctor Parameters []
 constexpr ::Unity::Hierarchy::HierarchyNodeChildrenAlloc::HierarchyNodeChildrenAlloc() {}

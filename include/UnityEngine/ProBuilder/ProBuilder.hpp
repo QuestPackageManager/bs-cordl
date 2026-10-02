@@ -93,6 +93,7 @@ module;
 #include "UnityEngine/ProBuilder/TransformUtility.hpp"
 #include "UnityEngine/ProBuilder/Triangle.hpp"
 #include "UnityEngine/ProBuilder/TriggerBehaviour.hpp"
+#include "UnityEngine/ProBuilder/URPSelectionPickerPass.hpp"
 #include "UnityEngine/ProBuilder/UnwrapParameters.hpp"
 #include "UnityEngine/ProBuilder/UvUnwrapping.hpp"
 #include "UnityEngine/ProBuilder/Vector2Mask.hpp"

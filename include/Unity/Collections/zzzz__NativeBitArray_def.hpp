@@ -61,54 +61,54 @@ public:
 
   /// [IsReadOnly]
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
-  /// @brief Method CheckRead, addr 0x64c3128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckRead, addr 0x68ec280, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
   /// [IsReadOnly]
-  /// @brief Method CountBits, addr 0x64c30e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CountBits, addr 0x68ec240, size 0x20, virtual false, abstract: false, final false
   inline int32_t CountBits(int32_t pos, int32_t numBits);
 
   /// [IsReadOnly]
-  /// @brief Method Find, addr 0x64c3030, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x68ec168, size 0xc, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t count, int32_t numBits);
 
   /// [IsReadOnly]
-  /// @brief Method Find, addr 0x64c3008, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x68ec140, size 0x14, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t numBits);
 
   /// [IsReadOnly]
-  /// @brief Method GetBits, addr 0x64c2f98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x68ec0d0, size 0x20, virtual false, abstract: false, final false
   inline uint64_t GetBits(int32_t pos, int32_t numBits);
 
   /// [IsReadOnly]
-  /// @brief Method IsSet, addr 0x64c2fd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsSet, addr 0x68ec110, size 0x18, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
   /// [IsReadOnly]
-  /// @brief Method TestAll, addr 0x64c30a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAll, addr 0x68ec200, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
   /// [IsReadOnly]
-  /// @brief Method TestAny, addr 0x64c3068, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAny, addr 0x68ec1c0, size 0x20, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
   /// [IsReadOnly]
-  /// @brief Method TestNone, addr 0x64c3048, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TestNone, addr 0x68ec180, size 0x20, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
-  /// @brief Method .ctor, addr 0x64c2f04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ec03c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::NativeBitArray> data);
 
   /// [IsReadOnly]
-  /// @brief Method get_IsCreated, addr 0x64c2f20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x68ec058, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// [IsReadOnly]
-  /// @brief Method get_IsEmpty, addr 0x64c2f40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x68ec078, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
   /// [IsReadOnly]
-  /// @brief Method get_Length, addr 0x64c2f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x68ec0c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -119,7 +119,7 @@ public:
   constexpr NativeBitArray_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly m_BitArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15874 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -168,12 +168,12 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeArray_1<T> AsNativeArray();
 
-  /// @brief Method AsReadOnly, addr 0x64c2ef4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AsReadOnly, addr 0x68ec02c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeBitArray_ReadOnly AsReadOnly();
 
   /// [IsReadOnly]
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
-  /// @brief Method CheckRead, addr 0x64c2f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckRead, addr 0x68ec050, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
@@ -184,83 +184,83 @@ public:
   inline void CheckReadBounds();
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
-  /// @brief Method CheckWrite, addr 0x64c2f1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckWrite, addr 0x68ec054, size 0x4, virtual false, abstract: false, final false
   inline void CheckWrite();
 
-  /// @brief Method Clear, addr 0x64c27e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x68eb918, size 0x58, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Copy, addr 0x64c2af8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x68ebc30, size 0xc, virtual false, abstract: false, final false
   inline void Copy(int32_t dstPos, ::by_ref<::Unity::Collections::NativeBitArray> srcBitArray, int32_t srcPos, int32_t numBits);
 
-  /// @brief Method Copy, addr 0x64c2abc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x68ebbf4, size 0x20, virtual false, abstract: false, final false
   inline void Copy(int32_t dstPos, int32_t srcPos, int32_t numBits);
 
-  /// @brief Method CountBits, addr 0x64c2eb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CountBits, addr 0x68ebfec, size 0x20, virtual false, abstract: false, final false
   inline int32_t CountBits(int32_t pos, int32_t numBits);
 
-  /// @brief Method Dispose, addr 0x64c26ec, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68eb824, size 0xc4, virtual true, abstract: false, final true
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method Dispose, addr 0x64c25bc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68eb6f4, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Find, addr 0x64c2dd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x68ebf10, size 0x10, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t count, int32_t numBits);
 
-  /// @brief Method Find, addr 0x64c2db0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x68ebee8, size 0x14, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t numBits);
 
-  /// @brief Method GetBits, addr 0x64c2a48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x68ebb80, size 0x20, virtual false, abstract: false, final false
   inline uint64_t GetBits(int32_t pos, int32_t numBits);
 
-  /// @brief Method IsSet, addr 0x64c2a88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsSet, addr 0x68ebbc0, size 0x1c, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
-  /// @brief Method Resize, addr 0x64c24f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x68eb62c, size 0x8, virtual false, abstract: false, final false
   inline void Resize(int32_t numBits, ::Unity::Collections::NativeArrayOptions options);
 
-  /// @brief Method Set, addr 0x64c288c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x68eb9c4, size 0x30, virtual false, abstract: false, final false
   inline void Set(int32_t pos, bool value);
 
-  /// @brief Method SetBits, addr 0x64c28e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x68eba20, size 0x8, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value, int32_t numBits);
 
-  /// @brief Method SetBits, addr 0x64c299c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x68ebad4, size 0x8, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, uint64_t value, int32_t numBits);
 
-  /// @brief Method SetCapacity, addr 0x64c2564, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x68eb69c, size 0x18, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacityInBits);
 
-  /// @brief Method TestAll, addr 0x64c2e74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAll, addr 0x68ebfac, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestAny, addr 0x64c2e34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAny, addr 0x68ebf6c, size 0x20, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestNone, addr 0x64c2df4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestNone, addr 0x68ebf2c, size 0x20, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
-  /// @brief Method TrimExcess, addr 0x64c2590, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrimExcess, addr 0x68eb6c8, size 0x18, virtual false, abstract: false, final false
   inline void TrimExcess();
 
-  /// @brief Method .ctor, addr 0x64c23ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68eb4e4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t numBits, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, ::Unity::Collections::NativeArrayOptions options);
 
   /// [IsReadOnly]
-  /// @brief Method get_Capacity, addr 0x64c27c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x68eb900, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
   /// [IsReadOnly]
-  /// @brief Method get_IsCreated, addr 0x64c249c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x68eb5d4, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// [IsReadOnly]
-  /// @brief Method get_IsEmpty, addr 0x64c24cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x68eb604, size 0x28, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
   /// [IsReadOnly]
-  /// @brief Method get_Length, addr 0x64c27b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x68eb8e8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"
@@ -277,8 +277,11 @@ public:
   // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr NativeBitArray(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray* m_BitArray, ::Unity::Collections::AllocatorManager_AllocatorHandle m_Allocator) noexcept;
 
+  /// @brief Field MaxCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x7fffffc0) };
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15875 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

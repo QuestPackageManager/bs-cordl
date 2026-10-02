@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipeline.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderTextureUVOriginStrategy_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipeline_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
@@ -17,11 +18,14 @@
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRPass_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderTextureUVOriginStrategy_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AdditionalLightsShadowAtlasLayout_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__CullContextData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__HDRColorBufferPrecision_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ImageUpscalingFilter_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RTHandleResourcePool_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__RenderingMode_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderer_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TemporalAA_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__Tonemapping_def.hpp"
@@ -64,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry::*)()>(
     &::UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68e281c;
+  constexpr static std::size_t addrs = 0x6d0c3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,18 +76,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-constexpr ::StringW& UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry::__cordl_internal_get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___name;
-}
-constexpr ::StringW const& UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry::__cordl_internal_get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___name;
-}
-constexpr void UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry::__cordl_internal_set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___name = value;
-}
 constexpr ::UnityEngine::Rendering::ProfilingSampler*& UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry::__cordl_internal_get_sampler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sampler;
@@ -115,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry* (*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraMetadataCache::GetCached)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x68e2654;
+  constexpr static std::size_t addrs = 0x6d0c1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraMetadataCache*>(),
@@ -161,13 +153,6 @@ inline void UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRende
 inline ::UnityEngine::Rendering::ProfilingSampler* UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer::getStaticF_setupCullingParameters() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::ProfilingSampler*, "setupCullingParameters",
                                            ::UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer*>();
-}
-inline void UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer::setStaticF_setup(::UnityEngine::Rendering::ProfilingSampler* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::Rendering::ProfilingSampler*, "setup", ::UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer*>(
-      std::forward<::UnityEngine::Rendering::ProfilingSampler*>(value));
-}
-inline ::UnityEngine::Rendering::ProfilingSampler* UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer::getStaticF_setup() {
-  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::ProfilingSampler*, "setup", ::UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer*>();
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Pipeline_Profiling_UniversalRenderPipeline_Renderer::Pipeline_Profiling_UniversalRenderPipeline_Renderer() {}
@@ -271,8 +256,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope::_ctor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68e2db0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6d0c914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope::Dispose)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68e2e5c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6d0c9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,8 +330,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRenderingScope::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRenderingScope::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x68e2fc0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6d0cb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,8 +347,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRenderingScope::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline_ContextRenderingScope::Dispose)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68e3074;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6d0cbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline_SingleCameraRequest::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline_SingleCameraRequest::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68e31d8;
+  constexpr static std::size_t addrs = 0x6d0cd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -496,41 +481,41 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68e3238;
+  constexpr static std::size_t addrs = 0x6d0cd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c.__ctor_b__47_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c.__ctor_b__52_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::*)(::UnityEngine::Camera*, ::UnityEngine::Camera*)>(
-    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__ctor_b__47_0)> {
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__ctor_b__52_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68e323c;
+  constexpr static std::size_t addrs = 0x6d0cd90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(),
-                                                             { "<.ctor>b__47_0", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
+                                                             { "<.ctor>b__52_0", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c.__cctor_b__122_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c.__cctor_b__132_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::*)(
     ::ArrayW<::UnityEngine::Light*>, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(
-    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__cctor_b__122_0)> {
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__cctor_b__132_0)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x68e32a4;
+  constexpr static std::size_t addrs = 0x6d0cdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(),
-                                                             { "<.cctor>b__122_0",
+                                                             { "<.cctor>b__132_0",
                                                                {},
                                                                { ::i2c::type_of<::ArrayW<::UnityEngine::Light*>>(),
                                                                  ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>>() } })));
@@ -544,29 +529,29 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::setS
 inline ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c* UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*, "<>9", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>();
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::setStaticF___9__47_0(::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* value) {
-  ::cordl_internals::setStaticField<::System::Comparison_1<::UnityW<::UnityEngine::Camera>>*, "<>9__47_0", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::setStaticF___9__52_0(::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* value) {
+  ::cordl_internals::setStaticField<::System::Comparison_1<::UnityW<::UnityEngine::Camera>>*, "<>9__52_0", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(
       std::forward<::System::Comparison_1<::UnityW<::UnityEngine::Camera>>*>(value));
 }
-inline ::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::getStaticF___9__47_0() {
-  return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityW<::UnityEngine::Camera>>*, "<>9__47_0", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>();
+inline ::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::getStaticF___9__52_0() {
+  return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityW<::UnityEngine::Camera>>*, "<>9__52_0", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>();
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__ctor_b__47_0(::UnityEngine::Camera* camera1, ::UnityEngine::Camera* camera2) {
+inline int32_t UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__ctor_b__52_0(::UnityEngine::Camera* camera1, ::UnityEngine::Camera* camera2) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(),
-                                                           { "<.ctor>b__47_0", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
+                                                           { "<.ctor>b__52_0", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, camera1, camera2);
 }
 inline void
-UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__cctor_b__122_0(::ArrayW<::UnityEngine::Light*> requests,
+UnityEngine::Rendering::Universal::UniversalRenderPipeline___c::__cctor_b__132_0(::ArrayW<::UnityEngine::Light*> requests,
                                                                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c*>(),
-                                                           { "<.cctor>b__122_0",
+                                                           { "<.cctor>b__132_0",
                                                              {},
                                                              { ::i2c::type_of<::ArrayW<::UnityEngine::Light*>>(),
                                                                ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>>() } })));
@@ -582,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxShadowBias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d88d8;
+  constexpr static std::size_t addrs = 0x6d0167c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_minRenderScale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d88e0;
+  constexpr static std::size_t addrs = 0x6d01684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -608,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxRenderScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d88ec;
+  constexpr static std::size_t addrs = 0x6d01690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -621,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxNumIterationsEnclosingSphere)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d88f4;
+  constexpr static std::size_t addrs = 0x6d01698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxPerObjectLights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d88fc;
+  constexpr static std::size_t addrs = 0x6d016a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -646,8 +631,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEn
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxVisibleAdditionalLights)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68d023c;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6d016a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_lightsPerTile)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68d8904;
+  constexpr static std::size_t addrs = 0x6d017b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +658,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxZBinWords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d895c;
+  constexpr static std::size_t addrs = 0x6d0180c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -686,7 +671,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxTileWords)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68d8964;
+  constexpr static std::size_t addrs = 0x6d01814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +684,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_maxVisibleReflectionProbes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68d89bc;
+  constexpr static std::size_t addrs = 0x6d0186c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -713,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_runtimeTextures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d8a3c;
+  constexpr static std::size_t addrs = 0x6d018ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -727,12 +712,41 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::set_runtimeTextures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d8a44;
+  constexpr static std::size_t addrs = 0x6d018f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                                              { "set_runtimeTextures", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.get_renderTextureUVOriginStrategy
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy (*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_renderTextureUVOriginStrategy)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6d018fc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), { "get_renderTextureUVOriginStrategy", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.set_renderTextureUVOriginStrategy
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy)>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::set_renderTextureUVOriginStrategy)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6d01958;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                { "set_renderTextureUVOriginStrategy", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy>() } })));
     return ___internal_method;
   }
 };
@@ -742,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_defaultSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d8a4c;
+  constexpr static std::size_t addrs = 0x6d019b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -755,7 +769,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_canOptimizeScreenMSAASamples)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68d8a54;
+  constexpr static std::size_t addrs = 0x6d019c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -768,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::set_canOptimizeScreenMSAASamples)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68d8ab0;
+  constexpr static std::size_t addrs = 0x6d01a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -782,7 +796,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_startFrameScreenMSAASamples)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68d8b14;
+  constexpr static std::size_t addrs = 0x6d01a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -795,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::set_startFrameScreenMSAASamples)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68d8b70;
+  constexpr static std::size_t addrs = 0x6d01adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -810,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::ToString)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68d8bd0;
+  constexpr static std::size_t addrs = 0x6d01b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -823,8 +837,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::_ctor)> {
-  constexpr static std::size_t size = 0x970;
-  constexpr static std::size_t addrs = 0x68d8be8;
+  constexpr static std::size_t size = 0x88c;
+  constexpr static std::size_t addrs = 0x6d01b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -837,8 +851,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::Dispose)> {
-  constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x68d95dc;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x6d024ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -852,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::DisposeAdditionalCameraData)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x68d98dc;
+  constexpr static std::size_t addrs = 0x6d02814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -864,24 +878,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<::UnityEngine::Camera*>)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::Render)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x68d9998;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), 4 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.Render
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::Render)> {
-  constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x68d9a30;
+  constexpr static std::size_t size = 0x640;
+  constexpr static std::size_t addrs = 0x6d028d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -894,8 +894,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCamera)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68dbf6c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6d05344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -907,16 +907,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.RenderSingleCameraInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*, bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCameraInternal)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68dbea0;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6d05268;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                         { "RenderSingleCameraInternal", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+            { "RenderSingleCameraInternal", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -924,10 +925,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>)>(
+    static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>, bool)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCameraInternal)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x68dbfd4;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x6d053b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -935,7 +936,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                              { "RenderSingleCameraInternal",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -945,7 +946,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::TryGetCullingParameters)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x68de2ac;
+  constexpr static std::size_t addrs = 0x6d0785c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -962,8 +963,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCamera)> {
-  constexpr static std::size_t size = 0x1130;
-  constexpr static std::size_t addrs = 0x68dd17c;
+  constexpr static std::size_t size = 0x1044;
+  constexpr static std::size_t addrs = 0x6d06818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -981,8 +982,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
                          ::by_ref<::UnityEngine::Rendering::CullingResults>, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateShadowAtlasAndCullShadowCasters)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x68dfd74;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6d09770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -999,15 +1000,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.RenderCameraStack
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*, bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderCameraStack)> {
-  constexpr static std::size_t size = 0x14b8;
-  constexpr static std::size_t addrs = 0x68da738;
+  constexpr static std::size_t size = 0x1598;
+  constexpr static std::size_t addrs = 0x6d03a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                { "RenderCameraStack", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                            { "RenderCameraStack", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -1016,8 +1018,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCameraData)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x68e04a8;
+  constexpr static std::size_t size = 0x3e8;
+  constexpr static std::size_t addrs = 0x6d09e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1033,8 +1035,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateVolumeFramework)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x68dbbf0;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6d04fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1050,7 +1052,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CheckPostProcessForDepth)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68e0818;
+  constexpr static std::size_t addrs = 0x6d0a254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1064,7 +1066,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CheckPostProcessForDepth)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x68e0248;
+  constexpr static std::size_t addrs = 0x6d09c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1077,8 +1079,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::SetSupportedRenderingFeatures)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x68d9558;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6d023e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1093,8 +1095,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetRenderer)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68dc3a8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6d057cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1104,22 +1106,37 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.InitializeScaledDimensions
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeScaledDimensions)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6d0a2e8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                            { "InitializeScaledDimensions", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.CreateCameraData
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::UniversalCameraData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Camera*,
-                                                                                                                     ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, bool)>(
+                                                                                                                     ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateCameraData)> {
-  constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x68dc498;
+  constexpr static std::size_t size = 0x558;
+  constexpr static std::size_t addrs = 0x6d058b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                             { "CreateCameraData",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                           { "CreateCameraData",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>() } })));
     return ___internal_method;
   }
 };
@@ -1129,8 +1146,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeStackedCameraData)> {
-  constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x68e08ac;
+  constexpr static std::size_t size = 0x66c;
+  constexpr static std::size_t addrs = 0x6d0a37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1146,10 +1163,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, bool, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
+    static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, bool, bool, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeAdditionalCameraData)> {
-  constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x68dc9d4;
+  constexpr static std::size_t size = 0x858;
+  constexpr static std::size_t addrs = 0x6d05e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1157,7 +1174,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                              { "InitializeAdditionalCameraData",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
-                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
     return ___internal_method;
   }
 };
@@ -1166,19 +1183,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::Universal::UniversalRenderingData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*,
-                                                                                 ::UnityEngine::Rendering::CommandBuffer*, bool, ::UnityEngine::Rendering::Universal::ScriptableRenderer*)>(
+                                                                                 ::UnityEngine::Rendering::CommandBuffer*, ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>,
+                                                                                 ::UnityEngine::Rendering::Universal::ScriptableRenderer*)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateRenderingData)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x68df9e0;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x6d0905c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                            { "CreateRenderingData",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                         { "CreateRenderingData",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>() } })));
     return ___internal_method;
   }
 };
@@ -1186,18 +1205,36 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::Rendering::Universal::UniversalShadowData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*, bool)>(
+    static_cast<::UnityEngine::Rendering::Universal::UniversalShadowData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*,
+                                                                              ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateShadowData)> {
-  constexpr static std::size_t size = 0xdcc;
-  constexpr static std::size_t addrs = 0x68deb34;
+  constexpr static std::size_t size = 0xdec;
+  constexpr static std::size_t addrs = 0x6d08190;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                             { "CreateShadowData",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                { "CreateShadowData",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                                    ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.CreateCullContextData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::Rendering::Universal::CullContextData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::ScriptableRenderContext)>(
+        &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateCullContextData)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6d091b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                            { "CreateCullContextData", {}, { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>() } })));
     return ___internal_method;
   }
 };
@@ -1207,7 +1244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(int32_t, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetMainLightCascadeSplit)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68e1718;
+  constexpr static std::size_t addrs = 0x6d0b210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1223,7 +1260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeMainLightShadowResolution)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68dff88;
+  constexpr static std::size_t addrs = 0x6d09a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1239,7 +1276,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::Universal::UniversalPostProcessingData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreatePostProcessingData)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x68df900;
+  constexpr static std::size_t addrs = 0x6d08f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1257,7 +1294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::UniversalResourceData* (*)(::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateUniversalResourceData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68de89c;
+  constexpr static std::size_t addrs = 0x6d07e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -1270,10 +1307,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::Universal::UniversalLightData* (*)(::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*,
-                                                                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>)>(
+                                                                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>,
+                                                                             ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateLightData)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x68de8f0;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x6d07ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1281,7 +1319,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                 { "CreateLightData",
                                                   {},
                                                   { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
-                                                    ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>() } })));
+                                                    ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>(),
+                                                    ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>() } })));
     return ___internal_method;
   }
 };
@@ -1291,7 +1330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::ApplyTaaRenderingDebugOverrides)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68e1560;
+  constexpr static std::size_t addrs = 0x6d0aff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1305,8 +1344,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateTemporalAAData)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x68e142c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6d0aeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -1323,7 +1362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateTemporalAATargets)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x68de77c;
+  constexpr static std::size_t addrs = 0x6d07d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1338,7 +1377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCameraStereoMatrices)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x68e0334;
+  constexpr static std::size_t addrs = 0x6d09cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1351,15 +1390,37 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::C
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.GetPerObjectLightFlags
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PerObjectData (*)(int32_t, bool, bool)>(
-    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetPerObjectLightFlags)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x68e1620;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PerObjectData (*)(
+    ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*,
+    ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetPerObjectLightFlags)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6d0b0b0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                             { "GetPerObjectLightFlags", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                           { "GetPerObjectLightFlags",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalLightData*>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                                                                               ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.GetBrightestDirectionalLightIndex
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>)>(
+        &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetBrightestDirectionalLightIndex)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x6d0b374;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                           { "GetBrightestDirectionalLightIndex",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                                                                               ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>() } })));
     return ___internal_method;
   }
 };
@@ -1369,8 +1430,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetMainLightIndex)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x68e1778;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6d0b270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -1386,8 +1447,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::SetupPerFrameShaderConstants)> {
-  constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x68da2bc;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x6d0345c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1400,8 +1461,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::SetupPerCameraShaderConstants)> {
-  constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x68de420;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x6d079d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
@@ -1415,7 +1476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CheckAndApplyDebugSettings)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x68dfb44;
+  constexpr static std::size_t addrs = 0x6d09264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1431,7 +1492,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::Universal::ImageUpscalingFilter (*)(::UnityEngine::Vector2, float_t, ::UnityEngine::Rendering::Universal::UpscalingFilterSelection, bool)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::ResolveUpscalingFilterSelection)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x68e1260;
+  constexpr static std::size_t addrs = 0x6d0acec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1448,7 +1509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::HDROutputForMainDisplayIsActive)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x68e0148;
+  constexpr static std::size_t addrs = 0x6d0324c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1461,7 +1522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::HDROutputForAnyDisplayIsActive)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68e1994;
+  constexpr static std::size_t addrs = 0x6d0b5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1474,8 +1535,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::SetHDRState)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x68d9f84;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x6d02f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1491,7 +1552,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::Universal::Tonemapping*, ::by_ref<::UnityEngine::Vector4>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetHDROutputLuminanceParameters)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68e1a44;
+  constexpr static std::size_t addrs = 0x6d0b65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1509,13 +1570,42 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::Tonemapping*, ::by_ref<::UnityEngine::Vector4>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetHDROutputGradingParameters)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68e1b34;
+  constexpr static std::size_t addrs = 0x6d0b74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                             { "GetHDROutputGradingParameters", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::Tonemapping*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.ApplyAdaptivePerformance
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::ApplyAdaptivePerformance)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6d06668;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                             { "ApplyAdaptivePerformance", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.ApplyAdaptivePerformance
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ContextContainer*)>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::ApplyAdaptivePerformance)> {
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x6d09494;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                           { "ApplyAdaptivePerformance", {}, { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -1526,7 +1616,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::Universal::UniversalLightData*, ::UnityEngine::Rendering::Universal::UniversalShadowData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::BuildAdditionalLightsShadowAtlasLayout)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x68e0034;
+  constexpr static std::size_t addrs = 0x6d09af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1544,7 +1634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::AdjustUIOverlayOwnership)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68da0e4;
+  constexpr static std::size_t addrs = 0x6d03184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1557,7 +1647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::SetupScreenMSAASamplesState)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x68da1ac;
+  constexpr static std::size_t addrs = 0x6d0334c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1571,7 +1661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::IsGameCamera)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x68da658;
+  constexpr static std::size_t addrs = 0x6d0395c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1586,7 +1676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset> (*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_asset)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68cb10c;
+  constexpr static std::size_t addrs = 0x6cf4e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), { "get_asset", {}, {} })));
@@ -1599,12 +1689,27 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::SortCameras)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68da5c4;
+  constexpr static std::size_t addrs = 0x6d03790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                                              { "SortCameras", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.GetLastBaseCameraIndex
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipeline::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetLastBaseCameraIndex)> {
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6d03824;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                             { "GetLastBaseCameraIndex", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*>() } })));
     return ___internal_method;
   }
 };
@@ -1614,7 +1719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(bool, ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision, bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::MakeRenderTextureGraphicsFormat)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68cb1b4;
+  constexpr static std::size_t addrs = 0x6d0b4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1631,7 +1736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::MakeUnormRenderTextureGraphicsFormat)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x68e1bfc;
+  constexpr static std::size_t addrs = 0x6d0b814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1645,8 +1750,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureDescriptor (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, bool,
                                                                                                   ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision, int32_t, bool, bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateRenderTextureDescriptor)> {
-  constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x68e0f60;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x6d0a9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1665,8 +1770,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::LightType, float_t, ::UnityEngine::Matrix4x4, float_t, ::System::Nullable_1<float_t>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>)>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetLightAttenuationAndSpotDirection)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x68e1c44;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x6d0b85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1685,7 +1790,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::by_ref<::UnityEngine::Vector4>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetPunctualLightDistanceAttenuation)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x68e1d90;
+  constexpr static std::size_t addrs = 0x6d0b99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1699,8 +1804,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::System::Nullable_1<float_t>, ::by_ref<::UnityEngine::Vector4>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetSpotAngleAttenuation)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x68e1e00;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6d0b9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1715,8 +1820,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Vector4>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetSpotDirection)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x68e1dcc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6d0b9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1731,8 +1836,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>, int32_t, ::by_ref<::UnityEngine::Vector4>,
                                                                 ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Vector4>,
                                                                 ::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeLightConstants_Common)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x68e1f08;
+  constexpr static std::size_t size = 0x34c;
+  constexpr static std::size_t addrs = 0x6d0bb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1746,33 +1851,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collect
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.RecordRenderGraph
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Rendering::Universal::ScriptableRenderer*)>(
-        &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68e2278;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                { "RecordRenderGraph",
-                                                  {},
-                                                  { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                                                    ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.RecordAndExecuteRenderGraph
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ScriptableRenderContext,
-                                                                ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*, ::StringW)>(
-    &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RecordAndExecuteRenderGraph)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x68dfea4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Rendering::Universal::ScriptableRenderer*,
+                         ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*, ::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy)>(
+        &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::RecordAndExecuteRenderGraph)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6d0989c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1781,7 +1868,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                   {},
                                                   { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                                     ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                    ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::StringW>() } })));
+                                                    ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy>() } })));
     return ___internal_method;
   }
 };
@@ -1850,17 +1937,29 @@ constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pipelineAsset = value;
 }
-constexpr bool& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_enableHDROnce() {
+constexpr bool& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_enableHDROutputOnce() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableHDROnce;
+  return this->___enableHDROutputOnce;
 }
-constexpr bool const& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_enableHDROnce() const {
+constexpr bool const& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_enableHDROutputOnce() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableHDROnce;
+  return this->___enableHDROutputOnce;
 }
-constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_set_enableHDROnce(bool value) {
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_set_enableHDROutputOnce(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___enableHDROnce = value;
+  this->___enableHDROutputOnce = value;
+}
+constexpr bool& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_warnedRuntimeSwitchHDROutputToSDROutput() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___warnedRuntimeSwitchHDROutputToSDROutput;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_warnedRuntimeSwitchHDROutputToSDROutput() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___warnedRuntimeSwitchHDROutputToSDROutput;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_set_warnedRuntimeSwitchHDROutputToSDROutput(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___warnedRuntimeSwitchHDROutputToSDROutput = value;
 }
 constexpr ::System::Comparison_1<::UnityW<::UnityEngine::Camera>>*& UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cordl_internal_get_cameraComparison() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1874,11 +1973,21 @@ constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipeline::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cameraComparison = value;
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF_cameraStackRequiresDepthForPostprocessing(bool value) {
-  ::cordl_internals::setStaticField<bool, "cameraStackRequiresDepthForPostprocessing", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<bool>(value));
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF__renderTextureUVOriginStrategy_k__BackingField(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy, "<renderTextureUVOriginStrategy>k__BackingField",
+                                    ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy>(value));
 }
-inline bool UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF_cameraStackRequiresDepthForPostprocessing() {
-  return ::cordl_internals::getStaticField<bool, "cameraStackRequiresDepthForPostprocessing", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
+inline ::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy
+UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF__renderTextureUVOriginStrategy_k__BackingField() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy, "<renderTextureUVOriginStrategy>k__BackingField",
+                                           ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF_stackedOverlayCamerasRequireDepthForPostProcessing(bool value) {
+  ::cordl_internals::setStaticField<bool, "stackedOverlayCamerasRequireDepthForPostProcessing", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF_stackedOverlayCamerasRequireDepthForPostProcessing() {
+  return ::cordl_internals::getStaticField<bool, "stackedOverlayCamerasRequireDepthForPostProcessing", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF_s_RenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, "s_RenderGraph", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(
@@ -1894,11 +2003,17 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStati
 inline ::UnityEngine::Rendering::Universal::RTHandleResourcePool* UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF_s_RTHandlePool() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::RTHandleResourcePool*, "s_RTHandlePool", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF_useRenderGraph(bool value) {
-  ::cordl_internals::setStaticField<bool, "useRenderGraph", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<bool>(value));
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF_requireOffscreenUICoverPrepass(bool value) {
+  ::cordl_internals::setStaticField<bool, "requireOffscreenUICoverPrepass", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<bool>(value));
 }
-inline bool UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF_useRenderGraph() {
-  return ::cordl_internals::getStaticField<bool, "useRenderGraph", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
+inline bool UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF_requireOffscreenUICoverPrepass() {
+  return ::cordl_internals::getStaticField<bool, "requireOffscreenUICoverPrepass", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF_offscreenUIRenderedInCurrentFrame(bool value) {
+  ::cordl_internals::setStaticField<bool, "offscreenUIRenderedInCurrentFrame", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::Rendering::Universal::UniversalRenderPipeline::getStaticF_offscreenUIRenderedInCurrentFrame() {
+  return ::cordl_internals::getStaticField<bool, "offscreenUIRenderedInCurrentFrame", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>();
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::setStaticF__canOptimizeScreenMSAASamples_k__BackingField(bool value) {
   ::cordl_internals::setStaticField<bool, "<canOptimizeScreenMSAASamples>k__BackingField", ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(std::forward<bool>(value));
@@ -2026,6 +2141,17 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::set_runt
                                                            { "set_runtimeTextures", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+inline ::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_renderTextureUVOriginStrategy() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), { "get_renderTextureUVOriginStrategy", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy>(nullptr, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::set_renderTextureUVOriginStrategy(::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                              { "set_renderTextureUVOriginStrategy", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
 inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> UnityEngine::Rendering::Universal::UniversalRenderPipeline::get_defaultSettings() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), 9 })));
@@ -2073,11 +2199,6 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::DisposeA
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), { "DisposeAdditionalCameraData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::Render(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::ArrayW<::UnityEngine::Camera*> cameras) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(), 4 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderContext, cameras);
-}
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::Render(::UnityEngine::Rendering::ScriptableRenderContext renderContext,
                                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras) {
   auto* ___internal_method =
@@ -2104,22 +2225,25 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSi
                                               { "RenderSingleCamera", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, camera);
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCameraInternal(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                       { "RenderSingleCameraInternal", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, camera);
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCameraInternal(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera,
+                                                                                                   bool isLastBaseCamera) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+          { "RenderSingleCameraInternal", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, camera, isLastBaseCamera);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderSingleCameraInternal(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera,
-                                                                                                   ::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*> additionalCameraData) {
+                                                                                                   ::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*> additionalCameraData,
+                                                                                                   bool isLastBaseCamera) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                                            { "RenderSingleCameraInternal",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, camera, additionalCameraData);
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, camera, additionalCameraData, isLastBaseCamera);
 }
 inline bool UnityEngine::Rendering::Universal::UniversalRenderPipeline::TryGetCullingParameters(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                                 ::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParams) {
@@ -2155,11 +2279,13 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateSh
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lightData, shadowData, cameraData, cullResults, context);
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderCameraStack(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* baseCamera) {
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderCameraStack(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* baseCamera,
+                                                                                          bool isLastBaseCamera) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                              { "RenderCameraStack", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, baseCamera);
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                          { "RenderCameraStack", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, baseCamera, isLastBaseCamera);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData,
                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr) {
@@ -2203,16 +2329,23 @@ UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetRenderer(::UnityE
                                        { "GetRenderer", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(nullptr, ___internal_method, camera, additionalCameraData);
 }
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeScaledDimensions(::UnityEngine::Camera* camera,
+                                                                                                   ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                          { "InitializeScaledDimensions", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, camera, cameraData);
+}
 inline ::UnityEngine::Rendering::Universal::UniversalCameraData*
 UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateCameraData(::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Camera* camera,
-                                                                             ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData, bool resolveFinalTarget) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                           { "CreateCameraData",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalCameraData*>(nullptr, ___internal_method, frameData, camera, additionalCameraData, resolveFinalTarget);
+                                                                             ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                         { "CreateCameraData",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalCameraData*>(nullptr, ___internal_method, frameData, camera, additionalCameraData);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeStackedCameraData(::UnityEngine::Camera* baseCamera,
                                                                                                     ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* baseAdditionalCameraData,
@@ -2227,37 +2360,48 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::Initiali
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::InitializeAdditionalCameraData(::UnityEngine::Camera* camera,
                                                                                                        ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData,
-                                                                                                       bool resolveFinalTarget, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
+                                                                                                       bool resolveFinalTarget, bool isLastBaseCamera,
+                                                                                                       ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                                            { "InitializeAdditionalCameraData",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
-                                                               ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, camera, additionalCameraData, resolveFinalTarget, cameraData);
+                                                               ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, camera, additionalCameraData, resolveFinalTarget, isLastBaseCamera, cameraData);
 }
 inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateRenderingData(
     ::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings, ::UnityEngine::Rendering::CommandBuffer* cmd,
-    bool isForwardPlus, ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                          { "CreateRenderingData",
-                            {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(nullptr, ___internal_method, frameData, settings, cmd, isForwardPlus, renderer);
+    ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode> renderingMode, ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                       { "CreateRenderingData",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(nullptr, ___internal_method, frameData, settings, cmd, renderingMode, renderer);
 }
 inline ::UnityEngine::Rendering::Universal::UniversalShadowData*
 UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateShadowData(::UnityEngine::Rendering::ContextContainer* frameData,
-                                                                             ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* urpAsset, bool isForwardPlus) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                           { "CreateShadowData",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalShadowData*>(nullptr, ___internal_method, frameData, urpAsset, isForwardPlus);
+                                                                             ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* urpAsset,
+                                                                             ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode> renderingMode) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                              { "CreateShadowData",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                                  ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalShadowData*>(nullptr, ___internal_method, frameData, urpAsset, renderingMode);
+}
+inline ::UnityEngine::Rendering::Universal::CullContextData*
+UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateCullContextData(::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::ScriptableRenderContext context) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                          { "CreateCullContextData", {}, { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::CullContextData*>(nullptr, ___internal_method, frameData, context);
 }
 inline ::UnityEngine::Vector3 UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetMainLightCascadeSplit(int32_t mainLightShadowCascadesCount,
                                                                                                                    ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* urpAsset) {
@@ -2290,17 +2434,17 @@ UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateUniversalResou
                                                                                          { "CreateUniversalResourceData", {}, { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalResourceData*>(nullptr, ___internal_method, frameData);
 }
-inline ::UnityEngine::Rendering::Universal::UniversalLightData*
-UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateLightData(::UnityEngine::Rendering::ContextContainer* frameData,
-                                                                            ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
-                                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights) {
+inline ::UnityEngine::Rendering::Universal::UniversalLightData* UnityEngine::Rendering::Universal::UniversalRenderPipeline::CreateLightData(
+    ::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
+    ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights, ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode> renderingMode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                               { "CreateLightData",
                                                 {},
                                                 { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
-                                                  ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalLightData*>(nullptr, ___internal_method, frameData, settings, visibleLights);
+                                                  ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>(),
+                                                  ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::UniversalLightData*>(nullptr, ___internal_method, frameData, settings, visibleLights, renderingMode);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::ApplyTaaRenderingDebugOverrides(::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings> taaSettings) {
   static auto* ___internal_method =
@@ -2330,12 +2474,27 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCa
                                               { "UpdateCameraStereoMatrices", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, camera, xr);
 }
-inline ::UnityEngine::Rendering::PerObjectData UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetPerObjectLightFlags(int32_t additionalLightsCount, bool isForwardPlus,
-                                                                                                                                  bool reflectionProbeBlending) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                                           { "GetPerObjectLightFlags", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::PerObjectData>(nullptr, ___internal_method, additionalLightsCount, isForwardPlus, reflectionProbeBlending);
+inline ::UnityEngine::Rendering::PerObjectData
+UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetPerObjectLightFlags(::UnityEngine::Rendering::Universal::UniversalLightData* universalLightData,
+                                                                                   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
+                                                                                   ::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode> renderingMode) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                         { "GetPerObjectLightFlags",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalLightData*>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                                                                             ::i2c::type_of<::System::Nullable_1<::UnityEngine::Rendering::Universal::RenderingMode>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::PerObjectData>(nullptr, ___internal_method, universalLightData, settings, renderingMode);
+}
+inline int32_t
+UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetBrightestDirectionalLightIndex(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
+                                                                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                         { "GetBrightestDirectionalLightIndex",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*>(),
+                                                                                             ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, settings, visibleLights);
 }
 inline int32_t UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetMainLightIndex(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
                                                                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights) {
@@ -2409,6 +2568,17 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetHDROu
                           { "GetHDROutputGradingParameters", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::Tonemapping*>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, tonemapping, hdrOutputParameters);
 }
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::ApplyAdaptivePerformance(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                           { "ApplyAdaptivePerformance", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cameraData);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::ApplyAdaptivePerformance(::UnityEngine::Rendering::ContextContainer* frameData) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                                                         { "ApplyAdaptivePerformance", {}, { ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, frameData);
+}
 inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout
 UnityEngine::Rendering::Universal::UniversalRenderPipeline::BuildAdditionalLightsShadowAtlasLayout(::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                                                                                    ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
@@ -2446,6 +2616,12 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::SortCame
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                                            { "SortCameras", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameras);
+}
+inline int32_t UnityEngine::Rendering::Universal::UniversalRenderPipeline::GetLastBaseCameraIndex(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                                                           { "GetLastBaseCameraIndex", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, cameras);
 }
 inline ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Rendering::Universal::UniversalRenderPipeline::MakeRenderTextureGraphicsFormat(
     bool isHdrEnabled, ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision requestHDRColorBufferPrecision, bool needsAlpha) {
@@ -2523,29 +2699,19 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::Initiali
                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lights, lightIndex, lightPos, lightColor, lightAttenuation, lightSpotDir, lightOcclusionProbeChannel);
 }
-inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                          ::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                          ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-                                              { "RecordRenderGraph",
-                                                {},
-                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderGraph, context, renderer);
-}
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RecordAndExecuteRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                     ::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                                     ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                                    ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera, ::StringW cameraName) {
+                                                                                                    ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera,
+                                                                                                    ::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy uvOriginStrategy) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
                                               { "RecordAndExecuteRenderGraph",
                                                 {},
                                                 { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                                   ::i2c::type_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                  ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderGraph, context, renderer, cmd, camera, cameraName);
+                                                  ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderGraph, context, renderer, cmd, camera, uvOriginStrategy);
 }
 inline ::UnityEngine::Rendering::Universal::UniversalRenderPipeline*
 UnityEngine::Rendering::Universal::UniversalRenderPipeline::New_ctor(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* asset) {

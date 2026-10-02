@@ -37,10 +37,10 @@ public:
 
   static inline ::GlobalNamespace::PointLight* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58695d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c7f754, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x58694fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c7f680, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
@@ -55,12 +55,12 @@ public:
 
   constexpr void __cordl_internal_set_intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x5869658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c7f7dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* getStaticF__lights();
 
-  /// @brief Method get_lights, addr 0x58694a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x5c7f624, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* get_lights();
 
   static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* value);
@@ -80,7 +80,7 @@ public:
   PointLight(PointLight const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19925 };
 
   /// @brief Field kMaxLights offset 0xffffffff size 0x4
   static constexpr int32_t kMaxLights{ static_cast<int32_t>(0x1) };

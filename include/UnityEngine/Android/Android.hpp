@@ -15,6 +15,7 @@ module;
 #include "UnityEngine/Android/AndroidConfiguration.hpp"
 #include "UnityEngine/Android/AndroidGame.hpp"
 #include "UnityEngine/Android/AndroidHardwareKeyboardHidden.hpp"
+#include "UnityEngine/Android/AndroidInsets.hpp"
 #include "UnityEngine/Android/AndroidKeyboard.hpp"
 #include "UnityEngine/Android/AndroidKeyboardHidden.hpp"
 #include "UnityEngine/Android/AndroidLocale.hpp"

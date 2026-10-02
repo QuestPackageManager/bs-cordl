@@ -32,13 +32,13 @@ public:
 
   static inline ::System::PlatformNotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c59450, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60728b4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c594cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6072930, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c594ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6072910, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

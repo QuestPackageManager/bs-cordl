@@ -42,21 +42,21 @@ public:
 
   static inline ::System::Runtime::Diagnostics::EtwProvider* New_ctor(::System::Guid id);
 
-  /// @brief Method OnControllerCommand, addr 0x6191218, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnControllerCommand, addr 0x65b8d68, size 0x20, virtual true, abstract: false, final false
   inline void OnControllerCommand();
 
-  /// @brief Method SetEnd2EndActivityTracingEnabled, addr 0x6191238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEnd2EndActivityTracingEnabled, addr 0x65b8d88, size 0x8, virtual false, abstract: false, final false
   inline void SetEnd2EndActivityTracingEnabled(bool isEnd2EndActivityTracingEnabled);
 
-  /// @brief Method WriteEvent, addr 0x618a294, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x65b1de4, size 0xf8, virtual false, abstract: false, final false
   inline bool WriteEvent(::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW value1,
                          ::StringW value2);
 
-  /// @brief Method WriteEvent, addr 0x618a154, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x65b1ca4, size 0x140, virtual false, abstract: false, final false
   inline bool WriteEvent(::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW value1,
                          ::StringW value2, ::StringW value3);
 
-  /// @brief Method WriteEvent, addr 0x6189fd0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x65b1b20, size 0x184, virtual false, abstract: false, final false
   inline bool WriteEvent(::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW value1,
                          ::StringW value2, ::StringW value3, ::StringW value4);
 
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_invokeControllerCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x618efec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b6b3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Guid id);
 
-  /// @brief Method get_ControllerCallBack, addr 0x6191208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControllerCallBack, addr 0x65b8d58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_ControllerCallBack();
 
-  /// @brief Method set_ControllerCallBack, addr 0x6191210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControllerCallBack, addr 0x65b8d60, size 0x8, virtual false, abstract: false, final false
   inline void set_ControllerCallBack(::System::Action* value);
 
 protected:
@@ -96,7 +96,7 @@ public:
   EtwProvider(EtwProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22046 };
 
   /// @brief Field invokeControllerCallback, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___invokeControllerCallback;

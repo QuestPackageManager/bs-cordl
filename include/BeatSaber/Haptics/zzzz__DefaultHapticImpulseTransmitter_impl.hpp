@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::*)(::UnityEngine::XR::XRNode)>(
     &::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3299200;
+  constexpr static std::size_t addrs = 0x351fec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::*)(float_t, float_t)>(
     &::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3299208;
+  constexpr static std::size_t addrs = 0x351fecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::DefaultHapticImpulseTransmitter*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::*)()>(&::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::StopHaptics)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3299280;
+  constexpr static std::size_t addrs = 0x351ff44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::DefaultHapticImpulseTransmitter*>(), { "StopHaptics", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::*)()>(&::BeatSaber::Haptics::DefaultHapticImpulseTransmitter::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32992fc;
+  constexpr static std::size_t addrs = 0x351ffc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::DefaultHapticImpulseTransmitter*>(), { "Dispose", {}, {} })));

@@ -27,7 +27,7 @@ class CORDL_TYPE VRControllersRecorderExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToVRControllersRecorderMode, addr 0x58e12f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToVRControllersRecorderMode, addr 0x5cfbddc, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_Mode ToVRControllersRecorderMode(::GlobalNamespace::PlaymodeOptions playmodeOptions);
 
 protected:
@@ -45,7 +45,7 @@ public:
   VRControllersRecorderExtensions(VRControllersRecorderExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6643 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

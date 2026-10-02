@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TspException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x3624568, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38ad804, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3623eb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38ad150, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3620cd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38a9f70, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

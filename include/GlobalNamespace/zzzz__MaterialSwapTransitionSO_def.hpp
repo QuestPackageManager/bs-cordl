@@ -91,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6446acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686d818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledMaterial, addr 0x6446ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledMaterial, addr 0x686d800, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_disabledMaterial();
 
-  /// @brief Method get_highlightedMaterial, addr 0x6446aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedMaterial, addr 0x686d7f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_highlightedMaterial();
 
-  /// @brief Method get_normalMaterial, addr 0x6446a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalMaterial, addr 0x686d7e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_normalMaterial();
 
-  /// @brief Method get_pressedMaterial, addr 0x6446aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedMaterial, addr 0x686d7f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_pressedMaterial();
 
-  /// @brief Method get_selectedAndHighlightedMaterial, addr 0x6446ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedMaterial, addr 0x686d810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_selectedAndHighlightedMaterial();
 
-  /// @brief Method get_selectedMaterial, addr 0x6446abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMaterial, addr 0x686d808, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_selectedMaterial();
 
 protected:
@@ -127,7 +127,7 @@ public:
   MaterialSwapTransitionSO(MaterialSwapTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23101 };
 
   /// [SerializeField]
   /// @brief Field _normalMaterial, offset: 0x20, size: 0x8, def value: None

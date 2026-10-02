@@ -46,7 +46,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32d0a58, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x3558040, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::EnableFPSCounterConsoleCommand* New_ctor();
@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x32d0b08, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35580f0, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32d09d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x3557fb8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32d0a14, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3557ffc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -87,7 +87,7 @@ public:
   EnableFPSCounterConsoleCommand(EnableFPSCounterConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19727 };
 
   /// [Inject]
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None

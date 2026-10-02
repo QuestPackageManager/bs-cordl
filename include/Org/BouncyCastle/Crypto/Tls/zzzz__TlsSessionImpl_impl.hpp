@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)(::ArrayW<uint8_t>, ::Org::BouncyCastle::Crypto::Tls::SessionParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3490530;
+  constexpr static std::size_t addrs = 0x37197cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::SessionParameters* (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::ExportSessionParameters)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3490668;
+  constexpr static std::size_t addrs = 0x3719904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_SessionID)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3490718;
+  constexpr static std::size_t addrs = 0x37199b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::Invalidate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3490744;
+  constexpr static std::size_t addrs = 0x37199e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_IsResumable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3490760;
+  constexpr static std::size_t addrs = 0x37199fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

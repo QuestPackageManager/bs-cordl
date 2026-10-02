@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)(::Unity::Hierarchy::HierarchyViewModel*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c4e04c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x70973b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c4e200;
+  constexpr static std::size_t addrs = 0x7097568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::MoveNext)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c4e26c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x70975d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::Reset)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c4e28c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x709762c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4dce4;
+  constexpr static std::size_t addrs = 0x7096ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4dcec;
+  constexpr static std::size_t addrs = 0x7096ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Count)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c4dcf4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x7096ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(), { "get_Count", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Contains)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c4dd0c;
+  constexpr static std::size_t addrs = 0x7096f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::IndexOf)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c4dd9c;
+  constexpr static std::size_t addrs = 0x7096fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::Unity::Hierarchy::HierarchyViewModel*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4de58;
+  constexpr static std::size_t addrs = 0x7097078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(),
@@ -192,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_Item)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c4de60;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x7097080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::set_Item)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4dedc;
+  constexpr static std::size_t addrs = 0x7097174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(),
@@ -220,8 +220,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Array*, int32_t)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::CopyTo)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c4df14;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x70971ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(),
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::GetEnumerator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c4dfd0;
+  constexpr static std::size_t addrs = 0x7097334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e078;
+  constexpr static std::size_t addrs = 0x70973e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e0b0;
+  constexpr static std::size_t addrs = 0x7097418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(), { "get_SyncRoot", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Add)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e0e8;
+  constexpr static std::size_t addrs = 0x7097450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)()>(&::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Clear)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e120;
+  constexpr static std::size_t addrs = 0x7097488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(), { "Clear", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Insert)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e158;
+  constexpr static std::size_t addrs = 0x70974c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList*>(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::Remove)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e190;
+  constexpr static std::size_t addrs = 0x70974f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::*)(int32_t)>(
     &::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList::RemoveAt)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4e1c8;
+  constexpr static std::size_t addrs = 0x7097530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

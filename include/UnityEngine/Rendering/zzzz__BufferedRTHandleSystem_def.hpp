@@ -4,11 +4,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedRTHandleSystem)
 namespace System::Collections::Generic {
@@ -19,9 +17,6 @@ template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
 class IDisposable;
-}
-namespace UnityEngine::Rendering {
-struct BufferedRTHandleSystem___c__DisplayClass12_0;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -51,52 +46,9 @@ struct Vector2;
 namespace UnityEngine::Rendering {
 class BufferedRTHandleSystem;
 }
-namespace UnityEngine::Rendering {
-struct BufferedRTHandleSystem___c__DisplayClass12_0;
-}
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::BufferedRTHandleSystem*);
-MARK_VAL_T(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BufferedRTHandleSystem*, "UnityEngine.Rendering", "BufferedRTHandleSystem");
-DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0, "UnityEngine.Rendering", "BufferedRTHandleSystem/<>c__DisplayClass12_0");
-// [CompilerGenerated]
-// Dependencies UnityEngine.Experimental.Rendering.GraphicsFormat
-namespace UnityEngine::Rendering {
-// Is value type: true
-// CS Name: UnityEngine.Rendering.BufferedRTHandleSystem/<>c__DisplayClass12_0
-struct CORDL_TYPE BufferedRTHandleSystem___c__DisplayClass12_0 {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferedRTHandleSystem___c__DisplayClass12_0();
-
-  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::BufferedRTHandleSystem*", modifiers: "", def_value: None, comment: None }, CppParam { name: "format", ty:
-  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None, comment: None }]
-  constexpr BufferedRTHandleSystem___c__DisplayClass12_0(::UnityEngine::Rendering::BufferedRTHandleSystem* __4__this, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12233 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
-  /// @brief Field <>4__this, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::BufferedRTHandleSystem* __4__this;
-
-  /// @brief Field format, offset: 0x8, size: 0x4, def value: None
-  ::UnityEngine::Experimental::Rendering::GraphicsFormat format;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0, __4__this) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0, format) == 0x8, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0) == 0x10, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -104,8 +56,6 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE BufferedRTHandleSystem : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass12_0 = ::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0;
-
   /// @brief Field m_DisposedValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DisposedValue, put = __cordl_internal_set_m_DisposedValue)) bool m_DisposedValue;
 
@@ -125,53 +75,47 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AllocBuffer, addr 0x67a8a80, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AllocBuffer, addr 0x6bc3880, size 0x190, virtual false, abstract: false, final false
   inline void AllocBuffer(int32_t bufferId, ::System::Func_3<::UnityEngine::Rendering::RTHandleSystem*, int32_t, ::UnityEngine::Rendering::RTHandle*>* allocator, int32_t bufferCount);
 
-  /// @brief Method AllocBuffer, addr 0x67a8c14, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method AllocBuffer, addr 0x6bc3b38, size 0x374, virtual false, abstract: false, final false
   inline void AllocBuffer(int32_t bufferId, int32_t bufferCount, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
                           ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
-  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x67a94ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x6bc46b8, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(int32_t width, int32_t height);
 
-  /// @brief Method ClearBuffers, addr 0x67a88b4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ClearBuffers, addr 0x6bc36b4, size 0x1cc, virtual false, abstract: false, final false
   inline void ClearBuffers(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Dispose, addr 0x67a9758, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6bc4bb0, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x67a94d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6bc4928, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetFrameRT, addr 0x67a87e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetFrameRT, addr 0x6bc35e8, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetFrameRT(int32_t bufferId, int32_t frameIndex);
 
-  /// @brief Method GetNumFramesAllocated, addr 0x67a93f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNumFramesAllocated, addr 0x6bc4604, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetNumFramesAllocated(int32_t bufferId);
 
   static inline ::UnityEngine::Rendering::BufferedRTHandleSystem* New_ctor();
 
-  /// @brief Method ReleaseAll, addr 0x67a951c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAll, addr 0x6bc496c, size 0x23c, virtual false, abstract: false, final false
   inline void ReleaseAll();
 
-  /// @brief Method ReleaseBuffer, addr 0x67a8ef0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0x6bc40e4, size 0xf4, virtual false, abstract: false, final false
   inline void ReleaseBuffer(int32_t bufferId);
 
-  /// @brief Method ResetReferenceSize, addr 0x67a93dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResetReferenceSize, addr 0x6bc45dc, size 0x1c, virtual false, abstract: false, final false
   inline void ResetReferenceSize(int32_t width, int32_t height);
 
-  /// @brief Method Swap, addr 0x67a9020, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x6bc4224, size 0x3b0, virtual false, abstract: false, final false
   inline void Swap();
 
-  /// @brief Method SwapAndSetReferenceSize, addr 0x67a8fe4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SwapAndSetReferenceSize, addr 0x6bc41e8, size 0x3c, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t width, int32_t height);
-
-  /// [CompilerGenerated]
-  /// @brief Method <AllocBuffer>g__Alloc|12_0, addr 0x67a8e3c, size 0xb4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RTHandle* _AllocBuffer_g__Alloc_12_0(::by_ref<::UnityEngine::RenderTextureDescriptor> d, ::UnityEngine::FilterMode fMode, ::UnityEngine::TextureWrapMode wMode,
-                                                                        bool isShadow, int32_t aniso, float_t mipBias, ::StringW n,
-                                                                        ::by_ref<::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr bool const& __cordl_internal_get_m_DisposedValue() const;
 
@@ -191,16 +135,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RTHandles(::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::Rendering::RTHandle*>>* value);
 
-  /// @brief Method .ctor, addr 0x67a9760, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc4bb8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxHeight, addr 0x67a87ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x6bc35ac, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_maxHeight();
 
-  /// @brief Method get_maxWidth, addr 0x67a8794, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x6bc3594, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_maxWidth();
 
-  /// @brief Method get_rtHandleProperties, addr 0x67a87c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_rtHandleProperties, addr 0x6bc35c4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
 
   /// @brief Convert to "::System::IDisposable"
@@ -221,7 +165,7 @@ public:
   BufferedRTHandleSystem(BufferedRTHandleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9109 };
 
   /// @brief Field m_RTHandles, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::Rendering::RTHandle*>>* ___m_RTHandles;

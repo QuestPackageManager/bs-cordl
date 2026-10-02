@@ -64,21 +64,21 @@ public:
   constexpr void __cordl_internal_set_smallPrimes(::System::Collections::IList* value);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x3414ebc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369e158, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method .ctor, addr 0x3414ed4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369e170, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::IList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method get_PhiN, addr 0x3414eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PhiN, addr 0x369e188, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PhiN();
 
-  /// @brief Method get_SmallPrimes, addr 0x3414ef4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_SmallPrimes, addr 0x369e190, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_SmallPrimes();
 
-  /// @brief Method get_SmallPrimesList, addr 0x3414f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SmallPrimesList, addr 0x369e1f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_SmallPrimesList();
 
 protected:

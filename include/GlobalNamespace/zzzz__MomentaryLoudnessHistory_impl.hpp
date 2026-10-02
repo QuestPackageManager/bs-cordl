@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MomentaryLoudnessHistory::*)(int32_t)>(&::GlobalNamespace::MomentaryLoudnessHistory::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3266894;
+  constexpr static std::size_t addrs = 0x34ec664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MomentaryLoudnessHistory::*)()>(&::GlobalNamespace::MomentaryLoudnessHistory::GetAverageLoudness)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3266754;
+  constexpr static std::size_t addrs = 0x34ec524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MomentaryLoudnessHistory*>(), { "GetAverageLoudness", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MomentaryLoudnessHistory::*)(float_t)>(&::GlobalNamespace::MomentaryLoudnessHistory::Add)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32666d0;
+  constexpr static std::size_t addrs = 0x34ec4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::System::Action*)>(&::GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5859590;
+  constexpr static std::size_t addrs = 0x5c6f33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::System::Action*)>(&::GlobalNamespace::TimelinePauseReceiver::remove_timelinePauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585963c;
+  constexpr static std::size_t addrs = 0x5c6f3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*,
                                                                                                           ::System::Object*)>(&::GlobalNamespace::TimelinePauseReceiver::OnNotify)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58596e8;
+  constexpr static std::size_t addrs = 0x5c6f494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)()>(&::GlobalNamespace::TimelinePauseReceiver::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585978c;
+  constexpr static std::size_t addrs = 0x5c6f538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimelinePauseReceiver*>(), { ".ctor", {}, {} })));

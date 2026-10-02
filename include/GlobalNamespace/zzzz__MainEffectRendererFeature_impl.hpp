@@ -15,12 +15,12 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)()>(&::GlobalNamespace::MainEffectRendererFeature::Create)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f4340c;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x635ebc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(bool)>(&::GlobalNamespace::MainEffectRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f4373c;
+  constexpr static std::size_t addrs = 0x635ee4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,11 +43,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::MainEffectRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f4374c;
+  constexpr static std::size_t addrs = 0x635ee5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::GlobalNamespace::MainEffectController*)>(&::GlobalNamespace::MainEffectRendererFeature::EnqueueLoadingIndicatorPassIfDue)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5f437b8;
+  constexpr static std::size_t addrs = 0x635eec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectController> (*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::MainEffectRendererFeature::ResolveController)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f437b4;
+  constexpr static std::size_t addrs = 0x635eec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectController> (*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::MainEffectRendererFeature::GetEnabledController)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f438f0;
+  constexpr static std::size_t addrs = 0x635f000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)()>(&::GlobalNamespace::MainEffectRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f439ac;
+  constexpr static std::size_t addrs = 0x635f0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ".ctor", {}, {} })));
@@ -194,7 +194,7 @@ constexpr void GlobalNamespace::MainEffectRendererFeature::__cordl_internal_set_
 }
 inline void GlobalNamespace::MainEffectRendererFeature::Create() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MainEffectRendererFeature::Dispose(bool disposing) {
@@ -205,7 +205,7 @@ inline void GlobalNamespace::MainEffectRendererFeature::Dispose(bool disposing) 
 inline void GlobalNamespace::MainEffectRendererFeature::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                         ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void GlobalNamespace::MainEffectRendererFeature::EnqueueLoadingIndicatorPassIfDue(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,

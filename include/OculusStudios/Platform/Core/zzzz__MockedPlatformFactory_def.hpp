@@ -53,11 +53,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f306b4, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x634bd18, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f30964, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x634bfc8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -76,7 +76,7 @@ public:
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -125,16 +125,16 @@ public:
   constexpr operator ::OculusStudios::Platform::Core::IPlatformFactory*() noexcept;
 
   /// [AsyncStateMachine(typeof(OculusStudios.Platform.Core.MockedPlatformFactory::<CreateAsync>d__1))]
-  /// @brief Method CreateAsync, addr 0x5f305d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateAsync, addr 0x634bc34, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>* CreateAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   static inline ::OculusStudios::Platform::Core::MockedPlatformFactory* New_ctor();
 
-  /// @brief Method OculusStudios.Platform.Core.IPlatformFactory.CreateAsync, addr 0x5f305c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.Platform.Core.IPlatformFactory.CreateAsync, addr 0x634bc2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>*
   OculusStudios_Platform_Core_IPlatformFactory_CreateAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method .ctor, addr 0x5f306b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634bd14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformFactory"
@@ -155,7 +155,7 @@ public:
   MockedPlatformFactory(MockedPlatformFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

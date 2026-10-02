@@ -84,7 +84,7 @@ public:
   UniversalCameraHistory_TypeId_1(UniversalCameraHistory_TypeId_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,7 +97,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE UniversalCameraHistory_Item {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x68c9cb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6d014dc, size 0x2c, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
   constexpr UniversalCameraHistory_Item(::UnityEngine::Rendering::ContextItem* storage, int32_t requestVersion, int32_t writeVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13242 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -174,10 +174,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPerFrameHistoryAccessTracker"
   constexpr operator ::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*() noexcept;
 
-  /// @brief Method Dispose, addr 0x68c9cdc, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d009ac, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GatherHistoryRequests, addr 0x68c9d6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GatherHistoryRequests, addr 0x6d01508, size 0x20, virtual false, abstract: false, final false
   inline void GatherHistoryRequests();
 
   /// @brief Method GetHistoryForRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -195,10 +195,10 @@ public:
     requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
   inline bool IsAccessRequested();
 
-  /// @brief Method IsValid, addr 0x68c9dcc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6d01568, size 0x40, virtual false, abstract: false, final false
   inline bool IsValid(int32_t i);
 
-  /// @brief Method IsValidRequest, addr 0x68c9d8c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValidRequest, addr 0x6d01528, size 0x40, virtual false, abstract: false, final false
   inline bool IsValidRequest(int32_t i);
 
   /// @brief Method IsWritten, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -208,7 +208,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* New_ctor();
 
-  /// @brief Method ReleaseUnusedHistory, addr 0x68c9e0c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseUnusedHistory, addr 0x6d015a8, size 0xbc, virtual false, abstract: false, final false
   inline void ReleaseUnusedHistory();
 
   /// @brief Method RequestAccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -216,7 +216,7 @@ public:
     requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
   inline void RequestAccess();
 
-  /// @brief Method SwapAndSetReferenceSize, addr 0x68c9ec8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SwapAndSetReferenceSize, addr 0x6d01664, size 0x18, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t cameraWidth, int32_t cameraHeight);
 
   constexpr ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* const& __cordl_internal_get_OnGatherHistoryRequests() const;
@@ -243,11 +243,11 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68c9bbc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d00a90, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_OnGatherHistoryRequests, addr 0x68c9a64, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_OnGatherHistoryRequests, addr 0x6d01384, size 0xac, virtual true, abstract: false, final true
   inline void add_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
   static inline uint32_t getStaticF_s_TypeCount();
@@ -265,7 +265,7 @@ public:
   constexpr ::UnityEngine::Rendering::IPerFrameHistoryAccessTracker* i___UnityEngine__Rendering__IPerFrameHistoryAccessTracker() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_OnGatherHistoryRequests, addr 0x68c9b10, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_OnGatherHistoryRequests, addr 0x6d01430, size 0xac, virtual true, abstract: false, final true
   inline void remove_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
   static inline void setStaticF_s_TypeCount(uint32_t value);
@@ -285,7 +285,7 @@ public:
   UniversalCameraHistory(UniversalCameraHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13243 };
 
   /// @brief Field k_ValidVersionCount offset 0xffffffff size 0x4
   static constexpr int32_t k_ValidVersionCount{ static_cast<int32_t>(0x2) };

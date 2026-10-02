@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE CustomBinding : public ::UnityEngine::UIElements::Binding {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x6c3efdc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x70881c4, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult Update(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
 
 protected:
@@ -44,7 +44,7 @@ public:
   CustomBinding(CustomBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4035 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

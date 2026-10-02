@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeGlobalSettings::*)()>(&::UnityEngine::Rendering::ProbeVolumeGlobalSettings::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679693c;
+  constexpr static std::size_t addrs = 0x6bb1a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeGlobalSettings*>(), { "get_version", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeGlobalSettings::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeGlobalSettings::get_probeVolumeDisableStreamingAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6796944;
+  constexpr static std::size_t addrs = 0x6bb1a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeGlobalSettings::*)(bool)>(
     &::UnityEngine::Rendering::ProbeVolumeGlobalSettings::set_probeVolumeDisableStreamingAssets)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x679694c;
+  constexpr static std::size_t addrs = 0x6bb1a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeGlobalSettings::*)()>(&::UnityEngine::Rendering::ProbeVolumeGlobalSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67969bc;
+  constexpr static std::size_t addrs = 0x6bb1acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeGlobalSettings*>(), { ".ctor", {}, {} })));

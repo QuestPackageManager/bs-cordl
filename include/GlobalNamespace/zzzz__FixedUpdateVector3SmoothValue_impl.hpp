@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FixedUpdateVector3SmoothValue::*)(float_t)>(&::GlobalNamespace::FixedUpdateVector3SmoothValue::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5854b30;
+  constexpr static std::size_t addrs = 0x5c6a8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::FixedUpdateVector3SmoothValue::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::FixedUpdateVector3SmoothValue::Interpolate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5854b80;
+  constexpr static std::size_t addrs = 0x5c6a904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -56,11 +56,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x58b1608, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cc8160, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x58b1b90, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5cc86e8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -77,7 +77,7 @@ public:
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5662 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -130,25 +130,25 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x58b132c, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5cc7e84, size 0x1b0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleApplicationQuitting, addr 0x58b14dc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x5cc8034, size 0x12c, virtual false, abstract: false, final false
   inline bool HandleApplicationQuitting();
 
-  /// @brief Method HandleHmdStateChanged, addr 0x58b11c8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdStateChanged, addr 0x5cc7d20, size 0x164, virtual false, abstract: false, final false
   inline void HandleHmdStateChanged(::GlobalNamespace::XRSystemEventType xrSystemEventType);
 
-  /// @brief Method Initialize, addr 0x58b0f78, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5cc7ad0, size 0x80, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(HMDSessionTracker::<InitializeAsync>d__4))]
-  /// @brief Method InitializeAsync, addr 0x58b0ff8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x5cc7b50, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
-  /// @brief Method StartSession, addr 0x58b10a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method StartSession, addr 0x5cc7c00, size 0x120, virtual false, abstract: false, final false
   inline void StartSession();
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__gameplayEventsDispatcher() const;
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x58b0f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc7ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
   /// @brief Convert to "::System::IDisposable"
@@ -187,7 +187,7 @@ public:
   HMDSessionTracker(HMDSessionTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5663 };
 
   /// @brief Field _gameplayEventsDispatcher, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* ____gameplayEventsDispatcher;

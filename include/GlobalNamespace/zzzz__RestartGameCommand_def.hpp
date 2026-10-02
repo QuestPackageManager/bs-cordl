@@ -74,7 +74,7 @@ public:
 
   static inline ::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__0, addr 0x32e3094, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__0, addr 0x356b3cc, size 0xf0, virtual false, abstract: false, final false
   inline bool _ExecuteAsync_b__0();
 
   constexpr ::GlobalNamespace::RestartGameCommand* const& __cordl_internal_get___4__this() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_messages(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* value);
 
-  /// @brief Method .ctor, addr 0x32e2df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356b12c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   RestartGameCommand___c__DisplayClass7_0(RestartGameCommand___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19750 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::RestartGameCommand* _____4__this;
@@ -136,11 +136,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32e3184, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x356b4bc, size 0x1d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x32e3354, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x356b68c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -157,7 +157,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -213,11 +213,11 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32e2c18, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x356af50, size 0x1dc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   /// [AsyncStateMachine(typeof(RestartGameCommand::<GameRestarted>d__8))]
-  /// @brief Method GameRestarted, addr 0x32e2f90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GameRestarted, addr 0x356b2c8, size 0xa4, virtual false, abstract: false, final false
   inline void GameRestarted(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::RestartGameCommand* New_ctor();
@@ -240,13 +240,13 @@ public:
 
   constexpr void __cordl_internal_set__terminalController(::GlobalNamespace::TerminalController* value);
 
-  /// @brief Method .ctor, addr 0x32e3034, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356b36c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32e2b90, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x356aec8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32e2bd4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x356af0c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -264,7 +264,7 @@ public:
   RestartGameCommand(RestartGameCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19752 };
 
   /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0x38, size: 0x8, def value: None

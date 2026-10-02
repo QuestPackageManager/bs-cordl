@@ -3,16 +3,25 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyView_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
+#include "GlobalNamespace/zzzz__PrivacyPolicyView_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::PrivacyPolicyView_LinkState::PrivacyPolicyView_LinkState(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::PrivacyPolicyView_LinkState::PrivacyPolicyView_LinkState() {}
+constexpr ::GlobalNamespace::PrivacyPolicyView_LinkState GlobalNamespace::PrivacyPolicyView_LinkState::Display{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::PrivacyPolicyView_LinkState GlobalNamespace::PrivacyPolicyView_LinkState::Opened{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyView.Activate
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)(::HMUI::ButtonBinder*, bool)>(&::GlobalNamespace::PrivacyPolicyView::Activate)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5a1d230;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x5cf30f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,10 +34,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)()>(&::GlobalNamespace::PrivacyPolicyView::OpenLink)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a25144;
+  constexpr static std::size_t addrs = 0x5cf3600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { "OpenLink", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyView.SetLinkState
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)(::GlobalNamespace::PrivacyPolicyView_LinkState)>(
+    &::GlobalNamespace::PrivacyPolicyView::SetLinkState)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5cf359c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { "SetLinkState", {}, { ::i2c::type_of<::GlobalNamespace::PrivacyPolicyView_LinkState>() } })));
     return ___internal_method;
   }
 };
@@ -36,8 +60,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)(bool)>(&::GlobalNamespace::PrivacyPolicyView::OnApplicationFocus)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a251b4;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5cf3670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)()>(&::GlobalNamespace::PrivacyPolicyView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a25210;
+  constexpr static std::size_t addrs = 0x5cf3680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { ".ctor", {}, {} })));
@@ -149,6 +173,11 @@ inline void GlobalNamespace::PrivacyPolicyView::Activate(::HMUI::ButtonBinder* b
 inline void GlobalNamespace::PrivacyPolicyView::OpenLink() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { "OpenLink", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::PrivacyPolicyView::SetLinkState(::GlobalNamespace::PrivacyPolicyView_LinkState linkState) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { "SetLinkState", {}, { ::i2c::type_of<::GlobalNamespace::PrivacyPolicyView_LinkState>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, linkState);
 }
 inline void GlobalNamespace::PrivacyPolicyView::OnApplicationFocus(bool focus) {
   static auto* ___internal_method =

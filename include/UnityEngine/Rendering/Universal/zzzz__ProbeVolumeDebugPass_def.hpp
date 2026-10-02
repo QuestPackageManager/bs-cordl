@@ -30,17 +30,8 @@ class ProbeVolumeDebugPass___c;
 namespace UnityEngine::Rendering::Universal {
 struct RenderPassEvent;
 }
-namespace UnityEngine::Rendering::Universal {
-struct RenderingData;
-}
 namespace UnityEngine::Rendering {
 class ContextContainer;
-}
-namespace UnityEngine::Rendering {
-class RTHandle;
-}
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
 }
 namespace UnityEngine {
 class ComputeShader;
@@ -116,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_resultBuffer(::UnityEngine::Rendering::RenderGraphModule::BufferHandle value);
 
-  /// @brief Method .ctor, addr 0x68a2190, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdb268, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +125,7 @@ public:
   ProbeVolumeDebugPass_WriteApvData(ProbeVolumeDebugPass_WriteApvData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13108 };
 
   /// @brief Field computeShader, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___computeShader;
@@ -178,28 +169,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* __9;
 
-  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__7_0,
-                      put = setStaticF___9__7_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>* __9__7_0;
+  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__3_0,
+                      put = setStaticF___9__3_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
+                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>* __9__3_0;
 
   static inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* New_ctor();
 
-  /// @brief Method <Render>b__7_0, addr 0x68a21ec, size 0x1d0, virtual false, abstract: false, final false
-  inline void _Render_b__7_0(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
+  /// @brief Method <Render>b__3_0, addr 0x6cdb2c4, size 0x1d0, virtual false, abstract: false, final false
+  inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
 
-  /// @brief Method .ctor, addr 0x68a21e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdb2c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>*
-  getStaticF___9__7_0();
+  getStaticF___9__3_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* value);
 
-  static inline void setStaticF___9__7_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
+  static inline void setStaticF___9__3_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData*,
                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>* value);
 
 protected:
@@ -217,7 +208,7 @@ public:
   ProbeVolumeDebugPass___c(ProbeVolumeDebugPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13109 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -236,47 +227,22 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c;
 
-  /// @brief Field m_ComputeShader, offset 0xb8, size 0x8
+  /// @brief Field m_ComputeShader, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ComputeShader, put = __cordl_internal_set_m_ComputeShader)) ::UnityW<::UnityEngine::ComputeShader> m_ComputeShader;
-
-  /// @brief Field m_DepthTexture, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DepthTexture, put = __cordl_internal_set_m_DepthTexture)) ::UnityEngine::Rendering::RTHandle* m_DepthTexture;
-
-  /// @brief Field m_NormalTexture, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_NormalTexture, put = __cordl_internal_set_m_NormalTexture)) ::UnityEngine::Rendering::RTHandle* m_NormalTexture;
-
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68a1844, size 0x348, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   static inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::ComputeShader* computeShader);
 
-  /// @brief Method Render, addr 0x68a1b8c, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6cdac78, size 0x5f0, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthPyramidBuffer, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle normalBuffer);
-
-  /// @brief Method Setup, addr 0x68a183c, size 0x8, virtual false, abstract: false, final false
-  inline void Setup(::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::RTHandle* normalBuffer);
 
   constexpr ::UnityW<::UnityEngine::ComputeShader> const& __cordl_internal_get_m_ComputeShader() const;
 
   constexpr ::UnityW<::UnityEngine::ComputeShader>& __cordl_internal_get_m_ComputeShader();
 
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_DepthTexture() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_DepthTexture();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_NormalTexture() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_NormalTexture();
-
   constexpr void __cordl_internal_set_m_ComputeShader(::UnityW<::UnityEngine::ComputeShader> value);
 
-  constexpr void __cordl_internal_set_m_DepthTexture(::UnityEngine::Rendering::RTHandle* value);
-
-  constexpr void __cordl_internal_set_m_NormalTexture(::UnityEngine::Rendering::RTHandle* value);
-
-  /// @brief Method .ctor, addr 0x68a176c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdabd0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::ComputeShader* computeShader);
 
 protected:
@@ -294,26 +260,16 @@ public:
   ProbeVolumeDebugPass(ProbeVolumeDebugPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13110 };
 
-  /// @brief Field m_ComputeShader, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field m_ComputeShader, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_ComputeShader;
-
-  /// @brief Field m_DepthTexture, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_DepthTexture;
-
-  /// @brief Field m_NormalTexture, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_NormalTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass, ___m_ComputeShader) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass, ___m_ComputeShader) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass, ___m_DepthTexture) == 0xc0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass, ___m_NormalTexture) == 0xc8, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass) == 0xd0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass) == 0x68, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

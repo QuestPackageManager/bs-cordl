@@ -33,18 +33,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRScene : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RequestSpaceSetup, addr 0x5e18198, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RequestSpaceSetup, addr 0x6231f14, size 0x108, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup();
 
   /// [Obsolete("Requesting space setup with labels is deprecated (v71) with no replacement.")]
-  /// @brief Method RequestSpaceSetup, addr 0x5e182a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RequestSpaceSetup, addr 0x623201c, size 0x5c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
 
   /// [Obsolete("Requesting space setup with labels is deprecated (v71) with no replacement.")]
-  /// @brief Method RequestSpaceSetup, addr 0x5e18094, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RequestSpaceSetup, addr 0x6231e10, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::StringW labels);
 
-  /// @brief Method ValidateRequestString, addr 0x5e182fc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method ValidateRequestString, addr 0x6232078, size 0x2d8, virtual false, abstract: false, final false
   static inline void ValidateRequestString(::System::Collections::Generic::IEnumerable_1<::StringW>* labels, ::StringW paramName);
 
 protected:
@@ -62,7 +62,7 @@ public:
   OVRScene(OVRScene const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7240 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,16 +35,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x676ddc0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b85e70, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x676ddbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b85e6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::BaseCommandBuffer* cmd, ::UnityEngine::Rendering::ProfilingSampler* sampler);
 
-  /// @brief Method .ctor, addr 0x676ddb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b85e68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProfilingSampler* sampler);
 
-  /// @brief Method .ctor, addr 0x676ddb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b85e64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProfilingSampler* sampler);
 
   /// @brief Convert to "::System::IDisposable"
@@ -55,7 +55,7 @@ public:
   constexpr ProfilingScope();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8921 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

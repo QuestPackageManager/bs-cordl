@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3435200;
+  constexpr static std::size_t addrs = 0x36be49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

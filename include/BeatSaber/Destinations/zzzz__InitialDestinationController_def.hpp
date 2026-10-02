@@ -89,7 +89,7 @@ public:
   static ::BeatSaber::Destinations::InitialDestinationController_State const NotInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -116,11 +116,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x328177c, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x350803c, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3281a54, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3508314, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -139,7 +139,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23830 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -209,21 +209,21 @@ public:
   __declspec(property(get = getStaticF_kDefaultInitialDestination, put = setStaticF_kDefaultInitialDestination)) ::BeatSaber::Destinations::Destination* kDefaultInitialDestination;
 
   /// [AsyncStateMachine(typeof(BeatSaber.Destinations.InitialDestinationController::<InitializeInternalAsync>d__18))]
-  /// @brief Method InitializeInternalAsync, addr 0x3281578, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x3507e38, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
-  /// @brief Method InitializeScenesAsync, addr 0x3281510, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeScenesAsync, addr 0x3507dd0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
 
   static inline ::BeatSaber::Destinations::InitialDestinationController* New_ctor();
 
-  /// @brief Method Reset, addr 0x32816e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3507fa0, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetDestinationResolver, addr 0x3281684, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationResolver, addr 0x3507f44, size 0x5c, virtual false, abstract: false, final false
   inline void SetDestinationResolver(::BeatSaber::Destinations::IInitialDestinationResolver* initialDestinationResolver);
 
-  /// @brief Method SetTargetDestination, addr 0x3281628, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetTargetDestination, addr 0x3507ee8, size 0x5c, virtual false, abstract: false, final false
   inline void SetTargetDestination(::BeatSaber::Destinations::Destination* targetDestination);
 
   constexpr ::BeatSaber::Destinations::InitialDestinationController_State const& __cordl_internal_get__currentState_k__BackingField() const;
@@ -250,25 +250,25 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x32816ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3507fac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::Destinations::Destination* getStaticF_kDefaultInitialDestination();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentState, addr 0x3281500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentState, addr 0x3507dc0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::InitialDestinationController_State get_currentState();
 
-  /// @brief Method get_hasCustomDestination, addr 0x32814f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasCustomDestination, addr 0x3507db0, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasCustomDestination();
 
-  /// @brief Method get_initialDestination, addr 0x3281488, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_initialDestination, addr 0x3507d48, size 0x68, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::Destination* get_initialDestination();
 
   static inline void setStaticF_kDefaultInitialDestination(::BeatSaber::Destinations::Destination* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_currentState, addr 0x3281508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentState, addr 0x3507dc8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentState(::BeatSaber::Destinations::InitialDestinationController_State value);
 
 protected:
@@ -286,7 +286,7 @@ public:
   InitialDestinationController(InitialDestinationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23831 };
 
   /// @brief Field kDefaultInitialDestinationFlags value: I32(2)
   static ::BeatSaber::Destinations::DestinationFlags const kDefaultInitialDestinationFlags;

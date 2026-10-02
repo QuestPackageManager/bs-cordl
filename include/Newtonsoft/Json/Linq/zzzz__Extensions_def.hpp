@@ -130,10 +130,10 @@ public:
   static inline ::Newtonsoft::Json::Linq::Extensions___c* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <Properties>b__4_0, addr 0x5d6877c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Properties>b__4_0, addr 0x6182360, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
-  /// @brief Method .ctor, addr 0x5d68778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618235c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::Extensions___c* getStaticF___9();
@@ -159,7 +159,7 @@ public:
   Extensions___c(Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -215,7 +215,7 @@ public:
   Extensions___c__0_1(Extensions___c__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -269,7 +269,7 @@ public:
   Extensions___c__1_1(Extensions___c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -323,7 +323,7 @@ public:
   Extensions___c__13_2(Extensions___c__13_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -377,7 +377,7 @@ public:
   Extensions___c__2_1(Extensions___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -431,7 +431,7 @@ public:
   Extensions___c__3_1(Extensions___c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -587,7 +587,7 @@ public:
   Extensions__Convert_d__14_2(Extensions__Convert_d__14_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13810 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -798,7 +798,7 @@ public:
   Extensions__Values_d__11_2(Extensions__Values_d__11_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13811 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -877,7 +877,7 @@ public:
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AncestorsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
   /// [Extension]
-  /// @brief Method AsJEnumerable, addr 0x5d686d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AsJEnumerable, addr 0x61822b4, size 0x4c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// [Extension]
@@ -925,7 +925,7 @@ public:
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
   /// [Extension]
-  /// @brief Method Properties, addr 0x5d68528, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x618210c, size 0x148, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
   /// [NullableContext(2)]
@@ -940,11 +940,11 @@ public:
   static inline U Value(::System::Collections::Generic::IEnumerable_1<T>* value);
 
   /// [Extension]
-  /// @brief Method Values, addr 0x5d6871c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x6182300, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// [Extension]
-  /// @brief Method Values, addr 0x5d68670, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x6182254, size 0x60, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     /* [Nullable(2)] */ ::System::Object* key);
 
@@ -979,7 +979,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

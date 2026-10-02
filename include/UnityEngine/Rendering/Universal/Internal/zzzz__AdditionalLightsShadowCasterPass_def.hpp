@@ -204,7 +204,7 @@ public:
   AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer(AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -232,6 +232,9 @@ public:
   /// @brief Field pass, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_pass, put = __cordl_internal_set_pass)) ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* pass;
 
+  /// @brief Field setKeywordForEmptyShadowmap, offset 0x15, size 0x1
+  __declspec(property(get = __cordl_internal_get_setKeywordForEmptyShadowmap, put = __cordl_internal_set_setKeywordForEmptyShadowmap)) bool setKeywordForEmptyShadowmap;
+
   /// @brief Field shadowData, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_shadowData, put = __cordl_internal_set_shadowData)) ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData;
 
@@ -248,10 +251,10 @@ public:
   /// @brief Field shadowmapTexture, offset 0x60, size 0x10
   __declspec(property(get = __cordl_internal_get_shadowmapTexture, put = __cordl_internal_set_shadowmapTexture)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle shadowmapTexture;
 
-  /// @brief Field stripShadowsOffVariants, offset 0x16, size 0x1
+  /// @brief Field stripShadowsOffVariants, offset 0x17, size 0x1
   __declspec(property(get = __cordl_internal_get_stripShadowsOffVariants, put = __cordl_internal_set_stripShadowsOffVariants)) bool stripShadowsOffVariants;
 
-  /// @brief Field useStructuredBuffer, offset 0x15, size 0x1
+  /// @brief Field useStructuredBuffer, offset 0x16, size 0x1
   __declspec(property(get = __cordl_internal_get_useStructuredBuffer, put = __cordl_internal_set_useStructuredBuffer)) bool useStructuredBuffer;
 
   /// @brief Field viewMatrix, offset 0x18, size 0x40
@@ -274,6 +277,10 @@ public:
   constexpr ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* const& __cordl_internal_get_pass() const;
 
   constexpr ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass*& __cordl_internal_get_pass();
+
+  constexpr bool const& __cordl_internal_get_setKeywordForEmptyShadowmap() const;
+
+  constexpr bool& __cordl_internal_get_setKeywordForEmptyShadowmap();
 
   constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData* const& __cordl_internal_get_shadowData() const;
 
@@ -315,6 +322,8 @@ public:
 
   constexpr void __cordl_internal_set_pass(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* value);
 
+  constexpr void __cordl_internal_set_setKeywordForEmptyShadowmap(bool value);
+
   constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData* value);
 
   constexpr void __cordl_internal_set_shadowRendererLists(::ArrayW<::UnityEngine::Rendering::RendererList> value);
@@ -331,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x68f0124, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1e4ec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -349,7 +358,7 @@ public:
   AdditionalLightsShadowCasterPass_PassData(AdditionalLightsShadowCasterPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13300 };
 
   /// @brief Field shadowmapID, offset: 0x10, size: 0x4, def value: None
   int32_t ___shadowmapID;
@@ -357,10 +366,13 @@ public:
   /// @brief Field emptyShadowmap, offset: 0x14, size: 0x1, def value: None
   bool ___emptyShadowmap;
 
-  /// @brief Field useStructuredBuffer, offset: 0x15, size: 0x1, def value: None
+  /// @brief Field setKeywordForEmptyShadowmap, offset: 0x15, size: 0x1, def value: None
+  bool ___setKeywordForEmptyShadowmap;
+
+  /// @brief Field useStructuredBuffer, offset: 0x16, size: 0x1, def value: None
   bool ___useStructuredBuffer;
 
-  /// @brief Field stripShadowsOffVariants, offset: 0x16, size: 0x1, def value: None
+  /// @brief Field stripShadowsOffVariants, offset: 0x17, size: 0x1, def value: None
   bool ___stripShadowsOffVariants;
 
   /// @brief Field viewMatrix, offset: 0x18, size: 0x40, def value: None
@@ -394,9 +406,11 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::Additional
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___emptyShadowmap) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___useStructuredBuffer) == 0x15, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___setKeywordForEmptyShadowmap) == 0x15, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___stripShadowsOffVariants) == 0x16, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___useStructuredBuffer) == 0x16, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___stripShadowsOffVariants) == 0x17, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData, ___viewMatrix) == 0x18, "Offset mismatch!");
 
@@ -428,27 +442,27 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass___c* __9;
 
-  /// @brief Field <>9__61_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__61_0, put = setStaticF___9__61_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<
-      ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__61_0;
+  /// @brief Field <>9__59_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__59_0, put = setStaticF___9__59_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<
+      ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__59_0;
 
   static inline ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass___c* New_ctor();
 
-  /// @brief Method <Render>b__61_0, addr 0x68f4ae8, size 0xd4, virtual false, abstract: false, final false
-  inline void _Render_b__61_0(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__59_0, addr 0x6d1e5c4, size 0xdc, virtual false, abstract: false, final false
+  inline void _Render_b__59_0(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x68f4ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1e5c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__61_0();
+  getStaticF___9__59_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass___c* value);
 
-  static inline void setStaticF___9__61_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*,
+  static inline void setStaticF___9__59_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -466,7 +480,7 @@ public:
   AdditionalLightsShadowCasterPass___c(AdditionalLightsShadowCasterPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -490,29 +504,32 @@ public:
   /// @brief Field c_DefaultShadowParams, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_c_DefaultShadowParams, put = setStaticF_c_DefaultShadowParams)) ::UnityEngine::Vector4 c_DefaultShadowParams;
 
-  /// @brief Field m_AdditionalLightIndexToShadowParams, offset 0x100, size 0x8
+  /// @brief Field isAdditionalShadowParamsDirty, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_isAdditionalShadowParamsDirty, put = setStaticF_isAdditionalShadowParamsDirty)) bool isAdditionalShadowParamsDirty;
+
+  /// @brief Field m_AdditionalLightIndexToShadowParams, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AdditionalLightIndexToShadowParams, put = __cordl_internal_set_m_AdditionalLightIndexToShadowParams)) ::ArrayW<::UnityEngine::Vector4>
       m_AdditionalLightIndexToShadowParams;
 
-  /// @brief Field m_AdditionalLightIndexToVisibleLightIndex, offset 0xf8, size 0x8
+  /// @brief Field m_AdditionalLightIndexToVisibleLightIndex, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AdditionalLightIndexToVisibleLightIndex, put = __cordl_internal_set_m_AdditionalLightIndexToVisibleLightIndex)) ::ArrayW<int16_t>
       m_AdditionalLightIndexToVisibleLightIndex;
 
-  /// @brief Field m_AdditionalLightShadowDescriptor, offset 0x138, size 0x34
+  /// @brief Field m_AdditionalLightShadowDescriptor, offset 0xd0, size 0x34
   __declspec(property(get = __cordl_internal_get_m_AdditionalLightShadowDescriptor,
                       put = __cordl_internal_set_m_AdditionalLightShadowDescriptor)) ::UnityEngine::RenderTextureDescriptor m_AdditionalLightShadowDescriptor;
 
-  /// @brief Field m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix, offset 0x108, size 0x8
+  /// @brief Field m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix,
                       put = __cordl_internal_set_m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix)) ::ArrayW<::UnityEngine::Matrix4x4>
       m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix;
 
-  /// @brief Field m_AdditionalLightsShadowSlices, offset 0x110, size 0x8
+  /// @brief Field m_AdditionalLightsShadowSlices, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AdditionalLightsShadowSlices,
                       put = __cordl_internal_set_m_AdditionalLightsShadowSlices)) ::ArrayW<::UnityEngine::Rendering::Universal::ShadowSliceData>
       m_AdditionalLightsShadowSlices;
 
-  /// @brief Field m_AdditionalLightsShadowmapHandle, offset 0xb8, size 0x8
+  /// @brief Field m_AdditionalLightsShadowmapHandle, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AdditionalLightsShadowmapHandle,
                       put = __cordl_internal_set_m_AdditionalLightsShadowmapHandle)) ::UnityEngine::Rendering::RTHandle* m_AdditionalLightsShadowmapHandle;
 
@@ -522,20 +539,13 @@ public:
   /// @brief Field m_AdditionalShadowsIndicesId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_AdditionalShadowsIndicesId, put = setStaticF_m_AdditionalShadowsIndicesId)) int32_t m_AdditionalShadowsIndicesId;
 
-  /// @brief Field m_CascadeBorder, offset 0xd4, size 0x4
+  /// @brief Field m_CascadeBorder, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CascadeBorder, put = __cordl_internal_set_m_CascadeBorder)) float_t m_CascadeBorder;
 
-  /// @brief Field m_CreateEmptyShadowmap, offset 0xc8, size 0x1
+  /// @brief Field m_CreateEmptyShadowmap, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CreateEmptyShadowmap, put = __cordl_internal_set_m_CreateEmptyShadowmap)) bool m_CreateEmptyShadowmap;
 
-  /// @brief Field m_EmptyAdditionalLightShadowmapTexture, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EmptyAdditionalLightShadowmapTexture,
-                      put = __cordl_internal_set_m_EmptyAdditionalLightShadowmapTexture)) ::UnityEngine::Rendering::RTHandle* m_EmptyAdditionalLightShadowmapTexture;
-
-  /// @brief Field m_EmptyShadowmapNeedsClear, offset 0xc9, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_EmptyShadowmapNeedsClear, put = __cordl_internal_set_m_EmptyShadowmapNeedsClear)) bool m_EmptyShadowmapNeedsClear;
-
-  /// @brief Field m_GlobalShadowSliceIndexToPerLightShadowSliceIndex, offset 0x118, size 0x8
+  /// @brief Field m_GlobalShadowSliceIndexToPerLightShadowSliceIndex, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GlobalShadowSliceIndexToPerLightShadowSliceIndex,
                       put =
                           __cordl_internal_set_m_GlobalShadowSliceIndexToPerLightShadowSliceIndex)) ::System::Collections::Generic::List_1<uint8_t>* m_GlobalShadowSliceIndexToPerLightShadowSliceIndex;
@@ -548,53 +558,52 @@ public:
   __declspec(property(get = getStaticF_m_IssuedMessageAboutPointLightSoftShadowResolutionTooSmall,
                       put = setStaticF_m_IssuedMessageAboutPointLightSoftShadowResolutionTooSmall)) bool m_IssuedMessageAboutPointLightSoftShadowResolutionTooSmall;
 
-  /// @brief Field m_IssuedMessageAboutRemovedShadowSlices, offset 0xcd, size 0x1
+  /// @brief Field m_IssuedMessageAboutRemovedShadowSlices, offset 0x75, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IssuedMessageAboutRemovedShadowSlices,
                       put = __cordl_internal_set_m_IssuedMessageAboutRemovedShadowSlices)) bool m_IssuedMessageAboutRemovedShadowSlices;
 
-  /// @brief Field m_IssuedMessageAboutShadowMapsRescale, offset 0xcb, size 0x1
+  /// @brief Field m_IssuedMessageAboutShadowMapsRescale, offset 0x73, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IssuedMessageAboutShadowMapsRescale, put = __cordl_internal_set_m_IssuedMessageAboutShadowMapsRescale)) bool m_IssuedMessageAboutShadowMapsRescale;
 
-  /// @brief Field m_IssuedMessageAboutShadowMapsTooBig, offset 0xcc, size 0x1
+  /// @brief Field m_IssuedMessageAboutShadowMapsTooBig, offset 0x74, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IssuedMessageAboutShadowMapsTooBig, put = __cordl_internal_set_m_IssuedMessageAboutShadowMapsTooBig)) bool m_IssuedMessageAboutShadowMapsTooBig;
 
-  /// @brief Field m_IssuedMessageAboutShadowSlicesTooMany, offset 0xca, size 0x1
+  /// @brief Field m_IssuedMessageAboutShadowSlicesTooMany, offset 0x72, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IssuedMessageAboutShadowSlicesTooMany,
                       put = __cordl_internal_set_m_IssuedMessageAboutShadowSlicesTooMany)) bool m_IssuedMessageAboutShadowSlicesTooMany;
 
-  /// @brief Field m_MaxShadowDistanceSq, offset 0xd0, size 0x4
+  /// @brief Field m_MaxShadowDistanceSq, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxShadowDistanceSq, put = __cordl_internal_set_m_MaxShadowDistanceSq)) float_t m_MaxShadowDistanceSq;
 
-  /// @brief Field m_PassData, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData,
-                      put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* m_PassData;
-
-  /// @brief Field m_ProfilingSetupSampler, offset 0x130, size 0x8
+  /// @brief Field m_ProfilingSetupSampler, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ProfilingSetupSampler, put = __cordl_internal_set_m_ProfilingSetupSampler)) ::UnityEngine::Rendering::ProfilingSampler* m_ProfilingSetupSampler;
 
-  /// @brief Field m_ShadowRequestsHashes, offset 0x128, size 0x8
+  /// @brief Field m_SetKeywordForEmptyShadowmap, offset 0x71, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_SetKeywordForEmptyShadowmap, put = __cordl_internal_set_m_SetKeywordForEmptyShadowmap)) bool m_SetKeywordForEmptyShadowmap;
+
+  /// @brief Field m_ShadowRequestsHashes, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShadowRequestsHashes,
                       put = __cordl_internal_set_m_ShadowRequestsHashes)) ::System::Collections::Generic::Dictionary_2<int32_t, uint64_t>* m_ShadowRequestsHashes;
 
-  /// @brief Field m_ShadowSliceToAdditionalLightIndex, offset 0x120, size 0x8
+  /// @brief Field m_ShadowSliceToAdditionalLightIndex, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShadowSliceToAdditionalLightIndex,
                       put = __cordl_internal_set_m_ShadowSliceToAdditionalLightIndex)) ::System::Collections::Generic::List_1<int16_t>* m_ShadowSliceToAdditionalLightIndex;
 
-  /// @brief Field m_UseStructuredBuffer, offset 0xce, size 0x1
+  /// @brief Field m_UseStructuredBuffer, offset 0x76, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UseStructuredBuffer, put = __cordl_internal_set_m_UseStructuredBuffer)) bool m_UseStructuredBuffer;
 
-  /// @brief Field m_VisibleLightIndexToAdditionalLightIndex, offset 0xf0, size 0x8
+  /// @brief Field m_VisibleLightIndexToAdditionalLightIndex, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VisibleLightIndexToAdditionalLightIndex, put = __cordl_internal_set_m_VisibleLightIndexToAdditionalLightIndex)) ::ArrayW<int16_t>
       m_VisibleLightIndexToAdditionalLightIndex;
 
-  /// @brief Field m_VisibleLightIndexToIsCastingShadows, offset 0xe8, size 0x8
+  /// @brief Field m_VisibleLightIndexToIsCastingShadows, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VisibleLightIndexToIsCastingShadows, put = __cordl_internal_set_m_VisibleLightIndexToIsCastingShadows)) ::ArrayW<bool>
       m_VisibleLightIndexToIsCastingShadows;
 
-  /// @brief Field renderTargetHeight, offset 0xc4, size 0x4
+  /// @brief Field renderTargetHeight, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_renderTargetHeight, put = __cordl_internal_set_renderTargetHeight)) int32_t renderTargetHeight;
 
-  /// @brief Field renderTargetWidth, offset 0xc0, size 0x4
+  /// @brief Field renderTargetWidth, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_renderTargetWidth, put = __cordl_internal_set_renderTargetWidth)) int32_t renderTargetWidth;
 
   /// @brief Field s_EmptyAdditionalLightIndexToShadowParams, offset 0xffffffff, size 0x8
@@ -604,79 +613,82 @@ public:
   /// @brief Field s_EmptyAdditionalShadowFadeParams, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_EmptyAdditionalShadowFadeParams, put = setStaticF_s_EmptyAdditionalShadowFadeParams)) ::UnityEngine::Vector4 s_EmptyAdditionalShadowFadeParams;
 
-  /// @brief Method CalcGuardAngle, addr 0x68f01d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AnyAdditionalLightHasMixedShadows, addr 0x6d1bea0, size 0xf0, virtual false, abstract: false, final false
+  inline bool AnyAdditionalLightHasMixedShadows(::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
+
+  /// @brief Method CalcGuardAngle, addr 0x6d19da8, size 0x70, virtual false, abstract: false, final false
   static inline float_t CalcGuardAngle(float_t frustumAngleInDegrees, float_t guardBandSizeInTexels, float_t sliceResolutionInTexels);
 
-  /// @brief Method Clear, addr 0x68f262c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6d1c544, size 0x80, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeShadowRequestHash, addr 0x68f0554, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ComputeShadowRequestHash, addr 0x6d1a124, size 0x2f8, virtual false, abstract: false, final false
   inline uint64_t ComputeShadowRequestHash(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Configure, addr 0x68f2758, size 0x140, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Configure, addr 0x6d1998c, size 0x4, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Dispose, addr 0x68f01a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d19d94, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x68f2898, size 0x314, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6d19990, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method GetLightTypeIdentifierForShadowParams, addr 0x68f084c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetLightTypeIdentifierForShadowParams, addr 0x6d1a41c, size 0x20, virtual false, abstract: false, final false
   inline float_t GetLightTypeIdentifierForShadowParams(::UnityEngine::LightType lightType);
 
-  /// @brief Method GetPointLightShadowFrustumFovBiasInDegrees, addr 0x68f0248, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetPointLightShadowFrustumFovBiasInDegrees, addr 0x6d19e18, size 0x2c0, virtual false, abstract: false, final false
   static inline float_t GetPointLightShadowFrustumFovBiasInDegrees(int32_t shadowSliceResolution, bool shadowFiltering);
 
-  /// @brief Method GetShadowLightIndexFromLightIndex, addr 0x68eded8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetShadowLightIndexFromLightIndex, addr 0x6d17be0, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetShadowLightIndexFromLightIndex(int32_t visibleLightIndex);
 
-  /// @brief Method InitPassData, addr 0x68f2ce4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d1d634, size 0xb8, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*> passData,
                            ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                            ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method InitRendererLists, addr 0x68f2d9c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6d1d6ec, size 0x278, virtual false, abstract: false, final false
   inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                 ::by_ref<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x68f3e84, size 0x9a8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d1d964, size 0x924, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method RenderAdditionalShadowmapAtlas, addr 0x68f3014, size 0xb0c, virtual false, abstract: false, final false
+  /// @brief Method RenderAdditionalShadowmapAtlas, addr 0x6d1c814, size 0xabc, virtual false, abstract: false, final false
   inline void RenderAdditionalShadowmapAtlas(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                              ::by_ref<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*> data, bool useRenderGraph);
 
-  /// @brief Method ResolutionLog2ForHash, addr 0x68f0508, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ResolutionLog2ForHash, addr 0x6d1a0d8, size 0x4c, virtual false, abstract: false, final false
   inline uint64_t ResolutionLog2ForHash(int32_t resolution);
 
-  /// @brief Method SetShadowParamsForEmptyShadowmap, addr 0x68f2bac, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetShadowParamsForEmptyShadowmap, addr 0x6d1c670, size 0x1a4, virtual false, abstract: false, final false
   static inline void SetShadowParamsForEmptyShadowmap(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer);
 
-  /// @brief Method Setup, addr 0x68f0998, size 0x184c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d1a568, size 0x1938, virtual false, abstract: false, final false
   inline bool Setup(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                     ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method Setup, addr 0x68f08a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d1a474, size 0xf4, virtual false, abstract: false, final false
   inline bool Setup(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupAdditionalLightsShadowReceiverConstants, addr 0x68f3b20, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method SetupAdditionalLightsShadowReceiverConstants, addr 0x6d1d2d0, size 0x364, virtual false, abstract: false, final false
   inline void SetupAdditionalLightsShadowReceiverConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector2Int allocatedShadowAtlasSize, bool useStructuredBuffer,
                                                            bool softShadows);
 
-  /// @brief Method SetupForEmptyRendering, addr 0x68f21e4, size 0x448, virtual false, abstract: false, final false
-  inline bool SetupForEmptyRendering(bool stripShadowsOffVariants, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
+  /// @brief Method SetupForEmptyRendering, addr 0x6d1bf90, size 0x5b4, virtual false, abstract: false, final false
+  inline bool SetupForEmptyRendering(bool stripShadowsOffVariants, bool shadowsEnabled, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                      ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method UpdateTextureDescriptorIfNeeded, addr 0x68f26ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextureDescriptorIfNeeded, addr 0x6d1c5c4, size 0xac, virtual false, abstract: false, final false
   inline void UpdateTextureDescriptorIfNeeded();
 
-  /// @brief Method UsesBakedShadows, addr 0x68f086c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UsesBakedShadows, addr 0x6d1a43c, size 0x38, virtual false, abstract: false, final false
   inline bool UsesBakedShadows(::UnityEngine::Light* light);
 
   constexpr ::ArrayW<::UnityEngine::Vector4> const& __cordl_internal_get_m_AdditionalLightIndexToShadowParams() const;
@@ -711,14 +723,6 @@ public:
 
   constexpr bool& __cordl_internal_get_m_CreateEmptyShadowmap();
 
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_EmptyAdditionalLightShadowmapTexture() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_EmptyAdditionalLightShadowmapTexture();
-
-  constexpr bool const& __cordl_internal_get_m_EmptyShadowmapNeedsClear() const;
-
-  constexpr bool& __cordl_internal_get_m_EmptyShadowmapNeedsClear();
-
   constexpr ::System::Collections::Generic::List_1<uint8_t>* const& __cordl_internal_get_m_GlobalShadowSliceIndexToPerLightShadowSliceIndex() const;
 
   constexpr ::System::Collections::Generic::List_1<uint8_t>*& __cordl_internal_get_m_GlobalShadowSliceIndexToPerLightShadowSliceIndex();
@@ -743,13 +747,13 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_MaxShadowDistanceSq();
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*& __cordl_internal_get_m_PassData();
-
   constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_ProfilingSetupSampler() const;
 
   constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_ProfilingSetupSampler();
+
+  constexpr bool const& __cordl_internal_get_m_SetKeywordForEmptyShadowmap() const;
+
+  constexpr bool& __cordl_internal_get_m_SetKeywordForEmptyShadowmap();
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, uint64_t>* const& __cordl_internal_get_m_ShadowRequestsHashes() const;
 
@@ -795,10 +799,6 @@ public:
 
   constexpr void __cordl_internal_set_m_CreateEmptyShadowmap(bool value);
 
-  constexpr void __cordl_internal_set_m_EmptyAdditionalLightShadowmapTexture(::UnityEngine::Rendering::RTHandle* value);
-
-  constexpr void __cordl_internal_set_m_EmptyShadowmapNeedsClear(bool value);
-
   constexpr void __cordl_internal_set_m_GlobalShadowSliceIndexToPerLightShadowSliceIndex(::System::Collections::Generic::List_1<uint8_t>* value);
 
   constexpr void __cordl_internal_set_m_IssuedMessageAboutRemovedShadowSlices(bool value);
@@ -811,9 +811,9 @@ public:
 
   constexpr void __cordl_internal_set_m_MaxShadowDistanceSq(float_t value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* value);
-
   constexpr void __cordl_internal_set_m_ProfilingSetupSampler(::UnityEngine::Rendering::ProfilingSampler* value);
+
+  constexpr void __cordl_internal_set_m_SetKeywordForEmptyShadowmap(bool value);
 
   constexpr void __cordl_internal_set_m_ShadowRequestsHashes(::System::Collections::Generic::Dictionary_2<int32_t, uint64_t>* value);
 
@@ -829,10 +829,12 @@ public:
 
   constexpr void __cordl_internal_set_renderTargetWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68efcc8, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d19994, size 0x400, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
   static inline ::UnityEngine::Vector4 getStaticF_c_DefaultShadowParams();
+
+  static inline bool getStaticF_isAdditionalShadowParamsDirty();
 
   static inline int32_t getStaticF_m_AdditionalShadowsBufferId();
 
@@ -847,6 +849,8 @@ public:
   static inline ::UnityEngine::Vector4 getStaticF_s_EmptyAdditionalShadowFadeParams();
 
   static inline void setStaticF_c_DefaultShadowParams(::UnityEngine::Vector4 value);
+
+  static inline void setStaticF_isAdditionalShadowParamsDirty(bool value);
 
   static inline void setStaticF_m_AdditionalShadowsBufferId(int32_t value);
 
@@ -875,16 +879,10 @@ public:
   AdditionalLightsShadowCasterPass(AdditionalLightsShadowCasterPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13302 };
 
   /// @brief Field k_AdditionalLightShadowMapTextureName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AdditionalLightShadowMapTextureName{ u"_AdditionalLightsShadowmapTexture" };
-
-  /// @brief Field k_EmptyAdditionalLightShadowMapTextureName offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_EmptyAdditionalLightShadowMapTextureName{ u"_EmptyAdditionalLightShadowmapTexture" };
-
-  /// @brief Field k_EmptyShadowMapDimensions offset 0xffffffff size 0x4
-  static constexpr int32_t k_EmptyShadowMapDimensions{ static_cast<int32_t>(0x1) };
 
   /// @brief Field k_LightTypeIdentifierInShadowParams_Point offset 0xffffffff size 0x4
   static constexpr float_t k_LightTypeIdentifierInShadowParams_Point{ static_cast<float_t>(1.0f) };
@@ -895,134 +893,124 @@ public:
   /// @brief Field k_ShadowmapBufferBits offset 0xffffffff size 0x4
   static constexpr int32_t k_ShadowmapBufferBits{ static_cast<int32_t>(0x10) };
 
-  /// @brief Field m_AdditionalLightsShadowmapHandle, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field m_AdditionalLightsShadowmapHandle, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ___m_AdditionalLightsShadowmapHandle;
 
-  /// @brief Field renderTargetWidth, offset: 0xc0, size: 0x4, def value: None
+  /// @brief Field renderTargetWidth, offset: 0x68, size: 0x4, def value: None
   int32_t ___renderTargetWidth;
 
-  /// @brief Field renderTargetHeight, offset: 0xc4, size: 0x4, def value: None
+  /// @brief Field renderTargetHeight, offset: 0x6c, size: 0x4, def value: None
   int32_t ___renderTargetHeight;
 
-  /// @brief Field m_CreateEmptyShadowmap, offset: 0xc8, size: 0x1, def value: None
+  /// @brief Field m_CreateEmptyShadowmap, offset: 0x70, size: 0x1, def value: None
   bool ___m_CreateEmptyShadowmap;
 
-  /// @brief Field m_EmptyShadowmapNeedsClear, offset: 0xc9, size: 0x1, def value: None
-  bool ___m_EmptyShadowmapNeedsClear;
+  /// @brief Field m_SetKeywordForEmptyShadowmap, offset: 0x71, size: 0x1, def value: None
+  bool ___m_SetKeywordForEmptyShadowmap;
 
-  /// @brief Field m_IssuedMessageAboutShadowSlicesTooMany, offset: 0xca, size: 0x1, def value: None
+  /// @brief Field m_IssuedMessageAboutShadowSlicesTooMany, offset: 0x72, size: 0x1, def value: None
   bool ___m_IssuedMessageAboutShadowSlicesTooMany;
 
-  /// @brief Field m_IssuedMessageAboutShadowMapsRescale, offset: 0xcb, size: 0x1, def value: None
+  /// @brief Field m_IssuedMessageAboutShadowMapsRescale, offset: 0x73, size: 0x1, def value: None
   bool ___m_IssuedMessageAboutShadowMapsRescale;
 
-  /// @brief Field m_IssuedMessageAboutShadowMapsTooBig, offset: 0xcc, size: 0x1, def value: None
+  /// @brief Field m_IssuedMessageAboutShadowMapsTooBig, offset: 0x74, size: 0x1, def value: None
   bool ___m_IssuedMessageAboutShadowMapsTooBig;
 
-  /// @brief Field m_IssuedMessageAboutRemovedShadowSlices, offset: 0xcd, size: 0x1, def value: None
+  /// @brief Field m_IssuedMessageAboutRemovedShadowSlices, offset: 0x75, size: 0x1, def value: None
   bool ___m_IssuedMessageAboutRemovedShadowSlices;
 
-  /// @brief Field m_UseStructuredBuffer, offset: 0xce, size: 0x1, def value: None
+  /// @brief Field m_UseStructuredBuffer, offset: 0x76, size: 0x1, def value: None
   bool ___m_UseStructuredBuffer;
 
-  /// @brief Field m_MaxShadowDistanceSq, offset: 0xd0, size: 0x4, def value: None
+  /// @brief Field m_MaxShadowDistanceSq, offset: 0x78, size: 0x4, def value: None
   float_t ___m_MaxShadowDistanceSq;
 
-  /// @brief Field m_CascadeBorder, offset: 0xd4, size: 0x4, def value: None
+  /// @brief Field m_CascadeBorder, offset: 0x7c, size: 0x4, def value: None
   float_t ___m_CascadeBorder;
 
-  /// @brief Field m_PassData, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* ___m_PassData;
-
-  /// @brief Field m_EmptyAdditionalLightShadowmapTexture, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_EmptyAdditionalLightShadowmapTexture;
-
-  /// @brief Field m_VisibleLightIndexToIsCastingShadows, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field m_VisibleLightIndexToIsCastingShadows, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<bool> ___m_VisibleLightIndexToIsCastingShadows;
 
-  /// @brief Field m_VisibleLightIndexToAdditionalLightIndex, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field m_VisibleLightIndexToAdditionalLightIndex, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<int16_t> ___m_VisibleLightIndexToAdditionalLightIndex;
 
-  /// @brief Field m_AdditionalLightIndexToVisibleLightIndex, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field m_AdditionalLightIndexToVisibleLightIndex, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<int16_t> ___m_AdditionalLightIndexToVisibleLightIndex;
 
-  /// @brief Field m_AdditionalLightIndexToShadowParams, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field m_AdditionalLightIndexToShadowParams, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_AdditionalLightIndexToShadowParams;
 
-  /// @brief Field m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Matrix4x4> ___m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix;
 
-  /// @brief Field m_AdditionalLightsShadowSlices, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field m_AdditionalLightsShadowSlices, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::Universal::ShadowSliceData> ___m_AdditionalLightsShadowSlices;
 
-  /// @brief Field m_GlobalShadowSliceIndexToPerLightShadowSliceIndex, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field m_GlobalShadowSliceIndexToPerLightShadowSliceIndex, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<uint8_t>* ___m_GlobalShadowSliceIndexToPerLightShadowSliceIndex;
 
-  /// @brief Field m_ShadowSliceToAdditionalLightIndex, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field m_ShadowSliceToAdditionalLightIndex, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int16_t>* ___m_ShadowSliceToAdditionalLightIndex;
 
-  /// @brief Field m_ShadowRequestsHashes, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field m_ShadowRequestsHashes, offset: 0xc0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, uint64_t>* ___m_ShadowRequestsHashes;
 
-  /// @brief Field m_ProfilingSetupSampler, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field m_ProfilingSetupSampler, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProfilingSampler* ___m_ProfilingSetupSampler;
 
-  /// @brief Field m_AdditionalLightShadowDescriptor, offset: 0x138, size: 0x34, def value: None
+  /// @brief Field m_AdditionalLightShadowDescriptor, offset: 0xd0, size: 0x34, def value: None
   ::UnityEngine::RenderTextureDescriptor ___m_AdditionalLightShadowDescriptor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightsShadowmapHandle) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightsShadowmapHandle) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___renderTargetWidth) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___renderTargetWidth) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___renderTargetHeight) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___renderTargetHeight) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_CreateEmptyShadowmap) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_CreateEmptyShadowmap) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_EmptyShadowmapNeedsClear) == 0xc9, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_SetKeywordForEmptyShadowmap) == 0x71, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutShadowSlicesTooMany) == 0xca, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutShadowSlicesTooMany) == 0x72, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutShadowMapsRescale) == 0xcb, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutShadowMapsRescale) == 0x73, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutShadowMapsTooBig) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutShadowMapsTooBig) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutRemovedShadowSlices) == 0xcd, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_IssuedMessageAboutRemovedShadowSlices) == 0x75, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_UseStructuredBuffer) == 0xce, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_UseStructuredBuffer) == 0x76, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_MaxShadowDistanceSq) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_MaxShadowDistanceSq) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_CascadeBorder) == 0xd4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_CascadeBorder) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_PassData) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_VisibleLightIndexToIsCastingShadows) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_EmptyAdditionalLightShadowmapTexture) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_VisibleLightIndexToAdditionalLightIndex) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_VisibleLightIndexToIsCastingShadows) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightIndexToVisibleLightIndex) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_VisibleLightIndexToAdditionalLightIndex) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightIndexToShadowParams) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightIndexToVisibleLightIndex) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightIndexToShadowParams) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightsShadowSlices) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightShadowSliceIndexTo_WorldShadowMatrix) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_GlobalShadowSliceIndexToPerLightShadowSliceIndex) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightsShadowSlices) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_ShadowSliceToAdditionalLightIndex) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_GlobalShadowSliceIndexToPerLightShadowSliceIndex) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_ShadowRequestsHashes) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_ShadowSliceToAdditionalLightIndex) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_ProfilingSetupSampler) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_ShadowRequestsHashes) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightShadowDescriptor) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_ProfilingSetupSampler) == 0x130, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass, ___m_AdditionalLightShadowDescriptor) == 0x138, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass) == 0x170, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass) == 0x108, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal

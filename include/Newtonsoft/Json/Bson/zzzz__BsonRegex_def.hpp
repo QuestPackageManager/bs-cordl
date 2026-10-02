@@ -52,26 +52,26 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method .ctor, addr 0x5dae8c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c84a8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::StringW options);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Options, addr 0x5dae8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x61c8498, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Options();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Pattern, addr 0x5dae8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x61c8488, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Pattern();
 
-  /// @brief Method get_Type, addr 0x5dae950, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x61c8534, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Options, addr 0x5dae8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x61c84a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::Newtonsoft::Json::Bson::BsonString* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Pattern, addr 0x5dae8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pattern, addr 0x61c8490, size 0x8, virtual false, abstract: false, final false
   inline void set_Pattern(::Newtonsoft::Json::Bson::BsonString* value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   BsonRegex(BsonRegex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13943 };
 
   /// [CompilerGenerated]
   /// @brief Field <Pattern>k__BackingField, offset: 0x20, size: 0x8, def value: None

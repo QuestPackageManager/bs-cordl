@@ -47,15 +47,15 @@ public:
   /// @brief Field visibleDecalIndices, offset 0x58, size 0x10
   __declspec(property(get = __cordl_internal_get_visibleDecalIndices, put = __cordl_internal_set_visibleDecalIndices)) ::Unity::Collections::NativeArray_1<int32_t> visibleDecalIndices;
 
-  /// @brief Method Dispose, addr 0x686059c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c97ab4, size 0x7c, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Universal::DecalCulledChunk* New_ctor();
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6860414, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x6c9792c, size 0x9c, virtual true, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t entityIndex);
 
-  /// @brief Method SetCapacity, addr 0x68604b0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x6c979c8, size 0xec, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t newCapacity);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_cameraPosition() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleDecalIndices(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x685d3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c94900, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   DecalCulledChunk(DecalCulledChunk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12924 };
 
   /// @brief Field cameraPosition, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___cameraPosition;

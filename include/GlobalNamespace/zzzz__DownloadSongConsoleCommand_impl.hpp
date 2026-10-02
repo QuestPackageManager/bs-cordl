@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::*)()>(
     &::GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x145c;
-  constexpr static std::size_t addrs = 0x32ceea8;
+  constexpr static std::size_t addrs = 0x3556490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32d0304;
+  constexpr static std::size_t addrs = 0x35578ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13::*)()>(
     &::GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x32d0384;
+  constexpr static std::size_t addrs = 0x355796c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32d0950;
+  constexpr static std::size_t addrs = 0x3557f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13>(),
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DownloadSongConsoleCommand::*)()>(&::GlobalNamespace::DownloadSongConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cea88;
+  constexpr static std::size_t addrs = 0x3556070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DownloadSongConsoleCommand::*)()>(&::GlobalNamespace::DownloadSongConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32ceacc;
+  constexpr static std::size_t addrs = 0x35560b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::DownloadSongConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::DownloadSongConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x32ceb10;
+  constexpr static std::size_t addrs = 0x35560f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup, uint64_t, ::StringW>>* (*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::DownloadSongConsoleCommand::FindAssetByBundleNameAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x32cec04;
+  constexpr static std::size_t addrs = 0x35561ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DownloadSongConsoleCommand::*)()>(&::GlobalNamespace::DownloadSongConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32cecf4;
+  constexpr static std::size_t addrs = 0x35562dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DownloadSongConsoleCommand*>(), { ".ctor", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DownloadSongConsoleCommand::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*)>(
     &::GlobalNamespace::DownloadSongConsoleCommand::_ExecuteAsync_b__12_0)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x32ceda4;
+  constexpr static std::size_t addrs = 0x355638c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

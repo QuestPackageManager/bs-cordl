@@ -6,23 +6,23 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyCommandList_def.hpp"
-//  Writing Method size for method: ::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller.ConvertToNative
+//  Writing Method size for method: ::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller.ConvertToUnmanaged
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Unity::Hierarchy::HierarchyCommandList*)>(
-    &::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller::ConvertToNative)> {
+    &::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller::ConvertToUnmanaged)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b397a8;
+  constexpr static std::size_t addrs = 0x6f976a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller*>(),
-                                                                                           { "ConvertToNative", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyCommandList*>() } })));
+                                                                                           { "ConvertToUnmanaged", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyCommandList*>() } })));
     return ___internal_method;
   }
 };
-inline ::System::IntPtr Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller::ConvertToNative(::Unity::Hierarchy::HierarchyCommandList* cmdList) {
+inline ::System::IntPtr Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller::ConvertToUnmanaged(::Unity::Hierarchy::HierarchyCommandList* cmdList) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller*>(),
-                                                                                         { "ConvertToNative", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyCommandList*>() } })));
+                                                                                         { "ConvertToUnmanaged", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyCommandList*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, cmdList);
 }
 // Ctor Parameters []
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyCommandList::*)(::System::IntPtr)>(&::Unity::Hierarchy::HierarchyCommandList::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b39578;
+  constexpr static std::size_t addrs = 0x6f97470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyCommandList::*)()>(&::Unity::Hierarchy::HierarchyCommandList::Finalize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b39584;
+  constexpr static std::size_t addrs = 0x6f9747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyCommandList::*)()>(&::Unity::Hierarchy::HierarchyCommandList::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b39620;
+  constexpr static std::size_t addrs = 0x6f97518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyCommandList*>(), { "Dispose", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyCommandList::*)(bool)>(&::Unity::Hierarchy::HierarchyCommandList::Dispose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b395cc;
+  constexpr static std::size_t addrs = 0x6f974c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyCommandList* (*)(::System::IntPtr)>(&::Unity::Hierarchy::HierarchyCommandList::FromIntPtr)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b396c4;
+  constexpr static std::size_t addrs = 0x6f975bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::Unity::Hierarchy::HierarchyCommandList::Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b39688;
+  constexpr static std::size_t addrs = 0x6f97580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Unity::Hierarchy::HierarchyCommandList::CreateCommandList)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b3974c;
+  constexpr static std::size_t addrs = 0x6f97644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

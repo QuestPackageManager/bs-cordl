@@ -270,40 +270,40 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method CalculateDigest, addr 0x35fa4f4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CalculateDigest, addr 0x3883790, size 0x100, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateDigest(::StringW algorithm, ::ArrayW<uint8_t> input);
 
-  /// @brief Method CalculateDigest, addr 0x35fa480, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateDigest, addr 0x388371c, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::ArrayW<uint8_t> input);
 
-  /// @brief Method DoFinal, addr 0x35fa5f4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x3883890, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method DoFinal, addr 0x35fa730, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x38839cc, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t> input);
 
-  /// @brief Method GetAlgorithmName, addr 0x35fa380, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x388361c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetDigest, addr 0x35f98f0, size 0xa90, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x3882b8c, size 0xa90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
 
-  /// @brief Method GetDigest, addr 0x35f988c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x3882b28, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method GetObjectIdentifier, addr 0x35f9568, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x3882804, size 0x250, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
   static inline ::Org::BouncyCastle::Security::DigestUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35f5b08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x387eda4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_Algorithms, addr 0x35f97b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x3882a54, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

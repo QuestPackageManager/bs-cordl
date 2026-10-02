@@ -141,7 +141,7 @@ public:
   static constexpr ::ConstString NearestSampler{ u"NearestDebugDraw" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -192,7 +192,7 @@ public:
   static ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType const HDR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13329 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,7 +224,7 @@ public:
   constexpr FinalBlitPass_BlitMaterialData(::UnityW<::UnityEngine::Material> material, int32_t nearestSamplerPass, int32_t bilinearSamplerPass) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13330 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -282,6 +282,9 @@ public:
   /// @brief Field sourceID, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_sourceID, put = __cordl_internal_set_sourceID)) int32_t sourceID;
 
+  /// @brief Field useFullScreenViewport, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get_useFullScreenViewport, put = __cordl_internal_set_useFullScreenViewport)) bool useFullScreenViewport;
+
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* New_ctor();
 
   constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData const& __cordl_internal_get_blitMaterialData() const;
@@ -316,6 +319,10 @@ public:
 
   constexpr int32_t& __cordl_internal_get_sourceID();
 
+  constexpr bool const& __cordl_internal_get_useFullScreenViewport() const;
+
+  constexpr bool& __cordl_internal_get_useFullScreenViewport();
+
   constexpr void __cordl_internal_set_blitMaterialData(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData value);
 
   constexpr void __cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* value);
@@ -332,7 +339,9 @@ public:
 
   constexpr void __cordl_internal_set_sourceID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6903f04, size 0x4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_useFullScreenViewport(bool value);
+
+  /// @brief Method .ctor, addr 0x6d2c15c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -350,7 +359,7 @@ public:
   FinalBlitPass_PassData(FinalBlitPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13331 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -376,6 +385,9 @@ public:
   /// @brief Field cameraData, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
 
+  /// @brief Field useFullScreenViewport, offset: 0x60, size: 0x1, def value: None
+  bool ___useFullScreenViewport;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -395,7 +407,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitP
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData, ___cameraData) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData) == 0x60, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData, ___useFullScreenViewport) == 0x60, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData) == 0x68, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
 // [CompilerGenerated]
@@ -409,28 +423,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* __9;
 
-  /// @brief Field <>9__17_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__17_0,
-                      put = setStaticF___9__17_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__17_0;
+  /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__15_0,
+                      put = setStaticF___9__15_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__15_0;
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* New_ctor();
 
-  /// @brief Method <Render>b__17_0, addr 0x69058d4, size 0x3d4, virtual false, abstract: false, final false
-  inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__15_0, addr 0x6d2c1b8, size 0x430, virtual false, abstract: false, final false
+  inline void _Render_b__15_0(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x69058d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2c1b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__17_0();
+  getStaticF___9__15_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* value);
 
-  static inline void setStaticF___9__17_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
+  static inline void setStaticF___9__15_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -448,7 +462,7 @@ public:
   FinalBlitPass___c(FinalBlitPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -473,55 +487,51 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c;
 
-  /// @brief Field m_BlitMaterialData, offset 0xc8, size 0x8
+  /// @brief Field m_BlitMaterialData, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BlitMaterialData,
                       put = __cordl_internal_set_m_BlitMaterialData)) ::ArrayW<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData>
       m_BlitMaterialData;
 
-  /// @brief Field m_PassData, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* m_PassData;
-
-  /// @brief Field m_Source, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source)) ::UnityEngine::Rendering::RTHandle* m_Source;
-
   /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
 
-  /// @brief Method Dispose, addr 0x6903f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d2b0d8, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x6904170, size 0x9dc, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6d2af1c, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6904bdc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d2b268, size 0x31c, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data,
-                                 ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
+                                 ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
+                                 ::UnityEngine::Vector4 scaleBias);
 
-  /// @brief Method InitPassData, addr 0x6904b4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d2b584, size 0xa4, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*> passData,
-                           ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType blitType, bool enableAlphaOutput);
+                           ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType blitType, bool enableAlphaOutput, bool useFullScreenViewport);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial,
                                                                                        ::UnityEngine::Material* blitHDRMaterial);
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method OnCameraSetup, addr 0x690409c, size 0xd4, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method OnCameraSetup, addr 0x6d2af18, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x6904e08, size 0xa04, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d2b628, size 0xac4, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture);
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture,
+                     bool useFullScreenViewport);
 
-  /// @brief Method Setup, addr 0x6903f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d2b128, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::RTHandle* colorHandle);
 
-  /// [Obsolete("Use RTHandles for colorHandle", true)]
-  /// @brief Method Setup, addr 0x6903f0c, size 0x4c, virtual false, abstract: false, final false
+  /// [Obsolete("Use RTHandles for colorHandle. #from(2022.1) #breakingFrom(2023.1)", true)]
+  /// @brief Method Setup, addr 0x6d2b0dc, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::Universal::RenderTargetHandle colorHandle);
 
-  /// @brief Method SetupHDROutput, addr 0x6903f60, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetupHDROutput, addr 0x6d2b12c, size 0x13c, virtual false, abstract: false, final false
   static inline void SetupHDROutput(::UnityEngine::ColorGamut hdrDisplayColorGamut, ::UnityEngine::Material* material, ::UnityEngine::Rendering::HDROutputUtils_Operation hdrOperation,
                                     ::UnityEngine::Vector4 hdrOutputParameters, bool rendersOverlayUI);
 
@@ -529,21 +539,9 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData>& __cordl_internal_get_m_BlitMaterialData();
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*& __cordl_internal_get_m_PassData();
-
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_Source() const;
-
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_Source();
-
   constexpr void __cordl_internal_set_m_BlitMaterialData(::ArrayW<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData> value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* value);
-
-  constexpr void __cordl_internal_set_m_Source(::UnityEngine::Rendering::RTHandle* value);
-
-  /// @brief Method .ctor, addr 0x6903cfc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2af20, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial, ::UnityEngine::Material* blitHDRMaterial);
 
   static inline int32_t getStaticF_s_CameraDepthTextureID();
@@ -565,26 +563,16 @@ public:
   FinalBlitPass(FinalBlitPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13333 };
 
-  /// @brief Field m_Source, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_Source;
-
-  /// @brief Field m_PassData, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* ___m_PassData;
-
-  /// @brief Field m_BlitMaterialData, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field m_BlitMaterialData, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData> ___m_BlitMaterialData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass, ___m_Source) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass, ___m_BlitMaterialData) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass, ___m_PassData) == 0xc0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass, ___m_BlitMaterialData) == 0xc8, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass) == 0xd0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass) == 0x68, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal

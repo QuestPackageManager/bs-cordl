@@ -39,6 +39,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
+struct MemoryLabel;
+}
+namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
@@ -75,13 +78,13 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArray_1, "Unity.Collections"
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArray_1_Enumerator, "Unity.Collections", "NativeArray`1/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArray_1_ReadOnly, "Unity.Collections", "NativeArray`1/ReadOnly");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::ReadOnly_NativeArray_1_Enumerator, "Unity.Collections", "NativeArray`1/ReadOnly/Enumerator");
-// [NativeContainer]
-// [NativeContainerSupportsMinMaxWriteRestriction]
-// [NativeContainerSupportsDeferredConvertListToArray]
 // [NativeContainerSupportsDeallocateOnJobCompletion]
+// [NativeContainerSupportsMinMaxWriteRestriction]
 // [DefaultMember("Item")]
-// [DebuggerDisplay("Length = {m_Length}")]
 // [DebuggerTypeProxy(typeof(Unity.Collections.NativeArrayDebugView`1<T>))]
+// [DebuggerDisplay("Length = {m_Length}")]
+// [NativeContainerSupportsDeferredConvertListToArray]
+// [NativeContainer]
 // Dependencies Unity.Collections.Allocator
 namespace Unity::Collections {
 // cpp template
@@ -114,7 +117,7 @@ public:
   constexpr operator ::System::IEquatable_1<::Unity::Collections::NativeArray_1<T>>*();
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<T>> array);
+  static inline void Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::MemoryLabel label, ::by_ref<::Unity::Collections::NativeArray_1<T>> array);
 
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1_ReadOnly<T> AsReadOnly();
@@ -123,8 +126,8 @@ public:
   /// @brief Method AsReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> AsReadOnlySpan();
 
-  /// [WriteAccessRequired]
   /// [IsReadOnly]
+  /// [WriteAccessRequired]
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Span_1<T> AsSpan();
 
@@ -230,6 +233,9 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t length, ::Unity::Collections::MemoryLabel label, ::Unity::Collections::NativeArrayOptions options);
+
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
@@ -273,13 +279,13 @@ public:
   constexpr NativeArray_1(void* m_Buffer, int32_t m_Length, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
-  /// [VisibleToOtherModules(new[] { "UnityEngine.ContentLoadModule", "UnityEngine.TilemapModule" })]
   /// [NativeDisableUnsafePtrRestriction]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.ContentLoadModule", "UnityEngine.TilemapModule" })]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   void* m_Buffer;
 
@@ -352,7 +358,7 @@ public:
   constexpr NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -370,11 +376,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// [DebuggerTypeProxy(typeof(Unity.Collections.NativeArrayReadOnlyDebugView`1<T>))]
-// [DebuggerDisplay("Length = {Length}")]
 // [NativeContainerIsReadOnly]
-// [DefaultMember("Item")]
 // [NativeContainer]
+// [DebuggerDisplay("Length = {Length}")]
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeArrayReadOnlyDebugView`1<T>))]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
@@ -442,7 +448,7 @@ public:
   constexpr NativeArray_1_ReadOnly(void* m_Buffer, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9569 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -517,7 +523,7 @@ public:
   constexpr ReadOnly_NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1_ReadOnly<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

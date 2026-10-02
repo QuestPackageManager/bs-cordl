@@ -34,6 +34,9 @@ namespace UnityEngine::UIElements {
 struct EditorTextRenderingMode;
 }
 namespace UnityEngine::UIElements {
+struct FilterFunction;
+}
+namespace UnityEngine::UIElements {
 struct FlexDirection;
 }
 namespace UnityEngine::UIElements {
@@ -43,13 +46,22 @@ namespace UnityEngine::UIElements {
 struct Justify;
 }
 namespace UnityEngine::UIElements {
+struct MaterialDefinition;
+}
+namespace UnityEngine::UIElements {
 struct Position;
+}
+namespace UnityEngine::UIElements {
+struct Ratio;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
+}
+namespace UnityEngine::UIElements {
+struct SliceType;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -113,6 +125,8 @@ public:
 
   __declspec(property(get = get_alignSelf)) ::UnityEngine::UIElements::Align alignSelf;
 
+  __declspec(property(get = get_aspectRatio)) ::UnityEngine::UIElements::Ratio aspectRatio;
+
   __declspec(property(get = get_backgroundColor)) ::UnityEngine::Color backgroundColor;
 
   __declspec(property(get = get_backgroundImage)) ::UnityEngine::UIElements::Background backgroundImage;
@@ -154,6 +168,8 @@ public:
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
   __declspec(property(get = get_display)) ::UnityEngine::UIElements::DisplayStyle display;
+
+  __declspec(property(get = get_filter)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>* filter;
 
   __declspec(property(get = get_flexBasis)) ::UnityEngine::UIElements::StyleFloat flexBasis;
 
@@ -235,6 +251,8 @@ public:
 
   __declspec(property(get = get_unityFontStyleAndWeight)) ::UnityEngine::FontStyle unityFontStyleAndWeight;
 
+  __declspec(property(get = get_unityMaterial)) ::UnityEngine::UIElements::MaterialDefinition unityMaterial;
+
   __declspec(property(get = get_unityParagraphSpacing)) float_t unityParagraphSpacing;
 
   __declspec(property(get = get_unitySliceBottom)) int32_t unitySliceBottom;
@@ -246,6 +264,8 @@ public:
   __declspec(property(get = get_unitySliceScale)) float_t unitySliceScale;
 
   __declspec(property(get = get_unitySliceTop)) int32_t unitySliceTop;
+
+  __declspec(property(get = get_unitySliceType)) ::UnityEngine::UIElements::SliceType unitySliceType;
 
   __declspec(property(get = get_unityTextAlign)) ::UnityEngine::TextAnchor unityTextAlign;
 
@@ -273,6 +293,9 @@ public:
 
   /// @brief Method get_alignSelf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::Align get_alignSelf();
+
+  /// @brief Method get_aspectRatio, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::Ratio get_aspectRatio();
 
   /// @brief Method get_backgroundColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_backgroundColor();
@@ -336,6 +359,9 @@ public:
 
   /// @brief Method get_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DisplayStyle get_display();
+
+  /// @brief Method get_filter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::FilterFunction>* get_filter();
 
   /// @brief Method get_flexBasis, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleFloat get_flexBasis();
@@ -457,6 +483,9 @@ public:
   /// @brief Method get_unityFontStyleAndWeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::FontStyle get_unityFontStyleAndWeight();
 
+  /// @brief Method get_unityMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::MaterialDefinition get_unityMaterial();
+
   /// @brief Method get_unityParagraphSpacing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_unityParagraphSpacing();
 
@@ -474,6 +503,9 @@ public:
 
   /// @brief Method get_unitySliceTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_unitySliceTop();
+
+  /// @brief Method get_unitySliceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::SliceType get_unitySliceType();
 
   /// @brief Method get_unityTextAlign, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::TextAnchor get_unityTextAlign();
@@ -507,7 +539,7 @@ public:
   IResolvedStyle(IResolvedStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

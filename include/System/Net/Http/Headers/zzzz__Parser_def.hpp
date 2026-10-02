@@ -125,10 +125,10 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Token : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x60ded88, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x64fb308, size 0xf8, virtual false, abstract: false, final false
   static inline void Check(::StringW s);
 
-  /// @brief Method TryCheck, addr 0x60e9e44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryCheck, addr 0x6506360, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryCheck(::StringW s);
 
 protected:
@@ -146,7 +146,7 @@ public:
   Parser_Token(Parser_Token const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,10 +167,10 @@ public:
 
   static inline ::System::Net::Http::Headers::DateTime_Parser___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x60ecd70, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x650928c, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x60ecd6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6509288, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::DateTime_Parser___c* getStaticF___9();
@@ -192,7 +192,7 @@ public:
   DateTime_Parser___c(DateTime_Parser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,7 +212,7 @@ public:
   /// @brief Field ToString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x60ecbe4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6509100, size 0x68, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::DateTimeOffset> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
@@ -234,7 +234,7 @@ public:
   Parser_DateTime(Parser_DateTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -249,7 +249,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_EmailAddress : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x60ece60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x650937c, size 0xe4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::StringW> result);
 
 protected:
@@ -267,7 +267,7 @@ public:
   Parser_EmailAddress(Parser_EmailAddress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -282,7 +282,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Host : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x60ecf44, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6509460, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::StringW> result);
 
 protected:
@@ -300,7 +300,7 @@ public:
   Parser_Host(Parser_Host const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20984 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -315,7 +315,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Int : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x60ed00c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6509528, size 0x7c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<int32_t> result);
 
 protected:
@@ -333,7 +333,7 @@ public:
   Parser_Int(Parser_Int const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20985 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -348,7 +348,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Long : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x60ed088, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x65095a4, size 0x7c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<int64_t> result);
 
 protected:
@@ -366,7 +366,7 @@ public:
   Parser_Long(Parser_Long const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20986 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -387,10 +387,10 @@ public:
 
   static inline ::System::Net::Http::Headers::MD5_Parser___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x60ed318, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x6509834, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x60ed314, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6509830, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::MD5_Parser___c* getStaticF___9();
@@ -412,7 +412,7 @@ public:
   MD5_Parser___c(MD5_Parser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20987 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -432,7 +432,7 @@ public:
   /// @brief Field ToString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x60ed104, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6509620, size 0xf0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::ArrayW<uint8_t>> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
@@ -454,7 +454,7 @@ public:
   Parser_MD5(Parser_MD5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -469,7 +469,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_TimeSpanSeconds : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x60ed3b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x65098d0, size 0xb8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::TimeSpan> result);
 
 protected:
@@ -487,7 +487,7 @@ public:
   Parser_TimeSpanSeconds(Parser_TimeSpanSeconds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -502,7 +502,7 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE Parser_Uri : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x60ed46c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6509988, size 0x70, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Uri*> result);
 
 protected:
@@ -520,7 +520,7 @@ public:
   Parser_Uri(Parser_Uri const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -568,7 +568,7 @@ public:
   Parser(Parser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

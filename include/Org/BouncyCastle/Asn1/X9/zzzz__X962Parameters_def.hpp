@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x367d31c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x39065b8, size 0x284, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
@@ -61,7 +61,7 @@ public:
   /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x367d6f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x390698c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get__params() const;
@@ -70,26 +70,26 @@ public:
 
   constexpr void __cordl_internal_set__params(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x367d5a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3906844, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
 
-  /// @brief Method .ctor, addr 0x367d5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3906874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namedCurve);
 
-  /// @brief Method .ctor, addr 0x367d5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x390687c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
   /// [Obsolete("Use \'GetInstance\' instead")]
-  /// @brief Method .ctor, addr 0x367d5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x390683c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method get_IsImplicitlyCA, addr 0x367d668, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IsImplicitlyCA, addr 0x3906904, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsImplicitlyCA();
 
-  /// @brief Method get_IsNamedCurve, addr 0x367d5e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamedCurve, addr 0x3906884, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsNamedCurve();
 
-  /// @brief Method get_Parameters, addr 0x367d6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3906984, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

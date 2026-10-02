@@ -36,12 +36,12 @@ public:
   /// @brief Field accuracy, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_accuracy, put = __cordl_internal_set_accuracy)) ::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy;
 
-  /// @brief Method GetTimeComponent, addr 0x361f2c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTimeComponent, addr 0x38a855c, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger* time);
 
   static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method ToString, addr 0x361f320, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x38a85bc, size 0x1b0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy* const& __cordl_internal_get_accuracy() const;
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value);
 
-  /// @brief Method .ctor, addr 0x361f294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38a8530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method get_Micros, addr 0x361f2fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Micros, addr 0x38a8598, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Micros();
 
-  /// @brief Method get_Millis, addr 0x361f2d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Millis, addr 0x38a8574, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Millis();
 
-  /// @brief Method get_Seconds, addr 0x361f29c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x38a8538, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
 protected:

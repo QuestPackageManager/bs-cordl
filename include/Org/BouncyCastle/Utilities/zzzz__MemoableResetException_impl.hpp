@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::MemoableResetException::*)(::StringW)>(&::Org::BouncyCastle::Utilities::MemoableResetException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x363de04;
+  constexpr static std::size_t addrs = 0x38c70a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

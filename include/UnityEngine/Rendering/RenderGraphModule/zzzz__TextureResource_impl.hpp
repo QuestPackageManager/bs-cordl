@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureResource.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResource_2_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureDesc_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureUVOriginSelection_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureResource_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphLogger_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::GetName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67eaef8;
+  constexpr static std::size_t addrs = 0x6c147b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
@@ -25,11 +26,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::GetDescHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eaf6c;
+  constexpr static std::size_t addrs = 0x6c1482c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 19 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -38,12 +39,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::CreateGraphicsResource)> {
-  constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x67eaf74;
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x6c14834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 12 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -53,11 +54,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::UpdateGraphicsResource)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67eb384;
+  constexpr static std::size_t addrs = 0x6c14bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 13 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -67,11 +68,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::ReleaseGraphicsResource)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67eb3a8;
+  constexpr static std::size_t addrs = 0x6c14be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 15 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -80,12 +81,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::LogCreation)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x67eb3fc;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6c14c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 16 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -94,12 +95,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::LogRelease)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x67eb530;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6c14d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 17 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -109,13 +110,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureResource::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67eb614;
+  constexpr static std::size_t addrs = 0x6c14e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection& UnityEngine::Rendering::RenderGraphModule::TextureResource::__cordl_internal_get_textureUVOrigin() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___textureUVOrigin;
+}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection const& UnityEngine::Rendering::RenderGraphModule::TextureResource::__cordl_internal_get_textureUVOrigin() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___textureUVOrigin;
+}
+constexpr void UnityEngine::Rendering::RenderGraphModule::TextureResource::__cordl_internal_set_textureUVOrigin(::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___textureUVOrigin = value;
+}
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::setStaticF_m_TextureCreationIndex(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "m_TextureCreationIndex", ::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(std::forward<int32_t>(value));
 }
@@ -129,32 +142,32 @@ inline ::StringW UnityEngine::Rendering::RenderGraphModule::TextureResource::Get
 }
 inline int32_t UnityEngine::Rendering::RenderGraphModule::TextureResource::GetDescHashCode() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 19 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::CreateGraphicsResource() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::UpdateGraphicsResource() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::ReleaseGraphicsResource() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logger);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureResource*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logger);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::TextureResource::_ctor() {

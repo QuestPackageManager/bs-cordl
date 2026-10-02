@@ -59,21 +59,21 @@ public:
   /// @brief Field singlePassStereo, offset 0x210, size 0x1
   __declspec(property(get = __cordl_internal_get_singlePassStereo, put = __cordl_internal_set_singlePassStereo)) bool singlePassStereo;
 
-  /// @brief Method CleanupPass, addr 0x5f47810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CleanupPass, addr 0x63630e0, size 0xc4, virtual false, abstract: false, final false
   inline void CleanupPass(::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method CleanupPass, addr 0x5f475a4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CleanupPass, addr 0x6362e10, size 0x20c, virtual false, abstract: false, final false
   inline void CleanupPass(::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
   static inline ::GlobalNamespace::MirrorFrameData* New_ctor();
 
-  /// @brief Method Reset, addr 0x5f4788c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x63631a4, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetupPass, addr 0x5f47794, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetupPass, addr 0x636301c, size 0xc4, virtual false, abstract: false, final false
   inline void SetupPass(::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetupPass, addr 0x5f473b4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetupPass, addr 0x6362c04, size 0x20c, virtual false, abstract: false, final false
   inline void SetupPass(::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
   constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_cameraProjLeft() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_singlePassStereo(bool value);
 
-  /// @brief Method .ctor, addr 0x5f4789c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63631b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   MirrorFrameData(MirrorFrameData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21139 };
 
   /// @brief Field reflectedViewLeft, offset: 0x10, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___reflectedViewLeft;

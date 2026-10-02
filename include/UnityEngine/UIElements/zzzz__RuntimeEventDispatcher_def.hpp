@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE RuntimeEventDispatcher : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6dadbd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x7247cd4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* Create();
 
 protected:
@@ -40,7 +40,7 @@ public:
   RuntimeEventDispatcher(RuntimeEventDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

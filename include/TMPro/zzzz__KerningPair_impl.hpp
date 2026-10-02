@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_firstGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695cb28;
+  constexpr static std::size_t addrs = 0x6d63778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "get_firstGlyph", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPair::*)(uint32_t)>(&::TMPro::KerningPair::set_firstGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695cb30;
+  constexpr static std::size_t addrs = 0x6d63780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "set_firstGlyph", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::GlyphValueRecord_Legacy (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_firstGlyphAdjustments)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x695cb38;
+  constexpr static std::size_t addrs = 0x6d63788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "get_firstGlyphAdjustments", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_secondGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695cb44;
+  constexpr static std::size_t addrs = 0x6d63794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "get_secondGlyph", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPair::*)(uint32_t)>(&::TMPro::KerningPair::set_secondGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695cb4c;
+  constexpr static std::size_t addrs = 0x6d6379c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "set_secondGlyph", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::GlyphValueRecord_Legacy (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_secondGlyphAdjustments)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x695cb54;
+  constexpr static std::size_t addrs = 0x6d637a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "get_secondGlyphAdjustments", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_ignoreSpacingAdjustments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695cb60;
+  constexpr static std::size_t addrs = 0x6d637b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "get_ignoreSpacingAdjustments", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x695cb68;
+  constexpr static std::size_t addrs = 0x6d637b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { ".ctor", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPair::*)(uint32_t, uint32_t, float_t)>(&::TMPro::KerningPair::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x695cb78;
+  constexpr static std::size_t addrs = 0x6d637c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPair::*)(uint32_t, ::TMPro::GlyphValueRecord_Legacy, uint32_t, ::TMPro::GlyphValueRecord_Legacy)>(
     &::TMPro::KerningPair::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x695cb88;
+  constexpr static std::size_t addrs = 0x6d637d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::ConvertLegacyKerningData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x695cba4;
+  constexpr static std::size_t addrs = 0x6d637f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPair*>(), { "ConvertLegacyKerningData", {}, {} })));

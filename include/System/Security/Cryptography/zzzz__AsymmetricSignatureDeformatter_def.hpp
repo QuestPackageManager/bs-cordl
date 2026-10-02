@@ -37,7 +37,7 @@ public:
   /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
 
-  /// @brief Method .ctor, addr 0x5af91ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f110e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

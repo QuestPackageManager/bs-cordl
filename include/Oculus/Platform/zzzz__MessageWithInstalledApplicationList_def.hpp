@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithInstalledApplicationList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InstalledApplicationList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5ddaf34, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x61f4b18, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetInstalledApplicationList, addr 0x5ddaef0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetInstalledApplicationList, addr 0x61f4ad4, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
 
   static inline ::Oculus::Platform::MessageWithInstalledApplicationList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5ddae94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f4a78, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithInstalledApplicationList(MessageWithInstalledApplicationList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

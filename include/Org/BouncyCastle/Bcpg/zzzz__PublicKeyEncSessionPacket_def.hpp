@@ -49,10 +49,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Encode, addr 0x369edac, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3928048, size 0x194, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncSessionKey, addr 0x369eda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncSessionKey, addr 0x3928040, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint8_t>> GetEncSessionKey();
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -83,19 +83,19 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3699fc4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3923260, size 0x308, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x369ec74, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3927f10, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t>> data);
 
-  /// @brief Method get_Algorithm, addr 0x369ed9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x3928038, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_KeyId, addr 0x369ed94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x3928030, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_Version, addr 0x369ed8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3928028, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

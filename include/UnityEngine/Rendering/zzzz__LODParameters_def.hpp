@@ -31,6 +31,8 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE LODParameters {
 public:
   // Declarations
+  __declspec(property(get = get_cameraPixelHeight)) int32_t cameraPixelHeight;
+
   __declspec(property(get = get_cameraPosition)) ::UnityEngine::Vector3 cameraPosition;
 
   __declspec(property(get = get_fieldOfView)) float_t fieldOfView;
@@ -42,25 +44,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
 
-  /// @brief Method Equals, addr 0x6b21b8c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f7fecc, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b1fb68, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f7df84, size 0xd0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);
 
-  /// @brief Method GetHashCode, addr 0x6b1ffa4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f7e3c0, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_cameraPosition, addr 0x6b21b70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cameraPixelHeight, addr 0x6f7fec4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_cameraPixelHeight();
+
+  /// @brief Method get_cameraPosition, addr 0x6f7fea8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cameraPosition();
 
-  /// @brief Method get_fieldOfView, addr 0x6b21b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfView, addr 0x6f7feb4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfView();
 
-  /// @brief Method get_isOrthographic, addr 0x6b21b10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isOrthographic, addr 0x6f7fe48, size 0x60, virtual false, abstract: false, final false
   inline bool get_isOrthographic();
 
-  /// @brief Method get_orthoSize, addr 0x6b21b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orthoSize, addr 0x6f7febc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_orthoSize();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
@@ -76,7 +81,7 @@ public:
   constexpr LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

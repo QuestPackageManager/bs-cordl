@@ -143,7 +143,7 @@ public:
   static ::GlobalNamespace::PyramidBloomRendererSO_Pass const UpsampleTentGamma;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19867 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -198,7 +198,7 @@ public:
   static ::GlobalNamespace::PyramidBloomRendererSO_TextureType const MainEffect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -237,10 +237,10 @@ public:
   /// @brief Field _globalIntensityTex, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__globalIntensityTex, put = setStaticF__globalIntensityTex)) int32_t _globalIntensityTex;
 
-  /// @brief Field _initialized, offset 0x80, size 0x1
+  /// @brief Field _initialized, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  /// @brief Field _isScreenspaceEffectGlobalKeyword, offset 0x60, size 0x10
+  /// @brief Field _isScreenspaceEffectGlobalKeyword, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__isScreenspaceEffectGlobalKeyword,
                       put = __cordl_internal_set__isScreenspaceEffectGlobalKeyword)) ::UnityEngine::Rendering::GlobalKeyword _isScreenspaceEffectGlobalKeyword;
 
@@ -248,7 +248,7 @@ public:
   __declspec(property(get = __cordl_internal_get__isScreenspaceEffectKeyword,
                       put = __cordl_internal_set__isScreenspaceEffectKeyword)) ::UnityEngine::Rendering::LocalKeyword _isScreenspaceEffectKeyword;
 
-  /// @brief Field _legacyAutoExposureGlobalKeyword, offset 0x70, size 0x10
+  /// @brief Field _legacyAutoExposureGlobalKeyword, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__legacyAutoExposureGlobalKeyword,
                       put = __cordl_internal_set__legacyAutoExposureGlobalKeyword)) ::UnityEngine::Rendering::GlobalKeyword _legacyAutoExposureGlobalKeyword;
 
@@ -272,13 +272,13 @@ public:
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x585dd4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c73b54, size 0x14, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x585d9d8, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c737bc, size 0x398, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderBloom, addr 0x585e1f0, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x5c73ff8, size 0x694, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
                           ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempRTHandles, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
@@ -286,7 +286,7 @@ public:
                           ::GlobalNamespace::PyramidBloomRendererSO_Pass upsamplePass, ::GlobalNamespace::PyramidBloomRendererSO_Pass finalUpsamplePass, bool legacyAutoExposure,
                           bool isScreenspaceEffect);
 
-  /// @brief Method SetupTempTextureHandles, addr 0x585dd60, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method SetupTempTextureHandles, addr 0x5c73b68, size 0x490, virtual false, abstract: false, final false
   inline void SetupTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                       ::UnityEngine::RenderTextureDescriptor destDesc, ::GlobalNamespace::PyramidBloomRendererSO_TextureType textureType, float_t radius, bool downsampleOnFirstPass,
                                       ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
@@ -351,7 +351,7 @@ public:
 
   constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x585e884, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c7468c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomParamsID();
@@ -385,7 +385,7 @@ public:
   PyramidBloomRendererSO(PyramidBloomRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19869 };
 
   /// @brief Field kMaxPyramidSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPyramidSize{ static_cast<int32_t>(0x10) };
@@ -412,13 +412,13 @@ public:
   /// @brief Field _isScreenspaceEffectKeyword, offset: 0x48, size: 0x18, def value: None
   ::UnityEngine::Rendering::LocalKeyword ____isScreenspaceEffectKeyword;
 
-  /// @brief Field _isScreenspaceEffectGlobalKeyword, offset: 0x60, size: 0x10, def value: None
+  /// @brief Field _isScreenspaceEffectGlobalKeyword, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::Rendering::GlobalKeyword ____isScreenspaceEffectGlobalKeyword;
 
-  /// @brief Field _legacyAutoExposureGlobalKeyword, offset: 0x70, size: 0x10, def value: None
+  /// @brief Field _legacyAutoExposureGlobalKeyword, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::Rendering::GlobalKeyword ____legacyAutoExposureGlobalKeyword;
 
-  /// @brief Field _initialized, offset: 0x80, size: 0x1, def value: None
+  /// @brief Field _initialized, offset: 0x68, size: 0x1, def value: None
   bool ____initialized;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -440,10 +440,10 @@ static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____isScreensp
 
 static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____isScreenspaceEffectGlobalKeyword) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____legacyAutoExposureGlobalKeyword) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____legacyAutoExposureGlobalKeyword) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____initialized) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____initialized) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PyramidBloomRendererSO) == 0x88, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PyramidBloomRendererSO) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace

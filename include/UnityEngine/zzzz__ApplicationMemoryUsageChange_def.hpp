@@ -25,11 +25,11 @@ public:
   // Declarations
   __declspec(property(put = set_memoryUsage)) ::UnityEngine::ApplicationMemoryUsage memoryUsage;
 
-  /// @brief Method .ctor, addr 0x6a68148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eba4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ApplicationMemoryUsage usage);
 
   /// [CompilerGenerated]
-  /// @brief Method set_memoryUsage, addr 0x6a69638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_memoryUsage, addr 0x6ebb994, size 0x8, virtual false, abstract: false, final false
   inline void set_memoryUsage(::UnityEngine::ApplicationMemoryUsage value);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
   constexpr ApplicationMemoryUsageChange(::UnityEngine::ApplicationMemoryUsage _memoryUsage_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9637 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

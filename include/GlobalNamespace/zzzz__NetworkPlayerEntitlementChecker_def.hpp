@@ -71,11 +71,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd22f4, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x60ebed8, size 0x2ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5cd25e0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x60ec1c4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -95,7 +95,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24236 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -142,11 +142,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cd2660, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x60ec244, size 0x288, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5cd28e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x60ec4cc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -165,7 +165,7 @@ public:
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementsStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24237 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -228,25 +228,25 @@ public:
   __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager)) ::GlobalNamespace::IMenuRpcManager* _rpcManager;
 
   /// [AsyncStateMachine(typeof(NetworkPlayerEntitlementChecker::<GetEntitlementStatus>d__10))]
-  /// @brief Method GetEntitlementStatus, addr 0x5cd2200, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetEntitlementStatus, addr 0x60ebde4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
 
-  /// @brief Method HandleDataInvalidated, addr 0x5cd2010, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleDataInvalidated, addr 0x60ebbf4, size 0xa8, virtual false, abstract: false, final false
   inline void HandleDataInvalidated();
 
   /// [AsyncStateMachine(typeof(NetworkPlayerEntitlementChecker::<HandleGetIsEntitledToLevel>d__8))]
-  /// @brief Method HandleGetIsEntitledToLevel, addr 0x5cd20b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleGetIsEntitledToLevel, addr 0x60ebc9c, size 0xac, virtual false, abstract: false, final false
   inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
-  /// @brief Method IsSensitivityValid, addr 0x5cd2164, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsSensitivityValid, addr 0x60ebd48, size 0x9c, virtual false, abstract: false, final false
   inline bool IsSensitivityValid(::StringW levelId);
 
   static inline ::GlobalNamespace::NetworkPlayerEntitlementChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5cd1e0c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x60eb9f0, size 0x204, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5cd1c4c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x60eb830, size 0x1c0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -279,7 +279,7 @@ public:
 
   constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  /// @brief Method .ctor, addr 0x5cd22f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ebed4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -297,7 +297,7 @@ public:
   NetworkPlayerEntitlementChecker(NetworkPlayerEntitlementChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24238 };
 
   /// [Inject]
   /// @brief Field _rpcManager, offset: 0x20, size: 0x8, def value: None

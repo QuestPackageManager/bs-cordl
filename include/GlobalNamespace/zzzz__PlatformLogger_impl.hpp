@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3778a7c;
+  constexpr static std::size_t addrs = 0x3a02144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLogger*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogError)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x37796a0;
+  constexpr static std::size_t addrs = 0x3a03044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogInfo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3779758;
+  constexpr static std::size_t addrs = 0x3a030fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLogger*>(), { "LogInfo", {}, { ::i2c::type_of<::StringW>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogVerbose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3779810;
+  constexpr static std::size_t addrs = 0x3a031b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogSensitive)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3779814;
+  constexpr static std::size_t addrs = 0x3a031b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogWarning)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3779818;
+  constexpr static std::size_t addrs = 0x3a031bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

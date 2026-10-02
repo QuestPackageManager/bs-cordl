@@ -1,7 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightRotationEventHandler.hpp"
+#include "GlobalNamespace/zzzz__CompositeTransformMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationEventHandler_def.hpp"
+#include "GlobalNamespace/zzzz__CompositeTransformMode_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
@@ -10,23 +12,26 @@
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightRotationEventHandler_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler_InitData::*)(
-    bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::GlobalNamespace::LightRotationEventHandler_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x598f960;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler_InitData::*)(bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*,
+                                                                                                                       ::UnityEngine::Transform*, ::GlobalNamespace::CompositeTransformMode)>(
+    &::GlobalNamespace::LightRotationEventHandler_InitData::_ctor)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5daa9ac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationEventHandler_InitData*>(),
-                                                             { ".ctor",
-                                                               {},
-                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationEventHandler_InitData*>(),
+                            { ".ctor",
+                              {},
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>(),
+                                ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::GlobalNamespace::CompositeTransformMode>() } })));
     return ___internal_method;
   }
 };
@@ -102,20 +107,34 @@ constexpr void GlobalNamespace::LightRotationEventHandler_InitData::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zTransform = value;
 }
+constexpr ::GlobalNamespace::CompositeTransformMode& GlobalNamespace::LightRotationEventHandler_InitData::__cordl_internal_get_transformMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___transformMode;
+}
+constexpr ::GlobalNamespace::CompositeTransformMode const& GlobalNamespace::LightRotationEventHandler_InitData::__cordl_internal_get_transformMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___transformMode;
+}
+constexpr void GlobalNamespace::LightRotationEventHandler_InitData::__cordl_internal_set_transformMode(::GlobalNamespace::CompositeTransformMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___transformMode = value;
+}
 inline void GlobalNamespace::LightRotationEventHandler_InitData::_ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
-                                                                       ::UnityEngine::Transform* zTransform) {
+                                                                       ::UnityEngine::Transform* zTransform, ::GlobalNamespace::CompositeTransformMode transformMode) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationEventHandler_InitData*>(),
-                                                           { ".ctor",
-                                                             {},
-                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(),
-                                                               ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform);
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationEventHandler_InitData*>(),
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Transform*>(),
+                                           ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::GlobalNamespace::CompositeTransformMode>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform, transformMode);
 }
 inline ::GlobalNamespace::LightRotationEventHandler_InitData* GlobalNamespace::LightRotationEventHandler_InitData::New_ctor(bool xMirrored, bool yMirrored, bool zMirrored,
                                                                                                                             ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
-                                                                                                                            ::UnityEngine::Transform* zTransform) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LightRotationEventHandler_InitData*>(xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform));
+                                                                                                                            ::UnityEngine::Transform* zTransform,
+                                                                                                                            ::GlobalNamespace::CompositeTransformMode transformMode) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LightRotationEventHandler_InitData*>(xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform, transformMode));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationEventHandler_InitData::LightRotationEventHandler_InitData() {}
@@ -124,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler::*)(
     ::GlobalNamespace::LightRotationEventHandler_InitData*, ::Tweening::SongTimeTweeningManager*)>(&::GlobalNamespace::LightRotationEventHandler::_ctor)> {
-  constexpr static std::size_t size = 0xb78;
-  constexpr static std::size_t addrs = 0x598f978;
+  constexpr static std::size_t size = 0xd48;
+  constexpr static std::size_t addrs = 0x5daa9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler::*)()>(&::GlobalNamespace::LightRotationEventHandler::Cleanup)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x598f6d0;
+  constexpr static std::size_t addrs = 0x5daa3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationEventHandler*>(), { "Cleanup", {}, {} })));
@@ -153,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler::*)(::GlobalNamespace::LightRotationBeatmapEventData*)>(
     &::GlobalNamespace::LightRotationEventHandler::HandleRotationEvent)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5991f18;
+  constexpr static std::size_t addrs = 0x5dace00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationEventHandler*>(),
@@ -167,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler::*)(::Tweening::FloatTween*, ::GlobalNamespace::LightRotationBeatmapEventData*)>(
     &::GlobalNamespace::LightRotationEventHandler::ProcessAxisEvent)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x59937c8;
+  constexpr static std::size_t addrs = 0x5dae730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,8 +199,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationEventHandler::*)(float_t)>(&::GlobalNamespace::LightRotationEventHandler::SetRotation)> {
-  constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x5993a00;
+  constexpr static std::size_t size = 0x66c;
+  constexpr static std::size_t addrs = 0x5dae968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightRotationEventHandler::SetTweenData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5993910;
+  constexpr static std::size_t addrs = 0x5dae878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, bool)>(&::GlobalNamespace::LightRotationEventHandler::MaybeMirror)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5993fa0;
+  constexpr static std::size_t addrs = 0x5daefd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, int32_t, ::GlobalNamespace::LightRotationDirection)>(
     &::GlobalNamespace::LightRotationEventHandler::ComputeTargetAngle)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5993930;
+  constexpr static std::size_t addrs = 0x5dae898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,6 +282,18 @@ constexpr void GlobalNamespace::LightRotationEventHandler::__cordl_internal_set_
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transformMask = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& GlobalNamespace::LightRotationEventHandler::__cordl_internal_get__baseRotations() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____baseRotations;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* const& GlobalNamespace::LightRotationEventHandler::__cordl_internal_get__baseRotations() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____baseRotations;
+}
+constexpr void GlobalNamespace::LightRotationEventHandler::__cordl_internal_set__baseRotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____baseRotations = value;
 }
 constexpr ::Tweening::FloatTween*& GlobalNamespace::LightRotationEventHandler::__cordl_internal_get__xRotationTween() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -335,6 +366,18 @@ constexpr bool const& GlobalNamespace::LightRotationEventHandler::__cordl_intern
 constexpr void GlobalNamespace::LightRotationEventHandler::__cordl_internal_set__zMirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zMirrored = value;
+}
+constexpr ::GlobalNamespace::CompositeTransformMode& GlobalNamespace::LightRotationEventHandler::__cordl_internal_get__transformMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transformMode;
+}
+constexpr ::GlobalNamespace::CompositeTransformMode const& GlobalNamespace::LightRotationEventHandler::__cordl_internal_get__transformMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____transformMode;
+}
+constexpr void GlobalNamespace::LightRotationEventHandler::__cordl_internal_set__transformMode(::GlobalNamespace::CompositeTransformMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____transformMode = value;
 }
 inline void GlobalNamespace::LightRotationEventHandler::_ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager) {
   static auto* ___internal_method = THROW_UNLESS(

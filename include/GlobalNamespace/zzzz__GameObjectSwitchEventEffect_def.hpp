@@ -46,18 +46,18 @@ public:
   __declspec(property(get = __cordl_internal_get__deactivateOnBoostObjects, put = __cordl_internal_set__deactivateOnBoostObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>>
       _deactivateOnBoostObjects;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x5994974, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5daf9a8, size 0x14, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5994958, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5daf98c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59948a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5daf8dc, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x5994988, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x5daf9bc, size 0xb4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__activateOnBoostObjects() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
-  /// @brief Method .ctor, addr 0x5994a3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dafa70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   GameObjectSwitchEventEffect(GameObjectSwitchEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5968 };
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]

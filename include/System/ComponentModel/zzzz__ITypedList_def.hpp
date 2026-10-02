@@ -37,7 +37,7 @@ public:
   ITypedList(ITypedList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

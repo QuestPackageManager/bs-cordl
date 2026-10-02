@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Toggle_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d78604, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720b654, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   Toggle_UxmlFactory(Toggle_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,7 +93,7 @@ public:
   /// @brief Field m_Text, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x6d7866c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x720b6bc, size 0x128, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Toggle_UxmlTraits* New_ctor();
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d787a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720b7e4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   Toggle_UxmlTraits(Toggle_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4347 };
 
   /// @brief Field m_Text, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
@@ -167,20 +167,20 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method InitLabel, addr 0x6d78254, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x720b2a8, size 0x80, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x6d782d4, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x720b328, size 0x170, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
-  /// @brief Method .ctor, addr 0x6d78120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720b174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d78128, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720b17c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -226,11 +226,11 @@ public:
   Toggle(Toggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::Toggle) == 0x550, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Toggle) == 0x380, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

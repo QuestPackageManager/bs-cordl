@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(&::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59e7700;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5e02ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>(), { "Start", {}, {} })));
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::OnDestroy)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x59e77bc;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5e02d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>(), { "OnDestroy", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(&::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Update)> {
   constexpr static std::size_t size = 0x8a0;
-  constexpr static std::size_t addrs = 0x59e78cc;
+  constexpr static std::size_t addrs = 0x5e02e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>(), { "Update", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59e77ac;
+  constexpr static std::size_t addrs = 0x5e02d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(&::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x59e816c;
+  constexpr static std::size_t addrs = 0x5e03718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>(), { ".ctor", {}, {} })));

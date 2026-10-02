@@ -105,7 +105,7 @@ public:
   OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider(OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8107 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,38 +128,38 @@ public:
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_IsDataHighConfidence, addr 0x5f1331c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x632d7e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_IsDataValid, addr 0x5f1330c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x632d7d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_RootScale, addr 0x5f132fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootScale, addr 0x632d7c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_RootScale();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x5f1332c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x632d7f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDataHighConfidence, addr 0x5f13324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x632d7f0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDataValid, addr 0x5f13314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x632d7e0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RootScale, addr 0x5f13304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootScale, addr 0x632d7d0, size 0x8, virtual false, abstract: false, final false
   inline void set_RootScale(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x5f13334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x632d800, size 0x8, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters []
@@ -173,7 +173,7 @@ public:
                                                      bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8108 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -247,7 +247,7 @@ public:
   static ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior const ToggleRenderer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8109 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -302,7 +302,7 @@ public:
   static ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior const SwapMaterial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8110 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -346,7 +346,7 @@ public:
   static inline ::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                    float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end);
 
-  /// @brief Method Update, addr 0x5f12ccc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x632d18c, size 0x1a0, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior systemGestureBehavior);
 
@@ -386,7 +386,7 @@ public:
 
   constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x5f12750, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632cc10, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::UnityEngine::Transform* begin,
                     ::UnityEngine::Transform* end);
 
@@ -405,7 +405,7 @@ public:
   OVRSkeletonRenderer_BoneVisualization(OVRSkeletonRenderer_BoneVisualization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8111 };
 
   /// @brief Field BoneGO, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___BoneGO;
@@ -471,7 +471,7 @@ public:
   static inline ::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                       float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
-  /// @brief Method Update, addr 0x5f12e6c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x632d32c, size 0x2ec, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior systemGestureBehavior);
 
@@ -511,7 +511,7 @@ public:
 
   constexpr void __cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5f12924, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632cde4, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
 protected:
@@ -529,7 +529,7 @@ public:
   OVRSkeletonRenderer_CapsuleVisualization(OVRSkeletonRenderer_CapsuleVisualization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8112 };
 
   /// @brief Field CapsuleGO, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___CapsuleGO;
@@ -660,24 +660,24 @@ public:
   /// @brief Field _systemGestureMaterial, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial)) ::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
-  /// @brief Method Awake, addr 0x5f11e28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x632c2e8, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x5f11fcc, size 0x784, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x632c48c, size 0x784, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRSkeletonRenderer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5f13158, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x632d618, size 0x130, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShouldInitialize, addr 0x5f11f9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x632c45c, size 0x30, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Start, addr 0x5f11eec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x632c3ac, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5f12aec, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x632cfac, size 0x1e0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
@@ -794,43 +794,43 @@ public:
 
   constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x5f13288, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632d748, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Quaternion getStaticF__capsuleRotationOffset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsDataHighConfidence, addr 0x5f11e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x632c2c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsDataValid, addr 0x5f11df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x632c2b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsInitialized, addr 0x5f11de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x632c2a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x5f11e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x632c2d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
   static inline void setStaticF__capsuleRotationOffset(::UnityEngine::Quaternion value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDataHighConfidence, addr 0x5f11e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x632c2d0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDataValid, addr 0x5f11e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x632c2c0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsInitialized, addr 0x5f11df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x632c2b0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x5f11e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x632c2e0, size 0x8, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
 protected:
@@ -851,7 +851,7 @@ public:
   static constexpr float_t LINE_RENDERER_WIDTH{ static_cast<float_t>(0.005f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8113 };
 
   /// [SerializeField]
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None

@@ -23,7 +23,7 @@ public:
   static inline ::UnityEngine::SliderState* New_ctor();
 
   /// [RequiredByNativeCode]
-  /// @brief Method .ctor, addr 0x6b51bd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6faf744, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   SliderState(SliderState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

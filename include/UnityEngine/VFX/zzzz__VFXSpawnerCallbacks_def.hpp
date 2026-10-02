@@ -40,7 +40,7 @@ public:
   /// @brief Method OnUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnUpdate(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method .ctor, addr 0x6e2d3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c8d5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   VFXSpawnerCallbacks(VFXSpawnerCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

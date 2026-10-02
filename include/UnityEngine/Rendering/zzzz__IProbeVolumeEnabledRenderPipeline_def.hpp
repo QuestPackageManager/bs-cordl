@@ -26,7 +26,7 @@ public:
   // Declarations
   __declspec(property(get = get_maxSHBands)) ::UnityEngine::Rendering::ProbeVolumeSHBands maxSHBands;
 
-  /// @brief [Obsolete("This field is no longer necessary")]
+  /// @brief [Obsolete("This field is no longer necessary. #from(2023.3)")]
   __declspec(property(get = get_probeVolumeSceneData)) ::UnityEngine::Rendering::ProbeVolumeSceneData* probeVolumeSceneData;
 
   __declspec(property(get = get_supportProbeVolume)) bool supportProbeVolume;
@@ -45,7 +45,7 @@ public:
   IProbeVolumeEnabledRenderPipeline(IProbeVolumeEnabledRenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

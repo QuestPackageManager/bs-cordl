@@ -25,18 +25,20 @@ constexpr ::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sqrDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer", modifiers: "", def_value:
 // Some("{}"), comment: None }, CppParam { name: "transitionDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "worldSpaceSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percentageFlags", ty:
-// "::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
+// "::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "forceLODMask", ty: "uint8_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::LODGroupCullingData::LODGroupCullingData(::Unity::Mathematics::float3 worldSpaceReferencePoint, int32_t lodCount,
                                                                              ::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer sqrDistances,
                                                                              ::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer transitionDistances,
-                                                                             float_t worldSpaceSize,
-                                                                             ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags) noexcept {
+                                                                             float_t worldSpaceSize, ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags,
+                                                                             uint8_t forceLODMask) noexcept {
   this->worldSpaceReferencePoint = worldSpaceReferencePoint;
   this->lodCount = lodCount;
   this->sqrDistances = sqrDistances;
   this->transitionDistances = transitionDistances;
   this->worldSpaceSize = worldSpaceSize;
   this->percentageFlags = percentageFlags;
+  this->forceLODMask = forceLODMask;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::LODGroupCullingData::LODGroupCullingData() {}

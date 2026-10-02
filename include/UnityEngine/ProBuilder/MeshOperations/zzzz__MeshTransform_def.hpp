@@ -32,19 +32,19 @@ class CORDL_TYPE MeshTransform : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CenterPivot, addr 0x6730dec, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method CenterPivot, addr 0x6b45c10, size 0x300, virtual false, abstract: false, final false
   static inline void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes);
 
   /// [Extension]
-  /// @brief Method FreezeScaleTransform, addr 0x6735804, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FreezeScaleTransform, addr 0x6b4a634, size 0x164, virtual false, abstract: false, final false
   static inline void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   /// [Extension]
-  /// @brief Method SetPivot, addr 0x67355c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x6b4a3f8, size 0xa0, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation);
 
   /// [Extension]
-  /// @brief Method SetPivot, addr 0x6735668, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x6b4a498, size 0x19c, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition);
 
 protected:
@@ -62,7 +62,7 @@ public:
   MeshTransform(MeshTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

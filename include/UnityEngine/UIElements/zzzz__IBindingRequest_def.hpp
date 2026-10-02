@@ -24,12 +24,15 @@ public:
   /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Bind(::UnityEngine::UIElements::VisualElement* element);
 
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Release();
+
   // Ctor Parameters [CppParam { name: "", ty: "IBindingRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBindingRequest(IBindingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4062 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

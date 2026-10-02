@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic::*)()>(
     &::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e25048;
+  constexpr static std::size_t addrs = 0x72c0274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* (*)()>(
     &::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic::CreateMetalPatchShaderComputeBufferAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e250c0;
+  constexpr static std::size_t addrs = 0x72c02ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

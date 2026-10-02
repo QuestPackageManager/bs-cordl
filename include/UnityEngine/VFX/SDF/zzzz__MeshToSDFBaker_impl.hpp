@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker_Kernels::*)(::UnityEngine::ComputeShader*)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker_Kernels::_ctor)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x69da240;
+  constexpr static std::size_t addrs = 0x6e175d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::get_SdfTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d82bc;
+  constexpr static std::size_t addrs = 0x6e153e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "get_SdfTexture", {}, {} })));
@@ -619,7 +619,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityW<::UnityEngine::Mesh> (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*)>(
         &::UnityEngine::VFX::SDF::MeshToSDFBaker::InitMeshFromList)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x69d82c4;
+  constexpr static std::size_t addrs = 0x6e153f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::InitCommandBuffer)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69d85e8;
+  constexpr static std::size_t addrs = 0x6e15714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "InitCommandBuffer", {}, {} })));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::GetTotalVoxelCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69d8694;
+  constexpr static std::size_t addrs = 0x6e157c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "GetTotalVoxelCount", {}, {} })));
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::InitSizeBox)> {
   constexpr static std::size_t size = 0x818;
-  constexpr static std::size_t addrs = 0x69d86d8;
+  constexpr static std::size_t addrs = 0x6e15804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "InitSizeBox", {}, {} })));
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::GetGridSize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69d8ef0;
+  constexpr static std::size_t addrs = 0x6e1601c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "GetGridSize", {}, {} })));
@@ -684,7 +684,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::GetActualBoxSize)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69d8f30;
+  constexpr static std::size_t addrs = 0x6e1605c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "GetActualBoxSize", {}, {} })));
@@ -694,11 +694,31 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
 //  Writing Method size for method: ::UnityEngine::VFX::SDF::MeshToSDFBaker._ctor
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::UnityEngine::Mesh*, bool, int32_t,
+                                                                                                         float_t, float_t, ::UnityEngine::Rendering::CommandBuffer*)>(
+    &::UnityEngine::VFX::SDF::MeshToSDFBaker::_ctor)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6e1606c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(),
+                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::SDF::MeshToSDFBaker._ctor
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::UnityEngine::Mesh*, int32_t,
                                                                                                          float_t, float_t, ::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::_ctor)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x69d8f40;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6e168a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -717,8 +737,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*,
     int32_t, float_t, float_t, ::UnityEngine::Rendering::CommandBuffer*)>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69d9768;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6e168b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -737,7 +757,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::Finalize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x69d9868;
+  constexpr static std::size_t addrs = 0x6e16a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -748,10 +768,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 //  Writing Method size for method: ::UnityEngine::VFX::SDF::MeshToSDFBaker.Reinit
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::UnityEngine::Mesh*, bool, int32_t,
+                                                                                                         float_t, float_t)>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::Reinit)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6e16ac0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(),
+                                         { "Reinit",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Mesh*>(),
+                                             ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::SDF::MeshToSDFBaker.Reinit
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::UnityEngine::Mesh*, int32_t,
                                                                                                          float_t, float_t)>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::Reinit)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69d991c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6e16c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -769,8 +808,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*,
     int32_t, float_t, float_t)>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::Reinit)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x69d993c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6e16c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -790,7 +829,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, int32_t, float_t, float_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::SetParameters)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69d91d8;
+  constexpr static std::size_t addrs = 0x6e16314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::LoadRuntimeResources)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69d90a4;
+  constexpr static std::size_t addrs = 0x6e161e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "LoadRuntimeResources", {}, {} })));
@@ -819,7 +858,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::InitTextures)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x69d9a34;
+  constexpr static std::size_t addrs = 0x6e16dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "InitTextures", {}, {} })));
@@ -831,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::Init)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x69d925c;
+  constexpr static std::size_t addrs = 0x6e16398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "Init", {}, {} })));
@@ -842,8 +881,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::UpdateCameras)> {
-  constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x69da634;
+  constexpr static std::size_t size = 0x3b8;
+  constexpr static std::size_t addrs = 0x6e179c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "UpdateCameras", {}, {} })));
@@ -856,8 +895,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, float_t, float_t, float_t, float_t, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::ComputeOrthographicWorldToClip)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x69da9dc;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x6e17d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -875,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t, int32_t)>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::iDivUp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69dabb8;
+  constexpr static std::size_t addrs = 0x6e17fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -889,7 +928,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t, int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetThreadGroupsCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69dabcc;
+  constexpr static std::size_t addrs = 0x6e17ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -903,7 +942,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::PrefixSumCount)> {
   constexpr static std::size_t size = 0x920;
-  constexpr static std::size_t addrs = 0x69dac4c;
+  constexpr static std::size_t addrs = 0x6e18074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "PrefixSumCount", {}, {} })));
@@ -914,8 +953,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::SurfaceClosing)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x69db56c;
+  constexpr static std::size_t size = 0x2a4;
+  constexpr static std::size_t addrs = 0x6e18994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "SurfaceClosing", {}, {} })));
@@ -928,7 +967,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetTextureVoxelPrincipal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69db81c;
+  constexpr static std::size_t addrs = 0x6e18c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -942,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetTextureVoxelBis)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69db834;
+  constexpr static std::size_t addrs = 0x6e18c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -954,8 +993,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::JFA)> {
-  constexpr static std::size_t size = 0xcdc;
-  constexpr static std::size_t addrs = 0x69db84c;
+  constexpr static std::size_t size = 0xd24;
+  constexpr static std::size_t addrs = 0x6e18ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "JFA", {}, {} })));
@@ -966,8 +1005,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::GenerateRayMap)> {
-  constexpr static std::size_t size = 0xb84;
-  constexpr static std::size_t addrs = 0x69dc528;
+  constexpr static std::size_t size = 0xbd0;
+  constexpr static std::size_t addrs = 0x6e199c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "GenerateRayMap", {}, {} })));
@@ -980,7 +1019,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetRayMapPrincipal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69dd0ac;
+  constexpr static std::size_t addrs = 0x6e1a598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -994,7 +1033,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetRayMapBis)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69dd0e8;
+  constexpr static std::size_t addrs = 0x6e1a5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1008,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetSignMapPrincipal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69db7e0;
+  constexpr static std::size_t addrs = 0x6e18c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1022,7 +1061,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::GetSignMapBis)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69dd128;
+  constexpr static std::size_t addrs = 0x6e1a614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1034,8 +1073,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::SignPass)> {
-  constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x69dd168;
+  constexpr static std::size_t size = 0x80c;
+  constexpr static std::size_t addrs = 0x6e1a654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "SignPass", {}, {} })));
@@ -1047,7 +1086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::BakeSDF)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x69dd928;
+  constexpr static std::size_t addrs = 0x6e1ae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "BakeSDF", {}, {} })));
@@ -1059,7 +1098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::InitMeshBuffers)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x69ddbe4;
+  constexpr static std::size_t addrs = 0x6e1b11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "InitMeshBuffers", {}, {} })));
@@ -1070,8 +1109,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::FirstDraw)> {
-  constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x69deae8;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x6e1c050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "FirstDraw", {}, {} })));
@@ -1082,8 +1121,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::SecondDraw)> {
-  constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x69defec;
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x6e1c57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "SecondDraw", {}, {} })));
@@ -1095,7 +1134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::BuildGeometry)> {
   constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x69de3f0;
+  constexpr static std::size_t addrs = 0x6e1b958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "BuildGeometry", {}, {} })));
@@ -1107,7 +1146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(int32_t)>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::InitGeometryBuffers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69de374;
+  constexpr static std::size_t addrs = 0x6e1b8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1120,7 +1159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::InitPrefixSumBuffers)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x69d9fd4;
+  constexpr static std::size_t addrs = 0x6e17364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "InitPrefixSumBuffers", {}, {} })));
@@ -1131,8 +1170,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::ClearRenderTexturesAndBuffers)> {
-  constexpr static std::size_t size = 0x60c;
-  constexpr static std::size_t addrs = 0x69ddd68;
+  constexpr static std::size_t size = 0x63c;
+  constexpr static std::size_t addrs = 0x6e1b2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "ClearRenderTexturesAndBuffers", {}, {} })));
@@ -1143,12 +1182,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::PerformDistanceTransformWinding)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x69df338;
+  constexpr static std::size_t size = 0x4e0;
+  constexpr static std::size_t addrs = 0x6e1c8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "PerformDistanceTransformWinding", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::SDF::MeshToSDFBaker.ReleaseMeshIfOwned
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseMeshIfOwned)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6e16b70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "ReleaseMeshIfOwned", {}, {} })));
     return ___internal_method;
   }
 };
@@ -1157,7 +1208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseBuffersAndTextures)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x69df7ec;
+  constexpr static std::size_t addrs = 0x6e1cdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "ReleaseBuffersAndTextures", {}, {} })));
@@ -1168,8 +1219,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)()>(&::UnityEngine::VFX::SDF::MeshToSDFBaker::Dispose)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69dfbc8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6e1d1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "Dispose", {}, {} })));
@@ -1182,7 +1233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::by_ref<::UnityEngine::GraphicsBuffer*>, int32_t, int32_t)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::CreateGraphicsBufferIfNeeded)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69d9f08;
+  constexpr static std::size_t addrs = 0x6e17298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1198,7 +1249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::by_ref<::UnityEngine::GraphicsBuffer*>)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseGraphicsBuffer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69dfba8;
+  constexpr static std::size_t addrs = 0x6e1d18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(),
@@ -1212,7 +1263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::by_ref<::UnityEngine::RenderTexture*>, ::UnityEngine::RenderTextureDescriptor)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::CreateRenderTextureIfNeeded)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x69d9d8c;
+  constexpr static std::size_t addrs = 0x6e1711c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1228,7 +1279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SDF::MeshToSDFBaker::*)(::by_ref<::UnityEngine::RenderTexture*>)>(
     &::UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseRenderTexture)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x69dfa9c;
+  constexpr static std::size_t addrs = 0x6e1d080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1573,6 +1624,18 @@ constexpr void UnityEngine::VFX::SDF::MeshToSDFBaker::__cordl_internal_set_m_Mes
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Mesh = value;
 }
+constexpr bool& UnityEngine::VFX::SDF::MeshToSDFBaker::__cordl_internal_get_m_OwnsMesh() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OwnsMesh;
+}
+constexpr bool const& UnityEngine::VFX::SDF::MeshToSDFBaker::__cordl_internal_get_m_OwnsMesh() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OwnsMesh;
+}
+constexpr void UnityEngine::VFX::SDF::MeshToSDFBaker::__cordl_internal_set_m_OwnsMesh(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OwnsMesh = value;
+}
 constexpr ::UnityW<::UnityEngine::RenderTexture>& UnityEngine::VFX::SDF::MeshToSDFBaker::__cordl_internal_get_m_textureVoxel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_textureVoxel;
@@ -1865,6 +1928,17 @@ inline ::UnityEngine::Vector3 UnityEngine::VFX::SDF::MeshToSDFBaker::GetActualBo
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "GetActualBoxSize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
+inline void UnityEngine::VFX::SDF::MeshToSDFBaker::_ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, bool ownsMesh,
+                                                         int32_t signPassesCount, float_t threshold, float_t sdfOffset, ::UnityEngine::Rendering::CommandBuffer* cmd) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(),
+                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sizeBox, center, maxRes, mesh, ownsMesh, signPassesCount, threshold, sdfOffset, cmd);
+}
 inline void UnityEngine::VFX::SDF::MeshToSDFBaker::_ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, int32_t signPassesCount,
                                                          float_t threshold, float_t sdfOffset, ::UnityEngine::Rendering::CommandBuffer* cmd) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1892,6 +1966,16 @@ inline void UnityEngine::VFX::SDF::MeshToSDFBaker::_ctor(::UnityEngine::Vector3 
 inline void UnityEngine::VFX::SDF::MeshToSDFBaker::Finalize() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::VFX::SDF::MeshToSDFBaker::Reinit(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, bool ownsMesh,
+                                                          int32_t signPassesCount, float_t threshold, float_t sdfOffset) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(),
+                                              { "Reinit",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Mesh*>(),
+                                                  ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sizeBox, center, maxRes, mesh, ownsMesh, signPassesCount, threshold, sdfOffset);
 }
 inline void UnityEngine::VFX::SDF::MeshToSDFBaker::Reinit(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes, ::UnityEngine::Mesh* mesh, int32_t signPassesCount,
                                                           float_t threshold, float_t sdfOffset) {
@@ -2051,6 +2135,10 @@ inline void UnityEngine::VFX::SDF::MeshToSDFBaker::PerformDistanceTransformWindi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "PerformDistanceTransformWinding", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline void UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseMeshIfOwned() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "ReleaseMeshIfOwned", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline void UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseBuffersAndTextures() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "ReleaseBuffersAndTextures", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -2084,6 +2172,11 @@ inline void UnityEngine::VFX::SDF::MeshToSDFBaker::ReleaseRenderTexture(::by_ref
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(), { "ReleaseRenderTexture", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RenderTexture*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rt);
+}
+inline ::UnityEngine::VFX::SDF::MeshToSDFBaker* UnityEngine::VFX::SDF::MeshToSDFBaker::New_ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes,
+                                                                                                ::UnityEngine::Mesh* mesh, bool ownsMesh, int32_t signPassesCount, float_t threshold, float_t sdfOffset,
+                                                                                                ::UnityEngine::Rendering::CommandBuffer* cmd) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::VFX::SDF::MeshToSDFBaker*>(sizeBox, center, maxRes, mesh, ownsMesh, signPassesCount, threshold, sdfOffset, cmd));
 }
 inline ::UnityEngine::VFX::SDF::MeshToSDFBaker* UnityEngine::VFX::SDF::MeshToSDFBaker::New_ctor(::UnityEngine::Vector3 sizeBox, ::UnityEngine::Vector3 center, int32_t maxRes,
                                                                                                 ::UnityEngine::Mesh* mesh, int32_t signPassesCount, float_t threshold, float_t sdfOffset,

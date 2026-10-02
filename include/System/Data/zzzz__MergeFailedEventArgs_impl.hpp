@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::MergeFailedEventArgs::*)(::System::Data::DataTable*, ::StringW)>(&::System::Data::MergeFailedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x604802c;
+  constexpr static std::size_t addrs = 0x6464378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::MergeFailedEventArgs::*)()>(&::System::Data::MergeFailedEventArgs::get_Conflict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6048094;
+  constexpr static std::size_t addrs = 0x64643e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::MergeFailedEventArgs*>(), { "get_Conflict", {}, {} })));

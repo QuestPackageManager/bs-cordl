@@ -24,7 +24,7 @@ class IVolumeDebugSettings2;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::IVolumeDebugSettings2*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IVolumeDebugSettings2*, "UnityEngine.Rendering", "IVolumeDebugSettings2");
-// [Obsolete("This variant is obsolete and kept only for not breaking user code. Use IVolumeDebugSettings instead. #from(23.2) (UnityUpgradable) -> IVolumeDebugSettings", false)]
+// [Obsolete("This is not longer supported Please use DebugDisplaySettingsVolume. #from(6000.2)")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -33,11 +33,11 @@ class CORDL_TYPE IVolumeDebugSettings2 {
 public:
   // Declarations
   /// @brief [Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths.
-  /// #from(23.2)", false)]
+  /// #from(2023.2)")]
   __declspec(property(get = get_targetRenderPipeline)) ::System::Type* targetRenderPipeline;
 
   /// @brief [Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths.
-  /// #from(23.2)", false)]
+  /// #from(2023.2)")]
   __declspec(property(get = get_volumeComponentsPathAndType)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>* volumeComponentsPathAndType;
 
   /// @brief Convert operator to "::UnityEngine::Rendering::IVolumeDebugSettings"
@@ -57,7 +57,7 @@ public:
   IVolumeDebugSettings2(IVolumeDebugSettings2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

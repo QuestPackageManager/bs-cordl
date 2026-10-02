@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight,
                                                   ::by_ref<bool>, bool)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6bfeae8;
+  constexpr static std::size_t addrs = 0x70518f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight,
                                                   ::by_ref<bool>, bool)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset_Internal)> {
-  constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x6bfec00;
+  constexpr static std::size_t size = 0x62c;
+  constexpr static std::size_t addrs = 0x7051a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                   ::UnityEngine::TextCore::Text::TextFontWeight, ::by_ref<bool>, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssetsInternal)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6bff178;
+  constexpr static std::size_t addrs = 0x7052044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                               ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ::by_ref<bool>, bool)>(
         &::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssetsInternal)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6bff2e0;
+  constexpr static std::size_t addrs = 0x70521ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                     bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ::by_ref<bool>, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetTextElementFromTextAssets)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6bff4c4;
+  constexpr static std::size_t addrs = 0x7052390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::SpriteCharacter* (*)(uint32_t, ::UnityEngine::TextCore::Text::SpriteAsset*, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6bff984;
+  constexpr static std::size_t addrs = 0x7052850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::SpriteCharacter* (*)(uint32_t, ::UnityEngine::TextCore::Text::SpriteAsset*, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset_Internal)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6bff7a4;
+  constexpr static std::size_t addrs = 0x7052670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,6 +149,32 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::
                      (::i2c::find_method(
                          ::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetUtilities*>(),
                          { "GetSpriteCharacterFromSpriteAsset_Internal", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::SpriteAsset*>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetCodePoint
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::StringW, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCodePoint)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x7052b68;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetUtilities*>(),
+                                                                                           { "GetCodePoint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetCodePoint
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCodePoint)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x7052c68;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetUtilities*>(),
+                                                                                           { "GetCodePoint", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -248,6 +274,16 @@ UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAss
                        ::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetUtilities*>(),
                        { "GetSpriteCharacterFromSpriteAsset_Internal", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::SpriteAsset*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::SpriteCharacter*>(nullptr, ___internal_method, unicode, spriteAsset, includeFallbacks);
+}
+inline uint32_t UnityEngine::TextCore::Text::FontAssetUtilities::GetCodePoint(::StringW text, ::by_ref<int32_t> index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetUtilities*>(),
+                                                                                         { "GetCodePoint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, text, index);
+}
+inline uint32_t UnityEngine::TextCore::Text::FontAssetUtilities::GetCodePoint(::ArrayW<uint32_t> codesPoints, ::by_ref<int32_t> index) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetUtilities*>(),
+                                                                                         { "GetCodePoint", {}, { ::i2c::type_of<::ArrayW<uint32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, codesPoints, index);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontAssetUtilities::FontAssetUtilities() {}

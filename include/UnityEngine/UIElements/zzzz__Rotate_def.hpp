@@ -68,57 +68,61 @@ public:
 
   __declspec(property(get = get_angle, put = set_angle)) ::UnityEngine::UIElements::Angle angle;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_axis, put = set_axis)) ::UnityEngine::Vector3 axis;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>*();
 
-  /// @brief Method Equals, addr 0x6c91aa8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71074b8, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c91a28, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7107474, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Rotate other);
 
-  /// @brief Method GetHashCode, addr 0x6c8f700, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x710755c, size 0x108, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x6c918c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x7107210, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate Initial();
 
-  /// @brief Method None, addr 0x6c9192c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x71072d0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate None();
 
-  /// @brief Method ToQuaternion, addr 0x6c91c04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToQuaternion, addr 0x7107704, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ToQuaternion();
 
-  /// @brief Method ToString, addr 0x6c91b8c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7107664, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c91810, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71070cc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Angle angle);
 
-  /// @brief Method .ctor, addr 0x6c91874, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71070b8, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::Angle angle, ::UnityEngine::Vector3 axis);
+
+  /// @brief Method .ctor, addr 0x7107130, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method get_angle, addr 0x6c91984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x7107328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle get_angle();
 
-  /// @brief Method get_axis, addr 0x6c91994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x7107338, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_axis();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* i___System__IEquatable_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method op_Equality, addr 0x6c8f408, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7107350, size 0xdc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method op_Inequality, addr 0x6c919ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x710742c, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method set_angle, addr 0x6c9198c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angle, addr 0x7107330, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::UIElements::Angle value);
 
-  /// @brief Method set_axis, addr 0x6c919a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_axis, addr 0x7107344, size 0xc, virtual false, abstract: false, final false
   inline void set_axis(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -130,17 +134,20 @@ public:
   constexpr Rotate(::UnityEngine::UIElements::Angle m_Angle, ::UnityEngine::Vector3 m_Axis, bool m_IsNone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field m_Angle, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Angle m_Angle;
 
+  /// [SerializeField]
   /// @brief Field m_Axis, offset: 0x8, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Axis;
 
+  /// [SerializeField]
   /// @brief Field m_IsNone, offset: 0x14, size: 0x1, def value: None
   bool m_IsNone;
 
@@ -173,12 +180,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c91e14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7107978, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle GetValue(::by_ref<::UnityEngine::UIElements::Rotate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c91e1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7107980, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Rotate> container, ::UnityEngine::UIElements::Angle value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -193,15 +200,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c91d3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71078a0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c91e0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7107970, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c91e04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7107968, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -219,7 +226,7 @@ public:
   PropertyBag_Rotate_AngleProperty(PropertyBag_Rotate_AngleProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5024 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -258,12 +265,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c91e34, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7107998, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 GetValue(::by_ref<::UnityEngine::UIElements::Rotate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c91e40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71079a4, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Rotate> container, ::UnityEngine::Vector3 value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -278,15 +285,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c91da0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7107904, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x6c91e2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7107990, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6c91e24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7107988, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -304,10 +311,10 @@ public:
   PropertyBag_Rotate_AxisProperty(PropertyBag_Rotate_AxisProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5025 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
@@ -339,7 +346,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Rotate_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c91c28, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7107788, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -357,7 +364,7 @@ public:
   Rotate_PropertyBag(Rotate_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

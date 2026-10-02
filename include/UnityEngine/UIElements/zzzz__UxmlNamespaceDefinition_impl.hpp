@@ -3,13 +3,25 @@
 #include "UnityEngine/UIElements/zzzz__UxmlNamespaceDefinition_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UxmlNamespaceDefinition.get_Empty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UxmlNamespaceDefinition (*)()>(&::UnityEngine::UIElements::UxmlNamespaceDefinition::get_Empty)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x7146a90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlNamespaceDefinition>(), { "get_Empty", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlNamespaceDefinition.op_Equality
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::UxmlNamespaceDefinition, ::UnityEngine::UIElements::UxmlNamespaceDefinition)>(
     &::UnityEngine::UIElements::UxmlNamespaceDefinition::op_Equality)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6cc0218;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x7146aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlNamespaceDefinition::*)(::UnityEngine::UIElements::UxmlNamespaceDefinition)>(
     &::UnityEngine::UIElements::UxmlNamespaceDefinition::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cc026c;
+  constexpr static std::size_t addrs = 0x7146b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlNamespaceDefinition>(),
@@ -38,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlNamespaceDefinition::*)(::System::Object*)>(&::UnityEngine::UIElements::UxmlNamespaceDefinition::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6cc02e4;
+  constexpr static std::size_t addrs = 0x7146bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UxmlNamespaceDefinition::*)()>(&::UnityEngine::UIElements::UxmlNamespaceDefinition::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6cc0378;
+  constexpr static std::size_t addrs = 0x7146c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,6 +77,10 @@ inline void UnityEngine::UIElements::UxmlNamespaceDefinition::setStaticF__Empty_
 }
 inline ::UnityEngine::UIElements::UxmlNamespaceDefinition UnityEngine::UIElements::UxmlNamespaceDefinition::getStaticF__Empty_k__BackingField() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UxmlNamespaceDefinition, "<Empty>k__BackingField", ::UnityEngine::UIElements::UxmlNamespaceDefinition>();
+}
+inline ::UnityEngine::UIElements::UxmlNamespaceDefinition UnityEngine::UIElements::UxmlNamespaceDefinition::get_Empty() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlNamespaceDefinition>(), { "get_Empty", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UxmlNamespaceDefinition>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::UIElements::UxmlNamespaceDefinition::op_Equality(::UnityEngine::UIElements::UxmlNamespaceDefinition lhs, ::UnityEngine::UIElements::UxmlNamespaceDefinition rhs) {
   static auto* ___internal_method = THROW_UNLESS(

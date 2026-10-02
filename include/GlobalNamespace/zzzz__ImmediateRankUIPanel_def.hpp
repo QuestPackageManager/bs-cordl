@@ -51,15 +51,15 @@ public:
   /// @brief Field _stringBuilder, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange, addr 0x59ac51c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange, addr 0x5dc6034, size 0x4, virtual false, abstract: false, final false
   inline void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
 
   static inline ::GlobalNamespace::ImmediateRankUIPanel* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x59ac2ec, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x5dc5e04, size 0x184, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method Start, addr 0x59ac224, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dc5d3c, size 0xc8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::RankModel_Rank const& __cordl_internal_get__prevImmediateRank() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x59ac520, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc6038, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ImmediateRankUIPanel(ImmediateRankUIPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6119 };
 
   /// [SerializeField]
   /// @brief Field _rankText, offset: 0x20, size: 0x8, def value: None

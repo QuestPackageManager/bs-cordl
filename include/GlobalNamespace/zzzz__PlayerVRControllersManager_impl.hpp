@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::PlayerVRControllersManager::*)()>(
     &::GlobalNamespace::PlayerVRControllersManager::get_leftHandVRController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59ed03c;
+  constexpr static std::size_t addrs = 0x5e085fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerVRControllersManager*>(), { "get_leftHandVRController", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::PlayerVRControllersManager::*)()>(
     &::GlobalNamespace::PlayerVRControllersManager::get_rightHandVRController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59ed044;
+  constexpr static std::size_t addrs = 0x5e08604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerVRControllersManager::*)()>(&::GlobalNamespace::PlayerVRControllersManager::SetupAutoplayForAllControllers)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59ed04c;
+  constexpr static std::size_t addrs = 0x5e0860c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerVRControllersManager::*)()>(&::GlobalNamespace::PlayerVRControllersManager::DisableAutoplayForAllControllers)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x59ed098;
+  constexpr static std::size_t addrs = 0x5e08658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerVRControllersManager::*)()>(&::GlobalNamespace::PlayerVRControllersManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ed0e0;
+  constexpr static std::size_t addrs = 0x5e086a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerVRControllersManager*>(), { ".ctor", {}, {} })));

@@ -111,34 +111,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d8d8a0, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x61a7484, size 0x38c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter__ExecuteFilter_d__2* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x5d8dd70, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x61a7954, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5d8dd28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x61a790c, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5d8de18, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x61a79fc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d8dd30, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x61a7914, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d8dd68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x61a794c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d8d7bc, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x61a73a0, size 0xe4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -207,14 +207,14 @@ public:
 
   constexpr void __cordl_internal_set_settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d8dc74, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x61a7858, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x5d8dc2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x61a7810, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d8d79c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a7380, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -247,7 +247,7 @@ public:
   ArrayMultipleIndexFilter__ExecuteFilter_d__2(ArrayMultipleIndexFilter__ExecuteFilter_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13864 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -333,7 +333,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Indexes, put = __cordl_internal_set_Indexes)) ::System::Collections::Generic::List_1<int32_t>* Indexes;
 
   /// [IteratorStateMachine(typeof(Newtonsoft.Json.Linq.JsonPath.ArrayMultipleIndexFilter::<ExecuteFilter>d__2))]
-  /// @brief Method ExecuteFilter, addr 0x5d8d71c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x61a7300, size 0x80, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
@@ -346,7 +346,7 @@ public:
 
   constexpr void __cordl_internal_set_Indexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x5d8d714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a72f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<int32_t>* indexes);
 
 protected:
@@ -364,7 +364,7 @@ public:
   ArrayMultipleIndexFilter(ArrayMultipleIndexFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13865 };
 
   /// @brief Field Indexes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___Indexes;

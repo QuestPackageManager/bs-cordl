@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SR)
 namespace System {
@@ -24,20 +23,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x5f57bcc, size 0x8c, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
-
-  /// @brief Method Format, addr 0x5f57c58, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x650dce8, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
-
-  /// @brief Method Format, addr 0x5f57cfc, size 0xac, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
-
-  /// @brief Method Format, addr 0x5f57da8, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
-
-  /// @brief Method GetString, addr 0x5f57bc8, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
 
 protected:
   // Ctor Parameters []
@@ -54,7 +41,7 @@ public:
   SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

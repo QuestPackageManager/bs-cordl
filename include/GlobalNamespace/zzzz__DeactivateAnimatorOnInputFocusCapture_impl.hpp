@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x58541d4;
+  constexpr static std::size_t addrs = 0x5c69f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x58542f4;
+  constexpr static std::size_t addrs = 0x5c6a078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5854430;
+  constexpr static std::size_t addrs = 0x5c6a1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5854494;
+  constexpr static std::size_t addrs = 0x5c6a218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { ".ctor", {}, {} })));

@@ -59,31 +59,31 @@ public:
 
   constexpr void __cordl_internal_set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e8a484, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x732601c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CreateKernel, addr 0x6e8a464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateKernel, addr 0x7325ffc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DefaultParentName, addr 0x6e8a454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParentName, addr 0x7325fec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_KernelType, addr 0x6e8a474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KernelType, addr 0x732600c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_CreateKernel, addr 0x6e8a46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CreateKernel, addr 0x7326004, size 0x8, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DefaultParentName, addr 0x6e8a45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParentName, addr 0x7325ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_KernelType, addr 0x6e8a47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KernelType, addr 0x7326014, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   SubContainerCreatorBindInfo(SubContainerCreatorBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14835 };
 
   /// [CompilerGenerated]
   /// @brief Field <DefaultParentName>k__BackingField, offset: 0x10, size: 0x8, def value: None

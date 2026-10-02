@@ -78,7 +78,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Foldout_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d42548, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b5678, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   Foldout_UxmlFactory(Foldout_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,7 +118,7 @@ public:
   /// @brief Field m_Value, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x6d425b0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71b56e0, size 0x13c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Foldout_UxmlTraits* New_ctor();
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d42704, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b581c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   Foldout_UxmlTraits(Foldout_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4198 };
 
   /// @brief Field m_Text, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
@@ -195,17 +195,17 @@ public:
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
-  /// @brief Field m_Container, offset 0x4c0, size 0x8
+  /// @brief Field m_Container, offset 0x2e0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container)) ::UnityEngine::UIElements::VisualElement* m_Container;
 
-  /// @brief Field m_NavigationManipulator, offset 0x4d0, size 0x8
+  /// @brief Field m_NavigationManipulator, offset 0x2f0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NavigationManipulator,
                       put = __cordl_internal_set_m_NavigationManipulator)) ::UnityEngine::UIElements::KeyboardNavigationManipulator* m_NavigationManipulator;
 
-  /// @brief Field m_Toggle, offset 0x4b8, size 0x8
+  /// @brief Field m_Toggle, offset 0x2d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Toggle, put = __cordl_internal_set_m_Toggle)) ::UnityEngine::UIElements::Toggle* m_Toggle;
 
-  /// @brief Field m_Value, offset 0x4c8, size 0x1
+  /// @brief Field m_Value, offset 0x2e8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) bool m_Value;
 
   /// @brief [CreateProperty]
@@ -249,21 +249,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<bool>*() noexcept;
 
-  /// @brief Method Apply, addr 0x6d41a6c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x71b4b84, size 0xc4, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method Apply, addr 0x6d41a08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x71b4b20, size 0x64, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
   static inline ::UnityEngine::UIElements::Foldout* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x6d41f54, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x71b5084, size 0x1e0, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x6d419d4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x71b4aec, size 0x34, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6d41890, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x71b49ac, size 0x140, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(bool newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -291,10 +291,10 @@ public:
   constexpr void __cordl_internal_set_m_Value(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <.ctor>b__39_0, addr 0x6d424f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__39_0, addr 0x71b5624, size 0x54, virtual false, abstract: false, final false
   inline void __ctor_b__39_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method .ctor, addr 0x6d41b30, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b4c48, size 0x43c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -321,23 +321,23 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
 
-  /// @brief Method get_contentContainer, addr 0x6d41384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x71b44a0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_focusable, addr 0x6d4138c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_focusable, addr 0x71b44a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_focusable();
 
-  /// @brief Method get_text, addr 0x6d41498, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x71b45b4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_toggle, addr 0x6d4137c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x71b4498, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Toggle* get_toggle();
 
-  /// @brief Method get_toggleOnLabelClick, addr 0x6d413d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_toggleOnLabelClick, addr 0x71b44f0, size 0x18, virtual false, abstract: false, final false
   inline bool get_toggleOnLabelClick();
 
-  /// @brief Method get_value, addr 0x6d4168c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x71b47a8, size 0x8, virtual true, abstract: false, final true
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
@@ -367,16 +367,16 @@ public:
 
   static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_focusable, addr 0x6d41394, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_focusable, addr 0x71b44b0, size 0x40, virtual true, abstract: false, final false
   inline void set_focusable(bool value);
 
-  /// @brief Method set_text, addr 0x6d414c4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x71b45e0, size 0x1c8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_toggleOnLabelClick, addr 0x6d413ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_toggleOnLabelClick, addr 0x71b4508, size 0xac, virtual false, abstract: false, final false
   inline void set_toggleOnLabelClick(bool value);
 
-  /// @brief Method set_value, addr 0x6d41694, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x71b47b0, size 0x1fc, virtual true, abstract: false, final true
   inline void set_value(bool value);
 
 protected:
@@ -394,33 +394,33 @@ public:
   Foldout(Foldout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
 
-  /// @brief Field m_Toggle, offset: 0x4b8, size: 0x8, def value: None
+  /// @brief Field m_Toggle, offset: 0x2d8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Toggle* ___m_Toggle;
 
-  /// @brief Field m_Container, offset: 0x4c0, size: 0x8, def value: None
+  /// @brief Field m_Container, offset: 0x2e0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Container;
 
-  /// [DontCreateProperty]
   /// [SerializeField]
-  /// @brief Field m_Value, offset: 0x4c8, size: 0x1, def value: None
+  /// [DontCreateProperty]
+  /// @brief Field m_Value, offset: 0x2e8, size: 0x1, def value: None
   bool ___m_Value;
 
-  /// @brief Field m_NavigationManipulator, offset: 0x4d0, size: 0x8, def value: None
+  /// @brief Field m_NavigationManipulator, offset: 0x2f0, size: 0x8, def value: None
   ::UnityEngine::UIElements::KeyboardNavigationManipulator* ___m_NavigationManipulator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Toggle) == 0x4b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Toggle) == 0x2d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Container) == 0x4c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Container) == 0x2e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Value) == 0x4c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Value) == 0x2e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_NavigationManipulator) == 0x4d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_NavigationManipulator) == 0x2f0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Foldout) == 0x4d8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Foldout) == 0x2f8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

@@ -2,8 +2,10 @@
 // IWYU pragma private; include "UnityEngine/Plane.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Plane.get_normal
@@ -11,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Plane::*)()>(&::UnityEngine::Plane::get_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a80a84;
+  constexpr static std::size_t addrs = 0x6ed312c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "get_normal", {}, {} })));
@@ -23,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Plane::*)()>(&::UnityEngine::Plane::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a80a90;
+  constexpr static std::size_t addrs = 0x6ed3138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "get_distance", {}, {} })));
@@ -34,8 +36,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::P
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Plane::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Plane::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6a80a98;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6ed3140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +49,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Plan
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Plane::*)(::UnityEngine::Vector3, float_t)>(&::UnityEngine::Plane::_ctor)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6a80bb0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6ed3240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,8 +62,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Plan
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Plane::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Plane::_ctor)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6a80cac;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x6ed3318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Plane::*)(::UnityEngine::Vector3)>(&::UnityEngine::Plane::ClosestPointOnPlane)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a80e20;
+  constexpr static std::size_t addrs = 0x6ed344c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,11 +90,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Plane::*)(::UnityEngine::Vector3)>(&::UnityEngine::Plane::GetDistanceToPoint)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6a80e5c;
+  constexpr static std::size_t addrs = 0x6ed3488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "GetDistanceToPoint", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Plane.GetDistanceToPoint
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Plane::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Plane::GetDistanceToPoint)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6ed34ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "GetDistanceToPoint", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
@@ -101,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Plane::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Plane::SameSide)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a80e80;
+  constexpr static std::size_t addrs = 0x6ed34dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,11 +129,73 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Plane::*)(::UnityEngine::Ray, ::by_ref<float_t>)>(&::UnityEngine::Plane::Raycast)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6a80ee8;
+  constexpr static std::size_t addrs = 0x6ed3544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "Raycast", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Plane.op_Equality
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Plane, ::UnityEngine::Plane)>(&::UnityEngine::Plane::op_Equality)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x6ed3648;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::Plane>(), ::i2c::type_of<::UnityEngine::Plane>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Plane.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Plane::*)(::System::Object*)>(&::UnityEngine::Plane::Equals)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6ed3680;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { ::i2c::class_of<::UnityEngine::Plane>(), 0 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Plane.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Plane::*)(::UnityEngine::Plane)>(&::UnityEngine::Plane::Equals)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6ed372c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Plane>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Plane.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Plane::*)(::by_ref<::UnityEngine::Plane>)>(&::UnityEngine::Plane::Equals)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6ed376c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Plane>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Plane.GetHashCode
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Plane::*)()>(&::UnityEngine::Plane::GetHashCode)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6ed37ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { ::i2c::class_of<::UnityEngine::Plane>(), 2 }));
     return ___internal_method;
   }
 };
@@ -127,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Plane::*)()>(&::UnityEngine::Plane::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a80fec;
+  constexpr static std::size_t addrs = 0x6ed3810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { ::i2c::class_of<::UnityEngine::Plane>(), 3 }));
@@ -138,8 +215,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Plane::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Plane::ToString)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6a80ffc;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6ed3820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,6 +258,11 @@ inline float_t UnityEngine::Plane::GetDistanceToPoint(::UnityEngine::Vector3 poi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "GetDistanceToPoint", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, point);
 }
+inline float_t UnityEngine::Plane::GetDistanceToPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "GetDistanceToPoint", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, point);
+}
 inline bool UnityEngine::Plane::SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "SameSide", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -191,6 +273,28 @@ inline bool UnityEngine::Plane::Raycast(::UnityEngine::Ray ray, ::by_ref<float_t
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "Raycast", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::by_ref<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, ray, enter);
 }
+inline bool UnityEngine::Plane::op_Equality(::UnityEngine::Plane lhs, ::UnityEngine::Plane rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::Plane>(), ::i2c::type_of<::UnityEngine::Plane>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
+}
+inline bool UnityEngine::Plane::Equals(::System::Object* other) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Plane>(), 0 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Plane::Equals(::UnityEngine::Plane other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Plane>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Plane::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Plane>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline int32_t UnityEngine::Plane::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Plane>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
 inline ::StringW UnityEngine::Plane::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Plane>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
@@ -199,6 +303,14 @@ inline ::StringW UnityEngine::Plane::ToString(::StringW format, ::System::IForma
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Plane>(), { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, format, formatProvider);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Plane>"
+constexpr UnityEngine::Plane::operator ::System::IEquatable_1<::UnityEngine::Plane>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Plane>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Plane>"
+constexpr ::System::IEquatable_1<::UnityEngine::Plane>* UnityEngine::Plane::i___System__IEquatable_1___UnityEngine__Plane_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Plane>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert operator to "::System::IFormattable"
 constexpr UnityEngine::Plane::operator ::System::IFormattable*() {

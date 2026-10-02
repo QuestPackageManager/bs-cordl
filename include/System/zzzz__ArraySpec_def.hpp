@@ -39,15 +39,15 @@ public:
   /// @brief Convert operator to "::System::ModifierSpec"
   constexpr operator ::System::ModifierSpec*() noexcept;
 
-  /// @brief Method Append, addr 0x5c9e8fc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Append, addr 0x60b8444, size 0xac, virtual true, abstract: false, final true
   inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
 
   static inline ::System::ArraySpec* New_ctor(int32_t dimensions, bool bound);
 
-  /// @brief Method Resolve, addr 0x5c9e884, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Resolve, addr 0x60b83cc, size 0x78, virtual true, abstract: false, final true
   inline ::System::Type* Resolve(::System::Type* type);
 
-  /// @brief Method ToString, addr 0x5c9e9a8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60b84f0, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_bound() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_dimensions(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5c9e878, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b83c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dimensions, bool bound);
 
   /// @brief Convert to "::System::ModifierSpec"

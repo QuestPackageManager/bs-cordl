@@ -39,47 +39,47 @@ namespace Unity::IO::LowLevel::Unsafe {
 class CORDL_TYPE AsyncReadManager : public ::System::Object {
 public:
   // Declarations
-  /// [FreeFunction("AsyncReadManagerManaged::ScheduleCloseRequest", IsThreadSafe = true)]
   /// [ThreadAndSerializationSafe]
-  /// @brief Method CloseFileAsync, addr 0x6a5f008, size 0x5c, virtual false, abstract: false, final false
+  /// [FreeFunction("AsyncReadManagerManaged::ScheduleCloseRequest", IsThreadSafe = true)]
+  /// @brief Method CloseFileAsync, addr 0x6eb0bb4, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CloseFileAsync(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::Unity::Jobs::JobHandle dependency);
 
-  /// @brief Method CloseFileAsync_Injected, addr 0x6a5fbc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CloseFileAsync_Injected, addr 0x6eb1774, size 0x54, virtual false, abstract: false, final false
   static inline void CloseFileAsync_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::by_ref<::Unity::Jobs::JobHandle> dependency,
                                              ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method GetFileInfo, addr 0x6a5f844, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetFileInfo, addr 0x6eb13f0, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle GetFileInfo(::StringW filename, ::Unity::IO::LowLevel::Unsafe::FileInfoResult* result);
 
   /// [FreeFunction("AsyncReadManagerManaged::GetFileInfo", IsThreadSafe = true)]
   /// [ThreadAndSerializationSafe]
-  /// @brief Method GetFileInfoInternal, addr 0x6a5f6ac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetFileInfoInternal, addr 0x6eb1258, size 0x144, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle GetFileInfoInternal(::StringW filename, void* cmd);
 
-  /// @brief Method GetFileInfoInternal_Injected, addr 0x6a5f7f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetFileInfoInternal_Injected, addr 0x6eb139c, size 0x54, virtual false, abstract: false, final false
   static inline void GetFileInfoInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filename, void* cmd, ::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> ret);
 
-  /// @brief Method OpenFileAsync, addr 0x6a5fb64, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OpenFileAsync, addr 0x6eb1710, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::FileHandle OpenFileAsync(::StringW fileName);
 
   /// [ThreadAndSerializationSafe]
   /// [FreeFunction("AsyncReadManagerManaged::ScheduleOpenRequest", IsThreadSafe = true)]
-  /// @brief Method OpenFileAsync_Internal, addr 0x6a5f9ec, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OpenFileAsync_Internal, addr 0x6eb1598, size 0x134, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::FileHandle OpenFileAsync_Internal(::StringW fileName);
 
-  /// @brief Method OpenFileAsync_Internal_Injected, addr 0x6a5fb20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenFileAsync_Internal_Injected, addr 0x6eb16cc, size 0x44, virtual false, abstract: false, final false
   static inline void OpenFileAsync_Internal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fileName, ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> ret);
 
-  /// @brief Method Read, addr 0x6a5f948, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x6eb14f4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle Read(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle,
                                                                ::Unity::IO::LowLevel::Unsafe::ReadCommandArray readCmdArray);
 
   /// [FreeFunction("AsyncReadManagerManaged::ReadWithHandles_NativeCopy", IsThreadSafe = true)]
   /// [ThreadAndSerializationSafe]
-  /// @brief Method ReadWithHandlesInternal_NativeCopy, addr 0x6a5f898, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadWithHandlesInternal_NativeCopy, addr 0x6eb1444, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle ReadWithHandlesInternal_NativeCopy(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, void* readCmdArray);
 
-  /// @brief Method ReadWithHandlesInternal_NativeCopy_Injected, addr 0x6a5f8f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadWithHandlesInternal_NativeCopy_Injected, addr 0x6eb14a0, size 0x54, virtual false, abstract: false, final false
   static inline void ReadWithHandlesInternal_NativeCopy_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, void* readCmdArray,
                                                                  ::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> ret);
 
@@ -98,7 +98,7 @@ public:
   AsyncReadManager(AsyncReadManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

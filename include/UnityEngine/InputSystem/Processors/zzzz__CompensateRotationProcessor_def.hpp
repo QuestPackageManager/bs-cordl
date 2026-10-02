@@ -35,16 +35,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x65be634, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x69ea644, size 0x220, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x65be854, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69ea864, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x65be8a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ea8b0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachingPolicy, addr 0x65be898, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cachingPolicy, addr 0x69ea8a8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
 protected:
@@ -62,7 +62,7 @@ public:
   CompensateRotationProcessor(CompensateRotationProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

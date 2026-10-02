@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/Page.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
@@ -156,15 +157,28 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::Page_DataSet_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UpdateRangesSaturated = value;
 }
+template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::setStaticF_s_CpuMemoryLabel(::Unity::Collections::MemoryLabel value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::MemoryLabel, "s_CpuMemoryLabel", ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(std::forward<::Unity::Collections::MemoryLabel>(value));
+}
+template <typename T> inline ::Unity::Collections::MemoryLabel UnityEngine::UIElements::UIR::Page_DataSet_1<T>::getStaticF_s_CpuMemoryLabel() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::MemoryLabel, "s_CpuMemoryLabel", ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>();
+}
+template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::setStaticF_s_RangesMemoryLabel(::Unity::Collections::MemoryLabel value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::MemoryLabel, "s_RangesMemoryLabel", ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(
+      std::forward<::Unity::Collections::MemoryLabel>(value));
+}
+template <typename T> inline ::Unity::Collections::MemoryLabel UnityEngine::UIElements::UIR::Page_DataSet_1<T>::getStaticF_s_RangesMemoryLabel() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::MemoryLabel, "s_RangesMemoryLabel", ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>();
+}
 template <typename T>
 inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T>::_ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount,
-                                                                   uint32_t updateRangePoolSize, bool mockBuffer) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(),
-                                                                                         { ".ctor",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::UIElements::UIR::Utility_GPUBufferType>(), ::i2c::type_of<uint32_t>(),
-                                                                                             ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bufferType, totalCount, maxQueuedFrameCount, updateRangePoolSize, mockBuffer);
+                                                                   uint32_t updateRangePoolSize) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(),
+          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Utility_GPUBufferType>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bufferType, totalCount, maxQueuedFrameCount, updateRangePoolSize);
 }
 template <typename T> inline bool UnityEngine::UIElements::UIR::Page_DataSet_1<T>::get_disposed() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(), { "get_disposed", {}, {} })));
@@ -212,9 +226,8 @@ template <typename T> inline void UnityEngine::UIElements::UIR::Page_DataSet_1<T
 }
 template <typename T>
 inline ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>* UnityEngine::UIElements::UIR::Page_DataSet_1<T>::New_ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType,
-                                                                                                                    uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize,
-                                                                                                                    bool mockBuffer) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(bufferType, totalCount, maxQueuedFrameCount, updateRangePoolSize, mockBuffer));
+                                                                                                                    uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::Page_DataSet_1<T>*>(bufferType, totalCount, maxQueuedFrameCount, updateRangePoolSize));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::UIElements::UIR::Page_DataSet_1<T>::operator ::System::IDisposable*() noexcept {
@@ -229,14 +242,13 @@ template <typename T> constexpr ::UnityEngine::UIElements::UIR::Page_DataSet_1<T
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Page._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(uint32_t, uint32_t, uint32_t, bool)>(&::UnityEngine::UIElements::UIR::Page::_ctor)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6cfc260;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(uint32_t, uint32_t, uint32_t)>(&::UnityEngine::UIElements::UIR::Page::_ctor)> {
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x718d638;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(),
-                                                             { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -245,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::Page::*)()>(&::UnityEngine::UIElements::UIR::Page::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfc398;
+  constexpr static std::size_t addrs = 0x7192640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(), { "get_disposed", {}, {} })));
@@ -257,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(bool)>(&::UnityEngine::UIElements::UIR::Page::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfc3a0;
+  constexpr static std::size_t addrs = 0x7192648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)()>(&::UnityEngine::UIElements::UIR::Page::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cfb604;
+  constexpr static std::size_t addrs = 0x719195c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(), { "Dispose", {}, {} })));
@@ -282,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(bool)>(&::UnityEngine::UIElements::UIR::Page::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cfc3a8;
+  constexpr static std::size_t addrs = 0x7192650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::Page::*)()>(&::UnityEngine::UIElements::UIR::Page::get_isEmpty)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6cfc448;
+  constexpr static std::size_t addrs = 0x718d764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(), { "get_isEmpty", {}, {} })));
@@ -362,11 +374,10 @@ constexpr void UnityEngine::UIElements::UIR::Page::__cordl_internal_set_framesEm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___framesEmpty = value;
 }
-inline void UnityEngine::UIElements::UIR::Page::_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(),
-                                                           { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertexMaxCount, indexMaxCount, maxQueuedFrameCount, mockPage);
+inline void UnityEngine::UIElements::UIR::Page::_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertexMaxCount, indexMaxCount, maxQueuedFrameCount);
 }
 inline bool UnityEngine::UIElements::UIR::Page::get_disposed() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(), { "get_disposed", {}, {} })));
@@ -389,8 +400,8 @@ inline bool UnityEngine::UIElements::UIR::Page::get_isEmpty() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Page*>(), { "get_isEmpty", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::UIR::Page* UnityEngine::UIElements::UIR::Page::New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::Page*>(vertexMaxCount, indexMaxCount, maxQueuedFrameCount, mockPage));
+inline ::UnityEngine::UIElements::UIR::Page* UnityEngine::UIElements::UIR::Page::New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::Page*>(vertexMaxCount, indexMaxCount, maxQueuedFrameCount));
 }
 /// @brief Convert operator to "::System::IDisposable"
 constexpr UnityEngine::UIElements::UIR::Page::operator ::System::IDisposable*() noexcept {

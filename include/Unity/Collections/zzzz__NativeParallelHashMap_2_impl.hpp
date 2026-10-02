@@ -372,6 +372,11 @@ template <typename TKey, typename TValue> inline void Unity::Collections::Native
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeParallelHashMap_2<TKey, TValue>>(), { "ThrowKeyAlreadyAdded", {}, { ::i2c::type_of<TKey>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, key);
 }
+template <typename TKey, typename TValue> inline void Unity::Collections::NativeParallelHashMap_2<TKey, TValue>::ThrowAtMaxCapacity() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeParallelHashMap_2<TKey, TValue>>(), { "ThrowAtMaxCapacity", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
 /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
 template <typename TKey, typename TValue> constexpr Unity::Collections::NativeParallelHashMap_2<TKey, TValue>::operator ::Unity::Collections::INativeDisposable*() {
   return static_cast<::Unity::Collections::INativeDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));

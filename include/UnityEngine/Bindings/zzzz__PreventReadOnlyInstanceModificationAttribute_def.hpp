@@ -12,8 +12,8 @@ class PreventReadOnlyInstanceModificationAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute*, "UnityEngine.Bindings", "PreventReadOnlyInstanceModificationAttribute");
-// [VisibleToOtherModules]
 // [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false, Inherited = false)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bb6578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7015098, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   PreventReadOnlyInstanceModificationAttribute(PreventReadOnlyInstanceModificationAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

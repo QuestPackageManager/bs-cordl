@@ -33,31 +33,40 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE LocalKeywordSpace {
 public:
   // Declarations
+  __declspec(property(get = get_keywordCount)) uint32_t keywordCount;
+
   __declspec(property(get = get_keywords)) ::ArrayW<::UnityEngine::Rendering::LocalKeyword> keywords;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x6b2dc24, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f8b3b8, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6b2dca0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f8b434, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x6b2dba4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f8b2c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("keywords::GetKeywordCount", HasExplicitThis = true)]
+  /// @brief Method GetKeywordCount, addr 0x6f8b304, size 0x3c, virtual false, abstract: false, final false
+  inline uint32_t GetKeywordCount();
+
   /// [FreeFunction("keywords::GetKeywords", HasExplicitThis = true)]
-  /// @brief Method GetKeywords, addr 0x6b2dbac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetKeywords, addr 0x6f8b2c8, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> GetKeywords();
 
-  /// @brief Method get_keywords, addr 0x6b2dbe8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_keywordCount, addr 0x6f8b37c, size 0x3c, virtual false, abstract: false, final false
+  inline uint32_t get_keywordCount();
+
+  /// @brief Method get_keywords, addr 0x6f8b340, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> get_keywords();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x6b2db88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f8b2a4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []
@@ -68,7 +77,7 @@ public:
   constexpr LocalKeywordSpace(::System::IntPtr m_KeywordSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10499 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

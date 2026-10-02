@@ -28,25 +28,25 @@ namespace GlobalNamespace {
 class CORDL_TYPE CustomNetworkConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <customLocation>k__BackingField, offset 0x50, size 0x8
+  /// @brief Field <customLocation>k__BackingField, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__customLocation_k__BackingField, put = __cordl_internal_set__customLocation_k__BackingField)) ::StringW _customLocation_k__BackingField;
 
   /// @brief Field <discoveryPort>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__discoveryPort_k__BackingField, put = __cordl_internal_set__discoveryPort_k__BackingField)) int32_t _discoveryPort_k__BackingField;
 
-  /// @brief Field <forceGameLift>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__forceGameLift_k__BackingField, put = __cordl_internal_set__forceGameLift_k__BackingField)) bool _forceGameLift_k__BackingField;
-
-  /// @brief Field <graphAccessToken>k__BackingField, offset 0x38, size 0x8
+  /// @brief Field <graphAccessToken>k__BackingField, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__graphAccessToken_k__BackingField, put = __cordl_internal_set__graphAccessToken_k__BackingField)) ::StringW _graphAccessToken_k__BackingField;
 
-  /// @brief Field <graphAppId>k__BackingField, offset 0x40, size 0x8
+  /// @brief Field <graphApiBaseUrl>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__graphApiBaseUrl_k__BackingField, put = __cordl_internal_set__graphApiBaseUrl_k__BackingField)) ::StringW _graphApiBaseUrl_k__BackingField;
+
+  /// @brief Field <graphAppId>k__BackingField, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__graphAppId_k__BackingField, put = __cordl_internal_set__graphAppId_k__BackingField)) uint64_t _graphAppId_k__BackingField;
 
-  /// @brief Field <graphUrl>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__graphUrl_k__BackingField, put = __cordl_internal_set__graphUrl_k__BackingField)) ::StringW _graphUrl_k__BackingField;
+  /// @brief Field <isDevServer>k__BackingField, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__isDevServer_k__BackingField, put = __cordl_internal_set__isDevServer_k__BackingField)) bool _isDevServer_k__BackingField;
 
-  /// @brief Field <localServerPort>k__BackingField, offset 0x5c, size 0x4
+  /// @brief Field <localServerPort>k__BackingField, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__localServerPort_k__BackingField, put = __cordl_internal_set__localServerPort_k__BackingField)) int32_t _localServerPort_k__BackingField;
 
   /// @brief Field <masterServerPort>k__BackingField, offset 0x20, size 0x4
@@ -58,33 +58,32 @@ public:
   /// @brief Field <multiplayerPort>k__BackingField, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__multiplayerPort_k__BackingField, put = __cordl_internal_set__multiplayerPort_k__BackingField)) int32_t _multiplayerPort_k__BackingField;
 
-  /// @brief Field <multiplayerStatusUrl>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerStatusUrl_k__BackingField,
-                      put = __cordl_internal_set__multiplayerStatusUrl_k__BackingField)) ::StringW _multiplayerStatusUrl_k__BackingField;
-
   /// @brief Field <partyPort>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__partyPort_k__BackingField, put = __cordl_internal_set__partyPort_k__BackingField)) int32_t _partyPort_k__BackingField;
 
-  /// @brief Field <serviceEnvironment>k__BackingField, offset 0x4c, size 0x4
+  /// @brief Field <remoteAssetsBaseUrl>k__BackingField, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__remoteAssetsBaseUrl_k__BackingField, put = __cordl_internal_set__remoteAssetsBaseUrl_k__BackingField)) ::StringW _remoteAssetsBaseUrl_k__BackingField;
+
+  /// @brief Field <serviceEnvironment>k__BackingField, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__serviceEnvironment_k__BackingField,
                       put = __cordl_internal_set__serviceEnvironment_k__BackingField)) ::GlobalNamespace::ServiceEnvironment _serviceEnvironment_k__BackingField;
 
-  /// @brief Field <useLocalServer>k__BackingField, offset 0x58, size 0x1
+  /// @brief Field <useLocalServer>k__BackingField, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalServer_k__BackingField, put = __cordl_internal_set__useLocalServer_k__BackingField)) bool _useLocalServer_k__BackingField;
 
   __declspec(property(get = get_customLocation)) ::StringW customLocation;
 
   __declspec(property(get = get_discoveryPort)) int32_t discoveryPort;
 
-  __declspec(property(get = get_forceGameLift)) bool forceGameLift;
-
   __declspec(property(get = get_graphAccessToken)) ::StringW graphAccessToken;
+
+  __declspec(property(get = get_graphApiBaseUrl)) ::StringW graphApiBaseUrl;
 
   __declspec(property(get = get_graphAppId)) uint64_t graphAppId;
 
   __declspec(property(get = get_graphQLUrl)) ::StringW graphQLUrl;
 
-  __declspec(property(get = get_graphUrl)) ::StringW graphUrl;
+  __declspec(property(get = get_isDevServer)) bool isDevServer;
 
   __declspec(property(get = get_localServerPort)) int32_t localServerPort;
 
@@ -94,11 +93,11 @@ public:
 
   __declspec(property(get = get_multiplayerPort)) int32_t multiplayerPort;
 
-  __declspec(property(get = get_multiplayerStatusUrl)) ::StringW multiplayerStatusUrl;
-
   __declspec(property(get = get_partyPort)) int32_t partyPort;
 
   __declspec(property(get = get_quickPlaySetupUrl)) ::StringW quickPlaySetupUrl;
+
+  __declspec(property(get = get_remoteAssetsBaseUrl)) ::StringW remoteAssetsBaseUrl;
 
   __declspec(property(get = get_serviceEnvironment)) ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
@@ -107,7 +106,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkConfig"
   constexpr operator ::GlobalNamespace::INetworkConfig*() noexcept;
 
-  static inline ::GlobalNamespace::CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
+  static inline ::GlobalNamespace::CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port);
 
   constexpr ::StringW const& __cordl_internal_get__customLocation_k__BackingField() const;
 
@@ -117,21 +116,21 @@ public:
 
   constexpr int32_t& __cordl_internal_get__discoveryPort_k__BackingField();
 
-  constexpr bool const& __cordl_internal_get__forceGameLift_k__BackingField() const;
-
-  constexpr bool& __cordl_internal_get__forceGameLift_k__BackingField();
-
   constexpr ::StringW const& __cordl_internal_get__graphAccessToken_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__graphAccessToken_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__graphApiBaseUrl_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__graphApiBaseUrl_k__BackingField();
 
   constexpr uint64_t const& __cordl_internal_get__graphAppId_k__BackingField() const;
 
   constexpr uint64_t& __cordl_internal_get__graphAppId_k__BackingField();
 
-  constexpr ::StringW const& __cordl_internal_get__graphUrl_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isDevServer_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__graphUrl_k__BackingField();
+  constexpr bool& __cordl_internal_get__isDevServer_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__localServerPort_k__BackingField() const;
 
@@ -149,13 +148,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__multiplayerPort_k__BackingField();
 
-  constexpr ::StringW const& __cordl_internal_get__multiplayerStatusUrl_k__BackingField() const;
-
-  constexpr ::StringW& __cordl_internal_get__multiplayerStatusUrl_k__BackingField();
-
   constexpr int32_t const& __cordl_internal_get__partyPort_k__BackingField() const;
 
   constexpr int32_t& __cordl_internal_get__partyPort_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__remoteAssetsBaseUrl_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__remoteAssetsBaseUrl_k__BackingField();
 
   constexpr ::GlobalNamespace::ServiceEnvironment const& __cordl_internal_get__serviceEnvironment_k__BackingField() const;
 
@@ -169,13 +168,13 @@ public:
 
   constexpr void __cordl_internal_set__discoveryPort_k__BackingField(int32_t value);
 
-  constexpr void __cordl_internal_set__forceGameLift_k__BackingField(bool value);
-
   constexpr void __cordl_internal_set__graphAccessToken_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__graphApiBaseUrl_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__graphAppId_k__BackingField(uint64_t value);
 
-  constexpr void __cordl_internal_set__graphUrl_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__isDevServer_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__localServerPort_k__BackingField(int32_t value);
 
@@ -185,77 +184,77 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerPort_k__BackingField(int32_t value);
 
-  constexpr void __cordl_internal_set__multiplayerStatusUrl_k__BackingField(::StringW value);
-
   constexpr void __cordl_internal_set__partyPort_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__remoteAssetsBaseUrl_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value);
 
   constexpr void __cordl_internal_set__useLocalServer_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x32a91e0, size 0x578, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
+  /// @brief Method .ctor, addr 0x353052c, size 0x5a0, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port);
 
   /// [CompilerGenerated]
-  /// @brief Method get_customLocation, addr 0x32a91c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_customLocation, addr 0x3530514, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_customLocation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_discoveryPort, addr 0x32a9114, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_discoveryPort, addr 0x3530460, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
   /// [CompilerGenerated]
-  /// @brief Method get_forceGameLift, addr 0x32a91b8, size 0x8, virtual true, abstract: false, final true
-  inline bool get_forceGameLift();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_graphAccessToken, addr 0x32a91a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphAccessToken, addr 0x35304fc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
   /// [CompilerGenerated]
-  /// @brief Method get_graphAppId, addr 0x32a91b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphApiBaseUrl, addr 0x3530494, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_graphApiBaseUrl();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_graphAppId, addr 0x3530504, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_graphAppId();
 
-  /// @brief Method get_graphQLUrl, addr 0x32a9158, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_graphQLUrl, addr 0x353049c, size 0x50, virtual true, abstract: false, final true
   inline ::StringW get_graphQLUrl();
 
   /// [CompilerGenerated]
-  /// @brief Method get_graphUrl, addr 0x32a9150, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_graphUrl();
+  /// @brief Method get_isDevServer, addr 0x35304f4, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isDevServer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_localServerPort, addr 0x32a91d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_localServerPort, addr 0x3530524, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_localServerPort();
 
   /// [CompilerGenerated]
-  /// @brief Method get_masterServerPort, addr 0x32a912c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_masterServerPort, addr 0x3530478, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_masterServerPort();
 
   /// [CompilerGenerated]
-  /// @brief Method get_maxPartySize, addr 0x32a910c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_maxPartySize, addr 0x3530458, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_multiplayerPort, addr 0x32a9124, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerPort, addr 0x3530470, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
   /// [CompilerGenerated]
-  /// @brief Method get_multiplayerStatusUrl, addr 0x32a9134, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_multiplayerStatusUrl();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_partyPort, addr 0x32a911c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyPort, addr 0x3530468, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_quickPlaySetupUrl, addr 0x32a913c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0x3530480, size 0x14, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
   /// [CompilerGenerated]
-  /// @brief Method get_serviceEnvironment, addr 0x32a91c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_remoteAssetsBaseUrl, addr 0x35304ec, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_remoteAssetsBaseUrl();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_serviceEnvironment, addr 0x353050c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   /// [CompilerGenerated]
-  /// @brief Method get_useLocalServer, addr 0x32a91d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useLocalServer, addr 0x353051c, size 0x8, virtual true, abstract: false, final true
   inline bool get_useLocalServer();
 
   /// @brief Convert to "::GlobalNamespace::INetworkConfig"
@@ -276,7 +275,7 @@ public:
   CustomNetworkConfig(CustomNetworkConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19405 };
 
   /// [CompilerGenerated]
   /// @brief Field <maxPartySize>k__BackingField, offset: 0x10, size: 0x4, def value: None
@@ -299,39 +298,39 @@ public:
   int32_t ____masterServerPort_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <multiplayerStatusUrl>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____multiplayerStatusUrl_k__BackingField;
+  /// @brief Field <graphApiBaseUrl>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::StringW ____graphApiBaseUrl_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <graphUrl>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::StringW ____graphUrl_k__BackingField;
+  /// @brief Field <remoteAssetsBaseUrl>k__BackingField, offset: 0x30, size: 0x8, def value: None
+  ::StringW ____remoteAssetsBaseUrl_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <graphAccessToken>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <isDevServer>k__BackingField, offset: 0x38, size: 0x1, def value: None
+  bool ____isDevServer_k__BackingField;
+
+  /// [CompilerGenerated]
+  /// @brief Field <graphAccessToken>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____graphAccessToken_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <graphAppId>k__BackingField, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field <graphAppId>k__BackingField, offset: 0x48, size: 0x8, def value: None
   uint64_t ____graphAppId_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <forceGameLift>k__BackingField, offset: 0x48, size: 0x1, def value: None
-  bool ____forceGameLift_k__BackingField;
-
-  /// [CompilerGenerated]
-  /// @brief Field <serviceEnvironment>k__BackingField, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field <serviceEnvironment>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment ____serviceEnvironment_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <customLocation>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field <customLocation>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::StringW ____customLocation_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <useLocalServer>k__BackingField, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field <useLocalServer>k__BackingField, offset: 0x60, size: 0x1, def value: None
   bool ____useLocalServer_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <localServerPort>k__BackingField, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field <localServerPort>k__BackingField, offset: 0x64, size: 0x4, def value: None
   int32_t ____localServerPort_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -347,24 +346,24 @@ static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____multiplayerPo
 
 static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____masterServerPort_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____multiplayerStatusUrl_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphApiBaseUrl_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphUrl_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____remoteAssetsBaseUrl_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphAccessToken_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____isDevServer_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphAppId_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphAccessToken_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____forceGameLift_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____graphAppId_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____serviceEnvironment_k__BackingField) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____serviceEnvironment_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____customLocation_k__BackingField) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____customLocation_k__BackingField) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____useLocalServer_k__BackingField) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____useLocalServer_k__BackingField) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____localServerPort_k__BackingField) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomNetworkConfig, ____localServerPort_k__BackingField) == 0x64, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::CustomNetworkConfig) == 0x60, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::CustomNetworkConfig) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace

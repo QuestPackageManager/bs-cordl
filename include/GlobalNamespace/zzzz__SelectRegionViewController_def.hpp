@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* New_ctor();
 
-  /// @brief Method <DidActivate>b__3_1, addr 0x5967bfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__3_1, addr 0x5d82458, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _DidActivate_b__3_1(::GlobalNamespace::RegionToLocalizationKeyPair p);
 
-  /// @brief Method .ctor, addr 0x5967bf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d82454, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   SelectRegionViewController___c(SelectRegionViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7112 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,19 +113,19 @@ public:
   /// @brief Field _regionSelectionDropdown, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__regionSelectionDropdown, put = __cordl_internal_set__regionSelectionDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> _regionSelectionDropdown;
 
-  /// @brief Method DidActivate, addr 0x5967770, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d81fcc, size 0x248, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x5967aa0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x5d822fc, size 0x44, virtual false, abstract: false, final false
   inline void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int32_t idx);
 
   static inline ::GlobalNamespace::SelectRegionViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59679b8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d82214, size 0xe8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__3_0, addr 0x5967b28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__3_0, addr 0x5d82384, size 0x7c, virtual false, abstract: false, final false
   inline void _DidActivate_b__3_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__regionSelectionDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  /// @brief Method .ctor, addr 0x5967ae4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d82340, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,7 +164,7 @@ public:
   SelectRegionViewController(SelectRegionViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7113 };
 
   /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None

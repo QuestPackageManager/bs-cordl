@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_m_useLegacyBlockSize(bool value);
 
-  /// @brief Method .ctor, addr 0x5afbfd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f13ec8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5afbff4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f13eec, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key);
 
-  /// @brief Method get_BlockSize, addr 0x5afc0c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x5f13fbc, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
 protected:

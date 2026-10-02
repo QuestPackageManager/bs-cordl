@@ -18,6 +18,18 @@ template <typename T> constexpr void UnityEngine::UIElements::FixedHeightVirtual
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrolledToItemIndex = value;
 }
+template <typename T> constexpr bool& UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::__cordl_internal_get_m_ForcedScroll() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ForcedScroll;
+}
+template <typename T> constexpr bool const& UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::__cordl_internal_get_m_ForcedScroll() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ForcedScroll;
+}
+template <typename T> constexpr void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::__cordl_internal_set_m_ForcedScroll(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ForcedScroll = value;
+}
 template <typename T> inline float_t UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::get_resolvedItemHeight() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>(), { "get_resolvedItemHeight", {}, {} })));
@@ -33,10 +45,10 @@ template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualiza
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, collectionView);
 }
-template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::OnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* _) {
+template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::OnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>(),
                                                                                          { "OnGeometryChangedEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::GeometryChangedEvent*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::GetIndexFromPosition(::UnityEngine::Vector2 position) {
   auto* ___internal_method = THROW_UNLESS(
@@ -67,6 +79,11 @@ template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualiza
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scrollOffset);
+}
+template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::OnScrollUpdate() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>(), 25 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T> inline T UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::GetOrMakeItemAtIndex(int32_t activeItemIndex, int32_t scrollViewIndex) {
   auto* ___internal_method = THROW_UNLESS(

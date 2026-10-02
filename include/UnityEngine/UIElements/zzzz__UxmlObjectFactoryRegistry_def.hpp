@@ -36,19 +36,19 @@ public:
       get = getStaticF_s_Factories,
       put = setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* s_Factories;
 
-  /// @brief Method RegisterEngineFactories, addr 0x6cc09e0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x7148230, size 0x1ec, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x6cc0eec, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x714873c, size 0x4ac, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x6cc0bcc, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x714841c, size 0x320, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_factories, addr 0x6cc0908, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x7148158, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories();
 
   static inline void
@@ -69,7 +69,7 @@ public:
   UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

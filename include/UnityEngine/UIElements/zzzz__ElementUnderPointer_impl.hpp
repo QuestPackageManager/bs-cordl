@@ -10,13 +10,25 @@
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::ElementUnderPointer._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)()>(&::UnityEngine::UIElements::ElementUnderPointer::_ctor)> {
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x72246c0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::ElementUnderPointer.GetTopElementUnderPointer
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::ElementUnderPointer::*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>)>(&::UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d969b4;
+  constexpr static std::size_t addrs = 0x72248cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,11 +44,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ElementUnderPointer::*)(int32_t)>(
     &::UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d96a28;
+  constexpr static std::size_t addrs = 0x7224940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { "GetTopElementUnderPointer", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ElementUnderPointer.RemoveElementUnderPointer
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::ElementUnderPointer::RemoveElementUnderPointer)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x7224970;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(),
+                                                                                           { "RemoveElementUnderPointer", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
     return ___internal_method;
   }
 };
@@ -46,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6d96a58;
+  constexpr static std::size_t addrs = 0x72249f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ElementUnderPointer::GetEventPointerPosition)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6d96bbc;
+  constexpr static std::size_t addrs = 0x7224b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(),
@@ -76,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ElementUnderPointer::SetTemporaryElementUnderPointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d96d7c;
+  constexpr static std::size_t addrs = 0x7224d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d96f50;
+  constexpr static std::size_t addrs = 0x72249e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*, bool)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6d96d84;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x7224d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,28 +152,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::ElementUnderPointer.CommitElementUnderPointers
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::EventDispatcher*, ::UnityEngine::UIElements::ContextType)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::EventDispatcher*, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::ElementUnderPointer::CommitElementUnderPointers)> {
-  constexpr static std::size_t size = 0xcac;
-  constexpr static std::size_t addrs = 0x6d96f58;
+  constexpr static std::size_t size = 0x560;
+  constexpr static std::size_t addrs = 0x7224fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(),
                             { "CommitElementUnderPointers", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventDispatcher*>(), ::i2c::type_of<::UnityEngine::UIElements::ContextType>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::ElementUnderPointer._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)()>(&::UnityEngine::UIElements::ElementUnderPointer::_ctor)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d98200;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
@@ -199,6 +213,18 @@ constexpr void UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PickingPointerPositions = value;
 }
+constexpr ::ArrayW<bool>& UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_IsPrimaryPointer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsPrimaryPointer;
+}
+constexpr ::ArrayW<bool> const& UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_IsPrimaryPointer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsPrimaryPointer;
+}
+constexpr void UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_set_m_IsPrimaryPointer(::ArrayW<bool> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsPrimaryPointer = value;
+}
 constexpr ::ArrayW<bool>& UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_IsPickingPointerTemporaries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsPickingPointerTemporaries;
@@ -210,6 +236,10 @@ constexpr ::ArrayW<bool> const& UnityEngine::UIElements::ElementUnderPointer::__
 constexpr void UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_set_m_IsPickingPointerTemporaries(::ArrayW<bool> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsPickingPointerTemporaries = value;
+}
+inline void UnityEngine::UIElements::ElementUnderPointer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer(int32_t pointerId, ::by_ref<::UnityEngine::Vector2> pickPosition,
                                                                                                                          ::by_ref<bool> isTemporary) {
@@ -223,6 +253,11 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Elemen
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { "GetTopElementUnderPointer", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, pointerId);
+}
+inline void UnityEngine::UIElements::ElementUnderPointer::RemoveElementUnderPointer(::UnityEngine::UIElements::VisualElement* elementToRemove) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(),
+                                                                                         { "RemoveElementUnderPointer", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elementToRemove);
 }
 inline void UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId,
                                                                                  ::UnityEngine::Vector2 pointerPos) {
@@ -266,16 +301,12 @@ inline void UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer
                                                                                                                ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newElementUnderPointer, pointerId, triggerEvent, temporary);
 }
-inline void UnityEngine::UIElements::ElementUnderPointer::CommitElementUnderPointers(::UnityEngine::UIElements::EventDispatcher* dispatcher, ::UnityEngine::UIElements::ContextType contextType) {
+inline bool UnityEngine::UIElements::ElementUnderPointer::CommitElementUnderPointers(::UnityEngine::UIElements::EventDispatcher* dispatcher, ::UnityEngine::UIElements::ContextType contextType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(),
                           { "CommitElementUnderPointers", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventDispatcher*>(), ::i2c::type_of<::UnityEngine::UIElements::ContextType>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dispatcher, contextType);
-}
-inline void UnityEngine::UIElements::ElementUnderPointer::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, dispatcher, contextType);
 }
 inline ::UnityEngine::UIElements::ElementUnderPointer* UnityEngine::UIElements::ElementUnderPointer::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ElementUnderPointer*>());

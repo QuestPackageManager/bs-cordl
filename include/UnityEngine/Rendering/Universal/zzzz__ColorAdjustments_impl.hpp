@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorAdjustments::*)()>(&::UnityEngine::Rendering::Universal::ColorAdjustments::IsActive)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x687dd3c;
+  constexpr static std::size_t addrs = 0x6cbd1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorAdjustments*>(), { "IsActive", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorAdjustments::*)()>(&::UnityEngine::Rendering::Universal::ColorAdjustments::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687de2c;
+  constexpr static std::size_t addrs = 0x6cbd2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorAdjustments*>(), { "IsTileCompatible", {}, {} })));
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ColorAdjustments::*)()>(&::UnityEngine::Rendering::Universal::ColorAdjustments::_ctor)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x687de34;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x6cbd2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorAdjustments*>(), { ".ctor", {}, {} })));

@@ -15,7 +15,7 @@ class Outline;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::Outline*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");
-// [AddComponentMenu("UI/Effects/Outline", 81)]
+// [AddComponentMenu("UI (Canvas)/Effects/Outline", 81)]
 // Dependencies UnityEngine.UI.Shadow
 namespace UnityEngine::UI {
 // Is value type: false
@@ -23,12 +23,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x6e13c30, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x72ac670, size 0x254, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::Outline* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e13c0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ac64c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   Outline(Outline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

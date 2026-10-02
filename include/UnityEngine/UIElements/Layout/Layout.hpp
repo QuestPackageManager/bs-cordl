@@ -4,8 +4,8 @@ module;
 
 #pragma once
 #include "UnityEngine/UIElements/Layout/ComponentType.hpp"
-#include "UnityEngine/UIElements/Layout/FixedBuffer16_1.hpp"
 #include "UnityEngine/UIElements/Layout/FixedBuffer2_1.hpp"
+#include "UnityEngine/UIElements/Layout/FixedBuffer4_1.hpp"
 #include "UnityEngine/UIElements/Layout/FixedBuffer9_1.hpp"
 #include "UnityEngine/UIElements/Layout/ILayoutProcessor.hpp"
 #include "UnityEngine/UIElements/Layout/InvokeBaselineFunctionDelegate.hpp"

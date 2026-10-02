@@ -82,26 +82,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3321ea8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35aae48, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3321f4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x35aaeec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3321f54, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35aaef4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3321f8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35aaf2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3321ea4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35aae44, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -129,7 +129,7 @@ public:
   constexpr void __cordl_internal_set_delay(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3321e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35aae1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -156,7 +156,7 @@ public:
   RandomizedPitch__PlayDelayedCoroutine_d__9(RandomizedPitch__PlayDelayedCoroutine_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21378 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -217,26 +217,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3321f98, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35aaf38, size 0xb0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3322048, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x35aafe8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3322050, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35aaff0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3322088, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35ab028, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3321f94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35aaf34, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -264,7 +264,7 @@ public:
   constexpr void __cordl_internal_set_delay(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x3321e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35aae24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -291,7 +291,7 @@ public:
   RandomizedPitch__RestorePitchWithDelay_d__10(RandomizedPitch__RestorePitchWithDelay_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21379 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -350,21 +350,21 @@ public:
 
   static inline ::GlobalNamespace::RandomizedPitch* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3321c38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x35aabd8, size 0x58, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Play, addr 0x3321c90, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x35aac30, size 0xec, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method PlayDelayed, addr 0x3321de0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x35aad80, size 0x38, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
   /// [IteratorStateMachine(typeof(RandomizedPitch::<PlayDelayedCoroutine>d__9))]
-  /// @brief Method PlayDelayedCoroutine, addr 0x3321e18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayedCoroutine, addr 0x35aadb8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayedCoroutine(float_t delay);
 
   /// [IteratorStateMachine(typeof(RandomizedPitch::<RestorePitchWithDelay>d__10))]
-  /// @brief Method RestorePitchWithDelay, addr 0x3321d7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RestorePitchWithDelay, addr 0x35aad1c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestorePitchWithDelay(float_t delay);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -403,7 +403,7 @@ public:
 
   constexpr void __cordl_internal_set__restoringCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x3321e8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35aae2c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -421,7 +421,7 @@ public:
   RandomizedPitch(RandomizedPitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21380 };
 
   /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None

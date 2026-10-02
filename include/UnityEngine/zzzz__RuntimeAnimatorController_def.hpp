@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a45970, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e94354, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClips, addr 0x6a47120, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_animationClips, addr 0x6e95b04, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>> get_animationClips();
 
-  /// @brief Method get_animationClips_Injected, addr 0x6a471a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animationClips_Injected, addr 0x6e95b84, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>> get_animationClips_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -57,7 +57,7 @@ public:
   RuntimeAnimatorController(RuntimeAnimatorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

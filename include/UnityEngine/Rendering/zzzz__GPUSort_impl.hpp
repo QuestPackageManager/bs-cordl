@@ -3,30 +3,22 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUSort_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphBuilder_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUSort_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IComputeCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::GPUSort_Stage::GPUSort_Stage(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::GPUSort_Stage::GPUSort_Stage() {}
-constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::LocalBMS{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::LocalDisperse{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::BigFlip{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::BigDisperse{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUSort_SupportResources.Load
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUSort_SupportResources (*)(::UnityEngine::Rendering::GPUSort_RenderGraphResources)>(
     &::UnityEngine::Rendering::GPUSort_SupportResources::Load)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67c49e8;
+  constexpr static std::size_t addrs = 0x6be1ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort_SupportResources>(),
@@ -39,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUSort_SupportResources::*)()>(&::UnityEngine::Rendering::GPUSort_SupportResources::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67c4a74;
+  constexpr static std::size_t addrs = 0x6be1f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort_SupportResources>(), { "Dispose", {}, {} })));
@@ -85,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder)>(
     &::UnityEngine::Rendering::GPUSort_RenderGraphResources::Create)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x67c4900;
+  constexpr static std::size_t addrs = 0x6be1c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort_RenderGraphResources>(),
@@ -93,6 +85,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                              {},
                                                                                              { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUSort_RenderGraphResources.Create
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUSort_RenderGraphResources (*)(int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*,
+                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*)>(
+    &::UnityEngine::Rendering::GPUSort_RenderGraphResources::Create)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6be1d3c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort_RenderGraphResources>(),
+                                                                                           { "Create",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                               ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>() } })));
     return ___internal_method;
   }
 };
@@ -104,6 +114,16 @@ inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources UnityEngine::Rende
                                                                                            {},
                                                                                            { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUSort_RenderGraphResources>(nullptr, ___internal_method, count, renderGraph, builder);
+}
+inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources
+UnityEngine::Rendering::GPUSort_RenderGraphResources::Create(int32_t count, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                             ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort_RenderGraphResources>(),
+                                                                                         { "Create",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUSort_RenderGraphResources>(nullptr, ___internal_method, count, renderGraph, builder);
 }
 // Ctor Parameters [CppParam { name: "sortBufferKeys", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
@@ -121,12 +141,22 @@ constexpr ::UnityEngine::Rendering::GPUSort_SystemResources::GPUSort_SystemResou
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GPUSort_SystemResources::GPUSort_SystemResources() {}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::GPUSort_Stage::GPUSort_Stage(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUSort_Stage::GPUSort_Stage() {}
+constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::LocalBMS{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::LocalDisperse{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::BigFlip{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::GPUSort_Stage UnityEngine::Rendering::GPUSort_Stage::BigDisperse{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUSort._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUSort::*)(::UnityEngine::Rendering::GPUSort_SystemResources)>(&::UnityEngine::Rendering::GPUSort::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x67c40b8;
+  constexpr static std::size_t addrs = 0x6be1360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUSort::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::GPUSort_Args, uint32_t,
                                                                                                    ::UnityEngine::Rendering::GPUSort_Stage)>(&::UnityEngine::Rendering::GPUSort::DispatchStage)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x67c4270;
+  constexpr static std::size_t addrs = 0x6be1518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUSort::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*,
                                                                                                    ::UnityEngine::GraphicsBuffer*)>(&::UnityEngine::Rendering::GPUSort::CopyBuffer)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x67c4530;
+  constexpr static std::size_t addrs = 0x6be17d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::GPUSort::DivRoundUp)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67c4718;
+  constexpr static std::size_t addrs = 0x6be19c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,10 +215,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int3
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUSort.Dispatch
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUSort::*)(::UnityEngine::Rendering::IComputeCommandBuffer*, ::UnityEngine::Rendering::GPUSort_Args)>(
+    &::UnityEngine::Rendering::GPUSort::Dispatch)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6be19d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort>(),
+                                                { "Dispatch", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUSort_Args>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUSort.Dispatch
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUSort::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::GPUSort_Args)>(
     &::UnityEngine::Rendering::GPUSort::Dispatch)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x67c4728;
+  constexpr static std::size_t addrs = 0x6be1a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,6 +269,12 @@ inline int32_t UnityEngine::Rendering::GPUSort::DivRoundUp(int32_t x, int32_t y)
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort>(), { "DivRoundUp", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, x, y);
+}
+inline void UnityEngine::Rendering::GPUSort::Dispatch(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUSort>(),
+                                              { "Dispatch", {}, { ::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUSort_Args>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmd, args);
 }
 inline void UnityEngine::Rendering::GPUSort::Dispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args) {
   static auto* ___internal_method = THROW_UNLESS(

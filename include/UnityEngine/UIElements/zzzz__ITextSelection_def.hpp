@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ITextSelection)
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 struct Vector2;
 }
 // Forward declare root types
@@ -26,8 +23,6 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ITextSelection {
 public:
   // Declarations
-  __declspec(property(get = get_cursorColor, put = set_cursorColor)) ::UnityEngine::Color cursorColor;
-
   __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
 
   __declspec(property(get = get_cursorPosition)) ::UnityEngine::Vector2 cursorPosition;
@@ -46,8 +41,6 @@ public:
 
   __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
 
-  __declspec(property(get = get_selectionColor, put = set_selectionColor)) ::UnityEngine::Color selectionColor;
-
   __declspec(property(get = get_tripleClickSelectsLine, put = set_tripleClickSelectsLine)) bool tripleClickSelectsLine;
 
   /// @brief Method HasSelection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -58,9 +51,6 @@ public:
 
   /// @brief Method SelectNone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SelectNone();
-
-  /// @brief Method get_cursorColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Color get_cursorColor();
 
   /// @brief Method get_cursorIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_cursorIndex();
@@ -89,14 +79,8 @@ public:
   /// @brief Method get_selectIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method get_selectionColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Color get_selectionColor();
-
   /// @brief Method get_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_tripleClickSelectsLine();
-
-  /// @brief Method set_cursorColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_cursorColor(::UnityEngine::Color value);
 
   /// @brief Method set_cursorIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_cursorIndex(int32_t value);
@@ -116,9 +100,6 @@ public:
   /// @brief Method set_selectIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectIndex(int32_t value);
 
-  /// @brief Method set_selectionColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_selectionColor(::UnityEngine::Color value);
-
   /// @brief Method set_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_tripleClickSelectsLine(bool value);
 
@@ -127,7 +108,7 @@ public:
   ITextSelection(ITextSelection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,10 +32,10 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
   static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
-  /// @brief Method SafeDestroy, addr 0x33244ac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x35ad594, size 0xf8, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* obj);
 
-  /// @brief Method get_CurrentTimeStamp, addr 0x33243d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeStamp, addr 0x35ad4b8, size 0xdc, virtual false, abstract: false, final false
   static inline double_t get_CurrentTimeStamp();
 
 protected:
@@ -53,7 +53,7 @@ public:
   EssentialHelpers(EssentialHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

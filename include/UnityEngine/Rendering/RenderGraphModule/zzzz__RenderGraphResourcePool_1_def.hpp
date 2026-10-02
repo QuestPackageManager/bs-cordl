@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRenderGraphResourcePool_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderGraphResourcePool_1)
@@ -23,6 +24,9 @@ template <typename T> class Comparison_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+template <typename Type> struct PooledResourceEntry_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphLogger;
@@ -68,7 +72,7 @@ public:
   constexpr RenderGraphResourcePool_1_ResourceLogInfo(::StringW name, int64_t size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9358 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -132,7 +136,7 @@ public:
   RenderGraphResourcePool_1___c(RenderGraphResourcePool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,13 +155,13 @@ public:
 
   using __c = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1___c<Type>;
 
-  /// @brief Field m_FrameAllocatedResources, offset 0x18, size 0x8
+  /// @brief Field m_FrameAllocatedResources, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FrameAllocatedResources,
                       put = __cordl_internal_set_m_FrameAllocatedResources)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, Type>>* m_FrameAllocatedResources;
 
-  /// @brief Field m_ResourcePool, offset 0x10, size 0x8
+  /// @brief Field m_ResourcePool, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ResourcePool, put = __cordl_internal_set_m_ResourcePool)) ::System::Collections::Generic::Dictionary_2<
-      int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* m_ResourcePool;
+      int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>* m_ResourcePool;
 
   /// @brief Field s_ToRemoveList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ToRemoveList, put = setStaticF_s_ToRemoveList)) ::System::Collections::Generic::List_1<int32_t>* s_ToRemoveList;
@@ -167,6 +171,12 @@ public:
 
   /// @brief Method Cleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Cleanup();
+
+  /// @brief Method GetMemorySizeInMB, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline float_t GetMemorySizeInMB();
+
+  /// @brief Method GetNumResourcesAvailable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t GetNumResourcesAvailable();
 
   /// @brief Method GetResourceName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<Type> res);
@@ -197,10 +207,10 @@ public:
   inline void ReleaseInternalResource(Type res);
 
   /// @brief Method ReleaseResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ReleaseResource(int32_t hash, Type resource, int32_t currentFrameIndex);
+  inline void ReleaseResource(int32_t hash, Type resource, int32_t currentFrameIndex, int32_t currentExecutionCount);
 
   /// @brief Method TryGetResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetResource(int32_t hashCode, ::by_ref<Type> resource);
+  inline bool TryGetResource(int32_t hashCode, ::by_ref<Type> resource, int32_t currentFrameIndex, int32_t currentExecutionCount);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
@@ -211,16 +221,17 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, Type>>*& __cordl_internal_get_m_FrameAllocatedResources();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* const&
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t,
+                                                         ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>* const&
   __cordl_internal_get_m_ResourcePool() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>*&
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>*&
   __cordl_internal_get_m_ResourcePool();
 
   constexpr void __cordl_internal_set_m_FrameAllocatedResources(::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, Type>>* value);
 
-  constexpr void
-  __cordl_internal_set_m_ResourcePool(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* value);
+  constexpr void __cordl_internal_set_m_ResourcePool(
+      ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -244,16 +255,16 @@ public:
   RenderGraphResourcePool_1(RenderGraphResourcePool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9360 };
 
   /// @brief Field kStaleResourceLifetime offset 0xffffffff size 0x4
   static constexpr int32_t kStaleResourceLifetime{ static_cast<int32_t>(0xa) };
 
-  /// [TupleElementNames(new[] { "resource", "frameIndex" })]
-  /// @brief Field m_ResourcePool, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* ___m_ResourcePool;
+  /// @brief Field m_ResourcePool, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::UnityEngine::Rendering::RenderGraphModule::PooledResourceEntry_1<Type>>*>*
+      ___m_ResourcePool;
 
-  /// @brief Field m_FrameAllocatedResources, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_FrameAllocatedResources, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, Type>>* ___m_FrameAllocatedResources;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

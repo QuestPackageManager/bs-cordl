@@ -34,6 +34,9 @@ public:
   /// @brief Method AddListener, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
+  /// @brief Method IsAppFocusCurrentlyLost, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool IsAppFocusCurrentlyLost();
+
   /// @brief Method RefreshControllersReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RefreshControllersReference();
 
@@ -54,7 +57,7 @@ public:
   IXRSystemState(IXRSystemState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

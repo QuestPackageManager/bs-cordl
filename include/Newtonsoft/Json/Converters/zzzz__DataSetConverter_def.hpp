@@ -36,19 +36,19 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE DataSetConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x5d978d8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x61b14bc, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* valueType);
 
   static inline ::Newtonsoft::Json::Converters::DataSetConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5d97604, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61b11e8, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5d97190, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61b0d74, size 0x470, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5d97958, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b153c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   DataSetConverter(DataSetConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

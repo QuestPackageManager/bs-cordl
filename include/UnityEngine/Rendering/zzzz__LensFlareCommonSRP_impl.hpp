@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo::*)(int32_t, ::UnityEngine::Rendering::LensFlareComponentSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x679a45c;
+  constexpr static std::size_t addrs = 0x6bb59ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,147 +78,171 @@ inline ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo::LensFlareCommonSRP_LensFlareCompInfo() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0._ctor
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::*)()>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::*)()>(
+    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x679a458;
+  constexpr static std::size_t addrs = 0x6bb59e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0._AddData_b__0
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0._AddData_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::*)(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*)>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::_AddData_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::*)(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*)>(
+    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::_AddData_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67a1598;
+  constexpr static std::size_t addrs = 0x6bbc05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0*>(),
                                                              { "<AddData>b__0", {}, { ::i2c::type_of<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP>& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::__cordl_internal_get_newData() {
+constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP>& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::__cordl_internal_get_newData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newData;
 }
-constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> const& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::__cordl_internal_get_newData() const {
+constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> const& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::__cordl_internal_get_newData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newData;
 }
-constexpr void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::__cordl_internal_set_newData(::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> value) {
+constexpr void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::__cordl_internal_set_newData(::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___newData = value;
 }
-inline void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
+inline void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::_AddData_b__0(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* x) {
+inline bool UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::_AddData_b__0(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0*>(),
                                                            { "<AddData>b__0", {}, { ::i2c::type_of<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0* UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0*>());
+inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0* UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::LensFlareCommonSRP___c__DisplayClass50_0() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0._ctor
+constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0::LensFlareCommonSRP___c__DisplayClass56_0() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::*)()>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::*)()>(
+    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x679a6ac;
+  constexpr static std::size_t addrs = 0x6bb5c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0._RemoveData_b__0
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0._RemoveData_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::*)(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*)>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::_RemoveData_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::*)(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*)>(
+    &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::_RemoveData_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67a1614;
+  constexpr static std::size_t addrs = 0x6bbc0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0*>(),
                                                              { "<RemoveData>b__0", {}, { ::i2c::type_of<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP>& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::__cordl_internal_get_data() {
+constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP>& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::__cordl_internal_get_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> const& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::__cordl_internal_get_data() const {
+constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> const& UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::__cordl_internal_get_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::__cordl_internal_set_data(::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> value) {
+constexpr void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::__cordl_internal_set_data(::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___data = value;
 }
-inline void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
+inline void UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::_RemoveData_b__0(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* x) {
+inline bool UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::_RemoveData_b__0(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0*>(),
                                                            { "<RemoveData>b__0", {}, { ::i2c::type_of<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0* UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0*>());
+inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0* UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::LensFlareCommonSRP___c__DisplayClass51_0() {}
+constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0::LensFlareCommonSRP___c__DisplayClass57_0() {}
 // Ctor Parameters [CppParam { name: "screenPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "float_t", modifiers: "",
 // def_value: Some("{}"), comment: None }, CppParam { name: "globalCos0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "globalSin0", ty: "float_t", modifiers:
-// "", def_value: Some("{}"), comment: None }, CppParam { name: "vScreenRatio", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "element", ty:
-// "::UnityEngine::Rendering::LensFlareDataElementSRP*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "combinedScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "usedAspectRatio", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0::LensFlareCommonSRP___c__DisplayClass74_0(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0,
-                                                                                                                       float_t globalSin0, ::UnityEngine::Vector2 vScreenRatio,
-                                                                                                                       ::UnityEngine::Rendering::LensFlareDataElementSRP* element,
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "element", ty: "::UnityEngine::Rendering::LensFlareDataElementSRP*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "combinedScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "usedAspectRatio", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
+constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0::LensFlareCommonSRP___c__DisplayClass80_0(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0,
+                                                                                                                       float_t globalSin0, ::UnityEngine::Rendering::LensFlareDataElementSRP* element,
                                                                                                                        float_t combinedScale, float_t usedAspectRatio) noexcept {
   this->screenPos = screenPos;
   this->position = position;
   this->globalCos0 = globalCos0;
   this->globalSin0 = globalSin0;
-  this->vScreenRatio = vScreenRatio;
   this->element = element;
   this->combinedScale = combinedScale;
   this->usedAspectRatio = usedAspectRatio;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0::LensFlareCommonSRP___c__DisplayClass74_0() {}
+constexpr ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0::LensFlareCommonSRP___c__DisplayClass80_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6799a74;
+  constexpr static std::size_t addrs = 0x6bb4ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.get_requireOcclusionRTRandomWrite
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::get_requireOcclusionRTRandomWrite)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6bb4ecc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "get_requireOcclusionRTRandomWrite", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.CheckOcclusionBasedOnDeviceType
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::CheckOcclusionBasedOnDeviceType)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6bb4f30;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "CheckOcclusionBasedOnDeviceType", {}, {} })));
     return ___internal_method;
   }
 };
@@ -226,8 +250,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsOcclusionRTCompatible)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6799a78;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6bb4fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "IsOcclusionRTCompatible", {}, {} })));
@@ -238,8 +262,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::GetOcclusionRTFormat)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6799b9c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6bb50ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "GetOcclusionRTFormat", {}, {} })));
@@ -250,8 +274,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experiment
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::Initialize)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6799c08;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x6bb5190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "Initialize", {}, {} })));
@@ -263,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::Dispose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6799df0;
+  constexpr static std::size_t addrs = 0x6bb5380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "Dispose", {}, {} })));
@@ -275,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::LensFlareCommonSRP* (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::get_Instance)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6799ec0;
+  constexpr static std::size_t addrs = 0x6bb5450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "get_Instance", {}, {} })));
@@ -288,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>* (
     ::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::get_Data)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x679a040;
+  constexpr static std::size_t addrs = 0x6bb55d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "get_Data", {}, {} })));
@@ -300,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsEmpty)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x679a09c;
+  constexpr static std::size_t addrs = 0x6bb562c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "IsEmpty", {}, {} })));
@@ -312,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::GetNextAvailableIndex)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x679a134;
+  constexpr static std::size_t addrs = 0x6bb56c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "GetNextAvailableIndex", {}, {} })));
@@ -325,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP::*)(::UnityEngine::Rendering::LensFlareComponentSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::AddData)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x679a274;
+  constexpr static std::size_t addrs = 0x6bb5804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP::*)(::UnityEngine::Rendering::LensFlareComponentSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::RemoveData)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x679a468;
+  constexpr static std::size_t addrs = 0x6bb59f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
@@ -353,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationPointLight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679a6b0;
+  constexpr static std::size_t addrs = 0x6bb5c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationDirLight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x679a6b8;
+  constexpr static std::size_t addrs = 0x6bb5c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationSpotConeLight)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x679a6d8;
+  constexpr static std::size_t addrs = 0x6bb5c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationSpotBoxLight)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x679a78c;
+  constexpr static std::size_t addrs = 0x6bb5d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationSpotPyramidLight)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x679a7bc;
+  constexpr static std::size_t addrs = 0x6bb5d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,8 +449,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationAreaTubeLight)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x679a868;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6bb5df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuateForwardLight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x679ad90;
+  constexpr static std::size_t addrs = 0x6bb62e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationAreaRectangleLight)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x679adb0;
+  constexpr static std::size_t addrs = 0x6bb6300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationAreaDiscLight)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x679ae4c;
+  constexpr static std::size_t addrs = 0x6bb639c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::LensFlareComponentSRP*, ::UnityEngine::Rendering::LensFlareDataSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::IsLensFlareSRPHidden)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x679aee8;
+  constexpr static std::size_t addrs = 0x6bb6438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,13 +523,32 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::C
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.InternalGetFlareData0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t,
+                                                                                  float_t, ::UnityEngine::Vector2, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::InternalGetFlareData0)> {
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6bb6560;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                            { "InternalGetFlareData0",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.GetFlareData0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t,
                                                                                   float_t, ::UnityEngine::Vector2, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::GetFlareData0)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x679b010;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6bb66e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -521,17 +564,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.GetLensFlareRayOffset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t, float_t, float_t, ::UnityEngine::Vector2)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::GetLensFlareRayOffset)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x679b228;
+  constexpr static std::size_t addrs = 0x6bb6808;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                                                           { "GetLensFlareRayOffset",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                                                                                               ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                            { "GetLensFlareRayOffset", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -540,8 +582,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, bool, bool, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewport)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x679b25c;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6bb683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
@@ -555,33 +597,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.WorldToViewportLocal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(bool, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(bool, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3, bool)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportLocal)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x679b3b4;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6bb69d0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                            { "WorldToViewportLocal",
-                              {},
-                              { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                                                             { "WorldToViewportLocal",
+                                                               {},
+                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                 ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.WorldToViewportDistance
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3, bool)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportDistance)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x679b430;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6bb6a78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                             { "WorldToViewportDistance", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                                                { "WorldToViewportDistance", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -590,74 +632,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsCloudLayerOpacityNeeded)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x679b4f0;
+  constexpr static std::size_t addrs = 0x6bb6c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "IsCloudLayerOpacityNeeded", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.SetOcclusionPermutation
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, bool, int32_t, ::UnityEngine::Texture*)>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP::SetOcclusionPermutation)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x679b738;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                            { "SetOcclusionPermutation",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Texture*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.ComputeOcclusion
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*, int32_t, float_t, float_t, bool, float_t, float_t, bool,
-                         ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::UnsafeCommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*, int32_t,
-                         int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x679b860;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "ComputeOcclusion",
-                                                                                                                                 {},
-                                                                                                                                 { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -668,7 +647,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::M
                                                                 float_t, float_t, bool, ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::UnsafeCommandBuffer*, bool, bool,
                                                                 ::UnityEngine::Texture*, ::UnityEngine::Texture*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x679baf4;
+  constexpr static std::size_t addrs = 0x6bb6e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -683,61 +662,72 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::M
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.ComputeOcclusion
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*, int32_t, float_t, float_t, bool, float_t, float_t, bool,
-                         ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*, int32_t, int32_t,
-                         int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x679b9b8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "ComputeOcclusion",
-                                                                                                                                 {},
-                                                                                                                                 { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<bool>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.ForceSingleElement
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::LensFlareDataElementSRP*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ForceSingleElement)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x679cc38;
+  constexpr static std::size_t addrs = 0x6bb7868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
                                                                                            { "ForceSingleElement", {}, { ::i2c::type_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.PreDrawSetup
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool, bool, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*,
+                                                                int32_t, ::UnityEngine::Rendering::CommandBuffer*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::PreDrawSetup)> {
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x6bb78a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                            { "PreDrawSetup",
+                              {},
+                              { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::RenderTargetIdentifier>(), ::i2c::type_of<::UnityEngine::Camera*>(),
+                                ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.DoComponent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool, ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*, ::UnityEngine::Camera*, ::UnityEngine::Vector3, float_t, float_t,
+                                                                bool, float_t, float_t, bool, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Vector3>,
+                                                                ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Light*>,
+                                                                ::by_ref<bool>, ::by_ref<float_t>, ::by_ref<float_t>)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoComponent)> {
+  constexpr static std::size_t size = 0x894;
+  constexpr static std::size_t addrs = 0x6bb7ab0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "DoComponent",
+                                                                                                                    {},
+                                                                                                                    { ::i2c::type_of<bool>(),
+                                                                                                                      ::i2c::type_of<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>(),
+                                                                                                                      ::i2c::type_of<::UnityEngine::Camera*>(),
+                                                                                                                      ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                                                                      ::i2c::type_of<float_t>(),
+                                                                                                                      ::i2c::type_of<float_t>(),
+                                                                                                                      ::i2c::type_of<bool>(),
+                                                                                                                      ::i2c::type_of<float_t>(),
+                                                                                                                      ::i2c::type_of<float_t>(),
+                                                                                                                      ::i2c::type_of<bool>(),
+                                                                                                                      ::i2c::type_of<::UnityEngine::Matrix4x4>(),
+                                                                                                                      ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
+                                                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Light*>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<bool>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                                                      ::i2c::type_of<::by_ref<float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -747,8 +737,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*, int32_t, float_t, float_t, bool,
                                                                 float_t, float_t, bool, ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, bool, bool,
                                                                 ::UnityEngine::Texture*, ::UnityEngine::Texture*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
-  constexpr static std::size_t size = 0xfec;
-  constexpr static std::size_t addrs = 0x679bc4c;
+  constexpr static std::size_t size = 0x8c8;
+  constexpr static std::size_t addrs = 0x6bb6fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -768,9 +758,9 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::LensFlareDataElementSRP*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Color,
                                                                 ::UnityEngine::Light*, float_t, float_t, ::UnityEngine::Material*, ::UnityEngine::Vector2, bool, ::UnityEngine::Vector2,
-                                                                ::UnityEngine::Vector4, bool, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElementsSingle)> {
-  constexpr static std::size_t size = 0x1720;
-  constexpr static std::size_t addrs = 0x679ceac;
+                                                                ::UnityEngine::Vector3, bool, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElementsSingle)> {
+  constexpr static std::size_t size = 0x16d4;
+  constexpr static std::size_t addrs = 0x6bb8580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -780,7 +770,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                   { ::i2c::type_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
                                                     ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Light*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
                                                     ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>(),
-                                                    ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+                                                    ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -788,10 +778,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*>>, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Color,
-                                                                ::UnityEngine::Light*, float_t, float_t, ::UnityEngine::Material*, ::UnityEngine::Vector2, bool, ::UnityEngine::Vector2,
-                                                                ::UnityEngine::Vector4, bool, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElements)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x679e5cc;
+                                                                ::UnityEngine::Light*, float_t, float_t, ::UnityEngine::Material*, ::UnityEngine::Vector2, bool, float_t, ::UnityEngine::Vector4, bool,
+                                                                int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElements)> {
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x6bb9c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -801,60 +791,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Array
                                            {},
                                            { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*>>>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
                                              ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Light*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                                             ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                             ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>(),
                                              ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.DoLensFlareDataDrivenCommon
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::UnityEngine::Material*, ::UnityEngine::Camera*, ::UnityEngine::Rect, ::UnityEngine::Experimental::Rendering::XRPass*, int32_t, float_t, float_t, bool, float_t, float_t, bool,
-    ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::UnsafeCommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*,
-    ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, int32_t, int32_t, int32_t,
-    int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x679e998;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                             { "DoLensFlareDataDrivenCommon",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rect>(),
-                                                                 ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                 ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::RenderTargetIdentifier>(),
-                                                                 ::i2c::type_of<::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -867,7 +805,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, bool)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x679eb4c;
+  constexpr static std::size_t addrs = 0x6bba02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -901,65 +839,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.DoLensFlareDataDrivenCommon
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::UnityEngine::Material*, ::UnityEngine::Camera*, ::UnityEngine::Rect, ::UnityEngine::Experimental::Rendering::XRPass*, int32_t, float_t, float_t, bool, float_t, float_t, bool,
-    ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*,
-    ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, int32_t, int32_t, int32_t,
-    int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x679fcdc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                             { "DoLensFlareDataDrivenCommon",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rect>(),
-                                                                 ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                 ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<bool>(),
-                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::RenderTargetIdentifier>(),
-                                                                 ::i2c::type_of<::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.DoLensFlareDataDrivenCommon
-template <>
-
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Camera*, ::UnityEngine::Rect, ::UnityEngine::Experimental::Rendering::XRPass*, int32_t, float_t, float_t, bool, float_t, float_t,
                          bool, ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*,
                          ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, bool)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
-  constexpr static std::size_t size = 0xfbc;
-  constexpr static std::size_t addrs = 0x679ed20;
+  constexpr static std::size_t size = 0x838;
+  constexpr static std::size_t addrs = 0x6bba200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -998,7 +884,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4,
                          ::UnityEngine::Rendering::UnsafeCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x679fe90;
+  constexpr static std::size_t addrs = 0x6bbaa38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1017,59 +903,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.DoLensFlareScreenSpaceCommon
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::UnityEngine::Material*, ::UnityEngine::Camera*, float_t, float_t, ::UnityEngine::Color, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*,
-    ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Rendering::CommandBuffer*,
-    ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon)> {
-  constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x67a0a70;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "DoLensFlareScreenSpaceCommon",
-                                                                                                                                 {},
-                                                                                                                                 { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<float_t>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Color>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                                                                                                   ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<int32_t>(),
-                                                                                                                                   ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP.DoLensFlareScreenSpaceCommon
-template <>
-
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Camera*, float_t, float_t, ::UnityEngine::Color, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*,
                          ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4,
                          ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon)> {
-  constexpr static std::size_t size = 0x990;
-  constexpr static std::size_t addrs = 0x67a00e0;
+  constexpr static std::size_t size = 0xa74;
+  constexpr static std::size_t addrs = 0x6bbac88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1091,7 +930,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::DoPaniniProjection)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x679cc70;
+  constexpr static std::size_t addrs = 0x6bb8344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
@@ -1107,7 +946,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::CalcViewExtents)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67a0cdc;
+  constexpr static std::size_t addrs = 0x6bbb6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1121,7 +960,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::CalcCropExtents)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67a0d20;
+  constexpr static std::size_t addrs = 0x6bbb740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1135,7 +974,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::Panini_Generic_Inv)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x67a0de8;
+  constexpr static std::size_t addrs = 0x6bbb808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
@@ -1143,81 +982,81 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ShapeAttenuationAreaTubeLight_g__Fpo_57_0
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ShapeAttenuationAreaTubeLight_g__Fpo_63_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fpo_57_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fpo_63_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x67a1540;
+  constexpr static std::size_t addrs = 0x6bbc004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                             { "<ShapeAttenuationAreaTubeLight>g__Fpo|57_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                             { "<ShapeAttenuationAreaTubeLight>g__Fpo|63_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ShapeAttenuationAreaTubeLight_g__Fwt_57_1
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ShapeAttenuationAreaTubeLight_g__Fwt_63_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fwt_57_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fwt_63_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67a1580;
+  constexpr static std::size_t addrs = 0x6bbc044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                             { "<ShapeAttenuationAreaTubeLight>g__Fwt|57_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                             { "<ShapeAttenuationAreaTubeLight>g__Fwt|63_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_57_2
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_63_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_57_2)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x679aa9c;
+    &::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_63_2)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x6bb5ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                         { "<ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|57_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+                                         { "<ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|63_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_74_0
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_80_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::AnimationCurve*,
-                                                                                  ::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0>)>(
-    &::UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_74_0)> {
+                                                                                  ::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0>)>(
+    &::UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_80_0)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x679e7a4;
+  constexpr static std::size_t addrs = 0x6bb9e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                         { "<ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|74_0",
+                                         { "<ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|80_0",
                                            {},
                                            { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
-                                             ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0>>() } })));
+                                             ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ProcessLensFlareSRPElementsSingle_g__RandomRange_74_1
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareCommonSRP._ProcessLensFlareSRPElementsSingle_g__RandomRange_80_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__RandomRange_74_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__RandomRange_80_1)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x679e958;
+  constexpr static std::size_t addrs = 0x6bb9fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                             { "<ProcessLensFlareSRPElementsSingle>g__RandomRange|74_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                             { "<ProcessLensFlareSRPElementsSingle>g__RandomRange|80_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -1363,6 +1202,12 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::setStaticF__FlareData5(i
 inline int32_t UnityEngine::Rendering::LensFlareCommonSRP::getStaticF__FlareData5() {
   return ::cordl_internals::getStaticField<int32_t, "_FlareData5", ::UnityEngine::Rendering::LensFlareCommonSRP*>();
 }
+inline void UnityEngine::Rendering::LensFlareCommonSRP::setStaticF__FlareData6(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_FlareData6", ::UnityEngine::Rendering::LensFlareCommonSRP*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::LensFlareCommonSRP::getStaticF__FlareData6() {
+  return ::cordl_internals::getStaticField<int32_t, "_FlareData6", ::UnityEngine::Rendering::LensFlareCommonSRP*>();
+}
 inline void UnityEngine::Rendering::LensFlareCommonSRP::setStaticF__FlareRadialTint(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_FlareRadialTint", ::UnityEngine::Rendering::LensFlareCommonSRP*>(std::forward<int32_t>(value));
 }
@@ -1453,9 +1298,31 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::setStaticF_s_SupportsLen
 inline bool UnityEngine::Rendering::LensFlareCommonSRP::getStaticF_s_SupportsLensFlare32bitsFormat() {
   return ::cordl_internals::getStaticField<bool, "s_SupportsLensFlare32bitsFormat", ::UnityEngine::Rendering::LensFlareCommonSRP*>();
 }
+inline void UnityEngine::Rendering::LensFlareCommonSRP::setStaticF_s_SupportsLensFlare16bitsFormatWithLoadStore(bool value) {
+  ::cordl_internals::setStaticField<bool, "s_SupportsLensFlare16bitsFormatWithLoadStore", ::UnityEngine::Rendering::LensFlareCommonSRP*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::Rendering::LensFlareCommonSRP::getStaticF_s_SupportsLensFlare16bitsFormatWithLoadStore() {
+  return ::cordl_internals::getStaticField<bool, "s_SupportsLensFlare16bitsFormatWithLoadStore", ::UnityEngine::Rendering::LensFlareCommonSRP*>();
+}
+inline void UnityEngine::Rendering::LensFlareCommonSRP::setStaticF_s_SupportsLensFlare32bitsFormatWithLoadStore(bool value) {
+  ::cordl_internals::setStaticField<bool, "s_SupportsLensFlare32bitsFormatWithLoadStore", ::UnityEngine::Rendering::LensFlareCommonSRP*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::Rendering::LensFlareCommonSRP::getStaticF_s_SupportsLensFlare32bitsFormatWithLoadStore() {
+  return ::cordl_internals::getStaticField<bool, "s_SupportsLensFlare32bitsFormatWithLoadStore", ::UnityEngine::Rendering::LensFlareCommonSRP*>();
+}
 inline void UnityEngine::Rendering::LensFlareCommonSRP::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::LensFlareCommonSRP::get_requireOcclusionRTRandomWrite() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "get_requireOcclusionRTRandomWrite", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline bool UnityEngine::Rendering::LensFlareCommonSRP::CheckOcclusionBasedOnDeviceType() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "CheckOcclusionBasedOnDeviceType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::Rendering::LensFlareCommonSRP::IsOcclusionRTCompatible() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "IsOcclusionRTCompatible", {}, {} })));
@@ -1567,6 +1434,19 @@ inline bool UnityEngine::Rendering::LensFlareCommonSRP::IsLensFlareSRPHidden(::U
                                                                ::i2c::type_of<::UnityEngine::Rendering::LensFlareDataSRP*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, cam, comp, data);
 }
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::LensFlareCommonSRP::InternalGetFlareData0(::UnityEngine::Vector2 screenPos, ::UnityEngine::Vector2 translationScale,
+                                                                                                ::UnityEngine::Vector2 rayOff0, ::UnityEngine::Vector2 vLocalScreenRatio, float_t angleDeg,
+                                                                                                float_t position, float_t angularOffset, ::UnityEngine::Vector2 positionOffset, bool autoRotate) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                          { "InternalGetFlareData0",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                              ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, screenPos, translationScale, rayOff0, vLocalScreenRatio, angleDeg, position, angularOffset,
+                                                                     positionOffset, autoRotate);
+}
 inline ::UnityEngine::Vector4 UnityEngine::Rendering::LensFlareCommonSRP::GetFlareData0(::UnityEngine::Vector2 screenPos, ::UnityEngine::Vector2 translationScale, ::UnityEngine::Vector2 rayOff0,
                                                                                         ::UnityEngine::Vector2 vLocalScreenRatio, float_t angleDeg, float_t position, float_t angularOffset,
                                                                                         ::UnityEngine::Vector2 positionOffset, bool autoRotate) {
@@ -1580,14 +1460,12 @@ inline ::UnityEngine::Vector4 UnityEngine::Rendering::LensFlareCommonSRP::GetFla
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, screenPos, translationScale, rayOff0, vLocalScreenRatio, angleDeg, position, angularOffset,
                                                                      positionOffset, autoRotate);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::LensFlareCommonSRP::GetLensFlareRayOffset(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0, float_t globalSin0,
-                                                                                                ::UnityEngine::Vector2 vAspectRatio) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                                                         { "GetLensFlareRayOffset",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                                                                                             ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, screenPos, position, globalCos0, globalSin0, vAspectRatio);
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::LensFlareCommonSRP::GetLensFlareRayOffset(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0, float_t globalSin0) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                          { "GetLensFlareRayOffset", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, screenPos, position, globalCos0, globalSin0);
 }
 inline ::UnityEngine::Vector3 UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewport(::UnityEngine::Camera* camera, bool isLocalLight, bool isCameraRelative,
                                                                                           ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Vector3 positionWS) {
@@ -1599,77 +1477,25 @@ inline ::UnityEngine::Vector3 UnityEngine::Rendering::LensFlareCommonSRP::WorldT
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, camera, isLocalLight, isCameraRelative, viewProjMatrix, positionWS);
 }
 inline ::UnityEngine::Vector3 UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportLocal(bool isCameraRelative, ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Vector3 cameraPosWS,
-                                                                                               ::UnityEngine::Vector3 positionWS) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-          { "WorldToViewportLocal", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, isCameraRelative, viewProjMatrix, cameraPosWS, positionWS);
-}
-inline ::UnityEngine::Vector3 UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportDistance(::UnityEngine::Camera* cam, ::UnityEngine::Vector3 positionWS) {
+                                                                                               ::UnityEngine::Vector3 positionWS, bool isPerspective) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                           { "WorldToViewportDistance", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, cam, positionWS);
+                                                           { "WorldToViewportLocal",
+                                                             {},
+                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, isCameraRelative, viewProjMatrix, cameraPosWS, positionWS, isPerspective);
+}
+inline ::UnityEngine::Vector3 UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportDistance(::UnityEngine::Camera* cam, ::UnityEngine::Vector3 positionWS, bool isPerspective) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                                              { "WorldToViewportDistance", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, cam, positionWS, isPerspective);
 }
 inline bool UnityEngine::Rendering::LensFlareCommonSRP::IsCloudLayerOpacityNeeded(::UnityEngine::Camera* cam) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "IsCloudLayerOpacityNeeded", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, cam);
-}
-inline void UnityEngine::Rendering::LensFlareCommonSRP::SetOcclusionPermutation(::UnityEngine::Rendering::CommandBuffer* cmd, bool useFogOpacityOcclusion, int32_t _FlareSunOcclusionTex,
-                                                                                ::UnityEngine::Texture* sunOcclusionTexture) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "SetOcclusionPermutation",
-                                                                                                                  {},
-                                                                                                                  { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<bool>(),
-                                                                                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Texture*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, useFogOpacityOcclusion, _FlareSunOcclusionTex, sunOcclusionTexture);
-}
-inline void UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr,
-                                                                         int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit,
-                                                                         bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS, ::UnityEngine::Matrix4x4 viewProjMatrix,
-                                                                         ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer,
-                                                                         ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture, int32_t _FlareOcclusionTex,
-                                                                         int32_t _FlareCloudOpacity, int32_t _FlareOcclusionIndex, int32_t _FlareTex, int32_t _FlareColorValue,
-                                                                         int32_t _FlareSunOcclusionTex, int32_t _FlareData0, int32_t _FlareData1, int32_t _FlareData2, int32_t _FlareData3,
-                                                                         int32_t _FlareData4) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "ComputeOcclusion",
-                                                                                                                               {},
-                                                                                                                               { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, xr, xrIndex, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
-                                                   isCameraRelative, cameraPositionWS, viewProjMatrix, cmd, taaEnabled, hasCloudLayer, cloudOpacityTexture, sunOcclusionTexture, _FlareOcclusionTex,
-                                                   _FlareCloudOpacity, _FlareOcclusionIndex, _FlareTex, _FlareColorValue, _FlareSunOcclusionTex, _FlareData0, _FlareData1, _FlareData2, _FlareData3,
-                                                   _FlareData4);
 }
 inline void UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                                                          int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit,
@@ -1688,53 +1514,55 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion(::Unity
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, xr, xrIndex, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
                                                    isCameraRelative, cameraPositionWS, viewProjMatrix, cmd, taaEnabled, hasCloudLayer, cloudOpacityTexture, sunOcclusionTexture);
 }
-inline void UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr,
-                                                                         int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit,
-                                                                         bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS, ::UnityEngine::Matrix4x4 viewProjMatrix,
-                                                                         ::UnityEngine::Rendering::CommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer, ::UnityEngine::Texture* cloudOpacityTexture,
-                                                                         ::UnityEngine::Texture* sunOcclusionTexture, int32_t _FlareOcclusionTex, int32_t _FlareCloudOpacity,
-                                                                         int32_t _FlareOcclusionIndex, int32_t _FlareTex, int32_t _FlareColorValue, int32_t _FlareSunOcclusionTex, int32_t _FlareData0,
-                                                                         int32_t _FlareData1, int32_t _FlareData2, int32_t _FlareData3, int32_t _FlareData4) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "ComputeOcclusion",
-                                                                                                                               {},
-                                                                                                                               { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<bool>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, xr, xrIndex, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
-                                                   isCameraRelative, cameraPositionWS, viewProjMatrix, cmd, taaEnabled, hasCloudLayer, cloudOpacityTexture, sunOcclusionTexture, _FlareOcclusionTex,
-                                                   _FlareCloudOpacity, _FlareOcclusionIndex, _FlareTex, _FlareColorValue, _FlareSunOcclusionTex, _FlareData0, _FlareData1, _FlareData2, _FlareData3,
-                                                   _FlareData4);
-}
 inline bool UnityEngine::Rendering::LensFlareCommonSRP::ForceSingleElement(::UnityEngine::Rendering::LensFlareDataElementSRP* element) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
                                                                                          { "ForceSingleElement", {}, { ::i2c::type_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, element);
+}
+inline bool UnityEngine::Rendering::LensFlareCommonSRP::PreDrawSetup(bool occlusionOnly, bool clearRenderTarget, ::UnityEngine::Rendering::RenderTargetIdentifier rt, ::UnityEngine::Camera* cam,
+                                                                     ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, ::UnityEngine::Rendering::CommandBuffer* cmd) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
+                          { "PreDrawSetup",
+                            {},
+                            { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::RenderTargetIdentifier>(), ::i2c::type_of<::UnityEngine::Camera*>(),
+                              ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, occlusionOnly, clearRenderTarget, rt, cam, xr, xrIndex, cmd);
+}
+inline bool UnityEngine::Rendering::LensFlareCommonSRP::DoComponent(bool occlusionOnly, ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* info, ::UnityEngine::Camera* cam,
+                                                                    ::UnityEngine::Vector3 cameraPositionWS, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance,
+                                                                    float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Matrix4x4 viewProjMatrix,
+                                                                    ::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Vector3> flarePosWS,
+                                                                    ::by_ref<::UnityEngine::Vector3> flarePosViewport, ::by_ref<::UnityEngine::Vector2> flarePosScreen,
+                                                                    ::by_ref<::UnityEngine::Vector3> camToFlare, ::by_ref<::UnityEngine::Light*> light, ::by_ref<bool> isDirLight,
+                                                                    ::by_ref<float_t> flareIntensity, ::by_ref<float_t> distanceAttenuation) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "DoComponent",
+                                                                                                                  {},
+                                                                                                                  { ::i2c::type_of<bool>(),
+                                                                                                                    ::i2c::type_of<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>(),
+                                                                                                                    ::i2c::type_of<::UnityEngine::Camera*>(),
+                                                                                                                    ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                                                                    ::i2c::type_of<float_t>(),
+                                                                                                                    ::i2c::type_of<float_t>(),
+                                                                                                                    ::i2c::type_of<bool>(),
+                                                                                                                    ::i2c::type_of<float_t>(),
+                                                                                                                    ::i2c::type_of<float_t>(),
+                                                                                                                    ::i2c::type_of<bool>(),
+                                                                                                                    ::i2c::type_of<::UnityEngine::Matrix4x4>(),
+                                                                                                                    ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
+                                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Light*>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<bool>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<float_t>>(),
+                                                                                                                    ::i2c::type_of<::by_ref<float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, occlusionOnly, info, cam, cameraPositionWS, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
+                                                   isCameraRelative, viewProjMatrix, cmd, flarePosWS, flarePosViewport, flarePosScreen, camToFlare, light, isDirLight, flareIntensity,
+                                                   distanceAttenuation);
 }
 inline void UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                                                          int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit,
@@ -1756,7 +1584,7 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion(::Unity
 inline void UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElementsSingle(::UnityEngine::Rendering::LensFlareDataElementSRP* element, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                                                                           ::UnityEngine::Color globalColorModulation, ::UnityEngine::Light* light, float_t compIntensity, float_t scale,
                                                                                           ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Vector2 screenPos, bool compAllowOffScreen,
-                                                                                          ::UnityEngine::Vector2 vScreenRatio, ::UnityEngine::Vector4 flareData1, bool preview, int32_t depth) {
+                                                                                          ::UnityEngine::Vector2 vScreenRatio, ::UnityEngine::Vector3 flareData1, bool preview, int32_t depth) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
                                               { "ProcessLensFlareSRPElementsSingle",
@@ -1764,75 +1592,25 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPEleme
                                                 { ::i2c::type_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
                                                   ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Light*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
                                                   ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>(),
-                                                  ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+                                                  ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, element, cmd, globalColorModulation, light, compIntensity, scale, lensFlareShader, screenPos, compAllowOffScreen,
                                                    vScreenRatio, flareData1, preview, depth);
 }
 inline void UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElements(::by_ref<::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*>> elements,
                                                                                     ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Color globalColorModulation,
                                                                                     ::UnityEngine::Light* light, float_t compIntensity, float_t scale, ::UnityEngine::Material* lensFlareShader,
-                                                                                    ::UnityEngine::Vector2 screenPos, bool compAllowOffScreen, ::UnityEngine::Vector2 vScreenRatio,
-                                                                                    ::UnityEngine::Vector4 flareData1, bool preview, int32_t depth) {
+                                                                                    ::UnityEngine::Vector2 screenPos, bool compAllowOffScreen, float_t aspect, ::UnityEngine::Vector4 flareData6,
+                                                                                    bool preview, int32_t depth) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
                                               { "ProcessLensFlareSRPElements",
                                                 {},
                                                 { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*>>>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
                                                   ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<::UnityEngine::Light*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                                                  ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>(),
-                                                  ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+                                                  ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>(),
+                                                  ::i2c::type_of<::UnityEngine::Vector4>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, elements, cmd, globalColorModulation, light, compIntensity, scale, lensFlareShader, screenPos, compAllowOffScreen,
-                                                   vScreenRatio, flareData1, preview, depth);
-}
-inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon(
-    ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
-    float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS, ::UnityEngine::Matrix4x4 viewProjMatrix,
-    ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer, ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture,
-    ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
-    ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>* GetLensFlareLightAttenuation, int32_t _FlareOcclusionRemapTex,
-    int32_t _FlareOcclusionTex, int32_t _FlareOcclusionIndex, int32_t _FlareCloudOpacity, int32_t _FlareSunOcclusionTex, int32_t _FlareTex, int32_t _FlareColorValue, int32_t _FlareData0,
-    int32_t _FlareData1, int32_t _FlareData2, int32_t _FlareData3, int32_t _FlareData4, bool debugView) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                           { "DoLensFlareDataDrivenCommon",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                               ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                               ::i2c::type_of<::UnityEngine::Rect>(),
-                                                               ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                               ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                               ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::RenderTargetIdentifier>(),
-                                                               ::i2c::type_of<::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, viewport, xr, xrIndex, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
-                                                   isCameraRelative, cameraPositionWS, viewProjMatrix, cmd, taaEnabled, hasCloudLayer, cloudOpacityTexture, sunOcclusionTexture, colorBuffer,
-                                                   GetLensFlareLightAttenuation, _FlareOcclusionRemapTex, _FlareOcclusionTex, _FlareOcclusionIndex, _FlareCloudOpacity, _FlareSunOcclusionTex,
-                                                   _FlareTex, _FlareColorValue, _FlareData0, _FlareData1, _FlareData2, _FlareData3, _FlareData4, debugView);
+                                                   aspect, flareData6, preview, depth);
 }
 inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon(
     ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
@@ -1868,56 +1646,6 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCom
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, viewport, xr, xrIndex, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
                                                    isCameraRelative, cameraPositionWS, viewProjMatrix, cmd, taaEnabled, hasCloudLayer, cloudOpacityTexture, sunOcclusionTexture, colorBuffer,
                                                    GetLensFlareLightAttenuation, debugView);
-}
-inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon(
-    ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
-    float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS, ::UnityEngine::Matrix4x4 viewProjMatrix,
-    ::UnityEngine::Rendering::CommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer, ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture,
-    ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer,
-    ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>* GetLensFlareLightAttenuation, int32_t _FlareOcclusionRemapTex,
-    int32_t _FlareOcclusionTex, int32_t _FlareOcclusionIndex, int32_t _FlareCloudOpacity, int32_t _FlareSunOcclusionTex, int32_t _FlareTex, int32_t _FlareColorValue, int32_t _FlareData0,
-    int32_t _FlareData1, int32_t _FlareData2, int32_t _FlareData3, int32_t _FlareData4, bool debugView) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                           { "DoLensFlareDataDrivenCommon",
-                                                             {},
-                                                             { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                               ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                               ::i2c::type_of<::UnityEngine::Rect>(),
-                                                               ::i2c::type_of<::UnityEngine::Experimental::Rendering::XRPass*>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                               ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<bool>(),
-                                                               ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                               ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                               ::i2c::type_of<::UnityEngine::Rendering::RenderTargetIdentifier>(),
-                                                               ::i2c::type_of<::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, viewport, xr, xrIndex, actualWidth, actualHeight, usePanini, paniniDistance, paniniCropToFit,
-                                                   isCameraRelative, cameraPositionWS, viewProjMatrix, cmd, taaEnabled, hasCloudLayer, cloudOpacityTexture, sunOcclusionTexture, colorBuffer,
-                                                   GetLensFlareLightAttenuation, _FlareOcclusionRemapTex, _FlareOcclusionTex, _FlareOcclusionIndex, _FlareCloudOpacity, _FlareSunOcclusionTex,
-                                                   _FlareTex, _FlareColorValue, _FlareData0, _FlareData1, _FlareData2, _FlareData3, _FlareData4, debugView);
 }
 inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon(
     ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
@@ -1974,52 +1702,6 @@ inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCo
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, actualWidth, actualHeight, tintColor, originalBloomTexture, bloomMipTexture, spectralLut,
                                                    streakTextureTmp, streakTextureTmp2, parameters1, parameters2, parameters3, parameters4, parameters5, cmd, result, debugView);
 }
-inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon(
-    ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, float_t actualWidth, float_t actualHeight, ::UnityEngine::Color tintColor, ::UnityEngine::Texture* originalBloomTexture,
-    ::UnityEngine::Texture* bloomMipTexture, ::UnityEngine::Texture* spectralLut, ::UnityEngine::Texture* streakTextureTmp, ::UnityEngine::Texture* streakTextureTmp2,
-    ::UnityEngine::Vector4 parameters1, ::UnityEngine::Vector4 parameters2, ::UnityEngine::Vector4 parameters3, ::UnityEngine::Vector4 parameters4, ::UnityEngine::Vector4 parameters5,
-    ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* result, int32_t _LensFlareScreenSpaceBloomMipTexture, int32_t _LensFlareScreenSpaceResultTexture,
-    int32_t _LensFlareScreenSpaceSpectralLut, int32_t _LensFlareScreenSpaceStreakTex, int32_t _LensFlareScreenSpaceMipLevel, int32_t _LensFlareScreenSpaceTintColor,
-    int32_t _LensFlareScreenSpaceParams1, int32_t _LensFlareScreenSpaceParams2, int32_t _LensFlareScreenSpaceParams3, int32_t _LensFlareScreenSpaceParams4, int32_t _LensFlareScreenSpaceParams5,
-    bool debugView) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(), { "DoLensFlareScreenSpaceCommon",
-                                                                                                                               {},
-                                                                                                                               { ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<float_t>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Color>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Texture*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Vector4>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(),
-                                                                                                                                 ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<int32_t>(),
-                                                                                                                                 ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, lensFlareShader, cam, actualWidth, actualHeight, tintColor, originalBloomTexture, bloomMipTexture, spectralLut,
-                                                   streakTextureTmp, streakTextureTmp2, parameters1, parameters2, parameters3, parameters4, parameters5, cmd, result,
-                                                   _LensFlareScreenSpaceBloomMipTexture, _LensFlareScreenSpaceResultTexture, _LensFlareScreenSpaceSpectralLut, _LensFlareScreenSpaceStreakTex,
-                                                   _LensFlareScreenSpaceMipLevel, _LensFlareScreenSpaceTintColor, _LensFlareScreenSpaceParams1, _LensFlareScreenSpaceParams2,
-                                                   _LensFlareScreenSpaceParams3, _LensFlareScreenSpaceParams4, _LensFlareScreenSpaceParams5, debugView);
-}
 inline void UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, float_t actualWidth, float_t actualHeight,
                                                                                      ::UnityEngine::Color tintColor, ::UnityEngine::Texture* originalBloomTexture,
                                                                                      ::UnityEngine::Texture* bloomMipTexture, ::UnityEngine::Texture* spectralLut,
@@ -2067,41 +1749,41 @@ inline ::UnityEngine::Vector2 UnityEngine::Rendering::LensFlareCommonSRP::Panini
                                                                                          { "Panini_Generic_Inv", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, projPos, d);
 }
-inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fpo_57_0(float_t d, float_t l) {
+inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fpo_63_0(float_t d, float_t l) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                           { "<ShapeAttenuationAreaTubeLight>g__Fpo|57_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                           { "<ShapeAttenuationAreaTubeLight>g__Fpo|63_0", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, d, l);
 }
-inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fwt_57_1(float_t d, float_t l) {
+inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fwt_63_1(float_t d, float_t l) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                           { "<ShapeAttenuationAreaTubeLight>g__Fwt|57_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                           { "<ShapeAttenuationAreaTubeLight>g__Fwt|63_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, d, l);
 }
-inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_57_2(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2) {
+inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_63_2(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                       { "<ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|57_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+                                       { "<ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|63_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, p1, p2);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_74_0(
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_80_0(
     ::UnityEngine::Vector2 rayOff, ::UnityEngine::Vector2 rayOff0, ::UnityEngine::Vector2 curSize, ::UnityEngine::AnimationCurve* distortionCurve,
-    ::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0> _cordl_fixed_empty_name_whitespace) {
+    ::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0> _cordl_fixed_empty_name_whitespace) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                       { "<ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|74_0",
+                                       { "<ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|80_0",
                                          {},
                                          { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(),
-                                           ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0>>() } })));
+                                           ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, rayOff, rayOff0, curSize, distortionCurve, _cordl_fixed_empty_name_whitespace);
 }
-inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__RandomRange_74_1(float_t min, float_t max) {
+inline float_t UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__RandomRange_80_1(float_t min, float_t max) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareCommonSRP*>(),
-                                                           { "<ProcessLensFlareSRPElementsSingle>g__RandomRange|74_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
+                                                           { "<ProcessLensFlareSRPElementsSingle>g__RandomRange|80_1", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, min, max);
 }
 inline ::UnityEngine::Rendering::LensFlareCommonSRP* UnityEngine::Rendering::LensFlareCommonSRP::New_ctor() {

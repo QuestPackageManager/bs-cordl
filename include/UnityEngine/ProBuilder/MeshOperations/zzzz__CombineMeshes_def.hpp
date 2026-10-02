@@ -71,10 +71,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes___c* New_ctor();
 
-  /// @brief Method <SplitByMaxVertexCount>b__5_0, addr 0x671e358, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <SplitByMaxVertexCount>b__5_0, addr 0x6b331a0, size 0x14, virtual false, abstract: false, final false
   inline int32_t _SplitByMaxVertexCount_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x671e354, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b3319c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes___c* getStaticF___9();
@@ -100,7 +100,7 @@ public:
   CombineMeshes___c(CombineMeshes___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,7 +117,7 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes___c;
 
-  /// @brief Method AccumulateMeshesInfo, addr 0x671c3f8, size 0xcd4, virtual false, abstract: false, final false
+  /// @brief Method AccumulateMeshesInfo, addr 0x6b31240, size 0xcd4, virtual false, abstract: false, final false
   static inline void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes, int32_t offset,
                                           ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> vertices,
                                           ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> faces,
@@ -127,25 +127,25 @@ public:
                                           ::by_ref<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> materialMap, ::UnityEngine::Transform* targetTransform);
 
   /// [Obsolete("Combine(IEnumerable<ProBuilderMesh> meshes) is deprecated. Plase use Combine(IEnumerable<ProBuilderMesh> meshes, ProBuilderMesh meshTarget).")]
-  /// @brief Method Combine, addr 0x671b41c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6b30264, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes);
 
-  /// @brief Method Combine, addr 0x671b894, size 0xb64, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6b306dc, size 0xb64, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes, ::UnityEngine::ProBuilder::ProBuilderMesh* meshTarget);
 
-  /// @brief Method CombineToNewMeshes, addr 0x671b420, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method CombineToNewMeshes, addr 0x6b30268, size 0x474, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes);
 
-  /// @brief Method CreateMeshFromSplit, addr 0x671de2c, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshFromSplit, addr 0x6b32c74, size 0x4d4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>
   CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup,
                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* remap, ::ArrayW<::UnityEngine::Material*> materials);
 
-  /// @brief Method SplitByMaxVertexCount, addr 0x671d0cc, size 0xd60, virtual false, abstract: false, final false
+  /// @brief Method SplitByMaxVertexCount, addr 0x6b31f14, size 0xd60, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   SplitByMaxVertexCount(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                         ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
@@ -166,7 +166,7 @@ public:
   CombineMeshes(CombineMeshes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

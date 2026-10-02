@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6b077bc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6f62bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6b078b4;
+  constexpr static std::size_t addrs = 0x6f62c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, 
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*, ::System::Object*, bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6b0712c;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x6f62590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::O
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::NullFailureMessage)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6b07410;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6f627d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::AssertionMessageUtil*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::BooleanFailureMessage)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b06ec0;
+  constexpr static std::size_t addrs = 0x6f62324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

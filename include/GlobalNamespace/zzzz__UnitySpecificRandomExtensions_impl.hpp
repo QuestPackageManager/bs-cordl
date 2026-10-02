@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::UnitySpecificRandomExtensions::InsideUnitSphere)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3327a78;
+  constexpr static std::size_t addrs = 0x35b0cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::UnitySpecificRandomExtensions::OnUnitSphere)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3327b0c;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x35b0d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

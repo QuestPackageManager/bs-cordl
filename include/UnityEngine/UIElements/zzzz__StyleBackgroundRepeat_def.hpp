@@ -48,31 +48,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundRepeat>*();
 
-  /// @brief Method Equals, addr 0x6c9276c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7108318, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c92748, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x71082f4, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleBackgroundRepeat other);
 
-  /// @brief Method GetHashCode, addr 0x6c927f8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x71083a4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6c92824, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71083d0, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c9272c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71082d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6c90db8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7105058, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundRepeat v);
 
-  /// @brief Method .ctor, addr 0x6c92720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71082c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundRepeat v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6c92710, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x71082b4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6c926e0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x7108284, size 0x24, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundRepeat get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundRepeat>"
@@ -81,16 +81,19 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundRepeat>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundRepeat_();
 
-  /// @brief Method op_Equality, addr 0x6c92738, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x71082dc, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleBackgroundRepeat lhs, ::UnityEngine::UIElements::StyleBackgroundRepeat rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c90dc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7105064, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleBackgroundRepeat op_Implicit___UnityEngine__UIElements__StyleBackgroundRepeat(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method set_keyword, addr 0x6c92718, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method op_Implicit, addr 0x71082ec, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::StyleBackgroundRepeat op_Implicit___UnityEngine__UIElements__StyleBackgroundRepeat(::UnityEngine::UIElements::BackgroundRepeat v);
+
+  /// @brief Method set_keyword, addr 0x71082bc, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6c92704, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x71082a8, size 0xc, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::BackgroundRepeat value);
 
   // Ctor Parameters []
@@ -102,14 +105,16 @@ public:
   constexpr StyleBackgroundRepeat(::UnityEngine::UIElements::BackgroundRepeat m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5033 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::BackgroundRepeat m_Value;
 
+  /// [SerializeField]
   /// @brief Field m_Keyword, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
 

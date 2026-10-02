@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d95f10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x7223c1c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCaptureOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d95f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7223c18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent___c* getStaticF___9();
@@ -62,7 +62,7 @@ public:
   PointerCaptureOutEvent___c(PointerCaptureOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -81,10 +81,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6d95dfc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x7223b08, size 0x64, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d95e6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7223b78, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   PointerCaptureOutEvent(PointerCaptureOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4425 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

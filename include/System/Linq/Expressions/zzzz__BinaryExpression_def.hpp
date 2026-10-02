@@ -59,39 +59,39 @@ public:
   /// @brief Field <Right>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Right_k__BackingField, put = __cordl_internal_set__Right_k__BackingField)) ::System::Linq::Expressions::Expression* _Right_k__BackingField;
 
-  /// @brief Method Accept, addr 0x5f61c6c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x637dbe8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetBinaryOpFromAssignmentOp, addr 0x5f61294, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryOpFromAssignmentOp, addr 0x637d210, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ExpressionType GetBinaryOpFromAssignmentOp(::System::Linq::Expressions::ExpressionType op);
 
-  /// @brief Method GetConversion, addr 0x5f61ad8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetConversion, addr 0x637da54, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* GetConversion();
 
-  /// @brief Method GetMethod, addr 0x5f5f8c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x637b844, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetMethod();
 
-  /// @brief Method IsOpAssignment, addr 0x5f5f89c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsOpAssignment, addr 0x637b818, size 0x10, virtual false, abstract: false, final false
   static inline bool IsOpAssignment(::System::Linq::Expressions::ExpressionType op);
 
   static inline ::System::Linq::Expressions::BinaryExpression* New_ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method Reduce, addr 0x5f60860, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Reduce, addr 0x637c7dc, size 0x78, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Reduce();
 
-  /// @brief Method ReduceIndex, addr 0x5f60d00, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method ReduceIndex, addr 0x637cc7c, size 0x48c, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceIndex();
 
-  /// @brief Method ReduceMember, addr 0x5f608d8, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method ReduceMember, addr 0x637c854, size 0x428, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceMember();
 
-  /// @brief Method ReduceUserdefinedLifted, addr 0x5f61de8, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method ReduceUserdefinedLifted, addr 0x637dd64, size 0x688, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceUserdefinedLifted();
 
-  /// @brief Method ReduceVariable, addr 0x5f6118c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReduceVariable, addr 0x637d108, size 0x108, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceVariable();
 
-  /// @brief Method Update, addr 0x5f5f8d0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x637b84c, size 0x174, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::BinaryExpression* Update(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::LambdaExpression* conversion,
                                                                ::System::Linq::Expressions::Expression* right);
 
@@ -107,36 +107,36 @@ public:
 
   constexpr void __cordl_internal_set__Right_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x5f5f80c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637b788, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method get_CanReduce, addr 0x5f5f878, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_CanReduce, addr 0x637b7f4, size 0x24, virtual true, abstract: false, final false
   inline bool get_CanReduce();
 
-  /// @brief Method get_Conversion, addr 0x5f5fa44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Conversion, addr 0x637b9c0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* get_Conversion();
 
-  /// @brief Method get_IsLifted, addr 0x5f61ae0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method get_IsLifted, addr 0x637da5c, size 0x18c, virtual false, abstract: false, final false
   inline bool get_IsLifted();
 
-  /// @brief Method get_IsLiftedLogical, addr 0x5f61c90, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_IsLiftedLogical, addr 0x637dc0c, size 0x158, virtual false, abstract: false, final false
   inline bool get_IsLiftedLogical();
 
-  /// @brief Method get_IsLiftedToNull, addr 0x5f5fe34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_IsLiftedToNull, addr 0x637bdb0, size 0x90, virtual false, abstract: false, final false
   inline bool get_IsLiftedToNull();
 
-  /// @brief Method get_IsReferenceComparison, addr 0x5f5fa50, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_IsReferenceComparison, addr 0x637b9cc, size 0xd4, virtual false, abstract: false, final false
   inline bool get_IsReferenceComparison();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Left, addr 0x5f5f8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Left, addr 0x637b830, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Left();
 
-  /// @brief Method get_Method, addr 0x5f5f8bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x637b838, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Right, addr 0x5f5f8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Right, addr 0x637b828, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Right();
 
 protected:
@@ -154,7 +154,7 @@ public:
   BinaryExpression(BinaryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16625 };
 
   /// [CompilerGenerated]
   /// @brief Field <Right>k__BackingField, offset: 0x10, size: 0x8, def value: None

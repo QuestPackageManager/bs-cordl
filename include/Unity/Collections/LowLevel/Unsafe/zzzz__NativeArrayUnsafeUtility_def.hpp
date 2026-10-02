@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArrayUnsafeUtility)
+namespace System {
+template <typename T> struct Span_1;
+}
 namespace Unity::Collections {
 struct Allocator;
 }
@@ -30,6 +33,11 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE NativeArrayUnsafeUtility : public ::System::Object {
 public:
   // Declarations
+  /// @brief Method ConvertExistingDataToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(::System::Span_1<T> data, ::Unity::Collections::Allocator allocator);
+
   /// @brief Method ConvertExistingDataToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
@@ -73,7 +81,7 @@ public:
   NativeArrayUnsafeUtility(NativeArrayUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

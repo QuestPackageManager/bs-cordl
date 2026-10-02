@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::UnityEngine::Profiling::CustomSampler*)>(&::UnityEngine::Rendering::ProfilingSample::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x676ddc4;
+  constexpr static std::size_t addrs = 0x6b85e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::System::Object*)>(
     &::UnityEngine::Rendering::ProfilingSample::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x676de54;
+  constexpr static std::size_t addrs = 0x6b85f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::ArrayW<::System::Object*>)>(
     &::UnityEngine::Rendering::ProfilingSample::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x676debc;
+  constexpr static std::size_t addrs = 0x6b85f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)()>(&::UnityEngine::Rendering::ProfilingSample::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676def8;
+  constexpr static std::size_t addrs = 0x6b85fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSample>(), { "Dispose", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(bool)>(&::UnityEngine::Rendering::ProfilingSample::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x676df00;
+  constexpr static std::size_t addrs = 0x6b85fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

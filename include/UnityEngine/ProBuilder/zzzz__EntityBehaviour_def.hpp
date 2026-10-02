@@ -42,7 +42,7 @@ public:
   /// @brief Method OnSceneLoaded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method SetMaterial, addr 0x66b88f4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x6ac34b8, size 0xec, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material);
 
   constexpr bool const& __cordl_internal_get_manageVisibility() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_manageVisibility(bool value);
 
-  /// @brief Method .ctor, addr 0x66b8b54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac3718, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   EntityBehaviour(EntityBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17254 };
 
   /// [Tooltip("Allow ProBuilder to automatically hide and show this object when entering or exiting play mode.")]
   /// @brief Field manageVisibility, offset: 0x20, size: 0x1, def value: None

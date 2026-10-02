@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::ShaderBitArray::*)()>(&::UnityEngine::Rendering::Universal::ShaderBitArray::get_elemLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68ba478;
+  constexpr static std::size_t addrs = 0x6cf1588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderBitArray>(), { "get_elemLength", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::ShaderBitArray::*)()>(&::UnityEngine::Rendering::Universal::ShaderBitArray::get_bitCapacity)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68ba490;
+  constexpr static std::size_t addrs = 0x6cf15a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderBitArray>(), { "get_bitCapacity", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::UnityEngine::Rendering::Universal::ShaderBitArray::*)()>(&::UnityEngine::Rendering::Universal::ShaderBitArray::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ba4ac;
+  constexpr static std::size_t addrs = 0x6cf15bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderBitArray>(), { "get_data", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShaderBitArray::*)(int32_t)>(&::UnityEngine::Rendering::Universal::ShaderBitArray::Resize)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x68ba4b4;
+  constexpr static std::size_t addrs = 0x6cf15c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShaderBitArray::*)()>(&::UnityEngine::Rendering::Universal::ShaderBitArray::Clear)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x68ba5e4;
+  constexpr static std::size_t addrs = 0x6cf16f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderBitArray>(), { "Clear", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShaderBitArray::*)(int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::Universal::ShaderBitArray::GetElementIndexAndBitOffset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68ba62c;
+  constexpr static std::size_t addrs = 0x6cf173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ShaderBitArray::*)(int32_t)>(&::UnityEngine::Rendering::Universal::ShaderBitArray::get_Item)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68ba640;
+  constexpr static std::size_t addrs = 0x6cf1750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShaderBitArray::*)(int32_t, bool)>(&::UnityEngine::Rendering::Universal::ShaderBitArray::set_Item)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68ba66c;
+  constexpr static std::size_t addrs = 0x6cf177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::Universal::ShaderBitArray::*)()>(&::UnityEngine::Rendering::Universal::ShaderBitArray::ToString)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x68ba6ac;
+  constexpr static std::size_t addrs = 0x6cf17bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -30,10 +30,10 @@ struct Vector2Int;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector2Int);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
-// [UsedByNativeCode]
-// [Il2CppEagerStaticClassConstruction]
-// [NativeType("Runtime/Math/Vector2Int.h")]
 // [DefaultMember("Item")]
+// [UsedByNativeCode]
+// [NativeType("Runtime/Math/Vector2Int.h")]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -71,28 +71,37 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x6ad3294, size 0x8c, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6f2dbdc, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6ad3320, size 0x28, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6f2dc68, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector2Int other);
 
-  /// @brief Method FloorToInt, addr 0x6ad3170, size 0xcc, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6f2dc90, size 0x2c, virtual false, abstract: false, final false
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> other);
+
+  /// @brief Method FloorToInt, addr 0x6f2dab8, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x6ad3348, size 0x24, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetHashCode, addr 0x6f2dcbc, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Max, addr 0x6ad3140, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x6f2da88, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int Max(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method ToString, addr 0x6ad336c, size 0x10, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6f2dce0, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6ad337c, size 0x180, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6f2dcf0, size 0x110, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6ad3120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f2da68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Down();
@@ -107,19 +116,22 @@ public:
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Zero();
 
-  /// @brief Method get_magnitude, addr 0x6ad3128, size 0x18, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_magnitude, addr 0x6f2da70, size 0x18, virtual false, abstract: false, final false
   inline float_t get_magnitude();
 
-  /// @brief Method get_one, addr 0x6ad3548, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_one, addr 0x6f2de4c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int get_one();
 
-  /// @brief Method get_x, addr 0x6ad3100, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_x, addr 0x6f2da48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x6ad3110, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_y, addr 0x6f2da58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_zero, addr 0x6ad34fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x6f2de00, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
@@ -128,22 +140,22 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x6ad323c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6f2db84, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int op_Addition(::UnityEngine::Vector2Int a, ::UnityEngine::Vector2Int b);
 
-  /// @brief Method op_Division, addr 0x6ad3268, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6f2dbb0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int op_Division(::UnityEngine::Vector2Int a, int32_t b);
 
-  /// @brief Method op_Equality, addr 0x6ad327c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f2dbc4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method op_Implicit, addr 0x6ad3160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f2daa8, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int v);
 
-  /// @brief Method op_Inequality, addr 0x6ad3288, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f2dbd0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method op_Multiply, addr 0x6ad3254, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6f2db9c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int op_Multiply(int32_t a, ::UnityEngine::Vector2Int b);
 
   static inline void setStaticF_s_Down(::UnityEngine::Vector2Int value);
@@ -158,10 +170,10 @@ public:
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector2Int value);
 
-  /// @brief Method set_x, addr 0x6ad3108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6f2da50, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x6ad3118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6f2da60, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []
@@ -172,7 +184,7 @@ public:
   constexpr Vector2Int(int32_t m_X, int32_t m_Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9846 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

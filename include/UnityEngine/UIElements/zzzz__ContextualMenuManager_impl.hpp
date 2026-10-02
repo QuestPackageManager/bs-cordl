@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ContextualMenuManager::*)()>(&::UnityEngine::UIElements::ContextualMenuManager::get_displayMenuHandledOSX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c56d38;
+  constexpr static std::size_t addrs = 0x70a0c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(bool)>(
     &::UnityEngine::UIElements::ContextualMenuManager::set_displayMenuHandledOSX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c56d40;
+  constexpr static std::size_t addrs = 0x70a0c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,13 +32,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager.DisplayMenuIfEventMatches
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager.CheckIfEventMatches
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IEventHandler*)>(
-    &::UnityEngine::UIElements::ContextualMenuManager::DisplayMenuIfEventMatches)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ContextualMenuManager::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::ContextualMenuManager::CheckIfEventMatches)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x70a0c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IEventHandler*)>(
     &::UnityEngine::UIElements::ContextualMenuManager::DisplayMenu)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c56d48;
+  constexpr static std::size_t addrs = 0x70a0c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IEventHandler*, ::UnityEngine::UIElements::DropdownMenu*)>(&::UnityEngine::UIElements::ContextualMenuManager::DisplayMenu)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x6c56dc0;
+  constexpr static std::size_t size = 0x338;
+  constexpr static std::size_t addrs = 0x70a0cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,12 +93,49 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager.ResetPointerDown
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::ContextualMenuManager::ResetPointerDown)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x70a1028;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "ResetPointerDown", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager.BeforePointerDown
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)()>(&::UnityEngine::UIElements::ContextualMenuManager::BeforePointerDown)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x70a1084;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "BeforePointerDown", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager.AfterPointerUp
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)()>(&::UnityEngine::UIElements::ContextualMenuManager::AfterPointerUp)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x70a108c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "AfterPointerUp", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)()>(&::UnityEngine::UIElements::ContextualMenuManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c57134;
+  constexpr static std::size_t addrs = 0x70a1094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { ".ctor", {}, {} })));
@@ -127,10 +164,10 @@ inline void UnityEngine::UIElements::ContextualMenuManager::set_displayMenuHandl
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "set_displayMenuHandledOSX", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::ContextualMenuManager::DisplayMenuIfEventMatches(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IEventHandler* eventHandler) {
+inline bool UnityEngine::UIElements::ContextualMenuManager::CheckIfEventMatches(::UnityEngine::UIElements::EventBase* evt) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), 4 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, eventHandler);
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, evt);
 }
 inline void UnityEngine::UIElements::ContextualMenuManager::DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -152,6 +189,19 @@ inline void UnityEngine::UIElements::ContextualMenuManager::DoDisplayMenu(::Unit
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menu, triggerEvent);
+}
+inline void UnityEngine::UIElements::ContextualMenuManager::ResetPointerDown(int32_t pointerId) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "ResetPointerDown", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pointerId);
+}
+inline void UnityEngine::UIElements::ContextualMenuManager::BeforePointerDown() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "BeforePointerDown", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ContextualMenuManager::AfterPointerUp() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { "AfterPointerUp", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::ContextualMenuManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuManager*>(), { ".ctor", {}, {} })));

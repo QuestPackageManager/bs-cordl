@@ -67,20 +67,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILightWithId"
   constexpr operator ::GlobalNamespace::ILightWithId*() noexcept;
 
-  /// @brief Method ColorWasSet, addr 0x586cb10, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x5c82ce4, size 0x24, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::LightWithIds_LightWithId* New_ctor();
 
   static inline ::GlobalNamespace::LightWithIds_LightWithId* New_ctor(int32_t lightId);
 
-  /// @brief Method __SetIsRegistered, addr 0x586fb78, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method __SetIsRegistered, addr 0x5c852f4, size 0xc, virtual true, abstract: false, final true
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered, addr 0x586fb84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method __SetIsUnRegistered, addr 0x5c85300, size 0x8, virtual true, abstract: false, final true
   inline void __SetIsUnRegistered();
 
-  /// @brief Method __SetParentLightWithIds, addr 0x586fb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __SetParentLightWithIds, addr 0x5c8530c, size 0x8, virtual false, abstract: false, final false
   inline void __SetParentLightWithIds(::GlobalNamespace::LightWithIds* parentLightWithIds);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -107,25 +107,25 @@ public:
 
   constexpr void __cordl_internal_set__parentLightWithIds(::UnityW<::GlobalNamespace::LightWithIds> value);
 
-  /// @brief Method .ctor, addr 0x586d7a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c85308, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x586cac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c82c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId);
 
-  /// @brief Method get_color, addr 0x586fb64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5c852e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_elementId, addr 0x586fb5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_elementId, addr 0x5c852d8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_elementId();
 
-  /// @brief Method get_groupId, addr 0x586fb54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x5c852d0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_isRegistered, addr 0x586fb70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isRegistered, addr 0x5c852ec, size 0x8, virtual true, abstract: false, final true
   inline bool get_isRegistered();
 
-  /// @brief Method get_lightId, addr 0x586fb4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lightId, addr 0x5c852c8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_lightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightWithId"
@@ -146,7 +146,7 @@ public:
   LightWithIds_LightWithId(LightWithIds_LightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19967 };
 
   /// [SerializeField]
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
@@ -200,39 +200,39 @@ public:
 
   __declspec(property(get = get_lightWithIds)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* lightWithIds;
 
-  /// @brief Method Awake, addr 0x586d838, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5c84aac, size 0x38, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method GetLightWithIds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
-  /// @brief Method HandleLightManagerDidChangeSomeColorsThisFrame, addr 0x586fb30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLightManagerDidChangeSomeColorsThisFrame, addr 0x5c852ac, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLightManagerDidChangeSomeColorsThisFrame();
 
-  /// @brief Method MarkChildrenColorAsSet, addr 0x586f770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkChildrenColorAsSet, addr 0x5c84eec, size 0xc, virtual false, abstract: false, final false
   inline void MarkChildrenColorAsSet();
 
   static inline ::GlobalNamespace::LightWithIds* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x586fb2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c852a8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x586c450, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c82624, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method ProcessNewColorData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method RegisterForColorChanges, addr 0x586f394, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method RegisterForColorChanges, addr 0x5c84b10, size 0x3dc, virtual false, abstract: false, final false
   inline void RegisterForColorChanges();
 
-  /// @brief Method SetNewLightsWithIds, addr 0x586f368, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetNewLightsWithIds, addr 0x5c84ae4, size 0x28, virtual false, abstract: false, final false
   inline void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* lightsWithIds);
 
-  /// @brief Method Start, addr 0x586f390, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5c84b0c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromColorChanges, addr 0x586f77c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromColorChanges, addr 0x5c84ef8, size 0x3b0, virtual false, abstract: false, final false
   inline void UnregisterFromColorChanges();
 
   constexpr bool const& __cordl_internal_get__childrenColorWasSet() const;
@@ -259,10 +259,10 @@ public:
 
   constexpr void __cordl_internal_set__lightWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* value);
 
-  /// @brief Method .ctor, addr 0x586cab8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c82c8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightWithIds, addr 0x586f360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightWithIds, addr 0x5c84aa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* get_lightWithIds();
 
 protected:
@@ -280,7 +280,7 @@ public:
   LightWithIds(LightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19968 };
 
   /// [Inject]
   /// @brief Field _lightManager, offset: 0x20, size: 0x8, def value: None

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36afef8;
+  constexpr static std::size_t addrs = 0x3939194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x36b0028;
+  constexpr static std::size_t addrs = 0x39392c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::ArrayW<char16_t>, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x36aff3c;
+  constexpr static std::size_t addrs = 0x39391d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::ArrayW<char16_t>, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x36b0064;
+  constexpr static std::size_t addrs = 0x3939300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::Finalize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36b0278;
+  constexpr static std::size_t addrs = 0x3939514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Password)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36b02d4;
+  constexpr static std::size_t addrs = 0x3939570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "get_Password", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Salt)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x36b02dc;
+  constexpr static std::size_t addrs = 0x3939578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "get_Salt", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::GetSalt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b033c;
+  constexpr static std::size_t addrs = 0x39395d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "GetSalt", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36b0340;
+  constexpr static std::size_t addrs = 0x39395dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "get_IterationCount", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Algorithm)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36b0348;
+  constexpr static std::size_t addrs = 0x39395e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "get_Algorithm", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Format)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36b038c;
+  constexpr static std::size_t addrs = 0x3939628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "get_Format", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::GetEncoded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36b03d0;
+  constexpr static std::size_t addrs = 0x393966c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsPbeKey*>(), { "GetEncoded", {}, {} })));

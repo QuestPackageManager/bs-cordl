@@ -73,7 +73,7 @@ public:
   static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const RightEye;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23974 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,13 +99,13 @@ public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::ScreenCapture_StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x6bb5cb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x7014898, size 0xc, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot, addr 0x6bb5cbc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x70148a4, size 0x13c, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, /* [DefaultValue("1")] */ int32_t superSize, /* [DefaultValue("1")] */ ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
-  /// @brief Method CaptureScreenshot_Injected, addr 0x6bb5df8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot_Injected, addr 0x70149e0, size 0x54, virtual false, abstract: false, final false
   static inline void CaptureScreenshot_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filename, /* [DefaultValue("1")] */ int32_t superSize,
                                                 /* [DefaultValue("1")] */ ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
@@ -124,7 +124,7 @@ public:
   ScreenCapture(ScreenCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23975 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

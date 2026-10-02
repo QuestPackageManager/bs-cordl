@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_useMock(bool value);
 
-  /// @brief Method .ctor, addr 0x3777c30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a012f8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool useMock, ::OSCE::Analytics::AnalyticsManager* analyticsManager, ::OculusStudios::Platform::Core::IPlatform* platform,
                     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData, uint64_t graphAppId,
                     ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO* graphQLClientProviderInstaller);
@@ -129,7 +129,7 @@ public:
   PlatformInstaller_Arguments(PlatformInstaller_Arguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21854 };
 
   /// @brief Field useMock, offset: 0x10, size: 0x1, def value: None
   bool ___useMock;
@@ -179,25 +179,25 @@ public:
   /// @brief Field _arguments, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments)) ::GlobalNamespace::PlatformInstaller_Arguments* _arguments;
 
-  /// @brief Method BindAdditionalContentModel, addr 0x377799c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method BindAdditionalContentModel, addr 0x3a01064, size 0x94, virtual false, abstract: false, final false
   inline void BindAdditionalContentModel();
 
-  /// @brief Method BindAnalyticsModel, addr 0x37778c0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BindAnalyticsModel, addr 0x3a00f88, size 0xdc, virtual false, abstract: false, final false
   inline void BindAnalyticsModel();
 
-  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x3777a30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x3a010f8, size 0xa8, virtual false, abstract: false, final false
   inline void BindBeatmapDataAssetFileModel();
 
-  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x3777ad8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x3a011a0, size 0xd0, virtual false, abstract: false, final false
   inline void BindMockPlatformAdditionalContentModel();
 
-  /// @brief Method InstallBindings, addr 0x377759c, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3a00b8c, size 0x3fc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::PlatformInstaller_Arguments* arguments);
 
   /// [CompilerGenerated]
-  /// @brief Method <InstallBindings>b__3_0, addr 0x3777ba8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__3_0, addr 0x3a01270, size 0x88, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* _InstallBindings_b__3_0(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlagService);
 
   constexpr ::GlobalNamespace::PlatformInstaller_Arguments* const& __cordl_internal_get__arguments() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::GlobalNamespace::PlatformInstaller_Arguments* value);
 
-  /// @brief Method .ctor, addr 0x377754c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a00b3c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlatformInstaller_Arguments* arguments);
 
 protected:
@@ -224,7 +224,7 @@ public:
   PlatformInstaller(PlatformInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21855 };
 
   /// @brief Field _arguments, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::PlatformInstaller_Arguments* ____arguments;

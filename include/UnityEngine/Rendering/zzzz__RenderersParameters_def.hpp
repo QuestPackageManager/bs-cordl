@@ -85,7 +85,7 @@ public:
   static ::UnityEngine::Rendering::RenderersParameters_Flags const UseBoundingSphereParameter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18327 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -129,6 +129,9 @@ public:
   /// @brief Field unity_ObjectToWorld, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_ObjectToWorld, put = setStaticF_unity_ObjectToWorld)) int32_t unity_ObjectToWorld;
 
+  /// @brief Field unity_RendererUserValuesPropertyEntry, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_unity_RendererUserValuesPropertyEntry, put = setStaticF_unity_RendererUserValuesPropertyEntry)) int32_t unity_RendererUserValuesPropertyEntry;
+
   /// @brief Field unity_SHCoefficients, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_SHCoefficients, put = setStaticF_unity_SHCoefficients)) int32_t unity_SHCoefficients;
 
@@ -155,6 +158,8 @@ public:
 
   static inline int32_t getStaticF_unity_ObjectToWorld();
 
+  static inline int32_t getStaticF_unity_RendererUserValuesPropertyEntry();
+
   static inline int32_t getStaticF_unity_SHCoefficients();
 
   static inline int32_t getStaticF_unity_SpecCube0_HDR();
@@ -176,6 +181,8 @@ public:
   static inline void setStaticF_unity_MatrixPreviousMI(int32_t value);
 
   static inline void setStaticF_unity_ObjectToWorld(int32_t value);
+
+  static inline void setStaticF_unity_RendererUserValuesPropertyEntry(int32_t value);
 
   static inline void setStaticF_unity_SHCoefficients(int32_t value);
 
@@ -200,7 +207,7 @@ public:
   RenderersParameters_ParamNames(RenderersParameters_ParamNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -217,7 +224,7 @@ public:
   // Declarations
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method get_valid, addr 0x68387d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6c6f734, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   // Ctor Parameters []
@@ -229,7 +236,7 @@ public:
   constexpr RenderersParameters_ParamInfo(int32_t index, int32_t gpuAddress, int32_t uintOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18329 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -271,16 +278,16 @@ public:
   /// @brief Field s_uintSize, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_uintSize, put = setStaticF_s_uintSize)) int32_t s_uintSize;
 
-  /// @brief Method CreateInstanceDataBuffer, addr 0x68371ec, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceDataBuffer, addr 0x6c6dfc8, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
   /// [CompilerGenerated]
-  /// @brief Method <.ctor>g__GetParamInfo|14_0, addr 0x6838308, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo __ctor_g__GetParamInfo_14_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer,
+  /// @brief Method <.ctor>g__GetParamInfo|15_0, addr 0x6c6f230, size 0xd0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo __ctor_g__GetParamInfo_15_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer,
                                                                                                     int32_t paramNameIdx, bool assertOnFail);
 
-  /// @brief Method .ctor, addr 0x68375b4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6e3d4, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer);
 
   static inline int32_t getStaticF_s_uintSize();
@@ -296,6 +303,7 @@ public:
   // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "matrixPreviousM", ty:
   // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "matrixPreviousMI", ty:
   // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "shCoefficients", ty:
+  // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererUserValues", ty:
   // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "boundingSphere", ty:
   // "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: None, comment: None }, CppParam { name: "windParams", ty:
   // "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name: "windHistoryParams", ty:
@@ -303,14 +311,15 @@ public:
   constexpr RenderersParameters(::UnityEngine::Rendering::RenderersParameters_ParamInfo lightmapScale, ::UnityEngine::Rendering::RenderersParameters_ParamInfo localToWorld,
                                 ::UnityEngine::Rendering::RenderersParameters_ParamInfo worldToLocal, ::UnityEngine::Rendering::RenderersParameters_ParamInfo matrixPreviousM,
                                 ::UnityEngine::Rendering::RenderersParameters_ParamInfo matrixPreviousMI, ::UnityEngine::Rendering::RenderersParameters_ParamInfo shCoefficients,
-                                ::UnityEngine::Rendering::RenderersParameters_ParamInfo boundingSphere, ::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo> windParams,
+                                ::UnityEngine::Rendering::RenderersParameters_ParamInfo rendererUserValues, ::UnityEngine::Rendering::RenderersParameters_ParamInfo boundingSphere,
+                                ::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo> windParams,
                                 ::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo> windHistoryParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18330 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
   /// @brief Field lightmapScale, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderersParameters_ParamInfo lightmapScale;
@@ -330,13 +339,16 @@ public:
   /// @brief Field shCoefficients, offset: 0x3c, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderersParameters_ParamInfo shCoefficients;
 
-  /// @brief Field boundingSphere, offset: 0x48, size: 0xc, def value: None
+  /// @brief Field rendererUserValues, offset: 0x48, size: 0xc, def value: None
+  ::UnityEngine::Rendering::RenderersParameters_ParamInfo rendererUserValues;
+
+  /// @brief Field boundingSphere, offset: 0x54, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderersParameters_ParamInfo boundingSphere;
 
-  /// @brief Field windParams, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field windParams, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo> windParams;
 
-  /// @brief Field windHistoryParams, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field windHistoryParams, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo> windHistoryParams;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -354,12 +366,14 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, matrixPrev
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, shCoefficients) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, boundingSphere) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, rendererUserValues) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, windParams) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, boundingSphere) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, windHistoryParams) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, windParams) == 0x60, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::RenderersParameters) == 0x68, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderersParameters, windHistoryParams) == 0x68, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::RenderersParameters) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering

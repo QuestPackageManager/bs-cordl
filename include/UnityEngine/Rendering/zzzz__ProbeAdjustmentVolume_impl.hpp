@@ -45,25 +45,13 @@ constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version::ProbeAdjustme
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version UnityEngine::Rendering::ProbeAdjustmentVolume_Version::Initial{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version UnityEngine::Rendering::ProbeAdjustmentVolume_Version::Mode{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version UnityEngine::Rendering::ProbeAdjustmentVolume_Version::Count{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::UnityEngine::Rendering::ProbeAdjustmentVolume.Awake
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(&::UnityEngine::Rendering::ProbeAdjustmentVolume::Awake)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67882fc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeAdjustmentVolume*>(), { "Awake", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeAdjustmentVolume.UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(
     &::UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6788334;
+  constexpr static std::size_t addrs = 0x6ba2fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(
     &::UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x678834c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6ba2fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(&::UnityEngine::Rendering::ProbeAdjustmentVolume::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6788360;
+  constexpr static std::size_t addrs = 0x6b9e6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeAdjustmentVolume*>(), { ".ctor", {}, {} })));
@@ -384,10 +372,6 @@ constexpr bool const& UnityEngine::Rendering::ProbeAdjustmentVolume::__cordl_int
 constexpr void UnityEngine::Rendering::ProbeAdjustmentVolume::__cordl_internal_set_overrideDilationThreshold(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideDilationThreshold = value;
-}
-inline void UnityEngine::Rendering::ProbeAdjustmentVolume::Awake() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeAdjustmentVolume*>(), { "Awake", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize() {
   static auto* ___internal_method = THROW_UNLESS(

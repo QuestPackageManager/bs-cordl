@@ -39,7 +39,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemap* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cf60f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x718a164, size 0x6c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get_atlas() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_origIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cf60a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x718a114, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   GradientRemap(GradientRemap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5482 };
 
   /// @brief Field origIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___origIndex;

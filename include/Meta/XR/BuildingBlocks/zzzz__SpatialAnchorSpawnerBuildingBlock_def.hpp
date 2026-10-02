@@ -65,15 +65,15 @@ public:
   __declspec(property(get = __cordl_internal_get__spatialAnchorCore, put = __cordl_internal_set__spatialAnchorCore)) ::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock>
       _spatialAnchorCore;
 
-  /// @brief Method Awake, addr 0x5a365f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e4de94, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock* New_ctor();
 
-  /// @brief Method SpawnSpatialAnchor, addr 0x5a36820, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SpawnSpatialAnchor, addr 0x5e4e0c0, size 0xc8, virtual false, abstract: false, final false
   inline void SpawnSpatialAnchor();
 
-  /// @brief Method SpawnSpatialAnchor, addr 0x5a3668c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SpawnSpatialAnchor, addr 0x5e4df2c, size 0x1c, virtual false, abstract: false, final false
   inline void SpawnSpatialAnchor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__anchorPrefab() const;
@@ -118,19 +118,19 @@ public:
 
   constexpr void __cordl_internal_set__spatialAnchorCore(::UnityW<::Meta::XR::BuildingBlocks::SpatialAnchorCoreBuildingBlock> value);
 
-  /// @brief Method .ctor, addr 0x5a368e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4e188, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnchorPrefab, addr 0x5a36390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnchorPrefab, addr 0x5e4dc30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_AnchorPrefab();
 
-  /// @brief Method get_FollowHand, addr 0x5a365ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FollowHand, addr 0x5e4de8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_FollowHand();
 
-  /// @brief Method set_AnchorPrefab, addr 0x5a36398, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_AnchorPrefab, addr 0x5e4dc38, size 0x104, virtual false, abstract: false, final false
   inline void set_AnchorPrefab(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_FollowHand, addr 0x5a3649c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method set_FollowHand, addr 0x5e4dd3c, size 0x150, virtual false, abstract: false, final false
   inline void set_FollowHand(bool value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   SpatialAnchorSpawnerBuildingBlock(SpatialAnchorSpawnerBuildingBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22086 };
 
   /// [Tooltip("A placeholder object to place in the anchor\'s position.")]
   /// [SerializeField]

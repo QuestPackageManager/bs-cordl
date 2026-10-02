@@ -27,23 +27,23 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClearSnapshots, addr 0x6db6a58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearSnapshots, addr 0x7269d88, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearSnapshots(::System::IntPtr handle);
 
-  /// @brief Method Create, addr 0x6db69a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x7269cd4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool computeBBox);
 
-  /// @brief Method Destroy, addr 0x6db69e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x7269d10, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
   /// [ThreadSafe]
-  /// @brief Method ExecuteSnapshotFromJob, addr 0x6db6a94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSnapshotFromJob, addr 0x7269dc4, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface ExecuteSnapshotFromJob(::System::IntPtr painterHandle, int32_t i);
 
-  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x6db6b04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x7269e34, size 0x54, virtual false, abstract: false, final false
   static inline void ExecuteSnapshotFromJob_Injected(::System::IntPtr painterHandle, int32_t i, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method Reset, addr 0x6db6a1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x7269d4c, size 0x3c, virtual false, abstract: false, final false
   static inline void Reset(::System::IntPtr handle);
 
 protected:
@@ -61,7 +61,7 @@ public:
   UIPainter2D(UIPainter2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

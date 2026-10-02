@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x5f4af0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63666f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
   PlanarMirrorRenderPass_PassData(PlanarMirrorRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21149 };
 
   /// @brief Field mirrorFrameData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MirrorFrameData* ___mirrorFrameData;
@@ -177,10 +177,10 @@ public:
 
   static inline ::GlobalNamespace::PlanarMirrorRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__9_0, addr 0x5f4af68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__9_0, addr 0x6366750, size 0x70, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__9_0(::GlobalNamespace::PlanarMirrorRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f4af64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636674c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlanarMirrorRenderPass___c* getStaticF___9();
@@ -208,7 +208,7 @@ public:
   PlanarMirrorRenderPass___c(PlanarMirrorRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,10 +227,10 @@ public:
 
   using __c = ::GlobalNamespace::PlanarMirrorRenderPass___c;
 
-  /// @brief Field _cullResults, offset 0xc0, size 0x10
+  /// @brief Field _cullResults, offset 0x68, size 0x10
   __declspec(property(get = __cordl_internal_get__cullResults, put = __cordl_internal_set__cullResults)) ::UnityEngine::Rendering::CullingResults _cullResults;
 
-  /// @brief Field _mirrorRenderer, offset 0xb8, size 0x8
+  /// @brief Field _mirrorRenderer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer)) ::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
 
   /// @brief Field _profilingSampler, offset 0xffffffff, size 0x8
@@ -246,10 +246,10 @@ public:
 
   static inline ::GlobalNamespace::PlanarMirrorRenderPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::GlobalNamespace::MirrorRendererSO* mirrorRenderer);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f49bf8, size 0xf0c, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63653e0, size 0xf0c, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Render, addr 0x5f4ab04, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x63662ec, size 0x168, virtual false, abstract: false, final false
   static inline void Render(::GlobalNamespace::PlanarMirrorRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityEngine::Rendering::CullingResults const& __cordl_internal_get__cullResults() const;
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x5f48e24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6364624, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::GlobalNamespace::MirrorRendererSO* mirrorRenderer);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF__profilingSampler();
@@ -279,7 +279,7 @@ public:
 
   static inline void setStaticF__shaderTagIds(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method set_cullResults, addr 0x5f49bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cullResults, addr 0x63653d8, size 0x8, virtual false, abstract: false, final false
   inline void set_cullResults(::UnityEngine::Rendering::CullingResults value);
 
 protected:
@@ -297,21 +297,21 @@ public:
   PlanarMirrorRenderPass(PlanarMirrorRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21151 };
 
-  /// @brief Field _mirrorRenderer, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _mirrorRenderer, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
 
-  /// @brief Field _cullResults, offset: 0xc0, size: 0x10, def value: None
+  /// @brief Field _cullResults, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Rendering::CullingResults ____cullResults;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PlanarMirrorRenderPass, ____mirrorRenderer) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlanarMirrorRenderPass, ____mirrorRenderer) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlanarMirrorRenderPass, ____cullResults) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlanarMirrorRenderPass, ____cullResults) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PlanarMirrorRenderPass) == 0xd0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PlanarMirrorRenderPass) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace

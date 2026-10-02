@@ -21,8 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::Hashes);
 MARK_VAL_T(::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hashes, "UnityEngine.UIElements", "Hashes");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer, "UnityEngine.UIElements", "Hashes/<hashes>e__FixedBuffer");
-// [UnsafeValueType]
 // [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -39,7 +39,7 @@ public:
   constexpr Hashes__hashes_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5134 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -76,7 +76,7 @@ public:
   constexpr Hashes(::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer hashes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5135 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

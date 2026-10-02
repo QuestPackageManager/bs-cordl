@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::UnityEngine::UIElements::PointerType::GetPointerType)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6da3508;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x7231cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::UIElements::PointerType::IsDirectManipulationDevice)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6da3600;
+  constexpr static std::size_t addrs = 0x7231e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,6 +45,12 @@ inline void UnityEngine::UIElements::PointerType::setStaticF_pen(::StringW value
 }
 inline ::StringW UnityEngine::UIElements::PointerType::getStaticF_pen() {
   return ::cordl_internals::getStaticField<::StringW, "pen", ::UnityEngine::UIElements::PointerType*>();
+}
+inline void UnityEngine::UIElements::PointerType::setStaticF_tracked(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "tracked", ::UnityEngine::UIElements::PointerType*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::PointerType::getStaticF_tracked() {
+  return ::cordl_internals::getStaticField<::StringW, "tracked", ::UnityEngine::UIElements::PointerType*>();
 }
 inline void UnityEngine::UIElements::PointerType::setStaticF_unknown(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "unknown", ::UnityEngine::UIElements::PointerType*>(std::forward<::StringW>(value));

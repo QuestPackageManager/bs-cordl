@@ -27,19 +27,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0x3324610, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0x35ad6f8, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetFileNamesFromFilePaths, addr 0x33249fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFileNamesFromFilePaths, addr 0x35adae4, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
-  /// @brief Method GetFilePaths, addr 0x33247a8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetFilePaths, addr 0x35ad890, size 0x254, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0x33246d8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0x35ad7c0, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
 
-  /// @brief Method PathIsUrl, addr 0x33245a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PathIsUrl, addr 0x35ad68c, size 0x6c, virtual false, abstract: false, final false
   static inline bool PathIsUrl(::StringW filePath);
 
 protected:
@@ -57,7 +57,7 @@ public:
   FileHelpers(FileHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21400 };
 
   /// @brief Field kProtocolInfix offset 0xffffffff size 0x8
   static constexpr ::ConstString kProtocolInfix{ u"://" };

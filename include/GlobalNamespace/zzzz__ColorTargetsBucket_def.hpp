@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__targets(::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> value);
 
-  /// @brief Method .ctor, addr 0x599320c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae0f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targets, addr 0x5993204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x5dae0ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> get_targets();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ColorTargetsBucket(ColorTargetsBucket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5947 };
 
   /// [SerializeField]
   /// @brief Field _targets, offset: 0x10, size: 0x8, def value: None

@@ -26,42 +26,42 @@ public:
   // Declarations
   __declspec(property(get = get_userPresent)) bool userPresent;
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x5e4f858, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x62695ec, size 0x130, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr func);
 
   static inline ::Meta::XR::MetaXRFeature* New_ctor();
 
-  /// @brief Method OnAppSpaceChange, addr 0x5e4fe38, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnAppSpaceChange, addr 0x6269bcc, size 0xe4, virtual true, abstract: false, final false
   inline void OnAppSpaceChange(uint64_t xrSpace);
 
-  /// @brief Method OnInstanceCreate, addr 0x5e4f988, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x626971c, size 0x2f8, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x5e4fc80, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x6269a14, size 0xdc, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method OnSessionBegin, addr 0x5e50020, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionBegin, addr 0x6269db4, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionBegin(uint64_t xrSession);
 
-  /// @brief Method OnSessionCreate, addr 0x5e4fd5c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x6269af0, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method OnSessionDestroy, addr 0x5e502b4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionDestroy, addr 0x626a048, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionDestroy(uint64_t xrSession);
 
-  /// @brief Method OnSessionEnd, addr 0x5e500fc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionEnd, addr 0x6269e90, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionEnd(uint64_t xrSession);
 
-  /// @brief Method OnSessionExiting, addr 0x5e501d8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnSessionExiting, addr 0x6269f6c, size 0xdc, virtual true, abstract: false, final false
   inline void OnSessionExiting(uint64_t xrSession);
 
-  /// @brief Method OnSessionStateChange, addr 0x5e4ff1c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnSessionStateChange, addr 0x6269cb0, size 0x104, virtual true, abstract: false, final false
   inline void OnSessionStateChange(int32_t oldState, int32_t newState);
 
-  /// @brief Method .ctor, addr 0x5e50390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626a124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_userPresent, addr 0x5e4f7cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_userPresent, addr 0x6269560, size 0x8c, virtual false, abstract: false, final false
   inline bool get_userPresent();
 
 protected:
@@ -79,7 +79,7 @@ public:
   MetaXRFeature(MetaXRFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8680 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.meta.openxr.feature.metaxr" };
@@ -87,6 +87,6 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::Meta::XR::MetaXRFeature) == 0x50, "Size mismatch!");
+static_assert(sizeof(::Meta::XR::MetaXRFeature) == 0x70, "Size mismatch!");
 
 } // namespace Meta::XR

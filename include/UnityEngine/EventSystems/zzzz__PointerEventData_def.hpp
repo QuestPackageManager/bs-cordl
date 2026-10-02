@@ -103,7 +103,7 @@ public:
   static ::UnityEngine::EventSystems::PointerEventData_InputButton const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18046 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -166,7 +166,7 @@ public:
   static ::UnityEngine::EventSystems::PointerEventData_FramePressState const Released;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18047 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -194,48 +194,48 @@ public:
 
   using InputButton = ::UnityEngine::EventSystems::PointerEventData_InputButton;
 
-  /// @brief Field <altitudeAngle>k__BackingField, offset 0x154, size 0x4
+  /// @brief Field <altitudeAngle>k__BackingField, offset 0x194, size 0x4
   __declspec(property(get = __cordl_internal_get__altitudeAngle_k__BackingField, put = __cordl_internal_set__altitudeAngle_k__BackingField)) float_t _altitudeAngle_k__BackingField;
 
-  /// @brief Field <azimuthAngle>k__BackingField, offset 0x158, size 0x4
+  /// @brief Field <azimuthAngle>k__BackingField, offset 0x198, size 0x4
   __declspec(property(get = __cordl_internal_get__azimuthAngle_k__BackingField, put = __cordl_internal_set__azimuthAngle_k__BackingField)) float_t _azimuthAngle_k__BackingField;
 
-  /// @brief Field <button>k__BackingField, offset 0x148, size 0x4
+  /// @brief Field <button>k__BackingField, offset 0x188, size 0x4
   __declspec(property(get = __cordl_internal_get__button_k__BackingField,
                       put = __cordl_internal_set__button_k__BackingField)) ::UnityEngine::EventSystems::PointerEventData_InputButton _button_k__BackingField;
 
-  /// @brief Field <clickCount>k__BackingField, offset 0x138, size 0x4
+  /// @brief Field <clickCount>k__BackingField, offset 0x178, size 0x4
   __declspec(property(get = __cordl_internal_get__clickCount_k__BackingField, put = __cordl_internal_set__clickCount_k__BackingField)) int32_t _clickCount_k__BackingField;
 
-  /// @brief Field <clickTime>k__BackingField, offset 0x134, size 0x4
+  /// @brief Field <clickTime>k__BackingField, offset 0x174, size 0x4
   __declspec(property(get = __cordl_internal_get__clickTime_k__BackingField, put = __cordl_internal_set__clickTime_k__BackingField)) float_t _clickTime_k__BackingField;
 
-  /// @brief Field <delta>k__BackingField, offset 0x10c, size 0x8
+  /// @brief Field <delta>k__BackingField, offset 0x14c, size 0x8
   __declspec(property(get = __cordl_internal_get__delta_k__BackingField, put = __cordl_internal_set__delta_k__BackingField)) ::UnityEngine::Vector2 _delta_k__BackingField;
 
-  /// @brief Field <displayIndex>k__BackingField, offset 0xfc, size 0x4
+  /// @brief Field <displayIndex>k__BackingField, offset 0x13c, size 0x4
   __declspec(property(get = __cordl_internal_get__displayIndex_k__BackingField, put = __cordl_internal_set__displayIndex_k__BackingField)) int32_t _displayIndex_k__BackingField;
 
-  /// @brief Field <dragging>k__BackingField, offset 0x145, size 0x1
+  /// @brief Field <dragging>k__BackingField, offset 0x185, size 0x1
   __declspec(property(get = __cordl_internal_get__dragging_k__BackingField, put = __cordl_internal_set__dragging_k__BackingField)) bool _dragging_k__BackingField;
 
-  /// @brief Field <eligibleForClick>k__BackingField, offset 0xf8, size 0x1
+  /// @brief Field <eligibleForClick>k__BackingField, offset 0x138, size 0x1
   __declspec(property(get = __cordl_internal_get__eligibleForClick_k__BackingField, put = __cordl_internal_set__eligibleForClick_k__BackingField)) bool _eligibleForClick_k__BackingField;
 
-  /// @brief Field <fullyExited>k__BackingField, offset 0x17c, size 0x1
+  /// @brief Field <fullyExited>k__BackingField, offset 0x1bc, size 0x1
   __declspec(property(get = __cordl_internal_get__fullyExited_k__BackingField, put = __cordl_internal_set__fullyExited_k__BackingField)) bool _fullyExited_k__BackingField;
 
   /// @brief Field <lastPress>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__lastPress_k__BackingField, put = __cordl_internal_set__lastPress_k__BackingField)) ::UnityW<::UnityEngine::GameObject> _lastPress_k__BackingField;
 
-  /// @brief Field <penStatus>k__BackingField, offset 0x168, size 0x4
+  /// @brief Field <penStatus>k__BackingField, offset 0x1a8, size 0x4
   __declspec(property(get = __cordl_internal_get__penStatus_k__BackingField, put = __cordl_internal_set__penStatus_k__BackingField)) ::UnityEngine::PenStatus _penStatus_k__BackingField;
 
   /// @brief Field <pointerClick>k__BackingField, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__pointerClick_k__BackingField, put = __cordl_internal_set__pointerClick_k__BackingField)) ::UnityW<::UnityEngine::GameObject>
       _pointerClick_k__BackingField;
 
-  /// @brief Field <pointerCurrentRaycast>k__BackingField, offset 0x50, size 0x50
+  /// @brief Field <pointerCurrentRaycast>k__BackingField, offset 0x50, size 0x70
   __declspec(property(get = __cordl_internal_get__pointerCurrentRaycast_k__BackingField,
                       put = __cordl_internal_set__pointerCurrentRaycast_k__BackingField)) ::UnityEngine::EventSystems::RaycastResult _pointerCurrentRaycast_k__BackingField;
 
@@ -247,54 +247,54 @@ public:
   __declspec(property(get = __cordl_internal_get__pointerEnter_k__BackingField, put = __cordl_internal_set__pointerEnter_k__BackingField)) ::UnityW<::UnityEngine::GameObject>
       _pointerEnter_k__BackingField;
 
-  /// @brief Field <pointerId>k__BackingField, offset 0x100, size 0x4
+  /// @brief Field <pointerId>k__BackingField, offset 0x140, size 0x4
   __declspec(property(get = __cordl_internal_get__pointerId_k__BackingField, put = __cordl_internal_set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
 
-  /// @brief Field <pointerPressRaycast>k__BackingField, offset 0xa0, size 0x50
+  /// @brief Field <pointerPressRaycast>k__BackingField, offset 0xc0, size 0x70
   __declspec(property(get = __cordl_internal_get__pointerPressRaycast_k__BackingField,
                       put = __cordl_internal_set__pointerPressRaycast_k__BackingField)) ::UnityEngine::EventSystems::RaycastResult _pointerPressRaycast_k__BackingField;
 
-  /// @brief Field <position>k__BackingField, offset 0x104, size 0x8
+  /// @brief Field <position>k__BackingField, offset 0x144, size 0x8
   __declspec(property(get = __cordl_internal_get__position_k__BackingField, put = __cordl_internal_set__position_k__BackingField)) ::UnityEngine::Vector2 _position_k__BackingField;
 
-  /// @brief Field <pressPosition>k__BackingField, offset 0x114, size 0x8
+  /// @brief Field <pressPosition>k__BackingField, offset 0x154, size 0x8
   __declspec(property(get = __cordl_internal_get__pressPosition_k__BackingField, put = __cordl_internal_set__pressPosition_k__BackingField)) ::UnityEngine::Vector2 _pressPosition_k__BackingField;
 
-  /// @brief Field <pressure>k__BackingField, offset 0x14c, size 0x4
+  /// @brief Field <pressure>k__BackingField, offset 0x18c, size 0x4
   __declspec(property(get = __cordl_internal_get__pressure_k__BackingField, put = __cordl_internal_set__pressure_k__BackingField)) float_t _pressure_k__BackingField;
 
-  /// @brief Field <radiusVariance>k__BackingField, offset 0x174, size 0x8
+  /// @brief Field <radiusVariance>k__BackingField, offset 0x1b4, size 0x8
   __declspec(property(get = __cordl_internal_get__radiusVariance_k__BackingField, put = __cordl_internal_set__radiusVariance_k__BackingField)) ::UnityEngine::Vector2 _radiusVariance_k__BackingField;
 
-  /// @brief Field <radius>k__BackingField, offset 0x16c, size 0x8
+  /// @brief Field <radius>k__BackingField, offset 0x1ac, size 0x8
   __declspec(property(get = __cordl_internal_get__radius_k__BackingField, put = __cordl_internal_set__radius_k__BackingField)) ::UnityEngine::Vector2 _radius_k__BackingField;
 
   /// @brief Field <rawPointerPress>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rawPointerPress_k__BackingField, put = __cordl_internal_set__rawPointerPress_k__BackingField)) ::UnityW<::UnityEngine::GameObject>
       _rawPointerPress_k__BackingField;
 
-  /// @brief Field <reentered>k__BackingField, offset 0x17d, size 0x1
+  /// @brief Field <reentered>k__BackingField, offset 0x1bd, size 0x1
   __declspec(property(get = __cordl_internal_get__reentered_k__BackingField, put = __cordl_internal_set__reentered_k__BackingField)) bool _reentered_k__BackingField;
 
-  /// @brief Field <scrollDelta>k__BackingField, offset 0x13c, size 0x8
+  /// @brief Field <scrollDelta>k__BackingField, offset 0x17c, size 0x8
   __declspec(property(get = __cordl_internal_get__scrollDelta_k__BackingField, put = __cordl_internal_set__scrollDelta_k__BackingField)) ::UnityEngine::Vector2 _scrollDelta_k__BackingField;
 
-  /// @brief Field <tangentialPressure>k__BackingField, offset 0x150, size 0x4
+  /// @brief Field <tangentialPressure>k__BackingField, offset 0x190, size 0x4
   __declspec(property(get = __cordl_internal_get__tangentialPressure_k__BackingField, put = __cordl_internal_set__tangentialPressure_k__BackingField)) float_t _tangentialPressure_k__BackingField;
 
-  /// @brief Field <tilt>k__BackingField, offset 0x160, size 0x8
+  /// @brief Field <tilt>k__BackingField, offset 0x1a0, size 0x8
   __declspec(property(get = __cordl_internal_get__tilt_k__BackingField, put = __cordl_internal_set__tilt_k__BackingField)) ::UnityEngine::Vector2 _tilt_k__BackingField;
 
-  /// @brief Field <twist>k__BackingField, offset 0x15c, size 0x4
+  /// @brief Field <twist>k__BackingField, offset 0x19c, size 0x4
   __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField)) float_t _twist_k__BackingField;
 
-  /// @brief Field <useDragThreshold>k__BackingField, offset 0x144, size 0x1
+  /// @brief Field <useDragThreshold>k__BackingField, offset 0x184, size 0x1
   __declspec(property(get = __cordl_internal_get__useDragThreshold_k__BackingField, put = __cordl_internal_set__useDragThreshold_k__BackingField)) bool _useDragThreshold_k__BackingField;
 
-  /// @brief Field <worldNormal>k__BackingField, offset 0x128, size 0xc
+  /// @brief Field <worldNormal>k__BackingField, offset 0x168, size 0xc
   __declspec(property(get = __cordl_internal_get__worldNormal_k__BackingField, put = __cordl_internal_set__worldNormal_k__BackingField)) ::UnityEngine::Vector3 _worldNormal_k__BackingField;
 
-  /// @brief Field <worldPosition>k__BackingField, offset 0x11c, size 0xc
+  /// @brief Field <worldPosition>k__BackingField, offset 0x15c, size 0xc
   __declspec(property(get = __cordl_internal_get__worldPosition_k__BackingField, put = __cordl_internal_set__worldPosition_k__BackingField)) ::UnityEngine::Vector3 _worldPosition_k__BackingField;
 
   __declspec(property(get = get_altitudeAngle, put = set_altitudeAngle)) float_t altitudeAngle;
@@ -319,7 +319,7 @@ public:
 
   __declspec(property(get = get_fullyExited, put = set_fullyExited)) bool fullyExited;
 
-  /// @brief Field hovered, offset 0xf0, size 0x8
+  /// @brief Field hovered, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get_hovered, put = __cordl_internal_set_hovered)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* hovered;
 
   __declspec(property(get = get_lastPress, put = set_lastPress)) ::UnityW<::UnityEngine::GameObject> lastPress;
@@ -375,15 +375,15 @@ public:
   /// @brief [Obsolete("Use either pointerCurrentRaycast.worldPosition or pointerPressRaycast.worldPosition")]
   __declspec(property(get = get_worldPosition, put = set_worldPosition)) ::UnityEngine::Vector3 worldPosition;
 
-  /// @brief Method IsPointerMoving, addr 0x6e1846c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsPointerMoving, addr 0x72b36b8, size 0x20, virtual false, abstract: false, final false
   inline bool IsPointerMoving();
 
-  /// @brief Method IsScrolling, addr 0x6e1848c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScrolling, addr 0x72b36d8, size 0x20, virtual false, abstract: false, final false
   inline bool IsScrolling();
 
   static inline ::UnityEngine::EventSystems::PointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x6e1865c, size 0x754, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x72b3814, size 0x758, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get__altitudeAngle_k__BackingField() const;
@@ -590,275 +590,275 @@ public:
 
   constexpr void __cordl_internal_set_m_PointerPress(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x6e18340, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b3588, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// [CompilerGenerated]
-  /// @brief Method get_altitudeAngle, addr 0x6e18298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altitudeAngle, addr 0x72b34e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_altitudeAngle();
 
   /// [CompilerGenerated]
-  /// @brief Method get_azimuthAngle, addr 0x6e182a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_azimuthAngle, addr 0x72b34f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuthAngle();
 
   /// [CompilerGenerated]
-  /// @brief Method get_button, addr 0x6e18268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x72b34b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clickCount, addr 0x6e18220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x72b3468, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clickTime, addr 0x6e18210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickTime, addr 0x72b3458, size 0x8, virtual false, abstract: false, final false
   inline float_t get_clickTime();
 
   /// [CompilerGenerated]
-  /// @brief Method get_delta, addr 0x6e181a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x72b33e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_delta();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayIndex, addr 0x6e18168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x72b33b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_displayIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dragging, addr 0x6e18258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragging, addr 0x72b34a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_dragging();
 
   /// [CompilerGenerated]
-  /// @brief Method get_eligibleForClick, addr 0x6e18158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eligibleForClick, addr 0x72b33a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_eligibleForClick();
 
-  /// @brief Method get_enterEventCamera, addr 0x6e184ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_enterEventCamera, addr 0x72b36f8, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_enterEventCamera();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fullyExited, addr 0x6e18320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullyExited, addr 0x72b3568, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullyExited();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastPress, addr 0x6e180e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastPress, addr 0x72b3328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_lastPress();
 
   /// [CompilerGenerated]
-  /// @brief Method get_penStatus, addr 0x6e182e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_penStatus, addr 0x72b3528, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PenStatus get_penStatus();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerClick, addr 0x6e18110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerClick, addr 0x72b3358, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerClick();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerCurrentRaycast, addr 0x6e18120, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_pointerCurrentRaycast, addr 0x72b3368, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult get_pointerCurrentRaycast();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerDrag, addr 0x6e18100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerDrag, addr 0x72b3348, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerDrag();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerEnter, addr 0x6e180d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerEnter, addr 0x72b3318, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerEnter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerId, addr 0x6e18178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerId, addr 0x72b33c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pointerId();
 
-  /// @brief Method get_pointerPress, addr 0x6e185d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPress, addr 0x72b378c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerPress();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerPressRaycast, addr 0x6e1813c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPressRaycast, addr 0x72b3384, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult get_pointerPressRaycast();
 
   /// [CompilerGenerated]
-  /// @brief Method get_position, addr 0x6e18188, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x72b33d0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_pressEventCamera, addr 0x6e18540, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_pressEventCamera, addr 0x72ae620, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_pressEventCamera();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pressPosition, addr 0x6e181b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressPosition, addr 0x72b3400, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pressPosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pressure, addr 0x6e18278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x72b34c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
   /// [CompilerGenerated]
-  /// @brief Method get_radius, addr 0x6e182f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x72b3538, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radius();
 
   /// [CompilerGenerated]
-  /// @brief Method get_radiusVariance, addr 0x6e18308, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radiusVariance, addr 0x72b3550, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rawPointerPress, addr 0x6e180f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rawPointerPress, addr 0x72b3338, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_rawPointerPress();
 
   /// [CompilerGenerated]
-  /// @brief Method get_reentered, addr 0x6e18330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reentered, addr 0x72b3578, size 0x8, virtual false, abstract: false, final false
   inline bool get_reentered();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scrollDelta, addr 0x6e18230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_scrollDelta, addr 0x72b3478, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scrollDelta();
 
   /// [CompilerGenerated]
-  /// @brief Method get_tangentialPressure, addr 0x6e18288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tangentialPressure, addr 0x72b34d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tangentialPressure();
 
   /// [CompilerGenerated]
-  /// @brief Method get_tilt, addr 0x6e182c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x72b3510, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_tilt();
 
   /// [CompilerGenerated]
-  /// @brief Method get_twist, addr 0x6e182b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x72b3500, size 0x8, virtual false, abstract: false, final false
   inline float_t get_twist();
 
   /// [CompilerGenerated]
-  /// @brief Method get_useDragThreshold, addr 0x6e18248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDragThreshold, addr 0x72b3490, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDragThreshold();
 
   /// [CompilerGenerated]
-  /// @brief Method get_worldNormal, addr 0x6e181f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldNormal, addr 0x72b3438, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldNormal();
 
   /// [CompilerGenerated]
-  /// @brief Method get_worldPosition, addr 0x6e181d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldPosition, addr 0x72b3418, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldPosition();
 
   /// [CompilerGenerated]
-  /// @brief Method set_altitudeAngle, addr 0x6e182a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_altitudeAngle, addr 0x72b34e8, size 0x8, virtual false, abstract: false, final false
   inline void set_altitudeAngle(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_azimuthAngle, addr 0x6e182b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_azimuthAngle, addr 0x72b34f8, size 0x8, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_button, addr 0x6e18270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x72b34b8, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_clickCount, addr 0x6e18228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickCount, addr 0x72b3470, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_clickTime, addr 0x6e18218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickTime, addr 0x72b3460, size 0x8, virtual false, abstract: false, final false
   inline void set_clickTime(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_delta, addr 0x6e181ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x72b33f4, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayIndex, addr 0x6e18170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayIndex, addr 0x72b33b8, size 0x8, virtual false, abstract: false, final false
   inline void set_displayIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dragging, addr 0x6e18260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragging, addr 0x72b34a8, size 0x8, virtual false, abstract: false, final false
   inline void set_dragging(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_eligibleForClick, addr 0x6e18160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eligibleForClick, addr 0x72b33a8, size 0x8, virtual false, abstract: false, final false
   inline void set_eligibleForClick(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fullyExited, addr 0x6e18328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullyExited, addr 0x72b3570, size 0x8, virtual false, abstract: false, final false
   inline void set_fullyExited(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastPress, addr 0x6e180e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastPress, addr 0x72b3330, size 0x8, virtual false, abstract: false, final false
   inline void set_lastPress(::UnityEngine::GameObject* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_penStatus, addr 0x6e182e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_penStatus, addr 0x72b3530, size 0x8, virtual false, abstract: false, final false
   inline void set_penStatus(::UnityEngine::PenStatus value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerClick, addr 0x6e18118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerClick, addr 0x72b3360, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerClick(::UnityEngine::GameObject* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerCurrentRaycast, addr 0x6e18130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pointerCurrentRaycast, addr 0x72b3378, size 0xc, virtual false, abstract: false, final false
   inline void set_pointerCurrentRaycast(::UnityEngine::EventSystems::RaycastResult value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerDrag, addr 0x6e18108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerDrag, addr 0x72b3350, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerDrag(::UnityEngine::GameObject* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerEnter, addr 0x6e180d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerEnter, addr 0x72b3320, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerEnter(::UnityEngine::GameObject* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerId, addr 0x6e18180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerId, addr 0x72b33c8, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
-  /// @brief Method set_pointerPress, addr 0x6e185dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPress, addr 0x72b3794, size 0x80, virtual false, abstract: false, final false
   inline void set_pointerPress(::UnityEngine::GameObject* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerPressRaycast, addr 0x6e1814c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPressRaycast, addr 0x72b3394, size 0xc, virtual false, abstract: false, final false
   inline void set_pointerPressRaycast(::UnityEngine::EventSystems::RaycastResult value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_position, addr 0x6e18194, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x72b33dc, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pressPosition, addr 0x6e181c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pressPosition, addr 0x72b340c, size 0xc, virtual false, abstract: false, final false
   inline void set_pressPosition(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pressure, addr 0x6e18280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressure, addr 0x72b34c8, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radius, addr 0x6e182fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x72b3544, size 0xc, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radiusVariance, addr 0x6e18314, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_radiusVariance, addr 0x72b355c, size 0xc, virtual false, abstract: false, final false
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rawPointerPress, addr 0x6e180f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rawPointerPress, addr 0x72b3340, size 0x8, virtual false, abstract: false, final false
   inline void set_rawPointerPress(::UnityEngine::GameObject* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_reentered, addr 0x6e18338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reentered, addr 0x72b3580, size 0x8, virtual false, abstract: false, final false
   inline void set_reentered(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scrollDelta, addr 0x6e1823c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_scrollDelta, addr 0x72b3484, size 0xc, virtual false, abstract: false, final false
   inline void set_scrollDelta(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_tangentialPressure, addr 0x6e18290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tangentialPressure, addr 0x72b34d8, size 0x8, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_tilt, addr 0x6e182d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tilt, addr 0x72b351c, size 0xc, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_twist, addr 0x6e182c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x72b3508, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_useDragThreshold, addr 0x6e18250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useDragThreshold, addr 0x72b3498, size 0x8, virtual false, abstract: false, final false
   inline void set_useDragThreshold(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_worldNormal, addr 0x6e18200, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_worldNormal, addr 0x72b3448, size 0x10, virtual false, abstract: false, final false
   inline void set_worldNormal(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_worldPosition, addr 0x6e181e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_worldPosition, addr 0x72b3428, size 0x10, virtual false, abstract: false, final false
   inline void set_worldPosition(::UnityEngine::Vector3 value);
 
 protected:
@@ -876,7 +876,7 @@ public:
   PointerEventData(PointerEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18048 };
 
   /// [CompilerGenerated]
   /// @brief Field <pointerEnter>k__BackingField, offset: 0x20, size: 0x8, def value: None
@@ -902,114 +902,114 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____pointerClick_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <pointerCurrentRaycast>k__BackingField, offset: 0x50, size: 0x50, def value: None
+  /// @brief Field <pointerCurrentRaycast>k__BackingField, offset: 0x50, size: 0x70, def value: None
   ::UnityEngine::EventSystems::RaycastResult ____pointerCurrentRaycast_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <pointerPressRaycast>k__BackingField, offset: 0xa0, size: 0x50, def value: None
+  /// @brief Field <pointerPressRaycast>k__BackingField, offset: 0xc0, size: 0x70, def value: None
   ::UnityEngine::EventSystems::RaycastResult ____pointerPressRaycast_k__BackingField;
 
-  /// @brief Field hovered, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field hovered, offset: 0x130, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ___hovered;
 
   /// [CompilerGenerated]
-  /// @brief Field <eligibleForClick>k__BackingField, offset: 0xf8, size: 0x1, def value: None
+  /// @brief Field <eligibleForClick>k__BackingField, offset: 0x138, size: 0x1, def value: None
   bool ____eligibleForClick_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <displayIndex>k__BackingField, offset: 0xfc, size: 0x4, def value: None
+  /// @brief Field <displayIndex>k__BackingField, offset: 0x13c, size: 0x4, def value: None
   int32_t ____displayIndex_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <pointerId>k__BackingField, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field <pointerId>k__BackingField, offset: 0x140, size: 0x4, def value: None
   int32_t ____pointerId_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <position>k__BackingField, offset: 0x104, size: 0x8, def value: None
+  /// @brief Field <position>k__BackingField, offset: 0x144, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____position_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <delta>k__BackingField, offset: 0x10c, size: 0x8, def value: None
+  /// @brief Field <delta>k__BackingField, offset: 0x14c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____delta_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <pressPosition>k__BackingField, offset: 0x114, size: 0x8, def value: None
+  /// @brief Field <pressPosition>k__BackingField, offset: 0x154, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____pressPosition_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <worldPosition>k__BackingField, offset: 0x11c, size: 0xc, def value: None
+  /// @brief Field <worldPosition>k__BackingField, offset: 0x15c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____worldPosition_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <worldNormal>k__BackingField, offset: 0x128, size: 0xc, def value: None
+  /// @brief Field <worldNormal>k__BackingField, offset: 0x168, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____worldNormal_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <clickTime>k__BackingField, offset: 0x134, size: 0x4, def value: None
+  /// @brief Field <clickTime>k__BackingField, offset: 0x174, size: 0x4, def value: None
   float_t ____clickTime_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <clickCount>k__BackingField, offset: 0x138, size: 0x4, def value: None
+  /// @brief Field <clickCount>k__BackingField, offset: 0x178, size: 0x4, def value: None
   int32_t ____clickCount_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <scrollDelta>k__BackingField, offset: 0x13c, size: 0x8, def value: None
+  /// @brief Field <scrollDelta>k__BackingField, offset: 0x17c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____scrollDelta_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <useDragThreshold>k__BackingField, offset: 0x144, size: 0x1, def value: None
+  /// @brief Field <useDragThreshold>k__BackingField, offset: 0x184, size: 0x1, def value: None
   bool ____useDragThreshold_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <dragging>k__BackingField, offset: 0x145, size: 0x1, def value: None
+  /// @brief Field <dragging>k__BackingField, offset: 0x185, size: 0x1, def value: None
   bool ____dragging_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <button>k__BackingField, offset: 0x148, size: 0x4, def value: None
+  /// @brief Field <button>k__BackingField, offset: 0x188, size: 0x4, def value: None
   ::UnityEngine::EventSystems::PointerEventData_InputButton ____button_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <pressure>k__BackingField, offset: 0x14c, size: 0x4, def value: None
+  /// @brief Field <pressure>k__BackingField, offset: 0x18c, size: 0x4, def value: None
   float_t ____pressure_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <tangentialPressure>k__BackingField, offset: 0x150, size: 0x4, def value: None
+  /// @brief Field <tangentialPressure>k__BackingField, offset: 0x190, size: 0x4, def value: None
   float_t ____tangentialPressure_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <altitudeAngle>k__BackingField, offset: 0x154, size: 0x4, def value: None
+  /// @brief Field <altitudeAngle>k__BackingField, offset: 0x194, size: 0x4, def value: None
   float_t ____altitudeAngle_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <azimuthAngle>k__BackingField, offset: 0x158, size: 0x4, def value: None
+  /// @brief Field <azimuthAngle>k__BackingField, offset: 0x198, size: 0x4, def value: None
   float_t ____azimuthAngle_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <twist>k__BackingField, offset: 0x15c, size: 0x4, def value: None
+  /// @brief Field <twist>k__BackingField, offset: 0x19c, size: 0x4, def value: None
   float_t ____twist_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <tilt>k__BackingField, offset: 0x160, size: 0x8, def value: None
+  /// @brief Field <tilt>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____tilt_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <penStatus>k__BackingField, offset: 0x168, size: 0x4, def value: None
+  /// @brief Field <penStatus>k__BackingField, offset: 0x1a8, size: 0x4, def value: None
   ::UnityEngine::PenStatus ____penStatus_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <radius>k__BackingField, offset: 0x16c, size: 0x8, def value: None
+  /// @brief Field <radius>k__BackingField, offset: 0x1ac, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radius_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <radiusVariance>k__BackingField, offset: 0x174, size: 0x8, def value: None
+  /// @brief Field <radiusVariance>k__BackingField, offset: 0x1b4, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radiusVariance_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <fullyExited>k__BackingField, offset: 0x17c, size: 0x1, def value: None
+  /// @brief Field <fullyExited>k__BackingField, offset: 0x1bc, size: 0x1, def value: None
   bool ____fullyExited_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <reentered>k__BackingField, offset: 0x17d, size: 0x1, def value: None
+  /// @brief Field <reentered>k__BackingField, offset: 0x1bd, size: 0x1, def value: None
   bool ____reentered_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1029,60 +1029,60 @@ static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointe
 
 static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointerCurrentRaycast_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointerPressRaycast_k__BackingField) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointerPressRaycast_k__BackingField) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ___hovered) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ___hovered) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____eligibleForClick_k__BackingField) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____eligibleForClick_k__BackingField) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____displayIndex_k__BackingField) == 0xfc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____displayIndex_k__BackingField) == 0x13c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointerId_k__BackingField) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointerId_k__BackingField) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____position_k__BackingField) == 0x104, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____position_k__BackingField) == 0x144, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____delta_k__BackingField) == 0x10c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____delta_k__BackingField) == 0x14c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pressPosition_k__BackingField) == 0x114, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pressPosition_k__BackingField) == 0x154, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____worldPosition_k__BackingField) == 0x11c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____worldPosition_k__BackingField) == 0x15c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____worldNormal_k__BackingField) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____worldNormal_k__BackingField) == 0x168, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____clickTime_k__BackingField) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____clickTime_k__BackingField) == 0x174, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____clickCount_k__BackingField) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____clickCount_k__BackingField) == 0x178, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____scrollDelta_k__BackingField) == 0x13c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____scrollDelta_k__BackingField) == 0x17c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____useDragThreshold_k__BackingField) == 0x144, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____useDragThreshold_k__BackingField) == 0x184, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____dragging_k__BackingField) == 0x145, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____dragging_k__BackingField) == 0x185, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____button_k__BackingField) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____button_k__BackingField) == 0x188, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pressure_k__BackingField) == 0x14c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pressure_k__BackingField) == 0x18c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____tangentialPressure_k__BackingField) == 0x150, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____tangentialPressure_k__BackingField) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____altitudeAngle_k__BackingField) == 0x154, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____altitudeAngle_k__BackingField) == 0x194, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____azimuthAngle_k__BackingField) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____azimuthAngle_k__BackingField) == 0x198, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____twist_k__BackingField) == 0x15c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____twist_k__BackingField) == 0x19c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____tilt_k__BackingField) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____tilt_k__BackingField) == 0x1a0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____penStatus_k__BackingField) == 0x168, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____penStatus_k__BackingField) == 0x1a8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____radius_k__BackingField) == 0x16c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____radius_k__BackingField) == 0x1ac, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____radiusVariance_k__BackingField) == 0x174, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____radiusVariance_k__BackingField) == 0x1b4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____fullyExited_k__BackingField) == 0x17c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____fullyExited_k__BackingField) == 0x1bc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____reentered_k__BackingField) == 0x17d, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____reentered_k__BackingField) == 0x1bd, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData) == 0x180, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData) == 0x1c0, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems

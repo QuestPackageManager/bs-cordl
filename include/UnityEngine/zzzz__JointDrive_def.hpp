@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JointDrive)
-namespace UnityEngine {
-struct JointDriveMode;
-}
 // Forward declare root types
 namespace UnityEngine {
 struct JointDrive;
@@ -26,44 +23,34 @@ public:
   // Declarations
   __declspec(property(get = get_maximumForce, put = set_maximumForce)) float_t maximumForce;
 
-  /// [Obsolete("JointDriveMode is obsolete")]
-  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  __declspec(property(get = get_mode, put = set_mode)) ::UnityEngine::JointDriveMode mode;
-
   __declspec(property(get = get_positionDamper, put = set_positionDamper)) float_t positionDamper;
 
   __declspec(property(get = get_positionSpring, put = set_positionSpring)) float_t positionSpring;
 
   __declspec(property(get = get_useAcceleration, put = set_useAcceleration)) bool useAcceleration;
 
-  /// @brief Method get_maximumForce, addr 0x6b72370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maximumForce, addr 0x6fdddc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maximumForce();
 
-  /// @brief Method get_mode, addr 0x6b7239c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::JointDriveMode get_mode();
-
-  /// @brief Method get_positionDamper, addr 0x6b72360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionDamper, addr 0x6fdddb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionDamper();
 
-  /// @brief Method get_positionSpring, addr 0x6b72350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionSpring, addr 0x6fddda0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionSpring();
 
-  /// @brief Method get_useAcceleration, addr 0x6b72380, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration, addr 0x6fdddd0, size 0x10, virtual false, abstract: false, final false
   inline bool get_useAcceleration();
 
-  /// @brief Method set_maximumForce, addr 0x6b72378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maximumForce, addr 0x6fdddc8, size 0x8, virtual false, abstract: false, final false
   inline void set_maximumForce(float_t value);
 
-  /// @brief Method set_mode, addr 0x6b723a4, size 0x4, virtual false, abstract: false, final false
-  inline void set_mode(::UnityEngine::JointDriveMode value);
-
-  /// @brief Method set_positionDamper, addr 0x6b72368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionDamper, addr 0x6fdddb8, size 0x8, virtual false, abstract: false, final false
   inline void set_positionDamper(float_t value);
 
-  /// @brief Method set_positionSpring, addr 0x6b72358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionSpring, addr 0x6fddda8, size 0x8, virtual false, abstract: false, final false
   inline void set_positionSpring(float_t value);
 
-  /// @brief Method set_useAcceleration, addr 0x6b72390, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration, addr 0x6fddde0, size 0xc, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);
 
   // Ctor Parameters []
@@ -76,7 +63,7 @@ public:
   constexpr JointDrive(float_t m_PositionSpring, float_t m_PositionDamper, float_t m_MaximumForce, int32_t m_UseAcceleration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -67,27 +67,27 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60f0fe4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x650d500, size 0x160, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60f1144, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x650d660, size 0xc4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsCodeValid, addr 0x60f0fd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCodeValid, addr 0x650d4f0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCodeValid(int32_t code);
 
   static inline ::System::Net::Http::Headers::WarningHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60f0fe0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x650d4fc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60f1564, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x650da80, size 0x228, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60f1208, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x650d724, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x60f12bc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x650d7d8, size 0x2a8, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
@@ -115,42 +115,42 @@ public:
 
   constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60f0f78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x650d494, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Agent, addr 0x60f0f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Agent, addr 0x650d498, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Agent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Code, addr 0x60f0f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Code, addr 0x650d4a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Code();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Date, addr 0x60f0f9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x650d4b8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Text, addr 0x60f0fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x650d4e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Agent, addr 0x60f0f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Agent, addr 0x650d4a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Agent(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Code, addr 0x60f0f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Code, addr 0x650d4b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Code(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Date, addr 0x60f0fb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x650d4cc, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Text, addr 0x60f0fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x650d4e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
 protected:
@@ -168,7 +168,7 @@ public:
   WarningHeaderValue(WarningHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21002 };
 
   /// [CompilerGenerated]
   /// @brief Field <Agent>k__BackingField, offset: 0x10, size: 0x8, def value: None

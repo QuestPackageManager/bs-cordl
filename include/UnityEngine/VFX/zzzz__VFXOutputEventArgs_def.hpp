@@ -27,17 +27,17 @@ public:
 
   __declspec(property(get = get_nameId)) int32_t nameId;
 
-  /// @brief Method .ctor, addr 0x6e2ddbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c9760, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameId, ::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_eventAttribute, addr 0x6e2ddb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventAttribute, addr 0x72c9758, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXEventAttribute* get_eventAttribute();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_nameId, addr 0x6e2ddac, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_nameId, addr 0x72c9750, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_nameId();
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr VFXOutputEventArgs(int32_t _nameId_k__BackingField, ::UnityEngine::VFX::VFXEventAttribute* _eventAttribute_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22920 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

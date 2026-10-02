@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRPointerEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::EventSystems::OVRPointerEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4ef08;
+  constexpr static std::size_t addrs = 0x6268cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Even
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::OVRPointerEventData::*)()>(&::UnityEngine::EventSystems::OVRPointerEventData::ToString)> {
-  constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x5e4ef10;
+  constexpr static std::size_t size = 0x3f4;
+  constexpr static std::size_t addrs = 0x6268cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (*)(::StringW)>(&::GlobalNamespace::LayerMasks::GetLayerMask)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x36f89a4;
+  constexpr static std::size_t addrs = 0x3981d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (*)(int32_t)>(&::GlobalNamespace::LayerMasks::GetLayerMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36f89c0;
+  constexpr static std::size_t addrs = 0x3981d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LayerMasks*>(), { "GetLayerMask", {}, { ::i2c::type_of<int32_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LayerMasks::GetLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f89cc;
+  constexpr static std::size_t addrs = 0x3981d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LayerMasks*>(), { "GetLayer", {}, { ::i2c::type_of<::StringW>() } })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LayerMasks::*)()>(&::GlobalNamespace::LayerMasks::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36f89d4;
+  constexpr static std::size_t addrs = 0x3981d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LayerMasks*>(), { ".ctor", {}, {} })));

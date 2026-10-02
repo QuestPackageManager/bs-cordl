@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PostLateUpdate)
 namespace UnityEngine::PlayerLoop {
+struct PostLateUpdate_AccessibilityLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate_BatchModeUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -79,6 +82,9 @@ struct PostLateUpdate_ProfilerEndFrame;
 }
 namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate_ProfilerSynchronizeStats;
+}
+namespace UnityEngine::PlayerLoop {
+struct PostLateUpdate_RenderAs2DUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate_ResetInputAxis;
@@ -157,6 +163,9 @@ namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct PostLateUpdate_AccessibilityLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate_BatchModeUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -232,6 +241,9 @@ namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate_ProfilerSynchronizeStats;
 }
 namespace UnityEngine::PlayerLoop {
+struct PostLateUpdate_RenderAs2DUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PostLateUpdate_ResetInputAxis;
 }
 namespace UnityEngine::PlayerLoop {
@@ -305,6 +317,7 @@ struct PostLateUpdate_XRPreEndFrame;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_AccessibilityLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_BatchModeUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ClearImmediateRenderers);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_DirectorLateUpdate);
@@ -330,6 +343,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_PresentAfterDraw);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ProcessWebSendMessages);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ProfilerEndFrame);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ProfilerSynchronizeStats);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_RenderAs2DUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ResetInputAxis);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ScriptRunDelayedDynamicFrameRate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_ShaderHandleErrors);
@@ -355,6 +369,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_XRPostLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_XRPostPresent);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PostLateUpdate_XRPreEndFrame);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate");
+DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_AccessibilityLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/AccessibilityLateUpdate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_BatchModeUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/BatchModeUpdate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ClearImmediateRenderers, "UnityEngine.PlayerLoop", "PostLateUpdate/ClearImmediateRenderers");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_DirectorLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/DirectorLateUpdate");
@@ -380,6 +395,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_PresentAfterDraw, 
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ProcessWebSendMessages, "UnityEngine.PlayerLoop", "PostLateUpdate/ProcessWebSendMessages");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ProfilerEndFrame, "UnityEngine.PlayerLoop", "PostLateUpdate/ProfilerEndFrame");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ProfilerSynchronizeStats, "UnityEngine.PlayerLoop", "PostLateUpdate/ProfilerSynchronizeStats");
+DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_RenderAs2DUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/RenderAs2DUpdate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ResetInputAxis, "UnityEngine.PlayerLoop", "PostLateUpdate/ResetInputAxis");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ScriptRunDelayedDynamicFrameRate, "UnityEngine.PlayerLoop", "PostLateUpdate/ScriptRunDelayedDynamicFrameRate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PostLateUpdate_ShaderHandleErrors, "UnityEngine.PlayerLoop", "PostLateUpdate/ShaderHandleErrors");
@@ -418,7 +434,7 @@ public:
   constexpr PostLateUpdate_PlayerSendFrameStarted();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10183 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -447,7 +463,7 @@ public:
   constexpr PostLateUpdate_UpdateRectTransform();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -476,7 +492,7 @@ public:
   constexpr PostLateUpdate_UpdateCanvasRectTransform();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -505,7 +521,7 @@ public:
   constexpr PostLateUpdate_PlayerUpdateCanvases();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10186 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -524,6 +540,35 @@ static_assert(sizeof(::UnityEngine::PlayerLoop::PostLateUpdate_PlayerUpdateCanva
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
+// CS Name: UnityEngine.PlayerLoop.PostLateUpdate/AccessibilityLateUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE PostLateUpdate_AccessibilityLateUpdate {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PostLateUpdate_AccessibilityLateUpdate();
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10187 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::PlayerLoop::PostLateUpdate_AccessibilityLateUpdate) == 0x1, "Size mismatch!");
+
+} // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
+// Dependencies
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
 // CS Name: UnityEngine.PlayerLoop.PostLateUpdate/UIElementsRepaintPanels
 #pragma pack(push, 0)
 struct CORDL_TYPE PostLateUpdate_UIElementsRepaintPanels {
@@ -534,7 +579,7 @@ public:
   constexpr PostLateUpdate_UIElementsRepaintPanels();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -563,7 +608,7 @@ public:
   constexpr PostLateUpdate_UpdateAudio();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10189 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -592,7 +637,7 @@ public:
   constexpr PostLateUpdate_UpdateVideo();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10190 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -621,7 +666,7 @@ public:
   constexpr PostLateUpdate_DirectorLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10191 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -650,7 +695,7 @@ public:
   constexpr PostLateUpdate_ScriptRunDelayedDynamicFrameRate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10192 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -679,7 +724,7 @@ public:
   constexpr PostLateUpdate_VFXUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10193 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -708,7 +753,7 @@ public:
   constexpr PostLateUpdate_ParticleSystemEndUpdateAll();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10194 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -737,7 +782,7 @@ public:
   constexpr PostLateUpdate_EndGraphicsJobsAfterScriptLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10195 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -766,7 +811,7 @@ public:
   constexpr PostLateUpdate_UpdateSubstance();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10196 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -795,7 +840,7 @@ public:
   constexpr PostLateUpdate_UpdateCustomRenderTextures();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -824,7 +869,7 @@ public:
   constexpr PostLateUpdate_XRPostLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10198 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -853,7 +898,7 @@ public:
   constexpr PostLateUpdate_UpdateAllRenderers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -882,7 +927,7 @@ public:
   constexpr PostLateUpdate_UpdateLightProbeProxyVolumes();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10200 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -911,7 +956,7 @@ public:
   constexpr PostLateUpdate_EnlightenRuntimeUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10201 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -940,7 +985,7 @@ public:
   constexpr PostLateUpdate_UpdateAllSkinnedMeshes();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10202 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -969,7 +1014,7 @@ public:
   constexpr PostLateUpdate_ProcessWebSendMessages();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10203 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -988,6 +1033,35 @@ static_assert(sizeof(::UnityEngine::PlayerLoop::PostLateUpdate_ProcessWebSendMes
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
+// CS Name: UnityEngine.PlayerLoop.PostLateUpdate/RenderAs2DUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE PostLateUpdate_RenderAs2DUpdate {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PostLateUpdate_RenderAs2DUpdate();
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10204 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::PlayerLoop::PostLateUpdate_RenderAs2DUpdate) == 0x1, "Size mismatch!");
+
+} // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
+// Dependencies
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
 // CS Name: UnityEngine.PlayerLoop.PostLateUpdate/SortingGroupsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PostLateUpdate_SortingGroupsUpdate {
@@ -998,7 +1072,7 @@ public:
   constexpr PostLateUpdate_SortingGroupsUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1027,7 +1101,7 @@ public:
   constexpr PostLateUpdate_UpdateVideoTextures();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10206 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1056,7 +1130,7 @@ public:
   constexpr PostLateUpdate_DirectorRenderImage();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1085,7 +1159,7 @@ public:
   constexpr PostLateUpdate_PlayerEmitCanvasGeometry();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10208 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1114,7 +1188,7 @@ public:
   constexpr PostLateUpdate_UIElementsRenderBatchModeOffscreen();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10209 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1143,7 +1217,7 @@ public:
   constexpr PostLateUpdate_FinishFrameRendering();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10210 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1172,7 +1246,7 @@ public:
   constexpr PostLateUpdate_BatchModeUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1201,7 +1275,7 @@ public:
   constexpr PostLateUpdate_PlayerSendFrameComplete();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10212 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1230,7 +1304,7 @@ public:
   constexpr PostLateUpdate_UpdateCaptureScreenshot();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10213 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1259,7 +1333,7 @@ public:
   constexpr PostLateUpdate_PresentAfterDraw();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10214 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1288,7 +1362,7 @@ public:
   constexpr PostLateUpdate_ClearImmediateRenderers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10215 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1317,7 +1391,7 @@ public:
   constexpr PostLateUpdate_XRPostPresent();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1346,7 +1420,7 @@ public:
   constexpr PostLateUpdate_UpdateResolution();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10217 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1375,7 +1449,7 @@ public:
   constexpr PostLateUpdate_InputEndFrame();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10218 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1404,7 +1478,7 @@ public:
   constexpr PostLateUpdate_GUIClearEvents();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10219 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1433,7 +1507,7 @@ public:
   constexpr PostLateUpdate_ShaderHandleErrors();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10220 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1462,7 +1536,7 @@ public:
   constexpr PostLateUpdate_ResetInputAxis();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1491,7 +1565,7 @@ public:
   constexpr PostLateUpdate_ThreadedLoadingDebug();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10222 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1520,7 +1594,7 @@ public:
   constexpr PostLateUpdate_ProfilerSynchronizeStats();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10223 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1549,7 +1623,7 @@ public:
   constexpr PostLateUpdate_MemoryFrameMaintenance();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10224 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1578,7 +1652,7 @@ public:
   constexpr PostLateUpdate_ExecuteGameCenterCallbacks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10225 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1607,7 +1681,7 @@ public:
   constexpr PostLateUpdate_XRPreEndFrame();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10226 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1636,7 +1710,7 @@ public:
   constexpr PostLateUpdate_ProfilerEndFrame();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1665,7 +1739,7 @@ public:
   constexpr PostLateUpdate_GraphicsWarmupPreloadedShaders();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10228 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1694,7 +1768,7 @@ public:
   constexpr PostLateUpdate_PlayerSendFramePostPresent();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1723,7 +1797,7 @@ public:
   constexpr PostLateUpdate_PhysicsSkinnedClothBeginUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10230 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1752,7 +1826,7 @@ public:
   constexpr PostLateUpdate_PhysicsSkinnedClothFinishUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10231 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1781,7 +1855,7 @@ public:
   constexpr PostLateUpdate_TriggerEndOfFrameCallbacks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10232 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1810,7 +1884,7 @@ public:
   constexpr PostLateUpdate_ObjectDispatcherPostLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1825,8 +1899,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PostLateUpdate_ObjectDispatcherPostLateUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// [RequiredByNativeCode]
 // [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1835,6 +1909,8 @@ namespace UnityEngine::PlayerLoop {
 struct CORDL_TYPE PostLateUpdate {
 public:
   // Declarations
+  using AccessibilityLateUpdate = ::UnityEngine::PlayerLoop::PostLateUpdate_AccessibilityLateUpdate;
+
   using BatchModeUpdate = ::UnityEngine::PlayerLoop::PostLateUpdate_BatchModeUpdate;
 
   using ClearImmediateRenderers = ::UnityEngine::PlayerLoop::PostLateUpdate_ClearImmediateRenderers;
@@ -1884,6 +1960,8 @@ public:
   using ProfilerEndFrame = ::UnityEngine::PlayerLoop::PostLateUpdate_ProfilerEndFrame;
 
   using ProfilerSynchronizeStats = ::UnityEngine::PlayerLoop::PostLateUpdate_ProfilerSynchronizeStats;
+
+  using RenderAs2DUpdate = ::UnityEngine::PlayerLoop::PostLateUpdate_RenderAs2DUpdate;
 
   using ResetInputAxis = ::UnityEngine::PlayerLoop::PostLateUpdate_ResetInputAxis;
 
@@ -1938,7 +2016,7 @@ public:
   constexpr PostLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10234 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/JobMerger.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__JobMerger_def.hpp"
@@ -10,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(int32_t)>(&::UnityEngine::UIElements::UIR::JobMerger::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cde394;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x716d3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::UIElements::UIR::JobMerger::Add)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6cde448;
+  constexpr static std::size_t addrs = 0x716cbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::UIElements::UIR::JobMerger::*)()>(&::UnityEngine::UIElements::UIR::JobMerger::MergeAndReset)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6cde4b4;
+  constexpr static std::size_t addrs = 0x716cc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::JobMerger*>(), { "MergeAndReset", {}, {} })));
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::JobMerger::*)()>(&::UnityEngine::UIElements::UIR::JobMerger::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cde540;
+  constexpr static std::size_t addrs = 0x716d4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::JobMerger*>(), { "get_disposed", {}, {} })));
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(bool)>(&::UnityEngine::UIElements::UIR::JobMerger::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cde548;
+  constexpr static std::size_t addrs = 0x716d4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)()>(&::UnityEngine::UIElements::UIR::JobMerger::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cde550;
+  constexpr static std::size_t addrs = 0x716d1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::JobMerger*>(), { "Dispose", {}, {} })));
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(bool)>(&::UnityEngine::UIElements::UIR::JobMerger::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cde5b8;
+  constexpr static std::size_t addrs = 0x716d4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,6 +130,12 @@ constexpr bool const& UnityEngine::UIElements::UIR::JobMerger::__cordl_internal_
 constexpr void UnityEngine::UIElements::UIR::JobMerger::__cordl_internal_set__disposed_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
+}
+inline void UnityEngine::UIElements::UIR::JobMerger::setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value) {
+  ::cordl_internals::setStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::UIR::JobMerger*>(std::forward<::Unity::Collections::MemoryLabel>(value));
+}
+inline ::Unity::Collections::MemoryLabel UnityEngine::UIElements::UIR::JobMerger::getStaticF_k_MemoryLabel() {
+  return ::cordl_internals::getStaticField<::Unity::Collections::MemoryLabel, "k_MemoryLabel", ::UnityEngine::UIElements::UIR::JobMerger*>();
 }
 inline void UnityEngine::UIElements::UIR::JobMerger::_ctor(int32_t capacity) {
   static auto* ___internal_method =

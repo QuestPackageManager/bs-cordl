@@ -27,14 +27,20 @@ public:
     __E_NotOptimized = static_cast<int32_t>(0x0),
     __E_TargetSizeMismatch = static_cast<int32_t>(0x1),
     __E_NextPassReadsTexture = static_cast<int32_t>(0x2),
-    __E_NonRasterPass = static_cast<int32_t>(0x3),
-    __E_DifferentDepthTextures = static_cast<int32_t>(0x4),
-    __E_AttachmentLimitReached = static_cast<int32_t>(0x5),
-    __E_SubPassLimitReached = static_cast<int32_t>(0x6),
-    __E_EndOfGraph = static_cast<int32_t>(0x7),
-    __E_FRStateMismatch = static_cast<int32_t>(0x8),
-    __E_Merged = static_cast<int32_t>(0x9),
-    __E_Count = static_cast<int32_t>(0xa),
+    __E_NextPassTargetsTexture = static_cast<int32_t>(0x3),
+    __E_NonRasterPass = static_cast<int32_t>(0x4),
+    __E_DifferentDepthTextures = static_cast<int32_t>(0x5),
+    __E_AttachmentLimitReached = static_cast<int32_t>(0x6),
+    __E_SubPassLimitReached = static_cast<int32_t>(0x7),
+    __E_EndOfGraph = static_cast<int32_t>(0x8),
+    __E_FRStateMismatch = static_cast<int32_t>(0x9),
+    __E_DifferentShadingRateImages = static_cast<int32_t>(0xa),
+    __E_DifferentShadingRateStates = static_cast<int32_t>(0xb),
+    __E_MultisampledShaderResolveMustBeLastPass = static_cast<int32_t>(0xc),
+    __E_ExtendedFeatureFlagsIncompatible = static_cast<int32_t>(0xd),
+    __E_PassMergingDisabled = static_cast<int32_t>(0xe),
+    __E_Merged = static_cast<int32_t>(0xf),
+    __E_Count = static_cast<int32_t>(0x10),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -54,41 +60,59 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PassBreakReason(int32_t value__) noexcept;
 
-  /// @brief Field AttachmentLimitReached value: I32(5)
+  /// @brief Field AttachmentLimitReached value: I32(6)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const AttachmentLimitReached;
 
-  /// @brief Field Count value: I32(10)
+  /// @brief Field Count value: I32(16)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const Count;
 
-  /// @brief Field DifferentDepthTextures value: I32(4)
+  /// @brief Field DifferentDepthTextures value: I32(5)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const DifferentDepthTextures;
 
-  /// @brief Field EndOfGraph value: I32(7)
+  /// @brief Field DifferentShadingRateImages value: I32(10)
+  static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const DifferentShadingRateImages;
+
+  /// @brief Field DifferentShadingRateStates value: I32(11)
+  static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const DifferentShadingRateStates;
+
+  /// @brief Field EndOfGraph value: I32(8)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const EndOfGraph;
 
-  /// @brief Field FRStateMismatch value: I32(8)
+  /// @brief Field ExtendedFeatureFlagsIncompatible value: I32(13)
+  static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const ExtendedFeatureFlagsIncompatible;
+
+  /// @brief Field FRStateMismatch value: I32(9)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const FRStateMismatch;
 
-  /// @brief Field Merged value: I32(9)
+  /// @brief Field Merged value: I32(15)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const Merged;
+
+  /// @brief Field MultisampledShaderResolveMustBeLastPass value: I32(12)
+  static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const MultisampledShaderResolveMustBeLastPass;
 
   /// @brief Field NextPassReadsTexture value: I32(2)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const NextPassReadsTexture;
 
-  /// @brief Field NonRasterPass value: I32(3)
+  /// @brief Field NextPassTargetsTexture value: I32(3)
+  static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const NextPassTargetsTexture;
+
+  /// @brief Field NonRasterPass value: I32(4)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const NonRasterPass;
 
   /// @brief Field NotOptimized value: I32(0)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const NotOptimized;
 
-  /// @brief Field SubPassLimitReached value: I32(6)
+  /// @brief Field PassMergingDisabled value: I32(14)
+  static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const PassMergingDisabled;
+
+  /// @brief Field SubPassLimitReached value: I32(7)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const SubPassLimitReached;
 
   /// @brief Field TargetSizeMismatch value: I32(1)
   static ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason const TargetSizeMismatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9414 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

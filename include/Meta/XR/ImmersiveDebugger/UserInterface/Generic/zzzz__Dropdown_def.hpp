@@ -106,26 +106,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5a5b4b4, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e72eb4, size 0x240, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a5b6f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e73130, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a5b6f8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e73138, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a5b730, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e73170, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5a5b4b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e72eb0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -165,7 +165,7 @@ public:
   constexpr void __cordl_internal_set_dropdownIsShowing(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5a5b344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e72d44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -192,7 +192,7 @@ public:
   Dropdown__UpdateScrollPosition_d__24(Dropdown__UpdateScrollPosition_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18929 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -276,40 +276,40 @@ public:
   /// @brief Field _tweak, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__tweak, put = __cordl_internal_set__tweak)) ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* _tweak;
 
-  /// @brief Method AppendValue, addr 0x5a5b370, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AppendValue, addr 0x5e72d70, size 0xa8, virtual false, abstract: false, final false
   inline void AppendValue(::StringW data);
 
-  /// @brief Method HideDropdownItems, addr 0x5a5b34c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideDropdownItems, addr 0x5e72d4c, size 0x24, virtual false, abstract: false, final false
   inline void HideDropdownItems();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown* New_ctor();
 
-  /// @brief Method OnDropdownClick, addr 0x5a5b114, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDropdownClick, addr 0x5e72ad0, size 0x20, virtual false, abstract: false, final false
   inline void OnDropdownClick();
 
-  /// @brief Method OnMenuItemClick, addr 0x5a5b184, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnMenuItemClick, addr 0x5e72b40, size 0x4c, virtual false, abstract: false, final false
   inline void OnMenuItemClick(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem* menuItem);
 
-  /// @brief Method OnTransparencyChanged, addr 0x5a5b418, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5e72e18, size 0x8c, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method SetDropdownMenuVisibility, addr 0x5a5b134, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetDropdownMenuVisibility, addr 0x5e72af0, size 0x50, virtual false, abstract: false, final false
   inline void SetDropdownMenuVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x5a5ad78, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5e72734, size 0x39c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method SetupDropdownList, addr 0x5a5a82c, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method SetupDropdownList, addr 0x5e721e8, size 0x54c, virtual false, abstract: false, final false
   inline void SetupDropdownList();
 
-  /// @brief Method SetupMenu, addr 0x5a5a7cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetupMenu, addr 0x5e72188, size 0x34, virtual false, abstract: false, final false
   inline void SetupMenu(::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* tweak);
 
-  /// @brief Method Update, addr 0x5a5b1d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e72b8c, size 0x150, virtual false, abstract: false, final false
   inline void Update();
 
   /// [IteratorStateMachine(typeof(Meta.XR.ImmersiveDebugger.UserInterface.Generic.Dropdown::<UpdateScrollPosition>d__24))]
-  /// @brief Method UpdateScrollPosition, addr 0x5a5b2dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollPosition, addr 0x5e72cdc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateScrollPosition(bool dropdownIsShowing);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__background() const;
@@ -366,22 +366,22 @@ public:
 
   constexpr void __cordl_internal_set__tweak(::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* value);
 
-  /// @brief Method .ctor, addr 0x5a5b4a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e72ea4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DefaultHeight, addr 0x5a5a660, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultHeight, addr 0x5e71fc8, size 0x80, virtual false, abstract: false, final false
   inline float_t get_DefaultHeight();
 
-  /// @brief Method get_IsMenuVisible, addr 0x5a5a648, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsMenuVisible, addr 0x5e71fb0, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsMenuVisible();
 
-  /// @brief Method get_Label, addr 0x5a5a68c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5e72048, size 0x14, virtual false, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method set_BackgroundStyle, addr 0x5a5a72c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x5e720e8, size 0xa0, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_Label, addr 0x5a5a6a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_Label, addr 0x5e7205c, size 0x38, virtual false, abstract: false, final false
   inline void set_Label(::StringW value);
 
 protected:
@@ -399,7 +399,7 @@ public:
   Dropdown(Dropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18930 };
 
   /// @brief Field _flex, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> ____flex;

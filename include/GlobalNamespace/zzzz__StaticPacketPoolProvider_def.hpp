@@ -41,7 +41,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool, addr 0x3336148, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetPacketPool, addr 0x35bc3ec, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetPacketPool(::System::Type* t, ::by_ref<::GlobalNamespace::IPacketPool*> pool);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* getStaticF__staticPools();
@@ -63,7 +63,7 @@ public:
   StaticPacketPoolProvider(StaticPacketPoolProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -90,7 +90,7 @@ public:
   static ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,7 +153,7 @@ public:
   static ::GlobalNamespace::MultiplayerScoreDiffText_State const Hidden;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -216,39 +216,39 @@ public:
   /// @brief Field _useAutomaticLeadPlayerSelection, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__useAutomaticLeadPlayerSelection, put = __cordl_internal_set__useAutomaticLeadPlayerSelection)) bool _useAutomaticLeadPlayerSelection;
 
-  /// @brief Method AnimateHide, addr 0x59bd4dc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AnimateHide, addr 0x5dd8a10, size 0x120, virtual false, abstract: false, final false
   inline void AnimateHide();
 
-  /// @brief Method AnimateIsLeadPlayer, addr 0x59bd5fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AnimateIsLeadPlayer, addr 0x5dd8b30, size 0x50, virtual false, abstract: false, final false
   inline void AnimateIsLeadPlayer(bool isLeader);
 
-  /// @brief Method AnimateScoreDiff, addr 0x59bd2e0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method AnimateScoreDiff, addr 0x5dd8814, size 0x1fc, virtual false, abstract: false, final false
   inline void AnimateScoreDiff(int32_t scoreDiff);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x59bd64c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x5dd8b80, size 0xcc, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerScoreDiffText* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59bd0f0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dd8618, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x59bd208, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x5dd8730, size 0xe4, virtual false, abstract: false, final false
   inline void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition relativePosition);
 
-  /// @brief Method Start, addr 0x59bcf50, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dd8478, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
   /// [CompilerGenerated]
-  /// @brief Method <AnimateHide>b__18_0, addr 0x59bd798, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AnimateHide>b__18_0, addr 0x5dd8ccc, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateHide_b__18_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x59bd78c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x5dd8cc0, size 0xc, virtual false, abstract: false, final false
   inline void _AnimateScoreDiff_b__17_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <Start>b__14_0, addr 0x59bd730, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x5dd8c64, size 0x5c, virtual false, abstract: false, final false
   inline void _Start_b__14_0(float_t val);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__activeTextColor() const;
@@ -323,7 +323,7 @@ public:
 
   constexpr void __cordl_internal_set__useAutomaticLeadPlayerSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x59bd718, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd8c4c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -341,7 +341,7 @@ public:
   MultiplayerScoreDiffText(MultiplayerScoreDiffText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6186 };
 
   /// [SerializeField]
   /// @brief Field _activeTextColor, offset: 0x20, size: 0x10, def value: None

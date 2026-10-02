@@ -30,10 +30,10 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method Equals, addr 0x6b039d4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f5ee68, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6b03a88, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f5ef1c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6b039c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5ee58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_Value, addr 0x6b039cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6f5ee60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -65,7 +65,7 @@ public:
   DefaultValueAttribute(DefaultValueAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10254 };
 
   /// @brief Field DefaultValue, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___DefaultValue;

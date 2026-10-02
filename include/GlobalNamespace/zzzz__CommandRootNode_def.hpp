@@ -34,10 +34,10 @@ public:
   __declspec(property(get = __cordl_internal_get_nodes, put = __cordl_internal_set_nodes)) ::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::CommandNode*>* nodes;
 
   /// [NotNull]
-  /// @brief Method FindAutocompleteNodes, addr 0x32cc590, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FindAutocompleteNodes, addr 0x3553b78, size 0x148, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::CommandNode*> FindAutocompleteNodes(::StringW input, bool exact);
 
-  /// @brief Method IntegrateCommand, addr 0x32cc480, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method IntegrateCommand, addr 0x3553a68, size 0x110, virtual false, abstract: false, final false
   inline void IntegrateCommand(::GlobalNamespace::ConsoleCommandBase* newCommand);
 
   static inline ::GlobalNamespace::CommandRootNode* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_nodes(::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::CommandNode*>* value);
 
-  /// @brief Method .ctor, addr 0x32cc6d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3553cc0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   CommandRootNode(CommandRootNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19709 };
 
   /// @brief Field nodes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<char16_t, ::GlobalNamespace::CommandNode*>* ___nodes;

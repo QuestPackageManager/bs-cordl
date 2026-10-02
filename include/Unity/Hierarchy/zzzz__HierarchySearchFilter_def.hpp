@@ -19,8 +19,8 @@ struct HierarchySearchFilter;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchySearchFilter);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchySearchFilter, "Unity.Hierarchy", "HierarchySearchFilter");
-// [RequiredByNativeCode]
 // [NativeHeader("Modules/HierarchyCore/Public/HierarchySearch.h")]
+// [RequiredByNativeCode]
 // Dependencies Unity.Hierarchy.HierarchySearchFilterOperator
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -44,43 +44,43 @@ public:
   /// @brief Field s_WhiteSpaces, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_WhiteSpaces, put = setStaticF_s_WhiteSpaces)) ::ArrayW<char16_t> s_WhiteSpaces;
 
-  /// @brief Method QuoteStringIfNeeded, addr 0x6b3accc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method QuoteStringIfNeeded, addr 0x6f98e60, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW QuoteStringIfNeeded(::StringW s);
 
-  /// @brief Method ToString, addr 0x6b3abcc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f98d60, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6b3aa70, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f98c04, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Unity::Hierarchy::HierarchySearchFilterOperator op);
 
   static inline ::Unity::Hierarchy::HierarchySearchFilter getStaticF_s_Invalid();
 
   static inline ::ArrayW<char16_t> getStaticF_s_WhiteSpaces();
 
-  /// @brief Method get_Invalid, addr 0x6b3a984, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Invalid, addr 0x6f98b18, size 0x5c, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchySearchFilter> get_Invalid();
 
-  /// @brief Method get_IsValid, addr 0x6b3a9e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6f98b74, size 0x70, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x6b3aa50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6f98be4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_NumValue, addr 0x6b3aa60, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_NumValue, addr 0x6f98bf4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_NumValue();
 
-  /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Op, addr 0x6b3aa68, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_Op, addr 0x6f98bfc, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchySearchFilterOperator get_Op();
 
-  /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_Value, addr 0x6b3aa58, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_Value, addr 0x6f98bec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_s_Invalid(::Unity::Hierarchy::HierarchySearchFilter value);
@@ -98,13 +98,13 @@ public:
                                   ::Unity::Hierarchy::HierarchySearchFilterOperator _Op_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _Name_k__BackingField;
 

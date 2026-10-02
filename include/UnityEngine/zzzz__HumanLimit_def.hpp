@@ -15,9 +15,9 @@ struct HumanLimit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanLimit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");
-// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoHumanLimit")]
-// [NativeHeader("Modules/Animation/HumanDescription.h")]
 // [NativeHeader("Modules/Animation/ScriptBindings/AvatarBuilder.bindings.h")]
+// [NativeHeader("Modules/Animation/HumanDescription.h")]
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoHumanLimit")]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -35,7 +35,7 @@ public:
   constexpr HumanLimit(::UnityEngine::Vector3 m_Min, ::UnityEngine::Vector3 m_Max, ::UnityEngine::Vector3 m_Center, float_t m_AxisLength, int32_t m_UseDefaultValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

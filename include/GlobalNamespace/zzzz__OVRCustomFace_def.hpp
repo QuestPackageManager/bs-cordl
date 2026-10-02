@@ -70,7 +70,7 @@ public:
   static ::GlobalNamespace::OVRCustomFace_RetargetingType const OculusFace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7169 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,15 +113,15 @@ public:
   /// @brief Field retargetingType, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType)) ::GlobalNamespace::OVRCustomFace_RetargetingType retargetingType;
 
-  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x5df80f0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x6211cf4, size 0x104, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<::ArrayW<::StringW>, ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression>> GetCustomBlendShapeNameAndExpressionPairs();
 
-  /// @brief Method GetFaceExpression, addr 0x5df80c0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetFaceExpression, addr 0x6211cc4, size 0x30, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRFaceExpressions_FaceExpression GetFaceExpression(int32_t blendShapeIndex);
 
   static inline ::GlobalNamespace::OVRCustomFace* New_ctor();
 
-  /// @brief Method Start, addr 0x5df802c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6211c30, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__allowDuplicateMapping() const;
@@ -142,25 +142,25 @@ public:
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::OVRCustomFace_RetargetingType value);
 
-  /// @brief Method .ctor, addr 0x5df81f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6211df8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowDuplicateMapping, addr 0x5df801c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDuplicateMapping, addr 0x6211c20, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDuplicateMapping();
 
-  /// @brief Method get_Mappings, addr 0x5df7ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mappings, addr 0x6211c00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> get_Mappings();
 
-  /// @brief Method get_RetargetingValue, addr 0x5df800c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetargetingValue, addr 0x6211c10, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRCustomFace_RetargetingType get_RetargetingValue();
 
-  /// @brief Method set_AllowDuplicateMapping, addr 0x5df8024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllowDuplicateMapping, addr 0x6211c28, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowDuplicateMapping(bool value);
 
-  /// @brief Method set_Mappings, addr 0x5df8004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Mappings, addr 0x6211c08, size 0x8, virtual false, abstract: false, final false
   inline void set_Mappings(::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> value);
 
-  /// @brief Method set_RetargetingValue, addr 0x5df8014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetargetingValue, addr 0x6211c18, size 0x8, virtual false, abstract: false, final false
   inline void set_RetargetingValue(::GlobalNamespace::OVRCustomFace_RetargetingType value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   OVRCustomFace(OVRCustomFace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7170 };
 
   /// [SerializeField]
   /// [Tooltip("The mapping between Face Expressions to the blend shapes available on the shared mesh of the skinned mesh renderer")]

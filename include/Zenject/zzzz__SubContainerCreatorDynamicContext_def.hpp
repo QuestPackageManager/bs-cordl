@@ -55,7 +55,7 @@ public:
   /// @brief Method CreateGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::by_ref<bool> shouldMakeActive);
 
-  /// @brief Method CreateSubContainer, addr 0x6e8c7fc, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x7328394, size 0xe8, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorDynamicContext* New_ctor(::Zenject::DiContainer* container);
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method .ctor, addr 0x6e8acbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7326854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Container, addr 0x6e8c7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x732838c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -90,7 +90,7 @@ public:
   SubContainerCreatorDynamicContext(SubContainerCreatorDynamicContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14888 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

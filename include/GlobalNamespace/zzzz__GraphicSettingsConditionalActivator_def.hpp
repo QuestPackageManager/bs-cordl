@@ -63,7 +63,7 @@ public:
   constexpr GraphicSettingsConditionalActivator_ActivatorType(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,12 +113,12 @@ public:
   /// @brief Field _settingsManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method GetGraphicsActivatorType, addr 0x59012c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsActivatorType, addr 0x5d1b904, size 0xa0, virtual false, abstract: false, final false
   inline bool GetGraphicsActivatorType();
 
   static inline ::GlobalNamespace::GraphicSettingsConditionalActivator* New_ctor();
 
-  /// @brief Method Start, addr 0x5901274, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d1b8b4, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__activateOnFalse() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5901364, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d1b9a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   GraphicSettingsConditionalActivator(GraphicSettingsConditionalActivator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6780 };
 
   /// [SerializeField]
   /// @brief Field _activatorType, offset: 0x20, size: 0x4, def value: None

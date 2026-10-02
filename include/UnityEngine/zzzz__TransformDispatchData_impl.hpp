@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TransformDispatchData.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TransformDispatchData::*)()>(&::UnityEngine::TransformDispatchData::Dispose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6ad4704;
+  constexpr static std::size_t addrs = 0x6f2f010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TransformDispatchData>(), { "Dispose", {}, {} })));
@@ -30,13 +31,14 @@ constexpr UnityEngine::TransformDispatchData::operator ::System::IDisposable*() 
 constexpr ::System::IDisposable* UnityEngine::TransformDispatchData::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "transformedID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "parentID", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localToWorldMatrices", ty:
+// Ctor Parameters [CppParam { name: "transformedID", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "parentID", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localToWorldMatrices", ty:
 // "::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "positions", ty:
 // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotations", ty:
 // "::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scales", ty:
 // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::TransformDispatchData::TransformDispatchData(::Unity::Collections::NativeArray_1<int32_t> transformedID, ::Unity::Collections::NativeArray_1<int32_t> parentID,
+constexpr ::UnityEngine::TransformDispatchData::TransformDispatchData(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> transformedID,
+                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> parentID,
                                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions,
                                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Quaternion> rotations,

@@ -76,14 +76,14 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_ReferenceEqualsEqualityComparer* New_ctor();
 
   /// [NullableContext(2)]
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x5d450e0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x615ecc4, size 0xc, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);
 
   /// [NullableContext(1)]
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x5d450ec, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x615ecd0, size 0x14, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x5d44b18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e6fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
@@ -104,7 +104,7 @@ public:
   JsonSerializerInternalBase_ReferenceEqualsEqualityComparer(JsonSerializerInternalBase_ReferenceEqualsEqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -140,21 +140,21 @@ public:
   /// @brief Field _mappings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__mappings, put = __cordl_internal_set__mappings)) ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* _mappings;
 
-  /// @brief Method ClearErrorContext, addr 0x5d44c94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearErrorContext, addr 0x615e878, size 0x5c, virtual false, abstract: false, final false
   inline void ClearErrorContext();
 
-  /// @brief Method GetErrorContext, addr 0x5d44bc0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetErrorContext, addr 0x615e7a4, size 0xd4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(/* [Nullable(2)] */ ::System::Object* currentObject, /* [Nullable(2)] */ ::System::Object* member, ::StringW path,
                                                                           ::System::Exception* error);
 
   /// [NullableContext(2)]
-  /// @brief Method IsErrorHandled, addr 0x5d44cf0, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method IsErrorHandled, addr 0x615e8d4, size 0x3f0, virtual false, abstract: false, final false
   inline bool IsErrorHandled(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo,
                              /* [Nullable(1)] */ ::StringW path, /* [Nullable(1)] */ ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ResolvedNullValueHandling, addr 0x5d44b1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ResolvedNullValueHandling, addr 0x615e700, size 0xa4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::NullValueHandling ResolvedNullValueHandling(/* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonObjectContract* containerContract,
                                                                          ::Newtonsoft::Json::Serialization::JsonProperty* property);
 
@@ -188,10 +188,10 @@ public:
 
   constexpr void __cordl_internal_set__mappings(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d44a9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e680, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_DefaultReferenceMappings, addr 0x5d3fce0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultReferenceMappings, addr 0x61598c4, size 0x118, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* get_DefaultReferenceMappings();
 
 protected:
@@ -209,7 +209,7 @@ public:
   JsonSerializerInternalBase(JsonSerializerInternalBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13755 };
 
   /// [Nullable(2)]
   /// @brief Field _currentErrorContext, offset: 0x10, size: 0x8, def value: None

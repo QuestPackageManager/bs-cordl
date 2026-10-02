@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Assembly)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92ae4;
+  constexpr static std::size_t addrs = 0x5faaa38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92b1c;
+  constexpr static std::size_t addrs = 0x5faaa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -53,11 +53,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_BaseType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92b54;
+  constexpr static std::size_t addrs = 0x5faaaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 116 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 117 }));
     return ___internal_method;
   }
 };
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_FullName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92b8c;
+  constexpr static std::size_t addrs = 0x5faaae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -81,11 +81,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_GUID)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92bc4;
+  constexpr static std::size_t addrs = 0x5faab18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 115 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 116 }));
     return ___internal_method;
   }
 };
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Module* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Module)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92bfc;
+  constexpr static std::size_t addrs = 0x5faab50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(&::System::Reflection::Emit::GenericTypeParameterBuilder::get_Name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92c34;
+  constexpr static std::size_t addrs = 0x5faab88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Namespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92c6c;
+  constexpr static std::size_t addrs = 0x5faabc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92ca4;
+  constexpr static std::size_t addrs = 0x5faabf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92cdc;
+  constexpr static std::size_t addrs = 0x5faac30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -165,11 +165,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Con
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92d14;
+  constexpr static std::size_t addrs = 0x5faac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 80 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 81 }));
     return ___internal_method;
   }
 };
@@ -179,11 +179,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(
     ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetConstructors)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92d4c;
+  constexpr static std::size_t addrs = 0x5faaca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 82 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 83 }));
     return ___internal_method;
   }
 };
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(bool)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92d84;
+  constexpr static std::size_t addrs = 0x5faacd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92dbc;
+  constexpr static std::size_t addrs = 0x5faad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetElementType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92df4;
+  constexpr static std::size_t addrs = 0x5faad48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -235,11 +235,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::EventInfo* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92e2c;
+  constexpr static std::size_t addrs = 0x5faad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 84 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 85 }));
     return ___internal_method;
   }
 };
@@ -249,11 +249,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::EventInfo*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92e64;
+  constexpr static std::size_t addrs = 0x5faadb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 85 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 86 }));
     return ___internal_method;
   }
 };
@@ -263,11 +263,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::FieldInfo* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetField)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92e9c;
+  constexpr static std::size_t addrs = 0x5faadf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 87 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 88 }));
     return ___internal_method;
   }
 };
@@ -277,11 +277,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::FieldInfo*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetFields)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92ed4;
+  constexpr static std::size_t addrs = 0x5faae28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 89 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 90 }));
     return ___internal_method;
   }
 };
@@ -291,11 +291,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, bool)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetInterface)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92f0c;
+  constexpr static std::size_t addrs = 0x5faae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 119 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 120 }));
     return ___internal_method;
   }
 };
@@ -305,11 +305,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetInterfaces)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92f44;
+  constexpr static std::size_t addrs = 0x5faae98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 120 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 121 }));
     return ___internal_method;
   }
 };
@@ -319,11 +319,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MemberInfo*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetMembers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92f7c;
+  constexpr static std::size_t addrs = 0x5faaed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 93 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 94 }));
     return ___internal_method;
   }
 };
@@ -335,11 +335,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Met
                                                                 ::ArrayW<::System::Type*>, ::ArrayW<::System::Reflection::ParameterModifier>)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetMethodImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92fb4;
+  constexpr static std::size_t addrs = 0x5faaf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 100 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 101 }));
     return ___internal_method;
   }
 };
@@ -349,11 +349,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetMethods)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b92fec;
+  constexpr static std::size_t addrs = 0x5faaf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 102 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 103 }));
     return ___internal_method;
   }
 };
@@ -363,11 +363,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetNestedType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b93024;
+  constexpr static std::size_t addrs = 0x5faaf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 103 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 104 }));
     return ___internal_method;
   }
 };
@@ -377,11 +377,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9305c;
+  constexpr static std::size_t addrs = 0x5faafb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 112 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 113 }));
     return ___internal_method;
   }
 };
@@ -392,11 +392,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Pro
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Type*, ::ArrayW<::System::Type*>,
                                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetPropertyImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b93094;
+  constexpr static std::size_t addrs = 0x5faafe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 110 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 111 }));
     return ___internal_method;
   }
 };
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b930cc;
+  constexpr static std::size_t addrs = 0x5fab020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -422,11 +422,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
                                                                 ::ArrayW<::System::Reflection::ParameterModifier>, ::System::Globalization::CultureInfo*, ::ArrayW<::StringW>)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::InvokeMember)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b93104;
+  constexpr static std::size_t addrs = 0x5fab058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 117 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 118 }));
     return ___internal_method;
   }
 };
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(&::System::Reflection::Emit::GenericTypeParameterBuilder::IsArrayImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9313c;
+  constexpr static std::size_t addrs = 0x5fab090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(&::System::Reflection::Emit::GenericTypeParameterBuilder::IsByRefImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b93174;
+  constexpr static std::size_t addrs = 0x5fab0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -462,11 +462,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b931ac;
+  constexpr static std::size_t addrs = 0x5fab100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 65 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 66 }));
     return ___internal_method;
   }
 };
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b931e4;
+  constexpr static std::size_t addrs = 0x5fab138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(&::System::Reflection::Emit::GenericTypeParameterBuilder::IsPointerImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9321c;
+  constexpr static std::size_t addrs = 0x5fab170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
@@ -503,11 +503,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b93254;
+  constexpr static std::size_t addrs = 0x5fab1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(),
-                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 73 }));
+                                                                                          { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 74 }));
     return ___internal_method;
   }
 };
@@ -523,7 +523,7 @@ inline ::StringW System::Reflection::Emit::GenericTypeParameterBuilder::get_Asse
 }
 inline ::System::Type* System::Reflection::Emit::GenericTypeParameterBuilder::get_BaseType() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 116 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 117 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
 inline ::StringW System::Reflection::Emit::GenericTypeParameterBuilder::get_FullName() {
@@ -533,7 +533,7 @@ inline ::StringW System::Reflection::Emit::GenericTypeParameterBuilder::get_Full
 }
 inline ::System::Guid System::Reflection::Emit::GenericTypeParameterBuilder::get_GUID() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 115 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 116 })));
   return ::cordl_internals::RunMethodRethrow<::System::Guid>(this, ___internal_method);
 }
 inline ::System::Reflection::Module* System::Reflection::Emit::GenericTypeParameterBuilder::get_Module() {
@@ -567,12 +567,12 @@ inline ::System::Reflection::ConstructorInfo* System::Reflection::Emit::GenericT
                                                                                                                         ::ArrayW<::System::Type*> types,
                                                                                                                         ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 80 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 81 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::ConstructorInfo*>(this, ___internal_method, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::ConstructorInfo*> System::Reflection::Emit::GenericTypeParameterBuilder::GetConstructors(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 82 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 83 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::ConstructorInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::ArrayW<::System::Object*> System::Reflection::Emit::GenericTypeParameterBuilder::GetCustomAttributes(bool inherit) {
@@ -592,37 +592,37 @@ inline ::System::Type* System::Reflection::Emit::GenericTypeParameterBuilder::Ge
 }
 inline ::System::Reflection::EventInfo* System::Reflection::Emit::GenericTypeParameterBuilder::GetEvent(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 84 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 85 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::EventInfo*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::EventInfo*> System::Reflection::Emit::GenericTypeParameterBuilder::GetEvents(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 85 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 86 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::EventInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::FieldInfo* System::Reflection::Emit::GenericTypeParameterBuilder::GetField(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 87 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 88 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::FieldInfo*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::FieldInfo*> System::Reflection::Emit::GenericTypeParameterBuilder::GetFields(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 89 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 90 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::FieldInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::Emit::GenericTypeParameterBuilder::GetInterface(::StringW name, bool ignoreCase) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 119 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 120 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, name, ignoreCase);
 }
 inline ::ArrayW<::System::Type*> System::Reflection::Emit::GenericTypeParameterBuilder::GetInterfaces() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 120 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 121 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(this, ___internal_method);
 }
 inline ::ArrayW<::System::Reflection::MemberInfo*> System::Reflection::Emit::GenericTypeParameterBuilder::GetMembers(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 93 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 94 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MemberInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::MethodInfo* System::Reflection::Emit::GenericTypeParameterBuilder::GetMethodImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr,
@@ -630,22 +630,22 @@ inline ::System::Reflection::MethodInfo* System::Reflection::Emit::GenericTypePa
                                                                                                               ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                                                               ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 100 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 101 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, name, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::MethodInfo*> System::Reflection::Emit::GenericTypeParameterBuilder::GetMethods(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 102 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 103 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MethodInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::Emit::GenericTypeParameterBuilder::GetNestedType(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 103 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 104 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::PropertyInfo*> System::Reflection::Emit::GenericTypeParameterBuilder::GetProperties(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 112 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 113 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*>>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::PropertyInfo* System::Reflection::Emit::GenericTypeParameterBuilder::GetPropertyImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr,
@@ -653,7 +653,7 @@ inline ::System::Reflection::PropertyInfo* System::Reflection::Emit::GenericType
                                                                                                                   ::ArrayW<::System::Type*> types,
                                                                                                                   ::ArrayW<::System::Reflection::ParameterModifier> modifiers) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 110 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 111 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::PropertyInfo*>(this, ___internal_method, name, bindingAttr, binder, returnType, types, modifiers);
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::HasElementTypeImpl() {
@@ -666,7 +666,7 @@ inline ::System::Object* System::Reflection::Emit::GenericTypeParameterBuilder::
                                                                                              ::ArrayW<::System::Reflection::ParameterModifier> modifiers, ::System::Globalization::CultureInfo* culture,
                                                                                              ::ArrayW<::StringW> namedParameters) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 117 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 118 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, name, invokeAttr, binder, target, args, modifiers, culture, namedParameters);
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsArrayImpl() {
@@ -681,7 +681,7 @@ inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsByRefImpl()
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsCOMObjectImpl() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 65 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 66 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsDefined(::System::Type* attributeType, bool inherit) {
@@ -696,7 +696,7 @@ inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsPointerImpl
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsPrimitiveImpl() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 73 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::Emit::GenericTypeParameterBuilder*>(), 74 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 // Ctor Parameters []

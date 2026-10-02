@@ -239,22 +239,28 @@ public:
   /// @brief Field isInitialized, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_isInitialized, put = setStaticF_isInitialized)) bool isInitialized;
 
+  /// @brief Field k_BitmapText, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_BitmapText, put = setStaticF_k_BitmapText)) ::StringW k_BitmapText;
+
+  /// @brief Field k_SDFText, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_SDFText, put = setStaticF_k_SDFText)) ::StringW k_SDFText;
+
   /// @brief Field k_ShaderRef_MobileBitmap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileBitmap;
 
   /// @brief Field k_ShaderRef_MobileSDF, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
 
-  /// @brief Field k_ShaderRef_MobileSDF_IMGUI, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF_IMGUI, put = setStaticF_k_ShaderRef_MobileSDF_IMGUI)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF_IMGUI;
-
   /// @brief Field k_ShaderRef_Sprite, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_ShaderRef_Sprite, put = setStaticF_k_ShaderRef_Sprite)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_Sprite;
+
+  /// @brief Field k_SpriteText, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_SpriteText, put = setStaticF_k_SpriteText)) ::StringW k_SpriteText;
 
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x6c140c4, size 0xca8, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x706726c, size 0xca8, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -399,28 +405,28 @@ public:
 
   static inline bool getStaticF_isInitialized();
 
+  static inline ::StringW getStaticF_k_BitmapText();
+
+  static inline ::StringW getStaticF_k_SDFText();
+
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileBitmap();
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileSDF();
 
-  static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileSDF_IMGUI();
-
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_Sprite();
+
+  static inline ::StringW getStaticF_k_SpriteText();
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x6c13b6c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x7066e44, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x6c13884, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x7066d94, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
-  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
-  /// @brief Method get_ShaderRef_MobileSDF_IMGUI, addr 0x6c13a00, size 0x16c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF_IMGUI();
-
-  /// @brief Method get_ShaderRef_Sprite, addr 0x6c13d48, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_Sprite, addr 0x7066f30, size 0x160, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_Sprite();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
@@ -565,13 +571,17 @@ public:
 
   static inline void setStaticF_isInitialized(bool value);
 
+  static inline void setStaticF_k_BitmapText(::StringW value);
+
+  static inline void setStaticF_k_SDFText(::StringW value);
+
   static inline void setStaticF_k_ShaderRef_MobileBitmap(::UnityW<::UnityEngine::Shader> value);
 
   static inline void setStaticF_k_ShaderRef_MobileSDF(::UnityW<::UnityEngine::Shader> value);
 
-  static inline void setStaticF_k_ShaderRef_MobileSDF_IMGUI(::UnityW<::UnityEngine::Shader> value);
-
   static inline void setStaticF_k_ShaderRef_Sprite(::UnityW<::UnityEngine::Shader> value);
+
+  static inline void setStaticF_k_SpriteText(::StringW value);
 
   static inline void setStaticF_m_clamp(float_t value);
 
@@ -590,7 +600,7 @@ public:
   TextShaderUtilities(TextShaderUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

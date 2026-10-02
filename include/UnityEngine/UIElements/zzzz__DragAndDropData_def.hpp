@@ -42,14 +42,14 @@ public:
 
   constexpr void __cordl_internal_set__paths_k__BackingField(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6d8a6d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7217ce8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_source, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_source();
 
   /// [CompilerGenerated]
-  /// @brief Method set_paths, addr 0x6d8ba48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_paths, addr 0x7219404, size 0x8, virtual true, abstract: false, final false
   inline void set_paths(::ArrayW<::StringW> value);
 
 protected:
@@ -67,10 +67,10 @@ public:
   DragAndDropData(DragAndDropData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4391 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <paths>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW> ____paths_k__BackingField;
 

@@ -4,6 +4,7 @@
 #include "UnityEngine/Rendering/Universal/zzzz__DecalEntity_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScaleMode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "UnityEngine/zzzz__RenderingLayerMask_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalProjector_def.hpp"
@@ -15,7 +16,9 @@
 #include "UnityEngine/Rendering/Universal/zzzz__DecalEntity_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalProjector_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScaleMode_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__RenderingLayerMask_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
@@ -25,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6859dcc;
+  constexpr static std::size_t addrs = 0x6c9127c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*>(),
@@ -39,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::*)(::UnityEngine::Rendering::Universal::DecalProjector*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6859f10;
+  constexpr static std::size_t addrs = 0x6c913c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*>(),
@@ -54,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::*)(::UnityEngine::Rendering::Universal::DecalProjector*, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6859f24;
+  constexpr static std::size_t addrs = 0x6c913d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*>(),
@@ -68,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6859f44;
+  constexpr static std::size_t addrs = 0x6c913f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*>(),
@@ -103,13 +106,22 @@ inline ::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction::DecalProjector_DecalProjectorAction() {}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version::DecalProjector_Version(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version::DecalProjector_Version() {}
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version UnityEngine::Rendering::Universal::DecalProjector_Version::Initial{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version UnityEngine::Rendering::Universal::DecalProjector_Version::RenderingLayerMask{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version UnityEngine::Rendering::Universal::DecalProjector_Version::Count{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector.add_onDecalAdd
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::add_onDecalAdd)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6858e98;
+  constexpr static std::size_t addrs = 0x6c8fff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::remove_onDecalAdd)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6858f64;
+  constexpr static std::size_t addrs = 0x6c900c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::add_onDecalRemove)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6859030;
+  constexpr static std::size_t addrs = 0x6c90190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::remove_onDecalRemove)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6859100;
+  constexpr static std::size_t addrs = 0x6c90260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::add_onDecalPropertyChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68591d0;
+  constexpr static std::size_t addrs = 0x6c90330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::remove_onDecalPropertyChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68592a0;
+  constexpr static std::size_t addrs = 0x6c90400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::Rendering::Universal::DecalProjector::add_onAllDecalPropertyChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6859370;
+  constexpr static std::size_t addrs = 0x6c904d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::Rendering::Universal::DecalProjector::remove_onAllDecalPropertyChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6859440;
+  constexpr static std::size_t addrs = 0x6c905a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::add_onDecalMaterialChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6859510;
+  constexpr static std::size_t addrs = 0x6c90670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::remove_onDecalMaterialChange)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68595e0;
+  constexpr static std::size_t addrs = 0x6c90740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_defaultMaterial)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68596b0;
+  constexpr static std::size_t addrs = 0x6c90810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::DecalProjector::set_defaultMaterial)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x68596fc;
+  constexpr static std::size_t addrs = 0x6c9085c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_isSupported)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x685974c;
+  constexpr static std::size_t addrs = 0x6c908ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_isSupported", {}, {} })));
@@ -296,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalEntity (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_decalEntity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68597a0;
+  constexpr static std::size_t addrs = 0x6c90900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_decalEntity", {}, {} })));
@@ -309,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Rendering::Universal::DecalEntity)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_decalEntity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68597a8;
+  constexpr static std::size_t addrs = 0x6c90908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(),
@@ -323,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68597b0;
+  constexpr static std::size_t addrs = 0x6c90910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_material", {}, {} })));
@@ -336,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68597b8;
+  constexpr static std::size_t addrs = 0x6c90918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_drawDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68598ac;
+  constexpr static std::size_t addrs = 0x6c90a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_drawDistance", {}, {} })));
@@ -362,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_drawDistance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68598b4;
+  constexpr static std::size_t addrs = 0x6c90a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_fadeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68598c8;
+  constexpr static std::size_t addrs = 0x6c90a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_fadeScale", {}, {} })));
@@ -387,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(float_t)>(&::UnityEngine::Rendering::Universal::DecalProjector::set_fadeScale)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68598d0;
+  constexpr static std::size_t addrs = 0x6c90a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_startAngleFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68598f0;
+  constexpr static std::size_t addrs = 0x6c90a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_startAngleFade", {}, {} })));
@@ -413,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_startAngleFade)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68598f8;
+  constexpr static std::size_t addrs = 0x6c90a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -426,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_endAngleFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x685991c;
+  constexpr static std::size_t addrs = 0x6c90aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_endAngleFade", {}, {} })));
@@ -439,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_endAngleFade)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6859924;
+  constexpr static std::size_t addrs = 0x6c90ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_uvScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859948;
+  constexpr static std::size_t addrs = 0x6c90ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_uvScale", {}, {} })));
@@ -466,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_uvScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859950;
+  constexpr static std::size_t addrs = 0x6c90ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -480,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_uvBias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859958;
+  constexpr static std::size_t addrs = 0x6c90ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_uvBias", {}, {} })));
@@ -493,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_uvBias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859960;
+  constexpr static std::size_t addrs = 0x6c90af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -504,10 +516,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector.get_renderingLayerMask
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderingLayerMask (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_renderingLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859968;
+  constexpr static std::size_t addrs = 0x6c90af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -518,14 +530,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector.set_renderingLayerMask
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(uint32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::RenderingLayerMask)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_renderingLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859970;
+  constexpr static std::size_t addrs = 0x6c90b00;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "set_renderingLayerMask", {}, { ::i2c::type_of<uint32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(),
+                                                                                           { "set_renderingLayerMask", {}, { ::i2c::type_of<::UnityEngine::RenderingLayerMask>() } })));
     return ___internal_method;
   }
 };
@@ -535,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalScaleMode (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859978;
+  constexpr static std::size_t addrs = 0x6c90b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_scaleMode", {}, {} })));
@@ -548,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Rendering::Universal::DecalScaleMode)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6859980;
+  constexpr static std::size_t addrs = 0x6c90b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(),
@@ -562,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_pivot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6859988;
+  constexpr static std::size_t addrs = 0x6c90b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_pivot", {}, {} })));
@@ -575,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_pivot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6859994;
+  constexpr static std::size_t addrs = 0x6c90b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -589,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68599a0;
+  constexpr static std::size_t addrs = 0x6c90b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_size", {}, {} })));
@@ -602,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::Universal::DecalProjector::set_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68599ac;
+  constexpr static std::size_t addrs = 0x6c90b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -615,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::get_fadeFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68599b8;
+  constexpr static std::size_t addrs = 0x6c90b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_fadeFactor", {}, {} })));
@@ -627,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)(float_t)>(&::UnityEngine::Rendering::Universal::DecalProjector::set_fadeFactor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68599c0;
+  constexpr static std::size_t addrs = 0x6c90b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -641,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_effectiveScale)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68599e0;
+  constexpr static std::size_t addrs = 0x6c90b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_effectiveScale", {}, {} })));
@@ -654,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_decalSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6859a5c;
+  constexpr static std::size_t addrs = 0x6c90bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_decalSize", {}, {} })));
@@ -667,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_decalOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6859a68;
+  constexpr static std::size_t addrs = 0x6c90bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_decalOffset", {}, {} })));
@@ -680,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
     &::UnityEngine::Rendering::Universal::DecalProjector::get_uvScaleBias)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6859a78;
+  constexpr static std::size_t addrs = 0x6c90c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_uvScaleBias", {}, {} })));
@@ -692,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::InitMaterial)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6859a84;
+  constexpr static std::size_t addrs = 0x6c90c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "InitMaterial", {}, {} })));
@@ -704,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::OnEnable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6859ae8;
+  constexpr static std::size_t addrs = 0x6c90c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "OnEnable", {}, {} })));
@@ -716,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::OnDisable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6859b68;
+  constexpr static std::size_t addrs = 0x6c90cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "OnDisable", {}, {} })));
@@ -727,11 +739,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::OnValidate)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x68597c0;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x6c90920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "OnValidate", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector.OnDidApplyAnimationProperties
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
+    &::UnityEngine::Rendering::Universal::DecalProjector::OnDidApplyAnimationProperties)> {
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6c90d68;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "OnDidApplyAnimationProperties", {}, {} })));
     return ___internal_method;
   }
 };
@@ -740,7 +766,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::IsValid)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6859bd8;
+  constexpr static std::size_t addrs = 0x6c90f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "IsValid", {}, {} })));
@@ -752,7 +778,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::UpdateAllDecalProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6859d28;
+  constexpr static std::size_t addrs = 0x6c91070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -760,12 +786,40 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngin
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector.UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
+    &::UnityEngine::Rendering::Universal::DecalProjector::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c910d8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector.UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(
+    &::UnityEngine::Rendering::Universal::DecalProjector::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6c910f0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalProjector._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalProjector::*)()>(&::UnityEngine::Rendering::Universal::DecalProjector::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6859d90;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6c91170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { ".ctor", {}, {} })));
@@ -868,17 +922,17 @@ constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UVBias = value;
 }
-constexpr uint32_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_DecalLayerMask() {
+constexpr ::UnityEngine::RenderingLayerMask& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_RenderingLayerMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_DecalLayerMask;
+  return this->___m_RenderingLayerMask;
 }
-constexpr uint32_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_DecalLayerMask() const {
+constexpr ::UnityEngine::RenderingLayerMask const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_RenderingLayerMask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_DecalLayerMask;
+  return this->___m_RenderingLayerMask;
 }
-constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_DecalLayerMask(uint32_t value) {
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_RenderingLayerMask(::UnityEngine::RenderingLayerMask value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_DecalLayerMask = value;
+  this->___m_RenderingLayerMask = value;
 }
 constexpr ::UnityEngine::Rendering::Universal::DecalScaleMode& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_ScaleMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -939,6 +993,150 @@ constexpr ::UnityW<::UnityEngine::Material> const& UnityEngine::Rendering::Unive
 constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OldMaterial = value;
+}
+constexpr float_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldDrawDistance() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldDrawDistance;
+}
+constexpr float_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldDrawDistance() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldDrawDistance;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldDrawDistance(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldDrawDistance = value;
+}
+constexpr float_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldFadeScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldFadeScale;
+}
+constexpr float_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldFadeScale() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldFadeScale;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldFadeScale(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldFadeScale = value;
+}
+constexpr float_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldStartAngleFade() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldStartAngleFade;
+}
+constexpr float_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldStartAngleFade() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldStartAngleFade;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldStartAngleFade(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldStartAngleFade = value;
+}
+constexpr float_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldEndAngleFade() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldEndAngleFade;
+}
+constexpr float_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldEndAngleFade() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldEndAngleFade;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldEndAngleFade(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldEndAngleFade = value;
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldUVScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldUVScale;
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldUVScale() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldUVScale;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldUVScale(::UnityEngine::Vector2 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldUVScale = value;
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldUVBias() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldUVBias;
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldUVBias() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldUVBias;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldUVBias(::UnityEngine::Vector2 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldUVBias = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::DecalScaleMode& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldScaleMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldScaleMode;
+}
+constexpr ::UnityEngine::Rendering::Universal::DecalScaleMode const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldScaleMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldScaleMode;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldScaleMode(::UnityEngine::Rendering::Universal::DecalScaleMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldScaleMode = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldOffset;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldOffset() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldOffset;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldOffset(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldOffset = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldSize;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldSize() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldSize;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldSize(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldSize = value;
+}
+constexpr float_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldFadeFactor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldFadeFactor;
+}
+constexpr float_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_OldFadeFactor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OldFadeFactor;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_OldFadeFactor(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OldFadeFactor = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
+}
+constexpr ::UnityEngine::Rendering::Universal::DecalProjector_Version const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_version() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_version(::UnityEngine::Rendering::Universal::DecalProjector_Version value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___version = value;
+}
+constexpr uint32_t& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_DecalLayerMask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DecalLayerMask;
+}
+constexpr uint32_t const& UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_get_m_DecalLayerMask() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DecalLayerMask;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalProjector::__cordl_internal_set_m_DecalLayerMask(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DecalLayerMask = value;
 }
 inline void UnityEngine::Rendering::Universal::DecalProjector::setStaticF_onDecalAdd(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction*, "onDecalAdd", ::UnityEngine::Rendering::Universal::DecalProjector*>(
@@ -1126,14 +1324,14 @@ inline void UnityEngine::Rendering::Universal::DecalProjector::set_uvBias(::Unit
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "set_uvBias", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline uint32_t UnityEngine::Rendering::Universal::DecalProjector::get_renderingLayerMask() {
+inline ::UnityEngine::RenderingLayerMask UnityEngine::Rendering::Universal::DecalProjector::get_renderingLayerMask() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "get_renderingLayerMask", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderingLayerMask>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::DecalProjector::set_renderingLayerMask(uint32_t value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "set_renderingLayerMask", {}, { ::i2c::type_of<uint32_t>() } })));
+inline void UnityEngine::Rendering::Universal::DecalProjector::set_renderingLayerMask(::UnityEngine::RenderingLayerMask value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(),
+                                                                                         { "set_renderingLayerMask", {}, { ::i2c::type_of<::UnityEngine::RenderingLayerMask>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Rendering::Universal::DecalScaleMode UnityEngine::Rendering::Universal::DecalProjector::get_scaleMode() {
@@ -1204,6 +1402,11 @@ inline void UnityEngine::Rendering::Universal::DecalProjector::OnValidate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "OnValidate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline void UnityEngine::Rendering::Universal::DecalProjector::OnDidApplyAnimationProperties() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "OnDidApplyAnimationProperties", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline bool UnityEngine::Rendering::Universal::DecalProjector::IsValid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "IsValid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -1213,12 +1416,30 @@ inline void UnityEngine::Rendering::Universal::DecalProjector::UpdateAllDecalPro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "UpdateAllDecalProperties", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
+inline void UnityEngine::Rendering::Universal::DecalProjector::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::DecalProjector::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline void UnityEngine::Rendering::Universal::DecalProjector::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalProjector*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::Rendering::Universal::DecalProjector* UnityEngine::Rendering::Universal::DecalProjector::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DecalProjector*>());
+}
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr UnityEngine::Rendering::Universal::DecalProjector::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr ::UnityEngine::ISerializationCallbackReceiver* UnityEngine::Rendering::Universal::DecalProjector::i___UnityEngine__ISerializationCallbackReceiver() noexcept {
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::DecalProjector::DecalProjector() {}

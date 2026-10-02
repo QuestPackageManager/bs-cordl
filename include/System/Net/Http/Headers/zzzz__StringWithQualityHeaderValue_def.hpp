@@ -54,24 +54,24 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60efae8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x650c004, size 0xf4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60efbdc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x650c0f8, size 0x8c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::StringWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60efae4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x650c000, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60eff94, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x650c4b0, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60efc68, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x650c184, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x60efd1c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x650c238, size 0x278, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::StringWithQualityHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
@@ -87,26 +87,26 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60efabc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x650bfd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Quality, addr 0x60efac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Quality, addr 0x650bfdc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Quality();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Value, addr 0x60efad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x650bff0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Quality, addr 0x60efacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Quality, addr 0x650bfe8, size 0x8, virtual false, abstract: false, final false
   inline void set_Quality(::System::Nullable_1<double_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Value, addr 0x60efadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x650bff8, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -124,7 +124,7 @@ public:
   StringWithQualityHeaderValue(StringWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20998 };
 
   /// [CompilerGenerated]
   /// @brief Field <Quality>k__BackingField, offset: 0x10, size: 0x10, def value: None

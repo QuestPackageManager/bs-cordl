@@ -70,18 +70,18 @@ public:
   /// @brief Field permissionsChangedEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_permissionsChangedEvent, put = __cordl_internal_set_permissionsChangedEvent)) ::System::Action* permissionsChangedEvent;
 
-  /// @brief Method Activate, addr 0x37370b8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x39c06a8, size 0xf8, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x373735c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x39c094c, size 0xf8, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x3737a24, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x39c1014, size 0x264, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
 
   static inline ::GlobalNamespace::LobbyPlayerPermissionsModel* New_ctor();
 
-  /// @brief Method SetPlayerPermissions, addr 0x37379f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerPermissions, addr 0x39c0fe4, size 0x30, virtual false, abstract: false, final false
   inline void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   constexpr bool const& __cordl_internal_get__hasInvitePermission_k__BackingField() const;
@@ -132,55 +132,55 @@ public:
 
   constexpr void __cordl_internal_set_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3737c88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c1278, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_permissionsChangedEvent, addr 0x373789c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_permissionsChangedEvent, addr 0x39c0e8c, size 0xac, virtual false, abstract: false, final false
   inline void add_permissionsChangedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasInvitePermission, addr 0x373788c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasInvitePermission, addr 0x39c0e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasKickVotePermission, addr 0x373787c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasKickVotePermission, addr 0x39c0e6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x373785c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x39c0e4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapPermission();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasRecommendModifiersPermission, addr 0x373786c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendModifiersPermission, addr 0x39c0e5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendModifiersPermission();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isPartyOwner, addr 0x373784c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPartyOwner, addr 0x39c0e3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_permissionsChangedEvent, addr 0x3737948, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_permissionsChangedEvent, addr 0x39c0f38, size 0xac, virtual false, abstract: false, final false
   inline void remove_permissionsChangedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasInvitePermission, addr 0x3737894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasInvitePermission, addr 0x39c0e84, size 0x8, virtual false, abstract: false, final false
   inline void set_hasInvitePermission(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasKickVotePermission, addr 0x3737884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasKickVotePermission, addr 0x39c0e74, size 0x8, virtual false, abstract: false, final false
   inline void set_hasKickVotePermission(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x3737864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x39c0e54, size 0x8, virtual false, abstract: false, final false
   inline void set_hasRecommendBeatmapPermission(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasRecommendModifiersPermission, addr 0x3737874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasRecommendModifiersPermission, addr 0x39c0e64, size 0x8, virtual false, abstract: false, final false
   inline void set_hasRecommendModifiersPermission(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isPartyOwner, addr 0x3737854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isPartyOwner, addr 0x39c0e44, size 0x8, virtual false, abstract: false, final false
   inline void set_isPartyOwner(bool value);
 
 protected:
@@ -198,7 +198,7 @@ public:
   LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15345 };
 
   /// [Inject]
   /// @brief Field _menuRpcManager, offset: 0x10, size: 0x8, def value: None

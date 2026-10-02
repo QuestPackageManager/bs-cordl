@@ -34,15 +34,15 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62ecdb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6714d98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Method, addr 0x62ecda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x6714d88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Method, addr 0x62ecdb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x6714d90, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   XmlTypeConvertorAttribute(XmlTypeConvertorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11457 };
 
   /// [CompilerGenerated]
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None

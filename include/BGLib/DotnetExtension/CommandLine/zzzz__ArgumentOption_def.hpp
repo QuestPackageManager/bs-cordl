@@ -46,28 +46,28 @@ public:
   constexpr operator ::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*();
 
   /// [NullableContext(2)]
-  /// @brief Method Equals, addr 0x33112d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3599d98, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3311160, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3599c24, size 0x174, virtual true, abstract: false, final true
   inline bool Equals(::BGLib::DotnetExtension::CommandLine::ArgumentOption other);
 
-  /// @brief Method GetHashCode, addr 0x3311360, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3599e24, size 0x154, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToDestinationArguments, addr 0x3311054, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToDestinationArguments, addr 0x3599b18, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> ToDestinationArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineArguments);
 
-  /// @brief Method ValidateArgumentValue, addr 0x3310e40, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x3599904, size 0x214, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3310e08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35998cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, /* [ParamArray] */ ::ArrayW<::StringW> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0x3310e2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x35998f0, size 0x14, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0x3310e18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x35998dc, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
 
   /// @brief Convert to "::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>"
@@ -83,7 +83,7 @@ public:
   constexpr ArgumentOption(::StringW name, ::ArrayW<::StringW> identifiers, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21274 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

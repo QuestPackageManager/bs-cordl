@@ -21,7 +21,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE RenderersBatchersContextDesc {
 public:
   // Declarations
-  /// @brief Method NewDefault, addr 0x6836c1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NewDefault, addr 0x6c6d9d4, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderersBatchersContextDesc NewDefault();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
                                          float_t smallMeshScreenPercentage, bool enableCullerDebugStats) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18324 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

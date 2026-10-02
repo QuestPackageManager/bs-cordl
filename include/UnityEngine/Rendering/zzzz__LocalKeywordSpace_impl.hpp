@@ -11,10 +11,22 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::LocalKeyword> (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(
     &::UnityEngine::Rendering::LocalKeywordSpace::GetKeywords)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2dbac;
+  constexpr static std::size_t addrs = 0x6f8b2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "GetKeywords", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LocalKeywordSpace.GetKeywordCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(&::UnityEngine::Rendering::LocalKeywordSpace::GetKeywordCount)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6f8b304;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "GetKeywordCount", {}, {} })));
     return ___internal_method;
   }
 };
@@ -24,10 +36,22 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::LocalKeyword> (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(
     &::UnityEngine::Rendering::LocalKeywordSpace::get_keywords)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2dbe8;
+  constexpr static std::size_t addrs = 0x6f8b340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "get_keywords", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LocalKeywordSpace.get_keywordCount
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(&::UnityEngine::Rendering::LocalKeywordSpace::get_keywordCount)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6f8b37c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "get_keywordCount", {}, {} })));
     return ___internal_method;
   }
 };
@@ -36,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LocalKeywordSpace::*)(::System::Object*)>(&::UnityEngine::Rendering::LocalKeywordSpace::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b2dc24;
+  constexpr static std::size_t addrs = 0x6f8b3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LocalKeywordSpace::*)(::UnityEngine::Rendering::LocalKeywordSpace)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b2dca0;
+  constexpr static std::size_t addrs = 0x6f8b434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::LocalKeywordSpace, ::UnityEngine::Rendering::LocalKeywordSpace)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2db88;
+  constexpr static std::size_t addrs = 0x6f8b2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(&::UnityEngine::Rendering::LocalKeywordSpace::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2dba4;
+  constexpr static std::size_t addrs = 0x6f8b2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,9 +115,17 @@ inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> UnityEngine::Rendering::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "GetKeywords", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Rendering::LocalKeyword>>(*this, ___internal_method);
 }
+inline uint32_t UnityEngine::Rendering::LocalKeywordSpace::GetKeywordCount() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "GetKeywordCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method);
+}
 inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> UnityEngine::Rendering::LocalKeywordSpace::get_keywords() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "get_keywords", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Rendering::LocalKeyword>>(*this, ___internal_method);
+}
+inline uint32_t UnityEngine::Rendering::LocalKeywordSpace::get_keywordCount() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "get_keywordCount", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::LocalKeywordSpace::Equals(::System::Object* o) {
   auto* ___internal_method =

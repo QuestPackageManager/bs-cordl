@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::RectPropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_XProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bb3f40;
+  constexpr static std::size_t addrs = 0x70122bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_XProperty*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::RectPropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_XProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb3f84;
+  constexpr static std::size_t addrs = 0x7012300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_XProperty*>(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::RectPropertyBag_XProperty::*)(::by_ref<::UnityEngine::Rect>)>(
     &::Unity::Properties::Internal::RectPropertyBag_XProperty::GetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb3f8c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x7012308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_XProperty*>(),
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_XProperty::*)(::by_ref<::UnityEngine::Rect>, float_t)>(
     &::Unity::Properties::Internal::RectPropertyBag_XProperty::SetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb3f94;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x7012360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_XProperty*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_XProperty::*)()>(&::Unity::Properties::Internal::RectPropertyBag_XProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bb3e50;
+  constexpr static std::size_t addrs = 0x70121cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_XProperty*>(), { ".ctor", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::RectPropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_YProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bb3f9c;
+  constexpr static std::size_t addrs = 0x70123c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_YProperty*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::RectPropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_YProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb3fe0;
+  constexpr static std::size_t addrs = 0x7012408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_YProperty*>(),
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::RectPropertyBag_YProperty::*)(::by_ref<::UnityEngine::Rect>)>(
     &::Unity::Properties::Internal::RectPropertyBag_YProperty::GetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb3fe8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x7012410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_YProperty*>(),
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_YProperty::*)(::by_ref<::UnityEngine::Rect>, float_t)>(
     &::Unity::Properties::Internal::RectPropertyBag_YProperty::SetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb3ff0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x7012468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_YProperty*>(),
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_YProperty::*)()>(&::Unity::Properties::Internal::RectPropertyBag_YProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bb3e8c;
+  constexpr static std::size_t addrs = 0x7012208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_YProperty*>(), { ".ctor", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::RectPropertyBag_WidthProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_WidthProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bb3ff8;
+  constexpr static std::size_t addrs = 0x70124cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_WidthProperty*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::RectPropertyBag_WidthProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_WidthProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb403c;
+  constexpr static std::size_t addrs = 0x7012510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_WidthProperty*>(),
@@ -233,8 +233,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::RectPropertyBag_WidthProperty::*)(::by_ref<::UnityEngine::Rect>)>(
     &::Unity::Properties::Internal::RectPropertyBag_WidthProperty::GetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb4044;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x7012518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_WidthProperty*>(),
@@ -247,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_WidthProperty::*)(::by_ref<::UnityEngine::Rect>, float_t)>(
     &::Unity::Properties::Internal::RectPropertyBag_WidthProperty::SetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb404c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x7012570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_WidthProperty*>(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_WidthProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_WidthProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bb3ec8;
+  constexpr static std::size_t addrs = 0x7012244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_WidthProperty*>(), { ".ctor", {}, {} })));
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::RectPropertyBag_HeightProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_HeightProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bb4054;
+  constexpr static std::size_t addrs = 0x70125d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_HeightProperty*>(),
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::RectPropertyBag_HeightProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_HeightProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb4098;
+  constexpr static std::size_t addrs = 0x7012618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_HeightProperty*>(),
@@ -331,8 +331,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::RectPropertyBag_HeightProperty::*)(::by_ref<::UnityEngine::Rect>)>(
     &::Unity::Properties::Internal::RectPropertyBag_HeightProperty::GetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb40a0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x7012620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_HeightProperty*>(),
@@ -345,8 +345,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_HeightProperty::*)(::by_ref<::UnityEngine::Rect>, float_t)>(
     &::Unity::Properties::Internal::RectPropertyBag_HeightProperty::SetValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb40a8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x7012678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_HeightProperty*>(),
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag_HeightProperty::*)()>(
     &::Unity::Properties::Internal::RectPropertyBag_HeightProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bb3f04;
+  constexpr static std::size_t addrs = 0x7012280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag_HeightProperty*>(), { ".ctor", {}, {} })));
@@ -400,8 +400,8 @@ constexpr ::Unity::Properties::Internal::RectPropertyBag_HeightProperty::RectPro
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::RectPropertyBag::*)()>(&::Unity::Properties::Internal::RectPropertyBag::_ctor)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6bb2b94;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x7010efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::RectPropertyBag*>(), { ".ctor", {}, {} })));

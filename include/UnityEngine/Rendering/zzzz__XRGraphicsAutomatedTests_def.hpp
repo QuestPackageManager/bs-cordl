@@ -31,23 +31,27 @@ public:
   /// @brief Field running, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_running, put = setStaticF_running)) bool running;
 
-  /// @brief Method OverrideLayout, addr 0x67cf5dc, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method OverrideLayout, addr 0x6bf0f30, size 0x5b8, virtual false, abstract: false, final false
   static inline void OverrideLayout(::UnityEngine::Experimental::Rendering::XRLayout* layout, ::UnityEngine::Camera* camera);
 
   static inline bool getStaticF__enabled_k__BackingField();
 
   static inline bool getStaticF_running();
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x67cf578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activatedFromCommandLine, addr 0x6bf0e68, size 0x8, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabled, addr 0x67cf580, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6bf0e70, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF__enabled_k__BackingField(bool value);
 
   static inline void setStaticF_running(bool value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_enabled, addr 0x6bf0ecc, size 0x64, virtual false, abstract: false, final false
+  static inline void set_enabled(bool value);
 
 protected:
   // Ctor Parameters []
@@ -64,7 +68,7 @@ public:
   XRGraphicsAutomatedTests(XRGraphicsAutomatedTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

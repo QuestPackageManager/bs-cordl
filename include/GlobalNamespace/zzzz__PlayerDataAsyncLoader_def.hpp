@@ -48,11 +48,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3779b58, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a034fc, size 0x28c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3779de4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a03788, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -71,7 +71,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21864 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -119,11 +119,11 @@ public:
   /// @brief Field _playerDataContent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataContent, put = __cordl_internal_set__playerDataContent)) ::StringW _playerDataContent;
 
-  /// @brief Method InstallBindings, addr 0x3779a80, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3a03424, size 0xd4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   /// [AsyncStateMachine(typeof(PlayerDataAsyncLoader::<LoadResourcesBeforeInstallAsync>d__1))]
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x37799bc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x3a03360, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::PlayerDataAsyncLoader* New_ctor();
@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataContent(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3779b54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a034f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -152,7 +152,7 @@ public:
   PlayerDataAsyncLoader(PlayerDataAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21865 };
 
   /// @brief Field _playerDataContent, offset: 0x38, size: 0x8, def value: None
   ::StringW ____playerDataContent;

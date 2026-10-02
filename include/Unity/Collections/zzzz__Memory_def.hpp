@@ -55,7 +55,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline T* Allocate(int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method CustomResize, addr 0x64c22c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CustomResize, addr 0x68eb400, size 0xe4, virtual false, abstract: false, final false
   static inline void* CustomResize(void* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int64_t size, int32_t align);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -64,7 +64,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline void Free(T* pointer, int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method IsCustom, addr 0x64c22bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCustom, addr 0x68eb3f4, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCustom(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -73,7 +73,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline T* Resize(T* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Resize, addr 0x64c2150, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x68eb284, size 0x150, virtual false, abstract: false, final false
   static inline void* Resize(void* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int64_t size, int32_t align);
 
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
   constexpr Unmanaged_Memory_Array();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -113,7 +113,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline T* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Allocate, addr 0x64c2134, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x68eb268, size 0x1c, virtual false, abstract: false, final false
   static inline void* Allocate(int64_t size, int32_t align, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -122,7 +122,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline void Free(T* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Free, addr 0x64c229c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x68eb3d4, size 0x20, virtual false, abstract: false, final false
   static inline void Free(void* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   // Ctor Parameters []
@@ -130,7 +130,7 @@ public:
   constexpr Memory_Unmanaged();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15869 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -177,7 +177,7 @@ public:
   constexpr Memory_Array();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15870 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -207,7 +207,7 @@ public:
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckByteCountIsReasonable, addr 0x64c2074, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CheckByteCountIsReasonable, addr 0x68eb1a8, size 0xc0, virtual false, abstract: false, final false
   static inline void CheckByteCountIsReasonable(int64_t size);
 
   // Ctor Parameters []
@@ -215,7 +215,7 @@ public:
   constexpr Memory();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

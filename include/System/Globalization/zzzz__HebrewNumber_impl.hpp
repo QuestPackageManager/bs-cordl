@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::HebrewNumber_HebrewValue::*)(::System::Globalization::HebrewNumber_HebrewToken, int16_t)>(
     &::System::Globalization::HebrewNumber_HebrewValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bbd648;
+  constexpr static std::size_t addrs = 0x5fd5910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::System::Globalization::HebrewNumber::ToString)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5bbce68;
+  constexpr static std::size_t addrs = 0x5fd5130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::HebrewNumberParsingState (*)(char16_t, ::by_ref<::System::Globalization::HebrewNumberParsingContext>)>(
     &::System::Globalization::HebrewNumber::ParseByChar)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5bbd110;
+  constexpr static std::size_t addrs = 0x5fd53d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Globalization::HebrewNumber::IsDigit)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5bbd2b0;
+  constexpr static std::size_t addrs = 0x5fd5578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

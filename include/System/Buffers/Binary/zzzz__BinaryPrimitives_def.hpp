@@ -20,15 +20,15 @@ namespace System::Buffers::Binary {
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x5bf4050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x600c318, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
   /// [CLSCompliant(false)]
-  /// @brief Method ReverseEndianness, addr 0x5bf4058, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x600c320, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
   /// [CLSCompliant(false)]
-  /// @brief Method ReverseEndianness, addr 0x5bf4064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x600c32c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
 protected:
@@ -46,7 +46,7 @@ public:
   BinaryPrimitives(BinaryPrimitives const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRUtility_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -9,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::UnityEngine::XR::OpenXR::OpenXRUtility::Inverse)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f6938;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6e37fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*, ::UnityEngine::Camera*)>(
     &::UnityEngine::XR::OpenXR::OpenXRUtility::ComputePoseToWorldSpace)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x69f69bc;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x6e38064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,8 +38,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRUtility::get_IsSessionFocused)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f6bd4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6e382a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "get_IsSessionFocused", {}, {} })));
@@ -49,11 +50,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRUtility::get_IsUserPresent)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f6c44;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6e38364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "get_IsUserPresent", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::OpenXR::OpenXRUtility.GetFirstDisplaySubsystem
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<Il2CppObject* (*)()>(&::UnityEngine::XR::OpenXR::OpenXRUtility::GetFirstDisplaySubsystem)> {
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6e38420;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "GetFirstDisplaySubsystem", {}, {} })));
     return ___internal_method;
   }
 };
@@ -62,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRUtility::Internal_IsSessionFocused)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69f6bd8;
+  constexpr static std::size_t addrs = 0x6e382f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "Internal_IsSessionFocused", {}, {} })));
@@ -74,13 +87,20 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRUtility::Internal_GetUserPresence)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69f6c48;
+  constexpr static std::size_t addrs = 0x6e383b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "Internal_GetUserPresence", {}, {} })));
     return ___internal_method;
   }
 };
+inline void UnityEngine::XR::OpenXR::OpenXRUtility::setStaticF_s_DisplaySubsystems(::System::Collections::Generic::List_1<Il2CppObject*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<Il2CppObject*>*, "s_DisplaySubsystems", ::UnityEngine::XR::OpenXR::OpenXRUtility*>(
+      std::forward<::System::Collections::Generic::List_1<Il2CppObject*>*>(value));
+}
+inline ::System::Collections::Generic::List_1<Il2CppObject*>* UnityEngine::XR::OpenXR::OpenXRUtility::getStaticF_s_DisplaySubsystems() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<Il2CppObject*>*, "s_DisplaySubsystems", ::UnityEngine::XR::OpenXR::OpenXRUtility*>();
+}
 inline ::UnityEngine::Pose UnityEngine::XR::OpenXR::OpenXRUtility::Inverse(::UnityEngine::Pose p) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "Inverse", {}, { ::i2c::type_of<::UnityEngine::Pose>() } })));
@@ -99,6 +119,10 @@ inline bool UnityEngine::XR::OpenXR::OpenXRUtility::get_IsSessionFocused() {
 inline bool UnityEngine::XR::OpenXR::OpenXRUtility::get_IsUserPresent() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "get_IsUserPresent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline Il2CppObject* UnityEngine::XR::OpenXR::OpenXRUtility::GetFirstDisplaySubsystem() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "GetFirstDisplaySubsystem", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<Il2CppObject*>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::XR::OpenXR::OpenXRUtility::Internal_IsSessionFocused() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRUtility*>(), { "Internal_IsSessionFocused", {}, {} })));

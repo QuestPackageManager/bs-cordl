@@ -30,7 +30,7 @@ namespace UnityEngine {
 class CORDL_TYPE JsonUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x6b64490, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x6fc43e4, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Object* FromJson(::StringW json, ::System::Type* type);
 
   /// @brief Method FromJson, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -38,27 +38,27 @@ public:
 
   /// [FreeFunction("FromJsonInternal", true, ThrowsException = true)]
   /// [ThreadSafe]
-  /// @brief Method FromJsonInternal, addr 0x6b64184, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FromJsonInternal, addr 0x6fc40d8, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method FromJsonInternal_Injected, addr 0x6b642c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromJsonInternal_Injected, addr 0x6fc421c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method FromJsonOverwrite, addr 0x6b64640, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method FromJsonOverwrite, addr 0x6fc4594, size 0x19c, virtual false, abstract: false, final false
   static inline void FromJsonOverwrite(::StringW json, ::System::Object* objectToOverwrite);
 
-  /// @brief Method ToJson, addr 0x6b6431c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x6fc4270, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj);
 
-  /// @brief Method ToJson, addr 0x6b64324, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x6fc4278, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
   /// [FreeFunction("ToJsonInternal", true)]
   /// [ThreadSafe]
-  /// @brief Method ToJsonInternal, addr 0x6b63ffc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ToJsonInternal, addr 0x6fc3f50, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW ToJsonInternal(/* [NotNull] */ ::System::Object* obj, bool prettyPrint);
 
-  /// @brief Method ToJsonInternal_Injected, addr 0x6b64130, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToJsonInternal_Injected, addr 0x6fc4084, size 0x54, virtual false, abstract: false, final false
   static inline void ToJsonInternal_Injected(::System::Object* obj, bool prettyPrint, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -76,7 +76,7 @@ public:
   JsonUtility(JsonUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

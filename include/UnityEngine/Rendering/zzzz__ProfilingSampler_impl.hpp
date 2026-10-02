@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(::StringW)>(&::UnityEngine::Rendering::ProfilingSampler::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x676d9bc;
+  constexpr static std::size_t addrs = 0x6b85a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::ProfilingSampler::Begin)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x676dab0;
+  constexpr static std::size_t addrs = 0x6b85b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::ProfilingSampler::End)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x676dae8;
+  constexpr static std::size_t addrs = 0x6b85b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::IsValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x676db20;
+  constexpr static std::size_t addrs = 0x6b85bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "IsValid", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Profiling::CustomSampler* (::UnityEngine::Rendering::ProfilingSampler::*)()>(
     &::UnityEngine::Rendering::ProfilingSampler::get_sampler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676db40;
+  constexpr static std::size_t addrs = 0x6b85bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_sampler", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(::UnityEngine::Profiling::CustomSampler*)>(
     &::UnityEngine::Rendering::ProfilingSampler::set_sampler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676db48;
+  constexpr static std::size_t addrs = 0x6b85bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Profiling::CustomSampler* (::UnityEngine::Rendering::ProfilingSampler::*)()>(
     &::UnityEngine::Rendering::ProfilingSampler::get_inlineSampler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676db50;
+  constexpr static std::size_t addrs = 0x6b85c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_inlineSampler", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(::UnityEngine::Profiling::CustomSampler*)>(
     &::UnityEngine::Rendering::ProfilingSampler::set_inlineSampler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676db58;
+  constexpr static std::size_t addrs = 0x6b85c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676db60;
+  constexpr static std::size_t addrs = 0x6b85c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_name", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(::StringW)>(&::UnityEngine::Rendering::ProfilingSampler::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676db68;
+  constexpr static std::size_t addrs = 0x6b85c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)(bool)>(&::UnityEngine::Rendering::ProfilingSampler::set_enableRecording)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x676db70;
+  constexpr static std::size_t addrs = 0x6b85c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_gpuElapsedTime)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x676dbac;
+  constexpr static std::size_t addrs = 0x6b85c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_gpuElapsedTime", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_gpuSampleCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x676dc14;
+  constexpr static std::size_t addrs = 0x6b85cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_gpuSampleCount", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_cpuElapsedTime)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x676dc58;
+  constexpr static std::size_t addrs = 0x6b85d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_cpuElapsedTime", {}, {} })));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_cpuSampleCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x676dcc0;
+  constexpr static std::size_t addrs = 0x6b85d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_cpuSampleCount", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_inlineCpuElapsedTime)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x676dd04;
+  constexpr static std::size_t addrs = 0x6b85db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_inlineCpuElapsedTime", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::get_inlineCpuSampleCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x676dd6c;
+  constexpr static std::size_t addrs = 0x6b85e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { "get_inlineCpuSampleCount", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProfilingSampler::*)()>(&::UnityEngine::Rendering::ProfilingSampler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x676ddb0;
+  constexpr static std::size_t addrs = 0x6b85e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSampler*>(), { ".ctor", {}, {} })));

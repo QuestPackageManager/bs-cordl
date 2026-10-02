@@ -13,8 +13,8 @@ class NativeMethodAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeMethodAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");
-// [VisibleToOtherModules]
 // [AttributeUsage((System.AttributeTargets)192)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -85,36 +85,36 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6bb61d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014d34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bb61d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014d38, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6bb62d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014e30, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor, addr 0x6bb62f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7014e54, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
   /// [CompilerGenerated]
-  /// @brief Method set_HasExplicitThis, addr 0x6bb61cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_HasExplicitThis, addr 0x7014d2c, size 0x8, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsFreeFunction, addr 0x6bb61bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_IsFreeFunction, addr 0x7014d1c, size 0x8, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsThreadSafe, addr 0x6bb61b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_IsThreadSafe, addr 0x7014d14, size 0x8, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Name, addr 0x6bb61ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x7014d0c, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ThrowsException, addr 0x6bb61c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x7014d24, size 0x8, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -132,7 +132,7 @@ public:
   NativeMethodAttribute(NativeMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23533 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -144,18 +144,18 @@ public:
   /// @brief Field <IsThreadSafe>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____IsThreadSafe_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsFreeFunction>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____IsFreeFunction_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ThrowsException>k__BackingField, offset: 0x1a, size: 0x1, def value: None
   bool ____ThrowsException_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <HasExplicitThis>k__BackingField, offset: 0x1b, size: 0x1, def value: None
   bool ____HasExplicitThis_k__BackingField;
 

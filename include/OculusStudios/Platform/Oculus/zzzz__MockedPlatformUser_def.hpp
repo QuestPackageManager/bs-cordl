@@ -59,33 +59,33 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformUser"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformUser*() noexcept;
 
-  /// @brief Method FlushAchievements, addr 0x5f32ac8, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method FlushAchievements, addr 0x634e12c, size 0xc4, virtual true, abstract: false, final true
   inline void FlushAchievements();
 
-  /// @brief Method GetAccessTokenAsync, addr 0x5f32638, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method GetAccessTokenAsync, addr 0x634dc9c, size 0x120, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAccessTokenAsync();
 
-  /// @brief Method GetAgeCategoryAsync, addr 0x5f328f8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetAgeCategoryAsync, addr 0x634df5c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* GetAgeCategoryAsync();
 
-  /// @brief Method GetAllAchievementIds, addr 0x5f32968, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAllAchievementIds, addr 0x634dfcc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::StringW>* GetAllAchievementIds();
 
-  /// @brief Method GetLocale, addr 0x5f328f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetLocale, addr 0x634df54, size 0x8, virtual true, abstract: false, final true
   inline ::StringW GetLocale();
 
-  /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x5f329e4, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x634e048, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>* GetUnlockedAchievementIdsAsync();
 
-  /// @brief Method GetXPlatformAccessTokenAsync, addr 0x5f32758, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessTokenAsync, addr 0x634ddbc, size 0x198, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetXPlatformAccessTokenAsync(bool skipCache);
 
-  /// @brief Method IsAchievementUnlockedAsync, addr 0x5f32974, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method IsAchievementUnlockedAsync, addr 0x634dfd8, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsAchievementUnlockedAsync(::StringW achievementId);
 
   static inline ::OculusStudios::Platform::Oculus::MockedPlatformUser* New_ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method UnlockAchievement, addr 0x5f32970, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x634dfd4, size 0x4, virtual true, abstract: false, final true
   inline void UnlockAchievement(::StringW achievementId);
 
   constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
@@ -112,26 +112,26 @@ public:
 
   constexpr void __cordl_internal_set_logger(::OculusStudios::Platform::Core::IPlatformLogger* value);
 
-  /// @brief Method .ctor, addr 0x5f32500, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x634db64, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x5f32628, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_displayName, addr 0x634dc8c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userId, addr 0x5f32618, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x634dc7c, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_userId();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformUser"
   constexpr ::OculusStudios::Platform::Core::IPlatformUser* i___OculusStudios__Platform__Core__IPlatformUser() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x5f32630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x634dc94, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userId, addr 0x5f32620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x634dc84, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(uint64_t value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   static constexpr ::ConstString ENV_XPLAT_AUTH_TOKEN{ u"OCULUS_PLATFORM_AUTHTOKEN" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22932 };
 
   /// [CompilerGenerated]
   /// @brief Field <userId>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -32,7 +32,7 @@ public:
                                       int32_t _offsetRenderingLayerMask_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -52,8 +52,8 @@ public:
   /// @brief Field <offsetPrevObjectToWorld>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _offsetPrevObjectToWorld_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <offsetRenderingLayerMask>k__BackingField, offset: 0xc, size: 0x4, def value: None
   int32_t _offsetRenderingLayerMask_k__BackingField;
 

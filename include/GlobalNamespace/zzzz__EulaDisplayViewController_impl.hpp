@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaDisplayViewController::*)(bool, bool, bool)>(&::GlobalNamespace::EulaDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a1939c;
+  constexpr static std::size_t addrs = 0x5e3522c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaDisplayViewController::*)()>(&::GlobalNamespace::EulaDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a193e0;
+  constexpr static std::size_t addrs = 0x5e35270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaDisplayViewController*>(), { ".ctor", {}, {} })));

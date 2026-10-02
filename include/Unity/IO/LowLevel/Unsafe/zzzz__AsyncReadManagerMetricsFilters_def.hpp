@@ -18,9 +18,9 @@ class AsyncReadManagerMetricsFilters;
 // Write type traits
 MARK_REF_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters*);
 DEFINE_IL2CPP_CLASS(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters*, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerMetricsFilters");
-// [NativeConditional("ENABLE_PROFILER")]
 // [NativeAsStruct]
 // [RequiredByNativeCode]
+// [NativeConditional("ENABLE_PROFILER")]
 // Dependencies System.Object, Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem, Unity.IO.LowLevel.Unsafe.FileReadType, Unity.IO.LowLevel.Unsafe.Priority, Unity.IO.LowLevel.Unsafe.ProcessingState
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: false
@@ -88,7 +88,7 @@ public:
   AsyncReadManagerMetricsFilters(AsyncReadManagerMetricsFilters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9550 };
 
   /// [NativeName("typeIDs")]
   /// @brief Field TypeIDs, offset: 0x10, size: 0x8, def value: None

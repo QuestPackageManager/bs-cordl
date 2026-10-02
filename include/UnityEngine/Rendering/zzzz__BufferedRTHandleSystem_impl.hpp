@@ -1,12 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/BufferedRTHandleSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BufferedRTHandleSystem_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BufferedRTHandleSystem_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandleProperties_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandleSystem_def.hpp"
@@ -15,21 +13,12 @@
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::BufferedRTHandleSystem*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "format", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0::BufferedRTHandleSystem___c__DisplayClass12_0(::UnityEngine::Rendering::BufferedRTHandleSystem* __4__this,
-                                                                                                                               ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept {
-  this->__4__this = __4__this;
-  this->format = format;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0::BufferedRTHandleSystem___c__DisplayClass12_0() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::BufferedRTHandleSystem.get_maxWidth
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(&::UnityEngine::Rendering::BufferedRTHandleSystem::get_maxWidth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67a8794;
+  constexpr static std::size_t addrs = 0x6bc3594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { "get_maxWidth", {}, {} })));
@@ -41,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(&::UnityEngine::Rendering::BufferedRTHandleSystem::get_maxHeight)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67a87ac;
+  constexpr static std::size_t addrs = 0x6bc35ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { "get_maxHeight", {}, {} })));
@@ -54,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandleProperties (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::get_rtHandleProperties)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67a87c4;
+  constexpr static std::size_t addrs = 0x6bc35c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::GetFrameRT)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x67a87e8;
+  constexpr static std::size_t addrs = 0x6bc35e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::ClearBuffers)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x67a88b4;
+  constexpr static std::size_t addrs = 0x6bc36b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(),
@@ -95,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(
     int32_t, ::System::Func_3<::UnityEngine::Rendering::RTHandleSystem*, int32_t, ::UnityEngine::Rendering::RTHandle*>*, int32_t)>(&::UnityEngine::Rendering::BufferedRTHandleSystem::AllocBuffer)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x67a8a80;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x6bc3880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,8 +104,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(
     int32_t, int32_t, ::by_ref<::UnityEngine::RenderTextureDescriptor>, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, bool, int32_t, float_t, ::StringW)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::AllocBuffer)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x67a8c14;
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x6bc3b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(int32_t)>(&::UnityEngine::Rendering::BufferedRTHandleSystem::ReleaseBuffer)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x67a8ef0;
+  constexpr static std::size_t addrs = 0x6bc40e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::SwapAndSetReferenceSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67a8fe4;
+  constexpr static std::size_t addrs = 0x6bc41e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(),
@@ -162,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::ResetReferenceSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67a93dc;
+  constexpr static std::size_t addrs = 0x6bc45dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(),
@@ -176,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(int32_t)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::GetNumFramesAllocated)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67a93f8;
+  constexpr static std::size_t addrs = 0x6bc4604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::BufferedRTHandleSystem::CalculateRatioAgainstMaxSize)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67a94ac;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6bc46b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(),
@@ -202,8 +191,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(&::UnityEngine::Rendering::BufferedRTHandleSystem::Swap)> {
-  constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x67a9020;
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x6bc4224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { "Swap", {}, {} })));
@@ -215,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)(bool)>(&::UnityEngine::Rendering::BufferedRTHandleSystem::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67a94d8;
+  constexpr static std::size_t addrs = 0x6bc4928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(&::UnityEngine::Rendering::BufferedRTHandleSystem::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67a9758;
+  constexpr static std::size_t addrs = 0x6bc4bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { "Dispose", {}, {} })));
@@ -240,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(&::UnityEngine::Rendering::BufferedRTHandleSystem::ReleaseAll)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x67a951c;
+  constexpr static std::size_t addrs = 0x6bc496c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { "ReleaseAll", {}, {} })));
@@ -251,32 +240,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BufferedRTHandleSystem::*)()>(&::UnityEngine::Rendering::BufferedRTHandleSystem::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67a9760;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6bc4bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::BufferedRTHandleSystem._AllocBuffer_g__Alloc_12_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (
-    ::UnityEngine::Rendering::BufferedRTHandleSystem::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, bool, int32_t, float_t, ::StringW,
-                                                         ::by_ref<::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0>)>(
-    &::UnityEngine::Rendering::BufferedRTHandleSystem::_AllocBuffer_g__Alloc_12_0)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67a8e3c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(),
-                                                             { "<AllocBuffer>g__Alloc|12_0",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::RenderTextureDescriptor>>(), ::i2c::type_of<::UnityEngine::FilterMode>(),
-                                                                 ::i2c::type_of<::UnityEngine::TextureWrapMode>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0>>() } })));
     return ___internal_method;
   }
 };
@@ -411,19 +379,6 @@ inline void UnityEngine::Rendering::BufferedRTHandleSystem::ReleaseAll() {
 inline void UnityEngine::Rendering::BufferedRTHandleSystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::Rendering::RTHandle*
-UnityEngine::Rendering::BufferedRTHandleSystem::_AllocBuffer_g__Alloc_12_0(::by_ref<::UnityEngine::RenderTextureDescriptor> d, ::UnityEngine::FilterMode fMode, ::UnityEngine::TextureWrapMode wMode,
-                                                                           bool isShadow, int32_t aniso, float_t mipBias, ::StringW n,
-                                                                           ::by_ref<::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0> _cordl_fixed_empty_name_whitespace) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BufferedRTHandleSystem*>(),
-                                                           { "<AllocBuffer>g__Alloc|12_0",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::RenderTextureDescriptor>>(), ::i2c::type_of<::UnityEngine::FilterMode>(),
-                                                               ::i2c::type_of<::UnityEngine::TextureWrapMode>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(this, ___internal_method, d, fMode, wMode, isShadow, aniso, mipBias, n, _cordl_fixed_empty_name_whitespace);
 }
 inline ::UnityEngine::Rendering::BufferedRTHandleSystem* UnityEngine::Rendering::BufferedRTHandleSystem::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::BufferedRTHandleSystem*>());

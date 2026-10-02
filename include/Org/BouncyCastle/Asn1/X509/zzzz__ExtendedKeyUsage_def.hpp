@@ -59,23 +59,23 @@ public:
   /// @brief Field usageTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_usageTable, put = __cordl_internal_set_usageTable)) ::System::Collections::IDictionary* usageTable;
 
-  /// @brief Method FromExtensions, addr 0x365c44c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x38e56e8, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetAllUsages, addr 0x365cc0c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetAllUsages, addr 0x38e5ea8, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetAllUsages();
 
-  /// @brief Method GetInstance, addr 0x365be80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x38e511c, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x365be94, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x38e5130, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::System::Object* obj);
 
   /// [Obsolete("Use \'GetAllUsages\'")]
-  /// @brief Method GetUsages, addr 0x365cb24, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetUsages, addr 0x38e5dc0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetUsages();
 
-  /// @brief Method HasKeyPurposeId, addr 0x365ca6c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HasKeyPurposeId, addr 0x38e5d08, size 0xb8, virtual false, abstract: false, final false
   inline bool HasKeyPurposeId(::Org::BouncyCastle::Asn1::X509::KeyPurposeID* keyPurposeId);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -87,7 +87,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method ToAsn1Object, addr 0x365cd98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x38e6034, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
@@ -102,20 +102,20 @@ public:
 
   constexpr void __cordl_internal_set_usageTable(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x365c0a0, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38e533c, size 0x3ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x365c4c4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38e5760, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*> usages);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x365c630, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38e58cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* usages);
 
-  /// @brief Method .ctor, addr 0x365c634, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38e58d0, size 0x438, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method get_Count, addr 0x365ccf0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x38e5f8c, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:

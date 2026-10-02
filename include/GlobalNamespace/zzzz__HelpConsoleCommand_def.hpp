@@ -46,16 +46,16 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32dd0e0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x356453c, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method GetCommandUsage, addr 0x32dd2a4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCommandUsage, addr 0x3564700, size 0x138, virtual false, abstract: false, final false
   inline bool GetCommandUsage(::StringW commandName, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method GetListOfCommands, addr 0x32dd1cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetListOfCommands, addr 0x3564628, size 0xd8, virtual false, abstract: false, final false
   inline void GetListOfCommands(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method ListCommands, addr 0x32dd3dc, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method ListCommands, addr 0x3564838, size 0x464, virtual false, abstract: false, final false
   static inline ::StringW ListCommands(::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* commands);
 
   static inline ::GlobalNamespace::HelpConsoleCommand* New_ctor();
@@ -66,13 +66,13 @@ public:
 
   constexpr void __cordl_internal_set__commandName(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32dd840, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3564c9c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32dd058, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x35644b4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32dd09c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x35644f8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -90,7 +90,7 @@ public:
   HelpConsoleCommand(HelpConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19739 };
 
   /// @brief Field _commandName, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<::StringW>* ____commandName;

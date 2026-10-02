@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowChangeEventArgs::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::DataRowChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x602d844;
+  constexpr static std::size_t addrs = 0x6449a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

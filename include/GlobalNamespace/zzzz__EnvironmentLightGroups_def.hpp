@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentLightGroups___c* New_ctor();
 
-  /// @brief Method <Sort>b__9_0, addr 0x3708d5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Sort>b__9_0, addr 0x39920c4, size 0x14, virtual false, abstract: false, final false
   inline int32_t _Sort_b__9_0(::GlobalNamespace::LightGroupSO* s);
 
-  /// @brief Method .ctor, addr 0x3708d58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39920c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentLightGroups___c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   EnvironmentLightGroups___c(EnvironmentLightGroups___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,12 +124,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEnvironmentLightGroups"
   constexpr operator ::GlobalNamespace::IEnvironmentLightGroups*() noexcept;
 
-  /// @brief Method GetDataForGroup, addr 0x37089ac, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method GetDataForGroup, addr 0x3991d14, size 0x22c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
 
   static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
 
-  /// @brief Method Sort, addr 0x3708bd8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3991f40, size 0x12c, virtual false, abstract: false, final false
   inline void Sort();
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::LightGroupSO>>* const& __cordl_internal_get__lightGroupSODict() const;
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroupSOListForLightGroupDataDict(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
-  /// @brief Method .ctor, addr 0x37089a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3991d0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
 
-  /// @brief Method get_lightGroupSOList, addr 0x370899c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSOList, addr 0x3991d04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* get_lightGroupSOList();
 
-  /// @brief Method get_lightGroups, addr 0x3708994, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lightGroups, addr 0x3991cfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* get_lightGroups();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentLightGroups"
@@ -177,7 +177,7 @@ public:
   EnvironmentLightGroups(EnvironmentLightGroups const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15082 };
 
   /// [Tooltip("Order of these does not matter. Name entries here to something that is easily identifiable.")]
   /// [SerializeField]

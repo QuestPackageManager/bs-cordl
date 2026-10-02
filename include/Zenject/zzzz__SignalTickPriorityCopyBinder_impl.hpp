@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(&::Zenject::SignalTickPriorityCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e46080;
+  constexpr static std::size_t addrs = 0x72e1bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::SignalDeclarationBindInfo* (::Zenject::SignalTickPriorityCopyBinder::*)()>(
     &::Zenject::SignalTickPriorityCopyBinder::get_SignalBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e46574;
+  constexpr static std::size_t addrs = 0x72e20cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalTickPriorityCopyBinder*>(), { "get_SignalBindInfo", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::SignalTickPriorityCopyBinder::set_SignalBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4657c;
+  constexpr static std::size_t addrs = 0x72e20d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::SignalCopyBinder* (::Zenject::SignalTickPriorityCopyBinder::*)(int32_t)>(
     &::Zenject::SignalTickPriorityCopyBinder::WithTickPriority)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e46584;
+  constexpr static std::size_t addrs = 0x72e20dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

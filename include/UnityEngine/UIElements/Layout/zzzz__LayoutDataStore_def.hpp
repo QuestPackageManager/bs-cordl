@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -11,8 +11,14 @@ CORDL_MODULE_EXPORT(LayoutDataStore)
 namespace System {
 class IDisposable;
 }
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
 namespace Unity::Collections {
 struct Allocator;
+}
+namespace Unity::Collections {
+struct MemoryLabel;
 }
 namespace UnityEngine::UIElements::Layout {
 struct ComponentType;
@@ -66,7 +72,7 @@ public:
   constexpr LayoutDataStore_Chunk(uint8_t* Buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5533 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -83,7 +89,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk,
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
-// Dependencies Unity.Collections.Allocator
+// Dependencies Unity.Collections.MemoryLabel
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.LayoutDataStore/ComponentDataStore
@@ -93,17 +99,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6d03334, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7199708, size 0xd8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetComponentDataPtr, addr 0x6d03470, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetComponentDataPtr, addr 0x7199844, size 0x34, virtual false, abstract: false, final false
   inline uint8_t* GetComponentDataPtr(int32_t index);
 
-  /// @brief Method ResizeCapacity, addr 0x6d0383c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ResizeCapacity, addr 0x7199d10, size 0x1cc, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x6d031bc, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size, ::Unity::Collections::Allocator allocator);
+  /// @brief Method .ctor, addr 0x7199490, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t size, ::Unity::Collections::MemoryLabel allocLabel);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
@@ -112,48 +118,48 @@ public:
   // @brief default ctor
   constexpr LayoutDataStore_ComponentDataStore();
 
-  // Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
+  // Ctor Parameters [CppParam { name: "MemoryLabel", ty: "::Unity::Collections::MemoryLabel", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ChunkCount", ty: "int32_t",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: None, comment: None }]
-  constexpr LayoutDataStore_ComponentDataStore(::Unity::Collections::Allocator Allocator, int32_t Size, int32_t ComponentCountPerChunk, int32_t ChunkCount,
+  constexpr LayoutDataStore_ComponentDataStore(::Unity::Collections::MemoryLabel MemoryLabel, int32_t Size, int32_t ComponentCountPerChunk, int32_t ChunkCount,
                                                ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk* m_Chunks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5534 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
-  /// @brief Field Allocator, offset: 0x0, size: 0x4, def value: None
-  ::Unity::Collections::Allocator Allocator;
+  /// @brief Field MemoryLabel, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::MemoryLabel MemoryLabel;
 
-  /// @brief Field Size, offset: 0x4, size: 0x4, def value: None
+  /// @brief Field Size, offset: 0x10, size: 0x4, def value: None
   int32_t Size;
 
-  /// @brief Field ComponentCountPerChunk, offset: 0x8, size: 0x4, def value: None
+  /// @brief Field ComponentCountPerChunk, offset: 0x14, size: 0x4, def value: None
   int32_t ComponentCountPerChunk;
 
-  /// @brief Field ChunkCount, offset: 0xc, size: 0x4, def value: None
+  /// @brief Field ChunkCount, offset: 0x18, size: 0x4, def value: None
   int32_t ChunkCount;
 
   /// [NativeDisableUnsafePtrRestriction]
-  /// @brief Field m_Chunks, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field m_Chunks, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk* m_Chunks;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, Allocator) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, MemoryLabel) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, Size) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, Size) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, ComponentCountPerChunk) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, ComponentCountPerChunk) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, ChunkCount) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, ChunkCount) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, m_Chunks) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, m_Chunks) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore) == 0x18, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
 // Dependencies
@@ -174,7 +180,7 @@ public:
                                  ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* Components) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5535 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -212,7 +218,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, 
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
-// Dependencies Unity.Collections.Allocator
+// Dependencies Unity.Collections.MemoryLabel
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.LayoutDataStore
@@ -224,8 +230,6 @@ public:
   using ComponentDataStore = ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore;
 
   using Data = ::UnityEngine::UIElements::Layout::LayoutDataStore_Data;
-
-  __declspec(property(get = get_IsValid)) bool IsValid;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
@@ -243,42 +247,40 @@ public:
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0, /* [IsReadOnly] */ ::by_ref<T1> component1, /* [IsReadOnly] */ ::by_ref<T2> component2,
                                                                   /* [IsReadOnly] */ ::by_ref<T3> component3);
 
-  /// @brief Method Allocate, addr 0x6d034a4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x7199878, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(uint8_t* data, int32_t count);
 
-  /// @brief Method Dispose, addr 0x6cfeed0, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x719960c, size 0xfc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Exists, addr 0x6d0340c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x71997e0, size 0x40, virtual false, abstract: false, final false
   inline bool Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
-  /// @brief Method Free, addr 0x6cff060, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x7199aac, size 0xf8, virtual false, abstract: false, final false
   inline void Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
   /// [IsReadOnly]
-  /// @brief Method GetComponentDataPtr, addr 0x6d0344c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetComponentDataPtr, addr 0x7199820, size 0x24, virtual false, abstract: false, final false
   inline void* GetComponentDataPtr(int32_t index, int32_t componentIndex);
 
-  /// @brief Method GetNextFreeIndex, addr 0x6d03688, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNextFreeIndex, addr 0x7199a5c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index);
 
-  /// @brief Method IncreaseCapacity, addr 0x6d0369c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x7199a70, size 0x3c, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method ResizeArray, addr 0x6d036f0, size 0x14c, virtual false, abstract: false, final false
-  static inline void* ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::Allocator allocator);
+  /// @brief Method ResizeArray, addr 0x7199bbc, size 0x154, virtual false, abstract: false, final false
+  static inline void* ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::MemoryLabel label);
 
-  /// @brief Method ResizeCapacity, addr 0x6d031d4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ResizeCapacity, addr 0x71994ac, size 0x160, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
 
-  /// @brief Method SetNextFreeIndex, addr 0x6d036d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetNextFreeIndex, addr 0x7199ba4, size 0x18, virtual false, abstract: false, final false
   static inline void SetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cfeb00, size 0x30c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType> components, int32_t initialCapacity, ::Unity::Collections::Allocator allocator);
-
-  /// @brief Method get_IsValid, addr 0x6d02dbc, size 0x10, virtual false, abstract: false, final false
-  inline bool get_IsValid();
+  /// @brief Method .ctor, addr 0x71990cc, size 0x3c4, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType> components, ::System::ReadOnlySpan_1<::Unity::Collections::MemoryLabel> labels, int32_t initialCapacity,
+                    ::Unity::Collections::Allocator allocator);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
@@ -287,33 +289,33 @@ public:
   // @brief default ctor
   constexpr LayoutDataStore();
 
-  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty:
+  // Ctor Parameters [CppParam { name: "m_MemoryLabel", ty: "::Unity::Collections::MemoryLabel", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty:
   // "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: None, comment: None }]
-  constexpr LayoutDataStore(::Unity::Collections::Allocator m_Allocator, ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data) noexcept;
+  constexpr LayoutDataStore(::Unity::Collections::MemoryLabel m_MemoryLabel, ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5536 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field k_ChunkSize offset 0xffffffff size 0x4
   static constexpr int32_t k_ChunkSize{ static_cast<int32_t>(0x8000) };
 
-  /// @brief Field m_Allocator, offset: 0x0, size: 0x4, def value: None
-  ::Unity::Collections::Allocator m_Allocator;
+  /// @brief Field m_MemoryLabel, offset: 0x0, size: 0x10, def value: None
+  ::Unity::Collections::MemoryLabel m_MemoryLabel;
 
   /// [NativeDisableUnsafePtrRestriction]
-  /// @brief Field m_Data, offset: 0x8, size: 0x8, def value: None
+  /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore, m_Allocator) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore, m_MemoryLabel) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore, m_Data) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore, m_Data) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore) == 0x10, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout

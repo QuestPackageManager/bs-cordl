@@ -83,7 +83,7 @@ public:
   DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8818 };
 
   /// @brief Field m_Data, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplaySettingsStats_1<TProfileId>* ___m_Data;
@@ -159,7 +159,7 @@ public:
   DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8819 };
 
   /// [CompilerGenerated]
   /// @brief Field <debugDisplayStats>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Net::TcpValidationHelpers::ValidatePortNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63f987c;
+  constexpr static std::size_t addrs = 0x6821b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

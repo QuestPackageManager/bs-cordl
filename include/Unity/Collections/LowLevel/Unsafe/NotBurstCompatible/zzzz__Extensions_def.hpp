@@ -35,12 +35,12 @@ public:
   // Declarations
   /// [Extension]
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method AddNBC, addr 0x64cfe58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddNBC, addr 0x68f8c50, size 0x90, virtual false, abstract: false, final false
   static inline void AddNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer, ::StringW value);
 
   /// [Extension]
   /// [ExcludeFromBurstCompatTesting("Managed string out argument")]
-  /// @brief Method ReadNextNBC, addr 0x64cff9c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadNextNBC, addr 0x68f8d94, size 0xe4, virtual false, abstract: false, final false
   static inline void ReadNextNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader> reader, ::by_ref<::StringW> value);
 
   /// [Extension]
@@ -51,7 +51,7 @@ public:
 
   /// [Extension]
   /// [ExcludeFromBurstCompatTesting("Returns managed array")]
-  /// @brief Method ToBytesNBC, addr 0x64cfee8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToBytesNBC, addr 0x68f8ce0, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ToBytesNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer);
 
 protected:
@@ -69,7 +69,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::XR {
 class CORDL_TYPE XRSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x658b480, size 0xad8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69b710c, size 0xad8, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +37,7 @@ public:
   XRSupport(XRSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10792 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

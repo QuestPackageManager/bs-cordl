@@ -67,7 +67,7 @@ public:
 
   static inline ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <PublicToMono>b__0, addr 0x5fded8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PublicToMono>b__0, addr 0x63fad14, size 0x20, virtual false, abstract: false, final false
   inline bool _PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                                  ::Mono::Security::Interface::MonoSslPolicyErrors e);
 
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x5fded84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fad0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   CallbackHelpers___c__DisplayClass0_0(CallbackHelpers___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11972 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Security::RemoteCertificateValidationCallback* ___callback;
@@ -121,7 +121,7 @@ public:
 
   static inline ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <MonoToInternal>b__0, addr 0x5fdedac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <MonoToInternal>b__0, addr 0x63fad34, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::ArrayW<::StringW> ai);
 
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x5fded88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fad10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   CallbackHelpers___c__DisplayClass6_0(CallbackHelpers___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11973 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* ___callback;
@@ -173,10 +173,10 @@ public:
 
   using __c__DisplayClass6_0 = ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0;
 
-  /// @brief Method MonoToInternal, addr 0x5fd8f74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MonoToInternal, addr 0x63f4efc, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
 
-  /// @brief Method PublicToMono, addr 0x5fde2bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PublicToMono, addr 0x63fa244, size 0xb0, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
 protected:
@@ -194,7 +194,7 @@ public:
   CallbackHelpers(CallbackHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

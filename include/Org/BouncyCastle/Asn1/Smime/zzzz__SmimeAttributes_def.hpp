@@ -30,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x354ad20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37d3fbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_EncrypKeyPref();

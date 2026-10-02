@@ -12,8 +12,8 @@ class NotKeyableAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Animations::NotKeyableAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::NotKeyableAttribute*, "UnityEngine.Animations", "NotKeyableAttribute");
-// [AttributeUsage((System.AttributeTargets)260)]
 // [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)260)]
 // Dependencies System.Attribute
 namespace UnityEngine::Animations {
 // Is value type: false
@@ -36,7 +36,7 @@ public:
   NotKeyableAttribute(NotKeyableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieContainer::*)()>(&::System::Net::CookieContainer::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x641d280;
+  constexpr static std::size_t addrs = 0x6845514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieContainer*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieContainer::*)(::StringW, ::System::Net::PathList*)>(&::System::Net::CookieContainer::AddRemoveDomain)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x641d35c;
+  constexpr static std::size_t addrs = 0x68455f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieContainer::*)(::System::Net::Cookie*, bool)>(&::System::Net::CookieContainer::Add)> {
   constexpr static std::size_t size = 0x7f4;
-  constexpr static std::size_t addrs = 0x641d47c;
+  constexpr static std::size_t addrs = 0x6845710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CookieContainer::*)(::StringW)>(&::System::Net::CookieContainer::AgeCookies)> {
   constexpr static std::size_t size = 0x1384;
-  constexpr static std::size_t addrs = 0x641e280;
+  constexpr static std::size_t addrs = 0x6846514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieContainer*>(), { "AgeCookies", {}, { ::i2c::type_of<::StringW>() } })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::CookieContainer::*)(::System::Net::CookieCollection*)>(&::System::Net::CookieContainer::ExpireCollection)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x641f648;
+  constexpr static std::size_t addrs = 0x68478dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CookieContainer::*)(::StringW)>(&::System::Net::CookieContainer::IsLocalDomain)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x641f7e0;
+  constexpr static std::size_t addrs = 0x6847a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CookieCollection* (::System::Net::CookieContainer::*)(::System::Uri*, ::StringW, ::StringW, bool)>(
     &::System::Net::CookieContainer::CookieCutter)> {
   constexpr static std::size_t size = 0x6d8;
-  constexpr static std::size_t addrs = 0x641f9cc;
+  constexpr static std::size_t addrs = 0x6847c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CookieCollection* (::System::Net::CookieContainer::*)(::System::Uri*)>(&::System::Net::CookieContainer::InternalGetCookies)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x64200a4;
+  constexpr static std::size_t addrs = 0x6848338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Net::CookieContainer::*)(::System::Uri*, bool, int32_t, ::System::Net::CookieCollection*, ::System::Collections::Generic::List_1<::StringW>*, bool)>(
         &::System::Net::CookieContainer::BuildCookieCollectionFromDomainMatches)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x6420558;
+  constexpr static std::size_t addrs = 0x68487ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieContainer::*)(::System::Net::CookieCollection*, ::System::Net::CookieCollection*, int32_t, bool, bool)>(
     &::System::Net::CookieContainer::MergeUpdateCollections)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6420d14;
+  constexpr static std::size_t addrs = 0x6848fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::CookieContainer::*)(::System::Uri*)>(&::System::Net::CookieContainer::GetCookieHeader)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6420f14;
+  constexpr static std::size_t addrs = 0x68491a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::CookieContainer::*)(::System::Uri*, ::by_ref<::StringW>)>(&::System::Net::CookieContainer::GetCookieHeader)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x6420fd0;
+  constexpr static std::size_t addrs = 0x6849264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

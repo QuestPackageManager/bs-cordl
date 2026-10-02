@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MultiColumnTreeViewController)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::UIElements {
 class Columns;
 }
@@ -46,31 +49,40 @@ public:
   /// @brief Field m_ColumnController, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnController, put = __cordl_internal_set_m_ColumnController)) ::UnityEngine::UIElements::MultiColumnController* m_ColumnController;
 
-  /// @brief Method BindItem, addr 0x6c54cd4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x709e5c0, size 0x8c, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x6c54d78, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x709e664, size 0x18, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Dispose, addr 0x6c54db0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x709e69c, size 0x30, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InvokeMakeItem, addr 0x6c54828, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetIdForIndex, addr 0x709e578, size 0x30, virtual true, abstract: false, final false
+  inline int32_t GetIdForIndex(int32_t index);
+
+  /// @brief Method GetIndexForId, addr 0x709e548, size 0x30, virtual true, abstract: false, final false
+  inline int32_t GetIndexForId(int32_t id);
+
+  /// @brief Method GetItemForIndex, addr 0x709e51c, size 0x2c, virtual true, abstract: false, final false
+  inline ::System::Object* GetItemForIndex(int32_t index);
+
+  /// @brief Method InvokeMakeItem, addr 0x709e080, size 0xe0, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method MakeItem, addr 0x6c54cbc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x709e5a8, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::MultiColumnTreeViewController* New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method PreRefresh, addr 0x6c547f8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method PreRefresh, addr 0x709e050, size 0x30, virtual true, abstract: false, final false
   inline void PreRefresh();
 
-  /// @brief Method PrepareView, addr 0x6c54d90, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method PrepareView, addr 0x709e67c, size 0x20, virtual true, abstract: false, final false
   inline void PrepareView();
 
-  /// @brief Method UnbindItem, addr 0x6c54d60, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x709e64c, size 0x18, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
   constexpr ::UnityEngine::UIElements::MultiColumnController* const& __cordl_internal_get_m_ColumnController() const;
@@ -79,11 +91,11 @@ public:
 
   constexpr void __cordl_internal_set_m_ColumnController(::UnityEngine::UIElements::MultiColumnController* value);
 
-  /// @brief Method .ctor, addr 0x6c54744, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x709df98, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method get_columnController, addr 0x6c5473c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnController, addr 0x709df90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnController* get_columnController();
 
 protected:
@@ -101,7 +113,7 @@ public:
   MultiColumnTreeViewController(MultiColumnTreeViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4085 };
 
   /// @brief Field m_ColumnController, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::MultiColumnController* ___m_ColumnController;

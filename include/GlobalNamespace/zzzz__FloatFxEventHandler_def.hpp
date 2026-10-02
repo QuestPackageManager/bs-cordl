@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x59915d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac4bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Tweening::SongTimeTweeningManager* tweeningManager, ::System::Action_1<float_t>* setValue);
 
 protected:
@@ -78,7 +78,7 @@ public:
   FloatFxEventHandler_InitData(FloatFxEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
 
   /// @brief Field tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ___tweeningManager;
@@ -114,10 +114,10 @@ public:
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x598f778, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5daa490, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxEvent, addr 0x59922b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxEvent, addr 0x5dad19c, size 0xb8, virtual false, abstract: false, final false
   inline void HandleFloatFxEvent(::GlobalNamespace::FloatFxBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::FloatFxEventHandler* New_ctor(::GlobalNamespace::FloatFxEventHandler_InitData* initData);
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x59915dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac4c4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::FloatFxEventHandler_InitData* initData);
 
 protected:
@@ -158,7 +158,7 @@ public:
   FloatFxEventHandler(FloatFxEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;

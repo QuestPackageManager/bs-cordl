@@ -7,6 +7,7 @@ constexpr ::UnityEngine::UIElements::PseudoStates::PseudoStates(int32_t value__)
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PseudoStates::PseudoStates() {}
+constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::Active{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::Hover{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::Checked{ static_cast<int32_t>(0x8) };

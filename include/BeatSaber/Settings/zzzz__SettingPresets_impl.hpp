@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::SmoothCameraSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32c6940;
+  constexpr static std::size_t addrs = 0x354d494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultSmoothCameraSettings", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::AudioSettings (*)(float_t)>(&::BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32c69c4;
+  constexpr static std::size_t addrs = 0x354d518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::MiscSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultMiscSettings)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32c69d8;
+  constexpr static std::size_t addrs = 0x354d52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultMiscSettings", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::QuestSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultQuestSettings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c6a28;
+  constexpr static std::size_t addrs = 0x354d57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultQuestSettings", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::WindowSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultWindowSettings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c6a34;
+  constexpr static std::size_t addrs = 0x354d588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultWindowSettings", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::ControllerSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultControllerSettings)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x32c6a40;
+  constexpr static std::size_t addrs = 0x354d594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultControllerSettings", {}, {} })));
@@ -111,6 +111,12 @@ inline void BeatSaber::Settings::SettingPresets::setStaticF_kStandalone(::BeatSa
 }
 inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kStandalone() {
   return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kStandalone", ::BeatSaber::Settings::SettingPresets*>();
+}
+inline void BeatSaber::Settings::SettingPresets::setStaticF_kStandaloneMobileGPU(::BeatSaber::Settings::Settings value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kStandaloneMobileGPU", ::BeatSaber::Settings::SettingPresets*>(std::forward<::BeatSaber::Settings::Settings>(value));
+}
+inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kStandaloneMobileGPU() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kStandaloneMobileGPU", ::BeatSaber::Settings::SettingPresets*>();
 }
 inline void BeatSaber::Settings::SettingPresets::setStaticF_kLightBaking(::BeatSaber::Settings::Settings value) {
   ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kLightBaking", ::BeatSaber::Settings::SettingPresets*>(std::forward<::BeatSaber::Settings::Settings>(value));

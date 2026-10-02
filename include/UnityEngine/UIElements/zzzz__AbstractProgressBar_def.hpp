@@ -67,7 +67,7 @@ public:
   /// @brief Field m_Value, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x6d64784, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71f4584, size 0x1c0, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits* New_ctor();
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d6496c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f4744, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   AbstractProgressBar_UxmlTraits(AbstractProgressBar_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
 
   /// @brief Field m_LowValue, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_LowValue;
@@ -169,22 +169,22 @@ public:
   /// @brief Field lowValueProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_lowValueProperty, put = setStaticF_lowValueProperty)) ::UnityEngine::UIElements::BindingId lowValueProperty;
 
-  /// @brief Field m_Background, offset 0x4b8, size 0x8
+  /// @brief Field m_Background, offset 0x2d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Background, put = __cordl_internal_set_m_Background)) ::UnityEngine::UIElements::VisualElement* m_Background;
 
-  /// @brief Field m_HighValue, offset 0x4d4, size 0x4
+  /// @brief Field m_HighValue, offset 0x2f4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue)) float_t m_HighValue;
 
-  /// @brief Field m_LowValue, offset 0x4d0, size 0x4
+  /// @brief Field m_LowValue, offset 0x2f0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue)) float_t m_LowValue;
 
-  /// @brief Field m_Progress, offset 0x4c0, size 0x8
+  /// @brief Field m_Progress, offset 0x2e0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Progress, put = __cordl_internal_set_m_Progress)) ::UnityEngine::UIElements::VisualElement* m_Progress;
 
-  /// @brief Field m_Title, offset 0x4c8, size 0x8
+  /// @brief Field m_Title, offset 0x2e8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Title, put = __cordl_internal_set_m_Title)) ::UnityEngine::UIElements::Label* m_Title;
 
-  /// @brief Field m_Value, offset 0x4d8, size 0x4
+  /// @brief Field m_Value, offset 0x2f8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) float_t m_Value;
 
   /// @brief Field progressUssClassName, offset 0xffffffff, size 0x8
@@ -214,18 +214,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<float_t>*() noexcept;
 
-  /// @brief Method CalculateProgressWidth, addr 0x6d64330, size 0x84, virtual false, abstract: false, final false
-  inline float_t CalculateProgressWidth(float_t width);
+  /// @brief Method CalculateOppositeProgressWidth, addr 0x71f401c, size 0x198, virtual false, abstract: false, final false
+  inline float_t CalculateOppositeProgressWidth(float_t width);
 
   static inline ::UnityEngine::UIElements::AbstractProgressBar* New_ctor();
 
-  /// @brief Method OnGeometryChanged, addr 0x6d64070, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x71f3d5c, size 0x24, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method SetProgress, addr 0x6d63b68, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetProgress, addr 0x71f3854, size 0x12c, virtual false, abstract: false, final false
   inline void SetProgress(float_t p);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6d64308, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x71f3ff4, size 0x28, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(float_t newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Background() const;
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(float_t value);
 
-  /// @brief Method .ctor, addr 0x6d63da8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f3a94, size 0x2c8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_backgroundUssClassName();
@@ -287,16 +287,16 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
 
-  /// @brief Method get_highValue, addr 0x6d63c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highValue, addr 0x71f3980, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highValue();
 
-  /// @brief Method get_lowValue, addr 0x6d63a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowValue, addr 0x71f3740, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lowValue();
 
-  /// @brief Method get_title, addr 0x6d63948, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x71f3634, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_value, addr 0x6d64094, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x71f3d80, size 0x8, virtual true, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
@@ -322,16 +322,16 @@ public:
 
   static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_highValue, addr 0x6d63c9c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_highValue, addr 0x71f3988, size 0x10c, virtual false, abstract: false, final false
   inline void set_highValue(float_t value);
 
-  /// @brief Method set_lowValue, addr 0x6d63a5c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_lowValue, addr 0x71f3748, size 0x10c, virtual false, abstract: false, final false
   inline void set_lowValue(float_t value);
 
-  /// @brief Method set_title, addr 0x6d63968, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x71f3654, size 0xec, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_value, addr 0x6d6409c, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x71f3d88, size 0x26c, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -349,41 +349,41 @@ public:
   AbstractProgressBar(AbstractProgressBar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };
 
-  /// @brief Field m_Background, offset: 0x4b8, size: 0x8, def value: None
+  /// @brief Field m_Background, offset: 0x2d8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Background;
 
-  /// @brief Field m_Progress, offset: 0x4c0, size: 0x8, def value: None
+  /// @brief Field m_Progress, offset: 0x2e0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Progress;
 
-  /// @brief Field m_Title, offset: 0x4c8, size: 0x8, def value: None
+  /// @brief Field m_Title, offset: 0x2e8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_Title;
 
-  /// @brief Field m_LowValue, offset: 0x4d0, size: 0x4, def value: None
+  /// @brief Field m_LowValue, offset: 0x2f0, size: 0x4, def value: None
   float_t ___m_LowValue;
 
-  /// @brief Field m_HighValue, offset: 0x4d4, size: 0x4, def value: None
+  /// @brief Field m_HighValue, offset: 0x2f4, size: 0x4, def value: None
   float_t ___m_HighValue;
 
-  /// @brief Field m_Value, offset: 0x4d8, size: 0x4, def value: None
+  /// @brief Field m_Value, offset: 0x2f8, size: 0x4, def value: None
   float_t ___m_Value;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Background) == 0x4b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Background) == 0x2d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Progress) == 0x4c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Progress) == 0x2e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Title) == 0x4c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Title) == 0x2e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_LowValue) == 0x4d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_LowValue) == 0x2f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_HighValue) == 0x4d4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_HighValue) == 0x2f4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Value) == 0x4d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::AbstractProgressBar, ___m_Value) == 0x2f8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::AbstractProgressBar) == 0x4e0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::AbstractProgressBar) == 0x300, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

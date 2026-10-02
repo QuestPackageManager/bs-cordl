@@ -4,200 +4,6 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__BurstString_def.hpp"
 #include "Unity/Burst/zzzz__BurstString_def.hpp"
-//  Writing Method size for method: ::Unity::Burst::BurstString_PreserveAttribute._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_PreserveAttribute::*)()>(&::Unity::Burst::BurstString_PreserveAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6478198;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_PreserveAttribute*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void Unity::Burst::BurstString_PreserveAttribute::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_PreserveAttribute*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::Unity::Burst::BurstString_PreserveAttribute* Unity::Burst::BurstString_PreserveAttribute::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Burst::BurstString_PreserveAttribute*>());
-}
-// Ctor Parameters []
-constexpr ::Unity::Burst::BurstString_PreserveAttribute::BurstString_PreserveAttribute() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::Unity::Burst::BurstString_NumberBufferKind::BurstString_NumberBufferKind(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::Unity::Burst::BurstString_NumberBufferKind::BurstString_NumberBufferKind() {}
-constexpr ::Unity::Burst::BurstString_NumberBufferKind Unity::Burst::BurstString_NumberBufferKind::Integer{ static_cast<int32_t>(0x0) };
-constexpr ::Unity::Burst::BurstString_NumberBufferKind Unity::Burst::BurstString_NumberBufferKind::Float{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::Unity::Burst::BurstString_NumberBuffer._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_NumberBuffer::*)(::Unity::Burst::BurstString_NumberBufferKind, uint8_t*, int32_t, int32_t, bool)>(
-    &::Unity::Burst::BurstString_NumberBuffer::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6475074;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { ".ctor",
-                                                                                                        {},
-                                                                                                        { ::i2c::type_of<::Unity::Burst::BurstString_NumberBufferKind>(), ::i2c::type_of<uint8_t*>(),
-                                                                                                          ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString_NumberBuffer.GetDigitsPointer
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Burst::BurstString_NumberBuffer::*)()>(&::Unity::Burst::BurstString_NumberBuffer::GetDigitsPointer)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x647819c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { "GetDigitsPointer", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void Unity::Burst::BurstString_NumberBuffer::_ctor(::Unity::Burst::BurstString_NumberBufferKind kind, uint8_t* buffer, int32_t digitsCount, int32_t scale, bool isNegative) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { ".ctor",
-                                                                                                      {},
-                                                                                                      { ::i2c::type_of<::Unity::Burst::BurstString_NumberBufferKind>(), ::i2c::type_of<uint8_t*>(),
-                                                                                                        ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, kind, buffer, digitsCount, scale, isNegative);
-}
-inline uint8_t* Unity::Burst::BurstString_NumberBuffer::GetDigitsPointer() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { "GetDigitsPointer", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<uint8_t*>(*this, ___internal_method);
-}
-// Ctor Parameters [CppParam { name: "_buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberBufferKind",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DigitsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Scale", ty: "int32_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsNegative", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::Unity::Burst::BurstString_NumberBuffer::BurstString_NumberBuffer(uint8_t* _buffer, ::Unity::Burst::BurstString_NumberBufferKind Kind, int32_t DigitsCount, int32_t Scale,
-                                                                             bool IsNegative) noexcept {
-  this->_buffer = _buffer;
-  this->Kind = Kind;
-  this->DigitsCount = DigitsCount;
-  this->Scale = Scale;
-  this->IsNegative = IsNegative;
-}
-// Ctor Parameters []
-constexpr ::Unity::Burst::BurstString_NumberBuffer::BurstString_NumberBuffer() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::Unity::Burst::BurstString_NumberFormatKind::BurstString_NumberFormatKind(uint8_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::Unity::Burst::BurstString_NumberFormatKind::BurstString_NumberFormatKind() {}
-constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::General{ static_cast<uint8_t>(0x0u) };
-constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::Decimal{ static_cast<uint8_t>(0x1u) };
-constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::DecimalForceSigned{ static_cast<uint8_t>(0x2u) };
-constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::Hexadecimal{ static_cast<uint8_t>(0x3u) };
-//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_FormatOptions::*)(::Unity::Burst::BurstString_NumberFormatKind, int8_t, uint8_t, bool)>(
-    &::Unity::Burst::BurstString_FormatOptions::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6475d0c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(),
-                            { ".ctor", {}, { ::i2c::type_of<::Unity::Burst::BurstString_NumberFormatKind>(), ::i2c::type_of<int8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.get_Uppercase
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::get_Uppercase)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6475028;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "get_Uppercase", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.EncodeToRaw
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::EncodeToRaw)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64781a4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "EncodeToRaw", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.GetBase
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::GetBase)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6475010;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "GetBase", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.ToString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::ToString)> {
-  constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x64781ac;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { ::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), 3 }));
-    return ___internal_method;
-  }
-};
-inline void Unity::Burst::BurstString_FormatOptions::_ctor(::Unity::Burst::BurstString_NumberFormatKind kind, int8_t alignAndSize, uint8_t specifier, bool lowercase) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(),
-                          { ".ctor", {}, { ::i2c::type_of<::Unity::Burst::BurstString_NumberFormatKind>(), ::i2c::type_of<int8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, kind, alignAndSize, specifier, lowercase);
-}
-inline bool Unity::Burst::BurstString_FormatOptions::get_Uppercase() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "get_Uppercase", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
-}
-inline int32_t Unity::Burst::BurstString_FormatOptions::EncodeToRaw() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "EncodeToRaw", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
-}
-inline int32_t Unity::Burst::BurstString_FormatOptions::GetBase() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "GetBase", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
-}
-inline ::StringW Unity::Burst::BurstString_FormatOptions::ToString() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), 3 })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
-}
-// Ctor Parameters [CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberFormatKind", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AlignAndSize", ty: "int8_t",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Specifier", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Lowercase", ty: "bool",
-// modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::Unity::Burst::BurstString_FormatOptions::BurstString_FormatOptions(::Unity::Burst::BurstString_NumberFormatKind Kind, int8_t AlignAndSize, uint8_t Specifier, bool Lowercase) noexcept {
-  this->Kind = Kind;
-  this->AlignAndSize = AlignAndSize;
-  this->Specifier = Specifier;
-  this->Lowercase = Lowercase;
-}
-// Ctor Parameters []
-constexpr ::Unity::Burst::BurstString_FormatOptions::BurstString_FormatOptions() {}
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::tBigInt_BurstString__m_blocks_e__FixedBuffer::tBigInt_BurstString__m_blocks_e__FixedBuffer(uint32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
@@ -209,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Burst::BurstString_tBigInt::*)()>(&::Unity::Burst::BurstString_tBigInt::GetLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6478478;
+  constexpr static std::size_t addrs = 0x68a0254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "GetLength", {}, {} })));
@@ -221,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Burst::BurstString_tBigInt::*)(int32_t)>(&::Unity::Burst::BurstString_tBigInt::GetBlock)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64778a0;
+  constexpr static std::size_t addrs = 0x689d6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "GetBlock", {}, { ::i2c::type_of<int32_t>() } })));
@@ -233,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_tBigInt::*)()>(&::Unity::Burst::BurstString_tBigInt::SetZero)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6478480;
+  constexpr static std::size_t addrs = 0x68a025c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "SetZero", {}, {} })));
@@ -245,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Burst::BurstString_tBigInt::*)()>(&::Unity::Burst::BurstString_tBigInt::IsZero)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64778ac;
+  constexpr static std::size_t addrs = 0x689d6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "IsZero", {}, {} })));
@@ -257,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_tBigInt::*)(uint64_t)>(&::Unity::Burst::BurstString_tBigInt::SetU64)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6477870;
+  constexpr static std::size_t addrs = 0x689d6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "SetU64", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -269,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_tBigInt::*)(uint32_t)>(&::Unity::Burst::BurstString_tBigInt::SetU32)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6476740;
+  constexpr static std::size_t addrs = 0x689c590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "SetU32", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -281,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Burst::BurstString_tBigInt::*)()>(&::Unity::Burst::BurstString_tBigInt::GetU32)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6478488;
+  constexpr static std::size_t addrs = 0x68a0264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tBigInt>(), { "GetU32", {}, {} })));
@@ -346,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Burst::BurstString_tFloatUnion32::*)()>(&::Unity::Burst::BurstString_tFloatUnion32::IsNegative)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6477fa8;
+  constexpr static std::size_t addrs = 0x689e194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tFloatUnion32>(), { "IsNegative", {}, {} })));
@@ -358,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Burst::BurstString_tFloatUnion32::*)()>(&::Unity::Burst::BurstString_tFloatUnion32::GetExponent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6477f90;
+  constexpr static std::size_t addrs = 0x689e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tFloatUnion32>(), { "GetExponent", {}, {} })));
@@ -370,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Burst::BurstString_tFloatUnion32::*)()>(&::Unity::Burst::BurstString_tFloatUnion32::GetMantissa)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6477f9c;
+  constexpr static std::size_t addrs = 0x689e188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tFloatUnion32>(), { "GetMantissa", {}, {} })));
@@ -420,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Burst::BurstString_tFloatUnion64::*)()>(&::Unity::Burst::BurstString_tFloatUnion64::IsNegative)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6477fcc;
+  constexpr static std::size_t addrs = 0x689e6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tFloatUnion64>(), { "IsNegative", {}, {} })));
@@ -432,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Burst::BurstString_tFloatUnion64::*)()>(&::Unity::Burst::BurstString_tFloatUnion64::GetExponent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6477fb4;
+  constexpr static std::size_t addrs = 0x689e6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tFloatUnion64>(), { "GetExponent", {}, {} })));
@@ -444,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Burst::BurstString_tFloatUnion64::*)()>(&::Unity::Burst::BurstString_tFloatUnion64::GetMantissa)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6477fc0;
+  constexpr static std::size_t addrs = 0x689e6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_tFloatUnion64>(), { "GetMantissa", {}, {} })));
@@ -489,438 +295,206 @@ constexpr ::Unity::Burst::BurstString_tFloatUnion64::BurstString_tFloatUnion64(d
 }
 // Ctor Parameters []
 constexpr ::Unity::Burst::BurstString_tFloatUnion64::BurstString_tFloatUnion64() {}
-//  Writing Method size for method: ::Unity::Burst::BurstString.CopyFixedString
+//  Writing Method size for method: ::Unity::Burst::BurstString_PreserveAttribute._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int32_t, uint8_t*, int32_t)>(&::Unity::Burst::BurstString::CopyFixedString)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6473acc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_PreserveAttribute::*)()>(&::Unity::Burst::BurstString_PreserveAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68a027c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                { "CopyFixedString", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_PreserveAttribute*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+inline void Unity::Burst::BurstString_PreserveAttribute::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_PreserveAttribute*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Unity::Burst::BurstString_PreserveAttribute* Unity::Burst::BurstString_PreserveAttribute::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Burst::BurstString_PreserveAttribute*>());
+}
+// Ctor Parameters []
+constexpr ::Unity::Burst::BurstString_PreserveAttribute::BurstString_PreserveAttribute() {}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::Unity::Burst::BurstString_NumberBufferKind::BurstString_NumberBufferKind(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::Unity::Burst::BurstString_NumberBufferKind::BurstString_NumberBufferKind() {}
+constexpr ::Unity::Burst::BurstString_NumberBufferKind Unity::Burst::BurstString_NumberBufferKind::Integer{ static_cast<int32_t>(0x0) };
+constexpr ::Unity::Burst::BurstString_NumberBufferKind Unity::Burst::BurstString_NumberBufferKind::Float{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::Unity::Burst::BurstString_NumberBuffer._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint8_t*, int32_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6473b30;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "Format",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                                                     ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, float_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6473d90;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, double_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64740b0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, bool, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x64743d4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, char16_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x64745a0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint8_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64747a0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint16_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64748b0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint16_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint32_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6474938;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint64_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6474828;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int8_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6474b60;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int8_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int16_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6474dc4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int16_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6474e88;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.Format
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int64_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6474f4c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.ConvertUnsignedIntegerToString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint64_t, ::Unity::Burst::BurstString_FormatOptions)>(
-    &::Unity::Burst::BurstString::ConvertUnsignedIntegerToString)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x64749c0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertUnsignedIntegerToString",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                                                     ::i2c::type_of<uint64_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.GetLengthIntegerToString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int64_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::GetLengthIntegerToString)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64752e8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "GetLengthIntegerToString", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.ConvertIntegerToString
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int64_t, ::Unity::Burst::BurstString_FormatOptions)>(
-    &::Unity::Burst::BurstString::ConvertIntegerToString)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6474c24;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertIntegerToString",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                                                     ::i2c::type_of<int64_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.FormatNumber
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t,
-                                                                ::Unity::Burst::BurstString_FormatOptions)>(&::Unity::Burst::BurstString::FormatNumber)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6475088;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatNumber",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                                                     ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(),
-                                                                                                     ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.FormatDecimalOrHexadecimal
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t, bool)>(
-    &::Unity::Burst::BurstString::FormatDecimalOrHexadecimal)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6475314;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                             { "FormatDecimalOrHexadecimal",
-                                                               {},
-                                                               { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.ValueToIntegerChar
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(int32_t, bool)>(&::Unity::Burst::BurstString::ValueToIntegerChar)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6475038;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ValueToIntegerChar", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.OptsSplit
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::Unity::Burst::BurstString::OptsSplit)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6475850;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                             { "OptsSplit", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.ParseFormatToFormatOptions
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::BurstString_FormatOptions (*)(::StringW)>(&::Unity::Burst::BurstString::ParseFormatToFormatOptions)> {
-  constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x64759c0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ParseFormatToFormatOptions", {}, { ::i2c::type_of<::StringW>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.AlignRight
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::AlignRight)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6473cc8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_NumberBuffer::*)(::Unity::Burst::BurstString_NumberBufferKind, uint8_t*, int32_t, int32_t, bool)>(
+    &::Unity::Burst::BurstString_NumberBuffer::_ctor)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x689e1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::Unity::Burst::BurstString*>(),
-                         { "AlignRight", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                     (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { ".ctor",
+                                                                                                        {},
+                                                                                                        { ::i2c::type_of<::Unity::Burst::BurstString_NumberBufferKind>(), ::i2c::type_of<uint8_t*>(),
+                                                                                                          ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Burst::BurstString.AlignLeft
+//  Writing Method size for method: ::Unity::Burst::BurstString_NumberBuffer.GetDigitsPointer
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::AlignLeft)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6473c84;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Burst::BurstString_NumberBuffer::*)()>(&::Unity::Burst::BurstString_NumberBuffer::GetDigitsPointer)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68a0280;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::Unity::Burst::BurstString*>(),
-                         { "AlignLeft", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { "GetDigitsPointer", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Burst::BurstString.GetLengthForFormatGeneral
+inline void Unity::Burst::BurstString_NumberBuffer::_ctor(::Unity::Burst::BurstString_NumberBufferKind kind, uint8_t* buffer, int32_t digitsCount, int32_t scale, bool isNegative) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { ".ctor",
+                                                                                                      {},
+                                                                                                      { ::i2c::type_of<::Unity::Burst::BurstString_NumberBufferKind>(), ::i2c::type_of<uint8_t*>(),
+                                                                                                        ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, kind, buffer, digitsCount, scale, isNegative);
+}
+inline uint8_t* Unity::Burst::BurstString_NumberBuffer::GetDigitsPointer() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_NumberBuffer>(), { "GetDigitsPointer", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t*>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "_buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberBufferKind",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DigitsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Scale", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsNegative", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::Unity::Burst::BurstString_NumberBuffer::BurstString_NumberBuffer(uint8_t* _buffer, ::Unity::Burst::BurstString_NumberBufferKind Kind, int32_t DigitsCount, int32_t Scale,
+                                                                             bool IsNegative) noexcept {
+  this->_buffer = _buffer;
+  this->Kind = Kind;
+  this->DigitsCount = DigitsCount;
+  this->Scale = Scale;
+  this->IsNegative = IsNegative;
+}
+// Ctor Parameters []
+constexpr ::Unity::Burst::BurstString_NumberBuffer::BurstString_NumberBuffer() {}
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::Unity::Burst::BurstString_NumberFormatKind::BurstString_NumberFormatKind(uint8_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::Unity::Burst::BurstString_NumberFormatKind::BurstString_NumberFormatKind() {}
+constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::General{ static_cast<uint8_t>(0x0u) };
+constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::Decimal{ static_cast<uint8_t>(0x1u) };
+constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::DecimalForceSigned{ static_cast<uint8_t>(0x2u) };
+constexpr ::Unity::Burst::BurstString_NumberFormatKind Unity::Burst::BurstString_NumberFormatKind::Hexadecimal{ static_cast<uint8_t>(0x3u) };
+//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t)>(&::Unity::Burst::BurstString::GetLengthForFormatGeneral)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x64754f0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::BurstString_FormatOptions::*)(::Unity::Burst::BurstString_NumberFormatKind, int8_t, uint8_t, bool)>(
+    &::Unity::Burst::BurstString_FormatOptions::_ctor)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x68a0068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                { "GetLengthForFormatGeneral", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(),
+                            { ".ctor", {}, { ::i2c::type_of<::Unity::Burst::BurstString_NumberFormatKind>(), ::i2c::type_of<int8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Burst::BurstString.FormatGeneral
+//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.get_Uppercase
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t, uint8_t)>(
-    &::Unity::Burst::BurstString::FormatGeneral)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6475650;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::get_Uppercase)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x689f5f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "get_Uppercase", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.EncodeToRaw
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::EncodeToRaw)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68a0288;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "EncodeToRaw", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.GetBase
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::GetBase)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x689f5e0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "GetBase", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString_FormatOptions.ToString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Burst::BurstString_FormatOptions::*)()>(&::Unity::Burst::BurstString_FormatOptions::ToString)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x68a0290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                             { "FormatGeneral",
-                                                               {},
-                                                               { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { ::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), 3 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Burst::BurstString.RoundNumber
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t, bool)>(&::Unity::Burst::BurstString::RoundNumber)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x64753b4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                { "RoundNumber", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Burst::BurstString.ShouldRoundUp
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, int32_t, bool)>(&::Unity::Burst::BurstString::ShouldRoundUp)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6475d20;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ShouldRoundUp", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
+inline void Unity::Burst::BurstString_FormatOptions::_ctor(::Unity::Burst::BurstString_NumberFormatKind kind, int8_t alignAndSize, uint8_t specifier, bool lowercase) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(),
+                          { ".ctor", {}, { ::i2c::type_of<::Unity::Burst::BurstString_NumberFormatKind>(), ::i2c::type_of<int8_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, kind, alignAndSize, specifier, lowercase);
+}
+inline bool Unity::Burst::BurstString_FormatOptions::get_Uppercase() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "get_Uppercase", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline int32_t Unity::Burst::BurstString_FormatOptions::EncodeToRaw() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "EncodeToRaw", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline int32_t Unity::Burst::BurstString_FormatOptions::GetBase() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), { "GetBase", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::StringW Unity::Burst::BurstString_FormatOptions::ToString() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Burst::BurstString_FormatOptions>(), 3 })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberFormatKind", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AlignAndSize", ty: "int8_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Specifier", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Lowercase", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::Unity::Burst::BurstString_FormatOptions::BurstString_FormatOptions(::Unity::Burst::BurstString_NumberFormatKind Kind, int8_t AlignAndSize, uint8_t Specifier, bool Lowercase) noexcept {
+  this->Kind = Kind;
+  this->AlignAndSize = AlignAndSize;
+  this->Specifier = Specifier;
+  this->Lowercase = Lowercase;
+}
+// Ctor Parameters []
+constexpr ::Unity::Burst::BurstString_FormatOptions::BurstString_FormatOptions() {}
 //  Writing Method size for method: ::Unity::Burst::BurstString.LogBase2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Burst::BurstString::LogBase2)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6475d3c;
+  constexpr static std::size_t addrs = 0x689bb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "LogBase2", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -933,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(
     &::Unity::Burst::BurstString::BigInt_Compare)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6475e8c;
+  constexpr static std::size_t addrs = 0x689bcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -949,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>,
                                                                 ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(&::Unity::Burst::BurstString::BigInt_Add)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6475ee8;
+  constexpr static std::size_t addrs = 0x689bd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -967,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>,
                                                                 ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(&::Unity::Burst::BurstString::BigInt_Add_internal)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6475f80;
+  constexpr static std::size_t addrs = 0x689bdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -985,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>,
                                                                 ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(&::Unity::Burst::BurstString::BigInt_Multiply)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6476020;
+  constexpr static std::size_t addrs = 0x689be70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1003,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>,
                                                                 ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(&::Unity::Burst::BurstString::BigInt_Multiply_internal)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x64760b8;
+  constexpr static std::size_t addrs = 0x689bf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1021,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>, uint32_t)>(
     &::Unity::Burst::BurstString::BigInt_Multiply)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64761e8;
+  constexpr static std::size_t addrs = 0x689c038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1038,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(
     &::Unity::Burst::BurstString::BigInt_Multiply2)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6476248;
+  constexpr static std::size_t addrs = 0x689c098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1053,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>)>(&::Unity::Burst::BurstString::BigInt_Multiply2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64762a4;
+  constexpr static std::size_t addrs = 0x689c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1066,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>)>(&::Unity::Burst::BurstString::BigInt_Multiply10)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64762fc;
+  constexpr static std::size_t addrs = 0x689c14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1079,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::BurstString_tBigInt (*)(int32_t)>(&::Unity::Burst::BurstString::g_PowerOf10_Big)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6476354;
+  constexpr static std::size_t addrs = 0x689c1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "g_PowerOf10_Big", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1091,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, uint32_t)>(&::Unity::Burst::BurstString::BigInt_Pow10)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6476598;
+  constexpr static std::size_t addrs = 0x689c3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1106,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>, uint32_t)>(
     &::Unity::Burst::BurstString::BigInt_MultiplyPow10)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x647675c;
+  constexpr static std::size_t addrs = 0x689c5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1122,7 +696,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, uint32_t)>(&::Unity::Burst::BurstString::BigInt_Pow2)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6476918;
+  constexpr static std::size_t addrs = 0x689c768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1137,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, ::by_ref<::Unity::Burst::BurstString_tBigInt>)>(
     &::Unity::Burst::BurstString::BigInt_DivideWithRemainder_MaxQuotient9)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x64769e8;
+  constexpr static std::size_t addrs = 0x689c838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1153,7 +727,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_tBigInt>, uint32_t)>(&::Unity::Burst::BurstString::BigInt_ShiftLeft)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6476b50;
+  constexpr static std::size_t addrs = 0x689c9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1168,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint64_t, int32_t, uint32_t, bool, ::Unity::Burst::BurstString_CutoffMode, uint32_t, uint8_t*, uint32_t, ::by_ref<int32_t>)>(
     &::Unity::Burst::BurstString::Dragon4)> {
   constexpr static std::size_t size = 0xb04;
-  constexpr static std::size_t addrs = 0x6476d6c;
+  constexpr static std::size_t addrs = 0x689cbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1186,7 +760,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, uint32_t, uint64_t, int32_t, uint32_t, bool, int32_t)>(&::Unity::Burst::BurstString::FormatPositional)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x64778bc;
+  constexpr static std::size_t addrs = 0x689d70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1203,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, uint32_t, uint64_t, int32_t, uint32_t, bool, int32_t)>(&::Unity::Burst::BurstString::FormatScientific)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6477b24;
+  constexpr static std::size_t addrs = 0x689d974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1221,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint64_t, bool, ::Unity::Burst::BurstString_FormatOptions)>(
     &::Unity::Burst::BurstString::FormatInfinityNaN)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6477d9c;
+  constexpr static std::size_t addrs = 0x689dbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1239,7 +813,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, float_t, ::Unity::Burst::BurstString_FormatOptions)>(
     &::Unity::Burst::BurstString::ConvertFloatToString)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x6473e20;
+  constexpr static std::size_t addrs = 0x689deec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1256,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, double_t, ::Unity::Burst::BurstString_FormatOptions)>(
     &::Unity::Burst::BurstString::ConvertDoubleToString)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6474140;
+  constexpr static std::size_t addrs = 0x689e414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1267,12 +841,432 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_r
     return ___internal_method;
   }
 };
-inline void Unity::Burst::BurstString::setStaticF_SplitByColon(::ArrayW<char16_t> value) {
-  ::cordl_internals::setStaticField<::ArrayW<char16_t>, "SplitByColon", ::Unity::Burst::BurstString*>(std::forward<::ArrayW<char16_t>>(value));
-}
-inline ::ArrayW<char16_t> Unity::Burst::BurstString::getStaticF_SplitByColon() {
-  return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "SplitByColon", ::Unity::Burst::BurstString*>();
-}
+//  Writing Method size for method: ::Unity::Burst::BurstString.CopyFixedString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int32_t, uint8_t*, int32_t)>(&::Unity::Burst::BurstString::CopyFixedString)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x689e6cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                { "CopyFixedString", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint8_t*, int32_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x689e730;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "Format",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                                     ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, float_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x689e884;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, double_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x689e914;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, bool, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x689e9a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, char16_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x689eb70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint8_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x689ed70;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint16_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x689ee80;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint16_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint32_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x689ef08;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint64_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x689edf8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int8_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x689f130;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int8_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int16_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x689f394;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int16_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x689f458;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.Format
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int64_t, int32_t)>(&::Unity::Burst::BurstString::Format)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x689f51c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                            { "Format", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.ConvertUnsignedIntegerToString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint64_t, ::Unity::Burst::BurstString_FormatOptions)>(
+    &::Unity::Burst::BurstString::ConvertUnsignedIntegerToString)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x689ef90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertUnsignedIntegerToString",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                                     ::i2c::type_of<uint64_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.GetLengthIntegerToString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int64_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::GetLengthIntegerToString)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x689f644;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "GetLengthIntegerToString", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.ConvertIntegerToString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int64_t, ::Unity::Burst::BurstString_FormatOptions)>(
+    &::Unity::Burst::BurstString::ConvertIntegerToString)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x689f1f4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertIntegerToString",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                                     ::i2c::type_of<int64_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.FormatNumber
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t,
+                                                                ::Unity::Burst::BurstString_FormatOptions)>(&::Unity::Burst::BurstString::FormatNumber)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x689e1b4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatNumber",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                                     ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(),
+                                                                                                     ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.FormatDecimalOrHexadecimal
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t, bool)>(
+    &::Unity::Burst::BurstString::FormatDecimalOrHexadecimal)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x689f670;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                             { "FormatDecimalOrHexadecimal",
+                                                               {},
+                                                               { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.ValueToIntegerChar
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(int32_t, bool)>(&::Unity::Burst::BurstString::ValueToIntegerChar)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x689f608;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ValueToIntegerChar", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.OptsSplit
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::Unity::Burst::BurstString::OptsSplit)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x689fbac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                             { "OptsSplit", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.ParseFormatToFormatOptions
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::BurstString_FormatOptions (*)(::StringW)>(&::Unity::Burst::BurstString::ParseFormatToFormatOptions)> {
+  constexpr static std::size_t size = 0x34c;
+  constexpr static std::size_t addrs = 0x689fd1c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ParseFormatToFormatOptions", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.AlignRight
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::AlignRight)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x689de24;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Burst::BurstString*>(),
+                         { "AlignRight", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.AlignLeft
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, ::by_ref<int32_t>, int32_t, int32_t, int32_t)>(&::Unity::Burst::BurstString::AlignLeft)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x689dde0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Burst::BurstString*>(),
+                         { "AlignLeft", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.GetLengthForFormatGeneral
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t)>(&::Unity::Burst::BurstString::GetLengthForFormatGeneral)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x689f84c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                { "GetLengthForFormatGeneral", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.FormatGeneral
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::by_ref<int32_t>, int32_t, ::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t, uint8_t)>(
+    &::Unity::Burst::BurstString::FormatGeneral)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x689f9ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                             { "FormatGeneral",
+                                                               {},
+                                                               { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.RoundNumber
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::BurstString_NumberBuffer>, int32_t, bool)>(&::Unity::Burst::BurstString::RoundNumber)> {
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x689f710;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                { "RoundNumber", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_NumberBuffer>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Burst::BurstString.ShouldRoundUp
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, int32_t, bool)>(&::Unity::Burst::BurstString::ShouldRoundUp)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x68a007c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ShouldRoundUp", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 inline void Unity::Burst::BurstString::setStaticF_logTable(::ArrayW<uint8_t> value) {
   ::cordl_internals::setStaticField<::ArrayW<uint8_t>, "logTable", ::Unity::Burst::BurstString*>(std::forward<::ArrayW<uint8_t>>(value));
 }
@@ -1296,6 +1290,186 @@ inline void Unity::Burst::BurstString::setStaticF_NanString(::ArrayW<uint8_t> va
 }
 inline ::ArrayW<uint8_t> Unity::Burst::BurstString::getStaticF_NanString() {
   return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "NanString", ::Unity::Burst::BurstString*>();
+}
+inline void Unity::Burst::BurstString::setStaticF_SplitByColon(::ArrayW<char16_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<char16_t>, "SplitByColon", ::Unity::Burst::BurstString*>(std::forward<::ArrayW<char16_t>>(value));
+}
+inline ::ArrayW<char16_t> Unity::Burst::BurstString::getStaticF_SplitByColon() {
+  return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "SplitByColon", ::Unity::Burst::BurstString*>();
+}
+inline uint32_t Unity::Burst::BurstString::LogBase2(uint32_t val) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "LogBase2", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, val);
+}
+inline int32_t Unity::Burst::BurstString::BigInt_Compare(/* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                          { "BigInt_Compare", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, lhs, rhs);
+}
+inline void Unity::Burst::BurstString::BigInt_Add(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
+                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                           { "BigInt_Add",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, lhs, rhs);
+}
+inline void Unity::Burst::BurstString::BigInt_Add_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
+                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                           { "BigInt_Add_internal",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, pLarge, pSmall);
+}
+inline void Unity::Burst::BurstString::BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
+                                                       /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                           { "BigInt_Multiply",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, lhs, rhs);
+}
+inline void Unity::Burst::BurstString::BigInt_Multiply_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                           { "BigInt_Multiply_internal",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
+                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, pLarge, pSmall);
+}
+inline void Unity::Burst::BurstString::BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, uint32_t rhs) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Multiply",
+                                                                                                 {},
+                                                                                                 { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
+                                                                                                   ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, lhs, rhs);
+}
+inline void Unity::Burst::BurstString::BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                          { "BigInt_Multiply2", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, input);
+}
+inline void Unity::Burst::BurstString::BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Multiply2", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult);
+}
+inline void Unity::Burst::BurstString::BigInt_Multiply10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Multiply10", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult);
+}
+inline ::Unity::Burst::BurstString_tBigInt Unity::Burst::BurstString::g_PowerOf10_Big(int32_t i) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "g_PowerOf10_Big", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Burst::BurstString_tBigInt>(nullptr, ___internal_method, i);
+}
+inline void Unity::Burst::BurstString::BigInt_Pow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t exponent) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Pow10", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, exponent);
+}
+inline void Unity::Burst::BurstString::BigInt_MultiplyPow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input,
+                                                            uint32_t exponent) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_MultiplyPow10",
+                                                                                                 {},
+                                                                                                 { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
+                                                                                                   ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, input, exponent);
+}
+inline void Unity::Burst::BurstString::BigInt_Pow2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t exponent) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Pow2", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, exponent);
+}
+inline uint32_t Unity::Burst::BurstString::BigInt_DivideWithRemainder_MaxQuotient9(::by_ref<::Unity::Burst::BurstString_tBigInt> pDividend,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> divisor) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Burst::BurstString*>(),
+          { "BigInt_DivideWithRemainder_MaxQuotient9", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, pDividend, divisor);
+}
+inline void Unity::Burst::BurstString::BigInt_ShiftLeft(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t shift) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
+                                                           { "BigInt_ShiftLeft", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, shift);
+}
+inline uint32_t Unity::Burst::BurstString::Dragon4(uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins, ::Unity::Burst::BurstString_CutoffMode cutoffMode,
+                                                   uint32_t cutoffNumber, uint8_t* pOutBuffer, uint32_t bufferSize, ::by_ref<int32_t> pOutExponent) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "Dragon4",
+                                                                                          {},
+                                                                                          { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(),
+                                                                                            ::i2c::type_of<::Unity::Burst::BurstString_CutoffMode>(), ::i2c::type_of<uint32_t>(),
+                                                                                            ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, mantissa, exponent, mantissaHighBitIdx, hasUnequalMargins, cutoffMode, cutoffNumber, pOutBuffer, bufferSize,
+                                                       pOutExponent);
+}
+inline int32_t Unity::Burst::BurstString::FormatPositional(uint8_t* pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
+                                                           int32_t precision) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatPositional",
+                                                                             {},
+                                                                             { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(),
+                                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, pOutBuffer, bufferSize, mantissa, exponent, mantissaHighBitIdx, hasUnequalMargins, precision);
+}
+inline int32_t Unity::Burst::BurstString::FormatScientific(uint8_t* pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
+                                                           int32_t precision) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatScientific",
+                                                                             {},
+                                                                             { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(),
+                                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, pOutBuffer, bufferSize, mantissa, exponent, mantissaHighBitIdx, hasUnequalMargins, precision);
+}
+inline void Unity::Burst::BurstString::FormatInfinityNaN(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint64_t mantissa, bool isNegative,
+                                                         ::Unity::Burst::BurstString_FormatOptions formatOptions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatInfinityNaN",
+                                                                             {},
+                                                                             { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>(),
+                                                                               ::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dest, destIndex, destLength, mantissa, isNegative, formatOptions);
+}
+inline void Unity::Burst::BurstString::ConvertFloatToString(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, float_t value, ::Unity::Burst::BurstString_FormatOptions formatOptions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertFloatToString",
+                                                                                                 {},
+                                                                                                 { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                                   ::i2c::type_of<float_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dest, destIndex, destLength, value, formatOptions);
+}
+inline void Unity::Burst::BurstString::ConvertDoubleToString(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, double_t value, ::Unity::Burst::BurstString_FormatOptions formatOptions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertDoubleToString",
+                                                                                                 {},
+                                                                                                 { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
+                                                                                                   ::i2c::type_of<double_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dest, destIndex, destLength, value, formatOptions);
 }
 inline void Unity::Burst::BurstString::CopyFixedString(uint8_t* dest, int32_t destLength, uint8_t* src, int32_t srcLength) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1495,180 +1669,6 @@ inline bool Unity::Burst::BurstString::ShouldRoundUp(uint8_t* dig, int32_t i, bo
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ShouldRoundUp", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, dig, i, isCorrectlyRounded);
-}
-inline uint32_t Unity::Burst::BurstString::LogBase2(uint32_t val) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "LogBase2", {}, { ::i2c::type_of<uint32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, val);
-}
-inline int32_t Unity::Burst::BurstString::BigInt_Compare(/* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                          { "BigInt_Compare", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, lhs, rhs);
-}
-inline void Unity::Burst::BurstString::BigInt_Add(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
-                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                           { "BigInt_Add",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, lhs, rhs);
-}
-inline void Unity::Burst::BurstString::BigInt_Add_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
-                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                           { "BigInt_Add_internal",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, pLarge, pSmall);
-}
-inline void Unity::Burst::BurstString::BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
-                                                       /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                           { "BigInt_Multiply",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, lhs, rhs);
-}
-inline void Unity::Burst::BurstString::BigInt_Multiply_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                           { "BigInt_Multiply_internal",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, pLarge, pSmall);
-}
-inline void Unity::Burst::BurstString::BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, uint32_t rhs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Multiply",
-                                                                                                 {},
-                                                                                                 { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
-                                                                                                   ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, lhs, rhs);
-}
-inline void Unity::Burst::BurstString::BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                          { "BigInt_Multiply2", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, input);
-}
-inline void Unity::Burst::BurstString::BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Multiply2", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult);
-}
-inline void Unity::Burst::BurstString::BigInt_Multiply10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Multiply10", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult);
-}
-inline ::Unity::Burst::BurstString_tBigInt Unity::Burst::BurstString::g_PowerOf10_Big(int32_t i) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "g_PowerOf10_Big", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Burst::BurstString_tBigInt>(nullptr, ___internal_method, i);
-}
-inline void Unity::Burst::BurstString::BigInt_Pow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t exponent) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Pow10", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, exponent);
-}
-inline void Unity::Burst::BurstString::BigInt_MultiplyPow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input,
-                                                            uint32_t exponent) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_MultiplyPow10",
-                                                                                                 {},
-                                                                                                 { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(),
-                                                                                                   ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, input, exponent);
-}
-inline void Unity::Burst::BurstString::BigInt_Pow2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t exponent) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "BigInt_Pow2", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, exponent);
-}
-inline uint32_t Unity::Burst::BurstString::BigInt_DivideWithRemainder_MaxQuotient9(::by_ref<::Unity::Burst::BurstString_tBigInt> pDividend,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> divisor) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::Unity::Burst::BurstString*>(),
-          { "BigInt_DivideWithRemainder_MaxQuotient9", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>() } })));
-  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, pDividend, divisor);
-}
-inline void Unity::Burst::BurstString::BigInt_ShiftLeft(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t shift) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(),
-                                                           { "BigInt_ShiftLeft", {}, { ::i2c::type_of<::by_ref<::Unity::Burst::BurstString_tBigInt>>(), ::i2c::type_of<uint32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pResult, shift);
-}
-inline uint32_t Unity::Burst::BurstString::Dragon4(uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins, ::Unity::Burst::BurstString_CutoffMode cutoffMode,
-                                                   uint32_t cutoffNumber, uint8_t* pOutBuffer, uint32_t bufferSize, ::by_ref<int32_t> pOutExponent) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "Dragon4",
-                                                                                          {},
-                                                                                          { ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(),
-                                                                                            ::i2c::type_of<::Unity::Burst::BurstString_CutoffMode>(), ::i2c::type_of<uint32_t>(),
-                                                                                            ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, mantissa, exponent, mantissaHighBitIdx, hasUnequalMargins, cutoffMode, cutoffNumber, pOutBuffer, bufferSize,
-                                                       pOutExponent);
-}
-inline int32_t Unity::Burst::BurstString::FormatPositional(uint8_t* pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
-                                                           int32_t precision) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatPositional",
-                                                                             {},
-                                                                             { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(),
-                                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, pOutBuffer, bufferSize, mantissa, exponent, mantissaHighBitIdx, hasUnequalMargins, precision);
-}
-inline int32_t Unity::Burst::BurstString::FormatScientific(uint8_t* pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
-                                                           int32_t precision) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatScientific",
-                                                                             {},
-                                                                             { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<int32_t>(),
-                                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, pOutBuffer, bufferSize, mantissa, exponent, mantissaHighBitIdx, hasUnequalMargins, precision);
-}
-inline void Unity::Burst::BurstString::FormatInfinityNaN(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint64_t mantissa, bool isNegative,
-                                                         ::Unity::Burst::BurstString_FormatOptions formatOptions) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "FormatInfinityNaN",
-                                                                             {},
-                                                                             { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<uint64_t>(),
-                                                                               ::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dest, destIndex, destLength, mantissa, isNegative, formatOptions);
-}
-inline void Unity::Burst::BurstString::ConvertFloatToString(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, float_t value, ::Unity::Burst::BurstString_FormatOptions formatOptions) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertFloatToString",
-                                                                                                 {},
-                                                                                                 { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                                                   ::i2c::type_of<float_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dest, destIndex, destLength, value, formatOptions);
-}
-inline void Unity::Burst::BurstString::ConvertDoubleToString(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, double_t value, ::Unity::Burst::BurstString_FormatOptions formatOptions) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstString*>(), { "ConvertDoubleToString",
-                                                                                                 {},
-                                                                                                 { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>(),
-                                                                                                   ::i2c::type_of<double_t>(), ::i2c::type_of<::Unity::Burst::BurstString_FormatOptions>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dest, destIndex, destLength, value, formatOptions);
 }
 // Ctor Parameters []
 constexpr ::Unity::Burst::BurstString::BurstString() {}

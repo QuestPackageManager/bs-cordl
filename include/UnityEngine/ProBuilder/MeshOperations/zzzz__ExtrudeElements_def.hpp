@@ -78,13 +78,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c* New_ctor();
 
-  /// @brief Method <DetachFaces>b__3_0, addr 0x672fc4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DetachFaces>b__3_0, addr 0x6b44a6c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _DetachFaces_b__3_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <ExtrudePerFace>b__4_0, addr 0x672fc60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <ExtrudePerFace>b__4_0, addr 0x6b44a80, size 0x60, virtual false, abstract: false, final false
   inline int32_t _ExtrudePerFace_b__4_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x672fc48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b44a68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c* getStaticF___9();
@@ -114,7 +114,7 @@ public:
   ExtrudeElements___c(ExtrudeElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,41 +133,41 @@ public:
   using __c = ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c;
 
   /// [Extension]
-  /// @brief Method DetachFaces, addr 0x672e988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DetachFaces, addr 0x6b437a8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
   /// [Extension]
-  /// @brief Method DetachFaces, addr 0x672e990, size 0xb10, virtual false, abstract: false, final false
+  /// @brief Method DetachFaces, addr 0x6b437b0, size 0xb10, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool deleteSourceFaces);
 
   /// [Extension]
-  /// @brief Method Extrude, addr 0x672d770, size 0x1080, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x6b42588, size 0x1088, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Edge> Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                   ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, float_t distance, bool extrudeAsGroup,
                                                                   bool enableManifoldExtrude);
 
   /// [Extension]
-  /// @brief Method Extrude, addr 0x672ab54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x6b3f99c, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                                                    ::UnityEngine::ProBuilder::ExtrudeMethod method, float_t distance);
 
-  /// @brief Method ExtrudeAsGroups, addr 0x672b7f4, size 0x1f7c, virtual false, abstract: false, final false
+  /// @brief Method ExtrudeAsGroups, addr 0x6b4063c, size 0x1f4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> ExtrudeAsGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool compensateAngleVertexDistance,
                                                                            float_t distance);
 
-  /// @brief Method ExtrudePerFace, addr 0x672ab68, size 0xc8c, virtual false, abstract: false, final false
+  /// @brief Method ExtrudePerFace, addr 0x6b3f9b0, size 0xc8c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> ExtrudePerFace(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, float_t distance);
 
-  /// @brief Method GetFaceGroups, addr 0x672f4a0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetFaceGroups, addr 0x6b442c0, size 0x3b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
   GetFaceGroups(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings);
 
-  /// @brief Method GetPerimeterEdges, addr 0x672f854, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method GetPerimeterEdges, addr 0x6b44674, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Face*>*
   GetPerimeterEdges(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
@@ -186,7 +186,7 @@ public:
   ExtrudeElements(ExtrudeElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

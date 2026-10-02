@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, int32_t)>(
     &::UnityEngine::Rendering::Universal::UniversalCameraDataExtension::GetGPUProjectionMatrixRenderGraph)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x683ce58;
+  constexpr static std::size_t addrs = 0x6c75b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

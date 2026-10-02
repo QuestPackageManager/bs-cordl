@@ -23,10 +23,10 @@ struct AsyncGPUReadbackRequest;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::AsyncGPUReadbackRequest);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AsyncGPUReadbackRequest, "UnityEngine.Rendering", "AsyncGPUReadbackRequest");
-// [UsedByNativeCode]
-// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
-// [NativeHeader("Runtime/Graphics/Texture.h")]
 // [NativeHeader("Runtime/Graphics/AsyncGPUReadbackManaged.h")]
+// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Graphics/Texture.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -47,41 +47,41 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeArray_1<T> GetData(int32_t layer);
 
-  /// @brief Method GetDataRaw, addr 0x6b08b1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDataRaw, addr 0x6f63fd0, size 0x44, virtual false, abstract: false, final false
   inline ::System::IntPtr GetDataRaw(int32_t layer);
 
-  /// @brief Method GetLayerCount, addr 0x6b08a24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerCount, addr 0x6f63ed8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetLayerCount();
 
-  /// @brief Method GetLayerDataSize, addr 0x6b08a9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerDataSize, addr 0x6f63f50, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetLayerDataSize();
 
-  /// @brief Method HasError, addr 0x6b089ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasError, addr 0x6f63e60, size 0x3c, virtual false, abstract: false, final false
   inline bool HasError();
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeCallback, addr 0x6b08b60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x6f64014, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback, ::UnityEngine::Rendering::AsyncGPUReadbackRequest obj);
 
-  /// @brief Method IsDone, addr 0x6b08934, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDone, addr 0x6f63de8, size 0x3c, virtual false, abstract: false, final false
   inline bool IsDone();
 
-  /// @brief Method SetScriptingCallback, addr 0x6b08ad8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetScriptingCallback, addr 0x6f63f8c, size 0x44, virtual false, abstract: false, final false
   inline void SetScriptingCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
-  /// @brief Method WaitForCompletion, addr 0x6b088bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x6f63d70, size 0x3c, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
-  /// @brief Method get_done, addr 0x6b088f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_done, addr 0x6f63dac, size 0x3c, virtual false, abstract: false, final false
   inline bool get_done();
 
-  /// @brief Method get_hasError, addr 0x6b08970, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasError, addr 0x6f63e24, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasError();
 
-  /// @brief Method get_layerCount, addr 0x6b089e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layerCount, addr 0x6f63e9c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_layerCount();
 
-  /// @brief Method get_layerDataSize, addr 0x6b08a60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layerDataSize, addr 0x6f63f14, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_layerDataSize();
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
   constexpr AsyncGPUReadbackRequest(::System::IntPtr m_Ptr, int32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10295 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -39,7 +39,7 @@ public:
   /// @brief Method BindSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer* container);
 
-  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x6e464e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x72e2040, size 0x8c, virtual false, abstract: false, final false
   static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
 
   /// [Extension]
@@ -61,7 +61,7 @@ public:
   SignalExtensions(SignalExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

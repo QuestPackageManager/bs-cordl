@@ -36,7 +36,7 @@ public:
   constexpr BindingsAllocator_NativeOwnedMemory(void* data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -52,9 +52,9 @@ static_assert(offsetof(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMem
 static_assert(sizeof(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
-// [NativeHeader("Runtime/Scripting/Marshalling/BindingsAllocator.h")]
-// [StaticAccessor("Marshalling::BindingsAllocator", (UnityEngine.Bindings.StaticAccessorType)2)]
 // [VisibleToOtherModules]
+// [StaticAccessor("Marshalling::BindingsAllocator", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Scripting/Marshalling/BindingsAllocator.h")]
 // Dependencies System.Object
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -65,14 +65,14 @@ public:
   using NativeOwnedMemory = ::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory;
 
   /// [ThreadSafe]
-  /// @brief Method Free, addr 0x6afee28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6f5a008, size 0x3c, virtual false, abstract: false, final false
   static inline void Free(void* ptr);
 
   /// [ThreadSafe]
-  /// @brief Method FreeNativeOwnedMemory, addr 0x6afee64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeNativeOwnedMemory, addr 0x6f5a044, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeNativeOwnedMemory(void* ptr);
 
-  /// @brief Method GetNativeOwnedDataPointer, addr 0x6afeea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNativeOwnedDataPointer, addr 0x6f5a080, size 0x14, virtual false, abstract: false, final false
   static inline void* GetNativeOwnedDataPointer(void* ptr);
 
 protected:
@@ -90,7 +90,7 @@ public:
   BindingsAllocator(BindingsAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -97,7 +97,7 @@ public:
   EnumListConverter_1___c(EnumListConverter_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,7 +143,7 @@ public:
   EnumListConverter_1(EnumListConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

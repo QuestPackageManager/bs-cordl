@@ -49,16 +49,16 @@ public:
   constexpr KeyboardState__keys_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10960 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
 
-  /// @brief Size padding 0xe - 0x1 = 0xd, packed as 0xd
-  uint8_t _cordl_size_padding[0xd];
+  /// @brief Size padding 0x10 - 0x1 = 0xf, packed as 0xf
+  uint8_t _cordl_size_padding[0xf];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -66,7 +66,7 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer) == 0xe, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Dependencies UnityEngine.InputSystem.LowLevel.KeyboardState::<keys>e__FixedBuffer
@@ -83,22 +83,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method Press, addr 0x65ae320, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x69da2d8, size 0x1c, virtual false, abstract: false, final false
+  inline bool Get(::UnityEngine::InputSystem::Key key);
+
+  /// @brief Method Press, addr 0x69da2f4, size 0x24, virtual false, abstract: false, final false
   inline void Press(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Release, addr 0x65ae344, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x69da318, size 0x24, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Set, addr 0x65ae2f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x69da2a8, size 0x30, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::Key key, bool state);
 
-  /// @brief Method .ctor, addr 0x65ae204, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69da1a0, size 0x108, virtual false, abstract: false, final false
+  inline void _ctor(bool IMESelected, /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::Key> pressedKeys);
+
+  /// @brief Method .ctor, addr 0x69da194, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::Key> pressedKeys);
 
-  /// @brief Method get_Format, addr 0x65ae1f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x69da188, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x65ae368, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x69da33c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -112,19 +118,19 @@ public:
   constexpr KeyboardState(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer keys) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10961 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field kSizeInBits offset 0xffffffff size 0x4
-  static constexpr int32_t kSizeInBits{ static_cast<int32_t>(0x6e) };
+  static constexpr int32_t kSizeInBits{ static_cast<int32_t>(0x7e) };
 
   /// @brief Field kSizeInBytes offset 0xffffffff size 0x4
-  static constexpr int32_t kSizeInBytes{ static_cast<int32_t>(0xe) };
+  static constexpr int32_t kSizeInBytes{ static_cast<int32_t>(0x10) };
 
-  /// [FixedBuffer(typeof(System.Byte), 14)]
-  /// [InputControl(name = "anyKey", displayName = "Any Key", layout = "AnyKey", sizeInBits = 109, synthetic = true)]
+  /// [FixedBuffer(typeof(System.Byte), 16)]
+  /// [InputControl(name = "anyKey", displayName = "Any Key", layout = "AnyKey", bit = 1, sizeInBits = 126, synthetic = true)]
   /// [InputControl(name = "escape", displayName = "Escape", layout = "Key", usages = new[] { "Back", "Cancel" }, bit = 60)]
   /// [InputControl(name = "space", displayName = "Space", layout = "Key", bit = 1)]
   /// [InputControl(name = "enter", displayName = "Enter", layout = "Key", usage = "Submit", bit = 2)]
@@ -238,8 +244,24 @@ public:
   /// [InputControl(name = "OEM3", layout = "Key", bit = 108)]
   /// [InputControl(name = "OEM4", layout = "Key", bit = 109)]
   /// [InputControl(name = "OEM5", layout = "Key", bit = 110)]
-  /// [InputControl(name = "IMESelected", layout = "Button", bit = 111, synthetic = true)]
-  /// @brief Field keys, offset: 0x0, size: 0xe, def value: None
+  /// [InputControl(name = "f13", displayName = "F13", layout = "Key", bit = 112)]
+  /// [InputControl(name = "f14", displayName = "F14", layout = "Key", bit = 113)]
+  /// [InputControl(name = "f15", displayName = "F15", layout = "Key", bit = 114)]
+  /// [InputControl(name = "f16", displayName = "F16", layout = "Key", bit = 115)]
+  /// [InputControl(name = "f17", displayName = "F17", layout = "Key", bit = 116)]
+  /// [InputControl(name = "f18", displayName = "F18", layout = "Key", bit = 117)]
+  /// [InputControl(name = "f19", displayName = "F19", layout = "Key", bit = 118)]
+  /// [InputControl(name = "f20", displayName = "F20", layout = "Key", bit = 119)]
+  /// [InputControl(name = "f21", displayName = "F21", layout = "Key", bit = 120)]
+  /// [InputControl(name = "f22", displayName = "F22", layout = "Key", bit = 121)]
+  /// [InputControl(name = "f23", displayName = "F23", layout = "Key", bit = 122)]
+  /// [InputControl(name = "f24", displayName = "F24", layout = "Key", bit = 123)]
+  /// [InputControl(name = "mediaPlayPause", displayName = "MediaPlayPause", layout = "Key", bit = 124)]
+  /// [InputControl(name = "mediaRewind", displayName = "MediaRewind", layout = "Key", bit = 125)]
+  /// [InputControl(name = "mediaForward", displayName = "MediaForward", layout = "Key", bit = 126)]
+  /// [InputControl(name = "IMESelected", layout = "Button", bit = 127, synthetic = true)]
+  /// [InputControl(name = "IMESelectedObsoleteKey", layout = "Key", bit = 127, synthetic = true)]
+  /// @brief Field keys, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer keys;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -247,6 +269,6 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::KeyboardState, keys) == 0x0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::KeyboardState) == 0xe, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::KeyboardState) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel

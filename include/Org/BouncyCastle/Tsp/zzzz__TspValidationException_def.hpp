@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_failureCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3621254, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38aa4f0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x361fe08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38a90a4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t failureCode);
 
-  /// @brief Method get_FailureCode, addr 0x3626dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailureCode, addr 0x38b0088, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FailureCode();
 
 protected:

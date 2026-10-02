@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Xml::XmlWriter*)>(&::System::Xml::BinHexEncoder::Encode)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x61932cc;
+  constexpr static std::size_t addrs = 0x65bae1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::BinHexEncoder::Encode)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x619359c;
+  constexpr static std::size_t addrs = 0x65bb0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>)>(&::System::Xml::BinHexEncoder::Encode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x619346c;
+  constexpr static std::size_t addrs = 0x65bafbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

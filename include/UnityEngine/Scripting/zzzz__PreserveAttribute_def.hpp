@@ -12,8 +12,8 @@ class PreserveAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Scripting::PreserveAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Scripting::PreserveAttribute*, "UnityEngine.Scripting", "PreserveAttribute");
-// [RequiredByNativeCode]
 // [AttributeUsage((System.AttributeTargets)6141, Inherited = false)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine::Scripting {
 // Is value type: false
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Scripting::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6aff120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5a300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   PreserveAttribute(PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

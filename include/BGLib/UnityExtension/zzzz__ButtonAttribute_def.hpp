@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3328434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b16b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:
@@ -53,7 +53,7 @@ public:
   ButtonAttribute(ButtonAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21451 };
 
   /// @brief Field title, offset: 0x18, size: 0x8, def value: None
   ::StringW ___title;

@@ -21,10 +21,10 @@ class Terrain;
 MARK_REF_T(::UnityEngine::Terrain*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Terrain*, "UnityEngine", "Terrain");
 // [StaticAccessor("GetITerrainManager()", (UnityEngine.Bindings.StaticAccessorType)1)]
-// [NativeHeader("TerrainScriptingClasses.h")]
-// [NativeHeader("Runtime/Interfaces/ITerrainManager.h")]
-// [NativeHeader("Modules/Terrain/Public/Terrain.h")]
 // [UsedByNativeCode]
+// [NativeHeader("Modules/Terrain/Public/Terrain.h")]
+// [NativeHeader("Runtime/Interfaces/ITerrainManager.h")]
+// [NativeHeader("TerrainScriptingClasses.h")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -40,34 +40,34 @@ public:
 
   static inline ::UnityEngine::Terrain* New_ctor();
 
-  /// @brief Method SetNeighbors, addr 0x6bb97f8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetNeighbors, addr 0x7018320, size 0x128, virtual false, abstract: false, final false
   inline void SetNeighbors(::UnityEngine::Terrain* left, ::UnityEngine::Terrain* top, ::UnityEngine::Terrain* right, ::UnityEngine::Terrain* bottom);
 
-  /// @brief Method SetNeighbors_Injected, addr 0x6bb9920, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetNeighbors_Injected, addr 0x7018448, size 0x6c, virtual false, abstract: false, final false
   static inline void SetNeighbors_Injected(::System::IntPtr _unity_self, ::System::IntPtr left, ::System::IntPtr top, ::System::IntPtr right, ::System::IntPtr bottom);
 
-  /// @brief Method .ctor, addr 0x6bb99b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70184dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeTerrains, addr 0x6bb998c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeTerrains, addr 0x70184b4, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>> get_activeTerrains();
 
-  /// @brief Method get_allowAutoConnect, addr 0x6bb9680, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_allowAutoConnect, addr 0x70181a8, size 0x80, virtual false, abstract: false, final false
   inline bool get_allowAutoConnect();
 
-  /// @brief Method get_allowAutoConnect_Injected, addr 0x6bb9700, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowAutoConnect_Injected, addr 0x7018228, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_allowAutoConnect_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_groupingID, addr 0x6bb973c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_groupingID, addr 0x7018264, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_groupingID();
 
-  /// @brief Method get_groupingID_Injected, addr 0x6bb97bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_groupingID_Injected, addr 0x70182e4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_groupingID_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_terrainData, addr 0x6bb94f4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_terrainData, addr 0x701801c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TerrainData> get_terrainData();
 
-  /// @brief Method get_terrainData_Injected, addr 0x6bb9644, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_terrainData_Injected, addr 0x701816c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_terrainData_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -85,7 +85,7 @@ public:
   Terrain(Terrain const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

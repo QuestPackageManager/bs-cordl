@@ -37,18 +37,18 @@ public:
 
   constexpr void __cordl_internal_set__ParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e3de9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d99ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e3dea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d99f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW parameterName);
 
   /// [CompilerGenerated]
-  /// @brief Method get_ParameterName, addr 0x6e3dea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterName, addr 0x72d99f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParameterName();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ParameterName, addr 0x6e3deb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterName, addr 0x72d9a00, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterName(::StringW value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   NotifyPropertyChangedInvocatorAttribute(NotifyPropertyChangedInvocatorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23346 };
 
   /// [CompilerGenerated]
   /// @brief Field <ParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None

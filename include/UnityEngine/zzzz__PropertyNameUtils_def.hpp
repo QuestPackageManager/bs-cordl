@@ -28,10 +28,10 @@ class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("PropertyNameFromStringICall", IsThreadSafe = true)]
-  /// @brief Method PropertyNameFromString, addr 0x6ad80cc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x6f320f4, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x6ad8200, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x6f32228, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::PropertyName> ret);
 
 protected:
@@ -49,7 +49,7 @@ public:
   PropertyNameUtils(PropertyNameUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

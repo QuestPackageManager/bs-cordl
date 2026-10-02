@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6b9e4fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7009eb8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Unity::Properties::TypeGenerationOptions options);
 
 protected:
@@ -65,7 +65,7 @@ public:
   GeneratePropertyBagsForTypesQualifiedWithAttribute(GeneratePropertyBagsForTypesQualifiedWithAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20698 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

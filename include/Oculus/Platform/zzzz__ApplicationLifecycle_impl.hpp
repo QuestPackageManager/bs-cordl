@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchDetails* (*)()>(&::Oculus::Platform::ApplicationLifecycle::GetLaunchDetails)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ddf1f8;
+  constexpr static std::size_t addrs = 0x61f8ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::ApplicationLifecycle*>(), { "GetLaunchDetails", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::Oculus::Platform::LaunchResult)>(&::Oculus::Platform::ApplicationLifecycle::LogDeeplinkResult)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5ddf288;
+  constexpr static std::size_t addrs = 0x61f8e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(
     &::Oculus::Platform::ApplicationLifecycle::SetLaunchIntentChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ddf2f0;
+  constexpr static std::size_t addrs = 0x61f8ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

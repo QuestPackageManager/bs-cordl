@@ -35,79 +35,79 @@ public:
 
   __declspec(property(get = get_Target, put = set_Target)) ::System::Object* Target;
 
-  /// @brief Method AddrOfPinnedObject, addr 0x5b6d2ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddrOfPinnedObject, addr 0x5f85240, size 0xa0, virtual false, abstract: false, final false
   inline ::System::IntPtr AddrOfPinnedObject();
 
-  /// @brief Method Alloc, addr 0x5b6d390, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x5f852e4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::GCHandle Alloc(::System::Object* value);
 
-  /// @brief Method Alloc, addr 0x5b6d39c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x5f852f0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::GCHandle Alloc(::System::Object* value, ::System::Runtime::InteropServices::GCHandleType type);
 
-  /// @brief Method CanDereferenceHandle, addr 0x5b6d244, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanDereferenceHandle, addr 0x5f85198, size 0xc, virtual false, abstract: false, final false
   static inline bool CanDereferenceHandle(::System::IntPtr handle);
 
-  /// @brief Method CheckCurrentDomain, addr 0x5b6d488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CheckCurrentDomain, addr 0x5f853dc, size 0x8, virtual false, abstract: false, final false
   static inline bool CheckCurrentDomain(::System::IntPtr handle);
 
-  /// @brief Method Equals, addr 0x5b6d49c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f853f0, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Free, addr 0x5b6d3b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x5f85304, size 0x7c, virtual false, abstract: false, final false
   inline void Free();
 
-  /// @brief Method FreeHandle, addr 0x5b6d42c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeHandle, addr 0x5f85380, size 0x4, virtual false, abstract: false, final false
   static inline void FreeHandle(::System::IntPtr handle);
 
-  /// @brief Method FromIntPtr, addr 0x5b6d520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtr, addr 0x5f85474, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::GCHandle FromIntPtr(::System::IntPtr value);
 
-  /// @brief Method GetAddrOfPinnedObject, addr 0x5b6d38c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetAddrOfPinnedObject, addr 0x5f852e0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetAddrOfPinnedObject(::System::IntPtr handle);
 
-  /// @brief Method GetHashCode, addr 0x5b6d518, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f8546c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetRef, addr 0x5b6d234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRef, addr 0x5f85188, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* GetRef(::System::IntPtr handle);
 
-  /// @brief Method GetTarget, addr 0x5b6d2b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x5f85208, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* GetTarget(::System::IntPtr handle);
 
-  /// @brief Method GetTargetHandle, addr 0x5b6d220, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTargetHandle, addr 0x5f85174, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetTargetHandle(::System::Object* obj, ::System::IntPtr handle, ::System::Runtime::InteropServices::GCHandleType type);
 
-  /// @brief Method SetRef, addr 0x5b6d23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRef, addr 0x5f85190, size 0x8, virtual false, abstract: false, final false
   static inline void SetRef(::System::IntPtr handle, ::System::Object* value);
 
-  /// @brief Method ToIntPtr, addr 0x5b6d524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToIntPtr, addr 0x5f85478, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr ToIntPtr(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x5b6d1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8511c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr h);
 
-  /// @brief Method .ctor, addr 0x5b6d1d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f85124, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x5b6d1f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f85148, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::System::Runtime::InteropServices::GCHandleType type);
 
-  /// @brief Method get_IsAllocated, addr 0x5b6d224, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsAllocated, addr 0x5f85178, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsAllocated();
 
-  /// @brief Method get_Target, addr 0x5b6d250, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x5f851a4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* get_Target();
 
-  /// @brief Method op_Equality, addr 0x5b6d490, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5f853e4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Runtime::InteropServices::GCHandle a, ::System::Runtime::InteropServices::GCHandle b);
 
-  /// @brief Method op_Explicit, addr 0x5b6d430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5f85384, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method op_Explicit, addr 0x5b6d434, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5f85388, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::GCHandle op_Explicit___System__Runtime__InteropServices__GCHandle(::System::IntPtr value);
 
-  /// @brief Method set_Target, addr 0x5b6d2b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x5f8520c, size 0x34, virtual false, abstract: false, final false
   inline void set_Target(::System::Object* value);
 
   // Ctor Parameters []

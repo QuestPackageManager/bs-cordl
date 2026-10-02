@@ -44,13 +44,13 @@ public:
   /// @brief Method Translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method .ctor, addr 0x5b137dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2b6d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method op_Equality, addr 0x5b137e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5f2b6d8, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::IdentityReference* left, ::System::Security::Principal::IdentityReference* right);
 
 protected:

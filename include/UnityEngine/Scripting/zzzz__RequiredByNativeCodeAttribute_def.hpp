@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6bb6590, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70150b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bb6594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70150bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6bb659c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70150c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool optional);
 
   /// [CompilerGenerated]
-  /// @brief Method set_GenerateProxy, addr 0x6bb65b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x70150dc, size 0x8, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Name, addr 0x6bb65a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x70150cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Optional, addr 0x6bb65ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x70150d4, size 0x8, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   RequiredByNativeCodeAttribute(RequiredByNativeCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23550 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
@@ -109,8 +109,8 @@ public:
   /// @brief Field <Optional>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____Optional_k__BackingField;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <GenerateProxy>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____GenerateProxy_k__BackingField;
 

@@ -118,7 +118,7 @@ public:
   static ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction const Continue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6465 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -145,11 +145,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a08370, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e23a98, size 0x4a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a08814, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e23f3c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -169,7 +169,7 @@ public:
                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6466 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -216,11 +216,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a0881c, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e23f44, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5a08bc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e242ec, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -241,7 +241,7 @@ public:
                                                         bool replaceTopViewController, bool backButtonVisible, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6467 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -334,28 +334,28 @@ public:
                       put =
                           __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* didFinishEvent;
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x5a08274, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x5e2399c, size 0xd0, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,
                                                          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x5a08344, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x5e23a6c, size 0x28, virtual false, abstract: false, final false
   inline void HandleAvatarSystemSelectionFlowCoordinatorDidFinish(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* flowCoordinator,
                                                                   ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction finishAction);
 
   /// [AsyncStateMachine(typeof(EditAvatarFlowCoordinatorHelper::<Initialize>d__13))]
   /// [Inject]
   /// [UsedImplicitly]
-  /// @brief Method Initialize, addr 0x5a080e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5e2380c, size 0xa0, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* New_ctor();
 
-  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x5a08184, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x5e238ac, size 0xf0, virtual false, abstract: false, final false
   inline void PresentAvatarEditorFlowCoordinator(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode editMode,
                                                  ::HMUI::FlowCoordinator* parentFlowCoordinator, bool immediately, bool replaceTopViewController);
 
   /// [AsyncStateMachine(typeof(EditAvatarFlowCoordinatorHelper::<Show>d__12))]
-  /// @brief Method Show, addr 0x5a08008, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x5e23730, size 0xdc, virtual false, abstract: false, final false
   inline void Show(::HMUI::FlowCoordinator* parentFlowCoordinator, bool backButtonVisible, bool immediately, bool replaceTopViewController);
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
@@ -400,18 +400,18 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x5a0836c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e23a94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5a07e24, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5e2354c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
-  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x5a07fa4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x5e236cc, size 0x64, virtual false, abstract: false, final false
   inline bool get__hasOnlyOneAvatarSystem();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5a07ee4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5e2360c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
 protected:
@@ -429,7 +429,7 @@ public:
   EditAvatarFlowCoordinatorHelper(EditAvatarFlowCoordinatorHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6468 };
 
   /// [Inject]
   /// @brief Field _avatarSystemSelectionFlowCoordinator, offset: 0x10, size: 0x8, def value: None

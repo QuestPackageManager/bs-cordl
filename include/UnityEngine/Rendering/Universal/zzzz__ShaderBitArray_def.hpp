@@ -32,31 +32,31 @@ public:
 
   __declspec(property(get = get_elemLength)) int32_t elemLength;
 
-  /// @brief Method Clear, addr 0x68ba5e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6cf16f4, size 0x48, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetElementIndexAndBitOffset, addr 0x68ba62c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetElementIndexAndBitOffset, addr 0x6cf173c, size 0x14, virtual false, abstract: false, final false
   inline void GetElementIndexAndBitOffset(int32_t index, ::by_ref<int32_t> elemIndex, ::by_ref<int32_t> bitOffset);
 
-  /// @brief Method Resize, addr 0x68ba4b4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x6cf15c4, size 0x130, virtual false, abstract: false, final false
   inline void Resize(int32_t bitCount);
 
-  /// @brief Method ToString, addr 0x68ba6ac, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cf17bc, size 0x168, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Item, addr 0x68ba640, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6cf1750, size 0x2c, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
-  /// @brief Method get_bitCapacity, addr 0x68ba490, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_bitCapacity, addr 0x6cf15a0, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_bitCapacity();
 
-  /// @brief Method get_data, addr 0x68ba4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x6cf15bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_data();
 
-  /// @brief Method get_elemLength, addr 0x68ba478, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_elemLength, addr 0x6cf1588, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_elemLength();
 
-  /// @brief Method set_Item, addr 0x68ba66c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6cf177c, size 0x40, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr ShaderBitArray(::ArrayW<float_t> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -35,7 +35,7 @@ public:
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Value, addr 0x63b50f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x67dd3c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -53,7 +53,7 @@ public:
   AmbientValueAttribute(AmbientValueAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12170 };
 
   /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None

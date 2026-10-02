@@ -49,13 +49,13 @@ public:
   /// @brief Method Build, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Dispose, addr 0x63abacc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67d3d98, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x63ac68c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67d4958, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x63ac690, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x67d495c, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* New_ctor();
@@ -63,10 +63,10 @@ public:
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x63ac64c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x67d4918, size 0x40, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
-  /// @brief Method .ctor, addr 0x63ac6e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d49ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ChainElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -96,7 +96,7 @@ public:
   X509ChainImpl(X509ChainImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

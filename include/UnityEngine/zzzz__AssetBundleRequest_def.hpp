@@ -35,10 +35,10 @@ namespace UnityEngine {
 class CORDL_TYPE AssetBundleRequest_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x6a4c2b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6e9aca4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleRequest* ConvertToManaged(::System::IntPtr ptr);
 
-  /// @brief Method ConvertToNative, addr 0x6a4c334, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e9ad2c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::AssetBundleRequest* request);
 
 protected:
@@ -56,7 +56,7 @@ public:
   AssetBundleRequest_BindingsMarshaller(AssetBundleRequest_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,25 +80,25 @@ public:
   __declspec(property(get = get_asset)) ::UnityW<::UnityEngine::Object> asset;
 
   /// [NativeMethod("GetLoadedAsset")]
-  /// @brief Method GetResult, addr 0x6a4c054, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x6e9aa44, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
-  /// @brief Method GetResult_Injected, addr 0x6a4c190, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetResult_Injected, addr 0x6e9ab80, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetResult_Injected(::System::IntPtr _unity_self);
 
   static inline ::UnityEngine::AssetBundleRequest* New_ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x6a4c264, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9ac54, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   /// [NativeMethod("GetAllLoadedAssets")]
-  /// @brief Method get_allAssets, addr 0x6a4c1d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_allAssets, addr 0x6e9abc8, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> get_allAssets();
 
-  /// @brief Method get_allAssets_Injected, addr 0x6a4c228, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allAssets_Injected, addr 0x6e9ac18, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> get_allAssets_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_asset, addr 0x6a4c1cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x6e9abbc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:
@@ -116,7 +116,7 @@ public:
   AssetBundleRequest(AssetBundleRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

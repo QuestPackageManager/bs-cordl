@@ -8,18 +8,17 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RasterGraphContext_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceShadowsSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceShadows_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderer_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalShadowData_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
+#include "UnityEngine/Rendering/zzzz__UnsafeCommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData._ctor
 template <>
@@ -27,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b05ec;
+  constexpr static std::size_t addrs = 0x6cea900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,18 +58,6 @@ constexpr void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___material = value;
 }
-constexpr int32_t& UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData::__cordl_internal_get_shadowmapID() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___shadowmapID;
-}
-constexpr int32_t const& UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData::__cordl_internal_get_shadowmapID() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___shadowmapID;
-}
-constexpr void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData::__cordl_internal_set_shadowmapID(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___shadowmapID = value;
-}
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*>(), { ".ctor", {}, {} })));
@@ -87,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b12e4;
+  constexpr static std::size_t addrs = 0x6cea958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,22 +82,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c._RecordRenderGraph_b__11_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c._RecordRenderGraph_b__7_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::*)(
-    ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__11_0)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68b12e8;
+    ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
+    &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__7_0)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6cea95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>(),
-                                                             { "<RecordRenderGraph>b__11_0",
+                                                             { "<RecordRenderGraph>b__7_0",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
     return ___internal_method;
   }
 };
@@ -124,34 +111,34 @@ inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceSh
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*, "<>9",
                                            ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>();
 }
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::setStaticF___9__11_0(
+inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::setStaticF___9__7_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*,
-                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
+                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*,
-                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__11_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>(
+                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
+                                    "<>9__7_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*,
-                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
+                                                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*,
-                                                                     ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::getStaticF___9__11_0() {
+                                                                     ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
+UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::getStaticF___9__7_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*,
-                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__11_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>();
+                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
+                                           "<>9__7_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>();
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__11_0(
-    ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext) {
+inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__7_0(
+    ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c*>(),
-                                                                                         { "<RecordRenderGraph>b__11_0",
+                                                                                         { "<RecordRenderGraph>b__7_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*>(),
-                                                                                             ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
+                                                                                             ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, rgContext);
 }
 inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c* UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c::New_ctor() {
@@ -164,26 +151,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::_ctor)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x68afefc;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6ce99e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass.Dispose
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)()>(
-    &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::Dispose)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68b0578;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
@@ -193,27 +166,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)(
     ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings*, ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::Setup)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68b0480;
+  constexpr static std::size_t addrs = 0x6ce9ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
                                                 { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass.OnCameraSetup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
-    &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::OnCameraSetup)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x68b05f0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -223,8 +181,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)(
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::InitPassData)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68b076c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6cea034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,8 +197,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x68b079c;
+  constexpr static std::size_t size = 0x770;
+  constexpr static std::size_t addrs = 0x6cea050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
@@ -251,35 +209,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass.ExecutePass
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::UnsafeCommandBuffer*,
                                                                 ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::ExecutePass)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68b0f40;
+  constexpr static std::size_t addrs = 0x6cea7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
                                                              { "ExecutePass",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                                                  ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*>(),
                                                                  ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
-    &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::Execute)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x68b1080;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -309,18 +252,6 @@ UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CurrentSettings = value;
 }
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_get_m_RenderTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RenderTarget;
-}
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_get_m_RenderTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RenderTarget;
-}
-constexpr void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_set_m_RenderTarget(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_RenderTarget = value;
-}
 constexpr int32_t& UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_get_m_ScreenSpaceShadowmapTextureID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScreenSpaceShadowmapTextureID;
@@ -333,29 +264,9 @@ constexpr void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScreenSpaceShadowmapTextureID = value;
 }
-constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*&
-UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* const&
-UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::__cordl_internal_set_m_PassData(
-    ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::Setup(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings* featureSettings,
@@ -364,13 +275,6 @@ inline bool UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceSha
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
                                               { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, featureSettings, material);
-}
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                                        ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::InitPassData(
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*> passData) {
@@ -386,23 +290,16 @@ inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceSha
                    (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData);
 }
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
+inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::ExecutePass(::UnityEngine::Rendering::UnsafeCommandBuffer* cmd,
                                                                                                       ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* data,
                                                                                                       ::UnityEngine::Rendering::RTHandle* target) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(),
                                                                                          { "ExecutePass",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, data, target);
-}
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                                  ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass* UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass*>());
@@ -415,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b1b08;
+  constexpr static std::size_t addrs = 0x6ceaf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -423,21 +320,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*&
-UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData::__cordl_internal_get_pass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___pass;
-}
-constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass* const&
-UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData::__cordl_internal_get_pass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___pass;
-}
-constexpr void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData::__cordl_internal_set_pass(
-    ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___pass = value;
-}
 constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData*& UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData::__cordl_internal_get_shadowData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___shadowData;
@@ -469,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b1b60;
+  constexpr static std::size_t addrs = 0x6ceaf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,19 +359,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c._RecordRenderGraph_b__6_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c._RecordRenderGraph_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::*)(
     ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__6_0)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68b1b64;
+    &::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__3_0)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6ceaf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>(),
-                                                             { "<RecordRenderGraph>b__6_0",
+                                                             { "<RecordRenderGraph>b__3_0",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*>(),
                                                                  ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -506,32 +388,32 @@ inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpa
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*, "<>9",
                                            ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>();
 }
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::setStaticF___9__6_0(
+inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::setStaticF___9__3_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__6_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>(
+                                    "<>9__3_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::getStaticF___9__6_0() {
+UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__6_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>();
+                                           "<>9__3_0", ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>();
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__6_0(
+inline void UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c::_RecordRenderGraph_b__3_0(
     ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c*>(),
-                                                           { "<RecordRenderGraph>b__6_0",
+                                                           { "<RecordRenderGraph>b__3_0",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData*>(),
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -547,27 +429,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x68b002c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6ce9ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass.Configure
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::Configure)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68b1370;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(),
-                                                            { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -577,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalShadowData*)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::ExecutePass)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x68b13d8;
+  constexpr static std::size_t addrs = 0x6cea9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,30 +454,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
-    &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::Execute)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68b149c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(),
-                                                            { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(), 10 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass.RecordRenderGraph
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x68b15dc;
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x6ceaab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -619,24 +470,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::setStaticF_k_CurrentActive(::UnityEngine::Rendering::RTHandle* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::Rendering::RTHandle*, "k_CurrentActive", ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(
-      std::forward<::UnityEngine::Rendering::RTHandle*>(value));
-}
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::getStaticF_k_CurrentActive() {
-  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RTHandle*, "k_CurrentActive", ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>();
-}
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::Configure(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                                        ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraTextureDescriptor);
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                                           ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData) {
@@ -645,13 +482,6 @@ inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceSha
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(),
                           { "ExecutePass", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalShadowData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, shadowData);
-}
-inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass::RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                                 ::UnityEngine::Rendering::ContextContainer* frameData) {
@@ -670,11 +500,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceShadows::Create)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68afe3c;
+  constexpr static std::size_t addrs = 0x6ce9920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 5 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -684,12 +514,12 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
                                                                                                                          ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceShadows::AddRenderPasses)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x68b0240;
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x6ce9cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 7 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -697,8 +527,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows::*)(bool)>(&::UnityEngine::Rendering::Universal::ScreenSpaceShadows::Dispose)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68b04fc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6ce9f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(),
@@ -711,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceShadows::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceShadows::LoadMaterial)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x68b00e0;
+  constexpr static std::size_t addrs = 0x6ce9b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), { "LoadMaterial", {}, {} })));
@@ -723,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceShadows::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceShadows::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68b058c;
+  constexpr static std::size_t addrs = 0x6ce9fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), { ".ctor", {}, {} })));
@@ -794,13 +624,13 @@ UnityEngine::Rendering::Universal::ScreenSpaceShadows::__cordl_internal_set_m_SS
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows::Create() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows::AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
                                                                                    ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceShadows*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::ScreenSpaceShadows::Dispose(bool disposing) {

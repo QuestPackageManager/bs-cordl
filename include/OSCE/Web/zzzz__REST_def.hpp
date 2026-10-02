@@ -38,6 +38,9 @@ class REST___c__DisplayClass10_0;
 namespace OSCE::Web {
 struct __c__DisplayClass10_0_REST___PostAsync_b__0_d;
 }
+namespace OculusStudios::MetaNetworking::Utils {
+class IMetaApiUserAgentProvider;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -130,11 +133,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f37cb8, size 0x760, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63533dc, size 0x764, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f38418, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6353b40, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -160,7 +163,7 @@ public:
                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22632 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -239,25 +242,29 @@ public:
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::OSCE::Web::REST* __4__this;
 
-  /// @brief Field auth, offset 0x28, size 0x8
+  /// @brief Field auth, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_auth, put = __cordl_internal_set_auth)) ::StringW auth;
 
-  /// @brief Field json, offset 0x18, size 0x8
+  /// @brief Field json, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_json, put = __cordl_internal_set_json)) ::StringW json;
 
-  /// @brief Field path, offset 0x20, size 0x8
+  /// @brief Field metaApiUserAgentProvider, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_metaApiUserAgentProvider,
+                      put = __cordl_internal_set_metaApiUserAgentProvider)) ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider;
+
+  /// @brief Field path, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path)) ::StringW path;
 
-  /// @brief Field queryParams, offset 0x30, size 0x8
+  /// @brief Field queryParams, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_queryParams, put = __cordl_internal_set_queryParams)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams;
 
-  /// @brief Field response, offset 0x38, size 0x8
+  /// @brief Field response, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response)) ::StringW response;
 
   static inline ::OSCE::Web::REST___c__DisplayClass10_0* New_ctor();
 
   /// [AsyncStateMachine(typeof(OSCE.Web.REST::<>c__DisplayClass10_0::<<PostAsync>b__0>d))]
-  /// @brief Method <PostAsync>b__0, addr 0x5f37bf0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <PostAsync>b__0, addr 0x6353314, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _PostAsync_b__0(::System::Threading::CancellationToken cancelToken);
 
   constexpr ::OSCE::Web::REST* const& __cordl_internal_get___4__this() const;
@@ -271,6 +278,10 @@ public:
   constexpr ::StringW const& __cordl_internal_get_json() const;
 
   constexpr ::StringW& __cordl_internal_get_json();
+
+  constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* const& __cordl_internal_get_metaApiUserAgentProvider() const;
+
+  constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*& __cordl_internal_get_metaApiUserAgentProvider();
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
 
@@ -290,13 +301,15 @@ public:
 
   constexpr void __cordl_internal_set_json(::StringW value);
 
+  constexpr void __cordl_internal_set_metaApiUserAgentProvider(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* value);
+
   constexpr void __cordl_internal_set_path(::StringW value);
 
   constexpr void __cordl_internal_set_queryParams(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
   constexpr void __cordl_internal_set_response(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f37bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6353310, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -314,24 +327,27 @@ public:
   REST___c__DisplayClass10_0(REST___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22633 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::OSCE::Web::REST* _____4__this;
 
-  /// @brief Field json, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field metaApiUserAgentProvider, offset: 0x18, size: 0x8, def value: None
+  ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* ___metaApiUserAgentProvider;
+
+  /// @brief Field json, offset: 0x20, size: 0x8, def value: None
   ::StringW ___json;
 
-  /// @brief Field path, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field path, offset: 0x28, size: 0x8, def value: None
   ::StringW ___path;
 
-  /// @brief Field auth, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field auth, offset: 0x30, size: 0x8, def value: None
   ::StringW ___auth;
 
-  /// @brief Field queryParams, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field queryParams, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ___queryParams;
 
-  /// @brief Field response, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field response, offset: 0x40, size: 0x8, def value: None
   ::StringW ___response;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -339,17 +355,19 @@ public:
 // Non member Declarations
 static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___json) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___metaApiUserAgentProvider) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___path) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___json) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___auth) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___path) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___queryParams) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___auth) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___response) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___queryParams) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::OSCE::Web::REST___c__DisplayClass10_0) == 0x40, "Size mismatch!");
+static_assert(offsetof(::OSCE::Web::REST___c__DisplayClass10_0, ___response) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::OSCE::Web::REST___c__DisplayClass10_0) == 0x48, "Size mismatch!");
 
 } // namespace OSCE::Web
 // [CompilerGenerated]
@@ -363,11 +381,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f38484, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6353bac, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f38798, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6353ec0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -387,7 +405,7 @@ public:
                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22634 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -444,11 +462,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f38818, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6353f40, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f38c74, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6354328, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -468,7 +486,7 @@ public:
                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22635 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -525,11 +543,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f38cf4, size 0x474, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63543a8, size 0x478, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f39168, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6354820, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -541,25 +559,27 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST*", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value:
-  // None, comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "queryParams", ty:
+  // def_value: None, comment: None }, CppParam { name: "metaApiUserAgentProvider", ty: "::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "queryParams", ty:
   // "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "cancel", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
   // "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr REST__PostAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::OSCE::Web::REST* __4__this, ::StringW json,
-                                  ::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, int32_t attempts,
-                                  ::System::Threading::CancellationToken cancel, ::OSCE::Web::REST___c__DisplayClass10_0* __8__1, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
+  constexpr REST__PostAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::OSCE::Web::REST* __4__this,
+                                  ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider, ::StringW json, ::StringW path, ::StringW auth,
+                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, int32_t attempts, ::System::Threading::CancellationToken cancel,
+                                  ::OSCE::Web::REST___c__DisplayClass10_0* __8__1, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                   ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22636 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -570,37 +590,40 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::OSCE::Web::REST* __4__this;
 
-  /// @brief Field json, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field metaApiUserAgentProvider, offset: 0x28, size: 0x8, def value: None
+  ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider;
+
+  /// @brief Field json, offset: 0x30, size: 0x8, def value: None
   ::StringW json;
 
-  /// @brief Field path, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field path, offset: 0x38, size: 0x8, def value: None
   ::StringW path;
 
-  /// @brief Field auth, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field auth, offset: 0x40, size: 0x8, def value: None
   ::StringW auth;
 
-  /// @brief Field queryParams, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field queryParams, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams;
 
-  /// @brief Field attempts, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field attempts, offset: 0x50, size: 0x4, def value: None
   int32_t attempts;
 
-  /// @brief Field cancel, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field cancel, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancel;
 
-  /// @brief Field <>8__1, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field <>8__1, offset: 0x60, size: 0x8, def value: None
   ::OSCE::Web::REST___c__DisplayClass10_0* __8__1;
 
-  /// @brief Field batchToSend, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field batchToSend, offset: 0x68, size: 0x8, def value: None
   ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend;
 
-  /// @brief Field onFail, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field onFail, offset: 0x70, size: 0x8, def value: None
   ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail;
 
-  /// @brief Field onSucceed, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field onSucceed, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed;
 
-  /// @brief Field <>u__1, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x80, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -612,29 +635,31 @@ static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __t__builder) == 0x8,
 
 static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, json) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, metaApiUserAgentProvider) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, path) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, json) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, auth) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, path) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, queryParams) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, auth) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, attempts) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, queryParams) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, cancel) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, attempts) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __8__1) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, cancel) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, batchToSend) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __8__1) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, onFail) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, batchToSend) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, onSucceed) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, onFail) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __u__1) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, onSucceed) == 0x78, "Offset mismatch!");
 
-static_assert(sizeof(::OSCE::Web::REST__PostAsync_d__10) == 0x80, "Size mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostAsync_d__10, __u__1) == 0x80, "Offset mismatch!");
+
+static_assert(sizeof(::OSCE::Web::REST__PostAsync_d__10) == 0x88, "Size mismatch!");
 
 } // namespace OSCE::Web
 // [CompilerGenerated]
@@ -648,11 +673,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f391e8, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63548a0, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5f3948c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6354b44, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -669,17 +694,20 @@ public:
   // "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "onFail", ty:
   // "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value:
   // None, comment: None }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
+  // "metaApiUserAgentProvider", ty: "::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr REST__PostRequest_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::StringW path, ::StringW authToken, ::StringW json,
                                    ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                    ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, int32_t attempts,
-                                   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
+                                   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                   ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider,
+                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22637 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -711,7 +739,10 @@ public:
   /// @brief Field queryParams, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams;
 
-  /// @brief Field <>u__1, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field metaApiUserAgentProvider, offset: 0x68, size: 0x8, def value: None
+  ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider;
+
+  /// @brief Field <>u__1, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -737,9 +768,11 @@ static_assert(offsetof(::OSCE::Web::REST__PostRequest_d__7, attempts) == 0x58, "
 
 static_assert(offsetof(::OSCE::Web::REST__PostRequest_d__7, queryParams) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::OSCE::Web::REST__PostRequest_d__7, __u__1) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostRequest_d__7, metaApiUserAgentProvider) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::OSCE::Web::REST__PostRequest_d__7) == 0x70, "Size mismatch!");
+static_assert(offsetof(::OSCE::Web::REST__PostRequest_d__7, __u__1) == 0x70, "Offset mismatch!");
+
+static_assert(sizeof(::OSCE::Web::REST__PostRequest_d__7) == 0x78, "Size mismatch!");
 
 } // namespace OSCE::Web
 // Dependencies System.Object
@@ -775,33 +808,35 @@ public:
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) ::System::Diagnostics::Stopwatch* _timer;
 
   /// [AsyncStateMachine(typeof(OSCE.Web.REST::<BuildQueryString>d__12))]
-  /// @brief Method BuildQueryString, addr 0x5f37a9c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BuildQueryString, addr 0x63531c0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* BuildQueryString(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, bool isFirstParameter);
 
   /// [AsyncStateMachine(typeof(OSCE.Web.REST::<BuildUri>d__11))]
-  /// @brief Method BuildUri, addr 0x5f379a8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BuildUri, addr 0x63530cc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Uri*>* BuildUri(::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query);
 
-  /// @brief Method CreateClient, addr 0x5f37660, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Net::Http::HttpClient* CreateClient();
+  /// @brief Method CreateClient, addr 0x6352ce0, size 0x114, virtual false, abstract: false, final false
+  inline ::System::Net::Http::HttpClient* CreateClient(::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider);
 
-  /// @brief Method GetHandler, addr 0x5f376d4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetHandler, addr 0x6352df4, size 0x194, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpClientHandler* GetHandler();
 
   static inline ::OSCE::Web::REST* New_ctor();
 
   /// [AsyncStateMachine(typeof(OSCE.Web.REST::<PostAsync>d__10))]
-  /// @brief Method PostAsync, addr 0x5f37868, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PostAsync, addr 0x6352f88, size 0x144, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* PostAsync(::StringW path, ::StringW auth, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                                                   ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                                                   ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, ::System::Threading::CancellationToken cancel,
-                                                                  int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams);
+                                                                  int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                                                  ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider);
 
   /// [AsyncStateMachine(typeof(OSCE.Web.REST::<PostRequest>d__7))]
-  /// @brief Method PostRequest, addr 0x5f373a0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PostRequest, addr 0x6352a0c, size 0xfc, virtual false, abstract: false, final false
   static inline void PostRequest(::StringW path, ::StringW authToken, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                  ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed, ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail,
-                                 int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams);
+                                 int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams,
+                                 ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider);
 
   constexpr ::System::Net::Http::HttpClientHandler* const& __cordl_internal_get__handler() const;
 
@@ -821,7 +856,7 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0x5f375ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6352c2c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::UriBuilder* getStaticF__oculusUriBuilder();
@@ -850,7 +885,7 @@ public:
   static constexpr int32_t EXPIRE_SECONDS{ static_cast<int32_t>(0x78) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22638 };
 
   /// @brief Field _handler, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::HttpClientHandler* ____handler;

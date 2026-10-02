@@ -26,16 +26,16 @@ public:
   /// @brief Field csharp, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_csharp, put = setStaticF_csharp)) ::Microsoft::CSharp::CodeDomProvider* csharp;
 
-  /// @brief Method IsValid, addr 0x62eabc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6712ba4, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t c);
 
-  /// @brief Method IsValidStart, addr 0x62eac10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidStart, addr 0x6712bf0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidStart(char16_t c);
 
-  /// @brief Method MakePascal, addr 0x62ea8ac, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method MakePascal, addr 0x671288c, size 0x1a0, virtual false, abstract: false, final false
   static inline ::StringW MakePascal(::StringW identifier);
 
-  /// @brief Method MakeValid, addr 0x62eaa4c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method MakeValid, addr 0x6712a2c, size 0x178, virtual false, abstract: false, final false
   static inline ::StringW MakeValid(::StringW identifier);
 
   static inline ::Microsoft::CSharp::CodeDomProvider* getStaticF_csharp();
@@ -57,7 +57,7 @@ public:
   CodeIdentifier(CodeIdentifier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

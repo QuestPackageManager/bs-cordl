@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::get_color)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5871c60;
+  constexpr static std::size_t addrs = 0x5c87e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockColorSetter*>(), { "get_color", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MaterialPropertyBlockController> (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::get_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5871c88;
+  constexpr static std::size_t addrs = 0x5c87e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)(::GlobalNamespace::MaterialPropertyBlockController*)>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::set_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5871c90;
+  constexpr static std::size_t addrs = 0x5c87e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5871c98;
+  constexpr static std::size_t addrs = 0x5c87e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockColorSetter*>(), { "Awake", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::InitIfNeeded)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5871c9c;
+  constexpr static std::size_t addrs = 0x5c87e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockColorSetter*>(), { "InitIfNeeded", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::SetColor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5871ce4;
+  constexpr static std::size_t addrs = 0x5c87eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::OnValidate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5871e30;
+  constexpr static std::size_t addrs = 0x5c88004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockColorSetter*>(), { "OnValidate", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::AddNecessaryComponents)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5871ec8;
+  constexpr static std::size_t addrs = 0x5c8809c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5871fc4;
+  constexpr static std::size_t addrs = 0x5c88198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockColorSetter*>(), { ".ctor", {}, {} })));

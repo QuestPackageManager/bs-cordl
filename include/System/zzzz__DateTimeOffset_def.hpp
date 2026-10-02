@@ -133,112 +133,112 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method AddTicks, addr 0x5c2c600, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddTicks, addr 0x60451fc, size 0xe4, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset AddTicks(int64_t ticks);
 
-  /// @brief Method Compare, addr 0x5c2c6e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x60452e0, size 0xac, virtual false, abstract: false, final false
   static inline int32_t Compare(::System::DateTimeOffset first, ::System::DateTimeOffset second);
 
-  /// @brief Method CompareTo, addr 0x5c2c8d4, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x60454d0, size 0xdc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::DateTimeOffset other);
 
-  /// @brief Method Equals, addr 0x5c2c9b0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60455ac, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5c2caac, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x60456a8, size 0xb4, virtual true, abstract: false, final true
   inline bool Equals(::System::DateTimeOffset other);
 
-  /// @brief Method FromFileTime, addr 0x5c2cb60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromFileTime, addr 0x604575c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset FromFileTime(int64_t fileTime);
 
-  /// @brief Method FromUnixTimeSeconds, addr 0x5c2cbd8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FromUnixTimeSeconds, addr 0x60457d4, size 0x168, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset FromUnixTimeSeconds(int64_t seconds);
 
-  /// @brief Method GetHashCode, addr 0x5c2d134, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6045d30, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Parse, addr 0x5c2d1d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6045dcc, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset Parse(::StringW input, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Parse, addr 0x5c2d24c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6045e48, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset Parse(::StringW input, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles);
 
-  /// @brief Method ParseExact, addr 0x5c2d5dc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ParseExact, addr 0x60461d8, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset ParseExact(::StringW input, ::StringW format, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles);
 
-  /// @brief Method System.IComparable.CompareTo, addr 0x5c2c790, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable.CompareTo, addr 0x604538c, size 0x144, virtual true, abstract: false, final true
   inline int32_t System_IComparable_CompareTo(::System::Object* obj);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5c2cd40, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x604593c, size 0x188, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5c2cec8, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6045ac4, size 0xd8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToLocalTime, addr 0x5c2d918, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToLocalTime, addr 0x6046514, size 0x5c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset ToLocalTime();
 
-  /// @brief Method ToLocalTime, addr 0x5c2d974, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToLocalTime, addr 0x6046570, size 0xc0, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset ToLocalTime(bool throwOnOverflow);
 
-  /// @brief Method ToOffset, addr 0x5c2bfc0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToOffset, addr 0x6044bbc, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset ToOffset(::System::TimeSpan offset);
 
-  /// @brief Method ToString, addr 0x5c2da34, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6046630, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x5c2deb0, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6046aac, size 0xd0, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString, addr 0x5c2ddec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x60469e8, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToUniversalTime, addr 0x5c2e2b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToUniversalTime, addr 0x6046eb4, size 0x78, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset ToUniversalTime();
 
-  /// @brief Method TryFormat, addr 0x5c2df80, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method TryFormat, addr 0x6046b7c, size 0x108, virtual true, abstract: false, final true
   inline bool TryFormat(::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryParse, addr 0x5c2e330, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6046f2c, size 0x1b8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles, ::by_ref<::System::DateTimeOffset> result);
 
-  /// @brief Method TryParseExact, addr 0x5c2e65c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x6047258, size 0x1cc, virtual false, abstract: false, final false
   static inline bool TryParseExact(::StringW input, ::StringW format, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles,
                                    ::by_ref<::System::DateTimeOffset> result);
 
-  /// @brief Method TryParseExact, addr 0x5c2e9b4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x60475b0, size 0x1c0, virtual false, abstract: false, final false
   static inline bool TryParseExact(::StringW input, ::ArrayW<::StringW> formats, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles,
                                    ::by_ref<::System::DateTimeOffset> result);
 
-  /// @brief Method ValidateDate, addr 0x5c2b64c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ValidateDate, addr 0x6044248, size 0x124, virtual false, abstract: false, final false
   static inline ::System::DateTime ValidateDate(::System::DateTime dateTime, ::System::TimeSpan offset);
 
-  /// @brief Method ValidateOffset, addr 0x5c2b4f0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ValidateOffset, addr 0x60440ec, size 0x15c, virtual false, abstract: false, final false
   static inline int16_t ValidateOffset(::System::TimeSpan offset);
 
-  /// @brief Method ValidateStyles, addr 0x5c2d3ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ValidateStyles, addr 0x6045fe8, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Globalization::DateTimeStyles ValidateStyles(::System::Globalization::DateTimeStyles style, ::StringW parameterName);
 
-  /// @brief Method .ctor, addr 0x5c2b770, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x604436c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dateTime);
 
-  /// @brief Method .ctor, addr 0x5c2b894, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6044490, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dateTime, ::System::TimeSpan offset);
 
-  /// @brief Method .ctor, addr 0x5c2cfa0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6045b9c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c2b42c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6044028, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(int64_t ticks, ::System::TimeSpan offset);
 
-  /// @brief Method .ctor, addr 0x5c2bc3c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6044838, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, ::System::Globalization::Calendar* calendar,
                     ::System::TimeSpan offset);
 
-  /// @brief Method .ctor, addr 0x5c2bb5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6044758, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, ::System::TimeSpan offset);
 
-  /// @brief Method .ctor, addr 0x5c2ba8c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6044688, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, ::System::TimeSpan offset);
 
   static inline ::System::DateTimeOffset getStaticF_MaxValue();
@@ -247,49 +247,49 @@ public:
 
   static inline ::System::DateTimeOffset getStaticF_UnixEpoch();
 
-  /// @brief Method get_ClockDateTime, addr 0x5c2bdec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_ClockDateTime, addr 0x60449e8, size 0xd8, virtual false, abstract: false, final false
   inline ::System::DateTime get_ClockDateTime();
 
-  /// @brief Method get_DateTime, addr 0x5c2bd94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DateTime, addr 0x6044990, size 0x58, virtual false, abstract: false, final false
   inline ::System::DateTime get_DateTime();
 
-  /// @brief Method get_Day, addr 0x5c2c084, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Day, addr 0x6044c80, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Day();
 
-  /// @brief Method get_Hour, addr 0x5c2c120, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Hour, addr 0x6044d1c, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Hour();
 
-  /// @brief Method get_LocalDateTime, addr 0x5c2bf24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_LocalDateTime, addr 0x6044b20, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTime get_LocalDateTime();
 
-  /// @brief Method get_Millisecond, addr 0x5c2c1bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Millisecond, addr 0x6044db8, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Millisecond();
 
-  /// @brief Method get_Minute, addr 0x5c2c258, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Minute, addr 0x6044e54, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Minute();
 
-  /// @brief Method get_Month, addr 0x5c2c2f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Month, addr 0x6044ef0, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Month();
 
-  /// @brief Method get_Now, addr 0x5c2bd24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Now, addr 0x6044920, size 0x70, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset get_Now();
 
-  /// @brief Method get_Offset, addr 0x5c2c05c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x6044c58, size 0x28, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Offset();
 
-  /// @brief Method get_Second, addr 0x5c2c390, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Second, addr 0x6044f8c, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Second();
 
-  /// @brief Method get_Ticks, addr 0x5c2c42c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Ticks, addr 0x6045028, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_Ticks();
 
-  /// @brief Method get_TimeOfDay, addr 0x5c2c4c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_TimeOfDay, addr 0x60450c4, size 0x9c, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TimeOfDay();
 
-  /// @brief Method get_UtcDateTime, addr 0x5c2bec4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_UtcDateTime, addr 0x6044ac0, size 0x60, virtual false, abstract: false, final false
   inline ::System::DateTime get_UtcDateTime();
 
-  /// @brief Method get_Year, addr 0x5c2c564, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Year, addr 0x6045160, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Year();
 
   /// @brief Convert to "::System::IComparable"
@@ -313,16 +313,16 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-  /// @brief Method op_Equality, addr 0x5c2edc4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x60479c0, size 0xac, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::DateTimeOffset left, ::System::DateTimeOffset right);
 
-  /// @brief Method op_Implicit, addr 0x5c2ecf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x60478ec, size 0x28, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset op_Implicit___System__DateTimeOffset(::System::DateTime dateTime);
 
-  /// @brief Method op_Inequality, addr 0x5c2ee70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6047a6c, size 0xac, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::DateTimeOffset left, ::System::DateTimeOffset right);
 
-  /// @brief Method op_Subtraction, addr 0x5c2ed18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6047914, size 0xac, virtual false, abstract: false, final false
   static inline ::System::TimeSpan op_Subtraction(::System::DateTimeOffset left, ::System::DateTimeOffset right);
 
   static inline void setStaticF_MaxValue(::System::DateTimeOffset value);

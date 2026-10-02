@@ -192,7 +192,7 @@ public:
                                     int32_t _getEnumeratorRetType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -321,7 +321,7 @@ public:
   SortedList_2_SortedListKeyEnumerator(SortedList_2_SortedListKeyEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12349 };
 
   /// @brief Field _sortedList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedList_2<TKey, TValue>* ____sortedList;
@@ -441,7 +441,7 @@ public:
   SortedList_2_SortedListValueEnumerator(SortedList_2_SortedListValueEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12350 };
 
   /// @brief Field _sortedList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedList_2<TKey, TValue>* ____sortedList;
@@ -591,7 +591,7 @@ public:
   SortedList_2_KeyList(SortedList_2_KeyList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12351 };
 
   /// @brief Field _dict, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedList_2<TKey, TValue>* ____dict;
@@ -732,7 +732,7 @@ public:
   SortedList_2_ValueList(SortedList_2_ValueList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12352 };
 
   /// @brief Field _dict, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedList_2<TKey, TValue>* ____dict;
@@ -1096,7 +1096,7 @@ public:
   SortedList_2(SortedList_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12353 };
 
   /// @brief Field keys, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<TKey> ___keys;

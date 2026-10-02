@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&::System::Net::HeaderInfoTable::ParseSingleValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6415800;
+  constexpr static std::size_t addrs = 0x683dacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&::System::Net::HeaderInfoTable::ParseMultiValue)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6415868;
+  constexpr static std::size_t addrs = 0x683db34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::HeaderInfo* (::System::Net::HeaderInfoTable::*)(::StringW)>(&::System::Net::HeaderInfoTable::get_Item)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x640fd24;
+  constexpr static std::size_t addrs = 0x6837ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HeaderInfoTable*>(), { "get_Item", {}, { ::i2c::type_of<::StringW>() } })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HeaderInfoTable::*)()>(&::System::Net::HeaderInfoTable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6412240;
+  constexpr static std::size_t addrs = 0x683a50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HeaderInfoTable*>(), { ".ctor", {}, {} })));

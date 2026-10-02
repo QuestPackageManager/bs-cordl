@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::AlwaysVisibleQuad* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5f40fac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x635c738, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f40d88, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x635c514, size 0x224, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x5f40fb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635c744, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   AlwaysVisibleQuad(AlwaysVisibleQuad const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21105 };
 
   /// @brief Field _mesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;

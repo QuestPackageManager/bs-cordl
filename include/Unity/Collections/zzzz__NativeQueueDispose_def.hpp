@@ -25,7 +25,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE NativeQueueDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x64c31ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68ec344, size 0x4c, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr NativeQueueDispose(::Unity::Collections::UnsafeQueue_1<int32_t>* m_QueueData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15922 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

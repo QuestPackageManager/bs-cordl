@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentIdAttribute::*)(::StringW, ::GlobalNamespace::EnvironmentIdFilter)>(
     &::GlobalNamespace::EnvironmentIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x372f63c;
+  constexpr static std::size_t addrs = 0x39b8c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

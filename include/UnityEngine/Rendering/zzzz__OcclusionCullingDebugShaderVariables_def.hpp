@@ -41,7 +41,7 @@ public:
   constexpr OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18322 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -62,7 +62,7 @@ static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingDebugShaderVariab
 
 } // namespace UnityEngine::Rendering
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OcclusionCullingDebugShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\OcclusionCullingDebugShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 // UnityEngine.Rendering.OcclusionCullingDebugShaderVariables::<_OccluderMipBounds>e__FixedBuffer, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -86,7 +86,7 @@ public:
                                                  uint32_t _OccluderMipLayoutSizeY, uint32_t _OcclusionCullingDebugPad0, uint32_t _OcclusionCullingDebugPad1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18323 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

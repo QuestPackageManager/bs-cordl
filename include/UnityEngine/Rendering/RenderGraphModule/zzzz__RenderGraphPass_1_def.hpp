@@ -20,6 +20,7 @@ template <typename PassData> class RenderGraphPass_1;
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass_1, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphPass`1");
 // [DebuggerDisplay("RenderPass: {name} (Index:{index} Async:{enableAsyncCompute})")]
+// [Obsolete("RenderGraphPass is deprecated, use RasterRenderGraphPass/ComputeRenderGraphPass/UnsafeRenderGraphPass instead.")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.BaseRenderGraphPass`2<PassData, TRenderGraphContext>, UnityEngine.Rendering.RenderGraphModule.RenderGraphContext
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
@@ -62,7 +63,7 @@ public:
   RenderGraphPass_1(RenderGraphPass_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

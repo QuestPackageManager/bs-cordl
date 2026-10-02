@@ -37,10 +37,10 @@ namespace UnityEngine {
 class CORDL_TYPE AsyncOperation_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x6ad9a58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6f33bf8, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* ConvertToManaged(::System::IntPtr ptr);
 
-  /// @brief Method ConvertToNative, addr 0x6ada1a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f34640, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::AsyncOperation* asyncOperation);
 
 protected:
@@ -58,7 +58,7 @@ public:
   AsyncOperation_BindingsMarshaller(AsyncOperation_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -66,9 +66,9 @@ public:
 static_assert(sizeof(::UnityEngine::AsyncOperation_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [RequiredByNativeCode]
 // [NativeHeader("Runtime/Misc/AsyncOperation.h")]
 // [NativeHeader("Runtime/Export/Scripting/AsyncOperation.bindings.h")]
-// [RequiredByNativeCode]
 // Dependencies System.IntPtr, UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
@@ -92,21 +92,21 @@ public:
 
   __declspec(property(get = get_progress)) float_t progress;
 
-  /// @brief Method Finalize, addr 0x6ad9f88, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f34428, size 0x74, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// [StaticAccessor("AsyncOperationBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method InternalDestroy, addr 0x6ad9c24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x6f340c8, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(::System::IntPtr ptr);
 
-  /// [StaticAccessor("AsyncOperationBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method InternalSetManagedObject, addr 0x6ad9c60, size 0x44, virtual false, abstract: false, final false
-  static inline void InternalSetManagedObject(::System::IntPtr ptr, /* [Unmarshalled] */ ::UnityEngine::AsyncOperation* self);
+  /// [StaticAccessor("AsyncOperationBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+  /// @brief Method InternalSetManagedObject, addr 0x6f34104, size 0x44, virtual false, abstract: false, final false
+  static inline void InternalSetManagedObject(::System::IntPtr ptr, /* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::UnityEngine::AsyncOperation* self);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeCompletionEvent, addr 0x6ad9ffc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InvokeCompletionEvent, addr 0x6f3449c, size 0x30, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
   static inline ::UnityEngine::AsyncOperation* New_ctor();
@@ -125,51 +125,51 @@ public:
 
   constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method .ctor, addr 0x6ad9ca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f34148, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ad8bc8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f32c34, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method add_completed, addr 0x6ada02c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method add_completed, addr 0x6f344cc, size 0xd4, virtual false, abstract: false, final false
   inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
   /// [NativeMethod("GetAllowSceneActivation")]
-  /// @brief Method get_allowSceneActivation, addr 0x6ad9e60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_allowSceneActivation, addr 0x6f34300, size 0x50, virtual false, abstract: false, final false
   inline bool get_allowSceneActivation();
 
-  /// @brief Method get_allowSceneActivation_Injected, addr 0x6ad9eb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowSceneActivation_Injected, addr 0x6f34350, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_allowSceneActivation_Injected(::System::IntPtr _unity_self);
 
   /// [NativeMethod("IsDone")]
-  /// @brief Method get_isDone, addr 0x6ad9cac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x6f3414c, size 0x50, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_isDone_Injected, addr 0x6ad9cfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isDone_Injected, addr 0x6f3419c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isDone_Injected(::System::IntPtr _unity_self);
 
   /// [NativeMethod("GetProgress")]
-  /// @brief Method get_progress, addr 0x6ad9d38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x6f341d8, size 0x50, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method get_progress_Injected, addr 0x6ad9d88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_progress_Injected, addr 0x6f34228, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_progress_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method remove_completed, addr 0x6ada100, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_completed, addr 0x6f345a0, size 0xa0, virtual false, abstract: false, final false
   inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
   /// [NativeMethod("SetAllowSceneActivation")]
-  /// @brief Method set_allowSceneActivation, addr 0x6ad9eec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_allowSceneActivation, addr 0x6f3438c, size 0x58, virtual false, abstract: false, final false
   inline void set_allowSceneActivation(bool value);
 
-  /// @brief Method set_allowSceneActivation_Injected, addr 0x6ad9f44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowSceneActivation_Injected, addr 0x6f343e4, size 0x44, virtual false, abstract: false, final false
   static inline void set_allowSceneActivation_Injected(::System::IntPtr _unity_self, bool value);
 
   /// [NativeMethod("SetPriority")]
-  /// @brief Method set_priority, addr 0x6ad9dc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x6f34264, size 0x58, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
-  /// @brief Method set_priority_Injected, addr 0x6ad9e1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority_Injected, addr 0x6f342bc, size 0x44, virtual false, abstract: false, final false
   static inline void set_priority_Injected(::System::IntPtr _unity_self, int32_t value);
 
 protected:
@@ -187,9 +187,9 @@ public:
   AsyncOperation(AsyncOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9886 };
 
-  /// [VisibleToOtherModules(new[] { "UnityEngine.AssetBundleModule" })]
+  /// [VisibleToOtherModules]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

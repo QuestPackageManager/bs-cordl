@@ -23,15 +23,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConfigSerializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadConfig, addr 0x58555fc, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method LoadConfig, addr 0x5c6b380, size 0x498, virtual false, abstract: false, final false
   static inline bool LoadConfig(::System::Object* config, ::StringW filePath);
 
   static inline ::GlobalNamespace::ConfigSerializer* New_ctor();
 
-  /// @brief Method SaveConfig, addr 0x5855234, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method SaveConfig, addr 0x5c6afb8, size 0x3c8, virtual false, abstract: false, final false
   static inline void SaveConfig(::System::Object* config, ::StringW filePath);
 
-  /// @brief Method .ctor, addr 0x5855a94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6b818, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   ConfigSerializer(ConfigSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

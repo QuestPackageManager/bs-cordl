@@ -16,6 +16,9 @@ class RasterCommandBuffer;
 namespace UnityEngine {
 class Camera;
 }
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
 class XRSystemUniversal;
@@ -30,22 +33,32 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE XRSystemUniversal : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field s_XRSharedPropertyBlock, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_XRSharedPropertyBlock, put = setStaticF_s_XRSharedPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* s_XRSharedPropertyBlock;
+
   /// @brief Field s_projMatrix, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_projMatrix, put = setStaticF_s_projMatrix)) ::ArrayW<::UnityEngine::Matrix4x4> s_projMatrix;
 
-  /// @brief Method BeginLateLatching, addr 0x68e8d50, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BeginLateLatching, addr 0x6d122f4, size 0xdc, virtual false, abstract: false, final false
   static inline void BeginLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method EndLateLatching, addr 0x68e8e2c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EndLateLatching, addr 0x6d123d0, size 0xc8, virtual false, abstract: false, final false
   static inline void EndLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method MarkShaderProperties, addr 0x68e8f80, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialPropertyBlock, addr 0x6d12298, size 0x5c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::MaterialPropertyBlock* GetMaterialPropertyBlock();
+
+  /// @brief Method MarkShaderProperties, addr 0x6d12524, size 0x240, virtual false, abstract: false, final false
   static inline void MarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass, bool renderIntoTexture);
 
-  /// @brief Method UnmarkShaderProperties, addr 0x68e8ef4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UnmarkShaderProperties, addr 0x6d12498, size 0x8c, virtual false, abstract: false, final false
   static inline void UnmarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
+  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF_s_XRSharedPropertyBlock();
+
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_projMatrix();
+
+  static inline void setStaticF_s_XRSharedPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
   static inline void setStaticF_s_projMatrix(::ArrayW<::UnityEngine::Matrix4x4> value);
 
@@ -64,7 +77,7 @@ public:
   XRSystemUniversal(XRSystemUniversal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable___c::*)()>(&::TMPro::TMP_FontFeatureTable___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x695f9f8;
+  constexpr static std::size_t addrs = 0x6d66700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f9fc;
+  constexpr static std::size_t addrs = 0x6d66704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695fa04;
+  constexpr static std::size_t addrs = 0x6d6670c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::MarkToBaseAdjustmentRecord)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695fa0c;
+  constexpr static std::size_t addrs = 0x6d66714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::MarkToBaseAdjustmentRecord)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695fa14;
+  constexpr static std::size_t addrs = 0x6d6671c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::MarkToMarkAdjustmentRecord)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695fa1c;
+  constexpr static std::size_t addrs = 0x6d66724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::MarkToMarkAdjustmentRecord)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695fa24;
+  constexpr static std::size_t addrs = 0x6d6672c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::MultipleSubstitutionRecord>* (::TMPro::TMP_FontFeatureTable::*)()>(
     &::TMPro::TMP_FontFeatureTable::get_multipleSubstitutionRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f04c;
+  constexpr static std::size_t addrs = 0x6d65d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "get_multipleSubstitutionRecords", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(::System::Collections::Generic::List_1<::TMPro::MultipleSubstitutionRecord>*)>(
     &::TMPro::TMP_FontFeatureTable::set_multipleSubstitutionRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f054;
+  constexpr static std::size_t addrs = 0x6d65d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::LigatureSubstitutionRecord>* (::TMPro::TMP_FontFeatureTable::*)()>(
     &::TMPro::TMP_FontFeatureTable::get_ligatureRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f05c;
+  constexpr static std::size_t addrs = 0x6d65d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "get_ligatureRecords", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(::System::Collections::Generic::List_1<::TMPro::LigatureSubstitutionRecord>*)>(
     &::TMPro::TMP_FontFeatureTable::set_ligatureRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f064;
+  constexpr static std::size_t addrs = 0x6d65d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* (::TMPro::TMP_FontFeatureTable::*)()>(
     &::TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f06c;
+  constexpr static std::size_t addrs = 0x6d65d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "get_glyphPairAdjustmentRecords", {}, {} })));
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*)>(
     &::TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f074;
+  constexpr static std::size_t addrs = 0x6d65d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::MarkToBaseAdjustmentRecord>* (::TMPro::TMP_FontFeatureTable::*)()>(
     &::TMPro::TMP_FontFeatureTable::get_MarkToBaseAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f07c;
+  constexpr static std::size_t addrs = 0x6d65d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "get_MarkToBaseAdjustmentRecords", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(::System::Collections::Generic::List_1<::TMPro::MarkToBaseAdjustmentRecord>*)>(
     &::TMPro::TMP_FontFeatureTable::set_MarkToBaseAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f084;
+  constexpr static std::size_t addrs = 0x6d65d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::MarkToMarkAdjustmentRecord>* (::TMPro::TMP_FontFeatureTable::*)()>(
     &::TMPro::TMP_FontFeatureTable::get_MarkToMarkAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f08c;
+  constexpr static std::size_t addrs = 0x6d65d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "get_MarkToMarkAdjustmentRecords", {}, {} })));
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(::System::Collections::Generic::List_1<::TMPro::MarkToMarkAdjustmentRecord>*)>(
     &::TMPro::TMP_FontFeatureTable::set_MarkToMarkAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695f094;
+  constexpr static std::size_t addrs = 0x6d65d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::_ctor)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x695f09c;
+  constexpr static std::size_t addrs = 0x6d65da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { ".ctor", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x695f398;
+  constexpr static std::size_t addrs = 0x6d660a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "SortGlyphPairAdjustmentRecords", {}, {} })));
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::SortMarkToBaseAdjustmentRecords)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x695f59c;
+  constexpr static std::size_t addrs = 0x6d662a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "SortMarkToBaseAdjustmentRecords", {}, {} })));
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::SortMarkToMarkAdjustmentRecords)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x695f7a0;
+  constexpr static std::size_t addrs = 0x6d664a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontFeatureTable*>(), { "SortMarkToMarkAdjustmentRecords", {}, {} })));

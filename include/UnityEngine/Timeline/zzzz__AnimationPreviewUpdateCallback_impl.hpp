@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)(::UnityEngine::Animations::AnimationPlayableOutput)>(
     &::UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69ae270;
+  constexpr static std::size_t addrs = 0x6dd5e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(&::UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x69ae330;
+  constexpr static std::size_t addrs = 0x6dd5ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>(), { "Evaluate", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(
     &::UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x69ae4f0;
+  constexpr static std::size_t addrs = 0x6dd608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

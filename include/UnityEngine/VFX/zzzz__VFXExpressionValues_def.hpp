@@ -36,7 +36,7 @@ namespace UnityEngine::VFX {
 class CORDL_TYPE VFXExpressionValues_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6e2cb24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x72c84a4, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::VFX::VFXExpressionValues* vFXExpressionValues);
 
 protected:
@@ -54,7 +54,7 @@ public:
   VFXExpressionValues_BindingsMarshaller(VFXExpressionValues_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -62,8 +62,8 @@ public:
 static_assert(sizeof(::UnityEngine::VFX::VFXExpressionValues_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
-// [NativeType(Header = "Modules/VFX/Public/VFXExpressionValues.h")]
 // [RequiredByNativeCode]
+// [NativeType(Header = "Modules/VFX/Public/VFXExpressionValues.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -77,47 +77,47 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateExpressionValuesWrapper, addr 0x6e2c790, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateExpressionValuesWrapper, addr 0x72c8110, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXExpressionValues* CreateExpressionValuesWrapper(::System::IntPtr ptr);
 
-  /// [NativeName("GetValueFromScript<bool>")]
   /// [NativeThrows]
-  /// @brief Method GetBool, addr 0x6e2c7e8, size 0x58, virtual false, abstract: false, final false
+  /// [NativeName("GetValueFromScript<bool>")]
+  /// @brief Method GetBool, addr 0x72c8168, size 0x58, virtual false, abstract: false, final false
   inline bool GetBool(int32_t nameID);
 
-  /// @brief Method GetBool_Injected, addr 0x6e2c840, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBool_Injected, addr 0x72c81c0, size 0x44, virtual false, abstract: false, final false
   static inline bool GetBool_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// [NativeName("GetValueFromScript<float>")]
   /// [NativeThrows]
-  /// @brief Method GetFloat, addr 0x6e2c9bc, size 0x58, virtual false, abstract: false, final false
+  /// [NativeName("GetValueFromScript<float>")]
+  /// @brief Method GetFloat, addr 0x72c833c, size 0x58, virtual false, abstract: false, final false
   inline float_t GetFloat(int32_t nameID);
 
-  /// @brief Method GetFloat_Injected, addr 0x6e2ca14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFloat_Injected, addr 0x72c8394, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetFloat_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// [NativeName("GetValueFromScript<int>")]
   /// [NativeThrows]
-  /// @brief Method GetInt, addr 0x6e2c884, size 0x58, virtual false, abstract: false, final false
+  /// [NativeName("GetValueFromScript<int>")]
+  /// @brief Method GetInt, addr 0x72c8204, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetInt(int32_t nameID);
 
-  /// @brief Method GetInt_Injected, addr 0x6e2c8dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInt_Injected, addr 0x72c825c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetInt_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// [NativeName("GetValueFromScript<UInt32>")]
   /// [NativeThrows]
-  /// @brief Method GetUInt, addr 0x6e2c920, size 0x58, virtual false, abstract: false, final false
+  /// [NativeName("GetValueFromScript<UInt32>")]
+  /// @brief Method GetUInt, addr 0x72c82a0, size 0x58, virtual false, abstract: false, final false
   inline uint32_t GetUInt(int32_t nameID);
 
-  /// @brief Method GetUInt_Injected, addr 0x6e2c978, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetUInt_Injected, addr 0x72c82f8, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetUInt_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
   /// [NativeThrows]
   /// [NativeName("GetValueFromScript<Vector3f>")]
-  /// @brief Method GetVector3, addr 0x6e2ca58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetVector3, addr 0x72c83d8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetVector3(int32_t nameID);
 
-  /// @brief Method GetVector3_Injected, addr 0x6e2cad0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetVector3_Injected, addr 0x72c8450, size 0x54, virtual false, abstract: false, final false
   static inline void GetVector3_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector3> ret);
 
   static inline ::UnityEngine::VFX::VFXExpressionValues* New_ctor();
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6e2c78c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c810c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +146,7 @@ public:
   VFXExpressionValues(VFXExpressionValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22909 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

@@ -87,13 +87,13 @@ public:
 
   __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
-  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5f4f328, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method BindAndFetchTempTextureHandles, addr 0x636b3c4, size 0x58, virtual true, abstract: false, final false
   inline void BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                              ::UnityEngine::RenderTextureDescriptor destDesc, ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x5f4f380, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x636b41c, size 0x7c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures);
 
@@ -175,10 +175,10 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
-  /// @brief Method .ctor, addr 0x5f4f3fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636b498, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_toneMapping, addr 0x5f4f314, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x636b3b0, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
 protected:
@@ -196,7 +196,7 @@ public:
   BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21188 };
 
   /// [Space]
   /// [SerializeField]

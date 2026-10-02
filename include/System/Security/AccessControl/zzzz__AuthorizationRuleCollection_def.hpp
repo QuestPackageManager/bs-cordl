@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::AuthorizationRuleCollection* New_ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*> rules);
 
-  /// @brief Method .ctor, addr 0x5b1cbac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f34aa4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*> rules);
 
 protected:

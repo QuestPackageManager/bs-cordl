@@ -52,19 +52,19 @@ public:
   /// @brief Field lastEncodingItem, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_lastEncodingItem, put = setStaticF_lastEncodingItem)) int32_t lastEncodingItem;
 
-  /// @brief Method ENC, addr 0x5bd3268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ENC, addr 0x5feb530, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp);
 
-  /// @brief Method GetCodePageDataItem, addr 0x5bd922c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageDataItem, addr 0x5ff14f4, size 0x2d4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CodePageDataItem* GetCodePageDataItem(int32_t codepage);
 
-  /// @brief Method GetCodePageFromName, addr 0x5bd8f88, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageFromName, addr 0x5ff1250, size 0x2a4, virtual false, abstract: false, final false
   static inline int32_t GetCodePageFromName(::StringW name);
 
-  /// @brief Method GetNumEncodingItems, addr 0x5bd3200, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetNumEncodingItems, addr 0x5feb4c8, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetNumEncodingItems();
 
-  /// @brief Method MapCodePageDataItem, addr 0x5bd3270, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MapCodePageDataItem, addr 0x5feb538, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags);
 
   static inline ::ArrayW<::System::Globalization::InternalCodePageDataItem> getStaticF_codePageDataPtr();
@@ -77,7 +77,7 @@ public:
 
   static inline int32_t getStaticF_lastEncodingItem();
 
-  /// @brief Method internalGetCodePageFromName, addr 0x5bd8d30, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method internalGetCodePageFromName, addr 0x5ff0ff8, size 0x238, virtual false, abstract: false, final false
   static inline int32_t internalGetCodePageFromName(::StringW name);
 
   static inline void setStaticF_codePageDataPtr(::ArrayW<::System::Globalization::InternalCodePageDataItem> value);

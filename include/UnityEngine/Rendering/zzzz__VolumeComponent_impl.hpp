@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/VolumeComponent.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeParameter_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
@@ -17,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent_Indent::*)(int32_t)>(&::UnityEngine::Rendering::VolumeComponent_Indent::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67cc610;
+  constexpr static std::size_t addrs = 0x6bea630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent___c::*)()>(&::UnityEngine::Rendering::VolumeComponent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67cc670;
+  constexpr static std::size_t addrs = 0x6bea690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent___c*>(), { ".ctor", {}, {} })));
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VolumeComponent___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::Rendering::VolumeComponent___c::_FindParameters_b__10_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67cc674;
+  constexpr static std::size_t addrs = 0x6bea694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent___c*>(),
@@ -107,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67cb358;
+  constexpr static std::size_t addrs = 0x6be95f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "get_displayName", {}, {} })));
@@ -119,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::StringW)>(&::UnityEngine::Rendering::VolumeComponent::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67cb360;
+  constexpr static std::size_t addrs = 0x6be9600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* (
     ::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::get_parameters)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67cb368;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6be9608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "get_parameters", {}, {} })));
@@ -145,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*,
                                                                 ::System::Func_2<::System::Reflection::FieldInfo*, bool>*)>(&::UnityEngine::Rendering::VolumeComponent::FindParameters)> {
-  constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x67cb3cc;
+  constexpr static std::size_t size = 0x5f4;
+  constexpr static std::size_t addrs = 0x6be968c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,8 +163,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::OnEnable)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x67cba08;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x6be9c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,8 +176,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::OnDisable)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x67cbc1c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6be9e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::UnityEngine::Rendering::VolumeComponent*, float_t)>(
     &::UnityEngine::Rendering::VolumeComponent::Override)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x67cbd20;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6be9ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(bool)>(&::UnityEngine::Rendering::VolumeComponent::SetAllOverridesTo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67cbe50;
+  constexpr static std::size_t addrs = 0x6be9fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*,
                                                                                                            bool)>(&::UnityEngine::Rendering::VolumeComponent::SetOverridesTo)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x67cbe60;
+  constexpr static std::size_t addrs = 0x6be9fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,28 +228,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.GetHashCode
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::GetHashCode)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67cc350;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { ::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), 2 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.AnyPropertiesIsOverridden
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::AnyPropertiesIsOverridden)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x67cc404;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6bea4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "AnyPropertiesIsOverridden", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponent.GetStateHash
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::GetStateHash)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6bea53c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "GetStateHash", {}, {} })));
     return ___internal_method;
   }
 };
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67cc4b4;
+  constexpr static std::size_t addrs = 0x6bea5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,8 +269,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::Release)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67cc4b8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6bea5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "Release", {}, {} })));
@@ -281,8 +281,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponent::*)()>(&::UnityEngine::Rendering::VolumeComponent::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67cc56c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6bea620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { ".ctor", {}, {} })));
@@ -313,15 +313,15 @@ constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set__di
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____displayName_k__BackingField = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>*& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList() {
+constexpr ::ArrayW<::UnityEngine::Rendering::VolumeParameter*>& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameterList;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* const& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList() const {
+constexpr ::ArrayW<::UnityEngine::Rendering::VolumeParameter*> const& UnityEngine::Rendering::VolumeComponent::__cordl_internal_get_parameterList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameterList;
 }
-constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_parameterList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* value) {
+constexpr void UnityEngine::Rendering::VolumeComponent::__cordl_internal_set_parameterList(::ArrayW<::UnityEngine::Rendering::VolumeParameter*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parameterList = value;
 }
@@ -387,13 +387,13 @@ inline void UnityEngine::Rendering::VolumeComponent::SetOverridesTo(::System::Co
                           { "SetOverridesTo", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, enumerable, state);
 }
-inline int32_t UnityEngine::Rendering::VolumeComponent::GetHashCode() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), 2 })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
-}
 inline bool UnityEngine::Rendering::VolumeComponent::AnyPropertiesIsOverridden() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "AnyPropertiesIsOverridden", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t UnityEngine::Rendering::VolumeComponent::GetStateHash() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), { "GetStateHash", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::VolumeComponent::OnDestroy() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::VolumeComponent*>(), 7 })));

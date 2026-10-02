@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::ColorPickerButtonController* New_ctor();
 
-  /// @brief Method SetColor, addr 0x5a2ed10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5e465c8, size 0x24, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__colorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5a2ed34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e465ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x5a2ed08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x5e465c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ColorPickerButtonController(ColorPickerButtonController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24074 };
 
   /// [SerializeField]
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None

@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t, bool)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::EncodeGPUInstanceIndexAndCrossFade)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x681803c;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6c49ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawCommandOutputPerBatch>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6818108;
+  constexpr static std::size_t addrs = 0x6c49fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,12 +44,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawCommandOutputPerBatch.IsMeshLodVisible
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t, int32_t, bool, ::by_ref<bool>)>(
+    &::UnityEngine::Rendering::DrawCommandOutputPerBatch::IsMeshLodVisible)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6c4a084;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawCommandOutputPerBatch>(),
+                                                { "IsMeshLodVisible", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<bool>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::DrawCommandOutputPerBatch.Execute
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::DrawCommandOutputPerBatch::Execute)> {
-  constexpr static std::size_t size = 0x744;
-  constexpr static std::size_t addrs = 0x68181a8;
+  constexpr static std::size_t size = 0x7b8;
+  constexpr static std::size_t addrs = 0x6c4a0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,6 +81,12 @@ inline bool UnityEngine::Rendering::DrawCommandOutputPerBatch::IsInstanceFlipped
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawCommandOutputPerBatch>(), { "IsInstanceFlipped", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, rendererIndex);
+}
+inline bool UnityEngine::Rendering::DrawCommandOutputPerBatch::IsMeshLodVisible(int32_t batchLodLevel, int32_t rendererIndex, bool supportsCrossFade, ::by_ref<bool> negateCrossfade) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawCommandOutputPerBatch>(),
+                                              { "IsMeshLodVisible", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<bool>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, batchLodLevel, rendererIndex, supportsCrossFade, negateCrossfade);
 }
 inline void UnityEngine::Rendering::DrawCommandOutputPerBatch::Execute(int32_t batchIndex) {
   static auto* ___internal_method =
@@ -86,26 +107,26 @@ constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::DrawCommandOut
 // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInstanceIndices", ty:
 // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment:
-// None }, CppParam { name: "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchBinCounts", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchDrawCommandOffsets", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binVisibleInstanceOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "cullingOutput", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "indirectBufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstancesBufferHandle", ty:
-// "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectArgsBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "indirectBufferAllocInfo", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "indirectInstanceInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "",
-// def_value: Some("{}"), comment: None }]
+// None }, CppParam { name: "rendererMeshLodSettings", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchBinAllocOffsets", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchDrawCommandOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binVisibleInstanceOffsets",
+// ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binVisibleInstanceCounts", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingOutput", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectBufferLimits", ty:
+// "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstancesBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectArgsBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "indirectBufferAllocInfo", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "indirectDrawInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "indirectInstanceInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DrawCommandOutputPerBatch::DrawCommandOutputPerBatch(
     ::UnityEngine::Rendering::BinningConfig binningConfig, ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs,
     ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly instanceDataBuffer, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches,
     ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices, ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData,
-    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues,
-    ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets, ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts,
-    ::Unity::Collections::NativeArray_1<int32_t> batchDrawCommandOffsets, ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices,
+    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings,
+    ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues, ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets,
+    ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts, ::Unity::Collections::NativeArray_1<int32_t> batchDrawCommandOffsets, ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices,
     ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceOffsets, ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> cullingOutput, ::UnityEngine::Rendering::IndirectBufferLimits indirectBufferLimits,
     ::UnityEngine::GraphicsBufferHandle visibleInstancesBufferHandle, ::UnityEngine::GraphicsBufferHandle indirectArgsBufferHandle,
@@ -119,6 +140,7 @@ constexpr ::UnityEngine::Rendering::DrawCommandOutputPerBatch::DrawCommandOutput
   this->drawInstanceIndices = drawInstanceIndices;
   this->instanceData = instanceData;
   this->rendererVisibilityMasks = rendererVisibilityMasks;
+  this->rendererMeshLodSettings = rendererMeshLodSettings;
   this->rendererCrossFadeValues = rendererCrossFadeValues;
   this->batchBinAllocOffsets = batchBinAllocOffsets;
   this->batchBinCounts = batchBinCounts;

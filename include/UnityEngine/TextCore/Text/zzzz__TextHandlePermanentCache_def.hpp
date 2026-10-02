@@ -12,10 +12,10 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::TextCore::Text {
-class TextHandle;
+struct TextCacheEntry;
 }
 namespace UnityEngine::TextCore::Text {
-class TextInfo;
+class TextHandle;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -32,35 +32,37 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextHandlePermanentCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_TextInfoPool, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_s_TextInfoPool,
-                      put = __cordl_internal_set_s_TextInfoPool)) ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* s_TextInfoPool;
+  /// @brief Field s_Cache, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_s_Cache, put = __cordl_internal_set_s_Cache)) ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* s_Cache;
 
   /// @brief Field syncRoot, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_syncRoot, put = __cordl_internal_set_syncRoot)) ::System::Object* syncRoot;
 
-  /// @brief Method AddTextInfoToCache, addr 0x6c10a58, size 0x234, virtual true, abstract: false, final false
-  inline void AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
+  /// @brief Method AddToCache, addr 0x7063c34, size 0x290, virtual false, abstract: false, final false
+  inline void AddToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
   static inline ::UnityEngine::TextCore::Text::TextHandlePermanentCache* New_ctor();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method RemoveTextInfoFromCache, addr 0x6c10c8c, size 0x12c, virtual false, abstract: false, final false
-  inline void RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
+  /// @brief Method RemoveFromCache, addr 0x7064050, size 0x15c, virtual false, abstract: false, final false
+  inline void RemoveFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* const& __cordl_internal_get_s_TextInfoPool() const;
+  /// @brief Method ResetEntryState, addr 0x70641ac, size 0x34, virtual false, abstract: false, final false
+  inline void ResetEntryState(::UnityEngine::TextCore::Text::TextHandle* handle);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>*& __cordl_internal_get_s_TextInfoPool();
+  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* const& __cordl_internal_get_s_Cache() const;
+
+  constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*& __cordl_internal_get_s_Cache();
 
   constexpr ::System::Object* const& __cordl_internal_get_syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get_syncRoot();
 
-  constexpr void __cordl_internal_set_s_TextInfoPool(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* value);
+  constexpr void __cordl_internal_set_s_Cache(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* value);
 
   constexpr void __cordl_internal_set_syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6c10db8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x706424c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,10 +80,10 @@ public:
   TextHandlePermanentCache(TextHandlePermanentCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17868 };
 
-  /// @brief Field s_TextInfoPool, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* ___s_TextInfoPool;
+  /// @brief Field s_Cache, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* ___s_Cache;
 
   /// @brief Field syncRoot, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___syncRoot;
@@ -89,7 +91,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandlePermanentCache, ___s_TextInfoPool) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandlePermanentCache, ___s_Cache) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandlePermanentCache, ___syncRoot) == 0x18, "Offset mismatch!");
 

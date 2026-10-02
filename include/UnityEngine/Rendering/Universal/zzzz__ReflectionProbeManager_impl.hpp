@@ -90,6 +90,12 @@ inline void UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProp
 inline int32_t UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties::getStaticF_Atlas() {
   return ::cordl_internals::getStaticField<int32_t, "Atlas", ::UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties*>();
 }
+inline void UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties::setStaticF_Rotation(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "Rotation", ::UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties::getStaticF_Rotation() {
+  return ::cordl_internals::getStaticField<int32_t, "Rotation", ::UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties*>();
+}
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeManager_ShaderProperties::ReflectionProbeManager_ShaderProperties() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ReflectionProbeManager.get_atlasRT
@@ -98,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::get_atlasRT)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68abbbc;
+  constexpr static std::size_t addrs = 0x6ce2db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "get_atlasRT", {}, {} })));
@@ -111,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::get_atlasRTHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68abbc4;
+  constexpr static std::size_t addrs = 0x6ce2dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ReflectionProbeManager (*)()>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::Create)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68abbcc;
+  constexpr static std::size_t addrs = 0x6ce2dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "Create", {}, {} })));
@@ -135,8 +141,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::Init)> {
-  constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x68abc0c;
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x6ce2e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "Init", {}, {} })));
@@ -148,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::CullingResults>)>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::UpdateGpuData)> {
-  constexpr static std::size_t size = 0x1738;
-  constexpr static std::size_t addrs = 0x68ac098;
+  constexpr static std::size_t size = 0x181c;
+  constexpr static std::size_t addrs = 0x6ce3264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)(int32_t, int32_t, bool, bool)>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::GetScaleOffset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x68ad7d0;
+  constexpr static std::size_t addrs = 0x6ce4a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,8 +185,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::Dispose)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x68ad8c4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6ce4b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "Dispose", {}, {} })));
@@ -238,14 +244,15 @@ constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::ReflectionPr
 // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NeedsRemove", ty: "::System::Collections::Generic::List_1<int32_t>*",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoxMax", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
 // "m_BoxMin", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ProbePosition", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }]
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Rotations", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeManager::ReflectionProbeManager(
     ::Unity::Mathematics::int2 m_Resolution, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture0, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture1,
     ::UnityEngine::Rendering::RTHandle* m_AtlasTexture0Handle, ::UnityEngine::Rendering::Universal::BuddyAllocator m_AtlasAllocator,
     ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>* m_Cache,
     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_WarningCache, ::System::Collections::Generic::List_1<int32_t>* m_NeedsUpdate,
     ::System::Collections::Generic::List_1<int32_t>* m_NeedsRemove, ::ArrayW<::UnityEngine::Vector4> m_BoxMax, ::ArrayW<::UnityEngine::Vector4> m_BoxMin,
-    ::ArrayW<::UnityEngine::Vector4> m_ProbePosition, ::ArrayW<::UnityEngine::Vector4> m_MipScaleOffset) noexcept {
+    ::ArrayW<::UnityEngine::Vector4> m_ProbePosition, ::ArrayW<::UnityEngine::Vector4> m_MipScaleOffset, ::ArrayW<::UnityEngine::Vector4> m_Rotations) noexcept {
   this->m_Resolution = m_Resolution;
   this->m_AtlasTexture0 = m_AtlasTexture0;
   this->m_AtlasTexture1 = m_AtlasTexture1;
@@ -259,6 +266,7 @@ constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeManager::Reflectio
   this->m_BoxMin = m_BoxMin;
   this->m_ProbePosition = m_ProbePosition;
   this->m_MipScaleOffset = m_MipScaleOffset;
+  this->m_Rotations = m_Rotations;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeManager::ReflectionProbeManager() {}

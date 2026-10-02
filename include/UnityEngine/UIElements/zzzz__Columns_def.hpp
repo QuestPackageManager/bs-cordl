@@ -173,7 +173,7 @@ public:
   static ::UnityEngine::UIElements::Columns_StretchMode const GrowAndFill;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -219,7 +219,7 @@ public:
   Columns_UxmlObjectFactory_1(Columns_UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -235,7 +235,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Columns_UxmlObjectFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d5ca70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ec320, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,7 +253,7 @@ public:
   Columns_UxmlObjectFactory(Columns_UxmlObjectFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -350,7 +350,7 @@ public:
   Columns_UxmlObjectTraits_1(Columns_UxmlObjectTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4269 };
 
   /// @brief Field m_PrimaryColumnName, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_PrimaryColumnName;
@@ -390,10 +390,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Columns___c* New_ctor();
 
-  /// @brief Method <UpdateVisibleColumns>b__87_0, addr 0x6d5cb3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <UpdateVisibleColumns>b__87_0, addr 0x71ec3ec, size 0x14, virtual false, abstract: false, final false
   inline bool _UpdateVisibleColumns_b__87_0(::UnityEngine::UIElements::Column* c);
 
-  /// @brief Method .ctor, addr 0x6d5cb38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ec3e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Columns___c* getStaticF___9();
@@ -419,7 +419,7 @@ public:
   Columns___c(Columns___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -553,66 +553,66 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyBindablePropertyChanged"
   constexpr operator ::UnityEngine::UIElements::INotifyBindablePropertyChanged*() noexcept;
 
-  /// @brief Method Add, addr 0x6d5b2c0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x71eab70, size 0xc0, virtual true, abstract: false, final true
   inline void Add(::UnityEngine::UIElements::Column* item);
 
-  /// @brief Method Clear, addr 0x6d5b638, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x71eaee8, size 0x1a4, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x6d5ba58, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x71eb308, size 0xb8, virtual true, abstract: false, final true
   inline bool Contains(::UnityEngine::UIElements::Column* item);
 
-  /// @brief Method Contains, addr 0x6d5bb10, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x71eb3c0, size 0x2f4, virtual false, abstract: false, final false
   inline bool Contains(::StringW name);
 
-  /// @brief Method CopyTo, addr 0x6d5be04, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x71eb6b4, size 0xc0, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::UnityEngine::UIElements::Column*> array, int32_t arrayIndex);
 
-  /// @brief Method DirtyVisibleColumns, addr 0x6d5c180, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DirtyVisibleColumns, addr 0x71eba30, size 0x7c, virtual false, abstract: false, final false
   inline void DirtyVisibleColumns();
 
-  /// @brief Method GetEnumerator, addr 0x6d58060, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x71e7a00, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::Column*>* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x6d54294, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x71e3638, size 0xb8, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method InitOrderColumns, addr 0x6d5a808, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InitOrderColumns, addr 0x71ea0b8, size 0x80, virtual false, abstract: false, final false
   inline void InitOrderColumns();
 
-  /// @brief Method Insert, addr 0x6d5b380, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x71eac30, size 0x2b8, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method IsPrimary, addr 0x6d5b258, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsPrimary, addr 0x71eab08, size 0x64, virtual false, abstract: false, final false
   inline bool IsPrimary(::UnityEngine::UIElements::Column* column);
 
   static inline ::UnityEngine::UIElements::Columns* New_ctor();
 
-  /// @brief Method NotifyChange, addr 0x6d5a524, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyChange, addr 0x71e9dd4, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyChange(::UnityEngine::UIElements::ColumnsDataType type);
 
-  /// @brief Method NotifyPropertyChanged, addr 0x6d5a540, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyPropertyChanged, addr 0x71e9df0, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
 
-  /// @brief Method OnColumnChanged, addr 0x6d5c128, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnColumnChanged, addr 0x71eb9d8, size 0x58, virtual false, abstract: false, final false
   inline void OnColumnChanged(::UnityEngine::UIElements::Column* column, ::UnityEngine::UIElements::ColumnDataType type);
 
-  /// @brief Method OnColumnResized, addr 0x6d5c1fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnColumnResized, addr 0x71ebaac, size 0x1c, virtual false, abstract: false, final false
   inline void OnColumnResized(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnColumnsPropertyChanged, addr 0x6d5bec4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method OnColumnsPropertyChanged, addr 0x71eb774, size 0x264, virtual false, abstract: false, final false
   inline void OnColumnsPropertyChanged(::System::Object* sender, ::UnityEngine::UIElements::BindablePropertyChangedEventArgs args);
 
-  /// @brief Method Remove, addr 0x6d5b7dc, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x71eb08c, size 0x27c, virtual true, abstract: false, final true
   inline bool Remove(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method ReorderDisplay, addr 0x6d5c5b4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReorderDisplay, addr 0x71ebe64, size 0x110, virtual false, abstract: false, final false
   inline void ReorderDisplay(int32_t from, int32_t to);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6d5b2bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x71eab6c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method UpdateVisibleColumns, addr 0x6d5a888, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibleColumns, addr 0x71ea138, size 0x23c, virtual false, abstract: false, final false
   inline void UpdateVisibleColumns();
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::ColumnsDataType>* const& __cordl_internal_get_changed() const;
@@ -711,35 +711,35 @@ public:
 
   constexpr void __cordl_internal_set_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
-  /// @brief Method .ctor, addr 0x6d5c6c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ebf74, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_changed, addr 0x6d5aac4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x71ea374, size 0xc0, virtual false, abstract: false, final false
   inline void add_changed(::System::Action_1<::UnityEngine::UIElements::ColumnsDataType>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_columnAdded, addr 0x6d56670, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_columnAdded, addr 0x71e5a28, size 0xc0, virtual false, abstract: false, final false
   inline void add_columnAdded(::System::Action_2<::UnityEngine::UIElements::Column*, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_columnChanged, addr 0x6d5ae98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_columnChanged, addr 0x71ea748, size 0xc0, virtual false, abstract: false, final false
   inline void add_columnChanged(::System::Action_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_columnRemoved, addr 0x6d56730, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_columnRemoved, addr 0x71e5ae8, size 0xc0, virtual false, abstract: false, final false
   inline void add_columnRemoved(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_columnReordered, addr 0x6d567f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_columnReordered, addr 0x71e5ba8, size 0xc0, virtual false, abstract: false, final false
   inline void add_columnReordered(::System::Action_3<::UnityEngine::UIElements::Column*, int32_t, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_columnResized, addr 0x6d5b018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_columnResized, addr 0x71ea8c8, size 0xc0, virtual false, abstract: false, final false
   inline void add_columnResized(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_propertyChanged, addr 0x6d5a2d0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_propertyChanged, addr 0x71e9b80, size 0xc0, virtual true, abstract: false, final true
   inline void add_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_primaryColumnNameProperty();
@@ -752,37 +752,37 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_stretchModeProperty();
 
-  /// @brief Method get_Count, addr 0x6d565cc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x71e5984, size 0xa4, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x6d5c218, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x71ebac8, size 0xa8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Item, addr 0x6d56424, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x71e57dc, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x6d5c2c0, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x71ebb70, size 0x2f4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_Item(::StringW name);
 
-  /// @brief Method get_displayList, addr 0x6d5441c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_displayList, addr 0x71e37c0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::Column*>* get_displayList();
 
-  /// @brief Method get_primaryColumnName, addr 0x6d5a450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primaryColumnName, addr 0x71e9d00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_primaryColumnName();
 
-  /// @brief Method get_reorderable, addr 0x6d5a58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reorderable, addr 0x71e9e3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_reorderable();
 
-  /// @brief Method get_resizable, addr 0x6d5a660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizable, addr 0x71e9f10, size 0x8, virtual false, abstract: false, final false
   inline bool get_resizable();
 
-  /// @brief Method get_resizePreview, addr 0x6d5a734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizePreview, addr 0x71e9fe4, size 0x8, virtual false, abstract: false, final false
   inline bool get_resizePreview();
 
-  /// @brief Method get_stretchMode, addr 0x6d5ac44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stretchMode, addr 0x71ea4f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns_StretchMode get_stretchMode();
 
-  /// @brief Method get_visibleList, addr 0x6d54504, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_visibleList, addr 0x71e38a8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::Column*>* get_visibleList();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::UnityEngine::UIElements::Column*>"
@@ -798,31 +798,31 @@ public:
   constexpr ::UnityEngine::UIElements::INotifyBindablePropertyChanged* i___UnityEngine__UIElements__INotifyBindablePropertyChanged() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_changed, addr 0x6d5ab84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x71ea434, size 0xc0, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action_1<::UnityEngine::UIElements::ColumnsDataType>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_columnAdded, addr 0x6d5ad18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_columnAdded, addr 0x71ea5c8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_columnAdded(::System::Action_2<::UnityEngine::UIElements::Column*, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_columnChanged, addr 0x6d5af58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_columnChanged, addr 0x71ea808, size 0xc0, virtual false, abstract: false, final false
   inline void remove_columnChanged(::System::Action_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_columnRemoved, addr 0x6d5add8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_columnRemoved, addr 0x71ea688, size 0xc0, virtual false, abstract: false, final false
   inline void remove_columnRemoved(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_columnReordered, addr 0x6d5b198, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_columnReordered, addr 0x71eaa48, size 0xc0, virtual false, abstract: false, final false
   inline void remove_columnReordered(::System::Action_3<::UnityEngine::UIElements::Column*, int32_t, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_columnResized, addr 0x6d5b0d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_columnResized, addr 0x71ea988, size 0xc0, virtual false, abstract: false, final false
   inline void remove_columnResized(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_propertyChanged, addr 0x6d5a390, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_propertyChanged, addr 0x71e9c40, size 0xc0, virtual true, abstract: false, final true
   inline void remove_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
   static inline void setStaticF_primaryColumnNameProperty(::UnityEngine::UIElements::BindingId value);
@@ -835,19 +835,19 @@ public:
 
   static inline void setStaticF_stretchModeProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_primaryColumnName, addr 0x6d5a458, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_primaryColumnName, addr 0x71e9d08, size 0xcc, virtual false, abstract: false, final false
   inline void set_primaryColumnName(::StringW value);
 
-  /// @brief Method set_reorderable, addr 0x6d5a594, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_reorderable, addr 0x71e9e44, size 0xcc, virtual false, abstract: false, final false
   inline void set_reorderable(bool value);
 
-  /// @brief Method set_resizable, addr 0x6d5a668, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_resizable, addr 0x71e9f18, size 0xcc, virtual false, abstract: false, final false
   inline void set_resizable(bool value);
 
-  /// @brief Method set_resizePreview, addr 0x6d5a73c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_resizePreview, addr 0x71e9fec, size 0xcc, virtual false, abstract: false, final false
   inline void set_resizePreview(bool value);
 
-  /// @brief Method set_stretchMode, addr 0x6d5ac4c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_stretchMode, addr 0x71ea4fc, size 0xcc, virtual false, abstract: false, final false
   inline void set_stretchMode(::UnityEngine::UIElements::Columns_StretchMode value);
 
 protected:
@@ -865,7 +865,7 @@ public:
   Columns(Columns const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4271 };
 
   /// @brief Field m_Columns, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::Column*>* ___m_Columns;
@@ -894,8 +894,8 @@ public:
   /// @brief Field m_PrimaryColumnName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_PrimaryColumnName;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field propertyChanged, offset: 0x40, size: 0x8, def value: None
   ::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* ___propertyChanged;
 
@@ -904,13 +904,13 @@ public:
   /// @brief Field changed, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::ColumnsDataType>* ___changed;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field columnAdded, offset: 0x50, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::Column*, int32_t>* ___columnAdded;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field columnRemoved, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::Column*>* ___columnRemoved;
 
@@ -919,13 +919,13 @@ public:
   /// @brief Field columnChanged, offset: 0x60, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType>* ___columnChanged;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field columnResized, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::Column*>* ___columnResized;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field columnReordered, offset: 0x70, size: 0x8, def value: None
   ::System::Action_3<::UnityEngine::UIElements::Column*, int32_t, int32_t>* ___columnReordered;
 

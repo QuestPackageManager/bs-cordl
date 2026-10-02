@@ -36,6 +36,7 @@ module;
 #include "UnityEngine/InputSystem/LowLevel/InputDeviceExecuteCommandDelegate.hpp"
 #include "UnityEngine/InputSystem/LowLevel/InputEvent.hpp"
 #include "UnityEngine/InputSystem/LowLevel/InputEventBuffer.hpp"
+#include "UnityEngine/InputSystem/LowLevel/InputEventHandledPolicy.hpp"
 #include "UnityEngine/InputSystem/LowLevel/InputEventListener.hpp"
 #include "UnityEngine/InputSystem/LowLevel/InputEventPtr.hpp"
 #include "UnityEngine/InputSystem/LowLevel/InputEventStream.hpp"

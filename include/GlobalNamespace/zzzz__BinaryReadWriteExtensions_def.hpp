@@ -51,7 +51,7 @@ class CORDL_TYPE BinaryReadWriteExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ReadColor, addr 0x3322bdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x35abb7c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
   /// [Extension]
@@ -59,31 +59,31 @@ public:
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* ReadListOf(::System::IO::BinaryReader* binaryReader, ::System::Func_2<::System::IO::BinaryReader*, T>* elementReader);
 
   /// [Extension]
-  /// @brief Method ReadPose, addr 0x3322e88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadPose, addr 0x35abe28, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ReadPose(::System::IO::BinaryReader* binaryReader);
 
   /// [Extension]
-  /// @brief Method ReadQuaternion, addr 0x3322dc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaternion, addr 0x35abd64, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion ReadQuaternion(::System::IO::BinaryReader* binaryReader);
 
   /// [Extension]
-  /// @brief Method ReadVector3, addr 0x3322cd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x35abc70, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ReadVector3(::System::IO::BinaryReader* binaryReader);
 
   /// [Extension]
-  /// @brief Method Write, addr 0x3322b54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x35abaf4, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
   /// [Extension]
-  /// @brief Method Write, addr 0x3322e54, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x35abdf4, size 0x34, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Pose pose);
 
   /// [Extension]
-  /// @brief Method Write, addr 0x3322d3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x35abcdc, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Quaternion quaternion);
 
   /// [Extension]
-  /// @brief Method Write, addr 0x3322c6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x35abc0c, size 0x64, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Vector3 vector);
 
   /// [Extension]
@@ -106,7 +106,7 @@ public:
   BinaryReadWriteExtensions(BinaryReadWriteExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

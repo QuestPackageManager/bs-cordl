@@ -43,10 +43,10 @@ public:
 
   static inline ::GlobalNamespace::LightRotationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599adbc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5db5dfc, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x599a874, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5db58b4, size 0x548, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__lightRotationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>> value);
 
-  /// @brief Method .ctor, addr 0x599aec0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db5f00, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   LightRotationGroupEffectManager(LightRotationGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6033 };
 
   /// [Inject]
   /// @brief Field _lightRotationGroups, offset: 0x20, size: 0x8, def value: None

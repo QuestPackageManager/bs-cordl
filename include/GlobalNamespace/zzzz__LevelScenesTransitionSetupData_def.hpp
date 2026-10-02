@@ -56,11 +56,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x590edb4, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d29434, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x590f1a8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d29828, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -79,7 +79,7 @@ public:
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -144,7 +144,7 @@ public:
   __declspec(property(get = get_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
   /// [AsyncStateMachine(typeof(LevelScenesTransitionSetupData::<BeforeScenesWillBeActivatedAsync>d__11))]
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x590ecf0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x5d29370, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   static inline ::GlobalNamespace::LevelScenesTransitionSetupData* New_ctor();
@@ -169,29 +169,29 @@ public:
 
   /// [CompilerGenerated]
   /// [DebuggerHidden]
-  /// @brief Method <>n__0, addr 0x590edac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x5d2942c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x590eda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d29424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_gameplayAdditionalInformationSetupData, addr 0x590ece0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayAdditionalInformationSetupData, addr 0x5d29360, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayAdditionalInformationSetupData* get_gameplayAdditionalInformationSetupData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x590ecd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x5d29350, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x590ecb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x5d29338, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
   /// [CompilerGenerated]
-  /// @brief Method set_gameplayAdditionalInformationSetupData, addr 0x590ece8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayAdditionalInformationSetupData, addr 0x5d29368, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x590ecd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x5d29358, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:
@@ -209,7 +209,7 @@ public:
   LevelScenesTransitionSetupData(LevelScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
 
   /// [Inject]
   /// @brief Field _telemetryModel, offset: 0x20, size: 0x8, def value: None

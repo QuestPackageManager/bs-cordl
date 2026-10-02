@@ -10,10 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Plane)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class IFormatProvider;
 }
 namespace System {
 class IFormattable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Ray;
@@ -40,44 +46,81 @@ public:
 
   __declspec(property(get = get_normal)) ::UnityEngine::Vector3 normal;
 
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Plane>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::Plane>*();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method ClosestPointOnPlane, addr 0x6a80e20, size 0x3c, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method ClosestPointOnPlane, addr 0x6ed344c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnPlane(::UnityEngine::Vector3 point);
 
-  /// @brief Method GetDistanceToPoint, addr 0x6a80e5c, size 0x24, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6ed3680, size 0xac, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
+
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6ed372c, size 0x40, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Plane other);
+
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6ed376c, size 0x40, virtual false, abstract: false, final false
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> other);
+
+  /// [IsReadOnly]
+  /// @brief Method GetDistanceToPoint, addr 0x6ed3488, size 0x24, virtual false, abstract: false, final false
   inline float_t GetDistanceToPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method Raycast, addr 0x6a80ee8, size 0x104, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetDistanceToPoint, addr 0x6ed34ac, size 0x30, virtual false, abstract: false, final false
+  inline float_t GetDistanceToPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point);
+
+  /// [IsReadOnly]
+  /// @brief Method GetHashCode, addr 0x6ed37ac, size 0x64, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// [IsReadOnly]
+  /// @brief Method Raycast, addr 0x6ed3544, size 0x104, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ::by_ref<float_t> enter);
 
-  /// @brief Method SameSide, addr 0x6a80e80, size 0x68, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method SameSide, addr 0x6ed34dc, size 0x68, virtual false, abstract: false, final false
   inline bool SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1);
 
-  /// @brief Method ToString, addr 0x6a80fec, size 0x10, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6ed3810, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6a80ffc, size 0x198, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6ed3820, size 0x14c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6a80cac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed3318, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c);
 
-  /// @brief Method .ctor, addr 0x6a80bb0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed3240, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 inNormal, float_t d);
 
-  /// @brief Method .ctor, addr 0x6a80a98, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed3140, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint);
 
-  /// @brief Method get_distance, addr 0x6a80a90, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_distance, addr 0x6ed3138, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_normal, addr 0x6a80a84, size 0xc, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_normal, addr 0x6ed312c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Plane>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Plane>* i___System__IEquatable_1___UnityEngine__Plane_();
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
+
+  /// @brief Method op_Equality, addr 0x6ed3648, size 0x38, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::Plane lhs, ::UnityEngine::Plane rhs);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -88,7 +131,7 @@ public:
   constexpr Plane(::UnityEngine::Vector3 m_Normal, float_t m_Distance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

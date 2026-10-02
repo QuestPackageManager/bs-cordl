@@ -94,30 +94,30 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method CasOnlyDemand, addr 0x5aeefc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CasOnlyDemand, addr 0x5f06eb8, size 0x7c, virtual false, abstract: false, final false
   inline void CasOnlyDemand(int32_t skip);
 
-  /// @brief Method CopyTo, addr 0x5aefba8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x5f07aa0, size 0x15c, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Demand, addr 0x5aefd04, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x5f07bfc, size 0x234, virtual true, abstract: false, final true
   inline void Demand();
 
   /// [ComVisible(false)]
-  /// @brief Method Equals, addr 0x5aef990, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f07888, size 0x198, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x5af02b8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x5f081b0, size 0x20, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   /// [ComVisible(false)]
-  /// @brief Method GetHashCode, addr 0x5aefb60, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f07a58, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsEmpty, addr 0x5aeff38, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x5f07e30, size 0x370, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsUnrestricted, addr 0x5af02a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsUnrestricted, addr 0x5f081a0, size 0x10, virtual false, abstract: false, final false
   inline bool IsUnrestricted();
 
   static inline ::System::Security::PermissionSet* New_ctor();
@@ -127,13 +127,13 @@ public:
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::Permissions::PermissionState state);
 
   /// [MonoTODO("may not be required")]
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5af0348, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5f08240, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ToString, addr 0x5af02d8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f081d0, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml, addr 0x5aef4c0, size 0x440, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x5f073b8, size 0x440, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr bool const& __cordl_internal_get__declsec() const;
@@ -160,26 +160,26 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Security::Permissions::PermissionState value);
 
-  /// @brief Method .ctor, addr 0x5aef284, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0717c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5aeef74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f06e6c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::IPermission* perm);
 
-  /// @brief Method .ctor, addr 0x5aef364, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0725c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
   static inline ::ArrayW<::System::Object*> getStaticF_action();
 
   static inline ::ArrayW<::System::Object*> getStaticF_psUnrestricted();
 
-  /// @brief Method get_Count, addr 0x5af0304, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5f081fc, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x5af0324, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x5f0821c, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x5af0344, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x5f0823c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

@@ -4,11 +4,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeList_1)
 namespace System {
 class IDisposable;
+}
+namespace Unity::Collections {
+struct MemoryLabel;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
@@ -20,7 +24,7 @@ template <typename T> class NativeList_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::NativeList_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::NativeList_1, "UnityEngine.UIElements.UIR", "NativeList`1");
-// Dependencies System.Object, Unity.Collections.NativeArray`1<T>
+// Dependencies System.Object, Unity.Collections.MemoryLabel, Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -31,15 +35,18 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Field <disposed>k__BackingField, offset 0x24, size 0x1
+  /// @brief Field <disposed>k__BackingField, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  /// @brief Field m_Count, offset 0x20, size 0x4
+  /// @brief Field m_Count, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
-  /// @brief Field m_NativeArray, offset 0x10, size 0x10
+  /// @brief Field m_MemoryLabel, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_MemoryLabel, put = __cordl_internal_set_m_MemoryLabel)) ::Unity::Collections::MemoryLabel m_MemoryLabel;
+
+  /// @brief Field m_NativeArray, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_m_NativeArray, put = __cordl_internal_set_m_NativeArray)) ::Unity::Collections::NativeArray_1<T> m_NativeArray;
 
   /// @brief Convert operator to "::System::IDisposable"
@@ -63,7 +70,7 @@ public:
   /// @brief Method GetSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeSlice_1<T> GetSlice(int32_t start, int32_t length);
 
-  static inline ::UnityEngine::UIElements::UIR::NativeList_1<T>* New_ctor(int32_t initialCapacity);
+  static inline ::UnityEngine::UIElements::UIR::NativeList_1<T>* New_ctor(int32_t initialCapacity, ::Unity::Collections::MemoryLabel allocLabel);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
@@ -73,6 +80,10 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_Count();
 
+  constexpr ::Unity::Collections::MemoryLabel const& __cordl_internal_get_m_MemoryLabel() const;
+
+  constexpr ::Unity::Collections::MemoryLabel& __cordl_internal_get_m_MemoryLabel();
+
   constexpr ::Unity::Collections::NativeArray_1<T> const& __cordl_internal_get_m_NativeArray() const;
 
   constexpr ::Unity::Collections::NativeArray_1<T>& __cordl_internal_get_m_NativeArray();
@@ -81,10 +92,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Count(int32_t value);
 
+  constexpr void __cordl_internal_set_m_MemoryLabel(::Unity::Collections::MemoryLabel value);
+
   constexpr void __cordl_internal_set_m_NativeArray(::Unity::Collections::NativeArray_1<T> value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t initialCapacity);
+  inline void _ctor(int32_t initialCapacity, ::Unity::Collections::MemoryLabel allocLabel);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
@@ -115,17 +128,20 @@ public:
   NativeList_1(NativeList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5427 };
 
-  /// @brief Field m_NativeArray, offset: 0x10, size: 0x10, def value: None
+  /// @brief Field m_MemoryLabel, offset: 0x10, size: 0x10, def value: None
+  ::Unity::Collections::MemoryLabel ___m_MemoryLabel;
+
+  /// @brief Field m_NativeArray, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<T> ___m_NativeArray;
 
-  /// @brief Field m_Count, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field m_Count, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_Count;
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <disposed>k__BackingField, offset: 0x24, size: 0x1, def value: None
+  /// @brief Field <disposed>k__BackingField, offset: 0x34, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

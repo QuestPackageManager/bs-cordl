@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ObstacleSpawnInfoNetSerializable* (*)()>(&::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37801f4;
+  constexpr static std::size_t addrs = 0x3a0a3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>(), { "Obtain", {}, {} })));
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Obstac
     ::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(float_t, float_t, float_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t, int32_t, ::UnityEngine::Vector3, float_t, float_t,
                                                             float_t)>(&::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3780260;
+  constexpr static std::size_t addrs = 0x3a0a42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)()>(&::GlobalNamespace::ObstacleSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x37802e0;
+  constexpr static std::size_t addrs = 0x3a0a4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>(), { ".ctor", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3780338;
+  constexpr static std::size_t addrs = 0x3a0a504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x37804c4;
+  constexpr static std::size_t addrs = 0x3a0a690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>(),

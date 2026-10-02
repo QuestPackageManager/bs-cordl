@@ -135,7 +135,7 @@ public:
   KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23447 };
 
   /// @brief Field left, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___left;
@@ -279,7 +279,7 @@ public:
   KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23448 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -303,6 +303,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
+// [DataContract]
 // Dependencies System.Object, UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
@@ -316,8 +317,10 @@ public:
 
   using __c__DisplayClass33_0 = ::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0<TKey, TValue>;
 
+  /// @brief [DataMember]
   __declspec(property(get = get_AddDuplicateBehavior, put = set_AddDuplicateBehavior)) ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior AddDuplicateBehavior;
 
+  /// @brief [DataMember]
   __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
 
   /// @brief Field <AddDuplicateBehavior>k__BackingField, offset 0x28, size 0x4
@@ -497,14 +500,17 @@ public:
   KdTree_2(KdTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23449 };
 
+  /// [DataMember]
   /// @brief Field dimensions, offset: 0x10, size: 0x4, def value: None
   int32_t ___dimensions;
 
+  /// [DataMember]
   /// @brief Field typeMath, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* ___typeMath;
 
+  /// [DataMember]
   /// @brief Field root, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* ___root;
 

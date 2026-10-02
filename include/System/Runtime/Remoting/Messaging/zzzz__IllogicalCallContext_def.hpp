@@ -38,10 +38,10 @@ public:
   /// @brief Field m_HostContext, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext)) ::System::Object* m_HostContext;
 
-  /// @brief Method CreateCopy, addr 0x5b3e970, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x5f56868, size 0x244, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
 
-  /// @brief Method FreeNamedDataSlot, addr 0x5b3e800, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FreeNamedDataSlot, addr 0x5f566f8, size 0x2c, virtual false, abstract: false, final false
   inline void FreeNamedDataSlot(::StringW name);
 
   static inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* New_ctor();
@@ -58,19 +58,19 @@ public:
 
   constexpr void __cordl_internal_set_m_HostContext(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b3ebb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f56aac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Datastore, addr 0x5b3e8c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Datastore, addr 0x5f567c0, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method get_HasUserData, addr 0x5b3e944, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasUserData, addr 0x5f5683c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasUserData();
 
-  /// @brief Method get_HostContext, addr 0x5b3e934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostContext, addr 0x5f5682c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_HostContext();
 
-  /// @brief Method set_HostContext, addr 0x5b3e93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostContext, addr 0x5f56834, size 0x8, virtual false, abstract: false, final false
   inline void set_HostContext(::System::Object* value);
 
 protected:

@@ -27,23 +27,23 @@ class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x3720db8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x39aa2dc, size 0x20, virtual false, abstract: false, final false
   static inline float_t DefaultNoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
   /// [Extension]
-  /// @brief Method DefaultRating, addr 0x3720d68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x39aa28c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
   /// [Extension]
-  /// @brief Method Name, addr 0x3720bd0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x39aa0f4, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
   /// [Extension]
-  /// @brief Method NoteJumpMovementSpeed, addr 0x3720d80, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x39aa2a4, size 0x38, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, bool fastNotes);
 
   /// [Extension]
-  /// @brief Method ShortName, addr 0x3720c9c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x39aa1c0, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -61,7 +61,7 @@ public:
   BeatmapDifficultyMethods(BeatmapDifficultyMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15195 };
 
   /// @brief Field kDefaultDifficultyNjs offset 0xffffffff size 0x4
   static constexpr float_t kDefaultDifficultyNjs{ static_cast<float_t>(10.0f) };

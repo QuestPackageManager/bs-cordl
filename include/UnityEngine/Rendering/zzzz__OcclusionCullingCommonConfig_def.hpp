@@ -14,7 +14,7 @@ struct OcclusionCullingCommonConfig;
 MARK_VAL_T(::UnityEngine::Rendering::OcclusionCullingCommonConfig);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionCullingCommonConfig, "UnityEngine.Rendering", "OcclusionCullingCommonConfig");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OcclusionCullingCommon.cs")] Dependencies
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\GPUDriven\\OcclusionCullingCommon.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.OcclusionCullingCommonConfig
@@ -61,7 +61,7 @@ public:
   static ::UnityEngine::Rendering::OcclusionCullingCommonConfig const MaxSubviewsPerView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18302 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

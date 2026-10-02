@@ -45,7 +45,7 @@ namespace UnityEngine {
 class CORDL_TYPE RectOffset_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6a83328, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6ed636c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::RectOffset* rectOffset);
 
 protected:
@@ -63,7 +63,7 @@ public:
   RectOffset_BindingsMarshaller(RectOffset_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -71,8 +71,8 @@ public:
 static_assert(sizeof(::UnityEngine::RectOffset_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
-// [NativeHeader("Modules/IMGUI/GUIStyle.h")]
 // [UsedByNativeCode]
+// [NativeHeader("Modules/IMGUI/GUIStyle.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -107,18 +107,18 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x6a82960, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6ed59a4, size 0x4c, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Finalize, addr 0x6a828d8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6ed591c, size 0x88, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [ThreadAndSerializationSafe]
-  /// @brief Method InternalCreate, addr 0x6a828a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InternalCreate, addr 0x6ed58ec, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr InternalCreate();
 
   /// [ThreadAndSerializationSafe]
-  /// @brief Method InternalDestroy, addr 0x6a82f08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x6ed5f4c, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(::System::IntPtr ptr);
 
   static inline ::UnityEngine::RectOffset* New_ctor();
@@ -128,16 +128,16 @@ public:
   /// @brief [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   static inline ::UnityEngine::RectOffset* New_ctor(::System::Object* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method Remove, addr 0x6a8325c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6ed62a0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect Remove(::UnityEngine::Rect rect);
 
-  /// @brief Method Remove_Injected, addr 0x6a832d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Remove_Injected, addr 0x6ed6318, size 0x54, virtual false, abstract: false, final false
   static inline void Remove_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> rect, ::by_ref<::UnityEngine::Rect> ret);
 
-  /// @brief Method ToString, addr 0x6a82b98, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ed5bdc, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6a82ba8, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6ed5bec, size 0x220, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -152,77 +152,77 @@ public:
 
   constexpr void __cordl_internal_set_m_SourceStyle(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6a82868, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed58ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6a829ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed59f0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t left, int32_t right, int32_t top, int32_t bottom);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
-  /// @brief Method .ctor, addr 0x6a828d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed5914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method get_bottom, addr 0x6a82eb8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_bottom, addr 0x6ed5efc, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_bottom();
 
-  /// @brief Method get_bottom_Injected, addr 0x6a830c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bottom_Injected, addr 0x6ed6108, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_bottom_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_horizontal, addr 0x6a83144, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal, addr 0x6ed6188, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_horizontal();
 
-  /// @brief Method get_horizontal_Injected, addr 0x6a83194, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal_Injected, addr 0x6ed61d8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_horizontal_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_left, addr 0x6a82dc8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6ed5e0c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_left();
 
-  /// @brief Method get_left_Injected, addr 0x6a82f44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_left_Injected, addr 0x6ed5f88, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_left_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_right, addr 0x6a82e18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6ed5e5c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_right();
 
-  /// @brief Method get_right_Injected, addr 0x6a82fc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_right_Injected, addr 0x6ed6008, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_right_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_top, addr 0x6a82e68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x6ed5eac, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_top();
 
-  /// @brief Method get_top_Injected, addr 0x6a83044, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_top_Injected, addr 0x6ed6088, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_top_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_vertical, addr 0x6a831d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_vertical, addr 0x6ed6214, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_vertical();
 
-  /// @brief Method get_vertical_Injected, addr 0x6a83220, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertical_Injected, addr 0x6ed6264, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_vertical_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
 
-  /// @brief Method set_bottom, addr 0x6a82b40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_bottom, addr 0x6ed5b84, size 0x58, virtual false, abstract: false, final false
   inline void set_bottom(int32_t value);
 
-  /// @brief Method set_bottom_Injected, addr 0x6a83100, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bottom_Injected, addr 0x6ed6144, size 0x44, virtual false, abstract: false, final false
   static inline void set_bottom_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_left, addr 0x6a82a38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x6ed5a7c, size 0x58, virtual false, abstract: false, final false
   inline void set_left(int32_t value);
 
-  /// @brief Method set_left_Injected, addr 0x6a82f80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_left_Injected, addr 0x6ed5fc4, size 0x44, virtual false, abstract: false, final false
   static inline void set_left_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_right, addr 0x6a82a90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x6ed5ad4, size 0x58, virtual false, abstract: false, final false
   inline void set_right(int32_t value);
 
-  /// @brief Method set_right_Injected, addr 0x6a83000, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_right_Injected, addr 0x6ed6044, size 0x44, virtual false, abstract: false, final false
   static inline void set_right_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_top, addr 0x6a82ae8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_top, addr 0x6ed5b2c, size 0x58, virtual false, abstract: false, final false
   inline void set_top(int32_t value);
 
-  /// @brief Method set_top_Injected, addr 0x6a83080, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_top_Injected, addr 0x6ed60c4, size 0x44, virtual false, abstract: false, final false
   static inline void set_top_Injected(::System::IntPtr _unity_self, int32_t value);
 
 protected:
@@ -240,7 +240,7 @@ public:
   RectOffset(RectOffset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9694 };
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None

@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements::Internal {
 class CORDL_TYPE MultiColumnHeaderColumnResizeHandle : public ::UnityEngine::UIElements::VisualElement {
 public:
   // Declarations
-  /// @brief Field <dragArea>k__BackingField, offset 0x4a8, size 0x8
+  /// @brief Field <dragArea>k__BackingField, offset 0x2c8, size 0x8
   __declspec(property(get = __cordl_internal_get__dragArea_k__BackingField, put = __cordl_internal_set__dragArea_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragArea_k__BackingField;
 
   __declspec(property(get = get_dragArea)) ::UnityEngine::UIElements::VisualElement* dragArea;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6d26ba4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d8350, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
@@ -50,7 +50,7 @@ public:
   static inline ::StringW getStaticF_ussClassName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dragArea, addr 0x6d2bb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x71dd578, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);
@@ -72,18 +72,18 @@ public:
   MultiColumnHeaderColumnResizeHandle(MultiColumnHeaderColumnResizeHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5642 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
-  /// @brief Field <dragArea>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
+  /// @brief Field <dragArea>k__BackingField, offset: 0x2c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragArea_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle, ____dragArea_k__BackingField) == 0x4a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle, ____dragArea_k__BackingField) == 0x2c8, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle) == 0x4b0, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle) == 0x2d0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal

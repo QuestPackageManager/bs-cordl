@@ -7,15 +7,6 @@
 #include "UnityEngine/Rendering/zzzz__ProbeVolume_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolume_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::ProbeVolume_Mode::ProbeVolume_Mode(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ProbeVolume_Mode::ProbeVolume_Mode() {}
-constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Global{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Scene{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Local{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolume_Version::ProbeVolume_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,12 +16,21 @@ constexpr ::UnityEngine::Rendering::ProbeVolume_Version UnityEngine::Rendering::
 constexpr ::UnityEngine::Rendering::ProbeVolume_Version UnityEngine::Rendering::ProbeVolume_Version::LocalMode{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ProbeVolume_Version UnityEngine::Rendering::ProbeVolume_Version::InvertOverrideLevels{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::ProbeVolume_Version UnityEngine::Rendering::ProbeVolume_Version::Count{ static_cast<int32_t>(0x3) };
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::ProbeVolume_Mode::ProbeVolume_Mode(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::ProbeVolume_Mode::ProbeVolume_Mode() {}
+constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Global{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Scene{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Local{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeVolume.Awake
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolume::*)()>(&::UnityEngine::Rendering::ProbeVolume::Awake)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6791c6c;
+  constexpr static std::size_t addrs = 0x6baca78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolume*>(), { "Awake", {}, {} })));
@@ -42,13 +42,37 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolume::*)()>(&::UnityEngine::Rendering::ProbeVolume::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6791c9c;
+  constexpr static std::size_t addrs = 0x6bacaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolume*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr ::UnityEngine::Rendering::ProbeVolume_Version& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_version() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
+}
+constexpr ::UnityEngine::Rendering::ProbeVolume_Version const& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_version() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___version;
+}
+constexpr void UnityEngine::Rendering::ProbeVolume::__cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolume_Version value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___version = value;
+}
+constexpr bool& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_globalVolume() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___globalVolume;
+}
+constexpr bool const& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_globalVolume() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___globalVolume;
+}
+constexpr void UnityEngine::Rendering::ProbeVolume::__cordl_internal_set_globalVolume(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___globalVolume = value;
+}
 constexpr ::UnityEngine::Rendering::ProbeVolume_Mode& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
@@ -192,30 +216,6 @@ constexpr bool const& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_
 constexpr void UnityEngine::Rendering::ProbeVolume::__cordl_internal_set_fillEmptySpaces(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fillEmptySpaces = value;
-}
-constexpr ::UnityEngine::Rendering::ProbeVolume_Version& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___version;
-}
-constexpr ::UnityEngine::Rendering::ProbeVolume_Version const& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___version;
-}
-constexpr void UnityEngine::Rendering::ProbeVolume::__cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolume_Version value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___version = value;
-}
-constexpr bool& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_globalVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___globalVolume;
-}
-constexpr bool const& UnityEngine::Rendering::ProbeVolume::__cordl_internal_get_globalVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___globalVolume;
-}
-constexpr void UnityEngine::Rendering::ProbeVolume::__cordl_internal_set_globalVolume(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___globalVolume = value;
 }
 inline void UnityEngine::Rendering::ProbeVolume::Awake() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolume*>(), { "Awake", {}, {} })));

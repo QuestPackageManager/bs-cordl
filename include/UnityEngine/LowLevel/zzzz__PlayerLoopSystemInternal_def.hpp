@@ -20,9 +20,9 @@ struct PlayerLoopSystemInternal;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystemInternal);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");
-// [NativeType(Header = "Runtime/Misc/PlayerLoop.h")]
 // [MovedFrom("UnityEngine.Experimental.LowLevel")]
 // [RequiredByNativeCode]
+// [NativeType(Header = "Runtime/Misc/PlayerLoop.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::LowLevel {
 // Is value type: true
@@ -42,7 +42,7 @@ public:
                                      ::System::IntPtr loopConditionFunction, int32_t numSubSystems) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

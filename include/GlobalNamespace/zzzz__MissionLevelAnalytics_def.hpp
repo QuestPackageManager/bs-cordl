@@ -43,16 +43,16 @@ public:
   __declspec(property(get = __cordl_internal_get__missionLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__missionLevelScenesTransitionSetupData)) ::GlobalNamespace::MissionLevelScenesTransitionSetupData* _missionLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x58b1d1c, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x5cc8874, size 0x444, virtual false, abstract: false, final false
   inline void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
   static inline ::GlobalNamespace::MissionLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b1c8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cc87e4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b1bfc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cc8754, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x58b2160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc8cb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   MissionLevelAnalytics(MissionLevelAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5664 };
 
   /// @brief Field kDefaultMissionObjectiveResultsMask offset 0xffffffff size 0x1
   static constexpr uint8_t kDefaultMissionObjectiveResultsMask{ static_cast<uint8_t>(0xffu) };

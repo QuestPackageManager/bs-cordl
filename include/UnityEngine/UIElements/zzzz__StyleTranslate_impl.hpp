@@ -8,12 +8,13 @@
 #include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleTranslate.get_value
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Translate (::UnityEngine::UIElements::StyleTranslate::*)()>(&::UnityEngine::UIElements::StyleTranslate::get_value)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c942c4;
+  constexpr static std::size_t addrs = 0x710aa60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTranslate>(), { "get_value", {}, {} })));
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTranslate::*)(::UnityEngine::UIElements::Translate)>(
     &::UnityEngine::UIElements::StyleTranslate::set_value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c943b8;
+  constexpr static std::size_t addrs = 0x710ab54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleTranslate::*)()>(
     &::UnityEngine::UIElements::StyleTranslate::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c943d0;
+  constexpr static std::size_t addrs = 0x710ab6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTranslate>(), { "get_keyword", {}, {} })));
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTranslate::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTranslate::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c943d8;
+  constexpr static std::size_t addrs = 0x710ab74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTranslate::*)(::UnityEngine::UIElements::Translate)>(&::UnityEngine::UIElements::StyleTranslate::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c943e0;
+  constexpr static std::size_t addrs = 0x710ab7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTranslate::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTranslate::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c9441c;
+  constexpr static std::size_t addrs = 0x710abb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTranslate::*)(::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTranslate::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c94404;
+  constexpr static std::size_t addrs = 0x710aba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleTranslate, ::UnityEngine::UIElements::StyleTranslate)>(
     &::UnityEngine::UIElements::StyleTranslate::op_Equality)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c9442c;
+  constexpr static std::size_t addrs = 0x710abc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTranslate (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTranslate::op_Implicit___UnityEngine__UIElements__StyleTranslate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c944c0;
+  constexpr static std::size_t addrs = 0x710acdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,11 +139,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTranslate (*)(::UnityEngine::UIElements::Translate)>(
     &::UnityEngine::UIElements::StyleTranslate::op_Implicit___UnityEngine__UIElements__StyleTranslate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c944d0;
+  constexpr static std::size_t addrs = 0x710acec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTranslate>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::Translate>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleTranslate.op_Implicit___UnityEngine__UIElements__StyleTranslate
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTranslate (*)(::UnityEngine::Vector3)>(
+    &::UnityEngine::UIElements::StyleTranslate::op_Implicit___UnityEngine__UIElements__StyleTranslate)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x710ad04;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTranslate>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
@@ -152,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleTranslate::*)(::UnityEngine::UIElements::StyleTranslate)>(
     &::UnityEngine::UIElements::StyleTranslate::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c944e8;
+  constexpr static std::size_t addrs = 0x710ad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleTranslate::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleTranslate::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c9457c;
+  constexpr static std::size_t addrs = 0x710adf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleTranslate::*)()>(&::UnityEngine::UIElements::StyleTranslate::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c94610;
+  constexpr static std::size_t addrs = 0x710ae8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleTranslate::*)()>(&::UnityEngine::UIElements::StyleTranslate::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c94634;
+  constexpr static std::size_t addrs = 0x710af24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,6 +262,11 @@ inline ::UnityEngine::UIElements::StyleTranslate UnityEngine::UIElements::StyleT
 inline ::UnityEngine::UIElements::StyleTranslate UnityEngine::UIElements::StyleTranslate::op_Implicit___UnityEngine__UIElements__StyleTranslate(::UnityEngine::UIElements::Translate v) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTranslate>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::Translate>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleTranslate>(nullptr, ___internal_method, v);
+}
+inline ::UnityEngine::UIElements::StyleTranslate UnityEngine::UIElements::StyleTranslate::op_Implicit___UnityEngine__UIElements__StyleTranslate(::UnityEngine::Vector3 v) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTranslate>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleTranslate>(nullptr, ___internal_method, v);
 }
 inline bool UnityEngine::UIElements::StyleTranslate::Equals(::UnityEngine::UIElements::StyleTranslate other) {

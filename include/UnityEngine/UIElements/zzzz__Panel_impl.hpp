@@ -15,18 +15,15 @@
 #include "UnityEngine/UIElements/zzzz__GetViewDataDictionary_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IDebugPanelChangeReceiver_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMGUIContainer_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__LoadResourceFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SavePersistentViewData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeMsFunction_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeUpdatePhase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeUpdater_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__EventInterests_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -38,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_visualTree)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8b00;
+  constexpr static std::size_t addrs = 0x726cabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_visualTree", {}, {} })));
@@ -50,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventDispatcher* (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_dispatcher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8b08;
+  constexpr static std::size_t addrs = 0x726cac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_dispatcher", {}, {} })));
@@ -62,37 +59,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::EventDispatcher*)>(&::UnityEngine::UIElements::Panel::set_dispatcher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8b10;
+  constexpr static std::size_t addrs = 0x726cacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "set_dispatcher", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventDispatcher*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Panel.get_timerEventScheduler
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TimerEventScheduler* (::UnityEngine::UIElements::Panel::*)()>(
-    &::UnityEngine::UIElements::Panel::get_timerEventScheduler)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6db8b18;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_timerEventScheduler", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Panel.get_scheduler
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IScheduler* (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_scheduler)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6db8b80;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 44 }));
     return ___internal_method;
   }
 };
@@ -102,11 +73,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IStylePropertyAnimationSystem* (::UnityEngine::UIElements::Panel::*)()>(
     &::UnityEngine::UIElements::Panel::get_styleAnimationSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8b84;
+  constexpr static std::size_t addrs = 0x726cad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 45 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 48 }));
     return ___internal_method;
   }
 };
@@ -115,12 +86,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::IStylePropertyAnimationSystem*)>(
     &::UnityEngine::UIElements::Panel::set_styleAnimationSystem)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6db8b8c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x726cadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 46 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 49 }));
     return ___internal_method;
   }
 };
@@ -129,11 +100,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_ownerObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c4c;
+  constexpr static std::size_t addrs = 0x726cbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 13 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -142,11 +113,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::UIElements::Panel::set_ownerObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c54;
+  constexpr static std::size_t addrs = 0x726cbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 14 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -155,11 +126,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ContextType (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_contextType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c5c;
+  constexpr static std::size_t addrs = 0x726cbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 47 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 50 }));
     return ___internal_method;
   }
 };
@@ -169,11 +140,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SavePersistentViewData* (::UnityEngine::UIElements::Panel::*)()>(
     &::UnityEngine::UIElements::Panel::get_saveViewData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c64;
+  constexpr static std::size_t addrs = 0x726cbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 15 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -183,11 +154,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::GetViewDataDictionary* (::UnityEngine::UIElements::Panel::*)()>(
     &::UnityEngine::UIElements::Panel::get_getViewDataDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c6c;
+  constexpr static std::size_t addrs = 0x726cc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 16 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -196,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusController* (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_focusController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c74;
+  constexpr static std::size_t addrs = 0x726cc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_focusController", {}, {} })));
@@ -209,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::FocusController*)>(
     &::UnityEngine::UIElements::Panel::set_focusController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8c7c;
+  constexpr static std::size_t addrs = 0x726cc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,11 +194,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventInterests (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_IMGUIEventInterests)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6db8c84;
+  constexpr static std::size_t addrs = 0x726cc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 11 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -236,11 +207,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::EventInterests)>(&::UnityEngine::UIElements::Panel::set_IMGUIEventInterests)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6db8c94;
+  constexpr static std::size_t addrs = 0x726cc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 12 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -249,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LoadResourceFunction* (*)()>(&::UnityEngine::UIElements::Panel::get_loadResourceFunc)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6db8ca4;
+  constexpr static std::size_t addrs = 0x726cc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_loadResourceFunc", {}, {} })));
@@ -261,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW, ::System::Type*, float_t)>(&::UnityEngine::UIElements::Panel::LoadResource)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6db8d00;
+  constexpr static std::size_t addrs = 0x726cc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::Focus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6db8e40;
+  constexpr static std::size_t addrs = 0x726cdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "Focus", {}, {} })));
@@ -287,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::Blur)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6db8e4c;
+  constexpr static std::size_t addrs = 0x726cde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "Blur", {}, {} })));
@@ -299,11 +270,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::ValidateFocus)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6db8e78;
+  constexpr static std::size_t addrs = 0x726ce0c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 24 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "ValidateFocus", {}, {} })));
     return ___internal_method;
   }
 };
@@ -312,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db8eac;
+  constexpr static std::size_t addrs = 0x726ce40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_name", {}, {} })));
@@ -324,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::StringW)>(&::UnityEngine::UIElements::Panel::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dae078;
+  constexpr static std::size_t addrs = 0x726ce48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "set_name", {}, { ::i2c::type_of<::StringW>() } })));
@@ -337,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IDebugPanelChangeReceiver* (::UnityEngine::UIElements::Panel::*)()>(
     &::UnityEngine::UIElements::Panel::get_panelChangeReceiver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db9154;
+  constexpr static std::size_t addrs = 0x726d068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_panelChangeReceiver", {}, {} })));
@@ -350,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::IDebugPanelChangeReceiver*)>(
     &::UnityEngine::UIElements::Panel::set_panelChangeReceiver)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6dadaa8;
+  constexpr static std::size_t addrs = 0x726d070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,8 +333,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::CreateMarkers)> {
-  constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6db8eb4;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x726ce50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "CreateMarkers", {}, {} })));
@@ -376,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TimeMsFunction* (*)()>(&::UnityEngine::UIElements::Panel::get_TimeSinceStartup)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6db915c;
+  constexpr static std::size_t addrs = 0x726d13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_TimeSinceStartup", {}, {} })));
@@ -388,11 +358,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_IMGUIContainersCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db91b8;
+  constexpr static std::size_t addrs = 0x726d198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 17 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 19 }));
     return ___internal_method;
   }
 };
@@ -401,11 +371,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(int32_t)>(&::UnityEngine::UIElements::Panel::set_IMGUIContainersCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db91c0;
+  constexpr static std::size_t addrs = 0x726d1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 18 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 20 }));
     return ___internal_method;
   }
 };
@@ -414,11 +384,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IMGUIContainer* (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_rootIMGUIContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db91c8;
+  constexpr static std::size_t addrs = 0x726d1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 21 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 23 }));
     return ___internal_method;
   }
 };
@@ -427,11 +397,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db91d0;
+  constexpr static std::size_t addrs = 0x726d1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 30 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 33 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Panel.get_repaintVersion
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_repaintVersion)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x726d1b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 34 }));
     return ___internal_method;
   }
 };
@@ -440,11 +423,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_hierarchyVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db91d8;
+  constexpr static std::size_t addrs = 0x726d1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 31 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 35 }));
     return ___internal_method;
   }
 };
@@ -453,11 +436,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::AtlasBase* (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_atlas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db91e0;
+  constexpr static std::size_t addrs = 0x726d1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 51 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 55 }));
     return ___internal_method;
   }
 };
@@ -466,11 +449,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::AtlasBase*)>(&::UnityEngine::UIElements::Panel::set_atlas)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6db91e8;
+  constexpr static std::size_t addrs = 0x726d1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 52 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 56 }));
     return ___internal_method;
   }
 };
@@ -479,8 +462,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::ScriptableObject*, ::UnityEngine::UIElements::ContextType,
                                                                                                   ::UnityEngine::UIElements::EventDispatcher*)>(&::UnityEngine::UIElements::Panel::_ctor)> {
-  constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x6db9264;
+  constexpr static std::size_t size = 0x420;
+  constexpr static std::size_t addrs = 0x726d24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,36 +479,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(bool)>(&::UnityEngine::UIElements::Panel::Dispose)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6db9980;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x726d9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 22 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Panel.TimeSinceStartupMs
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::UnityEngine::UIElements::Panel::TimeSinceStartupMs)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6db9a08;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "TimeSinceStartupMs", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Panel.DefaultTimeSinceStartupMs
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::UnityEngine::UIElements::Panel::DefaultTimeSinceStartupMs)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6db9b08;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "DefaultTimeSinceStartupMs", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 24 }));
     return ___internal_method;
   }
 };
@@ -536,7 +495,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*, bool)>(
     &::UnityEngine::UIElements::Panel::PickAll)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6db9b58;
+  constexpr static std::size_t addrs = 0x726dadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -554,8 +513,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2,
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*, bool)>(
     &::UnityEngine::UIElements::Panel::PerformPick)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6db9be0;
+  constexpr static std::size_t size = 0x358;
+  constexpr static std::size_t addrs = 0x726db64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,25 +532,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::Panel::*)(::UnityEngine::Vector2, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(&::UnityEngine::UIElements::Panel::PickAll)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6db9ea4;
+  constexpr static std::size_t addrs = 0x726debc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 49 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 53 }));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::Panel.Pick
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Panel::*)(::UnityEngine::Vector2)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Panel::*)(::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::UIElements::Panel::Pick)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6db9f94;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x726dfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 48 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 52 }));
     return ___internal_method;
   }
 };
@@ -599,12 +558,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::ValidateLayout)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dba1e0;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x726e1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 25 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 26 }));
     return ___internal_method;
   }
 };
@@ -613,11 +572,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::UpdateAnimations)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dba244;
+  constexpr static std::size_t addrs = 0x726e2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 26 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 29 }));
     return ___internal_method;
   }
 };
@@ -626,7 +585,33 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::UpdateBindings)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dba260;
+  constexpr static std::size_t addrs = 0x726e318;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 30 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Panel.UpdateDataBinding
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::UpdateDataBinding)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x726e334;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 31 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Panel.TickSchedulingUpdaters
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::TickSchedulingUpdaters)> {
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x726e350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,11 +624,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::ApplyStyles)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dba27c;
+  constexpr static std::size_t addrs = 0x726e8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 28 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 32 }));
     return ___internal_method;
   }
 };
@@ -651,11 +636,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::UpdateForRepaint)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6dba298;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x726e8ec;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "UpdateForRepaint", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 28 }));
     return ___internal_method;
   }
 };
@@ -663,12 +649,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::Event*)>(&::UnityEngine::UIElements::Panel::Repaint)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6dba30c;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x726e9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 23 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 25 }));
     return ___internal_method;
   }
 };
@@ -676,12 +662,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::Render)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dba56c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x726ec08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 53 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 57 }));
     return ___internal_method;
   }
 };
@@ -691,11 +677,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(
     &::UnityEngine::UIElements::Panel::OnVersionChanged)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6dba570;
+  constexpr static std::size_t addrs = 0x726ec98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 32 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 36 }));
     return ___internal_method;
   }
 };
@@ -705,11 +691,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::IVisualTreeUpdater*, ::UnityEngine::UIElements::VisualTreeUpdatePhase)>(
     &::UnityEngine::UIElements::Panel::SetUpdater)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6dba744;
+  constexpr static std::size_t addrs = 0x726ee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 33 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 37 }));
     return ___internal_method;
   }
 };
@@ -719,20 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IVisualTreeUpdater* (::UnityEngine::UIElements::Panel::*)(::UnityEngine::UIElements::VisualTreeUpdatePhase)>(
     &::UnityEngine::UIElements::Panel::GetUpdater)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dba75c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 50 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Panel.get_HyperlinkColor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::Panel::*)()>(&::UnityEngine::UIElements::Panel::get_HyperlinkColor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6dba77c;
+  constexpr static std::size_t addrs = 0x726ee84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -740,16 +713,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::U
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Panel._Pick_g__PixelOf_105_0
+//  Writing Method size for method: ::UnityEngine::UIElements::Panel._Pick_g__PixelOf_98_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::Panel::_Pick_g__PixelOf_105_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::Panel::_Pick_g__PixelOf_98_0)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6dba114;
+  constexpr static std::size_t addrs = 0x726e0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "<Pick>g__PixelOf|105_0", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "<Pick>g__PixelOf|98_0", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
     return ___internal_method;
   }
 };
@@ -837,29 +810,29 @@ constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_HierarchyV
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HierarchyVersion = value;
 }
-constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerBeforeUpdate() {
+constexpr uint32_t& UnityEngine::UIElements::Panel::__cordl_internal_get_m_LastTickedHierarchyVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerBeforeUpdate;
+  return this->___m_LastTickedHierarchyVersion;
 }
-constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerBeforeUpdate() const {
+constexpr uint32_t const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_LastTickedHierarchyVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerBeforeUpdate;
+  return this->___m_LastTickedHierarchyVersion;
 }
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerBeforeUpdate(::Unity::Profiling::ProfilerMarker value) {
+constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_LastTickedHierarchyVersion(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_MarkerBeforeUpdate = value;
+  this->___m_LastTickedHierarchyVersion = value;
 }
-constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerUpdate() {
+constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerPrepareRepaint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerUpdate;
+  return this->___m_MarkerPrepareRepaint;
 }
-constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerUpdate() const {
+constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerPrepareRepaint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerUpdate;
+  return this->___m_MarkerPrepareRepaint;
 }
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerUpdate(::Unity::Profiling::ProfilerMarker value) {
+constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerPrepareRepaint(::Unity::Profiling::ProfilerMarker value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_MarkerUpdate = value;
+  this->___m_MarkerPrepareRepaint = value;
 }
 constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerRender() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -873,53 +846,53 @@ constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerRend
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MarkerRender = value;
 }
-constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerLayout() {
+constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerValidateLayout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerLayout;
+  return this->___m_MarkerValidateLayout;
 }
-constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerLayout() const {
+constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerValidateLayout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerLayout;
+  return this->___m_MarkerValidateLayout;
 }
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerLayout(::Unity::Profiling::ProfilerMarker value) {
+constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerValidateLayout(::Unity::Profiling::ProfilerMarker value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_MarkerLayout = value;
+  this->___m_MarkerValidateLayout = value;
 }
-constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerBindings() {
+constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerTickScheduledActions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerBindings;
+  return this->___m_MarkerTickScheduledActions;
 }
-constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerBindings() const {
+constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerTickScheduledActions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerBindings;
+  return this->___m_MarkerTickScheduledActions;
 }
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerBindings(::Unity::Profiling::ProfilerMarker value) {
+constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerTickScheduledActions(::Unity::Profiling::ProfilerMarker value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_MarkerBindings = value;
+  this->___m_MarkerTickScheduledActions = value;
 }
-constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerDataBinding() {
+constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerTickScheduledActionsPreLayout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerDataBinding;
+  return this->___m_MarkerTickScheduledActionsPreLayout;
 }
-constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerDataBinding() const {
+constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerTickScheduledActionsPreLayout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerDataBinding;
+  return this->___m_MarkerTickScheduledActionsPreLayout;
 }
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerDataBinding(::Unity::Profiling::ProfilerMarker value) {
+constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerTickScheduledActionsPreLayout(::Unity::Profiling::ProfilerMarker value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_MarkerDataBinding = value;
+  this->___m_MarkerTickScheduledActionsPreLayout = value;
 }
-constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerAnimations() {
+constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerTickScheduledActionsPostLayout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerAnimations;
+  return this->___m_MarkerTickScheduledActionsPostLayout;
 }
-constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerAnimations() const {
+constexpr ::Unity::Profiling::ProfilerMarker const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerTickScheduledActionsPostLayout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_MarkerAnimations;
+  return this->___m_MarkerTickScheduledActionsPostLayout;
 }
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerAnimations(::Unity::Profiling::ProfilerMarker value) {
+constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_MarkerTickScheduledActionsPostLayout(::Unity::Profiling::ProfilerMarker value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_MarkerAnimations = value;
+  this->___m_MarkerTickScheduledActionsPostLayout = value;
 }
 constexpr ::Unity::Profiling::ProfilerMarker& UnityEngine::UIElements::Panel::__cordl_internal_get_m_MarkerPanelChangeReceiver() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -944,18 +917,6 @@ constexpr ::UnityEngine::UIElements::EventDispatcher* const& UnityEngine::UIElem
 constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set__dispatcher_k__BackingField(::UnityEngine::UIElements::EventDispatcher* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dispatcher_k__BackingField = value;
-}
-constexpr ::UnityEngine::UIElements::TimerEventScheduler*& UnityEngine::UIElements::Panel::__cordl_internal_get_m_Scheduler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Scheduler;
-}
-constexpr ::UnityEngine::UIElements::TimerEventScheduler* const& UnityEngine::UIElements::Panel::__cordl_internal_get_m_Scheduler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Scheduler;
-}
-constexpr void UnityEngine::UIElements::Panel::__cordl_internal_set_m_Scheduler(::UnityEngine::UIElements::TimerEventScheduler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Scheduler = value;
 }
 constexpr ::UnityW<::UnityEngine::ScriptableObject>& UnityEngine::UIElements::Panel::__cordl_internal_get__ownerObject_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1141,40 +1102,32 @@ inline void UnityEngine::UIElements::Panel::set_dispatcher(::UnityEngine::UIElem
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "set_dispatcher", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventDispatcher*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::TimerEventScheduler* UnityEngine::UIElements::Panel::get_timerEventScheduler() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "get_timerEventScheduler", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TimerEventScheduler*>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::IScheduler* UnityEngine::UIElements::Panel::get_scheduler() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 44 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IScheduler*>(this, ___internal_method);
-}
 inline ::UnityEngine::UIElements::IStylePropertyAnimationSystem* UnityEngine::UIElements::Panel::get_styleAnimationSystem() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 45 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 48 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::set_styleAnimationSystem(::UnityEngine::UIElements::IStylePropertyAnimationSystem* value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 46 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 49 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::UIElements::Panel::get_ownerObject() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 13 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ScriptableObject>>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::set_ownerObject(::UnityEngine::ScriptableObject* value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 14 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::ContextType UnityEngine::UIElements::Panel::get_contextType() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 47 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 50 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ContextType>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::SavePersistentViewData* UnityEngine::UIElements::Panel::get_saveViewData() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 15 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::SavePersistentViewData*>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::GetViewDataDictionary* UnityEngine::UIElements::Panel::get_getViewDataDictionary() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 16 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::GetViewDataDictionary*>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::FocusController* UnityEngine::UIElements::Panel::get_focusController() {
@@ -1187,11 +1140,11 @@ inline void UnityEngine::UIElements::Panel::set_focusController(::UnityEngine::U
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::EventInterests UnityEngine::UIElements::Panel::get_IMGUIEventInterests() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 11 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventInterests>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::set_IMGUIEventInterests(::UnityEngine::EventInterests value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 12 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::LoadResourceFunction* UnityEngine::UIElements::Panel::get_loadResourceFunc() {
@@ -1213,7 +1166,7 @@ inline void UnityEngine::UIElements::Panel::Blur() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::ValidateFocus() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 24 })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "ValidateFocus", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::UIElements::Panel::get_name() {
@@ -1243,31 +1196,35 @@ inline ::UnityEngine::UIElements::TimeMsFunction* UnityEngine::UIElements::Panel
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TimeMsFunction*>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::UIElements::Panel::get_IMGUIContainersCount() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 17 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::set_IMGUIContainersCount(int32_t value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 18 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::IMGUIContainer* UnityEngine::UIElements::Panel::get_rootIMGUIContainer() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 21 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 23 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IMGUIContainer*>(this, ___internal_method);
 }
 inline uint32_t UnityEngine::UIElements::Panel::get_version() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 30 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 33 })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
+}
+inline uint32_t UnityEngine::UIElements::Panel::get_repaintVersion() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 34 })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
 }
 inline uint32_t UnityEngine::UIElements::Panel::get_hierarchyVersion() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 31 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::AtlasBase* UnityEngine::UIElements::Panel::get_atlas() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 51 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 55 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::AtlasBase*>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::set_atlas(::UnityEngine::UIElements::AtlasBase* value) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 52 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 56 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::Panel::_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::ContextType contextType,
@@ -1281,16 +1238,8 @@ inline void UnityEngine::UIElements::Panel::_ctor(::UnityEngine::ScriptableObjec
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ownerObject, contextType, dispatcher);
 }
 inline void UnityEngine::UIElements::Panel::Dispose(bool disposing) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 22 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
-}
-inline int64_t UnityEngine::UIElements::Panel::TimeSinceStartupMs() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "TimeSinceStartupMs", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method);
-}
-inline int64_t UnityEngine::UIElements::Panel::DefaultTimeSinceStartupMs() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "DefaultTimeSinceStartupMs", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Panel::PickAll(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Vector2 point,
                                                                                          ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked,
@@ -1316,60 +1265,64 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Panel:
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Panel::PickAll(::UnityEngine::Vector2 point,
                                                                                          ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 49 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 53 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, point, picked);
 }
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Panel::Pick(::UnityEngine::Vector2 point) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 48 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, point);
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Panel::Pick(::UnityEngine::Vector2 point, int32_t pointerId) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 52 })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, point, pointerId);
 }
 inline void UnityEngine::UIElements::Panel::ValidateLayout() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 25 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void UnityEngine::UIElements::Panel::UpdateAnimations() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 26 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::Panel::UpdateAnimations() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 29 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline void UnityEngine::UIElements::Panel::UpdateBindings() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 30 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::Panel::UpdateDataBinding() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 31 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::Panel::TickSchedulingUpdaters() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 27 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::ApplyStyles() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 28 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 32 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::UpdateForRepaint() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "UpdateForRepaint", {}, {} })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 28 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::Repaint(::UnityEngine::Event* e) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 23 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 25 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
 }
 inline void UnityEngine::UIElements::Panel::Render() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 53 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 57 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Panel::OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 32 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 36 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, versionChangeType);
 }
 inline void UnityEngine::UIElements::Panel::SetUpdater(::UnityEngine::UIElements::IVisualTreeUpdater* updater, ::UnityEngine::UIElements::VisualTreeUpdatePhase phase) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 33 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 37 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updater, phase);
 }
 inline ::UnityEngine::UIElements::IVisualTreeUpdater* UnityEngine::UIElements::Panel::GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 50 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 54 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IVisualTreeUpdater*>(this, ___internal_method, phase);
 }
-inline ::UnityEngine::Color UnityEngine::UIElements::Panel::get_HyperlinkColor() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::Panel*>(), 54 })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
-}
-inline ::UnityEngine::Vector2Int UnityEngine::UIElements::Panel::_Pick_g__PixelOf_105_0(::UnityEngine::Vector2 p) {
+inline ::UnityEngine::Vector2Int UnityEngine::UIElements::Panel::_Pick_g__PixelOf_98_0(::UnityEngine::Vector2 p) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "<Pick>g__PixelOf|105_0", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Panel*>(), { "<Pick>g__PixelOf|98_0", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2Int>(nullptr, ___internal_method, p);
 }
 inline ::UnityEngine::UIElements::Panel* UnityEngine::UIElements::Panel::New_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::ContextType contextType,

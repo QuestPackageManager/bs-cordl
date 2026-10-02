@@ -41,7 +41,7 @@ namespace UnityEngine::XR {
 class CORDL_TYPE XRInputSubsystem_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6e396b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x72d51d4, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::XR::XRInputSubsystem* xrInputSubsystem);
 
 protected:
@@ -59,7 +59,7 @@ public:
   XRInputSubsystem_BindingsMarshaller(XRInputSubsystem_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,25 +90,25 @@ public:
                       put = __cordl_internal_set_trackingOriginUpdated)) ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated;
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InvokeBoundaryChangedEvent, addr 0x6e395ac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InvokeBoundaryChangedEvent, addr 0x72d50cc, size 0xcc, virtual false, abstract: false, final false
   static inline void InvokeBoundaryChangedEvent(::System::IntPtr internalPtr);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InvokeTrackingOriginUpdatedEvent, addr 0x6e394e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingOriginUpdatedEvent, addr 0x72d5000, size 0xcc, virtual false, abstract: false, final false
   static inline void InvokeTrackingOriginUpdatedEvent(::System::IntPtr internalPtr);
 
   static inline ::UnityEngine::XR::XRInputSubsystem* New_ctor();
 
-  /// @brief Method TryRecenter, addr 0x6e390b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryRecenter, addr 0x72d4bd8, size 0x50, virtual false, abstract: false, final false
   inline bool TryRecenter();
 
-  /// @brief Method TryRecenter_Injected, addr 0x6e39108, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryRecenter_Injected, addr 0x72d4c28, size 0x3c, virtual false, abstract: false, final false
   static inline bool TryRecenter_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method TrySetTrackingOriginMode, addr 0x6e39144, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TrySetTrackingOriginMode, addr 0x72d4c64, size 0x58, virtual false, abstract: false, final false
   inline bool TrySetTrackingOriginMode(::UnityEngine::XR::TrackingOriginModeFlags origin);
 
-  /// @brief Method TrySetTrackingOriginMode_Injected, addr 0x6e3919c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TrySetTrackingOriginMode_Injected, addr 0x72d4cbc, size 0x44, virtual false, abstract: false, final false
   static inline bool TrySetTrackingOriginMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::XR::TrackingOriginModeFlags origin);
 
   constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* const& __cordl_internal_get_boundaryChanged() const;
@@ -129,23 +129,23 @@ public:
 
   constexpr void __cordl_internal_set_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
-  /// @brief Method .ctor, addr 0x6e39678, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d5198, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_boundaryChanged, addr 0x6e39360, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_boundaryChanged, addr 0x72d4e80, size 0xc0, virtual false, abstract: false, final false
   inline void add_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_trackingOriginUpdated, addr 0x6e391e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_trackingOriginUpdated, addr 0x72d4d00, size 0xc0, virtual false, abstract: false, final false
   inline void add_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_boundaryChanged, addr 0x6e39420, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_boundaryChanged, addr 0x72d4f40, size 0xc0, virtual false, abstract: false, final false
   inline void remove_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_trackingOriginUpdated, addr 0x6e392a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_trackingOriginUpdated, addr 0x72d4dc0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
 protected:
@@ -163,10 +163,10 @@ public:
   XRInputSubsystem(XRInputSubsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22700 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field trackingOriginUpdated, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* ___trackingOriginUpdated;
 

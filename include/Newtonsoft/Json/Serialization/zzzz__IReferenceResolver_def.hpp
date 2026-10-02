@@ -40,7 +40,7 @@ public:
   IReferenceResolver(IReferenceResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

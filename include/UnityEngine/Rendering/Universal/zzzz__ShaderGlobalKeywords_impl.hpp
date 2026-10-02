@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Universal::ShaderGlobalKeywords::InitializeShaderGlobalKeywords)> {
-  constexpr static std::size_t size = 0x1090;
-  constexpr static std::size_t addrs = 0x68e721c;
+  constexpr static std::size_t size = 0x1608;
+  constexpr static std::size_t addrs = 0x6d0efa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,12 +58,12 @@ inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_
 inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_AdditionalLightsPixel() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "AdditionalLightsPixel", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
 }
-inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_ForwardPlus(::UnityEngine::Rendering::GlobalKeyword value) {
-  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "ForwardPlus", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
+inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_ClusterLightLoop(::UnityEngine::Rendering::GlobalKeyword value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "ClusterLightLoop", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
       std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
 }
-inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ForwardPlus() {
-  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ForwardPlus", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
+inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ClusterLightLoop() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ClusterLightLoop", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
 }
 inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_AdditionalLightShadows(::UnityEngine::Rendering::GlobalKeyword value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "AdditionalLightShadows", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
@@ -85,6 +85,20 @@ inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_
 }
 inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ReflectionProbeBlending() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ReflectionProbeBlending", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
+}
+inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_ReflectionProbeAtlas(::UnityEngine::Rendering::GlobalKeyword value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "ReflectionProbeAtlas", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
+      std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
+}
+inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ReflectionProbeAtlas() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ReflectionProbeAtlas", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
+}
+inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_ReflectionProbeRotation(::UnityEngine::Rendering::GlobalKeyword value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "ReflectionProbeRotation", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
+      std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
+}
+inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ReflectionProbeRotation() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ReflectionProbeRotation", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
 }
 inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_SoftShadows(::UnityEngine::Rendering::GlobalKeyword value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "SoftShadows", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
@@ -253,6 +267,13 @@ inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_
 }
 inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ScreenSpaceOcclusion() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ScreenSpaceOcclusion", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
+}
+inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_ScreenSpaceIrradiance(::UnityEngine::Rendering::GlobalKeyword value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "ScreenSpaceIrradiance", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
+      std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
+}
+inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ScreenSpaceIrradiance() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ScreenSpaceIrradiance", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
 }
 inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF__SPOT(::UnityEngine::Rendering::GlobalKeyword value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "_SPOT", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
@@ -534,6 +555,13 @@ inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_
 inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ProbeVolumeL2() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ProbeVolumeL2", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
 }
+inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_LIGHTMAP_BICUBIC_SAMPLING(::UnityEngine::Rendering::GlobalKeyword value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "LIGHTMAP_BICUBIC_SAMPLING", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
+      std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
+}
+inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_LIGHTMAP_BICUBIC_SAMPLING() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "LIGHTMAP_BICUBIC_SAMPLING", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
+}
 inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF__OUTPUT_DEPTH(::UnityEngine::Rendering::GlobalKeyword value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "_OUTPUT_DEPTH", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
       std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
@@ -554,6 +582,13 @@ inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_
 }
 inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF__ENABLE_ALPHA_OUTPUT() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "_ENABLE_ALPHA_OUTPUT", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
+}
+inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::setStaticF_ForwardPlus(::UnityEngine::Rendering::GlobalKeyword value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::GlobalKeyword, "ForwardPlus", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>(
+      std::forward<::UnityEngine::Rendering::GlobalKeyword>(value));
+}
+inline ::UnityEngine::Rendering::GlobalKeyword UnityEngine::Rendering::Universal::ShaderGlobalKeywords::getStaticF_ForwardPlus() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GlobalKeyword, "ForwardPlus", ::UnityEngine::Rendering::Universal::ShaderGlobalKeywords*>();
 }
 inline void UnityEngine::Rendering::Universal::ShaderGlobalKeywords::InitializeShaderGlobalKeywords() {
   static auto* ___internal_method =

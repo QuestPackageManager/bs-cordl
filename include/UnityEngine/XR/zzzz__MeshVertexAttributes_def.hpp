@@ -14,8 +14,8 @@ struct MeshVertexAttributes;
 MARK_VAL_T(::UnityEngine::XR::MeshVertexAttributes);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::MeshVertexAttributes, "UnityEngine.XR", "MeshVertexAttributes");
 // [Flags]
-// [UsedByNativeCode]
 // [NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -67,7 +67,7 @@ public:
   static ::UnityEngine::XR::MeshVertexAttributes const UVs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22706 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

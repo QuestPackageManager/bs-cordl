@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Sig::NotationData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3694e58;
+  constexpr static std::size_t addrs = 0x391e0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::NotationData*>(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)(bool, bool, ::StringW, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::Sig::NotationData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3694e70;
+  constexpr static std::size_t addrs = 0x391e10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(bool, ::StringW, ::StringW)>(&::Org::BouncyCastle::Bcpg::Sig::NotationData::CreateData)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3694eb0;
+  constexpr static std::size_t addrs = 0x391e14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(&::Org::BouncyCastle::Bcpg::Sig::NotationData::get_IsHumanReadable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x36950cc;
+  constexpr static std::size_t addrs = 0x391e368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::NotationData*>(), { "get_IsHumanReadable", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(&::Org::BouncyCastle::Bcpg::Sig::NotationData::GetNotationName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x36950fc;
+  constexpr static std::size_t addrs = 0x391e398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::NotationData*>(), { "GetNotationName", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(&::Org::BouncyCastle::Bcpg::Sig::NotationData::GetNotationValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3695164;
+  constexpr static std::size_t addrs = 0x391e400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::NotationData*>(), { "GetNotationValue", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::Sig::NotationData::*)()>(&::Org::BouncyCastle::Bcpg::Sig::NotationData::GetNotationValueBytes)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36951f0;
+  constexpr static std::size_t addrs = 0x391e48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::NotationData*>(), { "GetNotationValueBytes", {}, {} })));

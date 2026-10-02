@@ -33,7 +33,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IRemoteProcedureCall*> && ::cordl_internals::default_constructor_constraint<T>)
   static inline T Obtain();
 
-  /// @brief Method Release, addr 0x3340730, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x35c99cc, size 0x114, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IRemoteProcedureCall* t);
 
 protected:
@@ -51,7 +51,7 @@ public:
   RpcPool(RpcPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

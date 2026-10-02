@@ -32,12 +32,12 @@ public:
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
   /// [NullableContext(1)]
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x331b33c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x35a42dc, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x331b3ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a434c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
@@ -58,7 +58,7 @@ public:
   MockRemoteCatalogLoader(MockRemoteCatalogLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

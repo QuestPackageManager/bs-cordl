@@ -3,6 +3,7 @@
 #include "UnityEngine/UIElements/zzzz__BaseTreeViewController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MultiColumnTreeViewController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Columns_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MultiColumnController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MultiColumnController* (::UnityEngine::UIElements::MultiColumnTreeViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::get_columnController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c5473c;
+  constexpr static std::size_t addrs = 0x709df90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(
     ::UnityEngine::UIElements::Columns*, ::UnityEngine::UIElements::SortColumnDescriptions*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c54744;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x709df98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)()>(&::UnityEngine::UIElements::MultiColumnTreeViewController::PreRefresh)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c547f8;
+  constexpr static std::size_t addrs = 0x709e050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -60,12 +61,54 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::InvokeMakeItem)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c54828;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x709e080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
                                                                                           { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 14 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::MultiColumnTreeViewController.GetItemForIndex
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(int32_t)>(
+    &::UnityEngine::UIElements::MultiColumnTreeViewController::GetItemForIndex)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x709e51c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::MultiColumnTreeViewController.GetIndexForId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(int32_t)>(
+    &::UnityEngine::UIElements::MultiColumnTreeViewController::GetIndexForId)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x709e548;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 11 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::MultiColumnTreeViewController.GetIdForIndex
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(int32_t)>(
+    &::UnityEngine::UIElements::MultiColumnTreeViewController::GetIdForIndex)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x709e578;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -75,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::MultiColumnTreeViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::MakeItem)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c54cbc;
+  constexpr static std::size_t addrs = 0x709e5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -89,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::BindItem)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c54cd4;
+  constexpr static std::size_t addrs = 0x709e5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -103,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::UnbindItem)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c54d60;
+  constexpr static std::size_t addrs = 0x709e64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -117,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::MultiColumnTreeViewController::DestroyItem)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c54d78;
+  constexpr static std::size_t addrs = 0x709e664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -130,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)()>(&::UnityEngine::UIElements::MultiColumnTreeViewController::PrepareView)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c54d90;
+  constexpr static std::size_t addrs = 0x709e67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -143,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MultiColumnTreeViewController::*)()>(&::UnityEngine::UIElements::MultiColumnTreeViewController::Dispose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c54db0;
+  constexpr static std::size_t addrs = 0x709e69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(),
@@ -187,6 +230,21 @@ inline void UnityEngine::UIElements::MultiColumnTreeViewController::InvokeMakeIt
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reusableItem);
+}
+inline ::System::Object* UnityEngine::UIElements::MultiColumnTreeViewController::GetItemForIndex(int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 13 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, index);
+}
+inline int32_t UnityEngine::UIElements::MultiColumnTreeViewController::GetIndexForId(int32_t id) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 11 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, id);
+}
+inline int32_t UnityEngine::UIElements::MultiColumnTreeViewController::GetIdForIndex(int32_t index) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::MultiColumnTreeViewController*>(), 12 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, index);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::MultiColumnTreeViewController::MakeItem() {
   auto* ___internal_method =

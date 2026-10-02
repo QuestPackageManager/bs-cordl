@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::AudioHelpers::NormalizedVolumeToDB)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3321b9c;
+  constexpr static std::size_t addrs = 0x35aab3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::AudioHelpers::DBToNormalizedVolume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3321c20;
+  constexpr static std::size_t addrs = 0x35aabc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

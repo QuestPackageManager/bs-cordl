@@ -8,6 +8,7 @@
 #include "UnityEngine/UIElements/UIR/zzzz__EntryRecorder_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Entry_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationNode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureOptions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UnsafeMeshGenerationNode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
@@ -17,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)()>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dd5e40;
+  constexpr static std::size_t addrs = 0x7274d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(), { ".ctor", {}, {} })));
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(
     ::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::EntryRecorder*, bool)>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::Init)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6dd5e60;
+  constexpr static std::size_t addrs = 0x7274d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)()>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::Reset)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6dd5efc;
+  constexpr static std::size_t addrs = 0x7274e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(), { "Reset", {}, {} })));
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(::by_ref<::UnityEngine::UIElements::MeshGenerationNode>)>(
     &::UnityEngine::UIElements::MeshGenerationNodeImpl::GetNode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dd5f80;
+  constexpr static std::size_t addrs = 0x7274e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(),
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode>)>(
     &::UnityEngine::UIElements::MeshGenerationNodeImpl::GetUnsafeNode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dd5f8c;
+  constexpr static std::size_t addrs = 0x7274e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Entry* (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)()>(
     &::UnityEngine::UIElements::MeshGenerationNodeImpl::GetParentEntry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd5f98;
+  constexpr static std::size_t addrs = 0x7274ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(), { "GetParentEntry", {}, {} })));
@@ -97,19 +98,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshGenerationNodeImpl.DrawMesh
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>,
-                                                                                                                   ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(
+    ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, ::UnityEngine::UIElements::TextureOptions)>(
     &::UnityEngine::UIElements::MeshGenerationNodeImpl::DrawMesh)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6dd5b90;
+  constexpr static std::size_t addrs = 0x7274b04;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(),
-                                                { "DrawMesh",
-                                                  {},
-                                                  { ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(),
-                                                    ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(),
+                                         { "DrawMesh",
+                                           {},
+                                           { ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(), ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(),
+                                             ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::UnityEngine::UIElements::TextureOptions>() } })));
     return ___internal_method;
   }
 };
@@ -120,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::UIElements::VectorImage*)>(
     &::UnityEngine::UIElements::MeshGenerationNodeImpl::DrawGradients)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6dd5d14;
+  constexpr static std::size_t addrs = 0x7274c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)()>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd5fa0;
+  constexpr static std::size_t addrs = 0x7274eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(), { "get_disposed", {}, {} })));
@@ -149,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(bool)>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd5fa8;
+  constexpr static std::size_t addrs = 0x7274eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)()>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6dd5fb0;
+  constexpr static std::size_t addrs = 0x7274ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(), { "Dispose", {}, {} })));
@@ -174,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeImpl::*)(bool)>(&::UnityEngine::UIElements::MeshGenerationNodeImpl::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6dd6018;
+  constexpr static std::size_t addrs = 0x7274f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,14 +263,16 @@ inline ::UnityEngine::UIElements::UIR::Entry* UnityEngine::UIElements::MeshGener
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::Entry*>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::MeshGenerationNodeImpl::DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
-                                                                      ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture, bool skipAtlas) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(),
-                                              { "DrawMesh",
-                                                {},
-                                                { ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(),
-                                                  ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertices, indices, texture, skipAtlas);
+                                                                      ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
+                                                                      ::UnityEngine::UIElements::TextureOptions textureOptions) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNodeImpl*>(),
+                                       { "DrawMesh",
+                                         {},
+                                         { ::i2c::type_of<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>(), ::i2c::type_of<::Unity::Collections::NativeSlice_1<uint16_t>>(),
+                                           ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::UnityEngine::UIElements::TextureOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertices, indices, texture, textureOptions);
 }
 inline void UnityEngine::UIElements::MeshGenerationNodeImpl::DrawGradients(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
                                                                            ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::UIElements::VectorImage* gradientsOwner) {

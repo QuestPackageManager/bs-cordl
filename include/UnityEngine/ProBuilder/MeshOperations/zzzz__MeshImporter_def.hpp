@@ -63,10 +63,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c* New_ctor();
 
-  /// @brief Method <Import>b__9_0, addr 0x67355b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Import>b__9_0, addr 0x6b4a3e0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x);
 
-  /// @brief Method .ctor, addr 0x67355ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b4a3dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c* getStaticF___9();
@@ -92,7 +92,7 @@ public:
   MeshImporter___c(MeshImporter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,10 +126,10 @@ public:
 
   /// [Obsolete]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief Method Import, addr 0x6734090, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x6b48eb8, size 0x190, virtual false, abstract: false, final false
   inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
-  /// @brief Method Import, addr 0x6734220, size 0xabc, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x6b49048, size 0xac4, virtual false, abstract: false, final false
   inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   /// [Obsolete]
@@ -167,13 +167,13 @@ public:
 
   /// [Obsolete]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief Method .ctor, addr 0x6734088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b48eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method .ctor, addr 0x6733e04, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b48c2c, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x6733f70, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b48d98, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* getStaticF_k_DefaultImportSettings();
@@ -195,7 +195,7 @@ public:
   MeshImporter(MeshImporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17407 };
 
   /// @brief Field m_SourceMesh, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_SourceMesh;

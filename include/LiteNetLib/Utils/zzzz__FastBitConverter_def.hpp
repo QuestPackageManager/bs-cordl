@@ -100,7 +100,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -179,7 +179,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20577 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -201,37 +201,37 @@ public:
 
   using ConverterHelperFloat = ::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat;
 
-  /// @brief Method GetBytes, addr 0x58a9b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cc06d4, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, double_t value);
 
-  /// @brief Method GetBytes, addr 0x58a9b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cc06dc, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, float_t value);
 
-  /// @brief Method GetBytes, addr 0x58a9b64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cc06e4, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, int16_t value);
 
-  /// @brief Method GetBytes, addr 0x58a4600, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cbb180, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, int32_t value);
 
-  /// @brief Method GetBytes, addr 0x58a08c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cb7440, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, int64_t value);
 
-  /// @brief Method GetBytes, addr 0x58a41bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cbad3c, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, uint16_t value);
 
-  /// @brief Method GetBytes, addr 0x58a9b68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cc06e8, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, uint32_t value);
 
-  /// @brief Method GetBytes, addr 0x58a9b6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5cc06ec, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t> bytes, int32_t startIndex, uint64_t value);
 
-  /// @brief Method WriteLittleEndian, addr 0x58a9b0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x5cc068c, size 0x48, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t> buffer, int32_t offset, int16_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x58a9a8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x5cc060c, size 0x80, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t> buffer, int32_t offset, int32_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x58a999c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x5cc051c, size 0xf0, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t> buffer, int32_t offset, uint64_t data);
 
 protected:
@@ -249,7 +249,7 @@ public:
   FastBitConverter(FastBitConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

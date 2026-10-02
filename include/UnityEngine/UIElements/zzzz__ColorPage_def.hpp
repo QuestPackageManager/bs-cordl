@@ -10,7 +10,7 @@ namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
 namespace UnityEngine::UIElements::UIR {
-class RenderChain;
+class RenderTreeManager;
 }
 namespace UnityEngine::UIElements {
 struct MeshBuilderNative_NativeColorPage;
@@ -29,10 +29,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x6dd4ef8, size 0x9c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+  /// @brief Method Init, addr 0x7273ea8, size 0x9c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method ToNativeColorPage, addr 0x6dd4f94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToNativeColorPage, addr 0x7273f44, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage ToNativeColorPage();
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr ColorPage(bool isValid, ::UnityEngine::Color32 pageAndID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4714 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

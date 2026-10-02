@@ -22,9 +22,9 @@ class TextMesh;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextMesh*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextMesh*, "UnityEngine", "TextMesh");
-// [RequireComponent(typeof(UnityEngine.Transform), typeof(UnityEngine.MeshRenderer))]
-// [NativeClass("TextRenderingPrivate::TextMesh")]
 // [NativeHeader("Modules/TextRendering/Public/TextMesh.h")]
+// [NativeClass("TextRenderingPrivate::TextMesh")]
+// [RequireComponent(typeof(UnityEngine.Transform), typeof(UnityEngine.MeshRenderer))]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -38,25 +38,25 @@ public:
 
   static inline ::UnityEngine::TextMesh* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c16d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7069f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alignment, addr 0x6c16bac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x7069dfc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAlignment get_alignment();
 
-  /// @brief Method get_alignment_Injected, addr 0x6c16c2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment_Injected, addr 0x7069e7c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextAlignment get_alignment_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_alignment, addr 0x6c16c68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x7069eb8, size 0x90, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_alignment_Injected, addr 0x6c16cf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment_Injected, addr 0x7069f48, size 0x44, virtual false, abstract: false, final false
   static inline void set_alignment_Injected(::System::IntPtr _unity_self, ::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_text, addr 0x6c16a00, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x7069c50, size 0x168, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_text_Injected, addr 0x6c16b68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_text_Injected, addr 0x7069db8, size 0x44, virtual false, abstract: false, final false
   static inline void set_text_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   TextMesh(TextMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

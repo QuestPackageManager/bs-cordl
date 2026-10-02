@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x36ddfb8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3967254, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> knowledgeProofForX2s);
 
-  /// @brief Method get_A, addr 0x36df5f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_A, addr 0x396888c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_KnowledgeProofForX2s, addr 0x36df5f8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2s, addr 0x3968894, size 0x80, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> get_KnowledgeProofForX2s();
 
-  /// @brief Method get_ParticipantId, addr 0x36df5e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x3968884, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

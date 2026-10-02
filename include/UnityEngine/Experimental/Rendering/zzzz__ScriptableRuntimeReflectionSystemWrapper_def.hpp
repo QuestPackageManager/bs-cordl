@@ -30,7 +30,7 @@ public:
   __declspec(property(get = get_implementation, put = set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x6b30d3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x6f8e880, size 0xcc, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(::by_ref<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
@@ -41,15 +41,15 @@ public:
 
   constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method .ctor, addr 0x6b30d28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f8e86c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_implementation, addr 0x6b30d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementation, addr 0x6f8e870, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
   /// [CompilerGenerated]
-  /// @brief Method set_implementation, addr 0x6b30d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_implementation, addr 0x6f8e878, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10530 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

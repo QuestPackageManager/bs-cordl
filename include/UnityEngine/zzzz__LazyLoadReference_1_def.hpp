@@ -46,13 +46,10 @@ public:
   constexpr LazyLoadReference_1(int32_t m_InstanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9938 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field kInstanceID_None offset 0xffffffff size 0x4
-  static constexpr int32_t kInstanceID_None{ static_cast<int32_t>(0x0) };
 
   /// [SerializeField]
   /// @brief Field m_InstanceID, offset: 0x0, size: 0x4, def value: None

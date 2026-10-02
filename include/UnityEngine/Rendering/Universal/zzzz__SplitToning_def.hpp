@@ -42,11 +42,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687f9a4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbee98, size 0xb0, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687fa30, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbef48, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::SplitToning* New_ctor();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_shadows(::UnityEngine::Rendering::ColorParameter* value);
 
-  /// @brief Method .ctor, addr 0x687fa38, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbef50, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -90,7 +90,7 @@ public:
   SplitToning(SplitToning const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
 
   /// [Tooltip("The color to use for shadows.")]
   /// @brief Field shadows, offset: 0x38, size: 0x8, def value: None

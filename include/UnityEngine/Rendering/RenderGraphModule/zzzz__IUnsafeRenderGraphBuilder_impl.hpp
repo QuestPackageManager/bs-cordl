@@ -4,6 +4,7 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRenderAttachmentRenderGraphBuilder_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
 template <typename PassData>
   requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
@@ -13,6 +14,15 @@ inline void UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*>(), 0 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<PassData>() }));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderFunc);
+}
+/// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder"
+constexpr UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::operator ::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder*() noexcept {
+  return static_cast<::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder"
+constexpr ::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder*
+UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::i___UnityEngine__Rendering__RenderGraphModule__IRenderAttachmentRenderGraphBuilder() noexcept {
+  return static_cast<::UnityEngine::Rendering::RenderGraphModule::IRenderAttachmentRenderGraphBuilder*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
 constexpr UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder::operator ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*() noexcept {

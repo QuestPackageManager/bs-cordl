@@ -5,7 +5,14 @@
 CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
+#include <cstdint>
 CORDL_MODULE_EXPORT(XrVector2f)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -23,11 +30,29 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrVector2f {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x69f6e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>*();
+
+  /// @brief Method AsVector2, addr 0x6e3e148, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 AsVector2();
+
+  /// @brief Method Equals, addr 0x6e3e1d4, size 0xe8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x6e3e150, size 0x84, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f other);
+
+  /// @brief Method GetHashCode, addr 0x6e3e2bc, size 0x84, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x6e3e140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x69f6e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y);
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>* i___System__IEquatable_1___UnityEngine__XR__OpenXR__NativeTypes__XrVector2f_();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -37,7 +62,7 @@ public:
   constexpr XrVector2f(float_t X, float_t Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17522 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

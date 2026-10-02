@@ -11,7 +11,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EntryProcessor)
@@ -46,7 +45,10 @@ namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
 }
 namespace UnityEngine::UIElements::UIR {
-class RenderChain;
+class RenderData;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderTreeManager;
 }
 namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice;
@@ -57,17 +59,8 @@ struct TextureId;
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
-namespace UnityEngine::UIElements {
-struct VisualElement_RenderTargetMode;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -99,7 +92,7 @@ public:
                                     int32_t indexOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5398 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -177,8 +170,8 @@ public:
   /// @brief Field m_ClipRectIdPushed, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ClipRectIdPushed, put = __cordl_internal_set_m_ClipRectIdPushed)) ::UnityEngine::UIElements::UIR::BMPAlloc m_ClipRectIdPushed;
 
-  /// @brief Field m_CurrentElement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CurrentElement, put = __cordl_internal_set_m_CurrentElement)) ::UnityEngine::UIElements::VisualElement* m_CurrentElement;
+  /// @brief Field m_CurrentRenderData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CurrentRenderData, put = __cordl_internal_set_m_CurrentRenderData)) ::UnityEngine::UIElements::UIR::RenderData* m_CurrentRenderData;
 
   /// @brief Field m_FirstCommand, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FirstCommand, put = __cordl_internal_set_m_FirstCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* m_FirstCommand;
@@ -229,8 +222,8 @@ public:
   /// @brief Field m_RemapUVs, offset 0xf8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_RemapUVs, put = __cordl_internal_set_m_RemapUVs)) bool m_RemapUVs;
 
-  /// @brief Field m_RenderChain, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RenderChain, put = __cordl_internal_set_m_RenderChain)) ::UnityEngine::UIElements::UIR::RenderChain* m_RenderChain;
+  /// @brief Field m_RenderTreeManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RenderTreeManager, put = __cordl_internal_set_m_RenderTreeManager)) ::UnityEngine::UIElements::UIR::RenderTreeManager* m_RenderTreeManager;
 
   /// @brief Field m_RenderType, offset 0xf4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_RenderType, put = __cordl_internal_set_m_RenderType)) ::UnityEngine::UIElements::UIR::VertexFlags m_RenderType;
@@ -262,62 +255,44 @@ public:
   /// @brief Field m_VertsFilled, offset 0xec, size 0x4
   __declspec(property(get = __cordl_internal_get_m_VertsFilled, put = __cordl_internal_set_m_VertsFilled)) int32_t m_VertsFilled;
 
-  /// @brief Field s_blitMaterial_GammaToLinear, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_blitMaterial_GammaToLinear, put = setStaticF_s_blitMaterial_GammaToLinear)) ::UnityW<::UnityEngine::Material> s_blitMaterial_GammaToLinear;
-
-  /// @brief Field s_blitMaterial_LinearToGamma, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_blitMaterial_LinearToGamma, put = setStaticF_s_blitMaterial_LinearToGamma)) ::UnityW<::UnityEngine::Material> s_blitMaterial_LinearToGamma;
-
-  /// @brief Field s_blitMaterial_NoChange, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_blitMaterial_NoChange, put = setStaticF_s_blitMaterial_NoChange)) ::UnityW<::UnityEngine::Material> s_blitMaterial_NoChange;
-
-  /// @brief Field s_blitShader, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_blitShader, put = setStaticF_s_blitShader)) ::UnityW<::UnityEngine::Shader> s_blitShader;
-
-  /// @brief Method AppendCommand, addr 0x6cdbae4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AppendCommand, addr 0x716ad24, size 0x40, virtual false, abstract: false, final false
   inline void AppendCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* next);
 
-  /// @brief Method ClearReferences, addr 0x6cda0dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ClearReferences, addr 0x71692ec, size 0x38, virtual false, abstract: false, final false
   inline void ClearReferences();
 
-  /// @brief Method CreateBlitShader, addr 0x6cdbc14, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> CreateBlitShader(float_t colorConversion);
-
-  /// @brief Method CreateMeshDrawCommand, addr 0x6cdba04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshDrawCommand, addr 0x716aaf0, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* CreateMeshDrawCommand(::UnityEngine::UIElements::UIR::MeshHandle* mesh, int32_t indexCount, int32_t indexOffset,
                                                                                    ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture);
 
-  /// @brief Method DrawReverseMask, addr 0x6cdb364, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method DrawReverseMask, addr 0x716a694, size 0x2ac, virtual false, abstract: false, final false
   inline void DrawReverseMask();
 
-  /// @brief Method GetBlitMaterial, addr 0x6cdb610, size 0x244, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::UIElements::VisualElement_RenderTargetMode mode);
-
-  /// @brief Method Init, addr 0x6cd9e8c, size 0x250, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::UIR::Entry* root, ::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
+  /// @brief Method Init, addr 0x71690b4, size 0x238, virtual false, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::UIR::Entry* root, ::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::RenderData* renderData);
 
   static inline ::UnityEngine::UIElements::UIR::EntryProcessor* New_ctor();
 
-  /// @brief Method ProcessFirstAlloc, addr 0x6cda174, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ProcessFirstAlloc, addr 0x7169384, size 0x130, virtual false, abstract: false, final false
   inline void ProcessFirstAlloc(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* allocList,
                                 ::by_ref<::UnityEngine::UIElements::UIR::MeshHandle*> mesh);
 
-  /// @brief Method ProcessHead, addr 0x6cda114, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProcessHead, addr 0x7169324, size 0x60, virtual false, abstract: false, final false
   inline void ProcessHead();
 
-  /// @brief Method ProcessMeshEntry, addr 0x6cdad54, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method ProcessMeshEntry, addr 0x7169e78, size 0x81c, virtual false, abstract: false, final false
   inline void ProcessMeshEntry(::UnityEngine::UIElements::UIR::Entry* entry, ::UnityEngine::UIElements::TextureId textureId);
 
-  /// @brief Method ProcessNextAlloc, addr 0x6cdb854, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ProcessNextAlloc, addr 0x716a940, size 0x14c, virtual false, abstract: false, final false
   inline void ProcessNextAlloc();
 
-  /// @brief Method ProcessRange, addr 0x6cda2a4, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method ProcessRange, addr 0x71694b4, size 0x8a8, virtual false, abstract: false, final false
   inline void ProcessRange(int32_t first, int32_t last);
 
-  /// @brief Method ProcessTail, addr 0x6cdac38, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTail, addr 0x7169d5c, size 0x11c, virtual false, abstract: false, final false
   inline void ProcessTail();
 
-  /// @brief Method UpdateOrAllocate, addr 0x6cdbb24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateOrAllocate, addr 0x716ad64, size 0xf0, virtual false, abstract: false, final false
   static inline void UpdateOrAllocate(::by_ref<::UnityEngine::UIElements::UIR::MeshHandle*> data, int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                       ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> verts, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indices,
                                       ::by_ref<uint16_t> indexOffset, ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
@@ -362,9 +337,9 @@ public:
 
   constexpr ::UnityEngine::UIElements::UIR::BMPAlloc& __cordl_internal_get_m_ClipRectIdPushed();
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CurrentElement() const;
+  constexpr ::UnityEngine::UIElements::UIR::RenderData* const& __cordl_internal_get_m_CurrentRenderData() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CurrentElement();
+  constexpr ::UnityEngine::UIElements::UIR::RenderData*& __cordl_internal_get_m_CurrentRenderData();
 
   constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand* const& __cordl_internal_get_m_FirstCommand() const;
 
@@ -430,9 +405,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_RemapUVs();
 
-  constexpr ::UnityEngine::UIElements::UIR::RenderChain* const& __cordl_internal_get_m_RenderChain() const;
+  constexpr ::UnityEngine::UIElements::UIR::RenderTreeManager* const& __cordl_internal_get_m_RenderTreeManager() const;
 
-  constexpr ::UnityEngine::UIElements::UIR::RenderChain*& __cordl_internal_get_m_RenderChain();
+  constexpr ::UnityEngine::UIElements::UIR::RenderTreeManager*& __cordl_internal_get_m_RenderTreeManager();
 
   constexpr ::UnityEngine::UIElements::UIR::VertexFlags const& __cordl_internal_get_m_RenderType() const;
 
@@ -494,7 +469,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ClipRectIdPushed(::UnityEngine::UIElements::UIR::BMPAlloc value);
 
-  constexpr void __cordl_internal_set_m_CurrentElement(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CurrentRenderData(::UnityEngine::UIElements::UIR::RenderData* value);
 
   constexpr void __cordl_internal_set_m_FirstCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
@@ -528,7 +503,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RemapUVs(bool value);
 
-  constexpr void __cordl_internal_set_m_RenderChain(::UnityEngine::UIElements::UIR::RenderChain* value);
+  constexpr void __cordl_internal_set_m_RenderTreeManager(::UnityEngine::UIElements::UIR::RenderTreeManager* value);
 
   constexpr void __cordl_internal_set_m_RenderType(::UnityEngine::UIElements::UIR::VertexFlags value);
 
@@ -550,55 +525,39 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsFilled(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cdbe10, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x716ae54, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_GammaToLinear();
-
-  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_LinearToGamma();
-
-  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_NoChange();
-
-  static inline ::UnityW<::UnityEngine::Shader> getStaticF_s_blitShader();
-
   /// [CompilerGenerated]
-  /// @brief Method get_firstHeadCommand, addr 0x6cd9e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstHeadCommand, addr 0x7169074, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstHeadCommand();
 
   /// [CompilerGenerated]
-  /// @brief Method get_firstTailCommand, addr 0x6cd9e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstTailCommand, addr 0x7169094, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstTailCommand();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastHeadCommand, addr 0x6cd9e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastHeadCommand, addr 0x7169084, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastHeadCommand();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastTailCommand, addr 0x6cd9e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastTailCommand, addr 0x71690a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastTailCommand();
 
-  static inline void setStaticF_s_blitMaterial_GammaToLinear(::UnityW<::UnityEngine::Material> value);
-
-  static inline void setStaticF_s_blitMaterial_LinearToGamma(::UnityW<::UnityEngine::Material> value);
-
-  static inline void setStaticF_s_blitMaterial_NoChange(::UnityW<::UnityEngine::Material> value);
-
-  static inline void setStaticF_s_blitShader(::UnityW<::UnityEngine::Shader> value);
-
   /// [CompilerGenerated]
-  /// @brief Method set_firstHeadCommand, addr 0x6cd9e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstHeadCommand, addr 0x716907c, size 0x8, virtual false, abstract: false, final false
   inline void set_firstHeadCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_firstTailCommand, addr 0x6cd9e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstTailCommand, addr 0x716909c, size 0x8, virtual false, abstract: false, final false
   inline void set_firstTailCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastHeadCommand, addr 0x6cd9e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastHeadCommand, addr 0x716908c, size 0x8, virtual false, abstract: false, final false
   inline void set_lastHeadCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastTailCommand, addr 0x6cd9e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastTailCommand, addr 0x71690ac, size 0x8, virtual false, abstract: false, final false
   inline void set_lastTailCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
 protected:
@@ -616,16 +575,16 @@ public:
   EntryProcessor(EntryProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5399 };
 
   /// @brief Field m_PreProcessor, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::EntryPreProcessor* ___m_PreProcessor;
 
-  /// @brief Field m_RenderChain, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UIR::RenderChain* ___m_RenderChain;
+  /// @brief Field m_RenderTreeManager, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::RenderTreeManager* ___m_RenderTreeManager;
 
-  /// @brief Field m_CurrentElement, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_CurrentElement;
+  /// @brief Field m_CurrentRenderData, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::RenderData* ___m_CurrentRenderData;
 
   /// @brief Field m_MaskDepth, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_MaskDepth;
@@ -745,9 +704,9 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryProcessor, ___m_PreProcessor) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryProcessor, ___m_RenderChain) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryProcessor, ___m_RenderTreeManager) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryProcessor, ___m_CurrentElement) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryProcessor, ___m_CurrentRenderData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryProcessor, ___m_MaskDepth) == 0x28, "Offset mismatch!");
 

@@ -45,11 +45,11 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x604802c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6464378, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW conflict);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Conflict, addr 0x6048094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Conflict, addr 0x64643e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Conflict();
 
 protected:
@@ -67,7 +67,7 @@ public:
   MergeFailedEventArgs(MergeFailedEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14072 };
 
   /// [CompilerGenerated]
   /// @brief Field <Table>k__BackingField, offset: 0x10, size: 0x8, def value: None

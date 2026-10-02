@@ -58,78 +58,78 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method AddNode, addr 0x62b9598, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method AddNode, addr 0x66e1570, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AddNode(::System::Xml::XmlNode* node);
 
-  /// @brief Method Append, addr 0x62b9040, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x66e1018, size 0x108, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* Append(::System::Xml::XmlAttribute* node);
 
-  /// @brief Method Detach, addr 0x62b9148, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Detach, addr 0x66e1120, size 0x48, virtual false, abstract: false, final false
   inline void Detach(::System::Xml::XmlAttribute* attr);
 
-  /// @brief Method FindNodeOffsetNS, addr 0x62b8a2c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FindNodeOffsetNS, addr 0x66e0a04, size 0x16c, virtual false, abstract: false, final false
   inline int32_t FindNodeOffsetNS(::System::Xml::XmlAttribute* node);
 
-  /// @brief Method InsertNodeAt, addr 0x62b9918, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InsertNodeAt, addr 0x66e18f0, size 0xac, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* InsertNodeAt(int32_t i, ::System::Xml::XmlNode* node);
 
-  /// @brief Method InsertParentIntoElementIdAttrMap, addr 0x62b9234, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method InsertParentIntoElementIdAttrMap, addr 0x66e120c, size 0x150, virtual false, abstract: false, final false
   inline void InsertParentIntoElementIdAttrMap(::System::Xml::XmlAttribute* attr);
 
-  /// @brief Method InternalAppendAttribute, addr 0x62b8e38, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InternalAppendAttribute, addr 0x66e0e10, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* InternalAppendAttribute(::System::Xml::XmlAttribute* node);
 
   static inline ::System::Xml::XmlAttributeCollection* New_ctor(::System::Xml::XmlNode* parent);
 
-  /// @brief Method PrepareParentInElementIdAttrMap, addr 0x62b68a0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PrepareParentInElementIdAttrMap, addr 0x66de878, size 0xec, virtual false, abstract: false, final false
   inline bool PrepareParentInElementIdAttrMap(::StringW attrPrefix, ::StringW attrLocalName);
 
-  /// @brief Method Remove, addr 0x62b9384, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x66e135c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* Remove(::System::Xml::XmlAttribute* node);
 
-  /// @brief Method RemoveAll, addr 0x62b94b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x66e1490, size 0x48, virtual false, abstract: false, final false
   inline void RemoveAll();
 
-  /// @brief Method RemoveAt, addr 0x62b9400, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x66e13d8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* RemoveAt(int32_t i);
 
-  /// @brief Method RemoveDuplicateAttribute, addr 0x62b9678, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RemoveDuplicateAttribute, addr 0x66e1650, size 0x104, virtual false, abstract: false, final false
   inline int32_t RemoveDuplicateAttribute(::System::Xml::XmlAttribute* attr);
 
-  /// @brief Method RemoveNodeAt, addr 0x62b9b6c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method RemoveNodeAt, addr 0x66e1b44, size 0x19c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* RemoveNodeAt(int32_t i);
 
-  /// @brief Method RemoveParentFromElementIdAttrMap, addr 0x62b9d08, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method RemoveParentFromElementIdAttrMap, addr 0x66e1ce0, size 0x150, virtual false, abstract: false, final false
   inline void RemoveParentFromElementIdAttrMap(::System::Xml::XmlAttribute* attr);
 
-  /// @brief Method ResetParentInElementIdAttrMap, addr 0x62b698c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ResetParentInElementIdAttrMap, addr 0x66de964, size 0xc0, virtual false, abstract: false, final false
   inline void ResetParentInElementIdAttrMap(::StringW oldVal, ::StringW newVal);
 
-  /// @brief Method SetNamedItem, addr 0x62b8b98, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method SetNamedItem, addr 0x66e0b70, size 0x188, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* SetNamedItem(::System::Xml::XmlNode* node);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x62b9500, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x66e14d8, size 0x7c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x62b9588, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x66e1560, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x62b957c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x66e1554, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x62b9584, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x66e155c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method .ctor, addr 0x62b8654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e062c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* parent);
 
-  /// @brief Method get_ItemOf, addr 0x62b49d4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method get_ItemOf, addr 0x66dc9ac, size 0x148, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* get_ItemOf(int32_t i);
 
-  /// @brief Method get_ItemOf, addr 0x62b88f0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemOf, addr 0x66e08c8, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* get_ItemOf(::StringW localName, ::StringW namespaceURI);
 
-  /// @brief Method get_ItemOf, addr 0x62b8750, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_ItemOf, addr 0x66e0728, size 0x110, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* get_ItemOf(::StringW name);
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -153,7 +153,7 @@ public:
   XmlAttributeCollection(XmlAttributeCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

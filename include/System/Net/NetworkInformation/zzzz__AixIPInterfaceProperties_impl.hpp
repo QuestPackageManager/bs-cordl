@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Netw
     ::System::Net::NetworkInformation::AixNetworkInterface*, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*, int32_t)>(
     &::System::Net::NetworkInformation::AixIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6352bc4;
+  constexpr static std::size_t addrs = 0x677ab30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::ArrayW<::StringW>>)>(&::System::Net::NetworkInformation::AixIPInterfaceProperties::ParseRouteInfo_icall)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6352c44;
+  constexpr static std::size_t addrs = 0x677abb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (::System::Net::NetworkInformation::AixIPInterfaceProperties::*)()>(
     &::System::Net::NetworkInformation::AixIPInterfaceProperties::get_GatewayAddresses)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6352c88;
+  constexpr static std::size_t addrs = 0x677abf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::AixIPInterfaceProperties*>(),

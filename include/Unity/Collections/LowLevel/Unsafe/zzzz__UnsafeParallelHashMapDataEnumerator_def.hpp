@@ -38,13 +38,13 @@ public:
     requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
   inline TKey GetCurrentKey();
 
-  /// @brief Method MoveNext, addr 0x64cef8c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x68f7d84, size 0x48, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x64cefd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x68f7dcc, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x64cef74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68f7d6c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr UnsafeParallelHashMapDataEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16033 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

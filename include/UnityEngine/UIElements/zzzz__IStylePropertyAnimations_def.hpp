@@ -28,10 +28,19 @@ namespace UnityEngine::UIElements {
 struct Background;
 }
 namespace UnityEngine::UIElements {
+struct FilterFunction;
+}
+namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
 namespace UnityEngine::UIElements {
 struct Length;
+}
+namespace UnityEngine::UIElements {
+struct MaterialDefinition;
+}
+namespace UnityEngine::UIElements {
+struct Ratio;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
@@ -61,6 +70,7 @@ class IStylePropertyAnimations;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::IStylePropertyAnimations*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IStylePropertyAnimations*, "UnityEngine.UIElements", "IStylePropertyAnimations");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -80,6 +90,10 @@ public:
 
   /// @brief Method GetAllAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* outPropertyIds);
+
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* from,
+                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Color from, ::UnityEngine::Color to, int32_t durationMs, int32_t delayMs,
@@ -111,6 +125,14 @@ public:
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Length from, ::UnityEngine::UIElements::Length to, int32_t durationMs, int32_t delayMs,
+                    ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::MaterialDefinition from, ::UnityEngine::UIElements::MaterialDefinition to,
+                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Ratio from, ::UnityEngine::UIElements::Ratio to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -162,7 +184,7 @@ public:
   IStylePropertyAnimations(IStylePropertyAnimations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

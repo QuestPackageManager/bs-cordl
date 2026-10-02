@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConversionRegistry)
@@ -17,122 +16,23 @@ namespace System {
 class Delegate;
 }
 namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
 class Type;
 }
 namespace Unity::Properties {
-class ConversionRegistry_ConverterKeyComparer;
-}
-namespace Unity::Properties {
-struct ConversionRegistry_ConverterKey;
+struct ConverterKey;
 }
 // Forward declare root types
 namespace Unity::Properties {
-class ConversionRegistry_ConverterKeyComparer;
-}
-namespace Unity::Properties {
 struct ConversionRegistry;
 }
-namespace Unity::Properties {
-struct ConversionRegistry_ConverterKey;
-}
 // Write type traits
-MARK_REF_T(::Unity::Properties::ConversionRegistry_ConverterKeyComparer*);
 MARK_VAL_T(::Unity::Properties::ConversionRegistry);
-MARK_VAL_T(::Unity::Properties::ConversionRegistry_ConverterKey);
-DEFINE_IL2CPP_CLASS(::Unity::Properties::ConversionRegistry_ConverterKeyComparer*, "Unity.Properties", "ConversionRegistry/ConverterKeyComparer");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::ConversionRegistry, "Unity.Properties", "ConversionRegistry");
-DEFINE_IL2CPP_CLASS(::Unity::Properties::ConversionRegistry_ConverterKey, "Unity.Properties", "ConversionRegistry/ConverterKey");
-// Dependencies System.Object
-namespace Unity::Properties {
-// Is value type: false
-// CS Name: Unity.Properties.ConversionRegistry/ConverterKeyComparer
-class CORDL_TYPE ConversionRegistry_ConverterKeyComparer : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>"
-  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>*() noexcept;
-
-  /// @brief Method Equals, addr 0x6ba23fc, size 0x68, virtual true, abstract: false, final true
-  inline bool Equals(::Unity::Properties::ConversionRegistry_ConverterKey x, ::Unity::Properties::ConversionRegistry_ConverterKey y);
-
-  /// @brief Method GetHashCode, addr 0x6ba2464, size 0x80, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::Unity::Properties::ConversionRegistry_ConverterKey obj);
-
-  static inline ::Unity::Properties::ConversionRegistry_ConverterKeyComparer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x6ba23f8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>*
-  i___System__Collections__Generic__IEqualityComparer_1___Unity__Properties__ConversionRegistry_ConverterKey_() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConversionRegistry_ConverterKeyComparer();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConversionRegistry_ConverterKeyComparer", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConversionRegistry_ConverterKeyComparer(ConversionRegistry_ConverterKeyComparer&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "ConversionRegistry_ConverterKeyComparer", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConversionRegistry_ConverterKeyComparer(ConversionRegistry_ConverterKeyComparer const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19690 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(sizeof(::Unity::Properties::ConversionRegistry_ConverterKeyComparer) == 0x10, "Size mismatch!");
-
-} // namespace Unity::Properties
 // [IsReadOnly]
-// Dependencies
-namespace Unity::Properties {
-// Is value type: true
-// CS Name: Unity.Properties.ConversionRegistry/ConverterKey
-struct CORDL_TYPE ConversionRegistry_ConverterKey {
-public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6ba223c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* source, ::System::Type* destination);
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConversionRegistry_ConverterKey();
-
-  // Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers: "",
-  // def_value: None, comment: None }]
-  constexpr ConversionRegistry_ConverterKey(::System::Type* SourceType, ::System::Type* DestinationType) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19691 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
-  /// @brief Field SourceType, offset: 0x0, size: 0x8, def value: None
-  ::System::Type* SourceType;
-
-  /// @brief Field DestinationType, offset: 0x8, size: 0x8, def value: None
-  ::System::Type* DestinationType;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::Unity::Properties::ConversionRegistry_ConverterKey, SourceType) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::Unity::Properties::ConversionRegistry_ConverterKey, DestinationType) == 0x8, "Offset mismatch!");
-
-static_assert(sizeof(::Unity::Properties::ConversionRegistry_ConverterKey) == 0x10, "Size mismatch!");
-
-} // namespace Unity::Properties
 // [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-// [IsReadOnly]
 // Dependencies
 namespace Unity::Properties {
 // Is value type: true
@@ -140,67 +40,69 @@ namespace Unity::Properties {
 struct CORDL_TYPE ConversionRegistry {
 public:
   // Declarations
-  using ConverterKey = ::Unity::Properties::ConversionRegistry_ConverterKey;
-
-  using ConverterKeyComparer = ::Unity::Properties::ConversionRegistry_ConverterKeyComparer;
-
-  /// @brief Field Comparer, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Comparer, put = setStaticF_Comparer)) ::Unity::Properties::ConversionRegistry_ConverterKeyComparer* Comparer;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry>*();
 
-  /// @brief Method Create, addr 0x6ba2098, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x700e2ec, size 0x14c, virtual false, abstract: false, final false
+  inline void Apply(::Unity::Properties::ConversionRegistry registry);
+
+  /// @brief Method Create, addr 0x700e078, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Properties::ConversionRegistry Create();
 
-  /// @brief Method Equals, addr 0x6ba2360, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x700e580, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::ConversionRegistry x, ::Unity::Properties::ConversionRegistry y);
 
-  /// @brief Method GetConverter, addr 0x6ba2244, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x700e438, size 0x124, virtual false, abstract: false, final false
   inline ::System::Delegate* GetConverter(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method GetHashCode, addr 0x6ba236c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x700e58c, size 0x20, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Unity::Properties::ConversionRegistry obj);
 
-  /// @brief Method Register, addr 0x6ba2164, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LazyRegister, addr 0x700e214, size 0xd8, virtual false, abstract: false, final false
+  inline void LazyRegister(::System::Type* source, ::System::Type* destination, ::System::Func_1<::System::Delegate*>* converter);
+
+  /// @brief Method Register, addr 0x700e13c, size 0xd8, virtual false, abstract: false, final false
   inline void Register(::System::Type* source, ::System::Type* destination, ::System::Delegate* converter);
 
-  /// @brief Method TryGetConverter, addr 0x6ba22d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetConverter, addr 0x700e55c, size 0x24, virtual false, abstract: false, final false
   inline bool TryGetConverter(::System::Type* source, ::System::Type* destination, ::by_ref<::System::Delegate*> converter);
 
-  /// @brief Method .ctor, addr 0x6ba2090, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConversionRegistry_ConverterKey, ::System::Delegate*>* storage);
-
-  static inline ::Unity::Properties::ConversionRegistry_ConverterKeyComparer* getStaticF_Comparer();
+  /// @brief Method .ctor, addr 0x700dfb8, size 0xc0, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey, ::System::Delegate*>* storage);
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry>"
   constexpr ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry>*
   i___System__Collections__Generic__IEqualityComparer_1___Unity__Properties__ConversionRegistry_();
 
-  static inline void setStaticF_Comparer(::Unity::Properties::ConversionRegistry_ConverterKeyComparer* value);
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ConversionRegistry();
 
-  // Ctor Parameters [CppParam { name: "m_Converters", ty: "::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConversionRegistry_ConverterKey,::System::Delegate*>*", modifiers: "",
+  // Ctor Parameters [CppParam { name: "m_Converters", ty: "::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey,::System::Delegate*>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_LazyConverters", ty: "::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey,::System::Func_1<::System::Delegate*>*>*", modifiers: "",
   // def_value: None, comment: None }]
-  constexpr ConversionRegistry(::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConversionRegistry_ConverterKey, ::System::Delegate*>* m_Converters) noexcept;
+  constexpr ConversionRegistry(::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey, ::System::Delegate*>* m_Converters,
+                               ::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey, ::System::Func_1<::System::Delegate*>*>* m_LazyConverters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20776 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_Converters, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConversionRegistry_ConverterKey, ::System::Delegate*>* m_Converters;
+  ::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey, ::System::Delegate*>* m_Converters;
+
+  /// @brief Field m_LazyConverters, offset: 0x8, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConverterKey, ::System::Func_1<::System::Delegate*>*>* m_LazyConverters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Properties::ConversionRegistry, m_Converters) == 0x0, "Offset mismatch!");
 
-static_assert(sizeof(::Unity::Properties::ConversionRegistry) == 0x8, "Size mismatch!");
+static_assert(offsetof(::Unity::Properties::ConversionRegistry, m_LazyConverters) == 0x8, "Offset mismatch!");
+
+static_assert(sizeof(::Unity::Properties::ConversionRegistry) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Properties

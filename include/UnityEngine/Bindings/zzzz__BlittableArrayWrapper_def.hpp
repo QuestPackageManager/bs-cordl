@@ -77,7 +77,7 @@ public:
   static ::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags const SizeChanged;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -93,9 +93,9 @@ static_assert(offsetof(::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlag
 static_assert(sizeof(::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
+// [VisibleToOtherModules]
 // [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // [IsByRefLike]
-// [VisibleToOtherModules]
 // Dependencies UnityEngine.Bindings.BlittableArrayWrapper::UpdateFlags
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -110,7 +110,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Unmarshal(::by_ref<::ArrayW<T>> array);
 
-  /// @brief Method .ctor, addr 0x6afeeb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5a094, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* data, int32_t size);
 
   // Ctor Parameters []
@@ -122,7 +122,7 @@ public:
   constexpr BlittableArrayWrapper(void* data, int32_t size, ::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags updateFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

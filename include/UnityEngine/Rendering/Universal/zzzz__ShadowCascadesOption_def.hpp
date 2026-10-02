@@ -13,7 +13,7 @@ struct ShadowCascadesOption;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::ShadowCascadesOption);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShadowCascadesOption, "UnityEngine.Rendering.Universal", "ShadowCascadesOption");
-// [Obsolete("This is obsolete, please use shadowCascadeCount instead.", true)]
+// [Obsolete("This is obsolete, please use shadowCascadeCount instead. #from(2021.1) #breakingFrom(2023.1)", true)]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -57,7 +57,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ShadowCascadesOption const TwoCascades;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

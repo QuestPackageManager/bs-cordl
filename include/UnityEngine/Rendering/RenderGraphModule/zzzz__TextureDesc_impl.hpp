@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DepthBits (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::get_depthBufferBits)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67ea874;
+  constexpr static std::size_t addrs = 0x6c14110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::Rendering::DepthBits)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::set_depthBufferBits)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x67ea8f0;
+  constexpr static std::size_t addrs = 0x6c1418c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::get_colorFormat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x67ea9ac;
+  constexpr static std::size_t addrs = 0x6c14248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::set_colorFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eaa3c;
+  constexpr static std::size_t addrs = 0x6c142d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(bool, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::InitDefaultValues)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x67eaa44;
+  constexpr static std::size_t addrs = 0x6c142e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(int32_t, int32_t, bool, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67eab1c;
+  constexpr static std::size_t addrs = 0x6c143b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::Vector2, bool, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x67eab48;
+  constexpr static std::size_t addrs = 0x6c143e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::Rendering::ScaleFunc*, bool, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67eab88;
+  constexpr static std::size_t addrs = 0x6c14424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::Rendering::RenderGraphModule::TextureDesc)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eabd0;
+  constexpr static std::size_t addrs = 0x6c1446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(),
@@ -153,8 +153,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::RenderTextureDescriptor)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::_ctor)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x67eabd8;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6c14474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x67e6f40;
+  constexpr static std::size_t addrs = 0x6c0fe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,8 +182,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::GetHashCode)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x67ead18;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6c145c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::RenderGraphModule::TextureDesc::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TextureDesc::CalculateFinalDimensions)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x67e77b0;
+  constexpr static std::size_t addrs = 0x6c10a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,20 +287,18 @@ inline ::UnityEngine::Vector2Int UnityEngine::Rendering::RenderGraphModule::Text
 // None }, CppParam { name: "bindTextureMS", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useDynamicScale", ty: "bool", modifiers: "", def_value: Some("{}"),
 // comment: None }, CppParam { name: "useDynamicScaleExplicit", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "memoryless", ty:
 // "::UnityEngine::RenderTextureMemoryless", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vrUsage", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fastMemoryDesc", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fallBackToBlackTexture", ty: "bool", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "disableFallBackToImportedTexture", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearBuffer", ty:
-// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "discardBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureDesc::TextureDesc(::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode sizeMode, int32_t width, int32_t height, int32_t slices,
-                                                                                ::UnityEngine::Vector2 scale, ::UnityEngine::Rendering::ScaleFunc* func,
-                                                                                ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode,
-                                                                                ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite,
-                                                                                bool useMipMap, bool autoGenerateMips, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
-                                                                                ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale,
-                                                                                bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage,
-                                                                                ::StringW name, ::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc fastMemoryDesc, bool fallBackToBlackTexture,
-                                                                                bool disableFallBackToImportedTexture, bool clearBuffer, ::UnityEngine::Color clearColor, bool discardBuffer) noexcept {
+// Some("{}"), comment: None }, CppParam { name: "enableShadingRate", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "fastMemoryDesc", ty: "::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "fallBackToBlackTexture", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disableFallBackToImportedTexture", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "clearBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "discardBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureDesc::TextureDesc(
+    ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode sizeMode, int32_t width, int32_t height, int32_t slices, ::UnityEngine::Vector2 scale, ::UnityEngine::Rendering::ScaleFunc* func,
+    ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension,
+    bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS,
+    bool useDynamicScale, bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, bool enableShadingRate, ::StringW name,
+    ::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc fastMemoryDesc, bool fallBackToBlackTexture, bool disableFallBackToImportedTexture, bool clearBuffer, ::UnityEngine::Color clearColor,
+    bool discardBuffer) noexcept {
   this->sizeMode = sizeMode;
   this->width = width;
   this->height = height;
@@ -323,6 +321,7 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureDesc::TextureDesc(
   this->useDynamicScaleExplicit = useDynamicScaleExplicit;
   this->memoryless = memoryless;
   this->vrUsage = vrUsage;
+  this->enableShadingRate = enableShadingRate;
   this->name = name;
   this->fastMemoryDesc = fastMemoryDesc;
   this->fallBackToBlackTexture = fallBackToBlackTexture;

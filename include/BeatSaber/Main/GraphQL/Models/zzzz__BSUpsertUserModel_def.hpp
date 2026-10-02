@@ -63,15 +63,15 @@ public:
 
   constexpr void __cordl_internal_set__Id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32a0f2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527e1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Id, addr 0x32a0f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3527e14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Id, addr 0x32a0f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x3527e0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
 protected:
@@ -92,7 +92,7 @@ public:
       BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21324 };
 
   /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -152,23 +152,23 @@ public:
 
   constexpr void __cordl_internal_set__Id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32a0f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527e08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ActiveEnvironmentPlayerRoot, addr 0x32a0f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveEnvironmentPlayerRoot, addr 0x3527e00, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* get_ActiveEnvironmentPlayerRoot();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Id, addr 0x32a0f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3527df0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ActiveEnvironmentPlayerRoot, addr 0x32a0f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ActiveEnvironmentPlayerRoot, addr 0x3527df8, size 0x8, virtual false, abstract: false, final false
   inline void set_ActiveEnvironmentPlayerRoot(::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Id, addr 0x32a0ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x3527de8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
 protected:
@@ -186,7 +186,7 @@ public:
   XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel(XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21325 };
 
   /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -235,15 +235,15 @@ public:
 
   constexpr void __cordl_internal_set__BeatGamesUser_k__BackingField(::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* value);
 
-  /// @brief Method .ctor, addr 0x32a0ef4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527de4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_BeatGamesUser, addr 0x32a0eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BeatGamesUser, addr 0x3527ddc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* get_BeatGamesUser();
 
   /// [CompilerGenerated]
-  /// @brief Method set_BeatGamesUser, addr 0x32a0ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BeatGamesUser, addr 0x3527dd4, size 0x8, virtual false, abstract: false, final false
   inline void set_BeatGamesUser(::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* value);
 
 protected:
@@ -261,7 +261,7 @@ public:
   BSUpsertUserModel_XocBeatGamesUserUpsertModel(BSUpsertUserModel_XocBeatGamesUserUpsertModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21326 };
 
   /// [CompilerGenerated]
   /// @brief Field <BeatGamesUser>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -304,15 +304,15 @@ public:
 
   constexpr void __cordl_internal_set__XocBeatGamesUserUpsert_k__BackingField(::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* value);
 
-  /// @brief Method .ctor, addr 0x32a0ee0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3527dd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_XocBeatGamesUserUpsert, addr 0x32a0ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XocBeatGamesUserUpsert, addr 0x3527dc8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* get_XocBeatGamesUserUpsert();
 
   /// [CompilerGenerated]
-  /// @brief Method set_XocBeatGamesUserUpsert, addr 0x32a0ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XocBeatGamesUserUpsert, addr 0x3527dc0, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesUserUpsert(::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* value);
 
 protected:
@@ -330,7 +330,7 @@ public:
   BSUpsertUserModel(BSUpsertUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21327 };
 
   /// [CompilerGenerated]
   /// @brief Field <XocBeatGamesUserUpsert>k__BackingField, offset: 0x10, size: 0x8, def value: None

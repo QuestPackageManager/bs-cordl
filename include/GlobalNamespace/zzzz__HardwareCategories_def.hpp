@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__HardwareCategory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(HardwareCategories)
 namespace GlobalNamespace {
 struct HardwareCategory;
@@ -29,19 +30,23 @@ public:
   /// @brief Field _platformOverride, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__platformOverride, put = setStaticF__platformOverride)) ::GlobalNamespace::HardwareCategory _platformOverride;
 
-  /// @brief Method ClearPlatformOverride, addr 0x328df7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ClearPlatformOverride, addr 0x35146f0, size 0x4c, virtual false, abstract: false, final false
   static inline void ClearPlatformOverride();
 
-  /// @brief Method GetHardwareCategory, addr 0x328dfcc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0x3514740, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategory();
 
-  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x328dfc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x351473c, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategoryWithEditorOverride();
 
-  /// @brief Method GetPlatformOverride, addr 0x328decc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformOverride, addr 0x3514640, size 0x58, virtual false, abstract: false, final false
   static inline bool GetPlatformOverride(::by_ref<::GlobalNamespace::HardwareCategory> hardwareCategory);
 
-  /// @brief Method SetPlatformOverride, addr 0x328df24, size 0x58, virtual false, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method IsStandaloneMobileGPU, addr 0x35147fc, size 0xbc, virtual false, abstract: false, final false
+  static inline bool IsStandaloneMobileGPU(::StringW graphicsDeviceVendor, ::StringW graphicsDeviceName);
+
+  /// @brief Method SetPlatformOverride, addr 0x3514698, size 0x58, virtual false, abstract: false, final false
   static inline void SetPlatformOverride(::GlobalNamespace::HardwareCategory hardwareCategory);
 
   static inline bool getStaticF__isPlatformOverriden();
@@ -67,7 +72,7 @@ public:
   HardwareCategories(HardwareCategories const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

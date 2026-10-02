@@ -31,23 +31,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5ed342c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62ed920, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method TryCreate, addr 0x5ed32c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x62ed7b8, size 0x48, virtual false, abstract: false, final false
   static inline bool TryCreate(::StringW platformUserId, ::by_ref<::GlobalNamespace::OVRSpaceUser> spaceUser);
 
-  /// @brief Method TryCreate, addr 0x5ed3254, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x62ed748, size 0x70, virtual false, abstract: false, final false
   static inline bool TryCreate(uint64_t platformUserId, ::by_ref<::GlobalNamespace::OVRSpaceUser> spaceUser);
 
   /// [Obsolete("Constructor ignores validation. Use TryCreate(*) methods instead.", false)]
-  /// @brief Method .ctor, addr 0x5ed33c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ed8b4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t spaceUserId);
 
-  /// @brief Method get_Id, addr 0x5ed3334, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x62ed828, size 0x8c, virtual false, abstract: false, final false
   inline uint64_t get_Id();
 
-  /// @brief Method get_Valid, addr 0x5ed330c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x62ed800, size 0x28, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -61,7 +61,7 @@ public:
   constexpr OVRSpaceUser(uint64_t _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7827 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

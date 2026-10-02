@@ -29,6 +29,9 @@ public:
     __E_ReadOnlyDepth = static_cast<int32_t>(0x2),
     __E_ReadOnlyStencil = static_cast<int32_t>(0x4),
     __E_ReadOnlyDepthStencil = static_cast<int32_t>(0x6),
+    __E_UseShadingRateImage = static_cast<int32_t>(0x8),
+    __E_TileProperties = static_cast<int32_t>(0x10),
+    __E_MultiviewRenderRegionsCompatible = static_cast<int32_t>(0x20),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -48,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SubPassFlags(int32_t value__) noexcept;
 
+  /// @brief Field MultiviewRenderRegionsCompatible value: I32(32)
+  static ::UnityEngine::Rendering::SubPassFlags const MultiviewRenderRegionsCompatible;
+
   /// @brief Field None value: I32(0)
   static ::UnityEngine::Rendering::SubPassFlags const None;
 
@@ -60,8 +66,14 @@ public:
   /// @brief Field ReadOnlyStencil value: I32(4)
   static ::UnityEngine::Rendering::SubPassFlags const ReadOnlyStencil;
 
+  /// @brief Field TileProperties value: I32(16)
+  static ::UnityEngine::Rendering::SubPassFlags const TileProperties;
+
+  /// @brief Field UseShadingRateImage value: I32(8)
+  static ::UnityEngine::Rendering::SubPassFlags const UseShadingRateImage;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

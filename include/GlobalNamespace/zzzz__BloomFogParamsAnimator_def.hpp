@@ -80,26 +80,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x585efc8, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c74dd0, size 0xf4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x585f0bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5c74ec4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x585f0c4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5c74ecc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x585f0fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5c74f04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x585efc4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5c74dcc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -139,7 +139,7 @@ public:
   constexpr void __cordl_internal_set_envFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x585eea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c74cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -166,7 +166,7 @@ public:
   BloomFogParamsAnimator__AnimationCoroutine_d__2(BloomFogParamsAnimator__AnimationCoroutine_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19872 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -216,22 +216,22 @@ public:
   /// @brief Field _bloomFog, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
-  /// @brief Method AnimateBloomFogParamsChange, addr 0x585ed1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AnimateBloomFogParamsChange, addr 0x5c74b24, size 0x7c, virtual false, abstract: false, final false
   inline void AnimateBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float_t duration);
 
   /// [IteratorStateMachine(typeof(BloomFogParamsAnimator::<AnimationCoroutine>d__2))]
-  /// @brief Method AnimationCoroutine, addr 0x585ee34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AnimationCoroutine, addr 0x5c74c3c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimationCoroutine(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float_t duration);
 
-  /// @brief Method GetDefaultBloomFogParams, addr 0x585eef4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultBloomFogParams, addr 0x5c74cfc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> GetDefaultBloomFogParams();
 
   static inline ::GlobalNamespace::BloomFogParamsAnimator* New_ctor();
 
-  /// @brief Method SetBloomFogParamsChange, addr 0x585eeac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetBloomFogParamsChange, addr 0x5c74cb4, size 0x48, virtual false, abstract: false, final false
   inline void SetBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float_t transition);
 
-  /// @brief Method SetDefaultBloomFogParams, addr 0x585ef0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultBloomFogParams, addr 0x5c74d14, size 0x14, virtual false, abstract: false, final false
   inline void SetDefaultBloomFogParams(::GlobalNamespace::BloomFogEnvironmentParams* newDefaultBloomFogParams);
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  /// @brief Method .ctor, addr 0x585efc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c74dc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -258,7 +258,7 @@ public:
   BloomFogParamsAnimator(BloomFogParamsAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19873 };
 
   /// [Inject]
   /// @brief Field _bloomFog, offset: 0x20, size: 0x8, def value: None

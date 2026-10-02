@@ -18,61 +18,69 @@
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerState_def.hpp"
 #include "UnityEngine/InputSystem/Plugins/InputForUI/zzzz__InputSystemProvider_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__DefaultInputActions_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-//  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration.GetDefaultConfiguration
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration (*)()>(
-    &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration::GetDefaultConfiguration)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x64e4028;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration>(), { "GetDefaultConfiguration", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration::GetDefaultConfiguration() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration>(), { "GetDefaultConfiguration", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration>(nullptr, ___internal_method);
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_PointAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "PointAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
 }
-// Ctor Parameters [CppParam { name: "ActionAsset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PointAction",
-// ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MoveAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "SubmitAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CancelAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None },
-// CppParam { name: "LeftClickAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MiddleClickAction", ty: "::StringW", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "RightClickAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ScrollWheelAction", ty: "::StringW",
-// modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration::InputSystemProvider_Configuration(::UnityW<::UnityEngine::InputSystem::InputActionAsset> ActionAsset,
-                                                                                                                                ::StringW PointAction, ::StringW MoveAction, ::StringW SubmitAction,
-                                                                                                                                ::StringW CancelAction, ::StringW LeftClickAction,
-                                                                                                                                ::StringW MiddleClickAction, ::StringW RightClickAction,
-                                                                                                                                ::StringW ScrollWheelAction) noexcept {
-  this->ActionAsset = ActionAsset;
-  this->PointAction = PointAction;
-  this->MoveAction = MoveAction;
-  this->SubmitAction = SubmitAction;
-  this->CancelAction = CancelAction;
-  this->LeftClickAction = LeftClickAction;
-  this->MiddleClickAction = MiddleClickAction;
-  this->RightClickAction = RightClickAction;
-  this->ScrollWheelAction = ScrollWheelAction;
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_PointAction() {
+  return ::cordl_internals::getStaticField<::StringW, "PointAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_MoveAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "MoveAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_MoveAction() {
+  return ::cordl_internals::getStaticField<::StringW, "MoveAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_SubmitAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "SubmitAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_SubmitAction() {
+  return ::cordl_internals::getStaticField<::StringW, "SubmitAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_CancelAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "CancelAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_CancelAction() {
+  return ::cordl_internals::getStaticField<::StringW, "CancelAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_LeftClickAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "LeftClickAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_LeftClickAction() {
+  return ::cordl_internals::getStaticField<::StringW, "LeftClickAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_MiddleClickAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "MiddleClickAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_MiddleClickAction() {
+  return ::cordl_internals::getStaticField<::StringW, "MiddleClickAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_RightClickAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "RightClickAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_RightClickAction() {
+  return ::cordl_internals::getStaticField<::StringW, "RightClickAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::setStaticF_ScrollWheelAction(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "ScrollWheelAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::getStaticF_ScrollWheelAction() {
+  return ::cordl_internals::getStaticField<::StringW, "ScrollWheelAction", ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions*>();
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration::InputSystemProvider_Configuration() {}
+constexpr ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Actions::InputSystemProvider_Actions() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64e7f28;
+  constexpr static std::size_t addrs = 0x69110a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::*)(
     ::UnityEngine::InputForUI::Event, ::UnityEngine::InputForUI::Event)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::_Update_b__33_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64e7f2c;
+  constexpr static std::size_t addrs = 0x69110ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Bootstrap)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64e3e0c;
+  constexpr static std::size_t addrs = 0x690d6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::get_m_EventModifiers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64e3e10;
+  constexpr static std::size_t addrs = 0x690d6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::get_m_CurrentTime)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64e3e28;
+  constexpr static std::size_t addrs = 0x690d6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Initialize)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x64e3e40;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x690d6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Shutdown)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x64e4ad4;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x690dedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnActionsChange)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64e5274;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x690e410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,8 +222,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Update)> {
-  constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x64e52ac;
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x690e430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ResetSeenEvents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64e591c;
+  constexpr static std::size_t addrs = 0x690ea98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ActionAssetIsNotNull)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64e5928;
+  constexpr static std::size_t addrs = 0x690eaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DirectionNavigation)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x64e5718;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x690e890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -271,8 +279,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputForUI::NavigationEvent_Direction)>(
         &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetActiveDeviceFromDirection)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64e5ba0;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x690ecc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,8 +294,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::UnityEngine::Vector2, bool> (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ReadCurrentNavigationMoveVector)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x64e598c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x690eb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::NavigationEvent_Direction (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ReadNextPreviousDirection)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x64e5a90;
+  constexpr static std::size_t addrs = 0x690ebb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputForUI::Event, ::UnityEngine::InputForUI::Event)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SortEvents)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x64e5e30;
+  constexpr static std::size_t addrs = 0x690eee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(bool)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnFocusChanged)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x64e5f10;
+  constexpr static std::size_t addrs = 0x690efc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,8 +351,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputForUI::Event_Type)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RequestCurrentState)> {
-  constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x64e609c;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x690f14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -358,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::get_playerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64e64e0;
+  constexpr static std::size_t addrs = 0x690f598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ScreenBottomLeftToPanelPosition)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64e64e8;
+  constexpr static std::size_t addrs = 0x690f5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,8 +395,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::PointerEvent (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::InputForUI::PointerState>, ::UnityEngine::InputForUI::EventSource)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ToPointerStateEvent)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x64e63dc;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x690f488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetEventSource)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64e65e8;
+  constexpr static std::size_t addrs = 0x690f6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -420,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetEventSource)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x64e5ca0;
+  constexpr static std::size_t addrs = 0x690ed50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -434,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::InputForUI::PointerState> (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputForUI::EventSource)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetPointerStateForSource)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64e6618;
+  constexpr static std::size_t addrs = 0x690f6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -448,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x64e6638;
+  constexpr static std::size_t addrs = 0x690f6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -462,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Touchscreen*, ::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::FindTouchFingerIndex)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x64e675c;
+  constexpr static std::size_t addrs = 0x690f814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,8 +486,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnPointerPerformed)> {
-  constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x64e6a6c;
+  constexpr static std::size_t size = 0x838;
+  constexpr static std::size_t addrs = 0x690fb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -493,8 +501,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnSubmitPerformed)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64e72a0;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x691035c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -508,8 +516,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnCancelPerformed)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64e73bc;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x691047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,8 +532,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext, ::UnityEngine::InputForUI::EventSource, ::UnityEngine::InputForUI::PointerEvent_Button)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnClickPerformed)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x64e74d8;
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x691059c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -543,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnLeftClickPerformed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64e78e4;
+  constexpr static std::size_t addrs = 0x69109ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -558,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnMiddleClickPerformed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64e791c;
+  constexpr static std::size_t addrs = 0x69109e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnRightClickPerformed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64e7954;
+  constexpr static std::size_t addrs = 0x6910a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -587,8 +595,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnScrollWheelPerformed)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x64e798c;
+  constexpr static std::size_t size = 0x3e0;
+  constexpr static std::size_t addrs = 0x6910a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,17 +605,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider.RegisterNextPreviousAction
+//  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider.RegisterFixedActions
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
-    &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterNextPreviousAction)> {
+    &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterFixedActions)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64e7d68;
+  constexpr static std::size_t addrs = 0x690ddf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "RegisterNextPreviousAction", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "RegisterFixedActions", {}, {} })));
     return ___internal_method;
   }
 };
@@ -617,11 +625,28 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterFixedActions)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64e7e50;
+  constexpr static std::size_t addrs = 0x690e3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "UnregisterFixedActions", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider.FindActionAndRegisterCallback
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (
+    ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::StringW, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
+    &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::FindActionAndRegisterCallback)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6910e34;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
+                            { "FindActionAndRegisterCallback", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*>() } })));
     return ___internal_method;
   }
 };
@@ -630,12 +655,30 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterActions)> {
-  constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x64e4244;
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x690d9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "RegisterActions", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider.UnregisterAction
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
+    ::by_ref<::UnityEngine::InputSystem::InputAction*>, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
+    &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterAction)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6910e84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
+                                                                                           { "UnregisterAction",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputAction*>>(),
+                                                                                               ::i2c::type_of<::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*>() } })));
     return ___internal_method;
   }
 };
@@ -644,12 +687,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterActions)> {
-  constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x64e4bcc;
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x690dffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "UnregisterActions", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider.SelectInputActionAsset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
+    &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SelectInputActionAsset)> {
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x690d8ac;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "SelectInputActionAsset", {}, {} })));
     return ___internal_method;
   }
 };
@@ -659,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::InputSystem::InputActionAsset>>*)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SetOnRegisterActions)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64e7e74;
+  constexpr static std::size_t addrs = 0x6910eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -674,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64e3d68;
+  constexpr static std::size_t addrs = 0x690d5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -682,20 +739,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_Cfg() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Cfg;
-}
-constexpr ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration const&
-UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_Cfg() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Cfg;
-}
-constexpr void
-UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_Cfg(::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Cfg = value;
-}
 constexpr ::UnityEngine::InputForUI::InputEventPartialProvider*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_InputEventPartialProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputEventPartialProvider;
@@ -707,6 +750,18 @@ constexpr ::UnityEngine::InputForUI::InputEventPartialProvider* const& UnityEngi
 constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_InputEventPartialProvider(::UnityEngine::InputForUI::InputEventPartialProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InputEventPartialProvider = value;
+}
+constexpr ::UnityEngine::InputSystem::DefaultInputActions*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_DefaultInputActions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DefaultInputActions;
+}
+constexpr ::UnityEngine::InputSystem::DefaultInputActions* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_DefaultInputActions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_DefaultInputActions;
+}
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_DefaultInputActions(::UnityEngine::InputSystem::DefaultInputActions* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_DefaultInputActions = value;
 }
 constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_InputActionAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -720,99 +775,99 @@ constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvide
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InputActionAsset = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_PointAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_PointAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_PointAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_PointAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PointAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_PointAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_PointAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PointAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MoveAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MoveAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MoveAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MoveAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MoveAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_MoveAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_MoveAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MoveAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_SubmitAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_SubmitAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubmitAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_SubmitAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_SubmitAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubmitAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_SubmitAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_SubmitAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SubmitAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_CancelAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_CancelAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CancelAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_CancelAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_CancelAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CancelAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_CancelAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_CancelAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CancelAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_LeftClickAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_LeftClickAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LeftClickAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_LeftClickAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_LeftClickAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LeftClickAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_LeftClickAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_LeftClickAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LeftClickAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MiddleClickAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MiddleClickAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MiddleClickAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MiddleClickAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_MiddleClickAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MiddleClickAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_MiddleClickAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_MiddleClickAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MiddleClickAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_RightClickAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_RightClickAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RightClickAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_RightClickAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_RightClickAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RightClickAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_RightClickAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_RightClickAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_RightClickAction = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_ScrollWheelAction() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_ScrollWheelAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollWheelAction;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_ScrollWheelAction() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_get_m_ScrollWheelAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollWheelAction;
 }
-constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_ScrollWheelAction(::UnityW<::UnityEngine::InputSystem::InputActionReference> value) {
+constexpr void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::__cordl_internal_set_m_ScrollWheelAction(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrollWheelAction = value;
 }
@@ -1116,9 +1171,9 @@ inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::
                                                            { "OnScrollWheelPerformed", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputAction_CallbackContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ctx);
 }
-inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterNextPreviousAction() {
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterFixedActions() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "RegisterNextPreviousAction", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "RegisterFixedActions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterFixedActions() {
@@ -1126,14 +1181,37 @@ inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "UnregisterFixedActions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline ::UnityEngine::InputSystem::InputAction*
+UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::FindActionAndRegisterCallback(::StringW actionNameOrId,
+                                                                                                  ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* callback) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
+                          { "FindActionAndRegisterCallback", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputAction*>(this, ___internal_method, actionNameOrId, callback);
+}
 inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterActions() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "RegisterActions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterAction(::by_ref<::UnityEngine::InputSystem::InputAction*> action,
+                                                                                                 ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* callback) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
+                                                                                         { "UnregisterAction",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputAction*>>(),
+                                                                                             ::i2c::type_of<::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, action, callback);
+}
 inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterActions() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "UnregisterActions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SelectInputActionAsset() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(), { "SelectInputActionAsset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SetOnRegisterActions(::System::Action_1<::UnityW<::UnityEngine::InputSystem::InputActionAsset>>* callback) {

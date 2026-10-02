@@ -65,22 +65,22 @@ namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AddressablesImpl___c__115_1;
+template <typename TObject> class AddressablesImpl___c__114_1;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass100_0;
+class AddressablesImpl___c__DisplayClass102_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass103_0;
+class AddressablesImpl___c__DisplayClass105_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass106_0;
+class AddressablesImpl___c__DisplayClass109_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass110_0;
+class AddressablesImpl___c__DisplayClass111_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass112_0;
+class AddressablesImpl___c__DisplayClass115_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass116_0;
@@ -89,37 +89,34 @@ namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass117_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass118_0;
+class AddressablesImpl___c__DisplayClass122_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass123_0;
+class AddressablesImpl___c__DisplayClass124_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass125_0;
+class AddressablesImpl___c__DisplayClass127_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass128_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass129_0;
+class AddressablesImpl___c__DisplayClass134_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass135_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass136_0;
+class AddressablesImpl___c__DisplayClass139_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass140_0;
+class AddressablesImpl___c__DisplayClass143_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass144_0;
+class AddressablesImpl___c__DisplayClass148_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass149_0;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass150_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass61_0;
@@ -234,22 +231,22 @@ namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AddressablesImpl___c__115_1;
+template <typename TObject> class AddressablesImpl___c__114_1;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass100_0;
+class AddressablesImpl___c__DisplayClass102_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass103_0;
+class AddressablesImpl___c__DisplayClass105_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass106_0;
+class AddressablesImpl___c__DisplayClass109_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass110_0;
+class AddressablesImpl___c__DisplayClass111_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass112_0;
+class AddressablesImpl___c__DisplayClass115_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass116_0;
@@ -258,37 +255,34 @@ namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass117_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass118_0;
+class AddressablesImpl___c__DisplayClass122_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass123_0;
+class AddressablesImpl___c__DisplayClass124_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass125_0;
+class AddressablesImpl___c__DisplayClass127_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass128_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass129_0;
+class AddressablesImpl___c__DisplayClass134_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass135_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass136_0;
+class AddressablesImpl___c__DisplayClass139_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass140_0;
+class AddressablesImpl___c__DisplayClass143_0;
 }
 namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass144_0;
+class AddressablesImpl___c__DisplayClass148_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass149_0;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl___c__DisplayClass150_0;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl___c__DisplayClass61_0;
@@ -325,25 +319,24 @@ MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeyOp*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeysOp*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c*);
-MARK_GEN_REF_T_PTR(::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0*);
+MARK_GEN_REF_T_PTR(::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass135_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0*);
+MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0*);
-MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass61_0*);
 MARK_REF_T(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass72_0*);
 MARK_GEN_REF_T_PTR(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass78_0_1);
@@ -358,25 +351,24 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl*, "UnityE
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeyOp*, "UnityEngine.AddressableAssets", "AddressablesImpl/LoadResourceLocationKeyOp");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeysOp*, "UnityEngine.AddressableAssets", "AddressablesImpl/LoadResourceLocationKeysOp");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__115`1");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass100_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass103_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass106_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass110_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass112_0");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__114`1");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass102_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass105_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass109_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass111_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass115_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass116_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass117_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass118_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass123_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass125_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass122_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass124_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass127_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass128_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass129_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass134_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass135_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass135_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass136_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass140_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass144_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass139_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass143_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass148_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass149_0");
-DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass150_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass61_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass61_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass72_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass72_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass78_0_1, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass78_0`1");
@@ -410,13 +402,13 @@ public:
   __declspec(property(get = __cordl_internal_get_m_locations,
                       put = __cordl_internal_set_m_locations)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations;
 
-  /// @brief Method Execute, addr 0x645f24c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6886bf4, size 0xe0, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x645a1a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6881cbc, size 0xc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::System::Object* keys);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x645f1bc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6886b64, size 0x90, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeyOp* New_ctor();
@@ -445,10 +437,10 @@ public:
 
   constexpr void __cordl_internal_set_m_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  /// @brief Method .ctor, addr 0x645a158, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881c70, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x645f1a0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x6886b48, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
 protected:
@@ -466,7 +458,7 @@ public:
   AddressablesImpl_LoadResourceLocationKeyOp(AddressablesImpl_LoadResourceLocationKeyOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20099 };
 
   /// @brief Field m_Keys, offset: 0x98, size: 0x8, def value: None
   ::System::Object* ___m_Keys;
@@ -520,14 +512,14 @@ public:
   __declspec(property(get = __cordl_internal_get_m_locations,
                       put = __cordl_internal_set_m_locations)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations;
 
-  /// @brief Method Execute, addr 0x645f370, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6886d18, size 0xe4, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x6459fd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6881ae8, size 0x10, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::System::Collections::IEnumerable* key,
                    ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x645f454, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6886dfc, size 0x90, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeysOp* New_ctor();
@@ -562,10 +554,10 @@ public:
 
   constexpr void __cordl_internal_set_m_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  /// @brief Method .ctor, addr 0x6459f84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881a9c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x645f32c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x6886cd4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
 protected:
@@ -583,7 +575,7 @@ public:
   AddressablesImpl_LoadResourceLocationKeysOp(AddressablesImpl_LoadResourceLocationKeysOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20100 };
 
   /// @brief Field m_Key, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::IEnumerable* ___m_Key;
@@ -627,14 +619,14 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::AddressableAssets::AddressablesImpl___c* __9;
 
-  /// @brief Field <>9__143_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__143_0, put = setStaticF___9__143_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* __9__143_0;
+  /// @brief Field <>9__142_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__142_0, put = setStaticF___9__142_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* __9__142_0;
 
-  /// @brief Field <>9__143_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__143_1, put = setStaticF___9__143_1)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* __9__143_1;
+  /// @brief Field <>9__142_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__142_1, put = setStaticF___9__142_1)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* __9__142_1;
 
-  /// @brief Field <>9__147_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__147_0, put = setStaticF___9__147_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* __9__147_0;
+  /// @brief Field <>9__146_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__146_0, put = setStaticF___9__146_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* __9__146_0;
 
   /// @brief Field <>9__59_0, offset 0xffffffff, size 0x8
   __declspec(property(
@@ -643,38 +635,38 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c* New_ctor();
 
-  /// @brief Method <CleanBundleCache>b__147_0, addr 0x645f60c, size 0xa8, virtual false, abstract: false, final false
-  inline ::StringW _CleanBundleCache_b__147_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* s);
+  /// @brief Method <CleanBundleCache>b__146_0, addr 0x6886fb4, size 0xa8, virtual false, abstract: false, final false
+  inline ::StringW _CleanBundleCache_b__146_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* s);
 
-  /// @brief Method .ctor, addr 0x645f538, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6886ee0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_CatalogsWithAvailableUpdates>b__143_0, addr 0x645f550, size 0x14, virtual false, abstract: false, final false
-  inline bool _get_CatalogsWithAvailableUpdates_b__143_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* s);
+  /// @brief Method <get_CatalogsWithAvailableUpdates>b__142_0, addr 0x6886ef8, size 0x14, virtual false, abstract: false, final false
+  inline bool _get_CatalogsWithAvailableUpdates_b__142_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* s);
 
-  /// @brief Method <get_CatalogsWithAvailableUpdates>b__143_1, addr 0x645f564, size 0xa8, virtual false, abstract: false, final false
-  inline ::StringW _get_CatalogsWithAvailableUpdates_b__143_1(::UnityEngine::AddressableAssets::ResourceLocatorInfo* s);
+  /// @brief Method <get_CatalogsWithAvailableUpdates>b__142_1, addr 0x6886f0c, size 0xa8, virtual false, abstract: false, final false
+  inline ::StringW _get_CatalogsWithAvailableUpdates_b__142_1(::UnityEngine::AddressableAssets::ResourceLocatorInfo* s);
 
-  /// @brief Method <get_ResourceLocators>b__59_0, addr 0x645f53c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <get_ResourceLocators>b__59_0, addr 0x6886ee4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* _get_ResourceLocators_b__59_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* l);
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* getStaticF___9__143_0();
+  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* getStaticF___9__142_0();
 
-  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* getStaticF___9__143_1();
+  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* getStaticF___9__142_1();
 
-  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* getStaticF___9__147_0();
+  static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* getStaticF___9__146_0();
 
   static inline ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* getStaticF___9__59_0();
 
   static inline void setStaticF___9(::UnityEngine::AddressableAssets::AddressablesImpl___c* value);
 
-  static inline void setStaticF___9__143_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* value);
+  static inline void setStaticF___9__142_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, bool>* value);
 
-  static inline void setStaticF___9__143_1(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* value);
+  static inline void setStaticF___9__142_1(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* value);
 
-  static inline void setStaticF___9__147_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* value);
+  static inline void setStaticF___9__146_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::StringW>* value);
 
   static inline void setStaticF___9__59_0(::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocatorInfo*, ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* value);
 
@@ -693,7 +685,7 @@ public:
   AddressablesImpl___c(AddressablesImpl___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -707,48 +699,48 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__115`1<TObject>
-class CORDL_TYPE AddressablesImpl___c__115_1 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__114`1<TObject>
+class CORDL_TYPE AddressablesImpl___c__114_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1<TObject>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1<TObject>* __9;
 
-  /// @brief Field <>9__115_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__115_0, put = setStaticF___9__115_0)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* __9__115_0;
+  /// @brief Field <>9__114_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__114_0, put = setStaticF___9__114_0)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* __9__114_0;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1<TObject>* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1<TObject>* New_ctor();
 
-  /// @brief Method <AutoReleaseHandleOnTypelessCompletion>b__115_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _AutoReleaseHandleOnTypelessCompletion_b__115_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
+  /// @brief Method <AutoReleaseHandleOnTypelessCompletion>b__114_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _AutoReleaseHandleOnTypelessCompletion_b__114_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1<TObject>* getStaticF___9();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1<TObject>* getStaticF___9();
 
-  static inline ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* getStaticF___9__115_0();
+  static inline ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* getStaticF___9__114_0();
 
-  static inline void setStaticF___9(::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1<TObject>* value);
+  static inline void setStaticF___9(::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1<TObject>* value);
 
-  static inline void setStaticF___9__115_0(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  static inline void setStaticF___9__114_0(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__115_1();
+  constexpr AddressablesImpl___c__114_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__114_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__115_1(AddressablesImpl___c__115_1&&) = delete;
+  AddressablesImpl___c__114_1(AddressablesImpl___c__114_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__114_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__115_1(AddressablesImpl___c__115_1 const&) = delete;
+  AddressablesImpl___c__114_1(AddressablesImpl___c__114_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -758,76 +750,8 @@ public:
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass100_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass100_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
-
-  /// @brief Field catalogLoc, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_catalogLoc, put = __cordl_internal_set_catalogLoc)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLoc;
-
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0* New_ctor();
-
-  /// @brief Method <ComputeCatalogSizeWithChain>b__0, addr 0x645f6b4, size 0x20c, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
-  _ComputeCatalogSizeWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
-
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
-
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
-
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const& __cordl_internal_get_catalogLoc() const;
-
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_catalogLoc();
-
-  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
-
-  constexpr void __cordl_internal_set_catalogLoc(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
-
-  /// @brief Method .ctor, addr 0x645a9d4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass100_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19787 };
-
-  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
-
-  /// @brief Field catalogLoc, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___catalogLoc;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0, _____4__this) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0, ___catalogLoc) == 0x18, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0) == 0x20, "Size mismatch!");
-
-} // namespace UnityEngine::AddressableAssets
-// [CompilerGenerated]
-// Dependencies System.Object
-namespace UnityEngine::AddressableAssets {
-// Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass103_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass103_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass102_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass102_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -836,9 +760,9 @@ public:
   /// @brief Field keys, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys)) ::System::Collections::IEnumerable* keys;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0* New_ctor();
 
-  /// @brief Method <GetDownloadSizeWithChain>b__0, addr 0x645f8c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetDownloadSizeWithChain>b__0, addr 0x688705c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
   _GetDownloadSizeWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -854,25 +778,25 @@ public:
 
   constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
-  /// @brief Method .ctor, addr 0x645b410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6882db8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass103_0();
+  constexpr AddressablesImpl___c__DisplayClass102_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass102_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0&&) = delete;
+  AddressablesImpl___c__DisplayClass102_0(AddressablesImpl___c__DisplayClass102_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass102_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass102_0(AddressablesImpl___c__DisplayClass102_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20103 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -883,19 +807,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0, ___keys) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0, ___keys) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass106_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass106_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass105_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass105_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -904,9 +828,9 @@ public:
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::System::Object* key;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0* New_ctor();
 
-  /// @brief Method <DownloadDependenciesAsyncWithChain>b__0, addr 0x645f904, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <DownloadDependenciesAsyncWithChain>b__0, addr 0x68870a0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>
   _DownloadDependenciesAsyncWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
@@ -923,25 +847,25 @@ public:
 
   constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x645b5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6882f74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass106_0();
+  constexpr AddressablesImpl___c__DisplayClass105_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass105_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0&&) = delete;
+  AddressablesImpl___c__DisplayClass105_0(AddressablesImpl___c__DisplayClass105_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass105_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass105_0(AddressablesImpl___c__DisplayClass105_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20104 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -952,19 +876,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0, ___key) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass110_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass110_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass109_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass109_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -974,9 +898,9 @@ public:
   __declspec(property(get = __cordl_internal_get_locations,
                       put = __cordl_internal_set_locations)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0* New_ctor();
 
-  /// @brief Method <DownloadDependenciesAsyncWithChain>b__0, addr 0x645f9a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <DownloadDependenciesAsyncWithChain>b__0, addr 0x688713c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>
   _DownloadDependenciesAsyncWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
@@ -993,25 +917,25 @@ public:
 
   constexpr void __cordl_internal_set_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  /// @brief Method .ctor, addr 0x645c108, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6883ab0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass110_0();
+  constexpr AddressablesImpl___c__DisplayClass109_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass109_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0&&) = delete;
+  AddressablesImpl___c__DisplayClass109_0(AddressablesImpl___c__DisplayClass109_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass109_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass109_0(AddressablesImpl___c__DisplayClass109_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20105 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1022,19 +946,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0, ___locations) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0, ___locations) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.AddressableAssets.Addressables::MergeMode
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass112_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass112_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass111_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass111_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1046,9 +970,9 @@ public:
   /// @brief Field mode, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) ::UnityEngine::AddressableAssets::Addressables_MergeMode mode;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0* New_ctor();
 
-  /// @brief Method <DownloadDependenciesAsyncWithChain>b__0, addr 0x645fa3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <DownloadDependenciesAsyncWithChain>b__0, addr 0x68871d8, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*>
   _DownloadDependenciesAsyncWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
@@ -1071,25 +995,25 @@ public:
 
   constexpr void __cordl_internal_set_mode(::UnityEngine::AddressableAssets::Addressables_MergeMode value);
 
-  /// @brief Method .ctor, addr 0x645c2d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6883c7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass112_0();
+  constexpr AddressablesImpl___c__DisplayClass111_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass111_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0&&) = delete;
+  AddressablesImpl___c__DisplayClass111_0(AddressablesImpl___c__DisplayClass111_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass111_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass111_0(AddressablesImpl___c__DisplayClass111_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20106 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1103,21 +1027,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0, ___keys) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0, ___keys) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0, ___mode) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0, ___mode) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0) == 0x28, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass116_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass116_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass115_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass115_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1129,9 +1053,9 @@ public:
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::System::Object* key;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0* New_ctor();
 
-  /// @brief Method <ClearDependencyCacheAsync>b__0, addr 0x645fadc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <ClearDependencyCacheAsync>b__0, addr 0x6887278, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> _ClearDependencyCacheAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
@@ -1152,25 +1076,25 @@ public:
 
   constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x645c9e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688438c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass116_0();
+  constexpr AddressablesImpl___c__DisplayClass115_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass115_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0&&) = delete;
+  AddressablesImpl___c__DisplayClass115_0(AddressablesImpl___c__DisplayClass115_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass115_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass115_0(AddressablesImpl___c__DisplayClass115_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20107 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1184,21 +1108,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0, ___key) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0, ___autoReleaseHandle) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0, ___autoReleaseHandle) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0) == 0x28, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass117_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass117_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass116_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass116_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1211,9 +1135,9 @@ public:
   __declspec(property(get = __cordl_internal_get_locations,
                       put = __cordl_internal_set_locations)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0* New_ctor();
 
-  /// @brief Method <ClearDependencyCacheAsync>b__0, addr 0x645fb24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <ClearDependencyCacheAsync>b__0, addr 0x68872c0, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> _ClearDependencyCacheAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
@@ -1234,25 +1158,25 @@ public:
 
   constexpr void __cordl_internal_set_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  /// @brief Method .ctor, addr 0x645c9e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884390, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass117_0();
+  constexpr AddressablesImpl___c__DisplayClass116_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0&&) = delete;
+  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20108 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1266,21 +1190,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0, ___locations) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0, ___locations) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0, ___autoReleaseHandle) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0, ___autoReleaseHandle) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0) == 0x28, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass118_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass118_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass117_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass117_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1292,9 +1216,9 @@ public:
   /// @brief Field keys, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys)) ::System::Collections::IEnumerable* keys;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0* New_ctor();
 
-  /// @brief Method <ClearDependencyCacheAsync>b__0, addr 0x645fb6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <ClearDependencyCacheAsync>b__0, addr 0x6887308, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> _ClearDependencyCacheAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
@@ -1315,25 +1239,25 @@ public:
 
   constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
-  /// @brief Method .ctor, addr 0x645c9ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884394, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass118_0();
+  constexpr AddressablesImpl___c__DisplayClass117_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0&&) = delete;
+  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20109 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1347,21 +1271,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0, ___keys) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0, ___keys) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0, ___autoReleaseHandle) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0, ___autoReleaseHandle) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0) == 0x28, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass123_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass123_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass122_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass122_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1374,9 +1298,9 @@ public:
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::System::Object* key;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0* New_ctor();
 
-  /// @brief Method <InstantiateWithChain>b__0, addr 0x645fbb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <InstantiateWithChain>b__0, addr 0x6887350, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   _InstantiateWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -1398,25 +1322,25 @@ public:
 
   constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x645cc2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68845d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass123_0();
+  constexpr AddressablesImpl___c__DisplayClass122_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass122_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0&&) = delete;
+  AddressablesImpl___c__DisplayClass122_0(AddressablesImpl___c__DisplayClass122_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass122_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass122_0(AddressablesImpl___c__DisplayClass122_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20110 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1430,21 +1354,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0, ___key) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0, ___instantiateParameters) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0, ___instantiateParameters) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass125_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass125_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass124_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass124_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1457,9 +1381,9 @@ public:
   /// @brief Field location, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_location, put = __cordl_internal_set_location)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0* New_ctor();
 
-  /// @brief Method <InstantiateWithChain>b__0, addr 0x645fc10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <InstantiateWithChain>b__0, addr 0x68873ac, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   _InstantiateWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -1481,25 +1405,25 @@ public:
 
   constexpr void __cordl_internal_set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x645cdf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884798, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass125_0();
+  constexpr AddressablesImpl___c__DisplayClass124_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass124_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0&&) = delete;
+  AddressablesImpl___c__DisplayClass124_0(AddressablesImpl___c__DisplayClass124_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass124_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass124_0(AddressablesImpl___c__DisplayClass124_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20111 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1513,21 +1437,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0, ___location) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0, ___location) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0, ___instantiateParameters) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0, ___instantiateParameters) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.SceneReleaseMode, UnityEngine.SceneManagement.LoadSceneParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass128_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass128_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass127_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass127_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1548,9 +1472,9 @@ public:
   /// @brief Field releaseMode, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_releaseMode, put = __cordl_internal_set_releaseMode)) ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0* New_ctor();
 
-  /// @brief Method <LoadSceneWithChain>b__0, addr 0x645fc6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <LoadSceneWithChain>b__0, addr 0x6887408, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   _LoadSceneWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -1590,25 +1514,25 @@ public:
 
   constexpr void __cordl_internal_set_releaseMode(::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode value);
 
-  /// @brief Method .ctor, addr 0x645cfa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688494c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass128_0();
+  constexpr AddressablesImpl___c__DisplayClass127_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass127_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0&&) = delete;
+  AddressablesImpl___c__DisplayClass127_0(AddressablesImpl___c__DisplayClass127_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass127_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass127_0(AddressablesImpl___c__DisplayClass127_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20112 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1631,27 +1555,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___key) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___loadSceneParameters) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0, ___loadSceneParameters) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___releaseMode) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0, ___releaseMode) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___activateOnLoad) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0, ___activateOnLoad) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___priority) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0, ___priority) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0) == 0x38, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.SceneReleaseMode, UnityEngine.SceneManagement.LoadSceneParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass129_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass129_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass128_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass128_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1672,9 +1596,9 @@ public:
   /// @brief Field releaseMode, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_releaseMode, put = __cordl_internal_set_releaseMode)) ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0* New_ctor();
 
-  /// @brief Method <LoadSceneWithChain>b__0, addr 0x645fcc0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <LoadSceneWithChain>b__0, addr 0x688745c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   _LoadSceneWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -1714,25 +1638,25 @@ public:
 
   constexpr void __cordl_internal_set_releaseMode(::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode value);
 
-  /// @brief Method .ctor, addr 0x645d158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884b00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass129_0();
+  constexpr AddressablesImpl___c__DisplayClass128_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0&&) = delete;
+  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20113 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1755,27 +1679,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0, ___key) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___key) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0, ___loadSceneParameters) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___loadSceneParameters) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0, ___releaseMode) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___releaseMode) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0, ___activateOnLoad) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___activateOnLoad) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0, ___priority) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0, ___priority) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0) == 0x38, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.SceneManagement.UnloadSceneOptions
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass135_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass135_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass134_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass134_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1787,9 +1711,9 @@ public:
   /// @brief Field unloadOptions, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_unloadOptions, put = __cordl_internal_set_unloadOptions)) ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass135_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0* New_ctor();
 
-  /// @brief Method <CreateUnloadSceneWithChain>b__0, addr 0x645fd14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <CreateUnloadSceneWithChain>b__0, addr 0x68874b0, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   _CreateUnloadSceneWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle completedHandle);
 
@@ -1811,7 +1735,89 @@ public:
 
   constexpr void __cordl_internal_set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
 
-  /// @brief Method .ctor, addr 0x645d514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884ebc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddressablesImpl___c__DisplayClass134_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass134_0", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AddressablesImpl___c__DisplayClass134_0(AddressablesImpl___c__DisplayClass134_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass134_0", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AddressablesImpl___c__DisplayClass134_0(AddressablesImpl___c__DisplayClass134_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20114 };
+
+  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
+
+  /// @brief Field unloadOptions, offset: 0x18, size: 0x4, def value: None
+  ::UnityEngine::SceneManagement::UnloadSceneOptions ___unloadOptions;
+
+  /// @brief Field autoReleaseHandle, offset: 0x1c, size: 0x1, def value: None
+  bool ___autoReleaseHandle;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0, _____4__this) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0, ___unloadOptions) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0, ___autoReleaseHandle) == 0x1c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0) == 0x20, "Size mismatch!");
+
+} // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.SceneManagement.UnloadSceneOptions
+namespace UnityEngine::AddressableAssets {
+// Is value type: false
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass135_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass135_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>4__this, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+
+  /// @brief Field autoReleaseHandle, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
+
+  /// @brief Field unloadOptions, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_unloadOptions, put = __cordl_internal_set_unloadOptions)) ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
+
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass135_0* New_ctor();
+
+  /// @brief Method <CreateUnloadSceneWithChain>b__0, addr 0x6887560, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
+  _CreateUnloadSceneWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> completedHandle);
+
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
+
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
+
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
+
+  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& __cordl_internal_get_unloadOptions() const;
+
+  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& __cordl_internal_get_unloadOptions();
+
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
+
+  constexpr void __cordl_internal_set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
+
+  /// @brief Method .ctor, addr 0x6884ec0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1829,7 +1835,7 @@ public:
   AddressablesImpl___c__DisplayClass135_0(AddressablesImpl___c__DisplayClass135_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20115 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1853,93 +1859,11 @@ static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__Dis
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.SceneManagement.UnloadSceneOptions
-namespace UnityEngine::AddressableAssets {
-// Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass136_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass136_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
-
-  /// @brief Field autoReleaseHandle, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
-
-  /// @brief Field unloadOptions, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_unloadOptions, put = __cordl_internal_set_unloadOptions)) ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
-
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0* New_ctor();
-
-  /// @brief Method <CreateUnloadSceneWithChain>b__0, addr 0x645fdc4, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  _CreateUnloadSceneWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> completedHandle);
-
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
-
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
-
-  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
-
-  constexpr bool& __cordl_internal_get_autoReleaseHandle();
-
-  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& __cordl_internal_get_unloadOptions() const;
-
-  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& __cordl_internal_get_unloadOptions();
-
-  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
-
-  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
-
-  constexpr void __cordl_internal_set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
-
-  /// @brief Method .ctor, addr 0x645d518, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass136_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19800 };
-
-  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
-
-  /// @brief Field unloadOptions, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::SceneManagement::UnloadSceneOptions ___unloadOptions;
-
-  /// @brief Field autoReleaseHandle, offset: 0x1c, size: 0x1, def value: None
-  bool ___autoReleaseHandle;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0, _____4__this) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0, ___unloadOptions) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0, ___autoReleaseHandle) == 0x1c, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0) == 0x20, "Size mismatch!");
-
-} // namespace UnityEngine::AddressableAssets
-// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass140_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass140_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass139_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass139_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -1948,9 +1872,9 @@ public:
   /// @brief Field autoReleaseHandle, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0* New_ctor();
 
-  /// @brief Method <CheckForCatalogUpdatesWithChain>b__0, addr 0x645fe20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <CheckForCatalogUpdatesWithChain>b__0, addr 0x68875bc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>
   _CheckForCatalogUpdatesWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -1966,25 +1890,25 @@ public:
 
   constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
-  /// @brief Method .ctor, addr 0x645dc70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6885618, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass140_0();
+  constexpr AddressablesImpl___c__DisplayClass139_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass139_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0&&) = delete;
+  AddressablesImpl___c__DisplayClass139_0(AddressablesImpl___c__DisplayClass139_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass139_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass139_0(AddressablesImpl___c__DisplayClass139_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20116 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -1995,19 +1919,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0, ___autoReleaseHandle) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0, ___autoReleaseHandle) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass144_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass144_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass143_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass143_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -2019,9 +1943,9 @@ public:
   /// @brief Field autoReleaseHandle, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0* New_ctor();
 
-  /// @brief Method <UpdateCatalogs>b__0, addr 0x645fe64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCatalogs>b__0, addr 0x6887600, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>
   _UpdateCatalogs_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> depOp);
 
@@ -2043,25 +1967,25 @@ public:
 
   constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
-  /// @brief Method .ctor, addr 0x645de3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68857e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass144_0();
+  constexpr AddressablesImpl___c__DisplayClass143_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass143_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0&&) = delete;
+  AddressablesImpl___c__DisplayClass143_0(AddressablesImpl___c__DisplayClass143_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass143_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass143_0(AddressablesImpl___c__DisplayClass143_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20117 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2075,21 +1999,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0, ___autoReleaseHandle) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0, ___autoReleaseHandle) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0, ___autoCleanBundleCache) == 0x19, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0, ___autoCleanBundleCache) == 0x19, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass149_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass149_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass148_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass148_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -2103,9 +2027,9 @@ public:
   /// @brief Field forceSingleThreading, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_forceSingleThreading, put = __cordl_internal_set_forceSingleThreading)) bool forceSingleThreading;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0* New_ctor();
 
-  /// @brief Method <CleanBundleCacheWithChain>b__0, addr 0x645fec4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CleanBundleCacheWithChain>b__0, addr 0x6887660, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> _CleanBundleCacheWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
@@ -2132,25 +2056,25 @@ public:
 
   constexpr void __cordl_internal_set_forceSingleThreading(bool value);
 
-  /// @brief Method .ctor, addr 0x645efd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6886980, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass149_0();
+  constexpr AddressablesImpl___c__DisplayClass148_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass148_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0&&) = delete;
+  AddressablesImpl___c__DisplayClass148_0(AddressablesImpl___c__DisplayClass148_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass148_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass148_0(AddressablesImpl___c__DisplayClass148_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20118 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2165,21 +2089,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0, ___depOp) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0, ___depOp) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0, ___forceSingleThreading) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0, ___forceSingleThreading) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0) == 0x38, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass150_0
-class CORDL_TYPE AddressablesImpl___c__DisplayClass150_0 : public ::System::Object {
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass149_0
+class CORDL_TYPE AddressablesImpl___c__DisplayClass149_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -2191,9 +2115,9 @@ public:
   /// @brief Field forceSingleThreading, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_forceSingleThreading, put = __cordl_internal_set_forceSingleThreading)) bool forceSingleThreading;
 
-  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0* New_ctor();
+  static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0* New_ctor();
 
-  /// @brief Method <CleanBundleCacheWithChain>b__0, addr 0x645ff1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <CleanBundleCacheWithChain>b__0, addr 0x68876b8, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> _CleanBundleCacheWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
@@ -2214,25 +2138,25 @@ public:
 
   constexpr void __cordl_internal_set_forceSingleThreading(bool value);
 
-  /// @brief Method .ctor, addr 0x645efdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6886984, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AddressablesImpl___c__DisplayClass150_0();
+  constexpr AddressablesImpl___c__DisplayClass149_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0&&) = delete;
+  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20119 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2246,13 +2170,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0, ___catalogIds) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0, ___catalogIds) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0, ___forceSingleThreading) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0, ___forceSingleThreading) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0) == 0x28, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 // [CompilerGenerated]
@@ -2268,7 +2192,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass61_0* New_ctor();
 
-  /// @brief Method <RemoveResourceLocator>b__0, addr 0x645ff64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RemoveResourceLocator>b__0, addr 0x6887700, size 0x20, virtual false, abstract: false, final false
   inline bool _RemoveResourceLocator_b__0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* l);
 
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* const& __cordl_internal_get_loc() const;
@@ -2277,7 +2201,7 @@ public:
 
   constexpr void __cordl_internal_set_loc(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
-  /// @brief Method .ctor, addr 0x6457fb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687ff24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2295,7 +2219,7 @@ public:
   AddressablesImpl___c__DisplayClass61_0(AddressablesImpl___c__DisplayClass61_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20120 };
 
   /// @brief Field loc, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* ___loc;
@@ -2330,7 +2254,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass72_0* New_ctor();
 
-  /// @brief Method <LoadContentCatalogAsync>b__0, addr 0x645ff84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <LoadContentCatalogAsync>b__0, addr 0x6887720, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   _LoadContentCatalogAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -2358,7 +2282,7 @@ public:
 
   constexpr void __cordl_internal_set_providerSuffix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6459614, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881614, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2376,7 +2300,7 @@ public:
   AddressablesImpl___c__DisplayClass72_0(AddressablesImpl___c__DisplayClass72_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20121 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2455,7 +2379,7 @@ public:
   AddressablesImpl___c__DisplayClass78_0_1(AddressablesImpl___c__DisplayClass78_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20122 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2518,7 +2442,7 @@ public:
   AddressablesImpl___c__DisplayClass79_0_1(AddressablesImpl___c__DisplayClass79_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20123 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2552,7 +2476,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass83_0* New_ctor();
 
-  /// @brief Method <LoadResourceLocationsWithChain>b__0, addr 0x645ffd0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourceLocationsWithChain>b__0, addr 0x688776c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   _LoadResourceLocationsWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -2580,7 +2504,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6459f80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881a98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2598,7 +2522,7 @@ public:
   AddressablesImpl___c__DisplayClass83_0(AddressablesImpl___c__DisplayClass83_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20124 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2645,7 +2569,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass85_0* New_ctor();
 
-  /// @brief Method <LoadResourceLocationsWithChain>b__0, addr 0x646001c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourceLocationsWithChain>b__0, addr 0x68877b8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   _LoadResourceLocationsWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
@@ -2667,7 +2591,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x645a154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6881c6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2685,7 +2609,7 @@ public:
   AddressablesImpl___c__DisplayClass85_0(AddressablesImpl___c__DisplayClass85_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20125 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2779,7 +2703,7 @@ public:
   AddressablesImpl___c__DisplayClass88_0_1(AddressablesImpl___c__DisplayClass88_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20126 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2876,7 +2800,7 @@ public:
   AddressablesImpl___c__DisplayClass89_0_1(AddressablesImpl___c__DisplayClass89_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20127 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2967,7 +2891,7 @@ public:
   AddressablesImpl___c__DisplayClass91_0_1(AddressablesImpl___c__DisplayClass91_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20128 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
@@ -2996,28 +2920,28 @@ public:
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
-  /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::System::Object* key;
+  /// @brief Field catalogLoc, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_catalogLoc, put = __cordl_internal_set_catalogLoc)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLoc;
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass99_0* New_ctor();
 
-  /// @brief Method <GetDownloadSizeWithChain>b__0, addr 0x6460060, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <ComputeCatalogSizeWithChain>b__0, addr 0x68877fc, size 0x20c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
-  _GetDownloadSizeWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
+  _ComputeCatalogSizeWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::System::Object* const& __cordl_internal_get_key() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const& __cordl_internal_get_catalogLoc() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_key();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_catalogLoc();
 
   constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr void __cordl_internal_set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_catalogLoc(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x645a5ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688237c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3035,20 +2959,20 @@ public:
   AddressablesImpl___c__DisplayClass99_0(AddressablesImpl___c__DisplayClass99_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20129 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* _____4__this;
 
-  /// @brief Field key, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ___key;
+  /// @brief Field catalogLoc, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___catalogLoc;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass99_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass99_0, ___key) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass99_0, ___catalogLoc) == 0x18, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass99_0) == 0x20, "Size mismatch!");
 
@@ -3066,43 +2990,41 @@ public:
 
   using __c = ::UnityEngine::AddressableAssets::AddressablesImpl___c;
 
-  template <typename TObject> using __c__115_1 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__115_1<TObject>;
+  template <typename TObject> using __c__114_1 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__114_1<TObject>;
 
-  using __c__DisplayClass100_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0;
+  using __c__DisplayClass102_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass102_0;
 
-  using __c__DisplayClass103_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0;
+  using __c__DisplayClass105_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass105_0;
 
-  using __c__DisplayClass106_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0;
+  using __c__DisplayClass109_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass109_0;
 
-  using __c__DisplayClass110_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0;
+  using __c__DisplayClass111_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass111_0;
 
-  using __c__DisplayClass112_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0;
+  using __c__DisplayClass115_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass115_0;
 
   using __c__DisplayClass116_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0;
 
   using __c__DisplayClass117_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0;
 
-  using __c__DisplayClass118_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0;
+  using __c__DisplayClass122_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass122_0;
 
-  using __c__DisplayClass123_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0;
+  using __c__DisplayClass124_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass124_0;
 
-  using __c__DisplayClass125_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0;
+  using __c__DisplayClass127_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass127_0;
 
   using __c__DisplayClass128_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0;
 
-  using __c__DisplayClass129_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0;
+  using __c__DisplayClass134_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass134_0;
 
   using __c__DisplayClass135_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass135_0;
 
-  using __c__DisplayClass136_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0;
+  using __c__DisplayClass139_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass139_0;
 
-  using __c__DisplayClass140_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0;
+  using __c__DisplayClass143_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass143_0;
 
-  using __c__DisplayClass144_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0;
+  using __c__DisplayClass148_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass148_0;
 
   using __c__DisplayClass149_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0;
-
-  using __c__DisplayClass150_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0;
 
   using __c__DisplayClass61_0 = ::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass61_0;
 
@@ -3221,59 +3143,59 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*() noexcept;
 
-  /// @brief Method AddResourceLocator, addr 0x6456938, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddResourceLocator, addr 0x687e8b8, size 0xf4, virtual false, abstract: false, final false
   inline void AddResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc, ::StringW localCatalogHash,
                                  ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation);
 
   /// @brief Method AutoReleaseHandleOnTypelessCompletion, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline void AutoReleaseHandleOnTypelessCompletion(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> handle);
 
-  /// @brief Method CheckForCatalogUpdates, addr 0x64562c8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CheckForCatalogUpdates, addr 0x687e248, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> CheckForCatalogUpdates(bool autoReleaseHandle);
 
-  /// @brief Method CheckForCatalogUpdatesWithChain, addr 0x645d51c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CheckForCatalogUpdatesWithChain, addr 0x6884ec4, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> CheckForCatalogUpdatesWithChain(bool autoReleaseHandle);
 
-  /// @brief Method CleanBundleCache, addr 0x6456da0, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method CleanBundleCache, addr 0x687ed20, size 0x584, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> CleanBundleCache(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds,
                                                                                                            bool forceSingleThreading);
 
-  /// @brief Method CleanBundleCache, addr 0x645eb04, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CleanBundleCache, addr 0x68864ac, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> CleanBundleCache(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           depOp,
       bool forceSingleThreading);
 
-  /// @brief Method CleanBundleCacheWithChain, addr 0x645e994, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CleanBundleCacheWithChain, addr 0x688633c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> CleanBundleCacheWithChain(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds,
                                                                                                                     bool forceSingleThreading);
 
-  /// @brief Method CleanBundleCacheWithChain, addr 0x645eca0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CleanBundleCacheWithChain, addr 0x6886648, size 0x180, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> CleanBundleCacheWithChain(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           depOp,
       bool forceSingleThreading);
 
-  /// @brief Method ClearDependencyCacheAsync, addr 0x6452d00, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ClearDependencyCacheAsync, addr 0x687ac80, size 0x238, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(::System::Object* key, bool autoReleaseHandle);
 
-  /// @brief Method ClearDependencyCacheAsync, addr 0x6453578, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method ClearDependencyCacheAsync, addr 0x687b4f8, size 0x4d4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(::System::Collections::IEnumerable* keys, bool autoReleaseHandle);
 
-  /// @brief Method ClearDependencyCacheAsync, addr 0x6452ff8, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method ClearDependencyCacheAsync, addr 0x687af78, size 0x4c0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>
   ClearDependencyCacheAsync(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
 
-  /// @brief Method ClearDependencyCacheForKey, addr 0x645c2d8, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method ClearDependencyCacheForKey, addr 0x6883c80, size 0x70c, virtual false, abstract: false, final false
   inline bool ClearDependencyCacheForKey(::System::Object* key);
 
-  /// @brief Method ClearResourceLocators, addr 0x6456c54, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearResourceLocators, addr 0x687ebd4, size 0x78, virtual false, abstract: false, final false
   inline void ClearResourceLocators();
 
-  /// @brief Method ClearTrackHandles, addr 0x6459da8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ClearTrackHandles, addr 0x68818c0, size 0x54, virtual false, abstract: false, final false
   inline void ClearTrackHandles();
 
-  /// @brief Method ComputeCatalogSizeWithChain, addr 0x645a5f0, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ComputeCatalogSizeWithChain, addr 0x6881f98, size 0x3e4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
   ComputeCatalogSizeWithChain(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLoc);
 
@@ -3293,135 +3215,131 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
   inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW catalogPath, ::StringW hashFilePath);
 
-  /// @brief Method CreateUnloadSceneWithChain, addr 0x645d15c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnloadSceneWithChain, addr 0x6884b04, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   CreateUnloadSceneWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
-  /// @brief Method CreateUnloadSceneWithChain, addr 0x645d2d8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnloadSceneWithChain, addr 0x6884c80, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   CreateUnloadSceneWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle,
                              ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
-  /// @brief Method DownloadDependenciesAsync, addr 0x64524c8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method DownloadDependenciesAsync, addr 0x687a448, size 0x234, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(::System::Object* key, bool autoReleaseHandle);
 
-  /// @brief Method DownloadDependenciesAsync, addr 0x64529f0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method DownloadDependenciesAsync, addr 0x687a970, size 0x250, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(::System::Collections::IEnumerable* keys,
                                                                                                             ::UnityEngine::AddressableAssets::Addressables_MergeMode mode, bool autoReleaseHandle);
 
-  /// @brief Method DownloadDependenciesAsync, addr 0x64527d8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method DownloadDependenciesAsync, addr 0x687a758, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
   DownloadDependenciesAsync(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
 
-  /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x645b414, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x6882dbc, size 0x1b8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsyncWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep,
                                                                                                                      ::System::Object* key, bool autoReleaseHandle);
 
-  /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x645c10c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x6883ab4, size 0x1c8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsyncWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep,
                                                                                                                      ::System::Collections::IEnumerable* keys,
                                                                                                                      ::UnityEngine::AddressableAssets::Addressables_MergeMode mode,
                                                                                                                      bool autoReleaseHandle);
 
-  /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x645bf50, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method DownloadDependenciesAsyncWithChain, addr 0x68838f8, size 0x1b8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
   DownloadDependenciesAsyncWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep,
                                      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
 
-  /// @brief Method Equals, addr 0x645e580, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6885f28, size 0x2e4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* x, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* y);
 
-  /// @brief Method EvaluateKey, addr 0x6458608, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateKey, addr 0x6880574, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Object* EvaluateKey(::System::Object* obj);
 
-  /// @brief Method GatherDependenciesFromLocations, addr 0x645b6c8, size 0x888, virtual false, abstract: false, final false
+  /// @brief Method GatherDependenciesFromLocations, addr 0x6883070, size 0x888, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
   GatherDependenciesFromLocations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
-  /// @brief Method GetDownloadSizeAsync, addr 0x6451320, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadSizeAsync, addr 0x68795a8, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeAsync(::System::Object* key);
 
-  /// @brief Method GetDownloadSizeAsync, addr 0x6451588, size 0xe64, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadSizeAsync, addr 0x6879810, size 0xb5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeAsync(::System::Collections::IEnumerable* keys);
 
-  /// @brief Method GetDownloadSizeWithChain, addr 0x645a480, size 0x16c, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep,
-                                                                                                                      ::System::Object* key);
-
-  /// @brief Method GetDownloadSizeWithChain, addr 0x645b2a4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadSizeWithChain, addr 0x6882c4c, size 0x16c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep,
                                                                                                                       ::System::Collections::IEnumerable* keys);
 
-  /// @brief Method GetHashCode, addr 0x645e864, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x688620c, size 0x130, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  /// @brief Method GetLocatorInfo, addr 0x644a254, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetLocatorInfo, addr 0x68724dc, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocatorInfo* GetLocatorInfo(::StringW c);
 
-  /// @brief Method GetRemoteCatalogHeaderSize, addr 0x645ae00, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method GetRemoteCatalogHeaderSize, addr 0x68827a8, size 0x4a4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
   GetRemoteCatalogHeaderSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLoc);
 
-  /// @brief Method GetResourceLocations, addr 0x6457fbc, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method GetResourceLocations, addr 0x687ff28, size 0x64c, virtual false, abstract: false, final false
   inline bool GetResourceLocations(::System::Object* key, ::System::Type* type,
                                    ::by_ref<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  /// @brief Method GetResourceLocations, addr 0x64586e8, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method GetResourceLocations, addr 0x6880654, size 0x4bc, virtual false, abstract: false, final false
   inline bool GetResourceLocations(::System::Collections::IEnumerable* keys, ::System::Type* type, ::UnityEngine::AddressableAssets::Addressables_MergeMode merge,
                                    ::by_ref<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  /// @brief Method InitializeAsync, addr 0x6450630, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x68788b8, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> InitializeAsync();
 
-  /// @brief Method InitializeAsync, addr 0x6450794, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x6878a1c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> InitializeAsync(bool autoReleaseHandle);
 
-  /// @brief Method InitializeAsync, addr 0x6458ba4, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x6880b10, size 0x560, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   InitializeAsync(::StringW runtimeDataPath, ::StringW providerSuffix, bool autoReleaseHandle);
 
-  /// @brief Method InstantiateAsync, addr 0x6454870, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x687c7f0, size 0x3d4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
-  /// @brief Method InstantiateAsync, addr 0x6454554, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x687c4d4, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> InstantiateAsync(::System::Object* key, ::UnityEngine::Transform* parent,
                                                                                                                                           bool instantiateInWorldSpace, bool trackHandle);
 
-  /// @brief Method InstantiateAsync, addr 0x645471c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x687c69c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::System::Object* key, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent, bool trackHandle);
 
-  /// @brief Method InstantiateAsync, addr 0x6454174, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x687c0f4, size 0x120, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                    ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
-  /// @brief Method InstantiateAsync, addr 0x645c9f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x6884398, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
 
-  /// @brief Method InstantiateAsync, addr 0x64543e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x687c360, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                    ::UnityEngine::Transform* parent, bool trackHandle);
 
-  /// @brief Method InstantiateWithChain, addr 0x645ca6c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateWithChain, addr 0x6884414, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key,
                        ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
-  /// @brief Method InstantiateWithChain, addr 0x645cc30, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateWithChain, addr 0x68845d8, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                        ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
-  /// @brief Method InternalUnloadScene, addr 0x645d454, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InternalUnloadScene, addr 0x6884dfc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   InternalUnloadScene(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle,
                       ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
-  /// @brief Method IsCatalogCached, addr 0x645a9d8, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method IsCatalogCached, addr 0x6882380, size 0x428, virtual false, abstract: false, final false
   inline bool IsCatalogCached(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLoc, ::UnityEngine::Hash128 remoteHash);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -3475,91 +3393,91 @@ public:
                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Action_1<TObject>* callback,
                       bool releaseDependenciesOnFailure);
 
-  /// @brief Method LoadContentCatalogAsync, addr 0x6450910, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method LoadContentCatalogAsync, addr 0x6878b98, size 0x208, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalogAsync(::StringW catalogPath, bool autoReleaseHandle, ::StringW providerSuffix);
 
-  /// @brief Method LoadResourceLocationsAsync, addr 0x6450f04, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method LoadResourceLocationsAsync, addr 0x687918c, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   LoadResourceLocationsAsync(::System::Object* key, ::System::Type* type);
 
-  /// @brief Method LoadResourceLocationsAsync, addr 0x6450ce8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LoadResourceLocationsAsync, addr 0x6878f70, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   LoadResourceLocationsAsync(::System::Collections::IEnumerable* keys, ::UnityEngine::AddressableAssets::Addressables_MergeMode mode, ::System::Type* type);
 
-  /// @brief Method LoadResourceLocationsWithChain, addr 0x6459fe0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadResourceLocationsWithChain, addr 0x6881af8, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   LoadResourceLocationsWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key, ::System::Type* type);
 
-  /// @brief Method LoadResourceLocationsWithChain, addr 0x6459dfc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method LoadResourceLocationsWithChain, addr 0x6881914, size 0x184, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>
   LoadResourceLocationsWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Collections::IEnumerable* keys,
                                  ::UnityEngine::AddressableAssets::Addressables_MergeMode mode, ::System::Type* type);
 
-  /// @brief Method LoadSceneAsync, addr 0x6454e40, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x687cdc0, size 0x258, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   LoadSceneAsync(::System::Object* key, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode,
                  bool activateOnLoad, int32_t priority, bool trackHandle);
 
-  /// @brief Method LoadSceneAsync, addr 0x6455498, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x687d418, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   LoadSceneAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
                  ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad, int32_t priority, bool trackHandle);
 
-  /// @brief Method LoadSceneWithChain, addr 0x645cdf4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneWithChain, addr 0x688479c, size 0x1b0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   LoadSceneWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
                      ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method LoadSceneWithChain, addr 0x645cfa8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneWithChain, addr 0x6884950, size 0x1b0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   LoadSceneWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* key,
                      ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad,
                      int32_t priority);
 
-  /// @brief Method Log, addr 0x644fe74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x68780fc, size 0x5c, virtual false, abstract: false, final false
   inline void Log(::StringW msg);
 
-  /// @brief Method LogError, addr 0x644fe18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x68780a0, size 0x5c, virtual false, abstract: false, final false
   inline void LogError(::StringW msg);
 
-  /// @brief Method LogErrorFormat, addr 0x6450064, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LogErrorFormat, addr 0x68782ec, size 0x6c, virtual false, abstract: false, final false
   inline void LogErrorFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method LogException, addr 0x6450568, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0x68787f0, size 0x4, virtual false, abstract: false, final false
   inline void LogException(::System::Exception* ex);
 
-  /// @brief Method LogException, addr 0x6450420, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0x68786a8, size 0xac, virtual false, abstract: false, final false
   inline void LogException(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::System::Exception* ex);
 
-  /// @brief Method LogFormat, addr 0x64500d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LogFormat, addr 0x6878358, size 0x6c, virtual false, abstract: false, final false
   inline void LogFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method LogWarning, addr 0x644fdbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x6878044, size 0x5c, virtual false, abstract: false, final false
   inline void LogWarning(::StringW msg);
 
-  /// @brief Method LogWarningFormat, addr 0x644fff8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LogWarningFormat, addr 0x6878280, size 0x6c, virtual false, abstract: false, final false
   inline void LogWarningFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl* New_ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
-  /// @brief Method OnHandleCompleted, addr 0x645a36c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnHandleCompleted, addr 0x6881e84, size 0xdc, virtual false, abstract: false, final false
   inline void OnHandleCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method OnHandleDestroyed, addr 0x645a1b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnHandleDestroyed, addr 0x6881cc8, size 0x98, virtual false, abstract: false, final false
   inline void OnHandleDestroyed(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method OnSceneHandleCompleted, addr 0x645a248, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnSceneHandleCompleted, addr 0x6881d60, size 0x124, virtual false, abstract: false, final false
   inline void OnSceneHandleCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method OnSceneUnloaded, addr 0x6457a90, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method OnSceneUnloaded, addr 0x687f9fc, size 0x390, virtual false, abstract: false, final false
   inline void OnSceneUnloaded(::UnityEngine::SceneManagement::Scene scene);
 
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method QueueEditorUpdateIfNeeded, addr 0x6459610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method QueueEditorUpdateIfNeeded, addr 0x6881610, size 0x4, virtual false, abstract: false, final false
   inline void QueueEditorUpdateIfNeeded();
 
-  /// @brief Method Release, addr 0x645a448, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6881f60, size 0x38, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -3568,22 +3486,22 @@ public:
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline void Release(TObject obj);
 
-  /// @brief Method ReleaseInstance, addr 0x64510ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ReleaseInstance, addr 0x6879374, size 0xf8, virtual false, abstract: false, final false
   inline bool ReleaseInstance(::UnityEngine::GameObject* instance);
 
-  /// @brief Method ReleaseSceneManagerOperation, addr 0x6457758, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSceneManagerOperation, addr 0x687f6c4, size 0xa8, virtual false, abstract: false, final false
   inline void ReleaseSceneManagerOperation();
 
-  /// @brief Method RemoveResourceLocator, addr 0x6456ad8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RemoveResourceLocator, addr 0x687ea58, size 0xe0, virtual false, abstract: false, final false
   inline void RemoveResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc);
 
-  /// @brief Method ResolveInternalId, addr 0x644f41c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ResolveInternalId, addr 0x68776a4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW ResolveInternalId(::StringW id);
 
-  /// @brief Method TrackHandle, addr 0x6459d6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TrackHandle, addr 0x6881884, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle TrackHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method TrackHandle, addr 0x6459cac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method TrackHandle, addr 0x68817c4, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   TrackHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle);
 
@@ -3591,33 +3509,33 @@ public:
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> TrackHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> handle);
 
-  /// @brief Method UnloadSceneAsync, addr 0x6455ce0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsync, addr 0x687dc60, size 0x16c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   UnloadSceneAsync(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
-  /// @brief Method UnloadSceneAsync, addr 0x6456118, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsync, addr 0x687e098, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   UnloadSceneAsync(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle,
                    ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
-  /// @brief Method UnloadSceneAsync, addr 0x6455994, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method UnloadSceneAsync, addr 0x687d914, size 0x254, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   UnloadSceneAsync(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance scene, ::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions, bool autoReleaseHandle);
 
-  /// @brief Method UpdateCatalogs, addr 0x6456500, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCatalogs, addr 0x687e480, size 0x28c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>
   UpdateCatalogs(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds, bool autoReleaseHandle, bool autoCleanBundleCache);
 
-  /// @brief Method WrapAsDownloadLocations, addr 0x645b5d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method WrapAsDownloadLocations, addr 0x6882f78, size 0xf8, virtual false, abstract: false, final false
   static inline void WrapAsDownloadLocations(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetRemoteCatalogHeaderSize>b__102_0, addr 0x645f068, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method <GetRemoteCatalogHeaderSize>b__101_0, addr 0x6886a10, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
-  _GetRemoteCatalogHeaderSize_b__102_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::Networking::UnityWebRequest*> getOp);
+  _GetRemoteCatalogHeaderSize_b__101_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::Networking::UnityWebRequest*> getOp);
 
   /// [CompilerGenerated]
-  /// @brief Method <TrackHandle>b__73_0, addr 0x645efe0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <TrackHandle>b__73_0, addr 0x6886988, size 0x88, virtual false, abstract: false, final false
   inline void _TrackHandle_b__73_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneHandle);
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* const& __cordl_internal_get_SceneProvider() const;
@@ -3721,68 +3639,68 @@ public:
   constexpr void
   __cordl_internal_set_m_resultToHandle(::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method .ctor, addr 0x6457424, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687f390, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
-  /// @brief Method get_ActiveSceneInstances, addr 0x64576b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveSceneInstances, addr 0x687f61c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_ActiveSceneInstances();
 
-  /// @brief Method get_BuildPath, addr 0x644f938, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_BuildPath, addr 0x6877bc0, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW get_BuildPath();
 
-  /// @brief Method get_CatalogRequestsTimeout, addr 0x64576a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogRequestsTimeout, addr 0x687f60c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CatalogRequestsTimeout();
 
-  /// @brief Method get_CatalogsWithAvailableUpdates, addr 0x645dc74, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogsWithAvailableUpdates, addr 0x688561c, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_CatalogsWithAvailableUpdates();
 
-  /// @brief Method get_ChainOperation, addr 0x6457800, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method get_ChainOperation, addr 0x687f76c, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_ChainOperation();
 
-  /// @brief Method get_InstanceProvider, addr 0x6457608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceProvider, addr 0x687f574, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* get_InstanceProvider();
 
-  /// @brief Method get_InternalIdTransformFunc, addr 0x644f51c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_InternalIdTransformFunc, addr 0x68777a4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* get_InternalIdTransformFunc();
 
-  /// @brief Method get_PlayerBuildDataPath, addr 0x644fab8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerBuildDataPath, addr 0x6877d40, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW get_PlayerBuildDataPath();
 
-  /// @brief Method get_ResourceLocators, addr 0x644f08c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceLocators, addr 0x6877314, size 0x104, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* get_ResourceLocators();
 
-  /// @brief Method get_ResourceManager, addr 0x6457698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceManager, addr 0x687f604, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
 
-  /// @brief Method get_RuntimePath, addr 0x644fc04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimePath, addr 0x6877e8c, size 0x4, virtual false, abstract: false, final false
   inline ::StringW get_RuntimePath();
 
-  /// @brief Method get_ShouldChainRequest, addr 0x64579a8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldChainRequest, addr 0x687f914, size 0xe8, virtual false, abstract: false, final false
   inline bool get_ShouldChainRequest();
 
-  /// @brief Method get_StreamingAssetsSubFolder, addr 0x644f858, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_StreamingAssetsSubFolder, addr 0x6877ae0, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_StreamingAssetsSubFolder();
 
-  /// @brief Method get_TrackedHandleCount, addr 0x6457700, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_TrackedHandleCount, addr 0x687f66c, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_TrackedHandleCount();
 
-  /// @brief Method get_WebRequestOverride, addr 0x644f6a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestOverride, addr 0x6877930, size 0x18, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* get_WebRequestOverride();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>"
   constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
   i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation__() noexcept;
 
-  /// @brief Method set_CatalogRequestsTimeout, addr 0x64576a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CatalogRequestsTimeout, addr 0x687f614, size 0x8, virtual false, abstract: false, final false
   inline void set_CatalogRequestsTimeout(int32_t value);
 
-  /// @brief Method set_InstanceProvider, addr 0x6457610, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_InstanceProvider, addr 0x687f57c, size 0x88, virtual false, abstract: false, final false
   inline void set_InstanceProvider(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
 
-  /// @brief Method set_InternalIdTransformFunc, addr 0x644f5e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_InternalIdTransformFunc, addr 0x6877870, size 0x18, virtual false, abstract: false, final false
   inline void set_InternalIdTransformFunc(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
 
-  /// @brief Method set_WebRequestOverride, addr 0x644f774, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequestOverride, addr 0x68779fc, size 0x18, virtual false, abstract: false, final false
   inline void set_WebRequestOverride(::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* value);
 
 protected:
@@ -3800,7 +3718,7 @@ public:
   AddressablesImpl(AddressablesImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20130 };
 
   /// @brief Field kCacheDataFolder offset 0xffffffff size 0x8
   static constexpr ::ConstString kCacheDataFolder{ u"{UnityEngine.Application.persistentDataPath}/com.unity.addressables/" };

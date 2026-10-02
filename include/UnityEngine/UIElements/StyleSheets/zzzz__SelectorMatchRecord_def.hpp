@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectorMatchRecord)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine::UIElements {
 class StyleComplexSelector;
 }
@@ -27,11 +33,26 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x6d16de8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*();
+
+  /// @brief Method Compare, addr 0x71c813c, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method .ctor, addr 0x6d16dd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x71c8280, size 0x94, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x71c81e4, size 0x9c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord other);
+
+  /// @brief Method GetHashCode, addr 0x71c8314, size 0x88, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x71c8128, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__SelectorMatchRecord_();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -43,7 +64,7 @@ public:
   constexpr SelectorMatchRecord(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, int32_t styleSheetIndexInStack, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5580 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

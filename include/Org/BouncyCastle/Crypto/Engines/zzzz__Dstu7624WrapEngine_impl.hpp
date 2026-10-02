@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33aef60;
+  constexpr static std::size_t addrs = 0x36381fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33aefe0;
+  constexpr static std::size_t addrs = 0x363827c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Init)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x33af024;
+  constexpr static std::size_t addrs = 0x36382c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Wrap)> {
   constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x33af14c;
+  constexpr static std::size_t addrs = 0x36383e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Unwrap)> {
   constexpr static std::size_t size = 0x878;
-  constexpr static std::size_t addrs = 0x33af8f4;
+  constexpr static std::size_t addrs = 0x3638b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

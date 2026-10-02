@@ -22,7 +22,7 @@ struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
   /// [FreeFunction("GetTagManager().GetSortingLayerValueFromUniqueID")]
-  /// @brief Method GetLayerValueFromID, addr 0x6a65824, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerValueFromID, addr 0x6eb7b38, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters []
@@ -33,7 +33,7 @@ public:
   constexpr SortingLayer(int32_t m_Id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9626 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

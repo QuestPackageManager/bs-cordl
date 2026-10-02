@@ -35,24 +35,24 @@ public:
   /// @brief Method ColorForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color ColorForValue(int32_t idx);
 
-  /// @brief Method DecButtonPressed, addr 0x5a2fdd0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x5e47688, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
-  /// @brief Method IncButtonPressed, addr 0x5a2fd90, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x5e47648, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ListColorController* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5a2fcb0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e47568, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x5a2fd34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5e475ec, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x5a2fce4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x5e4759c, size 0x50, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr int32_t const& __cordl_internal_get__idx() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a2fe08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e476c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ListColorController(ListColorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24078 };
 
   /// @brief Field _idx, offset: 0x28, size: 0x4, def value: None
   int32_t ____idx;

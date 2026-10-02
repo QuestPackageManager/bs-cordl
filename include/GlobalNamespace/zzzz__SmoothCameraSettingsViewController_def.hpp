@@ -44,21 +44,21 @@ public:
   /// @brief Field _toggleBinder, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder)) ::HMUI::ToggleBinder* _toggleBinder;
 
-  /// @brief Method DidActivate, addr 0x5a228b8, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e3dac4, size 0x1a0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a22a58, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e3dc64, size 0x8c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleEnabledChanged, addr 0x5a22b0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnabledChanged, addr 0x5e3dd18, size 0x1c, virtual false, abstract: false, final false
   inline void HandleEnabledChanged(bool newValue);
 
-  /// @brief Method HandleFovChanged, addr 0x5a22b28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleFovChanged, addr 0x5e3dd34, size 0x18, virtual false, abstract: false, final false
   inline void HandleFovChanged(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::SmoothCameraSettingsViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a22ae4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e3dcf0, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__enabledToggle() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method .ctor, addr 0x5a22b40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3dd4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   SmoothCameraSettingsViewController(SmoothCameraSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6595 };
 
   /// [SerializeField]
   /// @brief Field _enabledToggle, offset: 0x78, size: 0x8, def value: None

@@ -18,7 +18,7 @@ class VolumeComponentMenuForRenderPipeline;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*, "UnityEngine.Rendering", "VolumeComponentMenuForRenderPipeline");
-// [Obsolete("VolumeComponentMenuForRenderPipelineAttribute is deprecated. Use VolumeComponentMenu with SupportedOnCurrentPipeline instead. #from(2023.1)", false)]
+// [Obsolete("VolumeComponentMenuForRenderPipelineAttribute is deprecated. Use VolumeComponentMenu with SupportedOnRenderPipeline instead. #from(2023.1)", true)]
 // Dependencies System.Type, UnityEngine.Rendering.VolumeComponentMenu
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -39,11 +39,11 @@ public:
 
   constexpr void __cordl_internal_set__pipelineTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x67cb19c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be943c, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW menu, /* [ParamArray] */ ::ArrayW<::System::Type*> pipelineTypes);
 
   /// [CompilerGenerated]
-  /// @brief Method get_pipelineTypes, addr 0x67cb194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pipelineTypes, addr 0x6be9434, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_pipelineTypes();
 
 protected:
@@ -61,7 +61,7 @@ public:
   VolumeComponentMenuForRenderPipeline(VolumeComponentMenuForRenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9205 };
 
   /// [CompilerGenerated]
   /// @brief Field <pipelineTypes>k__BackingField, offset: 0x18, size: 0x8, def value: None

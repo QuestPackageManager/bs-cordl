@@ -45,7 +45,7 @@ public:
   GameBuildInfo(GameBuildInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23509 };
 
   /// @brief Field kDefaultPlatformVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultPlatformVersion{ u"1390" };

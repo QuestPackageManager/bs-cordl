@@ -101,57 +101,57 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method GraphicUpdateComplete, addr 0x587cbc0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x5c92fa0, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method LayoutComplete, addr 0x587cbbc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x5c92f9c, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method MayDrag, addr 0x587cfac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x5c933a8, size 0x64, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::HMUI::CircleSlider* New_ctor();
 
-  /// @brief Method OnBeginDrag, addr 0x587d010, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x5c9340c, size 0x90, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x587cc30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5c93010, size 0x8, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrag, addr 0x587d0a0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x5c9349c, size 0xa0, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEnable, addr 0x587cbc4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c92fa4, size 0x6c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x587d1f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x5c935ec, size 0x14, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x587d140, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x5c9353c, size 0xb0, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x587cc40, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x5c93020, size 0x38, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method Rebuild, addr 0x587cbb8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x5c92f98, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method SetNormalizedValue, addr 0x587cc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNormalizedValue, addr 0x5c93018, size 0x8, virtual false, abstract: false, final false
   inline void SetNormalizedValue(float_t input);
 
-  /// @brief Method SetNormalizedValue, addr 0x587c9b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetNormalizedValue, addr 0x5c92d98, size 0x80, virtual false, abstract: false, final false
   inline void SetNormalizedValue(float_t input, bool sendCallback);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x587d268, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x5c93664, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method UpdateCachedReferences, addr 0x587c764, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedReferences, addr 0x5c92b44, size 0x148, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
-  /// @brief Method UpdateDrag, addr 0x587cd7c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x5c93184, size 0x224, virtual false, abstract: false, final false
   inline void UpdateDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method UpdateVisuals, addr 0x587cc78, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x5c93058, size 0x12c, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
@@ -196,17 +196,17 @@ public:
 
   constexpr void __cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
-  /// @brief Method .ctor, addr 0x587d204, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c93600, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_normalizedValueDidChangeEvent, addr 0x587ca38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_normalizedValueDidChangeEvent, addr 0x5c92e18, size 0xc0, virtual false, abstract: false, final false
   inline void add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
-  /// @brief Method get_handleRect, addr 0x587c6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleRect, addr 0x5c92aa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
-  /// @brief Method get_normalizedValue, addr 0x587c974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedValue, addr 0x5c92d54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedValue();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
@@ -225,16 +225,16 @@ public:
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x587caf8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x5c92ed8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
-  /// @brief Method set_handleColor, addr 0x587c8ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_handleColor, addr 0x5c92c8c, size 0xc8, virtual false, abstract: false, final false
   inline void set_handleColor(::UnityEngine::Color value);
 
-  /// @brief Method set_handleRect, addr 0x587c6c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_handleRect, addr 0x5c92aa8, size 0x9c, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_normalizedValue, addr 0x587c97c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedValue, addr 0x5c92d5c, size 0x3c, virtual false, abstract: false, final false
   inline void set_normalizedValue(float_t value);
 
 protected:
@@ -252,7 +252,7 @@ public:
   CircleSlider(CircleSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19612 };
 
   /// [SerializeField]
   /// @brief Field _handleRect, offset: 0x100, size: 0x8, def value: None

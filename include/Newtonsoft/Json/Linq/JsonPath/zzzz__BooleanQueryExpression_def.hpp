@@ -45,26 +45,26 @@ public:
   /// @brief Field Right, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) ::System::Object* Right;
 
-  /// @brief Method EqualsWithStrictMatch, addr 0x5d941c8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EqualsWithStrictMatch, addr 0x61addac, size 0x114, virtual false, abstract: false, final false
   static inline bool EqualsWithStrictMatch(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::Linq::JValue* queryValue);
 
-  /// @brief Method EqualsWithStringCoercion, addr 0x5d93c88, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method EqualsWithStringCoercion, addr 0x61ad86c, size 0x540, virtual false, abstract: false, final false
   static inline bool EqualsWithStringCoercion(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::Linq::JValue* queryValue);
 
-  /// @brief Method GetResult, addr 0x5d93010, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x61acbf4, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* GetResult(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
                                                                                                      /* [Nullable(2)] */ ::System::Object* o);
 
-  /// @brief Method IsMatch, addr 0x5d931f0, size 0x67c, virtual true, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x61acdd4, size 0x67c, virtual true, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method MatchTokens, addr 0x5d9386c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method MatchTokens, addr 0x61ad450, size 0x23c, virtual false, abstract: false, final false
   inline bool MatchTokens(::Newtonsoft::Json::Linq::JToken* leftResult, ::Newtonsoft::Json::Linq::JToken* rightResult, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression* New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator, ::System::Object* left,
                                                                                      /* [Nullable(2)] */ ::System::Object* right);
 
-  /// @brief Method RegexEquals, addr 0x5d93aa8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method RegexEquals, addr 0x61ad68c, size 0x1e0, virtual false, abstract: false, final false
   static inline bool RegexEquals(::Newtonsoft::Json::Linq::JValue* input, ::Newtonsoft::Json::Linq::JValue* pattern, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   constexpr ::System::Object* const& __cordl_internal_get_Left() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5d92558, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ac13c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator, ::System::Object* left, /* [Nullable(2)] */ ::System::Object* right);
 
 protected:
@@ -97,7 +97,7 @@ public:
   BooleanQueryExpression(BooleanQueryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13878 };
 
   /// @brief Field Left, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___Left;

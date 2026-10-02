@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugDisplaySettingsPanel_def.hpp"
-#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(DebugDisplaySettingsRenderGraph)
 namespace UnityEngine::Rendering {
 class DebugDisplaySettingsRenderGraph_SettingsPanel;
@@ -31,7 +30,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*);
 MARK_REF_T(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*, "UnityEngine.Rendering", "DebugDisplaySettingsRenderGraph");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*, "UnityEngine.Rendering", "DebugDisplaySettingsRenderGraph/SettingsPanel");
-// [DisplayInfo(name = "Render Graph", order = 10)]
+// [DisplayInfo(name = "Rendering", order = 10)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -39,15 +38,10 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugDisplaySettingsRenderGraph_SettingsPanel : public ::UnityEngine::Rendering::DebugDisplaySettingsPanel {
 public:
   // Declarations
-  __declspec(property(get = get_PanelName)) ::StringW PanelName;
-
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel* New_ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _);
 
-  /// @brief Method .ctor, addr 0x67a28fc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbd38c, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _);
-
-  /// @brief Method get_PanelName, addr 0x67a2d50, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_PanelName();
 
 protected:
   // Ctor Parameters []
@@ -64,7 +58,7 @@ public:
   DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,13 +85,13 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x67a28a8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6bbd338, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
-  /// @brief Method .ctor, addr 0x67a2728, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbd1fc, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x67a2bd4, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6bbd734, size 0x1dc, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -121,7 +115,7 @@ public:
   DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

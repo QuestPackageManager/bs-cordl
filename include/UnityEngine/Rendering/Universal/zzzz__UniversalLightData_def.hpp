@@ -31,6 +31,9 @@ public:
   /// @brief Field maxPerObjectAdditionalLightsCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_maxPerObjectAdditionalLightsCount, put = __cordl_internal_set_maxPerObjectAdditionalLightsCount)) int32_t maxPerObjectAdditionalLightsCount;
 
+  /// @brief Field reflectionProbeAtlas, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get_reflectionProbeAtlas, put = __cordl_internal_set_reflectionProbeAtlas)) bool reflectionProbeAtlas;
+
   /// @brief Field reflectionProbeBlending, offset 0x33, size 0x1
   __declspec(property(get = __cordl_internal_get_reflectionProbeBlending, put = __cordl_internal_set_reflectionProbeBlending)) bool reflectionProbeBlending;
 
@@ -40,10 +43,10 @@ public:
   /// @brief Field shadeAdditionalLightsPerVertex, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_shadeAdditionalLightsPerVertex, put = __cordl_internal_set_shadeAdditionalLightsPerVertex)) bool shadeAdditionalLightsPerVertex;
 
-  /// @brief Field supportsAdditionalLights, offset 0x35, size 0x1
+  /// @brief Field supportsAdditionalLights, offset 0x36, size 0x1
   __declspec(property(get = __cordl_internal_get_supportsAdditionalLights, put = __cordl_internal_set_supportsAdditionalLights)) bool supportsAdditionalLights;
 
-  /// @brief Field supportsLightLayers, offset 0x34, size 0x1
+  /// @brief Field supportsLightLayers, offset 0x35, size 0x1
   __declspec(property(get = __cordl_internal_get_supportsLightLayers, put = __cordl_internal_set_supportsLightLayers)) bool supportsLightLayers;
 
   /// @brief Field supportsMixedLighting, offset 0x31, size 0x1
@@ -54,7 +57,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalLightData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6876c70, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cb6508, size 0x1c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_additionalLightsCount() const;
@@ -68,6 +71,10 @@ public:
   constexpr int32_t const& __cordl_internal_get_maxPerObjectAdditionalLightsCount() const;
 
   constexpr int32_t& __cordl_internal_get_maxPerObjectAdditionalLightsCount();
+
+  constexpr bool const& __cordl_internal_get_reflectionProbeAtlas() const;
+
+  constexpr bool& __cordl_internal_get_reflectionProbeAtlas();
 
   constexpr bool const& __cordl_internal_get_reflectionProbeBlending() const;
 
@@ -103,6 +110,8 @@ public:
 
   constexpr void __cordl_internal_set_maxPerObjectAdditionalLightsCount(int32_t value);
 
+  constexpr void __cordl_internal_set_reflectionProbeAtlas(bool value);
+
   constexpr void __cordl_internal_set_reflectionProbeBlending(bool value);
 
   constexpr void __cordl_internal_set_reflectionProbeBoxProjection(bool value);
@@ -117,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLights(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> value);
 
-  /// @brief Method .ctor, addr 0x6876c88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb6524, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +144,7 @@ public:
   UniversalLightData(UniversalLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
 
   /// @brief Field mainLightIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___mainLightIndex;
@@ -161,10 +170,13 @@ public:
   /// @brief Field reflectionProbeBlending, offset: 0x33, size: 0x1, def value: None
   bool ___reflectionProbeBlending;
 
-  /// @brief Field supportsLightLayers, offset: 0x34, size: 0x1, def value: None
+  /// @brief Field reflectionProbeAtlas, offset: 0x34, size: 0x1, def value: None
+  bool ___reflectionProbeAtlas;
+
+  /// @brief Field supportsLightLayers, offset: 0x35, size: 0x1, def value: None
   bool ___supportsLightLayers;
 
-  /// @brief Field supportsAdditionalLights, offset: 0x35, size: 0x1, def value: None
+  /// @brief Field supportsAdditionalLights, offset: 0x36, size: 0x1, def value: None
   bool ___supportsAdditionalLights;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -186,9 +198,11 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, 
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, ___reflectionProbeBlending) == 0x33, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, ___supportsLightLayers) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, ___reflectionProbeAtlas) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, ___supportsAdditionalLights) == 0x35, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, ___supportsLightLayers) == 0x35, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalLightData, ___supportsAdditionalLights) == 0x36, "Offset mismatch!");
 
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalLightData) == 0x38, "Size mismatch!");
 

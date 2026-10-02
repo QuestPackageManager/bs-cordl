@@ -5,8 +5,10 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
+#include "UnityEngine/zzzz__RenderingLayerMask_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
@@ -38,6 +40,9 @@ namespace System {
 class Action;
 }
 namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System {
 class Enum;
 }
 namespace System {
@@ -63,6 +68,9 @@ class DebugUI_BoolField;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_Button;
+}
+namespace UnityEngine::Rendering {
+class DebugUI_CameraSelector;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_ColorField;
@@ -126,6 +134,9 @@ class DebugUI_Panel;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_ProgressBarValue;
+}
+namespace UnityEngine::Rendering {
+class DebugUI_RenderingLayerField;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_RuntimeDebugShadersMessageBox;
@@ -179,6 +190,9 @@ namespace UnityEngine::Rendering {
 class Panel_DebugUI___c;
 }
 namespace UnityEngine::Rendering {
+class RenderingLayerField_DebugUI___c__DisplayClass5_0;
+}
+namespace UnityEngine::Rendering {
 class RuntimeDebugShadersMessageBox_DebugUI___c;
 }
 namespace UnityEngine::Rendering {
@@ -186,6 +200,9 @@ class Table_DebugUI_Row;
 }
 namespace UnityEngine::Rendering {
 struct Widget_DebugUI_NameAndTooltip;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 struct Color;
@@ -198,6 +215,9 @@ class GUIStyle;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -217,6 +237,9 @@ class DebugUI_BoolField;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_Button;
+}
+namespace UnityEngine::Rendering {
+class DebugUI_CameraSelector;
 }
 namespace UnityEngine::Rendering {
 class DebugUI_ColorField;
@@ -279,6 +302,9 @@ namespace UnityEngine::Rendering {
 class DebugUI_ProgressBarValue;
 }
 namespace UnityEngine::Rendering {
+class DebugUI_RenderingLayerField;
+}
+namespace UnityEngine::Rendering {
 class DebugUI_RuntimeDebugShadersMessageBox;
 }
 namespace UnityEngine::Rendering {
@@ -318,6 +344,9 @@ namespace UnityEngine::Rendering {
 class Panel_DebugUI___c;
 }
 namespace UnityEngine::Rendering {
+class RenderingLayerField_DebugUI___c__DisplayClass5_0;
+}
+namespace UnityEngine::Rendering {
 class RuntimeDebugShadersMessageBox_DebugUI___c;
 }
 namespace UnityEngine::Rendering {
@@ -336,6 +365,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugUI*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_BitField*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_BoolField*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_Button*);
+MARK_REF_T(::UnityEngine::Rendering::DebugUI_CameraSelector*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_ColorField*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_Container*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_EnumField*);
@@ -356,6 +386,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugUI_ObjectListField*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_ObjectPopupField*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_Panel*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_ProgressBarValue*);
+MARK_REF_T(::UnityEngine::Rendering::DebugUI_RenderingLayerField*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_Table*);
 MARK_REF_T(::UnityEngine::Rendering::DebugUI_UIntField*);
@@ -369,6 +400,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugUI_Widget*);
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::EnumField_1_DebugUI___c);
 MARK_REF_T(::UnityEngine::Rendering::EnumField_DebugUI___c*);
 MARK_REF_T(::UnityEngine::Rendering::Panel_DebugUI___c*);
+MARK_REF_T(::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*);
 MARK_REF_T(::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c*);
 MARK_REF_T(::UnityEngine::Rendering::Table_DebugUI_Row*);
 MARK_VAL_T(::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem);
@@ -379,6 +411,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI*, "UnityEngine.Rendering",
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_BitField*, "UnityEngine.Rendering", "DebugUI/BitField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_BoolField*, "UnityEngine.Rendering", "DebugUI/BoolField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_Button*, "UnityEngine.Rendering", "DebugUI/Button");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_CameraSelector*, "UnityEngine.Rendering", "DebugUI/CameraSelector");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_ColorField*, "UnityEngine.Rendering", "DebugUI/ColorField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_Container*, "UnityEngine.Rendering", "DebugUI/Container");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_EnumField*, "UnityEngine.Rendering", "DebugUI/EnumField");
@@ -399,6 +432,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_ObjectListField*, "UnityEn
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_ObjectPopupField*, "UnityEngine.Rendering", "DebugUI/ObjectPopupField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_Panel*, "UnityEngine.Rendering", "DebugUI/Panel");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_ProgressBarValue*, "UnityEngine.Rendering", "DebugUI/ProgressBarValue");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_RenderingLayerField*, "UnityEngine.Rendering", "DebugUI/RenderingLayerField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox*, "UnityEngine.Rendering", "DebugUI/RuntimeDebugShadersMessageBox");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_Table*, "UnityEngine.Rendering", "DebugUI/Table");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_UIntField*, "UnityEngine.Rendering", "DebugUI/UIntField");
@@ -412,6 +446,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUI_Widget*, "UnityEngine.Rend
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::EnumField_1_DebugUI___c, "UnityEngine.Rendering", "DebugUI/EnumField`1/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::EnumField_DebugUI___c*, "UnityEngine.Rendering", "DebugUI/EnumField/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Panel_DebugUI___c*, "UnityEngine.Rendering", "DebugUI/Panel/<>c");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0*, "UnityEngine.Rendering", "DebugUI/RenderingLayerField/<>c__DisplayClass5_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c*, "UnityEngine.Rendering", "DebugUI/RuntimeDebugShadersMessageBox/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Table_DebugUI_Row*, "UnityEngine.Rendering", "DebugUI/Table/Row");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem, "UnityEngine.Rendering", "DebugUI/Foldout/ContextMenuItem");
@@ -468,7 +503,7 @@ public:
   static ::UnityEngine::Rendering::DebugUI_Flags const RuntimeOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8891 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -493,16 +528,19 @@ public:
   // Declarations
   using NameAndTooltip = ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip;
 
-  /// @brief Field <displayName>k__BackingField, offset 0x28, size 0x8
+  /// @brief Field <displayName>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField)) ::StringW _displayName_k__BackingField;
 
-  /// @brief Field <flags>k__BackingField, offset 0x20, size 0x4
+  /// @brief Field <flags>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__flags_k__BackingField, put = __cordl_internal_set__flags_k__BackingField)) ::UnityEngine::Rendering::DebugUI_Flags _flags_k__BackingField;
 
-  /// @brief Field <queryPath>k__BackingField, offset 0x38, size 0x8
+  /// @brief Field <order>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__order_k__BackingField, put = __cordl_internal_set__order_k__BackingField)) int32_t _order_k__BackingField;
+
+  /// @brief Field <queryPath>k__BackingField, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__queryPath_k__BackingField, put = __cordl_internal_set__queryPath_k__BackingField)) ::StringW _queryPath_k__BackingField;
 
-  /// @brief Field <tooltip>k__BackingField, offset 0x30, size 0x8
+  /// @brief Field <tooltip>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tooltip_k__BackingField, put = __cordl_internal_set__tooltip_k__BackingField)) ::StringW _tooltip_k__BackingField;
 
   __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
@@ -513,20 +551,22 @@ public:
 
   __declspec(property(get = get_isHidden)) bool isHidden;
 
-  /// @brief Field isHiddenCallback, offset 0x40, size 0x8
+  /// @brief Field isHiddenCallback, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_isHiddenCallback, put = __cordl_internal_set_isHiddenCallback)) ::System::Func_1<bool>* isHiddenCallback;
 
   __declspec(property(get = get_isInactiveInEditor)) bool isInactiveInEditor;
 
   __declspec(property(get = get_isRuntimeOnly)) bool isRuntimeOnly;
 
-  /// @brief Field m_Panel, offset 0x10, size 0x8
+  /// @brief Field m_Panel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel)) ::UnityEngine::Rendering::DebugUI_Panel* m_Panel;
 
-  /// @brief Field m_Parent, offset 0x18, size 0x8
+  /// @brief Field m_Parent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Parent, put = __cordl_internal_set_m_Parent)) ::UnityEngine::Rendering::DebugUI_IContainer* m_Parent;
 
   __declspec(property(put = set_nameAndTooltip)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip nameAndTooltip;
+
+  __declspec(property(get = get_order, put = set_order)) int32_t order;
 
   __declspec(property(get = get_panel, put = set_panel)) ::UnityEngine::Rendering::DebugUI_Panel* panel;
 
@@ -536,10 +576,10 @@ public:
 
   __declspec(property(get = get_tooltip, put = set_tooltip)) ::StringW tooltip;
 
-  /// @brief Method GenerateQueryPath, addr 0x6769ed0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GenerateQueryPath, addr 0x6b8132c, size 0xec, virtual true, abstract: false, final false
   inline void GenerateQueryPath();
 
-  /// @brief Method GetHashCode, addr 0x676aba0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b83d90, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::DebugUI_Widget* New_ctor();
@@ -551,6 +591,10 @@ public:
   constexpr ::UnityEngine::Rendering::DebugUI_Flags const& __cordl_internal_get__flags_k__BackingField() const;
 
   constexpr ::UnityEngine::Rendering::DebugUI_Flags& __cordl_internal_get__flags_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__order_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__order_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__queryPath_k__BackingField() const;
 
@@ -576,6 +620,8 @@ public:
 
   constexpr void __cordl_internal_set__flags_k__BackingField(::UnityEngine::Rendering::DebugUI_Flags value);
 
+  constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
+
   constexpr void __cordl_internal_set__queryPath_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__tooltip_k__BackingField(::StringW value);
@@ -586,66 +632,74 @@ public:
 
   constexpr void __cordl_internal_set_m_Parent(::UnityEngine::Rendering::DebugUI_IContainer* value);
 
-  /// @brief Method .ctor, addr 0x6769e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8126c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x676aacc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_displayName, addr 0x6b83cbc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_flags, addr 0x676aabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x6b83cac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_flags();
 
-  /// @brief Method get_isEditorOnly, addr 0x676aafc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isEditorOnly, addr 0x6b83cec, size 0xc, virtual false, abstract: false, final false
   inline bool get_isEditorOnly();
 
-  /// @brief Method get_isHidden, addr 0x676a284, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isHidden, addr 0x6b816d8, size 0x20, virtual false, abstract: false, final false
   inline bool get_isHidden();
 
-  /// @brief Method get_isInactiveInEditor, addr 0x676ab14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_isInactiveInEditor, addr 0x6b83d04, size 0x8c, virtual false, abstract: false, final false
   inline bool get_isInactiveInEditor();
 
-  /// @brief Method get_isRuntimeOnly, addr 0x676ab08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isRuntimeOnly, addr 0x6b83cf8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isRuntimeOnly();
 
-  /// @brief Method get_panel, addr 0x676aa9c, size 0x8, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_order, addr 0x6b83c7c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_order();
+
+  /// @brief Method get_panel, addr 0x6b83c8c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Panel* get_panel();
 
-  /// @brief Method get_parent, addr 0x676aaac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_parent, addr 0x6b83c9c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_IContainer* get_parent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_queryPath, addr 0x676aaec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_queryPath, addr 0x6b83cdc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_queryPath();
 
   /// [CompilerGenerated]
-  /// @brief Method get_tooltip, addr 0x676aadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tooltip, addr 0x6b83ccc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_tooltip();
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x676aad4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_displayName, addr 0x6b83cc4, size 0x8, virtual true, abstract: false, final true
   inline void set_displayName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_flags, addr 0x676aac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x6b83cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Rendering::DebugUI_Flags value);
 
-  /// @brief Method set_nameAndTooltip, addr 0x675f9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nameAndTooltip, addr 0x6b77040, size 0x8, virtual false, abstract: false, final false
   inline void set_nameAndTooltip(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
 
-  /// @brief Method set_panel, addr 0x676aaa4, size 0x8, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method set_order, addr 0x6b83c84, size 0x8, virtual false, abstract: false, final false
+  inline void set_order(int32_t value);
+
+  /// @brief Method set_panel, addr 0x6b83c94, size 0x8, virtual true, abstract: false, final false
   inline void set_panel(::UnityEngine::Rendering::DebugUI_Panel* value);
 
-  /// @brief Method set_parent, addr 0x676aab4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_parent, addr 0x6b83ca4, size 0x8, virtual true, abstract: false, final false
   inline void set_parent(::UnityEngine::Rendering::DebugUI_IContainer* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_queryPath, addr 0x676aaf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_queryPath, addr 0x6b83ce4, size 0x8, virtual false, abstract: false, final false
   inline void set_queryPath(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_tooltip, addr 0x676aae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x6b83cd4, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:
@@ -663,51 +717,57 @@ public:
   DebugUI_Widget(DebugUI_Widget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8893 };
 
-  /// @brief Field m_Panel, offset: 0x10, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  int32_t ____order_k__BackingField;
+
+  /// @brief Field m_Panel, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_Panel* ___m_Panel;
 
-  /// @brief Field m_Parent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_Parent, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_IContainer* ___m_Parent;
 
   /// [CompilerGenerated]
-  /// @brief Field <flags>k__BackingField, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field <flags>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Rendering::DebugUI_Flags ____flags_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <displayName>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <displayName>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <tooltip>k__BackingField, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <tooltip>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____tooltip_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <queryPath>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <queryPath>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____queryPath_k__BackingField;
 
-  /// @brief Field isHiddenCallback, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field isHiddenCallback, offset: 0x48, size: 0x8, def value: None
   ::System::Func_1<bool>* ___isHiddenCallback;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ___m_Panel) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____order_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ___m_Parent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ___m_Panel) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____flags_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ___m_Parent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____displayName_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____flags_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____tooltip_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____displayName_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____queryPath_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____tooltip_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ___isHiddenCallback) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ____queryPath_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Widget) == 0x48, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Widget, ___isHiddenCallback) == 0x48, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Widget) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Widget
@@ -717,7 +777,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_Container : public ::UnityEngine::Rendering::DebugUI_Widget {
 public:
   // Declarations
-  /// @brief Field <children>k__BackingField, offset 0x48, size 0x8
+  /// @brief Field <children>k__BackingField, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__children_k__BackingField,
                       put = __cordl_internal_set__children_k__BackingField)) ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* _children_k__BackingField;
 
@@ -730,10 +790,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::DebugUI_IContainer"
   constexpr operator ::UnityEngine::Rendering::DebugUI_IContainer*() noexcept;
 
-  /// @brief Method GenerateQueryPath, addr 0x6769e10, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GenerateQueryPath, addr 0x6b81270, size 0xbc, virtual true, abstract: false, final false
   inline void GenerateQueryPath();
 
-  /// @brief Method GetHashCode, addr 0x676a15c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b815b4, size 0x124, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::DebugUI_Container* New_ctor();
@@ -742,11 +802,11 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugUI_Container* New_ctor(::StringW id);
 
-  /// @brief Method OnItemAdded, addr 0x6769fbc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnItemAdded, addr 0x6b81418, size 0x68, virtual true, abstract: false, final false
   inline void OnItemAdded(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* sender,
                           ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>* e);
 
-  /// @brief Method OnItemRemoved, addr 0x676a0f4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnItemRemoved, addr 0x6b8154c, size 0x68, virtual true, abstract: false, final false
   inline void OnItemRemoved(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* sender,
                             ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>* e);
 
@@ -756,33 +816,33 @@ public:
 
   constexpr void __cordl_internal_set__children_k__BackingField(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
 
-  /// @brief Method .ctor, addr 0x6769ac4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b80f24, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6769b60, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b80fc4, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children);
 
-  /// @brief Method .ctor, addr 0x6769d44, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b811a0, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   /// [CompilerGenerated]
-  /// @brief Method get_children, addr 0x67699dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_children, addr 0x6b80e40, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
 
-  /// @brief Method get_hideDisplayName, addr 0x6769970, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_hideDisplayName, addr 0x6b80dd4, size 0x6c, virtual false, abstract: false, final false
   inline bool get_hideDisplayName();
 
-  /// @brief Method get_panel, addr 0x67699ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_panel, addr 0x6b80e50, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Panel* get_panel();
 
   /// @brief Convert to "::UnityEngine::Rendering::DebugUI_IContainer"
   constexpr ::UnityEngine::Rendering::DebugUI_IContainer* i___UnityEngine__Rendering__DebugUI_IContainer() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_children, addr 0x67699e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_children, addr 0x6b80e48, size 0x8, virtual false, abstract: false, final false
   inline void set_children(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
 
-  /// @brief Method set_panel, addr 0x67699f4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method set_panel, addr 0x6b80e58, size 0xcc, virtual true, abstract: false, final false
   inline void set_panel(::UnityEngine::Rendering::DebugUI_Panel* value);
 
 protected:
@@ -800,21 +860,21 @@ public:
   DebugUI_Container(DebugUI_Container const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8856 };
 
   /// @brief Field k_IDToken offset 0xffffffff size 0x8
   static constexpr ::ConstString k_IDToken{ u"#" };
 
   /// [CompilerGenerated]
-  /// @brief Field <children>k__BackingField, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field <children>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* ____children_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Container, ____children_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Container, ____children_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Container) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Container) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies
@@ -833,7 +893,7 @@ public:
   constexpr Foldout_DebugUI_ContextMenuItem(::StringW displayName, ::System::Action* action) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8857 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -863,40 +923,47 @@ public:
   // Declarations
   using ContextMenuItem = ::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem;
 
+  /// @brief Field <documentationUrl>k__BackingField, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__documentationUrl_k__BackingField, put = __cordl_internal_set__documentationUrl_k__BackingField)) ::StringW _documentationUrl_k__BackingField;
+
+  /// @brief Field <opened>k__BackingField, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get__opened_k__BackingField, put = __cordl_internal_set__opened_k__BackingField)) bool _opened_k__BackingField;
+
   __declspec(property(get = get_columnLabels, put = set_columnLabels)) ::ArrayW<::StringW> columnLabels;
 
   __declspec(property(get = get_columnTooltips, put = set_columnTooltips)) ::ArrayW<::StringW> columnTooltips;
 
-  /// @brief Field contextMenuItems, offset 0x58, size 0x8
+  /// @brief Field contextMenuItems, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_contextMenuItems,
                       put = __cordl_internal_set_contextMenuItems)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem>* contextMenuItems;
 
-  /// @brief Field isHeader, offset 0x51, size 0x1
+  __declspec(property(get = get_documentationUrl, put = set_documentationUrl)) ::StringW documentationUrl;
+
+  /// @brief Field isHeader, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get_isHeader, put = __cordl_internal_set_isHeader)) bool isHeader;
 
   __declspec(property(get = get_isReadOnly)) bool isReadOnly;
 
-  /// @brief Field m_ColumnLabels, offset 0x68, size 0x8
+  /// @brief Field m_ColumnLabels, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnLabels, put = __cordl_internal_set_m_ColumnLabels)) ::ArrayW<::StringW> m_ColumnLabels;
 
-  /// @brief Field m_ColumnTooltips, offset 0x70, size 0x8
+  /// @brief Field m_ColumnTooltips, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnTooltips, put = __cordl_internal_set_m_ColumnTooltips)) ::ArrayW<::StringW> m_ColumnTooltips;
 
-  /// @brief Field m_Dirty, offset 0x60, size 0x1
+  /// @brief Field m_Dirty, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Dirty, put = __cordl_internal_set_m_Dirty)) bool m_Dirty;
 
-  /// @brief Field m_RowContents, offset 0x78, size 0x8
+  /// @brief Field m_RowContents, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RowContents, put = __cordl_internal_set_m_RowContents)) ::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>* m_RowContents;
 
-  /// @brief Field opened, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_opened, put = __cordl_internal_set_opened)) bool opened;
+  __declspec(property(get = get_opened, put = set_opened)) bool opened;
 
   __declspec(property(get = get_rowContents)) ::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>* rowContents;
 
   /// @brief Convert operator to "::UnityEngine::Rendering::DebugUI_IValueField"
   constexpr operator ::UnityEngine::Rendering::DebugUI_IValueField*() noexcept;
 
-  /// @brief Method GetValue, addr 0x676a624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6b81a98, size 0x8, virtual false, abstract: false, final false
   inline bool GetValue();
 
   static inline ::UnityEngine::Rendering::DebugUI_Foldout* New_ctor();
@@ -904,17 +971,25 @@ public:
   static inline ::UnityEngine::Rendering::DebugUI_Foldout* New_ctor(::StringW displayName, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children,
                                                                     ::ArrayW<::StringW> columnLabels, ::ArrayW<::StringW> columnTooltips);
 
-  /// @brief Method SetValue, addr 0x676a650, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x6b81ac4, size 0x44, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* value);
 
-  /// @brief Method SetValue, addr 0x676a69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6b81b08, size 0x8, virtual false, abstract: false, final false
   inline void SetValue(bool value);
 
-  /// @brief Method UnityEngine.Rendering.DebugUI.IValueField.GetValue, addr 0x676a62c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.DebugUI.IValueField.GetValue, addr 0x6b81aa0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* UnityEngine_Rendering_DebugUI_IValueField_GetValue();
 
-  /// @brief Method ValidateValue, addr 0x676a694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ValidateValue, addr 0x6b81b10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* ValidateValue(::System::Object* value);
+
+  constexpr ::StringW const& __cordl_internal_get__documentationUrl_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__documentationUrl_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__opened_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__opened_k__BackingField();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem>* const& __cordl_internal_get_contextMenuItems() const;
 
@@ -940,9 +1015,9 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>*& __cordl_internal_get_m_RowContents();
 
-  constexpr bool const& __cordl_internal_get_opened() const;
+  constexpr void __cordl_internal_set__documentationUrl_k__BackingField(::StringW value);
 
-  constexpr bool& __cordl_internal_get_opened();
+  constexpr void __cordl_internal_set__opened_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set_contextMenuItems(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem>* value);
 
@@ -956,35 +1031,49 @@ public:
 
   constexpr void __cordl_internal_set_m_RowContents(::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>* value);
 
-  constexpr void __cordl_internal_set_opened(bool value);
-
-  /// @brief Method .ctor, addr 0x6762990, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b79d68, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x676a574, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b819e8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children, ::ArrayW<::StringW> columnLabels,
                     ::ArrayW<::StringW> columnTooltips);
 
-  /// @brief Method get_columnLabels, addr 0x676a2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnLabels, addr 0x6b81720, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_columnLabels();
 
-  /// @brief Method get_columnTooltips, addr 0x676a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnTooltips, addr 0x6b81728, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_columnTooltips();
 
-  /// @brief Method get_isReadOnly, addr 0x676a2a4, size 0x8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_documentationUrl, addr 0x6b81710, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_documentationUrl();
+
+  /// @brief Method get_isReadOnly, addr 0x6b816f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method get_rowContents, addr 0x676a2cc, size 0x2a8, virtual false, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method get_opened, addr 0x6b81700, size 0x8, virtual false, abstract: false, final false
+  inline bool get_opened();
+
+  /// @brief Method get_rowContents, addr 0x6b81740, size 0x2a8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>* get_rowContents();
 
   /// @brief Convert to "::UnityEngine::Rendering::DebugUI_IValueField"
   constexpr ::UnityEngine::Rendering::DebugUI_IValueField* i___UnityEngine__Rendering__DebugUI_IValueField() noexcept;
 
-  /// @brief Method set_columnLabels, addr 0x6762a08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_columnLabels, addr 0x6b79de0, size 0x10, virtual false, abstract: false, final false
   inline void set_columnLabels(::ArrayW<::StringW> value);
 
-  /// @brief Method set_columnTooltips, addr 0x676a2bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_columnTooltips, addr 0x6b81730, size 0x10, virtual false, abstract: false, final false
   inline void set_columnTooltips(::ArrayW<::StringW> value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_documentationUrl, addr 0x6b81718, size 0x8, virtual false, abstract: false, final false
+  inline void set_documentationUrl(::StringW value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_opened, addr 0x6b81708, size 0x8, virtual false, abstract: false, final false
+  inline void set_opened(bool value);
 
 protected:
   // Ctor Parameters []
@@ -1001,47 +1090,54 @@ public:
   DebugUI_Foldout(DebugUI_Foldout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8858 };
 
-  /// @brief Field opened, offset: 0x50, size: 0x1, def value: None
-  bool ___opened;
+  /// [CompilerGenerated]
+  /// @brief Field <opened>k__BackingField, offset: 0x58, size: 0x1, def value: None
+  bool ____opened_k__BackingField;
 
-  /// @brief Field isHeader, offset: 0x51, size: 0x1, def value: None
+  /// @brief Field isHeader, offset: 0x59, size: 0x1, def value: None
   bool ___isHeader;
 
-  /// @brief Field contextMenuItems, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field contextMenuItems, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Foldout_DebugUI_ContextMenuItem>* ___contextMenuItems;
 
-  /// @brief Field m_Dirty, offset: 0x60, size: 0x1, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field <documentationUrl>k__BackingField, offset: 0x68, size: 0x8, def value: None
+  ::StringW ____documentationUrl_k__BackingField;
+
+  /// @brief Field m_Dirty, offset: 0x70, size: 0x1, def value: None
   bool ___m_Dirty;
 
-  /// @brief Field m_ColumnLabels, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field m_ColumnLabels, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_ColumnLabels;
 
-  /// @brief Field m_ColumnTooltips, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field m_ColumnTooltips, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_ColumnTooltips;
 
-  /// @brief Field m_RowContents, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_RowContents, offset: 0x88, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::GUIContent*>* ___m_RowContents;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___opened) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ____opened_k__BackingField) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___isHeader) == 0x51, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___isHeader) == 0x59, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___contextMenuItems) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___contextMenuItems) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_Dirty) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ____documentationUrl_k__BackingField) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_ColumnLabels) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_Dirty) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_ColumnTooltips) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_ColumnLabels) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_RowContents) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_ColumnTooltips) == 0x80, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Foldout) == 0x80, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Foldout, ___m_RowContents) == 0x88, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Foldout) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Container
@@ -1053,7 +1149,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::DebugUI_HBox* New_ctor();
 
-  /// @brief Method .ctor, addr 0x676a6a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b81b18, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1071,12 +1167,12 @@ public:
   DebugUI_HBox(DebugUI_HBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_HBox) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_HBox) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Container
@@ -1088,7 +1184,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::DebugUI_VBox* New_ctor();
 
-  /// @brief Method .ctor, addr 0x676a6f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b81b6c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1106,12 +1202,12 @@ public:
   DebugUI_VBox(DebugUI_VBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_VBox) == 0x50, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_VBox) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Foldout
@@ -1123,7 +1219,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Table_DebugUI_Row* New_ctor();
 
-  /// @brief Method .ctor, addr 0x675fa70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b715d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1141,12 +1237,12 @@ public:
   Table_DebugUI_Row(Table_DebugUI_Row const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::Table_DebugUI_Row) == 0x80, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Table_DebugUI_Row) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Container
@@ -1163,26 +1259,26 @@ public:
   /// @brief Field columnHeaderStyle, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_columnHeaderStyle, put = setStaticF_columnHeaderStyle)) ::UnityEngine::GUIStyle* columnHeaderStyle;
 
-  /// @brief Field isReadOnly, offset 0x50, size 0x1
+  /// @brief Field isReadOnly, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_isReadOnly, put = __cordl_internal_set_isReadOnly)) bool isReadOnly;
 
-  /// @brief Field m_Header, offset 0x58, size 0x8
+  /// @brief Field m_Header, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Header, put = __cordl_internal_set_m_Header)) ::ArrayW<bool> m_Header;
 
-  /// @brief Method GetColumnVisibility, addr 0x676a990, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetColumnVisibility, addr 0x6b81e3c, size 0x4c, virtual false, abstract: false, final false
   inline bool GetColumnVisibility(int32_t index);
 
   static inline ::UnityEngine::Rendering::DebugUI_Table* New_ctor();
 
-  /// @brief Method OnItemAdded, addr 0x676a9dc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnItemAdded, addr 0x6b81e88, size 0x18, virtual true, abstract: false, final false
   inline void OnItemAdded(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* sender,
                           ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>* e);
 
-  /// @brief Method OnItemRemoved, addr 0x676a9f4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnItemRemoved, addr 0x6b81ea0, size 0x18, virtual true, abstract: false, final false
   inline void OnItemRemoved(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* sender,
                             ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>* e);
 
-  /// @brief Method SetColumnVisibility, addr 0x675f994, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetColumnVisibility, addr 0x6b81bc0, size 0x4c, virtual false, abstract: false, final false
   inline void SetColumnVisibility(int32_t index, bool visible);
 
   constexpr bool const& __cordl_internal_get_isReadOnly() const;
@@ -1197,12 +1293,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Header(::ArrayW<bool> value);
 
-  /// @brief Method .ctor, addr 0x675eaa8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71580, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUIStyle* getStaticF_columnHeaderStyle();
 
-  /// @brief Method get_VisibleColumns, addr 0x676a74c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method get_VisibleColumns, addr 0x6b81c0c, size 0x230, virtual false, abstract: false, final false
   inline ::ArrayW<bool> get_VisibleColumns();
 
   static inline void setStaticF_columnHeaderStyle(::UnityEngine::GUIStyle* value);
@@ -1222,419 +1318,22 @@ public:
   DebugUI_Table(DebugUI_Table const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8862 };
 
-  /// @brief Field isReadOnly, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field isReadOnly, offset: 0x58, size: 0x1, def value: None
   bool ___isReadOnly;
 
-  /// @brief Field m_Header, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field m_Header, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<bool> ___m_Header;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Table, ___isReadOnly) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Table, ___isReadOnly) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Table, ___m_Header) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Table, ___m_Header) == 0x60, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Table) == 0x60, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies
-namespace UnityEngine::Rendering {
-// Is value type: true
-// CS Name: UnityEngine.Rendering.DebugUI/Widget/NameAndTooltip
-struct CORDL_TYPE Widget_DebugUI_NameAndTooltip {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Widget_DebugUI_NameAndTooltip();
-
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None, comment:
-  // None }]
-  constexpr Widget_DebugUI_NameAndTooltip(::StringW name, ::StringW tooltip) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11998 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
-  /// @brief Field name, offset: 0x0, size: 0x8, def value: None
-  ::StringW name;
-
-  /// @brief Field tooltip, offset: 0x8, size: 0x8, def value: None
-  ::StringW tooltip;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, name) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, tooltip) == 0x8, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip) == 0x10, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/IContainer
-class CORDL_TYPE DebugUI_IContainer {
-public:
-  // Declarations
-  __declspec(property(get = get_children)) ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children;
-
-  __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
-
-  __declspec(property(get = get_queryPath)) ::StringW queryPath;
-
-  /// @brief Method get_children, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
-
-  /// @brief Method get_displayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_displayName();
-
-  /// @brief Method get_queryPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_queryPath();
-
-  /// @brief Method set_displayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_displayName(::StringW value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IContainer", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_IContainer(DebugUI_IContainer const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12000 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::Rendering
-// Dependencies
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/IValueField
-class CORDL_TYPE DebugUI_IValueField {
-public:
-  // Declarations
-  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* GetValue();
-
-  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetValue(::System::Object* value);
-
-  /// @brief Method ValidateValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* ValidateValue(::System::Object* value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IValueField", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_IValueField(DebugUI_IValueField const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12001 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.DebugUI::Widget
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/Button
-class CORDL_TYPE DebugUI_Button : public ::UnityEngine::Rendering::DebugUI_Widget {
-public:
-  // Declarations
-  /// @brief Field <action>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__action_k__BackingField, put = __cordl_internal_set__action_k__BackingField)) ::System::Action* _action_k__BackingField;
-
-  __declspec(property(get = get_action, put = set_action)) ::System::Action* action;
-
-  static inline ::UnityEngine::Rendering::DebugUI_Button* New_ctor();
-
-  constexpr ::System::Action* const& __cordl_internal_get__action_k__BackingField() const;
-
-  constexpr ::System::Action*& __cordl_internal_get__action_k__BackingField();
-
-  constexpr void __cordl_internal_set__action_k__BackingField(::System::Action* value);
-
-  /// @brief Method .ctor, addr 0x676ac20, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_action, addr 0x676ac10, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Action* get_action();
-
-  /// [CompilerGenerated]
-  /// @brief Method set_action, addr 0x676ac18, size 0x8, virtual false, abstract: false, final false
-  inline void set_action(::System::Action* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUI_Button();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUI_Button(DebugUI_Button&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Button(DebugUI_Button const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12002 };
-
-  /// [CompilerGenerated]
-  /// @brief Field <action>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::System::Action* ____action_k__BackingField;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Button, ____action_k__BackingField) == 0x48, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Button) == 0x50, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.DebugUI::Widget
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/Value
-class CORDL_TYPE DebugUI_Value : public ::UnityEngine::Rendering::DebugUI_Widget {
-public:
-  // Declarations
-  /// @brief Field <getter>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__getter_k__BackingField, put = __cordl_internal_set__getter_k__BackingField)) ::System::Func_1<::System::Object*>* _getter_k__BackingField;
-
-  /// @brief Field formatString, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_formatString, put = __cordl_internal_set_formatString)) ::StringW formatString;
-
-  __declspec(property(get = get_getter, put = set_getter)) ::System::Func_1<::System::Object*>* getter;
-
-  /// @brief Field refreshRate, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_refreshRate, put = __cordl_internal_set_refreshRate)) float_t refreshRate;
-
-  /// @brief Method FormatString, addr 0x676ac54, size 0x9c, virtual true, abstract: false, final false
-  inline ::StringW FormatString(::System::Object* value);
-
-  /// @brief Method GetValue, addr 0x676ac34, size 0x20, virtual true, abstract: false, final false
-  inline ::System::Object* GetValue();
-
-  static inline ::UnityEngine::Rendering::DebugUI_Value* New_ctor();
-
-  constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get__getter_k__BackingField() const;
-
-  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get__getter_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get_formatString() const;
-
-  constexpr ::StringW& __cordl_internal_get_formatString();
-
-  constexpr float_t const& __cordl_internal_get_refreshRate() const;
-
-  constexpr float_t& __cordl_internal_get_refreshRate();
-
-  constexpr void __cordl_internal_set__getter_k__BackingField(::System::Func_1<::System::Object*>* value);
-
-  constexpr void __cordl_internal_set_formatString(::StringW value);
-
-  constexpr void __cordl_internal_set_refreshRate(float_t value);
-
-  /// @brief Method .ctor, addr 0x675dbd4, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// [CompilerGenerated]
-  /// @brief Method get_getter, addr 0x676ac24, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Func_1<::System::Object*>* get_getter();
-
-  /// [CompilerGenerated]
-  /// @brief Method set_getter, addr 0x676ac2c, size 0x8, virtual false, abstract: false, final false
-  inline void set_getter(::System::Func_1<::System::Object*>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUI_Value();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUI_Value(DebugUI_Value&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_Value(DebugUI_Value const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12003 };
-
-  /// [CompilerGenerated]
-  /// @brief Field <getter>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::System::Func_1<::System::Object*>* ____getter_k__BackingField;
-
-  /// @brief Field refreshRate, offset: 0x50, size: 0x4, def value: None
-  float_t ___refreshRate;
-
-  /// @brief Field formatString, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___formatString;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Value, ____getter_k__BackingField) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Value, ___refreshRate) == 0x50, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Value, ___formatString) == 0x58, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Value) == 0x60, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.DebugUI::Value
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/ProgressBarValue
-class CORDL_TYPE DebugUI_ProgressBarValue : public ::UnityEngine::Rendering::DebugUI_Value {
-public:
-  // Declarations
-  /// @brief Field max, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
-
-  /// @brief Field min, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
-
-  /// @brief Method FormatString, addr 0x676acf0, size 0xf0, virtual true, abstract: false, final false
-  inline ::StringW FormatString(::System::Object* value);
-
-  static inline ::UnityEngine::Rendering::DebugUI_ProgressBarValue* New_ctor();
-
-  /// [CompilerGenerated]
-  /// @brief Method <FormatString>g__Remap01|2_0, addr 0x676ade0, size 0x10, virtual false, abstract: false, final false
-  static inline float_t _FormatString_g__Remap01_2_0(float_t v, float_t x0, float_t y0);
-
-  constexpr float_t const& __cordl_internal_get_max() const;
-
-  constexpr float_t& __cordl_internal_get_max();
-
-  constexpr float_t const& __cordl_internal_get_min() const;
-
-  constexpr float_t& __cordl_internal_get_min();
-
-  constexpr void __cordl_internal_set_max(float_t value);
-
-  constexpr void __cordl_internal_set_min(float_t value);
-
-  /// @brief Method .ctor, addr 0x6762a24, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUI_ProgressBarValue();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUI_ProgressBarValue(DebugUI_ProgressBarValue&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ProgressBarValue(DebugUI_ProgressBarValue const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12004 };
-
-  /// @brief Field min, offset: 0x60, size: 0x4, def value: None
-  float_t ___min;
-
-  /// @brief Field max, offset: 0x64, size: 0x4, def value: None
-  float_t ___max;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ProgressBarValue, ___min) == 0x60, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ProgressBarValue, ___max) == 0x64, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ProgressBarValue) == 0x68, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.DebugUI::Value, UnityEngine.Rendering.DebugUI::Widget
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/ValueTuple
-class CORDL_TYPE DebugUI_ValueTuple : public ::UnityEngine::Rendering::DebugUI_Widget {
-public:
-  // Declarations
-  __declspec(property(get = get_numElements)) int32_t numElements;
-
-  /// @brief Field pinnedElementIndex, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_pinnedElementIndex, put = __cordl_internal_set_pinnedElementIndex)) int32_t pinnedElementIndex;
-
-  __declspec(property(get = get_refreshRate)) float_t refreshRate;
-
-  /// @brief Field values, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> values;
-
-  static inline ::UnityEngine::Rendering::DebugUI_ValueTuple* New_ctor();
-
-  constexpr int32_t const& __cordl_internal_get_pinnedElementIndex() const;
-
-  constexpr int32_t& __cordl_internal_get_pinnedElementIndex();
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> const& __cordl_internal_get_values() const;
-
-  constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*>& __cordl_internal_get_values();
-
-  constexpr void __cordl_internal_set_pinnedElementIndex(int32_t value);
-
-  constexpr void __cordl_internal_set_values(::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> value);
-
-  /// @brief Method .ctor, addr 0x6762a18, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_numElements, addr 0x676adf0, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_numElements();
-
-  /// @brief Method get_refreshRate, addr 0x676ae08, size 0x64, virtual false, abstract: false, final false
-  inline float_t get_refreshRate();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUI_ValueTuple();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUI_ValueTuple(DebugUI_ValueTuple&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_ValueTuple(DebugUI_ValueTuple const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12005 };
-
-  /// @brief Field values, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> ___values;
-
-  /// @brief Field pinnedElementIndex, offset: 0x50, size: 0x4, def value: None
-  int32_t ___pinnedElementIndex;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ValueTuple, ___values) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ValueTuple, ___pinnedElementIndex) == 0x50, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ValueTuple) == 0x58, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Table) == 0x68, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Widget
@@ -1646,15 +1345,15 @@ template <typename T>
 class CORDL_TYPE DebugUI_Field_1 : public ::UnityEngine::Rendering::DebugUI_Widget {
 public:
   // Declarations
-  /// @brief Field <getter>k__BackingField, offset 0x48, size 0x8
+  /// @brief Field <getter>k__BackingField, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__getter_k__BackingField, put = __cordl_internal_set__getter_k__BackingField)) ::System::Func_1<T>* _getter_k__BackingField;
 
-  /// @brief Field <setter>k__BackingField, offset 0x50, size 0x8
+  /// @brief Field <setter>k__BackingField, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__setter_k__BackingField, put = __cordl_internal_set__setter_k__BackingField)) ::System::Action_1<T>* _setter_k__BackingField;
 
   __declspec(property(get = get_getter, put = set_getter)) ::System::Func_1<T>* getter;
 
-  /// @brief Field onValueChanged, offset 0x58, size 0x8
+  /// @brief Field onValueChanged, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_onValueChanged, put = __cordl_internal_set_onValueChanged)) ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<T>*, T>* onValueChanged;
 
   __declspec(property(get = get_setter, put = set_setter)) ::System::Action_1<T>* setter;
@@ -1737,17 +1436,17 @@ public:
   DebugUI_Field_1(DebugUI_Field_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8863 };
 
   /// [CompilerGenerated]
-  /// @brief Field <getter>k__BackingField, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field <getter>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Func_1<T>* ____getter_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <setter>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field <setter>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<T>* ____setter_k__BackingField;
 
-  /// @brief Field onValueChanged, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field onValueChanged, offset: 0x60, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<T>*, T>* ___onValueChanged;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1763,7 +1462,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::DebugUI_BoolField* New_ctor();
 
-  /// @brief Method .ctor, addr 0x676ae6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b81f48, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1781,12 +1480,12 @@ public:
   DebugUI_BoolField(DebugUI_BoolField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_BoolField) == 0x60, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_BoolField) == 0x68, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies System.Func`1<TResult>, UnityEngine.Rendering.DebugUI::BoolField
@@ -1796,7 +1495,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_HistoryBoolField : public ::UnityEngine::Rendering::DebugUI_BoolField {
 public:
   // Declarations
-  /// @brief Field <historyGetter>k__BackingField, offset 0x60, size 0x8
+  /// @brief Field <historyGetter>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__historyGetter_k__BackingField, put = __cordl_internal_set__historyGetter_k__BackingField)) ::ArrayW<::System::Func_1<bool>*>
       _historyGetter_k__BackingField;
 
@@ -1804,7 +1503,7 @@ public:
 
   __declspec(property(get = get_historyGetter, put = set_historyGetter)) ::ArrayW<::System::Func_1<bool>*> historyGetter;
 
-  /// @brief Method GetHistoryValue, addr 0x676aed0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryValue, addr 0x6b81fac, size 0x40, virtual false, abstract: false, final false
   inline bool GetHistoryValue(int32_t historyIndex);
 
   static inline ::UnityEngine::Rendering::DebugUI_HistoryBoolField* New_ctor();
@@ -1815,18 +1514,18 @@ public:
 
   constexpr void __cordl_internal_set__historyGetter_k__BackingField(::ArrayW<::System::Func_1<bool>*> value);
 
-  /// @brief Method .ctor, addr 0x676af10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b81fec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_historyDepth, addr 0x676aeb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_historyDepth, addr 0x6b81f94, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_historyDepth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_historyGetter, addr 0x676aea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_historyGetter, addr 0x6b81f84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Func_1<bool>*> get_historyGetter();
 
   /// [CompilerGenerated]
-  /// @brief Method set_historyGetter, addr 0x676aeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_historyGetter, addr 0x6b81f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_historyGetter(::ArrayW<::System::Func_1<bool>*> value);
 
 protected:
@@ -1844,18 +1543,18 @@ public:
   DebugUI_HistoryBoolField(DebugUI_HistoryBoolField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8865 };
 
   /// [CompilerGenerated]
-  /// @brief Field <historyGetter>k__BackingField, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field <historyGetter>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::System::Func_1<bool>*> ____historyGetter_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_HistoryBoolField, ____historyGetter_k__BackingField) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_HistoryBoolField, ____historyGetter_k__BackingField) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_HistoryBoolField) == 0x68, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_HistoryBoolField) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -1865,21 +1564,21 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_IntField : public ::UnityEngine::Rendering::DebugUI_Field_1<int32_t> {
 public:
   // Declarations
-  /// @brief Field incStep, offset 0x70, size 0x4
+  /// @brief Field incStep, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) int32_t incStep;
 
-  /// @brief Field intStepMult, offset 0x74, size 0x4
+  /// @brief Field intStepMult, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_intStepMult, put = __cordl_internal_set_intStepMult)) int32_t intStepMult;
 
-  /// @brief Field max, offset 0x68, size 0x8
+  /// @brief Field max, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) ::System::Func_1<int32_t>* max;
 
-  /// @brief Field min, offset 0x60, size 0x8
+  /// @brief Field min, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) ::System::Func_1<int32_t>* min;
 
   static inline ::UnityEngine::Rendering::DebugUI_IntField* New_ctor();
 
-  /// @brief Method ValidateValue, addr 0x676af4c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0x6b82028, size 0x64, virtual true, abstract: false, final false
   inline int32_t ValidateValue(int32_t value);
 
   constexpr int32_t const& __cordl_internal_get_incStep() const;
@@ -1906,7 +1605,7 @@ public:
 
   constexpr void __cordl_internal_set_min(::System::Func_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x676afb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8208c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1924,32 +1623,32 @@ public:
   DebugUI_IntField(DebugUI_IntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8866 };
 
-  /// @brief Field min, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field min, offset: 0x68, size: 0x8, def value: None
   ::System::Func_1<int32_t>* ___min;
 
-  /// @brief Field max, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field max, offset: 0x70, size: 0x8, def value: None
   ::System::Func_1<int32_t>* ___max;
 
-  /// @brief Field incStep, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x78, size: 0x4, def value: None
   int32_t ___incStep;
 
-  /// @brief Field intStepMult, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field intStepMult, offset: 0x7c, size: 0x4, def value: None
   int32_t ___intStepMult;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___min) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___min) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___max) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___max) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___incStep) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___incStep) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___intStepMult) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_IntField, ___intStepMult) == 0x7c, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_IntField) == 0x78, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_IntField) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -1959,21 +1658,21 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_UIntField : public ::UnityEngine::Rendering::DebugUI_Field_1<uint32_t> {
 public:
   // Declarations
-  /// @brief Field incStep, offset 0x70, size 0x4
+  /// @brief Field incStep, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) uint32_t incStep;
 
-  /// @brief Field intStepMult, offset 0x74, size 0x4
+  /// @brief Field intStepMult, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_intStepMult, put = __cordl_internal_set_intStepMult)) uint32_t intStepMult;
 
-  /// @brief Field max, offset 0x68, size 0x8
+  /// @brief Field max, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) ::System::Func_1<uint32_t>* max;
 
-  /// @brief Field min, offset 0x60, size 0x8
+  /// @brief Field min, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) ::System::Func_1<uint32_t>* min;
 
   static inline ::UnityEngine::Rendering::DebugUI_UIntField* New_ctor();
 
-  /// @brief Method ValidateValue, addr 0x676affc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0x6b820d8, size 0x64, virtual true, abstract: false, final false
   inline uint32_t ValidateValue(uint32_t value);
 
   constexpr uint32_t const& __cordl_internal_get_incStep() const;
@@ -2000,7 +1699,7 @@ public:
 
   constexpr void __cordl_internal_set_min(::System::Func_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x676b060, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8213c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2018,32 +1717,32 @@ public:
   DebugUI_UIntField(DebugUI_UIntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8867 };
 
-  /// @brief Field min, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field min, offset: 0x68, size: 0x8, def value: None
   ::System::Func_1<uint32_t>* ___min;
 
-  /// @brief Field max, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field max, offset: 0x70, size: 0x8, def value: None
   ::System::Func_1<uint32_t>* ___max;
 
-  /// @brief Field incStep, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x78, size: 0x4, def value: None
   uint32_t ___incStep;
 
-  /// @brief Field intStepMult, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field intStepMult, offset: 0x7c, size: 0x4, def value: None
   uint32_t ___intStepMult;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___min) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___min) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___max) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___max) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___incStep) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___incStep) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___intStepMult) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_UIntField, ___intStepMult) == 0x7c, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_UIntField) == 0x78, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_UIntField) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -2053,24 +1752,24 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_FloatField : public ::UnityEngine::Rendering::DebugUI_Field_1<float_t> {
 public:
   // Declarations
-  /// @brief Field decimals, offset 0x78, size 0x4
+  /// @brief Field decimals, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_decimals, put = __cordl_internal_set_decimals)) int32_t decimals;
 
-  /// @brief Field incStep, offset 0x70, size 0x4
+  /// @brief Field incStep, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) float_t incStep;
 
-  /// @brief Field incStepMult, offset 0x74, size 0x4
+  /// @brief Field incStepMult, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_incStepMult, put = __cordl_internal_set_incStepMult)) float_t incStepMult;
 
-  /// @brief Field max, offset 0x68, size 0x8
+  /// @brief Field max, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) ::System::Func_1<float_t>* max;
 
-  /// @brief Field min, offset 0x60, size 0x8
+  /// @brief Field min, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) ::System::Func_1<float_t>* min;
 
   static inline ::UnityEngine::Rendering::DebugUI_FloatField* New_ctor();
 
-  /// @brief Method ValidateValue, addr 0x676b0ac, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0x6b82188, size 0x60, virtual true, abstract: false, final false
   inline float_t ValidateValue(float_t value);
 
   constexpr int32_t const& __cordl_internal_get_decimals() const;
@@ -2103,7 +1802,7 @@ public:
 
   constexpr void __cordl_internal_set_min(::System::Func_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x676b10c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b821e8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2121,37 +1820,310 @@ public:
   DebugUI_FloatField(DebugUI_FloatField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8868 };
 
-  /// @brief Field min, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field min, offset: 0x68, size: 0x8, def value: None
   ::System::Func_1<float_t>* ___min;
 
-  /// @brief Field max, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field max, offset: 0x70, size: 0x8, def value: None
   ::System::Func_1<float_t>* ___max;
 
-  /// @brief Field incStep, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x78, size: 0x4, def value: None
   float_t ___incStep;
 
-  /// @brief Field incStepMult, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field incStepMult, offset: 0x7c, size: 0x4, def value: None
   float_t ___incStepMult;
 
-  /// @brief Field decimals, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field decimals, offset: 0x80, size: 0x4, def value: None
   int32_t ___decimals;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___min) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___min) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___max) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___max) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___incStep) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___incStep) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___incStepMult) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___incStepMult) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___decimals) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_FloatField, ___decimals) == 0x80, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_FloatField) == 0x80, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_FloatField) == 0x88, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/RenderingLayerField/<>c__DisplayClass5_0
+class CORDL_TYPE RenderingLayerField_DebugUI___c__DisplayClass5_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::Rendering::DebugUI_RenderingLayerField* __4__this;
+
+  /// @brief Field index, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
+
+  static inline ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0* New_ctor();
+
+  /// @brief Method <Resize>b__0, addr 0x6b82b68, size 0x30, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color _Resize_b__0();
+
+  /// @brief Method <Resize>b__1, addr 0x6b82b98, size 0x30, virtual false, abstract: false, final false
+  inline void _Resize_b__1(::UnityEngine::Color value);
+
+  constexpr ::UnityEngine::Rendering::DebugUI_RenderingLayerField* const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityEngine::Rendering::DebugUI_RenderingLayerField*& __cordl_internal_get___4__this();
+
+  constexpr int32_t const& __cordl_internal_get_index() const;
+
+  constexpr int32_t& __cordl_internal_get_index();
+
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::Rendering::DebugUI_RenderingLayerField* value);
+
+  constexpr void __cordl_internal_set_index(int32_t value);
+
+  /// @brief Method .ctor, addr 0x6b82770, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderingLayerField_DebugUI___c__DisplayClass5_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerField_DebugUI___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  RenderingLayerField_DebugUI___c__DisplayClass5_0(RenderingLayerField_DebugUI___c__DisplayClass5_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerField_DebugUI___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  RenderingLayerField_DebugUI___c__DisplayClass5_0(RenderingLayerField_DebugUI___c__DisplayClass5_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8869 };
+
+  /// @brief Field index, offset: 0x10, size: 0x4, def value: None
+  int32_t ___index;
+
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::Rendering::DebugUI_RenderingLayerField* _____4__this;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0, ___index) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0, _____4__this) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0) == 0x20, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.DebugUI/Widget/NameAndTooltip
+struct CORDL_TYPE Widget_DebugUI_NameAndTooltip {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Widget_DebugUI_NameAndTooltip();
+
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
+  constexpr Widget_DebugUI_NameAndTooltip(::StringW name, ::StringW tooltip) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8892 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
+  /// @brief Field name, offset: 0x0, size: 0x8, def value: None
+  ::StringW name;
+
+  /// @brief Field tooltip, offset: 0x8, size: 0x8, def value: None
+  ::StringW tooltip;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, name) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip, tooltip) == 0x8, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip) == 0x10, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>, UnityEngine.Rendering.DebugUI::Widget::NameAndTooltip, UnityEngine.RenderingLayerMask
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/RenderingLayerField
+class CORDL_TYPE DebugUI_RenderingLayerField : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::RenderingLayerMask> {
+public:
+  // Declarations
+  using __c__DisplayClass5_0 = ::UnityEngine::Rendering::RenderingLayerField_DebugUI___c__DisplayClass5_0;
+
+  /// @brief Field <getRenderingLayerColor>k__BackingField, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__getRenderingLayerColor_k__BackingField,
+                      put = __cordl_internal_set__getRenderingLayerColor_k__BackingField)) ::System::Func_2<int32_t, ::UnityEngine::Vector4>* _getRenderingLayerColor_k__BackingField;
+
+  /// @brief Field <setRenderingLayerColor>k__BackingField, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__setRenderingLayerColor_k__BackingField,
+                      put = __cordl_internal_set__setRenderingLayerColor_k__BackingField)) ::System::Action_2<::UnityEngine::Vector4, int32_t>* _setRenderingLayerColor_k__BackingField;
+
+  __declspec(property(get = get_children)) ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children;
+
+  __declspec(property(get = get_getRenderingLayerColor, put = set_getRenderingLayerColor)) ::System::Func_2<int32_t, ::UnityEngine::Vector4>* getRenderingLayerColor;
+
+  /// @brief Field m_DefinedRenderingLayersCount, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefinedRenderingLayersCount, put = __cordl_internal_set_m_DefinedRenderingLayersCount)) int32_t m_DefinedRenderingLayersCount;
+
+  /// @brief Field m_RenderingLayersColors, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RenderingLayersColors,
+                      put = __cordl_internal_set_m_RenderingLayersColors)) ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* m_RenderingLayersColors;
+
+  /// @brief Field m_RenderingLayersNames, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RenderingLayersNames, put = __cordl_internal_set_m_RenderingLayersNames)) ::ArrayW<::StringW> m_RenderingLayersNames;
+
+  __declspec(property(get = get_maxRenderingLayerCount)) int32_t maxRenderingLayerCount;
+
+  __declspec(property(get = get_renderingLayersNames)) ::ArrayW<::StringW> renderingLayersNames;
+
+  /// @brief Field s_RenderingLayerColors, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_s_RenderingLayerColors, put = setStaticF_s_RenderingLayerColors)) ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip s_RenderingLayerColors;
+
+  __declspec(property(get = get_setRenderingLayerColor, put = set_setRenderingLayerColor)) ::System::Action_2<::UnityEngine::Vector4, int32_t>* setRenderingLayerColor;
+
+  /// @brief Convert operator to "::UnityEngine::Rendering::DebugUI_IContainer"
+  constexpr operator ::UnityEngine::Rendering::DebugUI_IContainer*() noexcept;
+
+  /// @brief Method GenerateQueryPath, addr 0x6b82908, size 0xc4, virtual true, abstract: false, final false
+  inline void GenerateQueryPath();
+
+  static inline ::UnityEngine::Rendering::DebugUI_RenderingLayerField* New_ctor();
+
+  /// @brief Method Resize, addr 0x6b822a8, size 0x4c8, virtual false, abstract: false, final false
+  inline void Resize();
+
+  constexpr ::System::Func_2<int32_t, ::UnityEngine::Vector4>* const& __cordl_internal_get__getRenderingLayerColor_k__BackingField() const;
+
+  constexpr ::System::Func_2<int32_t, ::UnityEngine::Vector4>*& __cordl_internal_get__getRenderingLayerColor_k__BackingField();
+
+  constexpr ::System::Action_2<::UnityEngine::Vector4, int32_t>* const& __cordl_internal_get__setRenderingLayerColor_k__BackingField() const;
+
+  constexpr ::System::Action_2<::UnityEngine::Vector4, int32_t>*& __cordl_internal_get__setRenderingLayerColor_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get_m_DefinedRenderingLayersCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_DefinedRenderingLayersCount();
+
+  constexpr ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* const& __cordl_internal_get_m_RenderingLayersColors() const;
+
+  constexpr ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*& __cordl_internal_get_m_RenderingLayersColors();
+
+  constexpr ::ArrayW<::StringW> const& __cordl_internal_get_m_RenderingLayersNames() const;
+
+  constexpr ::ArrayW<::StringW>& __cordl_internal_get_m_RenderingLayersNames();
+
+  constexpr void __cordl_internal_set__getRenderingLayerColor_k__BackingField(::System::Func_2<int32_t, ::UnityEngine::Vector4>* value);
+
+  constexpr void __cordl_internal_set__setRenderingLayerColor_k__BackingField(::System::Action_2<::UnityEngine::Vector4, int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_DefinedRenderingLayersCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_RenderingLayersColors(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
+
+  constexpr void __cordl_internal_set_m_RenderingLayersNames(::ArrayW<::StringW> value);
+
+  /// @brief Method .ctor, addr 0x6b829cc, size 0x118, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip getStaticF_s_RenderingLayerColors();
+
+  /// @brief Method get_children, addr 0x6b8285c, size 0x8c, virtual true, abstract: false, final true
+  inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_getRenderingLayerColor, addr 0x6b828e8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Func_2<int32_t, ::UnityEngine::Vector4>* get_getRenderingLayerColor();
+
+  /// @brief Method get_maxRenderingLayerCount, addr 0x6b8223c, size 0x6c, virtual false, abstract: false, final false
+  inline int32_t get_maxRenderingLayerCount();
+
+  /// @brief Method get_renderingLayersNames, addr 0x6b827d0, size 0x8c, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW> get_renderingLayersNames();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_setRenderingLayerColor, addr 0x6b828f8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Action_2<::UnityEngine::Vector4, int32_t>* get_setRenderingLayerColor();
+
+  /// @brief Convert to "::UnityEngine::Rendering::DebugUI_IContainer"
+  constexpr ::UnityEngine::Rendering::DebugUI_IContainer* i___UnityEngine__Rendering__DebugUI_IContainer() noexcept;
+
+  static inline void setStaticF_s_RenderingLayerColors(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_getRenderingLayerColor, addr 0x6b828f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_getRenderingLayerColor(::System::Func_2<int32_t, ::UnityEngine::Vector4>* value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_setRenderingLayerColor, addr 0x6b82900, size 0x8, virtual false, abstract: false, final false
+  inline void set_setRenderingLayerColor(::System::Action_2<::UnityEngine::Vector4, int32_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_RenderingLayerField();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_RenderingLayerField", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_RenderingLayerField(DebugUI_RenderingLayerField&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_RenderingLayerField", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_RenderingLayerField(DebugUI_RenderingLayerField const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8870 };
+
+  /// @brief Field m_RenderingLayersNames, offset: 0x68, size: 0x8, def value: None
+  ::ArrayW<::StringW> ___m_RenderingLayersNames;
+
+  /// @brief Field m_DefinedRenderingLayersCount, offset: 0x70, size: 0x4, def value: None
+  int32_t ___m_DefinedRenderingLayersCount;
+
+  /// @brief Field m_RenderingLayersColors, offset: 0x78, size: 0x8, def value: None
+  ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* ___m_RenderingLayersColors;
+
+  /// [CompilerGenerated]
+  /// @brief Field <getRenderingLayerColor>k__BackingField, offset: 0x80, size: 0x8, def value: None
+  ::System::Func_2<int32_t, ::UnityEngine::Vector4>* ____getRenderingLayerColor_k__BackingField;
+
+  /// [CompilerGenerated]
+  /// @brief Field <setRenderingLayerColor>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  ::System::Action_2<::UnityEngine::Vector4, int32_t>* ____setRenderingLayerColor_k__BackingField;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_RenderingLayerField, ___m_RenderingLayersNames) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_RenderingLayerField, ___m_DefinedRenderingLayersCount) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_RenderingLayerField, ___m_RenderingLayersColors) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_RenderingLayerField, ____getRenderingLayerColor_k__BackingField) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_RenderingLayerField, ____setRenderingLayerColor_k__BackingField) == 0x88, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_RenderingLayerField) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // [CompilerGenerated]
@@ -2201,7 +2173,7 @@ public:
   EnumField_1_DebugUI___c(EnumField_1_DebugUI___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8871 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2218,12 +2190,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::Rendering::EnumField_1_DebugUI___c<T>;
 
-  /// @brief Field enumNames, offset 0x60, size 0x8
+  /// @brief Field enumNames, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_enumNames, put = __cordl_internal_set_enumNames)) ::ArrayW<::UnityEngine::GUIContent*> enumNames;
 
   __declspec(property(get = get_enumValues, put = set_enumValues)) ::ArrayW<int32_t> enumValues;
 
-  /// @brief Field m_EnumValues, offset 0x68, size 0x8
+  /// @brief Field m_EnumValues, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EnumValues, put = __cordl_internal_set_m_EnumValues)) ::ArrayW<int32_t> m_EnumValues;
 
   /// @brief Field s_NicifyRegEx, offset 0xffffffff, size 0x8
@@ -2274,12 +2246,12 @@ public:
   DebugUI_EnumField_1(DebugUI_EnumField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8872 };
 
-  /// @brief Field enumNames, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field enumNames, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::GUIContent*> ___enumNames;
 
-  /// @brief Field m_EnumValues, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field m_EnumValues, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_EnumValues;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -2302,10 +2274,10 @@ public:
 
   static inline ::UnityEngine::Rendering::EnumField_DebugUI___c* New_ctor();
 
-  /// @brief Method <InitQuickSeparators>b__17_0, addr 0x676b674, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <InitQuickSeparators>b__17_0, addr 0x6b830dc, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW _InitQuickSeparators_b__17_0(::UnityEngine::GUIContent* x);
 
-  /// @brief Method .ctor, addr 0x676b670, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b830d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::EnumField_DebugUI___c* getStaticF___9();
@@ -2331,7 +2303,7 @@ public:
   EnumField_DebugUI___c(EnumField_DebugUI___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2348,10 +2320,10 @@ public:
   // Declarations
   using __c = ::UnityEngine::Rendering::EnumField_DebugUI___c;
 
-  /// @brief Field <getIndex>k__BackingField, offset 0x80, size 0x8
+  /// @brief Field <getIndex>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__getIndex_k__BackingField, put = __cordl_internal_set__getIndex_k__BackingField)) ::System::Func_1<int32_t>* _getIndex_k__BackingField;
 
-  /// @brief Field <setIndex>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <setIndex>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__setIndex_k__BackingField, put = __cordl_internal_set__setIndex_k__BackingField)) ::System::Action_1<int32_t>* _setIndex_k__BackingField;
 
   __declspec(property(put = set_autoEnum)) ::System::Type* autoEnum;
@@ -2362,20 +2334,20 @@ public:
 
   __declspec(property(get = get_indexes)) ::ArrayW<int32_t> indexes;
 
-  /// @brief Field m_Indexes, offset 0x78, size 0x8
+  /// @brief Field m_Indexes, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Indexes, put = __cordl_internal_set_m_Indexes)) ::ArrayW<int32_t> m_Indexes;
 
-  /// @brief Field quickSeparators, offset 0x70, size 0x8
+  /// @brief Field quickSeparators, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_quickSeparators, put = __cordl_internal_set_quickSeparators)) ::ArrayW<int32_t> quickSeparators;
 
   __declspec(property(get = get_setIndex, put = set_setIndex)) ::System::Action_1<int32_t>* setIndex;
 
-  /// @brief Method InitQuickSeparators, addr 0x676b29c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method InitQuickSeparators, addr 0x6b82d04, size 0x214, virtual false, abstract: false, final false
   inline void InitQuickSeparators();
 
   static inline ::UnityEngine::Rendering::DebugUI_EnumField* New_ctor();
 
-  /// @brief Method SetValue, addr 0x676b4b0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6b82f18, size 0x16c, virtual true, abstract: false, final false
   inline void SetValue(int32_t value);
 
   constexpr ::System::Func_1<int32_t>* const& __cordl_internal_get__getIndex_k__BackingField() const;
@@ -2402,35 +2374,35 @@ public:
 
   constexpr void __cordl_internal_set_quickSeparators(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x675d828, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b751bc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentIndex, addr 0x676b1f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_currentIndex, addr 0x6b82c60, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_currentIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_getIndex, addr 0x676b1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_getIndex, addr 0x6b82c40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<int32_t>* get_getIndex();
 
-  /// @brief Method get_indexes, addr 0x676b160, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_indexes, addr 0x6b82bc8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_indexes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_setIndex, addr 0x676b1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_setIndex, addr 0x6b82c50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<int32_t>* get_setIndex();
 
-  /// @brief Method set_autoEnum, addr 0x676b238, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_autoEnum, addr 0x6b82ca0, size 0x64, virtual false, abstract: false, final false
   inline void set_autoEnum(::System::Type* value);
 
-  /// @brief Method set_currentIndex, addr 0x676b218, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_currentIndex, addr 0x6b82c80, size 0x20, virtual false, abstract: false, final false
   inline void set_currentIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_getIndex, addr 0x676b1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_getIndex, addr 0x6b82c48, size 0x8, virtual false, abstract: false, final false
   inline void set_getIndex(::System::Func_1<int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_setIndex, addr 0x676b1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_setIndex, addr 0x6b82c58, size 0x8, virtual false, abstract: false, final false
   inline void set_setIndex(::System::Action_1<int32_t>* value);
 
 protected:
@@ -2448,34 +2420,34 @@ public:
   DebugUI_EnumField(DebugUI_EnumField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8874 };
 
-  /// @brief Field quickSeparators, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field quickSeparators, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<int32_t> ___quickSeparators;
 
-  /// @brief Field m_Indexes, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_Indexes, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_Indexes;
 
   /// [CompilerGenerated]
-  /// @brief Field <getIndex>k__BackingField, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field <getIndex>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_1<int32_t>* ____getIndex_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <setIndex>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <setIndex>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ____setIndex_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ___quickSeparators) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ___quickSeparators) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ___m_Indexes) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ___m_Indexes) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ____getIndex_k__BackingField) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ____getIndex_k__BackingField) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ____setIndex_k__BackingField) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_EnumField, ____setIndex_k__BackingField) == 0x90, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_EnumField) == 0x90, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_EnumField) == 0x98, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -2485,7 +2457,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_ObjectPopupField : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>> {
 public:
   // Declarations
-  /// @brief Field <getObjects>k__BackingField, offset 0x60, size 0x8
+  /// @brief Field <getObjects>k__BackingField, offset 0x68, size 0x8
   __declspec(property(
       get = __cordl_internal_get__getObjects_k__BackingField,
       put = __cordl_internal_set__getObjects_k__BackingField)) ::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* _getObjects_k__BackingField;
@@ -2500,15 +2472,15 @@ public:
 
   constexpr void __cordl_internal_set__getObjects_k__BackingField(::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* value);
 
-  /// @brief Method .ctor, addr 0x675db08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b83178, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_getObjects, addr 0x676b700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_getObjects, addr 0x6b83168, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* get_getObjects();
 
   /// [CompilerGenerated]
-  /// @brief Method set_getObjects, addr 0x676b708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_getObjects, addr 0x6b83170, size 0x8, virtual false, abstract: false, final false
   inline void set_getObjects(::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* value);
 
 protected:
@@ -2526,18 +2498,90 @@ public:
   DebugUI_ObjectPopupField(DebugUI_ObjectPopupField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8875 };
 
   /// [CompilerGenerated]
-  /// @brief Field <getObjects>k__BackingField, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field <getObjects>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::System::Func_1<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>* ____getObjects_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ObjectPopupField, ____getObjects_k__BackingField) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ObjectPopupField, ____getObjects_k__BackingField) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ObjectPopupField) == 0x68, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ObjectPopupField) == 0x70, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies UnityEngine.Camera, UnityEngine.Rendering.DebugUI::ObjectPopupField
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/CameraSelector
+class CORDL_TYPE DebugUI_CameraSelector : public ::UnityEngine::Rendering::DebugUI_ObjectPopupField {
+public:
+  // Declarations
+  __declspec(property(get = get_cameras)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* cameras;
+
+  /// @brief Field m_Cameras, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Cameras, put = __cordl_internal_set_m_Cameras)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* m_Cameras;
+
+  /// @brief Field m_CamerasArray, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CamerasArray, put = __cordl_internal_set_m_CamerasArray)) ::ArrayW<::UnityW<::UnityEngine::Camera>> m_CamerasArray;
+
+  static inline ::UnityEngine::Rendering::DebugUI_CameraSelector* New_ctor();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* const& __cordl_internal_get_m_Cameras() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*& __cordl_internal_get_m_Cameras();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>> const& __cordl_internal_get_m_CamerasArray() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>>& __cordl_internal_get_m_CamerasArray();
+
+  constexpr void __cordl_internal_set_m_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* value);
+
+  constexpr void __cordl_internal_set_m_CamerasArray(::ArrayW<::UnityW<::UnityEngine::Camera>> value);
+
+  /// [CompilerGenerated]
+  /// @brief Method <.ctor>b__0_0, addr 0x6b83414, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* __ctor_b__0_0();
+
+  /// @brief Method .ctor, addr 0x6b753c4, size 0x10c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_cameras, addr 0x6b831b4, size 0x260, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* get_cameras();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_CameraSelector();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_CameraSelector", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_CameraSelector(DebugUI_CameraSelector&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_CameraSelector", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_CameraSelector(DebugUI_CameraSelector const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8876 };
+
+  /// @brief Field m_CamerasArray, offset: 0x70, size: 0x8, def value: None
+  ::ArrayW<::UnityW<::UnityEngine::Camera>> ___m_CamerasArray;
+
+  /// @brief Field m_Cameras, offset: 0x78, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* ___m_Cameras;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_CameraSelector, ___m_CamerasArray) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_CameraSelector, ___m_Cameras) == 0x78, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_CameraSelector) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies System.Func`1<TResult>, UnityEngine.Rendering.DebugUI::EnumField
@@ -2547,7 +2591,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_HistoryEnumField : public ::UnityEngine::Rendering::DebugUI_EnumField {
 public:
   // Declarations
-  /// @brief Field <historyIndexGetter>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <historyIndexGetter>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__historyIndexGetter_k__BackingField, put = __cordl_internal_set__historyIndexGetter_k__BackingField)) ::ArrayW<::System::Func_1<int32_t>*>
       _historyIndexGetter_k__BackingField;
 
@@ -2555,7 +2599,7 @@ public:
 
   __declspec(property(get = get_historyIndexGetter, put = set_historyIndexGetter)) ::ArrayW<::System::Func_1<int32_t>*> historyIndexGetter;
 
-  /// @brief Method GetHistoryValue, addr 0x676b738, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryValue, addr 0x6b83440, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetHistoryValue(int32_t historyIndex);
 
   static inline ::UnityEngine::Rendering::DebugUI_HistoryEnumField* New_ctor();
@@ -2566,18 +2610,18 @@ public:
 
   constexpr void __cordl_internal_set__historyIndexGetter_k__BackingField(::ArrayW<::System::Func_1<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x676b778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b83480, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_historyDepth, addr 0x676b720, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_historyDepth, addr 0x6b83428, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_historyDepth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_historyIndexGetter, addr 0x676b710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_historyIndexGetter, addr 0x6b83418, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Func_1<int32_t>*> get_historyIndexGetter();
 
   /// [CompilerGenerated]
-  /// @brief Method set_historyIndexGetter, addr 0x676b718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_historyIndexGetter, addr 0x6b83420, size 0x8, virtual false, abstract: false, final false
   inline void set_historyIndexGetter(::ArrayW<::System::Func_1<int32_t>*> value);
 
 protected:
@@ -2595,18 +2639,18 @@ public:
   DebugUI_HistoryEnumField(DebugUI_HistoryEnumField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8877 };
 
   /// [CompilerGenerated]
-  /// @brief Field <historyIndexGetter>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <historyIndexGetter>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::System::Func_1<int32_t>*> ____historyIndexGetter_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_HistoryEnumField, ____historyIndexGetter_k__BackingField) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_HistoryEnumField, ____historyIndexGetter_k__BackingField) == 0x98, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_HistoryEnumField) == 0x98, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_HistoryEnumField) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::EnumField`1<T>
@@ -2618,7 +2662,7 @@ public:
   // Declarations
   __declspec(property(get = get_enumType, put = set_enumType)) ::System::Type* enumType;
 
-  /// @brief Field m_EnumType, offset 0x70, size 0x8
+  /// @brief Field m_EnumType, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EnumType, put = __cordl_internal_set_m_EnumType)) ::System::Type* m_EnumType;
 
   static inline ::UnityEngine::Rendering::DebugUI_BitField* New_ctor();
@@ -2629,13 +2673,13 @@ public:
 
   constexpr void __cordl_internal_set_m_EnumType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x676b7e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b834ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enumType, addr 0x676b77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enumType, addr 0x6b83484, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_enumType();
 
-  /// @brief Method set_enumType, addr 0x676b784, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_enumType, addr 0x6b8348c, size 0x60, virtual false, abstract: false, final false
   inline void set_enumType(::System::Type* value);
 
 protected:
@@ -2653,58 +2697,17 @@ public:
   DebugUI_BitField(DebugUI_BitField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8878 };
 
-  /// @brief Field m_EnumType, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field m_EnumType, offset: 0x78, size: 0x8, def value: None
   ::System::Type* ___m_EnumType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_BitField, ___m_EnumType) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_BitField, ___m_EnumType) == 0x78, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_BitField) == 0x78, "Size mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.DebugUI::EnumField`1<T>
-namespace UnityEngine::Rendering {
-// Is value type: false
-// CS Name: UnityEngine.Rendering.DebugUI/MaskField
-class CORDL_TYPE DebugUI_MaskField : public ::UnityEngine::Rendering::DebugUI_EnumField_1<uint32_t> {
-public:
-  // Declarations
-  /// @brief Method Fill, addr 0x676b850, size 0x434, virtual false, abstract: false, final false
-  inline void Fill(::ArrayW<::StringW> names);
-
-  static inline ::UnityEngine::Rendering::DebugUI_MaskField* New_ctor();
-
-  /// @brief Method SetValue, addr 0x676bc84, size 0xe8, virtual true, abstract: false, final false
-  inline void SetValue(uint32_t value);
-
-  /// @brief Method .ctor, addr 0x676bd6c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUI_MaskField();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUI_MaskField(DebugUI_MaskField&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUI_MaskField(DebugUI_MaskField const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_MaskField) == 0x70, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_BitField) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Color, UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -2714,27 +2717,27 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_ColorField : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Color> {
 public:
   // Declarations
-  /// @brief Field decimals, offset 0x6c, size 0x4
+  /// @brief Field decimals, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_decimals, put = __cordl_internal_set_decimals)) int32_t decimals;
 
-  /// @brief Field hdr, offset 0x60, size 0x1
+  /// @brief Field hdr, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_hdr, put = __cordl_internal_set_hdr)) bool hdr;
 
-  /// @brief Field incStep, offset 0x64, size 0x4
+  /// @brief Field incStep, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) float_t incStep;
 
-  /// @brief Field incStepMult, offset 0x68, size 0x4
+  /// @brief Field incStepMult, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_incStepMult, put = __cordl_internal_set_incStepMult)) float_t incStepMult;
 
-  /// @brief Field showAlpha, offset 0x61, size 0x1
+  /// @brief Field showAlpha, offset 0x69, size 0x1
   __declspec(property(get = __cordl_internal_get_showAlpha, put = __cordl_internal_set_showAlpha)) bool showAlpha;
 
-  /// @brief Field showPicker, offset 0x62, size 0x1
+  /// @brief Field showPicker, offset 0x6a, size 0x1
   __declspec(property(get = __cordl_internal_get_showPicker, put = __cordl_internal_set_showPicker)) bool showPicker;
 
   static inline ::UnityEngine::Rendering::DebugUI_ColorField* New_ctor();
 
-  /// @brief Method ValidateValue, addr 0x676bdd8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ValidateValue, addr 0x6b83558, size 0x58, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ValidateValue(::UnityEngine::Color value);
 
   constexpr int32_t const& __cordl_internal_get_decimals() const;
@@ -2773,7 +2776,7 @@ public:
 
   constexpr void __cordl_internal_set_showPicker(bool value);
 
-  /// @brief Method .ctor, addr 0x676be30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b82774, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2791,42 +2794,42 @@ public:
   DebugUI_ColorField(DebugUI_ColorField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8879 };
 
-  /// @brief Field hdr, offset: 0x60, size: 0x1, def value: None
+  /// @brief Field hdr, offset: 0x68, size: 0x1, def value: None
   bool ___hdr;
 
-  /// @brief Field showAlpha, offset: 0x61, size: 0x1, def value: None
+  /// @brief Field showAlpha, offset: 0x69, size: 0x1, def value: None
   bool ___showAlpha;
 
-  /// @brief Field showPicker, offset: 0x62, size: 0x1, def value: None
+  /// @brief Field showPicker, offset: 0x6a, size: 0x1, def value: None
   bool ___showPicker;
 
-  /// @brief Field incStep, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x6c, size: 0x4, def value: None
   float_t ___incStep;
 
-  /// @brief Field incStepMult, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field incStepMult, offset: 0x70, size: 0x4, def value: None
   float_t ___incStepMult;
 
-  /// @brief Field decimals, offset: 0x6c, size: 0x4, def value: None
+  /// @brief Field decimals, offset: 0x74, size: 0x4, def value: None
   int32_t ___decimals;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___hdr) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___hdr) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___showAlpha) == 0x61, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___showAlpha) == 0x69, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___showPicker) == 0x62, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___showPicker) == 0x6a, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___incStep) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___incStep) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___incStepMult) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___incStepMult) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___decimals) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ColorField, ___decimals) == 0x74, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ColorField) == 0x70, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ColorField) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>, UnityEngine.Vector2
@@ -2836,13 +2839,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_Vector2Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector2> {
 public:
   // Declarations
-  /// @brief Field decimals, offset 0x68, size 0x4
+  /// @brief Field decimals, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_decimals, put = __cordl_internal_set_decimals)) int32_t decimals;
 
-  /// @brief Field incStep, offset 0x60, size 0x4
+  /// @brief Field incStep, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) float_t incStep;
 
-  /// @brief Field incStepMult, offset 0x64, size 0x4
+  /// @brief Field incStepMult, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_incStepMult, put = __cordl_internal_set_incStepMult)) float_t incStepMult;
 
   static inline ::UnityEngine::Rendering::DebugUI_Vector2Field* New_ctor();
@@ -2865,7 +2868,7 @@ public:
 
   constexpr void __cordl_internal_set_incStepMult(float_t value);
 
-  /// @brief Method .ctor, addr 0x676be8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b835b0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2883,27 +2886,27 @@ public:
   DebugUI_Vector2Field(DebugUI_Vector2Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8880 };
 
-  /// @brief Field incStep, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x68, size: 0x4, def value: None
   float_t ___incStep;
 
-  /// @brief Field incStepMult, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field incStepMult, offset: 0x6c, size: 0x4, def value: None
   float_t ___incStepMult;
 
-  /// @brief Field decimals, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field decimals, offset: 0x70, size: 0x4, def value: None
   int32_t ___decimals;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector2Field, ___incStep) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector2Field, ___incStep) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector2Field, ___incStepMult) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector2Field, ___incStepMult) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector2Field, ___decimals) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector2Field, ___decimals) == 0x70, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Vector2Field) == 0x70, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Vector2Field) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>, UnityEngine.Vector3
@@ -2913,13 +2916,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_Vector3Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Field decimals, offset 0x68, size 0x4
+  /// @brief Field decimals, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_decimals, put = __cordl_internal_set_decimals)) int32_t decimals;
 
-  /// @brief Field incStep, offset 0x60, size 0x4
+  /// @brief Field incStep, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) float_t incStep;
 
-  /// @brief Field incStepMult, offset 0x64, size 0x4
+  /// @brief Field incStepMult, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_incStepMult, put = __cordl_internal_set_incStepMult)) float_t incStepMult;
 
   static inline ::UnityEngine::Rendering::DebugUI_Vector3Field* New_ctor();
@@ -2942,7 +2945,7 @@ public:
 
   constexpr void __cordl_internal_set_incStepMult(float_t value);
 
-  /// @brief Method .ctor, addr 0x676bee0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b83604, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2960,27 +2963,27 @@ public:
   DebugUI_Vector3Field(DebugUI_Vector3Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8881 };
 
-  /// @brief Field incStep, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x68, size: 0x4, def value: None
   float_t ___incStep;
 
-  /// @brief Field incStepMult, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field incStepMult, offset: 0x6c, size: 0x4, def value: None
   float_t ___incStepMult;
 
-  /// @brief Field decimals, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field decimals, offset: 0x70, size: 0x4, def value: None
   int32_t ___decimals;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector3Field, ___incStep) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector3Field, ___incStep) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector3Field, ___incStepMult) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector3Field, ___incStepMult) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector3Field, ___decimals) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector3Field, ___decimals) == 0x70, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Vector3Field) == 0x70, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Vector3Field) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>, UnityEngine.Vector4
@@ -2990,13 +2993,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_Vector4Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector4> {
 public:
   // Declarations
-  /// @brief Field decimals, offset 0x68, size 0x4
+  /// @brief Field decimals, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_decimals, put = __cordl_internal_set_decimals)) int32_t decimals;
 
-  /// @brief Field incStep, offset 0x60, size 0x4
+  /// @brief Field incStep, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_incStep, put = __cordl_internal_set_incStep)) float_t incStep;
 
-  /// @brief Field incStepMult, offset 0x64, size 0x4
+  /// @brief Field incStepMult, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_incStepMult, put = __cordl_internal_set_incStepMult)) float_t incStepMult;
 
   static inline ::UnityEngine::Rendering::DebugUI_Vector4Field* New_ctor();
@@ -3019,7 +3022,7 @@ public:
 
   constexpr void __cordl_internal_set_incStepMult(float_t value);
 
-  /// @brief Method .ctor, addr 0x676bf34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b83658, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3037,27 +3040,27 @@ public:
   DebugUI_Vector4Field(DebugUI_Vector4Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8882 };
 
-  /// @brief Field incStep, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field incStep, offset: 0x68, size: 0x4, def value: None
   float_t ___incStep;
 
-  /// @brief Field incStepMult, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field incStepMult, offset: 0x6c, size: 0x4, def value: None
   float_t ___incStepMult;
 
-  /// @brief Field decimals, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field decimals, offset: 0x70, size: 0x4, def value: None
   int32_t ___decimals;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector4Field, ___incStep) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector4Field, ___incStep) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector4Field, ___incStepMult) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector4Field, ___incStepMult) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector4Field, ___decimals) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Vector4Field, ___decimals) == 0x70, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Vector4Field) == 0x70, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Vector4Field) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -3067,7 +3070,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_ObjectField : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>> {
 public:
   // Declarations
-  /// @brief Field type, offset 0x60, size 0x8
+  /// @brief Field type, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   static inline ::UnityEngine::Rendering::DebugUI_ObjectField* New_ctor();
@@ -3078,7 +3081,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x675f9f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b77048, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3096,17 +3099,17 @@ public:
   DebugUI_ObjectField(DebugUI_ObjectField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8883 };
 
-  /// @brief Field type, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field type, offset: 0x68, size: 0x8, def value: None
   ::System::Type* ___type;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ObjectField, ___type) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ObjectField, ___type) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ObjectField) == 0x68, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ObjectField) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies UnityEngine.Rendering.DebugUI::Field`1<T>
@@ -3116,7 +3119,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DebugUI_ObjectListField : public ::UnityEngine::Rendering::DebugUI_Field_1<::ArrayW<::UnityW<::UnityEngine::Object>>> {
 public:
   // Declarations
-  /// @brief Field type, offset 0x60, size 0x8
+  /// @brief Field type, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   static inline ::UnityEngine::Rendering::DebugUI_ObjectListField* New_ctor();
@@ -3127,7 +3130,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x676bf88, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b836ac, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3145,17 +3148,17 @@ public:
   DebugUI_ObjectListField(DebugUI_ObjectListField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8884 };
 
-  /// @brief Field type, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field type, offset: 0x68, size: 0x8, def value: None
   ::System::Type* ___type;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ObjectListField, ___type) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ObjectListField, ___type) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ObjectListField) == 0x68, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ObjectListField) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // Dependencies
@@ -3201,7 +3204,7 @@ public:
   static ::UnityEngine::Rendering::MessageBox_DebugUI_Style const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -3228,10 +3231,10 @@ public:
 
   __declspec(property(get = get_message)) ::StringW message;
 
-  /// @brief Field messageCallback, offset 0x50, size 0x8
+  /// @brief Field messageCallback, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_messageCallback, put = __cordl_internal_set_messageCallback)) ::System::Func_1<::StringW>* messageCallback;
 
-  /// @brief Field style, offset 0x48, size 0x4
+  /// @brief Field style, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_style, put = __cordl_internal_set_style)) ::UnityEngine::Rendering::MessageBox_DebugUI_Style style;
 
   static inline ::UnityEngine::Rendering::DebugUI_MessageBox* New_ctor();
@@ -3248,10 +3251,10 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::Rendering::MessageBox_DebugUI_Style value);
 
-  /// @brief Method .ctor, addr 0x676c028, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b7781c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_message, addr 0x676c008, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_message, addr 0x6b8372c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
 protected:
@@ -3269,22 +3272,22 @@ public:
   DebugUI_MessageBox(DebugUI_MessageBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8886 };
 
-  /// @brief Field style, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field style, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::Rendering::MessageBox_DebugUI_Style ___style;
 
-  /// @brief Field messageCallback, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field messageCallback, offset: 0x58, size: 0x8, def value: None
   ::System::Func_1<::StringW>* ___messageCallback;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_MessageBox, ___style) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_MessageBox, ___style) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::DebugUI_MessageBox, ___messageCallback) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_MessageBox, ___messageCallback) == 0x58, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_MessageBox) == 0x58, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_MessageBox) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // [CompilerGenerated]
@@ -3303,10 +3306,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x676c18c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6b838ac, size 0x9c, virtual false, abstract: false, final false
   inline bool __ctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x676c188, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b838a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RuntimeDebugShadersMessageBox_DebugUI___c* getStaticF___9();
@@ -3332,7 +3335,7 @@ public:
   RuntimeDebugShadersMessageBox_DebugUI___c(RuntimeDebugShadersMessageBox_DebugUI___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3351,7 +3354,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox* New_ctor();
 
-  /// @brief Method .ctor, addr 0x676c02c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8374c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3369,12 +3372,12 @@ public:
   DebugUI_RuntimeDebugShadersMessageBox(DebugUI_RuntimeDebugShadersMessageBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox) == 0x58, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 // [CompilerGenerated]
@@ -3389,23 +3392,33 @@ public:
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Panel_DebugUI___c* __9;
 
   /// @brief Field <>9__29_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__29_0, put = setStaticF___9__29_0)) ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* __9__29_0;
+  __declspec(property(get = getStaticF___9__29_0, put = setStaticF___9__29_0)) ::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>* __9__29_0;
+
+  /// @brief Field <>9__29_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__29_1, put = setStaticF___9__29_1)) ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* __9__29_1;
 
   static inline ::UnityEngine::Rendering::Panel_DebugUI___c* New_ctor();
 
-  /// @brief Method <.ctor>b__29_0, addr 0x676c534, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__29_0(::UnityEngine::Rendering::DebugUI_Panel* _p0_);
+  /// @brief Method <.ctor>b__29_0, addr 0x6b83c4c, size 0x2c, virtual false, abstract: false, final false
+  inline int32_t __ctor_b__29_0(::UnityEngine::Rendering::DebugUI_Widget* widget, ::UnityEngine::Rendering::DebugUI_Widget* widget1);
 
-  /// @brief Method .ctor, addr 0x676c530, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__29_1, addr 0x6b83c78, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__29_1(::UnityEngine::Rendering::DebugUI_Panel* _p0_);
+
+  /// @brief Method .ctor, addr 0x6b83c48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Panel_DebugUI___c* getStaticF___9();
 
-  static inline ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* getStaticF___9__29_0();
+  static inline ::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>* getStaticF___9__29_0();
+
+  static inline ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* getStaticF___9__29_1();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Panel_DebugUI___c* value);
 
-  static inline void setStaticF___9__29_0(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
+  static inline void setStaticF___9__29_0(::System::Comparison_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
+
+  static inline void setStaticF___9__29_1(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -3422,7 +3435,7 @@ public:
   Panel_DebugUI___c(Panel_DebugUI___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3479,23 +3492,23 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::DebugUI_IContainer"
   constexpr operator ::UnityEngine::Rendering::DebugUI_IContainer*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x676c3d0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b83af0, size 0xe0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::DebugUI_Panel* New_ctor();
 
-  /// @brief Method OnItemAdded, addr 0x676c320, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnItemAdded, addr 0x6b83a40, size 0x58, virtual true, abstract: false, final false
   inline void OnItemAdded(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* sender,
                           ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>* e);
 
-  /// @brief Method OnItemRemoved, addr 0x676c378, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnItemRemoved, addr 0x6b83a98, size 0x58, virtual true, abstract: false, final false
   inline void OnItemRemoved(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* sender,
                             ::UnityEngine::Rendering::ListChangedEventArgs_1<::UnityEngine::Rendering::DebugUI_Widget*>* e);
 
-  /// @brief Method SetDirty, addr 0x676a024, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6b81480, size 0xcc, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method System.IComparable<UnityEngine.Rendering.DebugUI.Panel>.CompareTo, addr 0x676c4b8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable<UnityEngine.Rendering.DebugUI.Panel>.CompareTo, addr 0x6b83bd0, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_IComparable_UnityEngine_Rendering_DebugUI_Panel__CompareTo(::UnityEngine::Rendering::DebugUI_Panel* other);
 
   constexpr ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* const& __cordl_internal_get__children_k__BackingField() const;
@@ -3528,42 +3541,42 @@ public:
 
   constexpr void __cordl_internal_set_onSetDirty(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
 
-  /// @brief Method .ctor, addr 0x6765eb8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b7d998, size 0x274, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_onSetDirty, addr 0x67660a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onSetDirty, addr 0x6b7dc0c, size 0xc0, virtual false, abstract: false, final false
   inline void add_onSetDirty(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_children, addr 0x676c310, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_children, addr 0x6b83a30, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x676c238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_displayName, addr 0x6b83958, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
-  /// @brief Method get_editorForceUpdate, addr 0x676c304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_editorForceUpdate, addr 0x6b83a24, size 0xc, virtual false, abstract: false, final false
   inline bool get_editorForceUpdate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_flags, addr 0x676c228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x6b83948, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_flags();
 
   /// [CompilerGenerated]
-  /// @brief Method get_groupIndex, addr 0x676c248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIndex, addr 0x6b83968, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupIndex();
 
-  /// @brief Method get_isEditorOnly, addr 0x676c260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isEditorOnly, addr 0x6b83980, size 0xc, virtual false, abstract: false, final false
   inline bool get_isEditorOnly();
 
-  /// @brief Method get_isInactiveInEditor, addr 0x676c278, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_isInactiveInEditor, addr 0x6b83998, size 0x8c, virtual false, abstract: false, final false
   inline bool get_isInactiveInEditor();
 
-  /// @brief Method get_isRuntimeOnly, addr 0x676c26c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isRuntimeOnly, addr 0x6b8398c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isRuntimeOnly();
 
-  /// @brief Method get_queryPath, addr 0x676c258, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_queryPath, addr 0x6b83978, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_queryPath();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::Rendering::DebugUI_Panel*>"
@@ -3573,23 +3586,23 @@ public:
   constexpr ::UnityEngine::Rendering::DebugUI_IContainer* i___UnityEngine__Rendering__DebugUI_IContainer() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onSetDirty, addr 0x6765d78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onSetDirty, addr 0x6b7d858, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onSetDirty(::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_children, addr 0x676c318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_children, addr 0x6b83a38, size 0x8, virtual false, abstract: false, final false
   inline void set_children(::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x676c240, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_displayName, addr 0x6b83960, size 0x8, virtual true, abstract: false, final true
   inline void set_displayName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_flags, addr 0x676c230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x6b83950, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Rendering::DebugUI_Flags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_groupIndex, addr 0x676c250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_groupIndex, addr 0x6b83970, size 0x8, virtual false, abstract: false, final false
   inline void set_groupIndex(int32_t value);
 
 protected:
@@ -3607,7 +3620,7 @@ public:
   DebugUI_Panel(DebugUI_Panel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8890 };
 
   /// [CompilerGenerated]
   /// @brief Field <flags>k__BackingField, offset: 0x10, size: 0x4, def value: None
@@ -3645,6 +3658,408 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Panel, ___onSetDirty) =
 static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Panel) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// Dependencies
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/IContainer
+class CORDL_TYPE DebugUI_IContainer {
+public:
+  // Declarations
+  __declspec(property(get = get_children)) ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children;
+
+  __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
+
+  __declspec(property(get = get_queryPath)) ::StringW queryPath;
+
+  /// @brief Method get_children, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* get_children();
+
+  /// @brief Method get_displayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_displayName();
+
+  /// @brief Method get_queryPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_queryPath();
+
+  /// @brief Method set_displayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_displayName(::StringW value);
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IContainer", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_IContainer(DebugUI_IContainer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8894 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::Rendering
+// Dependencies
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/IValueField
+class CORDL_TYPE DebugUI_IValueField {
+public:
+  // Declarations
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* GetValue();
+
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetValue(::System::Object* value);
+
+  /// @brief Method ValidateValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* ValidateValue(::System::Object* value);
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_IValueField", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_IValueField(DebugUI_IValueField const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8895 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::Rendering
+// Dependencies UnityEngine.Rendering.DebugUI::Widget
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/Button
+class CORDL_TYPE DebugUI_Button : public ::UnityEngine::Rendering::DebugUI_Widget {
+public:
+  // Declarations
+  /// @brief Field <action>k__BackingField, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__action_k__BackingField, put = __cordl_internal_set__action_k__BackingField)) ::System::Action* _action_k__BackingField;
+
+  __declspec(property(get = get_action, put = set_action)) ::System::Action* action;
+
+  static inline ::UnityEngine::Rendering::DebugUI_Button* New_ctor();
+
+  constexpr ::System::Action* const& __cordl_internal_get__action_k__BackingField() const;
+
+  constexpr ::System::Action*& __cordl_internal_get__action_k__BackingField();
+
+  constexpr void __cordl_internal_set__action_k__BackingField(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x6b83e10, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_action, addr 0x6b83e00, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Action* get_action();
+
+  /// [CompilerGenerated]
+  /// @brief Method set_action, addr 0x6b83e08, size 0x8, virtual false, abstract: false, final false
+  inline void set_action(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_Button();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_Button(DebugUI_Button&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Button", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_Button(DebugUI_Button const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8896 };
+
+  /// [CompilerGenerated]
+  /// @brief Field <action>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  ::System::Action* ____action_k__BackingField;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Button, ____action_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Button) == 0x58, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies UnityEngine.Rendering.DebugUI::Widget
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/Value
+class CORDL_TYPE DebugUI_Value : public ::UnityEngine::Rendering::DebugUI_Widget {
+public:
+  // Declarations
+  /// @brief Field <getter>k__BackingField, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__getter_k__BackingField, put = __cordl_internal_set__getter_k__BackingField)) ::System::Func_1<::System::Object*>* _getter_k__BackingField;
+
+  /// @brief Field formatString, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_formatString, put = __cordl_internal_set_formatString)) ::StringW formatString;
+
+  __declspec(property(get = get_getter, put = set_getter)) ::System::Func_1<::System::Object*>* getter;
+
+  /// @brief Field refreshRate, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_refreshRate, put = __cordl_internal_set_refreshRate)) float_t refreshRate;
+
+  /// @brief Method FormatString, addr 0x6b83e44, size 0x9c, virtual true, abstract: false, final false
+  inline ::StringW FormatString(::System::Object* value);
+
+  /// @brief Method GetValue, addr 0x6b83e24, size 0x20, virtual true, abstract: false, final false
+  inline ::System::Object* GetValue();
+
+  static inline ::UnityEngine::Rendering::DebugUI_Value* New_ctor();
+
+  constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get__getter_k__BackingField() const;
+
+  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get__getter_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get_formatString() const;
+
+  constexpr ::StringW& __cordl_internal_get_formatString();
+
+  constexpr float_t const& __cordl_internal_get_refreshRate() const;
+
+  constexpr float_t& __cordl_internal_get_refreshRate();
+
+  constexpr void __cordl_internal_set__getter_k__BackingField(::System::Func_1<::System::Object*>* value);
+
+  constexpr void __cordl_internal_set_formatString(::StringW value);
+
+  constexpr void __cordl_internal_set_refreshRate(float_t value);
+
+  /// @brief Method .ctor, addr 0x6b7162c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_getter, addr 0x6b83e14, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Func_1<::System::Object*>* get_getter();
+
+  /// [CompilerGenerated]
+  /// @brief Method set_getter, addr 0x6b83e1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_getter(::System::Func_1<::System::Object*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_Value();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_Value(DebugUI_Value&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_Value", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_Value(DebugUI_Value const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8897 };
+
+  /// [CompilerGenerated]
+  /// @brief Field <getter>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  ::System::Func_1<::System::Object*>* ____getter_k__BackingField;
+
+  /// @brief Field refreshRate, offset: 0x58, size: 0x4, def value: None
+  float_t ___refreshRate;
+
+  /// @brief Field formatString, offset: 0x60, size: 0x8, def value: None
+  ::StringW ___formatString;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Value, ____getter_k__BackingField) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Value, ___refreshRate) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_Value, ___formatString) == 0x60, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_Value) == 0x68, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies UnityEngine.Rendering.DebugUI::Value
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/ProgressBarValue
+class CORDL_TYPE DebugUI_ProgressBarValue : public ::UnityEngine::Rendering::DebugUI_Value {
+public:
+  // Declarations
+  /// @brief Field max, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
+
+  /// @brief Field min, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
+
+  /// @brief Method FormatString, addr 0x6b83ee0, size 0xf0, virtual true, abstract: false, final false
+  inline ::StringW FormatString(::System::Object* value);
+
+  static inline ::UnityEngine::Rendering::DebugUI_ProgressBarValue* New_ctor();
+
+  /// [CompilerGenerated]
+  /// @brief Method <FormatString>g__Remap01|2_0, addr 0x6b83fd0, size 0x10, virtual false, abstract: false, final false
+  static inline float_t _FormatString_g__Remap01_2_0(float_t v, float_t x0, float_t y0);
+
+  constexpr float_t const& __cordl_internal_get_max() const;
+
+  constexpr float_t& __cordl_internal_get_max();
+
+  constexpr float_t const& __cordl_internal_get_min() const;
+
+  constexpr float_t& __cordl_internal_get_min();
+
+  constexpr void __cordl_internal_set_max(float_t value);
+
+  constexpr void __cordl_internal_set_min(float_t value);
+
+  /// @brief Method .ctor, addr 0x6b79dfc, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_ProgressBarValue();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_ProgressBarValue(DebugUI_ProgressBarValue&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ProgressBarValue", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_ProgressBarValue(DebugUI_ProgressBarValue const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8898 };
+
+  /// @brief Field min, offset: 0x68, size: 0x4, def value: None
+  float_t ___min;
+
+  /// @brief Field max, offset: 0x6c, size: 0x4, def value: None
+  float_t ___max;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ProgressBarValue, ___min) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ProgressBarValue, ___max) == 0x6c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ProgressBarValue) == 0x70, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Dependencies UnityEngine.Rendering.DebugUI::Value, UnityEngine.Rendering.DebugUI::Widget
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/ValueTuple
+class CORDL_TYPE DebugUI_ValueTuple : public ::UnityEngine::Rendering::DebugUI_Widget {
+public:
+  // Declarations
+  __declspec(property(get = get_numElements)) int32_t numElements;
+
+  /// @brief Field pinnedElementIndex, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_pinnedElementIndex, put = __cordl_internal_set_pinnedElementIndex)) int32_t pinnedElementIndex;
+
+  __declspec(property(get = get_refreshRate)) float_t refreshRate;
+
+  /// @brief Field values, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> values;
+
+  static inline ::UnityEngine::Rendering::DebugUI_ValueTuple* New_ctor();
+
+  constexpr int32_t const& __cordl_internal_get_pinnedElementIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_pinnedElementIndex();
+
+  constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> const& __cordl_internal_get_values() const;
+
+  constexpr ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*>& __cordl_internal_get_values();
+
+  constexpr void __cordl_internal_set_pinnedElementIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_values(::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> value);
+
+  /// @brief Method .ctor, addr 0x6b79df0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_numElements, addr 0x6b83fe0, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_numElements();
+
+  /// @brief Method get_refreshRate, addr 0x6b83ff8, size 0x64, virtual false, abstract: false, final false
+  inline float_t get_refreshRate();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_ValueTuple();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_ValueTuple(DebugUI_ValueTuple&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_ValueTuple", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_ValueTuple(DebugUI_ValueTuple const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8899 };
+
+  /// @brief Field values, offset: 0x50, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Rendering::DebugUI_Value*> ___values;
+
+  /// @brief Field pinnedElementIndex, offset: 0x58, size: 0x4, def value: None
+  int32_t ___pinnedElementIndex;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ValueTuple, ___values) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DebugUI_ValueTuple, ___pinnedElementIndex) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_ValueTuple) == 0x60, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+// [Obsolete("Mask field is not longer supported. Please use a BitField or implement your own Widget. #from(6000.2)")]
+// Dependencies UnityEngine.Rendering.DebugUI::EnumField`1<T>
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.DebugUI/MaskField
+class CORDL_TYPE DebugUI_MaskField : public ::UnityEngine::Rendering::DebugUI_EnumField_1<uint32_t> {
+public:
+  // Declarations
+  /// @brief Method Fill, addr 0x6b8405c, size 0x434, virtual false, abstract: false, final false
+  inline void Fill(::ArrayW<::StringW> names);
+
+  static inline ::UnityEngine::Rendering::DebugUI_MaskField* New_ctor();
+
+  /// @brief Method SetValue, addr 0x6b84490, size 0xe8, virtual true, abstract: false, final false
+  inline void SetValue(uint32_t value);
+
+  /// @brief Method .ctor, addr 0x6b84578, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebugUI_MaskField();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DebugUI_MaskField(DebugUI_MaskField&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUI_MaskField", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DebugUI_MaskField(DebugUI_MaskField const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8900 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::DebugUI_MaskField) == 0x78, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -3657,6 +4072,8 @@ public:
   using BoolField = ::UnityEngine::Rendering::DebugUI_BoolField;
 
   using Button = ::UnityEngine::Rendering::DebugUI_Button;
+
+  using CameraSelector = ::UnityEngine::Rendering::DebugUI_CameraSelector;
 
   using ColorField = ::UnityEngine::Rendering::DebugUI_ColorField;
 
@@ -3700,6 +4117,8 @@ public:
 
   using ProgressBarValue = ::UnityEngine::Rendering::DebugUI_ProgressBarValue;
 
+  using RenderingLayerField = ::UnityEngine::Rendering::DebugUI_RenderingLayerField;
+
   using RuntimeDebugShadersMessageBox = ::UnityEngine::Rendering::DebugUI_RuntimeDebugShadersMessageBox;
 
   using Table = ::UnityEngine::Rendering::DebugUI_Table;
@@ -3722,7 +4141,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugUI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x676996c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b80dd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3740,7 +4159,7 @@ public:
   DebugUI(DebugUI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,13 +49,13 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x69e1f9c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6e1f588, size 0x158, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x69e1e18, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e1f404, size 0x184, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnOutputEventRecieved, addr 0x69e20f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnOutputEventRecieved, addr 0x6e1f6e0, size 0xd4, virtual false, abstract: false, final false
   inline void OnOutputEventRecieved(::UnityEngine::VFX::VFXOutputEventArgs args);
 
   /// @brief Method OnVFXOutputEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -79,18 +79,18 @@ public:
 
   constexpr void __cordl_internal_set_outputEvent(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e21c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e1f7b4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_canExecuteInEditor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_canExecuteInEditor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_m_VisualEffect, addr 0x69e1e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_VisualEffect, addr 0x6e1f3fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::VFX::VisualEffect> get_m_VisualEffect();
 
   /// [CompilerGenerated]
-  /// @brief Method set_m_VisualEffect, addr 0x69e1e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_VisualEffect, addr 0x6e1f3f4, size 0x8, virtual false, abstract: false, final false
   inline void set_m_VisualEffect(::UnityEngine::VFX::VisualEffect* value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   VFXOutputEventAbstractHandler(VFXOutputEventAbstractHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20248 };
 
   /// @brief Field executeInEditor, offset: 0x20, size: 0x1, def value: None
   bool ___executeInEditor;

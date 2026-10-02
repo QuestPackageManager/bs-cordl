@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance_InputProperties::*)()>(&::UnityEngine::VFX::SpawnOverDistance_InputProperties::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69d21cc;
+  constexpr static std::size_t addrs = 0x6e0f35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SpawnOverDistance_InputProperties*>(), { ".ctor", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                        ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SpawnOverDistance::OnPlay)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69d1d38;
+  constexpr static std::size_t addrs = 0x6e0eec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                        ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SpawnOverDistance::OnUpdate)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x69d1dc0;
+  constexpr static std::size_t addrs = 0x6e0ef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                        ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SpawnOverDistance::OnStop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d204c;
+  constexpr static std::size_t addrs = 0x6e0f1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)()>(&::UnityEngine::VFX::SpawnOverDistance::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d2050;
+  constexpr static std::size_t addrs = 0x6e0f1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SpawnOverDistance*>(), { ".ctor", {}, {} })));

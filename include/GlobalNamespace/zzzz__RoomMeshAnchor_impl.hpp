@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshCountsJob::*)()>(&::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshCountsJob::Execute)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a32040;
+  constexpr static std::size_t addrs = 0x5e498dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshCountsJob>(), { "Execute", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshJob::*)()>(&::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshJob::Execute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a320dc;
+  constexpr static std::size_t addrs = 0x5e49978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshJob>(), { "Execute", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob::*)()>(&::GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob::Execute)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x5a3215c;
+  constexpr static std::size_t addrs = 0x5e499f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob>(), { "Execute", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor_BakeMeshJob::*)()>(&::GlobalNamespace::RoomMeshAnchor_BakeMeshJob::Execute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a3239c;
+  constexpr static std::size_t addrs = 0x5e49c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor_BakeMeshJob>(), { "Execute", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)(int32_t)>(
     &::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a31c98;
+  constexpr static std::size_t addrs = 0x5e49528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)()>(
     &::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a32408;
+  constexpr static std::size_t addrs = 0x5e49ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)()>(&::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x61c;
-  constexpr static std::size_t addrs = 0x5a32424;
+  constexpr static std::size_t addrs = 0x5e49cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15*>(), { "MoveNext", {}, {} })));
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)()>(
     &::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::__m__Finally1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a32a40;
+  constexpr static std::size_t addrs = 0x5e4a2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)()>(
     &::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a32a94;
+  constexpr static std::size_t addrs = 0x5e4a330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15*>(),
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)()>(
     &::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a32a9c;
+  constexpr static std::size_t addrs = 0x5e4a338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::*)()>(
     &::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a32ad4;
+  constexpr static std::size_t addrs = 0x5e4a370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor__Initialize_d__14::*)()>(&::GlobalNamespace::RoomMeshAnchor__Initialize_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x5a32adc;
+  constexpr static std::size_t addrs = 0x5e4a378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__Initialize_d__14>(), { "MoveNext", {}, {} })));
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor__Initialize_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::RoomMeshAnchor__Initialize_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a33078;
+  constexpr static std::size_t addrs = 0x5e4a914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__Initialize_d__14>(),
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a31a14;
+  constexpr static std::size_t addrs = 0x5e492a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "get_IsCompleted", {}, {} })));
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor::*)(bool)>(&::GlobalNamespace::RoomMeshAnchor::set_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a31a1c;
+  constexpr static std::size_t addrs = 0x5e492ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::get_Valid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a31a24;
+  constexpr static std::size_t addrs = 0x5e492b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "get_Valid", {}, {} })));
@@ -561,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::Awake)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5a31a84;
+  constexpr static std::size_t addrs = 0x5e49314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "Awake", {}, {} })));
@@ -573,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::RoomMeshAnchor::Initialize)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a31b80;
+  constexpr static std::size_t addrs = 0x5e49410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::GenerateRoomMesh)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a31c44;
+  constexpr static std::size_t addrs = 0x5e494d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "GenerateRoomMesh", {}, {} })));
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::TryUpdateTransform)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5a31ca0;
+  constexpr static std::size_t addrs = 0x5e49530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "TryUpdateTransform", {}, {} })));
@@ -610,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::OnDestroy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a31ef0;
+  constexpr static std::size_t addrs = 0x5e49780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "OnDestroy", {}, {} })));
@@ -622,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Jobs::JobHandle)>(&::GlobalNamespace::RoomMeshAnchor::IsJobDone)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a31f50;
+  constexpr static std::size_t addrs = 0x5e497e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -635,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomMeshAnchor::*)()>(&::GlobalNamespace::RoomMeshAnchor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a31fd4;
+  constexpr static std::size_t addrs = 0x5e49864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { ".ctor", {}, {} })));

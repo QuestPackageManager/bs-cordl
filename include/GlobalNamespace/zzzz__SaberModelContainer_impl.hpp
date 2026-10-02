@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer_InitData::*)()>(&::GlobalNamespace::SaberModelContainer_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59f09a0;
+  constexpr static std::size_t addrs = 0x5e0bf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer_InitData*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer_InitData::*)(::UnityEngine::Color)>(&::GlobalNamespace::SaberModelContainer_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59f09ac;
+  constexpr static std::size_t addrs = 0x5e0bf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,12 +63,24 @@ inline ::GlobalNamespace::SaberModelContainer_InitData* GlobalNamespace::SaberMo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberModelContainer_InitData::SaberModelContainer_InitData() {}
+//  Writing Method size for method: ::GlobalNamespace::SaberModelContainer.get_saber
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::Saber> (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::get_saber)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5e0bbf8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { "get_saber", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::SaberModelContainer.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::Start)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x59f0638;
+  constexpr static std::size_t addrs = 0x5e0bc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { "Start", {}, {} })));
@@ -80,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f099c;
+  constexpr static std::size_t addrs = 0x5e0bf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { ".ctor", {}, {} })));
@@ -134,6 +146,10 @@ constexpr ::GlobalNamespace::SaberModelContainer_InitData* const& GlobalNamespac
 constexpr void GlobalNamespace::SaberModelContainer::__cordl_internal_set__initData(::GlobalNamespace::SaberModelContainer_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initData = value;
+}
+inline ::UnityW<::GlobalNamespace::Saber> GlobalNamespace::SaberModelContainer::get_saber() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { "get_saber", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::Saber>>(this, ___internal_method);
 }
 inline void GlobalNamespace::SaberModelContainer::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { "Start", {}, {} })));

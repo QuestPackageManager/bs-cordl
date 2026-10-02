@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MaterialReference::*)(
     int32_t, ::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::TextCore::Text::SpriteAsset*, ::UnityEngine::Material*, float_t)>(&::UnityEngine::TextCore::Text::MaterialReference::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bc8030;
+  constexpr static std::size_t addrs = 0x702ef34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<int32_t (*)(::UnityEngine::Material*, ::UnityEngine::TextCore::Text::FontAsset*, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference>>,
                             ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::UnityEngine::TextCore::Text::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6bc8050;
+  constexpr static std::size_t addrs = 0x702ef54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MaterialReference>(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<int32_t (*)(::UnityEngine::Material*, ::UnityEngine::TextCore::Text::SpriteAsset*, ::by_ref<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference>>,
                             ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::UnityEngine::TextCore::Text::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6bc8230;
+  constexpr static std::size_t addrs = 0x702f134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

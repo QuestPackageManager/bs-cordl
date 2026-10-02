@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MulOvfInstruction_MulOvfUInt32::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::MulOvfInstruction_MulOvfUInt32::Run)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5fb64a0;
+  constexpr static std::size_t addrs = 0x63d2428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MulOvfInstruction_MulOvfUInt32::*)()>(&::GlobalNamespace::MulOvfInstruction_MulOvfUInt32::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fb5f20;
+  constexpr static std::size_t addrs = 0x63d1ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MulOvfInstruction_MulOvfUInt32*>(), { ".ctor", {}, {} })));

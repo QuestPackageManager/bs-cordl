@@ -28,23 +28,23 @@ class CORDL_TYPE RandomExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetBool, addr 0x330c574, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x3595038, size 0x1c, virtual false, abstract: false, final false
   static inline bool GetBool(::GlobalNamespace::IRandom* random);
 
   /// [Extension]
-  /// @brief Method GetRange, addr 0x330c49c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetRange, addr 0x3594f60, size 0x38, virtual false, abstract: false, final false
   static inline float_t GetRange(::GlobalNamespace::IRandom* random, float_t min, float_t max);
 
   /// [Extension]
-  /// @brief Method Next, addr 0x330c590, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Next, addr 0x3595054, size 0x108, virtual false, abstract: false, final false
   static inline int32_t Next(::GlobalNamespace::IRandom* random, int32_t maxValue);
 
   /// [Extension]
-  /// @brief Method NextDouble, addr 0x330c4d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method NextDouble, addr 0x3594f98, size 0xa0, virtual false, abstract: false, final false
   static inline double_t NextDouble(::GlobalNamespace::IRandom* random);
 
   /// [Extension]
-  /// @brief Method NextFloat, addr 0x330c698, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NextFloat, addr 0x359515c, size 0xa8, virtual false, abstract: false, final false
   static inline float_t NextFloat(::GlobalNamespace::IRandom* random);
 
 protected:
@@ -62,7 +62,7 @@ public:
   RandomExtensions(RandomExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

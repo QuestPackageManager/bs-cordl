@@ -28,7 +28,8 @@ public:
     __E_Forward = static_cast<int32_t>(0x1),
     __E_Deferred = static_cast<int32_t>(0x2),
     __E_ForwardPlus = static_cast<int32_t>(0x4),
-    __E_All = static_cast<int32_t>(0x7),
+    __E_DeferredPlus = static_cast<int32_t>(0x8),
+    __E_All = static_cast<int32_t>(0xf),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -48,11 +49,14 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderPathCompatibility(int32_t value__) noexcept;
 
-  /// @brief Field All value: I32(7)
+  /// @brief Field All value: I32(15)
   static ::UnityEngine::Rendering::Universal::RenderPathCompatibility const All;
 
   /// @brief Field Deferred value: I32(2)
   static ::UnityEngine::Rendering::Universal::RenderPathCompatibility const Deferred;
+
+  /// @brief Field DeferredPlus value: I32(8)
+  static ::UnityEngine::Rendering::Universal::RenderPathCompatibility const DeferredPlus;
 
   /// @brief Field Forward value: I32(1)
   static ::UnityEngine::Rendering::Universal::RenderPathCompatibility const Forward;
@@ -61,7 +65,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderPathCompatibility const ForwardPlus;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13277 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

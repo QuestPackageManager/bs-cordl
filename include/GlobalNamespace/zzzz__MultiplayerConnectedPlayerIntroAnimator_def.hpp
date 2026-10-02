@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* New_ctor();
 
-  /// @brief Method SetBeforeIntroValues, addr 0x59bc3ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x5dd78d4, size 0x18, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x59bc3c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd78ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   MultiplayerConnectedPlayerIntroAnimator(MultiplayerConnectedPlayerIntroAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6179 };
 
   /// [SerializeField]
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None

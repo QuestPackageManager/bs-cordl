@@ -40,19 +40,19 @@ public:
 
   static inline ::System::IO::IOException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5bf7208, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600f4d0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bf656c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600e834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5bf572c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600d9f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5bf7268, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600f530, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t hresult);
 
-  /// @brief Method .ctor, addr 0x5bf7290, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600f558, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -70,7 +70,7 @@ public:
   IOException(IOException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

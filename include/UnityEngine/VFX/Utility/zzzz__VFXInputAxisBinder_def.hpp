@@ -43,15 +43,15 @@ public:
   /// @brief Field m_AxisProperty, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AxisProperty, put = __cordl_internal_set_m_AxisProperty)) ::UnityEngine::VFX::Utility::ExposedProperty* m_AxisProperty;
 
-  /// @brief Method IsValid, addr 0x69e38d4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6e20ec0, size 0x2c, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXInputAxisBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69e39c0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e20fac, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e3900, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x6e20eec, size 0xc0, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr bool const& __cordl_internal_get_Accumulate() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_m_AxisProperty(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e3a60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2104c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AxisProperty, addr 0x69e38a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AxisProperty, addr 0x6e20e8c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_AxisProperty();
 
-  /// @brief Method set_AxisProperty, addr 0x69e38b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_AxisProperty, addr 0x6e20ea4, size 0x1c, virtual false, abstract: false, final false
   inline void set_AxisProperty(::StringW value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   VFXInputAxisBinder(VFXInputAxisBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20257 };
 
   /// [VFXPropertyBinding(new[] { "System.Single" })]
   /// [SerializeField]

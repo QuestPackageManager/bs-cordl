@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Duration, put = __cordl_internal_set_Duration)) double_t Duration;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateStallSummaryAnalytic, addr 0x6e25e00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateStallSummaryAnalytic, addr 0x72c102c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::StallSummaryAnalytic* CreateStallSummaryAnalytic();
 
   static inline ::UnityEditor::Analytics::StallSummaryAnalytic* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_Duration(double_t value);
 
-  /// @brief Method .ctor, addr 0x6e25d88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c0fb4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   StallSummaryAnalytic(StallSummaryAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23302 };
 
   /// @brief Field Duration, offset: 0x30, size: 0x8, def value: None
   double_t ___Duration;

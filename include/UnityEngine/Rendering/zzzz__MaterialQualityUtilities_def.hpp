@@ -40,27 +40,27 @@ public:
   /// @brief Field Keywords, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Keywords, put = setStaticF_Keywords)) ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> Keywords;
 
-  /// @brief Method FromIndex, addr 0x67c72a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromIndex, addr 0x6be4d0c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality FromIndex(int32_t index);
 
   /// [Extension]
-  /// @brief Method GetClosestQuality, addr 0x67c70e0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetClosestQuality, addr 0x6be4b44, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetClosestQuality(::UnityEngine::Rendering::MaterialQuality availableLevels, ::UnityEngine::Rendering::MaterialQuality requestedLevel);
 
   /// [Extension]
-  /// @brief Method GetHighestQuality, addr 0x67c7050, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetHighestQuality, addr 0x6be4ab4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetHighestQuality(::UnityEngine::Rendering::MaterialQuality levels);
 
   /// [Extension]
-  /// @brief Method SetGlobalShaderKeywords, addr 0x67c72b4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderKeywords, addr 0x6be4d18, size 0xfc, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level);
 
   /// [Extension]
-  /// @brief Method SetGlobalShaderKeywords, addr 0x67c73b0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderKeywords, addr 0x6be4e14, size 0x118, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// [Extension]
-  /// @brief Method ToFirstIndex, addr 0x67c7218, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToFirstIndex, addr 0x6be4c7c, size 0x90, virtual false, abstract: false, final false
   static inline int32_t ToFirstIndex(::UnityEngine::Rendering::MaterialQuality level);
 
   static inline ::ArrayW<::StringW> getStaticF_EnumNames();
@@ -90,7 +90,7 @@ public:
   MaterialQualityUtilities(MaterialQualityUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

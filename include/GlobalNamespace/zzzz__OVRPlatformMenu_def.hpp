@@ -77,7 +77,7 @@ public:
   static ::GlobalNamespace::OVRPlatformMenu_eHandler const ShowConfirmQuit;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7409 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -132,7 +132,7 @@ public:
   static ::GlobalNamespace::OVRPlatformMenu_eBackButtonAction const SHORT_PRESS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7410 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -172,21 +172,21 @@ public:
   /// @brief Field shortPressHandler, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_shortPressHandler, put = __cordl_internal_set_shortPressHandler)) ::GlobalNamespace::OVRPlatformMenu_eHandler shortPressHandler;
 
-  /// @brief Method Awake, addr 0x5ea2184, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x62bc684, size 0x178, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBackButtonState, addr 0x5ea2118, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleBackButtonState, addr 0x62bc618, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlatformMenu_eBackButtonAction HandleBackButtonState();
 
   static inline ::GlobalNamespace::OVRPlatformMenu* New_ctor();
 
-  /// @brief Method RetreatOneLevel, addr 0x5ea23e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RetreatOneLevel, addr 0x62bc8e8, size 0x108, virtual false, abstract: false, final false
   static inline bool RetreatOneLevel();
 
-  /// @brief Method ShowConfirmQuitMenu, addr 0x5ea22f8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ShowConfirmQuitMenu, addr 0x62bc7fc, size 0xec, virtual false, abstract: false, final false
   inline void ShowConfirmQuitMenu();
 
-  /// @brief Method Update, addr 0x5ea24ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x62bc9f0, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_OnShortPress() const;
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_shortPressHandler(::GlobalNamespace::OVRPlatformMenu_eHandler value);
 
-  /// @brief Method .ctor, addr 0x5ea2528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62bca2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Stack_1<::StringW>* getStaticF_sceneStack();
@@ -229,7 +229,7 @@ public:
   OVRPlatformMenu(OVRPlatformMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7411 };
 
   /// @brief Field inputCode, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawButton ___inputCode;

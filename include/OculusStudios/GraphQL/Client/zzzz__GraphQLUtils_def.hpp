@@ -90,7 +90,7 @@ public:
   GraphQLUtils___c__DisplayClass6_0_1(GraphQLUtils___c__DisplayClass6_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21054 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::StringW ___data;
@@ -133,7 +133,7 @@ public:
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<T> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -165,10 +165,10 @@ public:
 
   template <typename T> using __c__DisplayClass6_0_1 = ::OculusStudios::GraphQL::Client::GraphQLUtils___c__DisplayClass6_0_1<T>;
 
-  /// @brief Method Convert4Json, addr 0x5f21cf4, size 0x824, virtual false, abstract: false, final false
+  /// @brief Method Convert4Json, addr 0x633c970, size 0x824, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* Convert4Json(::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* inDict);
 
-  /// @brief Method ConvertObject2Json, addr 0x5f228b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ConvertObject2Json, addr 0x633d534, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* ConvertObject2Json(::System::Object* item);
 
   /// @brief Method ConvertString2Enum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -202,7 +202,7 @@ public:
   static constexpr ::ConstString UNKNOWN_ENUM_VALUE{ u"__UnknownValue" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

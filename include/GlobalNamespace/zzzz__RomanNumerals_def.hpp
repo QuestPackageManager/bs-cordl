@@ -23,7 +23,7 @@ class CORDL_TYPE RomanNumerals : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToRomanNumeralString, addr 0x5900ea4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToRomanNumeralString, addr 0x5d1b4e4, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW ToRomanNumeralString(int32_t input);
 
 protected:
@@ -41,7 +41,7 @@ public:
   RomanNumerals(RomanNumerals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

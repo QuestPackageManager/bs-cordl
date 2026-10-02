@@ -56,6 +56,7 @@ struct RenderGraphBuilder;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphBuilder");
 // [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
+// [Obsolete("RenderGraphBuilder is deprecated, use IComputeRenderGraphBuilder/IRasterRenderGraphBuilder/IUnsafeRenderGraphBuilder instead.")]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -66,58 +67,58 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AllowPassCulling, addr 0x67dd0d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AllowPassCulling, addr 0x6c03af4, size 0x1c, virtual false, abstract: false, final false
   inline void AllowPassCulling(bool value);
 
-  /// @brief Method AllowRendererListCulling, addr 0x67dd148, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AllowRendererListCulling, addr 0x6c03b74, size 0x1c, virtual false, abstract: false, final false
   inline void AllowRendererListCulling(bool value);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckResource, addr 0x67dd238, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method CheckResource, addr 0x6c03c64, size 0x2fc, virtual false, abstract: false, final false
   inline void CheckResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res, bool checkTransientReadWrite);
 
-  /// @brief Method CreateTransientBuffer, addr 0x67dcd70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateTransientBuffer, addr 0x6c03a00, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> desc);
 
-  /// @brief Method CreateTransientBuffer, addr 0x67dcea8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateTransientBuffer, addr 0x6c03a60, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> graphicsbuffer);
 
-  /// @brief Method CreateTransientTexture, addr 0x67dc87c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateTransientTexture, addr 0x6c0377c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
 
-  /// @brief Method CreateTransientTexture, addr 0x67dc9b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateTransientTexture, addr 0x6c037d4, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture);
 
-  /// @brief Method DependsOn, addr 0x67dd164, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x6c03b90, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle DependsOn(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> input);
 
-  /// @brief Method Dispose, addr 0x67dd108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c03b2c, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x67dd110, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c03b34, size 0x40, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnableAsyncCompute, addr 0x67dd0b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EnableAsyncCompute, addr 0x6c03ad8, size 0x1c, virtual false, abstract: false, final false
   inline void EnableAsyncCompute(bool value);
 
-  /// @brief Method EnableFoveatedRasterization, addr 0x67dd0ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EnableFoveatedRasterization, addr 0x6c03b10, size 0x1c, virtual false, abstract: false, final false
   inline void EnableFoveatedRasterization(bool value);
 
-  /// @brief Method GenerateDebugData, addr 0x67dd648, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GenerateDebugData, addr 0x6c03f60, size 0x1c, virtual false, abstract: false, final false
   inline void GenerateDebugData(bool value);
 
-  /// @brief Method ReadBuffer, addr 0x67dccfc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadBuffer, addr 0x6c03988, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle ReadBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> input);
 
-  /// @brief Method ReadRayTracingAccelerationStructure, addr 0x67dcc04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadRayTracingAccelerationStructure, addr 0x6c03890, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle
   ReadRayTracingAccelerationStructure(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle> input);
 
-  /// @brief Method ReadTexture, addr 0x67dc640, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadTexture, addr 0x6c03640, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ReadTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input);
 
-  /// @brief Method ReadWriteTexture, addr 0x67dc824, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadWriteTexture, addr 0x6c03720, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ReadWriteTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input);
 
   /// @brief Method SetRenderFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -125,27 +126,27 @@ public:
     requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
   inline void SetRenderFunc(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext>* renderFunc);
 
-  /// @brief Method UseColorBuffer, addr 0x67dc10c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method UseColorBuffer, addr 0x6c0346c, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UseColorBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input, int32_t index);
 
-  /// @brief Method UseDepthBuffer, addr 0x67dc2e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UseDepthBuffer, addr 0x6c03538, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UseDepthBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input,
                                                                                    ::UnityEngine::Rendering::RenderGraphModule::DepthAccess flags);
 
-  /// @brief Method UseRendererList, addr 0x67dcc30, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UseRendererList, addr 0x6c038bc, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> input);
 
-  /// @brief Method WriteBuffer, addr 0x67dcd28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteBuffer, addr 0x6c039b4, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle WriteBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> input);
 
-  /// @brief Method WriteRayTracingAccelerationStructure, addr 0x67dcbbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteRayTracingAccelerationStructure, addr 0x6c03844, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle
   WriteRayTracingAccelerationStructure(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle> input);
 
-  /// @brief Method WriteTexture, addr 0x67dc5fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WriteTexture, addr 0x6c035f8, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle WriteTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input);
 
-  /// @brief Method .ctor, addr 0x67dd228, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03c54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* renderPass, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
                     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
@@ -164,7 +165,7 @@ public:
                                ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* m_RenderGraph, bool m_Disposed) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9333 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -96,7 +96,7 @@ public:
   static ::GlobalNamespace::NoteData_GameplayType const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -191,7 +191,7 @@ public:
   static ::GlobalNamespace::NoteData_ScoringType const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21989 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -302,16 +302,16 @@ public:
 
   __declspec(property(get = get_timeToPrevColorNote, put = set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  /// @brief Method ChangeNoteCutDirection, addr 0x325d664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeNoteCutDirection, addr 0x34e2d4c, size 0x8, virtual false, abstract: false, final false
   inline void ChangeNoteCutDirection(::GlobalNamespace::NoteCutDirection newCutDirection);
 
-  /// @brief Method ChangeToBurstSliderHead, addr 0x325d47c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangeToBurstSliderHead, addr 0x34e2b64, size 0x3c, virtual false, abstract: false, final false
   inline void ChangeToBurstSliderHead();
 
-  /// @brief Method ChangeToGameNote, addr 0x325d4b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ChangeToGameNote, addr 0x34e2ba0, size 0x10, virtual false, abstract: false, final false
   inline void ChangeToGameNote();
 
-  /// @brief Method CopyWith, addr 0x325d108, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x34e27f0, size 0x36c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* CopyWith(::System::Nullable_1<float_t> time, ::System::Nullable_1<int32_t> beat, ::System::Nullable_1<int32_t> rotation, ::System::Nullable_1<int32_t> lineIndex,
                                                ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> noteLineLayer, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> beforeJumpNoteLineLayer,
                                                ::System::Nullable_1<::GlobalNamespace::NoteData_GameplayType> gameplayType, ::System::Nullable_1<::GlobalNamespace::NoteData_ScoringType> scoringType,
@@ -319,31 +319,31 @@ public:
                                                ::System::Nullable_1<float_t> timeToNextColorNote, ::System::Nullable_1<float_t> timeToPrevColorNote, ::System::Nullable_1<int32_t> flipLineIndex,
                                                ::System::Nullable_1<float_t> flipYSide, ::System::Nullable_1<float_t> cutDirectionAngleOffset, ::System::Nullable_1<float_t> cutSfxVolumeMultiplier);
 
-  /// @brief Method CreateBasicNoteData, addr 0x325cf6c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateBasicNoteData, addr 0x34e2654, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* CreateBasicNoteData(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                  ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method CreateBombNoteData, addr 0x325cebc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateBombNoteData, addr 0x34e25a4, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* CreateBombNoteData(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method CreateBurstSliderNoteData, addr 0x325d030, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateBurstSliderNoteData, addr 0x34e2718, size 0xd8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* CreateBurstSliderNoteData(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                        ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::ColorType colorType,
                                                                        ::GlobalNamespace::NoteCutDirection cutDirection, float_t cutSfxVolumeMultiplier);
 
-  /// @brief Method GetCopy, addr 0x325cd50, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x34e2438, size 0xc8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetCutDirectionAngleOffsetForSlider, addr 0x325d5b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCutDirectionAngleOffsetForSlider, addr 0x34e2ca0, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetCutDirectionAngleOffsetForSlider();
 
-  /// @brief Method MarkAsSliderHead, addr 0x325d4c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MarkAsSliderHead, addr 0x34e2bb0, size 0x40, virtual false, abstract: false, final false
   inline void MarkAsSliderHead();
 
-  /// @brief Method MarkAsSliderTail, addr 0x325d508, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method MarkAsSliderTail, addr 0x34e2bf0, size 0x44, virtual false, abstract: false, final false
   inline void MarkAsSliderTail();
 
-  /// @brief Method Mirror, addr 0x325d5e0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x34e2cc8, size 0x78, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::NoteData* New_ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
@@ -352,25 +352,25 @@ public:
                                                       float_t timeToNextColorNote, float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide, float_t cutDirectionAngleOffset,
                                                       float_t cutSfxVolumeMultiplier);
 
-  /// @brief Method ResetNoteFlip, addr 0x325d5d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetNoteFlip, addr 0x34e2cbc, size 0xc, virtual false, abstract: false, final false
   inline void ResetNoteFlip();
 
-  /// @brief Method SetBeforeJumpNoteLineLayer, addr 0x325d474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeJumpNoteLineLayer, addr 0x34e2b5c, size 0x8, virtual false, abstract: false, final false
   inline void SetBeforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method SetCutDirectionAngleOffset, addr 0x325d5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCutDirectionAngleOffset, addr 0x34e2c98, size 0x8, virtual false, abstract: false, final false
   inline void SetCutDirectionAngleOffset(float_t cutDirectionAngleOffset);
 
-  /// @brief Method SetNoteFlipToNote, addr 0x325d54c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetNoteFlipToNote, addr 0x34e2c34, size 0x64, virtual false, abstract: false, final false
   inline void SetNoteFlipToNote(::GlobalNamespace::NoteData* targetNote);
 
-  /// @brief Method SetNoteToAnyCutDirection, addr 0x325d658, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetNoteToAnyCutDirection, addr 0x34e2d40, size 0xc, virtual false, abstract: false, final false
   inline void SetNoteToAnyCutDirection();
 
-  /// @brief Method SubtypeIdentifier, addr 0x325ceb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x34e25a0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method TransformNoteAOrBToRandomType, addr 0x325d66c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TransformNoteAOrBToRandomType, addr 0x34e2d54, size 0x6c, virtual false, abstract: false, final false
   inline void TransformNoteAOrBToRandomType();
 
   constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField() const;
@@ -463,133 +463,133 @@ public:
 
   constexpr void __cordl_internal_set__timeToPrevColorNote_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x325ce18, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e2500, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer,
                     ::GlobalNamespace::NoteData_GameplayType gameplayType, ::GlobalNamespace::NoteData_ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
                     ::GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote, float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide,
                     float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beforeJumpNoteLineLayer, addr 0x325cce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beforeJumpNoteLineLayer, addr 0x34e23c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_beforeJumpNoteLineLayer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorType, addr 0x325cc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x34e2368, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cutDirection, addr 0x325cc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x34e2378, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cutDirectionAngleOffset, addr 0x325cd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirectionAngleOffset, addr 0x34e23f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cutDirectionAngleOffset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cutSfxVolumeMultiplier, addr 0x325cd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutSfxVolumeMultiplier, addr 0x34e2408, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cutSfxVolumeMultiplier();
 
   /// [CompilerGenerated]
-  /// @brief Method get_flipLineIndex, addr 0x325ccf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipLineIndex, addr 0x34e23d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_flipLineIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_flipYSide, addr 0x325cd00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipYSide, addr 0x34e23e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_flipYSide();
 
   /// [CompilerGenerated]
-  /// @brief Method get_gameplayType, addr 0x325cc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayType, addr 0x34e2348, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isArcHead, addr 0x325cd30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isArcHead, addr 0x34e2418, size 0x8, virtual false, abstract: false, final false
   inline bool get_isArcHead();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isArcTail, addr 0x325cd40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isArcTail, addr 0x34e2428, size 0x8, virtual false, abstract: false, final false
   inline bool get_isArcTail();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lineIndex, addr 0x325ccc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x34e23a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_noteLineLayer, addr 0x325ccd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineLayer, addr 0x34e23b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scoringType, addr 0x325cc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scoringType, addr 0x34e2358, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData_ScoringType get_scoringType();
 
-  /// @brief Method get_subtypeGroupIdentifier, addr 0x325cc58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeGroupIdentifier, addr 0x34e2340, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
   /// [CompilerGenerated]
-  /// @brief Method get_timeToNextColorNote, addr 0x325cca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeToNextColorNote, addr 0x34e2388, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeToNextColorNote();
 
   /// [CompilerGenerated]
-  /// @brief Method get_timeToPrevColorNote, addr 0x325ccb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeToPrevColorNote, addr 0x34e2398, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeToPrevColorNote();
 
   /// [CompilerGenerated]
-  /// @brief Method set_beforeJumpNoteLineLayer, addr 0x325cce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beforeJumpNoteLineLayer, addr 0x34e23d0, size 0x8, virtual false, abstract: false, final false
   inline void set_beforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorType, addr 0x325cc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorType, addr 0x34e2370, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cutDirection, addr 0x325cc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cutDirection, addr 0x34e2380, size 0x8, virtual false, abstract: false, final false
   inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cutDirectionAngleOffset, addr 0x325cd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cutDirectionAngleOffset, addr 0x34e2400, size 0x8, virtual false, abstract: false, final false
   inline void set_cutDirectionAngleOffset(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cutSfxVolumeMultiplier, addr 0x325cd28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cutSfxVolumeMultiplier, addr 0x34e2410, size 0x8, virtual false, abstract: false, final false
   inline void set_cutSfxVolumeMultiplier(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_flipLineIndex, addr 0x325ccf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flipLineIndex, addr 0x34e23e0, size 0x8, virtual false, abstract: false, final false
   inline void set_flipLineIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_flipYSide, addr 0x325cd08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flipYSide, addr 0x34e23f0, size 0x8, virtual false, abstract: false, final false
   inline void set_flipYSide(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_gameplayType, addr 0x325cc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayType, addr 0x34e2350, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayType(::GlobalNamespace::NoteData_GameplayType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isArcHead, addr 0x325cd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isArcHead, addr 0x34e2420, size 0x8, virtual false, abstract: false, final false
   inline void set_isArcHead(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isArcTail, addr 0x325cd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isArcTail, addr 0x34e2430, size 0x8, virtual false, abstract: false, final false
   inline void set_isArcTail(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lineIndex, addr 0x325ccc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x34e23b0, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_noteLineLayer, addr 0x325ccd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineLayer, addr 0x34e23c0, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scoringType, addr 0x325cc78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scoringType, addr 0x34e2360, size 0x8, virtual false, abstract: false, final false
   inline void set_scoringType(::GlobalNamespace::NoteData_ScoringType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_timeToNextColorNote, addr 0x325cca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timeToNextColorNote, addr 0x34e2390, size 0x8, virtual false, abstract: false, final false
   inline void set_timeToNextColorNote(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_timeToPrevColorNote, addr 0x325ccb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timeToPrevColorNote, addr 0x34e23a0, size 0x8, virtual false, abstract: false, final false
   inline void set_timeToPrevColorNote(float_t value);
 
 protected:
@@ -607,7 +607,7 @@ public:
   NoteData(NoteData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21990 };
 
   /// [CompilerGenerated]
   /// @brief Field <gameplayType>k__BackingField, offset: 0x30, size: 0x4, def value: None

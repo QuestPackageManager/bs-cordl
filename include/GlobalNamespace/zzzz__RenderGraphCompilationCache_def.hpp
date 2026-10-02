@@ -64,7 +64,7 @@ public:
   constexpr RenderGraphCompilationCache_HashEntry_1(int32_t hash, int32_t lastFrameUsed, T compiledGraph) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -129,7 +129,7 @@ public:
   RenderGraphCompilationCache___c__11_1(RenderGraphCompilationCache___c__11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -176,13 +176,16 @@ public:
       get = getStaticF_s_NativeEntryComparer,
       put = setStaticF_s_NativeEntryComparer)) ::UnityEngine::Rendering::DynamicArray_1_SortComparer<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<Il2CppObject*>>* s_NativeEntryComparer;
 
-  /// @brief Method Clear, addr 0x6743800, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6b5812c, size 0x230, virtual false, abstract: false, final false
+  inline void Cleanup();
+
+  /// @brief Method Clear, addr 0x6b57f4c, size 0x1e0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetCompilationCache, addr 0x6743690, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCompilationCache, addr 0x6b57ddc, size 0xb8, virtual false, abstract: false, final false
   inline bool GetCompilationCache(int32_t hash, int32_t frameIndex, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledGraph*> outGraph);
 
-  /// @brief Method GetCompilationCache, addr 0x6743748, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCompilationCache, addr 0x6b57e94, size 0xb8, virtual false, abstract: false, final false
   inline bool GetCompilationCache(int32_t hash, int32_t frameIndex, ::by_ref<Il2CppObject*> outGraph);
 
   /// @brief Method GetCompilationCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -224,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeHashEntries(::UnityEngine::Rendering::DynamicArray_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<Il2CppObject*>>* value);
 
-  /// @brief Method .ctor, addr 0x6743460, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b57bb0, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DynamicArray_1_SortComparer<
@@ -258,7 +261,7 @@ public:
   RenderGraphCompilationCache(RenderGraphCompilationCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8710 };
 
   /// @brief Field k_CachedGraphCount offset 0xffffffff size 0x4
   static constexpr int32_t k_CachedGraphCount{ static_cast<int32_t>(0x14) };

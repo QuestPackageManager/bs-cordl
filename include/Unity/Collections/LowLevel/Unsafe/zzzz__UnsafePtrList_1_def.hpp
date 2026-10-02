@@ -110,7 +110,7 @@ public:
   constexpr UnsafePtrList_1_ReadOnly(T* Ptr, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16021 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -153,7 +153,7 @@ public:
   constexpr UnsafePtrList_1_ParallelReader(T* Ptr, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -200,7 +200,7 @@ public:
   constexpr UnsafePtrList_1_ParallelWriter(T* Ptr, ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<::System::IntPtr>* ListData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -402,7 +402,7 @@ public:
   constexpr UnsafePtrList_1(T* Ptr, int32_t m_length, int32_t m_capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -34,8 +34,8 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE HierarchyCommandList_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6b397a8, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::Unity::Hierarchy::HierarchyCommandList* cmdList);
+  /// @brief Method ConvertToUnmanaged, addr 0x6f976a0, size 0x14, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ConvertToUnmanaged(::Unity::Hierarchy::HierarchyCommandList* cmdList);
 
 protected:
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -60,9 +60,9 @@ public:
 static_assert(sizeof(::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Hierarchy
-// [RequiredByNativeCode(GenerateProxy = true)]
-// [NativeHeader("Modules/HierarchyCore/HierarchyCommandListBindings.h")]
 // [NativeHeader("Modules/HierarchyCore/Public/HierarchyCommandList.h")]
+// [NativeHeader("Modules/HierarchyCore/HierarchyCommandListBindings.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr, System.Object
 namespace Unity::Hierarchy {
 // Is value type: false
@@ -82,23 +82,23 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateCommandList, addr 0x6b3974c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateCommandList, addr 0x6f97644, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateCommandList(::System::IntPtr nativePtr);
 
   /// [FreeFunction("HierarchyCommandListBindings::Destroy", IsThreadSafe = true)]
-  /// @brief Method Destroy, addr 0x6b39688, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6f97580, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr nativePtr);
 
-  /// @brief Method Dispose, addr 0x6b39620, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6f97518, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6b395cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6f974c4, size 0x54, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x6b39584, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f9747c, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FromIntPtr, addr 0x6b396c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtr, addr 0x6f975bc, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchyCommandList* FromIntPtr(::System::IntPtr handlePtr);
 
   static inline ::Unity::Hierarchy::HierarchyCommandList* New_ctor(::System::IntPtr nativePtr);
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6b39578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f97470, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativePtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -136,7 +136,7 @@ public:
   HierarchyCommandList(HierarchyCommandList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22598 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

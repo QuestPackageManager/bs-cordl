@@ -88,10 +88,10 @@ public:
   __declspec(property(get = __cordl_internal_get__TriangulationMode_k__BackingField,
                       put = __cordl_internal_set__TriangulationMode_k__BackingField)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _TriangulationMode_k__BackingField;
 
-  /// @brief Method Clear, addr 0x66b1128, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x6add5e8, size 0x88, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Done, addr 0x66add28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Done, addr 0x6ada1e8, size 0x10, virtual false, abstract: false, final false
   inline void Done();
 
   /// @brief Method NewConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -100,10 +100,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* New_ctor();
 
-  /// @brief Method PrepareTriangulation, addr 0x66b1410, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method PrepareTriangulation, addr 0x6add8d0, size 0x114, virtual true, abstract: false, final false
   inline void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
 
-  /// @brief Method Update, addr 0x66ae0b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6ada574, size 0x4, virtual false, abstract: false, final false
   inline void Update(::StringW message);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* const& __cordl_internal_get_Points() const;
@@ -148,53 +148,53 @@ public:
 
   constexpr void __cordl_internal_set__TriangulationMode_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
 
-  /// @brief Method .ctor, addr 0x66b0e44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6add304, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Algorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm get_Algorithm();
 
-  /// @brief Method get_DTDebugContext, addr 0x66ade58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_DTDebugContext, addr 0x6ada318, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* get_DTDebugContext();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DebugContext, addr 0x66b1fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugContext, addr 0x6ade470, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsDebugEnabled, addr 0x66b1ff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDebugEnabled, addr 0x6ade4b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDebugEnabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_StepCount, addr 0x66b1fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StepCount, addr 0x6ade4a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StepCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Triangulatable, addr 0x66b1fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Triangulatable, addr 0x6ade490, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* get_Triangulatable();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TriangulationMode, addr 0x66b1fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TriangulationMode, addr 0x6ade480, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
   /// [CompilerGenerated]
-  /// @brief Method set_DebugContext, addr 0x66b1fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DebugContext, addr 0x6ade478, size 0x8, virtual false, abstract: false, final false
   inline void set_DebugContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsDebugEnabled, addr 0x66b1ff8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IsDebugEnabled, addr 0x6ade4b8, size 0x8, virtual true, abstract: false, final false
   inline void set_IsDebugEnabled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_StepCount, addr 0x66b1fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StepCount, addr 0x6ade4a8, size 0x8, virtual false, abstract: false, final false
   inline void set_StepCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Triangulatable, addr 0x66b1fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Triangulatable, addr 0x6ade498, size 0x8, virtual false, abstract: false, final false
   inline void set_Triangulatable(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_TriangulationMode, addr 0x66b1fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TriangulationMode, addr 0x6ade488, size 0x8, virtual false, abstract: false, final false
   inline void set_TriangulationMode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   TriangulationContext(TriangulationContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22546 };
 
   /// [CompilerGenerated]
   /// @brief Field <DebugContext>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -1,10 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/RaycastHit.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "UnityEngine/zzzz__ArticulationBody_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -14,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_collider)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6b989c8;
+  constexpr static std::size_t addrs = 0x7004374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_collider", {}, {} })));
@@ -26,10 +28,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_colliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b98a7c;
+  constexpr static std::size_t addrs = 0x7004428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_colliderInstanceID", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::RaycastHit.get_colliderEntityId
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EntityId (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_colliderEntityId)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x7004430;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_colliderEntityId", {}, {} })));
     return ___internal_method;
   }
 };
@@ -38,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b98a84;
+  constexpr static std::size_t addrs = 0x7004438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_point", {}, {} })));
@@ -50,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RaycastHit::*)(::UnityEngine::Vector3)>(&::UnityEngine::RaycastHit::set_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b98a90;
+  constexpr static std::size_t addrs = 0x7004444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b98a9c;
+  constexpr static std::size_t addrs = 0x7004450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_normal", {}, {} })));
@@ -75,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RaycastHit::*)(::UnityEngine::Vector3)>(&::UnityEngine::RaycastHit::set_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b98aa8;
+  constexpr static std::size_t addrs = 0x700445c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_barycentricCoordinate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b98ab4;
+  constexpr static std::size_t addrs = 0x7004468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_barycentricCoordinate", {}, {} })));
@@ -100,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RaycastHit::*)(::UnityEngine::Vector3)>(&::UnityEngine::RaycastHit::set_barycentricCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b98ac8;
+  constexpr static std::size_t addrs = 0x700447c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b98ad0;
+  constexpr static std::size_t addrs = 0x7004484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_distance", {}, {} })));
@@ -125,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RaycastHit::*)(float_t)>(&::UnityEngine::RaycastHit::set_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b98ad8;
+  constexpr static std::size_t addrs = 0x700448c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "set_distance", {}, { ::i2c::type_of<float_t>() } })));
@@ -137,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_triangleIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b98ae0;
+  constexpr static std::size_t addrs = 0x7004494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_triangleIndex", {}, {} })));
@@ -147,17 +161,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::RaycastHit.CalculateRaycastTexCoord
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(int32_t, ::UnityEngine::Vector2, ::UnityEngine::Vector3, uint32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::EntityId, ::UnityEngine::Vector2, ::UnityEngine::Vector3, uint32_t, int32_t)>(
     &::UnityEngine::RaycastHit::CalculateRaycastTexCoord)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b98ae8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x700449c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "CalculateRaycastTexCoord",
                                                                                          {},
-                                                                                         { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                                                                         { ::i2c::type_of<::UnityEngine::EntityId>(), ::i2c::type_of<::UnityEngine::Vector2>(),
                                                                                            ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -167,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_textureCoord)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b98bdc;
+  constexpr static std::size_t addrs = 0x7004588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_textureCoord", {}, {} })));
@@ -179,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_textureCoord2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b98bfc;
+  constexpr static std::size_t addrs = 0x70045a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_textureCoord2", {}, {} })));
@@ -191,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_transform)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6b98c1c;
+  constexpr static std::size_t addrs = 0x70045c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_transform", {}, {} })));
@@ -203,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_rigidbody)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b98cf8;
+  constexpr static std::size_t addrs = 0x70046a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_rigidbody", {}, {} })));
@@ -215,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ArticulationBody> (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_articulationBody)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b98d94;
+  constexpr static std::size_t addrs = 0x7004740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_articulationBody", {}, {} })));
@@ -227,40 +241,29 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_lightmapCoord)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6b98e30;
+  constexpr static std::size_t addrs = 0x70047dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_lightmapCoord", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::RaycastHit.get_textureCoord1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit::*)()>(&::UnityEngine::RaycastHit::get_textureCoord1)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b98f34;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_textureCoord1", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::RaycastHit.CalculateRaycastTexCoord_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector3>, uint32_t, int32_t, ::by_ref<::UnityEngine::Vector2>)>(
-    &::UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId>, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector3>, uint32_t, int32_t,
+                                                                ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6b98b68;
+  constexpr static std::size_t addrs = 0x7004514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(),
-                                                             { "CalculateRaycastTexCoord_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                 ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "CalculateRaycastTexCoord_Injected",
+                                                                                         {},
+                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
+                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(),
+                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
     return ___internal_method;
   }
 };
@@ -271,6 +274,10 @@ inline ::UnityW<::UnityEngine::Collider> UnityEngine::RaycastHit::get_collider()
 inline int32_t UnityEngine::RaycastHit::get_colliderInstanceID() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_colliderInstanceID", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::UnityEngine::EntityId UnityEngine::RaycastHit::get_colliderEntityId() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_colliderEntityId", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EntityId>(*this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 UnityEngine::RaycastHit::get_point() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_point", {}, {} })));
@@ -311,11 +318,12 @@ inline int32_t UnityEngine::RaycastHit::get_triangleIndex() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_triangleIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline ::UnityEngine::Vector2 UnityEngine::RaycastHit::CalculateRaycastTexCoord(int32_t colliderInstanceID, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector3 pos, uint32_t face, int32_t textcoord) {
+inline ::UnityEngine::Vector2 UnityEngine::RaycastHit::CalculateRaycastTexCoord(::UnityEngine::EntityId colliderInstanceID, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector3 pos, uint32_t face,
+                                                                                int32_t textcoord) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "CalculateRaycastTexCoord",
                                                                                               {},
-                                                                                              { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector2>(),
+                                                                                              { ::i2c::type_of<::UnityEngine::EntityId>(), ::i2c::type_of<::UnityEngine::Vector2>(),
                                                                                                 ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, colliderInstanceID, uv, pos, face, textcoord);
 }
@@ -343,26 +351,23 @@ inline ::UnityEngine::Vector2 UnityEngine::RaycastHit::get_lightmapCoord() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_lightmapCoord", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(*this, ___internal_method);
 }
-inline ::UnityEngine::Vector2 UnityEngine::RaycastHit::get_textureCoord1() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_textureCoord1", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(*this, ___internal_method);
-}
-inline void UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected(int32_t colliderInstanceID, ::by_ref<::UnityEngine::Vector2> uv, ::by_ref<::UnityEngine::Vector3> pos, uint32_t face,
-                                                                       int32_t textcoord, ::by_ref<::UnityEngine::Vector2> ret) {
+inline void UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected(::by_ref<::UnityEngine::EntityId> colliderInstanceID, ::by_ref<::UnityEngine::Vector2> uv, ::by_ref<::UnityEngine::Vector3> pos,
+                                                                       uint32_t face, int32_t textcoord, ::by_ref<::UnityEngine::Vector2> ret) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(),
-                                                           { "CalculateRaycastTexCoord_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(),
+                                       { "CalculateRaycastTexCoord_Injected",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                           ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, colliderInstanceID, uv, pos, face, textcoord, ret);
 }
 // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Distance", ty:
 // "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UV", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "m_Collider", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// "m_Collider", ty: "::UnityEngine::EntityId", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RaycastHit::RaycastHit(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, uint32_t m_FaceID, float_t m_Distance, ::UnityEngine::Vector2 m_UV,
-                                                int32_t m_Collider) noexcept {
+                                                ::UnityEngine::EntityId m_Collider) noexcept {
   this->m_Point = m_Point;
   this->m_Normal = m_Normal;
   this->m_FaceID = m_FaceID;

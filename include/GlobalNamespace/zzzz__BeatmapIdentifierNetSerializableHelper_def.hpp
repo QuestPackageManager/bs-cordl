@@ -27,11 +27,11 @@ class CORDL_TYPE BeatmapIdentifierNetSerializableHelper : public ::System::Objec
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToBeatmapKey, addr 0x3720dd8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToBeatmapKey, addr 0x39aa2fc, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
 
   /// [Extension]
-  /// @brief Method ToIdentifier, addr 0x3720ea0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToIdentifier, addr 0x39aa3c4, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* ToIdentifier(::GlobalNamespace::BeatmapKey beatmapKey);
 
 protected:
@@ -49,7 +49,7 @@ public:
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15196 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

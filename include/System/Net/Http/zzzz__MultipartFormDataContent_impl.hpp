@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)()>(&::System::Net::Http::MultipartFormDataContent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60e19c0;
+  constexpr static std::size_t addrs = 0x64fdedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartFormDataContent*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*)>(
     &::System::Net::Http::MultipartFormDataContent::Add)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60e1a0c;
+  constexpr static std::size_t addrs = 0x64fdf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*, ::StringW, ::StringW)>(
     &::System::Net::Http::MultipartFormDataContent::Add)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60e1b10;
+  constexpr static std::size_t addrs = 0x64fe02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartFormDataContent::*)(::System::Net::Http::HttpContent*, ::StringW, ::StringW)>(
     &::System::Net::Http::MultipartFormDataContent::AddContentDisposition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x60e1a2c;
+  constexpr static std::size_t addrs = 0x64fdf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

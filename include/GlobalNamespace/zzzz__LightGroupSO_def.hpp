@@ -118,28 +118,28 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x586bd74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c81f48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compositeLimits, addr 0x586bd6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compositeLimits, addr 0x5c81f40, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightGroupTranslationLimits* get_compositeLimits();
 
-  /// @brief Method get_groupId, addr 0x586bd44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x5c81f18, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x586bd3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupName, addr 0x5c81f10, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x586bd64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x5c81f38, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x586bd54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x5c81f28, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x586bd5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x5c81f30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x586bd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x5c81f20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -160,7 +160,7 @@ public:
   LightGroupSO(LightGroupSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19936 };
 
   /// [SerializeField]
   /// [Tooltip("Automatically updated based on file name")]

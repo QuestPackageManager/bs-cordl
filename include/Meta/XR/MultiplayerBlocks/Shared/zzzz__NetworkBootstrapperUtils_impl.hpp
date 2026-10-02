@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo, ::by_ref<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams>)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::SetEntitlementIds)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a7258c;
+  constexpr static std::size_t addrs = 0x5e8a3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils*>(),
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Meta:
                                                                 ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::SetUpAndStartAutomaticColocation)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5a725cc;
+  constexpr static std::size_t addrs = 0x5e8a434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::OnColocationFailed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a72c9c;
+  constexpr static std::size_t addrs = 0x5e8ab04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

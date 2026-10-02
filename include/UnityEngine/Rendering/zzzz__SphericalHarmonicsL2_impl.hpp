@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::SphericalHarmonicsL2::get_Item)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6b1cda8;
+  constexpr static std::size_t addrs = 0x6f7ae30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(int32_t, int32_t, float_t)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::set_Item)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6b1cef0;
+  constexpr static std::size_t addrs = 0x6f7af78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SphericalHarmonicsL2::*)()>(&::UnityEngine::Rendering::SphericalHarmonicsL2::GetHashCode)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x6b1d038;
+  constexpr static std::size_t addrs = 0x6f7b0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::System::Object*)>(&::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b1d29c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6f7b324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,13 +61,27 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b1d340;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6f7b3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6f7b480;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(),
+                                                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
     return ___internal_method;
   }
 };
@@ -77,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::op_Equality)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6b1d388;
+  constexpr static std::size_t addrs = 0x6f7b544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::op_Inequality)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b1d544;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x6f7b700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,6 +141,11 @@ inline bool UnityEngine::Rendering::SphericalHarmonicsL2::Equals(::UnityEngine::
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Rendering::SphericalHarmonicsL2::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(),
+                                                                                         { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline bool UnityEngine::Rendering::SphericalHarmonicsL2::op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs) {

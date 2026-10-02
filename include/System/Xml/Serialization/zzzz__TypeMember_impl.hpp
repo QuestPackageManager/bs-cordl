@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::TypeMember::*)(::System::Type*, ::StringW)>(&::System::Xml::Serialization::TypeMember::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62eee20;
+  constexpr static std::size_t addrs = 0x6716e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Serialization::TypeMember::*)()>(&::System::Xml::Serialization::TypeMember::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x62eee28;
+  constexpr static std::size_t addrs = 0x6716e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::TypeMember::*)(::System::Object*)>(&::System::Xml::Serialization::TypeMember::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62eee70;
+  constexpr static std::size_t addrs = 0x6716e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::Serialization::TypeMember*, ::System::Xml::Serialization::TypeMember*)>(
     &::System::Xml::Serialization::TypeMember::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62eeef0;
+  constexpr static std::size_t addrs = 0x6716ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::TypeMember::*)()>(&::System::Xml::Serialization::TypeMember::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62eef70;
+  constexpr static std::size_t addrs = 0x6716f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

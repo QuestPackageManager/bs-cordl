@@ -10,6 +10,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRDepthMotionPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
@@ -28,7 +29,7 @@ namespace UnityEngine::Rendering::Universal {
 class XRDepthMotionPass_PassData;
 }
 namespace UnityEngine::Rendering::Universal {
-class XRDepthMotionPass___c__DisplayClass17_0;
+class XRDepthMotionPass___c__DisplayClass22_0;
 }
 namespace UnityEngine::Rendering {
 class ContextContainer;
@@ -59,15 +60,15 @@ namespace UnityEngine::Rendering::Universal {
 class XRDepthMotionPass_PassData;
 }
 namespace UnityEngine::Rendering::Universal {
-class XRDepthMotionPass___c__DisplayClass17_0;
+class XRDepthMotionPass___c__DisplayClass22_0;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::XRDepthMotionPass*);
 MARK_REF_T(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*);
-MARK_REF_T(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*);
+MARK_REF_T(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRDepthMotionPass*, "UnityEngine.Rendering.Universal", "XRDepthMotionPass");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*, "UnityEngine.Rendering.Universal", "XRDepthMotionPass/PassData");
-DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0*, "UnityEngine.Rendering.Universal", "XRDepthMotionPass/<>c__DisplayClass17_0");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*, "UnityEngine.Rendering.Universal", "XRDepthMotionPass/<>c__DisplayClass22_0");
 // Dependencies System.Object, UnityEngine.Matrix4x4, UnityEngine.Rendering.RenderGraphModule.RendererListHandle
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -115,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_xrMotionVector(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x68a9338, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce06d4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +134,7 @@ public:
   XRDepthMotionPass_PassData(XRDepthMotionPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13125 };
 
   /// @brief Field objMotionRendererList, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___objMotionRendererList;
@@ -165,53 +166,67 @@ static_assert(sizeof(::UnityEngine::Rendering::Universal::XRDepthMotionPass_Pass
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
-// CS Name: UnityEngine.Rendering.Universal.XRDepthMotionPass/<>c__DisplayClass17_0
-class CORDL_TYPE XRDepthMotionPass___c__DisplayClass17_0 : public ::System::Object {
+// CS Name: UnityEngine.Rendering.Universal.XRDepthMotionPass/<>c__DisplayClass22_0
+class CORDL_TYPE XRDepthMotionPass___c__DisplayClass22_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field passData, offset 0x10, size 0x8
+  /// @brief Field <>4__this, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::Rendering::Universal::XRDepthMotionPass* __4__this;
+
+  /// @brief Field passData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_passData, put = __cordl_internal_set_passData)) ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* passData;
 
-  static inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0* New_ctor();
+  static inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <Render>b__0, addr 0x68aa650, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__0, addr 0x6ce073c, size 0x1b0, virtual false, abstract: false, final false
   inline void _Render_b__0(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+
+  constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass* const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass*& __cordl_internal_get___4__this();
 
   constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* const& __cordl_internal_get_passData() const;
 
   constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*& __cordl_internal_get_passData();
 
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::Rendering::Universal::XRDepthMotionPass* value);
+
   constexpr void __cordl_internal_set_passData(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* value);
 
-  /// @brief Method .ctor, addr 0x68aa1d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce01bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr XRDepthMotionPass___c__DisplayClass17_0();
+  constexpr XRDepthMotionPass___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  XRDepthMotionPass___c__DisplayClass17_0(XRDepthMotionPass___c__DisplayClass17_0&&) = delete;
+  XRDepthMotionPass___c__DisplayClass22_0(XRDepthMotionPass___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRDepthMotionPass___c__DisplayClass17_0(XRDepthMotionPass___c__DisplayClass17_0 const&) = delete;
+  XRDepthMotionPass___c__DisplayClass22_0(XRDepthMotionPass___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13126 };
 
-  /// @brief Field passData, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Rendering::Universal::XRDepthMotionPass* _____4__this;
+
+  /// @brief Field passData, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* ___passData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0, ___passData) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0) == 0x18, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0, ___passData) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
 // Dependencies UnityEngine.Matrix4x4, UnityEngine.Rendering.RenderGraphModule.TextureHandle, UnityEngine.Rendering.ShaderTagId, UnityEngine.Rendering.Universal.ScriptableRenderPass
@@ -223,76 +238,90 @@ public:
   // Declarations
   using PassData = ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData;
 
-  using __c__DisplayClass17_0 = ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0;
+  using __c__DisplayClass22_0 = ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0;
 
   /// @brief Field k_MotionOnlyShaderTagId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_k_MotionOnlyShaderTagId, put = setStaticF_k_MotionOnlyShaderTagId)) ::UnityEngine::Rendering::ShaderTagId k_MotionOnlyShaderTagId;
 
-  /// @brief Field m_LastFrameIndex, offset 0x100, size 0x4
+  /// @brief Field k_SpaceWarpNDCModifier, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_k_SpaceWarpNDCModifier, put = setStaticF_k_SpaceWarpNDCModifier)) int32_t k_SpaceWarpNDCModifier;
+
+  /// @brief Field m_LastFrameIndex, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LastFrameIndex, put = __cordl_internal_set_m_LastFrameIndex)) int32_t m_LastFrameIndex;
 
-  /// @brief Field m_PassData, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* m_PassData;
+  /// @brief Field m_PreviousStagingMatrixArray, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PreviousStagingMatrixArray, put = __cordl_internal_set_m_PreviousStagingMatrixArray)) ::ArrayW<::UnityEngine::Matrix4x4>
+      m_PreviousStagingMatrixArray;
 
-  /// @brief Field m_PreviousViewProjection, offset 0xf8, size 0x8
+  /// @brief Field m_PreviousViewProjection, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreviousViewProjection, put = __cordl_internal_set_m_PreviousViewProjection)) ::ArrayW<::UnityEngine::Matrix4x4> m_PreviousViewProjection;
 
-  /// @brief Field m_ViewProjection, offset 0xf0, size 0x8
+  /// @brief Field m_StagingMatrixArray, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_StagingMatrixArray, put = __cordl_internal_set_m_StagingMatrixArray)) ::ArrayW<::UnityEngine::Matrix4x4> m_StagingMatrixArray;
+
+  /// @brief Field m_ViewProjection, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ViewProjection, put = __cordl_internal_set_m_ViewProjection)) ::ArrayW<::UnityEngine::Matrix4x4> m_ViewProjection;
 
-  /// @brief Field m_XRMotionVectorColor, offset 0xc0, size 0x8
+  /// @brief Field m_XRMotionVectorColor, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_XRMotionVectorColor, put = __cordl_internal_set_m_XRMotionVectorColor)) ::UnityEngine::Rendering::RTHandle* m_XRMotionVectorColor;
 
-  /// @brief Field m_XRMotionVectorDepth, offset 0xd8, size 0x8
+  /// @brief Field m_XRMotionVectorDepth, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_XRMotionVectorDepth, put = __cordl_internal_set_m_XRMotionVectorDepth)) ::UnityEngine::Rendering::RTHandle* m_XRMotionVectorDepth;
 
-  /// @brief Field m_XRMotionVectorMaterial, offset 0x108, size 0x8
+  /// @brief Field m_XRMotionVectorMaterial, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_XRMotionVectorMaterial, put = __cordl_internal_set_m_XRMotionVectorMaterial)) ::UnityW<::UnityEngine::Material> m_XRMotionVectorMaterial;
 
-  /// @brief Field xrMotionVectorColor, offset 0xc8, size 0x10
+  /// @brief Field m_XRSpaceWarpRightHandedNDC, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_XRSpaceWarpRightHandedNDC, put = __cordl_internal_set_m_XRSpaceWarpRightHandedNDC)) bool m_XRSpaceWarpRightHandedNDC;
+
+  /// @brief Field xrMotionVectorColor, offset 0x68, size 0x10
   __declspec(property(get = __cordl_internal_get_xrMotionVectorColor, put = __cordl_internal_set_xrMotionVectorColor)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle xrMotionVectorColor;
 
-  /// @brief Field xrMotionVectorDepth, offset 0xe0, size 0x10
+  /// @brief Field xrMotionVectorDepth, offset 0x80, size 0x10
   __declspec(property(get = __cordl_internal_get_xrMotionVectorDepth, put = __cordl_internal_set_xrMotionVectorDepth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle xrMotionVectorDepth;
 
-  /// @brief Method Dispose, addr 0x68aa560, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ce05b0, size 0x80, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetObjectMotionDrawingSettings, addr 0x68a9490, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetObjectMotionDrawingSettings, addr 0x6cdf03c, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DrawingSettings GetObjectMotionDrawingSettings(::UnityEngine::Camera* camera);
 
-  /// @brief Method ImportXRMotionColorAndDepth, addr 0x68a983c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ImportXRMotionColorAndDepth, addr 0x6cdf780, size 0x2c0, virtual false, abstract: false, final false
   inline void ImportXRMotionColorAndDepth(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method InitObjectMotionRendererLists, addr 0x68a9608, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method InitObjectMotionRendererLists, addr 0x6cdf1b4, size 0x1f4, virtual false, abstract: false, final false
   inline void InitObjectMotionRendererLists(::by_ref<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*> passData, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                             ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera);
 
-  /// @brief Method InitPassData, addr 0x68a97fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6cdf6a4, size 0xdc, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*> passData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   static inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* xrMotionVector);
 
-  /// @brief Method Render, addr 0x68a9ae0, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6cdfa40, size 0x77c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method ResetMotionData, addr 0x68a93a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetMotionData, addr 0x6cdef4c, size 0xf0, virtual false, abstract: false, final false
   inline void ResetMotionData();
 
-  /// @brief Method Update, addr 0x68aa1dc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6ce01c0, size 0x3f0, virtual false, abstract: false, final false
   inline void Update(::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
   constexpr int32_t const& __cordl_internal_get_m_LastFrameIndex() const;
 
   constexpr int32_t& __cordl_internal_get_m_LastFrameIndex();
 
-  constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* const& __cordl_internal_get_m_PassData() const;
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& __cordl_internal_get_m_PreviousStagingMatrixArray() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*& __cordl_internal_get_m_PassData();
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4>& __cordl_internal_get_m_PreviousStagingMatrixArray();
 
   constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& __cordl_internal_get_m_PreviousViewProjection() const;
 
   constexpr ::ArrayW<::UnityEngine::Matrix4x4>& __cordl_internal_get_m_PreviousViewProjection();
+
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& __cordl_internal_get_m_StagingMatrixArray() const;
+
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4>& __cordl_internal_get_m_StagingMatrixArray();
 
   constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& __cordl_internal_get_m_ViewProjection() const;
 
@@ -310,6 +339,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_XRMotionVectorMaterial();
 
+  constexpr bool const& __cordl_internal_get_m_XRSpaceWarpRightHandedNDC() const;
+
+  constexpr bool& __cordl_internal_get_m_XRSpaceWarpRightHandedNDC();
+
   constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_xrMotionVectorColor() const;
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_xrMotionVectorColor();
@@ -320,9 +353,11 @@ public:
 
   constexpr void __cordl_internal_set_m_LastFrameIndex(int32_t value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* value);
+  constexpr void __cordl_internal_set_m_PreviousStagingMatrixArray(::ArrayW<::UnityEngine::Matrix4x4> value);
 
   constexpr void __cordl_internal_set_m_PreviousViewProjection(::ArrayW<::UnityEngine::Matrix4x4> value);
+
+  constexpr void __cordl_internal_set_m_StagingMatrixArray(::ArrayW<::UnityEngine::Matrix4x4> value);
 
   constexpr void __cordl_internal_set_m_ViewProjection(::ArrayW<::UnityEngine::Matrix4x4> value);
 
@@ -332,16 +367,22 @@ public:
 
   constexpr void __cordl_internal_set_m_XRMotionVectorMaterial(::UnityW<::UnityEngine::Material> value);
 
+  constexpr void __cordl_internal_set_m_XRSpaceWarpRightHandedNDC(bool value);
+
   constexpr void __cordl_internal_set_xrMotionVectorColor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
   constexpr void __cordl_internal_set_xrMotionVectorDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x68a90e8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cded2c, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* xrMotionVector);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_k_MotionOnlyShaderTagId();
 
+  static inline int32_t getStaticF_k_SpaceWarpNDCModifier();
+
   static inline void setStaticF_k_MotionOnlyShaderTagId(::UnityEngine::Rendering::ShaderTagId value);
+
+  static inline void setStaticF_k_SpaceWarpNDCModifier(int32_t value);
 
 protected:
   // Ctor Parameters []
@@ -358,59 +399,75 @@ public:
   XRDepthMotionPass(XRDepthMotionPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13127 };
+
+  /// @brief Field k_MotionOnlyShaderTagIdName offset 0xffffffff size 0x8
+  static constexpr ::ConstString k_MotionOnlyShaderTagIdName{ u"XRMotionVectors" };
 
   /// @brief Field k_XRViewCount offset 0xffffffff size 0x4
-  static constexpr int32_t k_XRViewCount{ static_cast<int32_t>(0x2) };
+  static constexpr int32_t k_XRViewCount{ static_cast<int32_t>(0x4) };
 
-  /// @brief Field m_PassData, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* ___m_PassData;
+  /// @brief Field k_XRViewCountPerPass offset 0xffffffff size 0x4
+  static constexpr int32_t k_XRViewCountPerPass{ static_cast<int32_t>(0x2) };
 
-  /// @brief Field m_XRMotionVectorColor, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field m_XRMotionVectorColor, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ___m_XRMotionVectorColor;
 
-  /// @brief Field xrMotionVectorColor, offset: 0xc8, size: 0x10, def value: None
+  /// @brief Field xrMotionVectorColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___xrMotionVectorColor;
 
-  /// @brief Field m_XRMotionVectorDepth, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field m_XRMotionVectorDepth, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ___m_XRMotionVectorDepth;
 
-  /// @brief Field xrMotionVectorDepth, offset: 0xe0, size: 0x10, def value: None
+  /// @brief Field xrMotionVectorDepth, offset: 0x80, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___xrMotionVectorDepth;
 
-  /// @brief Field m_ViewProjection, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field m_XRSpaceWarpRightHandedNDC, offset: 0x90, size: 0x1, def value: None
+  bool ___m_XRSpaceWarpRightHandedNDC;
+
+  /// @brief Field m_StagingMatrixArray, offset: 0x98, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Matrix4x4> ___m_StagingMatrixArray;
+
+  /// @brief Field m_PreviousStagingMatrixArray, offset: 0xa0, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::Matrix4x4> ___m_PreviousStagingMatrixArray;
+
+  /// @brief Field m_ViewProjection, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Matrix4x4> ___m_ViewProjection;
 
-  /// @brief Field m_PreviousViewProjection, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field m_PreviousViewProjection, offset: 0xb0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Matrix4x4> ___m_PreviousViewProjection;
 
-  /// @brief Field m_LastFrameIndex, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field m_LastFrameIndex, offset: 0xb8, size: 0x4, def value: None
   int32_t ___m_LastFrameIndex;
 
-  /// @brief Field m_XRMotionVectorMaterial, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field m_XRMotionVectorMaterial, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_XRMotionVectorMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_PassData) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRMotionVectorColor) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRMotionVectorColor) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___xrMotionVectorColor) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___xrMotionVectorColor) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRMotionVectorDepth) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRMotionVectorDepth) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___xrMotionVectorDepth) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___xrMotionVectorDepth) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRSpaceWarpRightHandedNDC) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_ViewProjection) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_StagingMatrixArray) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_PreviousViewProjection) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_PreviousStagingMatrixArray) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_LastFrameIndex) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_ViewProjection) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRMotionVectorMaterial) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_PreviousViewProjection) == 0xb0, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::XRDepthMotionPass) == 0x110, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_LastFrameIndex) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass, ___m_XRMotionVectorMaterial) == 0xc0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::XRDepthMotionPass) == 0xc8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

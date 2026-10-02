@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLODGroup::*)()>(&::GlobalNamespace::CustomLODGroup::Awake)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x597db90;
+  constexpr static std::size_t addrs = 0x5d98368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLODGroup*>(), { "Awake", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CustomLODGroup::*)()>(&::GlobalNamespace::CustomLODGroup::GetActiveLevel)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x597dd08;
+  constexpr static std::size_t addrs = 0x5d984e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLODGroup*>(), { "GetActiveLevel", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLODGroup::*)(int32_t)>(&::GlobalNamespace::CustomLODGroup::SetActiveLevel)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x597dbb4;
+  constexpr static std::size_t addrs = 0x5d9838c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLODGroup::*)()>(&::GlobalNamespace::CustomLODGroup::ToggleLevel)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x597de0c;
+  constexpr static std::size_t addrs = 0x5d985e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLODGroup*>(), { "ToggleLevel", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLODGroup::*)()>(&::GlobalNamespace::CustomLODGroup::DisableAllLevels)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x597dd44;
+  constexpr static std::size_t addrs = 0x5d9851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLODGroup*>(), { "DisableAllLevels", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLODGroup::*)(::ArrayW<::UnityEngine::GameObject*>)>(&::GlobalNamespace::CustomLODGroup::SetLevels)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x597de34;
+  constexpr static std::size_t addrs = 0x5d9860c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* (::GlobalNamespace::CustomLODGroup::*)()>(
     &::GlobalNamespace::CustomLODGroup::DetectLODs)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x597de5c;
+  constexpr static std::size_t addrs = 0x5d98634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLODGroup*>(), { "DetectLODs", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLODGroup::*)()>(&::GlobalNamespace::CustomLODGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597e054;
+  constexpr static std::size_t addrs = 0x5d9882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLODGroup*>(), { ".ctor", {}, {} })));

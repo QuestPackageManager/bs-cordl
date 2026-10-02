@@ -13,40 +13,40 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime___c::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330b1e8;
+  constexpr static std::size_t addrs = 0x3593cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::AppFlow::Initialization::InitializationTime___c._ToString_b__20_0
+//  Writing Method size for method: ::BGLib::AppFlow::Initialization::InitializationTime___c._ToString_b__18_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::InitializationTime___c::*)(
-    ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>)>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_0)> {
+    ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>)>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__18_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330b1ec;
+  constexpr static std::size_t addrs = 0x3593cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(),
-                                                             { "<ToString>b__20_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
+                                                             { "<ToString>b__18_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::AppFlow::Initialization::InitializationTime___c._ToString_b__20_1
+//  Writing Method size for method: ::BGLib::AppFlow::Initialization::InitializationTime___c._ToString_b__18_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::InitializationTime___c::*)(
-    ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>)>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_1)> {
+    ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>)>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__18_1)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x330b1f4;
+  constexpr static std::size_t addrs = 0x3593cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(),
-                                                             { "<ToString>b__20_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
+                                                             { "<ToString>b__18_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
     return ___internal_method;
   }
 };
@@ -58,41 +58,41 @@ inline ::BGLib::AppFlow::Initialization::InitializationTime___c* BGLib::AppFlow:
   return ::cordl_internals::getStaticField<::BGLib::AppFlow::Initialization::InitializationTime___c*, "<>9", ::BGLib::AppFlow::Initialization::InitializationTime___c*>();
 }
 inline void
-BGLib::AppFlow::Initialization::InitializationTime___c::setStaticF___9__20_0(::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__20_0",
+BGLib::AppFlow::Initialization::InitializationTime___c::setStaticF___9__18_0(::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__18_0",
                                     ::BGLib::AppFlow::Initialization::InitializationTime___c*>(
       std::forward<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*>(value));
 }
-inline ::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* BGLib::AppFlow::Initialization::InitializationTime___c::getStaticF___9__20_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__20_0",
+inline ::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* BGLib::AppFlow::Initialization::InitializationTime___c::getStaticF___9__18_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__18_0",
                                            ::BGLib::AppFlow::Initialization::InitializationTime___c*>();
 }
 inline void
-BGLib::AppFlow::Initialization::InitializationTime___c::setStaticF___9__20_1(::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__20_1",
+BGLib::AppFlow::Initialization::InitializationTime___c::setStaticF___9__18_1(::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__18_1",
                                     ::BGLib::AppFlow::Initialization::InitializationTime___c*>(
       std::forward<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*>(value));
 }
-inline ::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* BGLib::AppFlow::Initialization::InitializationTime___c::getStaticF___9__20_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__20_1",
+inline ::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>* BGLib::AppFlow::Initialization::InitializationTime___c::getStaticF___9__18_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>, ::StringW>*, "<>9__18_1",
                                            ::BGLib::AppFlow::Initialization::InitializationTime___c*>();
 }
 inline void BGLib::AppFlow::Initialization::InitializationTime___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_0(
+inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__18_0(
     /* [TupleElementNames(new[] { "header", "duration" })] */ ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(),
-                                                           { "<ToString>b__20_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
+                                                           { "<ToString>b__18_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, tuple);
 }
-inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_1(
+inline ::StringW BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__18_1(
     /* [TupleElementNames(new[] { "header", "duration" })] */ ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(),
-                                                           { "<ToString>b__20_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
+                                                           { "<ToString>b__18_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, tuple);
 }
 inline ::BGLib::AppFlow::Initialization::InitializationTime___c* BGLib::AppFlow::Initialization::InitializationTime___c::New_ctor() {
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::AppFlow::Initialization::InitializationTime* (*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::get_Current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x330a238;
+  constexpr static std::size_t addrs = 0x3592dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { "get_Current", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BGLib::AppFlow::Initialization::InitializationTime*)>(&::BGLib::AppFlow::Initialization::InitializationTime::set_Current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x330a284;
+  constexpr static std::size_t addrs = 0x3592e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(),
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::InitializeWithEditorTimestamp)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x330a2d4;
+  constexpr static std::size_t addrs = 0x3592e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::RunBeforeInitialization)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x330a410;
+  constexpr static std::size_t addrs = 0x3592fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportGameInitializationStarted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33009fc;
+  constexpr static std::size_t addrs = 0x3589034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::ReportPreloadEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3300b04;
+  constexpr static std::size_t addrs = 0x358913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,25 +184,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportSceneContextEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3300c10;
+  constexpr static std::size_t addrs = 0x3589248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { "ReportSceneContextEnded", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BGLib::AppFlow::Initialization::InitializationTime.ReportNoTransitionInstallerEnded
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
-    &::BGLib::AppFlow::Initialization::InitializationTime::ReportNoTransitionInstallerEnded)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x330a544;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { "ReportNoTransitionInstallerEnded", {}, {} })));
     return ___internal_method;
   }
 };
@@ -212,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportInitializationEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3300c6c;
+  constexpr static std::size_t addrs = 0x35892a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,8 +210,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::I
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::ToString)> {
-  constexpr static std::size_t size = 0xac4;
-  constexpr static std::size_t addrs = 0x330a5a0;
+  constexpr static std::size_t size = 0xa20;
+  constexpr static std::size_t addrs = 0x3593108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(),
@@ -238,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (*)(int64_t, int64_t)>(&::BGLib::AppFlow::Initialization::InitializationTime::GetElapsedTime)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x330b064;
+  constexpr static std::size_t addrs = 0x3593b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(),
@@ -251,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::AppFlow::Initialization::InitializationTime::LogEventName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330b104;
+  constexpr static std::size_t addrs = 0x3593bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::AppFlow::Initialization::InitializationTime::LogVerbose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x330b108;
+  constexpr static std::size_t addrs = 0x3593bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x330a398;
+  constexpr static std::size_t addrs = 0x3592f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { ".ctor", {}, {} })));
@@ -380,18 +366,6 @@ constexpr void BGLib::AppFlow::Initialization::InitializationTime::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endInitializationTimeStamp = value;
 }
-constexpr int64_t& BGLib::AppFlow::Initialization::InitializationTime::__cordl_internal_get__endNoTransitionTimeStamp() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____endNoTransitionTimeStamp;
-}
-constexpr int64_t const& BGLib::AppFlow::Initialization::InitializationTime::__cordl_internal_get__endNoTransitionTimeStamp() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____endNoTransitionTimeStamp;
-}
-constexpr void BGLib::AppFlow::Initialization::InitializationTime::__cordl_internal_set__endNoTransitionTimeStamp(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____endNoTransitionTimeStamp = value;
-}
 inline void BGLib::AppFlow::Initialization::InitializationTime::setStaticF__Current_k__BackingField(::BGLib::AppFlow::Initialization::InitializationTime* value) {
   ::cordl_internals::setStaticField<::BGLib::AppFlow::Initialization::InitializationTime*, "<Current>k__BackingField", ::BGLib::AppFlow::Initialization::InitializationTime*>(
       std::forward<::BGLib::AppFlow::Initialization::InitializationTime*>(value));
@@ -430,11 +404,6 @@ inline void BGLib::AppFlow::Initialization::InitializationTime::ReportPreloadEnd
 inline void BGLib::AppFlow::Initialization::InitializationTime::ReportSceneContextEnded() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { "ReportSceneContextEnded", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void BGLib::AppFlow::Initialization::InitializationTime::ReportNoTransitionInstallerEnded() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { "ReportNoTransitionInstallerEnded", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void BGLib::AppFlow::Initialization::InitializationTime::ReportInitializationEnded() {

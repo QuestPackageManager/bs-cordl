@@ -123,6 +123,11 @@ public:
     __E_LocalizationMapPermissionDeniedML = static_cast<int32_t>(0xc4631704),
     __E_LocalizationMapAlreadyExistsML = static_cast<int32_t>(0xc4631703),
     __E_LocalizationMapCannotExportCloudMapML = static_cast<int32_t>(0xc4631702),
+    __E_SpatialAnchorsPermissionDeniedML = static_cast<int32_t>(0xc4631320),
+    __E_SpatialAnchorsNotLocalizedML = static_cast<int32_t>(0xc463131f),
+    __E_SpatialAnchorsOutOfMapBoundsML = static_cast<int32_t>(0xc463131e),
+    __E_SpatialAnchorsSpaceNotLocatableML = static_cast<int32_t>(0xc463131d),
+    __E_SpatialAnchorsAnchorNotFoundML = static_cast<int32_t>(0xc4630f38),
     __E_SpatialAnchorNameNotFoundMSFT = static_cast<int32_t>(0xc4630b4f),
     __E_SpatialAnchorNameInvalidMSFT = static_cast<int32_t>(0xc4630b4e),
     __E_SceneMarkerDataNotStringMSFT = static_cast<int32_t>(0x3b9d0838),
@@ -131,14 +136,61 @@ public:
     __E_SpaceNetworkTimeoutFB = static_cast<int32_t>(0xc462a1d6),
     __E_SpaceNetworkRequestFailedFB = static_cast<int32_t>(0xc462a1d5),
     __E_SpaceCloudStorageDisabledFB = static_cast<int32_t>(0xc462a1d4),
+    __E_SpaceInsufficientResourcesMeta = static_cast<int32_t>(0xc4614248),
+    __E_SpaceStorageAtCapacityMeta = static_cast<int32_t>(0xc4614247),
+    __E_SpaceInsufficientViewMeta = static_cast<int32_t>(0xc4614246),
+    __E_SpacePermissionInsufficientMeta = static_cast<int32_t>(0xc4614245),
+    __E_SpaceRateLimitedMeta = static_cast<int32_t>(0xc4614244),
+    __E_SpaceTooDarkMeta = static_cast<int32_t>(0xc4614243),
+    __E_SpaceTooBrightMeta = static_cast<int32_t>(0xc4614242),
     __E_PassthroughColorLutBufferSizeMismatchMETA = static_cast<int32_t>(0xc46126f0),
     __E_EnvironmentDepthNotAvailableMETA = static_cast<int32_t>(0x3b9f3ab8),
+    __E_RenderModelIdInvalidEXT = static_cast<int32_t>(0xc460a220),
+    __E_RenderModelAssetUnavailableEXT = static_cast<int32_t>(0xc460a21f),
+    __E_RenderModelGltfExtensionRequiredEXT = static_cast<int32_t>(0xc460a21e),
+    __E_NotInteractionRenderModelEXT = static_cast<int32_t>(0xc4609e38),
     __E_HintAlreadySetQCOM = static_cast<int32_t>(0xc4608ab0),
     __E_NotAnAnchorHTC = static_cast<int32_t>(0xc46057e8),
+    __E_SpatialEntityIdInvalidBD = static_cast<int32_t>(0xc45f4678),
+    __E_SpatialSensingServiceUnavailableBD = static_cast<int32_t>(0xc45f4677),
+    __E_AnchorNotSupportedForEntityBD = static_cast<int32_t>(0xc45f4676),
+    __E_SpatialAnchorNotFoundBD = static_cast<int32_t>(0xc45f4290),
+    __E_SpatialAnchorSharingNetworkTimeoutBD = static_cast<int32_t>(0xc45f3ea8),
+    __E_SpatialAnchorSharingAuthenticationFailureBD = static_cast<int32_t>(0xc45f3ea7),
+    __E_SpatialAnchorSharingNetworkFailureBD = static_cast<int32_t>(0xc45f3ea6),
+    __E_SpatialAnchorSharingLocaliztionFailBD = static_cast<int32_t>(0xc45f3ea5),
+    __E_SpatialAnchorSharingMapInsufficientBD = static_cast<int32_t>(0xc45f3ea4),
+    __E_SceneCaptureFailureBD = static_cast<int32_t>(0xc45f3ac0),
     __E_SpaceNotLocatableEXT = static_cast<int32_t>(0xc45eaa38),
     __E_PlaneDetectionPermissionDeniedEXT = static_cast<int32_t>(0xc45eaa37),
+    __E_MisMatchingTrackableTypeAndroid = static_cast<int32_t>(0xc45e44a8),
+    __E_TrackableTypeNotSupportedAndroid = static_cast<int32_t>(0xc45e44a7),
+    __E_AnchorIdNotFoundAndroid = static_cast<int32_t>(0xc45e3cd8),
+    __E_AnchorAlreadyPersistedAndroid = static_cast<int32_t>(0xc45e3cd7),
+    __E_AnchorNotTrackingAndroid = static_cast<int32_t>(0xc45e3cd6),
+    __E_PersistedDataNotReadyAndroid = static_cast<int32_t>(0xc45e3cd5),
+    __E_ServiceNotReadyAndroid = static_cast<int32_t>(0xc45e38f0),
     __E_FuturePendingEXT = static_cast<int32_t>(0xc45e0df7),
     __E_FutureInvalidEXT = static_cast<int32_t>(0xc45e0df6),
+    __E_SystemNotificationPermissionDeniedML = static_cast<int32_t>(0xc45dfe58),
+    __E_SystemNotificationIncompatibleSkuML = static_cast<int32_t>(0xc45dfe57),
+    __E_WorldMeshDetectorPermissionDeniedML = static_cast<int32_t>(0xc45dfa70),
+    __E_WorldMeshDetectorSpaceNotLocatableML = static_cast<int32_t>(0xc45dfa6f),
+    __E_FacialExpressionPermissionDeniedML = static_cast<int32_t>(0x3ba224d0),
+    __E_ColocationDiscoveryNetworkFailedMETA = static_cast<int32_t>(0xc45c7f87),
+    __E_ColocationDiscoveryNoDiscoveryMethodMETA = static_cast<int32_t>(0xc45c7f86),
+    __E_ColocationDiscoveryAlreadyAdvertisingMETA = static_cast<int32_t>(0x3ba3807b),
+    __E_ColocationDiscoveryAlreadyDiscoveringMETA = static_cast<int32_t>(0x3ba3807c),
+    __E_SpaceGroupNotFoundMETA = static_cast<int32_t>(0xc45c7b9e),
+    __E_AnchorNotOwnedByCallerAndroid = static_cast<int32_t>(0xc45a83b8),
+    __E_SpatialCapabilityUnsupportedEXT = static_cast<int32_t>(0xc459eb5f),
+    __E_SpatialEntityIdInvalidEXT = static_cast<int32_t>(0xc459eb5e),
+    __E_SpatialBufferIdInvalidEXT = static_cast<int32_t>(0xc459eb5d),
+    __E_SpatialComponentUnsupportedForCapabilityEXT = static_cast<int32_t>(0xc459eb5c),
+    __E_SpatialCapabilityConfigurationInvalidEXT = static_cast<int32_t>(0xc459eb5b),
+    __E_SpatialComponentNotEnabledEXT = static_cast<int32_t>(0xc459eb5a),
+    __E_SpatialPersistenceScopeUnsupportedEXT = static_cast<int32_t>(0xc4599187),
+    __E_SpatialPersistenceScopeIncompatibleEXT = static_cast<int32_t>(0xc4594b37),
     __E_ExtensionDependencyNotEnabledKHR = static_cast<int32_t>(0xc45a608f),
     __E_PermissionInsufficientKHR = static_cast<int32_t>(0xc45a6090),
     __E_MaxResult = static_cast<int32_t>(0x7fffffff),
@@ -170,6 +222,21 @@ public:
   /// @brief Field ActionsetsAlreadyAttached value: I32(-47)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ActionsetsAlreadyAttached;
 
+  /// @brief Field AnchorAlreadyPersistedAndroid value: I32(-1000457001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AnchorAlreadyPersistedAndroid;
+
+  /// @brief Field AnchorIdNotFoundAndroid value: I32(-1000457000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AnchorIdNotFoundAndroid;
+
+  /// @brief Field AnchorNotOwnedByCallerAndroid value: I32(-1000701000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AnchorNotOwnedByCallerAndroid;
+
+  /// @brief Field AnchorNotSupportedForEntityBD value: I32(-1000389002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AnchorNotSupportedForEntityBD;
+
+  /// @brief Field AnchorNotTrackingAndroid value: I32(-1000457002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AnchorNotTrackingAndroid;
+
   /// @brief Field AndroidThreadSettingsFailureKHR value: I32(-1000003001)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const AndroidThreadSettingsFailureKHR;
 
@@ -187,6 +254,18 @@ public:
 
   /// @brief Field CallOrderInvalid value: I32(-37)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const CallOrderInvalid;
+
+  /// @brief Field ColocationDiscoveryAlreadyAdvertisingMETA value: I32(1000571003)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ColocationDiscoveryAlreadyAdvertisingMETA;
+
+  /// @brief Field ColocationDiscoveryAlreadyDiscoveringMETA value: I32(1000571004)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ColocationDiscoveryAlreadyDiscoveringMETA;
+
+  /// @brief Field ColocationDiscoveryNetworkFailedMETA value: I32(-1000571001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ColocationDiscoveryNetworkFailedMETA;
+
+  /// @brief Field ColocationDiscoveryNoDiscoveryMethodMETA value: I32(-1000571002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ColocationDiscoveryNoDiscoveryMethodMETA;
 
   /// @brief Field ColorSpaceUnsupportedFB value: I32(-1000108000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ColorSpaceUnsupportedFB;
@@ -220,6 +299,9 @@ public:
 
   /// @brief Field ExtensionNotPresent value: I32(-9)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ExtensionNotPresent;
+
+  /// @brief Field FacialExpressionPermissionDeniedML value: I32(1000482000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FacialExpressionPermissionDeniedML;
 
   /// @brief Field FeatureAlreadyCreatedPassthroughFB value: I32(-1000118001)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const FeatureAlreadyCreatedPassthroughFB;
@@ -341,6 +423,9 @@ public:
   /// @brief Field MaxResult value: I32(2147483647)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const MaxResult;
 
+  /// @brief Field MisMatchingTrackableTypeAndroid value: I32(-1000455000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const MisMatchingTrackableTypeAndroid;
+
   /// @brief Field NameDuplicated value: I32(-44)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const NameDuplicated;
 
@@ -349,6 +434,9 @@ public:
 
   /// @brief Field NotAnAnchorHTC value: I32(-1000319000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const NotAnAnchorHTC;
+
+  /// @brief Field NotInteractionRenderModelEXT value: I32(-1000301000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const NotInteractionRenderModelEXT;
 
   /// @brief Field NotPermittedPassthroughFB value: I32(-1000118003)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const NotPermittedPassthroughFB;
@@ -377,6 +465,9 @@ public:
   /// @brief Field PermissionInsufficientKHR value: I32(-1000710000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PermissionInsufficientKHR;
 
+  /// @brief Field PersistedDataNotReadyAndroid value: I32(-1000457003)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PersistedDataNotReadyAndroid;
+
   /// @brief Field PlaneDetectionPermissionDeniedEXT value: I32(-1000429001)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const PlaneDetectionPermissionDeniedEXT;
 
@@ -385,6 +476,15 @@ public:
 
   /// @brief Field ReferenceSpaceUnsupported value: I32(-31)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ReferenceSpaceUnsupported;
+
+  /// @brief Field RenderModelAssetUnavailableEXT value: I32(-1000300001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const RenderModelAssetUnavailableEXT;
+
+  /// @brief Field RenderModelGltfExtensionRequiredEXT value: I32(-1000300002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const RenderModelGltfExtensionRequiredEXT;
+
+  /// @brief Field RenderModelIdInvalidEXT value: I32(-1000300000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const RenderModelIdInvalidEXT;
 
   /// @brief Field RenderModelKeyInvalidFB value: I32(-1000119000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const RenderModelKeyInvalidFB;
@@ -400,6 +500,9 @@ public:
 
   /// @brief Field RuntimeUnavailable value: I32(-51)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const RuntimeUnavailable;
+
+  /// @brief Field SceneCaptureFailureBD value: I32(-1000392000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SceneCaptureFailureBD;
 
   /// @brief Field SceneComponentIdInvalidMSFT value: I32(-1000097001)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SceneComponentIdInvalidMSFT;
@@ -421,6 +524,9 @@ public:
 
   /// @brief Field SecondaryViewConfigurationTypeNotEnabledMSFT value: I32(-1000053000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SecondaryViewConfigurationTypeNotEnabledMSFT;
+
+  /// @brief Field ServiceNotReadyAndroid value: I32(-1000458000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ServiceNotReadyAndroid;
 
   /// @brief Field SessionLost value: I32(-17)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SessionLost;
@@ -461,6 +567,15 @@ public:
   /// @brief Field SpaceComponentStatusPendingFB value: I32(-1000113002)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceComponentStatusPendingFB;
 
+  /// @brief Field SpaceGroupNotFoundMETA value: I32(-1000572002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceGroupNotFoundMETA;
+
+  /// @brief Field SpaceInsufficientResourcesMeta value: I32(-1000259000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceInsufficientResourcesMeta;
+
+  /// @brief Field SpaceInsufficientViewMeta value: I32(-1000259002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceInsufficientViewMeta;
+
   /// @brief Field SpaceLocalizationFailedFB value: I32(-1000169001)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceLocalizationFailedFB;
 
@@ -476,11 +591,89 @@ public:
   /// @brief Field SpaceNotLocatableEXT value: I32(-1000429000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceNotLocatableEXT;
 
+  /// @brief Field SpacePermissionInsufficientMeta value: I32(-1000259003)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpacePermissionInsufficientMeta;
+
+  /// @brief Field SpaceRateLimitedMeta value: I32(-1000259004)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceRateLimitedMeta;
+
+  /// @brief Field SpaceStorageAtCapacityMeta value: I32(-1000259001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceStorageAtCapacityMeta;
+
+  /// @brief Field SpaceTooBrightMeta value: I32(-1000259006)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceTooBrightMeta;
+
+  /// @brief Field SpaceTooDarkMeta value: I32(-1000259005)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpaceTooDarkMeta;
+
   /// @brief Field SpatialAnchorNameInvalidMSFT value: I32(-1000142002)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorNameInvalidMSFT;
 
   /// @brief Field SpatialAnchorNameNotFoundMSFT value: I32(-1000142001)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorNameNotFoundMSFT;
+
+  /// @brief Field SpatialAnchorNotFoundBD value: I32(-1000390000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorNotFoundBD;
+
+  /// @brief Field SpatialAnchorSharingAuthenticationFailureBD value: I32(-1000391001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorSharingAuthenticationFailureBD;
+
+  /// @brief Field SpatialAnchorSharingLocaliztionFailBD value: I32(-1000391003)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorSharingLocaliztionFailBD;
+
+  /// @brief Field SpatialAnchorSharingMapInsufficientBD value: I32(-1000391004)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorSharingMapInsufficientBD;
+
+  /// @brief Field SpatialAnchorSharingNetworkFailureBD value: I32(-1000391002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorSharingNetworkFailureBD;
+
+  /// @brief Field SpatialAnchorSharingNetworkTimeoutBD value: I32(-1000391000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorSharingNetworkTimeoutBD;
+
+  /// @brief Field SpatialAnchorsAnchorNotFoundML value: I32(-1000141000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorsAnchorNotFoundML;
+
+  /// @brief Field SpatialAnchorsNotLocalizedML value: I32(-1000140001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorsNotLocalizedML;
+
+  /// @brief Field SpatialAnchorsOutOfMapBoundsML value: I32(-1000140002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorsOutOfMapBoundsML;
+
+  /// @brief Field SpatialAnchorsPermissionDeniedML value: I32(-1000140000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorsPermissionDeniedML;
+
+  /// @brief Field SpatialAnchorsSpaceNotLocatableML value: I32(-1000140003)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialAnchorsSpaceNotLocatableML;
+
+  /// @brief Field SpatialBufferIdInvalidEXT value: I32(-1000740003)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialBufferIdInvalidEXT;
+
+  /// @brief Field SpatialCapabilityConfigurationInvalidEXT value: I32(-1000740005)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialCapabilityConfigurationInvalidEXT;
+
+  /// @brief Field SpatialCapabilityUnsupportedEXT value: I32(-1000740001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialCapabilityUnsupportedEXT;
+
+  /// @brief Field SpatialComponentNotEnabledEXT value: I32(-1000740006)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialComponentNotEnabledEXT;
+
+  /// @brief Field SpatialComponentUnsupportedForCapabilityEXT value: I32(-1000740004)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialComponentUnsupportedForCapabilityEXT;
+
+  /// @brief Field SpatialEntityIdInvalidBD value: I32(-1000389000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialEntityIdInvalidBD;
+
+  /// @brief Field SpatialEntityIdInvalidEXT value: I32(-1000740002)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialEntityIdInvalidEXT;
+
+  /// @brief Field SpatialPersistenceScopeIncompatibleEXT value: I32(-1000781001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialPersistenceScopeIncompatibleEXT;
+
+  /// @brief Field SpatialPersistenceScopeUnsupportedEXT value: I32(-1000763001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialPersistenceScopeUnsupportedEXT;
+
+  /// @brief Field SpatialSensingServiceUnavailableBD value: I32(-1000389001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SpatialSensingServiceUnavailableBD;
 
   /// @brief Field Success value: I32(0)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const Success;
@@ -494,6 +687,12 @@ public:
   /// @brief Field SystemInvalid value: I32(-18)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SystemInvalid;
 
+  /// @brief Field SystemNotificationIncompatibleSkuML value: I32(-1000473001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SystemNotificationIncompatibleSkuML;
+
+  /// @brief Field SystemNotificationPermissionDeniedML value: I32(-1000473000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const SystemNotificationPermissionDeniedML;
+
   /// @brief Field TimeInvalid value: I32(-30)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const TimeInvalid;
 
@@ -502,6 +701,9 @@ public:
 
   /// @brief Field TimeoutExpored value: I32(1)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const TimeoutExpored;
+
+  /// @brief Field TrackableTypeNotSupportedAndroid value: I32(-1000455001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const TrackableTypeNotSupportedAndroid;
 
   /// @brief Field UnexpectedStatePassthroughFB value: I32(-1000118000)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const UnexpectedStatePassthroughFB;
@@ -515,8 +717,14 @@ public:
   /// @brief Field ViewConfigurationTypeUnsupported value: I32(-41)
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const ViewConfigurationTypeUnsupported;
 
+  /// @brief Field WorldMeshDetectorPermissionDeniedML value: I32(-1000474000)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const WorldMeshDetectorPermissionDeniedML;
+
+  /// @brief Field WorldMeshDetectorSpaceNotLocatableML value: I32(-1000474001)
+  static ::UnityEngine::XR::OpenXR::NativeTypes::XrResult const WorldMeshDetectorSpaceNotLocatableML;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17515 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

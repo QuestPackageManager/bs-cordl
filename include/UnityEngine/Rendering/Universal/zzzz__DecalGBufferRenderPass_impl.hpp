@@ -4,7 +4,6 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FilteringSettings_impl.hpp"
-#include "UnityEngine/Rendering/zzzz__RTHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalGBufferRenderPass_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
@@ -14,22 +13,19 @@
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawGBufferSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalGBufferRenderPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScreenSpaceSettings_def.hpp"
-#include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6860d94;
+  constexpr static std::size_t addrs = 0x6c99634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,25 +109,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68625e4;
+  constexpr static std::size_t addrs = 0x6c9968c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c._RecordRenderGraph_b__15_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c._RecordRenderGraph_b__11_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::*)(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::_RecordRenderGraph_b__15_0)> {
+    &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::_RecordRenderGraph_b__11_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x68625e8;
+  constexpr static std::size_t addrs = 0x6c99690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>(),
-                                                                                           { "<RecordRenderGraph>b__15_0",
+                                                                                           { "<RecordRenderGraph>b__11_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -145,30 +141,30 @@ inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::setSt
 inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*, "<>9", ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::setStaticF___9__15_0(
+inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::setStaticF___9__11_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__15_0", ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>(
+                                    "<>9__11_0", ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::getStaticF___9__15_0() {
+UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::getStaticF___9__11_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__15_0", ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>();
+                                           "<>9__11_0", ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::_RecordRenderGraph_b__15_0(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* data,
+inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c::_RecordRenderGraph_b__11_0(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* data,
                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c*>(),
-                                                                                         { "<RecordRenderGraph>b__15_0",
+                                                                                         { "<RecordRenderGraph>b__11_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -185,8 +181,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::*)(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings*,
                                                                                                                              ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem*, bool)>(
     &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::_ctor)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x6860abc;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x6c97fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,39 +200,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::*)(::UnityEngine::Rendering::Universal::Internal::DeferredLights*)>(
     &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6860d98;
+  constexpr static std::size_t addrs = 0x6c98228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
                                                                                            { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass.Configure
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::Configure)> {
-  constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x6860da0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 7 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::Execute)> {
-  constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x6861218;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -247,7 +215,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*>)>(
     &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::InitPassData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6861548;
+  constexpr static std::size_t addrs = 0x6c98230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
@@ -264,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::ExecutePass)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x686158c;
+  constexpr static std::size_t addrs = 0x6c98274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,8 +250,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::RecordRenderGraph)> {
-  constexpr static std::size_t size = 0xda8;
-  constexpr static std::size_t addrs = 0x68616fc;
+  constexpr static std::size_t size = 0x1164;
+  constexpr static std::size_t addrs = 0x6c983e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
@@ -297,11 +265,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::DecalGBufferRenderPass::OnCameraCleanup)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x68624a4;
+  constexpr static std::size_t addrs = 0x6c99548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 8 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -366,18 +334,6 @@ constexpr void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DeferredLights = value;
 }
-constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*>& UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_get_m_GbufferAttachments() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GbufferAttachments;
-}
-constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_get_m_GbufferAttachments() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GbufferAttachments;
-}
-constexpr void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_set_m_GbufferAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_GbufferAttachments = value;
-}
 constexpr bool& UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_get_m_DecalLayers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DecalLayers;
@@ -389,18 +345,6 @@ constexpr bool const& UnityEngine::Rendering::Universal::DecalGBufferRenderPass:
 constexpr void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_set_m_DecalLayers(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DecalLayers = value;
-}
-constexpr ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*& UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* const& UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
 }
 inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::_ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings,
                                                                              ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers) {
@@ -416,17 +360,6 @@ inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::Setup(::U
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(),
                                                                                          { "Setup", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, deferredLights);
-}
-inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 7 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraTextureDescriptor);
-}
-inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                               ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                     ::by_ref<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*> passData) {
@@ -457,7 +390,7 @@ inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::RecordRen
 }
 inline void UnityEngine::Rendering::Universal::DecalGBufferRenderPass::OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
 }
 inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass*

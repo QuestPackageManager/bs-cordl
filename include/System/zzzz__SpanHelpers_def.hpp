@@ -34,19 +34,19 @@ namespace System {
 class CORDL_TYPE SpanHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClearWithReferences, addr 0x5c5d7b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearWithReferences, addr 0x60773c4, size 0x70, virtual false, abstract: false, final false
   static inline void ClearWithReferences(::by_ref<::System::IntPtr> ip, uint64_t pointerSizeLength);
 
-  /// @brief Method ClearWithoutReferences, addr 0x5c5d58c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ClearWithoutReferences, addr 0x6077198, size 0x22c, virtual false, abstract: false, final false
   static inline void ClearWithoutReferences(::by_ref<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method EndsWithCultureHelper, addr 0x5c5d1a8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method EndsWithCultureHelper, addr 0x6076db4, size 0x1ac, virtual false, abstract: false, final false
   static inline bool EndsWithCultureHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
 
-  /// @brief Method EndsWithCultureIgnoreCaseHelper, addr 0x5c5d354, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method EndsWithCultureIgnoreCaseHelper, addr 0x6076f60, size 0x140, virtual false, abstract: false, final false
   static inline bool EndsWithCultureIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
 
-  /// @brief Method EndsWithOrdinalIgnoreCaseHelper, addr 0x5c5d494, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method EndsWithOrdinalIgnoreCaseHelper, addr 0x60770a0, size 0xf8, virtual false, abstract: false, final false
   static inline bool EndsWithOrdinalIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -59,13 +59,13 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
   static inline int32_t IndexOf(::by_ref<T> searchSpace, T value, int32_t length);
 
-  /// @brief Method IndexOf, addr 0x5c5ca40, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6075eb0, size 0x160, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::by_ref<char16_t> searchSpace, char16_t value, int32_t length);
 
-  /// @brief Method IndexOf, addr 0x5c5c5cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6075a3c, size 0xd4, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::by_ref<uint8_t> searchSpace, int32_t searchSpaceLength, ::by_ref<uint8_t> value, int32_t valueLength);
 
-  /// @brief Method IndexOf, addr 0x5c5c6a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6075b10, size 0x158, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::by_ref<uint8_t> searchSpace, uint8_t value, int32_t length);
 
   /// @brief Method IndexOfAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -73,25 +73,34 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
   static inline int32_t IndexOfAny(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength);
 
-  /// @brief Method IndexOfAny, addr 0x5c5c7f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IndexOfAny, addr 0x6075c68, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t IndexOfAny(::by_ref<uint8_t> searchSpace, int32_t searchSpaceLength, ::by_ref<uint8_t> value, int32_t valueLength);
 
-  /// @brief Method LastIndexOf, addr 0x5c5cba0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method IndexOfCultureHelper, addr 0x6076618, size 0x140, virtual false, abstract: false, final false
+  static inline int32_t IndexOfCultureHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
+
+  /// @brief Method IndexOfCultureIgnoreCaseHelper, addr 0x6076758, size 0x140, virtual false, abstract: false, final false
+  static inline int32_t IndexOfCultureIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
+
+  /// @brief Method IndexOfOrdinalHelper, addr 0x6076898, size 0x14c, virtual false, abstract: false, final false
+  static inline int32_t IndexOfOrdinalHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, bool ignoreCase);
+
+  /// @brief Method LastIndexOf, addr 0x6076010, size 0x198, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(::by_ref<char16_t> searchSpace, char16_t value, int32_t length);
 
-  /// @brief Method LocateFirstFoundChar, addr 0x5c5cd38, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method LocateFirstFoundChar, addr 0x60761a8, size 0x214, virtual false, abstract: false, final false
   static inline int32_t LocateFirstFoundChar(::System::Numerics::Vector_1<uint16_t> match);
 
-  /// @brief Method LocateFirstFoundChar, addr 0x5c5cf4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method LocateFirstFoundChar, addr 0x60763bc, size 0x20, virtual false, abstract: false, final false
   static inline int32_t LocateFirstFoundChar(uint64_t match);
 
-  /// @brief Method LocateLastFoundChar, addr 0x5c5cf6c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method LocateLastFoundChar, addr 0x60763dc, size 0x210, virtual false, abstract: false, final false
   static inline int32_t LocateLastFoundChar(::System::Numerics::Vector_1<uint16_t> match);
 
-  /// @brief Method LocateLastFoundChar, addr 0x5c5d17c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LocateLastFoundChar, addr 0x60765ec, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t LocateLastFoundChar(uint64_t match);
 
-  /// @brief Method SequenceCompareTo, addr 0x5c5c900, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SequenceCompareTo, addr 0x6075d70, size 0x140, virtual false, abstract: false, final false
   static inline int32_t SequenceCompareTo(::by_ref<char16_t> first, int32_t firstLength, ::by_ref<char16_t> second, int32_t secondLength);
 
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -99,8 +108,17 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
   static inline bool SequenceEqual(::by_ref<T> first, ::by_ref<T> second, int32_t length);
 
-  /// @brief Method SequenceEqual, addr 0x5c5c874, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SequenceEqual, addr 0x6075ce4, size 0x8c, virtual false, abstract: false, final false
   static inline bool SequenceEqual(::by_ref<uint8_t> first, ::by_ref<uint8_t> second, uint64_t length);
+
+  /// @brief Method StartsWithCultureHelper, addr 0x60769e4, size 0x1a4, virtual false, abstract: false, final false
+  static inline bool StartsWithCultureHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
+
+  /// @brief Method StartsWithCultureIgnoreCaseHelper, addr 0x6076b88, size 0x140, virtual false, abstract: false, final false
+  static inline bool StartsWithCultureIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::CompareInfo* compareInfo);
+
+  /// @brief Method StartsWithOrdinalIgnoreCaseHelper, addr 0x6076cc8, size 0xec, virtual false, abstract: false, final false
+  static inline bool StartsWithOrdinalIgnoreCaseHelper(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
 protected:
   // Ctor Parameters []

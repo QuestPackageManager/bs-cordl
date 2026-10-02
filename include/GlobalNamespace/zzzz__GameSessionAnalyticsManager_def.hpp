@@ -29,18 +29,18 @@ public:
   /// @brief Field lastSessionStartTime, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_lastSessionStartTime, put = __cordl_internal_set_lastSessionStartTime)) float_t lastSessionStartTime;
 
-  /// @brief Method LogSessionEventOnFocus, addr 0x58b0d94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LogSessionEventOnFocus, addr 0x5cc78ec, size 0xc, virtual false, abstract: false, final false
   inline void LogSessionEventOnFocus(bool hasFocus);
 
-  /// @brief Method LogSessionFinish, addr 0x58b0e74, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionFinish, addr 0x5cc79cc, size 0xf8, virtual false, abstract: false, final false
   inline void LogSessionFinish();
 
-  /// @brief Method LogSessionStart, addr 0x58b0da0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LogSessionStart, addr 0x5cc78f8, size 0xd4, virtual false, abstract: false, final false
   inline void LogSessionStart();
 
   static inline ::GlobalNamespace::GameSessionAnalyticsManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x58b0d88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5cc78e0, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_lastSessionStartTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x58b0f6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc7ac4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   GameSessionAnalyticsManager(GameSessionAnalyticsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5661 };
 
   /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x20, size: 0x8, def value: None

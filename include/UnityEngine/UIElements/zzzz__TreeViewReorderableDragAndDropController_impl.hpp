@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d91fa4;
+  constexpr static std::size_t addrs = 0x721fb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::BaseTreeView*)>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d91edc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x721fa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
@@ -119,11 +119,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::CompareId)> {
   constexpr static std::size_t size = 0x690;
-  constexpr static std::size_t addrs = 0x6d91fb0;
+  constexpr static std::size_t addrs = 0x721fb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 17 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -132,12 +132,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*, bool)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::SetupDragAndDrop)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6d92640;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x72201d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 16 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -146,12 +146,26 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::HandleDragAndDrop)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d92784;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x7220314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 18 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 19 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController.CanDrop
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
+    &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::CanDrop)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x722040c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -160,12 +174,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::IListDragAndDropArgs*)>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::OnDrop)> {
-  constexpr static std::size_t size = 0x774;
-  constexpr static std::size_t addrs = 0x6d92858;
+  constexpr static std::size_t size = 0x784;
+  constexpr static std::size_t addrs = 0x7220414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 19 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 20 }));
     return ___internal_method;
   }
 };
@@ -175,11 +189,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::DragCleanup)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6d92fcc;
+  constexpr static std::size_t addrs = 0x7220b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 20 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 21 }));
     return ___internal_method;
   }
 };
@@ -188,8 +202,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::RestoreExpanded)> {
-  constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6d9310c;
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x7220cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
@@ -202,12 +216,12 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::HandleAutoExpand)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6d9344c;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x7221058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 21 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 22 }));
     return ___internal_method;
   }
 };
@@ -217,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::DelayExpandDropItem)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6d9358c;
+  constexpr static std::size_t addrs = 0x7221224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,8 +244,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::ExpandDropItem)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6d93798;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x7221430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,28 +309,33 @@ inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::_
 }
 inline int32_t UnityEngine::UIElements::TreeViewReorderableDragAndDropController::CompareId(int32_t id1, int32_t id2) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 17 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, id1, id2);
 }
 inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::TreeViewReorderableDragAndDropController::SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds,
                                                                                                                                     bool skipText) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 16 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StartDragArgs>(this, ___internal_method, itemIds, skipText);
 }
 inline ::UnityEngine::UIElements::DragVisualMode UnityEngine::UIElements::TreeViewReorderableDragAndDropController::HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 18 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DragVisualMode>(this, ___internal_method, args);
+}
+inline bool UnityEngine::UIElements::TreeViewReorderableDragAndDropController::CanDrop() {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 16 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 19 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, args);
 }
 inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::DragCleanup() {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 20 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 21 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::RestoreExpanded(::System::Collections::Generic::List_1<int32_t>* ids) {
@@ -326,7 +345,7 @@ inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::R
 }
 inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::HandleAutoExpand(::UnityEngine::UIElements::ReusableCollectionItem* item, ::UnityEngine::Vector2 pointerPosition) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 21 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(), 22 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item, pointerPosition);
 }
 inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::DelayExpandDropItem() {

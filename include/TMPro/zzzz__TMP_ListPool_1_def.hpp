@@ -66,7 +66,7 @@ public:
   TMP_ListPool_1___c(TMP_ListPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,7 +111,7 @@ public:
   TMP_ListPool_1(TMP_ListPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

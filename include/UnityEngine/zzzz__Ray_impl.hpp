@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Ray::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Ray::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6a81194;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6ed396c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Ray::*)()>(&::UnityEngine::Ray::get_origin)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a81294;
+  constexpr static std::size_t addrs = 0x6ed3a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Ray>(), { "get_origin", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Ray::*)(::UnityEngine::Vector3)>(&::UnityEngine::Ray::set_origin)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a812a0;
+  constexpr static std::size_t addrs = 0x6ed3a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Ray>(), { "set_origin", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Ray::*)()>(&::UnityEngine::Ray::get_direction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a812ac;
+  constexpr static std::size_t addrs = 0x6ed3a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Ray>(), { "get_direction", {}, {} })));
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Ray::*)(::UnityEngine::Vector3)>(&::UnityEngine::Ray::set_direction)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6a812b8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6ed3a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,8 +71,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Ray:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Ray::*)(float_t)>(&::UnityEngine::Ray::GetPoint)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a813b0;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6ed3b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Ray>(), { "GetPoint", {}, { ::i2c::type_of<float_t>() } })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Ray::*)()>(&::UnityEngine::Ray::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a813d8;
+  constexpr static std::size_t addrs = 0x6ed3b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Ray>(), { ::i2c::class_of<::UnityEngine::Ray>(), 3 }));
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Ray::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Ray::ToString)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6a813e8;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6ed3b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

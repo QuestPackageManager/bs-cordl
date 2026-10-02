@@ -5,7 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativePagedList_1)
@@ -19,6 +21,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
+struct NativeArrayOptions;
+}
+namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
@@ -27,6 +32,9 @@ template <typename T> struct NativeSlice_1;
 namespace UnityEngine::UIElements::UIR {
 template <typename T> struct NativePagedList_1_Enumerator;
 }
+namespace UnityEngine::UIElements::UIR {
+template <typename T> struct NativePagedList_1_NativeArrayAllocator;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class NativePagedList_1;
@@ -34,11 +42,55 @@ template <typename T> class NativePagedList_1;
 namespace UnityEngine::UIElements::UIR {
 template <typename T> struct NativePagedList_1_Enumerator;
 }
+namespace UnityEngine::UIElements::UIR {
+template <typename T> struct NativePagedList_1_NativeArrayAllocator;
+}
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::NativePagedList_1);
 MARK_GEN_VAL_T(::UnityEngine::UIElements::UIR::NativePagedList_1_Enumerator);
+MARK_GEN_VAL_T(::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::NativePagedList_1, "UnityEngine.UIElements.UIR", "NativePagedList`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UIR::NativePagedList_1_Enumerator, "UnityEngine.UIElements.UIR", "NativePagedList`1/Enumerator");
+DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator, "UnityEngine.UIElements.UIR", "NativePagedList`1/NativeArrayAllocator");
+// Dependencies Unity.Collections.Allocator, Unity.Collections.MemoryLabel
+namespace UnityEngine::UIElements::UIR {
+// cpp template
+template <typename T>
+// Is value type: true
+// CS Name: UnityEngine.UIElements.UIR.NativePagedList`1/NativeArrayAllocator<T>
+struct CORDL_TYPE NativePagedList_1_NativeArrayAllocator {
+public:
+  // Declarations
+  /// @brief Method CreateArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeArray_1<T> CreateArray(int32_t length, ::Unity::Collections::NativeArrayOptions options);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW profilerName, ::Unity::Collections::Allocator allocator);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativePagedList_1_NativeArrayAllocator();
+
+  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MemoryLabel", ty:
+  // "::Unity::Collections::MemoryLabel", modifiers: "", def_value: None, comment: None }]
+  constexpr NativePagedList_1_NativeArrayAllocator(::Unity::Collections::Allocator m_Allocator, ::Unity::Collections::MemoryLabel m_MemoryLabel) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5428 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
+  /// @brief Field m_Allocator, offset: 0x0, size: 0x4, def value: None
+  ::Unity::Collections::Allocator m_Allocator;
+
+  /// @brief Field m_MemoryLabel, offset: 0x8, size: 0x10, def value: None
+  ::Unity::Collections::MemoryLabel m_MemoryLabel;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements::UIR
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
@@ -69,7 +121,7 @@ public:
                                          int32_t m_IndexOfCurrentPage, int32_t m_CountInCurrentPage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5429 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -93,7 +145,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.Object, Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.UIElements.UIR.NativePagedList`1::NativeArrayAllocator<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -104,7 +156,9 @@ public:
   // Declarations
   using Enumerator = ::UnityEngine::UIElements::UIR::NativePagedList_1_Enumerator<T>;
 
-  /// @brief Field <disposed>k__BackingField, offset 0x48, size 0x1
+  using NativeArrayAllocator = ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T>;
+
+  /// @brief Field <disposed>k__BackingField, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
@@ -115,17 +169,19 @@ public:
   /// @brief Field m_CountInLastPage, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CountInLastPage, put = __cordl_internal_set_m_CountInLastPage)) int32_t m_CountInLastPage;
 
-  /// @brief Field m_Enumerator, offset 0x40, size 0x8
+  /// @brief Field m_Enumerator, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Enumerator, put = __cordl_internal_set_m_Enumerator)) ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* m_Enumerator;
 
-  /// @brief Field m_FirstPageAllocator, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_FirstPageAllocator, put = __cordl_internal_set_m_FirstPageAllocator)) ::Unity::Collections::Allocator m_FirstPageAllocator;
+  /// @brief Field m_FirstPageAllocator, offset 0x38, size 0x18
+  __declspec(property(get = __cordl_internal_get_m_FirstPageAllocator, put = __cordl_internal_set_m_FirstPageAllocator)) ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T>
+      m_FirstPageAllocator;
 
   /// @brief Field m_LastPage, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_m_LastPage, put = __cordl_internal_set_m_LastPage)) ::Unity::Collections::NativeArray_1<T> m_LastPage;
 
-  /// @brief Field m_OtherPagesAllocator, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_OtherPagesAllocator, put = __cordl_internal_set_m_OtherPagesAllocator)) ::Unity::Collections::Allocator m_OtherPagesAllocator;
+  /// @brief Field m_OtherPagesAllocator, offset 0x50, size 0x18
+  __declspec(property(get = __cordl_internal_get_m_OtherPagesAllocator, put = __cordl_internal_set_m_OtherPagesAllocator)) ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T>
+      m_OtherPagesAllocator;
 
   /// @brief Field m_Pages, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Pages, put = __cordl_internal_set_m_Pages)) ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>* m_Pages;
@@ -151,7 +207,7 @@ public:
   /// @brief Method GetPages, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* GetPages();
 
-  static inline ::UnityEngine::UIElements::UIR::NativePagedList_1<T>* New_ctor(int32_t poolCapacity, ::Unity::Collections::Allocator firstPageAllocator,
+  static inline ::UnityEngine::UIElements::UIR::NativePagedList_1<T>* New_ctor(int32_t poolCapacity, ::StringW profilerName, ::Unity::Collections::Allocator firstPageAllocator,
                                                                                ::Unity::Collections::Allocator otherPagesAllocator);
 
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -173,17 +229,17 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>*& __cordl_internal_get_m_Enumerator();
 
-  constexpr ::Unity::Collections::Allocator const& __cordl_internal_get_m_FirstPageAllocator() const;
+  constexpr ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T> const& __cordl_internal_get_m_FirstPageAllocator() const;
 
-  constexpr ::Unity::Collections::Allocator& __cordl_internal_get_m_FirstPageAllocator();
+  constexpr ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T>& __cordl_internal_get_m_FirstPageAllocator();
 
   constexpr ::Unity::Collections::NativeArray_1<T> const& __cordl_internal_get_m_LastPage() const;
 
   constexpr ::Unity::Collections::NativeArray_1<T>& __cordl_internal_get_m_LastPage();
 
-  constexpr ::Unity::Collections::Allocator const& __cordl_internal_get_m_OtherPagesAllocator() const;
+  constexpr ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T> const& __cordl_internal_get_m_OtherPagesAllocator() const;
 
-  constexpr ::Unity::Collections::Allocator& __cordl_internal_get_m_OtherPagesAllocator();
+  constexpr ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T>& __cordl_internal_get_m_OtherPagesAllocator();
 
   constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>* const& __cordl_internal_get_m_Pages() const;
 
@@ -197,16 +253,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Enumerator(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* value);
 
-  constexpr void __cordl_internal_set_m_FirstPageAllocator(::Unity::Collections::Allocator value);
+  constexpr void __cordl_internal_set_m_FirstPageAllocator(::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T> value);
 
   constexpr void __cordl_internal_set_m_LastPage(::Unity::Collections::NativeArray_1<T> value);
 
-  constexpr void __cordl_internal_set_m_OtherPagesAllocator(::Unity::Collections::Allocator value);
+  constexpr void __cordl_internal_set_m_OtherPagesAllocator(::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T> value);
 
   constexpr void __cordl_internal_set_m_Pages(::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t poolCapacity, ::Unity::Collections::Allocator firstPageAllocator, ::Unity::Collections::Allocator otherPagesAllocator);
+  inline void _ctor(int32_t poolCapacity, ::StringW profilerName, ::Unity::Collections::Allocator firstPageAllocator, ::Unity::Collections::Allocator otherPagesAllocator);
 
   /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -234,7 +290,7 @@ public:
   NativePagedList_1(NativePagedList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5430 };
 
   /// @brief Field k_PoolCapacity, offset: 0x10, size: 0x4, def value: None
   int32_t ___k_PoolCapacity;
@@ -248,18 +304,18 @@ public:
   /// @brief Field m_CountInLastPage, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_CountInLastPage;
 
-  /// @brief Field m_FirstPageAllocator, offset: 0x34, size: 0x4, def value: None
-  ::Unity::Collections::Allocator ___m_FirstPageAllocator;
+  /// @brief Field m_FirstPageAllocator, offset: 0x38, size: 0x18, def value: None
+  ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T> ___m_FirstPageAllocator;
 
-  /// @brief Field m_OtherPagesAllocator, offset: 0x38, size: 0x4, def value: None
-  ::Unity::Collections::Allocator ___m_OtherPagesAllocator;
+  /// @brief Field m_OtherPagesAllocator, offset: 0x50, size: 0x18, def value: None
+  ::UnityEngine::UIElements::UIR::NativePagedList_1_NativeArrayAllocator<T> ___m_OtherPagesAllocator;
 
-  /// @brief Field m_Enumerator, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_Enumerator, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* ___m_Enumerator;
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
-  /// @brief Field <disposed>k__BackingField, offset: 0x48, size: 0x1, def value: None
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// @brief Field <disposed>k__BackingField, offset: 0x70, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

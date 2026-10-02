@@ -16,8 +16,8 @@ struct AsyncRequestNativeArrayData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::AsyncRequestNativeArrayData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AsyncRequestNativeArrayData, "UnityEngine.Rendering", "AsyncRequestNativeArrayData");
-// [UsedByNativeCode]
 // [NativeHeader("Runtime/Graphics/AsyncGPUReadbackManaged.h")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -39,7 +39,7 @@ public:
   constexpr AsyncRequestNativeArrayData(void* nativeArrayBuffer, int64_t lengthInBytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10296 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -57,7 +57,13 @@ namespace UnityEngine::Rendering::Universal {
 class UniversalRenderingData;
 }
 namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine::Rendering {
 class ContextContainer;
+}
+namespace UnityEngine::Rendering {
+class RTHandle;
 }
 namespace UnityEngine::Rendering {
 class RasterCommandBuffer;
@@ -79,6 +85,9 @@ struct StencilState;
 }
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace UnityEngine {
+struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal::Internal {
@@ -107,39 +116,43 @@ public:
   /// @brief Field albedoHdl, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_albedoHdl, put = __cordl_internal_set_albedoHdl)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle albedoHdl;
 
-  /// @brief Field batchLayerMask, offset 0x3c, size 0x4
+  /// @brief Field batchLayerMask, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_batchLayerMask, put = __cordl_internal_set_batchLayerMask)) uint32_t batchLayerMask;
 
-  /// @brief Field cameraData, offset 0x30, size 0x8
+  /// @brief Field cameraData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_cameraData, put = __cordl_internal_set_cameraData)) ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData;
 
-  /// @brief Field debugRendererLists, offset 0x60, size 0x8
+  /// @brief Field debugRendererLists, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_debugRendererLists, put = __cordl_internal_set_debugRendererLists)) ::UnityEngine::Rendering::Universal::DebugRendererLists* debugRendererLists;
 
   /// @brief Field depthHdl, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_depthHdl, put = __cordl_internal_set_depthHdl)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHdl;
 
-  /// @brief Field isActiveTargetBackBuffer, offset 0x40, size 0x1
+  /// @brief Field isActiveTargetBackBuffer, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_isActiveTargetBackBuffer, put = __cordl_internal_set_isActiveTargetBackBuffer)) bool isActiveTargetBackBuffer;
 
-  /// @brief Field isOpaque, offset 0x38, size 0x1
+  /// @brief Field isOpaque, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_isOpaque, put = __cordl_internal_set_isOpaque)) bool isOpaque;
 
-  /// @brief Field objectsWithErrorRendererList, offset 0x80, size 0x18
+  /// @brief Field objectsWithErrorRendererList, offset 0x90, size 0x18
   __declspec(property(get = __cordl_internal_get_objectsWithErrorRendererList,
                       put = __cordl_internal_set_objectsWithErrorRendererList)) ::UnityEngine::Rendering::RendererList objectsWithErrorRendererList;
 
-  /// @brief Field objectsWithErrorRendererListHdl, offset 0x50, size 0xc
+  /// @brief Field objectsWithErrorRendererListHdl, offset 0x60, size 0xc
   __declspec(property(get = __cordl_internal_get_objectsWithErrorRendererListHdl,
                       put = __cordl_internal_set_objectsWithErrorRendererListHdl)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle objectsWithErrorRendererListHdl;
 
-  /// @brief Field rendererList, offset 0x68, size 0x18
+  /// @brief Field rendererList, offset 0x78, size 0x18
   __declspec(property(get = __cordl_internal_get_rendererList, put = __cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RendererList rendererList;
 
-  /// @brief Field rendererListHdl, offset 0x44, size 0xc
+  /// @brief Field rendererListHdl, offset 0x54, size 0xc
   __declspec(property(get = __cordl_internal_get_rendererListHdl, put = __cordl_internal_set_rendererListHdl)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererListHdl;
 
-  /// @brief Field shouldTransparentsReceiveShadows, offset 0x39, size 0x1
+  /// @brief Field screenSpaceIrradianceHdl, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get_screenSpaceIrradianceHdl,
+                      put = __cordl_internal_set_screenSpaceIrradianceHdl)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle screenSpaceIrradianceHdl;
+
+  /// @brief Field shouldTransparentsReceiveShadows, offset 0x49, size 0x1
   __declspec(property(get = __cordl_internal_get_shouldTransparentsReceiveShadows, put = __cordl_internal_set_shouldTransparentsReceiveShadows)) bool shouldTransparentsReceiveShadows;
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* New_ctor();
@@ -188,6 +201,10 @@ public:
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererListHdl();
 
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_screenSpaceIrradianceHdl() const;
+
+  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_screenSpaceIrradianceHdl();
+
   constexpr bool const& __cordl_internal_get_shouldTransparentsReceiveShadows() const;
 
   constexpr bool& __cordl_internal_get_shouldTransparentsReceiveShadows();
@@ -214,9 +231,11 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
+  constexpr void __cordl_internal_set_screenSpaceIrradianceHdl(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+
   constexpr void __cordl_internal_set_shouldTransparentsReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x69010c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d271d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -234,7 +253,7 @@ public:
   DrawObjectsPass_PassData(DrawObjectsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13320 };
 
   /// @brief Field albedoHdl, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___albedoHdl;
@@ -242,34 +261,37 @@ public:
   /// @brief Field depthHdl, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___depthHdl;
 
-  /// @brief Field cameraData, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field screenSpaceIrradianceHdl, offset: 0x30, size: 0x10, def value: None
+  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___screenSpaceIrradianceHdl;
+
+  /// @brief Field cameraData, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
 
-  /// @brief Field isOpaque, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field isOpaque, offset: 0x48, size: 0x1, def value: None
   bool ___isOpaque;
 
-  /// @brief Field shouldTransparentsReceiveShadows, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field shouldTransparentsReceiveShadows, offset: 0x49, size: 0x1, def value: None
   bool ___shouldTransparentsReceiveShadows;
 
-  /// @brief Field batchLayerMask, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field batchLayerMask, offset: 0x4c, size: 0x4, def value: None
   uint32_t ___batchLayerMask;
 
-  /// @brief Field isActiveTargetBackBuffer, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field isActiveTargetBackBuffer, offset: 0x50, size: 0x1, def value: None
   bool ___isActiveTargetBackBuffer;
 
-  /// @brief Field rendererListHdl, offset: 0x44, size: 0xc, def value: None
+  /// @brief Field rendererListHdl, offset: 0x54, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererListHdl;
 
-  /// @brief Field objectsWithErrorRendererListHdl, offset: 0x50, size: 0xc, def value: None
+  /// @brief Field objectsWithErrorRendererListHdl, offset: 0x60, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___objectsWithErrorRendererListHdl;
 
-  /// @brief Field debugRendererLists, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field debugRendererLists, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugRendererLists* ___debugRendererLists;
 
-  /// @brief Field rendererList, offset: 0x68, size: 0x18, def value: None
+  /// @brief Field rendererList, offset: 0x78, size: 0x18, def value: None
   ::UnityEngine::Rendering::RendererList ___rendererList;
 
-  /// @brief Field objectsWithErrorRendererList, offset: 0x80, size: 0x18, def value: None
+  /// @brief Field objectsWithErrorRendererList, offset: 0x90, size: 0x18, def value: None
   ::UnityEngine::Rendering::RendererList ___objectsWithErrorRendererList;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -279,27 +301,29 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObject
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___depthHdl) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___cameraData) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___screenSpaceIrradianceHdl) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___isOpaque) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___cameraData) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___shouldTransparentsReceiveShadows) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___isOpaque) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___batchLayerMask) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___shouldTransparentsReceiveShadows) == 0x49, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___isActiveTargetBackBuffer) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___batchLayerMask) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___rendererListHdl) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___isActiveTargetBackBuffer) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___objectsWithErrorRendererListHdl) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___rendererListHdl) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___debugRendererLists) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___objectsWithErrorRendererListHdl) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___rendererList) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___debugRendererLists) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___objectsWithErrorRendererList) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___rendererList) == 0x78, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData) == 0x98, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData, ___objectsWithErrorRendererList) == 0x90, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
 // [CompilerGenerated]
@@ -313,28 +337,28 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* __9;
 
-  /// @brief Field <>9__17_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__17_0,
-                      put = setStaticF___9__17_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__17_0;
+  /// @brief Field <>9__19_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__19_0,
+                      put = setStaticF___9__19_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*,
+                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__19_0;
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* New_ctor();
 
-  /// @brief Method <Render>b__17_0, addr 0x6902874, size 0x13c, virtual false, abstract: false, final false
-  inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+  /// @brief Method <Render>b__19_0, addr 0x6d27234, size 0x34c, virtual false, abstract: false, final false
+  inline void _Render_b__19_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6902870, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d27230, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* getStaticF___9();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__17_0();
+  getStaticF___9__19_0();
 
   static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* value);
 
-  static inline void setStaticF___9__17_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*,
+  static inline void setStaticF___9__19_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
 
 protected:
@@ -352,7 +376,7 @@ public:
   DrawObjectsPass___c(DrawObjectsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -371,51 +395,55 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c;
 
-  /// @brief Field m_FilteringSettings, offset 0xb8, size 0x20
+  /// @brief Field m_FilteringSettings, offset 0x60, size 0x20
   __declspec(property(get = __cordl_internal_get_m_FilteringSettings, put = __cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings m_FilteringSettings;
 
-  /// @brief Field m_IsActiveTargetBackBuffer, offset 0x151, size 0x1
+  /// @brief Field m_IsActiveTargetBackBuffer, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsActiveTargetBackBuffer, put = __cordl_internal_set_m_IsActiveTargetBackBuffer)) bool m_IsActiveTargetBackBuffer;
 
-  /// @brief Field m_IsOpaque, offset 0x150, size 0x1
+  /// @brief Field m_IsOpaque, offset 0xf8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsOpaque, put = __cordl_internal_set_m_IsOpaque)) bool m_IsOpaque;
 
-  /// @brief Field m_PassData, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* m_PassData;
-
-  /// @brief Field m_RenderStateBlock, offset 0xd8, size 0x6c
+  /// @brief Field m_RenderStateBlock, offset 0x80, size 0x6c
   __declspec(property(get = __cordl_internal_get_m_RenderStateBlock, put = __cordl_internal_set_m_RenderStateBlock)) ::UnityEngine::Rendering::RenderStateBlock m_RenderStateBlock;
 
-  /// @brief Field m_ShaderTagIdList, offset 0x148, size 0x8
+  /// @brief Field m_ShaderTagIdList, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Field m_ShouldTransparentsReceiveShadows, offset 0x152, size 0x1
+  /// @brief Field m_ShouldTransparentsReceiveShadows, offset 0xf9, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShouldTransparentsReceiveShadows, put = __cordl_internal_set_m_ShouldTransparentsReceiveShadows)) bool m_ShouldTransparentsReceiveShadows;
 
   /// @brief Field s_DrawObjectPassDataPropID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_DrawObjectPassDataPropID, put = setStaticF_s_DrawObjectPassDataPropID)) int32_t s_DrawObjectPassDataPropID;
 
-  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
-  /// @brief Method Execute, addr 0x69010c4, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method CanDisableZWrite, addr 0x6d26060, size 0x4c, virtual false, abstract: false, final false
+  static inline bool CanDisableZWrite(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isOpaque);
+
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Configure, addr 0x6d25408, size 0x4, virtual true, abstract: false, final false
+  inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
+
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Execute, addr 0x6d2540c, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6901698, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d25938, size 0x3d0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data,
                                  ::UnityEngine::Rendering::RendererList rendererList, ::UnityEngine::Rendering::RendererList objectsWithErrorRendererList, bool yFlip);
 
-  /// @brief Method Init, addr 0x6900c6c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d2553c, size 0x2ac, virtual false, abstract: false, final false
   inline void Init(bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                    ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference, ::ArrayW<::UnityEngine::Rendering::ShaderTagId> shaderTagIds);
 
-  /// @brief Method InitPassData, addr 0x69012fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d25d08, size 0x38, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*> passData,
                            uint32_t batchLayerMask, bool isActiveTargetBackBuffer);
 
-  /// @brief Method InitRendererLists, addr 0x690133c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6d25d40, size 0x320, virtual false, abstract: false, final false
   inline void InitRendererLists(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                 ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*> passData,
-                                ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
+                                ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph, bool zWriteOff);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass* New_ctor(::UnityEngine::Rendering::Universal::URPProfileId profileId, bool opaque,
                                                                                          ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
@@ -431,11 +459,15 @@ public:
                                                                                          ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                                                                                          ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method Render, addr 0x690190c, size 0xea0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d260ac, size 0x10bc, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle mainShadowsTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle additionalShadowsTexture,
-                     uint32_t batchLayerMask);
+                     uint32_t batchLayerMask, bool isMainOpaquePass);
+
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Method Setup, addr 0x6d25404, size 0x4, virtual false, abstract: false, final false
+  inline void Setup(::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* renderingLayersTexture, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
   constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
 
@@ -448,10 +480,6 @@ public:
   constexpr bool const& __cordl_internal_get_m_IsOpaque() const;
 
   constexpr bool& __cordl_internal_get_m_IsOpaque();
-
-  constexpr ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* const& __cordl_internal_get_m_PassData() const;
-
-  constexpr ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*& __cordl_internal_get_m_PassData();
 
   constexpr ::UnityEngine::Rendering::RenderStateBlock const& __cordl_internal_get_m_RenderStateBlock() const;
 
@@ -471,23 +499,21 @@ public:
 
   constexpr void __cordl_internal_set_m_IsOpaque(bool value);
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* value);
-
   constexpr void __cordl_internal_set_m_RenderStateBlock(::UnityEngine::Rendering::RenderStateBlock value);
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
   constexpr void __cordl_internal_set_m_ShouldTransparentsReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x6900f8c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2582c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profileId, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method .ctor, addr 0x6900f48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d257e8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange,
                     ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method .ctor, addr 0x6900b18, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d25410, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, ::ArrayW<::UnityEngine::Rendering::ShaderTagId> shaderTagIds, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
@@ -510,46 +536,42 @@ public:
   DrawObjectsPass(DrawObjectsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13322 };
 
-  /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
-  ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;
-
-  /// @brief Field m_RenderStateBlock, offset: 0xd8, size: 0x6c, def value: None
-  ::UnityEngine::Rendering::RenderStateBlock ___m_RenderStateBlock;
-
-  /// @brief Field m_ShaderTagIdList, offset: 0x148, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* ___m_ShaderTagIdList;
-
-  /// @brief Field m_IsOpaque, offset: 0x150, size: 0x1, def value: None
-  bool ___m_IsOpaque;
-
-  /// @brief Field m_IsActiveTargetBackBuffer, offset: 0x151, size: 0x1, def value: None
+  /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
+  /// @brief Field m_IsActiveTargetBackBuffer, offset: 0x5c, size: 0x1, def value: None
   bool ___m_IsActiveTargetBackBuffer;
 
-  /// @brief Field m_ShouldTransparentsReceiveShadows, offset: 0x152, size: 0x1, def value: None
-  bool ___m_ShouldTransparentsReceiveShadows;
+  /// @brief Field m_FilteringSettings, offset: 0x60, size: 0x20, def value: None
+  ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;
 
-  /// @brief Field m_PassData, offset: 0x158, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* ___m_PassData;
+  /// @brief Field m_RenderStateBlock, offset: 0x80, size: 0x6c, def value: None
+  ::UnityEngine::Rendering::RenderStateBlock ___m_RenderStateBlock;
+
+  /// @brief Field m_ShaderTagIdList, offset: 0xf0, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* ___m_ShaderTagIdList;
+
+  /// @brief Field m_IsOpaque, offset: 0xf8, size: 0x1, def value: None
+  bool ___m_IsOpaque;
+
+  /// @brief Field m_ShouldTransparentsReceiveShadows, offset: 0xf9, size: 0x1, def value: None
+  bool ___m_ShouldTransparentsReceiveShadows;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_FilteringSettings) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_IsActiveTargetBackBuffer) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_RenderStateBlock) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_FilteringSettings) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_ShaderTagIdList) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_RenderStateBlock) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_IsOpaque) == 0x150, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_ShaderTagIdList) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_IsActiveTargetBackBuffer) == 0x151, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_IsOpaque) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_ShouldTransparentsReceiveShadows) == 0x152, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_ShouldTransparentsReceiveShadows) == 0xf9, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass, ___m_PassData) == 0x158, "Offset mismatch!");
-
-static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass) == 0x160, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass) == 0x100, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal

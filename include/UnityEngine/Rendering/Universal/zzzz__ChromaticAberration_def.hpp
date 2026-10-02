@@ -33,11 +33,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x687dc90, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cbd140, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// [Obsolete("Unused #from(2023.1)", false)]
-  /// @brief Method IsTileCompatible, addr 0x687dcc0, size 0x8, virtual true, abstract: false, final true
+  /// [Obsolete("Unused. #from(2023.1)")]
+  /// @brief Method IsTileCompatible, addr 0x6cbd170, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ChromaticAberration* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_intensity(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x687dcc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbd178, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -69,7 +69,7 @@ public:
   ChromaticAberration(ChromaticAberration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13028 };
 
   /// [Tooltip("Use the slider to set the strength of the Chromatic Aberration effect.")]
   /// @brief Field intensity, offset: 0x38, size: 0x8, def value: None

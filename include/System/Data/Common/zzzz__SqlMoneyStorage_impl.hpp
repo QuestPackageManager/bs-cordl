@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlMoneyStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::SqlMoneyStorage::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x60c4e98;
+  constexpr static std::size_t addrs = 0x64e1350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlMoneyStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::SqlMoneyStorage::Aggregate)> {
   constexpr static std::size_t size = 0xe78;
-  constexpr static std::size_t addrs = 0x60c4fc8;
+  constexpr static std::size_t addrs = 0x64e1480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::SqlMoneyStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SqlMoneyStorage::Compare)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60c5e40;
+  constexpr static std::size_t addrs = 0x64e22f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::SqlMoneyStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SqlMoneyStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60c5ee8;
+  constexpr static std::size_t addrs = 0x64e23a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlMoneyStorage::*)(::System::Object*)>(&::System::Data::Common::SqlMoneyStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60c5f9c;
+  constexpr static std::size_t addrs = 0x64e2454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlMoneyStorage::*)(int32_t, int32_t)>(&::System::Data::Common::SqlMoneyStorage::Copy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60c6020;
+  constexpr static std::size_t addrs = 0x64e24d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlMoneyStorage::*)(int32_t)>(&::System::Data::Common::SqlMoneyStorage::Get)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x60c605c;
+  constexpr static std::size_t addrs = 0x64e2514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Common::SqlMoneyStorage::*)(int32_t)>(&::System::Data::Common::SqlMoneyStorage::IsNull)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x60c60e8;
+  constexpr static std::size_t addrs = 0x64e25a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlMoneyStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::SqlMoneyStorage::Set)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x60c6174;
+  constexpr static std::size_t addrs = 0x64e262c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlMoneyStorage::*)(int32_t)>(&::System::Data::Common::SqlMoneyStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60c61bc;
+  constexpr static std::size_t addrs = 0x64e2674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlMoneyStorage::*)(::StringW)>(&::System::Data::Common::SqlMoneyStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x60c6274;
+  constexpr static std::size_t addrs = 0x64e272c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::SqlMoneyStorage::*)(::System::Object*)>(&::System::Data::Common::SqlMoneyStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x60c6524;
+  constexpr static std::size_t addrs = 0x64e29dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::SqlMoneyStorage::*)(int32_t)>(&::System::Data::Common::SqlMoneyStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60c6784;
+  constexpr static std::size_t addrs = 0x64e2c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlMoneyStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::SqlMoneyStorage::CopyValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x60c67d0;
+  constexpr static std::size_t addrs = 0x64e2c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::SqlMoneyStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::SqlMoneyStorage::SetStorage)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60c68dc;
+  constexpr static std::size_t addrs = 0x64e2d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method HasLineInfo, addr 0x61b4c34, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x65dc7b0, size 0xa4, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* New_ctor(::System::Xml::XmlReader* reader);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlLineInfo(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method .ctor, addr 0x61b3a38, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65db588, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method get_LineNumber, addr 0x61b4cd8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x65dc854, size 0xa8, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x61b4d80, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x65dc8fc, size 0xa8, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"
@@ -74,7 +74,7 @@ public:
   XmlAsyncCheckReaderWithLineInfo(XmlAsyncCheckReaderWithLineInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11269 };
 
   /// @brief Field readerAsIXmlLineInfo, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::IXmlLineInfo* ___readerAsIXmlLineInfo;

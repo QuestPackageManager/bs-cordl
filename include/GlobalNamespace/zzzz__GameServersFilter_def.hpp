@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_showProtected(bool value);
 
-  /// @brief Method .ctor, addr 0x5a10654, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e2c768, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   GameServersFilter(GameServersFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6505 };
 
   /// @brief Field filterByDifficulty, offset: 0x10, size: 0x1, def value: None
   bool ___filterByDifficulty;

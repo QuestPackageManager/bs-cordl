@@ -7,6 +7,8 @@ constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::InstanceO
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::InstanceOcclusionTestDebugCounter() {}
-constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::Occluded{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::NotOccluded{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::Count{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::InstancesOccluded{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::InstancesNotOccluded{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::PrimitivesOccluded{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::PrimitivesNotOccluded{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::Rendering::InstanceOcclusionTestDebugCounter UnityEngine::Rendering::InstanceOcclusionTestDebugCounter::Count{ static_cast<int32_t>(0x4) };

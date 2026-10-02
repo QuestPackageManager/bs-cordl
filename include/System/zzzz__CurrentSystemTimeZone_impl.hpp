@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CurrentSystemTimeZone::*)()>(&::System::CurrentSystemTimeZone::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5c25148;
+  constexpr static std::size_t addrs = 0x603dc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::CurrentSystemTimeZone*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::CurrentSystemTimeZone::*)(::System::DateTime, ::by_ref<bool>)>(
     &::System::CurrentSystemTimeZone::GetUtcOffsetFromUniversalTime)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x5c2524c;
+  constexpr static std::size_t addrs = 0x603dd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::CurrentSystemTimeZone::*)(::System::DateTime)>(&::System::CurrentSystemTimeZone::ToLocalTime)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5c257b0;
+  constexpr static std::size_t addrs = 0x603e2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::DaylightTime* (::System::CurrentSystemTimeZone::*)(int32_t)>(&::System::CurrentSystemTimeZone::GetDaylightChanges)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5c25af8;
+  constexpr static std::size_t addrs = 0x603e5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::DaylightTime* (*)(int32_t)>(&::System::CurrentSystemTimeZone::CreateDaylightChanges)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5c25da0;
+  constexpr static std::size_t addrs = 0x603e898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::CurrentSystemTimeZone::*)(::System::DateTime)>(&::System::CurrentSystemTimeZone::GetUtcOffset)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5c26024;
+  constexpr static std::size_t addrs = 0x603eb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::by_ref<::ArrayW<int64_t>>, ::by_ref<::ArrayW<::StringW>>, ::by_ref<bool>)>(
     &::System::CurrentSystemTimeZone::GetTimeZoneData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c26130;
+  constexpr static std::size_t addrs = 0x603ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::DaylightTime* (::System::CurrentSystemTimeZone::*)(int32_t)>(
     &::System::CurrentSystemTimeZone::GetCachedDaylightChanges)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5c25bc0;
+  constexpr static std::size_t addrs = 0x603e6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

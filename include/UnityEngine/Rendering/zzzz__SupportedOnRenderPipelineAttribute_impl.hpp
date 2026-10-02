@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c::*)()>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b1cc88;
+  constexpr static std::size_t addrs = 0x6f7ad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c::*)(::System::Type*)>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c::__ctor_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b1cc8c;
+  constexpr static std::size_t addrs = 0x6f7ad14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c::*)()>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c::__cctor_b__12_0)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6b1ccac;
+  constexpr static std::size_t addrs = 0x6f7ad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::*)()>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::get_renderPipelineTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1c528;
+  constexpr static std::size_t addrs = 0x6f7a628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::*)(::System::Type*)>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b1c530;
+  constexpr static std::size_t addrs = 0x6f7a630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::*)(::ArrayW<::System::Type*>)>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x6b1c5d4;
+  constexpr static std::size_t addrs = 0x6f7a6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode (::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::*)(
     ::System::Type*)>(&::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::GetSupportedMode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b1c8e0;
+  constexpr static std::size_t addrs = 0x6f7a9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode (*)(::ArrayW<::System::Type*>, ::System::Type*)>(
     &::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::GetSupportedMode)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6b1c94c;
+  constexpr static std::size_t addrs = 0x6f7aa4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute::IsTypeSupportedOnRenderPipeline)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b1ca94;
+  constexpr static std::size_t addrs = 0x6f65d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

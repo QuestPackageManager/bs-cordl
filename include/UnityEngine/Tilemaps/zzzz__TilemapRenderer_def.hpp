@@ -13,10 +13,10 @@ class TilemapRenderer;
 MARK_REF_T(::UnityEngine::Tilemaps::TilemapRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Tilemaps::TilemapRenderer*, "UnityEngine.Tilemaps", "TilemapRenderer");
 // [NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
-// [NativeType(Header = "Modules/Tilemap/Public/TilemapRenderer.h")]
-// [NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
 // [NativeHeader("Modules/Tilemap/TilemapRendererJobs.h")]
 // [RequireComponent(typeof(UnityEngine.Tilemaps.Tilemap))]
+// [NativeType(Header = "Modules/Tilemap/Public/TilemapRenderer.h")]
+// [NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine::Tilemaps {
 // Is value type: false
@@ -39,7 +39,7 @@ public:
   TilemapRenderer(TilemapRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23978 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IGroupManager* (*)(::UnityEngine::UIElements::IGroupBox*)>(
     &::UnityEngine::UIElements::GroupBoxUtility::FindOrCreateGroupManager)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x6db0b94;
+  constexpr static std::size_t size = 0x49c;
+  constexpr static std::size_t addrs = 0x724cfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GroupBoxUtility*>(),
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(&::UnityEngine::UIElements::GroupBoxUtility::OnGroupBoxDetachedFromPanel)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6db1160;
+  constexpr static std::size_t addrs = 0x724d4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(&::UnityEngine::UIElements::GroupBoxUtility::OnPanelDestroyed)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6db1220;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x724d5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GroupBoxUtility*>(),

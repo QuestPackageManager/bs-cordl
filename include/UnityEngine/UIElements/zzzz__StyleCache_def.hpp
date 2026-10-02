@@ -48,22 +48,25 @@ public:
                       put =
                           setStaticF_s_StyleVariableContextCache)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::StyleVariableContext*>* s_StyleVariableContextCache;
 
-  /// @brief Method SetValue, addr 0x6cce894, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ClearStyleCache, addr 0x715b264, size 0x25c, virtual false, abstract: false, final false
+  static inline void ClearStyleCache();
+
+  /// @brief Method SetValue, addr 0x715b1bc, size 0xa8, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty> data);
 
-  /// @brief Method SetValue, addr 0x6cce754, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x715b07c, size 0xa8, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::UnityEngine::UIElements::StyleVariableContext* data);
 
-  /// @brief Method SetValue, addr 0x6cce5f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x715af1c, size 0xc8, virtual false, abstract: false, final false
   static inline void SetValue(int64_t hash, ::by_ref<::UnityEngine::UIElements::ComputedStyle> data);
 
-  /// @brief Method TryGetValue, addr 0x6cce7fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x715b124, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetValue(int32_t hash, ::by_ref<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty>> data);
 
-  /// @brief Method TryGetValue, addr 0x6cce6bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x715afe4, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetValue(int32_t hash, ::by_ref<::UnityEngine::UIElements::StyleVariableContext*> data);
 
-  /// @brief Method TryGetValue, addr 0x6cce55c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x715ae84, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetValue(int64_t hash, ::by_ref<::UnityEngine::UIElements::ComputedStyle> data);
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::UIElements::ComputedStyle>* getStaticF_s_ComputedStyleCache();
@@ -93,7 +96,7 @@ public:
   StyleCache(StyleCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

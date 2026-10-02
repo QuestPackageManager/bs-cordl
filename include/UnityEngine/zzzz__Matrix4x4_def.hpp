@@ -40,11 +40,11 @@ struct Matrix4x4;
 MARK_VAL_T(::UnityEngine::Matrix4x4);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 // [NativeHeader("Runtime/Math/MathScripting.h")]
-// [NativeType(Header = "Runtime/Math/Matrix4x4.h")]
 // [Il2CppEagerStaticClassConstruction]
-// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeType(Header = "Runtime/Math/Matrix4x4.h")]
 // [DefaultMember("Item")]
 // [NativeClass("Matrix4x4f")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -79,162 +79,206 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [ThreadSafe]
-  /// @brief Method DecomposeProjection, addr 0x6accf54, size 0x68, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method DecomposeProjection, addr 0x6f26770, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::FrustumPlanes DecomposeProjection();
 
-  /// @brief Method DecomposeProjection_Injected, addr 0x6accfbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DecomposeProjection_Injected, addr 0x6f267d8, size 0x44, virtual false, abstract: false, final false
   static inline void DecomposeProjection_Injected(::by_ref<::UnityEngine::Matrix4x4> _unity_self, ::by_ref<::UnityEngine::FrustumPlanes> ret);
 
-  /// @brief Method Equals, addr 0x6acdd88, size 0xfc, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6f2786c, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6acde84, size 0x9c, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6f27968, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Matrix4x4 other);
 
-  /// @brief Method Frustum, addr 0x6acd898, size 0xa8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method Equals, addr 0x6f27a04, size 0x9c, virtual false, abstract: false, final false
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> other);
+
+  /// @brief Method Frustum, addr 0x6f2726c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Frustum(::UnityEngine::FrustumPlanes fp);
 
   /// [FreeFunction("MatrixScripting::Frustum", IsThreadSafe = true)]
-  /// @brief Method Frustum, addr 0x6acd768, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Frustum, addr 0x6f2713c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Frustum(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar);
 
-  /// @brief Method Frustum_Injected, addr 0x6acd814, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Frustum_Injected, addr 0x6f271e8, size 0x84, virtual false, abstract: false, final false
   static inline void Frustum_Injected(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetColumn, addr 0x6acdcb8, size 0xd0, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetColumn, addr 0x6f27b78, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetColumn(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6acdb44, size 0x174, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetHashCode, addr 0x6f276e0, size 0x18c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [IsReadOnly]
   /// [ThreadSafe]
-  /// @brief Method GetLossyScale, addr 0x6acceb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetLossyScale, addr 0x6f266d0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLossyScale();
 
-  /// @brief Method GetLossyScale_Injected, addr 0x6accf10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLossyScale_Injected, addr 0x6f2672c, size 0x44, virtual false, abstract: false, final false
   static inline void GetLossyScale_Injected(::by_ref<::UnityEngine::Matrix4x4> _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetPosition, addr 0x6ace0c8, size 0xc, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetPosition, addr 0x6f27d18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosition();
 
+  /// [IsReadOnly]
   /// [ThreadSafe]
-  /// @brief Method GetRotation, addr 0x6acce18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x6f26634, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method GetRotation_Injected, addr 0x6acce70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRotation_Injected, addr 0x6f2668c, size 0x44, virtual false, abstract: false, final false
   static inline void GetRotation_Injected(::by_ref<::UnityEngine::Matrix4x4> _unity_self, ::by_ref<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method GetRow, addr 0x6acdff8, size 0xd0, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method GetRow, addr 0x6f27c48, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetRow(int32_t index);
 
   /// [FreeFunction("MatrixScripting::Inverse", IsThreadSafe = true)]
-  /// @brief Method Inverse, addr 0x6acd1ec, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 m);
+  /// @brief Method Internal_Inverse, addr 0x6f26ad8, size 0x6c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
 
   /// [FreeFunction("MatrixScripting::Inverse3DAffine", IsThreadSafe = true)]
-  /// @brief Method Inverse3DAffine, addr 0x6acd164, size 0x44, virtual false, abstract: false, final false
-  static inline bool Inverse3DAffine(::UnityEngine::Matrix4x4 input, ::by_ref<::UnityEngine::Matrix4x4> result);
+  /// @brief Method Internal_Inverse3DAffine, addr 0x6f26a0c, size 0x44, virtual false, abstract: false, final false
+  static inline bool Internal_Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method Inverse3DAffine_Injected, addr 0x6acd1a8, size 0x44, virtual false, abstract: false, final false
-  static inline bool Inverse3DAffine_Injected(::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result);
-
-  /// @brief Method Inverse_Injected, addr 0x6acd258, size 0x44, virtual false, abstract: false, final false
-  static inline void Inverse_Injected(::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
+  /// @brief Method Internal_Inverse_Injected, addr 0x6f26b44, size 0x44, virtual false, abstract: false, final false
+  static inline void Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// [FreeFunction("MatrixScripting::LookAt", IsThreadSafe = true)]
-  /// @brief Method LookAt, addr 0x6acd67c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Internal_LookAt, addr 0x6f26fc4, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 Internal_LookAt(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to,
+                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> up);
+
+  /// @brief Method Internal_LookAt_Injected, addr 0x6f27048, size 0x5c, virtual false, abstract: false, final false
+  static inline void Internal_LookAt_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> up, ::by_ref<::UnityEngine::Matrix4x4> ret);
+
+  /// [FreeFunction("MatrixScripting::TRS", IsThreadSafe = true)]
+  /// @brief Method Internal_TRS, addr 0x6f26894, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 Internal_TRS(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q,
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> s);
+
+  /// @brief Method Internal_TRS_Injected, addr 0x6f26918, size 0x5c, virtual false, abstract: false, final false
+  static inline void Internal_TRS_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q,
+                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> s, ::by_ref<::UnityEngine::Matrix4x4> ret);
+
+  /// [FreeFunction("MatrixScripting::Transpose", IsThreadSafe = true)]
+  /// @brief Method Internal_Transpose, addr 0x6f26c70, size 0x6c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 Internal_Transpose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
+
+  /// @brief Method Internal_Transpose_Injected, addr 0x6f26cdc, size 0x44, virtual false, abstract: false, final false
+  static inline void Internal_Transpose_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method Inverse, addr 0x6f26b88, size 0x74, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 m);
+
+  /// @brief Method Inverse3DAffine, addr 0x6f26a50, size 0x44, virtual false, abstract: false, final false
+  static inline bool Inverse3DAffine(::UnityEngine::Matrix4x4 input, ::by_ref<::UnityEngine::Matrix4x4> result);
+
+  /// @brief Method Inverse3DAffine, addr 0x6f26a94, size 0x44, virtual false, abstract: false, final false
+  static inline bool Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result);
+
+  /// @brief Method LookAt, addr 0x6f270a4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 LookAt(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, ::UnityEngine::Vector3 up);
 
-  /// @brief Method LookAt_Injected, addr 0x6acd70c, size 0x5c, virtual false, abstract: false, final false
-  static inline void LookAt_Injected(::by_ref<::UnityEngine::Vector3> from, ::by_ref<::UnityEngine::Vector3> to, ::by_ref<::UnityEngine::Vector3> up, ::by_ref<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method MultiplyPoint, addr 0x6ace14c, size 0x8c, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method MultiplyPoint, addr 0x6f27f3c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method MultiplyPoint3x4, addr 0x6ace1d8, size 0x58, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method MultiplyPoint3x4, addr 0x6f27fc8, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyPoint3x4(::UnityEngine::Vector3 point);
 
-  /// @brief Method MultiplyVector, addr 0x6ace230, size 0x48, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method MultiplyVector, addr 0x6f28020, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyVector(::UnityEngine::Vector3 vector);
 
   /// [FreeFunction("MatrixScripting::Ortho", IsThreadSafe = true)]
-  /// @brief Method Ortho, addr 0x6acd44c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Ortho, addr 0x6f26d94, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar);
 
-  /// @brief Method Ortho_Injected, addr 0x6acd4f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Ortho_Injected, addr 0x6f26e40, size 0x84, virtual false, abstract: false, final false
   static inline void Ortho_Injected(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// [FreeFunction("MatrixScripting::Perspective", IsThreadSafe = true)]
-  /// @brief Method Perspective, addr 0x6acd57c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Perspective, addr 0x6f26ec4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Perspective(float_t fov, float_t aspect, float_t zNear, float_t zFar);
 
-  /// @brief Method Perspective_Injected, addr 0x6acd610, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Perspective_Injected, addr 0x6f26f58, size 0x6c, virtual false, abstract: false, final false
   static inline void Perspective_Injected(float_t fov, float_t aspect, float_t zNear, float_t zFar, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method Rotate, addr 0x6ace2d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x6f280c8, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Rotate(::UnityEngine::Quaternion q);
 
-  /// @brief Method Scale, addr 0x6ace278, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x6f28068, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Scale(::UnityEngine::Vector3 vector);
 
-  /// @brief Method SetColumn, addr 0x6ace0d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetColumn, addr 0x6f27d24, size 0xb8, virtual false, abstract: false, final false
   inline void SetColumn(int32_t index, ::UnityEngine::Vector4 column);
 
-  /// [FreeFunction("MatrixScripting::TRS", IsThreadSafe = true)]
-  /// @brief Method TRS, addr 0x6acd078, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetRow, addr 0x6f27ddc, size 0x160, virtual false, abstract: false, final false
+  inline void SetRow(int32_t index, ::UnityEngine::Vector4 row);
+
+  /// @brief Method TRS, addr 0x6f26974, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 TRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s);
 
-  /// @brief Method TRS_Injected, addr 0x6acd108, size 0x5c, virtual false, abstract: false, final false
-  static inline void TRS_Injected(::by_ref<::UnityEngine::Vector3> pos, ::by_ref<::UnityEngine::Quaternion> q, ::by_ref<::UnityEngine::Vector3> s, ::by_ref<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method ToString, addr 0x6ace428, size 0x10, virtual true, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6f28218, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6ace438, size 0x518, virtual true, abstract: false, final true
+  /// [IsReadOnly]
+  /// @brief Method ToString, addr 0x6f28228, size 0x518, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Translate, addr 0x6ace2a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x6f28094, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Translate(::UnityEngine::Vector3 vector);
 
-  /// [FreeFunction("MatrixScripting::Transpose", IsThreadSafe = true)]
-  /// @brief Method Transpose, addr 0x6acd31c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Transpose(::UnityEngine::Matrix4x4 m);
-
-  /// @brief Method Transpose_Injected, addr 0x6acd388, size 0x44, virtual false, abstract: false, final false
-  static inline void Transpose_Injected(::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method .ctor, addr 0x6acd940, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f27314, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector4 column0, ::UnityEngine::Vector4 column1, ::UnityEngine::Vector4 column2, ::UnityEngine::Vector4 column3);
 
   static inline ::UnityEngine::Matrix4x4 getStaticF_identityMatrix();
 
   static inline ::UnityEngine::Matrix4x4 getStaticF_zeroMatrix();
 
-  /// @brief Method get_Item, addr 0x6acd964, size 0xec, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_Item, addr 0x6f27508, size 0xec, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x6acd95c, size 0x8, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_Item, addr 0x6f27330, size 0xec, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t row, int32_t column);
 
-  /// @brief Method get_decomposeProjection, addr 0x6acd008, size 0x70, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_decomposeProjection, addr 0x6f26824, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::FrustumPlanes get_decomposeProjection();
 
-  /// @brief Method get_identity, addr 0x6ace3cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x6f281bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 get_identity();
 
-  /// @brief Method get_inverse, addr 0x6acd29c, size 0x80, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_inverse, addr 0x6f26bfc, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_inverse();
 
-  /// @brief Method get_lossyScale, addr 0x6acd004, size 0x4, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_lossyScale, addr 0x6f26820, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_lossyScale();
 
-  /// @brief Method get_rotation, addr 0x6acd000, size 0x4, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_rotation, addr 0x6f2681c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_transpose, addr 0x6acd3cc, size 0x80, virtual false, abstract: false, final false
+  /// [IsReadOnly]
+  /// @brief Method get_transpose, addr 0x6f26d20, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_transpose();
 
-  /// @brief Method get_zero, addr 0x6ace370, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x6f28160, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Matrix4x4>"
@@ -243,20 +287,20 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Multiply, addr 0x6acdf20, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6f27aa0, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 op_Multiply(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method op_Multiply, addr 0x6acdfc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6f27b44, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 op_Multiply(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Vector4 vector);
 
   static inline void setStaticF_identityMatrix(::UnityEngine::Matrix4x4 value);
 
   static inline void setStaticF_zeroMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_Item, addr 0x6acda58, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6f275f4, size 0xec, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, float_t value);
 
-  /// @brief Method set_Item, addr 0x6acda50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6f2741c, size 0xec, virtual false, abstract: false, final false
   inline void set_Item(int32_t row, int32_t column, float_t value);
 
   // Ctor Parameters []
@@ -275,7 +319,7 @@ public:
                       float_t m13, float_t m23, float_t m33) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9841 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

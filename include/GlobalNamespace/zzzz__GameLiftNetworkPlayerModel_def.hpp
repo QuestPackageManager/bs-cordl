@@ -75,22 +75,22 @@ public:
 
   __declspec(property(get = get_selectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
-  /// @brief Method GetConnectToServerParams, addr 0x5ccd910, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetConnectToServerParams, addr 0x60e7458, size 0xc4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
   GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
 
-  /// @brief Method GetStartClientParams, addr 0x5ccd9d4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetStartClientParams, addr 0x60e751c, size 0xac, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                                                          ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::GameLiftNetworkPlayerModel* New_ctor();
 
-  /// @brief Method RefreshPublicServers, addr 0x5ccd884, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method RefreshPublicServers, addr 0x60e73cc, size 0x8c, virtual true, abstract: false, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
 
-  /// @brief Method Update, addr 0x5ccd7bc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x60e7304, size 0xc8, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams* const& __cordl_internal_get__cachedConnectToServerParams() const;
@@ -111,22 +111,22 @@ public:
 
   constexpr void __cordl_internal_set__gameLiftPlayerSessionProvider(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* value);
 
-  /// @brief Method .ctor, addr 0x5ccda80, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e75c8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_code, addr 0x5ccd664, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_code, addr 0x60e71ac, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_configuration, addr 0x5ccd6c4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x60e720c, size 0x7c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_partyOwnerId, addr 0x5ccd6bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_partyOwnerId, addr 0x60e7204, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_partyOwnerId();
 
-  /// @brief Method get_secret, addr 0x5ccd60c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_secret, addr 0x60e7154, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_selectionMask, addr 0x5ccd740, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x60e7288, size 0x7c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
 protected:
@@ -144,7 +144,7 @@ public:
   GameLiftNetworkPlayerModel(GameLiftNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22297 };
 
   /// [Inject]
   /// @brief Field _gameLiftPlayerSessionProvider, offset: 0x108, size: 0x8, def value: None

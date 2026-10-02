@@ -36,6 +36,7 @@
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupData_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -46,24 +47,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c::*)()>(&::GlobalNamespace::MenuTransitionsHelper___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5911e14;
+  constexpr static std::size_t addrs = 0x5d2c520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c._HandleTutorialSceneDidFinish_b__37_0
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c._HandleTutorialSceneDidFinish_b__36_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::MenuTransitionsHelper___c::_HandleTutorialSceneDidFinish_b__37_0)> {
+    &::GlobalNamespace::MenuTransitionsHelper___c::_HandleTutorialSceneDidFinish_b__36_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5911e18;
+  constexpr static std::size_t addrs = 0x5d2c524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c*>(),
-                                                                                           { "<HandleTutorialSceneDidFinish>b__37_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                           { "<HandleTutorialSceneDidFinish>b__36_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -74,20 +75,20 @@ inline void GlobalNamespace::MenuTransitionsHelper___c::setStaticF___9(::GlobalN
 inline ::GlobalNamespace::MenuTransitionsHelper___c* GlobalNamespace::MenuTransitionsHelper___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::MenuTransitionsHelper___c*, "<>9", ::GlobalNamespace::MenuTransitionsHelper___c*>();
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c::setStaticF___9__37_0(::System::Action_1<::Zenject::DiContainer*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::Zenject::DiContainer*>*, "<>9__37_0", ::GlobalNamespace::MenuTransitionsHelper___c*>(
+inline void GlobalNamespace::MenuTransitionsHelper___c::setStaticF___9__36_0(::System::Action_1<::Zenject::DiContainer*>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::Zenject::DiContainer*>*, "<>9__36_0", ::GlobalNamespace::MenuTransitionsHelper___c*>(
       std::forward<::System::Action_1<::Zenject::DiContainer*>*>(value));
 }
-inline ::System::Action_1<::Zenject::DiContainer*>* GlobalNamespace::MenuTransitionsHelper___c::getStaticF___9__37_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::DiContainer*>*, "<>9__37_0", ::GlobalNamespace::MenuTransitionsHelper___c*>();
+inline ::System::Action_1<::Zenject::DiContainer*>* GlobalNamespace::MenuTransitionsHelper___c::getStaticF___9__36_0() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::DiContainer*>*, "<>9__36_0", ::GlobalNamespace::MenuTransitionsHelper___c*>();
 }
 inline void GlobalNamespace::MenuTransitionsHelper___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c::_HandleTutorialSceneDidFinish_b__37_0(::Zenject::DiContainer* _) {
+inline void GlobalNamespace::MenuTransitionsHelper___c::_HandleTutorialSceneDidFinish_b__36_0(::Zenject::DiContainer* _) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c*>(),
-                                                                                         { "<HandleTutorialSceneDidFinish>b__37_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                         { "<HandleTutorialSceneDidFinish>b__36_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
 inline ::GlobalNamespace::MenuTransitionsHelper___c* GlobalNamespace::MenuTransitionsHelper___c::New_ctor() {
@@ -95,131 +96,210 @@ inline ::GlobalNamespace::MenuTransitionsHelper___c* GlobalNamespace::MenuTransi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuTransitionsHelper___c::MenuTransitionsHelper___c() {}
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::*)()>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::*)()>(
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x590fb60;
+  constexpr static std::size_t addrs = 0x5d2a1e0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0._StartStandardLevel_b__0
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0._StartStandardLevel_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::_StartStandardLevel_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::_StartStandardLevel_b__0)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5911e1c;
+  constexpr static std::size_t addrs = 0x5d2c528;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0*>(),
                                                                                            { "<StartStandardLevel>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::System::Diagnostics::Stopwatch*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_stopwatch() {
+constexpr ::System::Diagnostics::Stopwatch*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_stopwatch() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stopwatch;
 }
-constexpr ::System::Diagnostics::Stopwatch* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_stopwatch() const {
+constexpr ::System::Diagnostics::Stopwatch* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_stopwatch() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stopwatch;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_set_stopwatch(::System::Diagnostics::Stopwatch* value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_set_stopwatch(::System::Diagnostics::Stopwatch* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___stopwatch = value;
 }
-constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::MenuTransitionsHelper* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::MenuTransitionsHelper* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_set___4__this(::GlobalNamespace::MenuTransitionsHelper* value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_set___4__this(::GlobalNamespace::MenuTransitionsHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::StringW& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_serializedBeatmapKey() {
+constexpr ::StringW& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_serializedBeatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedBeatmapKey;
 }
-constexpr ::StringW const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_serializedBeatmapKey() const {
+constexpr ::StringW const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_serializedBeatmapKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serializedBeatmapKey;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_set_serializedBeatmapKey(::StringW value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_set_serializedBeatmapKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___serializedBeatmapKey = value;
 }
-constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_gameplayModifiers() {
+constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_gameplayModifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
-constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gameplayModifiers = value;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_afterSceneSwitchToGameplayCallback() {
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_afterSceneSwitchToGameplayCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterSceneSwitchToGameplayCallback;
 }
-constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_get_afterSceneSwitchToGameplayCallback() const {
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_get_afterSceneSwitchToGameplayCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___afterSceneSwitchToGameplayCallback;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::__cordl_internal_set_afterSceneSwitchToGameplayCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::__cordl_internal_set_afterSceneSwitchToGameplayCallback(::System::Action_1<::Zenject::DiContainer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___afterSceneSwitchToGameplayCallback = value;
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::_StartStandardLevel_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0*>(),
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::_StartStandardLevel_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0*>(),
                                                                                          { "<StartStandardLevel>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
-inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0*>());
+inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass24_0::MenuTransitionsHelper___c__DisplayClass24_0() {}
+constexpr ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass23_0::MenuTransitionsHelper___c__DisplayClass23_0() {}
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::*)()>(
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d2bcc0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0._HandleMainGameSceneDidFinish_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::*)(::Zenject::DiContainer*)>(
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::_HandleMainGameSceneDidFinish_b__0)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5d2c604;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0*>(),
+                                                                                           { "<HandleMainGameSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::GlobalNamespace::MenuTransitionsHelper* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_set___4__this(::GlobalNamespace::MenuTransitionsHelper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupData*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_get_standardLevelScenesTransitionSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___standardLevelScenesTransitionSetupData;
+}
+constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupData* const&
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_get_standardLevelScenesTransitionSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___standardLevelScenesTransitionSetupData;
+}
+constexpr void
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_set_standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___standardLevelScenesTransitionSetupData = value;
+}
+constexpr ::GlobalNamespace::LevelCompletionResults*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_get_levelCompletionResults() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___levelCompletionResults;
+}
+constexpr ::GlobalNamespace::LevelCompletionResults* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_get_levelCompletionResults() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___levelCompletionResults;
+}
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::__cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___levelCompletionResults = value;
+}
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::_HandleMainGameSceneDidFinish_b__0(::Zenject::DiContainer* _) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0*>(),
+                                                                                         { "<HandleMainGameSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
+}
+inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass32_0::MenuTransitionsHelper___c__DisplayClass32_0() {}
 //  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::*)()>(
     &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5911634;
+  constexpr static std::size_t addrs = 0x5d2be84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0._HandleMainGameSceneDidFinish_b__0
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0._HandleMultiplayerLevelDidFinish_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::_HandleMainGameSceneDidFinish_b__0)> {
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::_HandleMultiplayerLevelDidFinish_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5911ef8;
+  constexpr static std::size_t addrs = 0x5d2c638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0*>(),
-                                                                                           { "<HandleMainGameSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                           { "<HandleMultiplayerLevelDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -235,39 +315,40 @@ constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupData*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_standardLevelScenesTransitionSetupData() {
+constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*&
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_multiplayerLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___standardLevelScenesTransitionSetupData;
+  return this->___multiplayerLevelScenesTransitionSetupData;
 }
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupData* const&
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_standardLevelScenesTransitionSetupData() const {
+constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* const&
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_multiplayerLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___standardLevelScenesTransitionSetupData;
+  return this->___multiplayerLevelScenesTransitionSetupData;
 }
 constexpr void
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_set_standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value) {
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_set_multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___standardLevelScenesTransitionSetupData = value;
+  this->___multiplayerLevelScenesTransitionSetupData = value;
 }
-constexpr ::GlobalNamespace::LevelCompletionResults*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_levelCompletionResults() {
+constexpr ::GlobalNamespace::MultiplayerResultsData*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_multiplayerResultsData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___levelCompletionResults;
+  return this->___multiplayerResultsData;
 }
-constexpr ::GlobalNamespace::LevelCompletionResults* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_levelCompletionResults() const {
+constexpr ::GlobalNamespace::MultiplayerResultsData* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_get_multiplayerResultsData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___levelCompletionResults;
+  return this->___multiplayerResultsData;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::__cordl_internal_set_multiplayerResultsData(::GlobalNamespace::MultiplayerResultsData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___levelCompletionResults = value;
+  this->___multiplayerResultsData = value;
 }
 inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::_HandleMainGameSceneDidFinish_b__0(::Zenject::DiContainer* _) {
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::_HandleMultiplayerLevelDidFinish_b__0(::Zenject::DiContainer* _) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0*>(),
-                                                                                         { "<HandleMainGameSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                         { "<HandleMultiplayerLevelDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
 inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass33_0::New_ctor() {
@@ -281,24 +362,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::*)()>(
     &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59117f8;
+  constexpr static std::size_t addrs = 0x5d2c018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0._HandleMultiplayerLevelDidFinish_b__0
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0._HandleMultiplayerLevelDidDisconnect_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::_HandleMultiplayerLevelDidFinish_b__0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5911f2c;
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::_HandleMultiplayerLevelDidDisconnect_b__0)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5d2c66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0*>(),
-                                                                                           { "<HandleMultiplayerLevelDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                           { "<HandleMultiplayerLevelDidDisconnect>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -314,40 +395,25 @@ constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*&
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_get_multiplayerLevelScenesTransitionSetupData() {
+constexpr ::GlobalNamespace::DisconnectedReason& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_get_disconnectedReason() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___multiplayerLevelScenesTransitionSetupData;
+  return this->___disconnectedReason;
 }
-constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* const&
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_get_multiplayerLevelScenesTransitionSetupData() const {
+constexpr ::GlobalNamespace::DisconnectedReason const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_get_disconnectedReason() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___multiplayerLevelScenesTransitionSetupData;
+  return this->___disconnectedReason;
 }
-constexpr void
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_set_multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* value) {
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___multiplayerLevelScenesTransitionSetupData = value;
-}
-constexpr ::GlobalNamespace::MultiplayerResultsData*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_get_multiplayerResultsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___multiplayerResultsData;
-}
-constexpr ::GlobalNamespace::MultiplayerResultsData* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_get_multiplayerResultsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___multiplayerResultsData;
-}
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::__cordl_internal_set_multiplayerResultsData(::GlobalNamespace::MultiplayerResultsData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___multiplayerResultsData = value;
+  this->___disconnectedReason = value;
 }
 inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::_HandleMultiplayerLevelDidFinish_b__0(::Zenject::DiContainer* _) {
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::_HandleMultiplayerLevelDidDisconnect_b__0(::Zenject::DiContainer* _) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0*>(),
-                                                                                         { "<HandleMultiplayerLevelDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                         { "<HandleMultiplayerLevelDidDisconnect>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
 inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass34_0::New_ctor() {
@@ -361,24 +427,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::*)()>(
     &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591198c;
+  constexpr static std::size_t addrs = 0x5d2c1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0._HandleMultiplayerLevelDidDisconnect_b__0
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0._HandleMissionLevelSceneDidFinish_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::_HandleMultiplayerLevelDidDisconnect_b__0)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5911f60;
+    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::_HandleMissionLevelSceneDidFinish_b__0)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5d2c69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0*>(),
-                                                                                           { "<HandleMultiplayerLevelDidDisconnect>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                           { "<HandleMissionLevelSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -394,25 +460,39 @@ constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::DisconnectedReason& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_get_disconnectedReason() {
+constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_get_missionLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___disconnectedReason;
+  return this->___missionLevelScenesTransitionSetupData;
 }
-constexpr ::GlobalNamespace::DisconnectedReason const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_get_disconnectedReason() const {
+constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData* const&
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_get_missionLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___disconnectedReason;
+  return this->___missionLevelScenesTransitionSetupData;
 }
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value) {
+constexpr void
+GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_set_missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___disconnectedReason = value;
+  this->___missionLevelScenesTransitionSetupData = value;
+}
+constexpr ::GlobalNamespace::MissionCompletionResults*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_get_missionCompletionResults() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___missionCompletionResults;
+}
+constexpr ::GlobalNamespace::MissionCompletionResults* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_get_missionCompletionResults() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___missionCompletionResults;
+}
+constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::__cordl_internal_set_missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___missionCompletionResults = value;
 }
 inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::_HandleMultiplayerLevelDidDisconnect_b__0(::Zenject::DiContainer* _) {
+inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::_HandleMissionLevelSceneDidFinish_b__0(::Zenject::DiContainer* _) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0*>(),
-                                                                                         { "<HandleMultiplayerLevelDidDisconnect>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                         { "<HandleMissionLevelSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
 inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::New_ctor() {
@@ -420,91 +500,12 @@ inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0* GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass35_0::MenuTransitionsHelper___c__DisplayClass35_0() {}
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::*)()>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5911b58;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0._HandleMissionLevelSceneDidFinish_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::_HandleMissionLevelSceneDidFinish_b__0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5911f90;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0*>(),
-                                                                                           { "<HandleMissionLevelSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::GlobalNamespace::MenuTransitionsHelper* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_set___4__this(::GlobalNamespace::MenuTransitionsHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_get_missionLevelScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___missionLevelScenesTransitionSetupData;
-}
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupData* const&
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_get_missionLevelScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___missionLevelScenesTransitionSetupData;
-}
-constexpr void
-GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_set_missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___missionLevelScenesTransitionSetupData = value;
-}
-constexpr ::GlobalNamespace::MissionCompletionResults*& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_get_missionCompletionResults() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___missionCompletionResults;
-}
-constexpr ::GlobalNamespace::MissionCompletionResults* const& GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_get_missionCompletionResults() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___missionCompletionResults;
-}
-constexpr void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::__cordl_internal_set_missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___missionCompletionResults = value;
-}
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::_HandleMissionLevelSceneDidFinish_b__0(::Zenject::DiContainer* _) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0*>(),
-                                                                                         { "<HandleMissionLevelSceneDidFinish>b__0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
-}
-inline ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0* GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0*>());
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::MenuTransitionsHelper___c__DisplayClass36_0::MenuTransitionsHelper___c__DisplayClass36_0() {}
 //  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper.Dispose
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::Dispose)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x590f2dc;
+  constexpr static std::size_t addrs = 0x5d2995c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { "Dispose", {}, {} })));
@@ -522,7 +523,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x590f60c;
+  constexpr static std::size_t addrs = 0x5d29c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,8 +550,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::ArrayW<::GlobalNamespace::MissionObjective*>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::EnvironmentsListModel*, ::System::Action*,
     ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>*,
     ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>*)>(&::GlobalNamespace::MenuTransitionsHelper::StartMissionLevel)> {
-  constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x5910304;
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x5d2a984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -575,8 +576,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::PracticeSettings*, ::StringW, bool, ::System::Action*,
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerResultsData*>*, ::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x59107f0;
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x5d2ae74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -598,8 +599,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::GlobalNamespace::PlayerSpecificSettings*, ::System::Action*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartTutorial)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5910e44;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5d2b4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -613,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::ShowCredits)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x59112d4;
+  constexpr static std::size_t addrs = 0x5d2b960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { "ShowCredits", {}, {} })));
@@ -625,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::System::Action*)>(&::GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59113c8;
+  constexpr static std::size_t addrs = 0x5d2ba54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -642,7 +643,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_1<::Zenject::DiContainer*>*, ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditorStandardLevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59113cc;
+  constexpr static std::size_t addrs = 0x5d2ba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -665,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::System::Action_1<::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::MenuTransitionsHelper::RestartGame)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59113d0;
+  constexpr static std::size_t addrs = 0x5d2ba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -679,7 +680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::StopStandardLevel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5911424;
+  constexpr static std::size_t addrs = 0x5d2bab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { "StopStandardLevel", {}, {} })));
@@ -692,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMainGameSceneDidFinish)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x591147c;
+  constexpr static std::size_t addrs = 0x5d2bb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -709,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerResultsData*)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5911638;
+  constexpr static std::size_t addrs = 0x5d2bcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -727,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidDisconnect)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x59117fc;
+  constexpr static std::size_t addrs = 0x5d2be88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -744,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::MenuTransitionsHelper::HandleMissionLevelSceneDidFinish)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5911990;
+  constexpr static std::size_t addrs = 0x5d2c01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -762,7 +763,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType)>(
         &::GlobalNamespace::MenuTransitionsHelper::HandleTutorialSceneDidFinish)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5911b5c;
+  constexpr static std::size_t addrs = 0x5d2c1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(),
@@ -779,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)(::GlobalNamespace::CreditsScenesTransitionSetupData*)>(
     &::GlobalNamespace::MenuTransitionsHelper::HandleCreditsSceneDidFinish)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5911d08;
+  constexpr static std::size_t addrs = 0x5d2c394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -788,12 +789,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper.SetProcessCulture
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Globalization::CultureInfo*)>(&::GlobalNamespace::MenuTransitionsHelper::SetProcessCulture)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5d2c448;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { "SetProcessCulture", {}, { ::i2c::type_of<::System::Globalization::CultureInfo*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MenuTransitionsHelper._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuTransitionsHelper::*)()>(&::GlobalNamespace::MenuTransitionsHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5911dbc;
+  constexpr static std::size_t addrs = 0x5d2c4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { ".ctor", {}, {} })));
@@ -1249,6 +1264,11 @@ inline void GlobalNamespace::MenuTransitionsHelper::HandleCreditsSceneDidFinish(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(),
                                                            { "HandleCreditsSceneDidFinish", {}, { ::i2c::type_of<::GlobalNamespace::CreditsScenesTransitionSetupData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, creditsSceneTransitionSetupData);
+}
+inline void GlobalNamespace::MenuTransitionsHelper::SetProcessCulture(::System::Globalization::CultureInfo* culture) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { "SetProcessCulture", {}, { ::i2c::type_of<::System::Globalization::CultureInfo*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, culture);
 }
 inline void GlobalNamespace::MenuTransitionsHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { ".ctor", {}, {} })));

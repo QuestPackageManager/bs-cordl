@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_m_observed(bool value);
 
-  /// @brief Method .ctor, addr 0x5cc74f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e103c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::AggregateException* exception);
 
 protected:

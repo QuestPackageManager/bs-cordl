@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68faeec;
+  constexpr static std::size_t addrs = 0x6d21a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,25 +137,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fbe90;
+  constexpr static std::size_t addrs = 0x6d21ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c._RenderInternal_b__23_0
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c._AddDownsampleAndCopyColorRenderPass_b__17_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::*)(
     ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_RenderInternal_b__23_0)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68fbe94;
+    &::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_AddDownsampleAndCopyColorRenderPass_b__17_0)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6d21ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(),
-                                                                                           { "<RenderInternal>b__23_0",
+                                                                                           { "<AddDownsampleAndCopyColorRenderPass>b__17_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -169,30 +169,30 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::setS
 inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c* UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>();
 }
-inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::setStaticF___9__23_0(
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::setStaticF___9__17_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__23_0", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(
+                                    "<>9__17_0", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::getStaticF___9__23_0() {
+UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::getStaticF___9__17_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__23_0", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>();
+                                           "<>9__17_0", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_RenderInternal_b__23_0(::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* data,
-                                                                                                    ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::_AddDownsampleAndCopyColorRenderPass_b__17_0(::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* data,
+                                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c*>(),
-                                                                                         { "<RenderInternal>b__23_0",
+                                                                                         { "<AddDownsampleAndCopyColorRenderPass>b__17_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
@@ -203,59 +203,31 @@ inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c* UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c::CopyColorPass___c() {}
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.get_source
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.OnCameraSetup
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)()>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::get_source)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fad74;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
+    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::OnCameraSetup)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d20950;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), { "get_source", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 6 }));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.set_source
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.Execute
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(::UnityEngine::Rendering::RTHandle*)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::set_source)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fad7c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
+    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Execute)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6d20954;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
-                                                                                           { "set_source", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.get_destination
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)()>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::get_destination)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fad84;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), { "get_destination", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.set_destination
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(::UnityEngine::Rendering::RTHandle*)>(
-    &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::set_destination)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fad8c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
-                                                                                           { "set_destination", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -264,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Material*, ::UnityEngine::Material*, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::_ctor)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x68fad94;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6d20958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::Downsampling, ::by_ref<::UnityEngine::RenderTextureDescriptor>,
                                                                 ::by_ref<::UnityEngine::FilterMode>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::ConfigureDescriptor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68faef0;
+  constexpr static std::size_t addrs = 0x6d20a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::Universal::RenderTargetHandle, ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Setup)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68faf44;
+  constexpr static std::size_t addrs = 0x6d20aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,8 +292,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*,
                                                                                                                               ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Setup)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68faf90;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6d20af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,41 +305,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.OnCameraSetup
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
-    ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::OnCameraSetup)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68faf9c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 6 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.Execute
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
-    ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Execute)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x68faff8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 10 }));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.ExecutePass
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*,
                                                                 ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::ExecutePass)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x68fb1f8;
+  constexpr static std::size_t addrs = 0x6d20af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,8 +330,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::Universal::Downsampling)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::Render)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x68fb590;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x6d20e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -409,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::Universal::Downsampling)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderToExistingTexture)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x68fbd88;
+  constexpr static std::size_t addrs = 0x6d21438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -429,8 +373,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderInternal)> {
-  constexpr static std::size_t size = 0x64c;
-  constexpr static std::size_t addrs = 0x68fb73c;
+  constexpr static std::size_t size = 0x3d4;
+  constexpr static std::size_t addrs = 0x6d21064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,6 +384,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                               {},
                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::CopyColorPass.AddDownsampleAndCopyColorRenderPass
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyColorPass::*)(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyColorPass::AddDownsampleAndCopyColorRenderPass)> {
+  constexpr static std::size_t size = 0x4e0;
+  constexpr static std::size_t addrs = 0x6d214ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
+                            { "AddDownsampleAndCopyColorRenderPass",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -491,60 +455,29 @@ constexpr void UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CopyColorMaterial = value;
 }
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_get__source_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____source_k__BackingField;
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::setStaticF_k_CopyColorPassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_CopyColorPassName", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(std::forward<::StringW>(value));
 }
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_get__source_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____source_k__BackingField;
+inline ::StringW UnityEngine::Rendering::Universal::Internal::CopyColorPass::getStaticF_k_CopyColorPassName() {
+  return ::cordl_internals::getStaticField<::StringW, "k_CopyColorPassName", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>();
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_set__source_k__BackingField(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____source_k__BackingField = value;
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::setStaticF_k_DownsampleAndCopyPassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_DownsampleAndCopyPassName", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(std::forward<::StringW>(value));
 }
-constexpr ::UnityEngine::Rendering::RTHandle*& UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_get__destination_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____destination_k__BackingField;
+inline ::StringW UnityEngine::Rendering::Universal::Internal::CopyColorPass::getStaticF_k_DownsampleAndCopyPassName() {
+  return ::cordl_internals::getStaticField<::StringW, "k_DownsampleAndCopyPassName", ::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>();
 }
-constexpr ::UnityEngine::Rendering::RTHandle* const& UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_get__destination_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____destination_k__BackingField;
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 6 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
 }
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_set__destination_k__BackingField(::UnityEngine::Rendering::RTHandle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____destination_k__BackingField = value;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData*& UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_get_m_PassData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* const& UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_get_m_PassData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PassData;
-}
-constexpr void UnityEngine::Rendering::Universal::Internal::CopyColorPass::__cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PassData = value;
-}
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::Universal::Internal::CopyColorPass::get_source() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), { "get_source", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::set_source(::UnityEngine::Rendering::RTHandle* value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
-                                                                                         { "set_source", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Rendering::RTHandle* UnityEngine::Rendering::Universal::Internal::CopyColorPass::get_destination() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), { "get_destination", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RTHandle*>(this, ___internal_method);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::set_destination(::UnityEngine::Rendering::RTHandle* value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
-                                                                                         { "set_destination", {}, { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
+                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 9 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* samplingMaterial,
                                                                               ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName) {
@@ -587,18 +520,6 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::Setup(::
                                                              { ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(),
                                                                ::i2c::type_of<::UnityEngine::Rendering::Universal::Downsampling>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, destination, downsampling);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 6 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, renderingData);
-}
-inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::Execute(::UnityEngine::Rendering::ScriptableRenderContext context,
-                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(), 10 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                                                                     ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* passData,
@@ -654,6 +575,18 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderIn
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, destination, source, useProceduralBlit);
+}
+inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::AddDownsampleAndCopyColorRenderPass(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit, ::StringW passName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),
+                          { "AddDownsampleAndCopyColorRenderPass",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, destination, source, useProceduralBlit, passName);
 }
 inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass* UnityEngine::Rendering::Universal::Internal::CopyColorPass::New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                                                                           ::UnityEngine::Material* samplingMaterial,

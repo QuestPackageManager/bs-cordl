@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DynamicString::*)()>(&::UnityEngine::Rendering::DynamicString::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6758f6c;
+  constexpr static std::size_t addrs = 0x6b70220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DynamicString*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DynamicString::*)(::StringW)>(&::UnityEngine::Rendering::DynamicString::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6758fb8;
+  constexpr static std::size_t addrs = 0x6b7026c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DynamicString::*)(int32_t)>(&::UnityEngine::Rendering::DynamicString::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6759068;
+  constexpr static std::size_t addrs = 0x6b7031c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DynamicString::*)(::StringW)>(&::UnityEngine::Rendering::DynamicString::Append)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x67590c8;
+  constexpr static std::size_t addrs = 0x6b7037c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DynamicString::*)(::UnityEngine::Rendering::DynamicString*)>(&::UnityEngine::Rendering::DynamicString::Append)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67591d4;
+  constexpr static std::size_t addrs = 0x6b70488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DynamicString::*)()>(&::UnityEngine::Rendering::DynamicString::ToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6759230;
+  constexpr static std::size_t addrs = 0x6b704e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

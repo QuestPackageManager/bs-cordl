@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::BGLib::JsonExtension::Vector2IntConverter::*)(
     ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::UnityEngine::Vector2Int, bool, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector2IntConverter::ReadJson)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x331689c;
+  constexpr static std::size_t addrs = 0x359f37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::JsonExtension::Vector2IntConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::UnityEngine::Vector2Int, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector2IntConverter::WriteJson)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3316958;
+  constexpr static std::size_t addrs = 0x359f438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::JsonExtension::Vector2IntConverter::*)()>(&::BGLib::JsonExtension::Vector2IntConverter::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3316a50;
+  constexpr static std::size_t addrs = 0x359f530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::JsonExtension::Vector2IntConverter*>(), { ".ctor", {}, {} })));

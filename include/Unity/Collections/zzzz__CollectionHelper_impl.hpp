@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::CollectionHelper_DummyJob::*)()>(&::Unity::Collections::CollectionHelper_DummyJob::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64ac558;
+  constexpr static std::size_t addrs = 0x68d5024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper_DummyJob>(), { "Execute", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::CollectionHelper::CheckAllocator)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64abe98;
+  constexpr static std::size_t addrs = 0x68d48a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::CollectionHelper::Log2Floor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64abf28;
+  constexpr static std::size_t addrs = 0x68d4930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::CollectionHelper::Log2Ceil)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64abf60;
+  constexpr static std::size_t addrs = 0x68d4968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::Align)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64abf98;
+  constexpr static std::size_t addrs = 0x68d49a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,13 +120,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int3
 //  Writing Method size for method: ::Unity::Collections::CollectionHelper.Align
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int32_t)>(&::Unity::Collections::CollectionHelper::Align)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x68d49bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "Align", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::CollectionHelper.Align
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Collections::CollectionHelper::Align)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64abfb4;
+  constexpr static std::size_t addrs = 0x68d49dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "Align", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::CollectionHelper.AlignPointer
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int32_t)>(&::Unity::Collections::CollectionHelper::AlignPointer)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x68d49f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "AlignPointer", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -135,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*, int32_t)>(&::Unity::Collections::CollectionHelper::IsAligned)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64abfd0;
+  constexpr static std::size_t addrs = 0x68d4a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, int32_t)>(&::Unity::Collections::CollectionHelper::IsAligned)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64abfe4;
+  constexpr static std::size_t addrs = 0x68d4a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::Unity::Collections::CollectionHelper::IsPowerOfTwo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64abff8;
+  constexpr static std::size_t addrs = 0x68d4a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(void*, int32_t)>(&::Unity::Collections::CollectionHelper::Hash)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64ac008;
+  constexpr static std::size_t addrs = 0x68d4a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::Unity::Collections::CollectionHelper::WriteLayout)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x64ac048;
+  constexpr static std::size_t addrs = 0x68d4a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::CollectionHelper::ShouldDeallocate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64abf1c;
+  constexpr static std::size_t addrs = 0x68d4924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
@@ -213,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::CollectionHelper::AssumePositive)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64ac2a4;
+  constexpr static std::size_t addrs = 0x68d4cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::CollectionHelper::CheckIntPositivePowerOfTwo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64ac2a8;
+  constexpr static std::size_t addrs = 0x68d4cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::Unity::Collections::CollectionHelper::CheckUlongPositivePowerOfTwo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64ac33c;
+  constexpr static std::size_t addrs = 0x68d4d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::CheckIndexInRange)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64ac3c8;
+  constexpr static std::size_t addrs = 0x68d4e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,9 +289,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t
 //  Writing Method size for method: ::Unity::Collections::CollectionHelper.CheckCapacityInRange
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::CheckCapacityInRange)> {
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x68d4eb4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
+                                                             { "CheckCapacityInRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::CollectionHelper.CheckCapacityInRange
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::CollectionHelper::CheckCapacityInRange)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x64ac46c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68d5020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,10 +333,20 @@ inline int32_t Unity::Collections::CollectionHelper::Align(int32_t size, int32_t
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "Align", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, size, alignmentPowerOfTwo);
 }
+inline int64_t Unity::Collections::CollectionHelper::Align(int64_t size, int32_t alignmentPowerOfTwo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "Align", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, size, alignmentPowerOfTwo);
+}
 inline uint64_t Unity::Collections::CollectionHelper::Align(uint64_t size, uint64_t alignmentPowerOfTwo) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "Align", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method, size, alignmentPowerOfTwo);
+}
+inline void* Unity::Collections::CollectionHelper::AlignPointer(void* ptr, int32_t alignmentPowerOfTwo) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "AlignPointer", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, ptr, alignmentPowerOfTwo);
 }
 inline bool Unity::Collections::CollectionHelper::IsAligned(void* p, int32_t alignmentPowerOfTwo) {
   static auto* ___internal_method =
@@ -353,6 +403,12 @@ inline void Unity::Collections::CollectionHelper::CheckIndexInRange(int32_t inde
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(), { "CheckIndexInRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, length);
+}
+inline void Unity::Collections::CollectionHelper::CheckCapacityInRange(int32_t capacity, int32_t maxCapacity, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionHelper*>(),
+                                                           { "CheckCapacityInRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, capacity, maxCapacity, length);
 }
 inline void Unity::Collections::CollectionHelper::CheckCapacityInRange(int32_t capacity, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS(

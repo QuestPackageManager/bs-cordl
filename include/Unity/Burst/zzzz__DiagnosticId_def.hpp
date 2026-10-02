@@ -118,6 +118,7 @@ public:
     __E_ERR_MethodNotSupported = static_cast<int32_t>(0x516),
     __E_ERR_VectorsLoadFieldIsAddress = static_cast<int32_t>(0x517),
     __E_ERR_ConstantExpressionRequired = static_cast<int32_t>(0x518),
+    __E_WRN_HWInstrinsicsWithFPDeterminism = static_cast<int32_t>(0x519),
     __E_ERR_PointerArgumentsUnexpectedAliasing = static_cast<int32_t>(0x51e),
     __E_ERR_LoopIntrinsicMustBeCalledInsideLoop = static_cast<int32_t>(0x528),
     __E_ERR_LoopUnexpectedAutoVectorization = static_cast<int32_t>(0x529),
@@ -544,11 +545,14 @@ public:
   /// @brief Field WRN_ExceptionThrownInNonSafetyCheckGuardedFunction value: I32(1370)
   static ::Unity::Burst::DiagnosticId const WRN_ExceptionThrownInNonSafetyCheckGuardedFunction;
 
+  /// @brief Field WRN_HWInstrinsicsWithFPDeterminism value: I32(1305)
+  static ::Unity::Burst::DiagnosticId const WRN_HWInstrinsicsWithFPDeterminism;
+
   /// @brief Field WRN_LoopIntrinsicCalledButLoopOptimizedAway value: I32(1322)
   static ::Unity::Burst::DiagnosticId const WRN_LoopIntrinsicCalledButLoopOptimizedAway;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

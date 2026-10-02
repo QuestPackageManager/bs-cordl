@@ -33,19 +33,19 @@ class CORDL_TYPE Telemetry : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AddBlockInfo, addr 0x5a338ec, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method AddBlockInfo, addr 0x5e4b188, size 0x18c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
 
   /// [Extension]
-  /// @brief Method AddBlockVariantInfo, addr 0x5a3bf44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddBlockVariantInfo, addr 0x5e537e4, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockVariantInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
 
   /// [Extension]
-  /// @brief Method AddInstallationRoutineInfo, addr 0x5a3c004, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method AddInstallationRoutineInfo, addr 0x5e538a4, size 0x32c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddInstallationRoutineInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* checkpoint);
 
   /// [Extension]
-  /// @brief Method AddSceneInfo, addr 0x5a3c330, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddSceneInfo, addr 0x5e53bd0, size 0x10c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddSceneInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::UnityEngine::SceneManagement::Scene scene);
 
 protected:
@@ -63,7 +63,7 @@ public:
   Telemetry(Telemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

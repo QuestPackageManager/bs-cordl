@@ -52,20 +52,20 @@ namespace Unity::Collections {
 struct RewindableAllocator_MemoryBlock;
 }
 namespace Unity::Collections {
-class RewindableAllocator_Try_000009DE$BurstDirectCall;
+class RewindableAllocator_Try_000009F0$BurstDirectCall;
 }
 namespace Unity::Collections {
-class RewindableAllocator_Try_000009DE$PostfixBurstDelegate;
+class RewindableAllocator_Try_000009F0$PostfixBurstDelegate;
 }
 namespace Unity::Collections {
 struct RewindableAllocator_Union;
 }
 // Forward declare root types
 namespace Unity::Collections {
-class RewindableAllocator_Try_000009DE$BurstDirectCall;
+class RewindableAllocator_Try_000009F0$BurstDirectCall;
 }
 namespace Unity::Collections {
-class RewindableAllocator_Try_000009DE$PostfixBurstDelegate;
+class RewindableAllocator_Try_000009F0$PostfixBurstDelegate;
 }
 namespace Unity::Collections {
 struct RewindableAllocator;
@@ -77,13 +77,13 @@ namespace Unity::Collections {
 struct RewindableAllocator_Union;
 }
 // Write type traits
-MARK_REF_T(::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*);
-MARK_REF_T(::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*);
+MARK_REF_T(::Unity::Collections::RewindableAllocator_Try_000009F0$BurstDirectCall*);
+MARK_REF_T(::Unity::Collections::RewindableAllocator_Try_000009F0$PostfixBurstDelegate*);
 MARK_VAL_T(::Unity::Collections::RewindableAllocator);
 MARK_VAL_T(::Unity::Collections::RewindableAllocator_MemoryBlock);
 MARK_VAL_T(::Unity::Collections::RewindableAllocator_Union);
-DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*, "Unity.Collections", "RewindableAllocator/Try_000009DE$BurstDirectCall");
-DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*, "Unity.Collections", "RewindableAllocator/Try_000009DE$PostfixBurstDelegate");
+DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator_Try_000009F0$BurstDirectCall*, "Unity.Collections", "RewindableAllocator/Try_000009F0$BurstDirectCall");
+DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator_Try_000009F0$PostfixBurstDelegate*, "Unity.Collections", "RewindableAllocator/Try_000009F0$PostfixBurstDelegate");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator, "Unity.Collections", "RewindableAllocator");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator_MemoryBlock, "Unity.Collections", "RewindableAllocator/MemoryBlock");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::RewindableAllocator_Union, "Unity.Collections", "RewindableAllocator/Union");
@@ -98,16 +98,16 @@ public:
 
   __declspec(property(get = get_m_current, put = set_m_current)) int64_t m_current;
 
-  /// @brief Method get_m_allocCount, addr 0x64c7a40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_m_allocCount, addr 0x68f0b98, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_m_allocCount();
 
-  /// @brief Method get_m_current, addr 0x64c7a24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_m_current, addr 0x68f0b7c, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_m_current();
 
-  /// @brief Method set_m_allocCount, addr 0x64c7a4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_m_allocCount, addr 0x68f0ba4, size 0x10, virtual false, abstract: false, final false
   inline void set_m_allocCount(int64_t value);
 
-  /// @brief Method set_m_current, addr 0x64c7a30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_m_current, addr 0x68f0b88, size 0x10, virtual false, abstract: false, final false
   inline void set_m_current(int64_t value);
 
   // Ctor Parameters []
@@ -118,7 +118,7 @@ public:
   constexpr RewindableAllocator_Union(int64_t m_long) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15953 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -163,16 +163,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Contains, addr 0x64c7924, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x68f0a7c, size 0x2c, virtual false, abstract: false, final false
   inline bool Contains(::System::IntPtr ptr);
 
-  /// @brief Method Dispose, addr 0x64c7360, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68f04b8, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Rewind, addr 0x64c73bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Rewind, addr 0x68f0514, size 0x8, virtual false, abstract: false, final false
   inline void Rewind();
 
-  /// @brief Method .ctor, addr 0x64c7118, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68f0270, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int64_t bytes);
 
   /// @brief Convert to "::System::IDisposable"
@@ -187,7 +187,7 @@ public:
   constexpr RewindableAllocator_MemoryBlock(uint8_t* m_pointer, int64_t m_bytes, ::Unity::Collections::RewindableAllocator_Union m_union) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -220,67 +220,67 @@ static_assert(sizeof(::Unity::Collections::RewindableAllocator_MemoryBlock) == 0
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
-// CS Name: Unity.Collections.RewindableAllocator/Try_000009DE$PostfixBurstDelegate
-class CORDL_TYPE RewindableAllocator_Try_000009DE$PostfixBurstDelegate : public ::System::MulticastDelegate {
+// CS Name: Unity.Collections.RewindableAllocator/Try_000009F0$PostfixBurstDelegate
+class CORDL_TYPE RewindableAllocator_Try_000009F0$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x64c7adc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x68f0c34, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_3);
 
-  /// @brief Method EndInvoke, addr 0x64c7b84, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x68f0cdc, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x64c7ac8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x68f0c20, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
-  static inline ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
+  static inline ::Unity::Collections::RewindableAllocator_Try_000009F0$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                       ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x64c7a5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68f0bb4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr RewindableAllocator_Try_000009DE$PostfixBurstDelegate();
+  constexpr RewindableAllocator_Try_000009F0$PostfixBurstDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009DE$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009F0$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  RewindableAllocator_Try_000009DE$PostfixBurstDelegate(RewindableAllocator_Try_000009DE$PostfixBurstDelegate&&) = delete;
+  RewindableAllocator_Try_000009F0$PostfixBurstDelegate(RewindableAllocator_Try_000009F0$PostfixBurstDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009DE$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009F0$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RewindableAllocator_Try_000009DE$PostfixBurstDelegate(RewindableAllocator_Try_000009DE$PostfixBurstDelegate const&) = delete;
+  RewindableAllocator_Try_000009F0$PostfixBurstDelegate(RewindableAllocator_Try_000009F0$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate) == 0x80, "Size mismatch!");
+static_assert(sizeof(::Unity::Collections::RewindableAllocator_Try_000009F0$PostfixBurstDelegate) == 0x80, "Size mismatch!");
 
 } // namespace Unity::Collections
 // Dependencies System.IntPtr, System.Object
 namespace Unity::Collections {
 // Is value type: false
-// CS Name: Unity.Collections.RewindableAllocator/Try_000009DE$BurstDirectCall
-class CORDL_TYPE RewindableAllocator_Try_000009DE$BurstDirectCall : public ::System::Object {
+// CS Name: Unity.Collections.RewindableAllocator/Try_000009F0$BurstDirectCall
+class CORDL_TYPE RewindableAllocator_Try_000009F0$BurstDirectCall : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x64c7cb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x68f0e0c, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x64c7ba8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x68f0d00, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x64c7950, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x68f0aa8, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t Invoke(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -290,24 +290,24 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr RewindableAllocator_Try_000009DE$BurstDirectCall();
+  constexpr RewindableAllocator_Try_000009F0$BurstDirectCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009DE$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009F0$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  RewindableAllocator_Try_000009DE$BurstDirectCall(RewindableAllocator_Try_000009DE$BurstDirectCall&&) = delete;
+  RewindableAllocator_Try_000009F0$BurstDirectCall(RewindableAllocator_Try_000009F0$BurstDirectCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009DE$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RewindableAllocator_Try_000009F0$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RewindableAllocator_Try_000009DE$BurstDirectCall(RewindableAllocator_Try_000009DE$BurstDirectCall const&) = delete;
+  RewindableAllocator_Try_000009F0$BurstDirectCall(RewindableAllocator_Try_000009F0$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall) == 0x10, "Size mismatch!");
+static_assert(sizeof(::Unity::Collections::RewindableAllocator_Try_000009F0$BurstDirectCall) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
 // [BurstCompile]
@@ -320,9 +320,9 @@ public:
   // Declarations
   using MemoryBlock = ::Unity::Collections::RewindableAllocator_MemoryBlock;
 
-  using Try_000009DE$BurstDirectCall = ::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall;
+  using Try_000009F0$BurstDirectCall = ::Unity::Collections::RewindableAllocator_Try_000009F0$BurstDirectCall;
 
-  using Try_000009DE$PostfixBurstDelegate = ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate;
+  using Try_000009F0$PostfixBurstDelegate = ::Unity::Collections::RewindableAllocator_Try_000009F0$PostfixBurstDelegate;
 
   using Union = ::Unity::Collections::RewindableAllocator_Union;
 
@@ -365,59 +365,59 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Collections::NativeList_1<T> AllocateNativeList(int32_t capacity);
 
-  /// @brief Method Dispose, addr 0x64c73c4, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68f051c, size 0xf0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x64c7034, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x68f018c, size 0xe4, virtual false, abstract: false, final false
   inline void Initialize(int32_t initialSizeInBytes, bool enableBlockFree);
 
-  /// @brief Method Rewind, addr 0x64c7248, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Rewind, addr 0x68f03a0, size 0x118, virtual false, abstract: false, final false
   inline void Rewind();
 
-  /// @brief Method Try, addr 0x64c76a0, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method Try, addr 0x68f07f8, size 0x284, virtual true, abstract: false, final true
   inline int32_t Try(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   /// [BurstCompile]
   /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
-  /// @brief Method Try, addr 0x64c7030, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Try, addr 0x68f0188, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
   /// [BurstCompile]
   /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
-  /// @brief Method Try$BurstManaged, addr 0x64c7a20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Try$BurstManaged, addr 0x68f0b78, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try$BurstManaged(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method TryAllocate, addr 0x64c752c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x68f0684, size 0x174, virtual false, abstract: false, final false
   inline int32_t TryAllocate(::by_ref<::Unity::Collections::AllocatorManager_Block> block, int32_t startIndex, int32_t lastIndex, int64_t alignedSize, int64_t alignmentMask);
 
-  /// @brief Method get_BlocksAllocated, addr 0x64c7170, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BlocksAllocated, addr 0x68f02c8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_BlocksAllocated();
 
-  /// @brief Method get_BytesAllocated, addr 0x64c71cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_BytesAllocated, addr 0x68f0324, size 0x7c, virtual false, abstract: false, final false
   inline int64_t get_BytesAllocated();
 
-  /// @brief Method get_EnableBlockFree, addr 0x64c7158, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBlockFree, addr 0x68f02b0, size 0x10, virtual false, abstract: false, final false
   inline bool get_EnableBlockFree();
 
-  /// @brief Method get_Function, addr 0x64c74b4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method get_Function, addr 0x68f060c, size 0x78, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_TryFunction* get_Function();
 
-  /// @brief Method get_Handle, addr 0x64c79f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Handle, addr 0x68f0b48, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_AllocatorHandle get_Handle();
 
-  /// @brief Method get_InitialSizeInBytes, addr 0x64c717c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_InitialSizeInBytes, addr 0x68f02d4, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_InitialSizeInBytes();
 
-  /// @brief Method get_IsAutoDispose, addr 0x64c7a18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsAutoDispose, addr 0x68f0b70, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsAutoDispose();
 
-  /// @brief Method get_IsCustomAllocator, addr 0x64c7a08, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsCustomAllocator, addr 0x68f0b60, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsCustomAllocator();
 
-  /// @brief Method get_MaxMemoryBlockSize, addr 0x64c71c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxMemoryBlockSize, addr 0x68f031c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxMemoryBlockSize();
 
-  /// @brief Method get_ToAllocator, addr 0x64c7a00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ToAllocator, addr 0x68f0b58, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::Allocator get_ToAllocator();
 
   /// @brief Convert to "::System::IDisposable"
@@ -426,10 +426,10 @@ public:
   /// @brief Convert to "::Unity::Collections::AllocatorManager_IAllocator"
   constexpr ::Unity::Collections::AllocatorManager_IAllocator* i___Unity__Collections__AllocatorManager_IAllocator();
 
-  /// @brief Method set_EnableBlockFree, addr 0x64c7168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBlockFree, addr 0x68f02c0, size 0x8, virtual false, abstract: false, final false
   inline void set_EnableBlockFree(bool value);
 
-  /// @brief Method set_Handle, addr 0x64c79f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Handle, addr 0x68f0b50, size 0x8, virtual true, abstract: false, final true
   inline void set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle value);
 
   // Ctor Parameters []
@@ -446,7 +446,7 @@ public:
                                 uint8_t m_reachMaxBlockSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

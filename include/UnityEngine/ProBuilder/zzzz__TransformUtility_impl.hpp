@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::UnparentChildren)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x66f8218;
+  constexpr static std::size_t addrs = 0x6b0c464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::ReparentChildren)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x66f8398;
+  constexpr static std::size_t addrs = 0x6b0c5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::TransformVertex)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x66f84d8;
+  constexpr static std::size_t addrs = 0x6b0c724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::InverseTransformVertex)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66f8694;
+  constexpr static std::size_t addrs = 0x6b0c8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

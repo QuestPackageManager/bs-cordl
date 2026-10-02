@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::ReleaseInternalResource)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67e4ad4;
+  constexpr static std::size_t addrs = 0x6c0d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::by_ref<::UnityEngine::GraphicsBuffer*>)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67e4ae8;
+  constexpr static std::size_t addrs = 0x6c0d548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::by_ref<::UnityEngine::GraphicsBuffer*>)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67e4b2c;
+  constexpr static std::size_t addrs = 0x6c0d58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceTypeName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67e4b70;
+  constexpr static std::size_t addrs = 0x6c0d5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetSortIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67e4bb4;
+  constexpr static std::size_t addrs = 0x6c0d614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)()>(&::UnityEngine::Rendering::RenderGraphModule::BufferPool::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x67e4bd4;
+  constexpr static std::size_t addrs = 0x6c0d634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), { ".ctor", {}, {} })));

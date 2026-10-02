@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SwitchLevelAttribute::*)(::System::Type*)>(&::System::Diagnostics::SwitchLevelAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6397cd8;
+  constexpr static std::size_t addrs = 0x67bffa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SwitchLevelAttribute::*)(::System::Type*)>(&::System::Diagnostics::SwitchLevelAttribute::set_SwitchLevelType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6397cdc;
+  constexpr static std::size_t addrs = 0x67bffa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

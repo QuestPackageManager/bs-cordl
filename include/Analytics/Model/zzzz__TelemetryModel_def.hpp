@@ -45,18 +45,18 @@ public:
   static inline ::Analytics::Model::TelemetryModel* New_ctor();
 
   /// [NullableContext(1)]
-  /// @brief Method SendAppLoadingEvent, addr 0x325720c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SendAppLoadingEvent, addr 0x34dc8f4, size 0x13c, virtual false, abstract: false, final false
   inline void SendAppLoadingEvent(::StringW eventName, int32_t msDuration);
 
   /// [NullableContext(1)]
-  /// @brief Method SendLevelLoadingEvent, addr 0x3257348, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SendLevelLoadingEvent, addr 0x34dca30, size 0x144, virtual false, abstract: false, final false
   inline void SendLevelLoadingEvent(::StringW eventName, ::StringW levelKey, int32_t msDuration, int32_t intValue);
 
   /// [NullableContext(1)]
-  /// @brief Method SendPromoEvent, addr 0x325748c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SendPromoEvent, addr 0x34dcb74, size 0x140, virtual false, abstract: false, final false
   inline void SendPromoEvent(::StringW eventName, ::StringW promoId, int32_t count);
 
-  /// @brief Method SetEventDispatcher, addr 0x3257048, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SetEventDispatcher, addr 0x34dc730, size 0x1c4, virtual false, abstract: false, final false
   inline void SetEventDispatcher(::BeatGames::Analytics::AnalyticsEventsDispatcher* newAnalyticsEventsDispatcher);
 
   constexpr ::BeatGames::Analytics::AnalyticsEventsDispatcher* const& __cordl_internal_get__analyticsEventDispatcher() const;
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set__queuedEvents(::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* value);
 
-  /// @brief Method .ctor, addr 0x32575cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dccb4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_analyticsEventsDispatcher, addr 0x3257040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_analyticsEventsDispatcher, addr 0x34dc728, size 0x8, virtual false, abstract: false, final false
   inline ::BeatGames::Analytics::AnalyticsEventsDispatcher* get_analyticsEventsDispatcher();
 
 protected:
@@ -92,7 +92,7 @@ public:
   TelemetryModel(TelemetryModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24157 };
 
   /// @brief Field _analyticsEventDispatcher, offset: 0x10, size: 0x8, def value: None
   ::BeatGames::Analytics::AnalyticsEventsDispatcher* ____analyticsEventDispatcher;

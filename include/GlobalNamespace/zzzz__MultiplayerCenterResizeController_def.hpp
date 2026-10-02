@@ -52,15 +52,15 @@ public:
 
   __declspec(property(get = get_isEdgeDistanceFromCenterCalculated, put = set_isEdgeDistanceFromCenterCalculated)) bool isEdgeDistanceFromCenterCalculated;
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x59d04bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x5deb9f8, size 0x78, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::MultiplayerCenterResizeController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59d05f4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5debb30, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59d03dc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5deb918, size 0xe0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__edgeDistanceFromCenter_k__BackingField() const;
@@ -93,31 +93,31 @@ public:
 
   constexpr void __cordl_internal_set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x59d0780, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5debcbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x59d023c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x5deb778, size 0xc0, virtual false, abstract: false, final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_edgeDistanceFromCenter, addr 0x59d03cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edgeDistanceFromCenter, addr 0x5deb908, size 0x8, virtual false, abstract: false, final false
   inline float_t get_edgeDistanceFromCenter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x59d03bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x5deb8f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEdgeDistanceFromCenterCalculated();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x59d02fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x5deb838, size 0xc0, virtual false, abstract: false, final false
   inline void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_edgeDistanceFromCenter, addr 0x59d03d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_edgeDistanceFromCenter, addr 0x5deb910, size 0x8, virtual false, abstract: false, final false
   inline void set_edgeDistanceFromCenter(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x59d03c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x5deb900, size 0x8, virtual false, abstract: false, final false
   inline void set_isEdgeDistanceFromCenterCalculated(bool value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   MultiplayerCenterResizeController(MultiplayerCenterResizeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6248 };
 
   /// [SerializeField]
   /// @brief Field _platformWidth, offset: 0x20, size: 0x4, def value: None

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithLivestreamingVideoStats::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLivestreamingVideoStats::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ddbb64;
+  constexpr static std::size_t addrs = 0x61f5748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingVideoStats* (::Oculus::Platform::MessageWithLivestreamingVideoStats::*)()>(
     &::Oculus::Platform::MessageWithLivestreamingVideoStats::GetLivestreamingVideoStats)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ddbbc0;
+  constexpr static std::size_t addrs = 0x61f57a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithLivestreamingVideoStats*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingVideoStats* (::Oculus::Platform::MessageWithLivestreamingVideoStats::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLivestreamingVideoStats::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ddbc04;
+  constexpr static std::size_t addrs = 0x61f57e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithLivestreamingVideoStats*>(),

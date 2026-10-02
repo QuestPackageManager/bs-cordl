@@ -67,13 +67,13 @@ public:
   __declspec(property(get = __cordl_internal_get_lastProcessedNode,
                       put = __cordl_internal_set_lastProcessedNode)) ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* lastProcessedNode;
 
-  /// @brief Method AddCallback, addr 0x58c4274, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method AddCallback, addr 0x5cdaaf4, size 0x4e4, virtual false, abstract: false, final false
   inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method CallCallbacks, addr 0x58c3a7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x5cda2fc, size 0x50, virtual false, abstract: false, final false
   inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method CallCallbacks, addr 0x58c4b98, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x5cdb418, size 0x264, virtual false, abstract: false, final false
   inline void CallCallbacks(int32_t typeId, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -83,13 +83,13 @@ public:
 
   static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
-  /// @brief Method RemoveCallback, addr 0x58c4758, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method RemoveCallback, addr 0x5cdafd8, size 0x300, virtual false, abstract: false, final false
   inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method UpdateHasCallbacks, addr 0x58c4af8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateHasCallbacks, addr 0x5cdb378, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateHasCallbacks();
 
-  /// @brief Method UpdateHasSubtypeCallbacks, addr 0x58c4a58, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateHasSubtypeCallbacks, addr 0x5cdb2d8, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateHasSubtypeCallbacks();
 
   constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* const& __cordl_internal_get__callbacks() const;
@@ -138,10 +138,10 @@ public:
 
   constexpr void __cordl_internal_set_lastProcessedNode(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method .ctor, addr 0x58c41a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cdaa28, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime);
 
-  /// @brief Method get_isEmpty, addr 0x58c4188, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x5cdaa08, size 0x20, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -159,7 +159,7 @@ public:
   CallbacksInTime(CallbacksInTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5740 };
 
   /// @brief Field lastProcessedNode, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* ___lastProcessedNode;

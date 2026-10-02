@@ -54,22 +54,22 @@ public:
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_CreatePlayable, addr 0x6b0457c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreatePlayable, addr 0x6f5f8c4, size 0xdc, virtual false, abstract: false, final false
   static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x6b0465c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x6f5f9a0, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
 
   static inline ::UnityEngine::Playables::PlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b04684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5f9c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x6b044c4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x6f5f80c, size 0x5c, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x6b04520, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x6f5f868, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
@@ -90,7 +90,7 @@ public:
   PlayableAsset(PlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

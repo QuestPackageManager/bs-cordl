@@ -15,8 +15,8 @@ template <typename TSubsystem> class IntegratedSubsystemDescriptor_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::IntegratedSubsystemDescriptor_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");
-// [UsedByNativeCode("SubsystemDescriptor")]
 // [NativeHeader("Modules/Subsystems/SubsystemDescriptor.h")]
+// [UsedByNativeCode("SubsystemDescriptor")]
 // Dependencies UnityEngine.IntegratedSubsystemDescriptor
 namespace UnityEngine {
 // cpp template
@@ -52,7 +52,7 @@ public:
   IntegratedSubsystemDescriptor_1(IntegratedSubsystemDescriptor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

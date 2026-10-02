@@ -48,24 +48,24 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x6ccdfa0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x7158dbc, size 0xbc, virtual false, abstract: false, final false
   static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method DirtyHierarchy, addr 0x6ccdeb4, size 0xec, virtual false, abstract: false, final false
-  static inline void DirtyHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags mustDirtyFlags);
+  /// @brief Method DirtyChildrenHierarchy, addr 0x7158c84, size 0x138, virtual false, abstract: false, final false
+  static inline void DirtyChildrenHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags mustDirtyFlags);
 
-  /// @brief Method DirtyParentHierarchy, addr 0x6cce024, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DirtyParentHierarchy, addr 0x7158e78, size 0xa0, virtual false, abstract: false, final false
   static inline void DirtyParentHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags flags);
 
-  /// @brief Method GetChildrenMustDirtyFlags, addr 0x6ccdff0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetChildrenMustDirtyFlags, addr 0x7158c50, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElementFlags GetChildrenMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
   static inline ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x6ccddcc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x7158b50, size 0x100, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x6cce05c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x7158f18, size 0x98, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
@@ -80,14 +80,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6cce0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7158fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x6ccdd70, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x7158af4, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
@@ -109,7 +109,7 @@ public:
   VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5357 };
 
   /// @brief Field m_Version, offset: 0x28, size: 0x4, def value: None
   uint32_t ___m_Version;

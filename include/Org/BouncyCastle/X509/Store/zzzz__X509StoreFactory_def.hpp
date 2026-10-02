@@ -32,15 +32,15 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE X509StoreFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3642908, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x38cbba4, size 0x3d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::Store::IX509Store* Create(::StringW type, ::Org::BouncyCastle::X509::Store::IX509StoreParameters* parameters);
 
   static inline ::Org::BouncyCastle::X509::Store::X509StoreFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3642904, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38cbba0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method checkCorrectType, addr 0x3642ce0, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method checkCorrectType, addr 0x38cbf7c, size 0x364, virtual false, abstract: false, final false
   static inline void checkCorrectType(::System::Collections::ICollection* coll, ::System::Type* t);
 
 protected:

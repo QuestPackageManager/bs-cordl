@@ -12,7 +12,6 @@
 #include "Unity/Collections/zzzz__INativeDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueBlockHeader_def.hpp"
-#include "Unity/Collections/zzzz__UnsafeQueueBlockPoolData_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueData_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueue_1_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
@@ -154,14 +153,14 @@ template <typename T> inline void Unity::Collections::UnsafeQueue_1_ParallelWrit
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueue_1_ParallelWriter<T>>(), { "Enqueue", {}, { ::i2c::type_of<T>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, threadIndexOverride);
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_QueuePool", ty:
-// "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"),
-// comment: None }]
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 template <typename T>
 constexpr ::Unity::Collections::UnsafeQueue_1_ParallelWriter<T>::UnsafeQueue_1_ParallelWriter(::Unity::Collections::UnsafeQueueData* m_Buffer,
-                                                                                              ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool, int32_t m_ThreadIndex) noexcept {
+                                                                                              ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel, int32_t m_ThreadIndex) noexcept {
   this->m_Buffer = m_Buffer;
-  this->m_QueuePool = m_QueuePool;
+  this->m_AllocatorLabel = m_AllocatorLabel;
   this->m_ThreadIndex = m_ThreadIndex;
 }
 // Ctor Parameters []
@@ -190,19 +189,6 @@ template <typename T> inline bool Unity::Collections::UnsafeQueue_1<T>::IsEmpty(
 template <typename T> inline int32_t Unity::Collections::UnsafeQueue_1<T>::get_Count() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueue_1<T>>(), { "get_Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
-}
-template <typename T> inline int32_t Unity::Collections::UnsafeQueue_1<T>::get_PersistentMemoryBlockCount() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueue_1<T>>(), { "get_PersistentMemoryBlockCount", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
-}
-template <typename T> inline void Unity::Collections::UnsafeQueue_1<T>::set_PersistentMemoryBlockCount(int32_t value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueue_1<T>>(), { "set_PersistentMemoryBlockCount", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
-}
-template <typename T> inline int32_t Unity::Collections::UnsafeQueue_1<T>::get_MemoryBlockSize() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueue_1<T>>(), { "get_MemoryBlockSize", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
 template <typename T> inline T Unity::Collections::UnsafeQueue_1<T>::Peek() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueue_1<T>>(), { "Peek", {}, {} })));
@@ -276,14 +262,11 @@ template <typename T> constexpr Unity::Collections::UnsafeQueue_1<T>::operator :
 template <typename T> constexpr ::System::IDisposable* Unity::Collections::UnsafeQueue_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_QueuePool", ty:
-// "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocatorLabel", ty:
 // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-constexpr ::Unity::Collections::UnsafeQueue_1<T>::UnsafeQueue_1(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool,
-                                                                ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept {
+constexpr ::Unity::Collections::UnsafeQueue_1<T>::UnsafeQueue_1(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept {
   this->m_Buffer = m_Buffer;
-  this->m_QueuePool = m_QueuePool;
   this->m_AllocatorLabel = m_AllocatorLabel;
 }
 // Ctor Parameters []

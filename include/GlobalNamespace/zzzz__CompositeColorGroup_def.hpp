@@ -40,6 +40,7 @@ public:
   enum struct __CompositeColorGroup_AssignMethod_Unwrapped : int32_t {
     __E_Static = static_cast<int32_t>(0x0),
     __E_Incremental = static_cast<int32_t>(0x1),
+    __E_Ignore = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -59,6 +60,9 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CompositeColorGroup_AssignMethod(int32_t value__) noexcept;
 
+  /// @brief Field Ignore value: I32(2)
+  static ::GlobalNamespace::CompositeColorGroup_AssignMethod const Ignore;
+
   /// @brief Field Incremental value: I32(1)
   static ::GlobalNamespace::CompositeColorGroup_AssignMethod const Incremental;
 
@@ -66,7 +70,7 @@ public:
   static ::GlobalNamespace::CompositeColorGroup_AssignMethod const Static;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5936 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -104,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set__colorTargets(::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> value);
 
-  /// @brief Method .ctor, addr 0x598dafc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da8170, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorTargets, addr 0x598daf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorTargets, addr 0x5da8168, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> get_colorTargets();
 
 protected:
@@ -125,7 +129,7 @@ public:
   CompositeColorGroup(CompositeColorGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5937 };
 
   /// [SerializeField]
   /// [HideInInspector]

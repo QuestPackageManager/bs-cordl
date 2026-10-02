@@ -36,7 +36,7 @@ public:
   static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
   /// [Intrinsic]
-  /// @brief Method get_IsHardwareAccelerated, addr 0x5b9403c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsHardwareAccelerated, addr 0x5fabf90, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsHardwareAccelerated();
 
 protected:

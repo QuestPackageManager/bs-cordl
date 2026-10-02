@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::NonSerializedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5c4b218, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x606467c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

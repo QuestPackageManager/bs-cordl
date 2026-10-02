@@ -105,7 +105,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_LateLatchNode const RightHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -165,7 +165,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_TextureLayout const Texture2DArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -195,17 +195,17 @@ public:
 
   // Ctor Parameters [CppParam { name: "view", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "projection", ty: "::UnityEngine::Matrix4x4",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionMesh", ty:
-  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "previousView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "isPreviousViewValid", ty: "bool", modifiers: "", def_value: None, comment:
-  // None }]
+  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "previousView", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "isPreviousViewValid", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr XRDisplaySubsystem_XRRenderParameter(::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 projection, ::UnityEngine::Rect viewport, ::UnityW<::UnityEngine::Mesh> occlusionMesh,
-                                                 int32_t textureArraySlice, ::UnityEngine::Matrix4x4 previousView, bool isPreviousViewValid) noexcept;
+                                                 ::UnityW<::UnityEngine::Mesh> visibleMesh, int32_t textureArraySlice, ::UnityEngine::Matrix4x4 previousView, bool isPreviousViewValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22691 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe8 };
 
   /// @brief Field view, offset: 0x0, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 view;
@@ -219,13 +219,16 @@ public:
   /// @brief Field occlusionMesh, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> occlusionMesh;
 
-  /// @brief Field textureArraySlice, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field visibleMesh, offset: 0x98, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Mesh> visibleMesh;
+
+  /// @brief Field textureArraySlice, offset: 0xa0, size: 0x4, def value: None
   int32_t textureArraySlice;
 
-  /// @brief Field previousView, offset: 0x9c, size: 0x40, def value: None
+  /// @brief Field previousView, offset: 0xa4, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 previousView;
 
-  /// @brief Field isPreviousViewValid, offset: 0xdc, size: 0x1, def value: None
+  /// @brief Field isPreviousViewValid, offset: 0xe4, size: 0x1, def value: None
   bool isPreviousViewValid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -239,13 +242,15 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, 
 
 static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, occlusionMesh) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, textureArraySlice) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, visibleMesh) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, previousView) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, textureArraySlice) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, isPreviousViewValid) == 0xdc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, previousView) == 0xa4, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter) == 0xe0, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter, isPreviousViewValid) == 0xe4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter) == 0xe8, "Size mismatch!");
 
 } // namespace UnityEngine::XR
 // [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
@@ -260,15 +265,15 @@ public:
   // Declarations
   /// [NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameter", IsFreeFunction = true, HasExplicitThis = true, ThrowsException = true)]
   /// [NativeConditional("ENABLE_XR")]
-  /// @brief Method GetRenderParameter, addr 0x6e38ed4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameter, addr 0x72d49f4, size 0xa8, virtual false, abstract: false, final false
   inline void GetRenderParameter(::UnityEngine::Camera* camera, int32_t renderParameterIndex, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
   /// [NativeMethod(Name = "XRRenderPassScriptApi::GetRenderParameterCount", IsFreeFunction = true, HasExplicitThis = true)]
   /// [NativeConditional("ENABLE_XR")]
-  /// @brief Method GetRenderParameterCount, addr 0x6e38fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameterCount, addr 0x72d4af8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetRenderParameterCount();
 
-  /// @brief Method GetRenderParameter_Injected, addr 0x6e38f7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameter_Injected, addr 0x72d4a9c, size 0x5c, virtual false, abstract: false, final false
   static inline void GetRenderParameter_Injected(::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass> _unity_self, ::System::IntPtr camera, int32_t renderParameterIndex,
                                                  ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
@@ -278,21 +283,23 @@ public:
 
   // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderPassIndex", ty: "int32_t",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }, CppParam
-  // { name: "renderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers:
-  // "", def_value: None, comment: None }, CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "foveatedRenderingInfo", ty:
-  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
+  // { name: "renderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderTargetScaledWidth", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "renderTargetScaledHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasMotionVectorPass", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "motionVectorRenderTargetDesc", ty: "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "spaceWarpRightHandedNDC", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "foveatedRenderingInfo", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr XRDisplaySubsystem_XRRenderPass(::System::IntPtr displaySubsystemInstance, int32_t renderPassIndex, ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget,
-                                            ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass,
+                                            ::UnityEngine::RenderTextureDescriptor renderTargetDesc, int32_t renderTargetScaledWidth, int32_t renderTargetScaledHeight, bool hasMotionVectorPass,
                                             ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc,
-                                            bool shouldFillOutDepth, int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept;
+                                            bool shouldFillOutDepth, bool spaceWarpRightHandedNDC, int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22692 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe8 };
 
   /// @brief Field displaySubsystemInstance, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr displaySubsystemInstance;
@@ -306,22 +313,31 @@ public:
   /// @brief Field renderTargetDesc, offset: 0x38, size: 0x34, def value: None
   ::UnityEngine::RenderTextureDescriptor renderTargetDesc;
 
-  /// @brief Field hasMotionVectorPass, offset: 0x6c, size: 0x1, def value: None
+  /// @brief Field renderTargetScaledWidth, offset: 0x6c, size: 0x4, def value: None
+  int32_t renderTargetScaledWidth;
+
+  /// @brief Field renderTargetScaledHeight, offset: 0x70, size: 0x4, def value: None
+  int32_t renderTargetScaledHeight;
+
+  /// @brief Field hasMotionVectorPass, offset: 0x74, size: 0x1, def value: None
   bool hasMotionVectorPass;
 
-  /// @brief Field motionVectorRenderTarget, offset: 0x70, size: 0x28, def value: None
+  /// @brief Field motionVectorRenderTarget, offset: 0x78, size: 0x28, def value: None
   ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget;
 
-  /// @brief Field motionVectorRenderTargetDesc, offset: 0x98, size: 0x34, def value: None
+  /// @brief Field motionVectorRenderTargetDesc, offset: 0xa0, size: 0x34, def value: None
   ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc;
 
-  /// @brief Field shouldFillOutDepth, offset: 0xcc, size: 0x1, def value: None
+  /// @brief Field shouldFillOutDepth, offset: 0xd4, size: 0x1, def value: None
   bool shouldFillOutDepth;
 
-  /// @brief Field cullingPassIndex, offset: 0xd0, size: 0x4, def value: None
+  /// @brief Field spaceWarpRightHandedNDC, offset: 0xd5, size: 0x1, def value: None
+  bool spaceWarpRightHandedNDC;
+
+  /// @brief Field cullingPassIndex, offset: 0xd8, size: 0x4, def value: None
   int32_t cullingPassIndex;
 
-  /// @brief Field foveatedRenderingInfo, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field foveatedRenderingInfo, offset: 0xe0, size: 0x8, def value: None
   ::System::IntPtr foveatedRenderingInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -335,23 +351,29 @@ static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, rende
 
 static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, renderTargetDesc) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, hasMotionVectorPass) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, renderTargetScaledWidth) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, motionVectorRenderTarget) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, renderTargetScaledHeight) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, motionVectorRenderTargetDesc) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, hasMotionVectorPass) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, shouldFillOutDepth) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, motionVectorRenderTarget) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, cullingPassIndex) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, motionVectorRenderTargetDesc) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, foveatedRenderingInfo) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, shouldFillOutDepth) == 0xd4, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass) == 0xe0, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, spaceWarpRightHandedNDC) == 0xd5, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, cullingPassIndex) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, foveatedRenderingInfo) == 0xe0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass) == 0xe8, "Size mismatch!");
 
 } // namespace UnityEngine::XR
-// [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
 // [NativeHeader("Runtime/Graphics/RenderTexture.h")]
+// [NativeHeader("Modules/XR/Subsystems/Display/XRDisplaySubsystem.bindings.h")]
 // Dependencies System.IntPtr, UnityEngine.ColorGamut, UnityEngine.Rect
 namespace UnityEngine::XR {
 // Is value type: true
@@ -372,7 +394,7 @@ public:
                                             ::System::IntPtr foveatedRenderingInfo, bool srcHdrEncoded, ::UnityEngine::ColorGamut srcHdrColorGamut, int32_t srcHdrMaxLuminance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22693 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -433,7 +455,7 @@ public:
   // Declarations
   /// [NativeMethod(Name = "XRMirrorViewBlitDescScriptApi::GetBlitParameter", IsFreeFunction = true, HasExplicitThis = true)]
   /// [NativeConditional("ENABLE_XR")]
-  /// @brief Method GetBlitParameter, addr 0x6e39014, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBlitParameter, addr 0x72d4b34, size 0x54, virtual false, abstract: false, final false
   inline void GetBlitParameter(int32_t blitParameterIndex, ::by_ref<::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams> blitParameter);
 
   // Ctor Parameters []
@@ -446,7 +468,7 @@ public:
   constexpr XRDisplaySubsystem_XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22694 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -484,7 +506,7 @@ namespace UnityEngine::XR {
 class CORDL_TYPE XRDisplaySubsystem_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6e39068, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x72d4b88, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(Il2CppObject* xrDisplaySubsystem);
 
 protected:
@@ -502,7 +524,7 @@ public:
   XRDisplaySubsystem_BindingsMarshaller(XRDisplaySubsystem_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

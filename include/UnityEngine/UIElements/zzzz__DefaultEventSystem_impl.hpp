@@ -2,13 +2,17 @@
 // IWYU pragma private; include "UnityEngine/UIElements/DefaultEventSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
+#include "UnityEngine/InputForUI/zzzz__IMECompositionEvent_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultEventSystem_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
@@ -24,19 +28,25 @@
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__TextInputEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultEventSystem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IScreenRaycaster_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationDeviceType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PhysicsDocumentPicker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScreenOverlayPanelPicker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 #include "UnityEngine/zzzz__PenData_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__Touch_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -46,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)()>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d85bb0;
+  constexpr static std::size_t addrs = 0x723e4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,19 +68,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
-    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                              ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
+    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_0)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d85bb4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x723e4f4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessPointerEvent>b__9_0",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                 ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+            { "<ProcessPointerEvent>b__9_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -78,19 +86,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
-    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                              ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
+    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_1)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d85c54;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x723e58c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessPointerEvent>b__9_1",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                 ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+            { "<ProcessPointerEvent>b__9_1", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -98,19 +104,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
-    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                              ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
+    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_2)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d85cf4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x723e624;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessPointerEvent>b__9_2",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                 ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+            { "<ProcessPointerEvent>b__9_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -118,38 +122,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
-    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                              ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
+    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_3)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d85d94;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x723e6bc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessPointerEvent>b__9_3",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                 ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c._ProcessPointerEvent_b__9_4
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
-    ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                              ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>)>(
-    &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_4)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d85e34;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                                                           { "<ProcessPointerEvent>b__9_4",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                               ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+            { "<ProcessPointerEvent>b__9_3", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -161,7 +144,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::UnityEngine::EventModifiers>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_2)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d85ed4;
+  constexpr static std::size_t addrs = 0x723e754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +164,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_3)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6d85f4c;
+  constexpr static std::size_t addrs = 0x723e7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +183,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d85fbc;
+  constexpr static std::size_t addrs = 0x723e83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +200,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d8600c;
+  constexpr static std::size_t addrs = 0x723e88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +217,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessKeyEvent_b__11_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d8605c;
+  constexpr static std::size_t addrs = 0x723e8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +233,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode>)>(
     &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessKeyEvent_b__11_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d860b0;
+  constexpr static std::size_t addrs = 0x723e930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +249,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::*)(::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t>)>(
         &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessTextInputEvent_b__12_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d86104;
+  constexpr static std::size_t addrs = 0x723e984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,79 +266,52 @@ inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c* Un
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*, "<>9", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
 }
 inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::setStaticF___9__9_0(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_0", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
-      std::forward<
-          ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(
-          value));
+    ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
+                                    "<>9__9_0", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
+inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
 UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::getStaticF___9__9_0() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_0", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
+      ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*, "<>9__9_0",
+      ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
 }
 inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::setStaticF___9__9_1(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_1", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
-      std::forward<
-          ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(
-          value));
+    ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
+                                    "<>9__9_1", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
+inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
 UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::getStaticF___9__9_1() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_1", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
+      ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*, "<>9__9_1",
+      ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
 }
 inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::setStaticF___9__9_2(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_2", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
-      std::forward<
-          ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(
-          value));
+    ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
+                                    "<>9__9_2", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
+inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
 UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::getStaticF___9__9_2() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_2", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
+      ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*, "<>9__9_2",
+      ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
 }
 inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::setStaticF___9__9_3(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_3", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
-      std::forward<
-          ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(
-          value));
+    ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
+                                    "<>9__9_3", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
+inline ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*
 UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::getStaticF___9__9_3() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_3", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::setStaticF___9__9_4(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_4", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(
-      std::forward<
-          ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*>(
-          value));
-}
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::getStaticF___9__9_4() {
-  return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__9_4", ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
+      ::System::Func_3<::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>, ::UnityEngine::UIElements::EventBase*>*, "<>9__9_3",
+      ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>();
 }
 inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::setStaticF___9__10_2(
     ::System::Func_2<::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>, ::UnityEngine::UIElements::EventBase*>* value) {
@@ -453,54 +409,44 @@ inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_0(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    ::UnityEngine::Vector3 panelPosition,
     /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<ProcessPointerEvent>b__9_0",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                             ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+          { "<ProcessPointerEvent>b__9_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_1(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    ::UnityEngine::Vector3 panelPosition,
     /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<ProcessPointerEvent>b__9_1",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                             ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+          { "<ProcessPointerEvent>b__9_1", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_2(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    ::UnityEngine::Vector3 panelPosition,
     /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<ProcessPointerEvent>b__9_2",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                             ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+          { "<ProcessPointerEvent>b__9_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_3(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    ::UnityEngine::Vector3 panelPosition,
     /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<ProcessPointerEvent>b__9_3",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                             ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
-}
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_4(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
-    /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<ProcessPointerEvent>b__9_4",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                             ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, _, t);
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
+          { "<ProcessPointerEvent>b__9_3", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_2(
     /* [TupleElementNames(new[] { "move", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
@@ -567,17 +513,86 @@ inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c* Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::InputForUIProcessor_DefaultEventSystem___c() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::*)()>(
+    &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x723e3f4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0._ProcessIMECompositionEvent_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::*)(int32_t)>(
+    &::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::_ProcessIMECompositionEvent_b__0)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x723e9d8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*>(),
+                                                                                           { "<ProcessIMECompositionEvent>b__0", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::InputForUI::IMECompositionEvent& UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::__cordl_internal_get_compositionEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___compositionEvent;
+}
+constexpr ::UnityEngine::InputForUI::IMECompositionEvent const& UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::__cordl_internal_get_compositionEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___compositionEvent;
+}
+constexpr void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::__cordl_internal_set_compositionEvent(::UnityEngine::InputForUI::IMECompositionEvent value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___compositionEvent = value;
+}
+inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::_ProcessIMECompositionEvent_b__0(int32_t _) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*>(),
+                                                                                         { "<ProcessIMECompositionEvent>b__0", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, _);
+}
+inline ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0::InputForUIProcessor_DefaultEventSystem___c__DisplayClass14_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::UIElements::DefaultEventSystem*)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d83b40;
+  constexpr static std::size_t addrs = 0x723c730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
                                                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor.Reset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::Reset)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x723c7f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(), { "Reset", {}, {} })));
     return ___internal_method;
   }
 };
@@ -587,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6d8481c;
+  constexpr static std::size_t addrs = 0x723c890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -600,8 +615,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessInputForUIEvents)> {
-  constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x6d834ec;
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x723c948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -615,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventModifiers (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::EventModifiers)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::GetModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d85b08;
+  constexpr static std::size_t addrs = 0x723e3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -628,8 +643,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::PointerEvent)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessPointerEvent)> {
-  constexpr static std::size_t size = 0x7d0;
-  constexpr static std::size_t addrs = 0x6d848d4;
+  constexpr static std::size_t size = 0xad0;
+  constexpr static std::size_t addrs = 0x723cd74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -642,8 +657,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::NavigationEvent)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessNavigationEvent)> {
-  constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x6d855d4;
+  constexpr static std::size_t size = 0x520;
+  constexpr static std::size_t addrs = 0x723de68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -656,8 +671,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::KeyEvent)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessKeyEvent)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x6d850a4;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x723d844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -670,8 +685,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::TextInputEvent)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessTextInputEvent)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6d85334;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x723dad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -684,8 +699,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::CommandEvent)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessCommandEvent)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d85548;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x723ddd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
@@ -698,13 +713,31 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::InputForUI::IMECompositionEvent)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessIMECompositionEvent)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d854bc;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x723dc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
                                                              { "ProcessIMECompositionEvent", {}, { ::i2c::type_of<::UnityEngine::InputForUI::IMECompositionEvent>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor._ProcessPointerEvent_b__9_4
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
+    ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::_ProcessPointerEvent_b__9_4)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x723e3f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
+            { "<ProcessPointerEvent>b__9_4", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -761,6 +794,10 @@ inline void UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::_ct
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventSystem);
 }
+inline void UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::Reset() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(), { "Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline bool UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
                                                                                          { "OnEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
@@ -805,6 +842,16 @@ inline void UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::Pro
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
                                                                                          { "ProcessIMECompositionEvent", {}, { ::i2c::type_of<::UnityEngine::InputForUI::IMECompositionEvent>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, compositionEvent);
+}
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::_ProcessPointerEvent_b__9_4(
+    ::UnityEngine::Vector3 panelPosition,
+    /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
+          { "<ProcessPointerEvent>b__9_4", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, t);
 }
 inline ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*
 UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::New_ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem) {
@@ -1084,7 +1131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)(::StringW)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::GetButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d8879c;
+  constexpr static std::size_t addrs = 0x72415fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1099,7 +1146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)(::StringW)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::GetAxisRaw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d887a4;
+  constexpr static std::size_t addrs = 0x7241604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1113,7 +1160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::ClearLastPenContactEvent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d887ac;
+  constexpr static std::size_t addrs = 0x724160c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1127,7 +1174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PenData (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::GetLastPenContactEvent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d887d4;
+  constexpr static std::size_t addrs = 0x7241634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1141,7 +1188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_touchCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d88840;
+  constexpr static std::size_t addrs = 0x72416a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1155,7 +1202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Touch (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)(int32_t)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::GetTouch)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d88868;
+  constexpr static std::size_t addrs = 0x72416c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1169,7 +1216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_mousePresent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d888e8;
+  constexpr static std::size_t addrs = 0x7241748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1183,7 +1230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)(int32_t)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::GetMouseButtonDown)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d888f0;
+  constexpr static std::size_t addrs = 0x7241750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1198,7 +1245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)(int32_t)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::GetMouseButtonUp)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d8892c;
+  constexpr static std::size_t addrs = 0x724178c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1213,7 +1260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_mousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88968;
+  constexpr static std::size_t addrs = 0x72417c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1227,7 +1274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_mouseButtonCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88970;
+  constexpr static std::size_t addrs = 0x72417d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1241,7 +1288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_anyKey)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d88978;
+  constexpr static std::size_t addrs = 0x72417d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1255,7 +1302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_unscaledTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d889a0;
+  constexpr static std::size_t addrs = 0x7241800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1269,7 +1316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::get_doubleClickTime)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d889c8;
+  constexpr static std::size_t addrs = 0x7241828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1283,7 +1330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_Input::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d86330;
+  constexpr static std::size_t addrs = 0x723ed5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1388,7 +1435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)(::StringW)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::GetButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a04;
+  constexpr static std::size_t addrs = 0x7241864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1403,7 +1450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)(::StringW)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::GetAxisRaw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a0c;
+  constexpr static std::size_t addrs = 0x724186c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1418,7 +1465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_touchCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a14;
+  constexpr static std::size_t addrs = 0x7241874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1432,7 +1479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Touch (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)(int32_t)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::GetTouch)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d88a1c;
+  constexpr static std::size_t addrs = 0x724187c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1446,7 +1493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::ClearLastPenContactEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d88a30;
+  constexpr static std::size_t addrs = 0x7241890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1460,7 +1507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PenData (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::GetLastPenContactEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d88a34;
+  constexpr static std::size_t addrs = 0x7241894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1474,7 +1521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_mousePresent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a44;
+  constexpr static std::size_t addrs = 0x72418a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1488,7 +1535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)(int32_t)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::GetMouseButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a4c;
+  constexpr static std::size_t addrs = 0x72418ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1503,7 +1550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)(int32_t)>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::GetMouseButtonUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a54;
+  constexpr static std::size_t addrs = 0x72418b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1518,7 +1565,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_mousePosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d88a5c;
+  constexpr static std::size_t addrs = 0x72418bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1532,7 +1579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_mouseButtonCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a6c;
+  constexpr static std::size_t addrs = 0x72418cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1546,7 +1593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_anyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a74;
+  constexpr static std::size_t addrs = 0x72418d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1560,7 +1607,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_unscaledTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d88a7c;
+  constexpr static std::size_t addrs = 0x72418dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1574,7 +1621,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::get_doubleClickTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d88a84;
+  constexpr static std::size_t addrs = 0x72418e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1588,7 +1635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_NoInput::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d86334;
+  constexpr static std::size_t addrs = 0x723ed60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1694,7 +1741,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)()>(
     &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d88ae4;
+  constexpr static std::size_t addrs = 0x7241944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1702,214 +1749,215 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendIMGUIEvents_b__26_0
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendIMGUIEvents_b__28_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Event*)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_0)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__28_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d88ae8;
+  constexpr static std::size_t addrs = 0x7241948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                                                           { "<SendIMGUIEvents>b__26_0", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
+                                                                                           { "<SendIMGUIEvents>b__28_0", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendIMGUIEvents_b__26_1
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendIMGUIEvents_b__28_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_1)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__28_1)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d88b44;
+  constexpr static std::size_t addrs = 0x72419a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                                                           { "<SendIMGUIEvents>b__26_1",
+                                                                                           { "<SendIMGUIEvents>b__28_1",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                                                ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendIMGUIEvents_b__26_2
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendIMGUIEvents_b__28_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_2)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__28_2)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d88be4;
+  constexpr static std::size_t addrs = 0x7241a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                            { "<SendIMGUIEvents>b__26_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Event*>() } })));
+                            { "<SendIMGUIEvents>b__28_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Event*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessMouseEvents_b__27_0
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessMouseEvents_b__29_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_0)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__29_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d88c90;
+  constexpr static std::size_t addrs = 0x7241af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessMouseEvents>b__27_0",
+                                                             { "<ProcessMouseEvents>b__29_0",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                  ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessMouseEvents_b__27_1
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessMouseEvents_b__29_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_1)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__29_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d88d4c;
+  constexpr static std::size_t addrs = 0x7241bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessMouseEvents>b__27_1",
+                                                             { "<ProcessMouseEvents>b__29_1",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                  ::i2c::type_of<::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessMouseEvents_b__27_2
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessMouseEvents_b__29_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_2)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__29_2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d88de0;
+  constexpr static std::size_t addrs = 0x7241c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessMouseEvents>b__27_2",
+                                                             { "<ProcessMouseEvents>b__29_2",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                  ::i2c::type_of<::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendInputEvents_b__28_0
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendInputEvents_b__30_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*)>(
-        &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__28_0)> {
+        &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__30_0)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d88e74;
+  constexpr static std::size_t addrs = 0x7241cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<SendInputEvents>b__28_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
+                                                             { "<SendInputEvents>b__30_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendInputEvents_b__28_1
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendInputEvents_b__30_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*)>(
-        &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__28_1)> {
+        &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__30_1)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6d88f0c;
+  constexpr static std::size_t addrs = 0x7241d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<SendInputEvents>b__28_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
+                                                             { "<SendInputEvents>b__30_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendInputEvents_b__28_2
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._SendInputEvents_b__30_2
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*)>(
-        &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__28_2)> {
+        &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__30_2)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6d88ffc;
+  constexpr static std::size_t addrs = 0x7241e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<SendInputEvents>b__28_2", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
+                                                             { "<SendInputEvents>b__30_2", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessTouchEvents_b__29_0
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessTouchEvents_b__31_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                                               ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTouchEvents_b__29_0)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d890ec;
+                                                                               ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>)>(
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTouchEvents_b__31_0)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x7241f4c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                                                           { "<ProcessTouchEvents>b__29_0",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                               ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
+                                                             { "<ProcessTouchEvents>b__31_0",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                                 ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessPenEvents_b__30_0
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessPenEvents_b__32_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessPenEvents_b__30_0)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d891a8;
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessPenEvents_b__32_0)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x7241fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                            { "<ProcessPenEvents>b__30_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::PenData>() } })));
+                            { "<ProcessPenEvents>b__32_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::PenData>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessTabEvent_b__37_0
+//  Writing Method size for method: ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c._ProcessTabEvent_b__39_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (
     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::*)(::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                                       ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>)>(
-    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTabEvent_b__37_0)> {
+    &::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTabEvent_b__39_0)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6d8924c;
+  constexpr static std::size_t addrs = 0x724201c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                             { "<ProcessTabEvent>b__37_0",
+                                                             { "<ProcessTabEvent>b__39_0",
                                                                {},
                                                                { ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                                        ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>>() } })));
@@ -1923,157 +1971,157 @@ inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c
 inline ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*, "<>9", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__26_0(::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__26_0",
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__28_0(::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_0",
                                     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
       std::forward<::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__26_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__26_0",
+inline ::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__28_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_0",
                                            ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__26_1(
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__28_1(
     ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>* value) {
   ::cordl_internals::setStaticField<
       ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__26_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      "<>9__28_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
       std::forward<
           ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*>(
           value));
 }
 inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__26_1() {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__28_1() {
   return ::cordl_internals::getStaticField<
       ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__26_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+      "<>9__28_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__26_2(
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__28_2(
     ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__26_2",
+  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_2",
                                     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
       std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
 inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__26_2() {
-  return ::cordl_internals::getStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__26_2",
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__28_2() {
+  return ::cordl_internals::getStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Event*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_2",
                                            ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__27_0(
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__29_0(
     ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*
         value) {
   ::cordl_internals::setStaticField<
       ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__27_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      "<>9__29_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
       std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
                                     ::UnityEngine::UIElements::EventBase*>*>(value));
 }
 inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__27_0() {
-  return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__27_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__27_1(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                     ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                     ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
-                                    "<>9__27_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
-      std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                                    ::UnityEngine::UIElements::EventBase*>*>(value));
-}
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                        ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__27_1() {
-  return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                       ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__27_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__27_2(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                     ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                     ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
-                                    "<>9__27_2", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
-      std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                                    ::UnityEngine::UIElements::EventBase*>*>(value));
-}
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                        ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__27_2() {
-  return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
-                       ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__27_2", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__28_0(
-    ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_0",
-                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
-      std::forward<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*>(value));
-}
-inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__28_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_0",
-                                           ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__28_1(
-    ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_1",
-                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
-      std::forward<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*>(value));
-}
-inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__28_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_1",
-                                           ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__28_2(
-    ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_2",
-                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
-      std::forward<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*>(value));
-}
-inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__28_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__28_2",
-                                           ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
-}
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__29_0(
-    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
-      "<>9__29_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
-      std::forward<
-          ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*>(
-          value));
-}
-inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*
 UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__29_0() {
   return ::cordl_internals::getStaticField<
-      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
+      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
       "<>9__29_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__29_1(
+    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                     ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
+                                                     ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
+                                    "<>9__29_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                                    ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                        ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__29_1() {
+  return ::cordl_internals::getStaticField<
+      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                       ::UnityEngine::UIElements::EventBase*>*,
+      "<>9__29_1", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+}
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__29_2(
+    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                     ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3,
+                                                     ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
+                                    "<>9__29_2", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                                    ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                        ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__29_2() {
+  return ::cordl_internals::getStaticField<
+      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>,
+                       ::UnityEngine::UIElements::EventBase*>*,
+      "<>9__29_2", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+}
 inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__30_0(
+    ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_0",
+                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__30_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_0",
+                                           ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+}
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__30_1(
+    ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_1",
+                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__30_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_1",
+                                           ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+}
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__30_2(
+    ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_2",
+                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+inline ::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__30_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_2",
+                                           ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+}
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__31_0(
+    ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*
+        value) {
+  ::cordl_internals::setStaticField<
+      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
+      "<>9__31_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+      std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>,
+                                    ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__31_0() {
+  return ::cordl_internals::getStaticField<
+      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>, ::UnityEngine::UIElements::EventBase*>*,
+      "<>9__31_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+}
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__32_0(
     ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_0",
+  ::cordl_internals::setStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>*, "<>9__32_0",
                                     ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
       std::forward<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>*>(value));
 }
 inline ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__30_0() {
-  return ::cordl_internals::getStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>*, "<>9__30_0",
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__32_0() {
+  return ::cordl_internals::getStaticField<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::PenData, ::UnityEngine::UIElements::EventBase*>*, "<>9__32_0",
                                            ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
-inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__37_0(
+inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::setStaticF___9__39_0(
     ::System::Func_2<
         ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
         ::UnityEngine::UIElements::EventBase*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                             ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
                                                      ::UnityEngine::UIElements::EventBase*>*,
-                                    "<>9__37_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
+                                    "<>9__39_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(
       std::forward<::System::Func_2<
           ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
           ::UnityEngine::UIElements::EventBase*>*>(value));
@@ -2081,119 +2129,120 @@ inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c
 inline ::System::Func_2<
     ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
     ::UnityEngine::UIElements::EventBase*>*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__37_0() {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::getStaticF___9__39_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                    ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>,
                                                             ::UnityEngine::UIElements::EventBase*>*,
-                                           "<>9__37_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
+                                           "<>9__39_0", ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>();
 }
 inline void UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_0(::UnityEngine::Event* e) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__28_0(::UnityEngine::Event* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<SendIMGUIEvents>b__26_0", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
+                                                                                         { "<SendIMGUIEvents>b__28_0", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, e);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_1(
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__28_1(
     ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
     /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<SendIMGUIEvents>b__26_1",
+                                                                                         { "<SendIMGUIEvents>b__28_1",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                                              ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, _, t);
 }
 inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Event* evt) {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__28_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Event* evt) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                          { "<SendIMGUIEvents>b__26_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Event*>() } })));
+                          { "<SendIMGUIEvents>b__28_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, evt);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_0(
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__29_0(
     ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
     /* [TupleElementNames(new[] { "modifiers", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<ProcessMouseEvents>b__27_0",
+                                                           { "<ProcessMouseEvents>b__29_0",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_1(
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__29_1(
     ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
     ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<ProcessMouseEvents>b__27_1",
+                                                           { "<ProcessMouseEvents>b__29_1",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                ::i2c::type_of<::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_2(
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__29_2(
     ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
     ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<ProcessMouseEvents>b__27_2",
+                                                           { "<ProcessMouseEvents>b__29_2",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                                                ::i2c::type_of<::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
 inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__28_0(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self) {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__30_0(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<SendInputEvents>b__28_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
+                                                           { "<SendInputEvents>b__30_0", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, self);
 }
 inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__28_1(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self) {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__30_1(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<SendInputEvents>b__28_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
+                                                           { "<SendInputEvents>b__30_1", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, self);
 }
 inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__28_2(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self) {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInputEvents_b__30_2(::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<SendInputEvents>b__28_2", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
+                                                           { "<SendInputEvents>b__30_2", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, self);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTouchEvents_b__29_0(
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTouchEvents_b__31_0(
     ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-    /* [TupleElementNames(new[] { "touch", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>> t) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                                                         { "<ProcessTouchEvents>b__29_0",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                                                             ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>>>() } })));
+    /* [TupleElementNames(new[] { "touch", "pointerId", "targetDisplay" })] */ ::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>> t) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
+                                                           { "<ProcessTouchEvents>b__31_0",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                               ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::Touch, int32_t, ::System::Nullable_1<int32_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
 inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessPenEvents_b__30_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::PenData _pen) {
+UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessPenEvents_b__32_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::PenData _pen) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                          { "<ProcessPenEvents>b__30_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::PenData>() } })));
+                          { "<ProcessPenEvents>b__32_0", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::PenData>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, _pen);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTabEvent_b__37_0(
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTabEvent_b__39_0(
     /* [TupleElementNames(new[] { "direction", "modifiers", "input" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                                   ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>
         t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
-                                                           { "<ProcessTabEvent>b__37_0",
+                                                           { "<ProcessTabEvent>b__39_0",
                                                              {},
                                                              { ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
                                                                                                      ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>>() } })));
@@ -2210,7 +2259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventModifiers (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::get_m_CurrentPointerModifiers)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d86158;
+  constexpr static std::size_t addrs = 0x723ea38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2224,7 +2273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* (
     ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(&::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::get_input)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d86164;
+  constexpr static std::size_t addrs = 0x723ea44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2237,8 +2286,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)(::UnityEngine::UIElements::DefaultEventSystem*)>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6d83a68;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x723ec14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(),
@@ -2251,8 +2300,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput* (
     ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(&::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::GetDefaultInput)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6d86188;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x723ea68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2266,7 +2315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::ProcessLegacyInputEvents)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6d8397c;
+  constexpr static std::size_t addrs = 0x723ed64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2280,7 +2329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::SendIMGUIEvents)> {
   constexpr static std::size_t size = 0x73c;
-  constexpr static std::size_t addrs = 0x6d873ec;
+  constexpr static std::size_t addrs = 0x724000c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2294,7 +2343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::ProcessMouseEvents)> {
   constexpr static std::size_t size = 0x988;
-  constexpr static std::size_t addrs = 0x6d86a64;
+  constexpr static std::size_t addrs = 0x723f684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2308,7 +2357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::SendInputEvents)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x6d87b28;
+  constexpr static std::size_t addrs = 0x7240748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2321,8 +2370,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::ProcessTouchEvents)> {
-  constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6d86618;
+  constexpr static std::size_t size = 0x554;
+  constexpr static std::size_t addrs = 0x723f130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2336,7 +2385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::ProcessPenEvents)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6d86338;
+  constexpr static std::size_t addrs = 0x723ee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2350,7 +2399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::GetRawMoveVector)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x6d884a4;
+  constexpr static std::size_t addrs = 0x72410c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2364,7 +2413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::ShouldSendMoveFromInput)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x6d88074;
+  constexpr static std::size_t addrs = 0x7240c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2378,12 +2427,44 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::*)(::UnityEngine::Event*, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::ProcessTabEvent)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6d87ee8;
+  constexpr static std::size_t addrs = 0x7240b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(),
                                                              { "ProcessTabEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor.MakeTouchEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::Touch, int32_t, ::UnityEngine::EventModifiers, int32_t)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::MakeTouchEvent)> {
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x72413bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(),
+                         { "MakeTouchEvent", {}, { ::i2c::type_of<::UnityEngine::Touch>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor.MakePenEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::PenData, ::UnityEngine::EventModifiers, int32_t)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::MakePenEvent)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x7241508;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(),
+                                                { "MakePenEvent", {}, { ::i2c::type_of<::UnityEngine::PenData>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -2482,6 +2563,32 @@ constexpr bool const& UnityEngine::UIElements::DefaultEventSystem_LegacyInputPro
 constexpr void UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_set_m_MouseProcessedAtLeastOnce(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MouseProcessedAtLeastOnce = value;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_get_m_TouchFingerIdToFingerIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TouchFingerIdToFingerIndex;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const&
+UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_get_m_TouchFingerIdToFingerIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TouchFingerIdToFingerIndex;
+}
+constexpr void
+UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_set_m_TouchFingerIdToFingerIndex(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TouchFingerIdToFingerIndex = value;
+}
+constexpr int32_t& UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_get_m_TouchNextFingerIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TouchNextFingerIndex;
+}
+constexpr int32_t const& UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_get_m_TouchNextFingerIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TouchNextFingerIndex;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_set_m_TouchNextFingerIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TouchNextFingerIndex = value;
 }
 constexpr ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*& UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::__cordl_internal_get_m_Input() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -2633,6 +2740,22 @@ inline void UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::Pr
                                                            { "ProcessTabEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, modifiers);
 }
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::MakeTouchEvent(::UnityEngine::Touch touch, int32_t pointerId,
+                                                                                                                              ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(),
+                       { "MakeTouchEvent", {}, { ::i2c::type_of<::UnityEngine::Touch>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(nullptr, ___internal_method, touch, pointerId, modifiers, targetDisplay);
+}
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::MakePenEvent(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers,
+                                                                                                                            int32_t targetDisplay) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(),
+                                              { "MakePenEvent", {}, { ::i2c::type_of<::UnityEngine::PenData>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(nullptr, ___internal_method, pen, modifiers, targetDisplay);
+}
 inline ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*
 UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::New_ctor(::UnityEngine::UIElements::DefaultEventSystem* eventSystem) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>(eventSystem));
@@ -2653,7 +2776,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::*)(::UnityEngine::UIElements::DefaultEventSystem*)>(
     &::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6d83e74;
+  constexpr static std::size_t addrs = 0x7242118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext>(),
@@ -2667,7 +2790,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d85af0;
+  constexpr static std::size_t addrs = 0x723e388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2704,22 +2827,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem___c::*)()>(&::UnityEngine::UIElements::DefaultEventSystem___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d8939c;
+  constexpr static std::size_t addrs = 0x72421b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem___c.__cctor_b__48_0
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem___c.__cctor_b__62_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem___c::*)()>(&::UnityEngine::UIElements::DefaultEventSystem___c::__cctor_b__48_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem___c::*)()>(&::UnityEngine::UIElements::DefaultEventSystem___c::__cctor_b__62_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d893a0;
+  constexpr static std::size_t addrs = 0x72421b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c*>(), { "<.cctor>b__48_0", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c*>(), { "<.cctor>b__62_0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -2734,8 +2857,8 @@ inline void UnityEngine::UIElements::DefaultEventSystem___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::DefaultEventSystem___c::__cctor_b__48_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c*>(), { "<.cctor>b__48_0", {}, {} })));
+inline bool UnityEngine::UIElements::DefaultEventSystem___c::__cctor_b__62_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c*>(), { "<.cctor>b__62_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::DefaultEventSystem___c* UnityEngine::UIElements::DefaultEventSystem___c::New_ctor() {
@@ -2743,12 +2866,67 @@ inline ::UnityEngine::UIElements::DefaultEventSystem___c* UnityEngine::UIElement
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultEventSystem___c::DefaultEventSystem___c() {}
+template <typename TArg> inline void UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::setStaticF___9(::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*, "<>9", ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>(
+      std::forward<::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>(value));
+}
+template <typename TArg> inline ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*, "<>9", ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>();
+}
+template <typename TArg>
+inline void UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::setStaticF___9__37_0(
+    ::System::Func_3<::UnityEngine::Vector3,
+                     ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+                     ::UnityEngine::UIElements::EventBase*>* value) {
+  ::cordl_internals::setStaticField<
+      ::System::Func_3<::UnityEngine::Vector3,
+                       ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+                       ::UnityEngine::UIElements::EventBase*>*,
+      "<>9__37_0", ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>(
+      std::forward<::System::Func_3<
+          ::UnityEngine::Vector3, ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+          ::UnityEngine::UIElements::EventBase*>*>(value));
+}
+template <typename TArg>
+inline ::System::Func_3<::UnityEngine::Vector3,
+                        ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+                        ::UnityEngine::UIElements::EventBase*>*
+UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::getStaticF___9__37_0() {
+  return ::cordl_internals::getStaticField<
+      ::System::Func_3<::UnityEngine::Vector3,
+                       ::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>,
+                       ::UnityEngine::UIElements::EventBase*>*,
+      "<>9__37_0", ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>();
+}
+template <typename TArg> inline void UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename TArg>
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::_SendPositionBasedEvent_b__37_0(
+    ::UnityEngine::Vector3 p, /* [TupleElementNames(new[] { "evtFactory", "delta", "arg" })] */ ::System::ValueTuple_3<
+        ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*, ::UnityEngine::Vector3, TArg>
+        t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>(),
+                                              { "<SendPositionBasedEvent>b__37_0",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Vector3>(),
+                                                  ::i2c::type_of<::System::ValueTuple_3<::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*,
+                                                                                        ::UnityEngine::Vector3, TArg>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, p, t);
+}
+template <typename TArg> inline ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>* UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>*>());
+}
+// Ctor Parameters []
+template <typename TArg> constexpr ::UnityEngine::UIElements::DefaultEventSystem___c__37_1<TArg>::DefaultEventSystem___c__37_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.get_isAppFocused
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem::*)()>(&::UnityEngine::UIElements::DefaultEventSystem::get_isAppFocused)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d832ec;
+  constexpr static std::size_t addrs = 0x7239ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_isAppFocused", {}, {} })));
@@ -2760,7 +2938,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem::*)()>(&::UnityEngine::UIElements::DefaultEventSystem::ShouldIgnoreEventsOnAppNotFocused)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6d83358;
+  constexpr static std::size_t addrs = 0x7239e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2771,10 +2949,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.get_focusedPanel
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::DefaultEventSystem::*)()>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RuntimePanel* (::UnityEngine::UIElements::DefaultEventSystem::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem::get_focusedPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83390;
+  constexpr static std::size_t addrs = 0x7239e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_focusedPanel", {}, {} })));
@@ -2784,14 +2962,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.set_focusedPanel
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::RuntimePanel*)>(
     &::UnityEngine::UIElements::DefaultEventSystem::set_focusedPanel)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d83398;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x7239e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                                                                           { "set_focusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseRuntimePanel*>() } })));
+                                                                                           { "set_focusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::RuntimePanel*>() } })));
     return ___internal_method;
   }
 };
@@ -2800,8 +2978,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::DefaultEventSystem_UpdateMode)>(
     &::UnityEngine::UIElements::DefaultEventSystem::Update)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d833f0;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x7239edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
@@ -2814,8 +2992,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor* (::UnityEngine::UIElements::DefaultEventSystem::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem::get_legacyInputProcessor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d83914;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x723a08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_legacyInputProcessor", {}, {} })));
@@ -2827,8 +3005,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor* (::UnityEngine::UIElements::DefaultEventSystem::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem::get_inputForUIProcessor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d83484;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x723a020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_inputForUIProcessor", {}, {} })));
@@ -2840,7 +3018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(bool)>(&::UnityEngine::UIElements::DefaultEventSystem::set_isInputReady)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d83c08;
+  constexpr static std::size_t addrs = 0x723a548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2853,8 +3031,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext (::UnityEngine::UIElements::DefaultEventSystem::*)()>(
     &::UnityEngine::UIElements::DefaultEventSystem::FocusBasedEventSequence)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6d83e58;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x723a7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "FocusBasedEventSequence", {}, {} })));
@@ -2866,7 +3044,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)()>(&::UnityEngine::UIElements::DefaultEventSystem::RemoveInputProcessor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d83d84;
+  constexpr static std::size_t addrs = 0x723a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "RemoveInputProcessor", {}, {} })));
@@ -2877,8 +3055,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)()>(&::UnityEngine::UIElements::DefaultEventSystem::InitInputProcessor)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d83c2c;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x723a56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "InitInputProcessor", {}, {} })));
@@ -2891,7 +3069,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::RuntimePanel*, ::UnityEngine::UIElements::FocusEvent*)>(
     &::UnityEngine::UIElements::DefaultEventSystem::OnFocusEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d83ebc;
+  constexpr static std::size_t addrs = 0x723a7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2900,47 +3078,115 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.UpdateFocusedPanel
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.get_raycaster
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
-    &::UnityEngine::UIElements::DefaultEventSystem::UpdateFocusedPanel)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d83ec0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IScreenRaycaster* (::UnityEngine::UIElements::DefaultEventSystem::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem::get_raycaster)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x723a7d0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_raycaster", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.set_raycaster
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::IScreenRaycaster*)>(
+    &::UnityEngine::UIElements::DefaultEventSystem::set_raycaster)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x723a838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                                                                           { "UpdateFocusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseRuntimePanel*>() } })));
+                                                                                           { "set_raycaster", {}, { ::i2c::type_of<::UnityEngine::UIElements::IScreenRaycaster*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.MakeTouchEvent
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.FindTargetAtPosition
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::Touch, ::UnityEngine::EventModifiers, int32_t)>(
-    &::UnityEngine::UIElements::DefaultEventSystem::MakeTouchEvent)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d83f4c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(
+    ::UnityEngine::Vector2, ::UnityEngine::Vector2, int32_t, ::System::Nullable_1<int32_t>, ::by_ref<::UnityEngine::UIElements::VisualElement*>, ::by_ref<::UnityEngine::UIElements::RuntimePanel*>,
+    ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::UIElements::VisualElement*>, ::by_ref<::UnityEngine::Camera*>)>(&::UnityEngine::UIElements::DefaultEventSystem::FindTargetAtPosition)> {
+  constexpr static std::size_t size = 0x804;
+  constexpr static std::size_t addrs = 0x723a840;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                                                             { "FindTargetAtPosition",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<::System::Nullable_1<int32_t>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::RuntimePanel*>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>(), ::i2c::type_of<::by_ref<::UnityEngine::Camera*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.FindTargetAtRay
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(
+    ::UnityEngine::Ray, float_t, int32_t, ::by_ref<::UnityEngine::UIElements::VisualElement*>, ::by_ref<::UnityEngine::UIElements::RuntimePanel*>, ::by_ref<::UnityEngine::Vector3>,
+    ::by_ref<::UnityEngine::UIElements::VisualElement*>)>(&::UnityEngine::UIElements::DefaultEventSystem::FindTargetAtRay)> {
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x723b120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                                { "MakeTouchEvent", {}, { ::i2c::type_of<::UnityEngine::Touch>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
+                                                { "FindTargetAtRay",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::RuntimePanel*>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.MakePenEvent
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.GetPanelPosition
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (*)(::UnityEngine::PenData, ::UnityEngine::EventModifiers, int32_t)>(
-    &::UnityEngine::UIElements::DefaultEventSystem::MakePenEvent)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6d84088;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::DefaultEventSystem::*)(
+    ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UIDocument*, ::UnityEngine::Ray)>(&::UnityEngine::UIElements::DefaultEventSystem::GetPanelPosition)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x723b044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                                { "MakePenEvent", {}, { ::i2c::type_of<::UnityEngine::PenData>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                            { "GetPanelPosition",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::Ray>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.UpdateFocusedPanel
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::UnityEngine::UIElements::RuntimePanel*)>(
+    &::UnityEngine::UIElements::DefaultEventSystem::UpdateFocusedPanel)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x723b470;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                                                                                           { "UpdateFocusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::RuntimePanel*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem.UpdateWorldSpacePointers
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)()>(&::UnityEngine::UIElements::DefaultEventSystem::UpdateWorldSpacePointers)> {
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x723a0f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "UpdateWorldSpacePointers", {}, {} })));
     return ___internal_method;
   }
 };
@@ -2949,7 +3195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::System::Object*)>(&::UnityEngine::UIElements::DefaultEventSystem::Log)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d8417c;
+  constexpr static std::size_t addrs = 0x723b4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2962,7 +3208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::System::Object*)>(&::UnityEngine::UIElements::DefaultEventSystem::LogWarning)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d845fc;
+  constexpr static std::size_t addrs = 0x723b974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2975,7 +3221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)(::StringW)>(&::UnityEngine::UIElements::DefaultEventSystem::LogToGameScreen)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x6d84244;
+  constexpr static std::size_t addrs = 0x723b5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2987,35 +3233,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem::*)()>(&::UnityEngine::UIElements::DefaultEventSystem::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d846d0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x723ba48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_FocusedPanel() {
+constexpr ::UnityEngine::UIElements::RuntimePanel*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_FocusedPanel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FocusedPanel;
 }
-constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_FocusedPanel() const {
+constexpr ::UnityEngine::UIElements::RuntimePanel* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_FocusedPanel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FocusedPanel;
 }
-constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_FocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value) {
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_FocusedPanel(::UnityEngine::UIElements::RuntimePanel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_FocusedPanel = value;
 }
-constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_PreviousFocusedPanel() {
+constexpr ::UnityEngine::UIElements::RuntimePanel*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_PreviousFocusedPanel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreviousFocusedPanel;
 }
-constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_PreviousFocusedPanel() const {
+constexpr ::UnityEngine::UIElements::RuntimePanel* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_PreviousFocusedPanel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreviousFocusedPanel;
 }
-constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_PreviousFocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value) {
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_PreviousFocusedPanel(::UnityEngine::UIElements::RuntimePanel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PreviousFocusedPanel = value;
 }
@@ -3030,6 +3276,18 @@ constexpr ::UnityEngine::UIElements::Focusable* const& UnityEngine::UIElements::
 constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_PreviousFocusedElement(::UnityEngine::UIElements::Focusable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PreviousFocusedElement = value;
+}
+constexpr int32_t& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_UpdateFrameCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateFrameCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_UpdateFrameCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_UpdateFrameCount;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_UpdateFrameCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_UpdateFrameCount = value;
 }
 constexpr ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_LegacyInputProcessor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -3091,6 +3349,66 @@ constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsInputForUIActive = value;
 }
+constexpr ::UnityEngine::UIElements::IScreenRaycaster*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_Raycaster() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Raycaster;
+}
+constexpr ::UnityEngine::UIElements::IScreenRaycaster* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_Raycaster() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Raycaster;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_Raycaster(::UnityEngine::UIElements::IScreenRaycaster* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Raycaster = value;
+}
+constexpr ::UnityEngine::UIElements::PhysicsDocumentPicker*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_WorldSpacePicker() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpacePicker;
+}
+constexpr ::UnityEngine::UIElements::PhysicsDocumentPicker* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_WorldSpacePicker() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpacePicker;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_WorldSpacePicker(::UnityEngine::UIElements::PhysicsDocumentPicker* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_WorldSpacePicker = value;
+}
+constexpr ::UnityEngine::UIElements::ScreenOverlayPanelPicker*& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_ScreenOverlayPicker() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScreenOverlayPicker;
+}
+constexpr ::UnityEngine::UIElements::ScreenOverlayPanelPicker* const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_m_ScreenOverlayPicker() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScreenOverlayPicker;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_m_ScreenOverlayPicker(::UnityEngine::UIElements::ScreenOverlayPanelPicker* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScreenOverlayPicker = value;
+}
+constexpr float_t& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_worldSpaceMaxDistance() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___worldSpaceMaxDistance;
+}
+constexpr float_t const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_worldSpaceMaxDistance() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___worldSpaceMaxDistance;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_worldSpaceMaxDistance(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___worldSpaceMaxDistance = value;
+}
+constexpr int32_t& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_worldSpaceLayers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___worldSpaceLayers;
+}
+constexpr int32_t const& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_worldSpaceLayers() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___worldSpaceLayers;
+}
+constexpr void UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_set_worldSpaceLayers(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___worldSpaceLayers = value;
+}
 constexpr bool& UnityEngine::UIElements::DefaultEventSystem::__cordl_internal_get_verbose() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verbose;
@@ -3145,6 +3463,12 @@ inline void UnityEngine::UIElements::DefaultEventSystem::setStaticF_IsEditorRemo
 inline ::System::Func_1<bool>* UnityEngine::UIElements::DefaultEventSystem::getStaticF_IsEditorRemoteConnected() {
   return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "IsEditorRemoteConnected", ::UnityEngine::UIElements::DefaultEventSystem*>();
 }
+inline void UnityEngine::UIElements::DefaultEventSystem::setStaticF_s_InvalidPanelCoordinates(::UnityEngine::Vector3 value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Vector3, "s_InvalidPanelCoordinates", ::UnityEngine::UIElements::DefaultEventSystem*>(std::forward<::UnityEngine::Vector3>(value));
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::DefaultEventSystem::getStaticF_s_InvalidPanelCoordinates() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Vector3, "s_InvalidPanelCoordinates", ::UnityEngine::UIElements::DefaultEventSystem*>();
+}
 inline bool UnityEngine::UIElements::DefaultEventSystem::get_isAppFocused() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_isAppFocused", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -3154,13 +3478,14 @@ inline bool UnityEngine::UIElements::DefaultEventSystem::ShouldIgnoreEventsOnApp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "ShouldIgnoreEventsOnAppNotFocused", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::BaseRuntimePanel* UnityEngine::UIElements::DefaultEventSystem::get_focusedPanel() {
+inline ::UnityEngine::UIElements::RuntimePanel* UnityEngine::UIElements::DefaultEventSystem::get_focusedPanel() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_focusedPanel", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BaseRuntimePanel*>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::RuntimePanel*>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::DefaultEventSystem::set_focusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                                                                         { "set_focusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseRuntimePanel*>() } })));
+inline void UnityEngine::UIElements::DefaultEventSystem::set_focusedPanel(::UnityEngine::UIElements::RuntimePanel* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "set_focusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::RuntimePanel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::DefaultEventSystem::Update(::UnityEngine::UIElements::DefaultEventSystem_UpdateMode updateMode) {
@@ -3223,22 +3548,89 @@ UnityEngine::UIElements::DefaultEventSystem::SendPositionBasedEvent(::UnityEngin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TArg>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mousePosition, delta, pointerId, targetDisplay, evtFactory, arg, deselectIfNoTarget);
 }
-inline void UnityEngine::UIElements::DefaultEventSystem::UpdateFocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* runtimePanel) {
+template <typename TArg>
+inline void UnityEngine::UIElements::DefaultEventSystem::SendPositionBasedEvent(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 delta, int32_t pointerId,
+                                                                                ::System::Nullable_1<int32_t> targetDisplay,
+                                                                                ::System::Func_3<::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg,
+                                                                                bool deselectIfNoTarget) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                          { "SendPositionBasedEvent",
+                            { ::i2c::class_of<TArg>() },
+                            { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Nullable_1<int32_t>>(),
+                              ::i2c::type_of<::System::Func_3<::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*>(), ::i2c::type_of<TArg>(), ::i2c::type_of<bool>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TArg>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mousePosition, delta, pointerId, targetDisplay, evtFactory, arg, deselectIfNoTarget);
+}
+template <typename TArg>
+inline void UnityEngine::UIElements::DefaultEventSystem::SendRayBasedEvent(::UnityEngine::Ray worldRay, float_t maxDistance, int32_t pointerId,
+                                                                           ::System::Func_3<::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg,
+                                                                           bool deselectIfNoTarget) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                          { "SendRayBasedEvent",
+                            { ::i2c::class_of<TArg>() },
+                            { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                              ::i2c::type_of<::System::Func_3<::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>*>(), ::i2c::type_of<TArg>(), ::i2c::type_of<bool>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TArg>() })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, worldRay, maxDistance, pointerId, evtFactory, arg, deselectIfNoTarget);
+}
+inline ::UnityEngine::UIElements::IScreenRaycaster* UnityEngine::UIElements::DefaultEventSystem::get_raycaster() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "get_raycaster", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IScreenRaycaster*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::DefaultEventSystem::set_raycaster(::UnityEngine::UIElements::IScreenRaycaster* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                                                                         { "UpdateFocusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::BaseRuntimePanel*>() } })));
+                                                                                         { "set_raycaster", {}, { ::i2c::type_of<::UnityEngine::UIElements::IScreenRaycaster*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::DefaultEventSystem::FindTargetAtPosition(::UnityEngine::Vector2 mousePosition, ::UnityEngine::Vector2 delta, int32_t pointerId,
+                                                                              ::System::Nullable_1<int32_t> targetDisplay, ::by_ref<::UnityEngine::UIElements::VisualElement*> target,
+                                                                              ::by_ref<::UnityEngine::UIElements::RuntimePanel*> targetPanel, ::by_ref<::UnityEngine::Vector3> targetPanelPosition,
+                                                                              ::by_ref<::UnityEngine::UIElements::VisualElement*> elementUnderPointer, ::by_ref<::UnityEngine::Camera*> camera) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                                                           { "FindTargetAtPosition",
+                                                             {},
+                                                             { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<::System::Nullable_1<int32_t>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::RuntimePanel*>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>(), ::i2c::type_of<::by_ref<::UnityEngine::Camera*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mousePosition, delta, pointerId, targetDisplay, target, targetPanel, targetPanelPosition, elementUnderPointer, camera);
+}
+inline void UnityEngine::UIElements::DefaultEventSystem::FindTargetAtRay(::UnityEngine::Ray worldRay, float_t maxDistance, int32_t pointerId,
+                                                                         ::by_ref<::UnityEngine::UIElements::VisualElement*> target, ::by_ref<::UnityEngine::UIElements::RuntimePanel*> targetPanel,
+                                                                         ::by_ref<::UnityEngine::Vector3> targetPanelPosition,
+                                                                         ::by_ref<::UnityEngine::UIElements::VisualElement*> elementUnderPointer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                                              { "FindTargetAtRay",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::RuntimePanel*>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::VisualElement*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, worldRay, maxDistance, pointerId, target, targetPanel, targetPanelPosition, elementUnderPointer);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::DefaultEventSystem::GetPanelPosition(::UnityEngine::UIElements::VisualElement* pickedElement, ::UnityEngine::UIElements::UIDocument* document,
+                                                                                            ::UnityEngine::Ray worldRay) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                          { "GetPanelPosition",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::Ray>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, pickedElement, document, worldRay);
+}
+inline void UnityEngine::UIElements::DefaultEventSystem::UpdateFocusedPanel(::UnityEngine::UIElements::RuntimePanel* runtimePanel) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
+                                                                                         { "UpdateFocusedPanel", {}, { ::i2c::type_of<::UnityEngine::UIElements::RuntimePanel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, runtimePanel);
 }
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::DefaultEventSystem::MakeTouchEvent(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                              { "MakeTouchEvent", {}, { ::i2c::type_of<::UnityEngine::Touch>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(nullptr, ___internal_method, touch, modifiers, targetDisplay);
-}
-inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::DefaultEventSystem::MakePenEvent(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t targetDisplay) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(),
-                                              { "MakePenEvent", {}, { ::i2c::type_of<::UnityEngine::PenData>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(nullptr, ___internal_method, pen, modifiers, targetDisplay);
+inline void UnityEngine::UIElements::DefaultEventSystem::UpdateWorldSpacePointers() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem*>(), { "UpdateWorldSpacePointers", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::DefaultEventSystem::Log(::System::Object* o) {
   static auto* ___internal_method =

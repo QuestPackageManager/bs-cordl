@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::NoSuchAlgorithmException::*)()>(&::Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3602b8c;
+  constexpr static std::size_t addrs = 0x388be28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::NoSuchAlgorithmException*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::NoSuchAlgorithmException::*)(::StringW)>(&::Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3602b94;
+  constexpr static std::size_t addrs = 0x388be30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::NoSuchAlgorithmException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3602b9c;
+  constexpr static std::size_t addrs = 0x388be38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::NoSuchAlgorithmException*>(),

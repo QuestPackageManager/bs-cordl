@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureUVOriginSelection_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -25,6 +27,9 @@ struct ResourceHandle;
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct TextureDesc;
 }
+namespace UnityEngine::Rendering::RenderGraphModule {
+class TextureResource;
+}
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct ResourceUnversionedData;
@@ -33,28 +38,28 @@ struct ResourceUnversionedData;
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "ResourceUnversionedData");
-// Dependencies
+// Dependencies UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Rendering.RenderGraphModule.TextureUVOriginSelection
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.ResourceUnversionedData
 struct CORDL_TYPE ResourceUnversionedData {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x67fce88, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW GetName(Il2CppObject* ctx, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h);
+  /// @brief Method GetName, addr 0x6c2b6e8, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW GetName(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
 
-  /// @brief Method InitializeNullResource, addr 0x67fcf94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InitializeNullResource, addr 0x6c2b808, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeNullResource();
 
-  /// @brief Method .ctor, addr 0x67fcf04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2b768, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> _, bool isResourceShared);
 
-  /// @brief Method .ctor, addr 0x67fcf4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2b7b8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc> _,
                     bool isResourceShared);
 
-  /// @brief Method .ctor, addr 0x67fceac, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> info,
+  /// @brief Method .ctor, addr 0x6c2b704, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> info,
                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc, bool isResourceShared);
 
   // Ctor Parameters []
@@ -66,17 +71,19 @@ public:
   // CppParam { name: "lastWritePassID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstUsePassID", ty: "int32_t", modifiers: "", def_value: None, comment: None
   // }, CppParam { name: "memoryLess", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "msaaSamples", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "latestVersionNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
-  // name: "clear", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "discard", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindMS", ty:
-  // "bool", modifiers: "", def_value: None, comment: None }]
+  // "msaaSamples", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "graphicsFormat", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "latestVersionNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "discard", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "textureUVOrigin", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceUnversionedData(bool isImported, bool isShared, int32_t tag, int32_t lastUsePassID, int32_t lastWritePassID, int32_t firstUsePassID, bool memoryLess, int32_t width, int32_t height,
-                                    int32_t volumeDepth, int32_t msaaSamples, int32_t latestVersionNumber, bool clear, bool discard, bool bindMS) noexcept;
+                                    int32_t volumeDepth, int32_t msaaSamples, ::UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat, int32_t latestVersionNumber, bool clear,
+                                    bool discard, bool bindMS, ::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection textureUVOrigin) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9418 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field isImported, offset: 0x0, size: 0x1, def value: None
   bool isImported;
@@ -111,17 +118,23 @@ public:
   /// @brief Field msaaSamples, offset: 0x24, size: 0x4, def value: None
   int32_t msaaSamples;
 
-  /// @brief Field latestVersionNumber, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field graphicsFormat, offset: 0x28, size: 0x4, def value: None
+  ::UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat;
+
+  /// @brief Field latestVersionNumber, offset: 0x2c, size: 0x4, def value: None
   int32_t latestVersionNumber;
 
-  /// @brief Field clear, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field clear, offset: 0x30, size: 0x1, def value: None
   bool clear;
 
-  /// @brief Field discard, offset: 0x2d, size: 0x1, def value: None
+  /// @brief Field discard, offset: 0x31, size: 0x1, def value: None
   bool discard;
 
-  /// @brief Field bindMS, offset: 0x2e, size: 0x1, def value: None
+  /// @brief Field bindMS, offset: 0x32, size: 0x1, def value: None
   bool bindMS;
+
+  /// @brief Field textureUVOrigin, offset: 0x34, size: 0x4, def value: None
+  ::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection textureUVOrigin;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -148,14 +161,18 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRender
 
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, msaaSamples) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, latestVersionNumber) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, graphicsFormat) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, clear) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, latestVersionNumber) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, discard) == 0x2d, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, clear) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, bindMS) == 0x2e, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, discard) == 0x31, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData) == 0x30, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, bindMS) == 0x32, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData, textureUVOrigin) == 0x34, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler

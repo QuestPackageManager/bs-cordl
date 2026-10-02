@@ -36,7 +36,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE EditorInstanceDataArrays_ReadOnly {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6825480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5969c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr EditorInstanceDataArrays_ReadOnly();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18226 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -72,19 +72,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDataArrays"
   constexpr operator ::UnityEngine::Rendering::IDataArrays*();
 
-  /// @brief Method Dispose, addr 0x6824150, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c58248, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x682437c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Grow, addr 0x6c5849c, size 0x4, virtual true, abstract: false, final true
   inline void Grow(int32_t newCapacity);
 
-  /// @brief Method Initialize, addr 0x6824034, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x6c58108, size 0x4, virtual true, abstract: false, final true
   inline void Initialize(int32_t initCapacity);
 
-  /// @brief Method Remove, addr 0x6824cac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x6c58de4, size 0x4, virtual true, abstract: false, final true
   inline void Remove(int32_t index, int32_t lastIndex);
 
-  /// @brief Method SetDefault, addr 0x6824d84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetDefault, addr 0x6c58ed8, size 0x4, virtual true, abstract: false, final true
   inline void SetDefault(int32_t index);
 
   /// @brief Convert to "::UnityEngine::Rendering::IDataArrays"
@@ -95,7 +95,7 @@ public:
   constexpr EditorInstanceDataArrays();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

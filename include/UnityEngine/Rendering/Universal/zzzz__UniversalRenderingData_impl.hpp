@@ -7,29 +7,14 @@
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingMode_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.get_commandBuffer
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(
-    &::UnityEngine::Rendering::Universal::UniversalRenderingData::get_commandBuffer)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6876ca0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "get_commandBuffer", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.get_renderingMode
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::RenderingMode (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderingData::get_renderingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876d24;
+  constexpr static std::size_t addrs = 0x6cb653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,11 +28,39 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)(::UnityEngine::Rendering::Universal::RenderingMode)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderingData::set_renderingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876d2c;
+  constexpr static std::size_t addrs = 0x6cb6544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
                                                                                            { "set_renderingMode", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderingMode>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.get_prepassLayerMask
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderingData::get_prepassLayerMask)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6cb654c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "get_prepassLayerMask", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.set_prepassLayerMask
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)(::UnityEngine::LayerMask)>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderingData::set_prepassLayerMask)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6cb6554;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
+                                                                                           { "set_prepassLayerMask", {}, { ::i2c::type_of<::UnityEngine::LayerMask>() } })));
     return ___internal_method;
   }
 };
@@ -57,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderingData::get_opaqueLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876d34;
+  constexpr static std::size_t addrs = 0x6cb655c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderingData::set_opaqueLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876d3c;
+  constexpr static std::size_t addrs = 0x6cb6564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
@@ -85,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderingData::get_transparentLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876d44;
+  constexpr static std::size_t addrs = 0x6cb656c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderingData::set_transparentLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876d4c;
+  constexpr static std::size_t addrs = 0x6cb6574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
@@ -107,12 +120,41 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.get_stencilLodCrossFadeEnabled
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderingData::get_stencilLodCrossFadeEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6cb657c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "get_stencilLodCrossFadeEnabled", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.set_stencilLodCrossFadeEnabled
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)(bool)>(
+    &::UnityEngine::Rendering::Universal::UniversalRenderingData::set_stencilLodCrossFadeEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6cb6584;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "set_stencilLodCrossFadeEnabled", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderingData.Reset
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderingData::Reset)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6876d54;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6cb658c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
@@ -125,25 +167,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderingData::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderingData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6876d70;
+  constexpr static std::size_t addrs = 0x6cb65b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Rendering::CommandBuffer*& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get_m_CommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CommandBuffer;
-}
-constexpr ::UnityEngine::Rendering::CommandBuffer* const& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get_m_CommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CommandBuffer;
-}
-constexpr void UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_set_m_CommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_CommandBuffer = value;
-}
 constexpr ::UnityEngine::Rendering::CullingResults& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get_cullResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cullResults;
@@ -192,6 +222,18 @@ constexpr void UnityEngine::Rendering::Universal::UniversalRenderingData::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____renderingMode_k__BackingField = value;
 }
+constexpr ::UnityEngine::LayerMask& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get__prepassLayerMask_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____prepassLayerMask_k__BackingField;
+}
+constexpr ::UnityEngine::LayerMask const& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get__prepassLayerMask_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____prepassLayerMask_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_set__prepassLayerMask_k__BackingField(::UnityEngine::LayerMask value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____prepassLayerMask_k__BackingField = value;
+}
 constexpr ::UnityEngine::LayerMask& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get__opaqueLayerMask_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____opaqueLayerMask_k__BackingField;
@@ -216,10 +258,17 @@ constexpr void UnityEngine::Rendering::Universal::UniversalRenderingData::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transparentLayerMask_k__BackingField = value;
 }
-inline ::UnityEngine::Rendering::CommandBuffer* UnityEngine::Rendering::Universal::UniversalRenderingData::get_commandBuffer() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "get_commandBuffer", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CommandBuffer*>(this, ___internal_method);
+constexpr bool& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get__stencilLodCrossFadeEnabled_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____stencilLodCrossFadeEnabled_k__BackingField;
+}
+constexpr bool const& UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_get__stencilLodCrossFadeEnabled_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____stencilLodCrossFadeEnabled_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderingData::__cordl_internal_set__stencilLodCrossFadeEnabled_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____stencilLodCrossFadeEnabled_k__BackingField = value;
 }
 inline ::UnityEngine::Rendering::Universal::RenderingMode UnityEngine::Rendering::Universal::UniversalRenderingData::get_renderingMode() {
   static auto* ___internal_method =
@@ -229,6 +278,16 @@ inline ::UnityEngine::Rendering::Universal::RenderingMode UnityEngine::Rendering
 inline void UnityEngine::Rendering::Universal::UniversalRenderingData::set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
                                                                                          { "set_renderingMode", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderingMode>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::LayerMask UnityEngine::Rendering::Universal::UniversalRenderingData::get_prepassLayerMask() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "get_prepassLayerMask", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderingData::set_prepassLayerMask(::UnityEngine::LayerMask value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
+                                                                                         { "set_prepassLayerMask", {}, { ::i2c::type_of<::UnityEngine::LayerMask>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline ::UnityEngine::LayerMask UnityEngine::Rendering::Universal::UniversalRenderingData::get_opaqueLayerMask() {
@@ -249,6 +308,16 @@ inline ::UnityEngine::LayerMask UnityEngine::Rendering::Universal::UniversalRend
 inline void UnityEngine::Rendering::Universal::UniversalRenderingData::set_transparentLayerMask(::UnityEngine::LayerMask value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(),
                                                                                          { "set_transparentLayerMask", {}, { ::i2c::type_of<::UnityEngine::LayerMask>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalRenderingData::get_stencilLodCrossFadeEnabled() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "get_stencilLodCrossFadeEnabled", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderingData::set_stencilLodCrossFadeEnabled(bool value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderingData*>(), { "set_stencilLodCrossFadeEnabled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderingData::Reset() {

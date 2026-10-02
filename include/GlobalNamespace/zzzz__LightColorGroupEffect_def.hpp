@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59999d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db4a10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
 protected:
@@ -103,7 +103,7 @@ public:
   LightColorGroupEffect_InitData(LightColorGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -149,17 +149,17 @@ public:
   __declspec(property(get = __cordl_internal_get__lightColorBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightColorBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
 
-  /// @brief Method Cleanup, addr 0x5999950, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5db498c, size 0x38, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x59999a0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x5db49dc, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   static inline ::GlobalNamespace::LightColorGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                                    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method UseBoostColors, addr 0x5999988, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x5db49c4, size 0x18, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method .ctor, addr 0x5999700, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db473c, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
@@ -205,7 +205,7 @@ public:
   LightColorGroupEffect(LightColorGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
 
   /// @brief Field _colorManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;

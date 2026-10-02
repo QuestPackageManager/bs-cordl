@@ -31,7 +31,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher.MatchNumber
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchNumber)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
+    &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchNumber)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -134,6 +135,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher.MatchFilterFunction
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(
+    &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchFilterFunction)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 13 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher.MatchMaterialPropertyValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(
+    &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchMaterialPropertyValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 14 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher.MatchAngle
 template <>
 
@@ -143,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 13 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -157,7 +186,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 14 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -171,7 +200,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 15 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -185,7 +214,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 16 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -199,7 +228,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
-                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 17 }));
+                                                                                          { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 19 }));
     return ___internal_method;
   }
 };
@@ -209,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_hasCurrent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d1a470;
+  constexpr static std::size_t addrs = 0x71cb798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_currentIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1a498;
+  constexpr static std::size_t addrs = 0x71cb7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::set_currentIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1a4a0;
+  constexpr static std::size_t addrs = 0x71cb7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_matchedVariableCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1a4a8;
+  constexpr static std::size_t addrs = 0x71cb7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::set_matchedVariableCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1a4b0;
+  constexpr static std::size_t addrs = 0x71cb7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::Initialize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d1a4b8;
+  constexpr static std::size_t addrs = 0x71cb7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), { "Initialize", {}, {} })));
@@ -290,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MoveNext)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d1a514;
+  constexpr static std::size_t addrs = 0x71cb83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), { "MoveNext", {}, {} })));
@@ -302,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::SaveContext)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d1a558;
+  constexpr static std::size_t addrs = 0x71cb880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), { "SaveContext", {}, {} })));
@@ -315,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::RestoreContext)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d1a5b0;
+  constexpr static std::size_t addrs = 0x71cb8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::DropContext)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d1a60c;
+  constexpr static std::size_t addrs = 0x71cb934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), { "DropContext", {}, {} })));
@@ -341,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::Match)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d1a660;
+  constexpr static std::size_t addrs = 0x71cb988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
@@ -355,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchExpression)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6d1a724;
+  constexpr static std::size_t addrs = 0x71cba4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchExpressionWithMultiplier)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6d1a838;
+  constexpr static std::size_t addrs = 0x71cbb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchGroup)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d1abac;
+  constexpr static std::size_t addrs = 0x71cbeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
@@ -399,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchCombinator)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d1a970;
+  constexpr static std::size_t addrs = 0x71cbc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchOr)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6d1ac68;
+  constexpr static std::size_t addrs = 0x71cbfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
@@ -428,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchOrOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d1ad34;
+  constexpr static std::size_t addrs = 0x71cc074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
@@ -442,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchAndAnd)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d1ad4c;
+  constexpr static std::size_t addrs = 0x71cc08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
@@ -456,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchMany)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6d1adf4;
+  constexpr static std::size_t addrs = 0x71cc134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(),
@@ -470,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, int32_t*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchManyByOrder)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6d1af90;
+  constexpr static std::size_t addrs = 0x71cc2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchJuxtaposition)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d1ad7c;
+  constexpr static std::size_t addrs = 0x71cc0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,8 +528,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*)>(
     &::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchDataType)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6d1aa44;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x71cbd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d1b144;
+  constexpr static std::size_t addrs = 0x71cc484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), { ".ctor", {}, {} })));
@@ -560,10 +589,10 @@ inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchKeyword
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyword);
 }
-inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchNumber() {
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchNumber(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, exp);
 }
 inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchInteger() {
   auto* ___internal_method =
@@ -600,29 +629,39 @@ inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchTime() 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchAngle() {
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchFilterFunction() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchCustomIdent() {
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchMaterialPropertyValue() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline int32_t UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_valueCount() {
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchAngle() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 15 })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_isCurrentVariable() {
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::MatchCustomIdent() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_isCurrentComma() {
+inline int32_t UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_valueCount() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 17 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_isCurrentVariable() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 18 })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_isCurrentComma() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::get_hasCurrent() {

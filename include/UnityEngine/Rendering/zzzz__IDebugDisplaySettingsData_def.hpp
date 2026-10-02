@@ -30,6 +30,9 @@ public:
   /// @brief Method CreatePanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* CreatePanel();
 
+  /// @brief Method Reset, addr 0x6b858d8, size 0x4, virtual true, abstract: false, final false
+  inline void Reset();
+
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
@@ -38,7 +41,7 @@ public:
   IDebugDisplaySettingsData(IDebugDisplaySettingsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8912 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

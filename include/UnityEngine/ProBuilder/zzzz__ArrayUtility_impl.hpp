@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)(int32_t, int32_t)>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b3240;
+  constexpr static std::size_t addrs = 0x6abdc7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::Valid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66b3248;
+  constexpr static std::size_t addrs = 0x6abdc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>(), { "Valid", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::Center)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66b325c;
+  constexpr static std::size_t addrs = 0x6abdc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>(), { "Center", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::ToString)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x66b3274;
+  constexpr static std::size_t addrs = 0x6abdcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -29,10 +29,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* New_ctor();
 
-  /// @brief Method SetAfterIntroValues, addr 0x59c7a28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetAfterIntroValues, addr 0x5de2d60, size 0x48, virtual false, abstract: false, final false
   inline void SetAfterIntroValues();
 
-  /// @brief Method SetBeforeIntroValues, addr 0x59c7a10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x5de2d48, size 0x18, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x59c7a70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de2da8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   MultiplayerLocalActivePlayerIntroAnimator(MultiplayerLocalActivePlayerIntroAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6214 };
 
   /// [SerializeField]
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None

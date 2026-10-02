@@ -22,10 +22,10 @@ namespace System::Linq::Expressions::Interpreter {
 struct CORDL_TYPE RuntimeLabel {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x5f8da78, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63a99f4, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5f8da6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a99e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t continuationStackDepth, int32_t stackDepth);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr RuntimeLabel(int32_t Index, int32_t StackDepth, int32_t ContinuationStackDepth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16789 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

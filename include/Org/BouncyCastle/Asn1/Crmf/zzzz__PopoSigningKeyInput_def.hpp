@@ -52,7 +52,7 @@ public:
   /// @brief Field sender, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender)) ::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
 
-  /// @brief Method GetInstance, addr 0x3368f80, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35f221c, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
@@ -61,7 +61,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3369524, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35f27c0, size 0x100, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* const& __cordl_internal_get_publicKey() const;
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method .ctor, addr 0x3369504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f27a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method .ctor, addr 0x33694f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f2794, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method .ctor, addr 0x3369388, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f2624, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PublicKey, addr 0x336951c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x35f27b8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_PublicKey();
 
-  /// @brief Method get_PublicKeyMac, addr 0x3369514, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PublicKeyMac, addr 0x35f27b0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* get_PublicKeyMac();
 
-  /// @brief Method get_Sender, addr 0x336950c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Sender, addr 0x35f27a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
 
 protected:

@@ -78,7 +78,7 @@ public:
   JobStruct_1_IJobExtensions_ExecuteJobFunction(JobStruct_1_IJobExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,7 +115,7 @@ public:
   constexpr IJobExtensions_JobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9491 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -146,12 +146,6 @@ public:
   static inline ::System::IntPtr GetReflectionData();
 
   /// [Extension]
-  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void Run(T jobData);
-
-  /// [Extension]
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
@@ -172,7 +166,7 @@ public:
   IJobExtensions(IJobExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

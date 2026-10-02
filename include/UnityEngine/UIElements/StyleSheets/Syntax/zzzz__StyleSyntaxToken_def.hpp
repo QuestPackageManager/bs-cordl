@@ -5,8 +5,8 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenType_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
 #include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(StyleSyntaxToken)
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct StyleSyntaxTokenType;
@@ -25,13 +25,13 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct CORDL_TYPE StyleSyntaxToken {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d1e2d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71cfa8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t);
 
-  /// @brief Method .ctor, addr 0x6d1e2f0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number);
+  /// @brief Method .ctor, addr 0x71cfaac, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, float_t number);
 
-  /// @brief Method .ctor, addr 0x6d1e2e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71cfa9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text);
 
   // Ctor Parameters []
@@ -39,11 +39,11 @@ public:
   constexpr StyleSyntaxToken();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: None, comment: None }, CppParam { name: "text", ty:
-  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "number", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr StyleSyntaxToken(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text, int32_t number) noexcept;
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "number", ty: "float_t", modifiers: "", def_value: None, comment: None }]
+  constexpr StyleSyntaxToken(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text, float_t number) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -55,7 +55,7 @@ public:
   ::StringW text;
 
   /// @brief Field number, offset: 0x10, size: 0x4, def value: None
-  int32_t number;
+  float_t number;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

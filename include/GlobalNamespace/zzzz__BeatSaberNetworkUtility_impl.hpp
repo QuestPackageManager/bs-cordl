@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::AuthenticationToken_PlatformType)>(&::GlobalNamespace::BeatSaberNetworkUtility::GetHashedUserId)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x32a883c;
+  constexpr static std::size_t addrs = 0x352f7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

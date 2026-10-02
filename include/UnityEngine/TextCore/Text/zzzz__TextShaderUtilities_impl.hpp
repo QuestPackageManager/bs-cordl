@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6c13884;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x7066d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16,25 +16,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::S
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_MobileSDF_IMGUI
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF_IMGUI)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6c13a00;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(), { "get_ShaderRef_MobileSDF_IMGUI", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_MobileBitmap
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6c13b6c;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x7066e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,8 +33,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::S
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6c13d48;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x7066f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0xca8;
-  constexpr static std::size_t addrs = 0x6c140c4;
+  constexpr static std::size_t addrs = 0x706726c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,19 +487,30 @@ inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_isIniti
 inline bool UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_isInitialized() {
   return ::cordl_internals::getStaticField<bool, "isInitialized", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
 }
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_SDFText(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_SDFText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_SDFText() {
+  return ::cordl_internals::getStaticField<::StringW, "k_SDFText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_BitmapText(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_BitmapText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_BitmapText() {
+  return ::cordl_internals::getStaticField<::StringW, "k_BitmapText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_SpriteText(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_SpriteText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_SpriteText() {
+  return ::cordl_internals::getStaticField<::StringW, "k_SpriteText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
 inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileSDF(::UnityW<::UnityEngine::Shader> value) {
   ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(
       std::forward<::UnityW<::UnityEngine::Shader>>(value));
 }
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_MobileSDF() {
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
-}
-inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileSDF_IMGUI(::UnityW<::UnityEngine::Shader> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF_IMGUI", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(
-      std::forward<::UnityW<::UnityEngine::Shader>>(value));
-}
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_MobileSDF_IMGUI() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF_IMGUI", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
 }
 inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileBitmap(::UnityW<::UnityEngine::Shader> value) {
   ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileBitmap", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(
@@ -530,11 +528,6 @@ inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUt
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(), { "get_ShaderRef_MobileSDF", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(nullptr, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF_IMGUI() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(), { "get_ShaderRef_MobileSDF_IMGUI", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(nullptr, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap() {

@@ -94,7 +94,7 @@ public:
   ColorStateTransition_1(ColorStateTransition_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23089 };
 
   /// [Space]
   /// [SerializeField]

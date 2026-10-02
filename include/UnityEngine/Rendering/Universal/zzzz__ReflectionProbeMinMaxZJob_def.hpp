@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x68c1eb0, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6cf9254, size 0x284, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -44,16 +44,17 @@ public:
 
   // Ctor Parameters [CppParam { name: "worldToViews", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "reflectionProbes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>", modifiers: "", def_value: None, comment: None }, CppParam { name:
-  // "minMaxZs", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None, comment: None }]
+  // "reflectionProbeRotation", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "minMaxZs", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ReflectionProbeMinMaxZJob(::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews,
-                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes,
+                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes, bool reflectionProbeRotation,
                                       ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13219 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
 
   /// @brief Field worldToViews, offset: 0x0, size: 0x80, def value: None
   ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews;
@@ -62,7 +63,11 @@ public:
   /// @brief Field reflectionProbes, offset: 0x80, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> reflectionProbes;
 
-  /// @brief Field minMaxZs, offset: 0x90, size: 0x10, def value: None
+  /// [ReadOnly]
+  /// @brief Field reflectionProbeRotation, offset: 0x90, size: 0x1, def value: None
+  bool reflectionProbeRotation;
+
+  /// @brief Field minMaxZs, offset: 0x98, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -72,8 +77,10 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMa
 
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob, reflectionProbes) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob, minMaxZs) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob, reflectionProbeRotation) == 0x90, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob) == 0xa0, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob, minMaxZs) == 0x98, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob) == 0xa8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal

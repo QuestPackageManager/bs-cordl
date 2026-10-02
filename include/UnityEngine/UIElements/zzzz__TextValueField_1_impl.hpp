@@ -33,12 +33,12 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::AcceptCharacter(char16_t c) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 137 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 142 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, c);
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::get_allowedCharacters() {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 138 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 143 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::get_formatString() {
@@ -56,7 +56,7 @@ template <typename TValueType>
 inline void UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed,
                                                                                                         TValueType startValue) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 139 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 144 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::StartDragging() {
@@ -71,12 +71,12 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::ValueToString(TValueType value) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 140 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 145 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::StringToValue(::StringW str) {
   auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 136 })));
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(), 141 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, str);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::New_ctor() {
@@ -96,18 +96,6 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::TextValue
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Dragger = value;
 }
-template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_get_m_UpdateTextFromValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_UpdateTextFromValue;
-}
-template <typename TValueType> constexpr bool const& UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_get_m_UpdateTextFromValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_UpdateTextFromValue;
-}
-template <typename TValueType> constexpr void UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_set_m_UpdateTextFromValue(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_UpdateTextFromValue = value;
-}
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_get_m_ForceUpdateDisplay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ForceUpdateDisplay;
@@ -120,6 +108,18 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::TextValue
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForceUpdateDisplay = value;
 }
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_get_m_SupportExpressions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SupportExpressions;
+}
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_get_m_SupportExpressions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SupportExpressions;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_set_m_SupportExpressions(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SupportExpressions = value;
+}
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::setStaticF_formatStringProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "formatStringProperty", ::UnityEngine::UIElements::TextValueField_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
@@ -127,10 +127,27 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextValueField_1<TValueType>::getStaticF_formatStringProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "formatStringProperty", ::UnityEngine::UIElements::TextValueField_1<TValueType>*>();
 }
+template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::setStaticF_supportExpressionsProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "supportExpressionsProperty", ::UnityEngine::UIElements::TextValueField_1<TValueType>*>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextValueField_1<TValueType>::getStaticF_supportExpressionsProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "supportExpressionsProperty", ::UnityEngine::UIElements::TextValueField_1<TValueType>*>();
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* UnityEngine::UIElements::TextValueField_1<TValueType>::get_textValueInput() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), { "get_textValueInput", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>(this, ___internal_method);
+}
+template <typename TValueType> inline bool UnityEngine::UIElements::TextValueField_1<TValueType>::get_supportExpressions() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), { "get_supportExpressions", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::set_supportExpressions(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), { "set_supportExpressions", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1<TValueType>::get_formatString() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), { "get_formatString", {}, {} })));
@@ -152,7 +169,7 @@ inline void UnityEngine::UIElements::TextValueField_1<TValueType>::_ctor(::Strin
 template <typename TValueType>
 inline void UnityEngine::UIElements::TextValueField_1<TValueType>::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 164 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 170 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::StartDragging() {
@@ -165,12 +182,12 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::UpdateValueFromText() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 157 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 163 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::UpdateTextFromValue() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 158 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 164 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::OnIsReadOnlyChanged(bool newValue) {
@@ -180,7 +197,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::TextValueField_1<TValueType>::CanTryParse(::StringW textString) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 165 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 171 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, textString);
 }
 template <typename TValueType> template <typename TDraggerType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::AddLabelDragger() {
@@ -196,7 +213,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 153 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
@@ -206,17 +223,17 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::OnViewDataReady() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 132 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 135 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::RegisterEditingCallbacks() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 150 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 156 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::UnregisterEditingCallbacks() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 151 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::TextValueField_1<TValueType>*>(), 157 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType>

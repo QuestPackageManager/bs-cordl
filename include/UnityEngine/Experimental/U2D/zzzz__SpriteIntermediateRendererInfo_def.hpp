@@ -17,8 +17,8 @@ struct SpriteIntermediateRendererInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
-// [NativeHeader("Runtime/2D/Renderer/SpriteRendererGroup.h")]
 // [RequiredByNativeCode]
+// [NativeHeader("Runtime/2D/Renderer/SpriteRendererGroup.h")]
 // Dependencies System.IntPtr, UnityEngine.Bounds, UnityEngine.Color, UnityEngine.Matrix4x4
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
@@ -43,7 +43,7 @@ public:
                                            int32_t IndexCount, int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10538 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };

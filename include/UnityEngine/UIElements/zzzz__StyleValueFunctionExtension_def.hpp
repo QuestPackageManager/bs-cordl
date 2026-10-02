@@ -25,7 +25,7 @@ class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToUssString, addr 0x6c9d244, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x7119c10, size 0x1e4, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
 
 protected:
@@ -43,7 +43,7 @@ public:
   StyleValueFunctionExtension(StyleValueFunctionExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

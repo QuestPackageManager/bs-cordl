@@ -39,16 +39,16 @@ public:
   /// @brief Method CreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method Initialize, addr 0x6e6f438, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x730af9c, size 0xa0, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Zenject::RunnableContext* New_ctor();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x6e722fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x730de60, size 0x60, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method Run, addr 0x6e7236c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x730ded0, size 0x74, virtual true, abstract: false, final false
   inline void Run();
 
   /// @brief Method RunInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -67,22 +67,22 @@ public:
   constexpr void __cordl_internal_set__autoRun(bool value);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e72430, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x730df94, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e6fdd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x730b93c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__staticAutoRun();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Initialized, addr 0x6e7235c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initialized, addr 0x730dec0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Initialized();
 
   static inline void setStaticF__staticAutoRun(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Initialized, addr 0x6e72364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Initialized, addr 0x730dec8, size 0x8, virtual false, abstract: false, final false
   inline void set_Initialized(bool value);
 
 protected:
@@ -100,10 +100,10 @@ public:
   RunnableContext(RunnableContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14715 };
 
-  /// [SerializeField]
   /// [Tooltip("When false, wait until run method is explicitly called. Otherwise run on initialize")]
+  /// [SerializeField]
   /// @brief Field _autoRun, offset: 0x48, size: 0x1, def value: None
   bool ____autoRun;
 

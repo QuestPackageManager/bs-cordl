@@ -89,21 +89,21 @@ public:
 
   constexpr void __cordl_internal_set__otherPlayersData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  /// @brief Method .ctor, addr 0x373da7c, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c706c, size 0x5cc, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
                     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
                     ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method get_allPlayersSortedData, addr 0x373da74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allPlayersSortedData, addr 0x39c7064, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
 
-  /// @brief Method get_gameId, addr 0x373da5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameId, addr 0x39c704c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameId();
 
-  /// @brief Method get_localPlayerResultData, addr 0x373da64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResultData, addr 0x39c7054, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
 
-  /// @brief Method get_otherPlayersData, addr 0x373da6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersData, addr 0x39c705c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
 
 protected:
@@ -121,7 +121,7 @@ public:
   MultiplayerResultsData(MultiplayerResultsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15353 };
 
   /// @brief Field _gameId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____gameId;

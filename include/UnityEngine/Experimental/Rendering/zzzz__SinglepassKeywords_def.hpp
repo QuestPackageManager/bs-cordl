@@ -20,10 +20,10 @@ namespace UnityEngine::Experimental::Rendering {
 class CORDL_TYPE SinglepassKeywords : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field STEREO_INSTANCING_ON, offset 0xffffffff, size 0x10
+  /// @brief Field STEREO_INSTANCING_ON, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_STEREO_INSTANCING_ON, put = setStaticF_STEREO_INSTANCING_ON)) ::UnityEngine::Rendering::GlobalKeyword STEREO_INSTANCING_ON;
 
-  /// @brief Field STEREO_MULTIVIEW_ON, offset 0xffffffff, size 0x10
+  /// @brief Field STEREO_MULTIVIEW_ON, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_STEREO_MULTIVIEW_ON, put = setStaticF_STEREO_MULTIVIEW_ON)) ::UnityEngine::Rendering::GlobalKeyword STEREO_MULTIVIEW_ON;
 
   static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF_STEREO_INSTANCING_ON();
@@ -49,7 +49,7 @@ public:
   SinglepassKeywords(SinglepassKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

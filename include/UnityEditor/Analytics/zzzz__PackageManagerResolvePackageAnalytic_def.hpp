@@ -23,8 +23,17 @@ namespace UnityEditor::Analytics {
 class CORDL_TYPE PackageManagerResolvePackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
   // Declarations
+  /// @brief Field package_compliance_statuses, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_package_compliance_statuses, put = __cordl_internal_set_package_compliance_statuses)) ::ArrayW<::StringW> package_compliance_statuses;
+
+  /// @brief Field package_publishing_channels, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_package_publishing_channels, put = __cordl_internal_set_package_publishing_channels)) ::ArrayW<::StringW> package_publishing_channels;
+
   /// @brief Field package_registries, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_package_registries, put = __cordl_internal_set_package_registries)) ::ArrayW<::StringW> package_registries;
+
+  /// @brief Field package_signature_errorCodes, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_package_signature_errorCodes, put = __cordl_internal_set_package_signature_errorCodes)) ::ArrayW<::StringW> package_signature_errorCodes;
 
   /// @brief Field package_signatures, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_package_signatures, put = __cordl_internal_set_package_signatures)) ::ArrayW<::StringW> package_signatures;
@@ -39,14 +48,26 @@ public:
   __declspec(property(get = __cordl_internal_get_packages, put = __cordl_internal_set_packages)) ::ArrayW<::StringW> packages;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreatePackageManagerResolvePackageAnalytic, addr 0x6e2572c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerResolvePackageAnalytic, addr 0x72c0958, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic* CreatePackageManagerResolvePackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic* New_ctor();
 
+  constexpr ::ArrayW<::StringW> const& __cordl_internal_get_package_compliance_statuses() const;
+
+  constexpr ::ArrayW<::StringW>& __cordl_internal_get_package_compliance_statuses();
+
+  constexpr ::ArrayW<::StringW> const& __cordl_internal_get_package_publishing_channels() const;
+
+  constexpr ::ArrayW<::StringW>& __cordl_internal_get_package_publishing_channels();
+
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_package_registries() const;
 
   constexpr ::ArrayW<::StringW>& __cordl_internal_get_package_registries();
+
+  constexpr ::ArrayW<::StringW> const& __cordl_internal_get_package_signature_errorCodes() const;
+
+  constexpr ::ArrayW<::StringW>& __cordl_internal_get_package_signature_errorCodes();
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_package_signatures() const;
 
@@ -64,7 +85,13 @@ public:
 
   constexpr ::ArrayW<::StringW>& __cordl_internal_get_packages();
 
+  constexpr void __cordl_internal_set_package_compliance_statuses(::ArrayW<::StringW> value);
+
+  constexpr void __cordl_internal_set_package_publishing_channels(::ArrayW<::StringW> value);
+
   constexpr void __cordl_internal_set_package_registries(::ArrayW<::StringW> value);
+
+  constexpr void __cordl_internal_set_package_signature_errorCodes(::ArrayW<::StringW> value);
 
   constexpr void __cordl_internal_set_package_signatures(::ArrayW<::StringW> value);
 
@@ -74,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_packages(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6e25698, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72c08c4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +119,7 @@ public:
   PackageManagerResolvePackageAnalytic(PackageManagerResolvePackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23294 };
 
   /// @brief Field packages, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::StringW> ___packages;
@@ -109,6 +136,15 @@ public:
   /// @brief Field package_types, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::StringW> ___package_types;
 
+  /// @brief Field package_compliance_statuses, offset: 0x88, size: 0x8, def value: None
+  ::ArrayW<::StringW> ___package_compliance_statuses;
+
+  /// @brief Field package_signature_errorCodes, offset: 0x90, size: 0x8, def value: None
+  ::ArrayW<::StringW> ___package_signature_errorCodes;
+
+  /// @brief Field package_publishing_channels, offset: 0x98, size: 0x8, def value: None
+  ::ArrayW<::StringW> ___package_publishing_channels;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -122,6 +158,12 @@ static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolvePackageAna
 
 static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic, ___package_types) == 0x80, "Offset mismatch!");
 
-static_assert(sizeof(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic) == 0x88, "Size mismatch!");
+static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic, ___package_compliance_statuses) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic, ___package_signature_errorCodes) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic, ___package_publishing_channels) == 0x98, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEditor::Analytics

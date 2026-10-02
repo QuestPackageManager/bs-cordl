@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactFilter2D::*)()>(&::UnityEngine::ContactFilter2D::CheckConsistency)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b70dc8;
+  constexpr static std::size_t addrs = 0x6fd1320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactFilter2D>(), { "CheckConsistency", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactFilter2D::*)(::UnityEngine::LayerMask)>(&::UnityEngine::ContactFilter2D::SetLayerMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b70e04;
+  constexpr static std::size_t addrs = 0x6fd135c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Cont
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactFilter2D::*)(float_t, float_t)>(&::UnityEngine::ContactFilter2D::SetDepth)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b70e14;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6fd136c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,8 +45,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Cont
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ContactFilter2D (*)(int32_t, float_t, float_t)>(&::UnityEngine::ContactFilter2D::CreateLegacyFilter)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6b6f674;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6fcfb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,6 +55,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ContactFil
     return ___internal_method;
   }
 };
+inline void UnityEngine::ContactFilter2D::setStaticF__noFilter(::UnityEngine::ContactFilter2D value) {
+  ::cordl_internals::setStaticField<::UnityEngine::ContactFilter2D, "_noFilter", ::UnityEngine::ContactFilter2D>(std::forward<::UnityEngine::ContactFilter2D>(value));
+}
+inline ::UnityEngine::ContactFilter2D UnityEngine::ContactFilter2D::getStaticF__noFilter() {
+  return ::cordl_internals::getStaticField<::UnityEngine::ContactFilter2D, "_noFilter", ::UnityEngine::ContactFilter2D>();
+}
 inline void UnityEngine::ContactFilter2D::CheckConsistency() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactFilter2D>(), { "CheckConsistency", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);

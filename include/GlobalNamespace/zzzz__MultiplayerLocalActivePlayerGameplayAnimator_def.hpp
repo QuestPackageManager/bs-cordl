@@ -56,28 +56,28 @@ public:
                       put = __cordl_internal_set__multiplayerPositionHUDController)) ::UnityW<::GlobalNamespace::MultiplayerPositionHUDController>
       _multiplayerPositionHUDController;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x59c6630, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x5de1b70, size 0xd0, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x59c6700, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x5de1c40, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleStateChanged, addr 0x59c63d4, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x5de1914, size 0x1b8, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
-  /// @brief Method InitializeIfNeeded, addr 0x59c628c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InitializeIfNeeded, addr 0x5de17cc, size 0x148, virtual false, abstract: false, final false
   inline void InitializeIfNeeded();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59c6180, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5de16c0, size 0x10c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x59c658c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x5de1acc, size 0xa4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
   /// [CompilerGenerated]
-  /// @brief Method <InitializeIfNeeded>b__6_0, addr 0x59c6734, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <InitializeIfNeeded>b__6_0, addr 0x5de1c74, size 0x50, virtual false, abstract: false, final false
   inline void _InitializeIfNeeded_b__6_0(float_t f);
 
   constexpr ::UnityW<::GlobalNamespace::CoreGameHUDController> const& __cordl_internal_get__coreGameHUDController() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerPositionHUDController(::UnityW<::GlobalNamespace::MultiplayerPositionHUDController> value);
 
-  /// @brief Method .ctor, addr 0x59c6724, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de1c64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   MultiplayerLocalActivePlayerGameplayAnimator(MultiplayerLocalActivePlayerGameplayAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6210 };
 
   /// [Space]
   /// [SerializeField]

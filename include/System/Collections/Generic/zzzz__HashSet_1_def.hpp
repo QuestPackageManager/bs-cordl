@@ -103,7 +103,7 @@ public:
   constexpr HashSet_1_ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17206 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -136,7 +136,7 @@ public:
   constexpr HashSet_1_Slot(int32_t hashCode, int32_t next, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -213,7 +213,7 @@ public:
   constexpr HashSet_1_Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17208 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -577,7 +577,7 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17209 };
 
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ____buckets;

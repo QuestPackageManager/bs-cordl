@@ -7,8 +7,11 @@
 #include "UnityEngine/Rendering/RenderGraphModule/Util/zzzz__RenderGraphUtils_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/Util/zzzz__RenderGraphUtils_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RasterGraphContext_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderTargetInfo_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureDesc_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
@@ -20,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67ed1ac;
+  constexpr static std::size_t addrs = 0x6c184d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,6 +42,18 @@ constexpr bool const& UnityEngine::Rendering::RenderGraphModule::Util::RenderGra
 constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::__cordl_internal_set_isMSAA(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isMSAA = value;
+}
+constexpr bool& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::__cordl_internal_get_force2DForXR() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___force2DForXR;
+}
+constexpr bool const& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::__cordl_internal_get_force2DForXR() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___force2DForXR;
+}
+constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::__cordl_internal_set_force2DForXR(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___force2DForXR = value;
 }
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::_ctor() {
   static auto* ___internal_method =
@@ -68,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67ed1b0;
+  constexpr static std::size_t addrs = 0x6c184d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,6 +226,30 @@ constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___filterMode = value;
 }
+constexpr bool& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::__cordl_internal_get_isXR() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isXR;
+}
+constexpr bool const& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::__cordl_internal_get_isXR() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isXR;
+}
+constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::__cordl_internal_set_isXR(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isXR = value;
+}
+constexpr bool& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::__cordl_internal_get_isDepth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isDepth;
+}
+constexpr bool const& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::__cordl_internal_get_isDepth() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isDepth;
+}
+constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::__cordl_internal_set_isDepth(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isDepth = value;
+}
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*>(), { ".ctor", {}, {} })));
@@ -241,7 +280,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x67ed1b4;
+  constexpr static std::size_t addrs = 0x6c184dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +300,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Material*,
     int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x67ed2ec;
+  constexpr static std::size_t addrs = 0x6c18614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +321,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x67ed3dc;
+  constexpr static std::size_t addrs = 0x6c18704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +345,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     int32_t, ::UnityEngine::MaterialPropertyBlock*, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType,
     int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::_ctor)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x67ed570;
+  constexpr static std::size_t addrs = 0x6c18898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +369,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x67ed6f4;
+  constexpr static std::size_t addrs = 0x6c18a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +392,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     int32_t, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x67ed868;
+  constexpr static std::size_t addrs = 0x6c18b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -529,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67edaa0;
+  constexpr static std::size_t addrs = 0x6c18dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -759,6 +798,18 @@ constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scaleBiasPropertyID = value;
 }
+constexpr bool& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData::__cordl_internal_get_isXR() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isXR;
+}
+constexpr bool const& UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData::__cordl_internal_get_isXR() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isXR;
+}
+constexpr void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData::__cordl_internal_set_isXR(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isXR = value;
+}
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*>(), { ".ctor", {}, {} })));
@@ -775,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67edaf8;
+  constexpr static std::size_t addrs = 0x6c18e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -783,55 +834,55 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c._AddCopyPass_b__3_0
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c._AddCopyPass_b__9_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::*)(
     ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
-    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddCopyPass_b__3_0)> {
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddCopyPass_b__9_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x67edafc;
+  constexpr static std::size_t addrs = 0x6c18e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(),
-                                                                                           { "<AddCopyPass>b__3_0",
+                                                                                           { "<AddCopyPass>b__9_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c._AddBlitPass_b__7_0
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c._AddBlitPass_b__15_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::*)(
     ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
-    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__7_0)> {
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__15_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67edb6c;
+  constexpr static std::size_t addrs = 0x6c18e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(),
-                                                                                           { "<AddBlitPass>b__7_0",
+                                                                                           { "<AddBlitPass>b__15_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*>(),
                                                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c._AddBlitPass_b__13_0
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c._AddBlitPass_b__21_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::*)(
     ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
-    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__13_0)> {
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__21_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67edbd4;
+  constexpr static std::size_t addrs = 0x6c18efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(),
-                                                             { "<AddBlitPass>b__13_0",
+                                                             { "<AddBlitPass>b__21_0",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*>(),
                                                                  ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -845,82 +896,82 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___
 inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c* UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*, "<>9", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::setStaticF___9__3_0(
+inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::setStaticF___9__9_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                    "<>9__3_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(
+                                    "<>9__9_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9__3_0() {
+UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9__9_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*,
-                                           "<>9__3_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
+                                           "<>9__9_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::setStaticF___9__7_0(
+inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::setStaticF___9__15_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                    "<>9__7_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(
+                                    "<>9__15_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9__7_0() {
+UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9__15_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                           "<>9__7_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
+                                           "<>9__15_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::setStaticF___9__13_0(
+inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::setStaticF___9__21_0(
     ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
                                                                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                    "<>9__13_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(
+                                    "<>9__21_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(
       std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*>(value));
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
                                                                      ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9__13_0() {
+UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::getStaticF___9__21_0() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*,
                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*,
-                                           "<>9__13_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
+                                           "<>9__21_0", ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>();
 }
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddCopyPass_b__3_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data,
+inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddCopyPass_b__9_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData* data,
                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(),
-                                                                                         { "<AddCopyPass>b__3_0",
+                                                                                         { "<AddCopyPass>b__9_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, context);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__7_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data,
-                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context) {
+inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__15_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data,
+                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(),
-                                                                                         { "<AddBlitPass>b__7_0",
+                                                                                         { "<AddBlitPass>b__15_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*>(),
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, context);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__13_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
+inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c::_AddBlitPass_b__21_0(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c*>(),
-                                                           { "<AddBlitPass>b__13_0",
+                                                           { "<AddBlitPass>b__21_0",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*>(),
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
@@ -935,12 +986,125 @@ constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPassMSAA)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67eb700;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6c154fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(), { "CanAddCopyPassMSAA", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.CanAddCopyPassMSAA
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPassMSAA)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6c15614;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                             { "CanAddCopyPassMSAA", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.CanAddCopyPassMSAA
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPassMSAA)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6c156b8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(), { "CanAddCopyPassMSAA", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.IsFramebufferFetchEmulationSupportedOnCurrentPlatform
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsFramebufferFetchEmulationSupportedOnCurrentPlatform)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c15754;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                                                           { "IsFramebufferFetchEmulationSupportedOnCurrentPlatform", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6c15590;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                                                           { "IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.IsFramebufferFetchSupportedOnCurrentPlatform
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsFramebufferFetchSupportedOnCurrentPlatform)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6c1575c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                                                           { "IsFramebufferFetchSupportedOnCurrentPlatform",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.CanAddCopyPass
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
+                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPass)> {
+  constexpr static std::size_t size = 0x34c;
+  constexpr static std::size_t addrs = 0x6c15814;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                         { "CanAddCopyPass",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.AddCopyPass
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
+    ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
+                                                                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::StringW, bool, ::StringW, int32_t)>(
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddCopyPass)> {
+  constexpr static std::size_t size = 0x730;
+  constexpr static std::size_t addrs = 0x6c15b60;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                         { "AddCopyPass",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(),
+                                             ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -950,8 +1114,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
                                                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, int32_t, int32_t, int32_t, int32_t, ::StringW, ::StringW, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddCopyPass)> {
-  constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x67eb754;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6c16290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -971,8 +1135,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
         &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CopyRenderFunc)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67ebe04;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6c16340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
@@ -983,15 +1147,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.IsTextureXR
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>, int32_t, int32_t, int32_t, int32_t)>(
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsTextureXR)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6c163c8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                             { "IsTextureXR",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.AddBlitPass
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
-                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Vector2, ::UnityEngine::Vector2, int32_t, int32_t, int32_t,
-                                                                int32_t, int32_t, int32_t, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode, ::StringW, ::StringW,
-                                                                int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass)> {
-  constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x67ebe80;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
+    ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
+                                                                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Vector2, ::UnityEngine::Vector2, int32_t,
+                                                                              int32_t, int32_t, int32_t, int32_t, int32_t,
+                                                                              ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode, ::StringW, bool, ::StringW, int32_t)>(
+    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass)> {
+  constexpr static std::size_t size = 0xacc;
+  constexpr static std::size_t addrs = 0x6c16528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1003,7 +1187,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Vector2>(),
                                              ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                              ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode>(),
-                                             ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
+                                             ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -1013,8 +1197,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
         &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::BlitRenderFunc)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x67ec4ac;
+  constexpr static std::size_t size = 0x3f4;
+  constexpr static std::size_t addrs = 0x6c16ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
@@ -1028,11 +1212,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils.AddBlitPass
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*,
-                                                                ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters, ::StringW, ::StringW, int32_t)>(
-    &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass)> {
-  constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x67ec6e0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*,
+                                                                                          ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters, ::StringW, bool,
+                                                                                          ::StringW, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass)> {
+  constexpr static std::size_t size = 0xa7c;
+  constexpr static std::size_t addrs = 0x6c173e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1041,7 +1226,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
                                                                  ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters>(),
-                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
+                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -1051,8 +1236,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
         &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::BlitMaterialRenderFunc)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x67ecd80;
+  constexpr static std::size_t size = 0x5cc;
+  constexpr static std::size_t addrs = 0x6c17e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1082,6 +1267,63 @@ inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::C
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(), { "CanAddCopyPassMSAA", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPassMSAA(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> sourceDesc) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                           { "CanAddCopyPassMSAA", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, sourceDesc);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPassMSAA(bool bindTextureMS) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(), { "CanAddCopyPassMSAA", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, bindTextureMS);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsFramebufferFetchEmulationSupportedOnCurrentPlatform() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(), { "IsFramebufferFetchEmulationSupportedOnCurrentPlatform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                                                         { "IsFramebufferFetchEmulationMSAASupportedOnCurrentPlatform", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsFramebufferFetchSupportedOnCurrentPlatform(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                                                         { "IsFramebufferFetchSupportedOnCurrentPlatform",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, tex);
+}
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::CanAddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
+                                                                                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
+                                                                                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                       { "CanAddCopyPass",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, source, destination);
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddCopyPass(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
+    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::StringW passName, bool returnBuilder, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                       { "AddCopyPass",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(),
+                                           ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(nullptr, ___internal_method, graph, source, destination, passName, returnBuilder,
+                                                                                                                    file, line);
+}
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, int32_t sourceSlice,
@@ -1106,13 +1348,21 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::C
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, rgContext);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
-                                                                                           ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
-                                                                                           ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
-                                                                                           ::UnityEngine::Vector2 offset, int32_t sourceSlice, int32_t destinationSlice, int32_t numSlices,
-                                                                                           int32_t sourceMip, int32_t destinationMip, int32_t numMips,
-                                                                                           ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode,
-                                                                                           ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
+inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::IsTextureXR(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> destDesc, int32_t sourceSlice,
+                                                                                           int32_t destinationSlice, int32_t numSlices, int32_t numMips) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
+                                                           { "IsTextureXR",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, destDesc, sourceSlice, destinationSlice, numSlices, numMips);
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
+    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceSlice, int32_t destinationSlice,
+    int32_t numSlices, int32_t sourceMip, int32_t destinationMip, int32_t numMips, ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode, ::StringW passName,
+    bool returnBuilder, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
@@ -1122,9 +1372,10 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::A
                                            ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Vector2>(),
                                            ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode>(),
-                                           ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, graph, source, destination, scale, offset, sourceSlice, destinationSlice, numSlices, sourceMip, destinationMip, numMips,
-                                                   filterMode, passName, file, line);
+                                           ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(nullptr, ___internal_method, graph, source, destination, scale, offset, sourceSlice,
+                                                                                                                    destinationSlice, numSlices, sourceMip, destinationMip, numMips, filterMode,
+                                                                                                                    passName, returnBuilder, file, line);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::BlitRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData* data,
                                                                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context) {
@@ -1135,17 +1386,19 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::B
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, context);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
-                                                                                           ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters,
-                                                                                           ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
+inline ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*
+UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
+                                                                               ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters,
+                                                                               ::StringW passName, bool returnBuilder, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
                                                            { "AddBlitPass",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters>(),
-                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, graph, blitParameters, passName, file, line);
+                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(nullptr, ___internal_method, graph, blitParameters, passName, returnBuilder, file,
+                                                                                                                    line);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::BlitMaterialRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context) {

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorReflectionMath::Plane)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5f47078;
+  constexpr static std::size_t addrs = 0x636277c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorReflectionMath*>(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::MirrorReflectionMath::CameraSpacePlane)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5f470a4;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x63627a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector4)>(&::GlobalNamespace::MirrorReflectionMath::CalculateReflectionMatrix)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f471e0;
+  constexpr static std::size_t addrs = 0x63629a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector4)>(
     &::GlobalNamespace::MirrorReflectionMath::CalculateObliqueMatrix)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f472c4;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6362a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

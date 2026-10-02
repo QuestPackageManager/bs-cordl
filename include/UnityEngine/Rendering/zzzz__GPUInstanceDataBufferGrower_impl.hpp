@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::*)(::UnityEngine::Rendering::GPUResidentDrawerResources*)>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::LoadShaders)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6822f44;
+  constexpr static std::size_t addrs = 0x6c56fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::*)()>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::CreateResources)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6822cc4;
+  constexpr static std::size_t addrs = 0x6c56d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::*)()>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6822ff8;
+  constexpr static std::size_t addrs = 0x6c5708c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)(
     ::UnityEngine::Rendering::GPUInstanceDataBuffer*, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferGrower::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x682286c;
+  constexpr static std::size_t addrs = 0x6c56900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources>)>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower::SubmitToGpu)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x68229f8;
+  constexpr static std::size_t addrs = 0x6c56a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)()>(&::UnityEngine::Rendering::GPUInstanceDataBufferGrower::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6822cc8;
+  constexpr static std::size_t addrs = 0x6c56d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferGrower>(), { "Dispose", {}, {} })));

@@ -39,7 +39,7 @@ public:
   /// @brief [InputControl]
   __declspec(property(get = get_touchpad, put = set_touchpad)) ::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
-  /// @brief Method FinishSetup, addr 0x64d20ac, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x68faea4, size 0xbc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusHMDExtended* New_ctor();
@@ -56,23 +56,23 @@ public:
 
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method .ctor, addr 0x64d2168, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68faf60, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_back, addr 0x64d208c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_back, addr 0x68fae84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchpad, addr 0x64d209c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x68fae94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
   /// [CompilerGenerated]
-  /// @brief Method set_back, addr 0x64d2094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_back, addr 0x68fae8c, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchpad, addr 0x64d20a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x68fae9c, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   OculusHMDExtended(OculusHMDExtended const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10562 };
 
   /// [CompilerGenerated]
   /// @brief Field <back>k__BackingField, offset: 0x240, size: 0x8, def value: None

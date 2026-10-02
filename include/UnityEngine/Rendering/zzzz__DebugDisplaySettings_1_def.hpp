@@ -93,7 +93,7 @@ public:
   DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer(DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,7 +139,7 @@ public:
   DebugDisplaySettings_1___c(DebugDisplaySettings_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -236,7 +236,7 @@ public:
   DebugDisplaySettings_1(DebugDisplaySettings_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };
 
   /// @brief Field m_Settings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::IDebugDisplaySettingsData*>* ___m_Settings;

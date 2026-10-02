@@ -48,7 +48,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsConnectionInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x5a9df60, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5eb5e44, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::CipherSuiteCode const& __cordl_internal_get__CipherSuiteCode_k__BackingField() const;
@@ -69,27 +69,27 @@ public:
 
   constexpr void __cordl_internal_set__ProtocolVersion_k__BackingField(::Mono::Security::Interface::TlsProtocols value);
 
-  /// @brief Method .ctor, addr 0x5a9e040, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb5f24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CipherSuiteCode, addr 0x5a9df38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherSuiteCode, addr 0x5eb5e1c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ProtocolVersion, addr 0x5a9df48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x5eb5e2c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
 
   /// [CompilerGenerated]
-  /// @brief Method set_CipherSuiteCode, addr 0x5a9df40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CipherSuiteCode, addr 0x5eb5e24, size 0x8, virtual false, abstract: false, final false
   inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_PeerDomainName, addr 0x5a9df58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PeerDomainName, addr 0x5eb5e3c, size 0x8, virtual false, abstract: false, final false
   inline void set_PeerDomainName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ProtocolVersion, addr 0x5a9df50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x5eb5e34, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   MonoTlsConnectionInfo(MonoTlsConnectionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19820 };
 
   /// [CompilerGenerated]
   /// @brief Field <CipherSuiteCode>k__BackingField, offset: 0x10, size: 0x2, def value: None

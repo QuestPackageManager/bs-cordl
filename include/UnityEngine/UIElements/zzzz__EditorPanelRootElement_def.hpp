@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::EditorPanelRootElement* New_ctor();
 
-  /// @brief Method OnEventCompletedAtAnyTarget, addr 0x6dbb58c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEventCompletedAtAnyTarget, addr 0x7270328, size 0x3c, virtual false, abstract: false, final false
   inline void OnEventCompletedAtAnyTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method .ctor, addr 0x6db9748, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726d768, size 0x238, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,11 +45,11 @@ public:
   EditorPanelRootElement(EditorPanelRootElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::EditorPanelRootElement) == 0x4a8, "Size mismatch!");
+static_assert(sizeof(::UnityEngine::UIElements::EditorPanelRootElement) == 0x2c8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements

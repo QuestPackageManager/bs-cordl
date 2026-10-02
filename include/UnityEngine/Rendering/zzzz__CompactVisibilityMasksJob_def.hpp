@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x68188ec, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c4a898, size 0x6c, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -44,7 +44,7 @@ public:
   constexpr CompactVisibilityMasksJob(::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::UnityEngine::Rendering::ParallelBitArray compactedVisibilityMasks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18167 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

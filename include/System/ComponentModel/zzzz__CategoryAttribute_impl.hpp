@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::CategoryAttribute* (*)()>(&::System::ComponentModel::CategoryAttribute::get_Default)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63ca4cc;
+  constexpr static std::size_t addrs = 0x67f2798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::CategoryAttribute*>(), { "get_Default", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::CategoryAttribute::*)()>(&::System::ComponentModel::CategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63ca58c;
+  constexpr static std::size_t addrs = 0x67f2858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::CategoryAttribute*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::CategoryAttribute::*)(::StringW)>(&::System::ComponentModel::CategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63ca5dc;
+  constexpr static std::size_t addrs = 0x67f28a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::CategoryAttribute::*)()>(&::System::ComponentModel::CategoryAttribute::get_Category)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x63ca5e8;
+  constexpr static std::size_t addrs = 0x67f28b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::CategoryAttribute*>(), { "get_Category", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::CategoryAttribute::*)(::System::Object*)>(&::System::ComponentModel::CategoryAttribute::Equals)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x63ca628;
+  constexpr static std::size_t addrs = 0x67f28f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::CategoryAttribute::*)()>(&::System::ComponentModel::CategoryAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63ca76c;
+  constexpr static std::size_t addrs = 0x67f2a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::CategoryAttribute::*)(::StringW)>(&::System::ComponentModel::CategoryAttribute::GetLocalizedString)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x63ca7bc;
+  constexpr static std::size_t addrs = 0x67f2a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::CategoryAttribute::*)()>(&::System::ComponentModel::CategoryAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63cabc8;
+  constexpr static std::size_t addrs = 0x67f2e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

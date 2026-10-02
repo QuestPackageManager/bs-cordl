@@ -24,7 +24,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseStringListAttribute, addr 0x6cc1620, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ParseStringListAttribute, addr 0x7148e70, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* ParseStringListAttribute(::StringW itemList);
 
 protected:
@@ -42,7 +42,7 @@ public:
   UxmlUtility(UxmlUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

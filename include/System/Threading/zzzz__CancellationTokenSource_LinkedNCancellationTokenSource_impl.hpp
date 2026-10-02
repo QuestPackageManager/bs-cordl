@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::*)(::ArrayW<::System::Threading::CancellationToken>)>(
     &::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5cad094;
+  constexpr static std::size_t addrs = 0x60c6bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::*)(bool)>(
     &::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cad42c;
+  constexpr static std::size_t addrs = 0x60c6f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource*>(),

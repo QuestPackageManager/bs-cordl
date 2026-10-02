@@ -2,21 +2,22 @@
 // IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/DirectionalLight.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_impl.hpp"
+#include "UnityEngine/zzzz__EntityId_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty:
-// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None
-// }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectColor", ty:
-// "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "penumbraWidthRadian", ty: "float_t", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "direction", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::UnityEngine::Experimental::GlobalIllumination::DirectionalLight::DirectionalLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode,
-                                                                                              ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
-                                                                                              ::UnityEngine::Experimental::GlobalIllumination::LinearColor color,
+// Ctor Parameters [CppParam { name: "entityId", ty: "::UnityEngine::EntityId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "penumbraWidthRadian", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "direction", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::UnityEngine::Experimental::GlobalIllumination::DirectionalLight::DirectionalLight(::UnityEngine::EntityId entityId, bool shadow,
+                                                                                              ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position,
+                                                                                              ::UnityEngine::Quaternion orientation, ::UnityEngine::Experimental::GlobalIllumination::LinearColor color,
                                                                                               ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t penumbraWidthRadian,
                                                                                               ::UnityEngine::Vector3 direction) noexcept {
-  this->instanceID = instanceID;
+  this->entityId = entityId;
   this->shadow = shadow;
   this->mode = mode;
   this->position = position;

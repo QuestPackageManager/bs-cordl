@@ -59,7 +59,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <EnqueueLogEntry>b__0, addr 0x5a46850, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method <EnqueueLogEntry>b__0, addr 0x5e5e1ec, size 0x16c, virtual false, abstract: false, final false
   inline void _EnqueueLogEntry_b__0(::System::Object* _);
 
   constexpr ::StringW const& __cordl_internal_get_logString() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::LogType value);
 
-  /// @brief Method .ctor, addr 0x5a467bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e5e158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   ConsoleLogsCache___c__DisplayClass7_0(ConsoleLogsCache___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18881 };
 
   /// @brief Field logString, offset: 0x10, size: 0x8, def value: None
   ::StringW ___logString;
@@ -140,20 +140,20 @@ public:
   /// @brief Field _mainThreadContext, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__mainThreadContext, put = setStaticF__mainThreadContext)) ::System::Threading::SynchronizationContext* _mainThreadContext;
 
-  /// @brief Method ConsumeStartupLogs, addr 0x5a46508, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ConsumeStartupLogs, addr 0x5e5dea4, size 0x1ac, virtual false, abstract: false, final false
   static inline void ConsumeStartupLogs(::System::Action_3<::StringW, ::StringW, ::UnityEngine::LogType>* logProcessor);
 
-  /// @brief Method EnqueueLogEntry, addr 0x5a466b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLogEntry, addr 0x5e5e050, size 0x108, virtual false, abstract: false, final false
   static inline void EnqueueLogEntry(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
-  /// @brief Method OnApplicationQuitting, addr 0x5a46150, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuitting, addr 0x5e5daec, size 0xa4, virtual false, abstract: false, final false
   static inline void OnApplicationQuitting();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)2)]
-  /// @brief Method OnLoad, addr 0x5a461f4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method OnLoad, addr 0x5e5db90, size 0x18c, virtual false, abstract: false, final false
   static inline void OnLoad();
 
-  /// @brief Method StartCachingLogs, addr 0x5a46380, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method StartCachingLogs, addr 0x5e5dd1c, size 0x188, virtual false, abstract: false, final false
   static inline void StartCachingLogs();
 
   static inline ::System::Action_3<::StringW, ::StringW, ::UnityEngine::LogType>* getStaticF_OnLogReceived();
@@ -183,7 +183,7 @@ public:
   ConsoleLogsCache(ConsoleLogsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

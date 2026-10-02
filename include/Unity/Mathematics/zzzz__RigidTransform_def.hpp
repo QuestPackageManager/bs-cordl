@@ -49,85 +49,85 @@ public:
   /// @brief Field identity, offset 0xffffffff, size 0x1c
   __declspec(property(get = getStaticF_identity, put = setStaticF_identity)) ::Unity::Mathematics::RigidTransform identity;
 
-  /// @brief Method AxisAngle, addr 0x6683c08, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AxisAngle, addr 0x6ab354c, size 0x13c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform AxisAngle(::Unity::Mathematics::float3 axis, float_t angle);
 
-  /// @brief Method Equals, addr 0x66854f0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ab4e34, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* x);
 
-  /// @brief Method Equals, addr 0x6685474, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ab4db8, size 0x7c, virtual false, abstract: false, final false
   inline bool Equals(::Unity::Mathematics::RigidTransform x);
 
-  /// @brief Method Euler, addr 0x6685074, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x6ab49b8, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform Euler(float_t x, float_t y, float_t z, ::Unity::Mathematics::math_RotationOrder order);
 
-  /// @brief Method Euler, addr 0x6684a94, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x6ab43d8, size 0x5e0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform Euler(::Unity::Mathematics::float3 xyz, ::Unity::Mathematics::math_RotationOrder order);
 
-  /// @brief Method EulerXYZ, addr 0x66843ec, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EulerXYZ, addr 0x6ab3d30, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerXYZ(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerXYZ, addr 0x6683d44, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EulerXYZ, addr 0x6ab3688, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerXYZ(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerXZY, addr 0x6684504, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EulerXZY, addr 0x6ab3e48, size 0x11c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerXZY(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerXZY, addr 0x6683e5c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EulerXZY, addr 0x6ab37a0, size 0x11c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerXZY(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerYXZ, addr 0x6684620, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method EulerYXZ, addr 0x6ab3f64, size 0x124, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerYXZ(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerYXZ, addr 0x6683f78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method EulerYXZ, addr 0x6ab38bc, size 0x124, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerYXZ(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerYZX, addr 0x6684744, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EulerYZX, addr 0x6ab4088, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerYZX(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerYZX, addr 0x668409c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EulerYZX, addr 0x6ab39e0, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerYZX(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerZXY, addr 0x668485c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method EulerZXY, addr 0x6ab41a0, size 0x120, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerZXY(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerZXY, addr 0x66841b4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method EulerZXY, addr 0x6ab3af8, size 0x120, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerZXY(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerZYX, addr 0x668497c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EulerZYX, addr 0x6ab42c0, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerZYX(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerZYX, addr 0x66842d4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EulerZYX, addr 0x6ab3c18, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform EulerZYX(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method GetHashCode, addr 0x66855cc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ab4f10, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method RotateX, addr 0x66850a8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RotateX, addr 0x6ab49ec, size 0x11c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform RotateX(float_t angle);
 
-  /// @brief Method RotateY, addr 0x66851c4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RotateY, addr 0x6ab4b08, size 0x120, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform RotateY(float_t angle);
 
-  /// @brief Method RotateZ, addr 0x66852e4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RotateZ, addr 0x6ab4c28, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform RotateZ(float_t angle);
 
-  /// @brief Method ToString, addr 0x6685668, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ab4fac, size 0x260, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x66858c8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ab520c, size 0x25c, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Translate, addr 0x66853fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x6ab4d40, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::RigidTransform Translate(::Unity::Mathematics::float3 vector);
 
-  /// @brief Method .ctor, addr 0x6683b40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ab348c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3x3 rotation, ::Unity::Mathematics::float3 translation);
 
-  /// @brief Method .ctor, addr 0x6683b2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ab3478, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::quaternion rotation, ::Unity::Mathematics::float3 translation);
 
-  /// @brief Method .ctor, addr 0x6683ba8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ab34f0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float4x4 transform);
 
   static inline ::Unity::Mathematics::RigidTransform getStaticF_identity();
@@ -143,7 +143,7 @@ public:
   constexpr RigidTransform(::Unity::Mathematics::quaternion rot, ::Unity::Mathematics::float3 pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13439 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

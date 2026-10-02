@@ -24,7 +24,7 @@ class CORDL_TYPE PlaymodeOptionsExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsRecorderActive, addr 0x370cbd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRecorderActive, addr 0x3995f38, size 0x10, virtual false, abstract: false, final false
   static inline bool IsRecorderActive(::GlobalNamespace::PlaymodeOptions playmodeOptions);
 
 protected:
@@ -42,7 +42,7 @@ public:
   PlaymodeOptionsExtensions(PlaymodeOptionsExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15107 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

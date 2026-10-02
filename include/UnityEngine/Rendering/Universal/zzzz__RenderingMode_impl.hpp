@@ -10,3 +10,4 @@ constexpr ::UnityEngine::Rendering::Universal::RenderingMode::RenderingMode() {}
 constexpr ::UnityEngine::Rendering::Universal::RenderingMode UnityEngine::Rendering::Universal::RenderingMode::Forward{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::Universal::RenderingMode UnityEngine::Rendering::Universal::RenderingMode::ForwardPlus{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::Universal::RenderingMode UnityEngine::Rendering::Universal::RenderingMode::Deferred{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Rendering::Universal::RenderingMode UnityEngine::Rendering::Universal::RenderingMode::DeferredPlus{ static_cast<int32_t>(0x3) };

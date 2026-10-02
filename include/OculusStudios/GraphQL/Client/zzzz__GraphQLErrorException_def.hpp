@@ -62,31 +62,31 @@ public:
 
   constexpr void __cordl_internal_set__StackTrace_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5f21a58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633c6d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Class, addr 0x5f21a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Class, addr 0x633c6a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Class();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Message, addr 0x5f21a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x633c6b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
   /// [CompilerGenerated]
-  /// @brief Method get_StackTrace, addr 0x5f21a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x633c6c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_StackTrace();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Class, addr 0x5f21a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Class, addr 0x633c6ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Class(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Message, addr 0x5f21a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x633c6bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_StackTrace, addr 0x5f21a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StackTrace, addr 0x633c6cc, size 0x8, virtual false, abstract: false, final false
   inline void set_StackTrace(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -104,7 +104,7 @@ public:
   GraphQLErrorException(GraphQLErrorException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21041 };
 
   /// [CompilerGenerated]
   /// @brief Field <Class>k__BackingField, offset: 0x10, size: 0x8, def value: None

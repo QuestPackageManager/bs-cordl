@@ -69,18 +69,18 @@ public:
 
   __declspec(property(get = get_parentMissionNode)) ::UnityW<::GlobalNamespace::MissionNodeVisualController> parentMissionNode;
 
-  /// @brief Method MissionConnectionEnabledDidFinish, addr 0x593bf40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MissionConnectionEnabledDidFinish, addr 0x5d56684, size 0x1c, virtual false, abstract: false, final false
   inline void MissionConnectionEnabledDidFinish();
 
   static inline ::GlobalNamespace::MissionNodeConnection* New_ctor();
 
-  /// @brief Method SetActive, addr 0x593b7ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x5d55eb0, size 0xd8, virtual false, abstract: false, final false
   inline void SetActive(bool animated);
 
-  /// @brief Method Setup, addr 0x593a884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d54f88, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
 
-  /// @brief Method UpdateConnectionRectTransform, addr 0x593bcb0, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method UpdateConnectionRectTransform, addr 0x5d56408, size 0x27c, virtual false, abstract: false, final false
   inline void UpdateConnectionRectTransform();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -143,16 +143,16 @@ public:
 
   constexpr void __cordl_internal_set__width(float_t value);
 
-  /// @brief Method .ctor, addr 0x593bf5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d566a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childMissionNode, addr 0x593bca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childMissionNode, addr 0x5d563f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_childMissionNode();
 
-  /// @brief Method get_isActive, addr 0x593bca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x5d56400, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_parentMissionNode, addr 0x593bc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentMissionNode, addr 0x5d563f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_parentMissionNode();
 
 protected:
@@ -170,7 +170,7 @@ public:
   MissionNodeConnection(MissionNodeConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6991 };
 
   /// [SerializeField]
   /// @brief Field _separator, offset: 0x20, size: 0x4, def value: None

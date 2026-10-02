@@ -46,21 +46,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6bb3c1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7011f98, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetValue(::by_ref<::UnityEngine::Vector2Int> container);
 
   static inline ::Unity::Properties::Internal::Vector2IntPropertyBag_XProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6bb3c24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7011fa0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::Vector2Int> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bb3b58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011ed4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6bb3c14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7011f90, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6bb3bd0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7011f4c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -78,7 +78,7 @@ public:
   Vector2IntPropertyBag_XProperty(Vector2IntPropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,21 +97,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6bb3c78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7011ff4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetValue(::by_ref<::UnityEngine::Vector2Int> container);
 
   static inline ::Unity::Properties::Internal::Vector2IntPropertyBag_YProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6bb3c80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7011ffc, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::Vector2Int> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bb3b94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011f10, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6bb3c70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7011fec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6bb3c2c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7011fa8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -129,7 +129,7 @@ public:
   Vector2IntPropertyBag_YProperty(Vector2IntPropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -150,7 +150,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2IntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bb28a0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7010c00, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   Vector2IntPropertyBag(Vector2IntPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

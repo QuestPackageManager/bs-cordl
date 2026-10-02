@@ -32,12 +32,12 @@ public:
   /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
   constexpr operator ::System::Configuration::IConfigurationSectionHandler*() noexcept;
 
-  /// @brief Method Create, addr 0x63721dc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x679a440, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63721a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x679a404, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
@@ -58,7 +58,7 @@ public:
   DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNodePageInfo::*)()>(&::MS::Internal::Xml::Cache::XPathNodePageInfo::get_PageNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x627b5c0;
+  constexpr static std::size_t addrs = 0x66a3264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNodePageInfo*>(), { "get_PageNumber", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNodePageInfo::*)()>(&::MS::Internal::Xml::Cache::XPathNodePageInfo::get_NodeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x627b5c8;
+  constexpr static std::size_t addrs = 0x66a326c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNodePageInfo*>(), { "get_NodeCount", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::MS::Internal::Xml::Cache::XPathNode> (::MS::Internal::Xml::Cache::XPathNodePageInfo::*)()>(
     &::MS::Internal::Xml::Cache::XPathNodePageInfo::get_NextPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x627b5d0;
+  constexpr static std::size_t addrs = 0x66a3274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNodePageInfo*>(), { "get_NextPage", {}, {} })));

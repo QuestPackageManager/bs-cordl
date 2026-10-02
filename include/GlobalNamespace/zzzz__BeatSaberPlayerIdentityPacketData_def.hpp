@@ -39,13 +39,13 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x32a80e8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x352efc0, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x32a80a8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x352ef80, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x32a6e54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352ef68, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData playerAvatar, ::GlobalNamespace::MultiplayerActiveHand activeHand);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -60,7 +60,7 @@ public:
   constexpr BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData playerAvatar, ::GlobalNamespace::MultiplayerActiveHand activeHand) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

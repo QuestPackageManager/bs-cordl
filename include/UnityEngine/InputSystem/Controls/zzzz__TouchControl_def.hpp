@@ -126,15 +126,15 @@ public:
 
   __declspec(property(get = get_touchId, put = set_touchId)) ::UnityEngine::InputSystem::Controls::IntegerControl* touchId;
 
-  /// @brief Method FinishSetup, addr 0x64fcb60, size 0x354, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69259ac, size 0x354, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::TouchControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x64fceb4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x6925d00, size 0x84, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::TouchState ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x64fcf38, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x6925d84, size 0xa8, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::LowLevel::TouchState value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::DeltaControl* const& __cordl_internal_get__delta_k__BackingField() const;
@@ -215,114 +215,114 @@ public:
 
   constexpr void __cordl_internal_set__touchId_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x64fcac0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x692590c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_delta, addr 0x64fc9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x6925810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_delta();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayIndex, addr 0x64fc994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x69257e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_displayIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_indirectTouch, addr 0x64fca04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indirectTouch, addr 0x6925850, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_indirectTouch();
 
-  /// @brief Method get_isInProgress, addr 0x64fca54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_isInProgress, addr 0x69258a0, size 0x6c, virtual false, abstract: false, final false
   inline bool get_isInProgress();
 
   /// [CompilerGenerated]
-  /// @brief Method get_phase, addr 0x64fc9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x6925840, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* get_phase();
 
   /// [CompilerGenerated]
-  /// @brief Method get_position, addr 0x64fc9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6925800, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_position();
 
   /// [CompilerGenerated]
-  /// @brief Method get_press, addr 0x64fc984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_press, addr 0x69257d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::TouchPressControl* get_press();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pressure, addr 0x64fc9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x6925820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pressure();
 
   /// [CompilerGenerated]
-  /// @brief Method get_radius, addr 0x64fc9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x6925830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_radius();
 
   /// [CompilerGenerated]
-  /// @brief Method get_startPosition, addr 0x64fca44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startPosition, addr 0x6925890, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_startPosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_startTime, addr 0x64fca34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x6925880, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DoubleControl* get_startTime();
 
   /// [CompilerGenerated]
-  /// @brief Method get_tap, addr 0x64fca14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tap, addr 0x6925860, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tap();
 
   /// [CompilerGenerated]
-  /// @brief Method get_tapCount, addr 0x64fca24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tapCount, addr 0x6925870, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_tapCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchId, addr 0x64fc9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchId, addr 0x69257f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_touchId();
 
   /// [CompilerGenerated]
-  /// @brief Method set_delta, addr 0x64fc9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x6925818, size 0x8, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayIndex, addr 0x64fc99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayIndex, addr 0x69257e8, size 0x8, virtual false, abstract: false, final false
   inline void set_displayIndex(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_indirectTouch, addr 0x64fca0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_indirectTouch, addr 0x6925858, size 0x8, virtual false, abstract: false, final false
   inline void set_indirectTouch(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_phase, addr 0x64fc9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_phase, addr 0x6925848, size 0x8, virtual false, abstract: false, final false
   inline void set_phase(::UnityEngine::InputSystem::Controls::TouchPhaseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_position, addr 0x64fc9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6925808, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_press, addr 0x64fc98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_press, addr 0x69257d8, size 0x8, virtual false, abstract: false, final false
   inline void set_press(::UnityEngine::InputSystem::Controls::TouchPressControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pressure, addr 0x64fc9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressure, addr 0x6925828, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radius, addr 0x64fc9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x6925838, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_startPosition, addr 0x64fca4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startPosition, addr 0x6925898, size 0x8, virtual false, abstract: false, final false
   inline void set_startPosition(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_startTime, addr 0x64fca3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startTime, addr 0x6925888, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(::UnityEngine::InputSystem::Controls::DoubleControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_tap, addr 0x64fca1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tap, addr 0x6925868, size 0x8, virtual false, abstract: false, final false
   inline void set_tap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_tapCount, addr 0x64fca2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tapCount, addr 0x6925878, size 0x8, virtual false, abstract: false, final false
   inline void set_tapCount(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchId, addr 0x64fc9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchId, addr 0x69257f8, size 0x8, virtual false, abstract: false, final false
   inline void set_touchId(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -340,7 +340,7 @@ public:
   TouchControl(TouchControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
 
   /// [CompilerGenerated]
   /// @brief Field <press>k__BackingField, offset: 0x170, size: 0x8, def value: None

@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult::get_IsSuccess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a73588;
+  constexpr static std::size_t addrs = 0x5e8b3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__25::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5a735a8;
+  constexpr static std::size_t addrs = 0x5e8b410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__25::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a73874;
+  constexpr static std::size_t addrs = 0x5e8b6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__25>(),
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__26::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x5a738f4;
+  constexpr static std::size_t addrs = 0x5e8b75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__26::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a73cbc;
+  constexpr static std::size_t addrs = 0x5e8bb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__26>(),
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinOpenRoom_d__28::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinOpenRoom_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5a73d3c;
+  constexpr static std::size_t addrs = 0x5e8bba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinOpenRoom_d__28::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinOpenRoom_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a740e8;
+  constexpr static std::size_t addrs = 0x5e8bf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinOpenRoom_d__28>(),
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x5a74168;
+  constexpr static std::size_t addrs = 0x5e8bfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a74518;
+  constexpr static std::size_t addrs = 0x5e8c380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27>(),
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_LobbyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d48;
+  constexpr static std::size_t addrs = 0x5e8abb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(), { "get_LobbyName", {}, {} })));
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::set_LobbyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d50;
+  constexpr static std::size_t addrs = 0x5e8abb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_IsPrivate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d58;
+  constexpr static std::size_t addrs = 0x5e8abc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(), { "get_IsPrivate", {}, {} })));
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(bool)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::set_IsPrivate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d60;
+  constexpr static std::size_t addrs = 0x5e8abc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_MaxPlayersPerRoom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d68;
+  constexpr static std::size_t addrs = 0x5e8abd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(int32_t)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::set_MaxPlayersPerRoom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d70;
+  constexpr static std::size_t addrs = 0x5e8abd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_IsPasswordProtected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d78;
+  constexpr static std::size_t addrs = 0x5e8abe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(bool)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::set_IsPasswordProtected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a72d80;
+  constexpr static std::size_t addrs = 0x5e8abe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::OnEnable)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5a72d88;
+  constexpr static std::size_t addrs = 0x5e8abf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(), { "OnEnable", {}, {} })));
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* (
     ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::CreateRoom)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5a72e74;
+  constexpr static std::size_t addrs = 0x5e8acdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(), { "CreateRoom", {}, {} })));
@@ -601,7 +601,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::CreateRoom)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5a72f50;
+  constexpr static std::size_t addrs = 0x5e8adb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* (
     ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(::StringW, ::StringW)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::JoinRoom)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a7304c;
+  constexpr static std::size_t addrs = 0x5e8aeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(),
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* (
     ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::JoinOpenRoom)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a7313c;
+  constexpr static std::size_t addrs = 0x5e8afa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -643,7 +643,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::LeaveRoom)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a7322c;
+  constexpr static std::size_t addrs = 0x5e8b094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(), { "LeaveRoom", {}, {} })));
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_IsConnected)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a732f0;
+  constexpr static std::size_t addrs = 0x5e8b158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_ConnectedRoomToken)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5a733a4;
+  constexpr static std::size_t addrs = 0x5e8b20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::GenerateRoomPassword)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a73460;
+  constexpr static std::size_t addrs = 0x5e8b2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(),
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::get_SupportsRoomPassword)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a7347c;
+  constexpr static std::size_t addrs = 0x5e8b2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -711,7 +711,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5a73530;
+  constexpr static std::size_t addrs = 0x5e8b398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking*>(), { ".ctor", {}, {} })));

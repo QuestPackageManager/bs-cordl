@@ -32,12 +32,12 @@ public:
 
   __declspec(property(get = get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Method DidActivate, addr 0x5963a50, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d7e2ac, size 0xa4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::SelectModifiersViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x5963a38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d7e294, size 0x18, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get__gameplayModifiersPanelController() const;
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiersPanelController(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
 
-  /// @brief Method .ctor, addr 0x5963af4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7e350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifiers, addr 0x5963a20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x5d7e27c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
 protected:
@@ -67,7 +67,7 @@ public:
   SelectModifiersViewController(SelectModifiersViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7101 };
 
   /// [SerializeField]
   /// @brief Field _gameplayModifiersPanelController, offset: 0x78, size: 0x8, def value: None

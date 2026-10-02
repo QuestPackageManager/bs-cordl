@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HttpBadRequestException::*)(::StringW)>(&::GlobalNamespace::HttpBadRequestException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3332848;
+  constexpr static std::size_t addrs = 0x35bbad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

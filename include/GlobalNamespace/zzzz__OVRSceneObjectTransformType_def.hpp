@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::OVRSceneObjectTransformType_Transformation const Volume;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7802 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_TransformType(::GlobalNamespace::OVRSceneObjectTransformType_Transformation value);
 
-  /// @brief Method .ctor, addr 0x5ecbd68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e625c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   OVRSceneObjectTransformType(OVRSceneObjectTransformType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7803 };
 
   /// [Tooltip("Choose the type of scene anchor (volume/plane) that may modify this transform.")]
   /// @brief Field TransformType, offset: 0x20, size: 0x4, def value: None

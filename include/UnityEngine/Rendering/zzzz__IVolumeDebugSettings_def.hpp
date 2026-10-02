@@ -35,6 +35,7 @@ class IVolumeDebugSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::IVolumeDebugSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IVolumeDebugSettings*, "UnityEngine.Rendering", "IVolumeDebugSettings");
+// [Obsolete("This is not longer supported Please use DebugDisplaySettingsVolume. #from(6000.2)")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -108,7 +109,7 @@ public:
   IVolumeDebugSettings(IVolumeDebugSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

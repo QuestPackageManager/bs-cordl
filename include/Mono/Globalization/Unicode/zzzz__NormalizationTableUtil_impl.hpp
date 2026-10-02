@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::NormalizationTableUtil::PropIdx)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ab2e40;
+  constexpr static std::size_t addrs = 0x5ecad24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::NormalizationTableUtil::MapIdx)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ab2eac;
+  constexpr static std::size_t addrs = 0x5ecad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -18,7 +18,7 @@ class APVDefinitions;
 MARK_REF_T(::UnityEngine::Rendering::APVDefinitions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::APVDefinitions*, "UnityEngine.Rendering", "APVDefinitions");
 // [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
-// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Lighting\\ProbeVolume\\ShaderVariablesProbeVolumes.cs")] Dependencies System.Object, UnityEngine.Color,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@c3bbbae46ff1\\Runtime\\Lighting\\ProbeVolume\\ShaderVariablesProbeVolumes.cs")] Dependencies System.Object, UnityEngine.Color,
 // UnityEngine.Color32
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -40,7 +40,7 @@ public:
 
   static inline ::UnityEngine::Rendering::APVDefinitions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6799344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb4798, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_debugEmptyColor();
@@ -74,7 +74,7 @@ public:
   APVDefinitions(APVDefinitions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9030 };
 
   /// @brief Field probeValidityThreshold offset 0xffffffff size 0x4
   static constexpr float_t probeValidityThreshold{ static_cast<float_t>(0.05f) };

@@ -4,12 +4,13 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageRenderInfo.Reset
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cf5e34;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x7189e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { "Reset", {}, {} })));
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6cf5ddc;
+  constexpr static std::size_t addrs = 0x7189e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { ".ctor", {}, {} })));
@@ -63,6 +64,18 @@ constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::
 constexpr void UnityEngine::UIElements::UIR::VectorImageRenderInfo::__cordl_internal_set_gradientSettingsAlloc(::UnityEngine::UIElements::UIR::Alloc value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gradientSettingsAlloc = value;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D>& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__cordl_internal_get_atlas() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___atlas;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D> const& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__cordl_internal_get_atlas() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___atlas;
+}
+constexpr void UnityEngine::UIElements::UIR::VectorImageRenderInfo::__cordl_internal_set_atlas(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___atlas = value;
 }
 inline void UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { "Reset", {}, {} })));

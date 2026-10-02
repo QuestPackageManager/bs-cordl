@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadOnlyTextStyle* (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::get_textStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32cae8c;
+  constexpr static std::size_t addrs = 0x3552474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { "get_textStyle", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* (
     ::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::get_languageOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32cae94;
+  constexpr static std::size_t addrs = 0x355247c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { "get_languageOverrides", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32cae9c;
+  constexpr static std::size_t addrs = 0x3552484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextStyleSO*>(), { ".ctor", {}, {} })));

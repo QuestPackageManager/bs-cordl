@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::AssetExportAnalytic::*)()>(&::UnityEditor::Analytics::AssetExportAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e25cbc;
+  constexpr static std::size_t addrs = 0x72c0ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::AssetExportAnalytic*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::AssetExportAnalytic* (*)()>(&::UnityEditor::Analytics::AssetExportAnalytic::CreateAssetExportAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e25d34;
+  constexpr static std::size_t addrs = 0x72c0f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

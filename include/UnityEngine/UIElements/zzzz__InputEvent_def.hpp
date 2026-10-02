@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::InputEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9d6d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x722b1a4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InputEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9d6d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722b1a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InputEvent___c* getStaticF___9();
@@ -60,7 +60,7 @@ public:
   InputEvent___c(InputEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,13 +87,13 @@ public:
 
   __declspec(property(put = set_previousData)) ::StringW previousData;
 
-  /// @brief Method GetPooled, addr 0x6d9d570, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x722b03c, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
-  /// @brief Method Init, addr 0x6d9d504, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x722afd0, size 0x5c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9d560, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x722b02c, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
@@ -110,15 +110,15 @@ public:
 
   constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d9d5fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x722b0c8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_newData, addr 0x6d9d4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_newData, addr 0x722afc8, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_previousData, addr 0x6d9d4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousData, addr 0x722afc0, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
 protected:
@@ -136,15 +136,15 @@ public:
   InputEvent(InputEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4473 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <previousData>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::StringW ____previousData_k__BackingField;
 
-  /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <newData>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::StringW ____newData_k__BackingField;
 

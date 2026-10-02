@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::WriteRawInt2Packed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cdd6d8;
+  constexpr static std::size_t addrs = 0x716c67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::*)(float_t, float_t, float_t, float_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::WriteRawFloat4Packed)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6cdd620;
+  constexpr static std::size_t addrs = 0x716c5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdcffc;
+  constexpr static std::size_t addrs = 0x716bf0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "get_length", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdd004;
+  constexpr static std::size_t addrs = 0x716bf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "get_disposed", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(bool)>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdd00c;
+  constexpr static std::size_t addrs = 0x716bf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cdd014;
+  constexpr static std::size_t addrs = 0x716bf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Dispose", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(bool)>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Dispose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6cdd084;
+  constexpr static std::size_t addrs = 0x716bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(int32_t)>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cdd108;
+  constexpr static std::size_t addrs = 0x716c018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Reset)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6cdd114;
+  constexpr static std::size_t addrs = 0x716c024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Reset", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_atlas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdd1d4;
+  constexpr static std::size_t addrs = 0x716c0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "get_atlas", {}, {} })));
@@ -175,11 +175,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Alloc (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Add)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6cdd1dc;
+  constexpr static std::size_t addrs = 0x716c0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Add", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GradientSettingsAtlas.Remove
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(::UnityEngine::UIElements::UIR::Alloc)>(
+    &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Remove)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x716c1cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Alloc>() } })));
     return ___internal_method;
   }
 };
@@ -189,8 +204,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(
     ::UnityEngine::UIElements::UIR::Alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings>, ::UnityEngine::UIElements::UIR::GradientRemap*)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Write)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x6cdd2bc;
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x716c220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_MustCommit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdd758;
+  constexpr static std::size_t addrs = 0x716c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "get_MustCommit", {}, {} })));
@@ -219,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(bool)>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::set_MustCommit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdd760;
+  constexpr static std::size_t addrs = 0x716c704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Commit)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cdd768;
+  constexpr static std::size_t addrs = 0x716c70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Commit", {}, {} })));
@@ -244,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::PrepareAtlas)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6cdd7d0;
+  constexpr static std::size_t addrs = 0x716c774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "PrepareAtlas", {}, {} })));
@@ -394,6 +409,12 @@ inline ::UnityEngine::UIElements::UIR::Alloc UnityEngine::UIElements::UIR::Gradi
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Add", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::Alloc>(this, ___internal_method, count);
+}
+inline void UnityEngine::UIElements::UIR::GradientSettingsAtlas::Remove(::UnityEngine::UIElements::UIR::Alloc alloc) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::UIElements::UIR::Alloc>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, alloc);
 }
 inline void UnityEngine::UIElements::UIR::GradientSettingsAtlas::Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings> settings,
                                                                        ::UnityEngine::UIElements::UIR::GradientRemap* remap) {
